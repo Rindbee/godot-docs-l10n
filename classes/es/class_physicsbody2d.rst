@@ -9,14 +9,14 @@ PhysicsBody2D
 
 **Heredado por:** :ref:`CharacterBody2D<class_CharacterBody2D>`, :ref:`RigidBody2D<class_RigidBody2D>`, :ref:`StaticBody2D<class_StaticBody2D>`
 
-Abstract base class for 2D game objects affected by physics.
+Clase base abstracta para objetos de juego 2D afectados por la física.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**PhysicsBody2D** is an abstract base class for 2D game objects affected by physics. All 2D physics bodies inherit from it.
+**PhysicsBody2D** es una clase base abstracta para objetos de juego 2D afectados por la física. Todos los cuerpos físicos 2D heredan de ella.
 
 .. rst-class:: classref-introduction-group
 
@@ -100,7 +100,7 @@ Devuelve un conjunto de nodos que se añadieron como excepciones de colisión pa
 
 :ref:`Vector2<class_Vector2>` **get_gravity**\ (\ ) |const| :ref:`🔗<class_PhysicsBody2D_method_get_gravity>`
 
-Returns the gravity vector computed from all sources that can affect the body, including all gravity overrides from :ref:`Area2D<class_Area2D>` nodes and the global world gravity.
+Devuelve el vector de gravedad calculado a partir de todas las fuentes que pueden afectar al cuerpo, incluyendo todas las anulaciones de gravedad de los nodos :ref:`Area2D<class_Area2D>` y la gravedad global del mundo.
 
 .. rst-class:: classref-item-separator
 

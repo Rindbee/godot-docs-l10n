@@ -7,7 +7,7 @@ RetargetModifier3D
 
 **Hérite de :** :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A modifier to transfer parent skeleton poses (or global poses) to child skeletons in model space with different rests.
+Un modificateur pour transférer des poses d'un squelette parent (ou poses globales) à des squelettes enfant dans l'espace modèle avec des repos différents.
 
 .. rst-class:: classref-introduction-group
 
@@ -79,7 +79,7 @@ flags **TransformFlag**: :ref:`🔗<enum_RetargetModifier3D_TransformFlag>`
 
 :ref:`TransformFlag<enum_RetargetModifier3D_TransformFlag>` **TRANSFORM_FLAG_POSITION** = ``1``
 
-If set, allows to retarget the position.
+Si défini, permet de re-cibler la position.
 
 .. _class_RetargetModifier3D_constant_TRANSFORM_FLAG_ROTATION:
 
@@ -87,7 +87,7 @@ If set, allows to retarget the position.
 
 :ref:`TransformFlag<enum_RetargetModifier3D_TransformFlag>` **TRANSFORM_FLAG_ROTATION** = ``2``
 
-If set, allows to retarget the rotation.
+Si défini, permet de re-cibler la rotation.
 
 .. _class_RetargetModifier3D_constant_TRANSFORM_FLAG_SCALE:
 
@@ -95,7 +95,7 @@ If set, allows to retarget the rotation.
 
 :ref:`TransformFlag<enum_RetargetModifier3D_TransformFlag>` **TRANSFORM_FLAG_SCALE** = ``4``
 
-If set, allows to retarget the scale.
+Si défini, permet de re-cibler l'échelle.
 
 .. _class_RetargetModifier3D_constant_TRANSFORM_FLAG_ALL:
 
@@ -103,7 +103,7 @@ If set, allows to retarget the scale.
 
 :ref:`TransformFlag<enum_RetargetModifier3D_TransformFlag>` **TRANSFORM_FLAG_ALL** = ``7``
 
-If set, allows to retarget the position/rotation/scale.
+Si défini, permet de re-cibler la position/rotation/échelle.
 
 .. rst-class:: classref-section-separator
 
@@ -184,7 +184,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **is_position_enabled**\ (\ ) |const| :ref:`🔗<class_RetargetModifier3D_method_is_position_enabled>`
 
-Returns ``true`` if :ref:`enable<class_RetargetModifier3D_property_enable>` has :ref:`TRANSFORM_FLAG_POSITION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_POSITION>`.
+Renvoie ``true`` si :ref:`enable<class_RetargetModifier3D_property_enable>` a :ref:`TRANSFORM_FLAG_POSITION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_POSITION>`.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Returns ``true`` if :ref:`enable<class_RetargetModifier3D_property_enable>` has 
 
 :ref:`bool<class_bool>` **is_rotation_enabled**\ (\ ) |const| :ref:`🔗<class_RetargetModifier3D_method_is_rotation_enabled>`
 
-Returns ``true`` if :ref:`enable<class_RetargetModifier3D_property_enable>` has :ref:`TRANSFORM_FLAG_ROTATION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_ROTATION>`.
+Renvoie ``true`` si :ref:`enable<class_RetargetModifier3D_property_enable>` a :ref:`TRANSFORM_FLAG_ROTATION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_ROTATION>`.
 
 .. rst-class:: classref-item-separator
 
@@ -208,7 +208,7 @@ Returns ``true`` if :ref:`enable<class_RetargetModifier3D_property_enable>` has 
 
 :ref:`bool<class_bool>` **is_scale_enabled**\ (\ ) |const| :ref:`🔗<class_RetargetModifier3D_method_is_scale_enabled>`
 
-Returns ``true`` if :ref:`enable<class_RetargetModifier3D_property_enable>` has :ref:`TRANSFORM_FLAG_SCALE<class_RetargetModifier3D_constant_TRANSFORM_FLAG_SCALE>`.
+Renvoie ``true`` si :ref:`enable<class_RetargetModifier3D_property_enable>` a :ref:`TRANSFORM_FLAG_SCALE<class_RetargetModifier3D_constant_TRANSFORM_FLAG_SCALE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -220,7 +220,7 @@ Returns ``true`` if :ref:`enable<class_RetargetModifier3D_property_enable>` has 
 
 |void| **set_position_enabled**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RetargetModifier3D_method_set_position_enabled>`
 
-Sets :ref:`TRANSFORM_FLAG_POSITION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_POSITION>` into :ref:`enable<class_RetargetModifier3D_property_enable>`.
+Définit :ref:`TRANSFORM_FLAG_POSITION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_POSITION>` dans :ref:`enable<class_RetargetModifier3D_property_enable>`.
 
 .. rst-class:: classref-item-separator
 
@@ -232,7 +232,7 @@ Sets :ref:`TRANSFORM_FLAG_POSITION<class_RetargetModifier3D_constant_TRANSFORM_F
 
 |void| **set_rotation_enabled**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RetargetModifier3D_method_set_rotation_enabled>`
 
-Sets :ref:`TRANSFORM_FLAG_ROTATION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_ROTATION>` into :ref:`enable<class_RetargetModifier3D_property_enable>`.
+Définit :ref:`TRANSFORM_FLAG_ROTATION<class_RetargetModifier3D_constant_TRANSFORM_FLAG_ROTATION>` dans :ref:`enable<class_RetargetModifier3D_property_enable>`.
 
 .. rst-class:: classref-item-separator
 
@@ -244,7 +244,7 @@ Sets :ref:`TRANSFORM_FLAG_ROTATION<class_RetargetModifier3D_constant_TRANSFORM_F
 
 |void| **set_scale_enabled**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RetargetModifier3D_method_set_scale_enabled>`
 
-Définit :ref:`TRANSFORM_FLAG_SCALE<class_RetargetModifier3D_constant_TRANSFORM_FLAG_SCALE>` à la valeur de :ref:`enable<class_RetargetModifier3D_property_enable>`.
+Définit :ref:`TRANSFORM_FLAG_SCALE<class_RetargetModifier3D_constant_TRANSFORM_FLAG_SCALE>` dans :ref:`enable<class_RetargetModifier3D_property_enable>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

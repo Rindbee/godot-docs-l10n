@@ -676,7 +676,7 @@ Devuelve ``true`` si los componentes de ambas transformaciones no son iguales.
 
 Transforma (multiplica) cada elemento :ref:`Vector2<class_Vector2>` del :ref:`PackedVector2Array<class_PackedVector2Array>` dado por esta matriz de transformación.
 
-En arreglos más grandes, esta operación es mucho más rápida que transformar cada :ref:`Vector2<class_Vector2>` individualmente.
+En arrays más grandes, esta operación es mucho más rápida que transformar cada :ref:`Vector2<class_Vector2>` individualmente.
 
 .. rst-class:: classref-item-separator
 

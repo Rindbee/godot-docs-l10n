@@ -151,7 +151,7 @@ Redimensionne :ref:`data_array<class_StreamPeerBuffer_property_data_array>`. Cel
 
 |void| **seek**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeerBuffer_method_seek>`
 
-Moves the cursor to the specified position. ``position`` must be a valid index of :ref:`data_array<class_StreamPeerBuffer_property_data_array>`.
+Déplace le curseur vers la position spécifiée. ``position`` doit être un index valide de :ref:`data_array<class_StreamPeerBuffer_property_data_array>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

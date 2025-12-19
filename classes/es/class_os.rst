@@ -226,7 +226,7 @@ enum **RenderingDriver**: :ref:`🔗<enum_OS_RenderingDriver>`
 
 :ref:`RenderingDriver<enum_OS_RenderingDriver>` **RENDERING_DRIVER_VULKAN** = ``0``
 
-The Vulkan rendering driver. It requires Vulkan 1.0 support and automatically uses features from Vulkan 1.1 and 1.2 if available.
+El controlador de renderizado de Vulkan. Requiere soporte para Vulkan 1.0 y utiliza automáticamente las características de Vulkan 1.1 y 1.2 si están disponibles.
 
 .. _class_OS_constant_RENDERING_DRIVER_OPENGL3:
 
@@ -242,7 +242,7 @@ The OpenGL 3 rendering driver. It uses OpenGL 3.3 Core Profile on desktop platfo
 
 :ref:`RenderingDriver<enum_OS_RenderingDriver>` **RENDERING_DRIVER_D3D12** = ``2``
 
-The Direct3D 12 rendering driver.
+El controlador de renderizado de Direct3D 12.
 
 .. _class_OS_constant_RENDERING_DRIVER_METAL:
 
@@ -250,7 +250,7 @@ The Direct3D 12 rendering driver.
 
 :ref:`RenderingDriver<enum_OS_RenderingDriver>` **RENDERING_DRIVER_METAL** = ``3``
 
-The Metal rendering driver.
+El controlador de renderizado de Metal.
 
 .. rst-class:: classref-item-separator
 
@@ -342,7 +342,7 @@ enum **StdHandleType**: :ref:`🔗<enum_OS_StdHandleType>`
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **STD_HANDLE_INVALID** = ``0``
 
-Standard I/O device is invalid. No data can be received from or sent to these standard I/O devices.
+El dispositivo de E/S estándar no es válido. No se pueden recibir ni enviar datos a estos dispositivos de E/S estándar.
 
 .. _class_OS_constant_STD_HANDLE_CONSOLE:
 
@@ -350,7 +350,7 @@ Standard I/O device is invalid. No data can be received from or sent to these st
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **STD_HANDLE_CONSOLE** = ``1``
 
-Standard I/O device is a console. This typically occurs when Godot is run from a terminal with no redirection. This is also used for all standard I/O devices when running Godot from the editor, at least on desktop platforms.
+El dispositivo de E/S estándar es una consola. Esto suele ocurrir cuando Godot se ejecuta desde una terminal sin redirección. También se utiliza para todos los dispositivos de E/S estándar cuando se ejecuta Godot desde el editor, al menos en las plataformas de escritorio.
 
 .. _class_OS_constant_STD_HANDLE_FILE:
 
@@ -358,7 +358,7 @@ Standard I/O device is a console. This typically occurs when Godot is run from a
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **STD_HANDLE_FILE** = ``2``
 
-Standard I/O device is a regular file. This typically occurs with redirection from a terminal, e.g. ``godot > stdout.txt``, ``godot < stdin.txt`` or ``godot > stdout_stderr.txt 2>&1``.
+El dispositivo de E/S estándar es un archivo normal. Esto suele ocurrir con la redirección desde una terminal, por ejemplo, ``godot > stdout.txt``, ``godot < stdin.txt`` o ``godot > stdout_stderr.txt 2>&1``.
 
 .. _class_OS_constant_STD_HANDLE_PIPE:
 
@@ -366,7 +366,7 @@ Standard I/O device is a regular file. This typically occurs with redirection fr
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **STD_HANDLE_PIPE** = ``3``
 
-Standard I/O device is a FIFO/pipe. This typically occurs with pipe usage from a terminal, e.g. ``echo "Hello" | godot``.
+El dispositivo de E/S estándar es una FIFO/pipe. Esto suele ocurrir con el uso de pipes desde una terminal, por ejemplo, ``echo "Hello" | godot``.
 
 .. _class_OS_constant_STD_HANDLE_UNKNOWN:
 
@@ -374,7 +374,7 @@ Standard I/O device is a FIFO/pipe. This typically occurs with pipe usage from a
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **STD_HANDLE_UNKNOWN** = ``4``
 
-Standard I/O device type is unknown.
+El tipo de dispositivo de E/S estándar es desconocido.
 
 .. rst-class:: classref-section-separator
 
@@ -396,9 +396,9 @@ Descripciones de Propiedades
 - |void| **set_delta_smoothing**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_delta_smoothing_enabled**\ (\ )
 
-If ``true``, the engine filters the time delta measured between each frame, and attempts to compensate for random variation. This only works on systems where V-Sync is active.
+Si es ``true``, el motor filtra el tiempo delta medido entre cada fotograma e intenta compensar la variación aleatoria. Esto sólo funciona en sistemas donde V-Sync está activo.
 
-\ **Note:** On start-up, this is the same as :ref:`ProjectSettings.application/run/delta_smoothing<class_ProjectSettings_property_application/run/delta_smoothing>`.
+\ **Nota:** Al iniciar, esto es lo mismo que :ref:`ProjectSettings.application/run/delta_smoothing<class_ProjectSettings_property_application/run/delta_smoothing>`.
 
 .. rst-class:: classref-item-separator
 
@@ -415,9 +415,9 @@ If ``true``, the engine filters the time delta measured between each frame, and 
 - |void| **set_low_processor_usage_mode**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_in_low_processor_usage_mode**\ (\ )
 
-If ``true``, the engine optimizes for low processor usage by only refreshing the screen if needed. Can improve battery consumption on mobile.
+Si es ``true``, el motor se optimiza para un bajo uso del procesador, sólo refrescando la pantalla si es necesario. Puede mejorar el consumo de la batería en el móvil.
 
-\ **Note:** On start-up, this is the same as :ref:`ProjectSettings.application/run/low_processor_mode<class_ProjectSettings_property_application/run/low_processor_mode>`.
+\ **Nota:** Al iniciar, esto es lo mismo que :ref:`ProjectSettings.application/run/low_processor_mode<class_ProjectSettings_property_application/run/low_processor_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -434,9 +434,9 @@ If ``true``, the engine optimizes for low processor usage by only refreshing the
 - |void| **set_low_processor_usage_mode_sleep_usec**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_low_processor_usage_mode_sleep_usec**\ (\ )
 
-The amount of sleeping between frames when the low-processor usage mode is enabled, in microseconds. Higher values will result in lower CPU usage. See also :ref:`low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`.
+La cantidad de tiempo que se duerme entre fotogramas cuando el modo de bajo uso del procesador está activado, en microsegundos. Los valores más altos resultarán en un menor uso de la CPU. Véase también :ref:`low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`.
 
-\ **Note:** On start-up, this is the same as :ref:`ProjectSettings.application/run/low_processor_mode_sleep_usec<class_ProjectSettings_property_application/run/low_processor_mode_sleep_usec>`.
+\ **Nota:** Al iniciar, esto es lo mismo que :ref:`ProjectSettings.application/run/low_processor_mode_sleep_usec<class_ProjectSettings_property_application/run/low_processor_mode_sleep_usec>`.
 
 .. rst-class:: classref-section-separator
 
@@ -834,13 +834,13 @@ Not to be confused with :ref:`get_user_data_dir()<class_OS_method_get_user_data_
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_connected_midi_inputs**\ (\ ) :ref:`🔗<class_OS_method_get_connected_midi_inputs>`
 
-Returns an array of connected MIDI device names, if they exist. Returns an empty array if the system MIDI driver has not previously been initialized with :ref:`open_midi_inputs()<class_OS_method_open_midi_inputs>`. See also :ref:`close_midi_inputs()<class_OS_method_close_midi_inputs>`.
+Devuelve un array de nombres de dispositivos MIDI conectados, si existen. Devuelve un array vacío si el driver MIDI del sistema no ha sido inicializado previamente con :ref:`open_midi_inputs()<class_OS_method_open_midi_inputs>`. Véase también :ref:`close_midi_inputs()<class_OS_method_close_midi_inputs>`.
 
-\ **Note:** This method is implemented on Linux, macOS, Windows, and Web.
+\ **Nota:** Este método está implementado en Linux, macOS, Windows y Web.
 
-\ **Note:** On the Web platform, Web MIDI needs to be supported by the browser. `For the time being <https://caniuse.com/midi>`__, it is currently supported by all major browsers, except Safari.
+\ **Nota:** En la plataforma Web, Web MIDI necesita ser soportado por el navegador. `Por el momento <https://caniuse.com/midi>`__, es actualmente soportado por todos los navegadores principales, excepto Safari.
 
-\ **Note:** On the Web platform, using MIDI input requires a browser permission to be granted first. This permission request is performed when calling :ref:`open_midi_inputs()<class_OS_method_open_midi_inputs>`. The browser will refrain from processing MIDI input until the user accepts the permission request.
+\ **Nota:** En la plataforma Web, usar la entrada MIDI requiere que un permiso del navegador sea concedido primero. Esta petición de permiso se realiza al llamar a :ref:`open_midi_inputs()<class_OS_method_open_midi_inputs>`. El navegador se abstendrá de procesar la entrada MIDI hasta que el usuario acepte la petición de permiso.
 
 .. rst-class:: classref-item-separator
 
@@ -852,11 +852,11 @@ Returns an array of connected MIDI device names, if they exist. Returns an empty
 
 :ref:`String<class_String>` **get_data_dir**\ (\ ) |const| :ref:`🔗<class_OS_method_get_data_dir>`
 
-Returns the *global* user data directory according to the operating system's standards.
+Devuelve el directorio de datos de usuario *global* de acuerdo con los estándares del sistema operativo.
 
-On the Linux/BSD platform, this path can be overridden by setting the ``XDG_DATA_HOME`` environment variable before starting the project. See :doc:`File paths in Godot projects <../tutorials/io/data_paths>` in the documentation for more information. See also :ref:`get_cache_dir()<class_OS_method_get_cache_dir>` and :ref:`get_config_dir()<class_OS_method_get_config_dir>`.
+En la plataforma Linux/BSD, esta ruta puede ser sobreescrita estableciendo la variable de entorno ``XDG_DATA_HOME`` antes de iniciar el proyecto. Véase :doc:`Rutas de archivos en proyectos de Godot <../tutorials/io/data_paths>` en la documentación para más información. Véase también :ref:`get_cache_dir()<class_OS_method_get_cache_dir>` y :ref:`get_config_dir()<class_OS_method_get_config_dir>`.
 
-Not to be confused with :ref:`get_user_data_dir()<class_OS_method_get_user_data_dir>`, which returns the *project-specific* user data path.
+No debe confundirse con :ref:`get_user_data_dir()<class_OS_method_get_user_data_dir>`, que devuelve la ruta de datos de usuario *específica del proyecto*.
 
 .. rst-class:: classref-item-separator
 
@@ -868,13 +868,13 @@ Not to be confused with :ref:`get_user_data_dir()<class_OS_method_get_user_data_
 
 :ref:`String<class_String>` **get_distribution_name**\ (\ ) |const| :ref:`🔗<class_OS_method_get_distribution_name>`
 
-Returns the name of the distribution for Linux and BSD platforms (e.g. "Ubuntu", "Manjaro", "OpenBSD", etc.).
+Devuelve el nombre de la distribución para plataformas Linux y BSD (p. ej., "Ubuntu", "Manjaro", "OpenBSD", etc.).
 
-Returns the same value as :ref:`get_name()<class_OS_method_get_name>` for stock Android ROMs, but attempts to return the custom ROM name for popular Android derivatives such as "LineageOS".
+Devuelve el mismo valor que :ref:`get_name()<class_OS_method_get_name>` para ROMs de Android de fábrica, pero intenta devolver el nombre de la ROM personalizada para derivados populares de Android como "LineageOS".
 
-Returns the same value as :ref:`get_name()<class_OS_method_get_name>` for other platforms.
+Devuelve el mismo valor que :ref:`get_name()<class_OS_method_get_name>` para otras plataformas.
 
-\ **Note:** This method is not supported on the Web platform. It returns an empty string.
+\ **Nota:** Este método no es compatible con la plataforma Web. Devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -886,9 +886,9 @@ Returns the same value as :ref:`get_name()<class_OS_method_get_name>` for other 
 
 :ref:`PackedByteArray<class_PackedByteArray>` **get_entropy**\ (\ size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OS_method_get_entropy>`
 
-Generates a :ref:`PackedByteArray<class_PackedByteArray>` of cryptographically secure random bytes with given ``size``.
+Genera un :ref:`PackedByteArray<class_PackedByteArray>` de bytes aleatorios criptográficamente seguros con el ``size`` dado.
 
-\ **Note:** Generating large quantities of bytes using this method can result in locking and entropy of lower quality on most platforms. Using :ref:`Crypto.generate_random_bytes()<class_Crypto_method_generate_random_bytes>` is preferred in most cases.
+\ **Nota:** Generar grandes cantidades de bytes usando este método puede resultar en bloqueo y entropía de menor calidad en la mayoría de las plataformas. Es preferible usar :ref:`Crypto.generate_random_bytes()<class_Crypto_method_generate_random_bytes>` en la mayoría de los casos.
 
 .. rst-class:: classref-item-separator
 
@@ -900,11 +900,11 @@ Generates a :ref:`PackedByteArray<class_PackedByteArray>` of cryptographically s
 
 :ref:`String<class_String>` **get_environment**\ (\ variable\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_OS_method_get_environment>`
 
-Returns the value of the given environment variable, or an empty string if ``variable`` doesn't exist.
+Devuelve el valor de la variable de entorno dada, o una string vacía si ``variable`` no existe.
 
-\ **Note:** Double-check the casing of ``variable``. Environment variable names are case-sensitive on all platforms except Windows.
+\ **Nota:** Comprueba bien las mayúsculas y minúsculas de ``variable``. Los nombres de las variables de entorno distinguen entre mayúsculas y minúsculas en todas las plataformas excepto Windows.
 
-\ **Note:** On macOS, applications do not have access to shell environment variables.
+\ **Nota:** En macOS, las aplicaciones no tienen acceso a las variables de entorno del shell.
 
 .. rst-class:: classref-item-separator
 
@@ -916,9 +916,9 @@ Returns the value of the given environment variable, or an empty string if ``var
 
 :ref:`String<class_String>` **get_executable_path**\ (\ ) |const| :ref:`🔗<class_OS_method_get_executable_path>`
 
-Returns the file path to the current engine executable.
+Devuelve la ruta del archivo ejecutable del motor actual.
 
-\ **Note:** On macOS, if you want to launch another instance of Godot, always use :ref:`create_instance()<class_OS_method_create_instance>` instead of relying on the executable path.
+\ **Nota:** En macOS, si quieres iniciar otra instancia de Godot, usa siempre :ref:`create_instance()<class_OS_method_create_instance>` en lugar de depender de la ruta del ejecutable.
 
 .. rst-class:: classref-item-separator
 
@@ -930,11 +930,11 @@ Returns the file path to the current engine executable.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_granted_permissions**\ (\ ) |const| :ref:`🔗<class_OS_method_get_granted_permissions>`
 
-On Android devices: Returns the list of dangerous permissions that have been granted.
+En dispositivos Android: Devuelve la lista de permisos peligrosos que se han concedido.
 
-On macOS: Returns the list of granted permissions and user selected folders accessible to the application (sandboxed applications only). Use the native file dialog to request folder access permission.
+En macOS: Devuelve la lista de permisos concedidos y las carpetas seleccionadas por el usuario a las que puede acceder la aplicación (solo aplicaciones en sandbox). Usa el diálogo de archivos nativo para solicitar permiso de acceso a la carpeta.
 
-On iOS, visionOS: Returns the list of granted permissions.
+En iOS, visionOS: Devuelve la lista de permisos concedidos.
 
 .. rst-class:: classref-item-separator
 
@@ -1015,9 +1015,9 @@ This can be used to narrow down fully specified locale strings to only the "comm
 
 :ref:`int<class_int>` **get_main_thread_id**\ (\ ) |const| :ref:`🔗<class_OS_method_get_main_thread_id>`
 
-Returns the ID of the main thread. See :ref:`get_thread_caller_id()<class_OS_method_get_thread_caller_id>`.
+Devuelve el ID del hilo principal. Véase :ref:`get_thread_caller_id()<class_OS_method_get_thread_caller_id>`.
 
-\ **Note:** Thread IDs are not deterministic and may be reused across application restarts.
+\ **Nota:** Los ID de los hilos no son deterministas y pueden ser reutilizados al reiniciar la aplicación.
 
 .. rst-class:: classref-item-separator
 
@@ -1029,17 +1029,17 @@ Returns the ID of the main thread. See :ref:`get_thread_caller_id()<class_OS_met
 
 :ref:`Dictionary<class_Dictionary>` **get_memory_info**\ (\ ) |const| :ref:`🔗<class_OS_method_get_memory_info>`
 
-Returns a :ref:`Dictionary<class_Dictionary>` containing information about the current memory with the following entries:
+Devuelve un :ref:`Dictionary<class_Dictionary>` que contiene información sobre la memoria actual con las siguientes entradas:
 
-- ``"physical"`` - total amount of usable physical memory in bytes. This value can be slightly less than the actual physical memory amount, since it does not include memory reserved by the kernel and devices.
+- ``"physical"`` - cantidad total de memoria física utilizable en bytes. Este valor puede ser ligeramente inferior a la cantidad real de memoria física, ya que no incluye la memoria reservada por el kernel y los dispositivos.
 
-- ``"free"`` - amount of physical memory, that can be immediately allocated without disk access or other costly operations, in bytes. The process might be able to allocate more physical memory, but this action will require moving inactive pages to disk, which can be expensive.
+- ``"free"`` - cantidad de memoria física que se puede asignar inmediatamente sin acceso al disco u otras operaciones costosas, en bytes. El proceso podría asignar más memoria física, pero esta acción requerirá el traslado de las páginas inactivas al disco, lo que puede ser costoso.
 
-- ``"available"`` - amount of memory that can be allocated without extending the swap file(s), in bytes. This value includes both physical memory and swap.
+- ``"available"`` - cantidad de memoria que se puede asignar sin extender los archivos de intercambio (swap), en bytes. Este valor incluye tanto la memoria física como el swap.
 
-- ``"stack"`` - size of the current thread stack in bytes.
+- ``"stack"`` - tamaño de la pila (stack) del hilo actual en bytes.
 
-\ **Note:** Each entry's value may be ``-1`` if it is unknown.
+\ **Nota:** El valor de cada entrada puede ser ``-1`` si se desconoce.
 
 .. rst-class:: classref-item-separator
 
@@ -1051,9 +1051,9 @@ Returns a :ref:`Dictionary<class_Dictionary>` containing information about the c
 
 :ref:`String<class_String>` **get_model_name**\ (\ ) |const| :ref:`🔗<class_OS_method_get_model_name>`
 
-Returns the model name of the current device.
+Devuelve el nombre del modelo del dispositivo actual.
 
-\ **Note:** This method is implemented on Android, iOS, macOS, and Windows. Returns ``"GenericDevice"`` on unsupported platforms.
+\ **Nota:** Este método está implementado en Android, iOS, macOS y Windows. Devuelve ``"GenericDevice"`` en plataformas no compatibles.
 
 .. rst-class:: classref-item-separator
 
@@ -1144,13 +1144,13 @@ Returns the name of the host platform.
 
 :ref:`int<class_int>` **get_process_exit_code**\ (\ pid\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OS_method_get_process_exit_code>`
 
-Returns the exit code of a spawned process once it has finished running (see :ref:`is_process_running()<class_OS_method_is_process_running>`).
+Devuelve el código de salida de un proceso generado una vez que ha terminado de ejecutarse (véase :ref:`is_process_running()<class_OS_method_is_process_running>`).
 
-Returns ``-1`` if the ``pid`` is not a PID of a spawned child process, the process is still running, or the method is not implemented for the current platform.
+Devuelve ``-1`` si el ``pid`` no es un PID de un proceso hijo generado, el proceso aún se está ejecutando o el método no está implementado para la plataforma actual.
 
-\ **Note:** Returns ``-1`` if the ``pid`` is a macOS bundled app process.
+\ **Nota:** Devuelve ``-1`` si el ``pid`` es un proceso de aplicación agrupada de macOS.
 
-\ **Note:** This method is implemented on Android, Linux, macOS and Windows.
+\ **Nota:** Este método está implementado en Android, Linux, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1162,9 +1162,9 @@ Returns ``-1`` if the ``pid`` is not a PID of a spawned child process, the proce
 
 :ref:`int<class_int>` **get_process_id**\ (\ ) |const| :ref:`🔗<class_OS_method_get_process_id>`
 
-Returns the number used by the host machine to uniquely identify this application.
+Devuelve el número utilizado por la máquina host para identificar de forma única esta aplicación.
 
-\ **Note:** On Web, this method always returns ``0``.
+\ **Nota:** En Web, este método siempre devuelve ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -1176,7 +1176,7 @@ Returns the number used by the host machine to uniquely identify this applicatio
 
 :ref:`int<class_int>` **get_processor_count**\ (\ ) |const| :ref:`🔗<class_OS_method_get_processor_count>`
 
-Returns the number of *logical* CPU cores available on the host machine. On CPUs with HyperThreading enabled, this number will be greater than the number of *physical* CPU cores.
+Devuelve el número de núcleos de CPU *lógicos* disponibles en la máquina host. En las CPU con HyperThreading habilitado, este número será mayor que el número de núcleos de CPU *físicos*.
 
 .. rst-class:: classref-item-separator
 
@@ -1188,9 +1188,9 @@ Returns the number of *logical* CPU cores available on the host machine. On CPUs
 
 :ref:`String<class_String>` **get_processor_name**\ (\ ) |const| :ref:`🔗<class_OS_method_get_processor_name>`
 
-Returns the full name of the CPU model on the host machine (e.g. ``"Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz"``).
+Devuelve el nombre completo del modelo de CPU en la máquina host (p. ej. ``"Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz"``).
 
-\ **Note:** This method is only implemented on Windows, macOS, Linux and iOS. On Android and Web, :ref:`get_processor_name()<class_OS_method_get_processor_name>` returns an empty string.
+\ **Nota:** Este método sólo está implementado en Windows, macOS, Linux e iOS. En Android y Web, :ref:`get_processor_name()<class_OS_method_get_processor_name>` devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -1202,7 +1202,7 @@ Returns the full name of the CPU model on the host machine (e.g. ``"Intel(R) Cor
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_restart_on_exit_arguments**\ (\ ) |const| :ref:`🔗<class_OS_method_get_restart_on_exit_arguments>`
 
-Returns the list of command line arguments that will be used when the project automatically restarts using :ref:`set_restart_on_exit()<class_OS_method_set_restart_on_exit>`. See also :ref:`is_restart_on_exit_set()<class_OS_method_is_restart_on_exit_set>`.
+Devuelve la lista de argumentos de la línea de comandos que se utilizarán cuando el proyecto se reinicie automáticamente utilizando :ref:`set_restart_on_exit()<class_OS_method_set_restart_on_exit>`. Véase también :ref:`is_restart_on_exit_set()<class_OS_method_is_restart_on_exit_set>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1214,7 +1214,7 @@ Returns the list of command line arguments that will be used when the project au
 
 :ref:`int<class_int>` **get_static_memory_peak_usage**\ (\ ) |const| :ref:`🔗<class_OS_method_get_static_memory_peak_usage>`
 
-Returns the maximum amount of static memory used. Only works in debug builds.
+Devuelve la cantidad máxima de memoria estática utilizada. Solo funciona en las compilaciones de depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -1226,7 +1226,7 @@ Returns the maximum amount of static memory used. Only works in debug builds.
 
 :ref:`int<class_int>` **get_static_memory_usage**\ (\ ) |const| :ref:`🔗<class_OS_method_get_static_memory_usage>`
 
-Returns the amount of static memory being used by the program in bytes. Only works in debug builds.
+Devuelve la cantidad de memoria estática que está utilizando el programa en bytes. Solo funciona en las compilaciones de depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -1238,9 +1238,9 @@ Returns the amount of static memory being used by the program in bytes. Only wor
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **get_stderr_type**\ (\ ) |const| :ref:`🔗<class_OS_method_get_stderr_type>`
 
-Returns the type of the standard error device.
+Devuelve el tipo del dispositivo de error estándar.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Este método está implementado en Linux, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1252,11 +1252,11 @@ Returns the type of the standard error device.
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **get_stdin_type**\ (\ ) |const| :ref:`🔗<class_OS_method_get_stdin_type>`
 
-Returns the type of the standard input device.
+Devuelve el tipo del dispositivo de entrada estándar.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Este método está implementado en Linux, macOS y Windows.
 
-\ **Note:** On exported Windows builds, run the console wrapper executable to access the standard input. If you need a single executable with full console support, use a custom build compiled with the ``windows_subsystem=console`` flag.
+\ **Nota:** En las compilaciones exportadas de Windows, ejecuta el ejecutable del contenedor de la consola para acceder a la entrada estándar. Si necesitas un único ejecutable con soporte completo para la consola, utiliza una compilación personalizada compilada con la bandera ``windows_subsystem=console``.
 
 .. rst-class:: classref-item-separator
 
@@ -1268,9 +1268,9 @@ Returns the type of the standard input device.
 
 :ref:`StdHandleType<enum_OS_StdHandleType>` **get_stdout_type**\ (\ ) |const| :ref:`🔗<class_OS_method_get_stdout_type>`
 
-Returns the type of the standard output device.
+Devuelve el tipo del dispositivo de salida estándar.
 
-\ **Note:** This method is implemented on Linux, macOS, and Windows.
+\ **Nota:** Este método está implementado en Linux, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1282,7 +1282,7 @@ Returns the type of the standard output device.
 
 :ref:`String<class_String>` **get_system_ca_certificates**\ (\ ) :ref:`🔗<class_OS_method_get_system_ca_certificates>`
 
-Returns the list of certification authorities trusted by the operating system as a string of concatenated certificates in PEM format.
+Devuelve la lista de autoridades de certificación en las que confía el sistema operativo como una string de certificados concatenados en formato PEM.
 
 .. rst-class:: classref-item-separator
 
@@ -1294,11 +1294,11 @@ Returns the list of certification authorities trusted by the operating system as
 
 :ref:`String<class_String>` **get_system_dir**\ (\ dir\: :ref:`SystemDir<enum_OS_SystemDir>`, shared_storage\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_OS_method_get_system_dir>`
 
-Returns the path to commonly used folders across different platforms, as defined by ``dir``. See the :ref:`SystemDir<enum_OS_SystemDir>` constants for available locations.
+Devuelve la ruta a las carpetas de uso común en diferentes plataformas, tal como se define en ``dir``. Consulta las constantes de :ref:`SystemDir<enum_OS_SystemDir>` para ver las ubicaciones disponibles.
 
-\ **Note:** This method is implemented on Android, Linux, macOS and Windows.
+\ **Nota:** Este método está implementado en Android, Linux, macOS y Windows.
 
-\ **Note:** Shared storage is implemented on Android and allows to differentiate between app specific and shared directories, if ``shared_storage`` is ``true``. Shared directories have additional restrictions on Android.
+\ **Nota:** El almacenamiento compartido está implementado en Android y permite diferenciar entre los directorios específicos de la aplicación y los directorios compartidos, si ``shared_storage`` es ``true``. Los directorios compartidos tienen restricciones adicionales en Android.
 
 .. rst-class:: classref-item-separator
 
@@ -1524,11 +1524,11 @@ Returns ``true`` if the environment variable with the name ``variable`` exists.
 
 :ref:`bool<class_bool>` **has_feature**\ (\ tag_name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_OS_method_has_feature>`
 
-Returns ``true`` if the feature for the given feature tag is supported in the currently running instance, depending on the platform, build, etc. Can be used to check whether you're currently running a debug build, on a certain platform or arch, etc. Refer to the :doc:`Feature Tags <../tutorials/export/feature_tags>` documentation for more details.
+Devuelve ``true`` si la característica para la etiqueta de la característica dada está soportada en la instancia que se está ejecutando actualmente, dependiendo de la plataforma, la construcción, etc. Se puede usar para comprobar si estás ejecutando una compilación de depuración, en una determinada plataforma o arquitectura, etc. Consulta la documentación :doc:`Etiquetas de características <../tutorials/export/feature_tags>` para obtener más detalles.
 
-\ **Note:** Tag names are case-sensitive.
+\ **Nota:** Los nombres de las etiquetas distinguen entre mayúsculas y minúsculas.
 
-\ **Note:** On the Web platform, one of the following additional tags is defined to indicate the host platform: ``web_android``, ``web_ios``, ``web_linuxbsd``, ``web_macos``, or ``web_windows``.
+\ **Nota:** En la plataforma Web, se define una de las siguientes etiquetas adicionales para indicar la plataforma host: ``web_android``, ``web_ios``, ``web_linuxbsd``, ``web_macos`` o ``web_windows``.
 
 .. rst-class:: classref-item-separator
 
@@ -1540,11 +1540,11 @@ Returns ``true`` if the feature for the given feature tag is supported in the cu
 
 :ref:`bool<class_bool>` **is_debug_build**\ (\ ) |const| :ref:`🔗<class_OS_method_is_debug_build>`
 
-Returns ``true`` if the Godot binary used to run the project is a *debug* export template, or when running in the editor.
+Devuelve ``true`` si el binario de Godot utilizado para ejecutar el proyecto es una plantilla de exportación de *depuración*, o cuando se ejecuta en el editor.
 
-Returns ``false`` if the Godot binary used to run the project is a *release* export template.
+Devuelve ``false`` si el binario de Godot utilizado para ejecutar el proyecto es una plantilla de exportación de *lanzamiento*.
 
-\ **Note:** To check whether the Godot binary used to run the project is an export template (debug or release), use ``OS.has_feature("template")`` instead.
+\ **Nota:** Para comprobar si el binario de Godot utilizado para ejecutar el proyecto es una plantilla de exportación (depuración o lanzamiento), usa en su lugar ``OS.has_feature("template")``.
 
 .. rst-class:: classref-item-separator
 
@@ -1556,24 +1556,24 @@ Returns ``false`` if the Godot binary used to run the project is a *release* exp
 
 :ref:`bool<class_bool>` **is_keycode_unicode**\ (\ code\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OS_method_is_keycode_unicode>`
 
-Returns ``true`` if the input keycode corresponds to a Unicode character. For a list of codes, see the :ref:`Key<enum_@GlobalScope_Key>` constants.
+Devuelve ``true`` si el código de tecla de entrada corresponde a un carácter Unicode. Para obtener una lista de códigos, consulta las constantes de :ref:`Key<enum_@GlobalScope_Key>`.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    print(OS.is_keycode_unicode(KEY_G))      # Prints true
-    print(OS.is_keycode_unicode(KEY_KP_4))   # Prints true
-    print(OS.is_keycode_unicode(KEY_TAB))    # Prints false
-    print(OS.is_keycode_unicode(KEY_ESCAPE)) # Prints false
+    print(OS.is_keycode_unicode(KEY_G))      # Imprime true
+    print(OS.is_keycode_unicode(KEY_KP_4))   # Imprime true
+    print(OS.is_keycode_unicode(KEY_TAB))    # Imprime false
+    print(OS.is_keycode_unicode(KEY_ESCAPE)) # Imprime false
 
  .. code-tab:: csharp
 
-    GD.Print(OS.IsKeycodeUnicode((long)Key.G));      // Prints True
-    GD.Print(OS.IsKeycodeUnicode((long)Key.Kp4));    // Prints True
-    GD.Print(OS.IsKeycodeUnicode((long)Key.Tab));    // Prints False
-    GD.Print(OS.IsKeycodeUnicode((long)Key.Escape)); // Prints False
+    GD.Print(OS.IsKeycodeUnicode((long)Key.G));      // Imprime True
+    GD.Print(OS.IsKeycodeUnicode((long)Key.Kp4));    // Imprime True
+    GD.Print(OS.IsKeycodeUnicode((long)Key.Tab));    // Imprime False
+    GD.Print(OS.IsKeycodeUnicode((long)Key.Escape)); // Imprime False
 
 
 
@@ -1601,7 +1601,7 @@ Returns ``true`` if the child process ID (``pid``) is still running or ``false``
 
 :ref:`bool<class_bool>` **is_restart_on_exit_set**\ (\ ) |const| :ref:`🔗<class_OS_method_is_restart_on_exit_set>`
 
-Returns ``true`` if the project will automatically restart when it exits for any reason, ``false`` otherwise. See also :ref:`set_restart_on_exit()<class_OS_method_set_restart_on_exit>` and :ref:`get_restart_on_exit_arguments()<class_OS_method_get_restart_on_exit_arguments>`.
+Devuelve ``true`` si el proyecto se reiniciará automáticamente cuando salga por cualquier razón, ``false`` en caso contrario. Véase también :ref:`set_restart_on_exit()<class_OS_method_set_restart_on_exit>` y :ref:`get_restart_on_exit_arguments()<class_OS_method_get_restart_on_exit_arguments>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1613,9 +1613,9 @@ Returns ``true`` if the project will automatically restart when it exits for any
 
 :ref:`bool<class_bool>` **is_sandboxed**\ (\ ) |const| :ref:`🔗<class_OS_method_is_sandboxed>`
 
-Returns ``true`` if the application is running in the sandbox.
+Devuelve ``true`` si la aplicación se está ejecutando en el sandbox.
 
-\ **Note:** This method is only implemented on macOS and Linux.
+\ **Nota:** Este método solo está implementado en macOS y Linux.
 
 .. rst-class:: classref-item-separator
 
@@ -1627,7 +1627,7 @@ Returns ``true`` if the application is running in the sandbox.
 
 :ref:`bool<class_bool>` **is_stdout_verbose**\ (\ ) |const| :ref:`🔗<class_OS_method_is_stdout_verbose>`
 
-Returns ``true`` if the engine was executed with the ``--verbose`` or ``-v`` command line argument, or if :ref:`ProjectSettings.debug/settings/stdout/verbose_stdout<class_ProjectSettings_property_debug/settings/stdout/verbose_stdout>` is ``true``. See also :ref:`@GlobalScope.print_verbose()<class_@GlobalScope_method_print_verbose>`.
+Devuelve ``true`` si el motor se ejecutó con el argumento de línea de comandos ``--verbose`` o ``-v``, o si :ref:`ProjectSettings.debug/settings/stdout/verbose_stdout<class_ProjectSettings_property_debug/settings/stdout/verbose_stdout>` es ``true``. Véase también :ref:`@GlobalScope.print_verbose()<class_@GlobalScope_method_print_verbose>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1639,7 +1639,7 @@ Returns ``true`` if the engine was executed with the ``--verbose`` or ``-v`` com
 
 :ref:`bool<class_bool>` **is_userfs_persistent**\ (\ ) |const| :ref:`🔗<class_OS_method_is_userfs_persistent>`
 
-Returns ``true`` if the ``user://`` file system is persistent, that is, its state is the same after a player quits and starts the game again. Relevant to the Web platform, where this persistence may be unavailable.
+Devuelve ``true`` si el sistema de archivos ``user://`` es persistente, es decir, su estado es el mismo después de que un jugador sale y vuelve a iniciar el juego. Relevante para la plataforma Web, donde esta persistencia puede no estar disponible.
 
 .. rst-class:: classref-item-separator
 
@@ -1651,11 +1651,11 @@ Returns ``true`` if the ``user://`` file system is persistent, that is, its stat
 
 :ref:`Error<enum_@GlobalScope_Error>` **kill**\ (\ pid\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OS_method_kill>`
 
-Kill (terminate) the process identified by the given process ID (``pid``), such as the ID returned by :ref:`execute()<class_OS_method_execute>` in non-blocking mode. See also :ref:`crash()<class_OS_method_crash>`.
+Mata (termina) el proceso identificado por el ID de proceso dado (``pid``), como el ID devuelto por :ref:`execute()<class_OS_method_execute>` en modo no bloqueante. Véase también :ref:`crash()<class_OS_method_crash>`.
 
-\ **Note:** This method can also be used to kill processes that were not spawned by the engine.
+\ **Nota:** Este método también se puede utilizar para matar procesos que no fueron generados por el motor.
 
-\ **Note:** This method is implemented on Android, iOS, Linux, macOS and Windows.
+\ **Nota:** Este método está implementado en Android, iOS, Linux, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1667,30 +1667,30 @@ Kill (terminate) the process identified by the given process ID (``pid``), such 
 
 :ref:`Error<enum_@GlobalScope_Error>` **move_to_trash**\ (\ path\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_OS_method_move_to_trash>`
 
-Moves the file or directory at the given ``path`` to the system's recycle bin. See also :ref:`DirAccess.remove()<class_DirAccess_method_remove>`.
+Mueve el archivo o directorio en la ruta ``path`` dada a la papelera de reciclaje del sistema. Véase también :ref:`DirAccess.remove()<class_DirAccess_method_remove>`.
 
-The method takes only global paths, so you may need to use :ref:`ProjectSettings.globalize_path()<class_ProjectSettings_method_globalize_path>`. Do not use it for files in ``res://`` as it will not work in exported projects.
+El método solo acepta rutas globales, por lo que es posible que tengas que utilizar :ref:`ProjectSettings.globalize_path()<class_ProjectSettings_method_globalize_path>`. No lo uses para archivos en ``res://``, ya que no funcionará en proyectos exportados.
 
-Returns :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>` if the file or directory cannot be found, or the system does not support this method.
+Devuelve :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>` si no se encuentra el archivo o el directorio, o si el sistema no admite este método.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var file_to_remove = "user://slot1.save"
-    OS.move_to_trash(ProjectSettings.globalize_path(file_to_remove))
+    var archivo_a_eliminar = "user://slot1.save"
+    OS.move_to_trash(ProjectSettings.globalize_path(archivo_a_eliminar))
 
  .. code-tab:: csharp
 
-    var fileToRemove = "user://slot1.save";
-    OS.MoveToTrash(ProjectSettings.GlobalizePath(fileToRemove));
+    var archivoAEliminar = "user://slot1.save";
+    OS.MoveToTrash(ProjectSettings.GlobalizePath(archivoAEliminar));
 
 
 
-\ **Note:** This method is implemented on Android, Linux, macOS and Windows.
+\ **Nota:** Este método está implementado en Android, Linux, macOS y Windows.
 
-\ **Note:** If the user has disabled the recycle bin on their system, the file will be permanently deleted instead.
+\ **Nota:** Si el usuario ha desactivado la papelera de reciclaje en su sistema, el archivo se eliminará permanentemente.
 
 .. rst-class:: classref-item-separator
 
@@ -1702,13 +1702,13 @@ Returns :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>` if the fi
 
 |void| **open_midi_inputs**\ (\ ) :ref:`🔗<class_OS_method_open_midi_inputs>`
 
-Initializes the singleton for the system MIDI driver, allowing Godot to receive :ref:`InputEventMIDI<class_InputEventMIDI>`. See also :ref:`get_connected_midi_inputs()<class_OS_method_get_connected_midi_inputs>` and :ref:`close_midi_inputs()<class_OS_method_close_midi_inputs>`.
+Inicializa el singleton para el controlador MIDI del sistema, permitiendo que Godot reciba :ref:`InputEventMIDI<class_InputEventMIDI>`. Véase también :ref:`get_connected_midi_inputs()<class_OS_method_get_connected_midi_inputs>` y :ref:`close_midi_inputs()<class_OS_method_close_midi_inputs>`.
 
-\ **Note:** This method is implemented on Linux, macOS, Windows, and Web.
+\ **Nota:** Este método está implementado en Linux, macOS, Windows y Web.
 
-\ **Note:** On the Web platform, Web MIDI needs to be supported by the browser. `For the time being <https://caniuse.com/midi>`__, it is currently supported by all major browsers, except Safari.
+\ **Nota:** En la plataforma Web, Web MIDI necesita ser soportado por el navegador. `Por el momento <https://caniuse.com/midi>`__, es actualmente soportado por todos los principales navegadores, excepto Safari.
 
-\ **Note:** On the Web platform, using MIDI input requires a browser permission to be granted first. This permission request is performed when calling :ref:`open_midi_inputs()<class_OS_method_open_midi_inputs>`. The browser will refrain from processing MIDI input until the user accepts the permission request.
+\ **Nota:** En la plataforma Web, el uso de la entrada MIDI requiere que se conceda primero un permiso del navegador. Esta solicitud de permiso se realiza al llamar a :ref:`open_midi_inputs()<class_OS_method_open_midi_inputs>`. El navegador se abstendrá de procesar la entrada MIDI hasta que el usuario acepte la solicitud de permiso.
 
 .. rst-class:: classref-item-separator
 
@@ -1720,11 +1720,11 @@ Initializes the singleton for the system MIDI driver, allowing Godot to receive 
 
 :ref:`Error<enum_@GlobalScope_Error>` **open_with_program**\ (\ program_path\: :ref:`String<class_String>`, paths\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_OS_method_open_with_program>`
 
-Opens one or more files/directories with the specified application. The ``program_path`` specifies the path to the application to use for opening the files, and ``paths`` contains an array of file/directory paths to open.
+Abre uno o más archivos/directorios con la aplicación especificada. El ``program_path`` especifica la ruta a la aplicación a utilizar para abrir los archivos, y ``paths`` contiene un array de rutas de archivos/directorios a abrir.
 
-\ **Note:** This method is mostly only relevant for macOS, where opening files using :ref:`create_process()<class_OS_method_create_process>` might fail. On other platforms, this falls back to using :ref:`create_process()<class_OS_method_create_process>`.
+\ **Nota:** Este método es sobre todo relevante para macOS, donde la apertura de archivos usando :ref:`create_process()<class_OS_method_create_process>` podría fallar. En otras plataformas, esto recurre al uso de :ref:`create_process()<class_OS_method_create_process>`.
 
-\ **Note:** On macOS, ``program_path`` should ideally be the path to a ``.app`` bundle.
+\ **Nota:** En macOS, ``program_path`` idealmente debería ser la ruta a un paquete ``.app``.
 
 .. rst-class:: classref-item-separator
 
@@ -1782,7 +1782,7 @@ Reads a user input as a UTF-8 encoded string from the standard input. This opera
 
 |void| **remove_logger**\ (\ logger\: :ref:`Logger<class_Logger>`\ ) :ref:`🔗<class_OS_method_remove_logger>`
 
-Remove a custom logger added by :ref:`add_logger()<class_OS_method_add_logger>`.
+Elimina un logger personalizado añadido por :ref:`add_logger()<class_OS_method_add_logger>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1794,9 +1794,9 @@ Remove a custom logger added by :ref:`add_logger()<class_OS_method_add_logger>`.
 
 :ref:`bool<class_bool>` **request_permission**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OS_method_request_permission>`
 
-Requests permission from the OS for the given ``name``. Returns ``true`` if the permission has already been granted. See also :ref:`MainLoop.on_request_permissions_result<class_MainLoop_signal_on_request_permissions_result>`.
+Solicita permiso al sistema operativo para el ``name`` dado. Devuelve ``true`` si el permiso ya ha sido concedido. Véase también :ref:`MainLoop.on_request_permissions_result<class_MainLoop_signal_on_request_permissions_result>`.
 
-The ``name`` must be the full permission name. For example:
+El ``name`` debe ser el nombre completo del permiso. Por ejemplo:
 
 - ``OS.request_permission("android.permission.READ_EXTERNAL_STORAGE")``\ 
 
@@ -1806,9 +1806,9 @@ The ``name`` must be the full permission name. For example:
 
 - ``OS.request_permission("appleembedded.permission.AUDIO_RECORD")``\ 
 
-\ **Note:** On Android, permission must be checked during export.
+\ **Nota:** En Android, el permiso debe ser comprobado durante la exportación.
 
-\ **Note:** This method is implemented on Android, macOS, and visionOS platforms.
+\ **Nota:** Este método está implementado en las plataformas Android, macOS y visionOS.
 
 .. rst-class:: classref-item-separator
 
@@ -1820,11 +1820,11 @@ The ``name`` must be the full permission name. For example:
 
 :ref:`bool<class_bool>` **request_permissions**\ (\ ) :ref:`🔗<class_OS_method_request_permissions>`
 
-Requests *dangerous* permissions from the OS. Returns ``true`` if permissions have already been granted. See also :ref:`MainLoop.on_request_permissions_result<class_MainLoop_signal_on_request_permissions_result>`.
+Solicita permisos *peligrosos* al sistema operativo. Devuelve ``true`` si los permisos ya han sido concedidos. Véase también :ref:`MainLoop.on_request_permissions_result<class_MainLoop_signal_on_request_permissions_result>`.
 
-\ **Note:** Permissions must be checked during export.
+\ **Nota:** Los permisos deben ser comprobados durante la exportación.
 
-\ **Note:** This method is only implemented on Android. Normal permissions are automatically granted at install time in Android applications.
+\ **Nota:** Este método solo está implementado en Android. Los permisos normales se conceden automáticamente en el momento de la instalación en las aplicaciones de Android.
 
 .. rst-class:: classref-item-separator
 
@@ -1836,7 +1836,7 @@ Requests *dangerous* permissions from the OS. Returns ``true`` if permissions ha
 
 |void| **revoke_granted_permissions**\ (\ ) :ref:`🔗<class_OS_method_revoke_granted_permissions>`
 
-On macOS (sandboxed applications only), this function clears list of user selected folders accessible to the application.
+En macOS (solo aplicaciones en sandbox), esta función borra la lista de carpetas seleccionadas por el usuario accesibles a la aplicación.
 
 .. rst-class:: classref-item-separator
 
@@ -1848,9 +1848,9 @@ On macOS (sandboxed applications only), this function clears list of user select
 
 |void| **set_environment**\ (\ variable\: :ref:`String<class_String>`, value\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_OS_method_set_environment>`
 
-Sets the value of the environment variable ``variable`` to ``value``. The environment variable will be set for the Godot process and any process executed with :ref:`execute()<class_OS_method_execute>` after running :ref:`set_environment()<class_OS_method_set_environment>`. The environment variable will *not* persist to processes run after the Godot process was terminated.
+Establece el valor de la variable de entorno ``variable`` a ``value``. La variable de entorno se establecerá para el proceso de Godot y cualquier proceso ejecutado con :ref:`execute()<class_OS_method_execute>` después de ejecutar :ref:`set_environment()<class_OS_method_set_environment>`. La variable de entorno *no* persistirá en los procesos que se ejecuten después de que finalice el proceso de Godot.
 
-\ **Note:** Environment variable names are case-sensitive on all platforms except Windows. The ``variable`` name cannot be empty or include the ``=`` character. On Windows, there is a 32767 characters limit for the combined length of ``variable``, ``value``, and the ``=`` and null terminator characters that will be registered in the environment block.
+\ **Nota:** Los nombres de las variables de entorno distinguen entre mayúsculas y minúsculas en todas las plataformas, excepto en Windows. El nombre de ``variable`` no puede estar vacío ni incluir el carácter ``=``. En Windows, existe un límite de 32767 caracteres para la longitud combinada de ``variable``, ``value`` y los caracteres ``=`` y nulo que se registrarán en el bloque de entorno.
 
 .. rst-class:: classref-item-separator
 
@@ -1862,13 +1862,13 @@ Sets the value of the environment variable ``variable`` to ``value``. The enviro
 
 |void| **set_restart_on_exit**\ (\ restart\: :ref:`bool<class_bool>`, arguments\: :ref:`PackedStringArray<class_PackedStringArray>` = PackedStringArray()\ ) :ref:`🔗<class_OS_method_set_restart_on_exit>`
 
-If ``restart`` is ``true``, restarts the project automatically when it is exited with :ref:`SceneTree.quit()<class_SceneTree_method_quit>` or :ref:`Node.NOTIFICATION_WM_CLOSE_REQUEST<class_Node_constant_NOTIFICATION_WM_CLOSE_REQUEST>`. Command-line ``arguments`` can be supplied. To restart the project with the same command line arguments as originally used to run the project, pass :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>` as the value for ``arguments``.
+Si ``restart`` es ``true``, reinicia el proyecto automáticamente cuando se sale con :ref:`SceneTree.quit()<class_SceneTree_method_quit>` o :ref:`Node.NOTIFICATION_WM_CLOSE_REQUEST<class_Node_constant_NOTIFICATION_WM_CLOSE_REQUEST>`. Se pueden proporcionar ``arguments`` de la línea de comandos. Para reiniciar el proyecto con los mismos argumentos de la línea de comandos que se utilizaron originalmente para ejecutar el proyecto, pasa :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>` como valor para ``arguments``.
 
-This method can be used to apply setting changes that require a restart. See also :ref:`is_restart_on_exit_set()<class_OS_method_is_restart_on_exit_set>` and :ref:`get_restart_on_exit_arguments()<class_OS_method_get_restart_on_exit_arguments>`.
+Este método se puede utilizar para aplicar cambios de configuración que requieran un reinicio. Véase también :ref:`is_restart_on_exit_set()<class_OS_method_is_restart_on_exit_set>` y :ref:`get_restart_on_exit_arguments()<class_OS_method_get_restart_on_exit_arguments>`.
 
-\ **Note:** This method is only effective on desktop platforms, and only when the project isn't started from the editor. It will have no effect on mobile and Web platforms, or when the project is started from the editor.
+\ **Nota:** Este método solo es efectivo en plataformas de escritorio, y solo cuando el proyecto no se inicia desde el editor. No tendrá ningún efecto en las plataformas móviles y web, o cuando el proyecto se inicia desde el editor.
 
-\ **Note:** If the project process crashes or is *killed* by the user (by sending ``SIGKILL`` instead of the usual ``SIGTERM``), the project won't restart automatically.
+\ **Nota:** Si el proceso del proyecto falla o es *matado* por el usuario (enviando ``SIGKILL`` en lugar del ``SIGTERM`` habitual), el proyecto no se reiniciará automáticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -1880,7 +1880,7 @@ This method can be used to apply setting changes that require a restart. See als
 
 :ref:`Error<enum_@GlobalScope_Error>` **set_thread_name**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OS_method_set_thread_name>`
 
-Assigns the given name to the current thread. Returns :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if unavailable on the current platform.
+Asigna el nombre dado al hilo actual. Devuelve :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` si no está disponible en la plataforma actual.
 
 .. rst-class:: classref-item-separator
 
@@ -1892,9 +1892,9 @@ Assigns the given name to the current thread. Returns :ref:`@GlobalScope.ERR_UNA
 
 |void| **set_use_file_access_save_and_swap**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_OS_method_set_use_file_access_save_and_swap>`
 
-If ``enabled`` is ``true``, when opening a file for writing, a temporary file is used in its place. When closed, it is automatically applied to the target file.
+Si ``enabled`` es ``true``, al abrir un archivo para escritura, se utiliza un archivo temporal en su lugar. Cuando se cierra, se aplica automáticamente al archivo de destino.
 
-This can useful when files may be opened by other applications, such as antiviruses, text editors, or even the Godot editor itself.
+Esto puede ser útil cuando los archivos pueden ser abiertos por otras aplicaciones, como antivirus, editores de texto o incluso el propio editor de Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -1932,13 +1932,13 @@ Utiliza :ref:`ProjectSettings.globalize_path()<class_ProjectSettings_method_glob
 
 :ref:`Error<enum_@GlobalScope_Error>` **shell_show_in_file_manager**\ (\ file_or_dir_path\: :ref:`String<class_String>`, open_folder\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_OS_method_shell_show_in_file_manager>`
 
-Requests the OS to open the file manager, navigate to the given ``file_or_dir_path`` and select the target file or folder.
+Solicita al sistema operativo que abra el administrador de archivos, navegue hasta la ``file_or_dir_path`` dada y seleccione el archivo o carpeta de destino.
 
-If ``open_folder`` is ``true`` and ``file_or_dir_path`` is a valid directory path, the OS will open the file manager and navigate to the target folder without selecting anything.
+Si ``open_folder`` es ``true`` y ``file_or_dir_path`` es una ruta de directorio válida, el sistema operativo abrirá el administrador de archivos y navegará hasta la carpeta de destino sin seleccionar nada.
 
-Use :ref:`ProjectSettings.globalize_path()<class_ProjectSettings_method_globalize_path>` to convert a ``res://`` or ``user://`` project path into a system path to use with this method.
+Utiliza :ref:`ProjectSettings.globalize_path()<class_ProjectSettings_method_globalize_path>` para convertir una ruta de proyecto ``res://`` o ``user://`` en una ruta del sistema para usar con este método.
 
-\ **Note:** This method is currently only implemented on Windows and macOS. On other platforms, it will fallback to :ref:`shell_open()<class_OS_method_shell_open>` with a directory path of ``file_or_dir_path`` prefixed with ``file://``.
+\ **Nota:** Este método solo está implementado actualmente en Windows y macOS. En otras plataformas, recurrirá a :ref:`shell_open()<class_OS_method_shell_open>` con una ruta de directorio de ``file_or_dir_path`` prefijada con ``file://``.
 
 .. rst-class:: classref-item-separator
 
@@ -1950,9 +1950,9 @@ Use :ref:`ProjectSettings.globalize_path()<class_ProjectSettings_method_globaliz
 
 |void| **unset_environment**\ (\ variable\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_OS_method_unset_environment>`
 
-Removes the given environment variable from the current environment, if it exists. The ``variable`` name cannot be empty or include the ``=`` character. The environment variable will be removed for the Godot process and any process executed with :ref:`execute()<class_OS_method_execute>` after running :ref:`unset_environment()<class_OS_method_unset_environment>`. The removal of the environment variable will *not* persist to processes run after the Godot process was terminated.
+Elimina la variable de entorno dada del entorno actual, si existe. El nombre de ``variable`` no puede estar vacío ni incluir el carácter ``=``. La variable de entorno se eliminará para el proceso de Godot y cualquier proceso ejecutado con :ref:`execute()<class_OS_method_execute>` después de ejecutar :ref:`unset_environment()<class_OS_method_unset_environment>`. La eliminación de la variable de entorno *no* persistirá en los procesos que se ejecuten después de que finalice el proceso de Godot.
 
-\ **Note:** Environment variable names are case-sensitive on all platforms except Windows.
+\ **Nota:** Los nombres de las variables de entorno distinguen entre mayúsculas y minúsculas en todas las plataformas, excepto en Windows.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

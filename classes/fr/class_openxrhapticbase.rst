@@ -7,7 +7,7 @@ OpenXRHapticBase
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OpenXRHapticVibration<class_OpenXRHapticVibration>`
+**Hérité par :** :ref:`OpenXRHapticVibration<class_OpenXRHapticVibration>`
 
 Classe de base de retour haptique OpenXR.
 

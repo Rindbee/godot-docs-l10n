@@ -201,7 +201,7 @@ Basis
     print("| %.f | %.f | %.f" % [basis.x.x, basis.y.x, basis.z.x])
     print("| %.f | %.f | %.f" % [basis.x.y, basis.y.y, basis.z.y])
     print("| %.f | %.f | %.f" % [basis.x.z, basis.y.z, basis.z.z])
-    # Prints:
+    # Выводит:
     # | X | Y | Z
     # | 1 | 0 | 0
     # | 0 | 1 | 0
@@ -366,13 +366,13 @@ Basis
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Basis_method_determinant>`
 
-Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this basis's matrix. For advanced math, this number can be used to determine a few attributes:
+Возвращает `https://en.wikipedia.org/wiki/Определитель <https://en.wikipedia.org/wiki/Определитель>`__ матрицы этого базиса. В высшей математике это число можно использовать для определения нескольких атрибутов:
 
-- If the determinant is exactly ``0.0``, the basis is not invertible (see :ref:`inverse()<class_Basis_method_inverse>`).
+- Если определитель равен точно ``0.0``, базис необратим (см. :ref:`inverse()<class_Basis_method_inverse>`).
 
-- If the determinant is a negative number, the basis represents a negative scale.
+- Если определитель — отрицательное число, базис представляет собой отрицательный масштаб.
 
-\ **Note:** If the basis's scale is the same for every axis, its determinant is always that scale by the power of 3.
+\ **Примечание:** Если масштаб базиса одинаков для всех осей, его определитель всегда равен этому масштабу в степени 3.
 
 .. rst-class:: classref-item-separator
 
@@ -400,14 +400,14 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
     # Создает базис, ось z которого направлена вниз.
     var my_basis = Basis.from_euler(Vector3(TAU / 4, 0, 0))
 
-    print(my_basis.z) # Prints (0.0, -1.0, 0.0)
+    print(my_basis.z) # Выводит (0.0, -1.0, 0.0)
 
  .. code-tab:: csharp
 
     // Создает базис, ось z которого направлена вниз.
     var myBasis = Basis.FromEuler(new Vector3(Mathf.Tau / 4.0f, 0.0f, 0.0f));
 
-    GD.Print(myBasis.Z); // Prints (0, -1, 0)
+    GD.Print(myBasis.Z); // Выводит (0, -1, 0)
 
 
 
@@ -432,17 +432,17 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
 
     var my_basis = Basis.from_scale(Vector3(2, 4, 8))
 
-    print(my_basis.x) # Prints (2.0, 0.0, 0.0)
-    print(my_basis.y) # Prints (0.0, 4.0, 0.0)
-    print(my_basis.z) # Prints (0.0, 0.0, 8.0)
+    print(my_basis.x) # Выводит (2.0, 0.0, 0.0)
+    print(my_basis.y) # Выводит (0.0, 4.0, 0.0)
+    print(my_basis.z) # Выводит (0.0, 0.0, 8.0)
 
  .. code-tab:: csharp
 
     var myBasis = Basis.FromScale(new Vector3(2.0f, 4.0f, 8.0f));
 
-    GD.Print(myBasis.X); // Prints (2, 0, 0)
-    GD.Print(myBasis.Y); // Prints (0, 4, 0)
-    GD.Print(myBasis.Z); // Prints (0, 0, 8)
+    GD.Print(myBasis.X); // Выводит (2, 0, 0)
+    GD.Print(myBasis.Y); // Выводит (0, 4, 0)
+    GD.Print(myBasis.Z); // Выводит (0, 0, 8)
 
 
 
@@ -510,11 +510,11 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
         Vector3(0, 4, 0),
         Vector3(0, 0, 8)
     )
-    #При любом повороте Базиса его масштаб сохраняется.
+    # При любом повороте Базиса его масштаб сохраняется.
     my_basis = my_basis.rotated(Vector3.UP, TAU / 2)
     my_basis = my_basis.rotated(Vector3.RIGHT, TAU / 4)
 
-    print(my_basis.get_scale()) # Prints (2.0, 4.0, 8.0)
+    print(my_basis.get_scale()) # Выводит (2.0, 4.0, 8.0)
 
  .. code-tab:: csharp
 
@@ -527,7 +527,7 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
     myBasis = myBasis.Rotated(Vector3.Up, Mathf.Tau / 2.0f);
     myBasis = myBasis.Rotated(Vector3.Right, Mathf.Tau / 4.0f);
 
-    GD.Print(myBasis.Scale); // Prints (2, 4, 8)
+    GD.Print(myBasis.Scale); // Выводит (2, 4, 8)
 
 
 
@@ -699,9 +699,9 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
     )
     my_basis = my_basis.scaled(Vector3(0, 2, -2))
 
-    print(my_basis.x) # Prints (0.0, 2.0, -2.0)
-    print(my_basis.y) # Prints (0.0, 4.0, -4.0)
-    print(my_basis.z) # Prints (0.0, 6.0, -6.0)
+    print(my_basis.x) # Выводит (0.0, 2.0, -2.0)
+    print(my_basis.y) # Выводит (0.0, 4.0, -4.0)
+    print(my_basis.z) # Выводит (0.0, 6.0, -6.0)
 
  .. code-tab:: csharp
 
@@ -712,9 +712,9 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
     );
     myBasis = myBasis.Scaled(new Vector3(0.0f, 2.0f, -2.0f));
 
-    GD.Print(myBasis.X); // Prints (0, 2, -2)
-    GD.Print(myBasis.Y); // Prints (0, 4, -4)
-    GD.Print(myBasis.Z); // Prints (0, 6, -6)
+    GD.Print(myBasis.X); // Выводит (0, 2, -2)
+    GD.Print(myBasis.Y); // Выводит (0, 4, -4)
+    GD.Print(myBasis.Z); // Выводит (0, 6, -6)
 
 
 
@@ -854,9 +854,9 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
     )
     my_basis = my_basis.transposed()
 
-    print(my_basis.x) # Prints (1.0, 4.0, 7.0)
-    print(my_basis.y) # Prints (2.0, 5.0, 8.0)
-    print(my_basis.z) # Prints (3.0, 6.0, 9.0)
+    print(my_basis.x) # Выводит (1.0, 4.0, 7.0)
+    print(my_basis.y) # Выводит (2.0, 5.0, 8.0)
+    print(my_basis.z) # Выводит (3.0, 6.0, 9.0)
 
  .. code-tab:: csharp
 
@@ -867,9 +867,9 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
     );
     myBasis = myBasis.Transposed();
 
-    GD.Print(myBasis.X); // Prints (1, 4, 7)
-    GD.Print(myBasis.Y); // Prints (2, 5, 8)
-    GD.Print(myBasis.Z); // Prints (3, 6, 9)
+    GD.Print(myBasis.X); // Выводит (1, 4, 7)
+    GD.Print(myBasis.Y); // Выводит (2, 5, 8)
+    GD.Print(myBasis.Z); // Выводит (3, 6, 9)
 
 
 
@@ -925,13 +925,13 @@ Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this 
 
     # Базис, который меняет местами оси X/Z и удваивает масштаб.
     var my_basis = Basis(Vector3(0, 2, 0), Vector3(2, 0, 0), Vector3(0, 0, 2))
-    print(my_basis * Vector3(1, 2, 3)) # Prints (4.0, 2.0, 6.0)
+    print(my_basis * Vector3(1, 2, 3)) # Выводит (4.0, 2.0, 6.0)
 
  .. code-tab:: csharp
 
     // Базис, который меняет местами оси X/Z и удваивает масштаб.
     var myBasis = new Basis(new Vector3(0, 2, 0), new Vector3(2, 0, 0), new Vector3(0, 0, 2));
-    GD.Print(myBasis * new Vector3(1, 2, 3)); // Prints (4, 2, 6)
+    GD.Print(myBasis * new Vector3(1, 2, 3)); // Выводит (4, 2, 6)
 
 
 

@@ -909,7 +909,7 @@ Définit les positions initiales pour les particules créées en utilisant :ref:
 - |void| **set_emission_rect_extents**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_emission_rect_extents**\ (\ )
 
-Le rectangle d'émission si :ref:`emission_shape<class_CPUParticles2D_property_emission_shape>` est :ref:`EMISSION_SHAPE_RECTANGLE<class_CPUParticles2D_constant_EMISSION_SHAPE_RECTANGLE>`.
+L'étendue du rectangle si :ref:`emission_shape<class_CPUParticles2D_property_emission_shape>` vaut :ref:`EMISSION_SHAPE_RECTANGLE<class_CPUParticles2D_constant_EMISSION_SHAPE_RECTANGLE>`.
 
 .. rst-class:: classref-item-separator
 

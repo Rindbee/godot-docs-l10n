@@ -9,7 +9,7 @@ BoxContainer
 
 **Heredado por:** :ref:`HBoxContainer<class_HBoxContainer>`, :ref:`VBoxContainer<class_VBoxContainer>`
 
-A container that arranges its child controls horizontally or vertically.
+Un contenedor que organiza sus controles secundarios horizontal o verticalmente.
 
 .. rst-class:: classref-introduction-group
 
@@ -84,7 +84,7 @@ enum **AlignmentMode**: :ref:`🔗<enum_BoxContainer_AlignmentMode>`
 
 :ref:`AlignmentMode<enum_BoxContainer_AlignmentMode>` **ALIGNMENT_BEGIN** = ``0``
 
-The child controls will be arranged at the beginning of the container, i.e. top if orientation is vertical, left if orientation is horizontal (right for RTL layout).
+Los controles secundarios se organizarán al principio del contenedor, es decir, en la parte superior si la orientación es vertical, a la izquierda si la orientación es horizontal (a la derecha para el diseño RTL).
 
 .. _class_BoxContainer_constant_ALIGNMENT_CENTER:
 
@@ -100,7 +100,7 @@ Los controles hijos se centrarán en el contenedor.
 
 :ref:`AlignmentMode<enum_BoxContainer_AlignmentMode>` **ALIGNMENT_END** = ``2``
 
-The child controls will be arranged at the end of the container, i.e. bottom if orientation is vertical, right if orientation is horizontal (left for RTL layout).
+Los controles secundarios se organizarán al final del contenedor, es decir, en la parte inferior si la orientación es vertical, a la derecha si la orientación es horizontal (a la izquierda para el diseño RTL).
 
 .. rst-class:: classref-section-separator
 
@@ -122,7 +122,7 @@ Descripciones de Propiedades
 - |void| **set_alignment**\ (\ value\: :ref:`AlignmentMode<enum_BoxContainer_AlignmentMode>`\ )
 - :ref:`AlignmentMode<enum_BoxContainer_AlignmentMode>` **get_alignment**\ (\ )
 
-The alignment of the container's children (must be one of :ref:`ALIGNMENT_BEGIN<class_BoxContainer_constant_ALIGNMENT_BEGIN>`, :ref:`ALIGNMENT_CENTER<class_BoxContainer_constant_ALIGNMENT_CENTER>`, or :ref:`ALIGNMENT_END<class_BoxContainer_constant_ALIGNMENT_END>`).
+La alineación de los hijos del contenedor (debe ser uno de :ref:`ALIGNMENT_BEGIN<class_BoxContainer_constant_ALIGNMENT_BEGIN>`, :ref:`ALIGNMENT_CENTER<class_BoxContainer_constant_ALIGNMENT_CENTER>`, o :ref:`ALIGNMENT_END<class_BoxContainer_constant_ALIGNMENT_END>`).
 
 .. rst-class:: classref-item-separator
 
@@ -139,9 +139,9 @@ The alignment of the container's children (must be one of :ref:`ALIGNMENT_BEGIN<
 - |void| **set_vertical**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_vertical**\ (\ )
 
-If ``true``, the **BoxContainer** will arrange its children vertically, rather than horizontally.
+Si es ``true``, el **BoxContainer** organizará sus hijos verticalmente, en lugar de horizontalmente.
 
-Can't be changed when using :ref:`HBoxContainer<class_HBoxContainer>` and :ref:`VBoxContainer<class_VBoxContainer>`.
+No se puede cambiar cuando se usan :ref:`HBoxContainer<class_HBoxContainer>` y :ref:`VBoxContainer<class_VBoxContainer>`.
 
 .. rst-class:: classref-section-separator
 
@@ -175,7 +175,7 @@ Descripciones de las propiedades del tema
 
 :ref:`int<class_int>` **separation** = ``4`` :ref:`🔗<class_BoxContainer_theme_constant_separation>`
 
-The space between the **BoxContainer**'s elements, in pixels.
+El espacio entre los elementos del **BoxContainer**, en píxeles.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

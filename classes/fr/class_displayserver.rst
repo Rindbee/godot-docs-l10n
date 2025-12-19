@@ -1841,7 +1841,7 @@ Clavier virtuel multiligne.
 
 :ref:`VirtualKeyboardType<enum_DisplayServer_VirtualKeyboardType>` **KEYBOARD_TYPE_NUMBER** = ``2``
 
-Virtual number keypad, useful for PIN entry.
+Pavé numérique virtuel, utile pour l'entrée d'un PIN.
 
 .. _class_DisplayServer_constant_KEYBOARD_TYPE_NUMBER_DECIMAL:
 
@@ -1873,9 +1873,9 @@ Clavier virtuel avec des touches supplémentaires pour aider à taper les adress
 
 :ref:`VirtualKeyboardType<enum_DisplayServer_VirtualKeyboardType>` **KEYBOARD_TYPE_PASSWORD** = ``6``
 
-Virtual keyboard for entering a password. On most platforms, this should disable autocomplete and autocapitalization.
+Clavier virtuel pour entrer un mot de passe. Sur la plupart des plateformes, cela devrait désactiver l'autocomplétion et l'autocapitalisation.
 
-\ **Note:** This is not supported on Web. Instead, this behaves identically to :ref:`KEYBOARD_TYPE_DEFAULT<class_DisplayServer_constant_KEYBOARD_TYPE_DEFAULT>`.
+\ **Note :** Ceci n'est pas supporté sur le Web. À la place, ceci se comporte de manière identique à :ref:`KEYBOARD_TYPE_DEFAULT<class_DisplayServer_constant_KEYBOARD_TYPE_DEFAULT>`.
 
 .. _class_DisplayServer_constant_KEYBOARD_TYPE_URL:
 
@@ -1883,7 +1883,7 @@ Virtual keyboard for entering a password. On most platforms, this should disable
 
 :ref:`VirtualKeyboardType<enum_DisplayServer_VirtualKeyboardType>` **KEYBOARD_TYPE_URL** = ``7``
 
-Virtual keyboard with additional keys to assist with typing URLs.
+Clavier virtuel avec des touches supplémentaires pour aider à taper des URLs.
 
 .. rst-class:: classref-item-separator
 

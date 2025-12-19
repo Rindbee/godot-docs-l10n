@@ -14,7 +14,7 @@ Un marqueur dans l'éditeur pour une position 2D quelconque.
 Description
 -----------
 
-Generic 2D position hint for editing. It's just like a plain :ref:`Node2D<class_Node2D>`, but it displays as a cross in the 2D editor at all times. You can set the cross' visual size by using the gizmo in the 2D editor while the node is selected.
+Aide de position 2D générique pour l'édition. Il ressemble à un :ref:`Node2D<class_Node2D>` ordinaire, mais il apparaît en permanence comme une croix dans l'éditeur 2D. Vous pouvez définir la taille visuelle de la croix en utilisant le manipulateur dans l'éditeur 2D lorsque le nœud est sélectionné.
 
 .. rst-class:: classref-reftable-group
 
@@ -48,7 +48,7 @@ Descriptions des propriétés
 - |void| **set_gizmo_extents**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_gizmo_extents**\ (\ )
 
-Size of the gizmo cross that appears in the editor.
+Taille de la croix du manipulateur qui apparaît dans l'éditeur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,14 +7,14 @@ ShaderInclude
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A snippet of shader code to be included in a :ref:`Shader<class_Shader>` with ``#include``.
+Un bout de code de shader à inclure dans un :ref:`Shader<class_Shader>` avec ``#include``.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A shader include file, saved with the ``.gdshaderinc`` extension. This class allows you to define a custom shader snippet that can be included in a :ref:`Shader<class_Shader>` by using the preprocessor directive ``#include``, followed by the file path (e.g. ``#include "res://shader_lib.gdshaderinc"``). The snippet doesn't have to be a valid shader on its own.
+Un fichier à inclure dans un shader, enregistré avec l'extension ``.gdshaderinc``. Cette classe vous permet de définir un bout de code de shader personnalisé qui peut être inclus dans un :ref:`Shader<class_Shader>` en utilisant la directive de préprocesseur ``#include``, suivie du chemin de fichier (par exemple ``#include "res://shader_lib.gdshaderinc"``). Le bout de code n'a pas besoin d'être un shader valide seul.
 
 .. rst-class:: classref-introduction-group
 
@@ -55,7 +55,7 @@ Descriptions des propriétés
 - |void| **set_code**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_code**\ (\ )
 
-Returns the code of the shader include file. The returned text is what the user has written, not the full generated code used internally.
+Renvoie le code du fichier à inclure dans le shader. Le texte renvoyé est ce que l'utilisateur a écrit, pas le code entièrement généré utilisé en interne.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

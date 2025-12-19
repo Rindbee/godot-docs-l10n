@@ -7,7 +7,7 @@ CollisionShape3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A node that provides a :ref:`Shape3D<class_Shape3D>` to a :ref:`CollisionObject3D<class_CollisionObject3D>` parent.
+Un nodo que proporciona una :ref:`Shape3D<class_Shape3D>` a un padre :ref:`CollisionObject3D<class_CollisionObject3D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -102,7 +102,7 @@ The collision shape color that is displayed in the editor, or in the running pro
 - |void| **set_enable_debug_fill**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enable_debug_fill**\ (\ )
 
-If ``true``, when the shape is displayed, it will show a solid fill color in addition to its wireframe.
+Si es ``true``, cuando se muestre la forma, mostrará un color de relleno sólido además de su estructura alámbrica.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ If ``true``, when the shape is displayed, it will show a solid fill color in add
 - |void| **set_disabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_disabled**\ (\ )
 
-A disabled collision shape has no effect in the world. This property should be changed with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
+Una forma de colisión desactivada no tiene ningún efecto en el mundo. Esta propiedad debe cambiarse con :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
 
 .. rst-class:: classref-item-separator
 

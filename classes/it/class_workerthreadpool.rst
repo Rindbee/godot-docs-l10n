@@ -235,7 +235,7 @@ Restituisce :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` se è stato p
 
 Restituisce :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` se un'attività con l'ID passato non esiste (forse perché era già stata attesa ed eliminata).
 
-Restituisce :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>` se la chiamata viene effettuata da un'altra attività in esecuzione e, a causa della pianificazione delle attività, c'è il potenziale per un deadlock (ad esempio, l'attività da attendere potrebbe essere a un livello inferiore nella pila delle chiamate e quindi non può procedere). Questa è una situazione avanzata che dovrebbe avere importanza solo quando alcune attività dipendono da altre (nell'implementazione attuale, il caso complicato è un'attività che tenta di attendere una più vecchia).
+Restituisce :ref:`@GlobalScope.ERR_BUSY<class_@GlobalScope_constant_ERR_BUSY>` se la chiamata viene effettuata da un'altra attività in esecuzione e, a causa della pianificazione delle attività, c'è il potenziale per un deadlock (ad esempio, l'attività da attendere potrebbe essere a un livello inferiore nello stack di chiamate e quindi non può procedere). Questa è una situazione avanzata che dovrebbe avere importanza solo quando alcune attività dipendono da altre (nell'implementazione attuale, il caso complicato è un'attività che tenta di attendere una più vecchia).
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,14 +7,14 @@ StyleBoxTexture
 
 **Hérite de :** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A texture-based nine-patch :ref:`StyleBox<class_StyleBox>`.
+Une :ref:`StyleBox<class_StyleBox>` à 9 sections basée sur une texture.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A texture-based nine-patch :ref:`StyleBox<class_StyleBox>`, in a way similar to :ref:`NinePatchRect<class_NinePatchRect>`. This stylebox performs a 3×3 scaling of a texture, where only the center cell is fully stretched. This makes it possible to design bordered styles regardless of the stylebox's size.
+Une :ref:`StyleBox<class_StyleBox>` à 9 sections basée sur une texture, d'une manière semblable à :ref:`NinePatchRect<class_NinePatchRect>`. Cette stylebox effectue un mise à l'échelle 3×3 d'une texture, où seule la cellule centrale est entièrement étirée. Cela permet de concevoir des styles à bordures indépendamment de la taille de la stylebox.
 
 .. rst-class:: classref-reftable-group
 
@@ -105,7 +105,7 @@ enum **AxisStretchMode**: :ref:`🔗<enum_StyleBoxTexture_AxisStretchMode>`
 
 :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` **AXIS_STRETCH_MODE_TILE** = ``1``
 
-Repeats the stylebox's texture to match the stylebox's size according to the nine-patch system.
+Répète la texture de la stylebox pour correspondre à la taille de la stylebox selon le système à 9 sections.
 
 .. _class_StyleBoxTexture_constant_AXIS_STRETCH_MODE_TILE_FIT:
 
@@ -113,7 +113,7 @@ Repeats the stylebox's texture to match the stylebox's size according to the nin
 
 :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` **AXIS_STRETCH_MODE_TILE_FIT** = ``2``
 
-Repeats the stylebox's texture to match the stylebox's size according to the nine-patch system. Unlike :ref:`AXIS_STRETCH_MODE_TILE<class_StyleBoxTexture_constant_AXIS_STRETCH_MODE_TILE>`, the texture may be slightly stretched to make the nine-patch texture tile seamlessly.
+Répète la texture de la stylebox pour correspondre à la taille de la stylebox selon le système à 9 sections. Contrairement à :ref:`AXIS_STRETCH_MODE_TILE<class_StyleBoxTexture_constant_AXIS_STRETCH_MODE_TILE>`, la texture peut être légèrement étirée pour répéter la texture à 9 sections sans coutures.
 
 .. rst-class:: classref-section-separator
 
@@ -135,7 +135,7 @@ Descriptions des propriétés
 - |void| **set_h_axis_stretch_mode**\ (\ value\: :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>`\ )
 - :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` **get_h_axis_stretch_mode**\ (\ )
 
-Controls how the stylebox's texture will be stretched or tiled horizontally.
+Contrôle la façon dont la texture de la stylebox sera étirée ou répétée horizontalement.
 
 .. rst-class:: classref-item-separator
 
@@ -152,7 +152,7 @@ Controls how the stylebox's texture will be stretched or tiled horizontally.
 - |void| **set_v_axis_stretch_mode**\ (\ value\: :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>`\ )
 - :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` **get_v_axis_stretch_mode**\ (\ )
 
-Controls how the stylebox's texture will be stretched or tiled vertically.
+Contrôle la façon dont la texture de la stylebox sera étirée ou répétée verticalement.
 
 .. rst-class:: classref-item-separator
 
@@ -169,7 +169,7 @@ Controls how the stylebox's texture will be stretched or tiled vertically.
 - |void| **set_draw_center**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_draw_center_enabled**\ (\ )
 
-If ``true``, the nine-patch texture's center tile will be drawn.
+Si ``true``, la tuile centrale de la texture à neuf sections sera dessinée.
 
 .. rst-class:: classref-item-separator
 
@@ -271,11 +271,11 @@ Module la couleur de la texture lorsque cette boîte de style est dessinée.
 - |void| **set_region_rect**\ (\ value\: :ref:`Rect2<class_Rect2>`\ )
 - :ref:`Rect2<class_Rect2>` **get_region_rect**\ (\ )
 
-The region to use from the :ref:`texture<class_StyleBoxTexture_property_texture>`.
+La région à utiliser de :ref:`texture<class_StyleBoxTexture_property_texture>`.
 
-This is equivalent to first wrapping the :ref:`texture<class_StyleBoxTexture_property_texture>` in an :ref:`AtlasTexture<class_AtlasTexture>` with the same region.
+Cela est équivalent à wrapper la :ref:`texture<class_StyleBoxTexture_property_texture>` dans une :ref:`AtlasTexture<class_AtlasTexture>` avec la même région.
 
-If empty (``Rect2(0, 0, 0, 0)``), the whole :ref:`texture<class_StyleBoxTexture_property_texture>` is used.
+Si vide (``Rect2(0, 0, 0, 0)``), la :ref:`texture<class_StyleBoxTexture_property_texture>` entière est utilisée.
 
 .. rst-class:: classref-item-separator
 
@@ -393,7 +393,7 @@ Descriptions des méthodes
 
 :ref:`float<class_float>` **get_expand_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBoxTexture_method_get_expand_margin>`
 
-Returns the expand margin size of the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Renvoie la taille de la marge d'extension du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -405,7 +405,7 @@ Returns the expand margin size of the specified :ref:`Side<enum_@GlobalScope_Sid
 
 :ref:`float<class_float>` **get_texture_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBoxTexture_method_get_texture_margin>`
 
-Returns the margin size of the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Renvoie la taille de la marge du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -417,7 +417,7 @@ Returns the margin size of the specified :ref:`Side<enum_@GlobalScope_Side>`.
 
 |void| **set_expand_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxTexture_method_set_expand_margin>`
 
-Sets the expand margin to ``size`` pixels for the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Définit la marge d'élargissement à ``size`` pixels pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -429,7 +429,7 @@ Sets the expand margin to ``size`` pixels for the specified :ref:`Side<enum_@Glo
 
 |void| **set_expand_margin_all**\ (\ size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxTexture_method_set_expand_margin_all>`
 
-Sets the expand margin to ``size`` pixels for all sides.
+Définit la marge d'élargissement à ``size`` pixels pour tous les côtés.
 
 .. rst-class:: classref-item-separator
 
@@ -441,7 +441,7 @@ Sets the expand margin to ``size`` pixels for all sides.
 
 |void| **set_texture_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxTexture_method_set_texture_margin>`
 
-Sets the margin to ``size`` pixels for the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Définit la marge à ``size`` pixels pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -453,7 +453,7 @@ Sets the margin to ``size`` pixels for the specified :ref:`Side<enum_@GlobalScop
 
 |void| **set_texture_margin_all**\ (\ size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxTexture_method_set_texture_margin_all>`
 
-Sets the margin to ``size`` pixels for all sides.
+Définit la marge à ``size`` pixels pour tous les côtés.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -64,9 +64,9 @@ Señales
 
 **extension_loaded**\ (\ extension\: :ref:`GDExtension<class_GDExtension>`\ ) :ref:`🔗<class_GDExtensionManager_signal_extension_loaded>`
 
-Emitted after the editor has finished loading a new extension.
+Emitida después de que el editor ha terminado de cargar una nueva extensión.
 
-\ **Note:** This signal is only emitted in editor builds.
+\ **Nota:** Esta señal solo se emite en las compilaciones del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -78,9 +78,9 @@ Emitted after the editor has finished loading a new extension.
 
 **extension_unloading**\ (\ extension\: :ref:`GDExtension<class_GDExtension>`\ ) :ref:`🔗<class_GDExtensionManager_signal_extension_unloading>`
 
-Emitted before the editor starts unloading an extension.
+Emitida antes de que el editor comience a descargar una extensión.
 
-\ **Note:** This signal is only emitted in editor builds.
+\ **Nota:** Esta señal solo se emite en las compilaciones del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -92,7 +92,7 @@ Emitted before the editor starts unloading an extension.
 
 **extensions_reloaded**\ (\ ) :ref:`🔗<class_GDExtensionManager_signal_extensions_reloaded>`
 
-Emitted after the editor has finished reloading one or more extensions.
+Emitida después de que el editor ha terminado de recargar una o más extensiones.
 
 .. rst-class:: classref-section-separator
 
@@ -164,7 +164,7 @@ Descripciones de Métodos
 
 :ref:`GDExtension<class_GDExtension>` **get_extension**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_GDExtensionManager_method_get_extension>`
 
-Returns the :ref:`GDExtension<class_GDExtension>` at the given file ``path``, or ``null`` if it has not been loaded or does not exist.
+Devuelve la :ref:`GDExtension<class_GDExtension>` en la ``path`` del archivo dada, o ``null`` si no se ha cargado o no existe.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Returns the :ref:`GDExtension<class_GDExtension>` at the given file ``path``, or
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_loaded_extensions**\ (\ ) |const| :ref:`🔗<class_GDExtensionManager_method_get_loaded_extensions>`
 
-Returns the file paths of all currently loaded extensions.
+Devuelve las rutas de archivo de todas las extensiones cargadas actualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -188,7 +188,7 @@ Returns the file paths of all currently loaded extensions.
 
 :ref:`bool<class_bool>` **is_extension_loaded**\ (\ path\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_GDExtensionManager_method_is_extension_loaded>`
 
-Returns ``true`` if the extension at the given file ``path`` has already been loaded successfully. See also :ref:`get_loaded_extensions()<class_GDExtensionManager_method_get_loaded_extensions>`.
+Devuelve ``true`` si la extensión en la ``path`` del archivo dada ya se ha cargado correctamente. Véase también :ref:`get_loaded_extensions()<class_GDExtensionManager_method_get_loaded_extensions>`.
 
 .. rst-class:: classref-item-separator
 
@@ -200,7 +200,7 @@ Returns ``true`` if the extension at the given file ``path`` has already been lo
 
 :ref:`LoadStatus<enum_GDExtensionManager_LoadStatus>` **load_extension**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_GDExtensionManager_method_load_extension>`
 
-Loads an extension by absolute file path. The ``path`` needs to point to a valid :ref:`GDExtension<class_GDExtension>`. Returns :ref:`LOAD_STATUS_OK<class_GDExtensionManager_constant_LOAD_STATUS_OK>` if successful.
+Carga una extensión por la ruta de archivo absoluta. La ``path`` debe apuntar a una :ref:`GDExtension<class_GDExtension>` válida. Devuelve :ref:`LOAD_STATUS_OK<class_GDExtensionManager_constant_LOAD_STATUS_OK>` si tiene éxito.
 
 .. rst-class:: classref-item-separator
 
@@ -212,9 +212,9 @@ Loads an extension by absolute file path. The ``path`` needs to point to a valid
 
 :ref:`LoadStatus<enum_GDExtensionManager_LoadStatus>` **reload_extension**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_GDExtensionManager_method_reload_extension>`
 
-Reloads the extension at the given file path. The ``path`` needs to point to a valid :ref:`GDExtension<class_GDExtension>`, otherwise this method may return either :ref:`LOAD_STATUS_NOT_LOADED<class_GDExtensionManager_constant_LOAD_STATUS_NOT_LOADED>` or :ref:`LOAD_STATUS_FAILED<class_GDExtensionManager_constant_LOAD_STATUS_FAILED>`.
+Recarga la extensión en la ruta de archivo dada. La ``path`` debe apuntar a una :ref:`GDExtension<class_GDExtension>` válida, de lo contrario, este método puede devolver :ref:`LOAD_STATUS_NOT_LOADED<class_GDExtensionManager_constant_LOAD_STATUS_NOT_LOADED>` o :ref:`LOAD_STATUS_FAILED<class_GDExtensionManager_constant_LOAD_STATUS_FAILED>`.
 
-\ **Note:** You can only reload extensions in the editor. In release builds, this method always fails and returns :ref:`LOAD_STATUS_FAILED<class_GDExtensionManager_constant_LOAD_STATUS_FAILED>`.
+\ **Nota:** Solo puedes recargar extensiones en el editor. En las compilaciones de lanzamiento, este método siempre falla y devuelve :ref:`LOAD_STATUS_FAILED<class_GDExtensionManager_constant_LOAD_STATUS_FAILED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -226,7 +226,7 @@ Reloads the extension at the given file path. The ``path`` needs to point to a v
 
 :ref:`LoadStatus<enum_GDExtensionManager_LoadStatus>` **unload_extension**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_GDExtensionManager_method_unload_extension>`
 
-Unloads an extension by file path. The ``path`` needs to point to an already loaded :ref:`GDExtension<class_GDExtension>`, otherwise this method returns :ref:`LOAD_STATUS_NOT_LOADED<class_GDExtensionManager_constant_LOAD_STATUS_NOT_LOADED>`.
+Descarga una extensión por la ruta del archivo. La ``path`` debe apuntar a una :ref:`GDExtension<class_GDExtension>` ya cargada; de lo contrario, este método devuelve :ref:`LOAD_STATUS_NOT_LOADED<class_GDExtensionManager_constant_LOAD_STATUS_NOT_LOADED>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

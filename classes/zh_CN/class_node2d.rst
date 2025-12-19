@@ -391,7 +391,7 @@ Node2D
 
 |void| **move_local_x**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_x>`
 
-基于 :ref:`Node._process()<class_Node_private_method__process>` 的 ``delta``\ ，在节点的 X 轴上应用局部平移。如果 ``scaled`` 为 ``false``\ ，则对移动进行归一化。
+Applies a local translation on the node's X axis with the amount specified in ``delta``. If ``scaled`` is ``false``, normalizes the movement to occur independently of the node's :ref:`scale<class_Node2D_property_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Node2D
 
 |void| **move_local_y**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_y>`
 
-基于 :ref:`Node._process()<class_Node_private_method__process>` 的 ``delta``\ ，在节点的 Y 轴上应用局部平移。如果 ``scaled`` 为 ``false``\ ，则对移动进行归一化。
+Applies a local translation on the node's Y axis with the amount specified in ``delta``. If ``scaled`` is ``false``, normalizes the movement to occur independently of the node's :ref:`scale<class_Node2D_property_scale>`.
 
 .. rst-class:: classref-item-separator
 

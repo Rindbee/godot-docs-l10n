@@ -7,7 +7,7 @@ HBoxContainer
 
 **Hérite de :** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorResourcePicker<class_EditorResourcePicker>`, :ref:`EditorToaster<class_EditorToaster>`, :ref:`OpenXRInteractionProfileEditorBase<class_OpenXRInteractionProfileEditorBase>`
+**Hérité par :** :ref:`EditorResourcePicker<class_EditorResourcePicker>`, :ref:`EditorToaster<class_EditorToaster>`, :ref:`OpenXRInteractionProfileEditorBase<class_OpenXRInteractionProfileEditorBase>`
 
 Un conteneur qui arrange ses contrôles enfant horizontalement.
 

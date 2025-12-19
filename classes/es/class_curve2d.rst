@@ -335,7 +335,7 @@ Sets the position of the control point leading to the vertex ``idx``. If the ind
 
 |void| **set_point_out**\ (\ idx\: :ref:`int<class_int>`, position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Curve2D_method_set_point_out>`
 
-Sets the position of the control point leading out of the vertex ``idx``. If the index is out of bounds, the function sends an error to the console. The position is relative to the vertex.
+Establece la posición del punto de control que sale del vértice ``idx``. Si el índice está fuera de los límites, la función envía un error a la consola. La posición es relativa al vértice.
 
 .. rst-class:: classref-item-separator
 
@@ -347,7 +347,7 @@ Sets the position of the control point leading out of the vertex ``idx``. If the
 
 |void| **set_point_position**\ (\ idx\: :ref:`int<class_int>`, position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Curve2D_method_set_point_position>`
 
-Sets the position for the vertex ``idx``. If the index is out of bounds, the function sends an error to the console.
+Establece la posición para el vértice ``idx``. Si el índice está fuera de los límites, la función envía un error a la consola.
 
 .. rst-class:: classref-item-separator
 

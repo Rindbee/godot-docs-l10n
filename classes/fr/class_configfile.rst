@@ -14,108 +14,108 @@ Classe d’aide pour gérer des fichiers de style INI.
 Description
 -----------
 
-This helper class can be used to store :ref:`Variant<class_Variant>` values on the filesystem using INI-style formatting. The stored values are identified by a section and a key:
+Cette classe d'aide peut être utilisée pour enregistrer des valeurs de type :ref:`Variant<class_Variant>` sur le système de fichier au format INI. Les valeurs enregistrées sont identifiées par une section et une clé :
 
 .. code:: text
 
     [section]
-    some_key=42
-    string_example="Hello World3D!"
-    a_vector=Vector3(1, 0, 2)
+    une_clef=42
+    exemple_chaine="Bonjour le monde 3d !"
+    un_vecteur=Vector3(1, 0, 2)
 
-The stored data can be saved to or parsed from a file, though ConfigFile objects can also be used directly without accessing the filesystem.
+Les données stockées peuvent être enregistrées dans un fichier ou chargées depuis un fichier, mais aussi par les objets ConfigFile qui peuvent être utilisés directement sans accéder au système de fichiers.
 
-The following example shows how to create a simple **ConfigFile** and save it on disc:
+L'exemple suivant montre comme créer un simple **ConfigFile** et l'enregistrer sur le disque :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Create new ConfigFile object.
+    # Créer un nouvel objet ConfigFile.
     var config = ConfigFile.new()
 
-    # Store some values.
-    config.set_value("Player1", "player_name", "Steve")
-    config.set_value("Player1", "best_score", 10)
-    config.set_value("Player2", "player_name", "V3geta")
-    config.set_value("Player2", "best_score", 9001)
+    # Stocker quelques valeurs.
+    config.set_value("Joueur1", "nom_joueur", "Jean")
+    config.set_value("Joueur1", "meilleur_score", 10)
+    config.set_value("Joueur2", "nom_joueur", "V3geta")
+    config.set_value("Joueur2", "meilleur_score", 9001)
 
-    # Save it to a file (overwrite if already exists).
+    # L'enregistrer sur dans un fichier (en écrasant le fichier déjà existant s'il y en a un).
     config.save("user://scores.cfg")
 
  .. code-tab:: csharp
 
-    // Create new ConfigFile object.
+    // Créer un nouvel objet ConfigFile.
     var config = new ConfigFile();
 
-    // Store some values.
-    config.SetValue("Player1", "player_name", "Steve");
-    config.SetValue("Player1", "best_score", 10);
-    config.SetValue("Player2", "player_name", "V3geta");
-    config.SetValue("Player2", "best_score", 9001);
+    // Stocker quelques valeurs.
+    config.set_value("Joueur1", "nom_joueur", "Jean")
+    config.set_value("Joueur1", "meilleur_score", 10)
+    config.set_value("Joueur2", "nom_joueur", "V3geta")
+    config.set_value("Joueur2", "meilleur_score", 9001)
 
-    // Save it to a file (overwrite if already exists).
+    // L'enregistrer sur dans un fichier (en écrasant le fichier déjà existant s'il y en a un).
     config.Save("user://scores.cfg");
 
 
 
-This example shows how the above file could be loaded:
+Cet exemple montre comme le fichier au-dessus peut-être chargé :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var score_data = {}
+    var donnees_score = {}
     var config = ConfigFile.new()
 
-    # Load data from a file.
+    # Charger les données depuis le fichier.
     var err = config.load("user://scores.cfg")
 
-    # If the file didn't load, ignore it.
-    if err != OK:
+    # Si le fichier n'a pu être chargé, ignorer la suite.
+    if err != OK:
         return
 
-    # Iterate over all sections.
-    for player in config.get_sections():
-        # Fetch the data for each section.
-        var player_name = config.get_value(player, "player_name")
-        var player_score = config.get_value(player, "best_score")
-        score_data[player_name] = player_score
+    # Itérer sur les sections.
+    for joueur in config.get_sections():
+        # Récupérer les données de chaque section.
+        var nom_joueur = config.get_value(joueur, "nom_joueur")
+        var score_joueur = config.get_value(joueur, "meilleur_score")
+        donnees_score[nom_joueur] = score_joueur
 
  .. code-tab:: csharp
 
-    var score_data = new Godot.Collections.Dictionary();
+    var donnees_score = new Godot.Collections.Dictionary();
     var config = new ConfigFile();
 
-    // Load data from a file.
+    // Charger les données depuis le fichier.
     Error err = config.Load("user://scores.cfg");
 
-    // If the file didn't load, ignore it.
-    if (err != Error.Ok)
+    // Si le fichier n'a pu être chargé, ignorer la suite.
+    if (err != Error.Ok)
     {
         return;
     }
 
-    // Iterate over all sections.
-    foreach (String player in config.GetSections())
+    // Itérer sur les sections.
+    foreach (String joueur in config.GetSections())
     {
-        // Fetch the data for each section.
-        var player_name = (String)config.GetValue(player, "player_name");
-        var player_score = (int)config.GetValue(player, "best_score");
-        score_data[player_name] = player_score;
+        // Récupérer les données de chaque section.
+        var nom_joueur = (String)config.GetValue(joueur, "nom_joueur");
+        var score_joueur = (int)config.GetValue(joueur, "meilleur_score");
+        score_data[nom_joueur] = score_joueur;
     }
 
 
 
-Any operation that mutates the ConfigFile such as :ref:`set_value()<class_ConfigFile_method_set_value>`, :ref:`clear()<class_ConfigFile_method_clear>`, or :ref:`erase_section()<class_ConfigFile_method_erase_section>`, only changes what is loaded in memory. If you want to write the change to a file, you have to save the changes with :ref:`save()<class_ConfigFile_method_save>`, :ref:`save_encrypted()<class_ConfigFile_method_save_encrypted>`, or :ref:`save_encrypted_pass()<class_ConfigFile_method_save_encrypted_pass>`.
+Toutes les opérations qui modifient le ConfigFile comme :ref:`set_value()<class_ConfigFile_method_set_value>`, :ref:`clear()<class_ConfigFile_method_clear>`, ou :ref:`erase_section()<class_ConfigFile_method_erase_section>`, ne changent que les données en mémoire. Si vous voulez aussi modifier le fichier, vous devez sauvegarder les changements avec :ref:`save()<class_ConfigFile_method_save>`, :ref:`save_encrypted()<class_ConfigFile_method_save_encrypted>`, ou :ref:`save_encrypted_pass()<class_ConfigFile_method_save_encrypted_pass>`.
 
-Keep in mind that section and property names can't contain spaces. Anything after a space will be ignored on save and on load.
+Notez que les noms des sections et des propriétés ne peuvent contenir des espaces. Tous les caractères après un espace seront ignorés à la sauvegarde et au chargement.
 
-ConfigFiles can also contain manually written comment lines starting with a semicolon (``;``). Those lines will be ignored when parsing the file. Note that comments will be lost when saving the ConfigFile. This can still be useful for dedicated server configuration files, which are typically never overwritten without explicit user action.
+Les ConfigFiles peuvent aussi contenir des lignes de commentaire écrites manuellement qui doivent commencer par un point-virgule (``;``). Ces lignes sont ignorées durant le parsing d'un fichier. À noter que ces commentaires seront perdus durant l'enregistrement d'un ConfigFile. Ils peuvent toujours servir pour les fichiers de configuration sur les serveurs, qui ne sont typiquement jamais modifiés sans action explicite de l'utilisateur.
 
-\ **Note:** The file extension given to a ConfigFile does not have any impact on its formatting or behavior. By convention, the ``.cfg`` extension is used here, but any other extension such as ``.ini`` is also valid. Since neither ``.cfg`` nor ``.ini`` are standardized, Godot's ConfigFile formatting may differ from files written by other programs.
+\ **Note :** L'extension du nom de fichier donné à un ConfigFile n'a aucun impact sur son format ou son comportement. Par convention, l'extension ``.cfg`` est utilisée ici, mais n'importe quelle autre extension comme ``.ini`` est aussi valide. Comme ni ``.cfg`` ni ``.ini`` ne sont standardisés, le format des ConfigFile de Godot peuvent différer de ceux écrits par d'autres programmes.
 
 .. rst-class:: classref-reftable-group
 

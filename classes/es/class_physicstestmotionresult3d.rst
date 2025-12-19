@@ -189,7 +189,7 @@ Devuelve el punto de colisión en coordenadas globales dado un índice de colisi
 
 :ref:`float<class_float>` **get_collision_safe_fraction**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult3D_method_get_collision_safe_fraction>`
 
-Returns the maximum fraction of the motion that can occur without a collision, between ``0`` and ``1``.
+Devuelve la fracción máxima del movimiento que puede ocurrir sin una colisión, entre ``0`` y ``1``.
 
 .. rst-class:: classref-item-separator
 
@@ -201,7 +201,7 @@ Returns the maximum fraction of the motion that can occur without a collision, b
 
 :ref:`float<class_float>` **get_collision_unsafe_fraction**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult3D_method_get_collision_unsafe_fraction>`
 
-Returns the minimum fraction of the motion needed to collide, if a collision occurred, between ``0`` and ``1``.
+Devuelve la fracción mínima del movimiento necesaria para colisionar, si se produjo una colisión, entre ``0`` y ``1``.
 
 .. rst-class:: classref-item-separator
 

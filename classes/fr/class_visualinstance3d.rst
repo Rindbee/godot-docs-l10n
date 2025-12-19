@@ -7,7 +7,7 @@ VisualInstance3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Decal<class_Decal>`, :ref:`FogVolume<class_FogVolume>`, :ref:`GeometryInstance3D<class_GeometryInstance3D>`, :ref:`GPUParticlesAttractor3D<class_GPUParticlesAttractor3D>`, :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>`, :ref:`Light3D<class_Light3D>`, :ref:`LightmapGI<class_LightmapGI>`, :ref:`OccluderInstance3D<class_OccluderInstance3D>`, :ref:`OpenXRVisibilityMask<class_OpenXRVisibilityMask>`, :ref:`ReflectionProbe<class_ReflectionProbe>`, :ref:`RootMotionView<class_RootMotionView>`, :ref:`VisibleOnScreenNotifier3D<class_VisibleOnScreenNotifier3D>`, :ref:`VoxelGI<class_VoxelGI>`
+**Hérité par :** :ref:`Decal<class_Decal>`, :ref:`FogVolume<class_FogVolume>`, :ref:`GeometryInstance3D<class_GeometryInstance3D>`, :ref:`GPUParticlesAttractor3D<class_GPUParticlesAttractor3D>`, :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>`, :ref:`Light3D<class_Light3D>`, :ref:`LightmapGI<class_LightmapGI>`, :ref:`OccluderInstance3D<class_OccluderInstance3D>`, :ref:`OpenXRVisibilityMask<class_OpenXRVisibilityMask>`, :ref:`ReflectionProbe<class_ReflectionProbe>`, :ref:`RootMotionView<class_RootMotionView>`, :ref:`VisibleOnScreenNotifier3D<class_VisibleOnScreenNotifier3D>`, :ref:`VoxelGI<class_VoxelGI>`
 
 Le parent de tous les nœuds visuels 3D.
 
@@ -16,7 +16,7 @@ Le parent de tous les nœuds visuels 3D.
 Description
 -----------
 
-The **VisualInstance3D** is used to connect a resource to a visual representation. All visual 3D nodes inherit from the **VisualInstance3D**. In general, you should not access the **VisualInstance3D** properties directly as they are accessed and managed by the nodes that inherit from **VisualInstance3D**. **VisualInstance3D** is the node representation of the :ref:`RenderingServer<class_RenderingServer>` instance.
+La **VisualInstance3D** est utilisée pour connecter une ressource à une représentation visuelle. Tous les nœuds 3D visuels héritent de **VisualInstance3D**. En général, vous ne devriez pas accéder aux propriétés de la **VisualInstance3D** directement car elles sont accédées et gérées par les nœuds qui héritent de **VisualInstance3D**. **VisualInstance3D** est la représentation en nœud de l'instance :ref:`RenderingServer<class_RenderingServer>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -103,7 +103,7 @@ To adjust :ref:`layers<class_VisualInstance3D_property_layers>` more easily usin
 - |void| **set_sorting_offset**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sorting_offset**\ (\ )
 
-The amount by which the depth of this **VisualInstance3D** will be adjusted when sorting by depth. Uses the same units as the engine (which are typically meters). Adjusting it to a higher value will make the **VisualInstance3D** reliably draw on top of other **VisualInstance3D**\ s that are otherwise positioned at the same spot. To ensure it always draws on top of other objects around it (not positioned at the same spot), set the value to be greater than the distance between this **VisualInstance3D** and the other nearby **VisualInstance3D**\ s.
+La quantité par laquelle la profondeur de cette **VisualInstance3D** sera ajustée lors du tri par profondeur. Utilise les mêmes unités que le moteur (qui sont généralement des mètres). L'ajuster à une valeur plus élevée fera que les **VisualInstance3D** se dessinent de manière fiable sur les autres **VisualInstance3D** qui sont sinon positionnées au même endroit. Pour s'assurer qu'elle se dessine toujours au-dessus des autres objets autour d'elle (non positionnés au même endroit), définissez la valeur pour qu'elle soit supérieure à la distance entre cette **VisualInstance3D** et les autres **VisualInstance3D** à proximité.
 
 .. rst-class:: classref-item-separator
 
@@ -120,9 +120,9 @@ The amount by which the depth of this **VisualInstance3D** will be adjusted when
 - |void| **set_sorting_use_aabb_center**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_sorting_use_aabb_center**\ (\ )
 
-If ``true``, the object is sorted based on the :ref:`AABB<class_AABB>` center. The object will be sorted based on the global position otherwise.
+Si ``true``, l'objet est trié en fonction du centre de l':ref:`AABB<class_AABB>`. L'objet sera trié en fonction de la position globale sinon.
 
-The :ref:`AABB<class_AABB>` center based sorting is generally more accurate for 3D models. The position based sorting instead allows to better control the drawing order when working with :ref:`GPUParticles3D<class_GPUParticles3D>` and :ref:`CPUParticles3D<class_CPUParticles3D>`.
+Le tri basé sur le centre de la :ref:`AABB<class_AABB>` est généralement plus précis pour les modèles 3D. Le tri basé sur la position permet à la place de mieux contrôler l'ordre de dessin lorsqu'on travaille avec :ref:`GPUParticles3D<class_GPUParticles3D>` et :ref:`CPUParticles3D<class_CPUParticles3D>`.
 
 .. rst-class:: classref-section-separator
 
@@ -153,7 +153,7 @@ Descriptions des méthodes
 
 :ref:`AABB<class_AABB>` **get_aabb**\ (\ ) |const| :ref:`🔗<class_VisualInstance3D_method_get_aabb>`
 
-Returns the :ref:`AABB<class_AABB>` (also known as the bounding box) for this **VisualInstance3D**.
+Renvoie la :ref:`AABB<class_AABB>` (aussi connue comme la boîte délimitante) pour cette **VisualInstance3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -165,7 +165,7 @@ Returns the :ref:`AABB<class_AABB>` (also known as the bounding box) for this **
 
 :ref:`RID<class_RID>` **get_base**\ (\ ) |const| :ref:`🔗<class_VisualInstance3D_method_get_base>`
 
-Returns the RID of the resource associated with this **VisualInstance3D**. For example, if the Node is a :ref:`MeshInstance3D<class_MeshInstance3D>`, this will return the RID of the associated :ref:`Mesh<class_Mesh>`.
+Renvoie le RID de la ressource associée avec cette **VisualInstance3D**. Par exemple, si le nœud est une :ref:`MeshInstance3D<class_MeshInstance3D>`, cela renvoie le RID du :ref:`Mesh<class_Mesh>` associé.
 
 .. rst-class:: classref-item-separator
 
@@ -177,7 +177,7 @@ Returns the RID of the resource associated with this **VisualInstance3D**. For e
 
 :ref:`RID<class_RID>` **get_instance**\ (\ ) |const| :ref:`🔗<class_VisualInstance3D_method_get_instance>`
 
-Returns the RID of this instance. This RID is the same as the RID returned by :ref:`RenderingServer.instance_create()<class_RenderingServer_method_instance_create>`. This RID is needed if you want to call :ref:`RenderingServer<class_RenderingServer>` functions directly on this **VisualInstance3D**.
+Renvoie le RID de cette instance. Ce RID est le même que le RID renvoyé par :ref:`RenderingServer.instance_create()<class_RenderingServer_method_instance_create>`. Ce RID est nécessaire si vous voulez appeler les fonctions de :ref:`RenderingServer<class_RenderingServer>` directement sur cette **VisualInstance3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -189,7 +189,7 @@ Returns the RID of this instance. This RID is the same as the RID returned by :r
 
 :ref:`bool<class_bool>` **get_layer_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_VisualInstance3D_method_get_layer_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`layers<class_VisualInstance3D_property_layers>` is enabled, given a ``layer_number`` between 1 and 20.
+Renvoie si la couche spécifiée de :ref:`layers<class_VisualInstance3D_property_layers>` est activée ou non, compte tenu d'un numéro de couche ``layer_number`` entre 1 et 20.
 
 .. rst-class:: classref-item-separator
 
@@ -201,7 +201,7 @@ Returns whether or not the specified layer of the :ref:`layers<class_VisualInsta
 
 |void| **set_base**\ (\ base\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_VisualInstance3D_method_set_base>`
 
-Sets the resource that is instantiated by this **VisualInstance3D**, which changes how the engine handles the **VisualInstance3D** under the hood. Equivalent to :ref:`RenderingServer.instance_set_base()<class_RenderingServer_method_instance_set_base>`.
+Définit la ressource qui est instanciée par cette **VisualInstance3D**, ce qui modifie la façon dont le moteur gère la **VisualInstance3D** en interne. Équivalent à :ref:`RenderingServer.instance_set_base()<class_RenderingServer_method_instance_set_base>`.
 
 .. rst-class:: classref-item-separator
 
@@ -213,7 +213,7 @@ Sets the resource that is instantiated by this **VisualInstance3D**, which chang
 
 |void| **set_layer_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_VisualInstance3D_method_set_layer_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`layers<class_VisualInstance3D_property_layers>`, given a ``layer_number`` between 1 and 20.
+Selon ``value``, active ou désactive la couche spécifiée dans :ref:`layers<class_VisualInstance3D_property_layers>`, selon un numéro de couche ``layer_number`` entre 1 et 20.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

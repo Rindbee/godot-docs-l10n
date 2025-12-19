@@ -14,13 +14,13 @@ Una articulación utilizada con :ref:`Skeleton2D<class_Skeleton2D>` para control
 Descripción
 ----------------------
 
-A hierarchy of **Bone2D**\ s can be bound to a :ref:`Skeleton2D<class_Skeleton2D>` to control and animate other :ref:`Node2D<class_Node2D>` nodes.
+Puedes usar una jerarquía de **Bone2D** unida a un :ref:`Skeleton2D<class_Skeleton2D>` para controlar y animar otros nodos :ref:`Node2D<class_Node2D>`.
 
-You can use **Bone2D** and :ref:`Skeleton2D<class_Skeleton2D>` nodes to animate 2D meshes created with the :ref:`Polygon2D<class_Polygon2D>` UV editor.
+Puedes usar nodos **Bone2D** y :ref:`Skeleton2D<class_Skeleton2D>` para animar mallas 2D creadas con el editor UV de :ref:`Polygon2D<class_Polygon2D>`.
 
-Each bone has a :ref:`rest<class_Bone2D_property_rest>` transform that you can reset to with :ref:`apply_rest()<class_Bone2D_method_apply_rest>`. These rest poses are relative to the bone's parent.
+Cada hueso tiene una transformación :ref:`rest<class_Bone2D_property_rest>` a la que puedes restablecer con :ref:`apply_rest()<class_Bone2D_method_apply_rest>`. Estas poses de reposo son relativas al padre del hueso.
 
-If in the editor, you can set the rest pose of an entire skeleton using a menu option, from the code, you need to iterate over the bones to set their individual rest poses.
+Si estás en el editor, puedes establecer la pose de reposo de un esqueleto entero usando una opción del menú, desde el código, necesitas iterar sobre los huesos para establecer sus poses de reposo individuales.
 
 .. rst-class:: classref-reftable-group
 
@@ -99,7 +99,7 @@ Descripciones de Métodos
 
 |void| **apply_rest**\ (\ ) :ref:`🔗<class_Bone2D_method_apply_rest>`
 
-Resets the bone to the rest pose. This is equivalent to setting :ref:`Node2D.transform<class_Node2D_property_transform>` to :ref:`rest<class_Bone2D_property_rest>`.
+Restablece el hueso a la pose de reposo. Esto es equivalente a establecer :ref:`Node2D.transform<class_Node2D_property_transform>` a :ref:`rest<class_Bone2D_property_rest>`.
 
 .. rst-class:: classref-item-separator
 
@@ -111,7 +111,7 @@ Resets the bone to the rest pose. This is equivalent to setting :ref:`Node2D.tra
 
 :ref:`bool<class_bool>` **get_autocalculate_length_and_angle**\ (\ ) |const| :ref:`🔗<class_Bone2D_method_get_autocalculate_length_and_angle>`
 
-Returns whether this **Bone2D** is going to autocalculate its length and bone angle using its first **Bone2D** child node, if one exists. If there are no **Bone2D** children, then it cannot autocalculate these values and will print a warning.
+Devuelve si este **Bone2D** va a calcular automáticamente su longitud y ángulo del hueso usando su primer nodo hijo **Bone2D**, si existe uno. Si no hay hijos **Bone2D**, no puede calcular automáticamente estos valores e imprimirá una advertencia.
 
 .. rst-class:: classref-item-separator
 
@@ -123,9 +123,9 @@ Returns whether this **Bone2D** is going to autocalculate its length and bone an
 
 :ref:`float<class_float>` **get_bone_angle**\ (\ ) |const| :ref:`🔗<class_Bone2D_method_get_bone_angle>`
 
-Returns the angle of the bone in the **Bone2D**.
+Devuelve el ángulo del hueso en el **Bone2D**.
 
-\ **Note:** This is different from the **Bone2D**'s rotation. The bone's angle is the rotation of the bone shown by the gizmo, which is unaffected by the **Bone2D**'s :ref:`Node2D.transform<class_Node2D_property_transform>`.
+\ **Nota:** Esto es diferente de la rotación del **Bone2D**. El ángulo del hueso es la rotación del hueso que muestra el gizmo, que no se ve afectado por la :ref:`Node2D.transform<class_Node2D_property_transform>` del **Bone2D**.
 
 .. rst-class:: classref-item-separator
 
@@ -149,7 +149,7 @@ Devuelve el índice del nodo como parte de todo el esqueleto. Ver :ref:`Skeleton
 
 :ref:`float<class_float>` **get_length**\ (\ ) |const| :ref:`🔗<class_Bone2D_method_get_length>`
 
-Returns the length of the bone in the **Bone2D** node.
+Devuelve la longitud del hueso en el nodo **Bone2D**.
 
 .. rst-class:: classref-item-separator
 
@@ -161,7 +161,7 @@ Returns the length of the bone in the **Bone2D** node.
 
 :ref:`Transform2D<class_Transform2D>` **get_skeleton_rest**\ (\ ) |const| :ref:`🔗<class_Bone2D_method_get_skeleton_rest>`
 
-Returns the node's :ref:`rest<class_Bone2D_property_rest>` :ref:`Transform2D<class_Transform2D>` if it doesn't have a parent, or its rest pose relative to its parent.
+Devuelve el :ref:`rest<class_Bone2D_property_rest>` :ref:`Transform2D<class_Transform2D>` del nodo si no tiene un padre, o su pose de reposo relativa a su padre.
 
 .. rst-class:: classref-item-separator
 
@@ -173,7 +173,7 @@ Returns the node's :ref:`rest<class_Bone2D_property_rest>` :ref:`Transform2D<cla
 
 |void| **set_autocalculate_length_and_angle**\ (\ auto_calculate\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Bone2D_method_set_autocalculate_length_and_angle>`
 
-When set to ``true``, the **Bone2D** node will attempt to automatically calculate the bone angle and length using the first child **Bone2D** node, if one exists. If none exist, the **Bone2D** cannot automatically calculate these values and will print a warning.
+Cuando se establece en ``true``, el nodo **Bone2D** intentará calcular automáticamente el ángulo y la longitud del hueso utilizando el primer nodo hijo **Bone2D**, si existe. Si no existe ninguno, **Bone2D** no podrá calcular automáticamente estos valores e imprimirá una advertencia.
 
 .. rst-class:: classref-item-separator
 
@@ -185,9 +185,9 @@ When set to ``true``, the **Bone2D** node will attempt to automatically calculat
 
 |void| **set_bone_angle**\ (\ angle\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Bone2D_method_set_bone_angle>`
 
-Sets the bone angle for the **Bone2D**. This is typically set to the rotation from the **Bone2D** to a child **Bone2D** node.
+Establece el ángulo del hueso para el **Bone2D**. Esto normalmente se establece a la rotación del **Bone2D** a un nodo hijo **Bone2D**.
 
-\ **Note:** This is different from the **Bone2D**'s rotation. The bone's angle is the rotation of the bone shown by the gizmo, which is unaffected by the **Bone2D**'s :ref:`Node2D.transform<class_Node2D_property_transform>`.
+\ **Nota:** Esto es diferente de la rotación del **Bone2D**. El ángulo del hueso es la rotación del hueso que muestra el gizmo, que no se ve afectado por la :ref:`Node2D.transform<class_Node2D_property_transform>` del **Bone2D**.
 
 .. rst-class:: classref-item-separator
 
@@ -199,7 +199,7 @@ Sets the bone angle for the **Bone2D**. This is typically set to the rotation fr
 
 |void| **set_length**\ (\ length\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Bone2D_method_set_length>`
 
-Sets the length of the bone in the **Bone2D**.
+Establece la longitud del hueso en el **Bone2D**.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

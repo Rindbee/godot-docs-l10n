@@ -7,7 +7,7 @@ PanoramaSkyMaterial
 
 **Hérite de :** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A material that provides a special texture to a :ref:`Sky<class_Sky>`, usually an HDR panorama.
+Un matériau qui fournit une texture spéciale à un :ref:`Sky<class_Sky>`, généralement un panorama HDR.
 
 .. rst-class:: classref-introduction-group
 

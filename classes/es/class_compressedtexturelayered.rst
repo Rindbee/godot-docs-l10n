@@ -9,14 +9,14 @@ CompressedTextureLayered
 
 **Heredado por:** :ref:`CompressedCubemap<class_CompressedCubemap>`, :ref:`CompressedCubemapArray<class_CompressedCubemapArray>`, :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>`
 
-Base class for texture arrays that can optionally be compressed.
+Clase base para arrays de texturas que pueden comprimirse opcionalmente.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Base class for :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>` and :ref:`CompressedTexture3D<class_CompressedTexture3D>`. Cannot be used directly, but contains all the functions necessary for accessing the derived resource types. See also :ref:`TextureLayered<class_TextureLayered>`.
+Clase base para :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>` y :ref:`CompressedTexture3D<class_CompressedTexture3D>`. No puede usarse directamente, pero contiene todas las funciones necesarias para acceder a los tipos de recursos derivados. Véase también :ref:`TextureLayered<class_TextureLayered>`.
 
 .. rst-class:: classref-reftable-group
 

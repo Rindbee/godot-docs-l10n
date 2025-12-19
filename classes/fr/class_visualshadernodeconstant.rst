@@ -7,7 +7,7 @@ VisualShaderNodeConstant
 
 **Hérite de :** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisualShaderNodeBooleanConstant<class_VisualShaderNodeBooleanConstant>`, :ref:`VisualShaderNodeColorConstant<class_VisualShaderNodeColorConstant>`, :ref:`VisualShaderNodeFloatConstant<class_VisualShaderNodeFloatConstant>`, :ref:`VisualShaderNodeIntConstant<class_VisualShaderNodeIntConstant>`, :ref:`VisualShaderNodeTransformConstant<class_VisualShaderNodeTransformConstant>`, :ref:`VisualShaderNodeUIntConstant<class_VisualShaderNodeUIntConstant>`, :ref:`VisualShaderNodeVec2Constant<class_VisualShaderNodeVec2Constant>`, :ref:`VisualShaderNodeVec3Constant<class_VisualShaderNodeVec3Constant>`, :ref:`VisualShaderNodeVec4Constant<class_VisualShaderNodeVec4Constant>`
+**Hérité par :** :ref:`VisualShaderNodeBooleanConstant<class_VisualShaderNodeBooleanConstant>`, :ref:`VisualShaderNodeColorConstant<class_VisualShaderNodeColorConstant>`, :ref:`VisualShaderNodeFloatConstant<class_VisualShaderNodeFloatConstant>`, :ref:`VisualShaderNodeIntConstant<class_VisualShaderNodeIntConstant>`, :ref:`VisualShaderNodeTransformConstant<class_VisualShaderNodeTransformConstant>`, :ref:`VisualShaderNodeUIntConstant<class_VisualShaderNodeUIntConstant>`, :ref:`VisualShaderNodeVec2Constant<class_VisualShaderNodeVec2Constant>`, :ref:`VisualShaderNodeVec3Constant<class_VisualShaderNodeVec3Constant>`, :ref:`VisualShaderNodeVec4Constant<class_VisualShaderNodeVec4Constant>`
 
 Un type de base pour les constantes dans le graphe de shader visuel.
 

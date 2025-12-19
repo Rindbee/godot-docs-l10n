@@ -46,7 +46,7 @@ Descripciones de Métodos
 
 |void| **_set_aabb**\ (\ aabb\: :ref:`AABB<class_AABB>`\ ) |virtual| |required| :ref:`🔗<class_PhysicsServer3DRenderingServerHandler_private_method__set_aabb>`
 
-Called by the :ref:`PhysicsServer3D<class_PhysicsServer3D>` to set the bounding box for the :ref:`SoftBody3D<class_SoftBody3D>`.
+Llamado por el :ref:`PhysicsServer3D<class_PhysicsServer3D>` para establecer el cuadro delimitador para el :ref:`SoftBody3D<class_SoftBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -58,9 +58,9 @@ Called by the :ref:`PhysicsServer3D<class_PhysicsServer3D>` to set the bounding 
 
 |void| **_set_normal**\ (\ vertex_id\: :ref:`int<class_int>`, normal\: :ref:`Vector3<class_Vector3>`\ ) |virtual| |required| :ref:`🔗<class_PhysicsServer3DRenderingServerHandler_private_method__set_normal>`
 
-Called by the :ref:`PhysicsServer3D<class_PhysicsServer3D>` to set the normal for the :ref:`SoftBody3D<class_SoftBody3D>` vertex at the index specified by ``vertex_id``.
+Llamado por el :ref:`PhysicsServer3D<class_PhysicsServer3D>` para establecer la normal para el vértice del :ref:`SoftBody3D<class_SoftBody3D>` en el índice especificado por ``vertex_id``.
 
-\ **Note:** The ``normal`` parameter used to be of type ``const void*`` prior to Godot 4.2.
+\ **Nota:** El parámetro ``normal`` solía ser de tipo ``const void*`` antes de Godot 4.2.
 
 .. rst-class:: classref-item-separator
 
@@ -72,9 +72,9 @@ Called by the :ref:`PhysicsServer3D<class_PhysicsServer3D>` to set the normal fo
 
 |void| **_set_vertex**\ (\ vertex_id\: :ref:`int<class_int>`, vertex\: :ref:`Vector3<class_Vector3>`\ ) |virtual| |required| :ref:`🔗<class_PhysicsServer3DRenderingServerHandler_private_method__set_vertex>`
 
-Called by the :ref:`PhysicsServer3D<class_PhysicsServer3D>` to set the position for the :ref:`SoftBody3D<class_SoftBody3D>` vertex at the index specified by ``vertex_id``.
+Llamado por el :ref:`PhysicsServer3D<class_PhysicsServer3D>` para establecer la posición para el vértice del :ref:`SoftBody3D<class_SoftBody3D>` en el índice especificado por ``vertex_id``.
 
-\ **Note:** The ``vertex`` parameter used to be of type ``const void*`` prior to Godot 4.2.
+\ **Nota:** El parámetro ``vertex`` solía ser de tipo ``const void*`` antes de Godot 4.2.
 
 .. rst-class:: classref-item-separator
 

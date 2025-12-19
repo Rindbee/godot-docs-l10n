@@ -223,7 +223,7 @@ float
 
 ::
 
-    print(1.5 * Color(0.5, 0.5, 0.5)) # Prints (0.75, 0.75, 0.75, 1.5)
+    print(1.5 * Color(0.5, 0.5, 0.5)) # Выводит (0.75, 0.75, 0.75, 1.5)
 
 .. rst-class:: classref-item-separator
 
@@ -251,7 +251,7 @@ float
 
 ::
 
-    print(2.5 * Vector2(1, 3)) # Prints (2.5, 7.5)
+    print(2.5 * Vector2(1, 3)) # Выводит (2.5, 7.5)
 
 .. rst-class:: classref-item-separator
 
@@ -267,7 +267,7 @@ float
 
 ::
 
-    print(0.9 * Vector2i(10, 15)) # Prints (9.0, 13.5)
+    print(0.9 * Vector2i(10, 15)) # Выводит (9.0, 13.5)
 
 .. rst-class:: classref-item-separator
 
@@ -295,7 +295,7 @@ float
 
 ::
 
-    print(0.9 * Vector3i(10, 15, 20)) # Prints (9.0, 13.5, 18.0)
+    print(0.9 * Vector3i(10, 15, 20)) # Выводит (9.0, 13.5, 18.0)
 
 .. rst-class:: classref-item-separator
 
@@ -323,7 +323,7 @@ float
 
 ::
 
-    print(0.9 * Vector4i(10, 15, 20, -10)) # Prints (9.0, 13.5, 18.0, -9.0)
+    print(0.9 * Vector4i(10, 15, 20, -10)) # Выводит (9.0, 13.5, 18.0, -9.0)
 
 .. rst-class:: classref-item-separator
 

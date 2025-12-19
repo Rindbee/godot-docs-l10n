@@ -14,7 +14,7 @@ Un contenedor que conserva las proporciones de sus controles hijos.
 Descripción
 ----------------------
 
-A container type that arranges its child controls in a way that preserves their proportions automatically when the container is resized. Useful when a container has a dynamic size and the child nodes must adjust their sizes accordingly without losing their aspect ratios.
+Un tipo de contenedor que organiza sus controles secundarios de una manera que preserva sus proporciones automáticamente cuando el contenedor se redimensiona. Útil cuando un contenedor tiene un tamaño dinámico y los nodos secundarios deben ajustar sus tamaños en consecuencia sin perder sus relaciones de aspecto.
 
 .. rst-class:: classref-introduction-group
 
@@ -70,7 +70,7 @@ La altura de los controles hijos se ajusta automáticamente en función del anch
 
 :ref:`StretchMode<enum_AspectRatioContainer_StretchMode>` **STRETCH_HEIGHT_CONTROLS_WIDTH** = ``1``
 
-The width of child controls is automatically adjusted based on the height of the container.
+El ancho de los controles secundarios se ajusta automáticamente según la altura del contenedor.
 
 .. _class_AspectRatioContainer_constant_STRETCH_FIT:
 
@@ -86,9 +86,9 @@ El rectángulo delimitador de los controles hijos se ajusta automáticamente par
 
 :ref:`StretchMode<enum_AspectRatioContainer_StretchMode>` **STRETCH_COVER** = ``3``
 
-The width and height of child controls is automatically adjusted to make their bounding rectangle cover the entire area of the container while keeping the aspect ratio.
+El ancho y el alto de los controles secundarios se ajustan automáticamente para que su rectángulo delimitador cubra toda el área del contenedor, manteniendo al mismo tiempo la relación de aspecto.
 
-When the bounding rectangle of child controls exceed the container's size and :ref:`Control.clip_contents<class_Control_property_clip_contents>` is enabled, this allows to show only the container's area restricted by its own bounding rectangle.
+Cuando el rectángulo delimitador de los controles secundarios excede el tamaño del contenedor y :ref:`Control.clip_contents<class_Control_property_clip_contents>` está habilitado, esto permite mostrar solo el área del contenedor restringida por su propio rectángulo delimitador.
 
 .. rst-class:: classref-item-separator
 

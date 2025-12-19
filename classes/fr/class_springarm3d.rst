@@ -7,21 +7,21 @@ SpringArm3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A 3D raycast that dynamically moves its children near the collision point.
+Un raycast 3D qui déplace dynamiquement ses enfants près du point de collision.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**SpringArm3D** casts a ray or a shape along its Z axis and moves all its direct children to the collision point, with an optional margin. This is useful for 3rd person cameras that move closer to the player when inside a tight space (you may need to exclude the player's collider from the **SpringArm3D**'s collision check).
+**SpringArm3D** projette un rayon ou une forme le long de son axe Z et déplace tous ses enfants directs au point de collision, avec une marge facultative. Ceci est utile pour les caméras à la 3ème personne qui se rapprochent du joueur lorsqu'il se trouve à l'intérieur d'un espace serré (vous pourriez avoir besoin d'exclure le collider du joueur de la vérification de collision du **SpringArm3D**).
 
 .. rst-class:: classref-introduction-group
 
 Tutoriels
 ------------------
 
-- :doc:`Third-person camera with spring arm <../tutorials/3d/spring_arm>`
+- :doc:`Caméra à la troisième personne avec un bras en ressort <../tutorials/3d/spring_arm>`
 
 .. rst-class:: classref-reftable-group
 
@@ -96,11 +96,11 @@ Les calques selon lesquels le contrôle des collisions doit être effectué. Voi
 - |void| **set_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_margin**\ (\ )
 
-When the collision check is made, a candidate length for the SpringArm3D is given.
+Lorsque la vérification de collision est faite, une longueur candidate pour le SpringArm3D est donnée.
 
-The margin is then subtracted to this length and the translation is applied to the child objects of the SpringArm3D.
+La marge est ensuite soustraite à cette longueur et la translation est appliquée aux objets enfants du SpringArm3D.
 
-This margin is useful for when the SpringArm3D has a :ref:`Camera3D<class_Camera3D>` as a child node: without the margin, the :ref:`Camera3D<class_Camera3D>` would be placed on the exact point of collision, while with the margin the :ref:`Camera3D<class_Camera3D>` would be placed close to the point of collision.
+Cette marge est utile lorsque le SpringArm3D a un nœud enfant :ref:`Camera3D<class_Camera3D>`\  : sans la marge, la :ref:`Camera3D<class_Camera3D>` serait placée au point de collision exact, alors qu'avec la marge la :ref:`Camera3D<class_Camera3D>` serait placée près du point de collision.
 
 .. rst-class:: classref-item-separator
 
@@ -136,9 +136,9 @@ Lorsque la forme est définie, le SpringArm3D projettera la :ref:`Shape3D<class_
 - |void| **set_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_length**\ (\ )
 
-The maximum extent of the SpringArm3D. This is used as a length for both the ray and the shape cast used internally to calculate the desired position of the SpringArm3D's child nodes.
+L'étendue maximale du SpringArm3D. Elle est utilisée comme longueur pour le raycast et le shapecast utilisés en interne pour calculer la position désirée pour les nœuds enfants du SpringArm3D.
 
-To know more about how to perform a shape cast or a ray cast, please consult the :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>` documentation.
+Pour en savoir plus sur la façon d'effectuer un shapecast ou un raycast, veuillez consulter la documentation de :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`.
 
 .. rst-class:: classref-section-separator
 
@@ -155,7 +155,7 @@ Descriptions des méthodes
 
 |void| **add_excluded_object**\ (\ RID\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_SpringArm3D_method_add_excluded_object>`
 
-Adds the :ref:`PhysicsBody3D<class_PhysicsBody3D>` object with the given :ref:`RID<class_RID>` to the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded from the collision check.
+Ajoute l'objet :ref:`PhysicsBody3D<class_PhysicsBody3D>` avec le :ref:`RID<class_RID>` donné à la liste des objets :ref:`PhysicsBody3D<class_PhysicsBody3D>` exclus de la vérification de collision.
 
 .. rst-class:: classref-item-separator
 
@@ -167,7 +167,7 @@ Adds the :ref:`PhysicsBody3D<class_PhysicsBody3D>` object with the given :ref:`R
 
 |void| **clear_excluded_objects**\ (\ ) :ref:`🔗<class_SpringArm3D_method_clear_excluded_objects>`
 
-Clears the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded from the collision check.
+Vide la liste des objets :ref:`PhysicsBody3D<class_PhysicsBody3D>` exclus de la vérification de collision.
 
 .. rst-class:: classref-item-separator
 
@@ -179,7 +179,7 @@ Clears the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded fr
 
 :ref:`float<class_float>` **get_hit_length**\ (\ ) :ref:`🔗<class_SpringArm3D_method_get_hit_length>`
 
-Returns the spring arm's current length.
+Renvoie la longueur actuelle du bras en ressort.
 
 .. rst-class:: classref-item-separator
 
@@ -191,7 +191,7 @@ Returns the spring arm's current length.
 
 :ref:`bool<class_bool>` **remove_excluded_object**\ (\ RID\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_SpringArm3D_method_remove_excluded_object>`
 
-Removes the given :ref:`RID<class_RID>` from the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded from the collision check.
+Supprime le :ref:`RID<class_RID>` donné de la liste des objets :ref:`PhysicsBody3D<class_PhysicsBody3D>` exclus de la vérification de collision.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

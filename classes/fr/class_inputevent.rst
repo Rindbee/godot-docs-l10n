@@ -7,7 +7,7 @@ InputEvent
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`InputEventAction<class_InputEventAction>`, :ref:`InputEventFromWindow<class_InputEventFromWindow>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventMIDI<class_InputEventMIDI>`, :ref:`InputEventShortcut<class_InputEventShortcut>`
+**Hérité par :** :ref:`InputEventAction<class_InputEventAction>`, :ref:`InputEventFromWindow<class_InputEventFromWindow>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventMIDI<class_InputEventMIDI>`, :ref:`InputEventShortcut<class_InputEventShortcut>`
 
 Classe de base abstraite pour les événements d'entrée.
 
@@ -94,7 +94,7 @@ Constantes
 
 **DEVICE_ID_EMULATION** = ``-1`` :ref:`🔗<class_InputEvent_constant_DEVICE_ID_EMULATION>`
 
-Device ID used for emulated mouse input from a touchscreen, or for emulated touch input from a mouse. This can be used to distinguish emulated mouse input from physical mouse input, or emulated touch input from physical touch input.
+ID de périphérique utilisé pour une entrée de souris émulée à partir d'un écran tactile, ou pour une entrée tactile émulée à partir d'une souris. Cela peut être utilisé pour distinguer l'entrée de la souris émulée de l'entrée de la souris physique, ou de l'entrée tactile émulée de l'entrée tactile physique.
 
 .. rst-class:: classref-section-separator
 
@@ -116,9 +116,9 @@ Descriptions des propriétés
 - |void| **set_device**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_device**\ (\ )
 
-The event's device ID.
+L'identifiant du périphérique de l'événement.
 
-\ **Note:** :ref:`device<class_InputEvent_property_device>` can be negative for special use cases that don't refer to devices physically present on the system. See :ref:`DEVICE_ID_EMULATION<class_InputEvent_constant_DEVICE_ID_EMULATION>`.
+\ **Note :** :ref:`device<class_InputEvent_property_device>` peut être négatif pour des cas d'utilisation spéciaux qui ne se réfèrent pas aux appareils physiquement présents sur le système. Voir :ref:`DEVICE_ID_EMULATION<class_InputEvent_constant_DEVICE_ID_EMULATION>`.
 
 .. rst-class:: classref-section-separator
 
@@ -189,11 +189,11 @@ Si ``exact_match`` vaut ``false``, ignore les modificateurs d'entrée supplémen
 
 :ref:`bool<class_bool>` **is_action_pressed**\ (\ action\: :ref:`StringName<class_StringName>`, allow_echo\: :ref:`bool<class_bool>` = false, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_InputEvent_method_is_action_pressed>`
 
-Returns ``true`` if the given action matches this event and is being pressed (and is not an echo event for :ref:`InputEventKey<class_InputEventKey>` events, unless ``allow_echo`` is ``true``). Not relevant for events of type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` or :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
+Renvoie ``true`` si l'action donnée correspond à cet événement et est appuyée (et n'est pas un événement d'écho pour les événements :ref:`InputEventKey<class_InputEventKey>`, sauf si ``allow_echo`` vaut ``true``). Non pertinent pour les événements de type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` ou :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+Si ``exact_match`` vaut ``false``, cela ignore les modificateurs d'entrée supplémentaires pour les évènements :ref:`InputEventKey<class_InputEventKey>` et :ref:`InputEventMouseButton<class_InputEventMouseButton>`, et la direction pour les évènements :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
-\ **Note:** Due to keyboard ghosting, :ref:`is_action_pressed()<class_InputEvent_method_is_action_pressed>` may return ``false`` even if one of the action's keys is pressed. See `Input examples <../tutorials/inputs/input_examples.html#keyboard-events>`__ in the documentation for more information.
+\ **Note :** En raison d'un problème de clavier fantôme (keyboard ghosting), :ref:`is_action_pressed()<class_InputEvent_method_is_action_pressed>` peut renvoyer ``false`` même si l'une des touches de l'action est appuyée. Voir `Exemples d'entrée <../tutorials/inputs/input_examples.html#keyboard-events>`__ dans la documentation pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -205,9 +205,9 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_released**\ (\ action\: :ref:`StringName<class_StringName>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_InputEvent_method_is_action_released>`
 
-Returns ``true`` if the given action matches this event and is released (i.e. not pressed). Not relevant for events of type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` or :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
+Renvoie ``true`` si l'action donnée correspond à cet événement et est relâchée (c-à-d non appuyée). Non pertinent pour les événements de type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` ou :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
 
-If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+Si ``exact_match`` vaut ``false``, cela ignore les modificateurs d'entrée supplémentaires pour les évènements :ref:`InputEventKey<class_InputEventKey>` et :ref:`InputEventMouseButton<class_InputEventMouseButton>`, et la direction pour les évènements :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
 .. rst-class:: classref-item-separator
 
@@ -219,7 +219,7 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_type**\ (\ ) |const| :ref:`🔗<class_InputEvent_method_is_action_type>`
 
-Returns ``true`` if this input event's type is one that can be assigned to an input action: :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventAction<class_InputEventAction>`. Returns ``false`` for all other input event types.
+Renvoie ``true`` si le type de cet événement d'entrée est un type qui peut être assigné à une action d'entrée : :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`, :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, :ref:`InputEventAction<class_InputEventAction>`. Renvoie ``false`` pour tous les autres types d'événements d'entrée.
 
 .. rst-class:: classref-item-separator
 
@@ -231,7 +231,7 @@ Returns ``true`` if this input event's type is one that can be assigned to an in
 
 :ref:`bool<class_bool>` **is_canceled**\ (\ ) |const| :ref:`🔗<class_InputEvent_method_is_canceled>`
 
-Returns ``true`` if this input event has been canceled.
+Renvoie ``true`` si cet évènement d'entrée a été annulé.
 
 .. rst-class:: classref-item-separator
 
@@ -243,9 +243,9 @@ Returns ``true`` if this input event has been canceled.
 
 :ref:`bool<class_bool>` **is_echo**\ (\ ) |const| :ref:`🔗<class_InputEvent_method_is_echo>`
 
-Returns ``true`` if this input event is an echo event (only for events of type :ref:`InputEventKey<class_InputEventKey>`). An echo event is a repeated key event sent when the user is holding down the key. Any other event type returns ``false``.
+Renvoie ``true`` si cet évènement est un évènement d'écho (seulement pour les évènements du type :ref:`InputEventKey<class_InputEventKey>`). Un événement d'écho est un événement de touche répété envoyé lorsque l'utilisateur maintient la touche. Tout autre type d'évènement renvoie ``false``.
 
-\ **Note:** The rate at which echo events are sent is typically around 20 events per second (after holding down the key for roughly half a second). However, the key repeat delay/speed can be changed by the user or disabled entirely in the operating system settings. To ensure your project works correctly on all configurations, do not assume the user has a specific key repeat configuration in your project's behavior.
+\ **Note :** Le taux auquel les évènement d'écho sont envoyés est généralement d'environ 20 événements par seconde (après avoir maintenu la touche pendant environ une demi-seconde). Cependant, le délai/vitesse de répétition de la touche peut être changé par l'utilisateur ou désactivé entièrement dans les paramètres du système d'exploitation. Pour vous assurer que votre projet fonctionne correctement sur toutes les configurations, ne supposez pas dans le comportement de votre projet que l'utilisateur a une configuration de répétition de touche spécifique.
 
 .. rst-class:: classref-item-separator
 
@@ -257,11 +257,11 @@ Returns ``true`` if this input event is an echo event (only for events of type :
 
 :ref:`bool<class_bool>` **is_match**\ (\ event\: :ref:`InputEvent<class_InputEvent>`, exact_match\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_InputEvent_method_is_match>`
 
-Returns ``true`` if the specified ``event`` matches this event. Only valid for action events, which include key (:ref:`InputEventKey<class_InputEventKey>`), button (:ref:`InputEventMouseButton<class_InputEventMouseButton>` or :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`), axis :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, and action (:ref:`InputEventAction<class_InputEventAction>`) events.
+Renvoie ``true`` si l'événement ``event`` spécifié correspond à cet événement. Seulement valable pour les événements d'action, ce qui inclut les évènements de touche (:ref:`InputEventKey<class_InputEventKey>`), de bouton (:ref:`InputEventMouseButton<class_InputEventMouseButton>` ou :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`), d'axe :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`, et d'action (:ref:`InputEventAction<class_InputEventAction>`).
 
-If ``exact_match`` is ``false``, the check ignores additional input modifiers for :ref:`InputEventKey<class_InputEventKey>` and :ref:`InputEventMouseButton<class_InputEventMouseButton>` events, and the direction for :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>` events.
+Si ``exact_match`` vaut ``false``, la vérification ignore les modificateurs d'entrée supplémentaires pour les évènements :ref:`InputEventKey<class_InputEventKey>` et :ref:`InputEventMouseButton<class_InputEventMouseButton>`, et la direction pour les évènements :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`.
 
-\ **Note:** This method only considers the event configuration (such as the keyboard key or the joypad axis), not state information like :ref:`is_pressed()<class_InputEvent_method_is_pressed>`, :ref:`is_released()<class_InputEvent_method_is_released>`, :ref:`is_echo()<class_InputEvent_method_is_echo>`, or :ref:`is_canceled()<class_InputEvent_method_is_canceled>`.
+\ **Note :** Cette méthode ne considère que la configuration de l'événement (tel que la touche du clavier ou l'axe de la manette), et non les informations d'état comme :ref:`is_pressed()<class_InputEvent_method_is_pressed>`, :ref:`is_released()<class_InputEvent_method_is_released>`, :ref:`is_echo()<class_InputEvent_method_is_echo>`, ou :ref:`is_canceled()<class_InputEvent_method_is_canceled>`.
 
 .. rst-class:: classref-item-separator
 
@@ -273,9 +273,9 @@ If ``exact_match`` is ``false``, the check ignores additional input modifiers fo
 
 :ref:`bool<class_bool>` **is_pressed**\ (\ ) |const| :ref:`🔗<class_InputEvent_method_is_pressed>`
 
-Returns ``true`` if this input event is pressed. Not relevant for events of type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` or :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
+Renvoie ``true`` si cet évènement d'entrée est appuyé. Non pertinent pour les événements de type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` ou :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
 
-\ **Note:** Due to keyboard ghosting, :ref:`is_pressed()<class_InputEvent_method_is_pressed>` may return ``false`` even if one of the action's keys is pressed. See `Input examples <../tutorials/inputs/input_examples.html#keyboard-events>`__ in the documentation for more information.
+\ **Note :** En raison d'un problème de clavier fantôme (keyboard ghosting), :ref:`is_action_pressed()<class_InputEvent_method_is_action_pressed>` peut renvoyer ``false`` même si l'une des touches de l'action est appuyée. Voir `Exemples d'entrée <../tutorials/inputs/input_examples.html#keyboard-events>`__ dans la documentation pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -287,7 +287,7 @@ Returns ``true`` if this input event is pressed. Not relevant for events of type
 
 :ref:`bool<class_bool>` **is_released**\ (\ ) |const| :ref:`🔗<class_InputEvent_method_is_released>`
 
-Returns ``true`` if this input event is released. Not relevant for events of type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` or :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
+Renvoie ``true`` si cet évènement d'entrée est relâché. Non pertinent pour les événements de type :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` ou :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`.
 
 .. rst-class:: classref-item-separator
 
@@ -299,7 +299,7 @@ Returns ``true`` if this input event is released. Not relevant for events of typ
 
 :ref:`InputEvent<class_InputEvent>` **xformed_by**\ (\ xform\: :ref:`Transform2D<class_Transform2D>`, local_ofs\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) |const| :ref:`🔗<class_InputEvent_method_xformed_by>`
 
-Returns a copy of the given input event which has been offset by ``local_ofs`` and transformed by ``xform``. Relevant for events of type :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`, :ref:`InputEventScreenTouch<class_InputEventScreenTouch>`, :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`, :ref:`InputEventMagnifyGesture<class_InputEventMagnifyGesture>` and :ref:`InputEventPanGesture<class_InputEventPanGesture>`.
+Renvoie une copie de l'événement d'entrée donné qui a été décalé de ``local_ofs`` et transformé par ``xform``. Pertinent pour les évènements de type :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`, :ref:`InputEventScreenTouch<class_InputEventScreenTouch>`, :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`, :ref:`InputEventMagnifyGesture<class_InputEventMagnifyGesture>` et :ref:`InputEventPanGesture<class_InputEventPanGesture>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

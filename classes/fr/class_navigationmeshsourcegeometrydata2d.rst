@@ -9,14 +9,14 @@ NavigationMeshSourceGeometryData2D
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Container for parsed source geometry data used in navigation mesh baking.
+Conteneur pour des données de géométrie source parsées utilisé dans le pré-calcul de maillage de navigation.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Container for parsed source geometry data used in navigation mesh baking.
+Conteneur pour des données de géométrie source parsées utilisé dans le pré-calcul de maillage de navigation.
 
 .. rst-class:: classref-reftable-group
 
@@ -75,7 +75,7 @@ Descriptions des méthodes
 
 |void| **add_obstruction_outline**\ (\ shape_outline\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_NavigationMeshSourceGeometryData2D_method_add_obstruction_outline>`
 
-Adds the outline points of a shape as obstructed area.
+Ajoute les points du contour d'une forme comme zone obstruée.
 
 .. rst-class:: classref-item-separator
 
@@ -87,7 +87,7 @@ Adds the outline points of a shape as obstructed area.
 
 |void| **add_projected_obstruction**\ (\ vertices\: :ref:`PackedVector2Array<class_PackedVector2Array>`, carve\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationMeshSourceGeometryData2D_method_add_projected_obstruction>`
 
-Adds a projected obstruction shape to the source geometry. If ``carve`` is ``true`` the carved shape will not be affected by additional offsets (e.g. agent radius) of the navigation mesh baking process.
+Ajoute une forme d'obstruction projetée à la géométrie source. Si ``carve`` vaut ``true``, la forme découpée ne sera pas affectée par des déglaces supplémentaires (par exemple le rayon de l'agent) du processus de pré-calcul du maillage de navigation.
 
 .. rst-class:: classref-item-separator
 

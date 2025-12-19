@@ -458,11 +458,11 @@ Descrizioni dei metodi
 
 |void| **add_filter**\ (\ filter\: :ref:`String<class_String>`, description\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_EditorFileDialog_method_add_filter>`
 
-Adds a comma-separated file name ``filter`` option to the **EditorFileDialog** with an optional ``description``, which restricts what files can be picked.
+Aggiunge un'opzione per il filtro dei nomi dei file (``filter``) delimitato da virgole a **EditorFileDialog** con una descrizione (``description``) facoltativa, che limita i file che possono essere selezionati.
 
-A ``filter`` should be of the form ``"filename.extension"``, where filename and extension can be ``*`` to match any string. Filters starting with ``.`` (i.e. empty filenames) are not allowed.
+\ ``filter`` dovrebbe essere del formato ``"filename.estensione "``, dove filename ed estensione possono essere ``*`` per corrispondere a qualsiasi stringa. I filtri che iniziano con ``.`` (ad esempio nomi file vuoti) non sono consentiti.
 
-For example, a ``filter`` of ``"*.tscn, *.scn"`` and a ``description`` of ``"Scenes"`` results in filter text "Scenes (\*.tscn, \*.scn)".
+Ad esempio, un ``filter`` di ``"*.tscn, *.scn"`` e una ``description`` di ``"Scenes"`` generano il testo del filtro "Scenes (\*.tscn, \*.scn)".
 
 .. rst-class:: classref-item-separator
 

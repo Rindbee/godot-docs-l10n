@@ -7,14 +7,14 @@ PointMesh
 
 **Eredita:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Mesh with a single point primitive.
+Mesh primitiva con un singolo punto.
 
 .. rst-class:: classref-introduction-group
 
 Descrizione
 ----------------------
 
-Un **PointMesh** è una mesh primitivo composto da un singolo punto. Invece di basarsi su triangoli, i punti sono renderizzati come un singolo rettangolo sullo schermo con una dimensione costante. Sono pensati per l'utilizzo con i sistemi di particelle, ma è possibile anche utilizzarli come un modo poco costoso per renderizzare gli sprite con billboard abilitato di dimensioni costanti (ad esempio in una nuvola di punti).
+Un **PointMesh** è una mesh primitiva composto da un singolo punto. Invece di basarsi su triangoli, i punti sono renderizzati come un singolo rettangolo sullo schermo con una dimensione costante. Sono pensati per l'utilizzo con i sistemi di particelle, ma è possibile anche utilizzarli come un modo poco costoso per renderizzare gli sprite con billboard abilitato di dimensioni costanti (ad esempio in una nuvola di punti).
 
 Per essere visualizzati, i point mesh si devono utilizzare con un materiale che ha una dimensione di punto. È possibile accedere alla dimensione di punto in uno shader con l'integrato ``POINT_SIZE``, o in un :ref:`BaseMaterial3D<class_BaseMaterial3D>` impostando le proprietà :ref:`BaseMaterial3D.use_point_size<class_BaseMaterial3D_property_use_point_size>` e :ref:`BaseMaterial3D.point_size<class_BaseMaterial3D_property_point_size>`.
 

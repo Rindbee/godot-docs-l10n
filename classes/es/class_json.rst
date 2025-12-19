@@ -162,7 +162,7 @@ Devuelve ``0`` si la última llamada a :ref:`parse()<class_JSON_method_parse>` f
 
 :ref:`String<class_String>` **get_error_message**\ (\ ) |const| :ref:`🔗<class_JSON_method_get_error_message>`
 
-Devuelve una cadena vacía si la última llamada a :ref:`parse()<class_JSON_method_parse>` fue exitosa, o el mensaje de error si falló.
+Devuelve una string vacía si la última llamada a :ref:`parse()<class_JSON_method_parse>` fue exitosa, o el mensaje de error si falló.
 
 .. rst-class:: classref-item-separator
 
@@ -273,11 +273,11 @@ The ``indent`` parameter controls if and how something is indented; its contents
 
 :ref:`Variant<class_Variant>` **to_native**\ (\ json\: :ref:`Variant<class_Variant>`, allow_objects\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_JSON_method_to_native>`
 
-Converts a JSON-compliant value that was created with :ref:`from_native()<class_JSON_method_from_native>` back to native engine types.
+Convierte un valor compatible con JSON que se creó con :ref:`from_native()<class_JSON_method_from_native>` de nuevo a los tipos de motor nativos.
 
-By default, objects are ignored for security reasons, unless ``allow_objects`` is ``true``.
+Por defecto, los objetos se ignoran por razones de seguridad, a menos que ``allow_objects`` sea ``true``.
 
-You can convert a JSON string back to a native value like this:
+Puedes convertir un string JSON de nuevo a un valor nativo así:
 
 ::
 

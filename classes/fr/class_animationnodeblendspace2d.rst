@@ -7,7 +7,7 @@ AnimationNodeBlendSpace2D
 
 **Hérite de :** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A set of :ref:`AnimationRootNode<class_AnimationRootNode>`\ s placed on 2D coordinates, crossfading between the three adjacent ones. Used by :ref:`AnimationTree<class_AnimationTree>`.
+Un ensemble d':ref:`AnimationRootNode<class_AnimationRootNode>`\ s placés sur des coordonnées 2D, faisant un fondu enchaîné entre les trois nœuds adjacents. Utilisé par :ref:`AnimationTree<class_AnimationTree>`.
 
 .. rst-class:: classref-introduction-group
 

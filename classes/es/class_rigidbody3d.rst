@@ -295,7 +295,7 @@ enum **DampMode**: :ref:`🔗<enum_RigidBody3D_DampMode>`
 
 :ref:`DampMode<enum_RigidBody3D_DampMode>` **DAMP_MODE_COMBINE** = ``0``
 
-In this mode, the body's damping value is added to any value set in areas or the default value.
+En este modo, el valor de amortiguación del cuerpo se añade a cualquier valor establecido en las áreas o al valor predeterminado.
 
 .. _class_RigidBody3D_constant_DAMP_MODE_REPLACE:
 
@@ -303,7 +303,7 @@ In this mode, the body's damping value is added to any value set in areas or the
 
 :ref:`DampMode<enum_RigidBody3D_DampMode>` **DAMP_MODE_REPLACE** = ``1``
 
-In this mode, the body's damping value replaces any value set in areas or the default value.
+En este modo, el valor de amortiguación del cuerpo reemplaza cualquier valor establecido en las áreas o al valor predeterminado.
 
 .. rst-class:: classref-section-separator
 
@@ -784,9 +784,9 @@ Called during physics processing, allowing you to read and safely modify the sim
 
 |void| **add_constant_central_force**\ (\ force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_RigidBody3D_method_add_constant_central_force>`
 
-Adds a constant directional force without affecting rotation that keeps being applied over time until cleared with ``constant_force = Vector3(0, 0, 0)``.
+Añade una fuerza direccional constante sin afectar la rotación que se aplica continuamente hasta que se elimina con ``constant_force = Vector3(0, 0, 0)``.
 
-This is equivalent to using :ref:`add_constant_force()<class_RigidBody3D_method_add_constant_force>` at the body's center of mass.
+Esto es equivalente a usar :ref:`add_constant_force()<class_RigidBody3D_method_add_constant_force>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -798,9 +798,9 @@ This is equivalent to using :ref:`add_constant_force()<class_RigidBody3D_method_
 
 |void| **add_constant_force**\ (\ force\: :ref:`Vector3<class_Vector3>`, position\: :ref:`Vector3<class_Vector3>` = Vector3(0, 0, 0)\ ) :ref:`🔗<class_RigidBody3D_method_add_constant_force>`
 
-Adds a constant positioned force to the body that keeps being applied over time until cleared with ``constant_force = Vector3(0, 0, 0)``.
+Añade una fuerza posicionada constante al cuerpo que se aplica continuamente hasta que se elimina con ``constant_force = Vector3(0, 0, 0)``.
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -812,7 +812,7 @@ Adds a constant positioned force to the body that keeps being applied over time 
 
 |void| **add_constant_torque**\ (\ torque\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_RigidBody3D_method_add_constant_torque>`
 
-Adds a constant rotational force without affecting position that keeps being applied over time until cleared with ``constant_torque = Vector3(0, 0, 0)``.
+Añade una fuerza rotacional constante sin afectar la posición, que se aplica continuamente hasta que se elimina con ``constant_torque = Vector3(0, 0, 0)``.
 
 .. rst-class:: classref-item-separator
 
@@ -824,9 +824,9 @@ Adds a constant rotational force without affecting position that keeps being app
 
 |void| **apply_central_force**\ (\ force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_RigidBody3D_method_apply_central_force>`
 
-Applies a directional force without affecting rotation. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza direccional sin afectar la rotación. Una fuerza depende del tiempo y está pensada para ser aplicada en cada actualización de la física.
 
-This is equivalent to using :ref:`apply_force()<class_RigidBody3D_method_apply_force>` at the body's center of mass.
+Esto es equivalente a usar :ref:`apply_force()<class_RigidBody3D_method_apply_force>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -838,11 +838,11 @@ This is equivalent to using :ref:`apply_force()<class_RigidBody3D_method_apply_f
 
 |void| **apply_central_impulse**\ (\ impulse\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_RigidBody3D_method_apply_central_impulse>`
 
-Applies a directional impulse without affecting rotation.
+Aplica un impulso direccional sin afectar la rotación.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada fotograma resultaría en una fuerza dependiente de la velocidad de fotogramas. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en su lugar).
 
-This is equivalent to using :ref:`apply_impulse()<class_RigidBody3D_method_apply_impulse>` at the body's center of mass.
+Esto es equivalente a usar :ref:`apply_impulse()<class_RigidBody3D_method_apply_impulse>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -854,9 +854,9 @@ This is equivalent to using :ref:`apply_impulse()<class_RigidBody3D_method_apply
 
 |void| **apply_force**\ (\ force\: :ref:`Vector3<class_Vector3>`, position\: :ref:`Vector3<class_Vector3>` = Vector3(0, 0, 0)\ ) :ref:`🔗<class_RigidBody3D_method_apply_force>`
 
-Applies a positioned force to the body. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza posicionada al cuerpo. Una fuerza depende del tiempo y está pensada para ser aplicada en cada actualización de la física.
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -868,11 +868,11 @@ Applies a positioned force to the body. A force is time dependent and meant to b
 
 |void| **apply_impulse**\ (\ impulse\: :ref:`Vector3<class_Vector3>`, position\: :ref:`Vector3<class_Vector3>` = Vector3(0, 0, 0)\ ) :ref:`🔗<class_RigidBody3D_method_apply_impulse>`
 
-Applies a positioned impulse to the body.
+Aplica un impulso posicionado al cuerpo.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada fotograma resultaría en una fuerza dependiente de la velocidad de fotogramas. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en su lugar).
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 

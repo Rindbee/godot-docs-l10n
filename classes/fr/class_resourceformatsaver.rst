@@ -53,7 +53,7 @@ Descriptions des méthodes
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_recognized_extensions**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatSaver_private_method__get_recognized_extensions>`
 
-Returns the list of extensions available for saving the resource object, provided it is recognized (see :ref:`_recognize()<class_ResourceFormatSaver_private_method__recognize>`).
+Renvoie la liste des extensions disponibles pour sauvegarder l'objet ressource, à condition qu'il soit reconnu (voir :ref:`_recognize()<class_ResourceFormatSaver_private_method__recognize>`).
 
 .. rst-class:: classref-item-separator
 
@@ -65,7 +65,7 @@ Returns the list of extensions available for saving the resource object, provide
 
 :ref:`bool<class_bool>` **_recognize**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatSaver_private_method__recognize>`
 
-Renvoie quand une ressource donnée peut être enregistrée par ce enregistreur.
+Renvoie si une ressource donnée peut être enregistrée par cet enregistreur.
 
 .. rst-class:: classref-item-separator
 
@@ -77,9 +77,9 @@ Renvoie quand une ressource donnée peut être enregistrée par ce enregistreur.
 
 :ref:`bool<class_bool>` **_recognize_path**\ (\ resource\: :ref:`Resource<class_Resource>`, path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatSaver_private_method__recognize_path>`
 
-Returns ``true`` if this saver handles a given save path and ``false`` otherwise.
+Renvoie ``true`` si cet enregistreur gère un chemin de sauvegarde donné et ``false`` sinon.
 
-If this method is not implemented, the default behavior returns whether the path's extension is within the ones provided by :ref:`_get_recognized_extensions()<class_ResourceFormatSaver_private_method__get_recognized_extensions>`.
+Si cette méthode n'est pas implémentée, le comportement par défaut renvoie si l'extension du chemin se trouve dans celles fournies par :ref:`_get_recognized_extensions()<class_ResourceFormatSaver_private_method__get_recognized_extensions>`.
 
 .. rst-class:: classref-item-separator
 
@@ -91,9 +91,9 @@ If this method is not implemented, the default behavior returns whether the path
 
 :ref:`Error<enum_@GlobalScope_Error>` **_save**\ (\ resource\: :ref:`Resource<class_Resource>`, path\: :ref:`String<class_String>`, flags\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_ResourceFormatSaver_private_method__save>`
 
-Saves the given resource object to a file at the target ``path``. ``flags`` is a bitmask composed with :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>` constants.
+Enregistre l'objet de ressource donné vers un fichier au chemin cible ``path``. ``flags`` est un bitmask composé de constantes :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>`.
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or an :ref:`Error<enum_@GlobalScope_Error>` constant in case of failure.
+Renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` lors du succès, ou une constante :ref:`Error<enum_@GlobalScope_Error>` en cas d'échec.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or an
 
 :ref:`Error<enum_@GlobalScope_Error>` **_set_uid**\ (\ path\: :ref:`String<class_String>`, uid\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_ResourceFormatSaver_private_method__set_uid>`
 
-Sets a new UID for the resource at the given ``path``. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or an :ref:`Error<enum_@GlobalScope_Error>` constant in case of failure.
+Définit un nouvel UID pour la ressource au chemin ``path`` donné. Renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` lors du succès, ou une constante :ref:`Error<enum_@GlobalScope_Error>` en cas d'échec.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -9,14 +9,14 @@ ScrollContainer
 
 **Heredado por:** :ref:`EditorInspector<class_EditorInspector>`
 
-A container used to provide scrollbars to a child control when needed.
+Un contenedor utilizado para proporcionar barras de desplazamiento a un control hijo cuando sea necesario.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A container used to provide a child control with scrollbars when needed. Scrollbars will automatically be drawn at the right (for vertical) or bottom (for horizontal) and will enable dragging to move the viewable Control (and its children) within the ScrollContainer. Scrollbars will also automatically resize the grabber based on the :ref:`Control.custom_minimum_size<class_Control_property_custom_minimum_size>` of the Control relative to the ScrollContainer.
+Un contenedor utilizado para proporcionar a un control hijo barras de desplazamiento cuando sea necesario. Las barras de desplazamiento se dibujarán automáticamente a la derecha (para vertical) o abajo (para horizontal) y permitirán arrastrar para mover el Control visible (y sus hijos) dentro del ScrollContainer. Las barras de desplazamiento también cambiarán automáticamente el tamaño del agarrador según el :ref:`Control.custom_minimum_size<class_Control_property_custom_minimum_size>` del Control en relación con el ScrollContainer.
 
 .. rst-class:: classref-introduction-group
 
@@ -100,9 +100,9 @@ Señales
 
 **scroll_ended**\ (\ ) :ref:`🔗<class_ScrollContainer_signal_scroll_ended>`
 
-Emitted when scrolling stops when dragging the scrollable area *with a touch event*. This signal is *not* emitted when scrolling by dragging the scrollbar, scrolling with the mouse wheel or scrolling with keyboard/gamepad events.
+Emitida cuando el desplazamiento se detiene al arrastrar el área desplazable *con un evento táctil*. Esta señal *no* se emite cuando se desplaza arrastrando la barra de desplazamiento, desplazando con la rueda del ratón o desplazando con eventos de teclado/gamepad.
 
-\ **Note:** This signal is only emitted on Android or iOS, or on desktop/web platforms when :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is enabled.
+\ **Nota:** Esta señal solo se emite en Android o iOS, o en plataformas de escritorio/web cuando :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` está habilitado.
 
 .. rst-class:: classref-item-separator
 
@@ -114,9 +114,9 @@ Emitted when scrolling stops when dragging the scrollable area *with a touch eve
 
 **scroll_started**\ (\ ) :ref:`🔗<class_ScrollContainer_signal_scroll_started>`
 
-Emitted when scrolling starts when dragging the scrollable area w\ *ith a touch event*. This signal is *not* emitted when scrolling by dragging the scrollbar, scrolling with the mouse wheel or scrolling with keyboard/gamepad events.
+Emitida cuando el desplazamiento comienza al arrastrar el área desplazable c\ *on un evento táctil*. Esta señal *no* se emite cuando se desplaza arrastrando la barra de desplazamiento, desplazando con la rueda del ratón o desplazando con eventos de teclado/gamepad.
 
-\ **Note:** This signal is only emitted on Android or iOS, or on desktop/web platforms when :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is enabled.
+\ **Nota:** Esta señal solo se emite en Android o iOS, o en plataformas de escritorio/web cuando :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` está habilitado.
 
 .. rst-class:: classref-section-separator
 
@@ -139,7 +139,7 @@ enum **ScrollMode**: :ref:`🔗<enum_ScrollContainer_ScrollMode>`
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_DISABLED** = ``0``
 
-Scrolling disabled, scrollbar will be invisible.
+Desplazamiento desactivado, la barra de desplazamiento estará invisible.
 
 .. _class_ScrollContainer_constant_SCROLL_MODE_AUTO:
 
@@ -147,7 +147,7 @@ Scrolling disabled, scrollbar will be invisible.
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_AUTO** = ``1``
 
-Scrolling enabled, scrollbar will be visible only if necessary, i.e. container's content is bigger than the container.
+Desplazamiento activado, la barra de desplazamiento estará visible solo si es necesario, es decir, el contenido del contenedor es más grande que el contenedor.
 
 .. _class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS:
 
@@ -155,7 +155,7 @@ Scrolling enabled, scrollbar will be visible only if necessary, i.e. container's
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_SHOW_ALWAYS** = ``2``
 
-Scrolling enabled, scrollbar will be always visible.
+Desplazamiento activado, la barra de desplazamiento siempre estará visible.
 
 .. _class_ScrollContainer_constant_SCROLL_MODE_SHOW_NEVER:
 
@@ -163,7 +163,7 @@ Scrolling enabled, scrollbar will be always visible.
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_SHOW_NEVER** = ``3``
 
-Scrolling enabled, scrollbar will be hidden.
+Desplazamiento activado, la barra de desplazamiento estará oculta.
 
 .. _class_ScrollContainer_constant_SCROLL_MODE_RESERVE:
 
@@ -171,7 +171,7 @@ Scrolling enabled, scrollbar will be hidden.
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_RESERVE** = ``4``
 
-Combines :ref:`SCROLL_MODE_AUTO<class_ScrollContainer_constant_SCROLL_MODE_AUTO>` and :ref:`SCROLL_MODE_SHOW_ALWAYS<class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS>`. The scrollbar is only visible if necessary, but the content size is adjusted as if it was always visible. It's useful for ensuring that content size stays the same regardless if the scrollbar is visible.
+Combina :ref:`SCROLL_MODE_AUTO<class_ScrollContainer_constant_SCROLL_MODE_AUTO>` y :ref:`SCROLL_MODE_SHOW_ALWAYS<class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS>`. La barra de desplazamiento solo es visible si es necesario, pero el tamaño del contenido se ajusta como si siempre estuviera visible. Es útil para asegurar que el tamaño del contenido se mantenga igual independientemente de si la barra de desplazamiento está visible.
 
 .. rst-class:: classref-section-separator
 
@@ -193,7 +193,7 @@ Descripciones de Propiedades
 - |void| **set_draw_focus_border**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_focus_border**\ (\ )
 
-If ``true``, :ref:`focus<class_ScrollContainer_theme_style_focus>` is drawn when the ScrollContainer or one of its descendant nodes is focused.
+Si es ``true``, se dibuja :ref:`focus<class_ScrollContainer_theme_style_focus>` cuando el ScrollContainer o uno de sus nodos descendientes está enfocado.
 
 .. rst-class:: classref-item-separator
 
@@ -227,7 +227,7 @@ Si es ``true``, el ScrollContainer se desplazará automáticamente hacia los hij
 - |void| **set_horizontal_scroll_mode**\ (\ value\: :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>`\ )
 - :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **get_horizontal_scroll_mode**\ (\ )
 
-Controls whether horizontal scrollbar can be used and when it should be visible.
+Controla si la barra de desplazamiento horizontal puede ser usada y cuándo debería ser visible.
 
 .. rst-class:: classref-item-separator
 
@@ -244,7 +244,7 @@ Controls whether horizontal scrollbar can be used and when it should be visible.
 - |void| **set_deadzone**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_deadzone**\ (\ )
 
-Deadzone for touch scrolling. Lower deadzone makes the scrolling more sensitive.
+Zona muerta para el desplazamiento táctil. Una zona muerta más baja hace que el desplazamiento sea más sensible.
 
 .. rst-class:: classref-item-separator
 
@@ -261,9 +261,9 @@ Deadzone for touch scrolling. Lower deadzone makes the scrolling more sensitive.
 - |void| **set_h_scroll**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_h_scroll**\ (\ )
 
-The current horizontal scroll value.
+El valor de desplazamiento horizontal actual.
 
-\ **Note:** If you are setting this value in the :ref:`Node._ready()<class_Node_private_method__ready>` function or earlier, it needs to be wrapped with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`, since scroll bar's :ref:`Range.max_value<class_Range_property_max_value>` is not initialized yet.
+\ **Nota:** Si estás estableciendo este valor en la función :ref:`Node._ready()<class_Node_private_method__ready>` o antes, necesita ser envuelto con :ref:`Object.set_deferred()<class_Object_method_set_deferred>`, ya que :ref:`Range.max_value<class_Range_property_max_value>` de la barra de desplazamiento aún no está inicializado.
 
 ::
 
@@ -285,7 +285,7 @@ The current horizontal scroll value.
 - |void| **set_horizontal_custom_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_horizontal_custom_step**\ (\ )
 
-Overrides the :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>` used when clicking the internal scroll bar's horizontal increment and decrement buttons or when using arrow keys when the :ref:`ScrollBar<class_ScrollBar>` is focused.
+Reemplaza el :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>` utilizado al hacer clic en los botones de incremento y decremento horizontal de la barra de desplazamiento interna o al usar las teclas de flecha cuando la :ref:`ScrollBar<class_ScrollBar>` está enfocada.
 
 .. rst-class:: classref-item-separator
 
@@ -302,9 +302,9 @@ Overrides the :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`
 - |void| **set_v_scroll**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_v_scroll**\ (\ )
 
-The current vertical scroll value.
+El valor de desplazamiento vertical actual.
 
-\ **Note:** Setting it early needs to be deferred, just like in :ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`.
+\ **Nota:** Establecerlo antes de tiempo necesita ser diferido, al igual que en :ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`.
 
 ::
 
@@ -326,7 +326,7 @@ The current vertical scroll value.
 - |void| **set_vertical_custom_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_vertical_custom_step**\ (\ )
 
-Overrides the :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>` used when clicking the internal scroll bar's vertical increment and decrement buttons or when using arrow keys when the :ref:`ScrollBar<class_ScrollBar>` is focused.
+Reemplaza el :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>` utilizado al hacer clic en los botones de incremento y decremento verticales de la barra de desplazamiento interna o al usar las teclas de flecha cuando la :ref:`ScrollBar<class_ScrollBar>` está enfocada.
 
 .. rst-class:: classref-item-separator
 
@@ -343,7 +343,7 @@ Overrides the :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`
 - |void| **set_vertical_scroll_mode**\ (\ value\: :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>`\ )
 - :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **get_vertical_scroll_mode**\ (\ )
 
-Controls whether vertical scrollbar can be used and when it should be visible.
+Controla si la barra de desplazamiento vertical puede ser usada y cuándo debería ser visible.
 
 .. rst-class:: classref-section-separator
 
@@ -360,9 +360,9 @@ Descripciones de Métodos
 
 |void| **ensure_control_visible**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_ScrollContainer_method_ensure_control_visible>`
 
-Ensures the given ``control`` is visible (must be a direct or indirect child of the ScrollContainer). Used by :ref:`follow_focus<class_ScrollContainer_property_follow_focus>`.
+Asegura que el ``control`` dado sea visible (debe ser un hijo directo o indirecto del ScrollContainer). Utilizado por :ref:`follow_focus<class_ScrollContainer_property_follow_focus>`.
 
-\ **Note:** This will not work on a node that was just added during the same frame. If you want to scroll to a newly added child, you must wait until the next frame using :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>`:
+\ **Nota:** Esto no funcionará en un nodo que acaba de ser añadido durante el mismo frame. Si quieres desplazarte a un hijo recién añadido, debes esperar hasta el siguiente frame usando :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>`:
 
 ::
 
@@ -380,9 +380,9 @@ Ensures the given ``control`` is visible (must be a direct or indirect child of 
 
 :ref:`HScrollBar<class_HScrollBar>` **get_h_scroll_bar**\ (\ ) :ref:`🔗<class_ScrollContainer_method_get_h_scroll_bar>`
 
-Returns the horizontal scrollbar :ref:`HScrollBar<class_HScrollBar>` of this **ScrollContainer**.
+Devuelve la barra de desplazamiento horizontal :ref:`HScrollBar<class_HScrollBar>` de este **ScrollContainer**.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to disable or hide a scrollbar, you can use :ref:`horizontal_scroll_mode<class_ScrollContainer_property_horizontal_scroll_mode>`.
+\ **Advertencia:** Este es un nodo interno requerido, eliminarlo y liberarlo puede causar un fallo. Si deseas deshabilitar u ocultar una barra de desplazamiento, puedes usar :ref:`horizontal_scroll_mode<class_ScrollContainer_property_horizontal_scroll_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -394,9 +394,9 @@ Returns the horizontal scrollbar :ref:`HScrollBar<class_HScrollBar>` of this **S
 
 :ref:`VScrollBar<class_VScrollBar>` **get_v_scroll_bar**\ (\ ) :ref:`🔗<class_ScrollContainer_method_get_v_scroll_bar>`
 
-Returns the vertical scrollbar :ref:`VScrollBar<class_VScrollBar>` of this **ScrollContainer**.
+Devuelve la barra de desplazamiento vertical :ref:`VScrollBar<class_VScrollBar>` de este **ScrollContainer**.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to disable or hide a scrollbar, you can use :ref:`vertical_scroll_mode<class_ScrollContainer_property_vertical_scroll_mode>`.
+\ **Advertencia:** Este es un nodo interno requerido, eliminarlo y liberarlo puede causar un fallo. Si deseas deshabilitar u ocultar una barra de desplazamiento, puedes usar :ref:`vertical_scroll_mode<class_ScrollContainer_property_vertical_scroll_mode>`.
 
 .. rst-class:: classref-section-separator
 
@@ -413,7 +413,7 @@ Descripciones de las propiedades del tema
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_ScrollContainer_theme_style_focus>`
 
-The focus border :ref:`StyleBox<class_StyleBox>` of the **ScrollContainer**. Only used if :ref:`draw_focus_border<class_ScrollContainer_property_draw_focus_border>` is ``true``.
+El :ref:`StyleBox<class_StyleBox>` del borde de enfoque del **ScrollContainer**. Solo se usa si :ref:`draw_focus_border<class_ScrollContainer_property_draw_focus_border>` es ``true``.
 
 .. rst-class:: classref-item-separator
 

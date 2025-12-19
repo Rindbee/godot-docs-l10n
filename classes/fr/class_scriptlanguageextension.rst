@@ -322,7 +322,7 @@ L'option est locale à l'emplacement de la requête de complétion de code - p.e
 
 :ref:`CodeCompletionLocation<enum_ScriptLanguageExtension_CodeCompletionLocation>` **LOCATION_PARENT_MASK** = ``256``
 
-The option is from the containing class or a parent class, relative to the location of the code completion query. Perform a bitwise OR with the class depth (e.g. ``0`` for the local class, ``1`` for the parent, ``2`` for the grandparent, etc.) to store the depth of an option in the class or a parent class.
+L'option provient de la classe contenante ou d'une classe parente, par rapport à l'emplacement de la requête de complétion du code. Effectue un bitwise OU avec la profondeur de la classe (par exemple ``0`` pour la classe locale, ``1`` pour le parent, ``2`` pour le grand-parent, etc.) pour stocker la profondeur d'une option dans la classe ou dans la classe parente.
 
 .. _class_ScriptLanguageExtension_constant_LOCATION_OTHER_USER_CODE:
 
@@ -330,7 +330,7 @@ The option is from the containing class or a parent class, relative to the locat
 
 :ref:`CodeCompletionLocation<enum_ScriptLanguageExtension_CodeCompletionLocation>` **LOCATION_OTHER_USER_CODE** = ``512``
 
-The option is from user code which is not local and not in a derived class (e.g. Autoload Singletons).
+L'option provient du code de l'utilisateur qui n'est pas local et pas dans une classe dérivée (p. ex., Singletons à chargement automatique).
 
 .. _class_ScriptLanguageExtension_constant_LOCATION_OTHER:
 
@@ -338,7 +338,7 @@ The option is from user code which is not local and not in a derived class (e.g.
 
 :ref:`CodeCompletionLocation<enum_ScriptLanguageExtension_CodeCompletionLocation>` **LOCATION_OTHER** = ``1024``
 
-The option is from other engine code, not covered by the other enum constants - e.g. built-in classes.
+L'option provient d'un autre code du moteur, non couvert par les autres constantes d'énumération - par ex. de classes intégrées.
 
 .. rst-class:: classref-item-separator
 
@@ -721,7 +721,7 @@ Descriptions des méthodes
 
 :ref:`String<class_String>` **_debug_get_stack_level_source**\ (\ level\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_ScriptLanguageExtension_private_method__debug_get_stack_level_source>`
 
-Returns the source associated with a given debug stack position.
+Renvoie la source associée avec une position donnée de pile de débogage.
 
 .. rst-class:: classref-item-separator
 

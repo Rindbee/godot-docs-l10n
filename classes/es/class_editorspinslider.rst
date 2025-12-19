@@ -99,7 +99,7 @@ Emitted when the spinner/slider is ungrabbed.
 
 **updown_pressed**\ (\ ) :ref:`🔗<class_EditorSpinSlider_signal_updown_pressed>`
 
-Emitted when the updown button is pressed.
+Emitida cuando se presiona el botón de arriba/abajo.
 
 .. rst-class:: classref-item-separator
 
@@ -162,7 +162,7 @@ Si es ``true``, se considera que **EditorSpinSlider** está editando un valor en
 - |void| **set_flat**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_flat**\ (\ )
 
-If ``true``, the slider will not draw background.
+Si es ``true``, el deslizador no dibujará el fondo.
 
 .. rst-class:: classref-item-separator
 
@@ -179,7 +179,7 @@ If ``true``, the slider will not draw background.
 - |void| **set_hide_slider**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hiding_slider**\ (\ )
 
-If ``true``, the slider and up/down arrows are hidden.
+Si es ``true``, el deslizador y las flechas arriba/abajo están ocultas.
 
 .. rst-class:: classref-item-separator
 
@@ -213,7 +213,7 @@ El texto que se muestra a la izquierda del valor.
 - |void| **set_read_only**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_read_only**\ (\ )
 
-If ``true``, the slider can't be interacted with.
+Si es ``true``, no se puede interactuar con el deslizador.
 
 .. rst-class:: classref-item-separator
 
@@ -230,7 +230,7 @@ If ``true``, the slider can't be interacted with.
 - |void| **set_suffix**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_suffix**\ (\ )
 
-The suffix to display after the value (in a faded color). This should generally be a plural word. You may have to use an abbreviation if the suffix is too long to be displayed.
+El sufijo a mostrar después del valor (en un color atenuado). Por lo general, debería ser una palabra en plural. Es posible que tengas que utilizar una abreviatura si el sufijo es demasiado largo para mostrarse.
 
 .. rst-class:: classref-section-separator
 
@@ -247,7 +247,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Texture2D<class_Texture2D>` **updown** :ref:`🔗<class_EditorSpinSlider_theme_icon_updown>`
 
-Single texture representing both the up and down buttons.
+Textura única que representa los botones de arriba y abajo.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Single texture representing both the up and down buttons.
 
 :ref:`Texture2D<class_Texture2D>` **updown_disabled** :ref:`🔗<class_EditorSpinSlider_theme_icon_updown_disabled>`
 
-Single texture representing both the up and down buttons, when the control is readonly or disabled.
+Textura única que representa los botones de arriba y abajo, cuando el control es de solo lectura o está deshabilitado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

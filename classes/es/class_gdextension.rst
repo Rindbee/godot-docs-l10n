@@ -14,9 +14,9 @@ Una biblioteca nativa para GDExtension.
 Descripción
 ----------------------
 
-The **GDExtension** resource type represents a `shared library <https://en.wikipedia.org/wiki/Shared_library>`__ which can expand the functionality of the engine. The :ref:`GDExtensionManager<class_GDExtensionManager>` singleton is responsible for loading, reloading, and unloading **GDExtension** resources.
+El tipo de recurso **GDExtension** representa una `biblioteca compartida <https://en.wikipedia.org/wiki/Shared_library>`__ que puede ampliar la funcionalidad del motor. El singleton :ref:`GDExtensionManager<class_GDExtensionManager>` es responsable de cargar, recargar y descargar los recursos **GDExtension**.
 
-\ **Note:** GDExtension itself is not a scripting language and has no relation to :ref:`GDScript<class_GDScript>` resources.
+\ **Nota:** GDExtension no es un lenguaje de scripting y no tiene relación con los recursos :ref:`GDScript<class_GDScript>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -62,7 +62,7 @@ enum **InitializationLevel**: :ref:`🔗<enum_GDExtension_InitializationLevel>`
 
 :ref:`InitializationLevel<enum_GDExtension_InitializationLevel>` **INITIALIZATION_LEVEL_CORE** = ``0``
 
-The library is initialized at the same time as the core features of the engine.
+La biblioteca se inicializa al mismo tiempo que las características principales del motor.
 
 .. _class_GDExtension_constant_INITIALIZATION_LEVEL_SERVERS:
 
@@ -70,7 +70,7 @@ The library is initialized at the same time as the core features of the engine.
 
 :ref:`InitializationLevel<enum_GDExtension_InitializationLevel>` **INITIALIZATION_LEVEL_SERVERS** = ``1``
 
-The library is initialized at the same time as the engine's servers (such as :ref:`RenderingServer<class_RenderingServer>` or :ref:`PhysicsServer3D<class_PhysicsServer3D>`).
+La biblioteca se inicializa al mismo tiempo que los servidores del motor (como :ref:`RenderingServer<class_RenderingServer>` o :ref:`PhysicsServer3D<class_PhysicsServer3D>`).
 
 .. _class_GDExtension_constant_INITIALIZATION_LEVEL_SCENE:
 
@@ -78,7 +78,7 @@ The library is initialized at the same time as the engine's servers (such as :re
 
 :ref:`InitializationLevel<enum_GDExtension_InitializationLevel>` **INITIALIZATION_LEVEL_SCENE** = ``2``
 
-The library is initialized at the same time as the engine's scene-related classes.
+La biblioteca se inicializa al mismo tiempo que las clases relacionadas con la escena del motor.
 
 .. _class_GDExtension_constant_INITIALIZATION_LEVEL_EDITOR:
 
@@ -86,7 +86,7 @@ The library is initialized at the same time as the engine's scene-related classe
 
 :ref:`InitializationLevel<enum_GDExtension_InitializationLevel>` **INITIALIZATION_LEVEL_EDITOR** = ``3``
 
-The library is initialized at the same time as the engine's editor classes. Only happens when loading the GDExtension in the editor.
+La biblioteca se inicializa al mismo tiempo que las clases del editor del motor. Solo ocurre al cargar la GDExtension en el editor.
 
 .. rst-class:: classref-section-separator
 
@@ -115,7 +115,7 @@ Devuelve el nivel más bajo requerido para que esta extensión se inicialice cor
 
 :ref:`bool<class_bool>` **is_library_open**\ (\ ) |const| :ref:`🔗<class_GDExtension_method_is_library_open>`
 
-Returns ``true`` if this extension's library has been opened.
+Devuelve ``true`` si la biblioteca de esta extensión se ha abierto.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

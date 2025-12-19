@@ -632,7 +632,7 @@ Descripciones de Propiedades
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, the text gets wrapped inside the node's bounding rectangle.
+Si se establece en un valor distinto de :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, el texto se ajusta dentro del rectángulo delimitador del nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -649,7 +649,7 @@ If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_co
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Flags de recorte de espacio de ajuste automático. Véase :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` y :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` para más información.
 
 .. rst-class:: classref-item-separator
 
@@ -823,7 +823,7 @@ Reglas de alineación de relleno de línea.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Código de idioma utilizado para los algoritmos de salto de línea y forma del texto, si se deja vacío se utiliza la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -961,7 +961,7 @@ Si es ``true``, las teclas de atajo para los elementos del menú contextual est�
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Establece la anulación del algoritmo BiDi para el texto estructurado.
+Establece la sobrescritura del algoritmo BiDi para el texto estructurado.
 
 .. rst-class:: classref-item-separator
 
@@ -978,7 +978,7 @@ Establece la anulación del algoritmo BiDi para el texto estructurado.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Establece opciones adicionales para la anulación BiDi.
+Establece opciones adicionales para la sobrescritura BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -1050,7 +1050,7 @@ The label's text in BBCode format. Is not representative of manual modifications
 - |void| **set_text_direction**\ (\ value\: :ref:`TextDirection<enum_Control_TextDirection>`\ )
 - :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ )
 
-Base text writing direction.
+Dirección base de escritura del texto.
 
 .. rst-class:: classref-item-separator
 

@@ -1923,7 +1923,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_transparent_background**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **has_transparent_background**\ (\ )
 
-如果为 ``true``\ ，该视口应使其背景渲染为透明。
+如果 ``true``\ ，视口的背景应呈现为透明。
+
+\ **注意：** 由于技术限制，当视口背景为透明时，某些渲染功能会被禁用。目前，这适用于屏幕空间反射、次表面散射和景深字段。
 
 .. rst-class:: classref-item-separator
 

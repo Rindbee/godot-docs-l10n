@@ -717,7 +717,7 @@ See also the :doc:`GDScript format string <../tutorials/scripting/gdscript/gdscr
 
 :ref:`String<class_String>` **get_base_dir**\ (\ ) |const| :ref:`🔗<class_StringName_method_get_base_dir>`
 
-Si la cadena es una ruta de archivo válida, devuelve el nombre del directorio base.
+Si la string es una ruta de archivo válida, devuelve el nombre del directorio base.
 
 ::
 
@@ -1439,7 +1439,7 @@ Repite esta string un número de veces. ``count`` debe ser mayor que ``0``. De l
 
 :ref:`String<class_String>` **replace**\ (\ what\: :ref:`String<class_String>`, forwhat\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_StringName_method_replace>`
 
-Replaces all occurrences of ``what`` inside the string with the given ``forwhat``.
+Reemplaza todas las instancias de ``what`` dentro de la string con el ``forwhat`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2022,7 +2022,7 @@ Elimina el ``prefix`` dado del inicio de la string, o devuelve la string sin cam
 
 :ref:`String<class_String>` **trim_suffix**\ (\ suffix\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_StringName_method_trim_suffix>`
 
-Elimina el ``suffix`` dado del final de la string, o string la cadena sin cambios.
+Elimina el ``suffix`` dado del final de la string, o string la string sin cambios.
 
 .. rst-class:: classref-item-separator
 
@@ -2120,7 +2120,7 @@ Decodifica la ruta del archivo desde su formato codificado en URL. A diferencia 
 
 :ref:`String<class_String>` **validate_filename**\ (\ ) |const| :ref:`🔗<class_StringName_method_validate_filename>`
 
-Returns a copy of the string with all characters that are not allowed in :ref:`is_valid_filename()<class_StringName_method_is_valid_filename>` replaced with underscores.
+Devuelve una copia de la string con todos los caracteres que no están permitidos en :ref:`is_valid_filename()<class_StringName_method_is_valid_filename>` reemplazados con guiones bajos.
 
 .. rst-class:: classref-item-separator
 
@@ -2261,7 +2261,7 @@ Devuelve ``true`` si el puntero del **StringName** de la izquierda aparece antes
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_StringName_operator_eq_String>`
 
-Returns ``true`` if this **StringName** is equivalent to the given :ref:`String<class_String>`.
+Devuelve ``true`` si este **StringName** es equivalente a la :ref:`String<class_String>` dada.
 
 .. rst-class:: classref-item-separator
 

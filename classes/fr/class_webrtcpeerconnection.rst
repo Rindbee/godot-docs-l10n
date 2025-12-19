@@ -7,7 +7,7 @@ WebRTCPeerConnection
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`WebRTCPeerConnectionExtension<class_WebRTCPeerConnectionExtension>`
+**Hérité par :** :ref:`WebRTCPeerConnectionExtension<class_WebRTCPeerConnectionExtension>`
 
 L'interface de connexion par pair via WebRTC.
 

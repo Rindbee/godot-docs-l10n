@@ -7,16 +7,16 @@ InputEventFromWindow
 
 **Hérite de :** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`, :ref:`InputEventScreenTouch<class_InputEventScreenTouch>`, :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`
+**Hérité par :** :ref:`InputEventScreenDrag<class_InputEventScreenDrag>`, :ref:`InputEventScreenTouch<class_InputEventScreenTouch>`, :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`
 
-Abstract base class for :ref:`Viewport<class_Viewport>`-based input events.
+Classe de base abstraite pour les événements d'entrée basés sur :ref:`Viewport<class_Viewport>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-InputEventFromWindow represents events specifically received by windows. This includes mouse events, keyboard events in focused windows or touch screen actions.
+InputEventFromWindow représente les événements spécifiquement reçus par des fenêtres. Cela comprend des événements de souris, des événements de clavier dans des fenêtres avec le focus ou des actions d'écran tactile.
 
 .. rst-class:: classref-reftable-group
 
@@ -50,7 +50,7 @@ Descriptions des propriétés
 - |void| **set_window_id**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_window_id**\ (\ )
 
-The ID of a :ref:`Window<class_Window>` that received this event.
+L'ID d'une :ref:`Window<class_Window>` qui a reçu cet événement.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

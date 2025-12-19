@@ -7,7 +7,7 @@ Lightmapper
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`LightmapperRD<class_LightmapperRD>`
+**Hérité par :** :ref:`LightmapperRD<class_LightmapperRD>`
 
 Classe abstraite étendue par les lightmappers, pour utilisation dans :ref:`LightmapGI<class_LightmapGI>`.
 

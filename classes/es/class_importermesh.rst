@@ -125,7 +125,7 @@ The ``flags`` argument is the bitwise OR of, as required: One value of :ref:`Arr
 
 |void| **clear**\ (\ ) :ref:`🔗<class_ImporterMesh_method_clear>`
 
-Elimina todas las superficies y las blend shapes de este **ImporterMesh**.
+Elimina todas las superficies y las blendshapes de este **ImporterMesh**.
 
 .. rst-class:: classref-item-separator
 

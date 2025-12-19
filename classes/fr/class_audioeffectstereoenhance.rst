@@ -76,7 +76,7 @@ Amplifie la différence entre les canaux stéréo, augmentant ou diminuant la ba
 - |void| **set_surround**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_surround**\ (\ )
 
-Widens sound stage through phase shifting in conjunction with :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>`. Just pans sound to the left channel if :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>` is 0.
+Élargit la scène sonore avec du déplacement de phase en conjonction avec :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>`. Balance seulement le son vers le canal de gauche si :ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>` vaut 0.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ Widens sound stage through phase shifting in conjunction with :ref:`time_pullout
 - |void| **set_time_pullout**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_time_pullout**\ (\ )
 
-Widens sound stage through phase shifting in conjunction with :ref:`surround<class_AudioEffectStereoEnhance_property_surround>`. Just delays the right channel if :ref:`surround<class_AudioEffectStereoEnhance_property_surround>` is 0.
+Élargit la scène sonore avec du déplacement de phase en conjonction avec :ref:`surround<class_AudioEffectStereoEnhance_property_surround>`. Retarde seulement le canal de droite si :ref:`surround<class_AudioEffectStereoEnhance_property_surround>` vaut 0.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

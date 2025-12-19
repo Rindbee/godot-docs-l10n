@@ -314,7 +314,7 @@ Comienza a aplicar efectos de IK en cada fotograma a los huesos del :ref:`Skelet
 
 |void| **stop**\ (\ ) :ref:`🔗<class_SkeletonIK3D_method_stop>`
 
-Deja de aplicar efectos de IK en cada fotograma a los huesos del :ref:`Skeleton3D<class_Skeleton3D>` y también llama a :ref:`Skeleton3D.clear_bones_global_pose_override()<class_Skeleton3D_method_clear_bones_global_pose_override>` para eliminar las sobreescrituras existentes en todos los huesos.
+Deja de aplicar efectos de IK en cada fotograma a los huesos del :ref:`Skeleton3D<class_Skeleton3D>` y también llama a :ref:`Skeleton3D.clear_bones_global_pose_override()<class_Skeleton3D_method_clear_bones_global_pose_override>` para eliminar las sobrescrituras existentes en todos los huesos.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

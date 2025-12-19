@@ -267,7 +267,7 @@ Si ``true``, brise la boucle à la fin du cycle de boucle pour la transition, m�
 - |void| **set_fadein_curve**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_fadein_curve**\ (\ )
 
-Determines how cross-fading between animations is eased. If empty, the transition will be linear. Should be a unit :ref:`Curve<class_Curve>`.
+Détermine comment le fondu enchaîné entre les animations est amorti. Si vide, la transition sera linéaire. Devrait être une :ref:`Curve<class_Curve>` unitaire.
 
 .. rst-class:: classref-item-separator
 
@@ -303,7 +303,7 @@ La durée du fondu d'ouverture. Par exemple, définir ceci à ``1.0`` pour une a
 - |void| **set_fadeout_curve**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_fadeout_curve**\ (\ )
 
-Determines how cross-fading between animations is eased. If empty, the transition will be linear. Should be a unit :ref:`Curve<class_Curve>`.
+Détermine comment le fondu enchaîné entre les animations est amorti. Si vide, la transition sera linéaire. Devrait être une :ref:`Curve<class_Curve>` unitaire.
 
 .. rst-class:: classref-item-separator
 

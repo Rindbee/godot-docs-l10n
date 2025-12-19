@@ -664,11 +664,11 @@ Para contar cuántos elementos de un array satisfacen una condición, véase :re
 
 :ref:`Array<class_Array>` **duplicate**\ (\ deep\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Array_method_duplicate>`
 
-Returns a new copy of the array.
+Devuelve una copia nueva del array.
 
-By default, a **shallow** copy is returned: all nested **Array**, :ref:`Dictionary<class_Dictionary>`, and :ref:`Resource<class_Resource>` elements are shared with the original array. Modifying any of those in one array will also affect them in the other.
+Por defecto, una copia **superficial**: todos los elementos anidados **Array**, :ref:`Dictionary<class_Dictionary>`, y :ref:`Resource<class_Resource>` son compartidos con el array original. Modificar cualquiera de estos en un array también los afectará en el otro.
 
-If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dictionaries are also duplicated (recursively). Any :ref:`Resource<class_Resource>` is still shared with the original array, though.
+Si ``deep`` es ``true``, se devuelve una copia **profunda**: Todos los arrays y dictionaries son también duplicados (recursivamente). Sin embargo, Cualquier :ref:`Resource<class_Resource>` es todavía compartido con el array original.
 
 .. rst-class:: classref-item-separator
 
@@ -680,9 +680,9 @@ If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dict
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplica este array profundamente, como :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, con mas control sobre como se gestionan los subrecursos.
 
-\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
+\ ``deep_subresources_mode`` debe ser uno de los valores de :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Por defecto, solo recursos internos serán duplicados (recursivamente).
 
 .. rst-class:: classref-item-separator
 
@@ -1053,7 +1053,7 @@ See also :ref:`filter()<class_Array_method_filter>`, :ref:`reduce()<class_Array_
 
 Devuelve el valor máximo contenido en el array, si todos los elementos se pueden comparar. De lo contrario, devuelve ``null``. Véase también :ref:`min()<class_Array_method_min>`.
 
-Para encontrar el valor máximo utilizando un comparador personalizado, puede usar :ref:`reduce()<class_Array_method_reduce>`.
+Para encontrar el valor máximo utilizando un comparador personalizado, puedes usar :ref:`reduce()<class_Array_method_reduce>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1501,9 +1501,9 @@ If all searched elements are equal, returns ``true`` if this array's size is les
 
 :ref:`bool<class_bool>` **operator <=**\ (\ right\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_Array_operator_lte_Array>`
 
-Compares the elements of both arrays in order, starting from index ``0`` and ending on the last index in common between both arrays. For each pair of elements, returns ``true`` if this array's element is less than ``right``'s, ``false`` if this element is greater. Otherwise, continues to the next pair.
+Compara los elementos de ambos arrays en orden, empezando desde el índice ``0`` y terminando en el último índice en común entre ambos arrays. Para cada par de elementos, devuelve ``true`` si el elemento de este array es menor que el de ``right``, ``false`` si este elemento es mayor. De lo contrario, continúa con el siguiente par.
 
-If all searched elements are equal, returns ``true`` if this array's size is less or equal to ``right``'s, otherwise returns ``false``.
+Si todos los elementos buscados son iguales, devuelve ``true`` si el tamaño de este array es menor o igual que el de ``right``, de lo contrario devuelve ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -1515,7 +1515,7 @@ If all searched elements are equal, returns ``true`` if this array's size is les
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_Array_operator_eq_Array>`
 
-Compares the left operand **Array** against the ``right`` **Array**. Returns ``true`` if the sizes and contents of the arrays are equal, ``false`` otherwise.
+Compara el operando izquierdo **Array** contra el **Array** en ``right`` . Devuelve ``true`` si los tamaños y contenidos de los arrays son iguales, ``false`` en caso contrario.
 
 .. rst-class:: classref-item-separator
 
@@ -1527,9 +1527,9 @@ Compares the left operand **Array** against the ``right`` **Array**. Returns ``t
 
 :ref:`bool<class_bool>` **operator >**\ (\ right\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_Array_operator_gt_Array>`
 
-Compares the elements of both arrays in order, starting from index ``0`` and ending on the last index in common between both arrays. For each pair of elements, returns ``true`` if this array's element is greater than ``right``'s, ``false`` if this element is less. Otherwise, continues to the next pair.
+Compara los elementos de ambos arrays en orden, empezando desde el índice ``0`` y terminando en el último índice en común entre ambos arrays. Para cada par de elementos, devuelve ``true`` si el elemento de este array es mayor que el de ``right``, ``false`` si este elemento es menor. De lo contrario, continúa con el siguiente par.
 
-If all searched elements are equal, returns ``true`` if this array's size is greater than ``right``'s, otherwise returns ``false``.
+Si todos los elementos buscados son iguales, devuelve ``true`` si el tamaño de este array es mayor que el de ``right``, de lo contrario devuelve ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -1541,9 +1541,9 @@ If all searched elements are equal, returns ``true`` if this array's size is gre
 
 :ref:`bool<class_bool>` **operator >=**\ (\ right\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_Array_operator_gte_Array>`
 
-Compares the elements of both arrays in order, starting from index ``0`` and ending on the last index in common between both arrays. For each pair of elements, returns ``true`` if this array's element is greater than ``right``'s, ``false`` if this element is less. Otherwise, continues to the next pair.
+Compara los elementos de ambos arrays en orden, empezando desde el índice ``0`` y terminando en el último índice en común entre ambos arrays. Para cada par de elementos, devuelve ``true`` si el elemento de este array es mayor que el de ``right``, ``false`` si este elemento es menor. De lo contrario, continúa con el siguiente par.
 
-If all searched elements are equal, returns ``true`` if this array's size is greater or equal to ``right``'s, otherwise returns ``false``.
+Si todos los elementos buscados son iguales, devuelve ``true`` si el tamaño de este array es mayor o igual que el de ``right``, de lo contrario devuelve ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -1555,7 +1555,7 @@ If all searched elements are equal, returns ``true`` if this array's size is gre
 
 :ref:`Variant<class_Variant>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_operator_idx_int>`
 
-Returns the :ref:`Variant<class_Variant>` element at the specified ``index``. Arrays start at index 0. If ``index`` is greater or equal to ``0``, the element is fetched starting from the beginning of the array. If ``index`` is a negative value, the element is fetched starting from the end. Accessing an array out-of-bounds will cause a run-time error, pausing the project execution if run from the editor.
+Devuelve el elemento :ref:`Variant<class_Variant>` en el ``index`` especificado. Los arrays comienzan en el índice 0. Si ``index`` es mayor o igual que ``0``, el elemento se obtiene comenzando desde el principio del array. Si ``index`` es un valor negativo, el elemento se obtiene comenzando desde el final. El acceso a un array fuera de los límites provocará un error en tiempo de ejecución, pausando la ejecución del proyecto si se ejecuta desde el editor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

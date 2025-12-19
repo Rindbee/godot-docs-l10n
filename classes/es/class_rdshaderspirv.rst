@@ -86,7 +86,7 @@ Descripciones de Propiedades
 - |void| **set_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, bytecode\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The SPIR-V bytecode for the compute shader stage.
+El bytecode SPIR-V para la etapa de shader de cómputo.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -105,7 +105,7 @@ The SPIR-V bytecode for the compute shader stage.
 - |void| **set_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, bytecode\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The SPIR-V bytecode for the fragment shader stage.
+El bytecode SPIR-V para la etapa de shader de fragmentos.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -124,7 +124,7 @@ The SPIR-V bytecode for the fragment shader stage.
 - |void| **set_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, bytecode\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The SPIR-V bytecode for the tessellation control shader stage.
+El bytecode SPIR-V para la etapa de shader de control de teselación.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -143,7 +143,7 @@ The SPIR-V bytecode for the tessellation control shader stage.
 - |void| **set_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, bytecode\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The SPIR-V bytecode for the tessellation evaluation shader stage.
+El bytecode SPIR-V para la etapa de shader de evaluación de teselación.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -162,7 +162,7 @@ The SPIR-V bytecode for the tessellation evaluation shader stage.
 - |void| **set_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, bytecode\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_stage_bytecode**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The SPIR-V bytecode for the vertex shader stage.
+El bytecode SPIR-V para la etapa de shader de vértices.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -181,7 +181,7 @@ The SPIR-V bytecode for the vertex shader stage.
 - |void| **set_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, compile_error\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The compilation error message for the compute shader stage (set by the SPIR-V compiler and Godot). If empty, shader compilation was successful.
+El mensaje de error de compilación para la etapa de shader de cómputo (establecido por el compilador SPIR-V y Godot). Si está vacío, la compilación del shader fue exitosa.
 
 .. rst-class:: classref-item-separator
 
@@ -198,7 +198,7 @@ The compilation error message for the compute shader stage (set by the SPIR-V co
 - |void| **set_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, compile_error\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The compilation error message for the fragment shader stage (set by the SPIR-V compiler and Godot). If empty, shader compilation was successful.
+El mensaje de error de compilación para la etapa de shader de fragmentos (establecido por el compilador SPIR-V y Godot). Si está vacío, la compilación del shader fue exitosa.
 
 .. rst-class:: classref-item-separator
 
@@ -215,7 +215,7 @@ The compilation error message for the fragment shader stage (set by the SPIR-V c
 - |void| **set_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, compile_error\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The compilation error message for the tessellation control shader stage (set by the SPIR-V compiler and Godot). If empty, shader compilation was successful.
+El mensaje de error de compilación para la etapa de shader de control de teselación (establecido por el compilador SPIR-V y Godot). Si está vacío, la compilación del shader fue exitosa.
 
 .. rst-class:: classref-item-separator
 
@@ -232,7 +232,7 @@ The compilation error message for the tessellation control shader stage (set by 
 - |void| **set_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, compile_error\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The compilation error message for the tessellation evaluation shader stage (set by the SPIR-V compiler and Godot). If empty, shader compilation was successful.
+El mensaje de error de compilación para la etapa de shader de evaluación de teselación (establecido por el compilador SPIR-V y Godot). Si está vacío, la compilación del shader fue exitosa.
 
 .. rst-class:: classref-item-separator
 
@@ -249,7 +249,7 @@ The compilation error message for the tessellation evaluation shader stage (set 
 - |void| **set_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`, compile_error\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_stage_compile_error**\ (\ stage\: :ref:`ShaderStage<enum_RenderingDevice_ShaderStage>`\ ) |const|
 
-The compilation error message for the vertex shader stage (set by the SPIR-V compiler and Godot). If empty, shader compilation was successful.
+El mensaje de error de compilación para la etapa de shader de vértices (establecido por el compilador SPIR-V y Godot). Si está vacío, la compilación del shader fue exitosa.
 
 .. rst-class:: classref-section-separator
 

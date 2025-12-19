@@ -14,7 +14,7 @@ Contient le résultat d'une recherche avec une :ref:`RegEx<class_RegEx>`.
 Description
 -----------
 
-Contains the results of a single :ref:`RegEx<class_RegEx>` match returned by :ref:`RegEx.search()<class_RegEx_method_search>` and :ref:`RegEx.search_all()<class_RegEx_method_search_all>`. It can be used to find the position and range of the match and its capturing groups, and it can extract its substring for you.
+Contient les résultats d'une seule correspondance :ref:`RegEx<class_RegEx>` renvoyée par :ref:`RegEx.search()<class_RegEx_method_search>` et :ref:`RegEx.search_all()<class_RegEx_method_search_all>`. Elle peut être utilisée pour trouver la position et la portée de la correspondance et de ses groupes de capture, et elle peut extraire sa sous-chaîne pour vous.
 
 .. rst-class:: classref-reftable-group
 
@@ -69,7 +69,7 @@ Descriptions des propriétés
 
 - :ref:`Dictionary<class_Dictionary>` **get_names**\ (\ )
 
-A dictionary of named groups and its corresponding group number. Only groups that were matched are included. If multiple groups have the same name, that name would refer to the first matching one.
+Un dictionnaire de groupes nommés et leur numéro de groupe correspondant. Seuls les groupes qui ont eu une correspondance sont inclus. Si plusieurs groupes ont le même nom, ce nom se référerait au premier ayant une correspondance.
 
 .. rst-class:: classref-item-separator
 
@@ -85,7 +85,7 @@ A dictionary of named groups and its corresponding group number. Only groups tha
 
 - :ref:`PackedStringArray<class_PackedStringArray>` **get_strings**\ (\ )
 
-An :ref:`Array<class_Array>` of the match and its capturing groups.
+Un :ref:`Array<class_Array>` de la correspondance et de ses groupes de capture.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -103,7 +103,7 @@ An :ref:`Array<class_Array>` of the match and its capturing groups.
 
 - :ref:`String<class_String>` **get_subject**\ (\ )
 
-The source string used with the search pattern to find this matching result.
+La chaîne source utilisée avec le motif de recherche pour trouver ce résultat de correspondance.
 
 .. rst-class:: classref-section-separator
 
@@ -120,9 +120,9 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **get_end**\ (\ name\: :ref:`Variant<class_Variant>` = 0\ ) |const| :ref:`🔗<class_RegExMatch_method_get_end>`
 
-Returns the end position of the match within the source string. The end position of capturing groups can be retrieved by providing its group number as an integer or its string name (if it's a named group). The default value of 0 refers to the whole pattern.
+Renvoie la position finale de la correspondance dans la chaîne source. La position finale des groupes de capture peut être récupérée en fournissant son numéro de groupe en un entier ou son nom de chaîne (s'il s'agit d'un groupe nommé). La valeur par défaut de 0 se réfère à l'ensemble du motif.
 
-Returns -1 if the group did not match or doesn't exist.
+Renvoie -1 si le groupe n'a pas eu de correspondance ou n'existe pas.
 
 .. rst-class:: classref-item-separator
 
@@ -146,9 +146,9 @@ Renvoie le nombre de groupes de capture.
 
 :ref:`int<class_int>` **get_start**\ (\ name\: :ref:`Variant<class_Variant>` = 0\ ) |const| :ref:`🔗<class_RegExMatch_method_get_start>`
 
-Returns the starting position of the match within the source string. The starting position of capturing groups can be retrieved by providing its group number as an integer or its string name (if it's a named group). The default value of 0 refers to the whole pattern.
+Renvoie la position de départ de la correspondance dans la chaîne source. La position de départ des groupes de capture peut être récupérée en fournissant son numéro de groupe en un entier ou son nom de chaîne (s'il s'agit d'un groupe nommé). La valeur par défaut de 0 se réfère à l'ensemble du motif.
 
-Returns -1 if the group did not match or doesn't exist.
+Renvoie -1 si le groupe n'a pas eu de correspondance ou n'existe pas.
 
 .. rst-class:: classref-item-separator
 
@@ -160,9 +160,9 @@ Returns -1 if the group did not match or doesn't exist.
 
 :ref:`String<class_String>` **get_string**\ (\ name\: :ref:`Variant<class_Variant>` = 0\ ) |const| :ref:`🔗<class_RegExMatch_method_get_string>`
 
-Returns the substring of the match from the source string. Capturing groups can be retrieved by providing its group number as an integer or its string name (if it's a named group). The default value of 0 refers to the whole pattern.
+Renvoie la sous-chaîne de la correspondance dans la chaîne source. Les groupes de capture peuvent être récupérés en fournissant leur numéro de groupe en un entier ou son nom de chaîne (s'il s'agit d'un groupe nommé). La valeur par défaut de 0 se réfère à l'ensemble du motif.
 
-Returns an empty string if the group did not match or doesn't exist.
+Renvoie une chaîne vide si le groupe n'a pas eu de correspondance ou n'existe pas.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

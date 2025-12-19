@@ -7,7 +7,7 @@ GPUParticlesCollisionSphere3D
 
 **Hereda:** :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A sphere-shaped 3D particle collision shape affecting :ref:`GPUParticles3D<class_GPUParticles3D>` nodes.
+Una forma de colisión de partículas 3D con forma de esfera que afecta a los nodos :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 .. rst-class:: classref-introduction-group
 

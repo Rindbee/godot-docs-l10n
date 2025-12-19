@@ -14,7 +14,7 @@ Proporciona métodos para algunas operaciones geométricas 2D comunes.
 Descripción
 ----------------------
 
-Provides a set of helper functions to create geometric shapes, compute intersections between shapes, and process various other geometric operations in 2D.
+Proporciona un conjunto de funciones de ayuda para crear formas geométricas, calcular intersecciones entre formas y procesar varias otras operaciones geométricas en 2D.
 
 .. rst-class:: classref-reftable-group
 
@@ -220,9 +220,9 @@ Descripciones de Métodos
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **bresenham_line**\ (\ from\: :ref:`Vector2i<class_Vector2i>`, to\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_Geometry2D_method_bresenham_line>`
 
-Returns the `Bresenham line <https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm>`__ between the ``from`` and ``to`` points. A Bresenham line is a series of pixels that draws a line and is always 1-pixel thick on every row and column of the drawing (never more, never less).
+Devuelve la `línea de Bresenham <https://en.wikipedia.org/wiki/Bresenham%27s_line_algorithm>`__ entre los puntos ``from`` y ``to``. Una línea de Bresenham es una serie de píxeles que dibuja una línea y siempre tiene 1 píxel de grosor en cada fila y columna del dibujo (nunca más, nunca menos).
 
-Example code to draw a line between two :ref:`Marker2D<class_Marker2D>` nodes using a series of :ref:`CanvasItem.draw_rect()<class_CanvasItem_method_draw_rect>` calls:
+Código de ejemplo para dibujar una línea entre dos nodos :ref:`Marker2D<class_Marker2D>` usando una serie de llamadas a :ref:`CanvasItem.draw_rect()<class_CanvasItem_method_draw_rect>`:
 
 ::
 
@@ -240,9 +240,9 @@ Example code to draw a line between two :ref:`Marker2D<class_Marker2D>` nodes us
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **clip_polygons**\ (\ polygon_a\: :ref:`PackedVector2Array<class_PackedVector2Array>`, polygon_b\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_clip_polygons>`
 
-Clips ``polygon_a`` against ``polygon_b`` and returns an array of clipped polygons. This performs :ref:`OPERATION_DIFFERENCE<class_Geometry2D_constant_OPERATION_DIFFERENCE>` between polygons. Returns an empty array if ``polygon_b`` completely overlaps ``polygon_a``.
+Recorta ``polygon_a`` contra ``polygon_b`` y devuelve un array de polígonos recortados. Esto realiza :ref:`OPERATION_DIFFERENCE<class_Geometry2D_constant_OPERATION_DIFFERENCE>` entre los polígonos. Devuelve un array vacío si ``polygon_b`` se superpone completamente a ``polygon_a``.
 
-If ``polygon_b`` is enclosed by ``polygon_a``, returns an outer polygon (boundary) and inner polygon (hole) which could be distinguished by calling :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
+Si ``polygon_b`` está encerrado por ``polygon_a``, devuelve un polígono exterior (límite) y un polígono interior (agujero) que se pueden distinguir llamando a :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
 
 .. rst-class:: classref-item-separator
 
@@ -254,7 +254,7 @@ If ``polygon_b`` is enclosed by ``polygon_a``, returns an outer polygon (boundar
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **clip_polyline_with_polygon**\ (\ polyline\: :ref:`PackedVector2Array<class_PackedVector2Array>`, polygon\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_clip_polyline_with_polygon>`
 
-Clips ``polyline`` against ``polygon`` and returns an array of clipped polylines. This performs :ref:`OPERATION_DIFFERENCE<class_Geometry2D_constant_OPERATION_DIFFERENCE>` between the polyline and the polygon. This operation can be thought of as cutting a line with a closed shape.
+Recorta ``polyline`` contra ``polygon`` y devuelve un array de polilíneas recortadas. Esto realiza :ref:`OPERATION_DIFFERENCE<class_Geometry2D_constant_OPERATION_DIFFERENCE>` entre la polilínea y el polígono. Esta operación se puede considerar como cortar una línea con una forma cerrada.
 
 .. rst-class:: classref-item-separator
 
@@ -278,7 +278,7 @@ Dado un conjunto de :ref:`Vector2<class_Vector2>`, devuelve el casco convexo com
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **decompose_polygon_in_convex**\ (\ polygon\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_decompose_polygon_in_convex>`
 
-Decomposes the ``polygon`` into multiple convex hulls and returns an array of :ref:`PackedVector2Array<class_PackedVector2Array>`.
+Descompone el ``polygon`` en múltiples envolventes convexas y devuelve un array de :ref:`PackedVector2Array<class_PackedVector2Array>`.
 
 .. rst-class:: classref-item-separator
 
@@ -290,9 +290,9 @@ Decomposes the ``polygon`` into multiple convex hulls and returns an array of :r
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **exclude_polygons**\ (\ polygon_a\: :ref:`PackedVector2Array<class_PackedVector2Array>`, polygon_b\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_exclude_polygons>`
 
-Mutually excludes common area defined by intersection of ``polygon_a`` and ``polygon_b`` (see :ref:`intersect_polygons()<class_Geometry2D_method_intersect_polygons>`) and returns an array of excluded polygons. This performs :ref:`OPERATION_XOR<class_Geometry2D_constant_OPERATION_XOR>` between polygons. In other words, returns all but common area between polygons.
+Excluye mutuamente el área común definida por la intersección de ``polygon_a`` y ``polygon_b`` (véase :ref:`intersect_polygons()<class_Geometry2D_method_intersect_polygons>`) y devuelve un array de polígonos excluidos. Esto realiza :ref:`OPERATION_XOR<class_Geometry2D_constant_OPERATION_XOR>` entre polígonos. En otras palabras, devuelve todo excepto el área común entre los polígonos.
 
-The operation may result in an outer polygon (boundary) and inner polygon (hole) produced which could be distinguished by calling :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
+La operación puede dar como resultado un polígono exterior (límite) y un polígono interior (agujero) producidos que pueden distinguirse llamando a :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
 
 .. rst-class:: classref-item-separator
 
@@ -304,7 +304,7 @@ The operation may result in an outer polygon (boundary) and inner polygon (hole)
 
 :ref:`Vector2<class_Vector2>` **get_closest_point_to_segment**\ (\ point\: :ref:`Vector2<class_Vector2>`, s1\: :ref:`Vector2<class_Vector2>`, s2\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Geometry2D_method_get_closest_point_to_segment>`
 
-Returns the 2D point on the 2D segment (``s1``, ``s2``) that is closest to ``point``. The returned point will always be inside the specified segment.
+Devuelve el punto 2D en el segmento 2D (``s1``, ``s2``) que está más cerca de ``point``. El punto devuelto siempre estará dentro del segmento especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -316,7 +316,7 @@ Returns the 2D point on the 2D segment (``s1``, ``s2``) that is closest to ``poi
 
 :ref:`Vector2<class_Vector2>` **get_closest_point_to_segment_uncapped**\ (\ point\: :ref:`Vector2<class_Vector2>`, s1\: :ref:`Vector2<class_Vector2>`, s2\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Geometry2D_method_get_closest_point_to_segment_uncapped>`
 
-Returns the 2D point on the 2D line defined by (``s1``, ``s2``) that is closest to ``point``. The returned point can be inside the segment (``s1``, ``s2``) or outside of it, i.e. somewhere on the line extending from the segment.
+Devuelve el punto 2D en la línea 2D definida por (``s1``, ``s2``) que está más cerca de ``point``. El punto devuelto puede estar dentro del segmento (``s1``, ``s2``) o fuera de él, es decir, en algún lugar de la línea que se extiende desde el segmento.
 
 .. rst-class:: classref-item-separator
 
@@ -328,7 +328,7 @@ Returns the 2D point on the 2D line defined by (``s1``, ``s2``) that is closest 
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **get_closest_points_between_segments**\ (\ p1\: :ref:`Vector2<class_Vector2>`, q1\: :ref:`Vector2<class_Vector2>`, p2\: :ref:`Vector2<class_Vector2>`, q2\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Geometry2D_method_get_closest_points_between_segments>`
 
-Given the two 2D segments (``p1``, ``q1``) and (``p2``, ``q2``), finds those two points on the two segments that are closest to each other. Returns a :ref:`PackedVector2Array<class_PackedVector2Array>` that contains this point on (``p1``, ``q1``) as well the accompanying point on (``p2``, ``q2``).
+Dados los dos segmentos 2D (``p1``, ``q1``) y (``p2``, ``q2``), encuentra esos dos puntos en los dos segmentos que están más cerca uno del otro. Devuelve un :ref:`PackedVector2Array<class_PackedVector2Array>` que contiene este punto en (``p1``, ``q1``) así como el punto acompañante en (``p2``, ``q2``).
 
 .. rst-class:: classref-item-separator
 
@@ -340,9 +340,9 @@ Given the two 2D segments (``p1``, ``q1``) and (``p2``, ``q2``), finds those two
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **intersect_polygons**\ (\ polygon_a\: :ref:`PackedVector2Array<class_PackedVector2Array>`, polygon_b\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_intersect_polygons>`
 
-Intersects ``polygon_a`` with ``polygon_b`` and returns an array of intersected polygons. This performs :ref:`OPERATION_INTERSECTION<class_Geometry2D_constant_OPERATION_INTERSECTION>` between polygons. In other words, returns common area shared by polygons. Returns an empty array if no intersection occurs.
+Interseca ``polygon_a`` con ``polygon_b`` y devuelve un array de polígonos intersecados. Esto realiza :ref:`OPERATION_INTERSECTION<class_Geometry2D_constant_OPERATION_INTERSECTION>` entre los polígonos. En otras palabras, devuelve el área común compartida por los polígonos. Devuelve un array vacío si no se produce ninguna intersección.
 
-The operation may result in an outer polygon (boundary) and inner polygon (hole) produced which could be distinguished by calling :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
+La operación puede dar como resultado un polígono exterior (límite) y un polígono interior (agujero) producidos que se podrían distinguir llamando a :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
 
 .. rst-class:: classref-item-separator
 
@@ -354,7 +354,7 @@ The operation may result in an outer polygon (boundary) and inner polygon (hole)
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **intersect_polyline_with_polygon**\ (\ polyline\: :ref:`PackedVector2Array<class_PackedVector2Array>`, polygon\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_intersect_polyline_with_polygon>`
 
-Intersects ``polyline`` with ``polygon`` and returns an array of intersected polylines. This performs :ref:`OPERATION_INTERSECTION<class_Geometry2D_constant_OPERATION_INTERSECTION>` between the polyline and the polygon. This operation can be thought of as chopping a line with a closed shape.
+Interseca ``polyline`` con ``polygon`` y devuelve un array de polilíneas intersecadas. Esto realiza :ref:`OPERATION_INTERSECTION<class_Geometry2D_constant_OPERATION_INTERSECTION>` entre la polilínea y el polígono. Esta operación puede ser pensada como cortar una línea con una forma cerrada.
 
 .. rst-class:: classref-item-separator
 
@@ -366,7 +366,7 @@ Intersects ``polyline`` with ``polygon`` and returns an array of intersected pol
 
 :ref:`bool<class_bool>` **is_point_in_circle**\ (\ point\: :ref:`Vector2<class_Vector2>`, circle_position\: :ref:`Vector2<class_Vector2>`, circle_radius\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Geometry2D_method_is_point_in_circle>`
 
-Returns ``true`` if ``point`` is inside the circle or if it's located exactly *on* the circle's boundary, otherwise returns ``false``.
+Devuelve ``true`` si ``point`` está dentro del círculo o si está situado exactamente *en* el límite del círculo; de lo contrario, devuelve ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -378,7 +378,7 @@ Returns ``true`` if ``point`` is inside the circle or if it's located exactly *o
 
 :ref:`bool<class_bool>` **is_point_in_polygon**\ (\ point\: :ref:`Vector2<class_Vector2>`, polygon\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_is_point_in_polygon>`
 
-Returns ``true`` if ``point`` is inside ``polygon`` or if it's located exactly *on* polygon's boundary, otherwise returns ``false``.
+Devuelve ``true`` si ``point`` está dentro de ``polygon`` o si está situado exactamente *en* el límite del polígono; de lo contrario, devuelve ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -390,9 +390,9 @@ Returns ``true`` if ``point`` is inside ``polygon`` or if it's located exactly *
 
 :ref:`bool<class_bool>` **is_polygon_clockwise**\ (\ polygon\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_is_polygon_clockwise>`
 
-Returns ``true`` if ``polygon``'s vertices are ordered in clockwise order, otherwise returns ``false``.
+Devuelve ``true`` si los vértices de ``polygon`` están ordenados en el sentido de las agujas del reloj, de lo contrario devuelve ``false``.
 
-\ **Note:** Assumes a Cartesian coordinate system where ``+x`` is right and ``+y`` is up. If using screen coordinates (``+y`` is down), the result will need to be flipped (i.e. a ``true`` result will indicate counter-clockwise).
+\ **Nota:** Asume un sistema de coordenadas cartesianas donde ``+x`` está a la derecha y ``+y`` está arriba. Si usas coordenadas de pantalla (``+y`` está abajo), el resultado tendrá que ser invertido (es decir, un resultado ``true`` indicará el sentido contrario a las agujas del reloj).
 
 .. rst-class:: classref-item-separator
 
@@ -404,9 +404,9 @@ Returns ``true`` if ``polygon``'s vertices are ordered in clockwise order, other
 
 :ref:`Variant<class_Variant>` **line_intersects_line**\ (\ from_a\: :ref:`Vector2<class_Vector2>`, dir_a\: :ref:`Vector2<class_Vector2>`, from_b\: :ref:`Vector2<class_Vector2>`, dir_b\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Geometry2D_method_line_intersects_line>`
 
-Returns the point of intersection between the two lines (``from_a``, ``dir_a``) and (``from_b``, ``dir_b``). Returns a :ref:`Vector2<class_Vector2>`, or ``null`` if the lines are parallel.
+Devuelve el punto de intersección entre las dos líneas (``from_a``, ``dir_a``) y (``from_b``, ``dir_b``). Devuelve un :ref:`Vector2<class_Vector2>`, o ``null`` si las líneas son paralelas.
 
-\ ``from`` and ``dir`` are *not* endpoints of a line segment or ray but the slope (``dir``) and a known point (``from``) on that line.
+\ ``from`` y ``dir`` *no* son puntos finales de un segmento de línea o rayo, sino la pendiente (``dir``) y un punto conocido (``from``) en esa línea.
 
 
 .. tabs::
@@ -417,11 +417,11 @@ Returns the point of intersection between the two lines (``from_a``, ``dir_a``) 
     var dir_a = Vector2.RIGHT
     var from_b = Vector2.DOWN
 
-    # Returns Vector2(1, 0)
+    # Devuelve Vector2(1, 0)
     Geometry2D.line_intersects_line(from_a, dir_a, from_b, Vector2(1, -1))
-    # Returns Vector2(-1, 0)
+    # Devuelve Vector2(-1, 0)
     Geometry2D.line_intersects_line(from_a, dir_a, from_b, Vector2(-1, -1))
-    # Returns null
+    # Devuelve null
     Geometry2D.line_intersects_line(from_a, dir_a, from_b, Vector2.RIGHT)
 
  .. code-tab:: csharp
@@ -430,11 +430,11 @@ Returns the point of intersection between the two lines (``from_a``, ``dir_a``) 
     var dirA = Vector2.Right;
     var fromB = Vector2.Down;
 
-    // Returns new Vector2(1, 0)
+    // Devuelve new Vector2(1, 0)
     Geometry2D.LineIntersectsLine(fromA, dirA, fromB, new Vector2(1, -1));
-    // Returns new Vector2(-1, 0)
+    // Devuelve new Vector2(-1, 0)
     Geometry2D.LineIntersectsLine(fromA, dirA, fromB, new Vector2(-1, -1));
-    // Returns null
+    // Devuelve null
     Geometry2D.LineIntersectsLine(fromA, dirA, fromB, Vector2.Right);
 
 
@@ -449,7 +449,7 @@ Returns the point of intersection between the two lines (``from_a``, ``dir_a``) 
 
 :ref:`Dictionary<class_Dictionary>` **make_atlas**\ (\ sizes\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_make_atlas>`
 
-Given an array of :ref:`Vector2<class_Vector2>`\ s representing tiles, builds an atlas. The returned dictionary has two keys: ``points`` is a :ref:`PackedVector2Array<class_PackedVector2Array>` that specifies the positions of each tile, ``size`` contains the overall size of the whole atlas as :ref:`Vector2i<class_Vector2i>`.
+Dado un array de :ref:`Vector2<class_Vector2>`\ s que representan tiles, construye un atlas. El diccionario devuelto tiene dos claves: ``points`` es un :ref:`PackedVector2Array<class_PackedVector2Array>` que especifica las posiciones de cada tile, ``size`` contiene el tamaño total del atlas como :ref:`Vector2i<class_Vector2i>`.
 
 .. rst-class:: classref-item-separator
 
@@ -461,9 +461,9 @@ Given an array of :ref:`Vector2<class_Vector2>`\ s representing tiles, builds an
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **merge_polygons**\ (\ polygon_a\: :ref:`PackedVector2Array<class_PackedVector2Array>`, polygon_b\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_merge_polygons>`
 
-Merges (combines) ``polygon_a`` and ``polygon_b`` and returns an array of merged polygons. This performs :ref:`OPERATION_UNION<class_Geometry2D_constant_OPERATION_UNION>` between polygons.
+Fusiona (combina) ``polygon_a`` y ``polygon_b`` y devuelve un array de polígonos fusionados. Esto realiza :ref:`OPERATION_UNION<class_Geometry2D_constant_OPERATION_UNION>` entre los polígonos.
 
-The operation may result in an outer polygon (boundary) and multiple inner polygons (holes) produced which could be distinguished by calling :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
+La operación puede dar como resultado un polígono exterior (límite) y múltiples polígonos interiores (agujeros) producidos que podrían distinguirse llamando a :ref:`is_polygon_clockwise()<class_Geometry2D_method_is_polygon_clockwise>`.
 
 .. rst-class:: classref-item-separator
 
@@ -530,7 +530,7 @@ The operation may result in an outer polygon (boundary) and inner polygon (hole)
 
 :ref:`bool<class_bool>` **point_is_inside_triangle**\ (\ point\: :ref:`Vector2<class_Vector2>`, a\: :ref:`Vector2<class_Vector2>`, b\: :ref:`Vector2<class_Vector2>`, c\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Geometry2D_method_point_is_inside_triangle>`
 
-Returns if ``point`` is inside the triangle specified by ``a``, ``b`` and ``c``.
+Devuelve si ``point`` está dentro del triángulo especificado por ``a``, ``b`` y ``c``.
 
 .. rst-class:: classref-item-separator
 
@@ -542,7 +542,7 @@ Returns if ``point`` is inside the triangle specified by ``a``, ``b`` and ``c``.
 
 :ref:`float<class_float>` **segment_intersects_circle**\ (\ segment_from\: :ref:`Vector2<class_Vector2>`, segment_to\: :ref:`Vector2<class_Vector2>`, circle_position\: :ref:`Vector2<class_Vector2>`, circle_radius\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Geometry2D_method_segment_intersects_circle>`
 
-Given the 2D segment (``segment_from``, ``segment_to``), returns the position on the segment (as a number between 0 and 1) at which the segment hits the circle that is located at position ``circle_position`` and has radius ``circle_radius``. If the segment does not intersect the circle, -1 is returned (this is also the case if the line extending the segment would intersect the circle, but the segment does not).
+Dado el segmento 2D (``segment_from``, ``segment_to``), devuelve la posición en el segmento (como un número entre 0 y 1) en la que el segmento golpea el círculo que se encuentra en la posición ``circle_position`` y tiene un radio ``circle_radius``. Si el segmento no interseca el círculo, se devuelve -1 (este también es el caso si la línea que extiende el segmento intersecara el círculo, pero el segmento no).
 
 .. rst-class:: classref-item-separator
 
@@ -554,7 +554,7 @@ Given the 2D segment (``segment_from``, ``segment_to``), returns the position on
 
 :ref:`Variant<class_Variant>` **segment_intersects_segment**\ (\ from_a\: :ref:`Vector2<class_Vector2>`, to_a\: :ref:`Vector2<class_Vector2>`, from_b\: :ref:`Vector2<class_Vector2>`, to_b\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Geometry2D_method_segment_intersects_segment>`
 
-Checks if the two segments (``from_a``, ``to_a``) and (``from_b``, ``to_b``) intersect. If yes, return the point of intersection as :ref:`Vector2<class_Vector2>`. If no intersection takes place, returns ``null``.
+Comprueba si los dos segmentos (``from_a``, ``to_a``) y (``from_b``, ``to_b``) se intersecan. Si es así, devuelve el punto de intersección como :ref:`Vector2<class_Vector2>`. Si no hay intersección, devuelve ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Checks if the two segments (``from_a``, ``to_a``) and (``from_b``, ``to_b``) int
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **triangulate_delaunay**\ (\ points\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_triangulate_delaunay>`
 
-Triangulates the area specified by discrete set of ``points`` such that no point is inside the circumcircle of any resulting triangle. Returns a :ref:`PackedInt32Array<class_PackedInt32Array>` where each triangle consists of three consecutive point indices into ``points`` (i.e. the returned array will have ``n * 3`` elements, with ``n`` being the number of found triangles). If the triangulation did not succeed, an empty :ref:`PackedInt32Array<class_PackedInt32Array>` is returned.
+Triangula el área especificada por un conjunto discreto de ``points`` de tal manera que ningún punto está dentro del circuncírculo de cualquier triángulo resultante. Devuelve un :ref:`PackedInt32Array<class_PackedInt32Array>` donde cada triángulo consiste en tres índices de puntos consecutivos en ``points`` (es decir, el array devuelto tendrá ``n * 3`` elementos, siendo ``n`` el número de triángulos encontrados). Si la triangulación no tiene éxito, se devuelve un :ref:`PackedInt32Array<class_PackedInt32Array>` vacío.
 
 .. rst-class:: classref-item-separator
 
@@ -578,7 +578,7 @@ Triangulates the area specified by discrete set of ``points`` such that no point
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **triangulate_polygon**\ (\ polygon\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_Geometry2D_method_triangulate_polygon>`
 
-Triangulates the polygon specified by the points in ``polygon``. Returns a :ref:`PackedInt32Array<class_PackedInt32Array>` where each triangle consists of three consecutive point indices into ``polygon`` (i.e. the returned array will have ``n * 3`` elements, with ``n`` being the number of found triangles). Output triangles will always be counter clockwise, and the contour will be flipped if it's clockwise. If the triangulation did not succeed, an empty :ref:`PackedInt32Array<class_PackedInt32Array>` is returned.
+Triangula el polígono especificado por los puntos en ``polygon``. Devuelve un :ref:`PackedInt32Array<class_PackedInt32Array>` donde cada triángulo consiste en tres índices de puntos consecutivos en ``polygon`` (es decir, el array devuelto tendrá ``n * 3`` elementos, siendo ``n`` el número de triángulos encontrados). Los triángulos de salida siempre estarán en sentido antihorario, y el contorno se invertirá si está en el sentido de las agujas del reloj. Si la triangulación no tiene éxito, se devuelve un :ref:`PackedInt32Array<class_PackedInt32Array>` vacío.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -14,7 +14,7 @@ Atributo de vértice (utilizado por :ref:`RenderingDevice<class_RenderingDevice>
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -56,7 +56,7 @@ Descripciones de Propiedades
 - |void| **set_format**\ (\ value\: :ref:`DataFormat<enum_RenderingDevice_DataFormat>`\ )
 - :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **get_format**\ (\ )
 
-The way that this attribute's data is interpreted when sent to a shader.
+La forma en que los datos de este atributo se interpretan cuando se envían a un shader.
 
 .. rst-class:: classref-item-separator
 
@@ -73,7 +73,7 @@ The way that this attribute's data is interpreted when sent to a shader.
 - |void| **set_frequency**\ (\ value\: :ref:`VertexFrequency<enum_RenderingDevice_VertexFrequency>`\ )
 - :ref:`VertexFrequency<enum_RenderingDevice_VertexFrequency>` **get_frequency**\ (\ )
 
-The rate at which this attribute is pulled from its vertex buffer.
+La velocidad a la que este atributo se extrae de su búfer de vértices.
 
 .. rst-class:: classref-item-separator
 
@@ -90,7 +90,7 @@ The rate at which this attribute is pulled from its vertex buffer.
 - |void| **set_location**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_location**\ (\ )
 
-The location in the shader that this attribute is bound to.
+La ubicación en el shader al que está enlazado este atributo.
 
 .. rst-class:: classref-item-separator
 
@@ -107,7 +107,7 @@ The location in the shader that this attribute is bound to.
 - |void| **set_offset**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_offset**\ (\ )
 
-The number of bytes between the start of the vertex buffer and the first instance of this attribute.
+El número de bytes entre el inicio del búfer de vértices y la primera instancia de este atributo.
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +124,7 @@ The number of bytes between the start of the vertex buffer and the first instanc
 - |void| **set_stride**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_stride**\ (\ )
 
-The number of bytes between the starts of consecutive instances of this attribute.
+El número de bytes entre el inicio de instancias consecutivas de este atributo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

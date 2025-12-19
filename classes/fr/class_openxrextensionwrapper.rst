@@ -7,7 +7,7 @@ OpenXRExtensionWrapper
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OpenXRExtensionWrapperExtension<class_OpenXRExtensionWrapperExtension>`, :ref:`OpenXRFutureExtension<class_OpenXRFutureExtension>`, :ref:`OpenXRRenderModelExtension<class_OpenXRRenderModelExtension>`
+**Hérité par :** :ref:`OpenXRExtensionWrapperExtension<class_OpenXRExtensionWrapperExtension>`, :ref:`OpenXRFutureExtension<class_OpenXRFutureExtension>`, :ref:`OpenXRRenderModelExtension<class_OpenXRRenderModelExtension>`
 
 Permet d'implémenter des extensions OpenXR avec GDExtension.
 

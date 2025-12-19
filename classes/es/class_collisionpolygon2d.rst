@@ -7,7 +7,7 @@ CollisionPolygon2D
 
 **Hereda:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A node that provides a polygon shape to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent.
+Un nodo que proporciona una forma de polígono a un padre :ref:`CollisionObject2D<class_CollisionObject2D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -59,7 +59,7 @@ enum **BuildMode**: :ref:`🔗<enum_CollisionPolygon2D_BuildMode>`
 
 :ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>` **BUILD_SOLIDS** = ``0``
 
-Collisions will include the polygon and its contained area. In this mode the node has the same effect as several :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>` nodes, one for each convex shape in the convex decomposition of the polygon (but without the overhead of multiple nodes).
+Las colisiones incluirán el polígono y su área contenida. En este modo, el nodo tiene el mismo efecto que varios nodos :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`, uno para cada forma convexa en la descomposición convexa del polígono (pero sin la sobrecarga de múltiples nodos).
 
 .. _class_CollisionPolygon2D_constant_BUILD_SEGMENTS:
 
@@ -67,7 +67,7 @@ Collisions will include the polygon and its contained area. In this mode the nod
 
 :ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>` **BUILD_SEGMENTS** = ``1``
 
-Collisions will only include the polygon edges. In this mode the node has the same effect as a single :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` made of segments, with the restriction that each segment (after the first one) starts where the previous one ends, and the last one ends where the first one starts (forming a closed but hollow polygon).
+Las colisiones solo incluirán los bordes del polígono. En este modo, el nodo tiene el mismo efecto que un único :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` hecho de segmentos, con la restricción de que cada segmento (después del primero) comienza donde termina el anterior, y el último termina donde comienza el primero (formando un polígono cerrado pero hueco).
 
 .. rst-class:: classref-section-separator
 
@@ -106,7 +106,7 @@ Modo de construcción de colisión.
 - |void| **set_disabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_disabled**\ (\ )
 
-If ``true``, no collisions will be detected. This property should be changed with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
+Si es ``true``, no se detectarán colisiones. Esta propiedad debe cambiarse con :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
 
 .. rst-class:: classref-item-separator
 
@@ -123,9 +123,9 @@ If ``true``, no collisions will be detected. This property should be changed wit
 - |void| **set_one_way_collision**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_one_way_collision_enabled**\ (\ )
 
-If ``true``, only edges that face up, relative to **CollisionPolygon2D**'s rotation, will collide with other objects.
+Si es ``true``, solo los bordes que miren hacia arriba, con relación a la rotación de **CollisionPolygon2D**, colisionarán con otros objetos.
 
-\ **Note:** This property has no effect if this **CollisionPolygon2D** is a child of an :ref:`Area2D<class_Area2D>` node.
+\ **Nota:** Esta propiedad no tiene ningún efecto si este **CollisionPolygon2D** es hijo de un nodo :ref:`Area2D<class_Area2D>`.
 
 .. rst-class:: classref-item-separator
 

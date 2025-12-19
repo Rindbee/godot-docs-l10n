@@ -7,16 +7,16 @@ PanelContainer
 
 **Hérite de :** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OpenXRBindingModifierEditor<class_OpenXRBindingModifierEditor>`, :ref:`ScriptEditor<class_ScriptEditor>`
+**Hérité par :** :ref:`OpenXRBindingModifierEditor<class_OpenXRBindingModifierEditor>`, :ref:`ScriptEditor<class_ScriptEditor>`
 
-A container that keeps its child controls within the area of a :ref:`StyleBox<class_StyleBox>`.
+Un conteneur qui maintient ses contrôles enfants dans la zone d'une :ref:`StyleBox<class_StyleBox>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A container that keeps its child controls within the area of a :ref:`StyleBox<class_StyleBox>`. Useful for giving controls an outline.
+Un conteneur qui maintient ses contrôles enfants dans la zone d'une :ref:`StyleBox<class_StyleBox>`. Utile pour donner à des contrôles un contour.
 
 .. rst-class:: classref-introduction-group
 

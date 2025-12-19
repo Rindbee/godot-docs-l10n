@@ -85,7 +85,7 @@ Appelée lorsque le taux d'échantillonnage audio utilisé pour enregistrer l'au
 
 :ref:`SpeakerMode<enum_AudioServer_SpeakerMode>` **_get_audio_speaker_mode**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_MovieWriter_private_method__get_audio_speaker_mode>`
 
-Called when the audio speaker mode used for recording the audio is requested by the engine. This can affect the number of output channels in the resulting audio file/stream. Defaults to :ref:`AudioServer.SPEAKER_MODE_STEREO<class_AudioServer_constant_SPEAKER_MODE_STEREO>` if :ref:`_get_audio_speaker_mode()<class_MovieWriter_private_method__get_audio_speaker_mode>` is not overridden.
+Appelée lorsque le mode de haut-parleur audio utilisé pour enregistrer l'audio est demandé par le moteur. Cela peut affecter le nombre de canaux de sortie dans le fichier/flux audio résultant. Vaut par défaut :ref:`AudioServer.SPEAKER_MODE_STEREO<class_AudioServer_constant_SPEAKER_MODE_STEREO>` si :ref:`_get_audio_speaker_mode()<class_MovieWriter_private_method__get_audio_speaker_mode>` n'est pas redéfini.
 
 .. rst-class:: classref-item-separator
 
@@ -97,13 +97,13 @@ Called when the audio speaker mode used for recording the audio is requested by 
 
 :ref:`bool<class_bool>` **_handles_file**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |required| |const| :ref:`🔗<class_MovieWriter_private_method__handles_file>`
 
-Called when the engine determines whether this **MovieWriter** is able to handle the file at ``path``. Must return ``true`` if this **MovieWriter** is able to handle the given file path, ``false`` otherwise. Typically, :ref:`_handles_file()<class_MovieWriter_private_method__handles_file>` is overridden as follows to allow the user to record a file at any path with a given file extension:
+Appelée lorsque le moteur détermine si ce **MovieWriter** est capable de gérer le fichier au chemin ``path``. Doit renvoyer ``true`` si ce **MovieWriter** est capable de gérer le chemin de fichier donné, ``false`` sinon. Habituellement, :ref:`_handles_file()<class_MovieWriter_private_method__handles_file>` est redéfini comme suit pour permettre à l'utilisateur d'enregistrer un fichier à n'importe quel chemin avec une extension de fichier donnée :
 
 ::
 
     func _handles_file(path):
-        # Allows specifying an output file with a `.mkv` file extension (case-insensitive),
-        # either in the Project Settings or with the `--write-movie <path>` command line argument.
+        # Permet de spécifier un fichier de sortie avec une extension `.mkv` (insensible à la casse),
+        # soit dans les paramètres du projet, soit avec l'argument de ligne de commande `--write-movie <path>`.
         return path.get_extension().to_lower() == "mkv"
 
 .. rst-class:: classref-item-separator

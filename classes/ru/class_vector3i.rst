@@ -633,7 +633,7 @@ Z компонент вектора. Также может быть доступ
 
 ::
 
-    print(Vector3i(10, 20, 30) * Vector3i(3, 4, 5)) # Prints (30, 80, 150)
+    print(Vector3i(10, 20, 30) * Vector3i(3, 4, 5)) # Выводит (30, 80, 150)
 
 .. rst-class:: classref-item-separator
 
@@ -649,7 +649,7 @@ Z компонент вектора. Также может быть доступ
 
 ::
 
-    print(Vector3i(10, 15, 20) * 0.9) # Prints (9.0, 13.5, 18.0)
+    print(Vector3i(10, 15, 20) * 0.9) # Выводит (9.0, 13.5, 18.0)
 
 .. rst-class:: classref-item-separator
 

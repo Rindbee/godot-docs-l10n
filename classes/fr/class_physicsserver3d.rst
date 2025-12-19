@@ -7,7 +7,7 @@ PhysicsServer3D
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`PhysicsServer3DExtension<class_PhysicsServer3DExtension>`
+**Hérité par :** :ref:`PhysicsServer3DExtension<class_PhysicsServer3DExtension>`
 
 A server interface for low-level 3D physics access.
 

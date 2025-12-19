@@ -18,9 +18,9 @@ Descripción
 
 Este nodo aplica pesos de un :ref:`XRFaceTracker<class_XRFaceTracker>` a una malla con blend shapes compatibles.
 
-Las blend shapes de `Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes>`__ son compatibles, así como las blend shapes de ARKit y SRanipal.
+Las blendshapes de `Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes>`__ son compatibles, así como las blendshapes de ARKit y SRanipal.
 
-El nodo intenta identificar las blend shapes basándose en la coincidencia de nombres. Las blend shapes deben coincidir con los nombres que figuran en el `gráfico de compatibilidad de Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview>`__.
+El nodo intenta identificar las blendshapes basándose en la coincidencia de nombres. Las blendshapes deben coincidir con los nombres que figuran en el `gráfico de compatibilidad de Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview>`__.
 
 .. rst-class:: classref-introduction-group
 

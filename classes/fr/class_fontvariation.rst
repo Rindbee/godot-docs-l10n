@@ -7,7 +7,7 @@ FontVariation
 
 **Hérite de :** :ref:`Font<class_Font>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A variation of a font with additional settings.
+Une variation d'une police avec des paramètres supplémentaires.
 
 .. rst-class:: classref-introduction-group
 

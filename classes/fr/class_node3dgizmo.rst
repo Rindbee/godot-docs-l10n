@@ -7,9 +7,9 @@ Node3DGizmo
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>`
+**Hérité par :** :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>`
 
-Abstract class to expose editor gizmos for :ref:`Node3D<class_Node3D>`.
+Classe abstraite pour exposer des manipulateurs dans l'éditeur pour :ref:`Node3D<class_Node3D>`.
 
 .. rst-class:: classref-introduction-group
 

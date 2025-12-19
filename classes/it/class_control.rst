@@ -957,7 +957,7 @@ Indica al :ref:`Container<class_Container>` genitore di espandere i limiti di qu
 
 :ref:`SizeFlags<enum_Control_SizeFlags>` **SIZE_EXPAND** = ``2``
 
-Indica al :ref:`Container<class_Container>` genitore di lasciare che questo nodo occupi tutto lo spazio disponibile sull'asse indicato. Se più nodi adiacenti sono impostati per espandersi, condivideranno lo spazio in base al loro rapporto di estensione. Vedi :ref:`size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`. Da utilizzare con :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` e :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
+Indica al :ref:`Container<class_Container>` genitore di lasciare che questo nodo occupi tutto lo spazio disponibile sull'asse indicato. Se più nodi adiacenti sono impostati per espandersi, condivideranno lo spazio in base al loro rapporto di allungamento. Vedi :ref:`size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`. Da utilizzare con :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` e :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
 
 .. _class_Control_constant_SIZE_EXPAND_FILL:
 
@@ -2106,7 +2106,7 @@ Indica ai nodi :ref:`Container<class_Container>` genitori come ridimensionare e 
 - |void| **set_stretch_ratio**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_stretch_ratio**\ (\ )
 
-Se il nodo e almeno uno dei suoi vicini utilizzano il flag di dimensione :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>`, il :ref:`Container<class_Container>` genitore gli consentirà di occupare più o meno spazio a seconda di questa proprietà. Se questo nodo ha un rapporto di estensione di 2 e il suo vicino un rapporto di 1, questo nodo occuperà due terzi dello spazio disponibile.
+Se il nodo e almeno uno dei suoi vicini utilizzano il flag di dimensione :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>`, il :ref:`Container<class_Container>` genitore gli consentirà di occupare più o meno spazio a seconda di questa proprietà. Se questo nodo ha un rapporto di allungamento di 2 e il suo vicino un rapporto di 1, questo nodo occuperà due terzi dello spazio disponibile.
 
 .. rst-class:: classref-item-separator
 

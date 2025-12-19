@@ -338,7 +338,7 @@ int
 
 ::
 
-    print(2 * Vector2(1, 4)) # Prints (2, 8)
+    print(2 * Vector2(1, 4)) # Выводит (2, 8)
 
 .. rst-class:: classref-item-separator
 
@@ -438,7 +438,7 @@ int
 
 ::
 
-    print(2 ** 0.5) # Prints 1.4142135623731
+    print(2 ** 0.5) # Выводит 1.4142135623731
 
 .. rst-class:: classref-item-separator
 
@@ -454,7 +454,7 @@ int
 
 ::
 
-    print(3 ** 4) # Prints 81
+    print(3 ** 4) # Выводит 81
 
 .. rst-class:: classref-item-separator
 
@@ -518,7 +518,7 @@ int
 
 ::
 
-    print(10 / 3.0) # Prints 3.33333333333333
+    print(10 / 3.0) # Выводит 3.33333333333333
 
 .. rst-class:: classref-item-separator
 

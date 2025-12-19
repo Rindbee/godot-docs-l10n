@@ -1062,7 +1062,7 @@ Il limite del numero di nodi remoti che si possono selezionare contemporaneament
 
 :ref:`bool<class_bool>` **debugger/profile_native_calls** :ref:`🔗<class_EditorSettings_property_debugger/profile_native_calls>`
 
-If ``true``, enables collection of profiling data from non-GDScript Godot functions, such as engine class methods. Enabling this slows execution while profiling further.
+Se ``true``, abilita la raccolta dei dati di profilazione dalle funzioni di Godot non scritte in GDScript, come i metodi di una classe del motore. Abilitare questa opzione rallenterà l'esecuzione durante l'ulteriore profilazione.
 
 .. rst-class:: classref-item-separator
 
@@ -1210,7 +1210,7 @@ L'intensità della tinta da usare per lo sfondo delle sotto-risorse nel pannello
 
 :ref:`bool<class_bool>` **docks/scene_tree/accessibility_warnings** :ref:`🔗<class_EditorSettings_property_docks/scene_tree/accessibility_warnings>`
 
-If ``true``, accessibility related warnings are displayed alongside other configuration warnings.
+Se ``true``, gli avvisi relativi all'accessibilità sono visualizzati insieme ad altri avvisi di configurazione.
 
 .. rst-class:: classref-item-separator
 
@@ -2230,7 +2230,7 @@ Il colore dei gizmo dell'editor 3D usato per i nodi :ref:`SpringBoneCollision3D<
 
 :ref:`Color<class_Color>` **editors/3d_gizmos/gizmo_colors/spring_bone_inside_collision** :ref:`🔗<class_EditorSettings_property_editors/3d_gizmos/gizmo_colors/spring_bone_inside_collision>`
 
-The 3D editor gizmo color used for :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>` nodes with inside mode.
+Il colore dei gizmo dell'editor 3D usato per i nodi :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>` con la modalità interna.
 
 .. rst-class:: classref-item-separator
 
@@ -2314,7 +2314,7 @@ La forma dei gizmo delle ossa di uno :ref:`Skeleton3D<class_Skeleton3D>` nell'ed
 
 :ref:`float<class_float>` **editors/3d_gizmos/gizmo_settings/lightmap_gi_probe_size** :ref:`🔗<class_EditorSettings_property_editors/3d_gizmos/gizmo_settings/lightmap_gi_probe_size>`
 
-Size of probe gizmos displayed when editing :ref:`LightmapGI<class_LightmapGI>` and :ref:`LightmapProbe<class_LightmapProbe>` nodes. Setting this to ``0.0`` will hide the probe spheres of :ref:`LightmapGI<class_LightmapGI>` and wireframes of :ref:`LightmapProbe<class_LightmapProbe>` nodes, but will keep the wireframes linking probes from :ref:`LightmapGI<class_LightmapGI>` and billboard icons from :ref:`LightmapProbe<class_LightmapProbe>` intact.
+Dimensione dei gizmo di sonda visualizzati durante la modifica dei nodi :ref:`LightmapGI<class_LightmapGI>` e :ref:`LightmapProbe<class_LightmapProbe>`. Impostando questo valore su ``0.0``, le sfere di sonda di :ref:`LightmapGI<class_LightmapGI>` e i wireframe dei nodi :ref:`LightmapProbe<class_LightmapProbe>` saranno nascosti, ma i wireframe che collegano le sonde da :ref:`LightmapGI<class_LightmapGI>` e le icone dei billboard da :ref:`LightmapProbe<class_LightmapProbe>` rimarranno intatti.
 
 .. rst-class:: classref-item-separator
 
@@ -2566,7 +2566,7 @@ Controlla se la rotellina del mouse effettua lo zoom o la panoramica nell'editor
 
 :ref:`int<class_int>` **editors/panning/animation_editors_panning_scheme** :ref:`🔗<class_EditorSettings_property_editors/panning/animation_editors_panning_scheme>`
 
-Controls whether the mouse wheel scroll zooms or pans in the animation track and Bezier editors. See also :ref:`editors/panning/2d_editor_panning_scheme<class_EditorSettings_property_editors/panning/2d_editor_panning_scheme>` and :ref:`editors/panning/sub_editors_panning_scheme<class_EditorSettings_property_editors/panning/sub_editors_panning_scheme>` (which controls the animation blend tree editor's pan behavior).
+Controlla se la rotellina del mouse effettua lo zoom o la panoramica negli editor delle tracce di animazione e di Bézier. Vedi anche :ref:`editors/panning/2d_editor_panning_scheme<class_EditorSettings_property_editors/panning/2d_editor_panning_scheme>` e :ref:`editors/panning/sub_editors_panning_scheme<class_EditorSettings_property_editors/panning/sub_editors_panning_scheme>` (che controlla il comportamento di panoramica dell'editor dell'albero di fusione d'animazione).
 
 .. rst-class:: classref-item-separator
 
@@ -3847,7 +3847,7 @@ Se ``true``, le scene e gli script vengono salvati quando l'editor non è più i
 
 :ref:`bool<class_bool>` **interface/editor/separate_distraction_mode** :ref:`🔗<class_EditorSettings_property_interface/editor/separate_distraction_mode>`
 
-Se ``true``, la scheda Script dell'editor avrà un interruttore per la modalità senza distrazioni che sarà separato dalle schede 2D/3D/Gioco/Libreria. Se ``false``, l'interruttore della modalità senza distrazioni è condiviso tra tutte le schede.
+Se ``true``, la scheda Script dell'editor avrà un interruttore per la modalità senza distrazioni che sarà separato dalle schede 2D/3D/Gioco/AssetLib. Se ``false``, l'interruttore della modalità senza distrazioni è condiviso tra tutte le schede.
 
 .. rst-class:: classref-item-separator
 
@@ -4577,9 +4577,9 @@ Se ``true``, abilita i gesti di panoramica e zoom con due dita sui dispositivi t
 
 :ref:`bool<class_bool>` **interface/touchscreen/enable_touch_optimizations** :ref:`🔗<class_EditorSettings_property_interface/touchscreen/enable_touch_optimizations>`
 
-If ``true``, increases the scrollbar touch area and enables a larger dragger for split containers to improve usability on touchscreen devices
+Se ``true``, ingrandisce l'area di tocco della barra di scorrimento e abilita un trascinatore più grande per i contenitori divisori per migliorare l'usabilità sui dispositivi touchscreen.
 
-\ **Note:** Defaults to ``true`` on touchscreen devices.
+\ **Nota:** Il valore predefinito è ``true`` sui dispositivi touchscreen.
 
 .. rst-class:: classref-item-separator
 

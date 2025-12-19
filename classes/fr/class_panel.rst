@@ -7,14 +7,14 @@ Panel
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A GUI control that displays a :ref:`StyleBox<class_StyleBox>`.
+Une contrôle de GUI qui affiche une :ref:`StyleBox<class_StyleBox>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**Panel** is a GUI control that displays a :ref:`StyleBox<class_StyleBox>`. See also :ref:`PanelContainer<class_PanelContainer>`.
+**Panel** est un contrôle de GUI qui affiche une :ref:`StyleBox<class_StyleBox>`. Voir aussi :ref:`PanelContainer<class_PanelContainer>`.
 
 .. rst-class:: classref-introduction-group
 

@@ -983,7 +983,7 @@ Devuelve un diccionario que contiene los parámetros de rango para una columna d
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_structured_text_bidi_override>`
 
-Devuelve la configuración de sobreescritura del algoritmo BiDi para esta celda.
+Devuelve la configuración de sobrescritura del algoritmo BiDi para esta celda.
 
 .. rst-class:: classref-item-separator
 
@@ -1007,7 +1007,7 @@ Devuelve las opciones BiDi adicionales establecidas para esta celda.
 
 :ref:`String<class_String>` **get_suffix**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_suffix>`
 
-Obtiene la cadena de sufijo que se muestra después del valor de la columna.
+Obtiene la string de sufijo que se muestra después del valor de la columna.
 
 .. rst-class:: classref-item-separator
 
@@ -1677,7 +1677,7 @@ Si ``selectable`` es ``true``, la ``column`` dada es seleccionable.
 
 |void| **set_structured_text_bidi_override**\ (\ column\: :ref:`int<class_int>`, parser\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ ) :ref:`🔗<class_TreeItem_method_set_structured_text_bidi_override>`
 
-Establece la sobreescritura del algoritmo BiDi para el texto estructurado. Tiene efecto para las celdas que muestran texto.
+Establece la sobrescritura del algoritmo BiDi para el texto estructurado. Tiene efecto para las celdas que muestran texto.
 
 .. rst-class:: classref-item-separator
 
@@ -1689,7 +1689,7 @@ Establece la sobreescritura del algoritmo BiDi para el texto estructurado. Tiene
 
 |void| **set_structured_text_bidi_override_options**\ (\ column\: :ref:`int<class_int>`, args\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_TreeItem_method_set_structured_text_bidi_override_options>`
 
-Establece opciones adicionales para la sobreescritura de BiDi. Tiene efecto para las celdas que muestran texto.
+Establece opciones adicionales para la sobrescritura de BiDi. Tiene efecto para las celdas que muestran texto.
 
 .. rst-class:: classref-item-separator
 
@@ -1701,7 +1701,7 @@ Establece opciones adicionales para la sobreescritura de BiDi. Tiene efecto para
 
 |void| **set_suffix**\ (\ column\: :ref:`int<class_int>`, text\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TreeItem_method_set_suffix>`
 
-Establece una cadena que se mostrará después del valor de una columna (por ejemplo, una abreviatura de unidad).
+Establece una string que se mostrará después del valor de una columna (por ejemplo, una abreviatura de unidad).
 
 .. rst-class:: classref-item-separator
 

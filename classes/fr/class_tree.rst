@@ -2088,7 +2088,7 @@ La :ref:`StyleBox<class_StyleBox>` pour l'élément étant survolé, mais pas s�
 
 :ref:`StyleBox<class_StyleBox>` **hovered_dimmed** :ref:`🔗<class_Tree_theme_style_hovered_dimmed>`
 
-:ref:`StyleBox<class_StyleBox>` for the item being hovered, while a button of the same item is hovered as the same time.
+:ref:`StyleBox<class_StyleBox>` utilisée pour l'élément survolé, quand un bouton du même élément est survolé en même temps.
 
 .. rst-class:: classref-item-separator
 
@@ -2100,7 +2100,7 @@ La :ref:`StyleBox<class_StyleBox>` pour l'élément étant survolé, mais pas s�
 
 :ref:`StyleBox<class_StyleBox>` **hovered_selected** :ref:`🔗<class_Tree_theme_style_hovered_selected>`
 
-:ref:`StyleBox<class_StyleBox>` for the hovered and selected items, used when the **Tree** is not being focused.
+:ref:`StyleBox<class_StyleBox>` utilisée pour les éléments sélectionnés et survolés, quand le **Tree** n'a pas le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -2112,7 +2112,7 @@ La :ref:`StyleBox<class_StyleBox>` pour l'élément étant survolé, mais pas s�
 
 :ref:`StyleBox<class_StyleBox>` **hovered_selected_focus** :ref:`🔗<class_Tree_theme_style_hovered_selected_focus>`
 
-:ref:`StyleBox<class_StyleBox>` for the hovered and selected items, used when the **Tree** is being focused.
+:ref:`StyleBox<class_StyleBox>` utilisée pour les éléments sélectionnés et survolés, quand le **Tree** a le focus.
 
 .. rst-class:: classref-item-separator
 

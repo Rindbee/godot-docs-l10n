@@ -7,7 +7,7 @@ PhysicsServer2D
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`PhysicsServer2DExtension<class_PhysicsServer2DExtension>`
+**Hérité par :** :ref:`PhysicsServer2DExtension<class_PhysicsServer2DExtension>`
 
 A server interface for low-level 2D physics access.
 

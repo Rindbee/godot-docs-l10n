@@ -247,7 +247,7 @@ Devuelve el valor de un atributo del elemento analizado, especificado por su ``n
 
 :ref:`String<class_String>` **get_named_attribute_value_safe**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_XMLParser_method_get_named_attribute_value_safe>`
 
-Devuelve el valor de un atributo del elemento analizado, especificado por su ``name``. Este método devolverá un string vacío si el elemento no tiene dicho atributo.
+Devuelve el valor de un atributo del elemento analizado, especificado por su ``name``. Este método devolverá una string vacía si el elemento no tiene dicho atributo.
 
 .. rst-class:: classref-item-separator
 

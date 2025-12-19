@@ -7,7 +7,7 @@ Cubemap
 
 **Hérite de :** :ref:`ImageTextureLayered<class_ImageTextureLayered>` **<** :ref:`TextureLayered<class_TextureLayered>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Six square textures representing the faces of a cube. Commonly used as a skybox.
+Six textures carrées représentant les faces d'un cube. Couramment utilisé en tant que skybox.
 
 .. rst-class:: classref-introduction-group
 

@@ -1639,7 +1639,7 @@ Bandera usada para marcar un array de índices.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_BLEND_SHAPE_MASK** = ``7``
 
-Mask of mesh channels permitted in blend shapes.
+Máscara de los canales de malla permitidos en las blendshapes.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM_BASE:
 
@@ -1647,7 +1647,7 @@ Mask of mesh channels permitted in blend shapes.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM_BASE** = ``13``
 
-Shift of first custom channel.
+Desplazamiento del primer canal personalizado.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM_BITS:
 
@@ -1655,7 +1655,7 @@ Shift of first custom channel.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM_BITS** = ``3``
 
-Number of format bits per custom channel. See :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`.
+Número de bits de formato por canal personalizado. Véase :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM0_SHIFT:
 
@@ -1663,7 +1663,7 @@ Number of format bits per custom channel. See :ref:`ArrayCustomFormat<enum_Rende
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM0_SHIFT** = ``13``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` for custom channel index 0.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` para el índice de canal personalizado 0.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM1_SHIFT:
 
@@ -1671,7 +1671,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM1_SHIFT** = ``16``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` for custom channel index 1.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` para el índice de canal personalizado 1.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM2_SHIFT:
 
@@ -1679,7 +1679,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM2_SHIFT** = ``19``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` for custom channel index 2.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` para el índice de canal personalizado 2.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM3_SHIFT:
 
@@ -1687,7 +1687,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM3_SHIFT** = ``22``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` for custom channel index 3.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>` para el índice de canal personalizado 3.
 
 .. _class_RenderingServer_constant_ARRAY_FORMAT_CUSTOM_MASK:
 
@@ -1695,7 +1695,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FORMAT_CUSTOM_MASK** = ``7``
 
-Mask of custom format bits per custom channel. Must be shifted by one of the SHIFT constants. See :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`.
+Máscara de bits de formato personalizado por canal personalizado. Debe ser desplazado por una de las constantes SHIFT. Véase :ref:`ArrayCustomFormat<enum_RenderingServer_ArrayCustomFormat>`.
 
 .. _class_RenderingServer_constant_ARRAY_COMPRESS_FLAGS_BASE:
 
@@ -1703,7 +1703,7 @@ Mask of custom format bits per custom channel. Must be shifted by one of the SHI
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_COMPRESS_FLAGS_BASE** = ``25``
 
-Shift of first compress flag. Compress flags should be passed to :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>` and :ref:`SurfaceTool.commit()<class_SurfaceTool_method_commit>`.
+Desplazamiento de la primera bandera de compresión. Las banderas de compresión deben pasarse a :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>` y :ref:`SurfaceTool.commit()<class_SurfaceTool_method_commit>`.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_USE_2D_VERTICES:
 
@@ -1719,7 +1719,7 @@ Flag usada para marcar que el array contiene vértices 2D.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FLAG_USE_DYNAMIC_UPDATE** = ``67108864``
 
-Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unused on Vulkan.
+Bandera utilizada para marcar que los datos de la malla usarán ``GL_DYNAMIC_DRAW`` en GLES. No se utiliza en Vulkan.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS:
 
@@ -1743,7 +1743,7 @@ Bandera usada para marcar que la malla no tiene un array de vértices y en su lu
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FLAG_COMPRESS_ATTRIBUTES** = ``536870912``
 
-Flag used to mark that a mesh is using compressed attributes (vertices, normals, tangents, UVs). When this form of compression is enabled, vertex positions will be packed into an RGBA16UNORM attribute and scaled in the vertex shader. The normal and tangent will be packed into an RG16UNORM representing an axis, and a 16-bit float stored in the A-channel of the vertex. UVs will use 16-bit normalized floats instead of full 32-bit signed floats. When using this compression mode you must use either vertices, normals, and tangents or only vertices. You cannot use normals without tangents. Importers will automatically enable this compression if they can.
+Bandera utilizada para marcar que una malla está utilizando atributos comprimidos (vértices, normales, tangentes, UVs). Cuando esta forma de compresión está habilitada, las posiciones de los vértices se empaquetarán en un atributo RGBA16UNORM y se escalarán en el sombreador de vértices. La normal y la tangente se empaquetarán en un RG16UNORM representando un eje, y un float de 16 bits almacenado en el canal A del vértice. Los UVs utilizarán floats normalizados de 16 bits en lugar de floats completos de 32 bits con signo. Cuando utilices este modo de compresión debes usar vértices, normales y tangentes o solo vértices. No puedes usar normales sin tangentes. Los importadores habilitarán automáticamente esta compresión si pueden.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_FORMAT_VERSION_BASE:
 
@@ -3985,7 +3985,7 @@ enum **CompositorEffectCallbackType**: :ref:`🔗<enum_RenderingServer_Composito
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_PRE_OPAQUE** = ``0``
 
-The callback is called before our opaque rendering pass, but after depth prepass (if applicable).
+La retrollamada se llama antes de nuestro pase de renderizado opaco, pero después del pre-pase de profundidad (si corresponde).
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_OPAQUE:
 
@@ -3993,7 +3993,7 @@ The callback is called before our opaque rendering pass, but after depth prepass
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_OPAQUE** = ``1``
 
-The callback is called after our opaque rendering pass, but before our sky is rendered.
+La retrollamada se llama después de nuestro pase de renderizado opaco, pero antes de que se renderice nuestro cielo.
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_SKY:
 
@@ -4001,7 +4001,7 @@ The callback is called after our opaque rendering pass, but before our sky is re
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_SKY** = ``2``
 
-The callback is called after our sky is rendered, but before our back buffers are created (and if enabled, before subsurface scattering and/or screen space reflections).
+La retrollamada se llama después de que se renderice nuestro cielo, pero antes de que se creen nuestros búferes de fondo (y, si está habilitado, antes de la dispersión subsuperficial y/o los reflejos del espacio de pantalla).
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_PRE_TRANSPARENT:
 
@@ -4009,7 +4009,7 @@ The callback is called after our sky is rendered, but before our back buffers ar
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_PRE_TRANSPARENT** = ``3``
 
-The callback is called before our transparent rendering pass, but after our sky is rendered and we've created our back buffers.
+La retrollamada se llama antes de nuestro pase de renderizado transparente, pero después de que se renderice nuestro cielo y hayamos creado nuestros búferes de fondo.
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_TRANSPARENT:
 
@@ -4017,7 +4017,7 @@ The callback is called before our transparent rendering pass, but after our sky 
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_TRANSPARENT** = ``4``
 
-The callback is called after our transparent rendering pass, but before any built-in post-processing effects and output to our render target.
+La retrollamada se llama después de nuestro pase de renderizado transparente, pero antes de cualquier efecto de post-procesamiento incorporado y de la salida a nuestro objetivo de renderizado.
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_ANY:
 
@@ -7853,7 +7853,7 @@ To place in a scene, attach this directional light to an instance using :ref:`in
 
 |void| **directional_shadow_atlas_set_size**\ (\ size\: :ref:`int<class_int>`, is_16bits\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_directional_shadow_atlas_set_size>`
 
-Sets the ``size`` of the directional light shadows in 3D. See also :ref:`ProjectSettings.rendering/lights_and_shadows/directional_shadow/size<class_ProjectSettings_property_rendering/lights_and_shadows/directional_shadow/size>`. This parameter is global and cannot be set on a per-viewport basis.
+Establece el ``size`` de las sombras de la luz direccional en 3D. Mira también :ref:`ProjectSettings.rendering/lights_and_shadows/directional_shadow/size<class_ProjectSettings_property_rendering/lights_and_shadows/directional_shadow/size>`. Este parámetro es global y no puede ser establecido por cada viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -7865,7 +7865,7 @@ Sets the ``size`` of the directional light shadows in 3D. See also :ref:`Project
 
 |void| **directional_soft_shadow_filter_set_quality**\ (\ quality\: :ref:`ShadowQuality<enum_RenderingServer_ShadowQuality>`\ ) :ref:`🔗<class_RenderingServer_method_directional_soft_shadow_filter_set_quality>`
 
-Sets the filter ``quality`` for directional light shadows in 3D. See also :ref:`ProjectSettings.rendering/lights_and_shadows/directional_shadow/soft_shadow_filter_quality<class_ProjectSettings_property_rendering/lights_and_shadows/directional_shadow/soft_shadow_filter_quality>`. This parameter is global and cannot be set on a per-viewport basis.
+Establece el filtro ``quality`` para las sombras de la luz direccional en 3D. Mira también :ref:`ProjectSettings.rendering/lights_and_shadows/directional_shadow/soft_shadow_filter_quality<class_ProjectSettings_property_rendering/lights_and_shadows/directional_shadow/soft_shadow_filter_quality>`. Este parámetro es global y no puede ser establecido por cada viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -8431,7 +8431,7 @@ Devuelve los parámetros de un shader.
 
 :ref:`RID<class_RID>` **get_test_cube**\ (\ ) :ref:`🔗<class_RenderingServer_method_get_test_cube>`
 
-Returns the RID of the test cube. This mesh will be created and returned on the first call to :ref:`get_test_cube()<class_RenderingServer_method_get_test_cube>`, then it will be cached for subsequent calls. See also :ref:`make_sphere_mesh()<class_RenderingServer_method_make_sphere_mesh>`.
+Devuelve el RID del cubo de prueba. Esta malla se creará y devolverá en la primera llamada a :ref:`get_test_cube()<class_RenderingServer_method_get_test_cube>`, luego se almacenará en caché para llamadas posteriores. Véase también :ref:`make_sphere_mesh()<class_RenderingServer_method_make_sphere_mesh>`.
 
 .. rst-class:: classref-item-separator
 
@@ -8443,9 +8443,9 @@ Returns the RID of the test cube. This mesh will be created and returned on the 
 
 :ref:`RID<class_RID>` **get_test_texture**\ (\ ) :ref:`🔗<class_RenderingServer_method_get_test_texture>`
 
-Returns the RID of a 256×256 texture with a testing pattern on it (in :ref:`Image.FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` format). This texture will be created and returned on the first call to :ref:`get_test_texture()<class_RenderingServer_method_get_test_texture>`, then it will be cached for subsequent calls. See also :ref:`get_white_texture()<class_RenderingServer_method_get_white_texture>`.
+Devuelve el RID de una textura de 256×256 con un patrón de prueba (en formato :ref:`Image.FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>`). Esta textura se creará y devolverá en la primera llamada a :ref:`get_test_texture()<class_RenderingServer_method_get_test_texture>`, luego se almacenará en caché para llamadas posteriores. Ver también :ref:`get_white_texture()<class_RenderingServer_method_get_white_texture>`.
 
-\ **Example:** Get the test texture and apply it to a :ref:`Sprite2D<class_Sprite2D>` node:
+\ **Ejemplo:** Obtener la textura de prueba y aplicarla a un nodo :ref:`Sprite2D<class_Sprite2D>`:
 
 ::
 
@@ -8463,9 +8463,9 @@ Returns the RID of a 256×256 texture with a testing pattern on it (in :ref:`Ima
 
 :ref:`String<class_String>` **get_video_adapter_api_version**\ (\ ) |const| :ref:`🔗<class_RenderingServer_method_get_video_adapter_api_version>`
 
-Returns the version of the graphics video adapter *currently in use* (e.g. "1.2.189" for Vulkan, "3.3.0 NVIDIA 510.60.02" for OpenGL). This version may be different from the actual latest version supported by the hardware, as Godot may not always request the latest version. See also :ref:`OS.get_video_adapter_driver_info()<class_OS_method_get_video_adapter_driver_info>`.
+Devuelve la versión del adaptador de vídeo de gráficos *actualmente en uso* (p. ej., "1.2.189" para Vulkan, "3.3.0 NVIDIA 510.60.02" para OpenGL). Esta versión puede ser diferente de la versión más reciente real soportada por el hardware, ya que Godot no siempre solicita la versión más reciente. Véase también :ref:`OS.get_video_adapter_driver_info()<class_OS_method_get_video_adapter_driver_info>`.
 
-\ **Note:** When running a headless or server binary, this function returns an empty string.
+\ **Nota:** Cuando se ejecuta un binario sin interfaz gráfica o de servidor, esta función devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -8477,11 +8477,11 @@ Returns the version of the graphics video adapter *currently in use* (e.g. "1.2.
 
 :ref:`String<class_String>` **get_video_adapter_name**\ (\ ) |const| :ref:`🔗<class_RenderingServer_method_get_video_adapter_name>`
 
-Returns the name of the video adapter (e.g. "GeForce GTX 1080/PCIe/SSE2").
+Devuelve el nombre del adaptador de vídeo (p. ej., "GeForce GTX 1080/PCIe/SSE2").
 
-\ **Note:** When running a headless or server binary, this function returns an empty string.
+\ **Nota:** Cuando se ejecuta un binario sin interfaz gráfica o de servidor, esta función devuelve una string vacía.
 
-\ **Note:** On the web platform, some browsers such as Firefox may report a different, fixed GPU name such as "GeForce GTX 980" (regardless of the user's actual GPU model). This is done to make fingerprinting more difficult.
+\ **Nota:** En la plataforma web, algunos navegadores como Firefox pueden informar de un nombre de GPU diferente y fijo, como "GeForce GTX 980" (independientemente del modelo de GPU real del usuario). Esto se hace para dificultar la toma de huellas dactilares.
 
 .. rst-class:: classref-item-separator
 
@@ -8493,9 +8493,9 @@ Returns the name of the video adapter (e.g. "GeForce GTX 1080/PCIe/SSE2").
 
 :ref:`DeviceType<enum_RenderingDevice_DeviceType>` **get_video_adapter_type**\ (\ ) |const| :ref:`🔗<class_RenderingServer_method_get_video_adapter_type>`
 
-Returns the type of the video adapter. Since dedicated graphics cards from a given generation will *usually* be significantly faster than integrated graphics made in the same generation, the device type can be used as a basis for automatic graphics settings adjustment. However, this is not always true, so make sure to provide users with a way to manually override graphics settings.
+Devuelve el tipo del adaptador de vídeo. Dado que las tarjetas gráficas dedicadas de una generación dada *normalmente* serán significativamente más rápidas que los gráficos integrados hechos en la misma generación, el tipo de dispositivo puede utilizarse como base para el ajuste automático de la configuración de gráficos. Sin embargo, esto no siempre es cierto, así que asegúrate de proporcionar a los usuarios una forma de anular manualmente la configuración de gráficos.
 
-\ **Note:** When using the OpenGL rendering driver or when running in headless mode, this function always returns :ref:`RenderingDevice.DEVICE_TYPE_OTHER<class_RenderingDevice_constant_DEVICE_TYPE_OTHER>`.
+\ **Nota:** Cuando se utiliza el controlador de renderizado OpenGL o cuando se ejecuta en modo sin interfaz gráfica, esta función siempre devuelve :ref:`RenderingDevice.DEVICE_TYPE_OTHER<class_RenderingDevice_constant_DEVICE_TYPE_OTHER>`.
 
 .. rst-class:: classref-item-separator
 
@@ -8621,7 +8621,7 @@ Removes the global shader uniform specified by ``name``.
 
 |void| **global_shader_parameter_set**\ (\ name\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_RenderingServer_method_global_shader_parameter_set>`
 
-Sets the global shader uniform ``name`` to ``value``.
+Establece la variable uniforme global del shader ``name`` a ``value``.
 
 .. rst-class:: classref-item-separator
 
@@ -8633,7 +8633,7 @@ Sets the global shader uniform ``name`` to ``value``.
 
 |void| **global_shader_parameter_set_override**\ (\ name\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_RenderingServer_method_global_shader_parameter_set_override>`
 
-Overrides the global shader uniform ``name`` with ``value``. Equivalent to the :ref:`ShaderGlobalsOverride<class_ShaderGlobalsOverride>` node.
+Reemplaza la variable uniforme global del shader ``name`` con ``value``. Equivalente al nodo :ref:`ShaderGlobalsOverride<class_ShaderGlobalsOverride>`.
 
 .. rst-class:: classref-item-separator
 
@@ -8645,7 +8645,7 @@ Overrides the global shader uniform ``name`` with ``value``. Equivalent to the :
 
 :ref:`bool<class_bool>` **has_changed**\ (\ ) |const| :ref:`🔗<class_RenderingServer_method_has_changed>`
 
-Returns ``true`` if changes have been made to the RenderingServer's data. :ref:`force_draw()<class_RenderingServer_method_force_draw>` is usually called if this happens.
+Devuelve ``true`` si se han realizado cambios en los datos del RenderingServer. :ref:`force_draw()<class_RenderingServer_method_force_draw>` se suele llamar si esto ocurre.
 
 .. rst-class:: classref-item-separator
 
@@ -8659,7 +8659,7 @@ Returns ``true`` if changes have been made to the RenderingServer's data. :ref:`
 
 **Obsoleto:** This method has not been used since Godot 3.0.
 
-This method does nothing and always returns ``false``.
+Este método no hace nada y siempre devuelve ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -9717,7 +9717,7 @@ Establece el aabb personalizado de una malla.
 
 :ref:`Array<class_Array>` **mesh_surface_get_arrays**\ (\ mesh\: :ref:`RID<class_RID>`, surface\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_RenderingServer_method_mesh_surface_get_arrays>`
 
-Devuelve los array de buffer de superficie de una malla.
+Devuelve los array de búfer de superficie de una malla.
 
 .. rst-class:: classref-item-separator
 
@@ -9825,7 +9825,7 @@ Devuelve el material de la superficie de una malla.
 
 |void| **mesh_surface_remove**\ (\ mesh\: :ref:`RID<class_RID>`, surface\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_mesh_surface_remove>`
 
-Removes the surface at the given index from the Mesh, shifting surfaces with higher index down by one.
+Elimina la superficie en el índice dado de la Mesh, desplazando las superficies con un índice mayor hacia abajo en uno.
 
 .. rst-class:: classref-item-separator
 
@@ -10665,7 +10665,7 @@ Establece la :ref:`Transform3D<class_Transform3D>` que será utilizada por las p
 
 |void| **particles_set_emitter_velocity**\ (\ particles\: :ref:`RID<class_RID>`, velocity\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_emitter_velocity>`
 
-Sets the velocity of a particle node, that will be used by :ref:`ParticleProcessMaterial.inherit_velocity_ratio<class_ParticleProcessMaterial_property_inherit_velocity_ratio>`.
+Establece la velocidad de un nodo de partícula, que será usado por :ref:`ParticleProcessMaterial.inherit_velocity_ratio<class_ParticleProcessMaterial_property_inherit_velocity_ratio>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10689,7 +10689,7 @@ If ``true``, particles will emit over time. Setting to ``false`` does not reset 
 
 |void| **particles_set_explosiveness_ratio**\ (\ particles\: :ref:`RID<class_RID>`, ratio\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_explosiveness_ratio>`
 
-Sets the explosiveness ratio. Equivalent to :ref:`GPUParticles3D.explosiveness<class_GPUParticles3D_property_explosiveness>`.
+Establece la relación de explosividad. Equivalente a :ref:`GPUParticles3D.explosiveness<class_GPUParticles3D_property_explosiveness>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10701,7 +10701,7 @@ Sets the explosiveness ratio. Equivalent to :ref:`GPUParticles3D.explosiveness<c
 
 |void| **particles_set_fixed_fps**\ (\ particles\: :ref:`RID<class_RID>`, fps\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_fixed_fps>`
 
-Sets the frame rate that the particle system rendering will be fixed to. Equivalent to :ref:`GPUParticles3D.fixed_fps<class_GPUParticles3D_property_fixed_fps>`.
+Establece la velocidad de fotogramas a la que se fijará el renderizado del sistema de partículas. Equivalente a :ref:`GPUParticles3D.fixed_fps<class_GPUParticles3D_property_fixed_fps>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10713,7 +10713,7 @@ Sets the frame rate that the particle system rendering will be fixed to. Equival
 
 |void| **particles_set_fractional_delta**\ (\ particles\: :ref:`RID<class_RID>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_fractional_delta>`
 
-If ``true``, uses fractional delta which smooths the movement of the particles. Equivalent to :ref:`GPUParticles3D.fract_delta<class_GPUParticles3D_property_fract_delta>`.
+Si es ``true``, usa delta fraccional que suaviza el movimiento de las partículas. Equivalente a :ref:`GPUParticles3D.fract_delta<class_GPUParticles3D_property_fract_delta>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10725,7 +10725,7 @@ If ``true``, uses fractional delta which smooths the movement of the particles. 
 
 |void| **particles_set_interp_to_end**\ (\ particles\: :ref:`RID<class_RID>`, factor\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_interp_to_end>`
 
-Sets the value that informs a :ref:`ParticleProcessMaterial<class_ParticleProcessMaterial>` to rush all particles towards the end of their lifetime.
+Establece el valor que informa a un :ref:`ParticleProcessMaterial<class_ParticleProcessMaterial>` para que impulse todas las partículas hacia el final de su vida útil.
 
 .. rst-class:: classref-item-separator
 
@@ -10751,7 +10751,7 @@ Sets the value that informs a :ref:`ParticleProcessMaterial<class_ParticleProces
 
 |void| **particles_set_lifetime**\ (\ particles\: :ref:`RID<class_RID>`, lifetime\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_lifetime>`
 
-Sets the lifetime of each particle in the system. Equivalent to :ref:`GPUParticles3D.lifetime<class_GPUParticles3D_property_lifetime>`.
+Establece la vida útil de cada partícula en el sistema. Equivalente a :ref:`GPUParticles3D.lifetime<class_GPUParticles3D_property_lifetime>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10763,7 +10763,7 @@ Sets the lifetime of each particle in the system. Equivalent to :ref:`GPUParticl
 
 |void| **particles_set_mode**\ (\ particles\: :ref:`RID<class_RID>`, mode\: :ref:`ParticlesMode<enum_RenderingServer_ParticlesMode>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_mode>`
 
-Sets whether the GPU particles specified by the ``particles`` RID should be rendered in 2D or 3D according to ``mode``.
+Establece si las partículas de la GPU especificadas por el RID ``particles`` deben renderizarse en 2D o 3D según el ``mode``.
 
 .. rst-class:: classref-item-separator
 
@@ -10775,7 +10775,7 @@ Sets whether the GPU particles specified by the ``particles`` RID should be rend
 
 |void| **particles_set_one_shot**\ (\ particles\: :ref:`RID<class_RID>`, one_shot\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_one_shot>`
 
-If ``true``, particles will emit once and then stop. Equivalent to :ref:`GPUParticles3D.one_shot<class_GPUParticles3D_property_one_shot>`.
+Si es ``true``, las partículas se emitirán una vez y luego se detendrán. Equivalente a :ref:`GPUParticles3D.one_shot<class_GPUParticles3D_property_one_shot>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10787,7 +10787,7 @@ If ``true``, particles will emit once and then stop. Equivalent to :ref:`GPUPart
 
 |void| **particles_set_pre_process_time**\ (\ particles\: :ref:`RID<class_RID>`, time\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_pre_process_time>`
 
-Sets the preprocess time for the particles' animation. This lets you delay starting an animation until after the particles have begun emitting. Equivalent to :ref:`GPUParticles3D.preprocess<class_GPUParticles3D_property_preprocess>`.
+Establece el tiempo de preprocesamiento para la animación de las partículas. Esto te permite retrasar el inicio de una animación hasta después de que las partículas hayan comenzado a emitirse. Equivalente a :ref:`GPUParticles3D.preprocess<class_GPUParticles3D_property_preprocess>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10799,9 +10799,9 @@ Sets the preprocess time for the particles' animation. This lets you delay start
 
 |void| **particles_set_process_material**\ (\ particles\: :ref:`RID<class_RID>`, material\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_process_material>`
 
-Sets the material for processing the particles.
+Establece el material para procesar las partículas.
 
-\ **Note:** This is not the material used to draw the materials. Equivalent to :ref:`GPUParticles3D.process_material<class_GPUParticles3D_property_process_material>`.
+\ **Nota:** Este no es el material utilizado para dibujar los materiales. Equivalente a :ref:`GPUParticles3D.process_material<class_GPUParticles3D_property_process_material>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10825,7 +10825,7 @@ Sets the emission randomness ratio. This randomizes the emission of particles wi
 
 |void| **particles_set_speed_scale**\ (\ particles\: :ref:`RID<class_RID>`, scale\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_particles_set_speed_scale>`
 
-Sets the speed scale of the particle system. Equivalent to :ref:`GPUParticles3D.speed_scale<class_GPUParticles3D_property_speed_scale>`.
+Establece la escala de velocidad del sistema de partículas. Equivalente a :ref:`GPUParticles3D.speed_scale<class_GPUParticles3D_property_speed_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10903,7 +10903,7 @@ If ``true``, particles use local coordinates. If ``false`` they use global coord
 
 |void| **positional_soft_shadow_filter_set_quality**\ (\ quality\: :ref:`ShadowQuality<enum_RenderingServer_ShadowQuality>`\ ) :ref:`🔗<class_RenderingServer_method_positional_soft_shadow_filter_set_quality>`
 
-Sets the filter quality for omni and spot light shadows in 3D. See also :ref:`ProjectSettings.rendering/lights_and_shadows/positional_shadow/soft_shadow_filter_quality<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/soft_shadow_filter_quality>`. This parameter is global and cannot be set on a per-viewport basis.
+Establece la calidad del filtro para las sombras de luces omnidireccionales y puntuales en 3D. Véase también :ref:`ProjectSettings.rendering/lights_and_shadows/positional_shadow/soft_shadow_filter_quality<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/soft_shadow_filter_quality>`. Este parámetro es global y no se puede establecer por viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -10933,7 +10933,7 @@ To place in a scene, attach this reflection probe to an instance using :ref:`ins
 
 |void| **reflection_probe_set_ambient_color**\ (\ probe\: :ref:`RID<class_RID>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_ambient_color>`
 
-Sets the reflection probe's custom ambient light color. Equivalent to :ref:`ReflectionProbe.ambient_color<class_ReflectionProbe_property_ambient_color>`.
+Establece el color de luz ambiental personalizado de la sonda de reflexión. Equivalente a :ref:`ReflectionProbe.ambient_color<class_ReflectionProbe_property_ambient_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10945,7 +10945,7 @@ Sets the reflection probe's custom ambient light color. Equivalent to :ref:`Refl
 
 |void| **reflection_probe_set_ambient_energy**\ (\ probe\: :ref:`RID<class_RID>`, energy\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_ambient_energy>`
 
-Sets the reflection probe's custom ambient light energy. Equivalent to :ref:`ReflectionProbe.ambient_color_energy<class_ReflectionProbe_property_ambient_color_energy>`.
+Establece la energía de luz ambiental personalizada de la sonda de reflexión. Equivalente a :ref:`ReflectionProbe.ambient_color_energy<class_ReflectionProbe_property_ambient_color_energy>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10957,7 +10957,7 @@ Sets the reflection probe's custom ambient light energy. Equivalent to :ref:`Ref
 
 |void| **reflection_probe_set_ambient_mode**\ (\ probe\: :ref:`RID<class_RID>`, mode\: :ref:`ReflectionProbeAmbientMode<enum_RenderingServer_ReflectionProbeAmbientMode>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_ambient_mode>`
 
-Sets the reflection probe's ambient light mode. Equivalent to :ref:`ReflectionProbe.ambient_mode<class_ReflectionProbe_property_ambient_mode>`.
+Establece el modo de luz ambiental de la sonda de reflexión. Equivalente a :ref:`ReflectionProbe.ambient_mode<class_ReflectionProbe_property_ambient_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10969,7 +10969,7 @@ Sets the reflection probe's ambient light mode. Equivalent to :ref:`ReflectionPr
 
 |void| **reflection_probe_set_as_interior**\ (\ probe\: :ref:`RID<class_RID>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_as_interior>`
 
-If ``true``, reflections will ignore sky contribution. Equivalent to :ref:`ReflectionProbe.interior<class_ReflectionProbe_property_interior>`.
+Si es ``true``, las reflexiones ignorarán la contribución del cielo. Equivalente a :ref:`ReflectionProbe.interior<class_ReflectionProbe_property_interior>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10981,7 +10981,7 @@ If ``true``, reflections will ignore sky contribution. Equivalent to :ref:`Refle
 
 |void| **reflection_probe_set_blend_distance**\ (\ probe\: :ref:`RID<class_RID>`, blend_distance\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_blend_distance>`
 
-Sets the distance in meters over which a probe blends into the scene.
+Establece la distancia en metros sobre la que una sonda se mezcla con la escena.
 
 .. rst-class:: classref-item-separator
 
@@ -10993,7 +10993,7 @@ Sets the distance in meters over which a probe blends into the scene.
 
 |void| **reflection_probe_set_cull_mask**\ (\ probe\: :ref:`RID<class_RID>`, layers\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_cull_mask>`
 
-Sets the render cull mask for this reflection probe. Only instances with a matching layer will be reflected by this probe. Equivalent to :ref:`ReflectionProbe.cull_mask<class_ReflectionProbe_property_cull_mask>`.
+Establece la máscara de selección de renderizado para esta sonda de reflexión. Solo las instancias con una capa coincidente se reflejarán con esta sonda. Equivalente a :ref:`ReflectionProbe.cull_mask<class_ReflectionProbe_property_cull_mask>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11053,7 +11053,7 @@ Establece la máxima distancia de la sonda a la que puede estar un objeto antes 
 
 |void| **reflection_probe_set_mesh_lod_threshold**\ (\ probe\: :ref:`RID<class_RID>`, pixels\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_mesh_lod_threshold>`
 
-Sets the mesh level of detail to use in the reflection probe rendering. Higher values will use less detailed versions of meshes that have LOD variations generated, which can improve performance. Equivalent to :ref:`ReflectionProbe.mesh_lod_threshold<class_ReflectionProbe_property_mesh_lod_threshold>`.
+Establece el nivel de detalle de la malla que se utilizará en el renderizado de la sonda de reflexión. Los valores más altos utilizarán versiones menos detalladas de las mallas que tienen variaciones LOD generadas, lo que puede mejorar el rendimiento. Equivalente a :ref:`ReflectionProbe.mesh_lod_threshold<class_ReflectionProbe_property_mesh_lod_threshold>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11077,7 +11077,7 @@ Establece el desplazamiento de origen que se utilizará cuando esta sonda de ref
 
 |void| **reflection_probe_set_reflection_mask**\ (\ probe\: :ref:`RID<class_RID>`, layers\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_reflection_mask>`
 
-Sets the render reflection mask for this reflection probe. Only instances with a matching layer will have reflections applied from this probe. Equivalent to :ref:`ReflectionProbe.reflection_mask<class_ReflectionProbe_property_reflection_mask>`.
+Establece la máscara de reflexión de renderizado para esta sonda de reflexión. Solo las instancias con una capa coincidente tendrán reflejos aplicados desde esta sonda. Equivalente a :ref:`ReflectionProbe.reflection_mask<class_ReflectionProbe_property_reflection_mask>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11089,7 +11089,7 @@ Sets the render reflection mask for this reflection probe. Only instances with a
 
 |void| **reflection_probe_set_resolution**\ (\ probe\: :ref:`RID<class_RID>`, resolution\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_resolution>`
 
-Sets the resolution to use when rendering the specified reflection probe. The ``resolution`` is specified for each cubemap face: for instance, specifying ``512`` will allocate 6 faces of 512×512 each (plus mipmaps for roughness levels).
+Establece la resolución que se utilizará al renderizar la sonda de reflexión especificada. La ``resolution`` se especifica para cada cara del mapa de cubos: por ejemplo, especificar ``512`` asignará 6 caras de 512×512 cada una (más mipmaps para los niveles de rugosidad).
 
 .. rst-class:: classref-item-separator
 
@@ -11113,7 +11113,7 @@ Sets the size of the area that the reflection probe will capture. Equivalent to 
 
 |void| **reflection_probe_set_update_mode**\ (\ probe\: :ref:`RID<class_RID>`, mode\: :ref:`ReflectionProbeUpdateMode<enum_RenderingServer_ReflectionProbeUpdateMode>`\ ) :ref:`🔗<class_RenderingServer_method_reflection_probe_set_update_mode>`
 
-Sets how often the reflection probe updates. Can either be once or every frame.
+Establece la frecuencia con la que se actualiza la sonda de reflexión. Puede ser una vez o en cada fotograma.
 
 .. rst-class:: classref-item-separator
 
@@ -11125,7 +11125,7 @@ Sets how often the reflection probe updates. Can either be once or every frame.
 
 |void| **request_frame_drawn_callback**\ (\ callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_RenderingServer_method_request_frame_drawn_callback>`
 
-Schedules a callback to the given callable after a frame has been drawn.
+Programa una llamada al objeto invocable dado después de que se haya dibujado un fotograma.
 
 .. rst-class:: classref-item-separator
 
@@ -11153,7 +11153,7 @@ The scenario is the 3D world that all the visual instances exist in.
 
 |void| **scenario_set_camera_attributes**\ (\ scenario\: :ref:`RID<class_RID>`, effects\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_scenario_set_camera_attributes>`
 
-Sets the camera attributes (``effects``) that will be used with this scenario. See also :ref:`CameraAttributes<class_CameraAttributes>`.
+Establece los atributos de la cámara (``effects``) que se utilizarán con este escenario. Véase también :ref:`CameraAttributes<class_CameraAttributes>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11165,7 +11165,7 @@ Sets the camera attributes (``effects``) that will be used with this scenario. S
 
 |void| **scenario_set_compositor**\ (\ scenario\: :ref:`RID<class_RID>`, compositor\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_scenario_set_compositor>`
 
-Sets the compositor (``compositor``) that will be used with this scenario. See also :ref:`Compositor<class_Compositor>`.
+Establece el compositor (``compositor``) que se utilizará con este escenario. Véase también :ref:`Compositor<class_Compositor>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11177,7 +11177,7 @@ Sets the compositor (``compositor``) that will be used with this scenario. See a
 
 |void| **scenario_set_environment**\ (\ scenario\: :ref:`RID<class_RID>`, environment\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_scenario_set_environment>`
 
-Sets the environment that will be used with this scenario. See also :ref:`Environment<class_Environment>`.
+Establece el entorno que se utilizará con este escenario. Véase también :ref:`Environment<class_Environment>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11239,7 +11239,7 @@ If ``generate`` is ``true``, generates debug wireframes for all meshes that are 
 
 |void| **set_default_clear_color**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_RenderingServer_method_set_default_clear_color>`
 
-Sets the default clear color which is used when a specific clear color has not been selected. See also :ref:`get_default_clear_color()<class_RenderingServer_method_get_default_clear_color>`.
+Establece el color de borrado predeterminado que se utiliza cuando no se ha seleccionado un color de borrado específico. Véase también :ref:`get_default_clear_color()<class_RenderingServer_method_get_default_clear_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11267,7 +11267,7 @@ Once finished with your RID, you will want to free the RID using the RenderingSe
 
 :ref:`String<class_String>` **shader_get_code**\ (\ shader\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_RenderingServer_method_shader_get_code>`
 
-Returns a shader's source code as a string.
+Devuelve el código fuente de un shader como una string.
 
 .. rst-class:: classref-item-separator
 
@@ -11279,9 +11279,9 @@ Returns a shader's source code as a string.
 
 :ref:`RID<class_RID>` **shader_get_default_texture_parameter**\ (\ shader\: :ref:`RID<class_RID>`, name\: :ref:`StringName<class_StringName>`, index\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_RenderingServer_method_shader_get_default_texture_parameter>`
 
-Returns a default texture from a shader searched by name.
+Devuelve una textura por defecto de un shader buscada por nombre.
 
-\ **Note:** If the sampler array is used use ``index`` to access the specified texture.
+\ **Nota:** Si se utiliza el array de muestreo, usa ``index`` para acceder a la textura especificada.
 
 .. rst-class:: classref-item-separator
 
@@ -11293,7 +11293,7 @@ Returns a default texture from a shader searched by name.
 
 :ref:`Variant<class_Variant>` **shader_get_parameter_default**\ (\ shader\: :ref:`RID<class_RID>`, name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_RenderingServer_method_shader_get_parameter_default>`
 
-Returns the default value for the specified shader uniform. This is usually the value written in the shader source code.
+Devuelve el valor por defecto para el shader uniforme especificado. Este es usualmente el valor escrito en el código fuente del shader.
 
 .. rst-class:: classref-item-separator
 
@@ -11305,7 +11305,7 @@ Returns the default value for the specified shader uniform. This is usually the 
 
 |void| **shader_set_code**\ (\ shader\: :ref:`RID<class_RID>`, code\: :ref:`String<class_String>`\ ) :ref:`🔗<class_RenderingServer_method_shader_set_code>`
 
-Sets the shader's source code (which triggers recompilation after being changed).
+Establece el código fuente del shader (lo que desencadena la recompilación después de ser cambiado).
 
 .. rst-class:: classref-item-separator
 
@@ -11317,9 +11317,9 @@ Sets the shader's source code (which triggers recompilation after being changed)
 
 |void| **shader_set_default_texture_parameter**\ (\ shader\: :ref:`RID<class_RID>`, name\: :ref:`StringName<class_StringName>`, texture\: :ref:`RID<class_RID>`, index\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_RenderingServer_method_shader_set_default_texture_parameter>`
 
-Sets a shader's default texture. Overwrites the texture given by name.
+Establece la textura por defecto de un shader. Sobrescribe la textura dada por el nombre.
 
-\ **Note:** If the sampler array is used use ``index`` to access the specified texture.
+\ **Nota:** Si se utiliza el array de muestreo, utiliza ``index`` para acceder a la textura especificada.
 
 .. rst-class:: classref-item-separator
 
@@ -11331,7 +11331,7 @@ Sets a shader's default texture. Overwrites the texture given by name.
 
 |void| **shader_set_path_hint**\ (\ shader\: :ref:`RID<class_RID>`, path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_RenderingServer_method_shader_set_path_hint>`
 
-Sets the path hint for the specified shader. This should generally match the :ref:`Shader<class_Shader>` resource's :ref:`Resource.resource_path<class_Resource_property_resource_path>`.
+Establece la pista de ruta para el shader especificado. Esto generalmente debería coincidir con el :ref:`Resource.resource_path<class_Resource_property_resource_path>` del recurso :ref:`Shader<class_Shader>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11381,7 +11381,7 @@ Devuelve el conjunto :ref:`Transform3D<class_Transform3D>` para un hueso especí
 
 |void| **skeleton_bone_set_transform**\ (\ skeleton\: :ref:`RID<class_RID>`, bone\: :ref:`int<class_int>`, transform\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_RenderingServer_method_skeleton_bone_set_transform>`
 
-Sets the :ref:`Transform3D<class_Transform3D>` for a specific bone of this skeleton.
+Establece la :ref:`Transform3D<class_Transform3D>` para un hueso específico de este esqueleto.
 
 .. rst-class:: classref-item-separator
 
@@ -11405,9 +11405,9 @@ Establece la :ref:`Transform2D<class_Transform2D>` para un hueso específico de 
 
 :ref:`RID<class_RID>` **skeleton_create**\ (\ ) :ref:`🔗<class_RenderingServer_method_skeleton_create>`
 
-Creates a skeleton and adds it to the RenderingServer. It can be accessed with the RID that is returned. This RID will be used in all ``skeleton_*`` RenderingServer functions.
+Crea un esqueleto y lo añade al RenderingServer. Se puede acceder a él con el RID que se devuelve. Este RID se usará en todas las funciones del ``skeleton_*`` RenderingServer.
 
-Once finished with your RID, you will want to free the RID using the RenderingServer's :ref:`free_rid()<class_RenderingServer_method_free_rid>` method.
+Cuando hayas terminado con tu RID, querrás liberarlo usando el método :ref:`free_rid()<class_RenderingServer_method_free_rid>` de RenderingServer.
 
 .. rst-class:: classref-item-separator
 
@@ -11475,7 +11475,7 @@ Once finished with your RID, you will want to free the RID using the RenderingSe
 
 |void| **sky_set_material**\ (\ sky\: :ref:`RID<class_RID>`, material\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_sky_set_material>`
 
-Sets the material that the sky uses to render the background, ambient and reflection maps.
+Establece el material que el cielo utiliza para renderizar el fondo, el ambiente y los mapas de reflexión.
 
 .. rst-class:: classref-item-separator
 
@@ -11487,7 +11487,7 @@ Sets the material that the sky uses to render the background, ambient and reflec
 
 |void| **sky_set_mode**\ (\ sky\: :ref:`RID<class_RID>`, mode\: :ref:`SkyMode<enum_RenderingServer_SkyMode>`\ ) :ref:`🔗<class_RenderingServer_method_sky_set_mode>`
 
-Sets the process ``mode`` of the sky specified by the ``sky`` RID. Equivalent to :ref:`Sky.process_mode<class_Sky_property_process_mode>`.
+Establece el ``mode`` de proceso del cielo especificado por el RID ``sky``. Equivalente a :ref:`Sky.process_mode<class_Sky_property_process_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11527,7 +11527,7 @@ To place in a scene, attach this spot light to an instance using :ref:`instance_
 
 |void| **sub_surface_scattering_set_quality**\ (\ quality\: :ref:`SubSurfaceScatteringQuality<enum_RenderingServer_SubSurfaceScatteringQuality>`\ ) :ref:`🔗<class_RenderingServer_method_sub_surface_scattering_set_quality>`
 
-Sets :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>` to use when rendering materials that have subsurface scattering enabled.
+Establece :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>` que se utilizará al renderizar materiales que tengan la dispersión subsuperficial habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -11539,7 +11539,7 @@ Sets :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurfac
 
 |void| **sub_surface_scattering_set_scale**\ (\ scale\: :ref:`float<class_float>`, depth_scale\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RenderingServer_method_sub_surface_scattering_set_scale>`
 
-Sets the :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_scale<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_scale>` and :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_depth_scale<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_depth_scale>` to use when rendering materials that have subsurface scattering enabled.
+Establece :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_scale<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_scale>` y :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_depth_scale<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_depth_scale>` para usarlos al renderizar materiales que tengan la dispersión subsuperficial habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -11589,7 +11589,7 @@ Returns an :ref:`Image<class_Image>` instance from the given ``texture`` :ref:`R
 
 :ref:`Image<class_Image>` **texture_2d_layer_get**\ (\ texture\: :ref:`RID<class_RID>`, layer\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_RenderingServer_method_texture_2d_layer_get>`
 
-Returns an :ref:`Image<class_Image>` instance from the given ``texture`` :ref:`RID<class_RID>` and ``layer``.
+Devuelve una instancia de :ref:`Image<class_Image>` de la :ref:`RID<class_RID>` de ``texture`` dada y ``layer``.
 
 .. rst-class:: classref-item-separator
 
@@ -11601,11 +11601,11 @@ Returns an :ref:`Image<class_Image>` instance from the given ``texture`` :ref:`R
 
 :ref:`RID<class_RID>` **texture_2d_layered_create**\ (\ layers\: :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\], layered_type\: :ref:`TextureLayeredType<enum_RenderingServer_TextureLayeredType>`\ ) :ref:`🔗<class_RenderingServer_method_texture_2d_layered_create>`
 
-Creates a 2-dimensional layered texture and adds it to the RenderingServer. It can be accessed with the RID that is returned. This RID will be used in all ``texture_2d_layered_*`` RenderingServer functions.
+Crea una textura en capas bidimensional y la añade al RenderingServer. Se puede acceder a ella con la RID que se devuelve. Esta RID se utilizará en todas las funciones ``texture_2d_layered_*`` del RenderingServer.
 
-Once finished with your RID, you will want to free the RID using the RenderingServer's :ref:`free_rid()<class_RenderingServer_method_free_rid>` method.
+Cuando hayas terminado con tu RID, querrás liberarla usando el método :ref:`free_rid()<class_RenderingServer_method_free_rid>` del RenderingServer.
 
-\ **Note:** The equivalent resource is :ref:`TextureLayered<class_TextureLayered>`.
+\ **Nota:** El recurso equivalente es :ref:`TextureLayered<class_TextureLayered>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11647,9 +11647,9 @@ Once finished with your RID, you will want to free the RID using the RenderingSe
 
 |void| **texture_2d_update**\ (\ texture\: :ref:`RID<class_RID>`, image\: :ref:`Image<class_Image>`, layer\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingServer_method_texture_2d_update>`
 
-Updates the texture specified by the ``texture`` :ref:`RID<class_RID>` with the data in ``image``. A ``layer`` must also be specified, which should be ``0`` when updating a single-layer texture (:ref:`Texture2D<class_Texture2D>`).
+Actualiza la textura especificada por la :ref:`RID<class_RID>` ``texture`` con los datos de ``image``. También se debe especificar una ``layer``, que debe ser ``0`` al actualizar una textura de una sola capa (:ref:`Texture2D<class_Texture2D>`).
 
-\ **Note:** The ``image`` must have the same width, height and format as the current ``texture`` data. Otherwise, an error will be printed and the original texture won't be modified. If you need to use different width, height or format, use :ref:`texture_replace()<class_RenderingServer_method_texture_replace>` instead.
+\ **Nota:** La ``image`` debe tener el mismo ancho, alto y formato que los datos actuales de ``texture``. De lo contrario, se imprimirá un error y la textura original no se modificará. Si necesitas usar un ancho, alto o formato diferente, usa :ref:`texture_replace()<class_RenderingServer_method_texture_replace>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -11661,7 +11661,7 @@ Updates the texture specified by the ``texture`` :ref:`RID<class_RID>` with the 
 
 :ref:`RID<class_RID>` **texture_3d_create**\ (\ format\: :ref:`Format<enum_Image_Format>`, width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, depth\: :ref:`int<class_int>`, mipmaps\: :ref:`bool<class_bool>`, data\: :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\]\ ) :ref:`🔗<class_RenderingServer_method_texture_3d_create>`
 
-**Note:** The equivalent resource is :ref:`Texture3D<class_Texture3D>`.
+**Nota:** El recurso equivalente es :ref:`Texture3D<class_Texture3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11673,7 +11673,7 @@ Updates the texture specified by the ``texture`` :ref:`RID<class_RID>` with the 
 
 :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\] **texture_3d_get**\ (\ texture\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_RenderingServer_method_texture_3d_get>`
 
-Returns 3D texture data as an array of :ref:`Image<class_Image>`\ s for the specified texture :ref:`RID<class_RID>`.
+Devuelve datos de textura 3D como un array de :ref:`Image<class_Image>` para la :ref:`RID<class_RID>` de la textura especificada.
 
 .. rst-class:: classref-item-separator
 
@@ -11701,9 +11701,9 @@ Once finished with your RID, you will want to free the RID using the RenderingSe
 
 |void| **texture_3d_update**\ (\ texture\: :ref:`RID<class_RID>`, data\: :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\]\ ) :ref:`🔗<class_RenderingServer_method_texture_3d_update>`
 
-Updates the texture specified by the ``texture`` :ref:`RID<class_RID>`'s data with the data in ``data``. All the texture's layers must be replaced at once.
+Actualiza los datos de la textura especificada por la :ref:`RID<class_RID>` ``texture`` con los datos de ``data``. Todas las capas de la textura deben ser reemplazadas a la vez.
 
-\ **Note:** The ``texture`` must have the same width, height, depth and format as the current texture data. Otherwise, an error will be printed and the original texture won't be modified. If you need to use different width, height, depth or format, use :ref:`texture_replace()<class_RenderingServer_method_texture_replace>` instead.
+\ **Nota:** La ``texture`` debe tener el mismo ancho, alto, profundidad y formato que los datos actuales de la textura. De lo contrario, se imprimirá un error y la textura original no se modificará. Si necesitas usar un ancho, alto, profundidad o formato diferente, usa :ref:`texture_replace()<class_RenderingServer_method_texture_replace>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -11715,9 +11715,9 @@ Updates the texture specified by the ``texture`` :ref:`RID<class_RID>`'s data wi
 
 :ref:`RID<class_RID>` **texture_create_from_native_handle**\ (\ type\: :ref:`TextureType<enum_RenderingServer_TextureType>`, format\: :ref:`Format<enum_Image_Format>`, native_handle\: :ref:`int<class_int>`, width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, depth\: :ref:`int<class_int>`, layers\: :ref:`int<class_int>` = 1, layered_type\: :ref:`TextureLayeredType<enum_RenderingServer_TextureLayeredType>` = 0\ ) :ref:`🔗<class_RenderingServer_method_texture_create_from_native_handle>`
 
-Creates a texture based on a native handle that was created outside of Godot's renderer.
+Crea una textura basada en un identificador nativo que se creó fuera del renderizador de Godot.
 
-\ **Note:** If using only the rendering device renderer, it's recommend to use :ref:`RenderingDevice.texture_create_from_extension()<class_RenderingDevice_method_texture_create_from_extension>` together with :ref:`texture_rd_create()<class_RenderingServer_method_texture_rd_create>`, rather than this method. It will give you much more control over the texture's format and usage.
+\ **Nota:** Si solo usas el renderizador del dispositivo de renderizado, se recomienda usar :ref:`RenderingDevice.texture_create_from_extension()<class_RenderingDevice_method_texture_create_from_extension>` junto con :ref:`texture_rd_create()<class_RenderingServer_method_texture_rd_create>`, en lugar de este método. Te dará mucho más control sobre el formato y el uso de la textura.
 
 .. rst-class:: classref-item-separator
 
@@ -11729,7 +11729,7 @@ Creates a texture based on a native handle that was created outside of Godot's r
 
 :ref:`Format<enum_Image_Format>` **texture_get_format**\ (\ texture\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_RenderingServer_method_texture_get_format>`
 
-Returns the format for the texture.
+Devuelve el formato de la textura.
 
 .. rst-class:: classref-item-separator
 
@@ -11769,7 +11769,7 @@ Returns the internal graphics handle for this texture object. For use when commu
 
 :ref:`RID<class_RID>` **texture_get_rd_texture**\ (\ texture\: :ref:`RID<class_RID>`, srgb\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_RenderingServer_method_texture_get_rd_texture>`
 
-Returns a texture :ref:`RID<class_RID>` that can be used with :ref:`RenderingDevice<class_RenderingDevice>`.
+Devuelve una :ref:`RID<class_RID>` de textura que puede ser usada con :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11783,7 +11783,7 @@ Returns a texture :ref:`RID<class_RID>` that can be used with :ref:`RenderingDev
 
 **Obsoleto:** ProxyTexture was removed in Godot 4.
 
-This method does nothing and always returns an invalid :ref:`RID<class_RID>`.
+Este método no hace nada y siempre devuelve una :ref:`RID<class_RID>` inválida.
 
 .. rst-class:: classref-item-separator
 
@@ -11809,7 +11809,7 @@ Este método no hace nada.
 
 :ref:`RID<class_RID>` **texture_rd_create**\ (\ rd_texture\: :ref:`RID<class_RID>`, layer_type\: :ref:`TextureLayeredType<enum_RenderingServer_TextureLayeredType>` = 0\ ) :ref:`🔗<class_RenderingServer_method_texture_rd_create>`
 
-Creates a new texture object based on a texture created directly on the :ref:`RenderingDevice<class_RenderingDevice>`. If the texture contains layers, ``layer_type`` is used to define the layer type.
+Crea un nuevo objeto de textura basado en una textura creada directamente en el :ref:`RenderingDevice<class_RenderingDevice>`. Si la textura contiene capas, se usa ``layer_type`` para definir el tipo de capa.
 
 .. rst-class:: classref-item-separator
 
@@ -11821,7 +11821,7 @@ Creates a new texture object based on a texture created directly on the :ref:`Re
 
 |void| **texture_replace**\ (\ texture\: :ref:`RID<class_RID>`, by_texture\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingServer_method_texture_replace>`
 
-Replaces ``texture``'s texture data by the texture specified by the ``by_texture`` RID, without changing ``texture``'s RID.
+Reemplaza los datos de la textura de ``texture`` por la textura especificada por la RID ``by_texture``, sin cambiar la RID de ``texture``.
 
 .. rst-class:: classref-item-separator
 

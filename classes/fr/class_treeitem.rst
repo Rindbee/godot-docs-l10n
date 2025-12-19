@@ -7,18 +7,18 @@ TreeItem
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-An internal control for a single item inside :ref:`Tree<class_Tree>`.
+Un contrôle interne pour un seul élément à l'intérieur d'un :ref:`Tree<class_Tree>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A single item of a :ref:`Tree<class_Tree>` control. It can contain other **TreeItem**\ s as children, which allows it to create a hierarchy. It can also contain text and buttons. **TreeItem** is not a :ref:`Node<class_Node>`, it is internal to the :ref:`Tree<class_Tree>`.
+Un seul élément d'un contrôle :ref:`Tree<class_Tree>`. Il peut contenir d'autres **TreeItem**\ s comme enfants, ce qui lui permet de créer une hiérarchie. Il peut également contenir du texte et des boutons. **TreeItem** n'est pas un :ref:`Node<class_Node>`, il est interne au :ref:`Tree<class_Tree>`.
 
-To create a **TreeItem**, use :ref:`Tree.create_item()<class_Tree_method_create_item>` or :ref:`create_child()<class_TreeItem_method_create_child>`. To remove a **TreeItem**, use :ref:`Object.free()<class_Object_method_free>`.
+Pour créer un **TreeItem**, utilisez :ref:`Tree.create_item()<class_Tree_method_create_item>` ou :ref:`create_child()<class_TreeItem_method_create_child>`. Pour supprimer un **TreeItem**, utilisez :ref:`Object.free()<class_Object_method_free>`.
 
-\ **Note:** The ID values used for buttons are 32-bit, unlike :ref:`int<class_int>` which is always 64-bit. They go from ``-2147483648`` to ``2147483647``.
+\ **Note :** Les valeurs d'ID utilisées pour les boutons sont sur 32 bits, contrairement à :ref:`int<class_int>` qui est toujours sur 64 bits. Ils vont de ``-2147483648`` à ``2147483647``.
 
 .. rst-class:: classref-reftable-group
 

@@ -56,7 +56,7 @@ Descripciones de Métodos
 
 :ref:`AudioEffectInstance<class_AudioEffectInstance>` **_instantiate**\ (\ ) |virtual| |required| :ref:`🔗<class_AudioEffect_private_method__instantiate>`
 
-Override this method to customize the :ref:`AudioEffectInstance<class_AudioEffectInstance>` created when this effect is applied on a bus in the editor's Audio panel, or through :ref:`AudioServer.add_bus_effect()<class_AudioServer_method_add_bus_effect>`.
+Sobrescribe este método para personalizar el :ref:`AudioEffectInstance<class_AudioEffectInstance>` creado cuando este efecto se aplica en un bus en el panel de Audio del editor, o a través de :ref:`AudioServer.add_bus_effect()<class_AudioServer_method_add_bus_effect>`.
 
 ::
 
@@ -70,7 +70,7 @@ Override this method to customize the :ref:`AudioEffectInstance<class_AudioEffec
 
         return effect
 
-\ **Note:** It is recommended to keep a reference to the original **AudioEffect** in the new instance. Depending on the implementation this allows the effect instance to listen for changes at run-time and be modified accordingly.
+\ **Nota:** Se recomienda mantener una referencia al **AudioEffect** original en la nueva instancia. Dependiendo de la implementación, esto permite que la instancia del efecto escuche los cambios en tiempo de ejecución y se modifique en consecuencia.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

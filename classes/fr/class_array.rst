@@ -29,7 +29,7 @@ Une structure de données en tableau qui peut contenir une suite d'éléments de
     print(array[-3]) # Affiche "Second"
 
     # Ce tableau typé ne peut contenir que des nombres entiers.
-    # Tenter d'ajouter un autre type retourne une erreur.
+    # Tenter d'ajouter un autre type renvoie une erreur.
     var tableau_typé: Array[int] = [1, 2, 3]
 
  .. code-tab:: csharp
@@ -44,7 +44,7 @@ Une structure de données en tableau qui peut contenir une suite d'éléments de
     GD.Print(array[^3]); // Affiche "Second"
 
     // Ce tableau typé ne peut contenir que des nombres entiers.
-    // Tenter d'ajouter un autre type retourne une erreur.
+    // Tenter d'ajouter un autre type renvoie une erreur.
     Godot.Collections.Array<int> tableauTypé = [1, 2, 3];
 
 
@@ -57,7 +57,7 @@ Une structure de données en tableau qui peut contenir une suite d'éléments de
 
 .. note::
 
-	Il y a des différences notables dans l'utilisation de cette API en C#. Voir ref:`doc_c_sharp_differences` pour plus d'informations.
+	Il y a des différences notables dans l'utilisation de cette API en C#. Voir :ref:`doc_c_sharp_differences` pour plus d'informations.
 
 .. rst-class:: classref-reftable-group
 
@@ -312,7 +312,7 @@ Renvoie le même tableau que ``from``. Si vous avez besoin d'une copie du tablea
 
 :ref:`Array<class_Array>` **Array**\ (\ from\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 
-Construit an tableau à partir d'un :ref:`PackedByteArray<class_PackedByteArray>`.
+Construit un tableau à partir d'un :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. rst-class:: classref-item-separator
 
@@ -322,7 +322,7 @@ Construit an tableau à partir d'un :ref:`PackedByteArray<class_PackedByteArray>
 
 :ref:`Array<class_Array>` **Array**\ (\ from\: :ref:`PackedColorArray<class_PackedColorArray>`\ )
 
-Construit an tableau à partir d'un :ref:`PackedColorArray<class_PackedColorArray>`.
+Construit un tableau à partir d'un :ref:`PackedColorArray<class_PackedColorArray>`.
 
 .. rst-class:: classref-item-separator
 
@@ -392,7 +392,7 @@ Construit un tableau à partir d'un :ref:`PackedVector2Array<class_PackedVector2
 
 :ref:`Array<class_Array>` **Array**\ (\ from\: :ref:`PackedVector3Array<class_PackedVector3Array>`\ )
 
-Construit an tableau à partir d'un :ref:`PackedVector3Array<class_PackedVector3Array>`.
+Construit un tableau à partir d'un :ref:`PackedVector3Array<class_PackedVector3Array>`.
 
 .. rst-class:: classref-item-separator
 

@@ -80,7 +80,7 @@ enum **WriteMode**: :ref:`🔗<enum_WebRTCDataChannel_WriteMode>`
 
 :ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>` **WRITE_MODE_TEXT** = ``0``
 
-Indica al canal que mande los datos como texto. Un compañero externo (non-Godot) lo recibiría como una cadena.
+Indica al canal que mande los datos como texto. Un compañero externo (non-Godot) lo recibiría como una string.
 
 .. _class_WebRTCDataChannel_constant_WRITE_MODE_BINARY:
 

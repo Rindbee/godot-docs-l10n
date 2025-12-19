@@ -134,9 +134,11 @@ Sets the maximum amount of blur. When using physically-based blur amounts, will 
 - |void| **set_dof_blur_far_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dof_blur_far_enabled**\ (\ )
 
-為比 :ref:`dof_blur_far_distance<class_CameraAttributesPractical_property_dof_blur_far_distance>` 更遠的對象啟用景深模糊。模糊強度由 :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` 控制並由 :ref:`dof_blur_far_transition<class_CameraAttributesPractical_property_dof_blur_far_transition>` 調變。
+Enables depth of field blur for objects further than :ref:`dof_blur_far_distance<class_CameraAttributesPractical_property_dof_blur_far_distance>`. Strength of blur is controlled by :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` and modulated by :ref:`dof_blur_far_transition<class_CameraAttributesPractical_property_dof_blur_far_transition>`.
 
-\ **注意：**\ 景深模糊只支援 Forward+ 和移動算繪方式，不支援相容模式。
+\ **Note:** Depth of field blur is only supported in the Forward+ and Mobile rendering methods, not Compatibility.
+
+\ **Note:** Depth of field blur is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 
@@ -187,9 +189,11 @@ Sets the maximum amount of blur. When using physically-based blur amounts, will 
 - |void| **set_dof_blur_near_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dof_blur_near_enabled**\ (\ )
 
-為比 :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>` 更近的對象啟用景深模糊。模糊強度由 :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` 控制並由 :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>` 調變。
+為距離小於 :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>` 的物件啟用景深模糊效果。模糊強度由 :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` 控制，並由 :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>` 調節。
 
-\ **注意：**\ 景深模糊只支援 Forward+ 和移動算繪方式，不支援相容模式。
+\ **注意：** 景深模糊僅在 Forward+ 和 Mobile 渲染方法中受支持，不支援相容模式。
+
+\ **注意：** 景深模糊在具有透明背景的視口（\ :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` 為 ``true``\ ）上不受支援。
 
 .. rst-class:: classref-item-separator
 

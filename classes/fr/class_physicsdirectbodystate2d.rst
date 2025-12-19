@@ -7,7 +7,7 @@ PhysicsDirectBodyState2D
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`PhysicsDirectBodyState2DExtension<class_PhysicsDirectBodyState2DExtension>`
+**Hérité par :** :ref:`PhysicsDirectBodyState2DExtension<class_PhysicsDirectBodyState2DExtension>`
 
 Fournit un accès direct à un corps physique dans le :ref:`PhysicsServer2D<class_PhysicsServer2D>`.
 

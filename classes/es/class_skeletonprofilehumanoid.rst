@@ -7,7 +7,7 @@ SkeletonProfileHumanoid
 
 **Hereda:** :ref:`SkeletonProfile<class_SkeletonProfile>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A humanoid :ref:`SkeletonProfile<class_SkeletonProfile>` preset.
+Un preajuste :ref:`SkeletonProfile<class_SkeletonProfile>` humanoide.
 
 .. rst-class:: classref-introduction-group
 

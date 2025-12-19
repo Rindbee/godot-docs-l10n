@@ -7,7 +7,7 @@ Font
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`FontFile<class_FontFile>`, :ref:`FontVariation<class_FontVariation>`, :ref:`SystemFont<class_SystemFont>`
+**Hérité par :** :ref:`FontFile<class_FontFile>`, :ref:`FontVariation<class_FontVariation>`, :ref:`SystemFont<class_SystemFont>`
 
 Abstract base class for fonts and font variations.
 

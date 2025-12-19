@@ -138,6 +138,8 @@ CameraAttributesPractical
 
 \ **注意：**\ 景深模糊只支持 Forward+ 和移动渲染方式，不支持兼容模式。
 
+\ **注意：** 当视口背景为透明（即 :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` 为 ``true``\ ）时，不支持景深模糊效果。
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -190,6 +192,8 @@ CameraAttributesPractical
 为比 :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>` 更近的对象启用景深模糊。模糊强度由 :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` 控制并由 :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>` 调制。
 
 \ **注意：**\ 景深模糊只支持 Forward+ 和移动渲染方式，不支持兼容模式。
+
+\ **注意：** 当视口背景为透明（即 :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` 为 ``true``\ ）时，不支持景深模糊效果。
 
 .. rst-class:: classref-item-separator
 

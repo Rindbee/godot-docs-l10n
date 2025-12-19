@@ -7,16 +7,16 @@ BoxShape3D
 
 **Hereda:** :ref:`Shape3D<class_Shape3D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 3D box shape used for physics collision.
+Una forma de caja 3D utilizada para la colisión física.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A 3D box shape, intended for use in physics. Usually used to provide a shape for a :ref:`CollisionShape3D<class_CollisionShape3D>`.
+Una forma de caja 3D, pensada para su uso en la física. Normalmente se usa para dar forma a un :ref:`CollisionShape3D<class_CollisionShape3D>`.
 
-\ **Performance:** **BoxShape3D** is fast to check collisions against. It is faster than :ref:`CapsuleShape3D<class_CapsuleShape3D>` and :ref:`CylinderShape3D<class_CylinderShape3D>`, but slower than :ref:`SphereShape3D<class_SphereShape3D>`.
+\ **Rendimiento:** **BoxShape3D** es rápido para comprobar colisiones. Es más rápido que :ref:`CapsuleShape3D<class_CapsuleShape3D>` y :ref:`CylinderShape3D<class_CylinderShape3D>`, pero más lento que :ref:`SphereShape3D<class_SphereShape3D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -61,7 +61,7 @@ Descripciones de Propiedades
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The box's width, height and depth.
+El ancho, la altura y la profundidad de la caja.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

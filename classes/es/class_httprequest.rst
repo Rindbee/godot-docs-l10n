@@ -426,7 +426,7 @@ If ``false`` no header will be added, and no decompression will be performed on 
 - |void| **set_body_size_limit**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_body_size_limit**\ (\ )
 
-Maximum allowed size for response bodies. If the response body is compressed, this will be used as the maximum allowed size for the decompressed body.
+Tamaño máximo permitido para los cuerpos de las respuestas. Si el cuerpo de la respuesta está comprimido, esto se usará como el tamaño máximo permitido para el cuerpo descomprimido.
 
 .. rst-class:: classref-item-separator
 
@@ -556,7 +556,7 @@ Devuelve la longitud del cuerpo de respuesta.
 
 :ref:`int<class_int>` **get_downloaded_bytes**\ (\ ) |const| :ref:`🔗<class_HTTPRequest_method_get_downloaded_bytes>`
 
-Returns the number of bytes this HTTPRequest downloaded.
+Devuelve el número de bytes que esta HTTPRequest ha descargado.
 
 .. rst-class:: classref-item-separator
 
@@ -568,7 +568,7 @@ Returns the number of bytes this HTTPRequest downloaded.
 
 :ref:`Status<enum_HTTPClient_Status>` **get_http_client_status**\ (\ ) |const| :ref:`🔗<class_HTTPRequest_method_get_http_client_status>`
 
-Returns the current status of the underlying :ref:`HTTPClient<class_HTTPClient>`.
+Devuelve el estado actual del :ref:`HTTPClient<class_HTTPClient>` subyacente.
 
 .. rst-class:: classref-item-separator
 
@@ -640,7 +640,7 @@ The proxy server is unset if ``host`` is empty or ``port`` is -1.
 
 |void| **set_tls_options**\ (\ client_options\: :ref:`TLSOptions<class_TLSOptions>`\ ) :ref:`🔗<class_HTTPRequest_method_set_tls_options>`
 
-Sets the :ref:`TLSOptions<class_TLSOptions>` to be used when connecting to an HTTPS server. See :ref:`TLSOptions.client()<class_TLSOptions_method_client>`.
+Establece las :ref:`TLSOptions<class_TLSOptions>` que se usarán al conectarse a un servidor HTTPS. Véase :ref:`TLSOptions.client()<class_TLSOptions_method_client>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -120,7 +120,7 @@ Descripciones de Métodos
 
 :ref:`int<class_int>` **get_end**\ (\ name\: :ref:`Variant<class_Variant>` = 0\ ) |const| :ref:`🔗<class_RegExMatch_method_get_end>`
 
-Devuelve la posición final de la coincidencia dentro de la cadena de origen. La posición final de los grupos de captura puede recuperarse proporcionando su número de grupo como un número entero o su nombre de cadena (si es un grupo con nombre). El valor por defecto de 0 se refiere al patrón completo.
+Devuelve la posición final de la coincidencia dentro de la string de origen. La posición final de los grupos de captura puede recuperarse proporcionando su número de grupo como un número entero o su nombre de string (si es un grupo con nombre). El valor por defecto de 0 se refiere al patrón completo.
 
 Devuelve -1 si el grupo no coincide o no existe.
 
@@ -146,7 +146,7 @@ Devuelve el número de grupos de captura.
 
 :ref:`int<class_int>` **get_start**\ (\ name\: :ref:`Variant<class_Variant>` = 0\ ) |const| :ref:`🔗<class_RegExMatch_method_get_start>`
 
-Devuelve la posición inicial de la coincidencia dentro de la string de origen. La posición inicial de los grupos de captura puede recuperarse proporcionando su número de grupo como un número entero o su nombre de cadena (si es un grupo con nombre). El valor por defecto de 0 se refiere al patrón completo.
+Devuelve la posición inicial de la coincidencia dentro de la string de origen. La posición inicial de los grupos de captura puede recuperarse proporcionando su número de grupo como un número entero o su nombre de string (si es un grupo con nombre). El valor por defecto de 0 se refiere al patrón completo.
 
 Devuelve -1 si el grupo no coincide o no existe.
 
@@ -162,7 +162,7 @@ Devuelve -1 si el grupo no coincide o no existe.
 
 Devuelve la substring de la coincidencia de la string de origen. Los grupos de captura pueden recuperarse proporcionando su número de grupo como un entero o su nombre de string (si es un grupo con nombre). El valor predeterminado de 0 se refiere al patrón completo.
 
-Devuelve una cadena vacía si el grupo no coincidió o no existe.
+Devuelve una string vacía si el grupo no coincidió o no existe.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

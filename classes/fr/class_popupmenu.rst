@@ -7,7 +7,7 @@ PopupMenu
 
 **Hérite de :** :ref:`Popup<class_Popup>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A modal window used to display a list of options.
+Une fenêtre modale utilisée pour afficher une liste d'options.
 
 .. rst-class:: classref-introduction-group
 
@@ -501,11 +501,11 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **activate_item_by_event**\ (\ event\: :ref:`InputEvent<class_InputEvent>`, for_global_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PopupMenu_method_activate_item_by_event>`
 
-Checks the provided ``event`` against the **PopupMenu**'s shortcuts and accelerators, and activates the first item with matching events. If ``for_global_only`` is ``true``, only shortcuts and accelerators with ``global`` set to ``true`` will be called.
+Vérifie l'événement ``event`` fourni contre les raccourcis et accélérateurs du **PopupMenu** et active le premier élément avec des événements correspondants. Si ``for_global_only`` vaut ``true``, seuls les raccourcis et les accélérateurs avec ``global`` défini à ``true`` seront appelés.
 
-Returns ``true`` if an item was successfully activated.
+Renvoie ``true`` si un élément a été activé avec succès.
 
-\ **Note:** Certain :ref:`Control<class_Control>`\ s, such as :ref:`MenuButton<class_MenuButton>`, will call this method automatically.
+\ **Note :** Certains :ref:`Control<class_Control>`\ s, comme :ref:`MenuButton<class_MenuButton>`, appelleront cette méthode automatiquement.
 
 .. rst-class:: classref-item-separator
 
@@ -517,11 +517,11 @@ Returns ``true`` if an item was successfully activated.
 
 |void| **add_check_item**\ (\ label\: :ref:`String<class_String>`, id\: :ref:`int<class_int>` = -1, accel\: :ref:`Key<enum_@GlobalScope_Key>` = 0\ ) :ref:`🔗<class_PopupMenu_method_add_check_item>`
 
-Adds a new checkable item with text ``label``.
+Ajoute un nouvel élément cochable avec le texte ``label``.
 
-An ``id`` can optionally be provided, as well as an accelerator (``accel``). If no ``id`` is provided, one will be created from the index. If no ``accel`` is provided, then the default value of 0 (corresponding to :ref:`@GlobalScope.KEY_NONE<class_@GlobalScope_constant_KEY_NONE>`) will be assigned to the item (which means it won't have any accelerator). See :ref:`get_item_accelerator()<class_PopupMenu_method_get_item_accelerator>` for more info on accelerators.
+Un ``id`` peut être fourni en option, ainsi qu'un accélérateur (``accel``). Si aucun ``id`` n'est fourni, un id sera créé à partir de l'index. Si aucun ``accel`` n'est fourni, la valeur par défaut de 0 (correspondant à :ref:`@GlobalScope.KEY_NONE<class_@GlobalScope_constant_KEY_NONE>`) sera assignée à l'élément (ce qui signifie qu'il n'aura pas d'accélérateur). Voir :ref:`get_item_accelerator()<class_PopupMenu_method_get_item_accelerator>` pour plus d'informations sur les accélérateurs.
 
-\ **Note:** Checkable items just display a checkmark, but don't have any built-in checking behavior and must be checked/unchecked manually. See :ref:`set_item_checked()<class_PopupMenu_method_set_item_checked>` for more info on how to control it.
+\ **Note :** Les éléments cochables affichent simplement une case à cocher, mais n'ont aucun comportement de vérification intégré et doivent être cochés/décochés manuellement. Voir :ref:`set_item_checked()<class_PopupMenu_method_set_item_checked>` pour plus d'informations sur la façon de le contrôler.
 
 .. rst-class:: classref-item-separator
 
@@ -533,11 +533,11 @@ An ``id`` can optionally be provided, as well as an accelerator (``accel``). If 
 
 |void| **add_check_shortcut**\ (\ shortcut\: :ref:`Shortcut<class_Shortcut>`, id\: :ref:`int<class_int>` = -1, global\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PopupMenu_method_add_check_shortcut>`
 
-Adds a new checkable item and assigns the specified :ref:`Shortcut<class_Shortcut>` to it. Sets the label of the checkbox to the :ref:`Shortcut<class_Shortcut>`'s name.
+Ajoute un nouvel élément vérifiable et lui attribue le :ref:`Shortcut<class_Shortcut>` spécifié. Définit le texte de la case à cocher au nom du :ref:`Shortcut<class_Shortcut>`.
 
-An ``id`` can optionally be provided. If no ``id`` is provided, one will be created from the index.
+Un ``id`` peut être fourni en option. Si aucun ``id`` n'est fourni, un id sera créé à partir de l'index.
 
-\ **Note:** Checkable items just display a checkmark, but don't have any built-in checking behavior and must be checked/unchecked manually. See :ref:`set_item_checked()<class_PopupMenu_method_set_item_checked>` for more info on how to control it.
+\ **Note :** Les éléments cochables affichent simplement une case à cocher, mais n'ont aucun comportement de vérification intégré et doivent être cochés/décochés manuellement. Voir :ref:`set_item_checked()<class_PopupMenu_method_set_item_checked>` pour plus d'informations sur la façon de le contrôler.
 
 .. rst-class:: classref-item-separator
 
@@ -1862,7 +1862,7 @@ La :ref:`StyleBox<class_StyleBox>` pour le côté droit du séparateur avec labe
 
 :ref:`StyleBox<class_StyleBox>` **panel** :ref:`🔗<class_PopupMenu_theme_style_panel>`
 
-:ref:`StyleBox<class_StyleBox>` for the background panel.
+:ref:`StyleBox<class_StyleBox>` pour le panneau de l'arrière-plan.
 
 .. rst-class:: classref-item-separator
 

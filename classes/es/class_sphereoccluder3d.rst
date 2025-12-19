@@ -7,16 +7,16 @@ SphereOccluder3D
 
 **Hereda:** :ref:`Occluder3D<class_Occluder3D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Spherical shape for use with occlusion culling in :ref:`OccluderInstance3D<class_OccluderInstance3D>`.
+Forma esférica para usar con el culling de oclusión en :ref:`OccluderInstance3D<class_OccluderInstance3D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**SphereOccluder3D** stores a sphere shape that can be used by the engine's occlusion culling system.
+**SphereOccluder3D** almacena una forma esférica que puede ser utilizada por el sistema de culling de oclusión del motor.
 
-See :ref:`OccluderInstance3D<class_OccluderInstance3D>`'s documentation for instructions on setting up occlusion culling.
+Véase la documentación de :ref:`OccluderInstance3D<class_OccluderInstance3D>` para obtener instrucciones sobre cómo configurar el culling de oclusión.
 
 .. rst-class:: classref-introduction-group
 
@@ -57,7 +57,7 @@ Descripciones de Propiedades
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-The sphere's radius in 3D units.
+El radio de la esfera en unidades 3D.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

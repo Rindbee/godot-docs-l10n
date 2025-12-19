@@ -7,7 +7,7 @@ Script
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`CSharpScript<class_CSharpScript>`, :ref:`GDScript<class_GDScript>`, :ref:`ScriptExtension<class_ScriptExtension>`
+**Hérité par :** :ref:`CSharpScript<class_CSharpScript>`, :ref:`GDScript<class_GDScript>`, :ref:`ScriptExtension<class_ScriptExtension>`
 
 Une classe stockée en tant que ressource.
 
@@ -16,11 +16,11 @@ Une classe stockée en tant que ressource.
 Description
 -----------
 
-A class stored as a resource. A script extends the functionality of all objects that instantiate it.
+Une classe stockée en tant que ressource. Un script prolonge la fonctionnalité de tous les objets qui l'instancient.
 
-This is the base class for all scripts and should not be used directly. Trying to create a new script with this class will result in an error.
+Il s'agit de la classe de base pour tous les scripts et ne devrait pas être utilisée directement. Essayer de créer un nouveau script avec cette classe entraînera une erreur.
 
-The ``new`` method of a script subclass creates a new instance. :ref:`Object.set_script()<class_Object_method_set_script>` extends an existing object, if that object's class matches one of the script's base classes.
+La méthode ``new`` d'une sous-classe de script crée une nouvelle instance. :ref:`Object.set_script()<class_Object_method_set_script>` étend un objet existant, si la classe de cet objet correspond à l'une des classes de base du script.
 
 .. rst-class:: classref-introduction-group
 
@@ -120,7 +120,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **can_instantiate**\ (\ ) |const| :ref:`🔗<class_Script_method_can_instantiate>`
 
-Returns ``true`` if the script can be instantiated.
+Renvoie ``true`` si le script peut être instancié.
 
 .. rst-class:: classref-item-separator
 
@@ -132,7 +132,7 @@ Returns ``true`` if the script can be instantiated.
 
 :ref:`Script<class_Script>` **get_base_script**\ (\ ) |const| :ref:`🔗<class_Script_method_get_base_script>`
 
-Retourne le script directement hérité par ce script.
+Renvoie le script directement hérité par ce script.
 
 .. rst-class:: classref-item-separator
 
@@ -144,16 +144,16 @@ Retourne le script directement hérité par ce script.
 
 :ref:`StringName<class_StringName>` **get_global_name**\ (\ ) |const| :ref:`🔗<class_Script_method_get_global_name>`
 
-Returns the class name associated with the script, if there is one. Returns an empty string otherwise.
+Renvoie le nom de classe associé au script, s'il y en a un. Renvoie une chaîne vide sinon.
 
-To give the script a global name, you can use the ``class_name`` keyword in GDScript and the ``[GlobalClass]`` attribute in C#.
+Pour donner au script un nom global, vous pouvez utiliser le mot-clé ``class_name`` en GDScript et l'attribut ``[GlobalClass]`` en C#.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    class_name MyNode
+    class_name MonNoeud
     extends Node
 
  .. code-tab:: csharp
@@ -161,7 +161,7 @@ To give the script a global name, you can use the ``class_name`` keyword in GDSc
     using Godot;
 
     [GlobalClass]
-    public partial class MyNode : Node
+    public partial class MonNoeud : Node
     {
     }
 

@@ -7,7 +7,7 @@ GLTFState
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`FBXState<class_FBXState>`
+**Hérité par :** :ref:`FBXState<class_FBXState>`
 
 Represents all data of a glTF file.
 

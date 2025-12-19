@@ -14,7 +14,7 @@ Un único recurso de textura que consiste en múltiples imágenes separadas. Cad
 Descripción
 ----------------------
 
-Una Texture2DArray es diferente de una Texture3D: La Texture2DArray no soporta la interpolación trilineal entre las :ref:`Image<class_Image>`\ s, es decir, sin mezcla. Véase también :ref:`Cubemap<class_Cubemap>` y :ref:`CubemapArray<class_CubemapArray>`, que son arreglos de texturas con funciones especializadas de cubemap.
+Una Texture2DArray es diferente de una Texture3D: La Texture2DArray no soporta la interpolación trilineal entre las :ref:`Image<class_Image>`\ s, es decir, sin mezcla. Véase también :ref:`Cubemap<class_Cubemap>` y :ref:`CubemapArray<class_CubemapArray>`, que son arrays de texturas con funciones especializadas de cubemap.
 
 Una Texture2DArray también es diferente de una :ref:`AtlasTexture<class_AtlasTexture>`: En una Texture2DArray, todas las imágenes se tratan por separado. En un atlas, las regiones (es decir, las imágenes individuales) pueden ser de diferentes tamaños. Además, normalmente necesita añadir un relleno alrededor de las regiones, para evitar el mapeo UV accidental a más de una región. Lo mismo ocurre con el mipmapping: Las strings de mipmap se gestionan por separado para cada capa. En un atlas, el corte tiene que hacerse manualmente en el fragment shader.
 

@@ -14,16 +14,16 @@ Extrae una forma de polígono 2D para crear una malla 3D.
 Descripción
 ----------------------
 
-An array of 2D points is extruded to quickly and easily create a variety of 3D meshes. See also :ref:`CSGMesh3D<class_CSGMesh3D>` for using 3D meshes as CSG nodes.
+Un array de puntos 2D se extruye para crear rápida y fácilmente una variedad de mallas 3D. Véase también :ref:`CSGMesh3D<class_CSGMesh3D>` para usar mallas 3D como nodos CSG.
 
-\ **Note:** CSG nodes are intended to be used for level prototyping. Creating CSG nodes has a significant CPU cost compared to creating a :ref:`MeshInstance3D<class_MeshInstance3D>` with a :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Moving a CSG node within another CSG node also has a significant CPU cost, so it should be avoided during gameplay.
+\ **Nota:** Los nodos CSG están pensados para ser usados para el prototipado de niveles. La creación de nodos CSG tiene un coste de CPU significativo comparado con la creación de una :ref:`MeshInstance3D<class_MeshInstance3D>` con una :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Mover un nodo CSG dentro de otro nodo CSG también tiene un coste de CPU significativo, por lo que debe evitarse durante el juego.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriales
 --------------------
 
-- :doc:`Prototyping levels with CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipado de niveles con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 
@@ -90,7 +90,7 @@ enum **Mode**: :ref:`🔗<enum_CSGPolygon3D_Mode>`
 
 :ref:`Mode<enum_CSGPolygon3D_Mode>` **MODE_DEPTH** = ``0``
 
-The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is extruded along the negative Z axis.
+La forma :ref:`polygon<class_CSGPolygon3D_property_polygon>` se extruye a lo largo del eje Z negativo.
 
 .. _class_CSGPolygon3D_constant_MODE_SPIN:
 
@@ -98,7 +98,7 @@ The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is extruded along 
 
 :ref:`Mode<enum_CSGPolygon3D_Mode>` **MODE_SPIN** = ``1``
 
-The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is extruded by rotating it around the Y axis.
+La forma :ref:`polygon<class_CSGPolygon3D_property_polygon>` se extruye girándola alrededor del eje Y.
 
 .. _class_CSGPolygon3D_constant_MODE_PATH:
 
@@ -106,7 +106,7 @@ The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is extruded by rot
 
 :ref:`Mode<enum_CSGPolygon3D_Mode>` **MODE_PATH** = ``2``
 
-The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is extruded along the :ref:`Path3D<class_Path3D>` specified in :ref:`path_node<class_CSGPolygon3D_property_path_node>`.
+La forma :ref:`polygon<class_CSGPolygon3D_property_polygon>` se extruye a lo largo del :ref:`Path3D<class_Path3D>` especificado en :ref:`path_node<class_CSGPolygon3D_property_path_node>`.
 
 .. rst-class:: classref-item-separator
 
@@ -124,9 +124,9 @@ enum **PathRotation**: :ref:`🔗<enum_CSGPolygon3D_PathRotation>`
 
 :ref:`PathRotation<enum_CSGPolygon3D_PathRotation>` **PATH_ROTATION_POLYGON** = ``0``
 
-The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is not rotated.
+La forma :ref:`polygon<class_CSGPolygon3D_property_polygon>` no se rota.
 
-\ **Note:** Requires the path Z coordinates to continually decrease to ensure viable shapes.
+\ **Nota:** Requiere que las coordenadas Z de la ruta disminuyan continuamente para asegurar formas viables.
 
 .. _class_CSGPolygon3D_constant_PATH_ROTATION_PATH:
 
@@ -134,9 +134,9 @@ The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is not rotated.
 
 :ref:`PathRotation<enum_CSGPolygon3D_PathRotation>` **PATH_ROTATION_PATH** = ``1``
 
-The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is rotated along the path, but it is not rotated around the path axis.
+La forma :ref:`polygon<class_CSGPolygon3D_property_polygon>` se rota a lo largo de la ruta, pero no se rota alrededor del eje de la ruta.
 
-\ **Note:** Requires the path Z coordinates to continually decrease to ensure viable shapes.
+\ **Nota:** Requiere que las coordenadas Z de la ruta disminuyan continuamente para asegurar formas viables.
 
 .. _class_CSGPolygon3D_constant_PATH_ROTATION_PATH_FOLLOW:
 
@@ -144,7 +144,7 @@ The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape is rotated along t
 
 :ref:`PathRotation<enum_CSGPolygon3D_PathRotation>` **PATH_ROTATION_PATH_FOLLOW** = ``2``
 
-The :ref:`polygon<class_CSGPolygon3D_property_polygon>` shape follows the path and its rotations around the path axis.
+La forma :ref:`polygon<class_CSGPolygon3D_property_polygon>` sigue la ruta y sus rotaciones alrededor del eje de la ruta.
 
 .. rst-class:: classref-item-separator
 
@@ -162,7 +162,7 @@ enum **PathIntervalType**: :ref:`🔗<enum_CSGPolygon3D_PathIntervalType>`
 
 :ref:`PathIntervalType<enum_CSGPolygon3D_PathIntervalType>` **PATH_INTERVAL_DISTANCE** = ``0``
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is set to :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, :ref:`path_interval<class_CSGPolygon3D_property_path_interval>` will determine the distance, in meters, each interval of the path will extrude.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` se establece en :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, :ref:`path_interval<class_CSGPolygon3D_property_path_interval>` determinará la distancia, en metros, que se extruirá cada intervalo de la ruta.
 
 .. _class_CSGPolygon3D_constant_PATH_INTERVAL_SUBDIVIDE:
 
@@ -170,7 +170,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is set to :ref:`MODE_PATH<cla
 
 :ref:`PathIntervalType<enum_CSGPolygon3D_PathIntervalType>` **PATH_INTERVAL_SUBDIVIDE** = ``1``
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is set to :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, :ref:`path_interval<class_CSGPolygon3D_property_path_interval>` will subdivide the polygons along the path.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` se establece en :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, :ref:`path_interval<class_CSGPolygon3D_property_path_interval>` subdividirá los polígonos a lo largo de la ruta.
 
 .. rst-class:: classref-section-separator
 
@@ -209,7 +209,7 @@ Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_DEPTH<class_C
 - |void| **set_material**\ (\ value\: :ref:`Material<class_Material>`\ )
 - :ref:`Material<class_Material>` **get_material**\ (\ )
 
-Material to use for the resulting mesh. The UV maps the top half of the material to the extruded shape (U along the length of the extrusions and V around the outline of the :ref:`polygon<class_CSGPolygon3D_property_polygon>`), the bottom-left quarter to the front end face, and the bottom-right quarter to the back end face.
+Material a usar para la malla resultante. El UV mapea la mitad superior del material a la forma extruida (U a lo largo de la longitud de las extrusiones y V alrededor del contorno del :ref:`polygon<class_CSGPolygon3D_property_polygon>`), el cuarto inferior izquierdo a la cara del extremo frontal, y el cuarto inferior derecho a la cara del extremo posterior.
 
 .. rst-class:: classref-item-separator
 
@@ -226,7 +226,7 @@ Material to use for the resulting mesh. The UV maps the top half of the material
 - |void| **set_mode**\ (\ value\: :ref:`Mode<enum_CSGPolygon3D_Mode>`\ )
 - :ref:`Mode<enum_CSGPolygon3D_Mode>` **get_mode**\ (\ )
 
-The :ref:`mode<class_CSGPolygon3D_property_mode>` used to extrude the :ref:`polygon<class_CSGPolygon3D_property_polygon>`.
+El :ref:`mode<class_CSGPolygon3D_property_mode>` utilizado para extruir el :ref:`polygon<class_CSGPolygon3D_property_polygon>`.
 
 .. rst-class:: classref-item-separator
 
@@ -243,7 +243,7 @@ The :ref:`mode<class_CSGPolygon3D_property_mode>` used to extrude the :ref:`poly
 - |void| **set_path_continuous_u**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_path_continuous_u**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, by default, the top half of the :ref:`material<class_CSGPolygon3D_property_material>` is stretched along the entire length of the extruded shape. If ``false`` the top half of the material is repeated every step of the extrusion.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, por defecto, la mitad superior del :ref:`material<class_CSGPolygon3D_property_material>` se estira a lo largo de toda la longitud de la forma extruida. Si es ``false``, la mitad superior del material se repite en cada paso de la extrusión.
 
 .. rst-class:: classref-item-separator
 
@@ -260,7 +260,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_interval**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, the path interval or ratio of path points to extrusions.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, el intervalo de ruta o la relación de puntos de ruta a extrusiones.
 
 .. rst-class:: classref-item-separator
 
@@ -277,7 +277,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_interval_type**\ (\ value\: :ref:`PathIntervalType<enum_CSGPolygon3D_PathIntervalType>`\ )
 - :ref:`PathIntervalType<enum_CSGPolygon3D_PathIntervalType>` **get_path_interval_type**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, this will determine if the interval should be by distance (:ref:`PATH_INTERVAL_DISTANCE<class_CSGPolygon3D_constant_PATH_INTERVAL_DISTANCE>`) or subdivision fractions (:ref:`PATH_INTERVAL_SUBDIVIDE<class_CSGPolygon3D_constant_PATH_INTERVAL_SUBDIVIDE>`).
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, esto determinará si el intervalo debe ser por distancia (:ref:`PATH_INTERVAL_DISTANCE<class_CSGPolygon3D_constant_PATH_INTERVAL_DISTANCE>`) o fracciones de subdivisión (:ref:`PATH_INTERVAL_SUBDIVIDE<class_CSGPolygon3D_constant_PATH_INTERVAL_SUBDIVIDE>`).
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_joined**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_path_joined**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, if ``true`` the ends of the path are joined, by adding an extrusion between the last and first points of the path.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, si es ``true`` los extremos de la ruta se unen, añadiendo una extrusión entre el último y el primer punto de la ruta.
 
 .. rst-class:: classref-item-separator
 
@@ -311,7 +311,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_local**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_path_local**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, if ``true`` the :ref:`Transform3D<class_Transform3D>` of the **CSGPolygon3D** is used as the starting point for the extrusions, not the :ref:`Transform3D<class_Transform3D>` of the :ref:`path_node<class_CSGPolygon3D_property_path_node>`.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, si es ``true`` la :ref:`Transform3D<class_Transform3D>` del **CSGPolygon3D** se utiliza como punto de partida para las extrusiones, no la :ref:`Transform3D<class_Transform3D>` del :ref:`path_node<class_CSGPolygon3D_property_path_node>`.
 
 .. rst-class:: classref-item-separator
 
@@ -328,7 +328,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_path_node**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, the location of the :ref:`Path3D<class_Path3D>` object used to extrude the :ref:`polygon<class_CSGPolygon3D_property_polygon>`.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, la ubicación del objeto :ref:`Path3D<class_Path3D>` utilizado para extruir el :ref:`polygon<class_CSGPolygon3D_property_polygon>`.
 
 .. rst-class:: classref-item-separator
 
@@ -345,7 +345,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_rotation**\ (\ value\: :ref:`PathRotation<enum_CSGPolygon3D_PathRotation>`\ )
 - :ref:`PathRotation<enum_CSGPolygon3D_PathRotation>` **get_path_rotation**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, the path rotation method used to rotate the :ref:`polygon<class_CSGPolygon3D_property_polygon>` as it is extruded.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, el método de rotación de la ruta utilizado para rotar el :ref:`polygon<class_CSGPolygon3D_property_polygon>` a medida que se extruye.
 
 .. rst-class:: classref-item-separator
 
@@ -362,7 +362,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_rotation_accurate**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_path_rotation_accurate**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, if ``true`` the polygon will be rotated according to the proper tangent of the path at the sampled points. If ``false`` an approximation is used, which decreases in accuracy as the number of subdivisions decreases.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, si es ``true`` el polígono se rotará de acuerdo con la tangente apropiada de la ruta en los puntos muestreados. Si es ``false``, se utiliza una aproximación, cuya precisión disminuye a medida que disminuye el número de subdivisiones.
 
 .. rst-class:: classref-item-separator
 
@@ -379,7 +379,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_simplify_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_simplify_angle**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, extrusions that are less than this angle, will be merged together to reduce polygon count.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, las extrusiones que son menores que este ángulo se fusionarán para reducir el número de polígonos.
 
 .. rst-class:: classref-item-separator
 
@@ -396,7 +396,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_path_u_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_u_distance**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, this is the distance along the path, in meters, the texture coordinates will tile. When set to 0, texture coordinates will match geometry exactly with no tiling.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_PATH<class_CSGPolygon3D_constant_MODE_PATH>`, esta es la distancia a lo largo de la ruta, en metros, que se enlazarán las coordenadas de textura. Cuando se establece en 0, las coordenadas de textura coincidirán exactamente con la geometría sin enlazar.
 
 .. rst-class:: classref-item-separator
 
@@ -413,9 +413,9 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_PATH<class_CSGP
 - |void| **set_polygon**\ (\ value\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ )
 - :ref:`PackedVector2Array<class_PackedVector2Array>` **get_polygon**\ (\ )
 
-The point array that defines the 2D polygon that is extruded. This can be a convex or concave polygon with 3 or more points. The polygon must *not* have any intersecting edges. Otherwise, triangulation will fail and no mesh will be generated.
+La matriz de puntos que define el polígono 2D que se extruye. Esto puede ser un polígono convexo o cóncavo con 3 o más puntos. El polígono *no* debe tener aristas que se intersecten. De lo contrario, la triangulación fallará y no se generará ninguna malla.
 
-\ **Note:** If only 1 or 2 points are defined in :ref:`polygon<class_CSGPolygon3D_property_polygon>`, no mesh will be generated.
+\ **Nota:** Si solo se definen 1 o 2 puntos en :ref:`polygon<class_CSGPolygon3D_property_polygon>`, no se generará ninguna malla.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector2Array<class_PackedVector2Array>` for more details.
 
@@ -451,7 +451,7 @@ Si es ``true``, aplica sombreado suave a las extrusiones.
 - |void| **set_spin_degrees**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_spin_degrees**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_SPIN<class_CSGPolygon3D_constant_MODE_SPIN>`, the total number of degrees the :ref:`polygon<class_CSGPolygon3D_property_polygon>` is rotated when extruding.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_SPIN<class_CSGPolygon3D_constant_MODE_SPIN>`, el número total de grados que se rota el :ref:`polygon<class_CSGPolygon3D_property_polygon>` al extruir.
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_SPIN<class_CSGP
 - |void| **set_spin_sides**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_spin_sides**\ (\ )
 
-When :ref:`mode<class_CSGPolygon3D_property_mode>` is :ref:`MODE_SPIN<class_CSGPolygon3D_constant_MODE_SPIN>`, the number of extrusions made.
+Cuando :ref:`mode<class_CSGPolygon3D_property_mode>` es :ref:`MODE_SPIN<class_CSGPolygon3D_constant_MODE_SPIN>`, el número de extrusiones realizadas.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

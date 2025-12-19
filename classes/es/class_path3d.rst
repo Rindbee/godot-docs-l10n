@@ -7,7 +7,7 @@ Path3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Contains a :ref:`Curve3D<class_Curve3D>` path for :ref:`PathFollow3D<class_PathFollow3D>` nodes to follow.
+Contiene un camino :ref:`Curve3D<class_Curve3D>` para que los nodos :ref:`PathFollow3D<class_PathFollow3D>` lo sigan.
 
 .. rst-class:: classref-introduction-group
 

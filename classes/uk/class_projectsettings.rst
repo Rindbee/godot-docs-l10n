@@ -1264,6 +1264,10 @@ ProjectSettings
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/use_edge_connections<class_ProjectSettings_property_navigation/2d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_height<class_ProjectSettings_property_navigation/3d/default_cell_height>`                                                                                                 | ``0.25``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_size<class_ProjectSettings_property_navigation/3d/default_cell_size>`                                                                                                     | ``0.25``                                                                                         |
@@ -1277,6 +1281,10 @@ ProjectSettings
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/merge_rasterizer_cell_scale<class_ProjectSettings_property_navigation/3d/merge_rasterizer_cell_scale>`                                                                                 | ``1.0``                                                                                          |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/use_edge_connections<class_ProjectSettings_property_navigation/3d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/avoidance/thread_model/avoidance_use_high_priority_threads<class_ProjectSettings_property_navigation/avoidance/thread_model/avoidance_use_high_priority_threads>`                         | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -9707,6 +9715,30 @@ Godot використовує чергу повідомлення для вид
 
 ----
 
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`
+
+Якщо значення ``true``, навігаційна система виводитиме попередження, коли навігаційна сітка з малим розміром комірки використовується на навігаційній карті більшого розміру, оскільки це зазвичай призводить до помилок растеризації.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`
+
+Якщо значення ``true``, навігаційна система виводитиме попередження про помилки об'єднання країв навігаційної сітки, що виникають в областях навігації або на картах.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ProjectSettings_property_navigation/3d/default_cell_height:
 
 .. rst-class:: classref-property
@@ -9786,6 +9818,30 @@ Godot використовує чергу повідомлення для вид
 :ref:`bool<class_bool>` **navigation/3d/use_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/use_edge_connections>`
 
 Якщо увімкнено 3D-навігаційні регіони будуть використовувати крайові з'єднання для підключення з іншими навігаційними регіонами в безпосередній близькості від діапазону навігації. Навігаційні карти World3D за замовчуванням.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`
+
+Якщо значення ``true``, навігаційна система виводитиме попередження, коли навігаційна сітка з малим розміром комірки (або у 3D-висоті) використовується на навігаційній карті більшого розміру, оскільки це зазвичай призводить до помилок растеризації.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`
+
+Якщо значення ``true``, навігаційна система виводитиме попередження про помилки об'єднання країв навігаційної сітки, що виникають в областях навігації або на картах.
 
 .. rst-class:: classref-item-separator
 
@@ -12181,7 +12237,7 @@ OIDN використовуватиме прискорення GPU при ная
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv>`
 
-Величина поділу першого квадранта на атласі тіней. Див. документацію `#shadow-atlas <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ in :doc:`../tutorials/tutorials/3d/lights_and_shadows` для отримання додаткової інформації.
+Величина поділу першого квадранта на атласі тіней. Див. `документацію <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ для отримання додаткової інформації.
 
 .. rst-class:: classref-item-separator
 
@@ -12193,7 +12249,7 @@ OIDN використовуватиме прискорення GPU при ная
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv>`
 
-Величина поділу другого квадранта на атласі тіней. Див. документацію `#shadow-atlas <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ in :doc:`../tutorials/tutorials/3d/lights_and_shadows` для отримання додаткової інформації.
+Величина поділу другого квадранта на атласі тіней. Див. `документацію <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ для отримання додаткової інформації.
 
 .. rst-class:: classref-item-separator
 
@@ -12205,7 +12261,7 @@ OIDN використовуватиме прискорення GPU при ная
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv** = ``3`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv>`
 
-Величина поділу третього квадранта на атласі тіней. Див. документацію `#shadow-atlas <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ in :doc:`../tutorials/tutorials/3d/lights_and_shadows` для отримання додаткової інформації.
+Величина поділу третього квадранта на атласі тіней. Див. `документацію <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ для отримання додаткової інформації.
 
 .. rst-class:: classref-item-separator
 
@@ -12217,7 +12273,7 @@ OIDN використовуватиме прискорення GPU при ная
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv** = ``4`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv>`
 
-Величина поділу четвертого квадранта на атласі тіней. Див. документацію `#shadow-atlas <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ in :doc:`../tutorials/tutorials/3d/lights_and_shadows` для отримання додаткової інформації..
+Величина поділу четвертого квадранта на атласі тіней. Див. `документацію <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ для отримання додаткової інформації.
 
 .. rst-class:: classref-item-separator
 
@@ -12229,7 +12285,7 @@ OIDN використовуватиме прискорення GPU при ная
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_size>`
 
-Розмір атласу тіней, що використовується для вузлів :ref:`OmniLight3D<class_OmniLight3D>` та :ref:`SpotLight3D<class_SpotLight3D>`. Див. документацію [url=$DOCS_URL/tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas]для отримання додаткової інформації.
+Розмір атласу тіней, що використовується для вузлів :ref:`OmniLight3D<class_OmniLight3D>` та :ref:`SpotLight3D<class_SpotLight3D>`. Див. документацію [url=$DOCS_URL/tutorials/3d/lights_and_shadows.html#shadow-atlas]для отримання додаткової інформації.
 
 .. rst-class:: classref-item-separator
 

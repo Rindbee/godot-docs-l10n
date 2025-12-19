@@ -23,7 +23,7 @@ Translations are stored in :ref:`TranslationDomain<class_TranslationDomain>`\ s,
 Tutoriels
 ------------------
 
-- :doc:`Internationalisation des jeux <../tutorials/i18n/internationalizing_games>`
+- :doc:`Internationaliser des jeux <../tutorials/i18n/internationalizing_games>`
 
 - :doc:`Locales <../tutorials/i18n/locales>`
 

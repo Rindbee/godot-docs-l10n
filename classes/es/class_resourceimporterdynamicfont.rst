@@ -202,7 +202,7 @@ El modo de hinting a utilizar. Esto controla la agresividad con la que los borde
 
 :ref:`bool<class_bool>` **keep_rounding_remainders** = ``true`` :ref:`🔗<class_ResourceImporterDynamicFont_property_keep_rounding_remainders>`
 
-If set to ``true``, when aligning glyphs to the pixel boundaries rounding remainders are accumulated to ensure more uniform glyph distribution. This setting has no effect if subpixel positioning is enabled.
+Si se establece en ``true``, al alinear los glifos a los límites de los píxeles, los restos de redondeo se acumulan para asegurar una distribución de glifos más uniforme. Este ajuste no tiene efecto si el posicionamiento subpíxel está habilitado.
 
 .. rst-class:: classref-item-separator
 

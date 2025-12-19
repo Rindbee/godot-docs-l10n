@@ -166,7 +166,7 @@ Sets the member keyword colors. All existing member keyword will be removed. The
 - |void| **set_member_variable_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_member_variable_color**\ (\ )
 
-Sets color for member variables. A member variable is non-keyword, non-function string proceeded with a '.'.
+Définit la couleur pour les variables membres. Une variable membre est une chaîne non-mot-clé, non-fonction précédée d'un '.'.
 
 .. rst-class:: classref-item-separator
 

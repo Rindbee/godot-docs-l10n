@@ -7,16 +7,16 @@ TabContainer
 
 **Hereda:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container that creates a tab for each child control, displaying only the active tab's control.
+Un contenedor que crea una pestaña para cada control hijo, mostrando solo el control de la pestaña activa.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Arranges child controls into a tabbed view, creating a tab for each one. The active tab's corresponding control is made visible, while all other child controls are hidden. Ignores non-control children.
+Organiza los controles hijos en una vista de pestañas, creando una pestaña para cada uno. El control correspondiente a la pestaña activa se hace visible, mientras que todos los demás controles hijos se ocultan. Ignora los hijos que no son controles.
 
-\ **Note:** The drawing of the clickable tabs is handled by this node; :ref:`TabBar<class_TabBar>` is not needed.
+\ **Nota:** El dibujo de las pestañas clickables es manejado por este nodo; no se necesita :ref:`TabBar<class_TabBar>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -272,7 +272,7 @@ Emitida cuando una pestaña tiene encima el cursor del ratón.
 
 **tab_selected**\ (\ tab\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabContainer_signal_tab_selected>`
 
-Emitted when a tab is selected via click, directional input, or script, even if it is the current tab.
+Emitida cuando una pestaña es seleccionada mediante un clic, entrada direccional o script, incluso si es la pestaña actual.
 
 .. rst-class:: classref-section-separator
 
@@ -861,7 +861,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Color<class_Color>` **drop_mark_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_TabContainer_theme_color_drop_mark_color>`
 
-Modulation color for the :ref:`drop_mark<class_TabContainer_theme_icon_drop_mark>` icon.
+Color de modulación para el icono :ref:`drop_mark<class_TabContainer_theme_icon_drop_mark>`.
 
 .. rst-class:: classref-item-separator
 
@@ -897,7 +897,7 @@ Font color of the currently hovered tab.
 
 :ref:`Color<class_Color>` **font_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_TabContainer_theme_color_font_outline_color>`
 
-The tint of text outline of the tab name.
+El tinte del contorno del texto del nombre de la pestaña.
 
 .. rst-class:: classref-item-separator
 
@@ -921,7 +921,7 @@ Color de la fuente de la pestaña actualmente seleccionada.
 
 :ref:`Color<class_Color>` **font_unselected_color** = ``Color(0.7, 0.7, 0.7, 1)`` :ref:`🔗<class_TabContainer_theme_color_font_unselected_color>`
 
-Font color of the other, unselected tabs.
+Color de la fuente de las otras pestañas no seleccionadas.
 
 .. rst-class:: classref-item-separator
 
@@ -957,9 +957,9 @@ Espacio entre el nombre de la pestaña y su icono.
 
 :ref:`int<class_int>` **outline_size** = ``0`` :ref:`🔗<class_TabContainer_theme_constant_outline_size>`
 
-The size of the tab text outline.
+El tamaño del contorno del texto de la pestaña.
 
-\ **Note:** If using a font with :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` enabled, its :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` must be set to at least *twice* the value of :ref:`outline_size<class_TabContainer_theme_constant_outline_size>` for outline rendering to look correct. Otherwise, the outline may appear to be cut off earlier than intended.
+\ **Nota:** Si utilizas una fuente con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` activado, su :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` debe establecerse al menos al *doble* del valor de :ref:`outline_size<class_TabContainer_theme_constant_outline_size>` para que el renderizado del contorno se vea correctamente. De lo contrario, el contorno puede aparecer recortado antes de lo previsto.
 
 .. rst-class:: classref-item-separator
 
@@ -1045,7 +1045,7 @@ Icono para el botón de la flecha izquierda que aparece cuando hay demasiadas pe
 
 :ref:`Texture2D<class_Texture2D>` **drop_mark** :ref:`🔗<class_TabContainer_theme_icon_drop_mark>`
 
-Icon shown to indicate where a dragged tab is gonna be dropped (see :ref:`drag_to_rearrange_enabled<class_TabContainer_property_drag_to_rearrange_enabled>`).
+Icono que se muestra para indicar dónde se va a soltar una pestaña arrastrada (véase :ref:`drag_to_rearrange_enabled<class_TabContainer_property_drag_to_rearrange_enabled>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1129,7 +1129,7 @@ El estilo de las pestañas desactivadas.
 
 :ref:`StyleBox<class_StyleBox>` **tab_focus** :ref:`🔗<class_TabContainer_theme_style_tab_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the :ref:`TabBar<class_TabBar>` is focused. The :ref:`tab_focus<class_TabContainer_theme_style_tab_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>` of the selected tab, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+:ref:`StyleBox<class_StyleBox>` que se usa cuando el :ref:`TabBar<class_TabBar>` tiene el foco. El :ref:`StyleBox<class_StyleBox>` de :ref:`tab_focus<class_TabContainer_theme_style_tab_focus>` se muestra *sobre* el :ref:`StyleBox<class_StyleBox>` base de la pestaña seleccionada, por lo que se debe usar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para garantizar que el :ref:`StyleBox<class_StyleBox>` base permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para deshabilitar el efecto visual de foco, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Ten en cuenta que deshabilitar el efecto visual de foco perjudicará la usabilidad de la navegación por teclado/controlador, por lo que no se recomienda por razones de accesibilidad.
 
 .. rst-class:: classref-item-separator
 

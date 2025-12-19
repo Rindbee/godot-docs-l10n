@@ -113,13 +113,13 @@ The spotlight's *angular* attenuation curve. See also :ref:`spot_attenuation<cla
 - |void| **set_param**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param**\ (\ )
 
-Controls the distance attenuation function for spotlights.
+Controla la función de atenuación de la distancia para los focos.
 
-A value of ``0.0`` will maintain a constant brightness through most of the range, but smoothly attenuate the light at the edge of the range. Use a value of ``2.0`` for physically accurate lights as it results in the proper inverse square attenutation.
+Un valor de ``0.0`` mantendrá un brillo constante en la mayor parte del rango, pero atenuará suavemente la luz en el borde del rango. Usa un valor de ``2.0`` para luces físicamente precisas, ya que da como resultado la atenuación de la ley del inverso del cuadrado adecuada.
 
-\ **Note:** Setting attenuation to ``2.0`` or higher may result in distant objects receiving minimal light, even within range. For example, with a range of ``4096``, an object at ``100`` units is attenuated by a factor of ``0.0001``. With a default brightness of ``1``, the light would not be visible at that distance.
+\ **Nota:** Establecer la atenuación a ``2.0`` o más puede hacer que los objetos distantes reciban una luz mínima, incluso dentro del rango. Por ejemplo, con un rango de ``4096``, un objeto a ``100`` unidades se atenúa por un factor de ``0.0001``. Con un brillo predeterminado de ``1``, la luz no sería visible a esa distancia.
 
-\ **Note:** Using negative or values higher than ``10.0`` may lead to unexpected results.
+\ **Nota:** Usar valores negativos o valores superiores a ``10.0`` puede conducir a resultados inesperados.
 
 .. rst-class:: classref-item-separator
 

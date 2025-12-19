@@ -7,20 +7,20 @@ SkeletonModifier3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`BoneConstraint3D<class_BoneConstraint3D>`, :ref:`LookAtModifier3D<class_LookAtModifier3D>`, :ref:`ModifierBoneTarget3D<class_ModifierBoneTarget3D>`, :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>`, :ref:`RetargetModifier3D<class_RetargetModifier3D>`, :ref:`SkeletonIK3D<class_SkeletonIK3D>`, :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, :ref:`XRBodyModifier3D<class_XRBodyModifier3D>`, :ref:`XRHandModifier3D<class_XRHandModifier3D>`
+**Hérité par :** :ref:`BoneConstraint3D<class_BoneConstraint3D>`, :ref:`LookAtModifier3D<class_LookAtModifier3D>`, :ref:`ModifierBoneTarget3D<class_ModifierBoneTarget3D>`, :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>`, :ref:`RetargetModifier3D<class_RetargetModifier3D>`, :ref:`SkeletonIK3D<class_SkeletonIK3D>`, :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, :ref:`XRBodyModifier3D<class_XRBodyModifier3D>`, :ref:`XRHandModifier3D<class_XRHandModifier3D>`
 
-A node that may modify a Skeleton3D's bones.
+Un nœud qui peut modifier les os d'un Skeleton3D.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**SkeletonModifier3D** retrieves a target :ref:`Skeleton3D<class_Skeleton3D>` by having a :ref:`Skeleton3D<class_Skeleton3D>` parent.
+**SkeletonModifier3D** récupère un :ref:`Skeleton3D<class_Skeleton3D>` cible en ayant un :ref:`Skeleton3D<class_Skeleton3D>` parent.
 
-If there is an :ref:`AnimationMixer<class_AnimationMixer>`, a modification always performs after playback process of the :ref:`AnimationMixer<class_AnimationMixer>`.
+S'il y a un :ref:`AnimationMixer<class_AnimationMixer>`, une modification s'effectue toujours après le processus de lecture de l':ref:`AnimationMixer<class_AnimationMixer>`.
 
-This node should be used to implement custom IK solvers, constraints, or skeleton physics.
+Ce nœud devrait être utilisé pour implémenter des solveur d'IK, des contraintes ou de la physique de squelette personnalisés.
 
 .. rst-class:: classref-introduction-group
 
@@ -182,9 +182,9 @@ Si ``true``, le **SkeletonModifier3D** traitera.
 - |void| **set_influence**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_influence**\ (\ )
 
-Sets the influence of the modification.
+Définit l'influence de la modification.
 
-\ **Note:** This value is used by :ref:`Skeleton3D<class_Skeleton3D>` to blend, so the **SkeletonModifier3D** should always apply only 100% of the result without interpolation.
+\ **Note :** Cette valeur est utilisée par :ref:`Skeleton3D<class_Skeleton3D>` pour mélanger, de sorte que le **SkeletonModifier3D** devrait toujours seulement appliquer 100% du résultat sans interpolation.
 
 .. rst-class:: classref-section-separator
 
@@ -203,9 +203,9 @@ Descriptions des méthodes
 
 **Obsolète :** Use :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` instead.
 
-Override this virtual method to implement a custom skeleton modifier. You should do things like get the :ref:`Skeleton3D<class_Skeleton3D>`'s current pose and apply the pose here.
+Redéfinissez cette méthode virtuelle pour implémenter un modificateur de squelette personnalisé. Vous devriez faire des choses comme obtenir la pose actuelle du :ref:`Skeleton3D<class_Skeleton3D>` et appliquer la pose ici.
 
-\ :ref:`_process_modification()<class_SkeletonModifier3D_private_method__process_modification>` must not apply :ref:`influence<class_SkeletonModifier3D_property_influence>` to bone poses because the :ref:`Skeleton3D<class_Skeleton3D>` automatically applies influence to all bone poses set by the modifier.
+\ :ref:`_process_modification()<class_SkeletonModifier3D_private_method__process_modification>` ne doit pas appliquer :ref:`influence<class_SkeletonModifier3D_property_influence>` aux poses des os car le :ref:`Skeleton3D<class_Skeleton3D>` applique automatiquement l'influence à toutes les poses des os définies par le modificateur.
 
 .. rst-class:: classref-item-separator
 
@@ -217,11 +217,11 @@ Override this virtual method to implement a custom skeleton modifier. You should
 
 |void| **_process_modification_with_delta**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__process_modification_with_delta>`
 
-Override this virtual method to implement a custom skeleton modifier. You should do things like get the :ref:`Skeleton3D<class_Skeleton3D>`'s current pose and apply the pose here.
+Redéfinissez cette méthode virtuelle pour implémenter un modificateur de squelette personnalisé. Vous devriez faire des choses comme obtenir la pose actuelle du :ref:`Skeleton3D<class_Skeleton3D>` et appliquer la pose ici.
 
-\ :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` must not apply :ref:`influence<class_SkeletonModifier3D_property_influence>` to bone poses because the :ref:`Skeleton3D<class_Skeleton3D>` automatically applies influence to all bone poses set by the modifier.
+\ :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` ne doit pas appliquer :ref:`influence<class_SkeletonModifier3D_property_influence>` aux poses des os car le :ref:`Skeleton3D<class_Skeleton3D>` applique automatiquement l'influence à toutes les poses des os définies par le modificateur.
 
-\ ``delta`` is passed from parent :ref:`Skeleton3D<class_Skeleton3D>`. See also :ref:`Skeleton3D.advance()<class_Skeleton3D_method_advance>`.
+\ ``delta`` est passé depuis le :ref:`Skeleton3D<class_Skeleton3D>` parent. Voir aussi :ref:`Skeleton3D.advance()<class_Skeleton3D_method_advance>`.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Appelée quand le squelette est changé.
 
 |void| **_validate_bone_names**\ (\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__validate_bone_names>`
 
-Called when bone name and index need to be validated such as the timing of the entering tree or changing skeleton.
+Appelée lorsque les noms et les index des os doivent être validés comme au moment d'entrer dans l'arbre ou du changement de squelette.
 
 .. rst-class:: classref-item-separator
 

@@ -9,18 +9,18 @@ SkeletonModifier3D
 
 **Heredado por:** :ref:`BoneConstraint3D<class_BoneConstraint3D>`, :ref:`LookAtModifier3D<class_LookAtModifier3D>`, :ref:`ModifierBoneTarget3D<class_ModifierBoneTarget3D>`, :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>`, :ref:`RetargetModifier3D<class_RetargetModifier3D>`, :ref:`SkeletonIK3D<class_SkeletonIK3D>`, :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, :ref:`XRBodyModifier3D<class_XRBodyModifier3D>`, :ref:`XRHandModifier3D<class_XRHandModifier3D>`
 
-A node that may modify a Skeleton3D's bones.
+Un nodo que puede modificar los huesos de un Skeleton3D.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**SkeletonModifier3D** retrieves a target :ref:`Skeleton3D<class_Skeleton3D>` by having a :ref:`Skeleton3D<class_Skeleton3D>` parent.
+**SkeletonModifier3D** recupera un :ref:`Skeleton3D<class_Skeleton3D>` objetivo al tener un padre :ref:`Skeleton3D<class_Skeleton3D>`.
 
-If there is an :ref:`AnimationMixer<class_AnimationMixer>`, a modification always performs after playback process of the :ref:`AnimationMixer<class_AnimationMixer>`.
+Si hay un :ref:`AnimationMixer<class_AnimationMixer>`, una modificación siempre se realiza después del proceso de reproducción del :ref:`AnimationMixer<class_AnimationMixer>`.
 
-This node should be used to implement custom IK solvers, constraints, or skeleton physics.
+Este nodo debe utilizarse para implementar solucionadores IK personalizados, restricciones o física de esqueletos.
 
 .. rst-class:: classref-introduction-group
 
@@ -78,9 +78,9 @@ Señales
 
 **modification_processed**\ (\ ) :ref:`🔗<class_SkeletonModifier3D_signal_modification_processed>`
 
-Notifies when the modification have been finished.
+Notifica cuando la modificación ha terminado.
 
-\ **Note:** If you want to get the modified bone pose by the modifier, you must use :ref:`Skeleton3D.get_bone_pose()<class_Skeleton3D_method_get_bone_pose>` or :ref:`Skeleton3D.get_bone_global_pose()<class_Skeleton3D_method_get_bone_global_pose>` at the moment this signal is fired.
+\ **Nota:** Si quieres obtener la pose del hueso modificada por el modificador, debes usar :ref:`Skeleton3D.get_bone_pose()<class_Skeleton3D_method_get_bone_pose>` o :ref:`Skeleton3D.get_bone_global_pose()<class_Skeleton3D_method_get_bone_global_pose>` en el momento en que esta señal es emitida.
 
 .. rst-class:: classref-section-separator
 
@@ -103,7 +103,7 @@ enum **BoneAxis**: :ref:`🔗<enum_SkeletonModifier3D_BoneAxis>`
 
 :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **BONE_AXIS_PLUS_X** = ``0``
 
-Enumerated value for the +X axis.
+Valor enumerado para el eje +X.
 
 .. _class_SkeletonModifier3D_constant_BONE_AXIS_MINUS_X:
 
@@ -111,7 +111,7 @@ Enumerated value for the +X axis.
 
 :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **BONE_AXIS_MINUS_X** = ``1``
 
-Enumerated value for the -X axis.
+Valor enumerado para el eje -X.
 
 .. _class_SkeletonModifier3D_constant_BONE_AXIS_PLUS_Y:
 
@@ -119,7 +119,7 @@ Enumerated value for the -X axis.
 
 :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **BONE_AXIS_PLUS_Y** = ``2``
 
-Enumerated value for the +Y axis.
+Valor enumerado para el eje +Y.
 
 .. _class_SkeletonModifier3D_constant_BONE_AXIS_MINUS_Y:
 
@@ -127,7 +127,7 @@ Enumerated value for the +Y axis.
 
 :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **BONE_AXIS_MINUS_Y** = ``3``
 
-Enumerated value for the -Y axis.
+Valor enumerado para el eje -Y.
 
 .. _class_SkeletonModifier3D_constant_BONE_AXIS_PLUS_Z:
 
@@ -135,7 +135,7 @@ Enumerated value for the -Y axis.
 
 :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **BONE_AXIS_PLUS_Z** = ``4``
 
-Enumerated value for the +Z axis.
+Valor enumerado para el eje +Z.
 
 .. _class_SkeletonModifier3D_constant_BONE_AXIS_MINUS_Z:
 
@@ -143,7 +143,7 @@ Enumerated value for the +Z axis.
 
 :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **BONE_AXIS_MINUS_Z** = ``5``
 
-Enumerated value for the -Z axis.
+Valor enumerado para el eje -Z.
 
 .. rst-class:: classref-section-separator
 
@@ -165,7 +165,7 @@ Descripciones de Propiedades
 - |void| **set_active**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_active**\ (\ )
 
-If ``true``, the **SkeletonModifier3D** will be processing.
+Si es ``true``, el **SkeletonModifier3D** se procesará.
 
 .. rst-class:: classref-item-separator
 
@@ -182,9 +182,9 @@ If ``true``, the **SkeletonModifier3D** will be processing.
 - |void| **set_influence**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_influence**\ (\ )
 
-Sets the influence of the modification.
+Establece la influencia de la modificación.
 
-\ **Note:** This value is used by :ref:`Skeleton3D<class_Skeleton3D>` to blend, so the **SkeletonModifier3D** should always apply only 100% of the result without interpolation.
+\ **Nota:** Este valor es usado por :ref:`Skeleton3D<class_Skeleton3D>` para mezclar, así que el **SkeletonModifier3D** siempre debería aplicar solo el 100% del resultado sin interpolación.
 
 .. rst-class:: classref-section-separator
 
@@ -203,9 +203,9 @@ Descripciones de Métodos
 
 **Obsoleto:** Use :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` instead.
 
-Override this virtual method to implement a custom skeleton modifier. You should do things like get the :ref:`Skeleton3D<class_Skeleton3D>`'s current pose and apply the pose here.
+Sobrescribe este método virtual para implementar un modificador de esqueleto personalizado. Deberías hacer cosas como obtener la pose actual del :ref:`Skeleton3D<class_Skeleton3D>` y aplicar la pose aquí.
 
-\ :ref:`_process_modification()<class_SkeletonModifier3D_private_method__process_modification>` must not apply :ref:`influence<class_SkeletonModifier3D_property_influence>` to bone poses because the :ref:`Skeleton3D<class_Skeleton3D>` automatically applies influence to all bone poses set by the modifier.
+\ :ref:`_process_modification()<class_SkeletonModifier3D_private_method__process_modification>` no debe aplicar :ref:`influence<class_SkeletonModifier3D_property_influence>` a las poses de los huesos porque el :ref:`Skeleton3D<class_Skeleton3D>` aplica automáticamente la influencia a todas las poses de los huesos establecidas por el modificador.
 
 .. rst-class:: classref-item-separator
 
@@ -217,11 +217,11 @@ Override this virtual method to implement a custom skeleton modifier. You should
 
 |void| **_process_modification_with_delta**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__process_modification_with_delta>`
 
-Override this virtual method to implement a custom skeleton modifier. You should do things like get the :ref:`Skeleton3D<class_Skeleton3D>`'s current pose and apply the pose here.
+Sobrescribe este método virtual para implementar un modificador de esqueleto personalizado. Deberías hacer cosas como obtener la pose actual del :ref:`Skeleton3D<class_Skeleton3D>` y aplicar la pose aquí.
 
-\ :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` must not apply :ref:`influence<class_SkeletonModifier3D_property_influence>` to bone poses because the :ref:`Skeleton3D<class_Skeleton3D>` automatically applies influence to all bone poses set by the modifier.
+\ :ref:`_process_modification_with_delta()<class_SkeletonModifier3D_private_method__process_modification_with_delta>` no debe aplicar :ref:`influence<class_SkeletonModifier3D_property_influence>` a las poses de los huesos porque el :ref:`Skeleton3D<class_Skeleton3D>` aplica automáticamente la influencia a todas las poses de los huesos establecidas por el modificador.
 
-\ ``delta`` is passed from parent :ref:`Skeleton3D<class_Skeleton3D>`. See also :ref:`Skeleton3D.advance()<class_Skeleton3D_method_advance>`.
+\ ``delta`` se pasa desde el :ref:`Skeleton3D<class_Skeleton3D>` padre. Véase también :ref:`Skeleton3D.advance()<class_Skeleton3D_method_advance>`.
 
 .. rst-class:: classref-item-separator
 
@@ -233,7 +233,7 @@ Override this virtual method to implement a custom skeleton modifier. You should
 
 |void| **_skeleton_changed**\ (\ old_skeleton\: :ref:`Skeleton3D<class_Skeleton3D>`, new_skeleton\: :ref:`Skeleton3D<class_Skeleton3D>`\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__skeleton_changed>`
 
-Called when the skeleton is changed.
+Se llama a este método cuando el esqueleto cambia.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Called when the skeleton is changed.
 
 |void| **_validate_bone_names**\ (\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__validate_bone_names>`
 
-Called when bone name and index need to be validated such as the timing of the entering tree or changing skeleton.
+Se llama a este método cuando el nombre y el índice del hueso necesitan ser validados, como el momento de entrar en el árbol o cambiar el esqueleto.
 
 .. rst-class:: classref-item-separator
 
@@ -257,7 +257,7 @@ Called when bone name and index need to be validated such as the timing of the e
 
 :ref:`Skeleton3D<class_Skeleton3D>` **get_skeleton**\ (\ ) |const| :ref:`🔗<class_SkeletonModifier3D_method_get_skeleton>`
 
-Get parent :ref:`Skeleton3D<class_Skeleton3D>` node if found.
+Obtiene el nodo padre :ref:`Skeleton3D<class_Skeleton3D>` si se encuentra.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

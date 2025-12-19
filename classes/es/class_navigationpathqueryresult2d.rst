@@ -108,7 +108,7 @@ Descripciones de Propiedades
 - |void| **set_path**\ (\ value\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ )
 - :ref:`PackedVector2Array<class_PackedVector2Array>` **get_path**\ (\ )
 
-La matriz de ruta resultante de la consulta de navegación. Todas las posiciones de la matriz de ruta están en coordenadas globales. Sin parámetros de consulta personalizados, esta es la misma ruta que la devuelta por :ref:`NavigationServer2D.map_get_path()<class_NavigationServer2D_method_map_get_path>`.
+El array de ruta resultante de la consulta de navegación. Todas las posiciones del array de ruta están en coordenadas globales. Sin parámetros de consulta personalizados, esta es la misma ruta que la devuelta por :ref:`NavigationServer2D.map_get_path()<class_NavigationServer2D_method_map_get_path>`.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector2Array<class_PackedVector2Array>` for more details.
 

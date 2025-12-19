@@ -7,20 +7,20 @@ VisibleOnScreenNotifier3D
 
 **Hérite de :** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisibleOnScreenEnabler3D<class_VisibleOnScreenEnabler3D>`
+**Hérité par :** :ref:`VisibleOnScreenEnabler3D<class_VisibleOnScreenEnabler3D>`
 
-A box-shaped region of 3D space that detects whether it is visible on screen.
+Une région en forme de boîte de l'espace 3D qui détecte s'il est visible à l'écran.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**VisibleOnScreenNotifier3D** represents a box-shaped region of 3D space. When any part of this region becomes visible on screen or in a :ref:`Camera3D<class_Camera3D>`'s view, it will emit a :ref:`screen_entered<class_VisibleOnScreenNotifier3D_signal_screen_entered>` signal, and likewise it will emit a :ref:`screen_exited<class_VisibleOnScreenNotifier3D_signal_screen_exited>` signal when no part of it remains visible.
+**VisibleOnScreenNotifier3D** représente une région en forme de boîte de l'espace 3D. Lorsqu'une partie de cette région devient visible à l'écran ou dans la vue d'une :ref:`Camera3D<class_Camera3D>`, il émettra un signal :ref:`screen_entered<class_VisibleOnScreenNotifier3D_signal_screen_entered>`, et de même il émettra un signal :ref:`screen_exited<class_VisibleOnScreenNotifier3D_signal_screen_exited>` lorsqu'aucune partie de celle-ci n'est visible.
 
-If you want a node to be enabled automatically when this region is visible on screen, use :ref:`VisibleOnScreenEnabler3D<class_VisibleOnScreenEnabler3D>`.
+Si vous voulez qu'un nœud soit activé automatiquement lorsque cette région est visible à l'écran, utilisez :ref:`VisibleOnScreenEnabler3D<class_VisibleOnScreenEnabler3D>`.
 
-\ **Note:** **VisibleOnScreenNotifier3D** uses an approximate heuristic that doesn't take walls and other occlusion into account, unless occlusion culling is used. It also won't function unless :ref:`Node3D.visible<class_Node3D_property_visible>` is set to ``true``.
+\ **Note :** **VisibleOnScreenNotifier3D** utilise une heuristique approximative qui ne prend pas en compte les murs et les autres occlusions, à moins que l'occlusion culling ne soit utilisé. Aussi, elle ne fonctionnera pas à moins que :ref:`Node3D.visible<class_Node3D_property_visible>` ne soit défini à ``true``.
 
 .. rst-class:: classref-reftable-group
 
@@ -61,7 +61,7 @@ Signaux
 
 **screen_entered**\ (\ ) :ref:`🔗<class_VisibleOnScreenNotifier3D_signal_screen_entered>`
 
-Emitted when the **VisibleOnScreenNotifier3D** enters the screen.
+Émis lorsque le **VisibleOnScreenNotifier3D** entre dans l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -73,7 +73,7 @@ Emitted when the **VisibleOnScreenNotifier3D** enters the screen.
 
 **screen_exited**\ (\ ) :ref:`🔗<class_VisibleOnScreenNotifier3D_signal_screen_exited>`
 
-Emitted when the **VisibleOnScreenNotifier3D** exits the screen.
+Émis lorsque le **VisibleOnScreenNotifier3D** quitte l’écran.
 
 .. rst-class:: classref-section-separator
 

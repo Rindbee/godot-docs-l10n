@@ -7,7 +7,7 @@ CollisionObject2D
 
 **Hérite de :** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Area2D<class_Area2D>`, :ref:`PhysicsBody2D<class_PhysicsBody2D>`
+**Hérité par :** :ref:`Area2D<class_Area2D>`, :ref:`PhysicsBody2D<class_PhysicsBody2D>`
 
 Classe de base abstraite pour les objets physiques 2D.
 
@@ -403,7 +403,7 @@ Crée un nouveau propriétaire de forme pour l'objet donné. Renvoie l’\ ``own
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject2D_method_get_collision_layer_value>`
 
-Renvoie si la couche spécifiée du :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` est activée, selon un numéro de couche ``layer_number`` entre 1 et 32 donné.
+Renvoie si la couche spécifiée du :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

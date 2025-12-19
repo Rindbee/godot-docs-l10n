@@ -146,7 +146,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **get_bake_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OccluderInstance3D_method_get_bake_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`bake_mask<class_OccluderInstance3D_property_bake_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`bake_mask<class_OccluderInstance3D_property_bake_mask>` está habilitada, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -158,7 +158,7 @@ Returns whether or not the specified layer of the :ref:`bake_mask<class_Occluder
 
 |void| **set_bake_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_OccluderInstance3D_method_set_bake_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`bake_mask<class_OccluderInstance3D_property_bake_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en el :ref:`bake_mask<class_OccluderInstance3D_property_bake_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

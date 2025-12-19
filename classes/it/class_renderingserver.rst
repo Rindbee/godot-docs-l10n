@@ -6651,7 +6651,7 @@ Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`f
 
 :ref:`Variant<class_Variant>` **canvas_item_get_instance_shader_parameter**\ (\ instance\: :ref:`RID<class_RID>`, parameter\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_RenderingServer_method_canvas_item_get_instance_shader_parameter>`
 
-Returns the value of the per-instance shader uniform from the specified canvas item instance. Equivalent to :ref:`CanvasItem.get_instance_shader_parameter()<class_CanvasItem_method_get_instance_shader_parameter>`.
+Restituisce il valore dell'uniforme shader per istanza dall'elemento canvas specificato. Equivale a :ref:`CanvasItem.get_instance_shader_parameter()<class_CanvasItem_method_get_instance_shader_parameter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6663,7 +6663,7 @@ Returns the value of the per-instance shader uniform from the specified canvas i
 
 :ref:`Variant<class_Variant>` **canvas_item_get_instance_shader_parameter_default_value**\ (\ instance\: :ref:`RID<class_RID>`, parameter\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_RenderingServer_method_canvas_item_get_instance_shader_parameter_default_value>`
 
-Returns the default value of the per-instance shader uniform from the specified canvas item instance. Equivalent to :ref:`CanvasItem.get_instance_shader_parameter()<class_CanvasItem_method_get_instance_shader_parameter>`.
+Restituisce il valore predefinito dell'uniforme shader per istanza dall'elemento canvas specificato. Equivale a :ref:`CanvasItem.get_instance_shader_parameter()<class_CanvasItem_method_get_instance_shader_parameter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6675,9 +6675,9 @@ Returns the default value of the per-instance shader uniform from the specified 
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **canvas_item_get_instance_shader_parameter_list**\ (\ instance\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_RenderingServer_method_canvas_item_get_instance_shader_parameter_list>`
 
-Returns a dictionary of per-instance shader uniform names of the per-instance shader uniform from the specified canvas item instance.
+Restituisce un dizionario di nomi di uniformi shader per istanza dell'uniforme shader per istanza dall'istanza dell'elemento canvas specificato.
 
-The returned dictionary is in PropertyInfo format, with the keys ``name``, ``class_name``, ``type``, ``hint``, ``hint_string``, and ``usage``.
+Il dizionario restituito è in formato PropertyInfo, con le chiavi ``name``, ``class_name``, ``type``, ``hint``, ``hint_string`` e ``usage``.
 
 .. rst-class:: classref-item-separator
 
@@ -6815,7 +6815,7 @@ Imposta l'indice per il :ref:`CanvasItem<class_CanvasItem>`.
 
 |void| **canvas_item_set_instance_shader_parameter**\ (\ instance\: :ref:`RID<class_RID>`, parameter\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_RenderingServer_method_canvas_item_set_instance_shader_parameter>`
 
-Sets the per-instance shader uniform on the specified canvas item instance. Equivalent to :ref:`CanvasItem.set_instance_shader_parameter()<class_CanvasItem_method_set_instance_shader_parameter>`.
+Imposta il valore predefinito dell'uniforme shader per istanza nell'elemento canvas specificato. Equivale a :ref:`CanvasItem.set_instance_shader_parameter()<class_CanvasItem_method_set_instance_shader_parameter>`.
 
 .. rst-class:: classref-item-separator
 

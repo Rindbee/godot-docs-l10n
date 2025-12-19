@@ -125,9 +125,9 @@ Returns the current **Thread**'s ID, uniquely identifying it among all threads. 
 
 :ref:`bool<class_bool>` **is_alive**\ (\ ) |const| :ref:`🔗<class_Thread_method_is_alive>`
 
-Returns ``true`` if this **Thread** is currently running the provided function. This is useful for determining if :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` can be called without blocking the calling thread.
+Renvoie ``true`` si ce **Thread** exécute actuellement la fonction fournie. Ceci est utile pour déterminer si :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` peut être appelée sans bloquer le thread d'appel.
 
-To check if a **Thread** is joinable, use :ref:`is_started()<class_Thread_method_is_started>`.
+Pour vérifier si un **Thread** est joignable, utilisez :ref:`is_started()<class_Thread_method_is_started>`.
 
 .. rst-class:: classref-item-separator
 
@@ -175,13 +175,13 @@ Because of that, there may be cases where the user may want to disable them (``e
 
 :ref:`Error<enum_@GlobalScope_Error>` **start**\ (\ callable\: :ref:`Callable<class_Callable>`, priority\: :ref:`Priority<enum_Thread_Priority>` = 1\ ) :ref:`🔗<class_Thread_method_start>`
 
-Starts a new **Thread** that calls ``callable``.
+Démarre un nouveau **Thread** qui appelle ``callable``.
 
-If the method takes some arguments, you can pass them using :ref:`Callable.bind()<class_Callable_method_bind>`.
+Si la méthode prend des arguments, vous pouvez les passer en utilisant :ref:`Callable.bind()<class_Callable_method_bind>`.
 
-The ``priority`` of the **Thread** can be changed by passing a value from the :ref:`Priority<enum_Thread_Priority>` enum.
+La priorité ``priority`` du **Thread** peut être modifiée en passant une valeur de l’énumération :ref:`Priority<enum_Thread_Priority>`.
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` on failure.
+Renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` lors du succès, ou :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` lors de l'échec.
 
 .. rst-class:: classref-item-separator
 

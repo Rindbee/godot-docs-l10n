@@ -194,7 +194,7 @@ Descripciones de Propiedades
 - |void| **set_text_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_text_alignment**\ (\ )
 
-Text alignment policy for the button's text.
+Política de alineación del texto del botón.
 
 .. rst-class:: classref-item-separator
 
@@ -211,7 +211,7 @@ Text alignment policy for the button's text.
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, the text gets wrapped inside the node's bounding rectangle.
+Si se establece en un valor distinto de :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, el texto se ajusta dentro del rectángulo delimitador del nodo.
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_co
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Flags de recorte de espacio de ajuste automático. Véase :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` y :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` para más información.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES
 - |void| **set_clip_text**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_clip_text**\ (\ )
 
-If ``true``, text that is too large to fit the button is clipped horizontally. If ``false``, the button will always be wide enough to hold the text. The text is not vertically clipped, and the button's height is not affected by this property.
+Si es ``true``, el texto que es demasiado grande para caber en el botón se recorta horizontalmente. Si es ``false``, el botón siempre será lo suficientemente ancho como para contener el texto. El texto no se recorta verticalmente, y la altura del botón no se ve afectada por esta propiedad.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ If ``true``, text that is too large to fit the button is clipped horizontally. I
 - |void| **set_expand_icon**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_expand_icon**\ (\ )
 
-When enabled, the button's icon will expand/shrink to fit the button's size while keeping its aspect. See also :ref:`icon_max_width<class_Button_theme_constant_icon_max_width>`.
+Cuando está activado, el icono del botón se expandirá o encogerá para adaptarse al tamaño del botón, manteniendo su aspecto. Véase también :ref:`icon_max_width<class_Button_theme_constant_icon_max_width>`.
 
 .. rst-class:: classref-item-separator
 
@@ -296,9 +296,9 @@ Los botones planos no muestran decoración.
 - |void| **set_button_icon**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_button_icon**\ (\ )
 
-Button's icon, if text is present the icon will be placed before the text.
+Icono del botón, si hay texto presente, el icono se colocará antes del texto.
 
-To edit margin and spacing of the icon, use :ref:`h_separation<class_Button_theme_constant_h_separation>` theme property and ``content_margin_*`` properties of the used :ref:`StyleBox<class_StyleBox>`\ es.
+Para editar el margen y el espaciado del icono, usa la propiedad del tema :ref:`h_separation<class_Button_theme_constant_h_separation>` y las propiedades ``content_margin_*`` de los :ref:`StyleBox<class_StyleBox>` usados.
 
 .. rst-class:: classref-item-separator
 
@@ -315,7 +315,7 @@ To edit margin and spacing of the icon, use :ref:`h_separation<class_Button_them
 - |void| **set_icon_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_icon_alignment**\ (\ )
 
-Specifies if the icon should be aligned horizontally to the left, right, or center of a button. Uses the same :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` constants as the text alignment. If centered horizontally and vertically, text will draw on top of the icon.
+Especifica si el icono debe estar alineado horizontalmente a la izquierda, a la derecha o al centro de un botón. Utiliza las mismas constantes de :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` que la alineación del texto. Si está centrado horizontal y verticalmente, el texto se dibujará encima del icono.
 
 .. rst-class:: classref-item-separator
 
@@ -332,7 +332,7 @@ Specifies if the icon should be aligned horizontally to the left, right, or cent
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Código de idioma utilizado para los algoritmos de salto de línea y forma del texto, si se deja vacío se utiliza la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -366,7 +366,7 @@ El texto del botón que se mostrará dentro del área del botón.
 - |void| **set_text_direction**\ (\ value\: :ref:`TextDirection<enum_Control_TextDirection>`\ )
 - :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ )
 
-Base text writing direction.
+Dirección base de escritura del texto.
 
 .. rst-class:: classref-item-separator
 
@@ -400,7 +400,7 @@ Sets the clipping behavior when the text exceeds the node's bounding rectangle.
 - |void| **set_vertical_icon_alignment**\ (\ value\: :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>`\ )
 - :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>` **get_vertical_icon_alignment**\ (\ )
 
-Specifies if the icon should be aligned vertically to the top, bottom, or center of a button. Uses the same :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>` constants as the text alignment. If centered horizontally and vertically, text will draw on top of the icon.
+Especifica si el icono debe alinearse verticalmente a la parte superior, inferior o al centro de un botón. Utiliza las mismas constantes de :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>` que la alineación del texto. Si está centrado horizontal y verticalmente, el texto se dibujará encima del icono.
 
 .. rst-class:: classref-section-separator
 
@@ -441,7 +441,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Color<class_Color>` **font_focus_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_Button_theme_color_font_focus_color>`
 
-Text :ref:`Color<class_Color>` used when the **Button** is focused. Only replaces the normal text color of the button. Disabled, hovered, and pressed states take precedence over this color.
+El :ref:`Color<class_Color>` del texto que se usa cuando el **Button** está enfocado. Solo reemplaza el color normal del texto del botón. Los estados desactivado, flotante y presionado tienen prioridad sobre este color.
 
 .. rst-class:: classref-item-separator
 
@@ -465,7 +465,7 @@ Text :ref:`Color<class_Color>` used when the **Button** is focused. Only replace
 
 :ref:`Color<class_Color>` **font_hover_pressed_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Button_theme_color_font_hover_pressed_color>`
 
-Text :ref:`Color<class_Color>` used when the **Button** is being hovered and pressed.
+:ref:`Color<class_Color>` del texto utilizado cuando se está pasando el ratón y pulsando el **Button**.
 
 .. rst-class:: classref-item-separator
 
@@ -477,7 +477,7 @@ Text :ref:`Color<class_Color>` used when the **Button** is being hovered and pre
 
 :ref:`Color<class_Color>` **font_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_Button_theme_color_font_outline_color>`
 
-The tint of text outline of the **Button**.
+El tinte del contorno del texto del **Button**.
 
 .. rst-class:: classref-item-separator
 
@@ -501,7 +501,7 @@ The tint of text outline of the **Button**.
 
 :ref:`Color<class_Color>` **icon_disabled_color** = ``Color(1, 1, 1, 0.4)`` :ref:`🔗<class_Button_theme_color_icon_disabled_color>`
 
-Icon modulate :ref:`Color<class_Color>` used when the **Button** is disabled.
+:ref:`Color<class_Color>` de modulación del icono que se usa cuando el **Button** está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -513,7 +513,7 @@ Icon modulate :ref:`Color<class_Color>` used when the **Button** is disabled.
 
 :ref:`Color<class_Color>` **icon_focus_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Button_theme_color_icon_focus_color>`
 
-Icon modulate :ref:`Color<class_Color>` used when the **Button** is focused. Only replaces the normal modulate color of the button. Disabled, hovered, and pressed states take precedence over this color.
+:ref:`Color<class_Color>` de modulación del icono que se usa cuando el **Button** está enfocado. Solo reemplaza el color de modulación normal del botón. Los estados desactivado, flotante y presionado tienen prioridad sobre este color.
 
 .. rst-class:: classref-item-separator
 
@@ -525,7 +525,7 @@ Icon modulate :ref:`Color<class_Color>` used when the **Button** is focused. Onl
 
 :ref:`Color<class_Color>` **icon_hover_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Button_theme_color_icon_hover_color>`
 
-Icon modulate :ref:`Color<class_Color>` used when the **Button** is being hovered.
+:ref:`Color<class_Color>` de modulación del icono que se usa cuando se está pasando el ratón por encima del **Button**.
 
 .. rst-class:: classref-item-separator
 
@@ -537,7 +537,7 @@ Icon modulate :ref:`Color<class_Color>` used when the **Button** is being hovere
 
 :ref:`Color<class_Color>` **icon_hover_pressed_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Button_theme_color_icon_hover_pressed_color>`
 
-Icon modulate :ref:`Color<class_Color>` used when the **Button** is being hovered and pressed.
+:ref:`Color<class_Color>` de modulación del icono que se usa cuando se está pasando el ratón por encima del **Button** y se está pulsando.
 
 .. rst-class:: classref-item-separator
 
@@ -549,7 +549,7 @@ Icon modulate :ref:`Color<class_Color>` used when the **Button** is being hovere
 
 :ref:`Color<class_Color>` **icon_normal_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Button_theme_color_icon_normal_color>`
 
-Default icon modulate :ref:`Color<class_Color>` of the **Button**.
+:ref:`Color<class_Color>` de modulación del icono predeterminado del **Button**.
 
 .. rst-class:: classref-item-separator
 
@@ -561,7 +561,7 @@ Default icon modulate :ref:`Color<class_Color>` of the **Button**.
 
 :ref:`Color<class_Color>` **icon_pressed_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_Button_theme_color_icon_pressed_color>`
 
-Icon modulate :ref:`Color<class_Color>` used when the **Button** is being pressed.
+:ref:`Color<class_Color>` de modulación del icono usado cuando se está pulsando el **Button**.
 
 .. rst-class:: classref-item-separator
 
@@ -585,7 +585,7 @@ This constant acts as a boolean. If ``true``, the minimum size of the button and
 
 :ref:`int<class_int>` **h_separation** = ``4`` :ref:`🔗<class_Button_theme_constant_h_separation>`
 
-The horizontal space between **Button**'s icon and text. Negative values will be treated as ``0`` when used.
+El espacio horizontal entre el icono y el texto del **Button**. Los valores negativos se tratarán como ``0`` cuando se utilicen.
 
 .. rst-class:: classref-item-separator
 
@@ -659,7 +659,7 @@ Tamaño de fuente del texto del **Button**.
 
 :ref:`Texture2D<class_Texture2D>` **icon** :ref:`🔗<class_Button_theme_icon_icon>`
 
-Default icon for the **Button**. Appears only if :ref:`icon<class_Button_property_icon>` is not assigned.
+Icono predeterminado para el **Button**. Aparece solo si :ref:`icon<class_Button_property_icon>` no está asignado.
 
 .. rst-class:: classref-item-separator
 
@@ -683,7 +683,7 @@ Default icon for the **Button**. Appears only if :ref:`icon<class_Button_propert
 
 :ref:`StyleBox<class_StyleBox>` **disabled_mirrored** :ref:`🔗<class_Button_theme_style_disabled_mirrored>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **Button** is disabled (for right-to-left layouts).
+:ref:`StyleBox<class_StyleBox>` usado cuando el **Button** está desactivado (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 
@@ -719,7 +719,7 @@ Default icon for the **Button**. Appears only if :ref:`icon<class_Button_propert
 
 :ref:`StyleBox<class_StyleBox>` **hover_mirrored** :ref:`🔗<class_Button_theme_style_hover_mirrored>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **Button** is being hovered (for right-to-left layouts).
+:ref:`StyleBox<class_StyleBox>` utilizado cuando el puntero está sobre el **Button** (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 
@@ -731,7 +731,7 @@ Default icon for the **Button**. Appears only if :ref:`icon<class_Button_propert
 
 :ref:`StyleBox<class_StyleBox>` **hover_pressed** :ref:`🔗<class_Button_theme_style_hover_pressed>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **Button** is being pressed and hovered at the same time.
+:ref:`StyleBox<class_StyleBox>` utilizado cuando se está pulsando el **Button** y el puntero está encima a la vez.
 
 .. rst-class:: classref-item-separator
 
@@ -743,7 +743,7 @@ Default icon for the **Button**. Appears only if :ref:`icon<class_Button_propert
 
 :ref:`StyleBox<class_StyleBox>` **hover_pressed_mirrored** :ref:`🔗<class_Button_theme_style_hover_pressed_mirrored>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **Button** is being pressed and hovered at the same time (for right-to-left layouts).
+:ref:`StyleBox<class_StyleBox>` utilizado cuando se está pulsando el **Button** y el puntero está encima a la vez (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 
@@ -767,7 +767,7 @@ Default icon for the **Button**. Appears only if :ref:`icon<class_Button_propert
 
 :ref:`StyleBox<class_StyleBox>` **normal_mirrored** :ref:`🔗<class_Button_theme_style_normal_mirrored>`
 
-Default :ref:`StyleBox<class_StyleBox>` for the **Button** (for right-to-left layouts).
+El :ref:`StyleBox<class_StyleBox>` predeterminado para el **Button** (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 

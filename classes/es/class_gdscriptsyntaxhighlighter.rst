@@ -7,7 +7,7 @@ GDScriptSyntaxHighlighter
 
 **Hereda:** :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` **<** :ref:`SyntaxHighlighter<class_SyntaxHighlighter>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A GDScript syntax highlighter that can be used with :ref:`TextEdit<class_TextEdit>` and :ref:`CodeEdit<class_CodeEdit>` nodes.
+Un resaltador de sintaxis de GDScript que se puede usar con nodos :ref:`TextEdit<class_TextEdit>` y :ref:`CodeEdit<class_CodeEdit>`.
 
 .. rst-class:: classref-introduction-group
 

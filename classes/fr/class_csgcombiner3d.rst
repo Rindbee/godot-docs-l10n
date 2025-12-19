@@ -14,7 +14,7 @@ Un nœud CSG qui permet de combiner plusieurs modificateurs CSG.
 Description
 -----------
 
-Pour des arrangements complexes de formes, il est parfois nécessaire d'ajouter une structure à vos nœuds CSG. Le nœud CSGCombiner3D vous permet de créer cette structure. Le nœud encapsule le résultat des opérations CSG de ses enfants. De cette façon, il est possible de faire des opérations sur un ensemble de formes qui sont enfants d'un nœud CSGCombiner3D, et un ensemble d'opérations séparées sur un deuxième ensemble de formes qui sont enfants d'un deuxième noeud CSGCombiner3D, et ensuite faire une opération qui prend les deux résultats finaux comme entrée pour créer la forme finale.
+Pour des arrangements complexes de formes, il est parfois nécessaire d'ajouter une structure à vos nœuds CSG. Le nœud CSGCombiner3D vous permet de créer cette structure. Le nœud encapsule le résultat des opérations CSG de ses enfants. De cette façon, il est possible de faire des opérations sur un ensemble de formes qui sont enfants d'un nœud CSGCombiner3D, et un ensemble d'opérations séparées sur un deuxième ensemble de formes qui sont enfants d'un deuxième nœud CSGCombiner3D, et ensuite faire une opération qui prend les deux résultats finaux comme entrée pour créer la forme finale.
 
 \ **Note : ** Les nœuds CSG sont destinés à être utilisés pour le prototypage de niveau. Créer des nœuds CSG a un coût CPU important comparé à la création d'un :ref:`MeshInstance3D<class_MeshInstance3D>` avec un :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Déplacer un nœud CSG dans un autre nœud CSG a également un coût CPU important, ceci devrait donc être évité pendant le gameplay.
 

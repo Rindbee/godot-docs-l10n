@@ -330,7 +330,7 @@ Devuelve ``true`` si existe un dominio de traducción con el nombre especificado
 
 :ref:`StringName<class_StringName>` **pseudolocalize**\ (\ message\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_TranslationServer_method_pseudolocalize>`
 
-Devuelve la cadena pseudolocalizada basada en el ``message`` pasado.
+Devuelve la string pseudolocalizada basada en el ``message`` pasado.
 
 \ **Nota:** Este método siempre utiliza el dominio de traducción principal.
 
@@ -382,7 +382,7 @@ Elimina la traducción dada del dominio de traducción principal.
 
 |void| **set_locale**\ (\ locale\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TranslationServer_method_set_locale>`
 
-Establece la configuración regional del proyecto. La cadena ``locale`` se estandarizará para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``).
+Establece la configuración regional del proyecto. La string ``locale`` se estandarizará para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``).
 
 Si se han cargado traducciones de antemano para la nueva configuración regional, se aplicarán.
 
@@ -396,7 +396,7 @@ Si se han cargado traducciones de antemano para la nueva configuración regional
 
 :ref:`String<class_String>` **standardize_locale**\ (\ locale\: :ref:`String<class_String>`, add_defaults\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_TranslationServer_method_standardize_locale>`
 
-Devuelve una cadena ``locale`` estandarizada para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``). Si ``add_defaults`` es ``true``, es posible que se añada un script o un país por defecto a la configuración regional.
+Devuelve una string ``locale`` estandarizada para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``). Si ``add_defaults`` es ``true``, es posible que se añada un script o un país por defecto a la configuración regional.
 
 .. rst-class:: classref-item-separator
 

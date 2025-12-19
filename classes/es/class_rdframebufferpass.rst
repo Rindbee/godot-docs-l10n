@@ -55,7 +55,7 @@ Constantes
 
 **ATTACHMENT_UNUSED** = ``-1`` :ref:`🔗<class_RDFramebufferPass_constant_ATTACHMENT_UNUSED>`
 
-Attachment is unused.
+El adjunto no se utiliza.
 
 .. rst-class:: classref-section-separator
 
@@ -77,7 +77,7 @@ Descripciones de Propiedades
 - |void| **set_color_attachments**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_color_attachments**\ (\ )
 
-Color attachments in order starting from 0. If this attachment is not used by the shader, pass ATTACHMENT_UNUSED to skip.
+Adjuntos de color en orden a partir de 0. Si este adjunto no es utilizado por el shader, pasa ATTACHMENT_UNUSED para omitir.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 
@@ -96,7 +96,7 @@ Color attachments in order starting from 0. If this attachment is not used by th
 - |void| **set_depth_attachment**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_depth_attachment**\ (\ )
 
-Depth attachment. ATTACHMENT_UNUSED should be used if no depth buffer is required for this pass.
+Adjunto de profundidad. ATTACHMENT_UNUSED debe ser usado si no se requiere ningún búfer de profundidad para este pase.
 
 .. rst-class:: classref-item-separator
 
@@ -113,7 +113,7 @@ Depth attachment. ATTACHMENT_UNUSED should be used if no depth buffer is require
 - |void| **set_input_attachments**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_input_attachments**\ (\ )
 
-Used for multipass framebuffers (more than one render pass). Converts an attachment to an input. Make sure to also supply it properly in the :ref:`RDUniform<class_RDUniform>` for the uniform set.
+Utilizado para búferes de fotogramas multipase (más de un pase de renderizado). Convierte un adjunto en una entrada. Asegúrate de suministrarlo también correctamente en el :ref:`RDUniform<class_RDUniform>` para el conjunto uniforme.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 
@@ -132,7 +132,7 @@ Used for multipass framebuffers (more than one render pass). Converts an attachm
 - |void| **set_preserve_attachments**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_preserve_attachments**\ (\ )
 
-Attachments to preserve in this pass (otherwise they are erased).
+Adjuntos a preservar en este pase (de lo contrario, se borran).
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 

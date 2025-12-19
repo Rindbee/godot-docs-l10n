@@ -1945,23 +1945,23 @@ Color
 
  .. code-tab:: gdscript
 
-    Color.html_is_valid("#55aaFF")   # Returns true
-    Color.html_is_valid("#55AAFF20") # Returns true
-    Color.html_is_valid("55AAFF")    # Returns true
-    Color.html_is_valid("#F2C")      # Returns true
+    Color.html_is_valid("#55aaFF")   # Возвращает true
+    Color.html_is_valid("#55AAFF20") # Возвращает true
+    Color.html_is_valid("55AAFF")    # Возвращает true
+    Color.html_is_valid("#F2C")      # Возвращает true
 
-    Color.html_is_valid("#AABBC")    # Returns false
-    Color.html_is_valid("#55aaFF5")  # Returns false
+    Color.html_is_valid("#AABBC")    # Возвращает false
+    Color.html_is_valid("#55aaFF5")  # Возвращает false
 
  .. code-tab:: csharp
 
-    Color.HtmlIsValid("#55AAFF");   // Returns true
-    Color.HtmlIsValid("#55AAFF20"); // Returns true
-    Color.HtmlIsValid("55AAFF");    // Returns true
-    Color.HtmlIsValid("#F2C");      // Returns true
+    Color.HtmlIsValid("#55AAFF");   // Возвращает true
+    Color.HtmlIsValid("#55AAFF20"); // Возвращает true
+    Color.HtmlIsValid("55AAFF");    // Возвращает true
+    Color.HtmlIsValid("#F2C");      // Возвращает true
 
-    Color.HtmlIsValid("#AABBC");    // Returns false
-    Color.HtmlIsValid("#55aaFF5");  // Returns false
+    Color.HtmlIsValid("#AABBC");    // Возвращает false
+    Color.HtmlIsValid("#55aaFF5");  // Возвращает false
 
 
 
@@ -2026,18 +2026,18 @@ Color
     var red = Color(1.0, 0.0, 0.0)
     var aqua = Color(0.0, 1.0, 0.8)
 
-    red.lerp(aqua, 0.2) # Returns Color(0.8, 0.2, 0.16)
-    red.lerp(aqua, 0.5) # Returns Color(0.5, 0.5, 0.4)
-    red.lerp(aqua, 1.0) # Returns Color(0.0, 1.0, 0.8)
+    red.lerp(aqua, 0.2) # Вернет Color(0.8, 0.2, 0.16)
+    red.lerp(aqua, 0.5) # Вернет Color(0.5, 0.5, 0.4)
+    red.lerp(aqua, 1.0) # Вернет Color(0.0, 1.0, 0.8)
 
  .. code-tab:: csharp
 
     var red = new Color(1.0f, 0.0f, 0.0f);
     var aqua = new Color(0.0f, 1.0f, 0.8f);
 
-    red.Lerp(aqua, 0.2f); // Returns Color(0.8f, 0.2f, 0.16f)
-    red.Lerp(aqua, 0.5f); // Returns Color(0.5f, 0.5f, 0.4f)
-    red.Lerp(aqua, 1.0f); // Returns Color(0.0f, 1.0f, 0.8f)
+    red.Lerp(aqua, 0.2f); // Вернет Color(0.8f, 0.2f, 0.16f)
+    red.Lerp(aqua, 0.5f); // Вернет Color(0.5f, 0.5f, 0.4f)
+    red.Lerp(aqua, 1.0f); // Вернет Color(0.0f, 1.0f, 0.8f)
 
 
 
@@ -2114,12 +2114,12 @@ Color
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_abgr32()) # Prints 4281565439
+    print(color.to_abgr32()) # Вернет 4281565439
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToAbgr32()); // Prints 4281565439
+    GD.Print(color.ToAbgr32()); // Вернет 4281565439
 
 
 
@@ -2141,12 +2141,12 @@ Color
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_abgr64()) # Prints -225178692812801
+    print(color.to_abgr64()) # Вернет -225178692812801
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToAbgr64()); // Prints -225178692812801
+    GD.Print(color.ToAbgr64()); // Вернет -225178692812801
 
 
 
@@ -2168,12 +2168,12 @@ Color
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_argb32()) # Prints 4294934323
+    print(color.to_argb32()) # Вернет 4294934323
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToArgb32()); // Prints 4294934323
+    GD.Print(color.ToArgb32()); // Вернет 4294934323
 
 
 
@@ -2195,12 +2195,12 @@ Color
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_argb64()) # Prints -2147470541
+    print(color.to_argb64()) # Вернет -2147470541
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToArgb64()); // Prints -2147470541
+    GD.Print(color.ToArgb64()); // Вернет -2147470541
 
 
 
@@ -2224,14 +2224,14 @@ Color
  .. code-tab:: gdscript
 
     var white = Color(1, 1, 1, 0.5)
-    var with_alpha = white.to_html() # Returns "ffffff7f"
-    var without_alpha = white.to_html(false) # Returns "ffffff"
+    var with_alpha = white.to_html() # Вернет "ffffff7f"
+    var without_alpha = white.to_html(false) # Вернет "ffffff"
 
  .. code-tab:: csharp
 
     var white = new Color(1, 1, 1, 0.5f);
-    string withAlpha = white.ToHtml(); // Returns "ffffff7f"
-    string withoutAlpha = white.ToHtml(false); // Returns "ffffff"
+    string withAlpha = white.ToHtml(); // Вернет "ffffff7f"
+    string withoutAlpha = white.ToHtml(false); // Вернет "ffffff"
 
 
 
@@ -2253,12 +2253,12 @@ Color
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_rgba32()) # Prints 4286526463
+    print(color.to_rgba32()) # Вернет 4286526463
 
  .. code-tab:: csharp
 
     var color = new Color(1, 0.5f, 0.2f);
-    GD.Print(color.ToRgba32()); // Prints 4286526463
+    GD.Print(color.ToRgba32()); // Вернет 4286526463
 
 
 
@@ -2280,12 +2280,12 @@ Color
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_rgba64()) # Prints -140736629309441
+    print(color.to_rgba64()) # Вернет -140736629309441
 
  .. code-tab:: csharp
 
     var color = new Color(1, 0.5f, 0.2f);
-    GD.Print(color.ToRgba64()); // Prints -140736629309441
+    GD.Print(color.ToRgba64()); // Вернет -140736629309441
 
 
 

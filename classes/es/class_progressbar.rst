@@ -7,14 +7,14 @@ ProgressBar
 
 **Hereda:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A control used for visual representation of a percentage.
+Un control utilizado para la representación visual de un porcentaje.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A control used for visual representation of a percentage. Shows the fill percentage in the center. Can also be used to show indeterminate progress. For more fill modes, use :ref:`TextureProgressBar<class_TextureProgressBar>` instead.
+Un control utilizado para la representación visual de un porcentaje. Muestra el porcentaje de relleno en el centro. También se puede utilizar para mostrar el progreso indeterminado. Para más modos de relleno, utiliza :ref:`TextureProgressBar<class_TextureProgressBar>` en su lugar.
 
 .. rst-class:: classref-reftable-group
 
@@ -79,7 +79,7 @@ enum **FillMode**: :ref:`🔗<enum_ProgressBar_FillMode>`
 
 :ref:`FillMode<enum_ProgressBar_FillMode>` **FILL_BEGIN_TO_END** = ``0``
 
-The progress bar fills from begin to end horizontally, according to the language direction. If :ref:`Control.is_layout_rtl()<class_Control_method_is_layout_rtl>` returns ``false``, it fills from left to right, and if it returns ``true``, it fills from right to left.
+La barra de progreso se llena de principio a fin horizontalmente, según la dirección del idioma. Si :ref:`Control.is_layout_rtl()<class_Control_method_is_layout_rtl>` devuelve ``false``, se llena de izquierda a derecha, y si devuelve ``true``, se llena de derecha a izquierda.
 
 .. _class_ProgressBar_constant_FILL_END_TO_BEGIN:
 
@@ -87,7 +87,7 @@ The progress bar fills from begin to end horizontally, according to the language
 
 :ref:`FillMode<enum_ProgressBar_FillMode>` **FILL_END_TO_BEGIN** = ``1``
 
-The progress bar fills from end to begin horizontally, according to the language direction. If :ref:`Control.is_layout_rtl()<class_Control_method_is_layout_rtl>` returns ``false``, it fills from right to left, and if it returns ``true``, it fills from left to right.
+La barra de progreso se llena de fin a principio horizontalmente, según la dirección del idioma. Si :ref:`Control.is_layout_rtl()<class_Control_method_is_layout_rtl>` devuelve ``false``, se llena de derecha a izquierda, y si devuelve ``true``, se llena de izquierda a derecha.
 
 .. _class_ProgressBar_constant_FILL_TOP_TO_BOTTOM:
 
@@ -125,7 +125,7 @@ Descripciones de Propiedades
 - |void| **set_editor_preview_indeterminate**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editor_preview_indeterminate_enabled**\ (\ )
 
-If ``false``, the :ref:`indeterminate<class_ProgressBar_property_indeterminate>` animation will be paused in the editor.
+Si es ``false``, la animación :ref:`indeterminate<class_ProgressBar_property_indeterminate>` se pausará en el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ La dirección de llenado. Véase :ref:`FillMode<enum_ProgressBar_FillMode>` para
 - |void| **set_indeterminate**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_indeterminate**\ (\ )
 
-When set to ``true``, the progress bar indicates that something is happening with an animation, but does not show the fill percentage or value.
+Cuando se establece en ``true``, la barra de progreso indica que algo está sucediendo con una animación, pero no muestra el porcentaje o valor de relleno.
 
 .. rst-class:: classref-item-separator
 

@@ -288,7 +288,7 @@ Signaux
 
 **editing_toggled**\ (\ toggled_on\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_LineEdit_signal_editing_toggled>`
 
-Emitted when the **LineEdit** switches in or out of edit mode.
+Émis lorsque le **LineEdit** rentre ou sort du mode édition.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Emitted when the **LineEdit** switches in or out of edit mode.
 
 **text_change_rejected**\ (\ rejected_substring\: :ref:`String<class_String>`\ ) :ref:`🔗<class_LineEdit_signal_text_change_rejected>`
 
-Emitted when appending text that overflows the :ref:`max_length<class_LineEdit_property_max_length>`. The appended text is truncated to fit :ref:`max_length<class_LineEdit_property_max_length>`, and the part that couldn't fit is passed as the ``rejected_substring`` argument.
+Émis lors de l'ajout de texte qui dépasse :ref:`max_length<class_LineEdit_property_max_length>`. Le texte ajouté est tronqué pour s'adapter à :ref:`max_length<class_LineEdit_property_max_length>`, et la partie qui ne pouvait pas rentrer est passée dans l'argument ``rejected_substring``.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Emitted when appending text that overflows the :ref:`max_length<class_LineEdit_p
 
 **text_submitted**\ (\ new_text\: :ref:`String<class_String>`\ ) :ref:`🔗<class_LineEdit_signal_text_submitted>`
 
-Emitted when the user presses the ``ui_text_submit`` action (by default: :kbd:`Enter` or :kbd:`Kp Enter`) while the **LineEdit** has focus.
+Émis lorsque l'utilisateur appuie sur l'action ``ui_text_submit`` (par défaut : :kbd:`Entée` or :kbd:`Entrée pavé numérique`) lorsque le **LineEdit** a le focus.
 
 .. rst-class:: classref-section-separator
 
@@ -363,9 +363,9 @@ Copie le texte sélectionné.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_PASTE** = ``2``
 
-Pastes the clipboard text over the selected text (or at the caret's position).
+Colle le texte du presse-papiers sur le texte sélectionné (ou à la position du caret).
 
-Non-printable escape characters are automatically stripped from the OS clipboard via :ref:`String.strip_escapes()<class_String_method_strip_escapes>`.
+Les caractères d'échappement non imprimables sont automatiquement retirés du presse-papiers du système via :ref:`String.strip_escapes()<class_String_method_strip_escapes>`.
 
 .. _class_LineEdit_constant_MENU_CLEAR:
 
@@ -405,7 +405,7 @@ Inverser la dernière action d'annulation.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_SUBMENU_TEXT_DIR** = ``7``
 
-ID of "Text Writing Direction" submenu.
+ID du sous-menu "Direction d'écriture du texte".
 
 .. _class_LineEdit_constant_MENU_DIR_INHERITED:
 
@@ -445,7 +445,7 @@ Définit la direction du texte à "droite à gauche".
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_DISPLAY_UCC** = ``12``
 
-Toggles control character display.
+Active/désactive l'affichage des caractères de contrôle.
 
 .. _class_LineEdit_constant_MENU_SUBMENU_INSERT_UCC:
 
@@ -453,7 +453,7 @@ Toggles control character display.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_SUBMENU_INSERT_UCC** = ``13``
 
-ID of "Insert Control Character" submenu.
+ID du sous-menu "Insérer caractère de contrôle".
 
 .. _class_LineEdit_constant_MENU_INSERT_LRM:
 
@@ -461,7 +461,7 @@ ID of "Insert Control Character" submenu.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_LRM** = ``14``
 
-Inserts left-to-right mark (LRM) character.
+Insère un caractère marque gauche-à-droite (Left-to-Right Mark).
 
 .. _class_LineEdit_constant_MENU_INSERT_RLM:
 
@@ -469,7 +469,7 @@ Inserts left-to-right mark (LRM) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_RLM** = ``15``
 
-Inserts right-to-left mark (RLM) character.
+Insère un caractère marque droite-à-gauche (Right-to-Left Mark).
 
 .. _class_LineEdit_constant_MENU_INSERT_LRE:
 
@@ -477,7 +477,7 @@ Inserts right-to-left mark (RLM) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_LRE** = ``16``
 
-Inserts start of left-to-right embedding (LRE) character.
+Insère un caractère enchâssement gauche-à-droite (Left-to-Right Embedding).
 
 .. _class_LineEdit_constant_MENU_INSERT_RLE:
 
@@ -485,7 +485,7 @@ Inserts start of left-to-right embedding (LRE) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_RLE** = ``17``
 
-Inserts start of right-to-left embedding (RLE) character.
+Insère un caractère enchâssement droite-à-gauche (Right-to-Left Embedding).
 
 .. _class_LineEdit_constant_MENU_INSERT_LRO:
 
@@ -493,7 +493,7 @@ Inserts start of right-to-left embedding (RLE) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_LRO** = ``18``
 
-Inserts start of left-to-right override (LRO) character.
+Insère un caractère forçage gauche-à-droite (Left-to-Right Override).
 
 .. _class_LineEdit_constant_MENU_INSERT_RLO:
 
@@ -501,7 +501,7 @@ Inserts start of left-to-right override (LRO) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_RLO** = ``19``
 
-Inserts start of right-to-left override (RLO) character.
+Insère un caractère forçage droite-à-gauche (Right-to-Left Override).
 
 .. _class_LineEdit_constant_MENU_INSERT_PDF:
 
@@ -509,7 +509,7 @@ Inserts start of right-to-left override (RLO) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_PDF** = ``20``
 
-Inserts pop direction formatting (PDF) character.
+Insère un caractère dépilement de formatage conditionnel (Pop Direction Formatting).
 
 .. _class_LineEdit_constant_MENU_INSERT_ALM:
 
@@ -517,7 +517,7 @@ Inserts pop direction formatting (PDF) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_ALM** = ``21``
 
-Inserts Arabic letter mark (ALM) character.
+Insère un caractère marque de lettre arabe (Arabic Letter Mark).
 
 .. _class_LineEdit_constant_MENU_INSERT_LRI:
 
@@ -525,7 +525,7 @@ Inserts Arabic letter mark (ALM) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_LRI** = ``22``
 
-Inserts left-to-right isolate (LRI) character.
+Insère un caractère isolat de gauche-à-droite (Left-to-Right Isolate).
 
 .. _class_LineEdit_constant_MENU_INSERT_RLI:
 
@@ -533,7 +533,7 @@ Inserts left-to-right isolate (LRI) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_RLI** = ``23``
 
-Inserts right-to-left isolate (RLI) character.
+Insère un caractère isolat de droite-à-gauche (Right-to-Left Isolate).
 
 .. _class_LineEdit_constant_MENU_INSERT_FSI:
 
@@ -541,7 +541,7 @@ Inserts right-to-left isolate (RLI) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_FSI** = ``24``
 
-Inserts first strong isolate (FSI) character.
+Insère un caractère isolat à direction indéterminée (First Strong Isolate).
 
 .. _class_LineEdit_constant_MENU_INSERT_PDI:
 
@@ -549,7 +549,7 @@ Inserts first strong isolate (FSI) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_PDI** = ``25``
 
-Inserts pop direction isolate (PDI) character.
+Insère un caractère dépilement d'isolat directionnel (Pop Direction Isolate).
 
 .. _class_LineEdit_constant_MENU_INSERT_ZWJ:
 
@@ -557,7 +557,7 @@ Inserts pop direction isolate (PDI) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_ZWJ** = ``26``
 
-Inserts zero width joiner (ZWJ) character.
+Ajoute un caractère liant sans chasse (Zero Width Joiner).
 
 .. _class_LineEdit_constant_MENU_INSERT_ZWNJ:
 
@@ -565,7 +565,7 @@ Inserts zero width joiner (ZWJ) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_ZWNJ** = ``27``
 
-Inserts zero width non-joiner (ZWNJ) character.
+Insère un caractère antiliant sans chasse (Zero Width Non-Joiner).
 
 .. _class_LineEdit_constant_MENU_INSERT_WJ:
 
@@ -573,7 +573,7 @@ Inserts zero width non-joiner (ZWNJ) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_WJ** = ``28``
 
-Inserts word joiner (WJ) character.
+Insère un caractère gluon de mots (Word Joiner).
 
 .. _class_LineEdit_constant_MENU_INSERT_SHY:
 
@@ -581,7 +581,7 @@ Inserts word joiner (WJ) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_SHY** = ``29``
 
-Inserts soft hyphen (SHY) character.
+Insère un caractère trait d’union conditionnel (Soft HYphen).
 
 .. _class_LineEdit_constant_MENU_EMOJI_AND_SYMBOL:
 
@@ -589,7 +589,7 @@ Inserts soft hyphen (SHY) character.
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_EMOJI_AND_SYMBOL** = ``30``
 
-Opens system emoji and symbol picker.
+Ouvre le sélecteur d'émojis et de symboles du système.
 
 .. _class_LineEdit_constant_MENU_MAX:
 
@@ -631,7 +631,7 @@ Clavier virtuel multiligne.
 
 :ref:`VirtualKeyboardType<enum_LineEdit_VirtualKeyboardType>` **KEYBOARD_TYPE_NUMBER** = ``2``
 
-Virtual number keypad, useful for PIN entry.
+Pavé numérique virtuel, utile pour l'entrée d'un PIN.
 
 .. _class_LineEdit_constant_KEYBOARD_TYPE_NUMBER_DECIMAL:
 
@@ -663,9 +663,9 @@ Clavier virtuel avec des touches supplémentaires pour aider à taper les adress
 
 :ref:`VirtualKeyboardType<enum_LineEdit_VirtualKeyboardType>` **KEYBOARD_TYPE_PASSWORD** = ``6``
 
-Virtual keyboard for entering a password. On most platforms, this should disable autocomplete and autocapitalization.
+Clavier virtuel pour entrer un mot de passe. Sur la plupart des plateformes, cela devrait désactiver l'autocomplétion et l'autocapitalisation.
 
-\ **Note:** This is not supported on Web. Instead, this behaves identically to :ref:`KEYBOARD_TYPE_DEFAULT<class_LineEdit_constant_KEYBOARD_TYPE_DEFAULT>`.
+\ **Note :** Ceci n'est pas supporté sur le Web. À la place, ceci se comporte de manière identique à :ref:`KEYBOARD_TYPE_DEFAULT<class_LineEdit_constant_KEYBOARD_TYPE_DEFAULT>`.
 
 .. _class_LineEdit_constant_KEYBOARD_TYPE_URL:
 
@@ -673,7 +673,7 @@ Virtual keyboard for entering a password. On most platforms, this should disable
 
 :ref:`VirtualKeyboardType<enum_LineEdit_VirtualKeyboardType>` **KEYBOARD_TYPE_URL** = ``7``
 
-Virtual keyboard with additional keys to assist with typing URLs.
+Clavier virtuel avec des touches supplémentaires pour aider à taper des URLs.
 
 .. rst-class:: classref-section-separator
 
@@ -695,7 +695,7 @@ Descriptions des propriétés
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Text alignment as defined in the :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` enum.
+Alignement du texte tel que défini dans l'énumération :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`.
 
 .. rst-class:: classref-item-separator
 
@@ -712,7 +712,7 @@ Text alignment as defined in the :ref:`HorizontalAlignment<enum_@GlobalScope_Hor
 - |void| **set_backspace_deletes_composite_character_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_backspace_deletes_composite_character_enabled**\ (\ )
 
-If ``true`` and :ref:`caret_mid_grapheme<class_LineEdit_property_caret_mid_grapheme>` is ``false``, backspace deletes an entire composite character such as ❤️‍🩹, instead of deleting part of the composite character.
+Si ``true`` et :ref:`caret_mid_grapheme<class_LineEdit_property_caret_mid_grapheme>` vaut ``false``, le retour arrière supprime un caractère composite tel que ❤️‍🩹 en entier, au lieu de ne supprimer qu'une partie du caractère composite.
 
 .. rst-class:: classref-item-separator
 
@@ -746,7 +746,7 @@ Si ``true``, fait clignoter le curseur.
 - |void| **set_caret_blink_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_caret_blink_interval**\ (\ )
 
-The interval at which the caret blinks (in seconds).
+L'intervalle auquel le curseur clignote (en secondes).
 
 .. rst-class:: classref-item-separator
 
@@ -780,7 +780,7 @@ The caret's column position inside the **LineEdit**. When set, the text may scro
 - |void| **set_caret_force_displayed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_caret_force_displayed**\ (\ )
 
-If ``true``, the **LineEdit** will always show the caret, even if not editing or focus is lost.
+Si ``true``, le **LineEdit** affichera toujours le curseur, même s'il n'est pas en cours d'édition ou si le focus est perdu.
 
 .. rst-class:: classref-item-separator
 
@@ -797,9 +797,9 @@ If ``true``, the **LineEdit** will always show the caret, even if not editing or
 - |void| **set_caret_mid_grapheme_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_caret_mid_grapheme_enabled**\ (\ )
 
-Allow moving caret, selecting and removing the individual composite character components.
+Permet de déplacer le curseur, de sélectionner et de supprimer les composantes individuelles de caractères composites.
 
-\ **Note:** :kbd:`Backspace` is always removing individual composite character components.
+\ **Note :** :kbd:`Retour arrière` supprime toujours les composantes individuelles de caractères composites.
 
 .. rst-class:: classref-item-separator
 
@@ -816,7 +816,7 @@ Allow moving caret, selecting and removing the individual composite character co
 - |void| **set_clear_button_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_clear_button_enabled**\ (\ )
 
-If ``true``, the **LineEdit** will show a clear button if :ref:`text<class_LineEdit_property_text>` is not empty, which can be used to clear the text quickly.
+Si ``true``, le **LineEdit** affichera un bouton effacer si le :ref:`text<class_LineEdit_property_text>` n'est pas vide, ce qui permet d'effacer rapidement le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -918,7 +918,7 @@ Si ``false``, le texte existant ne peut être modifié et du nouveau texte ne pe
 - |void| **set_emoji_menu_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_emoji_menu_enabled**\ (\ )
 
-If ``true``, "Emoji and Symbols" menu is enabled.
+Si ``true``, le menu "Émojis et Symboles" est activé.
 
 .. rst-class:: classref-item-separator
 
@@ -952,7 +952,7 @@ Si ``true``, la largeur du **LineEdit** augmentera pour rester plus longue que l
 - |void| **set_flat**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_flat**\ (\ )
 
-If ``true``, the **LineEdit** doesn't display decoration.
+Si ``true``, le **LineEdit** n'affiche pas de décoration.
 
 .. rst-class:: classref-item-separator
 
@@ -969,7 +969,7 @@ If ``true``, the **LineEdit** doesn't display decoration.
 - |void| **set_keep_editing_on_text_submit**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_kept_on_text_submit**\ (\ )
 
-If ``true``, the **LineEdit** will not exit edit mode when text is submitted by pressing ``ui_text_submit`` action (by default: :kbd:`Enter` or :kbd:`Kp Enter`).
+Si ``true``, le **LineEdit** ne sortira pas du mode édition lorsque le texte est soumis en appuyant sur l'action ``ui_text_submit`` (par défaut : :kbd:`Entrée` ou :kbd:`Entrée pavé numérique`).
 
 .. rst-class:: classref-item-separator
 
@@ -1049,9 +1049,9 @@ Si du texte est tronqué, le signal :ref:`text_change_rejected<class_LineEdit_si
 - |void| **set_middle_mouse_paste_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_middle_mouse_paste_enabled**\ (\ )
 
-If ``false``, using middle mouse button to paste clipboard will be disabled.
+Si ``false``, utiliser le bouton du milieu de la souris pour coller le presse-papiers sera désactivé.
 
-\ **Note:** This method is only implemented on Linux.
+\ **Note :** Cette méthode n'est implémentée que sur Linux.
 
 .. rst-class:: classref-item-separator
 
@@ -1119,7 +1119,7 @@ Si ``true``, chaque caractère est remplacé par le caractère secret (voir :ref
 - |void| **set_secret_character**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_secret_character**\ (\ )
 
-The character to use to mask secret input. Only a single character can be used as the secret character. If it is longer than one character, only the first one will be used. If it is empty, a space will be used instead.
+Le caractère à utiliser pour masquer l'entrée secrète. Seul un unique caractère peut être utilisé comme caractère secret. S'il est plus long qu'un caractère, seul le premier sera utilisé. S'il est vide, un espace sera utilisé à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -1136,7 +1136,7 @@ The character to use to mask secret input. Only a single character can be used a
 - |void| **set_select_all_on_focus**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_select_all_on_focus**\ (\ )
 
-If ``true``, the **LineEdit** will select the whole text when it gains focus.
+Si ``true``, le **LineEdit** sélectionnera l'ensemble du texte lorsque celui-ci obtiendra le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -1187,7 +1187,7 @@ Si ``true``, les touches de raccourci pour les éléments de menu contextuel son
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Set BiDi algorithm override for the structured text.
+Définit la redéfinition de l'algorithme BiDi pour le texte structuré.
 
 .. rst-class:: classref-item-separator
 
@@ -1204,7 +1204,7 @@ Set BiDi algorithm override for the structured text.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Set additional options for BiDi override.
+Définit des options supplémentaires pour la redéfinition BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -1257,7 +1257,7 @@ Direction d'écriture du texte de base.
 - |void| **set_virtual_keyboard_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_virtual_keyboard_enabled**\ (\ )
 
-If ``true``, the native virtual keyboard is enabled on platforms that support it.
+Si ``true``, le clavier virtuel natif est activé sur les plateformes qui le supportent.
 
 .. rst-class:: classref-item-separator
 
@@ -1274,7 +1274,7 @@ If ``true``, the native virtual keyboard is enabled on platforms that support it
 - |void| **set_virtual_keyboard_show_on_focus**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_virtual_keyboard_show_on_focus**\ (\ )
 
-If ``true``, the native virtual keyboard is shown on focus events on platforms that support it.
+Si ``true``, le clavier virtuel natif est affiché lors des évènements de focus sur les plateformes qui le supportent.
 
 .. rst-class:: classref-item-separator
 
@@ -1308,7 +1308,7 @@ Descriptions des méthodes
 
 |void| **apply_ime**\ (\ ) :ref:`🔗<class_LineEdit_method_apply_ime>`
 
-Applies text from the `Input Method Editor <https://en.wikipedia.org/wiki/Input_method>`__ (IME) and closes the IME if it is open.
+Applique le texte de l'`éditeur de méthode de saisie <https://fr.wikipedia.org/wiki/M%C3%A9thode_de_saisie>`__ (Input Method Editor) et ferme l'IME s'il est ouvert.
 
 .. rst-class:: classref-item-separator
 
@@ -1320,7 +1320,7 @@ Applies text from the `Input Method Editor <https://en.wikipedia.org/wiki/Input_
 
 |void| **cancel_ime**\ (\ ) :ref:`🔗<class_LineEdit_method_cancel_ime>`
 
-Closes the `Input Method Editor <https://en.wikipedia.org/wiki/Input_method>`__ (IME) if it is open. Any text in the IME will be lost.
+Ferme l'`éditeur de méthode de saisie <https://fr.wikipedia.org/wiki/M%C3%A9thode_de_saisie>`__ (Input Method Editor) s'il est ouvert. Tout texte dans l'IME sera perdu.
 
 .. rst-class:: classref-item-separator
 
@@ -1344,7 +1344,7 @@ Efface le :ref:`text<class_LineEdit_property_text>` du **LineEdit**.
 
 |void| **delete_char_at_caret**\ (\ ) :ref:`🔗<class_LineEdit_method_delete_char_at_caret>`
 
-Deletes one character at the caret's current position (equivalent to pressing :kbd:`Delete`).
+Supprime un caractère à la position actuelle du curseur (équivalent à appuyer sur :kbd:`Suppr`).
 
 .. rst-class:: classref-item-separator
 
@@ -1356,7 +1356,7 @@ Deletes one character at the caret's current position (equivalent to pressing :k
 
 |void| **delete_text**\ (\ from_column\: :ref:`int<class_int>`, to_column\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LineEdit_method_delete_text>`
 
-Deletes a section of the :ref:`text<class_LineEdit_property_text>` going from position ``from_column`` to ``to_column``. Both parameters should be within the text's length.
+Supprime une section du :ref:`text<class_LineEdit_property_text>` allant de la position ``from_column`` à ``to_column``. Les deux paramètres devraient être dans la longueur du texte.
 
 .. rst-class:: classref-item-separator
 
@@ -1380,9 +1380,9 @@ Efface la sélection actuelle.
 
 |void| **edit**\ (\ ) :ref:`🔗<class_LineEdit_method_edit>`
 
-Allows entering edit mode whether the **LineEdit** is focused or not.
+Permet d'entrer en mode édition peu importe si le **LineEdit** a le focus ou non.
 
-See also :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
+Voir aussi :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1394,9 +1394,9 @@ See also :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_
 
 :ref:`PopupMenu<class_PopupMenu>` **get_menu**\ (\ ) |const| :ref:`🔗<class_LineEdit_method_get_menu>`
 
-Returns the :ref:`PopupMenu<class_PopupMenu>` of this **LineEdit**. By default, this menu is displayed when right-clicking on the **LineEdit**.
+Renvoie le :ref:`PopupMenu<class_PopupMenu>` de ce **LineEdit**. Par défaut, ce menu s'affiche lors d'un clic droit sur le **LineEdit**.
 
-You can add custom menu items or remove standard ones. Make sure your IDs don't conflict with the standard ones (see :ref:`MenuItems<enum_LineEdit_MenuItems>`). For example:
+Vous pouvez ajouter des éléments de menu personnalisés ou supprimer les éléments standards. Assurez-vous que vos identifiants ne sont pas en conflit avec les identifiants standards (voir :ref:`MenuItems<enum_LineEdit_MenuItems>`). Par exemple :
 
 
 .. tabs::
@@ -1405,15 +1405,15 @@ You can add custom menu items or remove standard ones. Make sure your IDs don't 
 
     func _ready():
         var menu = get_menu()
-        # Remove all items after "Redo".
+        # Retirer tous les éléments après "Redo".
         menu.item_count = menu.get_item_index(MENU_REDO) + 1
-        # Add custom items.
+        # Ajouter des éléments personnalisés.
         menu.add_separator()
-        menu.add_item("Insert Date", MENU_MAX + 1)
-        # Connect callback.
-        menu.id_pressed.connect(_on_item_pressed)
+        menu.add_item("Insérer Date", MENU_MAX + 1)
+        # Connecter le callback.
+        menu.id_pressed.connect(_lorsque_element_appuye)
 
-    func _on_item_pressed(id):
+    func _lorsque_element_appuye(id):
         if id == MENU_MAX + 1:
             insert_text_at_caret(Time.get_date_string_from_system())
 
@@ -1422,16 +1422,16 @@ You can add custom menu items or remove standard ones. Make sure your IDs don't 
     public override void _Ready()
     {
         var menu = GetMenu();
-        // Remove all items after "Redo".
+        // Retirer tous les éléments après "Redo".
         menu.ItemCount = menu.GetItemIndex(LineEdit.MenuItems.Redo) + 1;
-        // Add custom items.
+        // Ajouter des éléments personnalisés.
         menu.AddSeparator();
-        menu.AddItem("Insert Date", LineEdit.MenuItems.Max + 1);
-        // Add event handler.
-        menu.IdPressed += OnItemPressed;
+        menu.AddItem("Insérer Date", LineEdit.MenuItems.Max + 1);
+        // Ajouter gestionnaire d'évènement.
+        menu.IdPressed += LorsqueElementAppuye;
     }
 
-    public void OnItemPressed(int id)
+    public void LorsqueElementAppuye(int id)
     {
         if (id == LineEdit.MenuItems.Max + 1)
         {
@@ -1441,7 +1441,7 @@ You can add custom menu items or remove standard ones. Make sure your IDs don't 
 
 
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`Window.visible<class_Window_property_visible>` property.
+\ **Avertissement :** Il s'agit d'un nœud interne nécessaire, le retirer et le libérer peut causer un plantage. Si vous voulez le cacher lui ou l'un de ses enfants, utilisez leur propriété :ref:`Window.visible<class_Window_property_visible>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1453,9 +1453,9 @@ You can add custom menu items or remove standard ones. Make sure your IDs don't 
 
 :ref:`int<class_int>` **get_next_composite_character_column**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LineEdit_method_get_next_composite_character_column>`
 
-Returns the correct column at the end of a composite character like ❤️‍🩹 (mending heart; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) which is comprised of more than one Unicode code point, if the caret is at the start of the composite character. Also returns the correct column with the caret at mid grapheme and for non-composite characters.
+Renvoie la colonne correcte à la fin d'un caractère composite comme ❤️‍🩹 (cœur raccommodé; Unicode : ``U+2764 U+FE0F U+200D U+1FA79``) qui est composé de plus d'un point de code Unicode, si le curseur est au début du caractère composite. Renvoie également la colonne correcte avec le curseur au milieu du graphème et pour les caractères non-composites.
 
-\ **Note:** To check at caret location use ``get_next_composite_character_column(get_caret_column())``
+\ **Note :** Pour vérifier à l'emplacement du curseur, utilisez ``get_next_composite_character_column(get_caret_column())``
 
 .. rst-class:: classref-item-separator
 
@@ -1467,9 +1467,9 @@ Returns the correct column at the end of a composite character like ❤️‍�
 
 :ref:`int<class_int>` **get_previous_composite_character_column**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LineEdit_method_get_previous_composite_character_column>`
 
-Returns the correct column at the start of a composite character like ❤️‍🩹 (mending heart; Unicode: ``U+2764 U+FE0F U+200D U+1FA79``) which is comprised of more than one Unicode code point, if the caret is at the end of the composite character. Also returns the correct column with the caret at mid grapheme and for non-composite characters.
+Renvoie la colonne correcte au début d'un caractère composite comme ❤️‍🩹 (cœur raccommodé; Unicode : ``U+2764 U+FE0F U+200D U+1FA79``) qui est composé de plus d'un point de code Unicode, si le curseur est à ma fin du caractère composite. Renvoie également la colonne correcte avec le curseur au milieu du graphème et pour les caractères non-composites.
 
-\ **Note:** To check at caret location use ``get_previous_composite_character_column(get_caret_column())``
+\ **Note :** Pour vérifier à l'emplacement du curseur, utilisez ``get_previous_composite_character_column(get_caret_column())``
 
 .. rst-class:: classref-item-separator
 
@@ -1529,7 +1529,7 @@ Renvoie la colonne de fin de la sélection.
 
 :ref:`bool<class_bool>` **has_ime_text**\ (\ ) |const| :ref:`🔗<class_LineEdit_method_has_ime_text>`
 
-Returns ``true`` if the user has text in the `Input Method Editor <https://en.wikipedia.org/wiki/Input_method>`__ (IME).
+Renvoie ``true`` si l'utilisateur a du texte dans l'`éditeur de méthode de saisie <https://fr.wikipedia.org/wiki/M%C3%A9thode_de_saisie>`__ (Input Method Editor).
 
 .. rst-class:: classref-item-separator
 
@@ -1577,7 +1577,7 @@ Renvoie ``true`` si une action « annuler » (undo) est disponible.
 
 |void| **insert_text_at_caret**\ (\ text\: :ref:`String<class_String>`\ ) :ref:`🔗<class_LineEdit_method_insert_text_at_caret>`
 
-Inserts ``text`` at the caret. If the resulting value is longer than :ref:`max_length<class_LineEdit_property_max_length>`, nothing happens.
+Ajoute ``text`` après le curseur. Si le résultat est plus long que :ref:`max_length<class_LineEdit_property_max_length>`, rien ne se passe.
 
 .. rst-class:: classref-item-separator
 
@@ -1589,7 +1589,7 @@ Inserts ``text`` at the caret. If the resulting value is longer than :ref:`max_l
 
 :ref:`bool<class_bool>` **is_editing**\ (\ ) |const| :ref:`🔗<class_LineEdit_method_is_editing>`
 
-Returns whether the **LineEdit** is being edited.
+Renvoie si le **LineEdit** est en cours d'édition.
 
 .. rst-class:: classref-item-separator
 
@@ -1601,7 +1601,7 @@ Returns whether the **LineEdit** is being edited.
 
 :ref:`bool<class_bool>` **is_menu_visible**\ (\ ) |const| :ref:`🔗<class_LineEdit_method_is_menu_visible>`
 
-Returns whether the menu is visible. Use this instead of ``get_menu().visible`` to improve performance (so the creation of the menu is avoided).
+Renvoie si le menu est visible. Utilisez ceci au lieu de ``get_menu().visible`` pour améliorer les performances (pour éviter la création du menu).
 
 .. rst-class:: classref-item-separator
 
@@ -1625,24 +1625,24 @@ Exécute l'action donnée comme définit par l'énumération :ref:`MenuItems<enu
 
 |void| **select**\ (\ from\: :ref:`int<class_int>` = 0, to\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_LineEdit_method_select>`
 
-Selects characters inside **LineEdit** between ``from`` and ``to``. By default, ``from`` is at the beginning and ``to`` at the end.
+Sélectionne les caractères à l'intérieur du **LineEdit** entre ``from`` et ``to``. Par défaut, ``from`` est au début et ``to`` à la fin.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    text = "Welcome"
-    select() # Will select "Welcome".
-    select(4) # Will select "ome".
-    select(2, 5) # Will select "lco".
+    text = "Bienvenue"
+    select() # Sélectionnera "Bienvenue".
+    select(5) # Sélectionnera "venue".
+    select(2, 7) # Sélectionnera "enven".
 
  .. code-tab:: csharp
 
-    Text = "Welcome";
-    Select(); // Will select "Welcome".
-    Select(4); // Will select "ome".
-    Select(2, 5); // Will select "lco".
+    Text = "Bienvenue";
+    Select(); // Sélectionnera "Bienvenue".
+    Select(4); // Sélectionnera "venue".
+    Select(2, 5); // Sélectionnera "enven".
 
 
 
@@ -1668,7 +1668,7 @@ Sélectionne l’ensemble :ref:`String<class_String>`.
 
 |void| **unedit**\ (\ ) :ref:`🔗<class_LineEdit_method_unedit>`
 
-Allows exiting edit mode while preserving focus.
+Permet de quitter le mode édition tout en gardant le focus.
 
 .. rst-class:: classref-section-separator
 
@@ -1685,7 +1685,7 @@ Descriptions des propriétés du thème
 
 :ref:`Color<class_Color>` **caret_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_LineEdit_theme_color_caret_color>`
 
-Color of the **LineEdit**'s caret (text cursor). This can be set to a fully transparent color to hide the caret entirely.
+Couleur du caret du **LineEdit** (curseur du texte). Cela peut être défini à une couleur entièrement transparente pour cacher le caret entièrement.
 
 .. rst-class:: classref-item-separator
 
@@ -1793,7 +1793,7 @@ La couleur du rectangle de sélection.
 
 :ref:`int<class_int>` **caret_width** = ``1`` :ref:`🔗<class_LineEdit_theme_constant_caret_width>`
 
-The caret's width in pixels. Greater values can be used to improve accessibility by ensuring the caret is easily visible, or to ensure consistency with a large font size.
+La largeur du curseur en pixels. De plus grandes valeurs peuvent être utilisées pour améliorer l'accessibilité en veillant à ce que le caret soit facilement visible, ou pour assurer la cohérence avec une grande taille de police.
 
 .. rst-class:: classref-item-separator
 
@@ -1805,7 +1805,7 @@ The caret's width in pixels. Greater values can be used to improve accessibility
 
 :ref:`int<class_int>` **minimum_character_width** = ``4`` :ref:`🔗<class_LineEdit_theme_constant_minimum_character_width>`
 
-Minimum horizontal space for the text (not counting the clear button and content margins). This value is measured in count of 'M' characters (i.e. this number of 'M' characters can be displayed without scrolling).
+Espace horizontal minimum pour le texte (sans compter le bouton effacer et les marges de contenu). Cette valeur est mesurée en nombre de caractères 'M' (c.-à-d. ce nombre de caractères 'M' peut être affiché sans défilement).
 
 .. rst-class:: classref-item-separator
 
@@ -1867,7 +1867,7 @@ La texture pour le bouton effacer. Voir :ref:`clear_button_enabled<class_LineEdi
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_LineEdit_theme_style_focus>`
 
-Background used when **LineEdit** has GUI focus. The :ref:`focus<class_LineEdit_theme_style_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>`, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Arrière-plan utilisé lorsque le **LineEdit** a le focus de l'interface graphique. La :ref:`StyleBox<class_StyleBox>` :ref:`focus<class_LineEdit_theme_style_focus>` est affichée *par-dessus* la :ref:`StyleBox<class_StyleBox>` de base, donc une :ref:`StyleBox<class_StyleBox>` partiellement transparente devrait être utilisée pour assurer que la :ref:`StyleBox<class_StyleBox>` de base reste visible. Une :ref:`StyleBox<class_StyleBox>` qui représente un contour ou un sous-lignement fonctionne bien à cette fin. Pour désactiver l'effet visuel de focus, assignez une ressource :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Notez que la désactivation de l'effet visuel de focus va nuire à l'utilisabilité de navigation clavier/contrôleur, ce qui n'est donc pas recommandé pour des raisons d'accessibilité.
 
 .. rst-class:: classref-item-separator
 

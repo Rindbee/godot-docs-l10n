@@ -785,7 +785,7 @@ Inserta el carácter de inicio de incrustación de derecha a izquierda (RLE).
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_LRO** = ``18``
 
-Inserta el carácter de inicio de anulación de izquierda a derecha (LRO).
+Inserta el carácter de inicio de sobrescritura de izquierda a derecha (LRO).
 
 .. _class_TextEdit_constant_MENU_INSERT_RLO:
 
@@ -793,7 +793,7 @@ Inserta el carácter de inicio de anulación de izquierda a derecha (LRO).
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_RLO** = ``19``
 
-Inserta el carácter de inicio de anulación de derecha a izquierda (RLO).
+Inserta el carácter de inicio de sobrescritura de derecha a izquierda (RLO).
 
 .. _class_TextEdit_constant_MENU_INSERT_PDF:
 
@@ -1433,7 +1433,7 @@ Si es ``true``, el menú "Emojis y símbolos" está habilitado.
 - |void| **set_empty_selection_clipboard_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_empty_selection_clipboard_enabled**\ (\ )
 
-If ``true``, copying or cutting without a selection is performed on all lines with a caret. Otherwise, copy and cut require a selection.
+Si es ``true``, copiar o cortar sin una selección se realiza en todas las líneas con un cursor. De lo contrario, copiar y cortar requieren una selección.
 
 .. rst-class:: classref-item-separator
 
@@ -1484,7 +1484,7 @@ Si es ``true``, se resalta la línea que contiene el cursor.
 - |void| **set_indent_wrapped_lines**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_indent_wrapped_lines**\ (\ )
 
-If ``true``, all wrapped lines are indented to the same amount as the unwrapped line.
+Si es ``true``, todas las líneas envueltas se indentan a la misma cantidad que la línea no envuelta.
 
 .. rst-class:: classref-item-separator
 
@@ -1501,7 +1501,7 @@ If ``true``, all wrapped lines are indented to the same amount as the unwrapped 
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Código de idioma utilizado para los algoritmos de salto de línea y forma del texto, si se deja vacío se utiliza la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -1743,7 +1743,7 @@ Si es ``true``, las teclas de atajo para los elementos del menú contextual est�
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Establece la anulación del algoritmo BiDi para el texto estructurado.
+Establece la sobrescritura del algoritmo BiDi para el texto estructurado.
 
 .. rst-class:: classref-item-separator
 
@@ -1760,7 +1760,7 @@ Establece la anulación del algoritmo BiDi para el texto estructurado.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Establece opciones adicionales para la anulación BiDi.
+Establece opciones adicionales para la sobrescritura BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -1830,7 +1830,7 @@ Valor de string de **TextEdit**.
 - |void| **set_text_direction**\ (\ value\: :ref:`TextDirection<enum_Control_TextDirection>`\ )
 - :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ )
 
-Base text writing direction.
+Dirección base de escritura del texto.
 
 .. rst-class:: classref-item-separator
 
@@ -2635,7 +2635,7 @@ Devuelve el ancho en píxeles del ``wrap_index`` en la ``line``.
 
 :ref:`String<class_String>` **get_line_with_ime**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextEdit_method_get_line_with_ime>`
 
-Devuelve el texto de la línea tal como se muestra actualmente, incluida la cadena de composición IME.
+Devuelve el texto de la línea tal como se muestra actualmente, incluida la string de composición IME.
 
 .. rst-class:: classref-item-separator
 
@@ -3364,7 +3364,7 @@ Devuelve ``true`` si el ratón está sobre una selección. Si ``edges`` es ``tru
 
 :ref:`bool<class_bool>` **is_overtype_mode_enabled**\ (\ ) |const| :ref:`🔗<class_TextEdit_method_is_overtype_mode_enabled>`
 
-Devuelve ``true`` si el modo de sobreescritura está activado. Véase :ref:`set_overtype_mode_enabled()<class_TextEdit_method_set_overtype_mode_enabled>`.
+Devuelve ``true`` si el modo de sobrescritura está activado. Véase :ref:`set_overtype_mode_enabled()<class_TextEdit_method_set_overtype_mode_enabled>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4126,7 +4126,7 @@ Sets the :ref:`Color<class_Color>` of the selected text. If equal to ``Color(0, 
 
 :ref:`Color<class_Color>` **search_result_border_color** = ``Color(0.3, 0.3, 0.3, 0.4)`` :ref:`🔗<class_TextEdit_theme_color_search_result_border_color>`
 
-:ref:`Color<class_Color>` of the border around text that matches the search query.
+:ref:`Color<class_Color>` del borde alrededor del texto que coincide con la consulta de búsqueda.
 
 .. rst-class:: classref-item-separator
 
@@ -4138,7 +4138,7 @@ Sets the :ref:`Color<class_Color>` of the selected text. If equal to ``Color(0, 
 
 :ref:`Color<class_Color>` **search_result_color** = ``Color(0.3, 0.3, 0.3, 1)`` :ref:`🔗<class_TextEdit_theme_color_search_result_color>`
 
-:ref:`Color<class_Color>` behind the text that matches the search query.
+:ref:`Color<class_Color>` detrás del texto que coincide con la consulta de búsqueda.
 
 .. rst-class:: classref-item-separator
 
@@ -4174,7 +4174,7 @@ Establece el resaltado :ref:`Color<class_Color>` de múltiples ocurrencias. :ref
 
 :ref:`int<class_int>` **caret_width** = ``1`` :ref:`🔗<class_TextEdit_theme_constant_caret_width>`
 
-The caret's width in pixels. Greater values can be used to improve accessibility by ensuring the caret is easily visible, or to ensure consistency with a large font size. If set to ``0`` or lower, the caret width is automatically set to 1 pixel and multiplied by the display scaling factor.
+El ancho del cursor en píxeles. Se pueden usar valores mayores para mejorar la accesibilidad, asegurando que el cursor sea fácilmente visible, o para asegurar la consistencia con un tamaño de fuente grande. Si se establece en ``0`` o menos, el ancho del cursor se establece automáticamente en 1 píxel y se multiplica por el factor de escala de la pantalla.
 
 .. rst-class:: classref-item-separator
 
@@ -4236,7 +4236,7 @@ Establece el tamaño de fuente predeterminado.
 
 :ref:`Texture2D<class_Texture2D>` **space** :ref:`🔗<class_TextEdit_theme_icon_space>`
 
-Sets a custom :ref:`Texture2D<class_Texture2D>` for space text characters.
+Establece una :ref:`Texture2D<class_Texture2D>` personalizada para los caracteres de espacio.
 
 .. rst-class:: classref-item-separator
 
@@ -4248,7 +4248,7 @@ Sets a custom :ref:`Texture2D<class_Texture2D>` for space text characters.
 
 :ref:`Texture2D<class_Texture2D>` **tab** :ref:`🔗<class_TextEdit_theme_icon_tab>`
 
-Sets a custom :ref:`Texture2D<class_Texture2D>` for tab text characters.
+Establece una :ref:`Texture2D<class_Texture2D>` personalizada para los caracteres de tabulación.
 
 .. rst-class:: classref-item-separator
 
@@ -4260,7 +4260,7 @@ Sets a custom :ref:`Texture2D<class_Texture2D>` for tab text characters.
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_TextEdit_theme_style_focus>`
 
-Sets the :ref:`StyleBox<class_StyleBox>` when in focus. The :ref:`focus<class_TextEdit_theme_style_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>`, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Establece el :ref:`StyleBox<class_StyleBox>` cuando está en foco. El :ref:`focus<class_TextEdit_theme_style_focus>` :ref:`StyleBox<class_StyleBox>` se muestra *sobre* el :ref:`StyleBox<class_StyleBox>` base, por lo que se debe utilizar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para garantizar que el :ref:`StyleBox<class_StyleBox>` base permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para deshabilitar el efecto visual de enfoque, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Ten en cuenta que deshabilitar el efecto visual de enfoque perjudicará la usabilidad de la navegación con el teclado/mando, por lo que no se recomienda por razones de accesibilidad.
 
 .. rst-class:: classref-item-separator
 
@@ -4284,7 +4284,7 @@ Establece el :ref:`StyleBox<class_StyleBox>` de este **TextEdit**.
 
 :ref:`StyleBox<class_StyleBox>` **read_only** :ref:`🔗<class_TextEdit_theme_style_read_only>`
 
-Sets the :ref:`StyleBox<class_StyleBox>` of this **TextEdit** when :ref:`editable<class_TextEdit_property_editable>` is disabled.
+Establece el :ref:`StyleBox<class_StyleBox>` de este **TextEdit** cuando :ref:`editable<class_TextEdit_property_editable>` está deshabilitado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

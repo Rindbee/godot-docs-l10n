@@ -7,18 +7,18 @@ MethodTweener
 
 **Hereda:** :ref:`Tweener<class_Tweener>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Interpolates an abstract value and supplies it to a method called over time.
+Interpola un valor abstracto y lo proporciona a un método llamado a lo largo del tiempo.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**MethodTweener** is similar to a combination of :ref:`CallbackTweener<class_CallbackTweener>` and :ref:`PropertyTweener<class_PropertyTweener>`. It calls a method providing an interpolated value as a parameter. See :ref:`Tween.tween_method()<class_Tween_method_tween_method>` for more usage information.
+**MethodTweener** es similar a una combinación de :ref:`CallbackTweener<class_CallbackTweener>` y :ref:`PropertyTweener<class_PropertyTweener>`. Llama a un método proporcionando un valor interpolado como parámetro. Vea :ref:`Tween.tween_method()<class_Tween_method_tween_method>` para más información de uso.
 
-The tweener will finish automatically if the callback's target object is freed.
+El tweener finalizará automáticamente si el objeto destino del callback es liberado.
 
-\ **Note:** :ref:`Tween.tween_method()<class_Tween_method_tween_method>` is the only correct way to create **MethodTweener**. Any **MethodTweener** created manually will not function correctly.
+\ **Nota:** :ref:`Tween.tween_method()<class_Tween_method_tween_method>` es la única forma correcta de crear **MethodTweener**. Cualquier **MethodTweener** creado manualmente no funcionará correctamente.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ Descripciones de Métodos
 
 :ref:`MethodTweener<class_MethodTweener>` **set_delay**\ (\ delay\: :ref:`float<class_float>`\ ) :ref:`🔗<class_MethodTweener_method_set_delay>`
 
-Sets the time in seconds after which the **MethodTweener** will start interpolating. By default there's no delay.
+Establece el tiempo en segundos después del cual el **MethodTweener** comenzará a interpolar. Por defecto, no hay retardo.
 
 .. rst-class:: classref-item-separator
 
@@ -63,7 +63,7 @@ Sets the time in seconds after which the **MethodTweener** will start interpolat
 
 :ref:`MethodTweener<class_MethodTweener>` **set_ease**\ (\ ease\: :ref:`EaseType<enum_Tween_EaseType>`\ ) :ref:`🔗<class_MethodTweener_method_set_ease>`
 
-Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not set, the default easing is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Establece el tipo de easing usado de :ref:`EaseType<enum_Tween_EaseType>`. Si no se establece, se usa el easing por defecto del :ref:`Tween<class_Tween>` que contiene este Tweener.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not s
 
 :ref:`MethodTweener<class_MethodTweener>` **set_trans**\ (\ trans\: :ref:`TransitionType<enum_Tween_TransitionType>`\ ) :ref:`🔗<class_MethodTweener_method_set_trans>`
 
-Sets the type of used transition from :ref:`TransitionType<enum_Tween_TransitionType>`. If not set, the default transition is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Establece el tipo de transición usada de :ref:`TransitionType<enum_Tween_TransitionType>`. Si no se establece, se usa la transición por defecto del :ref:`Tween<class_Tween>` que contiene este Tweener.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

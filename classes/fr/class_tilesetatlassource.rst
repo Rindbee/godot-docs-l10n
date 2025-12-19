@@ -557,7 +557,7 @@ Returns whether there is enough room in an atlas to create/modify a tile with th
 
 :ref:`bool<class_bool>` **has_tiles_outside_texture**\ (\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_has_tiles_outside_texture>`
 
-Checks if the source has any tiles that don't fit the texture area (either partially or completely).
+Vérifie si la source a des tuiles qui ne rentrent pas dans la zone de la texture (soit partiellement ou complètement).
 
 .. rst-class:: classref-item-separator
 

@@ -56,7 +56,7 @@ Descriptions des propriétés
 - |void| **set_left_to_right**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_left_to_right**\ (\ )
 
-Displacement of the upper edge along the X axis. 0.0 positions edge straight above the bottom-left edge.
+Déplacement de l'arête supérieure le long de l'axe X. 0.0 positionne l'arête directement au-dessus de l'arête inférieure gauche.
 
 .. rst-class:: classref-item-separator
 

@@ -230,7 +230,7 @@ Se impostata, questa :ref:`Expression<class_Expression>` verrà utilizzata per c
 - |void| **set_json_pointers**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`PackedStringArray<class_PackedStringArray>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`PackedStringArray<class_PackedStringArray>`\] **get_json_pointers**\ (\ )
 
-The glTF object model JSON pointers used to identify the property in the glTF object model. In most cases, there will be only one item in this array, but specific cases may require multiple pointers. The items are themselves arrays which represent the JSON pointer split into its components.
+I puntatori JSON del modello d'oggetto glTF utilizzati per identificare la proprietà nel modello d'oggetto glTF. Nella maggior parte dei casi, ci sarà un solo elemento in questo array, ma casi più specifici potrebbero richiedere più puntatori. Gli elementi sono a loro volta array che rappresentano il puntatore JSON suddiviso nei suoi componenti.
 
 .. rst-class:: classref-item-separator
 

@@ -101,7 +101,7 @@ Descripciones de Métodos
 
 |void| **clear_context**\ (\ context\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_RenderSceneBuffersRD_method_clear_context>`
 
-Libera todos los búfers relacionados con este contexto.
+Libera todos los búferes relacionados con este contexto.
 
 .. rst-class:: classref-item-separator
 
@@ -163,7 +163,7 @@ Si ``msaa`` es ``true`` y MSAA está habilitado, esto devuelve la variante MSAA 
 
 :ref:`RID<class_RID>` **get_color_texture**\ (\ msaa\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_RenderSceneBuffersRD_method_get_color_texture>`
 
-Devuelve la textura de color a la que estamos renderizando contenido 3D. Si se utiliza multivista, esto será una matriz de texturas con todas las vistas.
+Devuelve la textura de color a la que estamos renderizando contenido 3D. Si se utiliza multivista, esto será un array de texturas con todas las vistas.
 
 Si ``msaa`` es ``true`` y MSAA está habilitado, esto devuelve la variante MSAA del búfer.
 

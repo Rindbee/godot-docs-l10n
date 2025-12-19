@@ -120,9 +120,9 @@ Descriptions des propriétés
 - |void| **set_centered**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_centered**\ (\ )
 
-If ``true``, texture is centered.
+Si ``true``, la texture est centrée.
 
-\ **Note:** For games with a pixel art aesthetic, textures may appear deformed when centered. This is caused by their position being between pixels. To prevent this, set this property to ``false``, or consider enabling :ref:`ProjectSettings.rendering/2d/snap/snap_2d_vertices_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_vertices_to_pixel>` and :ref:`ProjectSettings.rendering/2d/snap/snap_2d_transforms_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_transforms_to_pixel>`.
+\ **Note :** Pour les jeux avec une esthétique pixel art, les textures peuvent apparaître déformées lorsqu'elles sont centrées. Ceci est causé par leur position se trouvant entre les pixels. Pour éviter cela, définissez cette propriété à ``false``, ou envisagez d'activer :ref:`ProjectSettings.rendering/2d/snap/snap_2d_vertices_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_vertices_to_pixel>` et :ref:`ProjectSettings.rendering/2d/snap/snap_2d_transforms_to_pixel<class_ProjectSettings_property_rendering/2d/snap/snap_2d_transforms_to_pixel>`.
 
 .. rst-class:: classref-item-separator
 
@@ -224,9 +224,9 @@ The number of columns in the sprite sheet. When this property is changed, :ref:`
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The texture's drawing offset.
+Le décalage de dessin de la texture.
 
-\ **Note:** When you increase :ref:`offset<class_Sprite2D_property_offset>`.y in Sprite2D, the sprite moves downward on screen (i.e., +Y is down).
+\ **Note :** Lorsque vous augmentez :ref:`offset<class_Sprite2D_property_offset>`.y dans Sprite2D, le sprite se déplace vers le bas à l'écran (c.-à-d. +Y pointe vers le bas).
 
 .. rst-class:: classref-item-separator
 
@@ -330,9 +330,9 @@ Descriptions des méthodes
 
 :ref:`Rect2<class_Rect2>` **get_rect**\ (\ ) |const| :ref:`🔗<class_Sprite2D_method_get_rect>`
 
-Returns a :ref:`Rect2<class_Rect2>` representing the Sprite2D's boundary in local coordinates.
+Renvoie un :ref:`Rect2<class_Rect2>` représentant la bordure du Sprite2D dans les coordonnées locales.
 
-\ **Example:** Detect if the Sprite2D was clicked:
+\ **Exemple :** Détecter si le Sprite2D a été cliqué :
 
 
 .. tabs::
@@ -342,7 +342,7 @@ Returns a :ref:`Rect2<class_Rect2>` representing the Sprite2D's boundary in loca
     func _input(event):
         if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
             if get_rect().has_point(to_local(event.position)):
-                print("A click!")
+                print("Un clic !")
 
  .. code-tab:: csharp
 
@@ -354,7 +354,7 @@ Returns a :ref:`Rect2<class_Rect2>` representing the Sprite2D's boundary in loca
             {
                 if (GetRect().HasPoint(ToLocal(inputEventMouse.Position)))
                 {
-                    GD.Print("A click!");
+                    GD.Print("Un clic !");
                 }
             }
         }
@@ -372,9 +372,9 @@ Returns a :ref:`Rect2<class_Rect2>` representing the Sprite2D's boundary in loca
 
 :ref:`bool<class_bool>` **is_pixel_opaque**\ (\ pos\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Sprite2D_method_is_pixel_opaque>`
 
-Returns ``true``, if the pixel at the given position is opaque and ``false`` in other case. The position is in local coordinates.
+Renvoie ``true``, si le pixel à la position donnée est opaque, ou ``false`` sinon. La position est dans les coordonnées locales.
 
-\ **Note:** It also returns ``false``, if the sprite's texture is ``null`` or if the given position is invalid.
+\ **Note :** Elle renvoie également ``false`` si la texture du sprite est ``null`` ou si la position donnée est invalide.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -14,7 +14,7 @@ InstancePlaceholder
 描述
 ----
 
-在编辑器中为实例化的场景打开\ **加载为占位符**\ 选项会导致在运行游戏时将其替换为 **InstancePlaceholder**\ 。这样就可以将场景的实际加载推迟到调用 :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>` 时。这对于通过选择性加载部分场景来避免一次性加载大场景很有用。
+在编辑器中为实例化的场景打开\ **加载为占位符**\ 选项会导致在运行游戏时将其替换为 **InstancePlaceholder**\ 。这样就可以将场景推迟到调用 :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>` 时再实际加载。这样做有助于对大型场景中的不同部分进行有选择的加载，避免一次性加载所有部分。
 
 \ **注意：**\ **InstancePlaceholder** 与 :ref:`Node<class_Node>` 类似，不具备变换属性。因此任何子节点都会相对于 :ref:`Viewport<class_Viewport>` 的原点开始定位，而不是在编辑器中显示的父节点。用一个具有变换属性的场景来替换占位符，将使子节点再次相对于它们的父节点进行变换。
 

@@ -113,7 +113,7 @@ Descripciones de Métodos
 
 :ref:`String<class_String>` **get_id**\ (\ ) |const| :ref:`🔗<class_Thread_method_get_id>`
 
-Devuelve el ID del **Thread** actual, identificándolo de forma única entre todos los hilos. Si el **Thread** no ha comenzado a ejecutarse o si se ha llamado a :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>`, esto devuelve una cadena vacía.
+Devuelve el ID del **Thread** actual, identificándolo de forma única entre todos los hilos. Si el **Thread** no ha comenzado a ejecutarse o si se ha llamado a :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>`, esto devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 

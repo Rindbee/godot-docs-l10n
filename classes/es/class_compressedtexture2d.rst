@@ -14,21 +14,21 @@ Textura con 2 dimensiones, opcionalmente comprimida.
 Descripción
 ----------------------
 
-A texture that is loaded from a ``.ctex`` file. This file format is internal to Godot; it is created by importing other image formats with the import system. **CompressedTexture2D** can use one of 4 compression methods (including a lack of any compression):
+Una textura que se carga desde un archivo ``.ctex``. Este formato de archivo es interno de Godot; se crea importando otros formatos de imagen con el sistema de importación. **CompressedTexture2D** puede usar uno de los 4 métodos de compresión (incluyendo la falta de cualquier compresión):
 
-- Lossless (WebP or PNG, uncompressed on the GPU)
+- Sin pérdida (WebP o PNG, descomprimido en la GPU)
 
-- Lossy (WebP, uncompressed on the GPU)
+- Con pérdida (WebP, descomprimido en la GPU)
 
-- VRAM Compressed (compressed on the GPU)
+- VRAM Comprimido (comprimido en la GPU)
 
-- VRAM Uncompressed (uncompressed on the GPU)
+- VRAM Sin comprimir (sin comprimir en la GPU)
 
-- Basis Universal (compressed on the GPU. Lower file sizes than VRAM Compressed, but slower to compress and lower quality than VRAM Compressed)
+- Basis Universal (comprimido en la GPU. Tamaños de archivo más pequeños que VRAM Comprimido, pero más lento para comprimir y de menor calidad que VRAM Comprimido)
 
-Only **VRAM Compressed** actually reduces the memory usage on the GPU. The **Lossless** and **Lossy** compression methods will reduce the required storage on disk, but they will not reduce memory usage on the GPU as the texture is sent to the GPU uncompressed.
+Sólo **VRAM Comprimido** reduce realmente el uso de memoria en la GPU. Los métodos de compresión **Sin pérdida** y **Con pérdida** reducirán el almacenamiento requerido en el disco, pero no reducirán el uso de memoria en la GPU, ya que la textura se envía a la GPU sin comprimir.
 
-Using **VRAM Compressed** also improves loading times, as VRAM-compressed textures are faster to load compared to textures using lossless or lossy compression. VRAM compression can exhibit noticeable artifacts and is intended to be used for 3D rendering, not 2D.
+El uso de **VRAM Comprimido** también mejora los tiempos de carga, ya que las texturas comprimidas en VRAM se cargan más rápido en comparación con las texturas que utilizan compresión sin pérdida o con pérdida. La compresión VRAM puede mostrar artefactos notables y está destinada a ser utilizada para el renderizado 3D, no 2D.
 
 .. rst-class:: classref-reftable-group
 
@@ -76,7 +76,7 @@ Descripciones de Propiedades
 - :ref:`Error<enum_@GlobalScope_Error>` **load**\ (\ path\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_load_path**\ (\ )
 
-The **CompressedTexture2D**'s file path to a ``.ctex`` file.
+La ruta del archivo **CompressedTexture2D** a un archivo ``.ctex``.
 
 .. rst-class:: classref-section-separator
 

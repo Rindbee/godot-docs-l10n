@@ -7,18 +7,18 @@ ShaderGlobalsOverride
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A node used to override global shader parameters' values in a scene.
+Un nœud utilisé pour redéfinir les valeurs des paramètres de shader globaux dans une scène.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Similar to how a :ref:`WorldEnvironment<class_WorldEnvironment>` node can be used to override the environment while a specific scene is loaded, **ShaderGlobalsOverride** can be used to override global shader parameters temporarily. Once the node is removed, the project-wide values for the global shader parameters are restored. See the :ref:`RenderingServer<class_RenderingServer>` ``global_shader_parameter_*`` methods for more information.
+Similaire à comment un nœud :ref:`WorldEnvironment<class_WorldEnvironment>` peut être utilisé pour redéfinir l'environnement lorsqu'une scène spécifique est chargée, **ShaderGlobalsOverride** peut être utilisé pour redéfinir temporairement les paramètres de shader globaux. Une fois le nœud retiré, les valeurs liées au projet pour les paramètres de shader globaux sont restaurées. Voir les méthodes ``global_shader_parameter_*`` de :ref:`RenderingServer<class_RenderingServer>` pour plus d'informations.
 
-\ **Note:** Only one **ShaderGlobalsOverride** can be used per scene. If there is more than one **ShaderGlobalsOverride** node in the scene tree, only the first node (in tree order) will be taken into account.
+\ **Note :** Seulement un **ShaderGlobalsOverride** peut être utilisé par scène. S'il y a plus d'un nœud **ShaderGlobalsOverride** dans l'arborescence de scène, seul le premier nœud (dans l'ordre de l'arbre) sera pris en compte.
 
-\ **Note:** All **ShaderGlobalsOverride** nodes are made part of a ``"shader_overrides_group"`` group when they are added to the scene tree. The currently active **ShaderGlobalsOverride** node also has a ``"shader_overrides_group_active"`` group added to it. You can use this to check which **ShaderGlobalsOverride** node is currently active.
+\ **Note :** Tous les nœuds **ShaderGlobalsOverride** font partie d'un groupe ``"shader_overrides_group"`` lorsqu'ils sont ajoutés à l'arborescence de scène. Le nœud **ShaderGlobalsOverride** actuellement actif a également un groupe ``"shader_overrides_group_active"`` ajouté à lui. Vous pouvez utiliser ceci pour vérifier quel nœud **ShaderGlobalsOverride** est actuellement actif.
 
 .. rst-class:: classref-introduction-group
 

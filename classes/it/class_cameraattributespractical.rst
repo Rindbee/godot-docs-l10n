@@ -134,9 +134,11 @@ Gli oggetti più lontani di questa quantità dal :ref:`Camera3D<class_Camera3D>`
 - |void| **set_dof_blur_far_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dof_blur_far_enabled**\ (\ )
 
-Abilita la sfocatura della profondità di campo per gli oggetti più lontani di :ref:`dof_blur_far_distance<class_CameraAttributesPractical_property_dof_blur_far_distance>`. L'intensità della sfocatura è controllata da :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` e modulata da :ref:`dof_blur_far_transition<class_CameraAttributesPractical_property_dof_blur_far_transition>`.
+Enables depth of field blur for objects further than :ref:`dof_blur_far_distance<class_CameraAttributesPractical_property_dof_blur_far_distance>`. Strength of blur is controlled by :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` and modulated by :ref:`dof_blur_far_transition<class_CameraAttributesPractical_property_dof_blur_far_transition>`.
 
-\ **Nota:** La sfocatura della profondità di campo è supportata solo nei metodi di rendering Forward+ e Mobile, non in Compatibilità.
+\ **Note:** Depth of field blur is only supported in the Forward+ and Mobile rendering methods, not Compatibility.
+
+\ **Note:** Depth of field blur is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 
@@ -187,9 +189,11 @@ Gli oggetti più vicini di questa quantità alla :ref:`Camera3D<class_Camera3D>`
 - |void| **set_dof_blur_near_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dof_blur_near_enabled**\ (\ )
 
-Abilita la sfocatura della profondità di campo per gli oggetti più vicini di :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>`. L'intensità della sfocatura è controllata da :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` e modulata da :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>`.
+Enables depth of field blur for objects closer than :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>`. Strength of blur is controlled by :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` and modulated by :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>`.
 
-\ **Nota:** La sfocatura della profondità di campo è supportata solo nei metodi di rendering Forward+ e Mobile, non in Compatibilità.
+\ **Note:** Depth of field blur is only supported in the Forward+ and Mobile rendering methods, not Compatibility.
+
+\ **Note:** Depth of field blur is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 

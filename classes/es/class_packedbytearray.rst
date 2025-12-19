@@ -12,11 +12,11 @@ Un array empaquetado de bytes.
 Descripción
 ----------------------
 
-An array specifically designed to hold bytes. Packs data tightly, so it saves memory for large array sizes.
+Un array diseñado específicamente para contener bytes. Empaqueta los datos de forma compacta, por lo que ahorra memoria para arrays de gran tamaño.
 
-\ **PackedByteArray** also provides methods to encode/decode various types to/from bytes. The way values are encoded is an implementation detail and shouldn't be relied upon when interacting with external apps.
+\ **PackedByteArray** también proporciona métodos para codificar/decodificar varios tipos a/desde bytes. La forma en que se codifican los valores es un detalle de implementación y no se debe confiar en ella cuando se interactúa con aplicaciones externas.
 
-\ **Note:** Packed arrays are always passed by reference. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_PackedByteArray_method_duplicate>`. This is *not* the case for built-in properties and methods. In these cases the returned packed array is a copy, and changing it will *not* affect the original value. To update a built-in property of this type, modify the returned array and then assign it to the property again.
+\ **Nota:** Los arrays empaquetados siempre se pasan por referencia. Para obtener una copia de un array que pueda modificarse independientemente del array original, utiliza :ref:`duplicate()<class_PackedByteArray_method_duplicate>`. Este *no* es el caso de las propiedades y métodos integrados. En estos casos, el array empaquetado devuelto es una copia, y al cambiarlo *no* afectará el valor original. Para actualizar una propiedad integrada de este tipo, modifica el array devuelto y luego asígnalo nuevamente a la propiedad.
 
 .. note::
 
@@ -229,7 +229,7 @@ Construye un **PackedByteArray** vacío.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **PackedByteArray**\ (\ from\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 
-Constructs a **PackedByteArray** as a copy of the given **PackedByteArray**.
+Construye un **PackedByteArray** como una copia del **PackedByteArray** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -239,7 +239,7 @@ Constructs a **PackedByteArray** as a copy of the given **PackedByteArray**.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **PackedByteArray**\ (\ from\: :ref:`Array<class_Array>`\ )
 
-Constructs a new **PackedByteArray**. Optionally, you can pass in a generic :ref:`Array<class_Array>` that will be converted.
+Construye un nuevo **PackedByteArray**. Opcionalmente, puedes pasarle un :ref:`Array<class_Array>` genérico que se convertirá.
 
 .. rst-class:: classref-section-separator
 
@@ -268,7 +268,7 @@ Concatena un elemento al final del array (alias de :ref:`push_back()<class_Packe
 
 |void| **append_array**\ (\ array\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_PackedByteArray_method_append_array>`
 
-Appends a **PackedByteArray** at the end of this array.
+Añade un **PackedByteArray** al final de este array.
 
 .. rst-class:: classref-item-separator
 
@@ -280,9 +280,9 @@ Appends a **PackedByteArray** at the end of this array.
 
 :ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_PackedByteArray_method_bsearch>`
 
-Finds the index of an existing value (or the insertion index that maintains sorting order, if the value is not yet present in the array) using binary search. Optionally, a ``before`` specifier can be passed. If ``false``, the returned index comes after all existing entries of the value in the array.
+Encuentra el índice de un valor existente (o el índice de inserción que mantiene el orden de clasificación, si el valor aún no está presente en el array) utilizando la búsqueda binaria. Opcionalmente, se puede pasar un especificador ``before``. Si es ``false``, el índice devuelto viene después de todas las entradas existentes del valor en el array.
 
-\ **Note:** Calling :ref:`bsearch()<class_PackedByteArray_method_bsearch>` on an unsorted array results in unexpected behavior.
+\ **Nota:** Llamar a :ref:`bsearch()<class_PackedByteArray_method_bsearch>` en un array sin ordenar da como resultado un comportamiento inesperado.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ Finds the index of an existing value (or the insertion index that maintains sort
 
 |void| **bswap16**\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_PackedByteArray_method_bswap16>`
 
-Swaps the byte order of ``count`` 16-bit segments of the array starting at ``offset``. Swap is done in-place. If ``count`` is less than zero, all segments to the end of array are processed, if processed data size is not a multiple of 2, the byte after the last processed 16-bit segment is not modified.
+Intercambia el orden de bytes de ``count`` segmentos de 16 bits del array comenzando en ``offset``. El intercambio se realiza en el lugar. Si ``count`` es menor que cero, se procesan todos los segmentos hasta el final del array. Si el tamaño de los datos procesados no es múltiplo de 2, el byte posterior al último segmento de 16 bits procesado no se modifica.
 
 .. rst-class:: classref-item-separator
 
@@ -306,7 +306,7 @@ Swaps the byte order of ``count`` 16-bit segments of the array starting at ``off
 
 |void| **bswap32**\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_PackedByteArray_method_bswap32>`
 
-Swaps the byte order of ``count`` 32-bit segments of the array starting at ``offset``. Swap is done in-place. If ``count`` is less than zero, all segments to the end of array are processed, if processed data size is not a multiple of 4, bytes after the last processed 32-bit segment are not modified.
+Intercambia el orden de bytes de ``count`` segmentos de 32 bits del array comenzando en ``offset``. El intercambio se realiza en el lugar. Si ``count`` es menor que cero, se procesan todos los segmentos hasta el final del array. Si el tamaño de los datos procesados no es múltiplo de 4, los bytes posteriores al último segmento de 32 bits procesado no se modifican.
 
 .. rst-class:: classref-item-separator
 
@@ -318,7 +318,7 @@ Swaps the byte order of ``count`` 32-bit segments of the array starting at ``off
 
 |void| **bswap64**\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_PackedByteArray_method_bswap64>`
 
-Swaps the byte order of ``count`` 64-bit segments of the array starting at ``offset``. Swap is done in-place. If ``count`` is less than zero, all segments to the end of array are processed, if processed data size is not a multiple of 8, bytes after the last processed 64-bit segment are not modified.
+Intercambia el orden de bytes de ``count`` segmentos de 64 bits del array comenzando en ``offset``. El intercambio se realiza en el lugar. Si ``count`` es menor que cero, se procesan todos los segmentos hasta el final del array. Si el tamaño de los datos procesados no es múltiplo de 8, los bytes posteriores al último segmento de 64 bits procesado no se modifican.
 
 .. rst-class:: classref-item-separator
 
@@ -366,7 +366,7 @@ Devuelve el numer de veces que un elemento es encuentra en el array.
 
 :ref:`float<class_float>` **decode_double**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_double>`
 
-Decodes a 64-bit floating-point number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0.0`` if a valid number can't be decoded.
+Decodifica un número de punto flotante de 64 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0.0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -378,7 +378,7 @@ Decodes a 64-bit floating-point number from the bytes starting at ``byte_offset`
 
 :ref:`float<class_float>` **decode_float**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_float>`
 
-Decodes a 32-bit floating-point number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0.0`` if a valid number can't be decoded.
+Decodifica un número de punto flotante de 32 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0.0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -390,7 +390,7 @@ Decodes a 32-bit floating-point number from the bytes starting at ``byte_offset`
 
 :ref:`float<class_float>` **decode_half**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_half>`
 
-Decodes a 16-bit floating-point number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0.0`` if a valid number can't be decoded.
+Decodifica un número de punto flotante de 16 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0.0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -402,7 +402,7 @@ Decodes a 16-bit floating-point number from the bytes starting at ``byte_offset`
 
 :ref:`int<class_int>` **decode_s8**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_s8>`
 
-Decodes a 8-bit signed integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero con signo de 8 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -414,7 +414,7 @@ Decodes a 8-bit signed integer number from the bytes starting at ``byte_offset``
 
 :ref:`int<class_int>` **decode_s16**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_s16>`
 
-Decodes a 16-bit signed integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero con signo de 16 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -426,7 +426,7 @@ Decodes a 16-bit signed integer number from the bytes starting at ``byte_offset`
 
 :ref:`int<class_int>` **decode_s32**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_s32>`
 
-Decodes a 32-bit signed integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero con signo de 32 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -438,7 +438,7 @@ Decodes a 32-bit signed integer number from the bytes starting at ``byte_offset`
 
 :ref:`int<class_int>` **decode_s64**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_s64>`
 
-Decodes a 64-bit signed integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero con signo de 64 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -450,7 +450,7 @@ Decodes a 64-bit signed integer number from the bytes starting at ``byte_offset`
 
 :ref:`int<class_int>` **decode_u8**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_u8>`
 
-Decodes a 8-bit unsigned integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero sin signo de 8 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -462,7 +462,7 @@ Decodes a 8-bit unsigned integer number from the bytes starting at ``byte_offset
 
 :ref:`int<class_int>` **decode_u16**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_u16>`
 
-Decodes a 16-bit unsigned integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero sin signo de 16 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -474,7 +474,7 @@ Decodes a 16-bit unsigned integer number from the bytes starting at ``byte_offse
 
 :ref:`int<class_int>` **decode_u32**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_u32>`
 
-Decodes a 32-bit unsigned integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero sin signo de 32 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ Decodes a 32-bit unsigned integer number from the bytes starting at ``byte_offse
 
 :ref:`int<class_int>` **decode_u64**\ (\ byte_offset\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_u64>`
 
-Decodes a 64-bit unsigned integer number from the bytes starting at ``byte_offset``. Fails if the byte count is insufficient. Returns ``0`` if a valid number can't be decoded.
+Decodifica un número entero sin signo de 64 bits de los bytes que empiezan en ``byte_offset``. Falla si el recuento de bytes es insuficiente. Devuelve ``0`` si no se puede decodificar un número válido.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Decodes a 64-bit unsigned integer number from the bytes starting at ``byte_offse
 
 :ref:`Variant<class_Variant>` **decode_var**\ (\ byte_offset\: :ref:`int<class_int>`, allow_objects\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_var>`
 
-Decodes a :ref:`Variant<class_Variant>` from the bytes starting at ``byte_offset``. Returns ``null`` if a valid variant can't be decoded or the value is :ref:`Object<class_Object>`-derived and ``allow_objects`` is ``false``.
+Decodifica un :ref:`Variant<class_Variant>` de los bytes que comienzan en ``byte_offset``. Devuelve ``null`` si no se puede decodificar un Variant válido o si el valor deriva de :ref:`Object<class_Object>` y ``allow_objects`` es ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -510,7 +510,7 @@ Decodes a :ref:`Variant<class_Variant>` from the bytes starting at ``byte_offset
 
 :ref:`int<class_int>` **decode_var_size**\ (\ byte_offset\: :ref:`int<class_int>`, allow_objects\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_PackedByteArray_method_decode_var_size>`
 
-Decodes a size of a :ref:`Variant<class_Variant>` from the bytes starting at ``byte_offset``. Requires at least 4 bytes of data starting at the offset, otherwise fails.
+Decodifica el tamaño de un :ref:`Variant<class_Variant>` de los bytes que empiezan en ``byte_offset``. Requiere al menos 4 bytes de datos a partir del desplazamiento, de lo contrario, falla.
 
 .. rst-class:: classref-item-separator
 
@@ -522,9 +522,9 @@ Decodes a size of a :ref:`Variant<class_Variant>` from the bytes starting at ``b
 
 :ref:`PackedByteArray<class_PackedByteArray>` **decompress**\ (\ buffer_size\: :ref:`int<class_int>`, compression_mode\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_PackedByteArray_method_decompress>`
 
-Returns a new **PackedByteArray** with the data decompressed. Set ``buffer_size`` to the size of the uncompressed data. Set the compression mode using one of :ref:`CompressionMode<enum_FileAccess_CompressionMode>`'s constants.
+Devuelve un nuevo **PackedByteArray** con los datos descomprimidos. Establece ``buffer_size`` al tamaño de los datos descomprimidos. Establece el modo de compresión utilizando una de las constantes de :ref:`CompressionMode<enum_FileAccess_CompressionMode>`.
 
-\ **Note:** Decompression is not guaranteed to work with data not compressed by Godot, for example if data compressed with the deflate compression mode lacks a checksum or header.
+\ **Nota:** No se garantiza que la descompresión funcione con datos no comprimidos por Godot; por ejemplo, si los datos comprimidos con el modo de compresión deflate carecen de una suma de comprobación o encabezado.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Creates a copy of the array, and returns it.
 
 |void| **encode_double**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_double>`
 
-Encodes a 64-bit floating-point number as bytes at the index of ``byte_offset`` bytes. The array must have at least 8 bytes of allocated space, starting at the offset.
+Codifica un número de punto flotante de 64 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 8 bytes de espacio asignado, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -578,7 +578,7 @@ Encodes a 64-bit floating-point number as bytes at the index of ``byte_offset`` 
 
 |void| **encode_float**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_float>`
 
-Encodes a 32-bit floating-point number as bytes at the index of ``byte_offset`` bytes. The array must have at least 4 bytes of space, starting at the offset.
+Codifica un número de punto flotante de 32 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 4 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -590,7 +590,7 @@ Encodes a 32-bit floating-point number as bytes at the index of ``byte_offset`` 
 
 |void| **encode_half**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_half>`
 
-Encodes a 16-bit floating-point number as bytes at the index of ``byte_offset`` bytes. The array must have at least 2 bytes of space, starting at the offset.
+Codifica un número de punto flotante de 16 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 2 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -602,7 +602,7 @@ Encodes a 16-bit floating-point number as bytes at the index of ``byte_offset`` 
 
 |void| **encode_s8**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_s8>`
 
-Encodes a 8-bit signed integer number (signed byte) at the index of ``byte_offset`` bytes. The array must have at least 1 byte of space, starting at the offset.
+Codifica un número entero con signo de 8 bits (byte con signo) como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 1 byte de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -614,7 +614,7 @@ Encodes a 8-bit signed integer number (signed byte) at the index of ``byte_offse
 
 |void| **encode_s16**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_s16>`
 
-Encodes a 16-bit signed integer number as bytes at the index of ``byte_offset`` bytes. The array must have at least 2 bytes of space, starting at the offset.
+Codifica un número entero con signo de 16 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 2 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -626,7 +626,7 @@ Encodes a 16-bit signed integer number as bytes at the index of ``byte_offset`` 
 
 |void| **encode_s32**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_s32>`
 
-Encodes a 32-bit signed integer number as bytes at the index of ``byte_offset`` bytes. The array must have at least 4 bytes of space, starting at the offset.
+Codifica un número entero con signo de 32 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 4 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -638,7 +638,7 @@ Encodes a 32-bit signed integer number as bytes at the index of ``byte_offset`` 
 
 |void| **encode_s64**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_s64>`
 
-Encodes a 64-bit signed integer number as bytes at the index of ``byte_offset`` bytes. The array must have at least 8 bytes of space, starting at the offset.
+Codifica un número entero con signo de 64 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 8 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -650,7 +650,7 @@ Encodes a 64-bit signed integer number as bytes at the index of ``byte_offset`` 
 
 |void| **encode_u8**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_u8>`
 
-Encodes a 8-bit unsigned integer number (byte) at the index of ``byte_offset`` bytes. The array must have at least 1 byte of space, starting at the offset.
+Codifica un número entero sin signo de 8 bits (byte) como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 1 byte de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ Encodes a 8-bit unsigned integer number (byte) at the index of ``byte_offset`` b
 
 |void| **encode_u16**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_u16>`
 
-Encodes a 16-bit unsigned integer number as bytes at the index of ``byte_offset`` bytes. The array must have at least 2 bytes of space, starting at the offset.
+Codifica un número entero sin signo de 16 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 2 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -674,7 +674,7 @@ Encodes a 16-bit unsigned integer number as bytes at the index of ``byte_offset`
 
 |void| **encode_u32**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_u32>`
 
-Encodes a 32-bit unsigned integer number as bytes at the index of ``byte_offset`` bytes. The array must have at least 4 bytes of space, starting at the offset.
+Codifica un número entero sin signo de 32 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 4 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -686,7 +686,7 @@ Encodes a 32-bit unsigned integer number as bytes at the index of ``byte_offset`
 
 |void| **encode_u64**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_encode_u64>`
 
-Encodes a 64-bit unsigned integer number as bytes at the index of ``byte_offset`` bytes. The array must have at least 8 bytes of space, starting at the offset.
+Codifica un número entero sin signo de 64 bits como bytes en el índice de ``byte_offset`` bytes. El array debe tener al menos 8 bytes de espacio, empezando en el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -698,7 +698,7 @@ Encodes a 64-bit unsigned integer number as bytes at the index of ``byte_offset`
 
 :ref:`int<class_int>` **encode_var**\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`Variant<class_Variant>`, allow_objects\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PackedByteArray_method_encode_var>`
 
-Encodes a :ref:`Variant<class_Variant>` at the index of ``byte_offset`` bytes. A sufficient space must be allocated, depending on the encoded variant's size. If ``allow_objects`` is ``false``, :ref:`Object<class_Object>`-derived values are not permitted and will instead be serialized as ID-only.
+Codifica un :ref:`Variant<class_Variant>` en el índice de ``byte_offset`` bytes. Se debe asignar un espacio suficiente, dependiendo del tamaño del variant codificado. Si ``allow_objects`` es ``false``, los valores derivados de :ref:`Object<class_Object>` no están permitidos y, en su lugar, se serializarán como ID-only.
 
 .. rst-class:: classref-item-separator
 
@@ -710,7 +710,7 @@ Encodes a :ref:`Variant<class_Variant>` at the index of ``byte_offset`` bytes. A
 
 :ref:`bool<class_bool>` **erase**\ (\ value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_erase>`
 
-Removes the first occurrence of a value from the array and returns ``true``. If the value does not exist in the array, nothing happens and ``false`` is returned. To remove an element by index, use :ref:`remove_at()<class_PackedByteArray_method_remove_at>` instead.
+Elimina la primera aparición de un valor del array y devuelve ``true``. Si el valor no existe en el array, no sucede nada y se devuelve ``false``. Para eliminar un elemento por índice, usa :ref:`remove_at()<class_PackedByteArray_method_remove_at>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -722,7 +722,7 @@ Removes the first occurrence of a value from the array and returns ``true``. If 
 
 |void| **fill**\ (\ value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedByteArray_method_fill>`
 
-Assigns the given value to all elements in the array. This can typically be used together with :ref:`resize()<class_PackedByteArray_method_resize>` to create an array with a given size and initialized elements.
+Asigna el valor dado a todos los elementos del array. Esto normalmente se puede usar junto con :ref:`resize()<class_PackedByteArray_method_resize>` para crear un array con un tamaño dado y elementos inicializados.
 
 .. rst-class:: classref-item-separator
 
@@ -734,7 +734,7 @@ Assigns the given value to all elements in the array. This can typically be used
 
 :ref:`int<class_int>` **find**\ (\ value\: :ref:`int<class_int>`, from\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_PackedByteArray_method_find>`
 
-Searches the array for a value and returns its index or ``-1`` if not found. Optionally, the initial search index can be passed.
+Busca un valor en el array y devuelve su índice o ``-1`` si no lo encuentra. Opcionalmente, se puede pasar el índice de búsqueda inicial.
 
 .. rst-class:: classref-item-separator
 
@@ -746,9 +746,9 @@ Searches the array for a value and returns its index or ``-1`` if not found. Opt
 
 :ref:`int<class_int>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_get>`
 
-Returns the byte at the given ``index`` in the array. If ``index`` out-of-bounds or negative, this method fails and returns ``0``.
+Devuelve el byte en el ``index`` dado en el array. Si ``index`` está fuera de los límites o es negativo, este método falla y devuelve ``0``.
 
-This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
+Este método es similar (pero no idéntico) al operador ``[]``. Principalmente, cuando este método falla, no pausa la ejecución del proyecto si se ejecuta desde el editor.
 
 .. rst-class:: classref-item-separator
 

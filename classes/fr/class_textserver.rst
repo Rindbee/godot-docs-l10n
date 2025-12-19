@@ -7,7 +7,7 @@ TextServer
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`TextServerExtension<class_TextServerExtension>`
+**Hérité par :** :ref:`TextServerExtension<class_TextServerExtension>`
 
 A server interface for font management and text rendering.
 
@@ -1815,7 +1815,7 @@ Renvoie le mode d'anticrénelage de la police.
 
 :ref:`float<class_float>` **font_get_ascent**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_ascent>`
 
-Returns the font ascent (number of pixels above the baseline).
+Renvoie l’ascendant de la police (le nombre de pixels au dessus de la ligne de base).
 
 .. rst-class:: classref-item-separator
 
@@ -1851,7 +1851,7 @@ Returns character code associated with ``glyph_index``, or ``0`` if ``glyph_inde
 
 :ref:`float<class_float>` **font_get_descent**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_descent>`
 
-Returns the font descent (number of pixels below the baseline).
+Renvoie le descendant de la police (le nombre de pixels en dessous de la ligne de base).
 
 .. rst-class:: classref-item-separator
 

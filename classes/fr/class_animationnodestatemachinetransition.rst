@@ -295,7 +295,7 @@ Le type de transition.
 - |void| **set_xfade_curve**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_xfade_curve**\ (\ )
 
-Ease curve for better control over cross-fade between this state and the next. Should be a unit :ref:`Curve<class_Curve>`.
+Courbe d'atténuation pour un meilleur contrôle du fondu enchaîné entre cet état et le prochain. Devrait être une :ref:`Curve<class_Curve>` unitaire.
 
 .. rst-class:: classref-item-separator
 
@@ -312,9 +312,9 @@ Ease curve for better control over cross-fade between this state and the next. S
 - |void| **set_xfade_time**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_xfade_time**\ (\ )
 
-The time to cross-fade between this state and the next.
+Le temps du fondu enchaîné entre cet état et le prochain.
 
-\ **Note:** :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>` transitions the current state immediately after the start of the fading. The precise remaining time can only be inferred from the main animation. When :ref:`AnimationNodeOutput<class_AnimationNodeOutput>` is considered as the most upstream, so the :ref:`xfade_time<class_AnimationNodeStateMachineTransition_property_xfade_time>` is not scaled depending on the downstream delta. See also :ref:`AnimationNodeOneShot.fadeout_time<class_AnimationNodeOneShot_property_fadeout_time>`.
+\ **Note :** :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>` transitionne de l'état actuel immédiatement après le début du fondu. Le temps restant précis ne peut être déduit que de l'animation principale. Si :ref:`AnimationNodeOutput<class_AnimationNodeOutput>` est considéré comme le plus en amont, le :ref:`xfade_time<class_AnimationNodeStateMachineTransition_property_xfade_time>` n'est pas échelonné selon le delta de l'aval. Voir aussi :ref:`AnimationNodeOneShot.fadeout_time<class_AnimationNodeOneShot_property_fadeout_time>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

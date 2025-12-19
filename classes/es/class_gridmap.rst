@@ -194,7 +194,7 @@ Descripciones de Propiedades
 - |void| **set_bake_navigation**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_baking_navigation**\ (\ )
 
-If ``true``, this GridMap creates a navigation region for each cell that uses a :ref:`mesh_library<class_GridMap_property_mesh_library>` item with a navigation mesh. The created navigation region will use the navigation layers bitmask assigned to the :ref:`MeshLibrary<class_MeshLibrary>`'s item.
+Si es ``true``, este GridMap crea una región de navegación para cada celda que utiliza un elemento :ref:`mesh_library<class_GridMap_property_mesh_library>` con una malla de navegación. La región de navegación creada utilizará la máscara de bits de las capas de navegación asignada al elemento de :ref:`MeshLibrary<class_MeshLibrary>`.
 
 .. rst-class:: classref-item-separator
 
@@ -502,7 +502,7 @@ The orientation of the cell at the given grid coordinates. ``-1`` is returned if
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GridMap_method_get_collision_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_layer<class_GridMap_property_collision_layer>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_layer<class_GridMap_property_collision_layer>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -514,7 +514,7 @@ Returns whether or not the specified layer of the :ref:`collision_layer<class_Gr
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GridMap_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_mask<class_GridMap_property_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_mask<class_GridMap_property_collision_mask>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -576,7 +576,7 @@ Devuelve un array de :ref:`Vector3<class_Vector3>` con las coordenadas de la cel
 
 :ref:`Array<class_Array>`\[:ref:`Vector3i<class_Vector3i>`\] **get_used_cells_by_item**\ (\ item\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GridMap_method_get_used_cells_by_item>`
 
-Returns an array of all cells with the given item index specified in ``item``.
+Devuelve un array de todas las celdas con el índice del ítem dado en ``item``.
 
 .. rst-class:: classref-item-separator
 
@@ -588,7 +588,7 @@ Returns an array of all cells with the given item index specified in ``item``.
 
 :ref:`Vector3i<class_Vector3i>` **local_to_map**\ (\ local_position\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_GridMap_method_local_to_map>`
 
-Returns the map coordinates of the cell containing the given ``local_position``. If ``local_position`` is in global coordinates, consider using :ref:`Node3D.to_local()<class_Node3D_method_to_local>` before passing it to this method. See also :ref:`map_to_local()<class_GridMap_method_map_to_local>`.
+Devuelve las coordenadas del mapa de la celda que contiene la ``local_position`` dada. Si ``local_position`` está en coordenadas globales, considera usar :ref:`Node3D.to_local()<class_Node3D_method_to_local>` antes de pasarla a este método. Véase también :ref:`map_to_local()<class_GridMap_method_map_to_local>`.
 
 .. rst-class:: classref-item-separator
 
@@ -600,9 +600,9 @@ Returns the map coordinates of the cell containing the given ``local_position``.
 
 |void| **make_baked_meshes**\ (\ gen_lightmap_uv\: :ref:`bool<class_bool>` = false, lightmap_uv_texel_size\: :ref:`float<class_float>` = 0.1\ ) :ref:`🔗<class_GridMap_method_make_baked_meshes>`
 
-Generates a baked mesh that represents all meshes in the assigned :ref:`MeshLibrary<class_MeshLibrary>` for use with :ref:`LightmapGI<class_LightmapGI>`. If ``gen_lightmap_uv`` is ``true``, UV2 data will be generated for each mesh currently used in the **GridMap**. Otherwise, only meshes that already have UV2 data present will be able to use baked lightmaps. When generating UV2, ``lightmap_uv_texel_size`` controls the texel density for lightmaps, with lower values resulting in more detailed lightmaps. ``lightmap_uv_texel_size`` is ignored if ``gen_lightmap_uv`` is ``false``. See also :ref:`get_bake_meshes()<class_GridMap_method_get_bake_meshes>`, which relies on the output of this method.
+Genera una malla procesada que representa todas las mallas en la :ref:`MeshLibrary<class_MeshLibrary>` asignada para su uso con :ref:`LightmapGI<class_LightmapGI>`. Si ``gen_lightmap_uv`` es ``true``, se generarán datos UV2 para cada malla utilizada actualmente en **GridMap**. De lo contrario, solo las mallas que ya tengan datos UV2 presentes podrán usar lightmaps procesados. Al generar UV2, ``lightmap_uv_texel_size`` controla la densidad de texeles para los lightmaps, con valores más bajos que dan como resultado lightmaps más detallados. ``lightmap_uv_texel_size`` se ignora si ``gen_lightmap_uv`` es ``false``. Consulta también :ref:`get_bake_meshes()<class_GridMap_method_get_bake_meshes>`, que se basa en la salida de este método.
 
-\ **Note:** Calling this method will not actually bake lightmaps, as lightmap baking is performed using the :ref:`LightmapGI<class_LightmapGI>` node.
+\ **Nota:** Llamar a este método no procesará realmente los lightmaps, ya que el procesado del lightmap se realiza utilizando el nodo :ref:`LightmapGI<class_LightmapGI>`.
 
 .. rst-class:: classref-item-separator
 
@@ -614,7 +614,7 @@ Generates a baked mesh that represents all meshes in the assigned :ref:`MeshLibr
 
 :ref:`Vector3<class_Vector3>` **map_to_local**\ (\ map_position\: :ref:`Vector3i<class_Vector3i>`\ ) |const| :ref:`🔗<class_GridMap_method_map_to_local>`
 
-Returns the position of a grid cell in the GridMap's local coordinate space. To convert the returned value into global coordinates, use :ref:`Node3D.to_global()<class_Node3D_method_to_global>`. See also :ref:`local_to_map()<class_GridMap_method_local_to_map>`.
+Devuelve la posición de una celda de la cuadrícula en el espacio de coordenadas local de GridMap. Para convertir el valor devuelto en coordenadas globales, usa :ref:`Node3D.to_global()<class_Node3D_method_to_global>`. Véase también :ref:`local_to_map()<class_GridMap_method_local_to_map>`.
 
 .. rst-class:: classref-item-separator
 
@@ -640,11 +640,11 @@ Este método no hace nada.
 
 |void| **set_cell_item**\ (\ position\: :ref:`Vector3i<class_Vector3i>`, item\: :ref:`int<class_int>`, orientation\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_GridMap_method_set_cell_item>`
 
-Sets the mesh index for the cell referenced by its grid coordinates.
+Establece el índice de la malla para la celda referenciada por sus coordenadas de la cuadrícula.
 
-A negative item index such as :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` will clear the cell.
+Un índice de elemento negativo como :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` borrará la celda.
 
-Optionally, the item's orientation can be passed. For valid orientation values, see :ref:`get_orthogonal_index_from_basis()<class_GridMap_method_get_orthogonal_index_from_basis>`.
+Opcionalmente, se puede pasar la orientación del elemento. Para ver los valores de orientación válidos, véase :ref:`get_orthogonal_index_from_basis()<class_GridMap_method_get_orthogonal_index_from_basis>`.
 
 .. rst-class:: classref-item-separator
 
@@ -656,7 +656,7 @@ Optionally, the item's orientation can be passed. For valid orientation values, 
 
 |void| **set_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_GridMap_method_set_collision_layer_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_layer<class_GridMap_property_collision_layer>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_layer<class_GridMap_property_collision_layer>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -668,7 +668,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`collisi
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_GridMap_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_mask<class_GridMap_property_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_mask<class_GridMap_property_collision_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 

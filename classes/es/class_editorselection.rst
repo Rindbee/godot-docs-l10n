@@ -72,9 +72,9 @@ Descripciones de Métodos
 
 |void| **add_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorSelection_method_add_node>`
 
-Adds a node to the selection.
+Añade un nodo a la selección.
 
-\ **Note:** The newly selected node will not be automatically edited in the inspector. If you want to edit a node, use :ref:`EditorInterface.edit_node()<class_EditorInterface_method_edit_node>`.
+\ **Nota:** El nodo recién seleccionado no se editará automáticamente en el inspector. Si quieres editar un nodo, usa :ref:`EditorInterface.edit_node()<class_EditorInterface_method_edit_node>`.
 
 .. rst-class:: classref-item-separator
 
@@ -110,9 +110,9 @@ Devuelve la lista de nodos seleccionados.
 
 :ref:`Array<class_Array>`\[:ref:`Node<class_Node>`\] **get_top_selected_nodes**\ (\ ) :ref:`🔗<class_EditorSelection_method_get_top_selected_nodes>`
 
-Returns the list of top selected nodes only, excluding any children. This is useful for performing transform operations (moving them, rotating, etc.).
+Devuelve la lista de los nodos seleccionados de nivel superior únicamente, excluyendo cualquier hijo. Esto es útil para realizar operaciones de transformación (moverlos, rotarlos, etc.).
 
-For example, if there is a node A with a child B and a sibling C, then selecting all three will cause this method to return only A and C. Changing the global transform of A will affect the global transform of B, so there is no need to change B separately.
+Por ejemplo, si hay un nodo A con un hijo B y un hermano C, entonces seleccionar los tres hará que este método devuelva solo A y C. Cambiar la transformación global de A afectará a la transformación global de B, por lo que no hay necesidad de cambiar B por separado.
 
 .. rst-class:: classref-item-separator
 

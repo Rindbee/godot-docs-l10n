@@ -334,7 +334,7 @@ The quadrant size does not apply on Y-sorted layers, as tiles are grouped by Y p
 - |void| **set_tileset**\ (\ value\: :ref:`TileSet<class_TileSet>`\ )
 - :ref:`TileSet<class_TileSet>` **get_tileset**\ (\ )
 
-The :ref:`TileSet<class_TileSet>` used by this **TileMap**. The textures, collisions, and additional behavior of all available tiles are stored here.
+Le :ref:`TileSet<class_TileSet>` utilisé par cette **TileMap**. Les textures, les collisions et le comportement supplémentaire de toutes les tuiles disponibles sont stockés ici.
 
 .. rst-class:: classref-section-separator
 
@@ -621,9 +621,9 @@ If ``layer`` is negative, the layers are accessed from the last one.
 
 :ref:`int<class_int>` **get_layer_z_index**\ (\ layer\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileMap_method_get_layer_z_index>`
 
-Returns a TileMap layer's Z-index value.
+Renvoie la valeur Z-index d'une couche TileMap.
 
-If ``layer`` is negative, the layers are accessed from the last one.
+Si ``layer`` est négative, les couches sont accédées en commençant par la dernière.
 
 .. rst-class:: classref-item-separator
 
@@ -649,7 +649,7 @@ Renvoie le nombre de couches dans la TileMap.
 
 **Obsolète :** Use :ref:`get_layer_navigation_map()<class_TileMap_method_get_layer_navigation_map>` instead.
 
-Returns the :ref:`RID<class_RID>` of the :ref:`NavigationServer2D<class_NavigationServer2D>` navigation map assigned to the specified TileMap layer ``layer``.
+Renvoie le :ref:`RID<class_RID>` de la carte de navigation du :ref:`NavigationServer2D<class_NavigationServer2D>` assignée à la couche de la TileMap spécifiée ``layer``.
 
 .. rst-class:: classref-item-separator
 
@@ -661,7 +661,7 @@ Returns the :ref:`RID<class_RID>` of the :ref:`NavigationServer2D<class_Navigati
 
 :ref:`Vector2i<class_Vector2i>` **get_neighbor_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, neighbor\: :ref:`CellNeighbor<enum_TileSet_CellNeighbor>`\ ) |const| :ref:`🔗<class_TileMap_method_get_neighbor_cell>`
 
-Returns the neighboring cell to the one at coordinates ``coords``, identified by the ``neighbor`` direction. This method takes into account the different layouts a TileMap can take.
+Renvoie la cellule voisine à celle aux coordonnées ``coords``, identifiée par la direction ``neighbor``. Cette méthode prend en compte les différentes dispositions qu'une TileMap peut prendre.
 
 .. rst-class:: classref-item-separator
 
@@ -805,9 +805,9 @@ Returns if a layer's built-in navigation regions generation is enabled.
 
 :ref:`bool<class_bool>` **is_layer_y_sort_enabled**\ (\ layer\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TileMap_method_is_layer_y_sort_enabled>`
 
-Returns if a layer Y-sorts its tiles.
+Renvoie si une couche trie en Y ses tuiles.
 
-If ``layer`` is negative, the layers are accessed from the last one.
+Si ``layer`` est négatif, les couches sont accédées en commençant par la dernière.
 
 .. rst-class:: classref-item-separator
 
@@ -819,7 +819,7 @@ If ``layer`` is negative, the layers are accessed from the last one.
 
 :ref:`Vector2i<class_Vector2i>` **local_to_map**\ (\ local_position\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_TileMap_method_local_to_map>`
 
-Returns the map coordinates of the cell containing the given ``local_position``. If ``local_position`` is in global coordinates, consider using :ref:`Node2D.to_local()<class_Node2D_method_to_local>` before passing it to this method. See also :ref:`map_to_local()<class_TileMap_method_map_to_local>`.
+Renvoie les coordonnées de grille de la cellule contenant la ``local_position`` donnée. Si ``local_position`` est dans les coordonnées globales, envisagez d'utiliser :ref:`Node2D.to_local()<class_Node2D_method_to_local>` avant de les transmettre à cette méthode. Voir aussi :ref:`map_to_local()<class_TileMap_method_map_to_local>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1077,7 +1077,7 @@ If ``layer`` is negative, the layers are accessed from the last one.
 
 **Obsolète :** Use :ref:`set_layer_navigation_map()<class_TileMap_method_set_layer_navigation_map>` instead.
 
-Assigns ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` navigation map for the specified TileMap layer ``layer``.
+Assigne ``map`` comme carte de navigation du :ref:`NavigationServer2D<class_NavigationServer2D>` pour la couche de TileMap ``layer`` spécifiée.
 
 .. rst-class:: classref-item-separator
 
@@ -1089,9 +1089,9 @@ Assigns ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` navigat
 
 |void| **set_pattern**\ (\ layer\: :ref:`int<class_int>`, position\: :ref:`Vector2i<class_Vector2i>`, pattern\: :ref:`TileMapPattern<class_TileMapPattern>`\ ) :ref:`🔗<class_TileMap_method_set_pattern>`
 
-Paste the given :ref:`TileMapPattern<class_TileMapPattern>` at the given ``position`` and ``layer`` in the tile map.
+Colle le :ref:`TileMapPattern<class_TileMapPattern>` donné à la ``position`` et la couche ``layer`` donnés dans la tile map.
 
-If ``layer`` is negative, the layers are accessed from the last one.
+Si ``layer`` est négatif, les couches sont accédées en commençant par la dernière.
 
 .. rst-class:: classref-item-separator
 

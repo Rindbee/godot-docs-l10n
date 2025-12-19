@@ -509,7 +509,7 @@ Descripciones de Métodos
 
 |void| **clear_current**\ (\ enable_next\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_Camera3D_method_clear_current>`
 
-If this is the current camera, remove it from being current. If ``enable_next`` is ``true``, request to make the next camera current, if any.
+Si esta es la cámara actual, dejar de usarla. Si ``enable_next`` es ``true``, se solicitará usar la siguiente cámara, si existe.
 
 .. rst-class:: classref-item-separator
 
@@ -521,7 +521,7 @@ If this is the current camera, remove it from being current. If ``enable_next`` 
 
 :ref:`Projection<class_Projection>` **get_camera_projection**\ (\ ) |const| :ref:`🔗<class_Camera3D_method_get_camera_projection>`
 
-Returns the projection matrix that this camera uses to render to its associated viewport. The camera must be part of the scene tree to function.
+Devuelve la matriz de proyección que esta cámara utiliza para renderizar a su viewport asociado. La cámara debe ser parte del árbol de la escena para funcionar.
 
 .. rst-class:: classref-item-separator
 
@@ -533,7 +533,7 @@ Returns the projection matrix that this camera uses to render to its associated 
 
 :ref:`RID<class_RID>` **get_camera_rid**\ (\ ) |const| :ref:`🔗<class_Camera3D_method_get_camera_rid>`
 
-Returns the camera's RID from the :ref:`RenderingServer<class_RenderingServer>`.
+Devuelve el RID de la cámara desde el :ref:`RenderingServer<class_RenderingServer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -545,7 +545,7 @@ Returns the camera's RID from the :ref:`RenderingServer<class_RenderingServer>`.
 
 :ref:`Transform3D<class_Transform3D>` **get_camera_transform**\ (\ ) |const| :ref:`🔗<class_Camera3D_method_get_camera_transform>`
 
-Returns the transform of the camera plus the vertical (:ref:`v_offset<class_Camera3D_property_v_offset>`) and horizontal (:ref:`h_offset<class_Camera3D_property_h_offset>`) offsets; and any other adjustments made to the position and orientation of the camera by subclassed cameras such as :ref:`XRCamera3D<class_XRCamera3D>`.
+Devuelve la transformación de la cámara más los desplazamientos verticales (:ref:`v_offset<class_Camera3D_property_v_offset>`) y horizontales (:ref:`h_offset<class_Camera3D_property_h_offset>`); y cualquier otro ajuste realizado a la posición y orientación de la cámara por las cámaras subclasificadas como :ref:`XRCamera3D<class_XRCamera3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -557,7 +557,7 @@ Returns the transform of the camera plus the vertical (:ref:`v_offset<class_Came
 
 :ref:`bool<class_bool>` **get_cull_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Camera3D_method_get_cull_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`cull_mask<class_Camera3D_property_cull_mask>` is enabled, given a ``layer_number`` between 1 and 20.
+Devuelve si la capa especificada de :ref:`cull_mask<class_Camera3D_property_cull_mask>` está habilitada, dado un ``layer_number`` entre 1 y 20.
 
 .. rst-class:: classref-item-separator
 
@@ -569,7 +569,7 @@ Returns whether or not the specified layer of the :ref:`cull_mask<class_Camera3D
 
 :ref:`Array<class_Array>`\[:ref:`Plane<class_Plane>`\] **get_frustum**\ (\ ) |const| :ref:`🔗<class_Camera3D_method_get_frustum>`
 
-Returns the camera's frustum planes in world space units as an array of :ref:`Plane<class_Plane>`\ s in the following order: near, far, left, top, right, bottom. Not to be confused with :ref:`frustum_offset<class_Camera3D_property_frustum_offset>`.
+Devuelve los planos del frustum de la cámara en unidades del espacio mundial como un array de :ref:`Plane<class_Plane>`\ s en el siguiente orden: cerca, lejos, izquierda, arriba, derecha, abajo. No confundir con :ref:`frustum_offset<class_Camera3D_property_frustum_offset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -581,7 +581,7 @@ Returns the camera's frustum planes in world space units as an array of :ref:`Pl
 
 :ref:`RID<class_RID>` **get_pyramid_shape_rid**\ (\ ) :ref:`🔗<class_Camera3D_method_get_pyramid_shape_rid>`
 
-Returns the RID of a pyramid shape encompassing the camera's view frustum, ignoring the camera's near plane. The tip of the pyramid represents the position of the camera.
+Devuelve el RID de una forma piramidal que abarca el frustum de visión de la cámara, ignorando el plano cercano de la cámara. La punta de la pirámide representa la posición de la cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -593,9 +593,9 @@ Returns the RID of a pyramid shape encompassing the camera's view frustum, ignor
 
 :ref:`bool<class_bool>` **is_position_behind**\ (\ world_point\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_Camera3D_method_is_position_behind>`
 
-Returns ``true`` if the given position is behind the camera (the blue part of the linked diagram). `See this diagram <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/camera3d_position_frustum.png>`__ for an overview of position query methods.
+Devuelve ``true`` si la posición dada está detrás de la cámara (la parte azul del diagrama enlazado). `Consulta este diagrama <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/camera3d_position_frustum.png>`__ para obtener una visión general de los métodos de consulta de posición.
 
-\ **Note:** A position which returns ``false`` may still be outside the camera's field of view.
+\ **Nota:** Una posición que devuelva ``false`` aún puede estar fuera del campo de visión de la cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -607,7 +607,7 @@ Returns ``true`` if the given position is behind the camera (the blue part of th
 
 :ref:`bool<class_bool>` **is_position_in_frustum**\ (\ world_point\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_Camera3D_method_is_position_in_frustum>`
 
-Returns ``true`` if the given position is inside the camera's frustum (the green part of the linked diagram). `See this diagram <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/camera3d_position_frustum.png>`__ for an overview of position query methods.
+Devuelve ``true`` si la posición dada está dentro del frustum de la cámara (la parte verde del diagrama enlazado). `Consulta este diagrama <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/camera3d_position_frustum.png>`__ para obtener una visión general de los métodos de consulta de posición.
 
 .. rst-class:: classref-item-separator
 
@@ -643,7 +643,7 @@ Devuelve un vector normal de la ubicación del punto de la pantalla dirigido a l
 
 :ref:`Vector3<class_Vector3>` **project_position**\ (\ screen_point\: :ref:`Vector2<class_Vector2>`, z_depth\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Camera3D_method_project_position>`
 
-Returns the 3D point in world space that maps to the given 2D coordinate in the :ref:`Viewport<class_Viewport>` rectangle on a plane that is the given ``z_depth`` distance into the scene away from the camera.
+Devuelve el punto 3D en el espacio mundial que se corresponde con la coordenada 2D dada en el rectángulo del :ref:`Viewport<class_Viewport>`, en un plano que está a la distancia ``z_depth`` en la escena, alejado de la cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -655,7 +655,7 @@ Returns the 3D point in world space that maps to the given 2D coordinate in the 
 
 :ref:`Vector3<class_Vector3>` **project_ray_normal**\ (\ screen_point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Camera3D_method_project_ray_normal>`
 
-Returns a normal vector in world space, that is the result of projecting a point on the :ref:`Viewport<class_Viewport>` rectangle by the inverse camera projection. This is useful for casting rays in the form of (origin, normal) for object intersection or picking.
+Devuelve un vector normal en el espacio mundial, que es el resultado de proyectar un punto en el rectángulo del :ref:`Viewport<class_Viewport>` mediante la proyección inversa de la cámara. Esto es útil para lanzar rayos en forma de (origen, normal) para la intersección o selección de objetos.
 
 .. rst-class:: classref-item-separator
 
@@ -667,7 +667,7 @@ Returns a normal vector in world space, that is the result of projecting a point
 
 :ref:`Vector3<class_Vector3>` **project_ray_origin**\ (\ screen_point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Camera3D_method_project_ray_origin>`
 
-Returns a 3D position in world space, that is the result of projecting a point on the :ref:`Viewport<class_Viewport>` rectangle by the inverse camera projection. This is useful for casting rays in the form of (origin, normal) for object intersection or picking.
+Devuelve una posición 3D en el espacio mundial, que es el resultado de proyectar un punto en el rectángulo del :ref:`Viewport<class_Viewport>` mediante la proyección inversa de la cámara. Esto es útil para lanzar rayos en forma de (origen, normal) para la intersección o selección de objetos.
 
 .. rst-class:: classref-item-separator
 
@@ -679,7 +679,7 @@ Returns a 3D position in world space, that is the result of projecting a point o
 
 |void| **set_cull_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Camera3D_method_set_cull_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`cull_mask<class_Camera3D_property_cull_mask>`, given a ``layer_number`` between 1 and 20.
+Según ``value``, activa o desactiva la capa especificada en el :ref:`cull_mask<class_Camera3D_property_cull_mask>`, dado un ``layer_number`` entre 1 y 20.
 
 .. rst-class:: classref-item-separator
 
@@ -691,7 +691,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`cull_ma
 
 |void| **set_frustum**\ (\ size\: :ref:`float<class_float>`, offset\: :ref:`Vector2<class_Vector2>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Camera3D_method_set_frustum>`
 
-Sets the camera projection to frustum mode (see :ref:`PROJECTION_FRUSTUM<class_Camera3D_constant_PROJECTION_FRUSTUM>`), by specifying a ``size``, an ``offset``, and the ``z_near`` and ``z_far`` clip planes in world space units. See also :ref:`frustum_offset<class_Camera3D_property_frustum_offset>`.
+Establece la proyección de la cámara en modo frustum (véase :ref:`PROJECTION_FRUSTUM<class_Camera3D_constant_PROJECTION_FRUSTUM>`), especificando un ``size``, un ``offset``, y los planos de recorte ``z_near`` y ``z_far`` en unidades del espacio mundial. Véase también :ref:`frustum_offset<class_Camera3D_property_frustum_offset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -703,9 +703,9 @@ Sets the camera projection to frustum mode (see :ref:`PROJECTION_FRUSTUM<class_C
 
 |void| **set_orthogonal**\ (\ size\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Camera3D_method_set_orthogonal>`
 
-Sets the camera projection to orthogonal mode (see :ref:`PROJECTION_ORTHOGONAL<class_Camera3D_constant_PROJECTION_ORTHOGONAL>`), by specifying a ``size``, and the ``z_near`` and ``z_far`` clip planes in world space units.
+Establece la proyección de la cámara en modo ortogonal (véase :ref:`PROJECTION_ORTHOGONAL<class_Camera3D_constant_PROJECTION_ORTHOGONAL>`), especificando un ``size``, y los planos de recorte ``z_near`` y ``z_far`` en unidades del espacio mundial.
 
-As a hint, 3D games that look 2D often use this projection, with ``size`` specified in pixels.
+Como sugerencia, los juegos 3D que parecen 2D a menudo usan esta proyección, con ``size`` especificado en píxeles.
 
 .. rst-class:: classref-item-separator
 
@@ -717,7 +717,7 @@ As a hint, 3D games that look 2D often use this projection, with ``size`` specif
 
 |void| **set_perspective**\ (\ fov\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Camera3D_method_set_perspective>`
 
-Sets the camera projection to perspective mode (see :ref:`PROJECTION_PERSPECTIVE<class_Camera3D_constant_PROJECTION_PERSPECTIVE>`), by specifying a ``fov`` (field of view) angle in degrees, and the ``z_near`` and ``z_far`` clip planes in world space units.
+Establece la proyección de la cámara en modo de perspectiva (véase :ref:`PROJECTION_PERSPECTIVE<class_Camera3D_constant_PROJECTION_PERSPECTIVE>`), especificando un ángulo ``fov`` (campo de visión) en grados, y los planos de recorte ``z_near`` y ``z_far`` en unidades del espacio mundial.
 
 .. rst-class:: classref-item-separator
 

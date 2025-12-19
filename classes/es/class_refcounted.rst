@@ -66,7 +66,7 @@ Descripciones de Métodos
 
 :ref:`int<class_int>` **get_reference_count**\ (\ ) |const| :ref:`🔗<class_RefCounted_method_get_reference_count>`
 
-Returns the current reference count.
+Devuelve el contador de referencia actual.
 
 .. rst-class:: classref-item-separator
 
@@ -106,9 +106,9 @@ Devuelve ``true`` si el incremento fue exitoso, ``false`` en caso contrario.
 
 :ref:`bool<class_bool>` **unreference**\ (\ ) :ref:`🔗<class_RefCounted_method_unreference>`
 
-Decrements the internal reference counter. Use this only if you really know what you are doing.
+Decrementa el contador de referencia interno. Usa esto solo si realmente sabes lo que estás haciendo.
 
-Returns ``true`` if the object should be freed after the decrement, ``false`` otherwise.
+Devuelve ``true`` si el objeto debe ser liberado después del decremento, ``false`` en caso contrario.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,7 +7,7 @@ EditorExportPlatformExtension
 
 **Hérite de :** :ref:`EditorExportPlatform<class_EditorExportPlatform>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Base class for custom :ref:`EditorExportPlatform<class_EditorExportPlatform>` implementations (plugins).
+Classe de base pour des implémentations de :ref:`EditorExportPlatform<class_EditorExportPlatform>` personnalisées (plugins).
 
 .. rst-class:: classref-introduction-group
 

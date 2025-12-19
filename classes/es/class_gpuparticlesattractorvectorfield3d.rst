@@ -7,7 +7,7 @@ GPUParticlesAttractorVectorField3D
 
 **Hereda:** :ref:`GPUParticlesAttractor3D<class_GPUParticlesAttractor3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A box-shaped attractor with varying directions and strengths defined in it that influences particles from :ref:`GPUParticles3D<class_GPUParticles3D>` nodes.
+Un atractor con forma de caja con diferentes direcciones y fuerzas definidas en él que influye en las partículas de los nodos :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -56,7 +56,7 @@ Descripciones de Propiedades
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The size of the vector field box in 3D units.
+El tamaño de la caja del campo vectorial en unidades 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -73,9 +73,9 @@ The size of the vector field box in 3D units.
 - |void| **set_texture**\ (\ value\: :ref:`Texture3D<class_Texture3D>`\ )
 - :ref:`Texture3D<class_Texture3D>` **get_texture**\ (\ )
 
-The 3D texture to be used. Values are linearly interpolated between the texture's pixels.
+La textura 3D que se va a utilizar. Los valores se interpolan linealmente entre los píxeles de la textura.
 
-\ **Note:** To get better performance, the 3D texture's resolution should reflect the :ref:`size<class_GPUParticlesAttractorVectorField3D_property_size>` of the attractor. Since particle attraction is usually low-frequency data, the texture can be kept at a low resolution such as 64×64×64.
+\ **Nota:** Para obtener un mejor rendimiento, la resolución de la textura 3D debería reflejar el :ref:`size<class_GPUParticlesAttractorVectorField3D_property_size>` del atractor. Dado que la atracción de partículas suele ser información de baja frecuencia, la textura puede mantenerse a una resolución baja, como 64×64×64.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

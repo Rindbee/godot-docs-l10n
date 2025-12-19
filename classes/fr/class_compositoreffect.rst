@@ -16,7 +16,7 @@ Cette ressource permet de créer un effet de rendu personnalisé.
 Description
 -----------
 
-This resource defines a custom rendering effect that can be applied to :ref:`Viewport<class_Viewport>`\ s through the viewports' :ref:`Environment<class_Environment>`. You can implement a callback that is called during rendering at a given stage of the rendering pipeline and allows you to insert additional passes. Note that this callback happens on the rendering thread. CompositorEffect is an abstract base class and must be extended to implement specific rendering logic.
+Cette ressource définit un effet de rendu personnalisé qui peut être appliqué à des :ref:`Viewport<class_Viewport>`\ s par l'intermédiaire de l'environnement :ref:`Environment<class_Environment>`. Vous pouvez implémenter un callback qui est appelé lors du rendu à une étape donnée de la pipeline de rendu et vous permet d'insérer des passes supplémentaires. Notez que cet appel se produit sur le thread de rendu. CompositorEffect est une classe de base abstraite et doit être étendue pour implémenter une logique de rendu spécifique.
 
 .. rst-class:: classref-introduction-group
 
@@ -82,7 +82,7 @@ enum **EffectCallbackType**: :ref:`🔗<enum_CompositorEffect_EffectCallbackType
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_PRE_OPAQUE** = ``0``
 
-The callback is called before our opaque rendering pass, but after depth prepass (if applicable).
+Le callback est appelé avant notre passe de rendu opaque, mais après la pré-passe de profondeur (le cas échéant).
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_POST_OPAQUE:
 
@@ -90,7 +90,7 @@ The callback is called before our opaque rendering pass, but after depth prepass
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_POST_OPAQUE** = ``1``
 
-The callback is called after our opaque rendering pass, but before our sky is rendered.
+Le callback est appelé après notre passe de rendu opaque, mais avant que notre ciel soit rendu.
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_POST_SKY:
 
@@ -304,7 +304,7 @@ Descriptions des méthodes
 
 |void| **_render_callback**\ (\ effect_callback_type\: :ref:`int<class_int>`, render_data\: :ref:`RenderData<class_RenderData>`\ ) |virtual| :ref:`🔗<class_CompositorEffect_private_method__render_callback>`
 
-Implement this function with your custom rendering code. ``effect_callback_type`` should always match the effect callback type you've specified in :ref:`effect_callback_type<class_CompositorEffect_property_effect_callback_type>`. ``render_data`` provides access to the rendering state, it is only valid during rendering and should not be stored.
+Implémentez cette fonction avec votre code de rendu personnalisé. ``effect_callback_type`` doit toujours correspondre au type du callback d'effet que vous avez spécifié dans :ref:`effect_callback_type<class_CompositorEffect_property_effect_callback_type>`. ``render_data`` donne accès à l'état du rendu, il n'est valable que pendant le rendu et ne doit pas être stocké.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

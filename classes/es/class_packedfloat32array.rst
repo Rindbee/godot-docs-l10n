@@ -137,7 +137,7 @@ Construye un :ref:`PackedInt64Array<class_PackedInt64Array>` vacío.
 
 :ref:`PackedFloat32Array<class_PackedFloat32Array>` **PackedFloat32Array**\ (\ from\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ )
 
-Constructs a **PackedFloat32Array** as a copy of the given **PackedFloat32Array**.
+Construye un nuevo **PackedFloat32Array** como copia del **PackedFloat32Array** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -147,7 +147,7 @@ Constructs a **PackedFloat32Array** as a copy of the given **PackedFloat32Array*
 
 :ref:`PackedFloat32Array<class_PackedFloat32Array>` **PackedFloat32Array**\ (\ from\: :ref:`Array<class_Array>`\ )
 
-Constructs a new **PackedFloat32Array**. Optionally, you can pass in a generic :ref:`Array<class_Array>` that will be converted.
+Construye un nuevo **PackedFloat32Array**. Opcionalmente, puedes pasar un :ref:`Array<class_Array>` genérico que será convertido.
 
 .. rst-class:: classref-section-separator
 
@@ -176,7 +176,7 @@ Concatena un elemento al final del array (alias de :ref:`push_back()<class_Packe
 
 |void| **append_array**\ (\ array\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) :ref:`🔗<class_PackedFloat32Array_method_append_array>`
 
-Appends a **PackedFloat32Array** at the end of this array.
+Añade un **PackedFloat32Array** al final de este array.
 
 .. rst-class:: classref-item-separator
 
@@ -188,11 +188,11 @@ Appends a **PackedFloat32Array** at the end of this array.
 
 :ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`float<class_float>`, before\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_PackedFloat32Array_method_bsearch>`
 
-Finds the index of an existing value (or the insertion index that maintains sorting order, if the value is not yet present in the array) using binary search. Optionally, a ``before`` specifier can be passed. If ``false``, the returned index comes after all existing entries of the value in the array.
+Encuentra el índice de un valor existente (o el índice de inserción que mantiene el orden de clasificación, si el valor aún no está presente en el array) utilizando la búsqueda binaria. Opcionalmente, se puede pasar un especificador ``before``. Si es ``false``, el índice devuelto aparece después de todas las entradas existentes del valor en el array.
 
-\ **Note:** Calling :ref:`bsearch()<class_PackedFloat32Array_method_bsearch>` on an unsorted array results in unexpected behavior.
+\ **Nota:** Llamar a :ref:`bsearch()<class_PackedFloat32Array_method_bsearch>` en un array no ordenado resulta en un comportamiento inesperado.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this method may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este método pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -216,9 +216,9 @@ Limpia el array. Esto es equivalente a usar :ref:`resize()<class_PackedFloat32Ar
 
 :ref:`int<class_int>` **count**\ (\ value\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_PackedFloat32Array_method_count>`
 
-Returns the number of times an element is in the array.
+Devuelve el número de veces que un elemento está en el array.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this method may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este método pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -242,9 +242,9 @@ Creates a copy of the array, and returns it.
 
 :ref:`bool<class_bool>` **erase**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PackedFloat32Array_method_erase>`
 
-Removes the first occurrence of a value from the array and returns ``true``. If the value does not exist in the array, nothing happens and ``false`` is returned. To remove an element by index, use :ref:`remove_at()<class_PackedFloat32Array_method_remove_at>` instead.
+Elimina la primera aparición de un valor del array y devuelve ``true``. Si el valor no existe en el array, no pasa nada y se devuelve ``false``. Para eliminar un elemento por índice, usa :ref:`remove_at()<class_PackedFloat32Array_method_remove_at>` en su lugar.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this method may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este método pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -256,7 +256,7 @@ Removes the first occurrence of a value from the array and returns ``true``. If 
 
 |void| **fill**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PackedFloat32Array_method_fill>`
 
-Assigns the given value to all elements in the array. This can typically be used together with :ref:`resize()<class_PackedFloat32Array_method_resize>` to create an array with a given size and initialized elements.
+Asigna el valor dado a todos los elementos del array. Esto normalmente se puede usar junto con :ref:`resize()<class_PackedFloat32Array_method_resize>` para crear un array con un tamaño dado y elementos inicializados.
 
 .. rst-class:: classref-item-separator
 
@@ -268,9 +268,9 @@ Assigns the given value to all elements in the array. This can typically be used
 
 :ref:`int<class_int>` **find**\ (\ value\: :ref:`float<class_float>`, from\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_PackedFloat32Array_method_find>`
 
-Searches the array for a value and returns its index or ``-1`` if not found. Optionally, the initial search index can be passed.
+Busca un valor en el array y devuelve su índice o ``-1`` si no lo encuentra. Opcionalmente, se puede pasar el índice de búsqueda inicial.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this method may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este método pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -282,9 +282,9 @@ Searches the array for a value and returns its index or ``-1`` if not found. Opt
 
 :ref:`float<class_float>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedFloat32Array_method_get>`
 
-Returns the 32-bit float at the given ``index`` in the array. If ``index`` out-of-bounds or negative, this method fails and returns ``0.0``.
+Devuelve el float de 32 bits en el ``index`` dado en el array. Si ``index`` está fuera de los límites o es negativo, este método falla y devuelve ``0.0``.
 
-This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
+Este método es similar (pero no idéntico) al operador ``[]``. Lo más notable es que, cuando este método falla, no pausa la ejecución del proyecto si se ejecuta desde el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -296,9 +296,9 @@ This method is similar (but not identical) to the ``[]`` operator. Most notably,
 
 :ref:`bool<class_bool>` **has**\ (\ value\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_PackedFloat32Array_method_has>`
 
-Returns ``true`` if the array contains ``value``.
+Devuelve ``true`` si el array contiene ``value``.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this method may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este método pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -438,9 +438,9 @@ If either ``begin`` or ``end`` are negative, they will be relative to the end of
 
 |void| **sort**\ (\ ) :ref:`🔗<class_PackedFloat32Array_method_sort>`
 
-Sorts the elements of the array in ascending order.
+Ordena los elementos del array en orden ascendente.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this method may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este método pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -452,9 +452,9 @@ Sorts the elements of the array in ascending order.
 
 :ref:`PackedByteArray<class_PackedByteArray>` **to_byte_array**\ (\ ) |const| :ref:`🔗<class_PackedFloat32Array_method_to_byte_array>`
 
-Returns a copy of the data converted to a :ref:`PackedByteArray<class_PackedByteArray>`, where each element has been encoded as 4 bytes.
+Devuelve una copia de los datos convertidos a un :ref:`PackedByteArray<class_PackedByteArray>`, donde cada elemento ha sido codificado como 4 bytes.
 
-The size of the new array will be ``float32_array.size() * 4``.
+El tamaño del nuevo array será ``float32_array.size() * 4``.
 
 .. rst-class:: classref-section-separator
 
@@ -483,7 +483,7 @@ Returns ``true`` if contents of the arrays differ.
 
 :ref:`PackedFloat32Array<class_PackedFloat32Array>` **operator +**\ (\ right\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) :ref:`🔗<class_PackedFloat32Array_operator_sum_PackedFloat32Array>`
 
-Returns a new **PackedFloat32Array** with contents of ``right`` added at the end of this array. For better performance, consider using :ref:`append_array()<class_PackedFloat32Array_method_append_array>` instead.
+Devuelve un nuevo **PackedFloat32Array** con el contenido de ``right`` añadido al final de este array. Para un mejor rendimiento, considera usar :ref:`append_array()<class_PackedFloat32Array_method_append_array>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -495,7 +495,7 @@ Returns a new **PackedFloat32Array** with contents of ``right`` added at the end
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) :ref:`🔗<class_PackedFloat32Array_operator_eq_PackedFloat32Array>`
 
-Returns ``true`` if contents of both arrays are the same, i.e. they have all equal floats at the corresponding indices.
+Devuelve ``true`` si los contenidos de ambos arrays son iguales, es decir, tienen todos los floats iguales en los índices correspondientes.
 
 .. rst-class:: classref-item-separator
 
@@ -507,9 +507,9 @@ Returns ``true`` if contents of both arrays are the same, i.e. they have all equ
 
 :ref:`float<class_float>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PackedFloat32Array_operator_idx_int>`
 
-Returns the :ref:`float<class_float>` at index ``index``. Negative indices can be used to access the elements starting from the end. Using index out of array's bounds will result in an error.
+Devuelve el :ref:`float<class_float>` en el índice ``index``. Los índices negativos pueden utilizarse para acceder a los elementos empezando por el final. El uso de un índice fuera de los límites del array provocará un error.
 
-Note that :ref:`float<class_float>` type is 64-bit, unlike the values stored in the array.
+Ten en cuenta que el tipo :ref:`float<class_float>` es de 64 bits, a diferencia de los valores almacenados en el array.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

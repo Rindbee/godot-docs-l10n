@@ -7,7 +7,7 @@ Camera3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`XRCamera3D<class_XRCamera3D>`
+**Hérité par :** :ref:`XRCamera3D<class_XRCamera3D>`
 
 Un nœud de caméra ; affichage d'un point de vue.
 
@@ -344,7 +344,7 @@ L':ref:`Environment<class_Environment>` à utiliser pour cette caméra.
 - |void| **set_far**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_far**\ (\ )
 
-The distance to the far culling boundary for this camera relative to its local Z axis. Higher values allow the camera to see further away, while decreasing :ref:`far<class_Camera3D_property_far>` can improve performance if it results in objects being partially or fully culled.
+La distance jusqu'au plan de coupe lointain pour cette caméra par rapport à son axe Z local. Des valeurs plus élevées permettent à la caméra de voir plus loin, et diminuer :ref:`far<class_Camera3D_property_far>` peut améliorer le performances si cela résulte en des objets partiellement ou complètement coupés.
 
 .. rst-class:: classref-item-separator
 
@@ -441,7 +441,7 @@ L'axe à verrouiller pendant les réglages :ref:`fov<class_Camera3D_property_fov
 - |void| **set_near**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_near**\ (\ )
 
-The distance to the near culling boundary for this camera relative to its local Z axis. Lower values allow the camera to see objects more up close to its origin, at the cost of lower precision across the *entire* range. Values lower than the default can lead to increased Z-fighting.
+La distance jusqu'au plan de coupe proche pour cette caméra par rapport à son axe Z local. Des valeurs plus faibles permettent à la caméra de voir des objets plus proche de son origine, au coût d'une précision plus faible sur sa plage *entière*. Des valeurs plus faibles que le défaut peut mener à une augmentation du Z-fighting.
 
 .. rst-class:: classref-item-separator
 
@@ -631,7 +631,7 @@ Fait que cette caméra devient l'actuelle pour le :ref:`Viewport<class_Viewport>
 
 :ref:`Vector3<class_Vector3>` **project_local_ray_normal**\ (\ screen_point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Camera3D_method_project_local_ray_normal>`
 
-Returns a normal vector from the screen point location directed along the camera. Orthogonal cameras are normalized. Perspective cameras account for perspective, screen width/height, etc.
+Renvoie un vecteur normal à partir de l'emplacement du point d'écran, dirigé le long de la caméra. Les caméras orthogonales sont normalisées. Les caméras avec perspective prennent en compte la perspective, la largeur/hauteur d'écran, etc...
 
 .. rst-class:: classref-item-separator
 
@@ -679,7 +679,7 @@ Renvoie une position 3D dans le repère global, qui est le résultat de la proje
 
 |void| **set_cull_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Camera3D_method_set_cull_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`cull_mask<class_Camera3D_property_cull_mask>`, given a ``layer_number`` between 1 and 20.
+Selon ``value``, active ou désactive la couche spécifiée dans le masque de cull :ref:`cull_mask<class_Camera3D_property_cull_mask>`, selon un ``layer_number`` entre 1 et 20.
 
 .. rst-class:: classref-item-separator
 

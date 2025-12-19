@@ -7,16 +7,16 @@ RibbonTrailMesh
 
 **Hérite de :** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a straight ribbon-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>` with variable width.
+Représente un :ref:`PrimitiveMesh<class_PrimitiveMesh>` forme de ruban droit avec une largeur variable.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**RibbonTrailMesh** represents a straight ribbon-shaped mesh with variable width. The ribbon is composed of a number of flat or cross-shaped sections, each with the same :ref:`section_length<class_RibbonTrailMesh_property_section_length>` and number of :ref:`section_segments<class_RibbonTrailMesh_property_section_segments>`. A :ref:`curve<class_RibbonTrailMesh_property_curve>` is sampled along the total length of the ribbon, meaning that the curve determines the size of the ribbon along its length.
+**RibbonTrailMesh** représente un maillage en forme de ruban droit avec une largeur variable. Le ruban est composé d'un certain nombre de sections plates ou en forme de croix, chacune avec la même :ref:`section_length<class_RibbonTrailMesh_property_section_length>` et le même nombre :ref:`section_segments<class_RibbonTrailMesh_property_section_segments>`. Une courbe :ref:`curve<class_RibbonTrailMesh_property_curve>` est échantillonnée le long de la longueur totale du ruban, ce qui signifie que la courbe détermine la taille du ruban sur toute sa longueur.
 
-This primitive mesh is usually used for particle trails.
+Ce maillage primitif est généralement utilisé pour les traînées de particules.
 
 .. rst-class:: classref-introduction-group
 
@@ -70,7 +70,7 @@ enum **Shape**: :ref:`🔗<enum_RibbonTrailMesh_Shape>`
 
 :ref:`Shape<enum_RibbonTrailMesh_Shape>` **SHAPE_FLAT** = ``0``
 
-Gives the mesh a single flat face.
+Donne au maillage une seule face plate.
 
 .. _class_RibbonTrailMesh_constant_SHAPE_CROSS:
 
@@ -117,7 +117,7 @@ Détermine la taille du ruban le long de sa longueur. La taille d'un segment de 
 - |void| **set_section_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_section_length**\ (\ )
 
-The length of a section of the ribbon.
+La longueur d'une section du ruban.
 
 .. rst-class:: classref-item-separator
 
@@ -134,7 +134,7 @@ The length of a section of the ribbon.
 - |void| **set_section_segments**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_section_segments**\ (\ )
 
-The number of segments in a section. The :ref:`curve<class_RibbonTrailMesh_property_curve>` is sampled on each segment to determine its size. Higher values result in a more detailed ribbon at the cost of performance.
+Le nombre de segments dans une section. La courbe :ref:`curve<class_RibbonTrailMesh_property_curve>` est échantillonnée sur chaque segment pour déterminer sa taille. Des valeurs plus élevées résultent en un ruban plus détaillé au détriment des performances.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ The number of segments in a section. The :ref:`curve<class_RibbonTrailMesh_prope
 - |void| **set_sections**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_sections**\ (\ )
 
-The total number of sections on the ribbon.
+Le nombre total de sections sur le ruban.
 
 .. rst-class:: classref-item-separator
 
@@ -168,7 +168,7 @@ The total number of sections on the ribbon.
 - |void| **set_shape**\ (\ value\: :ref:`Shape<enum_RibbonTrailMesh_Shape>`\ )
 - :ref:`Shape<enum_RibbonTrailMesh_Shape>` **get_shape**\ (\ )
 
-Determines the shape of the ribbon.
+Détermine la forme du ruban.
 
 .. rst-class:: classref-item-separator
 
@@ -185,7 +185,7 @@ Determines the shape of the ribbon.
 - |void| **set_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_size**\ (\ )
 
-The baseline size of the ribbon. The size of a particular section segment is obtained by multiplying this size by the value of the :ref:`curve<class_RibbonTrailMesh_property_curve>` at the given distance.
+La taille de base du ruban. La taille d'un segment particulier de section est obtenue en multipliant cette taille par la valeur de la courbe :ref:`curve<class_RibbonTrailMesh_property_curve>` à la distance donnée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

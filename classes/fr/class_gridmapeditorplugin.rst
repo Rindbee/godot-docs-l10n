@@ -17,7 +17,7 @@ GridMapEditorPlugin
 Description
 -----------
 
-GridMapEditorPlugin provides access to the :ref:`GridMap<class_GridMap>` editor functionality.
+GridMapEditorPlugin fournit un accès à la fonctionnalité :ref:`GridMap<class_GridMap>` de l'éditeur.
 
 .. rst-class:: classref-reftable-group
 
@@ -148,7 +148,7 @@ Sélectionne l'élément :ref:`MeshLibrary<class_MeshLibrary>` avec l'index donn
 
 |void| **set_selection**\ (\ begin\: :ref:`Vector3i<class_Vector3i>`, end\: :ref:`Vector3i<class_Vector3i>`\ ) :ref:`🔗<class_GridMapEditorPlugin_method_set_selection>`
 
-Selects the cells inside the given bounds from ``begin`` to ``end``.
+Sélectionne les cellules à l'intérieur des limites données, de ``begin`` à ``end``.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

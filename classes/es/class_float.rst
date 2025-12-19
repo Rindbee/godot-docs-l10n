@@ -12,11 +12,11 @@ Un tipo incorporado para números de punto float.
 Descripción
 ----------------------
 
-The **float** built-in type is a 64-bit double-precision floating-point number, equivalent to ``double`` in C++. This type has 14 reliable decimal digits of precision. The maximum value of **float** is approximately ``1.79769e308``, and the minimum is approximately ``-1.79769e308``.
+El tipo integrado **float** es un número de punto flotante de doble precisión de 64 bits, equivalente a ``double`` en C++. Este tipo tiene 14 dígitos decimales de precisión confiables. El valor máximo de **float** es aproximadamente ``1.79769e308``, y el mínimo es aproximadamente ``-1.79769e308``.
 
-Many methods and properties in the engine use 32-bit single-precision floating-point numbers instead, equivalent to ``float`` in C++, which have 6 reliable decimal digits of precision. For data structures such as :ref:`Vector2<class_Vector2>` and :ref:`Vector3<class_Vector3>`, Godot uses 32-bit floating-point numbers by default, but it can be changed to use 64-bit doubles if Godot is compiled with the ``precision=double`` option.
+Muchos métodos y propiedades en el motor usan números de punto flotante de precisión simple de 32 bits en su lugar, equivalente a ``float`` en C++, que tienen 6 dígitos decimales de precisión confiables. Para estructuras de datos como :ref:`Vector2<class_Vector2>` y :ref:`Vector3<class_Vector3>`, Godot usa números de punto flotante de 32 bits de forma predeterminada, pero se puede cambiar para usar dobles de 64 bits si Godot se compila con la opción ``precision=double``.
 
-Math done using the **float** type is not guaranteed to be exact and will often result in small errors. You should usually use the :ref:`@GlobalScope.is_equal_approx()<class_@GlobalScope_method_is_equal_approx>` and :ref:`@GlobalScope.is_zero_approx()<class_@GlobalScope_method_is_zero_approx>` methods instead of ``==`` to compare **float** values for equality.
+No se garantiza que las operaciones matemáticas realizadas con el tipo **float** sean exactas y, a menudo, generarán pequeños errores. Por lo general, debes usar los métodos :ref:`@GlobalScope.is_equal_approx()<class_@GlobalScope_method_is_equal_approx>` y :ref:`@GlobalScope.is_zero_approx()<class_@GlobalScope_method_is_zero_approx>` en lugar de ``==`` para comparar valores **float** para determinar la igualdad.
 
 .. rst-class:: classref-introduction-group
 
@@ -136,7 +136,7 @@ Descripciones de Constructores
 
 :ref:`float<class_float>` **float**\ (\ ) :ref:`🔗<class_float_constructor_float>`
 
-Constructs a default-initialized **float** set to ``0.0``.
+Construye un **float** inicializado por defecto establecido en ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -146,7 +146,7 @@ Constructs a default-initialized **float** set to ``0.0``.
 
 :ref:`float<class_float>` **float**\ (\ from\: :ref:`float<class_float>`\ )
 
-Constructs a **float** as a copy of the given **float**.
+Construye un **float** como una copia del **float** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ Constructs a **float** as a copy of the given **float**.
 
 :ref:`float<class_float>` **float**\ (\ from\: :ref:`String<class_String>`\ )
 
-Converts a :ref:`String<class_String>` to a **float**, following the same rules as :ref:`String.to_float()<class_String_method_to_float>`.
+Convierte un :ref:`String<class_String>` a un **float**, siguiendo las mismas reglas que :ref:`String.to_float()<class_String_method_to_float>`.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Convierte un valor :ref:`bool<class_bool>` a un valor de real, ``float(true)`` s
 
 :ref:`float<class_float>` **float**\ (\ from\: :ref:`int<class_int>`\ )
 
-Cast an :ref:`int<class_int>` value to a floating-point value, ``float(1)`` will be equal to ``1.0``.
+Convierte un valor :ref:`int<class_int>` a un valor de punto flotante, ``float(1)`` será igual a ``1.0``.
 
 .. rst-class:: classref-section-separator
 
@@ -193,9 +193,9 @@ Descripciones de Operadores
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_float_operator_neq_float>`
 
-Returns ``true`` if two floats are different from each other.
+Devuelve ``true`` si dos floats son diferentes entre sí.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this operator may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este operador pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -207,7 +207,7 @@ Returns ``true`` if two floats are different from each other.
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_neq_int>`
 
-Returns ``true`` if the integer has different value than the float.
+Devuelve ``true`` si el entero tiene un valor diferente al float.
 
 .. rst-class:: classref-item-separator
 
@@ -235,7 +235,7 @@ Multiplica cada componente del :ref:`Color<class_Color>`, incluido el alfa, por 
 
 :ref:`Quaternion<class_Quaternion>` **operator ***\ (\ right\: :ref:`Quaternion<class_Quaternion>`\ ) :ref:`🔗<class_float_operator_mul_Quaternion>`
 
-Multiplies each component of the :ref:`Quaternion<class_Quaternion>` by the given **float**. This operation is not meaningful on its own, but it can be used as a part of a larger expression.
+Multiplica cada componente del :ref:`Quaternion<class_Quaternion>` por el **float** dado. Esta operación no es significativa por sí sola, pero puede usarse como parte de una expresión mayor.
 
 .. rst-class:: classref-item-separator
 
@@ -279,7 +279,7 @@ Multiplica cada componente de :ref:`Vector2i<class_Vector2i>` por el **float** d
 
 :ref:`Vector3<class_Vector3>` **operator ***\ (\ right\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_float_operator_mul_Vector3>`
 
-Multiplies each component of the :ref:`Vector3<class_Vector3>` by the given **float**.
+Multiplica cada componente del :ref:`Vector3<class_Vector3>` por el **float** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -307,7 +307,7 @@ Multiplica cada componente del :ref:`Vector3i<class_Vector3i>` por el **float** 
 
 :ref:`Vector4<class_Vector4>` **operator ***\ (\ right\: :ref:`Vector4<class_Vector4>`\ ) :ref:`🔗<class_float_operator_mul_Vector4>`
 
-Multiplies each component of the :ref:`Vector4<class_Vector4>` by the given **float**.
+Multiplica cada componente del :ref:`Vector4<class_Vector4>` por el **float** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -347,7 +347,7 @@ Multiplica dos **float**\ s.
 
 :ref:`float<class_float>` **operator ***\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_mul_int>`
 
-Multiplies a **float** and an :ref:`int<class_int>`. The result is a **float**.
+Multiplica un **float** y un :ref:`int<class_int>`. El resultado es un **float**.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Añade dos floats.
 
 :ref:`float<class_float>` **operator +**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_sum_int>`
 
-Adds a **float** and an :ref:`int<class_int>`. The result is a **float**.
+Suma un **float** y un :ref:`int<class_int>`. El resultado es un **float**.
 
 .. rst-class:: classref-item-separator
 
@@ -427,7 +427,7 @@ Resta un float de un float.
 
 :ref:`float<class_float>` **operator -**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_dif_int>`
 
-Subtracts an :ref:`int<class_int>` from a **float**. The result is a **float**.
+Resta un :ref:`int<class_int>` de un **float**. El resultado es un **float**.
 
 .. rst-class:: classref-item-separator
 
@@ -451,7 +451,7 @@ Divide dos floats.
 
 :ref:`float<class_float>` **operator /**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_div_int>`
 
-Divides a **float** by an :ref:`int<class_int>`. The result is a **float**.
+Divide un **float** por un :ref:`int<class_int>`. El resultado es un **float**.
 
 .. rst-class:: classref-item-separator
 
@@ -463,9 +463,9 @@ Divides a **float** by an :ref:`int<class_int>`. The result is a **float**.
 
 :ref:`bool<class_bool>` **operator <**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_float_operator_lt_float>`
 
-Returns ``true`` if the left float is less than the right one.
+Devuelve ``true`` si el float de la izquierda es menor que el de la derecha.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this operator may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este operador pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -477,7 +477,7 @@ Returns ``true`` if the left float is less than the right one.
 
 :ref:`bool<class_bool>` **operator <**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_lt_int>`
 
-Returns ``true`` if this **float** is less than the given :ref:`int<class_int>`.
+Devuelve ``true`` si este **float** es menor que el :ref:`int<class_int>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -489,9 +489,9 @@ Returns ``true`` if this **float** is less than the given :ref:`int<class_int>`.
 
 :ref:`bool<class_bool>` **operator <=**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_float_operator_lte_float>`
 
-Returns ``true`` if the left float is less than or equal to the right one.
+Devuelve ``true`` si el float de la izquierda es menor o igual que el de la derecha.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this operator may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este operador pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -503,7 +503,7 @@ Returns ``true`` if the left float is less than or equal to the right one.
 
 :ref:`bool<class_bool>` **operator <=**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_lte_int>`
 
-Returns ``true`` if this **float** is less than or equal to the given :ref:`int<class_int>`.
+Devuelve ``true`` si este **float** es menor o igual que el :ref:`int<class_int>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -531,7 +531,7 @@ Returns ``true`` if both floats are exactly equal.
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_eq_int>`
 
-Returns ``true`` if the **float** and the given :ref:`int<class_int>` are equal.
+Devuelve ``true`` si el **float** y el :ref:`int<class_int>` dado son iguales.
 
 .. rst-class:: classref-item-separator
 
@@ -543,9 +543,9 @@ Returns ``true`` if the **float** and the given :ref:`int<class_int>` are equal.
 
 :ref:`bool<class_bool>` **operator >**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_float_operator_gt_float>`
 
-Returns ``true`` if the left float is greater than the right one.
+Devuelve ``true`` si el float de la izquierda es mayor que el de la derecha.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this operator may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este operador pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -557,7 +557,7 @@ Returns ``true`` if the left float is greater than the right one.
 
 :ref:`bool<class_bool>` **operator >**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_gt_int>`
 
-Returns ``true`` if this **float** is greater than the given :ref:`int<class_int>`.
+Devuelve ``true`` si este **float** es mayor que el :ref:`int<class_int>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -569,9 +569,9 @@ Returns ``true`` if this **float** is greater than the given :ref:`int<class_int
 
 :ref:`bool<class_bool>` **operator >=**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_float_operator_gte_float>`
 
-Returns ``true`` if the left float is greater than or equal to the right one.
+Devuelve ``true`` si el float de la izquierda es mayor o igual que el de la derecha.
 
-\ **Note:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` doesn't behave the same as other numbers. Therefore, the results from this operator may not be accurate if NaNs are included.
+\ **Nota:** :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` no se comporta igual que otros números. Por lo tanto, los resultados de este operador pueden no ser precisos si se incluyen NaN.
 
 .. rst-class:: classref-item-separator
 
@@ -583,7 +583,7 @@ Returns ``true`` if the left float is greater than or equal to the right one.
 
 :ref:`bool<class_bool>` **operator >=**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_float_operator_gte_int>`
 
-Returns ``true`` if this **float** is greater than or equal to the given :ref:`int<class_int>`.
+Devuelve ``true`` si este **float** es mayor o igual que el :ref:`int<class_int>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -595,7 +595,7 @@ Returns ``true`` if this **float** is greater than or equal to the given :ref:`i
 
 :ref:`float<class_float>` **operator unary+**\ (\ ) :ref:`🔗<class_float_operator_unplus>`
 
-Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, but sometimes it can make your code more readable.
+Devuelve el mismo valor como si el ``+`` no estuviera ahí. El ``+`` unario no hace nada, pero a veces puede hacer que tu código sea más legible.
 
 .. rst-class:: classref-item-separator
 
@@ -607,7 +607,7 @@ Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, 
 
 :ref:`float<class_float>` **operator unary-**\ (\ ) :ref:`🔗<class_float_operator_unminus>`
 
-Returns the negative value of the **float**. If positive, turns the number negative. If negative, turns the number positive. With floats, the number zero can be either positive or negative.
+Devuelve el valor negativo del **float**. Si es positivo, convierte el número en negativo. Si es negativo, convierte el número en positivo. Con los floats, el número cero puede ser positivo o negativo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

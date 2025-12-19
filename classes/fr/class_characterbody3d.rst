@@ -577,7 +577,7 @@ Renvoie le déplacement (le différentiel de position) qui s'est produit lors du
 
 :ref:`Vector3<class_Vector3>` **get_real_velocity**\ (\ ) |const| :ref:`🔗<class_CharacterBody3D_method_get_real_velocity>`
 
-Retourne la vitesse réelle actuelle depuis le dernier appel à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Par exemple, lorsque vous grimpez sur une pente, vous vous déplacerez en diagonale même si la vitesse est horizontale. Cette méthode renvoie le mouvement diagonal, par opposition à :ref:`velocity<class_CharacterBody3D_property_velocity>` qui renvoie la vitesse demandée.
+Renvoie la vitesse réelle actuelle depuis le dernier appel à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Par exemple, lorsque vous grimpez sur une pente, vous vous déplacerez en diagonale même si la vitesse est horizontale. Cette méthode renvoie le mouvement diagonal, par opposition à :ref:`velocity<class_CharacterBody3D_property_velocity>` qui renvoie la vitesse demandée.
 
 .. rst-class:: classref-item-separator
 

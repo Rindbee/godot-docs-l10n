@@ -14,34 +14,34 @@ Maillage optimisé pour créer de la géométrie manuellement.
 Description
 -----------
 
-A mesh type optimized for creating geometry manually, similar to OpenGL 1.x immediate mode.
+Un type de maillage optimisé pour créer de la géométrie manuellement, semblable au mode immédiat d'OpenGL 1.x.
 
-Here's a sample on how to generate a triangular face:
+Voici un échantillon sur comment générer une face triangulaire :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var mesh = ImmediateMesh.new()
-    mesh.surface_begin(Mesh.PRIMITIVE_TRIANGLES)
-    mesh.surface_add_vertex(Vector3.LEFT)
-    mesh.surface_add_vertex(Vector3.FORWARD)
-    mesh.surface_add_vertex(Vector3.ZERO)
-    mesh.surface_end()
+    var maillage = ImmediateMesh.new()
+    maillage.surface_begin(Mesh.PRIMITIVE_TRIANGLES)
+    maillage.surface_add_vertex(Vector3.LEFT)
+    maillage.surface_add_vertex(Vector3.FORWARD)
+    maillage.surface_add_vertex(Vector3.ZERO)
+    maillage.surface_end()
 
  .. code-tab:: csharp
 
     var mesh = new ImmediateMesh();
-    mesh.SurfaceBegin(Mesh.PrimitiveType.Triangles);
-    mesh.SurfaceAddVertex(Vector3.Left);
-    mesh.SurfaceAddVertex(Vector3.Forward);
-    mesh.SurfaceAddVertex(Vector3.Zero);
-    mesh.SurfaceEnd();
+    maillage.SurfaceBegin(Mesh.PrimitiveType.Triangles);
+    maillage.SurfaceAddVertex(Vector3.Left);
+    maillage.SurfaceAddVertex(Vector3.Forward);
+    maillage.SurfaceAddVertex(Vector3.Zero);
+    maillage.SurfaceEnd();
 
 
 
-\ **Note:** Generating complex geometries with **ImmediateMesh** is highly inefficient. Instead, it is designed to generate simple geometry that changes often.
+\ **Note :** Générer des géométries complexes avec **ImmediateMesh** est très inefficace. Au lieu de cela, il est conçu pour générer de la géométrie simple qui change souvent.
 
 .. rst-class:: classref-introduction-group
 
@@ -107,7 +107,7 @@ Effacer toutes les surfaces.
 
 |void| **surface_add_vertex**\ (\ vertex\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_add_vertex>`
 
-Add a 3D vertex using the current attributes previously set.
+Ajoute un sommet 3D en utilisant les attributs courants précédemment définis.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ Add a 3D vertex using the current attributes previously set.
 
 |void| **surface_add_vertex_2d**\ (\ vertex\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_add_vertex_2d>`
 
-Add a 2D vertex using the current attributes previously set.
+Ajoute un sommet 2D en utilisant les attributs courants précédemment définis.
 
 .. rst-class:: classref-item-separator
 
@@ -155,7 +155,7 @@ End and commit current surface. Note that surface being created will not be visi
 
 |void| **surface_set_color**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_set_color>`
 
-Set the color attribute that will be pushed with the next vertex.
+Définit l'attribut de couleur qui sera poussé avec le prochain sommet.
 
 .. rst-class:: classref-item-separator
 
@@ -167,7 +167,7 @@ Set the color attribute that will be pushed with the next vertex.
 
 |void| **surface_set_normal**\ (\ normal\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_set_normal>`
 
-Set the normal attribute that will be pushed with the next vertex.
+Définit l'attribut de normale qui sera poussé avec le prochain sommet.
 
 .. rst-class:: classref-item-separator
 
@@ -179,7 +179,7 @@ Set the normal attribute that will be pushed with the next vertex.
 
 |void| **surface_set_tangent**\ (\ tangent\: :ref:`Plane<class_Plane>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_set_tangent>`
 
-Set the tangent attribute that will be pushed with the next vertex.
+Définit l'attribut de tangente qui sera poussé avec le prochain sommet.
 
 .. rst-class:: classref-item-separator
 
@@ -191,7 +191,7 @@ Set the tangent attribute that will be pushed with the next vertex.
 
 |void| **surface_set_uv**\ (\ uv\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_set_uv>`
 
-Set the UV attribute that will be pushed with the next vertex.
+Définit l'attribut d'UV qui sera poussé avec le prochain sommet.
 
 .. rst-class:: classref-item-separator
 
@@ -203,7 +203,7 @@ Set the UV attribute that will be pushed with the next vertex.
 
 |void| **surface_set_uv2**\ (\ uv2\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_ImmediateMesh_method_surface_set_uv2>`
 
-Set the UV2 attribute that will be pushed with the next vertex.
+Définit l'attribut d'UV2 qui sera poussé avec le prochain sommet.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

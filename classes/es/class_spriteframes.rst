@@ -7,14 +7,14 @@ SpriteFrames
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Sprite frame library for AnimatedSprite2D and AnimatedSprite3D.
+Librería de fotogramas de sprite para AnimatedSprite2D y AnimatedSprite3D.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Sprite frame library for an :ref:`AnimatedSprite2D<class_AnimatedSprite2D>` or :ref:`AnimatedSprite3D<class_AnimatedSprite3D>` node. Contains frames and animation data for playback.
+Librería de fotogramas de sprite para un nodo :ref:`AnimatedSprite2D<class_AnimatedSprite2D>` o :ref:`AnimatedSprite3D<class_AnimatedSprite3D>`. Contiene fotogramas y datos de animación para su reproducción.
 
 .. rst-class:: classref-reftable-group
 
@@ -77,7 +77,7 @@ Descripciones de Métodos
 
 |void| **add_animation**\ (\ anim\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SpriteFrames_method_add_animation>`
 
-Adds a new ``anim`` animation to the library.
+Añade una nueva animación ``anim`` a la librería.
 
 .. rst-class:: classref-item-separator
 
@@ -113,7 +113,7 @@ Elimina todos los fotogramas de la animación ``anim``.
 
 |void| **clear_all**\ (\ ) :ref:`🔗<class_SpriteFrames_method_clear_all>`
 
-Removes all animations. An empty ``default`` animation will be created.
+Elimina todas las animaciones. Se creará una animación ``default`` vacía.
 
 .. rst-class:: classref-item-separator
 

@@ -14,7 +14,7 @@ Proporciona parámetros para :ref:`PhysicsDirectSpaceState3D.intersect_ray()<cla
 Descripción
 ----------------------
 
-By changing various properties of this object, such as the ray position, you can configure the parameters for :ref:`PhysicsDirectSpaceState3D.intersect_ray()<class_PhysicsDirectSpaceState3D_method_intersect_ray>`.
+Al cambiar varias propiedades de este objeto, como la posición del rayo, puedes configurar los parámetros para :ref:`PhysicsDirectSpaceState3D.intersect_ray()<class_PhysicsDirectSpaceState3D_method_intersect_ray>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -74,7 +74,7 @@ Descripciones de Propiedades
 - |void| **set_collide_with_areas**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collide_with_areas_enabled**\ (\ )
 
-If ``true``, the query will take :ref:`Area3D<class_Area3D>`\ s into account.
+Si es ``true``, la consulta tendrá en cuenta las :ref:`Area3D<class_Area3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -91,7 +91,7 @@ If ``true``, the query will take :ref:`Area3D<class_Area3D>`\ s into account.
 - |void| **set_collide_with_bodies**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collide_with_bodies_enabled**\ (\ )
 
-If ``true``, the query will take :ref:`PhysicsBody3D<class_PhysicsBody3D>`\ s into account.
+Si es ``true``, la consulta tendrá en cuenta los :ref:`PhysicsBody3D<class_PhysicsBody3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -125,9 +125,9 @@ The physics layers the query will detect (as a bitmask). By default, all collisi
 - |void| **set_exclude**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_exclude**\ (\ )
 
-The list of object :ref:`RID<class_RID>`\ s that will be excluded from collisions. Use :ref:`CollisionObject3D.get_rid()<class_CollisionObject3D_method_get_rid>` to get the :ref:`RID<class_RID>` associated with a :ref:`CollisionObject3D<class_CollisionObject3D>`-derived node.
+La lista de :ref:`RID<class_RID>` de objetos que se excluirán de las colisiones. Utiliza :ref:`CollisionObject3D.get_rid()<class_CollisionObject3D_method_get_rid>` para obtener el :ref:`RID<class_RID>` asociado con un nodo derivado de :ref:`CollisionObject3D<class_CollisionObject3D>`.
 
-\ **Note:** The returned array is copied and any changes to it will not update the original property value. To update the value you need to modify the returned array, and then assign it to the property again.
+\ **Nota:** El array devuelto se copia y cualquier cambio en él no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar el array devuelto y, a continuación, asignarlo de nuevo a la propiedad.
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ The list of object :ref:`RID<class_RID>`\ s that will be excluded from collision
 - |void| **set_from**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_from**\ (\ )
 
-The starting point of the ray being queried for, in global coordinates.
+El punto de inicio del rayo que se está consultando, en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +178,7 @@ If ``true``, the query will hit back faces with concave polygon shapes with back
 - |void| **set_hit_from_inside**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hit_from_inside_enabled**\ (\ )
 
-If ``true``, the query will detect a hit when starting inside shapes. In this case the collision normal will be ``Vector3(0, 0, 0)``. Does not affect concave polygon shapes or heightmap shapes.
+Si es ``true``, la consulta detectará un impacto al comenzar dentro de las formas. En este caso, la normal de colisión será ``Vector3(0, 0, 0)``. No afecta a las formas de polígono cóncavo ni a las formas de mapa de altura.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ If ``true``, the query will detect a hit when starting inside shapes. In this ca
 - |void| **set_to**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_to**\ (\ )
 
-The ending point of the ray being queried for, in global coordinates.
+El punto final del rayo que se está consultando, en coordenadas globales.
 
 .. rst-class:: classref-section-separator
 
@@ -212,7 +212,7 @@ Descripciones de Métodos
 
 :ref:`PhysicsRayQueryParameters3D<class_PhysicsRayQueryParameters3D>` **create**\ (\ from\: :ref:`Vector3<class_Vector3>`, to\: :ref:`Vector3<class_Vector3>`, collision_mask\: :ref:`int<class_int>` = 4294967295, exclude\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] = []\ ) |static| :ref:`🔗<class_PhysicsRayQueryParameters3D_method_create>`
 
-Returns a new, pre-configured **PhysicsRayQueryParameters3D** object. Use it to quickly create query parameters using the most common options.
+Devuelve un nuevo objeto **PhysicsRayQueryParameters3D** preconfigurado. Úsalo para crear rápidamente parámetros de consulta utilizando las opciones más comunes.
 
 ::
 

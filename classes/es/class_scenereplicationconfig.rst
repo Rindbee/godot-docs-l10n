@@ -189,7 +189,7 @@ Returns ``true`` if the property identified by the given ``path`` is configured 
 
 **Obsoleto:** Use :ref:`property_get_replication_mode()<class_SceneReplicationConfig_method_property_get_replication_mode>` instead.
 
-Returns ``true`` if the property identified by the given ``path`` is configured to be reliably synchronized when changes are detected on process.
+Devuelve ``true`` si la propiedad identificada por la ``path`` dada está configurada para ser sincronizada de forma fiable cuando se detectan cambios en process.
 
 .. rst-class:: classref-item-separator
 
@@ -201,7 +201,7 @@ Returns ``true`` if the property identified by the given ``path`` is configured 
 
 |void| **property_set_replication_mode**\ (\ path\: :ref:`NodePath<class_NodePath>`, mode\: :ref:`ReplicationMode<enum_SceneReplicationConfig_ReplicationMode>`\ ) :ref:`🔗<class_SceneReplicationConfig_method_property_set_replication_mode>`
 
-Sets the synchronization mode for the property identified by the given ``path``.
+Establece el modo de sincronización para la propiedad identificada por la ``path`` dada.
 
 .. rst-class:: classref-item-separator
 

@@ -7,14 +7,14 @@ RDTextureView
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Texture view (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Vista de textura (utilizada por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -56,7 +56,7 @@ Descripciones de Propiedades
 - |void| **set_format_override**\ (\ value\: :ref:`DataFormat<enum_RenderingDevice_DataFormat>`\ )
 - :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **get_format_override**\ (\ )
 
-Optional override for the data format to return sampled values in. The corresponding :ref:`RDTextureFormat<class_RDTextureFormat>` must have had this added as a shareable format. The default value of :ref:`RenderingDevice.DATA_FORMAT_MAX<class_RenderingDevice_constant_DATA_FORMAT_MAX>` does not override the format.
+Sobrescritura opcional para el formato de datos en el que se devolverán los valores muestreados. El :ref:`RDTextureFormat<class_RDTextureFormat>` correspondiente debe haber añadido esto como un formato compartible. El valor predeterminado de :ref:`RenderingDevice.DATA_FORMAT_MAX<class_RenderingDevice_constant_DATA_FORMAT_MAX>` no anula el formato.
 
 .. rst-class:: classref-item-separator
 
@@ -73,7 +73,7 @@ Optional override for the data format to return sampled values in. The correspon
 - |void| **set_swizzle_a**\ (\ value\: :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>`\ )
 - :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>` **get_swizzle_a**\ (\ )
 
-The channel to sample when sampling the alpha channel.
+El canal para muestrear cuando se muestrea el canal alfa.
 
 .. rst-class:: classref-item-separator
 
@@ -90,7 +90,7 @@ The channel to sample when sampling the alpha channel.
 - |void| **set_swizzle_b**\ (\ value\: :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>`\ )
 - :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>` **get_swizzle_b**\ (\ )
 
-The channel to sample when sampling the blue color channel.
+El canal para muestrear cuando se muestrea el canal de color azul.
 
 .. rst-class:: classref-item-separator
 
@@ -107,7 +107,7 @@ The channel to sample when sampling the blue color channel.
 - |void| **set_swizzle_g**\ (\ value\: :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>`\ )
 - :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>` **get_swizzle_g**\ (\ )
 
-The channel to sample when sampling the green color channel.
+El canal para muestrear cuando se muestrea el canal de color verde.
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +124,7 @@ The channel to sample when sampling the green color channel.
 - |void| **set_swizzle_r**\ (\ value\: :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>`\ )
 - :ref:`TextureSwizzle<enum_RenderingDevice_TextureSwizzle>` **get_swizzle_r**\ (\ )
 
-The channel to sample when sampling the red color channel.
+El canal para muestrear cuando se muestrea el canal de color rojo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

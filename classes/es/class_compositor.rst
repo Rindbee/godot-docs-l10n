@@ -9,14 +9,14 @@ Compositor
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Stores attributes used to customize how a Viewport is rendered.
+Almacena atributos usados para personalizar cómo se renderiza un Viewport.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The compositor resource stores attributes used to customize how a :ref:`Viewport<class_Viewport>` is rendered.
+El recurso compositor almacena atributos usados para personalizar cómo se renderiza un :ref:`Viewport<class_Viewport>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -57,7 +57,7 @@ Descripciones de Propiedades
 - |void| **set_compositor_effects**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`CompositorEffect<class_CompositorEffect>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`CompositorEffect<class_CompositorEffect>`\] **get_compositor_effects**\ (\ )
 
-The custom :ref:`CompositorEffect<class_CompositorEffect>`\ s that are applied during rendering of viewports using this compositor.
+Los :ref:`CompositorEffect<class_CompositorEffect>`\ s personalizados que se aplican durante el renderizado de viewports usando este compositor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

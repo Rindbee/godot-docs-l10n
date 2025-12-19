@@ -7,7 +7,7 @@ StaticBody2D
 
 **Hérite de :** :ref:`PhysicsBody2D<class_PhysicsBody2D>` **<** :ref:`CollisionObject2D<class_CollisionObject2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`AnimatableBody2D<class_AnimatableBody2D>`
+**Hérité par :** :ref:`AnimatableBody2D<class_AnimatableBody2D>`
 
 Un corps physique 2D qui ne peut pas être déplacé par des forces extérieures. Lorsqu'il est déplacé manuellement, il n'affecte pas les autres corps sur son chemin.
 

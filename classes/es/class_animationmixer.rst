@@ -551,7 +551,7 @@ Una función virtual para procesar después de obtener una clave durante la repr
 
 Añade ``library`` al reproductor de animación, bajo la clave ``name``.
 
-AnimationMixer tiene una biblioteca global por defecto con una cadena vacía como clave. Para añadir una animación a la biblioteca global:
+AnimationMixer tiene una biblioteca global por defecto con una string vacía como clave. Para añadir una animación a la biblioteca global:
 
 
 .. tabs::
@@ -585,11 +585,11 @@ Avanza manualmente las animaciones en el tiempo especificado (en segundos).
 
 |void| **capture**\ (\ name\: :ref:`StringName<class_StringName>`, duration\: :ref:`float<class_float>`, trans_type\: :ref:`TransitionType<enum_Tween_TransitionType>` = 0, ease_type\: :ref:`EaseType<enum_Tween_EaseType>` = 0\ ) :ref:`🔗<class_AnimationMixer_method_capture>`
 
-If the animation track specified by ``name`` has an option :ref:`Animation.UPDATE_CAPTURE<class_Animation_constant_UPDATE_CAPTURE>`, stores current values of the objects indicated by the track path as a cache. If there is already a captured cache, the old cache is discarded.
+Si la pista de animación especificada por ``name`` tiene una opción :ref:`Animation.UPDATE_CAPTURE<class_Animation_constant_UPDATE_CAPTURE>`, almacena los valores actuales de los objetos indicados por la ruta de la pista como una caché. Si ya existe una caché capturada, la caché anterior se descarta.
 
-After this it will interpolate with current animation blending result during the playback process for the time specified by ``duration``, working like a crossfade.
+Después de esto, se interpolará con el resultado actual de la mezcla de animación durante el proceso de reproducción durante el tiempo especificado por ``duration``, funcionando como un fundido cruzado.
 
-You can specify ``trans_type`` as the curve for the interpolation. For better results, it may be appropriate to specify :ref:`Tween.TRANS_LINEAR<class_Tween_constant_TRANS_LINEAR>` for cases where the first key of the track begins with a non-zero value or where the key value does not change, and :ref:`Tween.TRANS_QUAD<class_Tween_constant_TRANS_QUAD>` for cases where the key value changes linearly.
+Puedes especificar ``trans_type`` como la curva para la interpolación. Para obtener mejores resultados, puede ser apropiado especificar :ref:`Tween.TRANS_LINEAR<class_Tween_constant_TRANS_LINEAR>` para los casos en que la primera clave de la pista comience con un valor distinto de cero o donde el valor de la clave no cambie, y :ref:`Tween.TRANS_QUAD<class_Tween_constant_TRANS_QUAD>` para los casos en que el valor de la clave cambie linealmente.
 
 .. rst-class:: classref-item-separator
 
@@ -793,13 +793,13 @@ However, if the animation loops, an unintended discrete change may occur, so thi
 
 :ref:`Quaternion<class_Quaternion>` **get_root_motion_rotation**\ (\ ) |const| :ref:`🔗<class_AnimationMixer_method_get_root_motion_rotation>`
 
-Retrieve the motion delta of rotation with the :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` as a :ref:`Quaternion<class_Quaternion>` that can be used elsewhere.
+Recupera el delta de movimiento de rotación con :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` como un :ref:`Quaternion<class_Quaternion>` que puede ser usado en otro lugar.
 
-If :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` is not a path to a track of type :ref:`Animation.TYPE_ROTATION_3D<class_Animation_constant_TYPE_ROTATION_3D>`, returns ``Quaternion(0, 0, 0, 1)``.
+Si :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` no es una ruta a una pista de tipo :ref:`Animation.TYPE_ROTATION_3D<class_Animation_constant_TYPE_ROTATION_3D>`, devuelve ``Quaternion(0, 0, 0, 1)``.
 
-See also :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` and :ref:`RootMotionView<class_RootMotionView>`.
+Véase también :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` y :ref:`RootMotionView<class_RootMotionView>`.
 
-The most basic example is applying rotation to :ref:`CharacterBody3D<class_CharacterBody3D>`:
+El ejemplo más básico es aplicar la rotación a :ref:`CharacterBody3D<class_CharacterBody3D>`:
 
 
 .. tabs::
@@ -860,13 +860,13 @@ However, if the animation loops, an unintended discrete change may occur, so thi
 
 :ref:`Vector3<class_Vector3>` **get_root_motion_scale**\ (\ ) |const| :ref:`🔗<class_AnimationMixer_method_get_root_motion_scale>`
 
-Retrieve the motion delta of scale with the :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` as a :ref:`Vector3<class_Vector3>` that can be used elsewhere.
+Recupera el delta de movimiento de la escala con :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` como un :ref:`Vector3<class_Vector3>` que puede ser usado en otro lugar.
 
-If :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` is not a path to a track of type :ref:`Animation.TYPE_SCALE_3D<class_Animation_constant_TYPE_SCALE_3D>`, returns ``Vector3(0, 0, 0)``.
+Si :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` no es una ruta a una pista de tipo :ref:`Animation.TYPE_SCALE_3D<class_Animation_constant_TYPE_SCALE_3D>`, devuelve ``Vector3(0, 0, 0)``.
 
-See also :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` and :ref:`RootMotionView<class_RootMotionView>`.
+Véase también :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` y :ref:`RootMotionView<class_RootMotionView>`.
 
-The most basic example is applying scale to :ref:`CharacterBody3D<class_CharacterBody3D>`:
+El ejemplo más básico es aplicar la escala a :ref:`CharacterBody3D<class_CharacterBody3D>`:
 
 
 .. tabs::

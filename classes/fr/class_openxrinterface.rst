@@ -14,9 +14,9 @@ Notre interface OpenXR.
 Description
 -----------
 
-The OpenXR interface allows Godot to interact with OpenXR runtimes and make it possible to create XR experiences and games.
+L'interface OpenXR permet à Godot d'interagir avec OpenXR et de créer des expériences et des jeux XR.
 
-Due to the needs of OpenXR this interface works slightly different than other plugin based XR interfaces. It needs to be initialized when Godot starts. You need to enable OpenXR, settings for this can be found in your games project settings under the XR heading. You do need to mark a viewport for use with XR in order for Godot to know which render result should be output to the headset.
+En raison des besoins d'OpenXR, cette interface fonctionne légèrement différent des autres plugins d'interfaces XR. Elle doit être initialisée quand Godot démarre. Vous devez activer OpenXR, les paramètres pour cela peuvent être trouvés dans les paramètres du projet de votre jeu sous la rubrique XR. Vous avez besoin de marquer un viewport pour une utilisation XR afin que Godot sache quel résultat de rendu devrait être envoyé vers le casque.
 
 .. rst-class:: classref-introduction-group
 
@@ -222,7 +222,7 @@ Informe que notre session OpenXR s'arrête.
 
 **session_synchronized**\ (\ ) :ref:`🔗<class_OpenXRInterface_signal_session_synchronized>`
 
-Informs our OpenXR session has been synchronized.
+Informe que notre session OpenXR a été synchronisée.
 
 .. rst-class:: classref-item-separator
 
@@ -234,7 +234,7 @@ Informs our OpenXR session has been synchronized.
 
 **session_visible**\ (\ ) :ref:`🔗<class_OpenXRInterface_signal_session_visible>`
 
-Informs our OpenXR session is now visible, for example output is sent to the HMD but we don't receive XR input.
+Informe que notre session OpenXR est maintenant visible, par exemple la sortie est envoyée au HMD mais nous ne recevons pas d'entrée XR.
 
 .. rst-class:: classref-section-separator
 
@@ -257,7 +257,7 @@ enum **SessionState**: :ref:`🔗<enum_OpenXRInterface_SessionState>`
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_UNKNOWN** = ``0``
 
-The state of the session is unknown, we haven't tried setting up OpenXR yet.
+L'état de la session est inconnu, nous n'avons pas encore essayé de configurer OpenXR.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_IDLE:
 
@@ -273,7 +273,7 @@ L'état initial après que la session OpenXR soit créée ou après que la sessi
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_READY** = ``2``
 
-OpenXR is ready to begin our session. :ref:`session_begun<class_OpenXRInterface_signal_session_begun>` is emitted when we change to this state.
+OpenXR est prêt à démarrer notre session. :ref:`session_begun<class_OpenXRInterface_signal_session_begun>` est émis lorsque nous changeons vers cette état.
 
 .. _class_OpenXRInterface_constant_SESSION_STATE_SYNCHRONIZED:
 
@@ -411,7 +411,7 @@ enum **HandTrackedSource**: :ref:`🔗<enum_OpenXRInterface_HandTrackedSource>`
 
 :ref:`HandTrackedSource<enum_OpenXRInterface_HandTrackedSource>` **HAND_TRACKED_SOURCE_UNKNOWN** = ``0``
 
-The source of hand tracking data is unknown (the extension is likely unsupported).
+La source des données du suivi des mains est inconnue (l'extension est probablement non supportée).
 
 .. _class_OpenXRInterface_constant_HAND_TRACKED_SOURCE_UNOBSTRUCTED:
 
@@ -419,7 +419,7 @@ The source of hand tracking data is unknown (the extension is likely unsupported
 
 :ref:`HandTrackedSource<enum_OpenXRInterface_HandTrackedSource>` **HAND_TRACKED_SOURCE_UNOBSTRUCTED** = ``1``
 
-The source of hand tracking is unobstructed, this means that an accurate method of hand tracking is used, e.g. optical hand tracking, data gloves, etc.
+La source des données du suivi des mains est non obstruée, cela signifie qu'une méthode précise de suivi des mains est utilisée, par ex. du suivi des mains optique, des gants de données, etc...
 
 .. _class_OpenXRInterface_constant_HAND_TRACKED_SOURCE_CONTROLLER:
 
@@ -427,7 +427,7 @@ The source of hand tracking is unobstructed, this means that an accurate method 
 
 :ref:`HandTrackedSource<enum_OpenXRInterface_HandTrackedSource>` **HAND_TRACKED_SOURCE_CONTROLLER** = ``2``
 
-The source of hand tracking is a controller, bone positions are inferred from controller inputs.
+La source des données du suivi des mains est un contrôleur, les positions des os sont inférées des entrées du contrôleur.
 
 .. _class_OpenXRInterface_constant_HAND_TRACKED_SOURCE_MAX:
 
@@ -679,7 +679,7 @@ enum **PerfSettingsLevel**: :ref:`🔗<enum_OpenXRInterface_PerfSettingsLevel>`
 
 :ref:`PerfSettingsLevel<enum_OpenXRInterface_PerfSettingsLevel>` **PERF_SETTINGS_LEVEL_POWER_SAVINGS** = ``0``
 
-The application has entered a non-XR section (head-locked / static screen), during which power savings are to be prioritized.
+L'application est entrée dans une section non-XR (écran verrouillé / sans mouvement de tête), au cours de laquelle les économies d'énergie doivent être priorisées.
 
 .. _class_OpenXRInterface_constant_PERF_SETTINGS_LEVEL_SUSTAINED_LOW:
 
@@ -969,7 +969,7 @@ Descriptions des méthodes
 
 :ref:`Array<class_Array>` **get_action_sets**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_get_action_sets>`
 
-Returns a list of action sets registered with Godot (loaded from the action map at runtime).
+Renvoie une liste d'ensembles d'actions enregistrés avec Godot (chargés à partir de l'action map durant l'exécution).
 
 .. rst-class:: classref-item-separator
 
@@ -981,7 +981,7 @@ Returns a list of action sets registered with Godot (loaded from the action map 
 
 :ref:`Array<class_Array>` **get_available_display_refresh_rates**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_get_available_display_refresh_rates>`
 
-Returns display refresh rates supported by the current HMD. Only returned if this feature is supported by the OpenXR runtime and after the interface has been initialized.
+Renvoie les taux de rafraîchissement supportés par le HMD actuel. Seulement renvoyé si cette fonctionnalité est supportée par le runtime OpenXR et après que l'interface ait été initialisée.
 
 .. rst-class:: classref-item-separator
 
@@ -1009,7 +1009,7 @@ Si le suivi des mains est activé, renvoie la vélocité angulaire d'une articul
 
 **Obsolète :** Use :ref:`XRHandTracker.get_hand_joint_flags()<class_XRHandTracker_method_get_hand_joint_flags>` obtained from :ref:`XRServer.get_tracker()<class_XRServer_method_get_tracker>` instead.
 
-If handtracking is enabled, returns flags that inform us of the validity of the tracking data.
+Si le suivi des mains est activé, renvoie des drapeaux qui nous informent de la validité des données du suivi.
 
 .. rst-class:: classref-item-separator
 
@@ -1079,7 +1079,7 @@ Si le suivi des mains est activé, renvoie la rotation d'une articulation (``joi
 
 **Obsolète :** Use :ref:`XRHandTracker.hand_tracking_source<class_XRHandTracker_property_hand_tracking_source>` obtained from :ref:`XRServer.get_tracker()<class_XRServer_method_get_tracker>` instead.
 
-If handtracking is enabled and hand tracking source is supported, gets the source of the hand tracking data for ``hand``.
+Si le suivi des mains est activé et que la source de suivi des mains est supportée, obtient la source des données de suivi des mains pour la main ``hand``.
 
 .. rst-class:: classref-item-separator
 

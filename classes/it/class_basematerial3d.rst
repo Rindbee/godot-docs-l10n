@@ -1266,7 +1266,7 @@ enum **SpecularMode**: :ref:`🔗<enum_BaseMaterial3D_SpecularMode>`
 
 :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` **SPECULAR_SCHLICK_GGX** = ``0``
 
-Blob speculare predefinito.
+Macchia speculare predefinita.
 
 \ **Nota:** Forward+ utilizza un multiscattering per riflessi più accurati, sebbene l'impatto del multiscattering sia più evidente sulle superfici metalliche ruvide rispetto alle superfici lisce e non metalliche.
 
@@ -1286,7 +1286,7 @@ Il riflesso in modalità cartone cambia dimensione in base alla ruvidità.
 
 :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` **SPECULAR_DISABLED** = ``2``
 
-Nessun blob speculare. Questo è leggermente più veloce da renderizzare rispetto ad altre modalità speculari.
+Nessuna macchia speculare. Questo è leggermente più veloce da renderizzare rispetto ad altre modalità speculari.
 
 .. rst-class:: classref-item-separator
 
@@ -1775,7 +1775,7 @@ La forza dell'effetto di anisotropia. Questo è moltiplicato per il canale alfa 
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-Se ``true``, l'anisotropia è abilitata. L'anisotropia cambia la forma della massa speculare e la allinea allo spazio tangente. Questo è utile per i riflessi di alluminio lucidato e dei capelli.
+Se ``true``, l'anisotropia è abilitata. L'anisotropia cambia la forma della macchia speculare e la allinea allo spazio tangente. Questo è utile per i riflessi di alluminio lucidato e dei capelli.
 
 \ **Nota:** Le tangenti delle mesh sono necessarie affinché l'anisotropia funzioni. Se la mesh non contiene tangenti, l'effetto anisotropico apparirà fratturato.
 
@@ -2063,7 +2063,7 @@ Imposta l'intensità dell'effetto di rivestimento trasparente. Impostarlo su ``0
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-Se ``true``, il rendering di rivestimento trasparente è abilitato. Aggiunge un passaggio trasparente secondario al calcolo dell'illuminazione risultando in un blob speculare aggiuntivo. Ciò fa apparire i materiali come se avessero uno strato trasparente su di essi che può essere lucido o ruvido.
+Se ``true``, il rendering di rivestimento trasparente è abilitato. Aggiunge un passaggio trasparente secondario al calcolo dell'illuminazione risultando in una macchia speculare aggiuntiva. Ciò fa apparire i materiali come se avessero uno strato trasparente su di essi che può essere lucido o ruvido.
 
 \ **Nota:** Il rendering di rivestimento trasparente non è visibile se il :ref:`shading_mode<class_BaseMaterial3D_property_shading_mode>` del materiale è :ref:`SHADING_MODE_UNSHADED<class_BaseMaterial3D_constant_SHADING_MODE_UNSHADED>`.
 
@@ -2862,7 +2862,7 @@ Lo spessore del contorno della forma.
 - |void| **set_msdf_pixel_range**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_msdf_pixel_range**\ (\ )
 
-The width of the range around the shape between the minimum and maximum representable signed distance.
+La larghezza dell'intervallo attorno alla forma tra la distanza con segno rappresentabile minima e massima.
 
 .. rst-class:: classref-item-separator
 
@@ -3297,9 +3297,9 @@ Se ``true``, abilita la modalità di rendering "da ombra a opacità" in cui l'il
 - |void| **set_specular_mode**\ (\ value\: :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>`\ )
 - :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` **get_specular_mode**\ (\ )
 
-Il modo per renderizzare il blob speculare.
+Il modo per renderizzare la macchia speculare.
 
-\ **Nota:** :ref:`specular_mode<class_BaseMaterial3D_property_specular_mode>` si applica solo al blob speculare. Non influisce sui riflessi speculari del cielo, sui riflessi nello spazio dello schermo, sui :ref:`VoxelGI<class_VoxelGI>`, SDFGI o :ref:`ReflectionProbe<class_ReflectionProbe>`. Per disabilitare anche i riflessi provenienti da queste fonti, imposta invece :ref:`metallic_specular<class_BaseMaterial3D_property_metallic_specular>` su ``0.0``.
+\ **Nota:** :ref:`specular_mode<class_BaseMaterial3D_property_specular_mode>` si applica solo alla macchia speculare. Non influisce sui riflessi speculari del cielo, sui riflessi nello spazio dello schermo, sui :ref:`VoxelGI<class_VoxelGI>`, SDFGI o :ref:`ReflectionProbe<class_ReflectionProbe>`. Per disabilitare anche i riflessi provenienti da queste fonti, imposta invece :ref:`metallic_specular<class_BaseMaterial3D_property_metallic_specular>` su ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -3430,7 +3430,9 @@ Il valore di riferimento di stencil (0-255). Solitamente una potenza di 2.
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-Se ``true``, il subsurface scattering è abilitato. Emula la luce che penetra nella superficie di un oggetto, è dispersa e poi emerge. La qualità della dispersione è controllata da :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+If ``true``, subsurface scattering is enabled. Emulates light that penetrates an object's surface, is scattered, and then emerges. Subsurface scattering quality is controlled by :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+
+\ **Note:** Subsurface scattering is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 

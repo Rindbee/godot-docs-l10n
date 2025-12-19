@@ -16,11 +16,11 @@ Une ressource qui contient une pile de :ref:`SkeletonModification2D<class_Skelet
 Description
 -----------
 
-This resource is used by the Skeleton and holds a stack of :ref:`SkeletonModification2D<class_SkeletonModification2D>`\ s.
+Cette ressource est utilisée par le Skeleton et possède une pile de :ref:`SkeletonModification2D<class_SkeletonModification2D>`\ s.
 
-This controls the order of the modifications and how they are applied. Modification order is especially important for full-body IK setups, as you need to execute the modifications in the correct order to get the desired results. For example, you want to execute a modification on the spine *before* the arms on a humanoid skeleton.
+Cela contrôle l'ordre des modifications et comment elles sont appliquées. L'ordre des modifications est particulièrement important pour les configurations d'IK sur le corps entier, car vous devez exécuter les modifications dans le bon ordre pour obtenir les résultats souhaités. Par exemple, vous voulez exécuter une modification sur la colonne vertébrale *avant* les bras sur un squelette humanoïde.
 
-This resource also controls how strongly all of the modifications are applied to the :ref:`Skeleton2D<class_Skeleton2D>`.
+Cette ressource contrôle la force avec laquelle toutes les modifications sont appliquées au :ref:`Skeleton2D<class_Skeleton2D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -86,7 +86,7 @@ Descriptions des propriétés
 - |void| **set_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enabled**\ (\ )
 
-If ``true``, the modification's in the stack will be called. This is handled automatically through the :ref:`Skeleton2D<class_Skeleton2D>` node.
+Si ``true``, les modifications dans la pile seront appelées. Ceci est géré automatiquement par le nœud :ref:`Skeleton2D<class_Skeleton2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -120,7 +120,7 @@ Le nombre de modifications dans la pile.
 - |void| **set_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_strength**\ (\ )
 
-The interpolation strength of the modifications in stack. A value of ``0`` will make it where the modifications are not applied, a strength of ``0.5`` will be half applied, and a strength of ``1`` will allow the modifications to be fully applied and override the :ref:`Skeleton2D<class_Skeleton2D>` :ref:`Bone2D<class_Bone2D>` poses.
+La force d'interpolation des modifications dans la pile. Une valeur de ``0`` fera que les modifications ne seront pas appliquées, une force de ``0.5`` fera qu'elles seront appliquées à moitié, et une force de ``1`` permettra d'appliquer pleinement les modifications et de redéfinir les poses des :ref:`Bone2D<class_Bone2D>` du :ref:`Skeleton2D<class_Skeleton2D>`.
 
 .. rst-class:: classref-section-separator
 
@@ -149,7 +149,7 @@ Ajoute à la pile le :ref:`SkeletonModification2D<class_SkeletonModification2D>`
 
 |void| **delete_modification**\ (\ mod_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SkeletonModificationStack2D_method_delete_modification>`
 
-Deletes the :ref:`SkeletonModification2D<class_SkeletonModification2D>` at the index position ``mod_idx``, if it exists.
+Supprime la :ref:`SkeletonModification2D<class_SkeletonModification2D>` à la position d'index ``mod_idx``, si elle existe.
 
 .. rst-class:: classref-item-separator
 
@@ -173,9 +173,9 @@ Active toutes les :ref:`SkeletonModification2D<class_SkeletonModification2D>`\ s
 
 |void| **execute**\ (\ delta\: :ref:`float<class_float>`, execution_mode\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SkeletonModificationStack2D_method_execute>`
 
-Executes all of the :ref:`SkeletonModification2D<class_SkeletonModification2D>`\ s in the stack that use the same execution mode as the passed-in ``execution_mode``, starting from index ``0`` to :ref:`modification_count<class_SkeletonModificationStack2D_property_modification_count>`.
+Exécute tous les :ref:`SkeletonModification2D<class_SkeletonModification2D>`\ s dans la pile qui utilisent le même mode d'exécution que le mode passé ``execution_mode``, à partir de l'index ``0`` jusqu'à l'index :ref:`modification_count<class_SkeletonModificationStack2D_property_modification_count>`.
 
-\ **Note:** The order of the modifications can matter depending on the modifications. For example, modifications on a spine should operate before modifications on the arms in order to get proper results.
+\ **Note :** L'ordre des modifications peut être important en fonction des modifications. Par exemple, les modifications sur une colonne vertébrale doivent s'opérer avant les modifications sur les bras afin d'obtenir des résultats appropriés.
 
 .. rst-class:: classref-item-separator
 
@@ -199,7 +199,7 @@ Renvoie un booléen indiquant si la pile de modifications est installée et peut
 
 :ref:`SkeletonModification2D<class_SkeletonModification2D>` **get_modification**\ (\ mod_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonModificationStack2D_method_get_modification>`
 
-Returns the :ref:`SkeletonModification2D<class_SkeletonModification2D>` at the passed-in index, ``mod_idx``.
+Renvoie la :ref:`SkeletonModification2D<class_SkeletonModification2D>` à l'index transmis, ``mod_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -211,7 +211,7 @@ Returns the :ref:`SkeletonModification2D<class_SkeletonModification2D>` at the p
 
 :ref:`Skeleton2D<class_Skeleton2D>` **get_skeleton**\ (\ ) |const| :ref:`🔗<class_SkeletonModificationStack2D_method_get_skeleton>`
 
-Returns the :ref:`Skeleton2D<class_Skeleton2D>` node that the SkeletonModificationStack2D is bound to.
+Renvoie le nœud :ref:`Skeleton2D<class_Skeleton2D>` auquel la SkeletonModificationStack2D est liée.
 
 .. rst-class:: classref-item-separator
 
@@ -223,7 +223,7 @@ Returns the :ref:`Skeleton2D<class_Skeleton2D>` node that the SkeletonModificati
 
 |void| **set_modification**\ (\ mod_idx\: :ref:`int<class_int>`, modification\: :ref:`SkeletonModification2D<class_SkeletonModification2D>`\ ) :ref:`🔗<class_SkeletonModificationStack2D_method_set_modification>`
 
-Sets the modification at ``mod_idx`` to the passed-in modification, ``modification``.
+Définit la modification à l'index ``mod_idx`` à la modification transmise, ``modification``.
 
 .. rst-class:: classref-item-separator
 
@@ -235,7 +235,7 @@ Sets the modification at ``mod_idx`` to the passed-in modification, ``modificati
 
 |void| **setup**\ (\ ) :ref:`🔗<class_SkeletonModificationStack2D_method_setup>`
 
-Sets up the modification stack so it can execute. This function should be called by :ref:`Skeleton2D<class_Skeleton2D>` and shouldn't be manually called unless you know what you are doing.
+Met en place la pile de modifications pour qu'elle puisse exécuter. Cette fonction devrait être appelée par :ref:`Skeleton2D<class_Skeleton2D>` et ne devrait pas être appelée manuellement à moins que vous ne sachiez ce que vous faites.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

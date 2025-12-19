@@ -7,7 +7,7 @@ RenderData
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`RenderDataExtension<class_RenderDataExtension>`, :ref:`RenderDataRD<class_RenderDataRD>`
+**Hérité par :** :ref:`RenderDataExtension<class_RenderDataExtension>`, :ref:`RenderDataRD<class_RenderDataRD>`
 
 Abstract render data object, holds frame data related to rendering a single frame of a viewport.
 

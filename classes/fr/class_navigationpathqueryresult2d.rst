@@ -9,14 +9,14 @@ NavigationPathQueryResult2D
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents the result of a 2D pathfinding query.
+Représente le résultat d'une requête de recherche de chemin 2D.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This class stores the result of a 2D navigation path query from the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Cette classe stocke le résultat d'une requête de chemin de navigation 2D depuis le :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -108,7 +108,7 @@ Descriptions des propriétés
 - |void| **set_path**\ (\ value\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ )
 - :ref:`PackedVector2Array<class_PackedVector2Array>` **get_path**\ (\ )
 
-The resulting path array from the navigation query. All path array positions are in global coordinates. Without customized query parameters this is the same path as returned by :ref:`NavigationServer2D.map_get_path()<class_NavigationServer2D_method_map_get_path>`.
+Le tableau du chemin résultant de la requête de navigation. Toutes les positions du tableau du chemin sont dans les coordonnées globales. Sans paramètres de requête personnalisés, il s'agit du même chemin que celui renvoyé par :ref:`NavigationServer2D.map_get_path()<class_NavigationServer2D_method_map_get_path>`.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector2Array<class_PackedVector2Array>` for more details.
 
@@ -127,7 +127,7 @@ The resulting path array from the navigation query. All path array positions are
 - |void| **set_path_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_length**\ (\ )
 
-Returns the length of the path.
+Renvoie la longueur du chemin.
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ Returns the length of the path.
 - |void| **set_path_owner_ids**\ (\ value\: :ref:`PackedInt64Array<class_PackedInt64Array>`\ )
 - :ref:`PackedInt64Array<class_PackedInt64Array>` **get_path_owner_ids**\ (\ )
 
-The ``ObjectID``\ s of the :ref:`Object<class_Object>`\ s which manage the regions and links each point of the path goes through.
+Les ``ObjectID``\ s des :ref:`Object<class_Object>`\ s qui gèrent les régions et les liens de chaque point que le chemin traverse.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt64Array<class_PackedInt64Array>` for more details.
 
@@ -163,7 +163,7 @@ The ``ObjectID``\ s of the :ref:`Object<class_Object>`\ s which manage the regio
 - |void| **set_path_rids**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_path_rids**\ (\ )
 
-The :ref:`RID<class_RID>`\ s of the regions and links that each point of the path goes through.
+Les :ref:`RID<class_RID>`\ s des régions et des liens de chaque point que le chemin traverse.
 
 .. rst-class:: classref-item-separator
 
@@ -180,7 +180,7 @@ The :ref:`RID<class_RID>`\ s of the regions and links that each point of the pat
 - |void| **set_path_types**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_path_types**\ (\ )
 
-The type of navigation primitive (region or link) that each point of the path goes through.
+Le type de primitive de navigation (région ou lien) que chaque point du chemin traverse.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 
@@ -199,7 +199,7 @@ Descriptions des méthodes
 
 |void| **reset**\ (\ ) :ref:`🔗<class_NavigationPathQueryResult2D_method_reset>`
 
-Reset the result object to its initial state. This is useful to reuse the object across multiple queries.
+Réinitialise l'objet résultat à son état initial. Ceci est utile pour réutiliser l'objet dans plusieurs requêtes.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

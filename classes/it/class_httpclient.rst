@@ -1000,7 +1000,7 @@ Questa chiamata deve essere eseguita per elaborare qualsiasi richiesta. Verifica
 
 :ref:`String<class_String>` **query_string_from_dict**\ (\ fields\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_HTTPClient_method_query_string_from_dict>`
 
-Generates a GET/POST application/x-www-form-urlencoded style query string from a provided dictionary, e.g.:
+Genera una stringa di richiesta in stile GET/POST application/x-www-form-urlencoded da un dizionario fornito, ad esempio:
 
 
 .. tabs::
@@ -1009,17 +1009,17 @@ Generates a GET/POST application/x-www-form-urlencoded style query string from a
 
     var fields = { "username": "user", "password": "pass" }
     var query_string = http_client.query_string_from_dict(fields)
-    # Returns "username=user&password=pass"
+    # Restituisce "username=user&password=pass"
 
  .. code-tab:: csharp
 
     var fields = new Godot.Collections.Dictionary { { "username", "user" }, { "password", "pass" } };
     string queryString = httpClient.QueryStringFromDict(fields);
-    // Returns "username=user&password=pass"
+    // Restituisce "username=user&password=pass"
 
 
 
-Furthermore, if a key has a ``null`` value, only the key itself is added, without equal sign and value. If the value is an array, for each value in it a pair with the same key is added.
+Inoltre, se una chiave ha un valore ``null``, solo la chiave stessa viene aggiunta, senza segno di uguale e valore. Se il valore è un array, per ogni valore in esso contenuto viene aggiunta una coppia con la stessa chiave.
 
 
 .. tabs::
@@ -1028,7 +1028,7 @@ Furthermore, if a key has a ``null`` value, only the key itself is added, withou
 
     var fields = { "single": 123, "not_valued": null, "multiple": [22, 33, 44] }
     var query_string = http_client.query_string_from_dict(fields)
-    # Returns "single=123&not_valued&multiple=22&multiple=33&multiple=44"
+    # Restituisce "single=123&not_valued&multiple=22&multiple=33&multiple=44"
 
  .. code-tab:: csharp
 
@@ -1039,7 +1039,7 @@ Furthermore, if a key has a ``null`` value, only the key itself is added, withou
         { "multiple", new Godot.Collections.Array { 22, 33, 44 } },
     };
     string queryString = httpClient.QueryStringFromDict(fields);
-    // Returns "single=123&not_valued&multiple=22&multiple=33&multiple=44"
+    // Restituisce "single=123&not_valued&multiple=22&multiple=33&multiple=44"
 
 
 
@@ -1065,20 +1065,20 @@ Legge una parte della risposta.
 
 :ref:`Error<enum_@GlobalScope_Error>` **request**\ (\ method\: :ref:`Method<enum_HTTPClient_Method>`, url\: :ref:`String<class_String>`, headers\: :ref:`PackedStringArray<class_PackedStringArray>`, body\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_HTTPClient_method_request>`
 
-Sends an HTTP request to the connected host with the given ``method``.
+Invia una richiesta all'host connesso.
 
-The URL parameter is usually just the part after the host, so for ``https://example.com/index.php``, it is ``/index.php``. When sending requests to an HTTP proxy server, it should be an absolute URL. For :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>` requests, ``*`` is also allowed. For :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>` requests, it should be the authority component (``host:port``).
+Il parametro URL è solitamente solo la parte dopo l'host, quindi per ``https://somehost.com/index.php``, è ``/index.php``. Quando si inviano richieste a un server proxy HTTP, dovrebbe essere un URL assoluto. Per le richieste :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>`, è consentito anche ``*``. Per le richieste :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>`, dovrebbe essere il componente autorità (``host:port``).
 
-\ ``headers`` are HTTP request headers.
+Le intestazioni sono intestazioni di richiesta HTTP.
 
-To create a POST request with query strings to push to the server, do:
+Per creare una richiesta POST con stringhe di richiesta da inviare al server, usa:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var fields = { "username": "user", "password": "pass" }
+    var fields = { "username" : "user", "password" : "pass" }
     var query_string = http_client.query_string_from_dict(fields)
     var headers = ["Content-Type: application/x-www-form-urlencoded", "Content-Length: " + str(query_string.length())]
     var result = http_client.request(http_client.METHOD_POST, "/index.php", headers, query_string)
@@ -1092,7 +1092,7 @@ To create a POST request with query strings to push to the server, do:
 
 
 
-\ **Note:** The ``body`` parameter is ignored if ``method`` is :ref:`METHOD_GET<class_HTTPClient_constant_METHOD_GET>`. This is because GET methods can't contain request data. As a workaround, you can pass request data as a query string in the URL. See :ref:`String.uri_encode()<class_String_method_uri_encode>` for an example.
+\ **Nota:** Il parametro ``body`` viene ignorato se ``method`` è :ref:`METHOD_GET<class_HTTPClient_constant_METHOD_GET>`. Questo perché i metodi GET non possono contenere dati di richiesta. Come alternativa, è possibile passare i dati di richiesta come stringa di richiesta nell'URL. Vedi :ref:`String.uri_encode()<class_String_method_uri_encode>` per un esempio.
 
 .. rst-class:: classref-item-separator
 
@@ -1104,13 +1104,13 @@ To create a POST request with query strings to push to the server, do:
 
 :ref:`Error<enum_@GlobalScope_Error>` **request_raw**\ (\ method\: :ref:`Method<enum_HTTPClient_Method>`, url\: :ref:`String<class_String>`, headers\: :ref:`PackedStringArray<class_PackedStringArray>`, body\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_HTTPClient_method_request_raw>`
 
-Sends a raw HTTP request to the connected host with the given ``method``.
+Invia una richiesta grezza all'host connesso con il metodo ``method``.
 
-The URL parameter is usually just the part after the host, so for ``https://example.com/index.php``, it is ``/index.php``. When sending requests to an HTTP proxy server, it should be an absolute URL. For :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>` requests, ``*`` is also allowed. For :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>` requests, it should be the authority component (``host:port``).
+Il parametro URL è solitamente solo la parte dopo l'host, quindi per ``https://somehost.com/index.php``, è ``/index.php``. Quando si inviano richieste a un server proxy HTTP, dovrebbe essere un URL assoluto. Per le richieste :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>`, è consentito anche ``*``. Per le richieste :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>`, dovrebbe essere il componente autoritativo (``host:port``).
 
-\ ``headers`` are HTTP request headers.
+Le intestazioni sono intestazioni di richiesta HTTP.
 
-Sends the body data raw, as a byte array and does not encode it in any way.
+Invia i dati del corpo grezzi, come array di byte e non li codifica in alcun modo.
 
 .. rst-class:: classref-item-separator
 

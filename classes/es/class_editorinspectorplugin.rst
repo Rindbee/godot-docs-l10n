@@ -150,7 +150,7 @@ Called to allow adding property-specific editors to the property list for ``obje
 
 |void| **add_custom_control**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_EditorInspectorPlugin_method_add_custom_control>`
 
-Adds a custom control, which is not necessarily a property editor.
+Añade un control personalizado, que no es necesariamente un editor de propiedades.
 
 .. rst-class:: classref-item-separator
 

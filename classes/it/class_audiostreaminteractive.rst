@@ -14,9 +14,9 @@ Flusso audio in grado di riprodurre musica in modo interattivo, combinando i cli
 Descrizione
 ----------------------
 
-This is an audio stream that can playback music interactively, combining clips and a transition table. Clips must be added first, and then the transition rules via the :ref:`add_transition()<class_AudioStreamInteractive_method_add_transition>`. Additionally, this stream exports a property parameter to control the playback via :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`, :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`, or :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`.
+Questo è un flusso audio che può riprodurre musica in modo interattivo, combinando clip e una tabella di transizione. Le clip devono essere prima aggiunte, e poi le regole di transizione tramite :ref:`add_transition()<class_AudioStreamInteractive_method_add_transition>`. Inoltre, questo flusso esporta un parametro di proprietà per controllare la riproduzione tramite :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`, :ref:`AudioStreamPlayer2D<class_AudioStreamPlayer2D>` o :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`.
 
-The way this is used is by filling a number of clips, then configuring the transition table. From there, clips are selected for playback and the music will smoothly go from the current to the new one while using the corresponding transition rule defined in the transition table.
+Il modo in cui è utilizzato è inserendo un certo numero di clip, quindi configurando la tabella di transizione. Da lì, le clip sono selezionate per la riproduzione e la musica passerà gradualmente da quella attuale a quella nuova, utilizzando la regola di transizione corrispondente definita nella tabella di transizione.
 
 .. rst-class:: classref-reftable-group
 

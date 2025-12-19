@@ -7,26 +7,26 @@ SpringBoneSimulator3D
 
 **Hereda:** :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` to apply inertial wavering to bone chains.
+Un :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` para aplicar un bamboleo inercial a las cadenas de huesos.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` can be used to wiggle hair, cloth, and tails. This modifier behaves differently from :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` as it attempts to return the original pose after modification.
+Este :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` puede usarse para menear el pelo, la ropa y las colas.Este modificador se comporta de forma diferente a :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>`, ya que intenta devolver la pose original después de la modificación.
 
-If you setup :ref:`set_root_bone()<class_SpringBoneSimulator3D_method_set_root_bone>` and :ref:`set_end_bone()<class_SpringBoneSimulator3D_method_set_end_bone>`, it is treated as one bone chain. Note that it does not support a branched chain like Y-shaped chains.
+Si configuras :ref:`set_root_bone()<class_SpringBoneSimulator3D_method_set_root_bone>` y :ref:`set_end_bone()<class_SpringBoneSimulator3D_method_set_end_bone>`, se tratará como una cadena de huesos. Ten en cuenta que no admite una cadena ramificada como las cadenas en forma de Y.
 
-When a bone chain is created, an array is generated from the bones that exist in between and listed in the joint list.
+Cuando se crea una cadena de huesos, se genera un array a partir de los huesos que existen entre ellos y se enumeran en la lista de articulaciones.
 
-Several properties can be applied to each joint, such as :ref:`set_joint_stiffness()<class_SpringBoneSimulator3D_method_set_joint_stiffness>`, :ref:`set_joint_drag()<class_SpringBoneSimulator3D_method_set_joint_drag>`, and :ref:`set_joint_gravity()<class_SpringBoneSimulator3D_method_set_joint_gravity>`.
+Se pueden aplicar varias propiedades a cada articulación, como :ref:`set_joint_stiffness()<class_SpringBoneSimulator3D_method_set_joint_stiffness>`, :ref:`set_joint_drag()<class_SpringBoneSimulator3D_method_set_joint_drag>` y :ref:`set_joint_gravity()<class_SpringBoneSimulator3D_method_set_joint_gravity>`.
 
-For simplicity, you can set values to all joints at the same time by using a :ref:`Curve<class_Curve>`. If you want to specify detailed values individually, set :ref:`set_individual_config()<class_SpringBoneSimulator3D_method_set_individual_config>` to ``true``.
+Para simplificar, puedes establecer valores para todas las articulaciones al mismo tiempo utilizando una :ref:`Curve<class_Curve>`. Si deseas especificar valores detallados individualmente, establece :ref:`set_individual_config()<class_SpringBoneSimulator3D_method_set_individual_config>` a ``true``.
 
-For physical simulation, **SpringBoneSimulator3D** can have children as self-standing collisions that are not related to :ref:`PhysicsServer3D<class_PhysicsServer3D>`, see also :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>`.
+Para la simulación física, **SpringBoneSimulator3D** puede tener hijos como colisiones independientes que no están relacionadas con :ref:`PhysicsServer3D<class_PhysicsServer3D>`, véase también :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>`.
 
-\ **Warning:** A scaled **SpringBoneSimulator3D** will likely not behave as expected. Make sure that the parent :ref:`Skeleton3D<class_Skeleton3D>` and its bones are not scaled.
+\ **Advertencia:** Un **SpringBoneSimulator3D** escalado probablemente no se comportará como se espera. Asegúrate de que el :ref:`Skeleton3D<class_Skeleton3D>` padre y sus huesos no estén escalados.
 
 .. rst-class:: classref-reftable-group
 
@@ -227,7 +227,7 @@ enum **BoneDirection**: :ref:`🔗<enum_SpringBoneSimulator3D_BoneDirection>`
 
 :ref:`BoneDirection<enum_SpringBoneSimulator3D_BoneDirection>` **BONE_DIRECTION_PLUS_X** = ``0``
 
-Enumerated value for the +X axis.
+Valor enumerado para el eje +X.
 
 .. _class_SpringBoneSimulator3D_constant_BONE_DIRECTION_MINUS_X:
 
@@ -235,7 +235,7 @@ Enumerated value for the +X axis.
 
 :ref:`BoneDirection<enum_SpringBoneSimulator3D_BoneDirection>` **BONE_DIRECTION_MINUS_X** = ``1``
 
-Enumerated value for the -X axis.
+Valor enumerado para el eje -X.
 
 .. _class_SpringBoneSimulator3D_constant_BONE_DIRECTION_PLUS_Y:
 
@@ -243,7 +243,7 @@ Enumerated value for the -X axis.
 
 :ref:`BoneDirection<enum_SpringBoneSimulator3D_BoneDirection>` **BONE_DIRECTION_PLUS_Y** = ``2``
 
-Enumerated value for the +Y axis.
+Valor enumerado para el eje +Y.
 
 .. _class_SpringBoneSimulator3D_constant_BONE_DIRECTION_MINUS_Y:
 
@@ -251,7 +251,7 @@ Enumerated value for the +Y axis.
 
 :ref:`BoneDirection<enum_SpringBoneSimulator3D_BoneDirection>` **BONE_DIRECTION_MINUS_Y** = ``3``
 
-Enumerated value for the -Y axis.
+Valor enumerado para el eje -Y.
 
 .. _class_SpringBoneSimulator3D_constant_BONE_DIRECTION_PLUS_Z:
 
@@ -259,7 +259,7 @@ Enumerated value for the -Y axis.
 
 :ref:`BoneDirection<enum_SpringBoneSimulator3D_BoneDirection>` **BONE_DIRECTION_PLUS_Z** = ``4``
 
-Enumerated value for the +Z axis.
+Valor enumerado para el eje +Z.
 
 .. _class_SpringBoneSimulator3D_constant_BONE_DIRECTION_MINUS_Z:
 
@@ -267,7 +267,7 @@ Enumerated value for the +Z axis.
 
 :ref:`BoneDirection<enum_SpringBoneSimulator3D_BoneDirection>` **BONE_DIRECTION_MINUS_Z** = ``5``
 
-Enumerated value for the -Z axis.
+Valor enumerado para el eje -Z.
 
 .. _class_SpringBoneSimulator3D_constant_BONE_DIRECTION_FROM_PARENT:
 
@@ -1087,7 +1087,7 @@ Establece la longitud de la cola del hueso final de la cadena de huesos cuando :
 
 Establece el nombre del hueso final de la cadena de huesos.
 
-\ **Nota:** El hueso final debe ser el hueso raíz o un hijo del hueso raíz. Si son iguales, la cola debe extenderse mediante :ref:`set_extend_end_bone()<class_SpringBoneSimulator3D_method_set_extend_end_bone>` para hacer que el hueso se mueva.
+\ **Nota:** El hueso final debe ser el hueso raíz o un hijo del hueso raíz. Si son iguales, la cola debe extenderse mediante :ref:`set_extend_end_bone()<class_SpringBoneSimulator3D_method_set_extend_end_bone>` para hacer que el hueso se sacuda.
 
 .. rst-class:: classref-item-separator
 

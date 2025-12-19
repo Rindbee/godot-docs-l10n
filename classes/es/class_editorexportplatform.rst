@@ -253,7 +253,7 @@ Crea un archivo PCK en ``path`` para el ``path`` especificado.
 
 Crea un archivo PCK de parche en ``path`` para el ``preset`` especificado, que contiene solo los archivos que han cambiado desde el último parche.
 
-\ **Nota:** ``patches`` es una anulación opcional del conjunto de parches definidos en el preajuste de exportación. Cuando está vacío, se utilizarán los parches definidos en el preajuste de exportación.
+\ **Nota:** ``patches`` es una sobrescritura opcional del conjunto de parches definidos en el preajuste de exportación. Cuando está vacío, se utilizarán los parches definidos en el preajuste de exportación.
 
 .. rst-class:: classref-item-separator
 

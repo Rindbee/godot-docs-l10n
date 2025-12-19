@@ -7,7 +7,7 @@ JavaObject
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents an object from the Java Native Interface.
+Representa un objeto de la Java Native Interface.
 
 .. rst-class:: classref-introduction-group
 

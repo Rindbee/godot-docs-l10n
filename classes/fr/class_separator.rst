@@ -7,7 +7,7 @@ Separator
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`HSeparator<class_HSeparator>`, :ref:`VSeparator<class_VSeparator>`
+**Hérité par :** :ref:`HSeparator<class_HSeparator>`, :ref:`VSeparator<class_VSeparator>`
 
 Classe de base abstraite pour séparateurs.
 

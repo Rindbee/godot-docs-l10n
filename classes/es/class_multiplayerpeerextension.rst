@@ -10,7 +10,7 @@ MultiplayerPeerExtension
 
 **Hereda:** :ref:`MultiplayerPeer<class_MultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Class that can be inherited to implement custom multiplayer API networking layers via GDExtension.
+Clase que puede ser heredada para implementar capas de red API multijugador personalizadas a través de GDExtension.
 
 .. rst-class:: classref-introduction-group
 
@@ -294,7 +294,7 @@ Se llama cuando se sondea :ref:`MultiplayerAPI<class_MultiplayerAPI>`. Véase :r
 
 :ref:`Error<enum_@GlobalScope_Error>` **_put_packet**\ (\ p_buffer\: ``const uint8_t*``, p_buffer_size\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_MultiplayerPeerExtension_private_method__put_packet>`
 
-Called when a packet needs to be sent by the :ref:`MultiplayerAPI<class_MultiplayerAPI>`, with ``p_buffer_size`` being the size of the binary ``p_buffer`` in bytes.
+Llamado cuando un paquete necesita ser enviado por la :ref:`MultiplayerAPI<class_MultiplayerAPI>`, siendo ``p_buffer_size`` el tamaño del ``p_buffer`` binario en bytes.
 
 .. rst-class:: classref-item-separator
 
@@ -306,7 +306,7 @@ Called when a packet needs to be sent by the :ref:`MultiplayerAPI<class_Multipla
 
 :ref:`Error<enum_@GlobalScope_Error>` **_put_packet_script**\ (\ p_buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) |virtual| :ref:`🔗<class_MultiplayerPeerExtension_private_method__put_packet_script>`
 
-Called when a packet needs to be sent by the :ref:`MultiplayerAPI<class_MultiplayerAPI>`, if :ref:`_put_packet()<class_MultiplayerPeerExtension_private_method__put_packet>` isn't implemented. Use this when extending this class via GDScript.
+Llamado cuando un paquete necesita ser enviado por la :ref:`MultiplayerAPI<class_MultiplayerAPI>`, si :ref:`_put_packet()<class_MultiplayerPeerExtension_private_method__put_packet>` no está implementado. Usa esto al extender esta clase a través de GDScript.
 
 .. rst-class:: classref-item-separator
 

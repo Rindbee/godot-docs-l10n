@@ -75,7 +75,7 @@ La llamada de retorno :ref:`_post_import()<class_EditorScenePostImport_private_m
 Tutoriales
 --------------------
 
-- `Importing 3D scenes: Configuration: Using import scripts for automation <../tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#using-import-scripts-for-automation>`__
+- `Importación de escenas 3D: Configuración: Uso de scripts de importación para la automatización <../tutorials/assets_pipeline/importing_3d_scenes/import_configuration.html#using-import-scripts-for-automation>`__
 
 .. rst-class:: classref-reftable-group
 

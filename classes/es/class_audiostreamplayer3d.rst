@@ -146,7 +146,7 @@ enum **AttenuationModel**: :ref:`🔗<enum_AudioStreamPlayer3D_AttenuationModel>
 
 :ref:`AttenuationModel<enum_AudioStreamPlayer3D_AttenuationModel>` **ATTENUATION_INVERSE_DISTANCE** = ``0``
 
-Attenuation of loudness according to linear distance.
+Atenuación de la sonoridad según la distancia lineal.
 
 .. _class_AudioStreamPlayer3D_constant_ATTENUATION_INVERSE_SQUARE_DISTANCE:
 
@@ -154,7 +154,7 @@ Attenuation of loudness according to linear distance.
 
 :ref:`AttenuationModel<enum_AudioStreamPlayer3D_AttenuationModel>` **ATTENUATION_INVERSE_SQUARE_DISTANCE** = ``1``
 
-Attenuation of loudness according to squared distance.
+Atenuación de la sonoridad según la distancia al cuadrado.
 
 .. _class_AudioStreamPlayer3D_constant_ATTENUATION_LOGARITHMIC:
 
@@ -162,7 +162,7 @@ Attenuation of loudness according to squared distance.
 
 :ref:`AttenuationModel<enum_AudioStreamPlayer3D_AttenuationModel>` **ATTENUATION_LOGARITHMIC** = ``2``
 
-Attenuation of loudness according to logarithmic distance.
+Atenuación de la sonoridad según la distancia logarítmica.
 
 .. _class_AudioStreamPlayer3D_constant_ATTENUATION_DISABLED:
 
@@ -170,7 +170,7 @@ Attenuation of loudness according to logarithmic distance.
 
 :ref:`AttenuationModel<enum_AudioStreamPlayer3D_AttenuationModel>` **ATTENUATION_DISABLED** = ``3``
 
-No attenuation of loudness according to distance. The sound will still be heard positionally, unlike an :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`. :ref:`ATTENUATION_DISABLED<class_AudioStreamPlayer3D_constant_ATTENUATION_DISABLED>` can be combined with a :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` value greater than ``0.0`` to achieve linear attenuation clamped to a sphere of a defined size.
+Sin atenuación de la sonoridad según la distancia. El sonido seguirá oyéndose posicionalmente, a diferencia de un :ref:`AudioStreamPlayer<class_AudioStreamPlayer>`. :ref:`ATTENUATION_DISABLED<class_AudioStreamPlayer3D_constant_ATTENUATION_DISABLED>` se puede combinar con un valor de :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` mayor que ``0.0`` para lograr una atenuación lineal sujeta a una esfera de un tamaño definido.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Desactiva el rastreo doppler.
 
 :ref:`DopplerTracking<enum_AudioStreamPlayer3D_DopplerTracking>` **DOPPLER_TRACKING_IDLE_STEP** = ``1``
 
-Executes doppler tracking during process frames (see :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
+Ejecuta el seguimiento Doppler durante los fotogramas del proceso (véase :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
 
 .. _class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_PHYSICS_STEP:
 
@@ -204,7 +204,7 @@ Executes doppler tracking during process frames (see :ref:`Node.NOTIFICATION_INT
 
 :ref:`DopplerTracking<enum_AudioStreamPlayer3D_DopplerTracking>` **DOPPLER_TRACKING_PHYSICS_STEP** = ``2``
 
-Executes doppler tracking during physics frames (see :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
+Ejecuta el seguimiento Doppler durante los fotogramas de la física (véase :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
 
 .. rst-class:: classref-section-separator
 
@@ -349,7 +349,7 @@ Decides in which step the Doppler effect should be calculated.
 - |void| **set_emission_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_emission_angle**\ (\ )
 
-The angle in which the audio reaches a listener unattenuated.
+El ángulo en el que el audio llega a un oyente sin atenuarse.
 
 .. rst-class:: classref-item-separator
 
@@ -366,7 +366,7 @@ The angle in which the audio reaches a listener unattenuated.
 - |void| **set_emission_angle_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_emission_angle_enabled**\ (\ )
 
-If ``true``, the audio should be attenuated according to the direction of the sound.
+Si es ``true``, el audio debe atenuarse según la dirección del sonido.
 
 .. rst-class:: classref-item-separator
 
@@ -383,7 +383,7 @@ If ``true``, the audio should be attenuated according to the direction of the so
 - |void| **set_emission_angle_filter_attenuation_db**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_emission_angle_filter_attenuation_db**\ (\ )
 
-Attenuation factor used if listener is outside of :ref:`emission_angle_degrees<class_AudioStreamPlayer3D_property_emission_angle_degrees>` and :ref:`emission_angle_enabled<class_AudioStreamPlayer3D_property_emission_angle_enabled>` is set, in decibels.
+Factor de atenuación utilizado si el oyente está fuera de :ref:`emission_angle_degrees<class_AudioStreamPlayer3D_property_emission_angle_degrees>` y :ref:`emission_angle_enabled<class_AudioStreamPlayer3D_property_emission_angle_enabled>` está habilitado, en decibelios.
 
 .. rst-class:: classref-item-separator
 
@@ -400,7 +400,7 @@ Attenuation factor used if listener is outside of :ref:`emission_angle_degrees<c
 - |void| **set_max_db**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_max_db**\ (\ )
 
-Sets the absolute maximum of the sound level, in decibels.
+Establece el máximo absoluto del nivel de sonido, en decibelios.
 
 .. rst-class:: classref-item-separator
 
@@ -417,7 +417,7 @@ Sets the absolute maximum of the sound level, in decibels.
 - |void| **set_max_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_max_distance**\ (\ )
 
-The distance past which the sound can no longer be heard at all. Only has an effect if set to a value greater than ``0.0``. :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` works in tandem with :ref:`unit_size<class_AudioStreamPlayer3D_property_unit_size>`. However, unlike :ref:`unit_size<class_AudioStreamPlayer3D_property_unit_size>` whose behavior depends on the :ref:`attenuation_model<class_AudioStreamPlayer3D_property_attenuation_model>`, :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` always works in a linear fashion. This can be used to prevent the **AudioStreamPlayer3D** from requiring audio mixing when the listener is far away, which saves CPU resources.
+La distancia a partir de la cual el sonido ya no se puede escuchar en absoluto. Solo tiene efecto si se establece a un valor mayor que ``0.0``. :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` funciona en conjunto con :ref:`unit_size<class_AudioStreamPlayer3D_property_unit_size>`. Sin embargo, a diferencia de :ref:`unit_size<class_AudioStreamPlayer3D_property_unit_size>` cuyo comportamiento depende del :ref:`attenuation_model<class_AudioStreamPlayer3D_property_attenuation_model>`, :ref:`max_distance<class_AudioStreamPlayer3D_property_max_distance>` siempre funciona de forma lineal. Esto se puede usar para evitar que el **AudioStreamPlayer3D** requiera mezcla de audio cuando el oyente está lejos, lo que ahorra recursos de la CPU.
 
 .. rst-class:: classref-item-separator
 
@@ -451,11 +451,11 @@ The maximum number of sounds this node can play at the same time. Playing additi
 - |void| **set_panning_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_panning_strength**\ (\ )
 
-Scales the panning strength for this node by multiplying the base :ref:`ProjectSettings.audio/general/3d_panning_strength<class_ProjectSettings_property_audio/general/3d_panning_strength>` by this factor. If the product is ``0.0`` then stereo panning is disabled and the volume is the same for all channels. If the product is ``1.0`` then one of the channels will be muted when the sound is located exactly to the left (or right) of the listener.
+Escala la fuerza de paneo para este nodo multiplicando la base :ref:`ProjectSettings.audio/general/3d_panning_strength<class_ProjectSettings_property_audio/general/3d_panning_strength>` por este factor. Si el producto es ``0.0``, entonces el paneo estéreo está desactivado y el volumen es el mismo para todos los canales. Si el producto es ``1.0``, entonces uno de los canales se silenciará cuando el sonido se encuentre exactamente a la izquierda (o a la derecha) del oyente.
 
-Two speaker stereo arrangements implement the `WebAudio standard for StereoPannerNode Panning <https://webaudio.github.io/web-audio-api/#stereopanner-algorithm>`__ where the volume is cosine of half the azimuth angle to the ear.
+Las disposiciones estéreo de dos altavoces implementan el `Estándar WebAudio para StereoPannerNode Panning <https://webaudio.github.io/web-audio-api/#stereopanner-algorithm>`__ donde el volumen es el coseno de la mitad del ángulo de acimut al oído.
 
-For other speaker arrangements such as the 5.1 and 7.1 the SPCAP (Speaker-Placement Correction Amplitude) algorithm is implemented.
+Para otras disposiciones de altavoces, como el 5.1 y el 7.1, se implementa el algoritmo SPCAP (Speaker-Placement Correction Amplitude).
 
 .. rst-class:: classref-item-separator
 
@@ -576,7 +576,7 @@ El factor para el efecto de atenuación. Valores más altos hacen que el sonido 
 - |void| **set_volume_db**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volume_db**\ (\ )
 
-The base sound level before attenuation, in decibels.
+El nivel de sonido base antes de la atenuación, en decibelios.
 
 .. rst-class:: classref-item-separator
 
@@ -593,9 +593,9 @@ The base sound level before attenuation, in decibels.
 - |void| **set_volume_linear**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volume_linear**\ (\ )
 
-The base sound level before attenuation, as a linear value.
+El nivel de sonido base antes de la atenuación, como un valor lineal.
 
-\ **Note:** This member modifies :ref:`volume_db<class_AudioStreamPlayer3D_property_volume_db>` for convenience. The returned value is equivalent to the result of :ref:`@GlobalScope.db_to_linear()<class_@GlobalScope_method_db_to_linear>` on :ref:`volume_db<class_AudioStreamPlayer3D_property_volume_db>`. Setting this member is equivalent to setting :ref:`volume_db<class_AudioStreamPlayer3D_property_volume_db>` to the result of :ref:`@GlobalScope.linear_to_db()<class_@GlobalScope_method_linear_to_db>` on a value.
+\ **Nota:** Este miembro modifica :ref:`volume_db<class_AudioStreamPlayer3D_property_volume_db>` para mayor comodidad. El valor devuelto es equivalente al resultado de :ref:`@GlobalScope.db_to_linear()<class_@GlobalScope_method_db_to_linear>` en :ref:`volume_db<class_AudioStreamPlayer3D_property_volume_db>`. Establecer este miembro es equivalente a establecer :ref:`volume_db<class_AudioStreamPlayer3D_property_volume_db>` al resultado de :ref:`@GlobalScope.linear_to_db()<class_@GlobalScope_method_linear_to_db>` en un valor.
 
 .. rst-class:: classref-section-separator
 

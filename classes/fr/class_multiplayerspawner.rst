@@ -10,18 +10,18 @@ MultiplayerSpawner
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Automatically replicates spawnable nodes from the authority to other multiplayer peers.
+Réplique automatiquement les nœuds spawnables de l'autorité sur les autres pairs multijoueurs.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Spawnable scenes can be configured in the editor or through code (see :ref:`add_spawnable_scene()<class_MultiplayerSpawner_method_add_spawnable_scene>`).
+Les scènes spawnables peuvent être configurées dans l'éditeur ou via le code (voir :ref:`add_spawnable_scene()<class_MultiplayerSpawner_method_add_spawnable_scene>`).
 
-Also supports custom node spawns through :ref:`spawn()<class_MultiplayerSpawner_method_spawn>`, calling :ref:`spawn_function<class_MultiplayerSpawner_property_spawn_function>` on all peers.
+Supporte également le spawn de nœuds personnalisés via :ref:`spawn()<class_MultiplayerSpawner_method_spawn>`, en appelant :ref:`spawn_function<class_MultiplayerSpawner_property_spawn_function>` sur tous les pairs.
 
-Internally, **MultiplayerSpawner** uses :ref:`MultiplayerAPI.object_configuration_add()<class_MultiplayerAPI_method_object_configuration_add>` to notify spawns passing the spawned node as the ``object`` and itself as the ``configuration``, and :ref:`MultiplayerAPI.object_configuration_remove()<class_MultiplayerAPI_method_object_configuration_remove>` to notify despawns in a similar way.
+En interne, **MultiplayerSpawner** utilise :ref:`MultiplayerAPI.object_configuration_add()<class_MultiplayerAPI_method_object_configuration_add>` pour notifier des spawns en passant le nœud spawné dans ``object`` et lui-même dans ``configuration``, et :ref:`MultiplayerAPI.object_configuration_remove()<class_MultiplayerAPI_method_object_configuration_remove>` pour notifier des despawns de manière similaire.
 
 .. rst-class:: classref-reftable-group
 
@@ -74,7 +74,7 @@ Signaux
 
 **despawned**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_MultiplayerSpawner_signal_despawned>`
 
-Emitted when a spawnable scene or custom spawn was despawned by the multiplayer authority. Only called on remote peers.
+Émis lorsqu'une scène spawnable ou un spawn personnalisé a été despawn par l'autorité multijoueur. Seulement appelée sur les pairs distants.
 
 .. rst-class:: classref-item-separator
 
@@ -86,7 +86,7 @@ Emitted when a spawnable scene or custom spawn was despawned by the multiplayer 
 
 **spawned**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_MultiplayerSpawner_signal_spawned>`
 
-Emitted when a spawnable scene or custom spawn was spawned by the multiplayer authority. Only called on remote peers.
+Émis lorsqu'une scène spawnable ou un spawn personnalisé a été spawn par l'autorité multijoueur. Seulement appelée sur les pairs distants.
 
 .. rst-class:: classref-section-separator
 
@@ -108,9 +108,9 @@ Descriptions des propriétés
 - |void| **set_spawn_function**\ (\ value\: :ref:`Callable<class_Callable>`\ )
 - :ref:`Callable<class_Callable>` **get_spawn_function**\ (\ )
 
-Method called on all peers when a custom :ref:`spawn()<class_MultiplayerSpawner_method_spawn>` is requested by the authority. Will receive the ``data`` parameter, and should return a :ref:`Node<class_Node>` that is not in the scene tree.
+Méthode appelée sur tous les pairs quand un :ref:`spawn()<class_MultiplayerSpawner_method_spawn>` personnalisé est demandé par l'autorité. Recevra le paramètre ``data`` et devrait renvoyer un :ref:`Node<class_Node>` qui n'est pas dans l'arborescence de scène.
 
-\ **Note:** The returned node should **not** be added to the scene with :ref:`Node.add_child()<class_Node_method_add_child>`. This is done automatically.
+\ **Note :** Le nœud renvoyé ne devrait **pas** être ajouté à la scène avec :ref:`Node.add_child()<class_Node_method_add_child>`. Ceci est fait automatiquement.
 
 .. rst-class:: classref-item-separator
 
@@ -127,9 +127,9 @@ Method called on all peers when a custom :ref:`spawn()<class_MultiplayerSpawner_
 - |void| **set_spawn_limit**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_spawn_limit**\ (\ )
 
-Maximum number of nodes allowed to be spawned by this spawner. Includes both spawnable scenes and custom spawns.
+Nombre maximal de nœuds autorisés à être spawnés par ce spawner. Comprend des scènes spawnables et des spawns personnalisés.
 
-When set to ``0`` (the default), there is no limit.
+Lorsque défini à ``0`` (par défaut), il n'y a pas de limite.
 
 .. rst-class:: classref-item-separator
 
@@ -146,7 +146,7 @@ When set to ``0`` (the default), there is no limit.
 - |void| **set_spawn_path**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_spawn_path**\ (\ )
 
-Path to the spawn root. Spawnable scenes that are added as direct children are replicated to other peers.
+Chemin vers la racine de spawn. Les scènes spawnables qui sont ajoutées comme enfants directs sont répliquées sur les autres pairs.
 
 .. rst-class:: classref-section-separator
 
@@ -163,7 +163,7 @@ Descriptions des méthodes
 
 |void| **add_spawnable_scene**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_MultiplayerSpawner_method_add_spawnable_scene>`
 
-Adds a scene path to spawnable scenes, making it automatically replicated from the multiplayer authority to other peers when added as children of the node pointed by :ref:`spawn_path<class_MultiplayerSpawner_property_spawn_path>`.
+Ajoute un chemin de scène aux scènes spawnables, la rendant automatiquement répliquée de l'autorité multijoueur vers d'autres pairs lorsqu'elle est ajoutée comme enfant du nœud pointé par :ref:`spawn_path<class_MultiplayerSpawner_property_spawn_path>`.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ Adds a scene path to spawnable scenes, making it automatically replicated from t
 
 |void| **clear_spawnable_scenes**\ (\ ) :ref:`🔗<class_MultiplayerSpawner_method_clear_spawnable_scenes>`
 
-Clears all spawnable scenes. Does not despawn existing instances on remote peers.
+Efface toutes les scènes spawnables. Ne despawn pas les instances existantes sur les pairs distants.
 
 .. rst-class:: classref-item-separator
 
@@ -187,7 +187,7 @@ Clears all spawnable scenes. Does not despawn existing instances on remote peers
 
 :ref:`String<class_String>` **get_spawnable_scene**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MultiplayerSpawner_method_get_spawnable_scene>`
 
-Returns the spawnable scene path by index.
+Renvoie le chemin d'une scène spawnable par index.
 
 .. rst-class:: classref-item-separator
 
@@ -199,7 +199,7 @@ Returns the spawnable scene path by index.
 
 :ref:`int<class_int>` **get_spawnable_scene_count**\ (\ ) |const| :ref:`🔗<class_MultiplayerSpawner_method_get_spawnable_scene_count>`
 
-Returns the count of spawnable scene paths.
+Renvoie le nombre de chemins de scènes spawnables.
 
 .. rst-class:: classref-item-separator
 
@@ -211,9 +211,9 @@ Returns the count of spawnable scene paths.
 
 :ref:`Node<class_Node>` **spawn**\ (\ data\: :ref:`Variant<class_Variant>` = null\ ) :ref:`🔗<class_MultiplayerSpawner_method_spawn>`
 
-Requests a custom spawn, with ``data`` passed to :ref:`spawn_function<class_MultiplayerSpawner_property_spawn_function>` on all peers. Returns the locally spawned node instance already inside the scene tree, and added as a child of the node pointed by :ref:`spawn_path<class_MultiplayerSpawner_property_spawn_path>`.
+Demande un spawn personnalisé, avec ``data`` passée à :ref:`spawn_function<class_MultiplayerSpawner_property_spawn_function>` sur tous les pairs. Renvoie l'instance du nœud spawné localement déjà à l'intérieur de l’arborescence de scène, et ajouté en tant qu'enfant du nœud pointé par :ref:`spawn_path<class_MultiplayerSpawner_property_spawn_path>`.
 
-\ **Note:** Spawnable scenes are spawned automatically. :ref:`spawn()<class_MultiplayerSpawner_method_spawn>` is only needed for custom spawns.
+\ **Note :** Les scènes spawnables sont générées automatiquement. :ref:`spawn()<class_MultiplayerSpawner_method_spawn>` n'est nécessaire que pour les spawns personnalisés.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

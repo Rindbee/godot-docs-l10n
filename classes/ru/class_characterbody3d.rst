@@ -443,9 +443,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Текущий вектор скорости (обычно в метрах в секунду), используемый и изменяемый во время вызовов метода :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
 
-This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
+Это свойство не следует задавать равным значению, умноженному на ``delta``, поскольку это происходит внутри метода :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае симуляция будет выполняться с неверной скоростью.
 
 .. rst-class:: classref-item-separator
 
@@ -627,7 +627,7 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **is_on_ceiling**\ (\ ) |const| :ref:`🔗<class_CharacterBody3D_method_is_on_ceiling>`
 
-Возвращает ``true``, если тело столкнулось с потолком при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. ``Member up_direction`` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «потолком» или нет.
+Возвращает ``true``, если тело столкнулось с потолком при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. :ref:`up_direction<class_CharacterBody3D_property_up_direction>` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «потолком» или нет.
 
 .. rst-class:: classref-item-separator
 
@@ -639,7 +639,7 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **is_on_ceiling_only**\ (\ ) |const| :ref:`🔗<class_CharacterBody3D_method_is_on_ceiling_only>`
 
-Возвращает ``true``, если тело столкнулось только с потолком при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. ``Member up_direction`` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «потолком» или нет.
+Возвращает ``true``, если тело столкнулось только с потолком при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. :ref:`up_direction<class_CharacterBody3D_property_up_direction>` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «потолком» или нет.
 
 .. rst-class:: classref-item-separator
 
@@ -651,7 +651,7 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **is_on_floor**\ (\ ) |const| :ref:`🔗<class_CharacterBody3D_method_is_on_floor>`
 
-Возвращает ``true``, если тело столкнулось с полом при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. ``Member up_direction`` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «полом» или нет.
+Возвращает ``true``, если тело столкнулось с полом при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. :ref:`up_direction<class_CharacterBody3D_property_up_direction>` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «полом» или нет.
 
 .. rst-class:: classref-item-separator
 
@@ -663,7 +663,7 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **is_on_floor_only**\ (\ ) |const| :ref:`🔗<class_CharacterBody3D_method_is_on_floor_only>`
 
-Возвращает ``true``, если тело столкнулось только с полом при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. ``Member up_direction`` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «полом» или нет.
+Возвращает ``true``, если тело столкнулось только с полом при последнем вызове :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае возвращает ``false``. :ref:`up_direction<class_CharacterBody3D_property_up_direction>` и :ref:`floor_max_angle<class_CharacterBody3D_property_floor_max_angle>` используются для определения того, является ли поверхность «полом» или нет.
 
 .. rst-class:: classref-item-separator
 
@@ -699,15 +699,15 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_move_and_slide>`
 
-Moves the body based on :ref:`velocity<class_CharacterBody3D_property_velocity>`. If the body collides with another, it will slide along the other body rather than stop immediately. If the other body is a **CharacterBody3D** or :ref:`RigidBody3D<class_RigidBody3D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
+Перемещает тело на основе :ref:`speed<class_CharacterBody3D_property_speed>`. При столкновении с другим телом оно будет скользить вдоль другого тела, а не останавливаться немедленно. В случие других тел — **CharacterBody3D** или :ref:`RigidBody3D<class_RigidBody3D>`, оно также будет подвержено влиянию движения другого тела. Это можно использовать для создания движущихся и вращающихся платформ, а также для того, чтобы узлы толкали другие узлы.
 
-This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
+Этот метод следует использовать в :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (или в методе, вызываемом :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), так как он автоматически использует значение ``delta`` шага физики в расчётах. В противном случае моделирование будет выполняться с неверной скоростью.
 
-Modifies :ref:`velocity<class_CharacterBody3D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`, for more detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
+Изменяет :ref:`velocity<class_CharacterBody3D_property_velocity>`, если произошло скользящее столкновение. Чтобы получить последнее столкновение, вызовите :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`. Для получения более подробной информации о произошедших столкновениях используйте :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`. 
 
-When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+При касании телом движущейся платформы скорость платформы автоматически добавляется к движению тела. Если столкновение происходит из-за движения платформы, оно всегда будет первым в списке столкновений при скольжении.
 
-Returns ``true`` if the body collided, otherwise, returns ``false``.
+Возвращает ``true``, если тело столкнулось, в противном случае возвращает ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

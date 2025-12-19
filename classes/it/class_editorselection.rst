@@ -110,9 +110,9 @@ Restituisce la lista dei nodi selezionati.
 
 :ref:`Array<class_Array>`\[:ref:`Node<class_Node>`\] **get_top_selected_nodes**\ (\ ) :ref:`🔗<class_EditorSelection_method_get_top_selected_nodes>`
 
-Returns the list of top selected nodes only, excluding any children. This is useful for performing transform operations (moving them, rotating, etc.).
+Restituisce solo l'elenco dei nodi selezionati più in alto, escludendo eventuali nodi figlio. Questo è utile per eseguire operazioni di trasformazione (spostamento, rotazione, ecc.).
 
-For example, if there is a node A with a child B and a sibling C, then selecting all three will cause this method to return only A and C. Changing the global transform of A will affect the global transform of B, so there is no need to change B separately.
+Ad esempio, se esiste un nodo A con un nodo figlio B e un nodo fratello C, selezionandoli tutti e tre questo metodo restituirà solo A e C. La modifica della trasformazione globale di A influirà sulla trasformazione globale di B, quindi non è necessario modificare B separatamente.
 
 .. rst-class:: classref-item-separator
 
@@ -126,7 +126,7 @@ For example, if there is a node A with a child B and a sibling C, then selecting
 
 **Deprecato:** Use :ref:`get_top_selected_nodes()<class_EditorSelection_method_get_top_selected_nodes>` instead.
 
-Returns the list of top selected nodes only, excluding any children. This is useful for performing transform operations (moving them, rotating, etc.). See :ref:`get_top_selected_nodes()<class_EditorSelection_method_get_top_selected_nodes>`.
+Restituisce solo l'elenco dei nodi selezionati più in alto, escludendo eventuali nodi figlio. Questo è utile per eseguire operazioni di trasformazione (spostamento, rotazione, ecc.). Vedi :ref:`get_top_selected_nodes()<class_EditorSelection_method_get_top_selected_nodes>`.
 
 .. rst-class:: classref-item-separator
 

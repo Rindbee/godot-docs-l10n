@@ -721,7 +721,7 @@ Descripciones de Métodos
 
 :ref:`String<class_String>` **_debug_get_stack_level_source**\ (\ level\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_ScriptLanguageExtension_private_method__debug_get_stack_level_source>`
 
-Returns the source associated with a given debug stack position.
+Devuelve el código fuente asociado con una posición dada en la pila de depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -747,7 +747,7 @@ Returns the source associated with a given debug stack position.
 
 :ref:`int<class_int>` **_find_function**\ (\ function\: :ref:`String<class_String>`, code\: :ref:`String<class_String>`\ ) |virtual| |required| |const| :ref:`🔗<class_ScriptLanguageExtension_private_method__find_function>`
 
-Returns the line where the function is defined in the code, or ``-1`` if the function is not present.
+Devuelve la línea donde se define la función en el código, o ``-1`` si la función no está presente.
 
 .. rst-class:: classref-item-separator
 

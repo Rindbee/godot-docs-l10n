@@ -7,7 +7,7 @@ PlaneMesh
 
 **Hérite de :** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`QuadMesh<class_QuadMesh>`
+**Hérité par :** :ref:`QuadMesh<class_QuadMesh>`
 
 Classe représentant un planaire :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
 
@@ -61,7 +61,7 @@ enum **Orientation**: :ref:`🔗<enum_PlaneMesh_Orientation>`
 
 :ref:`Orientation<enum_PlaneMesh_Orientation>` **FACE_X** = ``0``
 
-**PlaneMesh** will face the positive X-axis.
+**PlaneMesh** fera face à l'axe X positif.
 
 .. _class_PlaneMesh_constant_FACE_Y:
 
@@ -69,7 +69,7 @@ enum **Orientation**: :ref:`🔗<enum_PlaneMesh_Orientation>`
 
 :ref:`Orientation<enum_PlaneMesh_Orientation>` **FACE_Y** = ``1``
 
-**PlaneMesh** will face the positive Y-axis. This matches the behavior of the **PlaneMesh** in Godot 3.x.
+**PlaneMesh** fera face à l'axe Y positif. Cela correspond au comportement de **PlaneMesh** dans Godot 3.x.
 
 .. _class_PlaneMesh_constant_FACE_Z:
 
@@ -77,7 +77,7 @@ enum **Orientation**: :ref:`🔗<enum_PlaneMesh_Orientation>`
 
 :ref:`Orientation<enum_PlaneMesh_Orientation>` **FACE_Z** = ``2``
 
-**PlaneMesh** will face the positive Z-axis. This matches the behavior of the QuadMesh in Godot 3.x.
+**PlaneMesh** fera face à l'axe z positif. Cela correspond au comportement de QuadMesh dans Godot 3.x.
 
 .. rst-class:: classref-section-separator
 
@@ -99,7 +99,7 @@ Descriptions des propriétés
 - |void| **set_center_offset**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_center_offset**\ (\ )
 
-Offset of the generated plane. Useful for particles.
+Décalage du plan généré. Utile pour des particules.
 
 .. rst-class:: classref-item-separator
 
@@ -116,7 +116,7 @@ Offset of the generated plane. Useful for particles.
 - |void| **set_orientation**\ (\ value\: :ref:`Orientation<enum_PlaneMesh_Orientation>`\ )
 - :ref:`Orientation<enum_PlaneMesh_Orientation>` **get_orientation**\ (\ )
 
-Direction that the **PlaneMesh** is facing.
+Direction vers laquelle le **PlaneMesh** fait face.
 
 .. rst-class:: classref-item-separator
 

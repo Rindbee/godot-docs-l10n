@@ -7,7 +7,7 @@ PortableCompressedTexture2D
 
 **Hérite de :** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides a compressed texture for disk and/or VRAM in a way that is portable.
+Fournit une texture compressée pour le disque et/ou la VRAM d'une manière qui est portable.
 
 .. rst-class:: classref-introduction-group
 
@@ -181,11 +181,11 @@ Descriptions des propriétés
 - |void| **set_keep_compressed_buffer**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_keeping_compressed_buffer**\ (\ )
 
-When running on the editor, this class will keep the source compressed data in memory. Otherwise, the source compressed data is lost after loading and the resource can't be re saved.
+Lors de l'exécution dans l'éditeur, cette classe conservera les données compressées source en mémoire. Sinon, les données compressées source sont perdues après le chargement et la ressource ne peut pas être re-sauvegardée.
 
-This flag allows to keep the compressed data in memory if you intend it to persist after loading.
+Ce drapeau permet de garder les données compressées en mémoire si vous l'avez l'intention de les faire persister après le chargement.
 
-\ **Note:** This must be set before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` to take effect.
+\ **Note :** Ceci doit être défini avant :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` pour prendre effet.
 
 .. rst-class:: classref-item-separator
 
@@ -202,7 +202,7 @@ This flag allows to keep the compressed data in memory if you intend it to persi
 - |void| **set_size_override**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_size_override**\ (\ )
 
-Allow overriding the texture size (for 2D only).
+Permettre de redéfinir la taille de la texture (en 2D seulement).
 
 .. rst-class:: classref-section-separator
 
@@ -219,11 +219,11 @@ Descriptions des méthodes
 
 |void| **create_from_image**\ (\ image\: :ref:`Image<class_Image>`, compression_mode\: :ref:`CompressionMode<enum_PortableCompressedTexture2D_CompressionMode>`, normal_map\: :ref:`bool<class_bool>` = false, lossy_quality\: :ref:`float<class_float>` = 0.8\ ) :ref:`🔗<class_PortableCompressedTexture2D_method_create_from_image>`
 
-Initializes the compressed texture from a base image. The compression mode must be provided.
+Initialise la texture compressée à partir d'une image de base. Le mode de compression doit être fourni.
 
-\ ``normal_map`` is recommended to ensure optimum quality if this image will be used as a normal map.
+\ ``normal_map`` est recommandé pour assurer une qualité optimale si cette image sera utilisée comme normal map.
 
-If lossy compression is requested, the quality setting can optionally be provided. This maps to Lossy WebP compression quality.
+Si une compression avec perte est demandée, le réglage de la qualité peut être fourni en option. Cela est associé à la qualité de compression de Lossy WebP.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Renvoie le format d'image utilisé (valide après l'initialisation).
 
 :ref:`bool<class_bool>` **is_keeping_all_compressed_buffers**\ (\ ) |static| :ref:`🔗<class_PortableCompressedTexture2D_method_is_keeping_all_compressed_buffers>`
 
-Return whether the flag is overridden for all textures of this type.
+Renvoie si le drapeau est redéfini pour toutes les textures de ce type.
 
 .. rst-class:: classref-item-separator
 
@@ -271,9 +271,9 @@ Return whether the flag is overridden for all textures of this type.
 
 |void| **set_basisu_compressor_params**\ (\ uastc_level\: :ref:`int<class_int>`, rdo_quality_loss\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PortableCompressedTexture2D_method_set_basisu_compressor_params>`
 
-Sets the compressor parameters for Basis Universal compression. See also the settings in :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
+Définit les paramètres du compresseur pour la compression Basis Universal. Voir aussi les paramètres dans :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
 
-\ **Note:** This must be set before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` to take effect.
+\ **Note :** Ceci doit être défini avant :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` pour prendre effet.
 
 .. rst-class:: classref-item-separator
 
@@ -285,7 +285,7 @@ Sets the compressor parameters for Basis Universal compression. See also the set
 
 |void| **set_keep_all_compressed_buffers**\ (\ keep\: :ref:`bool<class_bool>`\ ) |static| :ref:`🔗<class_PortableCompressedTexture2D_method_set_keep_all_compressed_buffers>`
 
-Overrides the flag globally for all textures of this type. This is used primarily by the editor.
+Redéfinit le drapeau globalement pour toutes les textures de ce type. Ceci est utilisé principalement par l'éditeur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

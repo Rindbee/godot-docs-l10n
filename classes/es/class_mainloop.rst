@@ -174,9 +174,9 @@ Específico de la plataforma MacOS.
 
 **NOTIFICATION_APPLICATION_RESUMED** = ``2014`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_APPLICATION_RESUMED>`
 
-Notification received from the OS when the application is resumed.
+Notificación recibida del sistema operativo cuando se reanuda la aplicación.
 
-Specific to the Android and iOS platforms.
+Específica de las plataformas Android e iOS.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_PAUSED:
 
@@ -184,11 +184,11 @@ Specific to the Android and iOS platforms.
 
 **NOTIFICATION_APPLICATION_PAUSED** = ``2015`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_APPLICATION_PAUSED>`
 
-Notification received from the OS when the application is paused.
+Notificación recibida del sistema operativo cuando la aplicación se pausa.
 
-Specific to the Android and iOS platforms.
+Específica de las plataformas Android e iOS.
 
-\ **Note:** On iOS, you only have approximately 5 seconds to finish a task started by this signal. If you go over this allotment, iOS will kill the app instead of pausing it.
+\ **Nota:** En iOS, solo tienes aproximadamente 5 segundos para finalizar una tarea iniciada por esta señal. Si superas esta asignación, iOS cerrará la aplicación en lugar de pausarla.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_FOCUS_IN:
 
@@ -196,9 +196,9 @@ Specific to the Android and iOS platforms.
 
 **NOTIFICATION_APPLICATION_FOCUS_IN** = ``2016`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_APPLICATION_FOCUS_IN>`
 
-Notification received from the OS when the application is focused, i.e. when changing the focus from the OS desktop or a thirdparty application to any open window of the Godot instance.
+Notificación recibida del sistema operativo cuando la aplicación está enfocada, es decir, cuando se cambia el foco del escritorio del sistema operativo o de una aplicación de terceros a cualquier ventana abierta de la instancia de Godot.
 
-Implemented on desktop and mobile platforms.
+Implementado en plataformas de escritorio y móviles.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_FOCUS_OUT:
 
@@ -206,9 +206,9 @@ Implemented on desktop and mobile platforms.
 
 **NOTIFICATION_APPLICATION_FOCUS_OUT** = ``2017`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_APPLICATION_FOCUS_OUT>`
 
-Notification received from the OS when the application is defocused, i.e. when changing the focus from any open window of the Godot instance to the OS desktop or a thirdparty application.
+Notificación recibida del sistema operativo cuando la aplicación pierde el foco, es decir, cuando se cambia el foco de cualquier ventana abierta de la instancia de Godot al escritorio del sistema operativo o a una aplicación de terceros.
 
-Implemented on desktop and mobile platforms.
+Implementado en plataformas de escritorio y móviles.
 
 .. _class_MainLoop_constant_NOTIFICATION_TEXT_SERVER_CHANGED:
 
@@ -275,15 +275,15 @@ If implemented, the method must return a boolean value. ``true`` ends the main l
 
 :ref:`bool<class_bool>` **_process**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_MainLoop_private_method__process>`
 
-Called on each idle frame, prior to rendering, and after physics ticks have been processed. ``delta`` is the time between frames in seconds. Equivalent to :ref:`Node._process()<class_Node_private_method__process>`.
+Se llama en cada fotograma inactivo, antes de la renderización, y después de que se hayan procesado los ciclos de física. ``delta`` es el tiempo entre fotogramas en segundos. Equivalente a :ref:`Node._process()<class_Node_private_method__process>`.
 
-If implemented, the method must return a boolean value. ``true`` ends the main loop, while ``false`` lets it proceed to the next frame.
+Si se implementa, el método debe devolver un valor booleano. ``true`` termina el bucle principal, mientras que ``false`` permite que continúe al siguiente fotograma.
 
-\ **Note:** When the engine is struggling and the frame rate is lowered, ``delta`` will increase. When ``delta`` is increased, it's capped at a maximum of :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. As a result, accumulated ``delta`` may not represent real world time.
+\ **Nota:** Cuando el motor está sufriendo y la velocidad de fotogramas se reduce, ``delta`` aumentará. Cuando ``delta`` aumenta, se limita a un máximo de :ref:`Engine.time_scale<class_Engine_property_time_scale>` \* :ref:`Engine.max_physics_steps_per_frame<class_Engine_property_max_physics_steps_per_frame>` / :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`. Como resultado, el ``delta`` acumulado puede no representar el tiempo del mundo real.
 
-\ **Note:** When ``--fixed-fps`` is enabled or the engine is running in Movie Maker mode (see :ref:`MovieWriter<class_MovieWriter>`), process ``delta`` will always be the same for every frame, regardless of how much time the frame took to render.
+\ **Nota:** Cuando ``--fixed-fps`` está habilitado o el motor se está ejecutando en modo Movie Maker (ver :ref:`MovieWriter<class_MovieWriter>`), el proceso ``delta`` siempre será el mismo para cada fotograma, independientemente de la cantidad de tiempo que tarde el fotograma en renderizarse.
 
-\ **Note:** Frame delta may be post-processed by :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` if this is enabled for the project.
+\ **Nota:** El delta de fotograma puede ser post-procesado por :ref:`OS.delta_smoothing<class_OS_property_delta_smoothing>` si esto está habilitado para el proyecto.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,7 +7,7 @@ GeometryInstance3D
 
 **Hérite de :** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`CPUParticles3D<class_CPUParticles3D>`, :ref:`CSGShape3D<class_CSGShape3D>`, :ref:`GPUParticles3D<class_GPUParticles3D>`, :ref:`Label3D<class_Label3D>`, :ref:`MeshInstance3D<class_MeshInstance3D>`, :ref:`MultiMeshInstance3D<class_MultiMeshInstance3D>`, :ref:`SpriteBase3D<class_SpriteBase3D>`
+**Hérité par :** :ref:`CPUParticles3D<class_CPUParticles3D>`, :ref:`CSGShape3D<class_CSGShape3D>`, :ref:`GPUParticles3D<class_GPUParticles3D>`, :ref:`Label3D<class_Label3D>`, :ref:`MeshInstance3D<class_MeshInstance3D>`, :ref:`MultiMeshInstance3D<class_MultiMeshInstance3D>`, :ref:`SpriteBase3D<class_SpriteBase3D>`
 
 Nœud de base pour les instances visuelles basées sur la géométrie.
 
@@ -303,7 +303,7 @@ Le drapeau de projection d'ombre sélectionné.
 - |void| **set_custom_aabb**\ (\ value\: :ref:`AABB<class_AABB>`\ )
 - :ref:`AABB<class_AABB>` **get_custom_aabb**\ (\ )
 
-Redéfinit la boîte de délimitation de ce noeud avec une boîte personnalisée. Cela peut être utilisé pour éviter le re-calcul d':ref:`AABB<class_AABB>` coûteux qui se produit quand un squelette est utilisé avec un :ref:`MeshInstance3D<class_MeshInstance3D>` ou pour avoir un contrôle précis sur la boîte de délimitation de la :ref:`MeshInstance3D<class_MeshInstance3D>`. Pour utiliser l'AABB par défaut, définissez la valeur à une :ref:`AABB<class_AABB>` avec tous ses champs définis à ``0.0``. Pour éviter le frustum culling, définissez :ref:`custom_aabb<class_GeometryInstance3D_property_custom_aabb>` à une très grande AABB qui couvre votre monde de jeu entier comme ``AABB(-10000, -10000, -10000, 20000, 20000, 20000)``. Pour désactiver toutes les formes de culling (y compris l'occlusion culling), appelez :ref:`RenderingServer.instance_set_ignore_culling()<class_RenderingServer_method_instance_set_ignore_culling>` sur le :ref:`RID<class_RID>` de la **GeometryInstance3D**.
+Redéfinit la boîte de délimitation de ce nœud avec une boîte personnalisée. Cela peut être utilisé pour éviter le re-calcul d':ref:`AABB<class_AABB>` coûteux qui se produit quand un squelette est utilisé avec un :ref:`MeshInstance3D<class_MeshInstance3D>` ou pour avoir un contrôle précis sur la boîte de délimitation de la :ref:`MeshInstance3D<class_MeshInstance3D>`. Pour utiliser l'AABB par défaut, définissez la valeur à une :ref:`AABB<class_AABB>` avec tous ses champs définis à ``0.0``. Pour éviter le frustum culling, définissez :ref:`custom_aabb<class_GeometryInstance3D_property_custom_aabb>` à une très grande AABB qui couvre votre monde de jeu entier comme ``AABB(-10000, -10000, -10000, 20000, 20000, 20000)``. Pour désactiver toutes les formes de culling (y compris l'occlusion culling), appelez :ref:`RenderingServer.instance_set_ignore_culling()<class_RenderingServer_method_instance_set_ignore_culling>` sur le :ref:`RID<class_RID>` de la **GeometryInstance3D**.
 
 .. rst-class:: classref-item-separator
 

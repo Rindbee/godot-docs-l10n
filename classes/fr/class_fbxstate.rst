@@ -14,7 +14,7 @@ FBXState
 Description
 -----------
 
-The FBXState handles the state data imported from FBX files.
+Le FBXState gère les données d'état importées des fichiers FBX.
 
 .. rst-class:: classref-reftable-group
 
@@ -48,7 +48,7 @@ Descriptions des propriétés
 - |void| **set_allow_geometry_helper_nodes**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_allow_geometry_helper_nodes**\ (\ )
 
-If ``true``, the import process used auxiliary nodes called geometry helper nodes. These nodes help preserve the pivots and transformations of the original 3D model during import.
+Si ``true``, le processus d'import a utilisé des nœuds auxiliaires appelés nœuds d'aide à la géométrie. Ces nœuds aident à préserver les pivots et les transformations du modèle 3D original lors de l'import.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

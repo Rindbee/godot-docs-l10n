@@ -1724,7 +1724,7 @@ Analiza el :ref:`SceneTree<class_SceneTree>` para la geometría de origen de acu
 
 \ **Nota:** Esta función debe ejecutarse en el hilo principal o con una llamada diferida, ya que SceneTree no es seguro para subprocesos.
 
-\ **Rendimiento:** Si bien es conveniente, leer matrices de datos de los recursos :ref:`Mesh<class_Mesh>` puede afectar negativamente la velocidad de fotogramas. Los datos deben recibirse de la GPU, lo que detiene el :ref:`RenderingServer<class_RenderingServer>` en el proceso. Para el rendimiento, prefiera el uso de, p. formas de colisión o crear las matrices de datos completamente en el código.
+\ **Rendimiento:** Si bien es conveniente, leer arrays de datos de los recursos :ref:`Mesh<class_Mesh>` puede afectar negativamente la velocidad de fotogramas. Los datos deben recibirse de la GPU, lo que detiene el :ref:`RenderingServer<class_RenderingServer>` en el proceso. Para el rendimiento, prefiera el uso de, p. formas de colisión o crear arrays de datos completamente en el código.
 
 .. rst-class:: classref-item-separator
 

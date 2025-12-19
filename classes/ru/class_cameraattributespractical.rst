@@ -138,6 +138,8 @@ CameraAttributesPractical
 
 \ **Примечание:** Размытие глубины резкости поддерживается только в методах рендеринга Forward+ и Mobile, но не Compatibility.
 
+\ **Примечание:** Размытие глубины резкости не поддерживается на окнах просмотра с прозрачным фоном (где :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` имеет значение ``true``).
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -190,6 +192,8 @@ CameraAttributesPractical
 Включает размытие глубины резкости для объектов ближе, чем :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>`. Сила размытия контролируется :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` и модулируется :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>`.
 
 \ **Примечание:** Размытие глубины резкости поддерживается только в методах рендеринга Forward+ и Mobile, но не Compatibility.
+
+\ **Примечание:** Размытие глубины резкости не поддерживается на окнах просмотра с прозрачным фоном (где :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` имеет значение ``true``).
 
 .. rst-class:: classref-item-separator
 

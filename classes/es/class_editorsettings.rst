@@ -1010,7 +1010,7 @@ Descripciones de Propiedades
 
 :ref:`bool<class_bool>` **asset_library/use_threads** :ref:`🔗<class_EditorSettings_property_asset_library/use_threads>`
 
-If ``true``, the Asset Library uses multiple threads for its HTTP requests. This prevents the Asset Library from blocking the main thread for every loaded asset.
+Si es ``true``, la Librería de Assets usa múltiples hilos para sus peticiones HTTP. Esto evita que la Librería de Assets bloquee el hilo principal por cada asset cargado.
 
 .. rst-class:: classref-item-separator
 
@@ -1022,9 +1022,9 @@ If ``true``, the Asset Library uses multiple threads for its HTTP requests. This
 
 :ref:`bool<class_bool>` **debugger/auto_switch_to_remote_scene_tree** :ref:`🔗<class_EditorSettings_property_debugger/auto_switch_to_remote_scene_tree>`
 
-If ``true``, automatically switches to the **Remote** scene tree when running the project from the editor. If ``false``, stays on the **Local** scene tree when running the project from the editor.
+Si es ``true``, cambia automáticamente al árbol de escenas **Remoto** al ejecutar el proyecto desde el editor. Si es ``false``, se mantiene en el árbol de escenas **Local** al ejecutar el proyecto desde el editor.
 
-\ **Warning:** Enabling this setting can cause stuttering when running a project with a large amount of nodes (typically a few thousands of nodes or more), even if the editor window isn't focused. This is due to the remote scene tree being updated every second regardless of whether the editor is focused.
+\ **Advertencia:** Activar este ajuste puede causar parpadeo al ejecutar un proyecto con una gran cantidad de nodos (normalmente unos pocos miles de nodos o más), incluso si la ventana del editor no está enfocada. Esto se debe a que el árbol de escenas remoto se actualiza cada segundo, independientemente de si el editor está enfocado.
 
 .. rst-class:: classref-item-separator
 
@@ -1124,7 +1124,7 @@ El intervalo de actualización de las propiedades del inspector remoto (en segun
 
 :ref:`float<class_float>` **debugger/remote_scene_tree_refresh_interval** :ref:`🔗<class_EditorSettings_property_debugger/remote_scene_tree_refresh_interval>`
 
-The refresh interval for the remote scene tree (in seconds). Lower values are more reactive, but may cause stuttering while the project is running from the editor and the **Remote** scene tree is selected in the Scene tree dock.
+El intervalo de actualización del árbol de escenas remoto (en segundos). Los valores más bajos son más reactivos, pero pueden causar parpadeos mientras el proyecto se está ejecutando desde el editor y el árbol de escenas **Remoto** está seleccionado en el dock del árbol de escenas.
 
 .. rst-class:: classref-item-separator
 
@@ -2050,7 +2050,7 @@ El color del gizmo del editor 3D para la cuadrícula de :ref:`GridMap<class_Grid
 
 :ref:`Color<class_Color>` **editors/3d_gizmos/gizmo_colors/instantiated** :ref:`🔗<class_EditorSettings_property_editors/3d_gizmos/gizmo_colors/instantiated>`
 
-La anulación de color a usar para los gizmos del editor 3D si el :ref:`Node3D<class_Node3D>` en cuestión es parte de un archivo de escena instanciado (desde la perspectiva de la escena actual).
+La sobrescritura de color a usar para los gizmos del editor 3D si el :ref:`Node3D<class_Node3D>` en cuestión es parte de un archivo de escena instanciado (desde la perspectiva de la escena actual).
 
 .. rst-class:: classref-item-separator
 
@@ -2350,9 +2350,9 @@ Si es ``true``, actualiza automáticamente las rutas de destino de las pistas de
 
 :ref:`bool<class_bool>` **editors/animation/confirm_insert_track** :ref:`🔗<class_EditorSettings_property_editors/animation/confirm_insert_track>`
 
-If ``true``, display a confirmation dialog when adding a new track to an animation by pressing the "key" icon next to a property. Holding Shift will bypass the dialog.
+Si es ``true``, muestra un diálogo de confirmación al añadir una nueva pista a una animación presionando el icono de "llave" al lado de una propiedad. Mantener pulsado Shift omitirá el diálogo.
 
-If ``false``, the behavior is reversed, i.e. the dialog only appears when Shift is held.
+Si es ``false``, el comportamiento se invierte, es decir, el diálogo solo aparecerá si se mantiene pulsado Shift.
 
 .. rst-class:: classref-item-separator
 
@@ -2650,7 +2650,7 @@ The radius in which points can be selected in the :ref:`Polygon2D<class_Polygon2
 
 :ref:`bool<class_bool>` **editors/polygon_editor/show_previous_outline** :ref:`🔗<class_EditorSettings_property_editors/polygon_editor/show_previous_outline>`
 
-If ``true``, displays the polygon's previous shape in the 2D polygon editors with an opaque gray outline. This outline is displayed while dragging a point until the left mouse button is released.
+Si es ``true``, muestra la forma anterior del polígono en los editores de polígonos 2D con un contorno gris opaco. Este contorno se muestra al arrastrar un punto hasta que se suelta el botón izquierdo del ratón.
 
 .. rst-class:: classref-item-separator
 
@@ -2662,7 +2662,7 @@ If ``true``, displays the polygon's previous shape in the 2D polygon editors wit
 
 :ref:`bool<class_bool>` **editors/shader_editor/behavior/files/restore_shaders_on_load** :ref:`🔗<class_EditorSettings_property_editors/shader_editor/behavior/files/restore_shaders_on_load>`
 
-If ``true``, reopens shader files that were open in the shader editor when the project was last closed.
+Si es ``true``, vuelve a abrir los archivos de shader que estaban abiertos en el editor de shaders cuando se cerró el proyecto por última vez.
 
 .. rst-class:: classref-item-separator
 
@@ -2674,7 +2674,7 @@ If ``true``, reopens shader files that were open in the shader editor when the p
 
 :ref:`bool<class_bool>` **editors/tiles_editor/display_grid** :ref:`🔗<class_EditorSettings_property_editors/tiles_editor/display_grid>`
 
-If ``true``, displays a grid while the TileMap editor is active. See also :ref:`editors/tiles_editor/grid_color<class_EditorSettings_property_editors/tiles_editor/grid_color>`.
+Si es ``true``, muestra una cuadrícula mientras el editor TileMap está activo. Véase también :ref:`editors/tiles_editor/grid_color<class_EditorSettings_property_editors/tiles_editor/grid_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2686,9 +2686,9 @@ If ``true``, displays a grid while the TileMap editor is active. See also :ref:`
 
 :ref:`Color<class_Color>` **editors/tiles_editor/grid_color** :ref:`🔗<class_EditorSettings_property_editors/tiles_editor/grid_color>`
 
-The color to use for the TileMap editor's grid.
+El color a usar para la cuadrícula del editor TileMap.
 
-\ **Note:** Only effective if :ref:`editors/tiles_editor/display_grid<class_EditorSettings_property_editors/tiles_editor/display_grid>` is ``true``.
+\ **Nota:** Sólo es efectivo si :ref:`editors/tiles_editor/display_grid<class_EditorSettings_property_editors/tiles_editor/display_grid>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2700,7 +2700,7 @@ The color to use for the TileMap editor's grid.
 
 :ref:`bool<class_bool>` **editors/tiles_editor/highlight_selected_layer** :ref:`🔗<class_EditorSettings_property_editors/tiles_editor/highlight_selected_layer>`
 
-Highlight the currently selected TileMapLayer by dimming the other ones in the scene.
+Resalta la TileMapLayer seleccionada actualmente atenuando las demás en la escena.
 
 .. rst-class:: classref-item-separator
 
@@ -2988,9 +2988,9 @@ El tamaño a usar para las previsualizaciones de puertos en los uniformes del sh
 
 :ref:`String<class_String>` **export/ssh/scp** :ref:`🔗<class_EditorSettings_property_export/ssh/scp>`
 
-Path to the SCP (secure copy) executable (used for remote deploy to desktop platforms). If left empty, the editor will attempt to run ``scp`` from ``PATH``.
+Ruta al ejecutable SCP (secure copy) (utilizado para el despliegue remoto en plataformas de escritorio). Si se deja vacío, el editor intentará ejecutar ``scp`` desde ``PATH``.
 
-\ **Note:** SCP is not the same as SFTP. Specifying the SFTP executable here will not work.
+\ **Nota:** SCP no es lo mismo que SFTP. Especificar el ejecutable de SFTP aquí no funcionará.
 
 .. rst-class:: classref-item-separator
 
@@ -3014,9 +3014,9 @@ Ruta al ejecutable de SSH (usado para el despliegue remoto en plataformas de esc
 
 :ref:`String<class_String>` **filesystem/directories/autoscan_project_path** :ref:`🔗<class_EditorSettings_property_filesystem/directories/autoscan_project_path>`
 
-The folder where projects should be scanned for (recursively), in a way similar to the project manager's **Scan** button. This can be set to the same value as :ref:`filesystem/directories/default_project_path<class_EditorSettings_property_filesystem/directories/default_project_path>` for convenience.
+La carpeta donde se deben buscar proyectos (recursivamente), de forma similar al botón **Escanear** del gestor de proyectos. Para mayor comodidad, puede establecerse al mismo valor que :ref:`filesystem/directories/default_project_path<class_EditorSettings_property_filesystem/directories/default_project_path>`.
 
-\ **Note:** Setting this path to a folder with very large amounts of files/folders can slow down the project manager startup significantly. To keep the project manager quick to start up, it is recommended to set this value to a folder as "specific" as possible.
+\ **Nota:** Establecer esta ruta a una carpeta con una gran cantidad de archivos/carpetas puede ralentizar significativamente el inicio del gestor de proyectos. Para que el gestor de proyectos se inicie rápidamente, se recomienda establecer este valor en una carpeta lo más "específica" posible.
 
 .. rst-class:: classref-item-separator
 
@@ -3028,7 +3028,7 @@ The folder where projects should be scanned for (recursively), in a way similar 
 
 :ref:`String<class_String>` **filesystem/directories/default_project_path** :ref:`🔗<class_EditorSettings_property_filesystem/directories/default_project_path>`
 
-The folder where new projects should be created by default when clicking the project manager's **New Project** button. This can be set to the same value as :ref:`filesystem/directories/autoscan_project_path<class_EditorSettings_property_filesystem/directories/autoscan_project_path>` for convenience.
+La carpeta donde se deben crear los nuevos proyectos por defecto al hacer clic en el botón **Nuevo Proyecto** del gestor de proyectos. Para mayor comodidad, puede establecerse al mismo valor que :ref:`filesystem/directories/autoscan_project_path<class_EditorSettings_property_filesystem/directories/autoscan_project_path>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3040,7 +3040,7 @@ The folder where new projects should be created by default when clicking the pro
 
 :ref:`String<class_String>` **filesystem/external_programs/3d_model_editor** :ref:`🔗<class_EditorSettings_property_filesystem/external_programs/3d_model_editor>`
 
-The program that opens 3D model scene files when clicking "Open in External Program" option in Filesystem Dock. If not specified, the file will be opened in the system's default program.
+El programa que abre los archivos de escena de modelos 3D al hacer clic en la opción "Abrir en Programa Externo" en el panel del Sistema de Archivos. Si no se especifica, el archivo se abrirá en el programa predeterminado del sistema.
 
 .. rst-class:: classref-item-separator
 
@@ -3052,7 +3052,7 @@ The program that opens 3D model scene files when clicking "Open in External Prog
 
 :ref:`String<class_String>` **filesystem/external_programs/audio_editor** :ref:`🔗<class_EditorSettings_property_filesystem/external_programs/audio_editor>`
 
-The program that opens audio files when clicking "Open in External Program" option in Filesystem Dock. If not specified, the file will be opened in the system's default program.
+El programa que abre los archivos de audio al hacer clic en la opción "Abrir en Programa Externo" en el panel del Sistema de Archivos. Si no se especifica, el archivo se abrirá en el programa predeterminado del sistema.
 
 .. rst-class:: classref-item-separator
 
@@ -3064,7 +3064,7 @@ The program that opens audio files when clicking "Open in External Program" opti
 
 :ref:`String<class_String>` **filesystem/external_programs/raster_image_editor** :ref:`🔗<class_EditorSettings_property_filesystem/external_programs/raster_image_editor>`
 
-The program that opens raster image files when clicking "Open in External Program" option in Filesystem Dock. If not specified, the file will be opened in the system's default program.
+El programa que abre los archivos de imagen ráster al hacer clic en la opción "Abrir en Programa Externo" en el panel del Sistema de Archivos. Si no se especifica, el archivo se abrirá en el programa predeterminado del sistema.
 
 .. rst-class:: classref-item-separator
 
@@ -3102,11 +3102,11 @@ If specifying a custom terminal emulator, you may need to override :ref:`filesys
 
 :ref:`String<class_String>` **filesystem/external_programs/terminal_emulator_flags** :ref:`🔗<class_EditorSettings_property_filesystem/external_programs/terminal_emulator_flags>`
 
-The command-line arguments to pass to the terminal emulator that is run when using **Open in Terminal** context menu action in the FileSystem dock. See also :ref:`filesystem/external_programs/terminal_emulator<class_EditorSettings_property_filesystem/external_programs/terminal_emulator>`.
+Los argumentos de la línea de comandos para pasar al emulador de terminal que se ejecuta al usar la acción del menú contextual **Abrir en Terminal** en el panel Sistema de Archivos. Véase también :ref:`filesystem/external_programs/terminal_emulator<class_EditorSettings_property_filesystem/external_programs/terminal_emulator>`.
 
-If left empty, the default flags are ``{directory}``, which is replaced by the absolute path to the directory that is being opened in the terminal.
+Si se deja vacío, las banderas predeterminadas son ``{directory}``, que se reemplaza por la ruta absoluta al directorio que se está abriendo en la terminal.
 
-\ **Note:** If the terminal emulator is set to PowerShell, cmd, or Konsole, Godot will automatically prepend arguments to this list, as these terminals require nonstandard arguments to open in the correct folder.
+\ **Nota:** Si el emulador de terminal está configurado como PowerShell, cmd o Konsole, Godot antepondrá automáticamente argumentos a esta lista, ya que estas terminales requieren argumentos no estándar para abrirse en la carpeta correcta.
 
 .. rst-class:: classref-item-separator
 
@@ -3118,7 +3118,7 @@ If left empty, the default flags are ``{directory}``, which is replaced by the a
 
 :ref:`String<class_String>` **filesystem/external_programs/vector_image_editor** :ref:`🔗<class_EditorSettings_property_filesystem/external_programs/vector_image_editor>`
 
-The program that opens vector image files when clicking "Open in External Program" option in Filesystem Dock. If not specified, the file will be opened in the system's default program.
+El programa que abre los archivos de imagen vectorial al hacer clic en la opción "Abrir en Programa Externo" en el Panel del Sistema de Archivos. Si no se especifica, el archivo se abrirá con el programa predeterminado del sistema.
 
 .. rst-class:: classref-item-separator
 
@@ -3130,11 +3130,11 @@ The program that opens vector image files when clicking "Open in External Progra
 
 :ref:`int<class_int>` **filesystem/file_dialog/display_mode** :ref:`🔗<class_EditorSettings_property_filesystem/file_dialog/display_mode>`
 
-The display mode to use in the editor's file dialogs.
+El modo de visualización a usar en los diálogos de archivo del editor.
 
-- **Thumbnails** takes more space, but displays dynamic resource thumbnails, making resources easier to preview without having to open them.
+- **Miniaturas** ocupa más espacio, pero muestra miniaturas de recursos dinámicas, haciendo más fácil la previsualización de recursos sin tener que abrirlos.
 
-- **List** is more compact but doesn't display dynamic resource thumbnails. Instead, it displays static icons based on the file extension.
+- **Lista** es más compacto pero no muestra miniaturas de recursos dinámicas. En su lugar, muestra iconos estáticos basados en la extensión del archivo.
 
 .. rst-class:: classref-item-separator
 
@@ -3146,7 +3146,7 @@ The display mode to use in the editor's file dialogs.
 
 :ref:`bool<class_bool>` **filesystem/file_dialog/show_hidden_files** :ref:`🔗<class_EditorSettings_property_filesystem/file_dialog/show_hidden_files>`
 
-If ``true``, display hidden files in the editor's file dialogs. Files that have names starting with ``.`` are considered hidden (e.g. ``.hidden_file``).
+Si es ``true``, muestra los archivos ocultos en los diálogos de archivos del editor. Los archivos cuyos nombres comienzan con ``.`` se consideran ocultos (p. ej., ``.archivo_oculto``).
 
 .. rst-class:: classref-item-separator
 
@@ -3158,7 +3158,7 @@ If ``true``, display hidden files in the editor's file dialogs. Files that have 
 
 :ref:`int<class_int>` **filesystem/file_dialog/thumbnail_size** :ref:`🔗<class_EditorSettings_property_filesystem/file_dialog/thumbnail_size>`
 
-The thumbnail size to use in the editor's file dialogs (in pixels). See also :ref:`docks/filesystem/thumbnail_size<class_EditorSettings_property_docks/filesystem/thumbnail_size>`.
+El tamaño de la miniatura a usar en los diálogos de archivos del editor (en píxeles). Véase también :ref:`docks/filesystem/thumbnail_size<class_EditorSettings_property_docks/filesystem/thumbnail_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3170,7 +3170,7 @@ The thumbnail size to use in the editor's file dialogs (in pixels). See also :re
 
 :ref:`String<class_String>` **filesystem/file_server/password** :ref:`🔗<class_EditorSettings_property_filesystem/file_server/password>`
 
-Password used for file server when exporting project with remote file system.
+Contraseña utilizada para el servidor de archivos al exportar el proyecto con un sistema de archivos remoto.
 
 .. rst-class:: classref-item-separator
 
@@ -3182,7 +3182,7 @@ Password used for file server when exporting project with remote file system.
 
 :ref:`int<class_int>` **filesystem/file_server/port** :ref:`🔗<class_EditorSettings_property_filesystem/file_server/port>`
 
-Port used for file server when exporting project with remote file system.
+Puerto utilizado para el servidor de archivos al exportar el proyecto con un sistema de archivos remoto.
 
 .. rst-class:: classref-item-separator
 
@@ -3235,9 +3235,9 @@ If this setting is empty, Blender's default paths will be detected and used auto
 
 :ref:`int<class_int>` **filesystem/import/blender/rpc_port** :ref:`🔗<class_EditorSettings_property_filesystem/import/blender/rpc_port>`
 
-The port number used for Remote Procedure Call (RPC) communication with Godot's created process of the blender executable.
+El número de puerto utilizado para la comunicación de Llamada a Procedimiento Remoto (RPC) con el proceso creado por Godot del ejecutable de Blender.
 
-Setting this to 0 effectively disables communication with Godot and the blender process, making performance slower.
+Establecerlo a 0 deshabilita efectivamente la comunicación con Godot y el proceso de Blender, haciendo que el rendimiento sea más lento.
 
 .. rst-class:: classref-item-separator
 
@@ -3249,9 +3249,9 @@ Setting this to 0 effectively disables communication with Godot and the blender 
 
 :ref:`float<class_float>` **filesystem/import/blender/rpc_server_uptime** :ref:`🔗<class_EditorSettings_property_filesystem/import/blender/rpc_server_uptime>`
 
-The maximum idle uptime (in seconds) of the Blender process.
+El tiempo máximo de actividad inactiva (en segundos) del proceso de Blender.
 
-This prevents Godot from having to create a new process for each import within the given seconds.
+Esto evita que Godot tenga que crear un nuevo proceso para cada importación dentro de los segundos dados.
 
 .. rst-class:: classref-item-separator
 
@@ -3263,9 +3263,9 @@ This prevents Godot from having to create a new process for each import within t
 
 :ref:`String<class_String>` **filesystem/import/fbx/fbx2gltf_path** :ref:`🔗<class_EditorSettings_property_filesystem/import/fbx/fbx2gltf_path>`
 
-The path to the FBX2glTF executable used for converting Autodesk FBX 3D scene files ``.fbx`` to glTF 2.0 format during import.
+La ruta al ejecutable FBX2glTF utilizado para convertir archivos de escena 3D de Autodesk FBX ``.fbx`` al formato glTF 2.0 durante la importación.
 
-To enable this feature for your specific project, use :ref:`ProjectSettings.filesystem/import/fbx2gltf/enabled<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>`.
+Para habilitar esta característica para tu proyecto específico, usa :ref:`ProjectSettings.filesystem/import/fbx2gltf/enabled<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3277,7 +3277,7 @@ To enable this feature for your specific project, use :ref:`ProjectSettings.file
 
 :ref:`bool<class_bool>` **filesystem/on_save/compress_binary_resources** :ref:`🔗<class_EditorSettings_property_filesystem/on_save/compress_binary_resources>`
 
-If ``true``, uses lossless compression for binary resources.
+Si es ``true``, utiliza compresión sin pérdidas para los recursos binarios.
 
 .. rst-class:: classref-item-separator
 
@@ -3289,9 +3289,9 @@ If ``true``, uses lossless compression for binary resources.
 
 :ref:`bool<class_bool>` **filesystem/on_save/safe_save_on_backup_then_rename** :ref:`🔗<class_EditorSettings_property_filesystem/on_save/safe_save_on_backup_then_rename>`
 
-If ``true``, when saving a file, the editor will rename the old file to a different name, save a new file, then only remove the old file once the new file has been saved. This makes loss of data less likely to happen if the editor or operating system exits unexpectedly while saving (e.g. due to a crash or power outage).
+Si es ``true``, al guardar un archivo, el editor renombrará el archivo antiguo a un nombre diferente, guardará un nuevo archivo y solo eliminará el archivo antiguo una vez que el nuevo archivo se haya guardado. Esto hace que la pérdida de datos sea menos probable si el editor o el sistema operativo se cierran inesperadamente mientras se guarda (por ejemplo, debido a un cuelgue o un corte de energía).
 
-\ **Note:** On Windows, this feature can interact negatively with certain antivirus programs. In this case, you may have to set this to ``false`` to prevent file locking issues.
+\ **Nota:** En Windows, esta característica puede interactuar negativamente con ciertos programas antivirus. En este caso, puede que tengas que establecer esto en ``false`` para evitar problemas de bloqueo de archivos.
 
 .. rst-class:: classref-item-separator
 
@@ -3303,7 +3303,7 @@ If ``true``, when saving a file, the editor will rename the old file to a differ
 
 :ref:`int<class_int>` **filesystem/quick_open_dialog/default_display_mode** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/default_display_mode>`
 
-If set to ``Adaptive``, the dialog opens in list view or grid view depending on the requested type. If set to ``Last Used``, the display mode will always open the way you last used it.
+Si se establece en ``Adaptativo``, el diálogo se abre en vista de lista o vista de cuadrícula dependiendo del tipo solicitado. Si se establece en ``Último usado``, el modo de visualización siempre se abrirá de la forma en que lo usaste por última vez.
 
 .. rst-class:: classref-item-separator
 
@@ -3331,7 +3331,7 @@ See also :ref:`filesystem/quick_open_dialog/max_fuzzy_misses<class_EditorSetting
 
 :ref:`bool<class_bool>` **filesystem/quick_open_dialog/include_addons** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/include_addons>`
 
-If ``true``, results will include files located in the ``addons`` folder.
+Si es ``true``, los resultados incluirán archivos ubicados en la carpeta ``addons``.
 
 .. rst-class:: classref-item-separator
 
@@ -3343,7 +3343,7 @@ If ``true``, results will include files located in the ``addons`` folder.
 
 :ref:`int<class_int>` **filesystem/quick_open_dialog/max_fuzzy_misses** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/max_fuzzy_misses>`
 
-The number of missed query characters allowed in a match when fuzzy matching is enabled. For example, with the default value of ``2``, ``"normal"`` would match ``"narmal"`` and ``"norma"`` but not ``"nor"``.
+El número de caracteres de consulta omitidos permitidos en una coincidencia cuando la coincidencia difusa está habilitada. Por ejemplo, con el valor predeterminado de ``2``, ``"normal"`` coincidiría con ``"narmal"`` y ``"norma"``, pero no con ``"nor"``.
 
 .. rst-class:: classref-item-separator
 
@@ -3355,7 +3355,7 @@ The number of missed query characters allowed in a match when fuzzy matching is 
 
 :ref:`int<class_int>` **filesystem/quick_open_dialog/max_results** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/max_results>`
 
-Maximum number of matches to show in dialog.
+Número máximo de coincidencias a mostrar en el diálogo.
 
 .. rst-class:: classref-item-separator
 
@@ -3367,7 +3367,7 @@ Maximum number of matches to show in dialog.
 
 :ref:`bool<class_bool>` **filesystem/quick_open_dialog/show_search_highlight** :ref:`🔗<class_EditorSettings_property_filesystem/quick_open_dialog/show_search_highlight>`
 
-If ``true``, results will be highlighted with their search matches.
+Si es ``true``, los resultados se resaltarán con sus coincidencias de búsqueda.
 
 .. rst-class:: classref-item-separator
 
@@ -3379,9 +3379,9 @@ If ``true``, results will be highlighted with their search matches.
 
 :ref:`String<class_String>` **filesystem/tools/oidn/oidn_denoise_path** :ref:`🔗<class_EditorSettings_property_filesystem/tools/oidn/oidn_denoise_path>`
 
-The path to the directory containing the Open Image Denoise (OIDN) executable, used optionally for denoising lightmaps. It can be downloaded from `openimagedenoise.org <https://www.openimagedenoise.org/downloads.html>`__.
+La ruta al directorio que contiene el ejecutable de Open Image Denoise (OIDN), usado opcionalmente para la eliminación de ruido en los lightmaps. Se puede descargar desde `openimagedenoise.org <https://www.openimagedenoise.org/downloads.html>`__.
 
-To enable this feature for your specific project, use :ref:`ProjectSettings.rendering/lightmapping/denoising/denoiser<class_ProjectSettings_property_rendering/lightmapping/denoising/denoiser>`.
+Para habilitar esta característica para tu proyecto específico, utiliza :ref:`ProjectSettings.rendering/lightmapping/denoising/denoiser<class_ProjectSettings_property_rendering/lightmapping/denoising/denoiser>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3393,11 +3393,11 @@ To enable this feature for your specific project, use :ref:`ProjectSettings.rend
 
 :ref:`bool<class_bool>` **input/buffering/agile_event_flushing** :ref:`🔗<class_EditorSettings_property_input/buffering/agile_event_flushing>`
 
-If ``true``, input events will be flushed just before every idle and physics frame.
+Si es ``true``, los eventos de entrada se vaciarán justo antes de cada fotograma de inactividad y de físicas.
 
-If ``false``, these events will be flushed only once per process frame, between iterations of the engine.
+Si es ``false``, estos eventos se vaciarán solo una vez por fotograma de proceso, entre iteraciones del motor.
 
-Enabling this setting can greatly improve input responsiveness, especially in devices that struggle to run at the project's intended frame rate.
+Habilitar esta configuración puede mejorar en gran medida la capacidad de respuesta de la entrada, especialmente en dispositivos que tienen dificultades para ejecutarse a la velocidad de fotogramas prevista del proyecto.
 
 .. rst-class:: classref-item-separator
 
@@ -3695,7 +3695,7 @@ If set to **Auto**, the font hinting mode will be set to match the current opera
 
 :ref:`int<class_int>` **interface/editor/font_subpixel_positioning** :ref:`🔗<class_EditorSettings_property_interface/editor/font_subpixel_positioning>`
 
-The subpixel positioning mode to use when rendering editor font glyphs. This affects both the main and code fonts. **Disabled** is the fastest to render and uses the least memory. **Auto** only uses subpixel positioning for small font sizes (where the benefit is the most noticeable). **One Half of a Pixel** and **One Quarter of a Pixel** force the same subpixel positioning mode for all editor fonts, regardless of their size (with **One Quarter of a Pixel** being the highest-quality option).
+El modo de posicionamiento subpíxel que se usará al renderizar los glifos de la fuente del editor. Esto afecta tanto a la fuente principal como a la de código. **Deshabilitado** es el más rápido de renderizar y el que menos memoria usa. **Automático** solo usa el posicionamiento de subpíxel para tamaños de fuente pequeños (donde el beneficio es más notorio). **La mitad de un píxel** y **Un cuarto de píxel** fuerzan el mismo modo de posicionamiento subpíxel para todas las fuentes del editor, independientemente de su tamaño (siendo **Un cuarto de píxel** la opción de mayor calidad).
 
 .. rst-class:: classref-item-separator
 
@@ -3707,7 +3707,7 @@ The subpixel positioning mode to use when rendering editor font glyphs. This aff
 
 :ref:`bool<class_bool>` **interface/editor/import_resources_when_unfocused** :ref:`🔗<class_EditorSettings_property_interface/editor/import_resources_when_unfocused>`
 
-If ``true``, (re)imports resources even if the editor window is unfocused or minimized. If ``false``, resources are only (re)imported when the editor window is focused. This can be set to ``true`` to speed up iteration by starting the import process earlier when saving files in the project folder. This also allows getting visual feedback on changes without having to click the editor window, which is useful with multi-monitor setups. The downside of setting this to ``true`` is that it increases idle CPU usage and may steal CPU time from other applications when importing resources.
+Si es ``true``, (re)importa los recursos incluso si la ventana del editor no está enfocada o está minimizada. Si es ``false``, los recursos solo se (re)importan cuando la ventana del editor está enfocada. Esto se puede establecer en ``true`` para acelerar la iteración iniciando el proceso de importación antes al guardar archivos en la carpeta del proyecto. Esto también permite obtener retroalimentación visual sobre los cambios sin tener que hacer clic en la ventana del editor, lo cual es útil con configuraciones de múltiples monitores. La desventaja de establecer esto en ``true`` es que aumenta el uso de CPU en reposo y puede robar tiempo de CPU a otras aplicaciones al importar recursos.
 
 .. rst-class:: classref-item-separator
 
@@ -3759,9 +3759,9 @@ The amount of sleeping between frames in the editor (in microseconds). Higher va
 
 :ref:`String<class_String>` **interface/editor/main_font** :ref:`🔗<class_EditorSettings_property_interface/editor/main_font>`
 
-The font to use for the editor interface. Must be a resource of a :ref:`Font<class_Font>` type such as a ``.ttf`` or ``.otf`` font file.
+La fuente que se usará para la interfaz del editor. Debe ser un recurso de tipo :ref:`Font<class_Font>`, como un archivo de fuente ``.ttf`` o ``.otf``.
 
-\ **Note:** If the provided font is variable, a weight of 400 (normal) will be used.
+\ **Nota:** Si la fuente proporcionada es variable, se usará un peso de 400 (normal).
 
 .. rst-class:: classref-item-separator
 
@@ -3773,9 +3773,9 @@ The font to use for the editor interface. Must be a resource of a :ref:`Font<cla
 
 :ref:`String<class_String>` **interface/editor/main_font_bold** :ref:`🔗<class_EditorSettings_property_interface/editor/main_font_bold>`
 
-The font to use for bold text in the editor interface. Must be a resource of a :ref:`Font<class_Font>` type such as a ``.ttf`` or ``.otf`` font file.
+La fuente que se usará para el texto en negrita en la interfaz del editor. Debe ser un recurso de tipo :ref:`Font<class_Font>`, como un archivo de fuente ``.ttf`` o ``.otf``.
 
-\ **Note:** If the provided font is variable, a weight of 700 (bold) will be used.
+\ **Nota:** Si la fuente proporcionada es variable, se usará un peso de 700 (negrita).
 
 .. rst-class:: classref-item-separator
 
@@ -3787,7 +3787,7 @@ The font to use for bold text in the editor interface. Must be a resource of a :
 
 :ref:`int<class_int>` **interface/editor/main_font_size** :ref:`🔗<class_EditorSettings_property_interface/editor/main_font_size>`
 
-The size of the font in the editor interface.
+El tamaño de la fuente en la interfaz del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -3799,7 +3799,7 @@ The size of the font in the editor interface.
 
 :ref:`bool<class_bool>` **interface/editor/mouse_extra_buttons_navigate_history** :ref:`🔗<class_EditorSettings_property_interface/editor/mouse_extra_buttons_navigate_history>`
 
-If ``true``, the mouse's additional side buttons will be usable to navigate in the script editor's file history. Set this to ``false`` if you're using the side buttons for other purposes (such as a push-to-talk button in a VoIP program).
+Si es ``true``, los botones laterales adicionales del ratón se podrán usar para navegar en el historial de archivos del editor de scripts. Establece esto en ``false`` si estás usando los botones laterales para otros propósitos (como un botón de pulsar para hablar en un programa VoIP).
 
 .. rst-class:: classref-item-separator
 
@@ -3811,7 +3811,7 @@ If ``true``, the mouse's additional side buttons will be usable to navigate in t
 
 :ref:`int<class_int>` **interface/editor/project_manager_screen** :ref:`🔗<class_EditorSettings_property_interface/editor/project_manager_screen>`
 
-The preferred monitor to display the project manager.
+El monitor preferido para mostrar el administrador de proyectos.
 
 .. rst-class:: classref-item-separator
 
@@ -3823,7 +3823,7 @@ The preferred monitor to display the project manager.
 
 :ref:`bool<class_bool>` **interface/editor/save_each_scene_on_quit** :ref:`🔗<class_EditorSettings_property_interface/editor/save_each_scene_on_quit>`
 
-If ``false``, the editor will save all scenes when confirming the **Save** action when quitting the editor or quitting to the project list. If ``true``, the editor will ask to save each scene individually.
+Si es ``false``, el editor guardará todas las escenas al confirmar la acción **Guardar** al salir del editor o al salir a la lista de proyectos. Si es ``true``, el editor preguntará si se guarda cada escena individualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -3835,7 +3835,7 @@ If ``false``, the editor will save all scenes when confirming the **Save** actio
 
 :ref:`bool<class_bool>` **interface/editor/save_on_focus_loss** :ref:`🔗<class_EditorSettings_property_interface/editor/save_on_focus_loss>`
 
-If ``true``, scenes and scripts are saved when the editor loses focus. Depending on the work flow, this behavior can be less intrusive than :ref:`text_editor/behavior/files/autosave_interval_secs<class_EditorSettings_property_text_editor/behavior/files/autosave_interval_secs>` or remembering to save manually.
+Si es ``true``, las escenas y los scripts se guardan cuando el editor pierde el foco. Dependiendo del flujo de trabajo, este comportamiento puede ser menos intrusivo que :ref:`text_editor/behavior/files/autosave_interval_secs<class_EditorSettings_property_text_editor/behavior/files/autosave_interval_secs>` o recordar guardar manualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -3847,7 +3847,7 @@ If ``true``, scenes and scripts are saved when the editor loses focus. Depending
 
 :ref:`bool<class_bool>` **interface/editor/separate_distraction_mode** :ref:`🔗<class_EditorSettings_property_interface/editor/separate_distraction_mode>`
 
-If ``true``, the editor's Script tab will have a separate distraction mode setting from the 2D/3D/Game/AssetLib tabs. If ``false``, the distraction-free mode toggle is shared between all tabs.
+Si es ``true``, la pestaña Script del editor tendrá una opción de modo de distracción separada de las pestañas 2D/3D/Juego/Librería de Assets. Si es ``false``, el cambio de modo sin distracciones se comparte entre todas las pestañas.
 
 .. rst-class:: classref-item-separator
 
@@ -3911,7 +3911,7 @@ This is equivalent to :ref:`ProjectSettings.display/window/subwindows/embed_subw
 
 :ref:`int<class_int>` **interface/editor/tablet_driver** :ref:`🔗<class_EditorSettings_property_interface/editor/tablet_driver>`
 
-Overrides the tablet driver used by the editor.
+Sobrescribe el controlador de tableta utilizado por el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4005,7 +4005,7 @@ Depending on the platform and used renderer, the engine will fall back to **Enab
 
 :ref:`bool<class_bool>` **interface/editors/derive_script_globals_by_name** :ref:`🔗<class_EditorSettings_property_interface/editors/derive_script_globals_by_name>`
 
-If ``true``, when extending a script, the global class name of the script is inserted in the script creation dialog, if it exists. If ``false``, the script's file path is always inserted.
+Si es ``true``, al extender un script, el nombre de clase global del script se inserta en el diálogo de creación del script, si existe. Si es ``false``, siempre se inserta la ruta del archivo del script.
 
 .. rst-class:: classref-item-separator
 
@@ -4017,7 +4017,7 @@ If ``true``, when extending a script, the global class name of the script is ins
 
 :ref:`bool<class_bool>` **interface/editors/show_scene_tree_root_selection** :ref:`🔗<class_EditorSettings_property_interface/editors/show_scene_tree_root_selection>`
 
-If ``true``, the Scene dock will display buttons to quickly add a root node to a newly created scene.
+Si es ``true``, el dock de Escena mostrará botones para agregar rápidamente un nodo raíz a una escena recién creada.
 
 .. rst-class:: classref-item-separator
 
@@ -4043,7 +4043,7 @@ If ``true``, automatically unfolds Inspector property groups containing modified
 
 :ref:`bool<class_bool>` **interface/inspector/color_picker_show_intensity** :ref:`🔗<class_EditorSettings_property_interface/inspector/color_picker_show_intensity>`
 
-If ``true``, show the intensity slider in the :ref:`ColorPicker<class_ColorPicker>`\ s opened in the editor.
+Si es ``true``, muestra el deslizador de intensidad en los :ref:`ColorPicker<class_ColorPicker>`\ s abiertos en el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4055,7 +4055,7 @@ If ``true``, show the intensity slider in the :ref:`ColorPicker<class_ColorPicke
 
 :ref:`int<class_int>` **interface/inspector/default_color_picker_mode** :ref:`🔗<class_EditorSettings_property_interface/inspector/default_color_picker_mode>`
 
-The default color picker mode to use when opening :ref:`ColorPicker<class_ColorPicker>`\ s in the editor. This mode can be temporarily adjusted on the color picker itself.
+El modo de selector de color predeterminado que se usará al abrir :ref:`ColorPicker<class_ColorPicker>`\ s en el editor. Este modo se puede ajustar temporalmente en el propio selector de color.
 
 .. rst-class:: classref-item-separator
 
@@ -4067,7 +4067,7 @@ The default color picker mode to use when opening :ref:`ColorPicker<class_ColorP
 
 :ref:`int<class_int>` **interface/inspector/default_color_picker_shape** :ref:`🔗<class_EditorSettings_property_interface/inspector/default_color_picker_shape>`
 
-The default color picker shape to use when opening :ref:`ColorPicker<class_ColorPicker>`\ s in the editor. This shape can be temporarily adjusted on the color picker itself.
+La forma del selector de color predeterminada que se usará al abrir :ref:`ColorPicker<class_ColorPicker>`\ s en el editor. Esta forma se puede ajustar temporalmente en el propio selector de color.
 
 .. rst-class:: classref-item-separator
 
@@ -4079,7 +4079,7 @@ The default color picker shape to use when opening :ref:`ColorPicker<class_Color
 
 :ref:`float<class_float>` **interface/inspector/default_float_step** :ref:`🔗<class_EditorSettings_property_interface/inspector/default_float_step>`
 
-The floating-point precision to use for properties that don't define an explicit precision step. Lower values allow entering more precise values.
+La precisión de punto flotante que se utilizará para las propiedades que no definen un paso de precisión explícito. Los valores más bajos permiten introducir valores más precisos.
 
 .. rst-class:: classref-item-separator
 
@@ -4091,15 +4091,15 @@ The floating-point precision to use for properties that don't define an explicit
 
 :ref:`int<class_int>` **interface/inspector/default_property_name_style** :ref:`🔗<class_EditorSettings_property_interface/inspector/default_property_name_style>`
 
-The default property name style to display in the Inspector dock. This style can be temporarily adjusted in the Inspector dock's menu.
+El estilo de nombre de propiedad predeterminado que se mostrará en el dock Inspector. Este estilo se puede ajustar temporalmente en el menú del dock Inspector.
 
-- **Raw:** Displays properties in ``snake_case``.
+- **Raw:** Muestra las propiedades en ``snake_case``.
 
-- **Capitalized:** Displays properties capitalized.
+- **Capitalized:** Muestra las propiedades en mayúsculas.
 
-- **Localized:** Displays the localized string for the current editor language if a translation is available for the given property. If no translation is available, falls back to **Capitalized**.
+- **Localized:** Muestra la string localizada para el idioma actual del editor si hay una traducción disponible para la propiedad dada. Si no hay traducción disponible, recurre a **Capitalized**.
 
-\ **Note:** To display translated setting names in Project Settings and Editor Settings, use :ref:`interface/editor/localize_settings<class_EditorSettings_property_interface/editor/localize_settings>` instead.
+\ **Nota:** Para mostrar los nombres de configuración traducidos en Ajustes del proyecto y Ajustes del editor, usa :ref:`interface/editor/localize_settings<class_EditorSettings_property_interface/editor/localize_settings>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -4111,9 +4111,9 @@ The default property name style to display in the Inspector dock. This style can
 
 :ref:`bool<class_bool>` **interface/inspector/delimitate_all_container_and_resources** :ref:`🔗<class_EditorSettings_property_interface/inspector/delimitate_all_container_and_resources>`
 
-If ``true``, add a margin around Array, Dictionary, and Resource Editors that are not already colored.
+Si es ``true``, agrega un margen alrededor de los editores de Array, Dictionary y Resource que aún no están coloreados.
 
-\ **Note:** If :ref:`interface/inspector/nested_color_mode<class_EditorSettings_property_interface/inspector/nested_color_mode>` is set to **Containers & Resources** this parameter will have no effect since those editors will already be colored.
+\ **Nota:** Si :ref:`interface/inspector/nested_color_mode<class_EditorSettings_property_interface/inspector/nested_color_mode>` está establecido en **Contenedores y recursos**, este parámetro no tendrá efecto ya que esos editores ya estarán coloreados.
 
 .. rst-class:: classref-item-separator
 
@@ -4125,7 +4125,7 @@ If ``true``, add a margin around Array, Dictionary, and Resource Editors that ar
 
 :ref:`bool<class_bool>` **interface/inspector/disable_folding** :ref:`🔗<class_EditorSettings_property_interface/inspector/disable_folding>`
 
-If ``true``, forces all property groups to be expanded in the Inspector dock and prevents collapsing them.
+Si es ``true``, fuerza que todos los grupos de propiedades se expandan en el dock Inspector y evita que se contraigan.
 
 .. rst-class:: classref-item-separator
 
@@ -4137,7 +4137,7 @@ If ``true``, forces all property groups to be expanded in the Inspector dock and
 
 :ref:`float<class_float>` **interface/inspector/float_drag_speed** :ref:`🔗<class_EditorSettings_property_interface/inspector/float_drag_speed>`
 
-Base speed for increasing/decreasing float values by dragging them in the inspector.
+Velocidad base para aumentar/disminuir los valores de punto flotante arrastrándolos en el inspector.
 
 .. rst-class:: classref-item-separator
 
@@ -4149,7 +4149,7 @@ Base speed for increasing/decreasing float values by dragging them in the inspec
 
 :ref:`bool<class_bool>` **interface/inspector/horizontal_vector2_editing** :ref:`🔗<class_EditorSettings_property_interface/inspector/horizontal_vector2_editing>`
 
-If ``true``, :ref:`Vector2<class_Vector2>` and :ref:`Vector2i<class_Vector2i>` properties are shown on a single line in the inspector instead of two lines. This is overall more compact, but it can be harder to view and edit large values without expanding the inspector horizontally.
+Si es ``true``, las propiedades :ref:`Vector2<class_Vector2>` y :ref:`Vector2i<class_Vector2i>` se muestran en una sola línea en el inspector en lugar de dos líneas. Esto es más compacto en general, pero puede ser más difícil ver y editar valores grandes sin expandir el inspector horizontalmente.
 
 .. rst-class:: classref-item-separator
 
@@ -4161,7 +4161,7 @@ If ``true``, :ref:`Vector2<class_Vector2>` and :ref:`Vector2i<class_Vector2i>` p
 
 :ref:`bool<class_bool>` **interface/inspector/horizontal_vector_types_editing** :ref:`🔗<class_EditorSettings_property_interface/inspector/horizontal_vector_types_editing>`
 
-If ``true``, :ref:`Vector3<class_Vector3>`, :ref:`Vector3i<class_Vector3i>`, :ref:`Vector4<class_Vector4>`, :ref:`Vector4i<class_Vector4i>`, :ref:`Rect2<class_Rect2>`, :ref:`Rect2i<class_Rect2i>`, :ref:`Plane<class_Plane>`, and :ref:`Quaternion<class_Quaternion>` properties are shown on a single line in the inspector instead of multiple lines. This is overall more compact, but it can be harder to view and edit large values without expanding the inspector horizontally.
+Si es ``true``, las propiedades :ref:`Vector3<class_Vector3>`, :ref:`Vector3i<class_Vector3i>`, :ref:`Vector4<class_Vector4>`, :ref:`Vector4i<class_Vector4i>`, :ref:`Rect2<class_Rect2>`, :ref:`Rect2i<class_Rect2i>`, :ref:`Plane<class_Plane>` y :ref:`Quaternion<class_Quaternion>` se muestran en una sola línea en el inspector en lugar de varias líneas. Esto es más compacto en general, pero puede ser más difícil ver y editar valores grandes sin expandir el inspector horizontalmente.
 
 .. rst-class:: classref-item-separator
 
@@ -4173,7 +4173,7 @@ If ``true``, :ref:`Vector3<class_Vector3>`, :ref:`Vector3i<class_Vector3i>`, :re
 
 :ref:`int<class_int>` **interface/inspector/max_array_dictionary_items_per_page** :ref:`🔗<class_EditorSettings_property_interface/inspector/max_array_dictionary_items_per_page>`
 
-The number of :ref:`Array<class_Array>` or :ref:`Dictionary<class_Dictionary>` items to display on each "page" in the inspector. Higher values allow viewing more values per page, but take more time to load. This increased load time is noticeable when selecting nodes that have array or dictionary properties in the editor.
+El número de elementos :ref:`Array<class_Array>` o :ref:`Dictionary<class_Dictionary>` que se mostrarán en cada "página" en el inspector. Los valores más altos permiten ver más valores por página, pero tardan más en cargarse. Este mayor tiempo de carga se nota al seleccionar nodos que tienen propiedades de matriz o diccionario en el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4185,13 +4185,13 @@ The number of :ref:`Array<class_Array>` or :ref:`Dictionary<class_Dictionary>` i
 
 :ref:`int<class_int>` **interface/inspector/nested_color_mode** :ref:`🔗<class_EditorSettings_property_interface/inspector/nested_color_mode>`
 
-Control which property editors are colored when they are opened.
+Controla qué editores de propiedades se colorean cuando se abren.
 
-- **Containers & Resources:** Color all Array, Dictionary, and Resource Editors.
+- **Contenedores & Recursos:** Colorea todos los editores de Array, Dictionary y Resource.
 
-- **Resources:** Color all Resource Editors.
+- **Recursos:** Colorea todos los editores de Resource.
 
-- **External Resources:** Color Resource Editors that edits an external resource.
+- **Recursos externos:** Colorea los editores de Resource que editan un recurso externo.
 
 .. rst-class:: classref-item-separator
 
@@ -4203,7 +4203,7 @@ Control which property editors are colored when they are opened.
 
 :ref:`bool<class_bool>` **interface/inspector/open_resources_in_current_inspector** :ref:`🔗<class_EditorSettings_property_interface/inspector/open_resources_in_current_inspector>`
 
-If ``true``, subresources can be edited in the current inspector view. If the resource type is defined in :ref:`interface/inspector/resources_to_open_in_new_inspector<class_EditorSettings_property_interface/inspector/resources_to_open_in_new_inspector>` or if this setting is ``false``, attempting to edit a subresource always opens a new inspector view.
+Si es ``true``, los subrecursos se pueden editar en la vista actual del inspector. Si el tipo de recurso está definido en :ref:`interface/inspector/resources_to_open_in_new_inspector<class_EditorSettings_property_interface/inspector/resources_to_open_in_new_inspector>` o si este ajuste es ``false``, intentar editar un subrecurso siempre abre una nueva vista del inspector.
 
 .. rst-class:: classref-item-separator
 
@@ -4215,7 +4215,7 @@ If ``true``, subresources can be edited in the current inspector view. If the re
 
 :ref:`PackedStringArray<class_PackedStringArray>` **interface/inspector/resources_to_open_in_new_inspector** :ref:`🔗<class_EditorSettings_property_interface/inspector/resources_to_open_in_new_inspector>`
 
-List of resources that should always be opened in a new inspector view, even if :ref:`interface/inspector/open_resources_in_current_inspector<class_EditorSettings_property_interface/inspector/open_resources_in_current_inspector>` is ``true``.
+Lista de recursos que siempre deben abrirse en una nueva vista del inspector, incluso si :ref:`interface/inspector/open_resources_in_current_inspector<class_EditorSettings_property_interface/inspector/open_resources_in_current_inspector>` es ``true``.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -4229,7 +4229,7 @@ List of resources that should always be opened in a new inspector view, even if 
 
 :ref:`bool<class_bool>` **interface/inspector/show_low_level_opentype_features** :ref:`🔗<class_EditorSettings_property_interface/inspector/show_low_level_opentype_features>`
 
-If ``true``, display OpenType features marked as ``hidden`` by the font file in the :ref:`Font<class_Font>` editor.
+Si es ``true``, se mostrarán las características de OpenType marcadas como ``hidden`` por el archivo de fuente en el editor de :ref:`Font<class_Font>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4241,11 +4241,11 @@ If ``true``, display OpenType features marked as ``hidden`` by the font file in 
 
 :ref:`bool<class_bool>` **interface/multi_window/enable** :ref:`🔗<class_EditorSettings_property_interface/multi_window/enable>`
 
-If ``true``, multiple window support in editor is enabled. The following panels can become dedicated windows (i.e. made floating): Docks, Script editor, Shader editor, and Game Workspace.
+Si es ``true``, se habilita el soporte de múltiples ventanas en el editor. Los siguientes paneles pueden convertirse en ventanas dedicadas (es decir, hacerse flotantes): Docks, editor de scripts, editor de shaders y espacio de trabajo del juego.
 
-\ **Note:** When :ref:`interface/editor/single_window_mode<class_EditorSettings_property_interface/editor/single_window_mode>` is ``true``, the multi window support is always disabled.
+\ **Nota:** Cuando :ref:`interface/editor/single_window_mode<class_EditorSettings_property_interface/editor/single_window_mode>` es ``true``, el soporte de múltiples ventanas siempre está deshabilitado.
 
-\ **Note:** To query whether the editor can use multiple windows in an editor plugin, use :ref:`EditorInterface.is_multi_window_enabled()<class_EditorInterface_method_is_multi_window_enabled>` instead of querying the value of this editor setting.
+\ **Nota:** Para consultar si el editor puede usar múltiples ventanas en un plugin de editor, usa :ref:`EditorInterface.is_multi_window_enabled()<class_EditorInterface_method_is_multi_window_enabled>` en lugar de consultar el valor de esta configuración del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4257,9 +4257,9 @@ If ``true``, multiple window support in editor is enabled. The following panels 
 
 :ref:`bool<class_bool>` **interface/multi_window/maximize_window** :ref:`🔗<class_EditorSettings_property_interface/multi_window/maximize_window>`
 
-If ``true``, when panels are made floating they will be maximized.
+Si es ``true``, cuando los paneles se hacen flotantes, se maximizarán.
 
-If ``false``, when panels are made floating their position and size will match the ones when they are attached (excluding window border) to the editor window.
+Si es ``false``, cuando los paneles se hacen flotantes, su posición y tamaño coincidirán con los de cuando están adjuntos (excluyendo el borde de la ventana) a la ventana del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4271,7 +4271,7 @@ If ``false``, when panels are made floating their position and size will match t
 
 :ref:`bool<class_bool>` **interface/multi_window/restore_windows_on_load** :ref:`🔗<class_EditorSettings_property_interface/multi_window/restore_windows_on_load>`
 
-If ``true``, the floating panel position, size, and screen will be saved on editor exit. On next launch the panels that were floating will be made floating in the saved positions, sizes and screens, if possible.
+Si es ``true``, la posición, el tamaño y la pantalla del panel flotante se guardarán al salir del editor. En el próximo inicio, los paneles que estaban flotando se harán flotantes en las posiciones, tamaños y pantallas guardados, si es posible.
 
 .. rst-class:: classref-item-separator
 
@@ -4283,7 +4283,7 @@ If ``true``, the floating panel position, size, and screen will be saved on edit
 
 :ref:`int<class_int>` **interface/scene_tabs/display_close_button** :ref:`🔗<class_EditorSettings_property_interface/scene_tabs/display_close_button>`
 
-Controls when the Close (X) button is displayed on scene tabs at the top of the editor.
+Controla cuándo se muestra el botón Cerrar (X) en las pestañas de escena en la parte superior del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4295,7 +4295,7 @@ Controls when the Close (X) button is displayed on scene tabs at the top of the 
 
 :ref:`int<class_int>` **interface/scene_tabs/maximum_width** :ref:`🔗<class_EditorSettings_property_interface/scene_tabs/maximum_width>`
 
-The maximum width of each scene tab at the top editor (in pixels).
+El ancho máximo de cada pestaña de escena en la parte superior del editor (en píxeles).
 
 .. rst-class:: classref-item-separator
 
@@ -4321,7 +4321,7 @@ If ``true``, when a project is loaded, restores scenes that were opened on the l
 
 :ref:`bool<class_bool>` **interface/scene_tabs/show_script_button** :ref:`🔗<class_EditorSettings_property_interface/scene_tabs/show_script_button>`
 
-If ``true``, show a button next to each scene tab that opens the scene's "dominant" script when clicked. The "dominant" script is the one that is at the highest level in the scene's hierarchy.
+Si es ``true``, muestra un botón al lado de cada pestaña de escena que abre el script "dominante" de la escena cuando se hace clic. El script "dominante" es el que está en el nivel más alto en la jerarquía de la escena.
 
 .. rst-class:: classref-item-separator
 
@@ -4333,7 +4333,7 @@ If ``true``, show a button next to each scene tab that opens the scene's "domina
 
 :ref:`bool<class_bool>` **interface/scene_tabs/show_thumbnail_on_hover** :ref:`🔗<class_EditorSettings_property_interface/scene_tabs/show_thumbnail_on_hover>`
 
-If ``true``, display an automatically-generated thumbnail when hovering scene tabs with the mouse. Scene thumbnails are generated when saving the scene.
+Si es ``true``, muestra una miniatura generada automáticamente al pasar el mouse por encima de las pestañas de la escena. Las miniaturas de la escena se generan al guardar la escena.
 
 .. rst-class:: classref-item-separator
 
@@ -4345,7 +4345,7 @@ If ``true``, display an automatically-generated thumbnail when hovering scene ta
 
 :ref:`Color<class_Color>` **interface/theme/accent_color** :ref:`🔗<class_EditorSettings_property_interface/theme/accent_color>`
 
-The color to use for "highlighted" user interface elements in the editor (pressed and hovered items).
+El color que se usará para los elementos de la interfaz de usuario "resaltados" en el editor (elementos presionados y sobre los que se pasa el mouse).
 
 .. rst-class:: classref-item-separator
 
@@ -4357,9 +4357,9 @@ The color to use for "highlighted" user interface elements in the editor (presse
 
 :ref:`int<class_int>` **interface/theme/additional_spacing** :ref:`🔗<class_EditorSettings_property_interface/theme/additional_spacing>`
 
-The extra spacing to add to various GUI elements in the editor (in pixels). Increasing this value is useful to improve usability on touch screens, at the cost of reducing the amount of usable screen real estate.
+El espacio adicional que se añadirá a varios elementos de la GUI en el editor (en píxeles). Aumentar este valor es útil para mejorar la usabilidad en pantallas táctiles, a costa de reducir la cantidad de espacio útil en la pantalla.
 
-See also :ref:`interface/theme/spacing_preset<class_EditorSettings_property_interface/theme/spacing_preset>`.
+Véase también :ref:`interface/theme/spacing_preset<class_EditorSettings_property_interface/theme/spacing_preset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4371,7 +4371,7 @@ See also :ref:`interface/theme/spacing_preset<class_EditorSettings_property_inte
 
 :ref:`Color<class_Color>` **interface/theme/base_color** :ref:`🔗<class_EditorSettings_property_interface/theme/base_color>`
 
-The base color to use for user interface elements in the editor. Secondary colors (such as darker/lighter variants) are derived from this color.
+El color base que se usará para los elementos de la interfaz de usuario en el editor. Los colores secundarios (como las variantes más oscuras/claras) se derivan de este color.
 
 .. rst-class:: classref-item-separator
 
@@ -4383,7 +4383,7 @@ The base color to use for user interface elements in the editor. Secondary color
 
 :ref:`int<class_int>` **interface/theme/base_spacing** :ref:`🔗<class_EditorSettings_property_interface/theme/base_spacing>`
 
-The base spacing used by various GUI elements in the editor (in pixels). See also :ref:`interface/theme/spacing_preset<class_EditorSettings_property_interface/theme/spacing_preset>`.
+El espaciado base utilizado por varios elementos de la GUI en el editor (en píxeles). Véase también :ref:`interface/theme/spacing_preset<class_EditorSettings_property_interface/theme/spacing_preset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4395,7 +4395,7 @@ The base spacing used by various GUI elements in the editor (in pixels). See als
 
 :ref:`int<class_int>` **interface/theme/border_size** :ref:`🔗<class_EditorSettings_property_interface/theme/border_size>`
 
-The border size to use for interface elements (in pixels).
+El tamaño del borde que se usará para los elementos de la interfaz (en píxeles).
 
 .. rst-class:: classref-item-separator
 
@@ -4407,7 +4407,7 @@ The border size to use for interface elements (in pixels).
 
 :ref:`float<class_float>` **interface/theme/contrast** :ref:`🔗<class_EditorSettings_property_interface/theme/contrast>`
 
-The contrast factor to use when deriving the editor theme's base color (see :ref:`interface/theme/base_color<class_EditorSettings_property_interface/theme/base_color>`). When using a positive values, the derived colors will be *darker* than the base color. This contrast factor can be set to a negative value, which will make the derived colors *brighter* than the base color. Negative contrast rates often look better for light themes.
+El factor de contraste que se utilizará al derivar el color base del tema del editor (véase :ref:`interface/theme/base_color<class_EditorSettings_property_interface/theme/base_color>`). Cuando se utilizan valores positivos, los colores derivados serán *más oscuros* que el color base. Este factor de contraste se puede establecer en un valor negativo, lo que hará que los colores derivados sean *más brillantes* que el color base. Las tasas de contraste negativas a menudo se ven mejor para los temas claros.
 
 .. rst-class:: classref-item-separator
 
@@ -4419,7 +4419,7 @@ The contrast factor to use when deriving the editor theme's base color (see :ref
 
 :ref:`int<class_int>` **interface/theme/corner_radius** :ref:`🔗<class_EditorSettings_property_interface/theme/corner_radius>`
 
-The corner radius to use for interface elements (in pixels). ``0`` is square.
+El radio de las esquinas que se utilizará para los elementos de la interfaz (en píxeles). ``0`` es cuadrado.
 
 .. rst-class:: classref-item-separator
 
@@ -4431,7 +4431,7 @@ The corner radius to use for interface elements (in pixels). ``0`` is square.
 
 :ref:`String<class_String>` **interface/theme/custom_theme** :ref:`🔗<class_EditorSettings_property_interface/theme/custom_theme>`
 
-The custom theme resource to use for the editor. Must be a Godot theme resource in ``.tres`` or ``.res`` format.
+El recurso de tema personalizado que se utilizará para el editor. Debe ser un recurso de tema de Godot en formato ``.tres`` o ``.res``.
 
 .. rst-class:: classref-item-separator
 
@@ -4443,7 +4443,7 @@ The custom theme resource to use for the editor. Must be a Godot theme resource 
 
 :ref:`bool<class_bool>` **interface/theme/draw_extra_borders** :ref:`🔗<class_EditorSettings_property_interface/theme/draw_extra_borders>`
 
-If ``true``, draws additional borders around interactive UI elements in the editor. This is automatically enabled when using the **Black (OLED)** theme preset, as this theme preset uses a fully black background.
+Si es ``true``, dibuja bordes adicionales alrededor de los elementos interactivos de la interfaz de usuario en el editor. Esto se habilita automáticamente cuando se utiliza el tema preestablecido **Negro (OLED)**, ya que este tema preestablecido utiliza un fondo completamente negro.
 
 .. rst-class:: classref-item-separator
 
@@ -4455,7 +4455,7 @@ If ``true``, draws additional borders around interactive UI elements in the edit
 
 :ref:`bool<class_bool>` **interface/theme/follow_system_theme** :ref:`🔗<class_EditorSettings_property_interface/theme/follow_system_theme>`
 
-If ``true``, the editor theme preset will attempt to automatically match the system theme.
+Si es ``true``, el tema preestablecido del editor intentará coincidir automáticamente con el tema del sistema.
 
 .. rst-class:: classref-item-separator
 
@@ -4485,9 +4485,9 @@ The icon and font color scheme to use in the editor.
 
 :ref:`float<class_float>` **interface/theme/icon_saturation** :ref:`🔗<class_EditorSettings_property_interface/theme/icon_saturation>`
 
-The saturation to use for editor icons. Higher values result in more vibrant colors.
+La saturación que se usará para los iconos del editor. Los valores más altos dan como resultado colores más vibrantes.
 
-\ **Note:** The default editor icon saturation was increased by 30% in Godot 4.0 and later. To get Godot 3.x's icon saturation back, set :ref:`interface/theme/icon_saturation<class_EditorSettings_property_interface/theme/icon_saturation>` to ``0.77``.
+\ **Nota:** La saturación predeterminada de los iconos del editor se incrementó en un 30% en Godot 4.0 y posteriores. Para recuperar la saturación de iconos de Godot 3.x, establece :ref:`interface/theme/icon_saturation<class_EditorSettings_property_interface/theme/icon_saturation>` a ``0.77``.
 
 .. rst-class:: classref-item-separator
 
@@ -4511,7 +4511,7 @@ El tema del editor preestablecido a utilizar.
 
 :ref:`float<class_float>` **interface/theme/relationship_line_opacity** :ref:`🔗<class_EditorSettings_property_interface/theme/relationship_line_opacity>`
 
-The opacity to use when drawing relationship lines in the editor's :ref:`Tree<class_Tree>`-based GUIs (such as the Scene tree dock).
+La opacidad que se usará al dibujar líneas de relación en las GUI basadas en :ref:`Tree<class_Tree>` del editor (como el dock del árbol de escenas).
 
 .. rst-class:: classref-item-separator
 
@@ -4523,7 +4523,7 @@ The opacity to use when drawing relationship lines in the editor's :ref:`Tree<cl
 
 :ref:`String<class_String>` **interface/theme/spacing_preset** :ref:`🔗<class_EditorSettings_property_interface/theme/spacing_preset>`
 
-The editor theme spacing preset to use. See also :ref:`interface/theme/base_spacing<class_EditorSettings_property_interface/theme/base_spacing>` and :ref:`interface/theme/additional_spacing<class_EditorSettings_property_interface/theme/additional_spacing>`.
+El preajuste de espaciado del tema del editor que se utilizará. Véase también :ref:`interface/theme/base_spacing<class_EditorSettings_property_interface/theme/base_spacing>` y :ref:`interface/theme/additional_spacing<class_EditorSettings_property_interface/theme/additional_spacing>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4535,9 +4535,9 @@ The editor theme spacing preset to use. See also :ref:`interface/theme/base_spac
 
 :ref:`bool<class_bool>` **interface/theme/use_system_accent_color** :ref:`🔗<class_EditorSettings_property_interface/theme/use_system_accent_color>`
 
-If ``true``, set accent color based on system settings.
+Si es ``true``, establece el color de acento según la configuración del sistema.
 
-\ **Note:** This setting is only effective on Windows, MacOS, and Android.
+\ **Nota:** Esta configuración solo es efectiva en Windows, MacOS y Android.
 
 .. rst-class:: classref-item-separator
 
@@ -4549,9 +4549,9 @@ If ``true``, set accent color based on system settings.
 
 :ref:`bool<class_bool>` **interface/touchscreen/enable_long_press_as_right_click** :ref:`🔗<class_EditorSettings_property_interface/touchscreen/enable_long_press_as_right_click>`
 
-If ``true``, long press on touchscreen is treated as right click.
+Si es ``true``, una pulsación larga en la pantalla táctil se trata como un clic derecho.
 
-\ **Note:** Defaults to ``true`` on touchscreen devices.
+\ **Nota:** El valor predeterminado es ``true`` en dispositivos con pantalla táctil.
 
 .. rst-class:: classref-item-separator
 
@@ -4563,9 +4563,9 @@ If ``true``, long press on touchscreen is treated as right click.
 
 :ref:`bool<class_bool>` **interface/touchscreen/enable_pan_and_scale_gestures** :ref:`🔗<class_EditorSettings_property_interface/touchscreen/enable_pan_and_scale_gestures>`
 
-If ``true``, enable two finger pan and scale gestures on touchscreen devices.
+Si es ``true``, habilita los gestos de desplazamiento y escala con dos dedos en dispositivos con pantalla táctil.
 
-\ **Note:** Defaults to ``true`` on touchscreen devices.
+\ **Nota:** El valor predeterminado es ``true`` en dispositivos con pantalla táctil.
 
 .. rst-class:: classref-item-separator
 
@@ -4591,9 +4591,9 @@ If ``true``, increases the scrollbar touch area and enables a larger dragger for
 
 :ref:`float<class_float>` **interface/touchscreen/scale_gizmo_handles** :ref:`🔗<class_EditorSettings_property_interface/touchscreen/scale_gizmo_handles>`
 
-Specify the multiplier to apply to the scale for the editor gizmo handles to improve usability on touchscreen devices.
+Especifica el multiplicador que se aplicará a la escala de los manejadores del gizmo del editor para mejorar la usabilidad en dispositivos con pantalla táctil.
 
-\ **Note:** Defaults to ``1`` on non-touchscreen devices.
+\ **Nota:** El valor predeterminado es ``1`` en dispositivos sin pantalla táctil.
 
 .. rst-class:: classref-item-separator
 
@@ -4605,9 +4605,9 @@ Specify the multiplier to apply to the scale for the editor gizmo handles to imp
 
 :ref:`int<class_int>` **interface/touchscreen/touch_actions_panel** :ref:`🔗<class_EditorSettings_property_interface/touchscreen/touch_actions_panel>`
 
-A touch-friendly panel that provides easy access to common actions such as save, delete, undo, and redo without requiring a keyboard.
+Un panel táctil que proporciona fácil acceso a acciones comunes como guardar, eliminar, deshacer y rehacer sin necesidad de un teclado.
 
-\ **Note:** Only available in the Android and XR editor.
+\ **Nota:** Solo disponible en el editor de Android y XR.
 
 .. rst-class:: classref-item-separator
 
@@ -4619,17 +4619,17 @@ A touch-friendly panel that provides easy access to common actions such as save,
 
 :ref:`int<class_int>` **network/connection/check_for_updates** :ref:`🔗<class_EditorSettings_property_network/connection/check_for_updates>`
 
-Specifies how the engine should check for updates.
+Especifica cómo el motor debe comprobar si hay actualizaciones.
 
-- **Disable Update Checks** will block the engine from checking updates (see also :ref:`network/connection/network_mode<class_EditorSettings_property_network/connection/network_mode>`).
+- **Desactivar las comprobaciones de actualización** evitará que el motor busque actualizaciones (véase también :ref:`network/connection/network_mode<class_EditorSettings_property_network/connection/network_mode>`).
 
-- **Check Newest Preview** (default for preview versions) will check for the newest available development snapshot.
+- **Comprobar la última versión preliminar** (predeterminado para las versiones preliminares) buscará la última instantánea de desarrollo disponible.
 
-- **Check Newest Stable** (default for stable versions) will check for the newest available stable version.
+- **Comprobar la última versión estable** (predeterminado para las versiones estables) buscará la última versión estable disponible.
 
-- **Check Newest Patch** will check for the latest available stable version, but only within the same minor version. E.g. if your version is ``4.3.stable``, you will be notified about ``4.3.1.stable``, but not ``4.4.stable``.
+- **Comprobar el parche más reciente** buscará la última versión estable disponible, pero solo dentro de la misma versión secundaria. Por ejemplo, si tu versión es ``4.3.estable``, se te notificará sobre ``4.3.1.estable``, pero no ``4.4.estable``.
 
-All update modes will ignore builds with different major versions (e.g. Godot 4 -> Godot 5).
+Todos los modos de actualización ignorarán las compilaciones con diferentes versiones principales (por ejemplo, Godot 4 -> Godot 5).
 
 .. rst-class:: classref-item-separator
 
@@ -4641,9 +4641,9 @@ All update modes will ignore builds with different major versions (e.g. Godot 4 
 
 :ref:`int<class_int>` **network/connection/network_mode** :ref:`🔗<class_EditorSettings_property_network/connection/network_mode>`
 
-Determines whether online features are enabled in the editor, such as the Asset Library or update checks. Disabling these online features helps alleviate privacy concerns by preventing the editor from making HTTP requests to the Godot website or third-party platforms hosting assets from the Asset Library.
+Determina si las funciones en línea están habilitadas en el editor, como la Asset Library o las comprobaciones de actualización. Deshabilitar estas funciones en línea ayuda a aliviar las preocupaciones de privacidad al evitar que el editor realice solicitudes HTTP al sitio web de Godot o a plataformas de terceros que alojan activos de la Asset Library.
 
-Editor plugins and tool scripts are recommended to follow this setting. However, Godot can't prevent them from violating this rule.
+Se recomienda que los plugins del editor y los scripts de herramientas sigan esta configuración. Sin embargo, Godot no puede evitar que violen esta regla.
 
 .. rst-class:: classref-item-separator
 
@@ -4655,7 +4655,7 @@ Editor plugins and tool scripts are recommended to follow this setting. However,
 
 :ref:`String<class_String>` **network/debug/remote_host** :ref:`🔗<class_EditorSettings_property_network/debug/remote_host>`
 
-The address to listen to when starting the remote debugger. This can be set to this device's local IP address to allow external clients to connect to the remote debugger (instead of restricting the remote debugger to connections from ``localhost``).
+La dirección a la que escuchar al iniciar el depurador remoto. Esto se puede establecer en la dirección IP local de este dispositivo para permitir que clientes externos se conecten al depurador remoto (en lugar de restringir el depurador remoto a las conexiones desde ``localhost``).
 
 .. rst-class:: classref-item-separator
 
@@ -4667,7 +4667,7 @@ The address to listen to when starting the remote debugger. This can be set to t
 
 :ref:`int<class_int>` **network/debug/remote_port** :ref:`🔗<class_EditorSettings_property_network/debug/remote_port>`
 
-The port to listen to when starting the remote debugger. Godot will try to use port numbers above the configured number if the configured number is already taken by another application.
+El puerto a escuchar al iniciar el depurador remoto. Godot intentará usar números de puerto por encima del número configurado si el número configurado ya está siendo utilizado por otra aplicación.
 
 .. rst-class:: classref-item-separator
 
@@ -4679,9 +4679,9 @@ The port to listen to when starting the remote debugger. Godot will try to use p
 
 :ref:`String<class_String>` **network/http_proxy/host** :ref:`🔗<class_EditorSettings_property_network/http_proxy/host>`
 
-The host to use to contact the HTTP and HTTPS proxy in the editor (for the asset library and export template downloads). See also :ref:`network/http_proxy/port<class_EditorSettings_property_network/http_proxy/port>`.
+El host a utilizar para contactar con el proxy HTTP y HTTPS en el editor (para la biblioteca de recursos y las descargas de plantillas de exportación). Véase también :ref:`network/http_proxy/port<class_EditorSettings_property_network/http_proxy/port>`.
 
-\ **Note:** Godot currently doesn't automatically use system proxy settings, so you have to enter them manually here if needed.
+\ **Nota:** Godot actualmente no utiliza automáticamente la configuración del proxy del sistema, por lo que tienes que introducirlos manualmente aquí si es necesario.
 
 .. rst-class:: classref-item-separator
 
@@ -4693,9 +4693,9 @@ The host to use to contact the HTTP and HTTPS proxy in the editor (for the asset
 
 :ref:`int<class_int>` **network/http_proxy/port** :ref:`🔗<class_EditorSettings_property_network/http_proxy/port>`
 
-The port number to use to contact the HTTP and HTTPS proxy in the editor (for the asset library and export template downloads). See also :ref:`network/http_proxy/host<class_EditorSettings_property_network/http_proxy/host>`.
+El número de puerto a utilizar para contactar con el proxy HTTP y HTTPS en el editor (para la biblioteca de recursos y las descargas de plantillas de exportación). Véase también :ref:`network/http_proxy/host<class_EditorSettings_property_network/http_proxy/host>`.
 
-\ **Note:** Godot currently doesn't automatically use system proxy settings, so you have to enter them manually here if needed.
+\ **Nota:** Godot actualmente no utiliza automáticamente la configuración del proxy del sistema, por lo que tienes que introducirlos manualmente aquí si es necesario.
 
 .. rst-class:: classref-item-separator
 
@@ -4719,9 +4719,9 @@ The TLS certificate bundle to use for HTTP requests made within the editor (e.g.
 
 :ref:`bool<class_bool>` **network/tls/enable_tls_v1.3** :ref:`🔗<class_EditorSettings_property_network/tls/enable_tls_v1.3>`
 
-If ``true``, enable TLSv1.3 negotiation.
+Si es ``true``, habilita la negociación TLSv1.3.
 
-\ **Note:** Only supported when using Mbed TLS 3.0 or later (Linux distribution packages may be compiled against older system Mbed TLS packages), otherwise the maximum supported TLS version is always TLSv1.2.
+\ **Nota:** Solo se admite cuando se utiliza Mbed TLS 3.0 o posterior (los paquetes de distribución de Linux pueden compilarse con paquetes Mbed TLS del sistema más antiguos); de lo contrario, la versión máxima de TLS admitida es siempre TLSv1.2.
 
 .. rst-class:: classref-item-separator
 
@@ -4733,7 +4733,7 @@ If ``true``, enable TLSv1.3 negotiation.
 
 :ref:`String<class_String>` **project_manager/default_renderer** :ref:`🔗<class_EditorSettings_property_project_manager/default_renderer>`
 
-The renderer type that will be checked off by default when creating a new project. Accepted strings are "forward_plus", "mobile" or "gl_compatibility".
+El tipo de renderizador que se marcará por defecto al crear un nuevo proyecto. Las cadenas aceptadas son "forward_plus", "mobile" o "gl_compatibility".
 
 .. rst-class:: classref-item-separator
 
@@ -4745,7 +4745,7 @@ The renderer type that will be checked off by default when creating a new projec
 
 :ref:`int<class_int>` **project_manager/directory_naming_convention** :ref:`🔗<class_EditorSettings_property_project_manager/directory_naming_convention>`
 
-Directory naming convention for the project manager. Options are "No convention" (project name is directory name), "kebab-case" (default), "snake_case", "camelCase", "PascalCase", or "Title Case".
+Convención de nomenclatura de directorios para el administrador de proyectos. Las opciones son "Sin convención" (el nombre del proyecto es el nombre del directorio), "kebab-case" (predeterminado), "snake_case", "camelCase", "PascalCase" o "Title Case".
 
 .. rst-class:: classref-item-separator
 
@@ -4757,7 +4757,7 @@ Directory naming convention for the project manager. Options are "No convention"
 
 :ref:`int<class_int>` **project_manager/sorting_order** :ref:`🔗<class_EditorSettings_property_project_manager/sorting_order>`
 
-The sorting order to use in the project manager. When changing the sorting order in the project manager, this setting is set permanently in the editor settings.
+El orden de clasificación que se utilizará en el administrador de proyectos. Al cambiar el orden de clasificación en el administrador de proyectos, esta configuración se establece permanentemente en la configuración del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4769,7 +4769,7 @@ The sorting order to use in the project manager. When changing the sorting order
 
 :ref:`bool<class_bool>` **run/auto_save/save_before_running** :ref:`🔗<class_EditorSettings_property_run/auto_save/save_before_running>`
 
-If ``true``, saves all scenes and scripts automatically before running the project. Setting this to ``false`` prevents the editor from saving if there are no changes which can speed up the project startup slightly, but it makes it possible to run a project that has unsaved changes. (Unsaved changes will not be visible in the running project.)
+Si es ``true``, guarda todas las escenas y scripts automáticamente antes de ejecutar el proyecto. Establecer esto en ``false`` evita que el editor guarde si no hay cambios, lo que puede acelerar ligeramente el inicio del proyecto, pero permite ejecutar un proyecto que tiene cambios sin guardar. (Los cambios sin guardar no serán visibles en el proyecto en ejecución).
 
 .. rst-class:: classref-item-separator
 
@@ -4781,9 +4781,9 @@ If ``true``, saves all scenes and scripts automatically before running the proje
 
 :ref:`int<class_int>` **run/bottom_panel/action_on_play** :ref:`🔗<class_EditorSettings_property_run/bottom_panel/action_on_play>`
 
-The action to execute on the bottom panel when running the project.
+La acción a ejecutar en el panel inferior al ejecutar el proyecto.
 
-\ **Note:** This option won't do anything if the bottom panel switching is locked using the pin button in the corner of the bottom panel.
+\ **Nota:** Esta opción no hará nada si el cambio de panel inferior está bloqueado mediante el botón de pin en la esquina del panel inferior.
 
 .. rst-class:: classref-item-separator
 
@@ -4795,9 +4795,9 @@ The action to execute on the bottom panel when running the project.
 
 :ref:`int<class_int>` **run/bottom_panel/action_on_stop** :ref:`🔗<class_EditorSettings_property_run/bottom_panel/action_on_stop>`
 
-The action to execute on the bottom panel when stopping the project.
+La acción a ejecutar en el panel inferior al detener el proyecto.
 
-\ **Note:** This option won't do anything if the bottom panel switching is locked using the pin button in the corner of the bottom panel.
+\ **Nota:** Esta opción no hará nada si el cambio de panel inferior está bloqueado mediante el botón de pin en la esquina del panel inferior.
 
 .. rst-class:: classref-item-separator
 
@@ -4809,7 +4809,7 @@ The action to execute on the bottom panel when stopping the project.
 
 :ref:`bool<class_bool>` **run/output/always_clear_output_on_play** :ref:`🔗<class_EditorSettings_property_run/output/always_clear_output_on_play>`
 
-If ``true``, the editor will clear the Output panel when running the project.
+Si es ``true``, el editor borrará el panel de salida al ejecutar el proyecto.
 
 .. rst-class:: classref-item-separator
 
@@ -4821,7 +4821,7 @@ If ``true``, the editor will clear the Output panel when running the project.
 
 :ref:`int<class_int>` **run/output/font_size** :ref:`🔗<class_EditorSettings_property_run/output/font_size>`
 
-The size of the font in the **Output** panel at the bottom of the editor. This setting does not impact the font size of the script editor (see :ref:`interface/editor/code_font_size<class_EditorSettings_property_interface/editor/code_font_size>`).
+El tamaño de la fuente en el panel de **Salida** en la parte inferior del editor. Esta configuración no afecta al tamaño de la fuente del editor de scripts (véase :ref:`interface/editor/code_font_size<class_EditorSettings_property_interface/editor/code_font_size>`).
 
 .. rst-class:: classref-item-separator
 
@@ -4833,7 +4833,7 @@ The size of the font in the **Output** panel at the bottom of the editor. This s
 
 :ref:`int<class_int>` **run/output/max_lines** :ref:`🔗<class_EditorSettings_property_run/output/max_lines>`
 
-Maximum number of lines to show at any one time in the Output panel.
+Número máximo de líneas que se mostrarán a la vez en el panel de salida.
 
 .. rst-class:: classref-item-separator
 
@@ -4845,7 +4845,7 @@ Maximum number of lines to show at any one time in the Output panel.
 
 :ref:`bool<class_bool>` **run/platforms/linuxbsd/prefer_wayland** :ref:`🔗<class_EditorSettings_property_run/platforms/linuxbsd/prefer_wayland>`
 
-If ``true``, on Linux/BSD, the editor will check for Wayland first instead of X11 (if available).
+Si es ``true``, en Linux/BSD, el editor comprobará primero Wayland en lugar de X11 (si está disponible).
 
 .. rst-class:: classref-item-separator
 
@@ -4877,7 +4877,7 @@ Specifies how the Play window is launched relative to the Android editor.
 
 :ref:`int<class_int>` **run/window_placement/game_embed_mode** :ref:`🔗<class_EditorSettings_property_run/window_placement/game_embed_mode>`
 
-Overrides game embedding setting for all newly opened projects. If enabled, game embedding settings are not saved.
+Anula la configuración de incrustación de juegos para todos los proyectos recién abiertos. Si está habilitado, la configuración de incrustación de juegos no se guarda.
 
 .. rst-class:: classref-item-separator
 
@@ -4889,9 +4889,9 @@ Overrides game embedding setting for all newly opened projects. If enabled, game
 
 :ref:`int<class_int>` **run/window_placement/rect** :ref:`🔗<class_EditorSettings_property_run/window_placement/rect>`
 
-The window mode to use to display the project when starting the project from the editor.
+El modo de ventana que se utilizará para mostrar el proyecto al iniciar el proyecto desde el editor.
 
-\ **Note:** Game embedding is not available for **"Force Maximized"** or **"Force Fullscreen"**.
+\ **Nota:** La incrustación de juegos no está disponible para **"Forzar Maximizado"** o **"Forzar Pantalla Completa"**.
 
 .. rst-class:: classref-item-separator
 
@@ -4903,7 +4903,7 @@ The window mode to use to display the project when starting the project from the
 
 :ref:`Vector2<class_Vector2>` **run/window_placement/rect_custom_position** :ref:`🔗<class_EditorSettings_property_run/window_placement/rect_custom_position>`
 
-The custom position to use when starting the project from the editor (in pixels from the top-left corner). Only effective if :ref:`run/window_placement/rect<class_EditorSettings_property_run/window_placement/rect>` is set to **Custom Position**.
+La posición personalizada que se usará al iniciar el proyecto desde el editor (en píxeles desde la esquina superior izquierda). Solo es efectivo si :ref:`run/window_placement/rect<class_EditorSettings_property_run/window_placement/rect>` se establece en **Posición personalizada**.
 
 .. rst-class:: classref-item-separator
 
@@ -4915,7 +4915,7 @@ The custom position to use when starting the project from the editor (in pixels 
 
 :ref:`int<class_int>` **run/window_placement/screen** :ref:`🔗<class_EditorSettings_property_run/window_placement/screen>`
 
-The monitor to display the project on when starting the project from the editor.
+El monitor en el que se mostrará el proyecto al iniciar el proyecto desde el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -4927,7 +4927,7 @@ The monitor to display the project on when starting the project from the editor.
 
 :ref:`bool<class_bool>` **text_editor/appearance/caret/caret_blink** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/caret/caret_blink>`
 
-If ``true``, makes the caret blink according to :ref:`text_editor/appearance/caret/caret_blink_interval<class_EditorSettings_property_text_editor/appearance/caret/caret_blink_interval>`. Disabling this setting can improve battery life on laptops if you spend long amounts of time in the script editor, since it will reduce the frequency at which the editor needs to be redrawn.
+Si es ``true``, hace que el cursor parpadee de acuerdo con :ref:`text_editor/appearance/caret/caret_blink_interval<class_EditorSettings_property_text_editor/appearance/caret/caret_blink_interval>`. Deshabilitar esta configuración puede mejorar la duración de la batería en los portátiles si pasas mucho tiempo en el editor de scripts, ya que reducirá la frecuencia con la que el editor necesita ser redibujado.
 
 .. rst-class:: classref-item-separator
 
@@ -4951,7 +4951,7 @@ El intervalo de tiempo en que el cursor parpadeará (en segundos). Véase tambi�
 
 :ref:`bool<class_bool>` **text_editor/appearance/caret/highlight_all_occurrences** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/caret/highlight_all_occurrences>`
 
-If ``true``, highlights all occurrences of the currently selected text in the script editor. See also :ref:`text_editor/theme/highlighting/word_highlighted_color<class_EditorSettings_property_text_editor/theme/highlighting/word_highlighted_color>`.
+Si es ``true``, se resaltarán todas las ocurrencias del texto seleccionado en el editor de scripts. Véase también :ref:`text_editor/theme/highlighting/word_highlighted_color<class_EditorSettings_property_text_editor/theme/highlighting/word_highlighted_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4975,7 +4975,7 @@ Si es ``true``, colorea el fondo de la línea en la que se encuentra actualmente
 
 :ref:`int<class_int>` **text_editor/appearance/caret/type** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/caret/type>`
 
-The shape of the caret to use in the script editor. **Line** displays a vertical line to the left of the current character, whereas **Block** displays an outline over the current character.
+La forma del cursor que se utilizará en el editor de scripts. **Línea** muestra una línea vertical a la izquierda del carácter actual, mientras que **Bloque** muestra un contorno sobre el carácter actual.
 
 .. rst-class:: classref-item-separator
 
@@ -4987,7 +4987,7 @@ The shape of the caret to use in the script editor. **Line** displays a vertical
 
 :ref:`bool<class_bool>` **text_editor/appearance/enable_inline_color_picker** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/enable_inline_color_picker>`
 
-If ``true``, displays a colored button before any :ref:`Color<class_Color>` constructor in the script editor. Clicking on them allows the color to be modified through a color picker.
+Si es ``true``, muestra un botón de color antes de cualquier constructor :ref:`Color<class_Color>` en el editor de scripts. Al hacer clic en ellos se puede modificar el color a través de un selector de color.
 
 .. rst-class:: classref-item-separator
 
@@ -4999,7 +4999,7 @@ If ``true``, displays a colored button before any :ref:`Color<class_Color>` cons
 
 :ref:`int<class_int>` **text_editor/appearance/guidelines/line_length_guideline_hard_column** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_hard_column>`
 
-The column at which to display a subtle line as a line length guideline for scripts. This should generally be greater than :ref:`text_editor/appearance/guidelines/line_length_guideline_soft_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_soft_column>`.
+La columna en la que se mostrará una línea sutil como guía de longitud de línea para los scripts. Esto generalmente debe ser mayor que :ref:`text_editor/appearance/guidelines/line_length_guideline_soft_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_soft_column>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5011,7 +5011,7 @@ The column at which to display a subtle line as a line length guideline for scri
 
 :ref:`int<class_int>` **text_editor/appearance/guidelines/line_length_guideline_soft_column** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_soft_column>`
 
-The column at which to display a *very* subtle line as a line length guideline for scripts. This should generally be lower than :ref:`text_editor/appearance/guidelines/line_length_guideline_hard_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_hard_column>`.
+La columna en la que se mostrará una línea *muy* sutil como guía de longitud de línea para los scripts. Esto generalmente debe ser menor que :ref:`text_editor/appearance/guidelines/line_length_guideline_hard_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_hard_column>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5023,7 +5023,7 @@ The column at which to display a *very* subtle line as a line length guideline f
 
 :ref:`bool<class_bool>` **text_editor/appearance/guidelines/show_line_length_guidelines** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/guidelines/show_line_length_guidelines>`
 
-If ``true``, displays line length guidelines to help you keep line lengths in check. See also :ref:`text_editor/appearance/guidelines/line_length_guideline_soft_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_soft_column>` and :ref:`text_editor/appearance/guidelines/line_length_guideline_hard_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_hard_column>`.
+Si es ``true``, muestra las guías de longitud de línea para ayudarte a mantener las longitudes de línea bajo control. Véase también :ref:`text_editor/appearance/guidelines/line_length_guideline_soft_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_soft_column>` y :ref:`text_editor/appearance/guidelines/line_length_guideline_hard_column<class_EditorSettings_property_text_editor/appearance/guidelines/line_length_guideline_hard_column>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5047,7 +5047,7 @@ If ``true``, highlights type-safe lines by displaying their line number color wi
 
 :ref:`bool<class_bool>` **text_editor/appearance/gutters/line_numbers_zero_padded** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/gutters/line_numbers_zero_padded>`
 
-If ``true``, displays line numbers with zero padding (e.g. ``007`` instead of ``7``).
+Si es ``true``, muestra los números de línea con relleno de ceros (por ejemplo, ``007`` en lugar de ``7``).
 
 .. rst-class:: classref-item-separator
 
@@ -5059,7 +5059,7 @@ If ``true``, displays line numbers with zero padding (e.g. ``007`` instead of ``
 
 :ref:`bool<class_bool>` **text_editor/appearance/gutters/show_info_gutter** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/gutters/show_info_gutter>`
 
-If ``true``, displays a gutter at the left containing icons for methods with signal connections and for overridden methods.
+Si es ``true``, muestra un margen a la izquierda con iconos para los métodos con conexiones de señal y para los métodos sobrescritos.
 
 .. rst-class:: classref-item-separator
 
@@ -5071,7 +5071,7 @@ If ``true``, displays a gutter at the left containing icons for methods with sig
 
 :ref:`bool<class_bool>` **text_editor/appearance/gutters/show_line_numbers** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/gutters/show_line_numbers>`
 
-If ``true``, displays line numbers in a gutter at the left.
+Si es ``true``, muestra los números de línea en un margen a la izquierda.
 
 .. rst-class:: classref-item-separator
 
@@ -5083,7 +5083,7 @@ If ``true``, displays line numbers in a gutter at the left.
 
 :ref:`int<class_int>` **text_editor/appearance/lines/autowrap_mode** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/lines/autowrap_mode>`
 
-If :ref:`text_editor/appearance/lines/word_wrap<class_EditorSettings_property_text_editor/appearance/lines/word_wrap>` is set to ``1``, sets text wrapping mode. To see how each mode behaves, see :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`.
+Si :ref:`text_editor/appearance/lines/word_wrap<class_EditorSettings_property_text_editor/appearance/lines/word_wrap>` está establecido en ``1``, establece el modo de ajuste de texto. Para ver cómo se comporta cada modo, véase :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5095,7 +5095,7 @@ If :ref:`text_editor/appearance/lines/word_wrap<class_EditorSettings_property_te
 
 :ref:`bool<class_bool>` **text_editor/appearance/lines/code_folding** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/lines/code_folding>`
 
-If ``true``, displays the folding arrows next to indented code sections and allows code folding. If ``false``, hides the folding arrows next to indented code sections and disallows code folding.
+Si es ``true``, muestra las flechas de plegado junto a las secciones de código indentado y permite el plegado de código. Si es ``false``, oculta las flechas de plegado junto a las secciones de código indentado e impide el plegado de código.
 
 .. rst-class:: classref-item-separator
 
@@ -5107,7 +5107,7 @@ If ``true``, displays the folding arrows next to indented code sections and allo
 
 :ref:`int<class_int>` **text_editor/appearance/lines/word_wrap** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/lines/word_wrap>`
 
-If ``true``, wraps long lines over multiple lines to avoid horizontal scrolling. This is a display-only feature; it does not actually insert line breaks in your scripts.
+Si es ``true``, envuelve las líneas largas en varias líneas para evitar el desplazamiento horizontal. Esta es una función de solo visualización; en realidad no inserta saltos de línea en tus scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -5131,7 +5131,7 @@ El ancho del minimapa en el editor de scripts (en píxeles).
 
 :ref:`bool<class_bool>` **text_editor/appearance/minimap/show_minimap** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/minimap/show_minimap>`
 
-If ``true``, draws an overview of the script near the scroll bar. The minimap can be left-clicked to scroll directly to a location in an "absolute" manner.
+Si es ``true``, dibuja una vista general del script cerca de la barra de desplazamiento. Se puede hacer clic izquierdo en el minimapa para desplazarse directamente a una ubicación de manera "absoluta".
 
 .. rst-class:: classref-item-separator
 
@@ -5143,7 +5143,7 @@ If ``true``, draws an overview of the script near the scroll bar. The minimap ca
 
 :ref:`bool<class_bool>` **text_editor/appearance/whitespace/draw_spaces** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/whitespace/draw_spaces>`
 
-If ``true``, draws space characters as centered points.
+Si es ``true``, dibuja los espacios como puntos centrados.
 
 .. rst-class:: classref-item-separator
 
@@ -5155,7 +5155,7 @@ If ``true``, draws space characters as centered points.
 
 :ref:`bool<class_bool>` **text_editor/appearance/whitespace/draw_tabs** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/whitespace/draw_tabs>`
 
-If ``true``, draws tab characters as chevrons.
+Si es ``true``, dibuja los tabuladores como cheurones.
 
 .. rst-class:: classref-item-separator
 
@@ -5167,7 +5167,7 @@ If ``true``, draws tab characters as chevrons.
 
 :ref:`int<class_int>` **text_editor/appearance/whitespace/line_spacing** :ref:`🔗<class_EditorSettings_property_text_editor/appearance/whitespace/line_spacing>`
 
-The space to add between lines (in pixels). Greater line spacing can help improve readability at the cost of displaying fewer lines on screen.
+El espacio a añadir entre líneas (en píxeles). Un mayor espaciado entre líneas puede ayudar a mejorar la legibilidad a costa de mostrar menos líneas en pantalla.
 
 .. rst-class:: classref-item-separator
 
@@ -5179,7 +5179,7 @@ The space to add between lines (in pixels). Greater line spacing can help improv
 
 :ref:`bool<class_bool>` **text_editor/behavior/documentation/enable_tooltips** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/documentation/enable_tooltips>`
 
-If ``true``, documentation tooltips will appear when hovering over a symbol.
+Si es ``true``, aparecerá información sobre herramientas de documentación al pasar el cursor sobre un símbolo.
 
 .. rst-class:: classref-item-separator
 
@@ -5191,7 +5191,7 @@ If ``true``, documentation tooltips will appear when hovering over a symbol.
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/auto_reload_and_parse_scripts_on_save** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/auto_reload_and_parse_scripts_on_save>`
 
-If ``true``, tool scripts will be automatically soft-reloaded after they are saved.
+Si es ``true``, los scripts de herramientas se volverán a cargar automáticamente después de ser guardados.
 
 .. rst-class:: classref-item-separator
 
@@ -5203,11 +5203,11 @@ If ``true``, tool scripts will be automatically soft-reloaded after they are sav
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/auto_reload_scripts_on_external_change** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/auto_reload_scripts_on_external_change>`
 
-If ``true``, automatically reloads scripts and text-based shaders in the editor when they have been modified and saved by external editors or tools and the editor regains focus. External changes can be discarded by using the Undo function after they've been loaded in the editor.
+Si es ``true``, recarga automáticamente los scripts y los shaders basados en texto en el editor cuando han sido modificados y guardados por editores o herramientas externas y el editor recupera el foco. Los cambios externos se pueden descartar utilizando la función Deshacer después de haber sido cargados en el editor.
 
-If ``false``, a file conflict dialog will always be displayed when the editor regains focus. This dialog allows you to choose whether to keep local changes or discard them.
+Si es ``false``, siempre se mostrará un diálogo de conflicto de archivos cuando el editor recupere el foco. Este diálogo te permite elegir si quieres mantener los cambios locales o descartarlos.
 
-\ **Note:** Even when this setting is ``true``, a file conflict dialog is still displayed in certain situations. For instance, it will display when the script editor has unsaved changes that the external editor did not account for.
+\ **Nota:** Incluso cuando este ajuste es ``true``, todavía se muestra un diálogo de conflicto de archivos en ciertas situaciones. Por ejemplo, se mostrará cuando el editor de scripts tenga cambios sin guardar de los que el editor externo no dio cuenta.
 
 .. rst-class:: classref-item-separator
 
@@ -5219,7 +5219,7 @@ If ``false``, a file conflict dialog will always be displayed when the editor re
 
 :ref:`int<class_int>` **text_editor/behavior/files/autosave_interval_secs** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/autosave_interval_secs>`
 
-If set to a value greater than ``0``, automatically saves the current script following the specified interval (in seconds). This can be used to prevent data loss if the editor crashes.
+Si se establece en un valor mayor que ``0``, guarda automáticamente el script actual siguiendo el intervalo especificado (en segundos). Esto se puede utilizar para evitar la pérdida de datos si el editor se bloquea.
 
 .. rst-class:: classref-item-separator
 
@@ -5231,7 +5231,7 @@ If set to a value greater than ``0``, automatically saves the current script fol
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/convert_indent_on_save** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/convert_indent_on_save>`
 
-If ``true``, converts indentation to match the script editor's indentation settings when saving a script. See also :ref:`text_editor/behavior/indent/type<class_EditorSettings_property_text_editor/behavior/indent/type>`.
+Si es ``true``, convierte la indentación para que coincida con la configuración de indentación del editor de scripts al guardar un script. Véase también :ref:`text_editor/behavior/indent/type<class_EditorSettings_property_text_editor/behavior/indent/type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5243,9 +5243,9 @@ If ``true``, converts indentation to match the script editor's indentation setti
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/drop_preload_resources_as_uid** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/drop_preload_resources_as_uid>`
 
-If ``true``, when dropping a :ref:`Resource<class_Resource>` file to script editor while :kbd:`Ctrl` is held, the resource will be preloaded with a UID. If ``false``, the resource will be preloaded with a path.
+Si es ``true``, al soltar un archivo :ref:`Resource<class_Resource>` en el editor de scripts mientras se mantiene pulsado :kbd:`Ctrl`, el recurso se precargará con un UID. Si es ``false``, el recurso se precargará con una ruta.
 
-When you hold :kbd:`Ctrl+Shift`, the behavior is reversed.
+Cuando mantienes pulsado :kbd:`Ctrl+Shift`, el comportamiento se invierte.
 
 .. rst-class:: classref-item-separator
 
@@ -5257,7 +5257,7 @@ When you hold :kbd:`Ctrl+Shift`, the behavior is reversed.
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/open_dominant_script_on_scene_change** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/open_dominant_script_on_scene_change>`
 
-If ``true``, opening a scene automatically opens the script attached to the root node, or the topmost node if the root has no script.
+Si es ``true``, al abrir una escena se abre automáticamente el script adjunto al nodo raíz, o el nodo superior si la raíz no tiene script.
 
 .. rst-class:: classref-item-separator
 
@@ -5269,7 +5269,7 @@ If ``true``, opening a scene automatically opens the script attached to the root
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/restore_scripts_on_load** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/restore_scripts_on_load>`
 
-If ``true``, reopens scripts that were opened in the last session when the editor is reopened on a given project.
+Si es ``true``, vuelve a abrir los scripts que se abrieron en la última sesión cuando se vuelve a abrir el editor en un proyecto dado.
 
 .. rst-class:: classref-item-separator
 
@@ -5281,7 +5281,7 @@ If ``true``, reopens scripts that were opened in the last session when the edito
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/trim_final_newlines_on_save** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/trim_final_newlines_on_save>`
 
-If ``true``, trims all empty newlines after the final newline when saving a script. Final newlines refer to the empty newlines found at the end of files. Since these serve no practical purpose, they can and should be removed to make version control diffs less noisy.
+Si es ``true``, elimina todas las líneas nuevas vacías después de la última línea nueva al guardar un script. Las líneas nuevas finales se refieren a las líneas nuevas vacías que se encuentran al final de los archivos. Dado que no tienen ningún propósito práctico, se pueden y deben eliminar para que las diferencias de control de versiones sean menos ruidosas.
 
 .. rst-class:: classref-item-separator
 
@@ -5293,7 +5293,7 @@ If ``true``, trims all empty newlines after the final newline when saving a scri
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/trim_trailing_whitespace_on_save** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/trim_trailing_whitespace_on_save>`
 
-If ``true``, trims trailing whitespace when saving a script. Trailing whitespace refers to tab and space characters placed at the end of lines. Since these serve no practical purpose, they can and should be removed to make version control diffs less noisy.
+Si es ``true``, elimina los espacios en blanco finales al guardar un script. Los espacios en blanco finales se refieren a los caracteres de tabulación y espacio colocados al final de las líneas. Dado que no tienen ningún propósito práctico, se pueden y deben eliminar para que las diferencias de control de versiones sean menos ruidosas.
 
 .. rst-class:: classref-item-separator
 
@@ -5305,7 +5305,7 @@ If ``true``, trims trailing whitespace when saving a script. Trailing whitespace
 
 :ref:`bool<class_bool>` **text_editor/behavior/general/empty_selection_clipboard** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/general/empty_selection_clipboard>`
 
-If ``true``, copying or cutting without a selection is performed on all lines with a caret. Otherwise, copy and cut require a selection.
+Si es ``true``, copiar o cortar sin una selección se realiza en todas las líneas con un cursor. De lo contrario, copiar y cortar requieren una selección.
 
 .. rst-class:: classref-item-separator
 
@@ -5317,7 +5317,7 @@ If ``true``, copying or cutting without a selection is performed on all lines wi
 
 :ref:`bool<class_bool>` **text_editor/behavior/indent/auto_indent** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/indent/auto_indent>`
 
-If ``true``, automatically indents code when pressing the :kbd:`Enter` key based on blocks above the new line.
+Si es ``true``, indenta automáticamente el código al presionar la tecla :kbd:`Enter` basándose en los bloques sobre la nueva línea.
 
 .. rst-class:: classref-item-separator
 
@@ -5329,7 +5329,7 @@ If ``true``, automatically indents code when pressing the :kbd:`Enter` key based
 
 :ref:`bool<class_bool>` **text_editor/behavior/indent/indent_wrapped_lines** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/indent/indent_wrapped_lines>`
 
-If ``true``, all wrapped lines are indented to the same amount as the unwrapped line.
+Si es ``true``, todas las líneas envueltas se indentan a la misma cantidad que la línea no envuelta.
 
 .. rst-class:: classref-item-separator
 
@@ -5341,7 +5341,7 @@ If ``true``, all wrapped lines are indented to the same amount as the unwrapped 
 
 :ref:`int<class_int>` **text_editor/behavior/indent/size** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/indent/size>`
 
-When using tab indentation, determines the length of each tab. When using space indentation, determines how many spaces are inserted when pressing :kbd:`Tab` and when automatic indentation is performed.
+Cuando se usa la indentación con tabulaciones, determina la longitud de cada tabulación. Cuando se usa la indentación con espacios, determina cuántos espacios se insertan al presionar :kbd:`Tab` y cuando se realiza la indentación automática.
 
 .. rst-class:: classref-item-separator
 
@@ -5353,9 +5353,9 @@ When using tab indentation, determines the length of each tab. When using space 
 
 :ref:`int<class_int>` **text_editor/behavior/indent/type** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/indent/type>`
 
-The indentation style to use (tabs or spaces).
+El estilo de indentación a utilizar (tabulaciones o espacios).
 
-\ **Note:** The :doc:`GDScript style guide <../tutorials/scripting/gdscript/gdscript_styleguide>` recommends using tabs for indentation. It is advised to change this setting only if you need to work on a project that currently uses spaces for indentation.
+\ **Nota:** La :doc:`guía de estilo de GDScript <../tutorials/scripting/gdscript/gdscript_styleguide>` recomienda usar tabulaciones para la indentación. Se aconseja cambiar este ajuste solo si necesitas trabajar en un proyecto que actualmente usa espacios para la indentación.
 
 .. rst-class:: classref-item-separator
 
@@ -5367,7 +5367,7 @@ The indentation style to use (tabs or spaces).
 
 :ref:`String<class_String>` **text_editor/behavior/navigation/custom_word_separators** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/custom_word_separators>`
 
-The characters to consider as word delimiters if :ref:`text_editor/behavior/navigation/use_custom_word_separators<class_EditorSettings_property_text_editor/behavior/navigation/use_custom_word_separators>` is ``true``. This is in addition to default characters if :ref:`text_editor/behavior/navigation/use_default_word_separators<class_EditorSettings_property_text_editor/behavior/navigation/use_default_word_separators>` is ``true``. The characters should be defined without separation, for example ``_♥=``.
+Los caracteres que se considerarán como delimitadores de palabras si :ref:`text_editor/behavior/navigation/use_custom_word_separators<class_EditorSettings_property_text_editor/behavior/navigation/use_custom_word_separators>` es ``true``. Esto se suma a los caracteres predeterminados si :ref:`text_editor/behavior/navigation/use_default_word_separators<class_EditorSettings_property_text_editor/behavior/navigation/use_default_word_separators>` es ``true``. Los caracteres deben definirse sin separación, por ejemplo ``_♥=``.
 
 .. rst-class:: classref-item-separator
 
@@ -5379,7 +5379,7 @@ The characters to consider as word delimiters if :ref:`text_editor/behavior/navi
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/drag_and_drop_selection** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/drag_and_drop_selection>`
 
-If ``true``, allows drag-and-dropping text in the script editor to move text. Disable this if you find yourself accidentally drag-and-dropping text in the script editor.
+Si es ``true``, permite arrastrar y soltar texto en el editor de scripts para mover texto. Desactiva esto si te encuentras arrastrando y soltando texto accidentalmente en el editor de scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -5391,7 +5391,7 @@ If ``true``, allows drag-and-dropping text in the script editor to move text. Di
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/move_caret_on_right_click** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/move_caret_on_right_click>`
 
-If ``true``, the caret will be moved when right-clicking somewhere in the script editor (like when left-clicking or middle-clicking). If ``false``, the caret will only be moved when left-clicking or middle-clicking somewhere.
+Si es ``true``, el cursor se moverá al hacer clic derecho en algún lugar del editor de scripts (como cuando se hace clic izquierdo o se hace clic con el botón central). Si es ``false``, el cursor solo se moverá al hacer clic izquierdo o con el botón central en algún lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -5403,7 +5403,7 @@ If ``true``, the caret will be moved when right-clicking somewhere in the script
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/open_script_when_connecting_signal_to_existing_method** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/open_script_when_connecting_signal_to_existing_method>`
 
-If ``true``, opens the script editor when connecting a signal to an existing script method from the Node dock.
+Si es ``true``, se abre el editor de código al conectar una señal a un código existente desde el panel lateral de nodos.
 
 .. rst-class:: classref-item-separator
 
@@ -5415,7 +5415,7 @@ If ``true``, opens the script editor when connecting a signal to an existing scr
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/scroll_past_end_of_file** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/scroll_past_end_of_file>`
 
-If ``true``, allows scrolling past the end of the file.
+Si es ``true``, permite desplazarse más allá del final del archivo.
 
 .. rst-class:: classref-item-separator
 
@@ -5427,9 +5427,9 @@ If ``true``, allows scrolling past the end of the file.
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/smooth_scrolling** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/smooth_scrolling>`
 
-If ``true``, enables a smooth scrolling animation when using the mouse wheel to scroll. See :ref:`text_editor/behavior/navigation/v_scroll_speed<class_EditorSettings_property_text_editor/behavior/navigation/v_scroll_speed>` for the speed of this animation.
+Si es ``true``, activa una animación de desplazamiento suave al usar la rueda del ratón para desplazarse. Consulta :ref:`text_editor/behavior/navigation/v_scroll_speed<class_EditorSettings_property_text_editor/behavior/navigation/v_scroll_speed>` para la velocidad de esta animación.
 
-\ **Note:** :ref:`text_editor/behavior/navigation/smooth_scrolling<class_EditorSettings_property_text_editor/behavior/navigation/smooth_scrolling>` currently behaves poorly in projects where :ref:`ProjectSettings.physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>` has been increased significantly from its default value (``60``). In this case, it is recommended to disable this setting.
+\ **Nota:** :ref:`text_editor/behavior/navigation/smooth_scrolling<class_EditorSettings_property_text_editor/behavior/navigation/smooth_scrolling>` se comporta mal en proyectos donde :ref:`ProjectSettings.physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>` se ha aumentado significativamente de su valor predeterminado (``60``). En este caso, se recomienda desactivar esta configuración.
 
 .. rst-class:: classref-item-separator
 
@@ -5441,7 +5441,7 @@ If ``true``, enables a smooth scrolling animation when using the mouse wheel to 
 
 :ref:`bool<class_bool>` **text_editor/behavior/navigation/stay_in_script_editor_on_node_selected** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/stay_in_script_editor_on_node_selected>`
 
-If ``true``, prevents automatically switching between the Script and 2D/3D screens when selecting a node in the Scene tree dock.
+Si es ``true``, evita cambiar automáticamente entre las pantallas Script y 2D/3D al seleccionar un nodo en el dock del árbol de escena.
 
 .. rst-class:: classref-item-separator
 
@@ -5477,9 +5477,9 @@ If ``true``, uses the characters in ```!"#$%&'()*+,-./:;<=>?@[\]^`{|}~``, the Un
 
 :ref:`int<class_int>` **text_editor/behavior/navigation/v_scroll_speed** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/navigation/v_scroll_speed>`
 
-The speed of scrolling in lines per second when :ref:`text_editor/behavior/navigation/smooth_scrolling<class_EditorSettings_property_text_editor/behavior/navigation/smooth_scrolling>` is ``true``. Higher values make the script scroll by faster when using the mouse wheel.
+La velocidad de desplazamiento en líneas por segundo cuando :ref:`text_editor/behavior/navigation/smooth_scrolling<class_EditorSettings_property_text_editor/behavior/navigation/smooth_scrolling>` es ``true``. Los valores más altos hacen que el script se desplace más rápido al usar la rueda del ratón.
 
-\ **Note:** You can hold down :kbd:`Alt` while using the mouse wheel to temporarily scroll 5 times faster.
+\ **Nota:** Puedes mantener pulsado :kbd:`Alt` mientras usas la rueda del ratón para desplazarte temporalmente 5 veces más rápido.
 
 .. rst-class:: classref-item-separator
 
@@ -5491,7 +5491,7 @@ The speed of scrolling in lines per second when :ref:`text_editor/behavior/navig
 
 :ref:`bool<class_bool>` **text_editor/completion/add_node_path_literals** :ref:`🔗<class_EditorSettings_property_text_editor/completion/add_node_path_literals>`
 
-If ``true``, uses :ref:`NodePath<class_NodePath>` instead of :ref:`String<class_String>` when appropriate for code autocompletion or for drag and dropping object properties into the script editor.
+Si es ``true``, utiliza :ref:`NodePath<class_NodePath>` en lugar de :ref:`String<class_String>` cuando es apropiado para la autocompletación de código o para arrastrar y soltar propiedades de objetos en el editor de scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -5515,15 +5515,15 @@ If ``true``, uses :ref:`StringName<class_StringName>` instead of :ref:`String<cl
 
 :ref:`bool<class_bool>` **text_editor/completion/add_type_hints** :ref:`🔗<class_EditorSettings_property_text_editor/completion/add_type_hints>`
 
-If ``true``, automatically adds :doc:`GDScript static typing <../tutorials/scripting/gdscript/static_typing>` (such as ``-> void`` and ``: int``) in many situations where it's possible to, including when:
+Si es ``true``, añade automáticamente :doc:`tipado estático de GDScript <../tutorials/scripting/gdscript/static_typing>` (como ``-> void`` y ``: int``) en muchas situaciones donde es posible, incluyendo cuando:
 
-- Accepting a suggestion from code autocompletion;
+- Aceptas una sugerencia del completado automático de código;
 
-- Creating a new script from a template;
+- Creas un nuevo script desde una plantilla;
 
-- Connecting signals from the Node dock;
+- Conectas señales desde el dock del Nodo;
 
-- Creating variables prefixed with :ref:`@GDScript.@onready<class_@GDScript_annotation_@onready>`, by dropping nodes from the Scene dock into the script editor while holding :kbd:`Ctrl`.
+- Creas variables prefijadas con :ref:`@GDScript.@onready<class_@GDScript_annotation_@onready>`, arrastrando nodos desde el dock de la Escena al editor de scripts mientras mantienes pulsado :kbd:`Ctrl`.
 
 .. rst-class:: classref-item-separator
 
@@ -5583,7 +5583,7 @@ If ``true`` enables the coloring for some items in the autocompletion suggestion
 
 :ref:`bool<class_bool>` **text_editor/completion/complete_file_paths** :ref:`🔗<class_EditorSettings_property_text_editor/completion/complete_file_paths>`
 
-If ``true``, provides autocompletion suggestions for file paths in methods such as ``load()`` and ``preload()``.
+Si es ``true``, proporciona sugerencias de completado automático para las rutas de archivo en métodos como ``load()`` y ``preload()``.
 
 .. rst-class:: classref-item-separator
 
@@ -5595,7 +5595,7 @@ If ``true``, provides autocompletion suggestions for file paths in methods such 
 
 :ref:`float<class_float>` **text_editor/completion/idle_parse_delay** :ref:`🔗<class_EditorSettings_property_text_editor/completion/idle_parse_delay>`
 
-The delay in seconds after which the script editor should check for errors when the user stops typing.
+El retardo en segundos después del cual el editor de scripts debe buscar errores cuando el usuario deja de escribir.
 
 .. rst-class:: classref-item-separator
 
@@ -5607,7 +5607,7 @@ The delay in seconds after which the script editor should check for errors when 
 
 :ref:`float<class_float>` **text_editor/completion/idle_parse_delay_with_errors_found** :ref:`🔗<class_EditorSettings_property_text_editor/completion/idle_parse_delay_with_errors_found>`
 
-The delay used instead of :ref:`text_editor/completion/idle_parse_delay<class_EditorSettings_property_text_editor/completion/idle_parse_delay>`, when the parser has found errors. A lower value should feel more responsive while fixing code, but may cause notable stuttering and increase CPU usage.
+El retardo utilizado en lugar de :ref:`text_editor/completion/idle_parse_delay<class_EditorSettings_property_text_editor/completion/idle_parse_delay>`, cuando el analizador ha encontrado errores. Un valor más bajo debería sentirse más receptivo al corregir el código, pero puede causar tartamudeo (stuttering) notable y aumentar el uso de la CPU.
 
 .. rst-class:: classref-item-separator
 
@@ -5619,7 +5619,7 @@ The delay used instead of :ref:`text_editor/completion/idle_parse_delay<class_Ed
 
 :ref:`bool<class_bool>` **text_editor/completion/put_callhint_tooltip_below_current_line** :ref:`🔗<class_EditorSettings_property_text_editor/completion/put_callhint_tooltip_below_current_line>`
 
-If ``true``, the code completion tooltip will appear below the current line unless there is no space on screen below the current line. If ``false``, the code completion tooltip will appear above the current line.
+Si es ``true``, la información sobre herramientas de completado automático de código aparecerá debajo de la línea actual a menos que no haya espacio en la pantalla debajo de la línea actual. Si es ``false``, la información sobre herramientas de completado automático de código aparecerá encima de la línea actual.
 
 .. rst-class:: classref-item-separator
 
@@ -5631,7 +5631,7 @@ If ``true``, the code completion tooltip will appear below the current line unle
 
 :ref:`bool<class_bool>` **text_editor/completion/use_single_quotes** :ref:`🔗<class_EditorSettings_property_text_editor/completion/use_single_quotes>`
 
-If ``true``, performs string autocompletion with single quotes. If ``false``, performs string autocompletion with double quotes (which matches the :doc:`GDScript style guide <../tutorials/scripting/gdscript/gdscript_styleguide>`).
+Si es ``true``, realiza el completado automático de cadenas con comillas simples. Si es ``false``, realiza el completado automático de cadenas con comillas dobles (que coincide con la :doc:`guía de estilo de GDScript <../tutorials/scripting/gdscript/gdscript_styleguide>`).
 
 .. rst-class:: classref-item-separator
 
@@ -5643,7 +5643,7 @@ If ``true``, performs string autocompletion with single quotes. If ``false``, pe
 
 :ref:`String<class_String>` **text_editor/external/exec_flags** :ref:`🔗<class_EditorSettings_property_text_editor/external/exec_flags>`
 
-The command-line arguments to pass to the external text editor that is run when :ref:`text_editor/external/use_external_editor<class_EditorSettings_property_text_editor/external/use_external_editor>` is ``true``. See also :ref:`text_editor/external/exec_path<class_EditorSettings_property_text_editor/external/exec_path>`.
+Los argumentos de la línea de comandos para pasar al editor de texto externo que se ejecuta cuando :ref:`text_editor/external/use_external_editor<class_EditorSettings_property_text_editor/external/use_external_editor>` es ``true``. Véase también :ref:`text_editor/external/exec_path<class_EditorSettings_property_text_editor/external/exec_path>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5655,7 +5655,7 @@ The command-line arguments to pass to the external text editor that is run when 
 
 :ref:`String<class_String>` **text_editor/external/exec_path** :ref:`🔗<class_EditorSettings_property_text_editor/external/exec_path>`
 
-The path to the text editor executable used to edit text files if :ref:`text_editor/external/use_external_editor<class_EditorSettings_property_text_editor/external/use_external_editor>` is ``true``.
+La ruta al ejecutable del editor de texto utilizado para editar archivos de texto si :ref:`text_editor/external/use_external_editor<class_EditorSettings_property_text_editor/external/use_external_editor>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -5667,7 +5667,7 @@ The path to the text editor executable used to edit text files if :ref:`text_edi
 
 :ref:`bool<class_bool>` **text_editor/external/use_external_editor** :ref:`🔗<class_EditorSettings_property_text_editor/external/use_external_editor>`
 
-If ``true``, uses an external editor instead of the built-in Script Editor. See also :ref:`text_editor/external/exec_path<class_EditorSettings_property_text_editor/external/exec_path>` and :ref:`text_editor/external/exec_flags<class_EditorSettings_property_text_editor/external/exec_flags>`.
+Si es ``true``, utiliza un editor externo en lugar del Editor de Scripts incorporado. Véase también :ref:`text_editor/external/exec_path<class_EditorSettings_property_text_editor/external/exec_path>` y :ref:`text_editor/external/exec_flags<class_EditorSettings_property_text_editor/external/exec_flags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5679,7 +5679,7 @@ If ``true``, uses an external editor instead of the built-in Script Editor. See 
 
 :ref:`int<class_int>` **text_editor/help/class_reference_examples** :ref:`🔗<class_EditorSettings_property_text_editor/help/class_reference_examples>`
 
-Controls which multi-line code blocks should be displayed in the editor help. This setting does not affect single-line code literals in the editor help.
+Controla qué bloques de código multi-línea deben mostrarse en la ayuda del editor. Este ajuste no afecta a los literales de código de una sola línea en la ayuda del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -5691,7 +5691,7 @@ Controls which multi-line code blocks should be displayed in the editor help. Th
 
 :ref:`int<class_int>` **text_editor/help/help_font_size** :ref:`🔗<class_EditorSettings_property_text_editor/help/help_font_size>`
 
-The font size to use for the editor help (built-in class reference).
+El tamaño de la fuente a utilizar para la ayuda del editor (referencia de clase incorporada).
 
 .. rst-class:: classref-item-separator
 
@@ -5703,7 +5703,7 @@ The font size to use for the editor help (built-in class reference).
 
 :ref:`int<class_int>` **text_editor/help/help_source_font_size** :ref:`🔗<class_EditorSettings_property_text_editor/help/help_source_font_size>`
 
-The font size to use for code samples in the editor help (built-in class reference).
+El tamaño de la fuente a utilizar para los ejemplos de código en la ayuda del editor (referencia de clase incorporada).
 
 .. rst-class:: classref-item-separator
 
@@ -5715,7 +5715,7 @@ The font size to use for code samples in the editor help (built-in class referen
 
 :ref:`int<class_int>` **text_editor/help/help_title_font_size** :ref:`🔗<class_EditorSettings_property_text_editor/help/help_title_font_size>`
 
-The font size to use for headings in the editor help (built-in class reference).
+El tamaño de la fuente que se utilizará para los encabezados en la ayuda del editor (referencia de clase incorporada).
 
 .. rst-class:: classref-item-separator
 
@@ -5727,7 +5727,7 @@ The font size to use for headings in the editor help (built-in class reference).
 
 :ref:`bool<class_bool>` **text_editor/help/show_help_index** :ref:`🔗<class_EditorSettings_property_text_editor/help/show_help_index>`
 
-If ``true``, displays a table of contents at the left of the editor help (at the location where the members overview would appear when editing a script).
+Si es ``true``, muestra una tabla de contenido a la izquierda de la ayuda del editor (en la ubicación donde aparecería la vista general de los miembros al editar un script).
 
 .. rst-class:: classref-item-separator
 
@@ -5739,7 +5739,7 @@ If ``true``, displays a table of contents at the left of the editor help (at the
 
 :ref:`bool<class_bool>` **text_editor/help/sort_functions_alphabetically** :ref:`🔗<class_EditorSettings_property_text_editor/help/sort_functions_alphabetically>`
 
-If ``true``, the script's method list in the Script Editor is sorted alphabetically.
+Si es ``true``, la lista de métodos del script en el Editor de Scripts se ordena alfabéticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -5751,7 +5751,7 @@ If ``true``, the script's method list in the Script Editor is sorted alphabetica
 
 :ref:`bool<class_bool>` **text_editor/script_list/group_help_pages** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/group_help_pages>`
 
-If ``true``, class reference pages are grouped together at the bottom of the Script Editor's script list.
+Si es ``true``, las páginas de referencia de clase se agrupan en la parte inferior de la lista de scripts del Editor de Scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -5763,7 +5763,7 @@ If ``true``, class reference pages are grouped together at the bottom of the Scr
 
 :ref:`bool<class_bool>` **text_editor/script_list/highlight_scene_scripts** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/highlight_scene_scripts>`
 
-If ``true``, the scripts that are used by the current scene are highlighted in the Script Editor's script list.
+Si es ``true``, los scripts que se utilizan en la escena actual se resaltan en la lista de scripts del Editor de Scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -5775,7 +5775,7 @@ If ``true``, the scripts that are used by the current scene are highlighted in t
 
 :ref:`int<class_int>` **text_editor/script_list/list_script_names_as** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/list_script_names_as>`
 
-Specifies how script paths should be displayed in Script Editor's script list. If using the "Name" option and some scripts share the same file name, more parts of their paths are revealed to avoid conflicts.
+Especifica cómo deben mostrarse las rutas de los scripts en la lista de scripts del Editor de Scripts. Si utilizas la opción "Nombre" y algunos scripts comparten el mismo nombre de archivo, se revelan más partes de sus rutas para evitar conflictos.
 
 .. rst-class:: classref-item-separator
 
@@ -5787,7 +5787,7 @@ Specifies how script paths should be displayed in Script Editor's script list. I
 
 :ref:`bool<class_bool>` **text_editor/script_list/script_temperature_enabled** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/script_temperature_enabled>`
 
-If ``true``, the names of recently opened scripts in the Script Editor are highlighted with the accent color, with its intensity based on how recently they were opened.
+Si es ``true``, los nombres de los scripts abiertos recientemente en el Editor de Scripts se resaltan con el color de acento, con su intensidad basada en la frecuencia con la que se abrieron recientemente.
 
 .. rst-class:: classref-item-separator
 
@@ -5799,7 +5799,7 @@ If ``true``, the names of recently opened scripts in the Script Editor are highl
 
 :ref:`int<class_int>` **text_editor/script_list/script_temperature_history_size** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/script_temperature_history_size>`
 
-How many script names can be highlighted at most, if :ref:`text_editor/script_list/script_temperature_enabled<class_EditorSettings_property_text_editor/script_list/script_temperature_enabled>` is ``true``. Scripts older than this value use the default font color.
+Cuántos nombres de script se pueden resaltar como máximo, si :ref:`text_editor/script_list/script_temperature_enabled<class_EditorSettings_property_text_editor/script_list/script_temperature_enabled>` es ``true``. Los scripts más antiguos que este valor utilizan el color de fuente predeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -5811,7 +5811,7 @@ How many script names can be highlighted at most, if :ref:`text_editor/script_li
 
 :ref:`bool<class_bool>` **text_editor/script_list/show_members_overview** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/show_members_overview>`
 
-If ``true``, displays an overview of the current script's member variables and functions at the left of the script editor. See also :ref:`text_editor/script_list/sort_members_outline_alphabetically<class_EditorSettings_property_text_editor/script_list/sort_members_outline_alphabetically>`.
+Si es ``true``, muestra una vista general de las variables miembro y las funciones del script actual a la izquierda del editor de scripts. Véase también :ref:`text_editor/script_list/sort_members_outline_alphabetically<class_EditorSettings_property_text_editor/script_list/sort_members_outline_alphabetically>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5823,9 +5823,9 @@ If ``true``, displays an overview of the current script's member variables and f
 
 :ref:`bool<class_bool>` **text_editor/script_list/sort_members_outline_alphabetically** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/sort_members_outline_alphabetically>`
 
-If ``true``, sorts the members outline (located at the left of the script editor) using alphabetical order. If ``false``, sorts the members outline depending on the order in which members are found in the script.
+Si es ``true``, ordena el esquema de los miembros (ubicado a la izquierda del editor de scripts) usando el orden alfabético. Si es ``false``, ordena el esquema de los miembros dependiendo del orden en que se encuentran los miembros en el script.
 
-\ **Note:** Only effective if :ref:`text_editor/script_list/show_members_overview<class_EditorSettings_property_text_editor/script_list/show_members_overview>` is ``true``.
+\ **Nota:** Solo es efectivo si :ref:`text_editor/script_list/show_members_overview<class_EditorSettings_property_text_editor/script_list/show_members_overview>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -5837,7 +5837,7 @@ If ``true``, sorts the members outline (located at the left of the script editor
 
 :ref:`int<class_int>` **text_editor/script_list/sort_scripts_by** :ref:`🔗<class_EditorSettings_property_text_editor/script_list/sort_scripts_by>`
 
-Specifies sorting used for Script Editor's open script list.
+Especifica la clasificación utilizada para la lista de scripts abiertos del Editor de Scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -5849,11 +5849,11 @@ Specifies sorting used for Script Editor's open script list.
 
 :ref:`String<class_String>` **text_editor/theme/color_theme** :ref:`🔗<class_EditorSettings_property_text_editor/theme/color_theme>`
 
-The syntax theme to use in the script editor.
+El tema de sintaxis a utilizar en el editor de scripts.
 
-You can save your own syntax theme from your current settings by using **File > Theme > Save As...** at the top of the script editor. The syntax theme will then be available locally in the list of color themes.
+Puedes guardar tu propio tema de sintaxis desde tu configuración actual utilizando **Archivo > Tema > Guardar como...** en la parte superior del editor de scripts. El tema de sintaxis estará entonces disponible localmente en la lista de temas de color.
 
-You can find additional syntax themes to install in the `godot-syntax-themes <https://github.com/godotengine/godot-syntax-themes>`__ repository.
+Puedes encontrar temas de sintaxis adicionales para instalar en el `repositorio godot-syntax-themes <https://github.com/godotengine/godot-syntax-themes>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -5865,7 +5865,7 @@ You can find additional syntax themes to install in the `godot-syntax-themes <ht
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/background_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/background_color>`
 
-The script editor's background color. If set to a translucent color, the editor theme's base color will be visible behind.
+El color de fondo del editor de scripts. Si se establece en un color translúcido, el color base del tema del editor será visible detrás.
 
 .. rst-class:: classref-item-separator
 
@@ -5877,7 +5877,7 @@ The script editor's background color. If set to a translucent color, the editor 
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/base_type_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/base_type_color>`
 
-The script editor's base type color (used for types like :ref:`Vector2<class_Vector2>`, :ref:`Vector3<class_Vector3>`, :ref:`Color<class_Color>`, ...).
+El color del tipo base del editor de scripts (utilizado para tipos como :ref:`Vector2<class_Vector2>`, :ref:`Vector3<class_Vector3>`, :ref:`Color<class_Color>`, ...).
 
 .. rst-class:: classref-item-separator
 
@@ -5889,7 +5889,7 @@ The script editor's base type color (used for types like :ref:`Vector2<class_Vec
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/bookmark_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/bookmark_color>`
 
-The script editor's bookmark icon color (displayed in the gutter).
+El color del icono de marcador del editor de scripts (que se muestra en el margen).
 
 .. rst-class:: classref-item-separator
 
@@ -5913,7 +5913,7 @@ El color de discordancia de llaves del editor de scripts. Se usa cuando el curso
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/breakpoint_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/breakpoint_color>`
 
-The script editor's breakpoint icon color (displayed in the gutter).
+El color del icono de punto de interrupción del editor de scripts (que se muestra en el margen).
 
 .. rst-class:: classref-item-separator
 
@@ -5951,7 +5951,7 @@ El color del cursor del editor de scripts.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/code_folding_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/code_folding_color>`
 
-The script editor's color for the code folding icon (displayed in the gutter).
+El color del editor de scripts para el icono de plegado de código (que se muestra en el margen).
 
 .. rst-class:: classref-item-separator
 
@@ -5963,9 +5963,9 @@ The script editor's color for the code folding icon (displayed in the gutter).
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_color>`
 
-The script editor's comment color.
+El color de los comentarios del editor de scripts.
 
-\ **Note:** In GDScript, unlike Python, multiline strings are not considered to be comments, and will use the string highlighting color instead.
+\ **Nota:** En GDScript, a diferencia de Python, las cadenas multilínea no se consideran comentarios y, en su lugar, utilizarán el color de resaltado de cadenas.
 
 .. rst-class:: classref-item-separator
 
@@ -5977,7 +5977,7 @@ The script editor's comment color.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_markers/critical_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_color>`
 
-The script editor's critical comment marker text color. These markers are determined by :ref:`text_editor/theme/highlighting/comment_markers/critical_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_list>`.
+El color del texto del marcador de comentario crítico del editor de scripts. Estos marcadores están determinados por :ref:`text_editor/theme/highlighting/comment_markers/critical_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5989,9 +5989,9 @@ The script editor's critical comment marker text color. These markers are determ
 
 :ref:`String<class_String>` **text_editor/theme/highlighting/comment_markers/critical_list** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_list>`
 
-A comma-separated list of case-sensitive words to highlight in comments. The text will be highlighted in the script editor with the :ref:`text_editor/theme/highlighting/comment_markers/critical_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_color>` color. These must not include spaces or symbols or they will not be highlighted.
+Una lista separada por comas de palabras sensibles a mayúsculas y minúsculas para resaltar en los comentarios. El texto se resaltará en el editor de scripts con el color :ref:`text_editor/theme/highlighting/comment_markers/critical_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/critical_color>`. Estos no deben incluir espacios ni símbolos o no se resaltarán.
 
-\ **Note:** This is only implemented in the GDScript syntax highlighter.
+\ **Nota:** Esto solo se implementa en el resaltador de sintaxis GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -6003,7 +6003,7 @@ A comma-separated list of case-sensitive words to highlight in comments. The tex
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_markers/notice_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_color>`
 
-The script editor's notice comment marker text color. These markers are determined by :ref:`text_editor/theme/highlighting/comment_markers/notice_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_list>`.
+El color del texto del marcador de comentario de aviso del editor de scripts. Estos marcadores están determinados por :ref:`text_editor/theme/highlighting/comment_markers/notice_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6015,9 +6015,9 @@ The script editor's notice comment marker text color. These markers are determin
 
 :ref:`String<class_String>` **text_editor/theme/highlighting/comment_markers/notice_list** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_list>`
 
-A comma-separated list of case-sensitive words to highlight in comments. The text will be highlighted in the script editor with the :ref:`text_editor/theme/highlighting/comment_markers/notice_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_color>` color. These must not include spaces or symbols or they will not be highlighted.
+Una lista separada por comas de palabras sensibles a mayúsculas y minúsculas para resaltar en los comentarios. El texto se resaltará en el editor de scripts con el color :ref:`text_editor/theme/highlighting/comment_markers/notice_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/notice_color>`. Estos no deben incluir espacios ni símbolos o no se resaltarán.
 
-\ **Note:** This is only implemented in the GDScript syntax highlighter.
+\ **Nota:** Esto solo se implementa en el resaltador de sintaxis GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -6029,7 +6029,7 @@ A comma-separated list of case-sensitive words to highlight in comments. The tex
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/comment_markers/warning_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_color>`
 
-The script editor's warning comment marker text color. These markers are determined by :ref:`text_editor/theme/highlighting/comment_markers/warning_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_list>`.
+El color del texto del marcador de comentario de advertencia del editor de scripts. Estos marcadores están determinados por :ref:`text_editor/theme/highlighting/comment_markers/warning_list<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6041,9 +6041,9 @@ The script editor's warning comment marker text color. These markers are determi
 
 :ref:`String<class_String>` **text_editor/theme/highlighting/comment_markers/warning_list** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_list>`
 
-A comma-separated list of case-sensitive words to highlight in comments. The text will be highlighted in the script editor with the :ref:`text_editor/theme/highlighting/comment_markers/warning_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_color>` color. These must not include spaces or symbols or they will not be highlighted.
+Una lista separada por comas de palabras sensibles a mayúsculas y minúsculas para resaltar en los comentarios. El texto se resaltará en el editor de scripts con el color :ref:`text_editor/theme/highlighting/comment_markers/warning_color<class_EditorSettings_property_text_editor/theme/highlighting/comment_markers/warning_color>`. Estos no deben incluir espacios ni símbolos o no se resaltarán.
 
-\ **Note:** This is only implemented in the GDScript syntax highlighter.
+\ **Nota:** Esto solo se implementa en el resaltador de sintaxis GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -6067,7 +6067,7 @@ Color de fondo del cuadro de autocompletado del editor de scripts.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/completion_existing_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/completion_existing_color>`
 
-The script editor's autocompletion box background color to highlight existing characters in the completion results. This should be a translucent color so that :ref:`text_editor/theme/highlighting/completion_selected_color<class_EditorSettings_property_text_editor/theme/highlighting/completion_selected_color>` can be seen behind.
+El color de fondo del cuadro de completado automático del editor de scripts para resaltar los caracteres existentes en los resultados de la finalización. Debe ser un color translúcido para que :ref:`text_editor/theme/highlighting/completion_selected_color<class_EditorSettings_property_text_editor/theme/highlighting/completion_selected_color>` se pueda ver detrás.
 
 .. rst-class:: classref-item-separator
 
@@ -6079,7 +6079,7 @@ The script editor's autocompletion box background color to highlight existing ch
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/completion_font_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/completion_font_color>`
 
-The script editor's autocompletion box text color.
+El color del texto del cuadro de completado automático del editor de scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -6091,7 +6091,7 @@ The script editor's autocompletion box text color.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/completion_scroll_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/completion_scroll_color>`
 
-The script editor's autocompletion box scroll bar color.
+El color de la barra de desplazamiento del cuadro de completado automático del editor de scripts.
 
 .. rst-class:: classref-item-separator
 
@@ -6103,7 +6103,7 @@ The script editor's autocompletion box scroll bar color.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/completion_scroll_hovered_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/completion_scroll_hovered_color>`
 
-The script editor's autocompletion box scroll bar color when hovered or pressed with the mouse.
+El color de la barra de desplazamiento del cuadro de completado automático del editor de scripts cuando se pasa el ratón por encima o se presiona con el ratón.
 
 .. rst-class:: classref-item-separator
 
@@ -6115,7 +6115,7 @@ The script editor's autocompletion box scroll bar color when hovered or pressed 
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/completion_selected_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/completion_selected_color>`
 
-The script editor's autocompletion box background color for the currently selected line.
+El color de fondo del cuadro de completado automático del editor de scripts para la línea actualmente seleccionada.
 
 .. rst-class:: classref-item-separator
 
@@ -6127,7 +6127,7 @@ The script editor's autocompletion box background color for the currently select
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/control_flow_keyword_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/control_flow_keyword_color>`
 
-The script editor's control flow keyword color (used for keywords like ``if``, ``for``, ``return``, ...).
+El color de la palabra clave de flujo de control del editor de scripts (utilizado para palabras clave como ``if``, ``for``, ``return``, ...).
 
 .. rst-class:: classref-item-separator
 
@@ -6139,7 +6139,7 @@ The script editor's control flow keyword color (used for keywords like ``if``, `
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/current_line_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/current_line_color>`
 
-The script editor's background color for the line the caret is currently on. This should be set to a translucent color so that it can display on top of other line color modifiers such as :ref:`text_editor/theme/highlighting/mark_color<class_EditorSettings_property_text_editor/theme/highlighting/mark_color>`.
+El color de fondo del editor de scripts para la línea en la que se encuentra actualmente el cursor. Debe establecerse en un color translúcido para que pueda mostrarse sobre otros modificadores del color de la línea, como :ref:`text_editor/theme/highlighting/mark_color<class_EditorSettings_property_text_editor/theme/highlighting/mark_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6151,7 +6151,7 @@ The script editor's background color for the line the caret is currently on. Thi
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/doc_comment_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/doc_comment_color>`
 
-The script editor's documentation comment color. In GDScript, this is used for comments starting with ``##``. In C#, this is used for comments starting with ``///`` or ``/**``.
+El color del comentario de documentación del editor de scripts. En GDScript, esto se utiliza para los comentarios que comienzan con ``##``. En C#, esto se utiliza para los comentarios que comienzan con ``///`` o ``/**``.
 
 .. rst-class:: classref-item-separator
 
@@ -6163,7 +6163,7 @@ The script editor's documentation comment color. In GDScript, this is used for c
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/engine_type_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/engine_type_color>`
 
-The script editor's engine type color (:ref:`Object<class_Object>`, :ref:`Mesh<class_Mesh>`, :ref:`Node<class_Node>`, ...).
+El color del tipo de motor del editor de scripts (:ref:`Object<class_Object>`, :ref:`Mesh<class_Mesh>`, :ref:`Node<class_Node>`, ...).
 
 .. rst-class:: classref-item-separator
 
@@ -6175,7 +6175,7 @@ The script editor's engine type color (:ref:`Object<class_Object>`, :ref:`Mesh<c
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/executing_line_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/executing_line_color>`
 
-The script editor's color for the debugger's executing line icon (displayed in the gutter).
+El color del editor de scripts para el icono de la línea de ejecución del depurador (que se muestra en el margen).
 
 .. rst-class:: classref-item-separator
 
@@ -6187,7 +6187,7 @@ The script editor's color for the debugger's executing line icon (displayed in t
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/folded_code_region_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/folded_code_region_color>`
 
-The script editor's background line highlighting color for folded code region.
+El color de resaltado de la línea de fondo del editor de scripts para la región de código plegado.
 
 .. rst-class:: classref-item-separator
 
@@ -6199,9 +6199,9 @@ The script editor's background line highlighting color for folded code region.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/function_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/function_color>`
 
-The script editor's function call color.
+El color de llamada a función del editor de scripts.
 
-\ **Note:** When using the GDScript syntax highlighter, this is only used when calling some functions since function definitions and global functions have their own colors :ref:`text_editor/theme/highlighting/gdscript/function_definition_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/function_definition_color>` and :ref:`text_editor/theme/highlighting/gdscript/global_function_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/global_function_color>`.
+\ **Nota:** Cuando se utiliza el resaltador de sintaxis GDScript, esto solo se usa al llamar a algunas funciones, ya que las definiciones de función y las funciones globales tienen sus propios colores :ref:`text_editor/theme/highlighting/gdscript/function_definition_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/function_definition_color>` y :ref:`text_editor/theme/highlighting/gdscript/global_function_color<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/global_function_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6213,7 +6213,7 @@ The script editor's function call color.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/annotation_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/annotation_color>`
 
-The GDScript syntax highlighter text color for annotations (e.g. ``@export``).
+El color del texto del resaltador de sintaxis GDScript para las anotaciones (p. ej., ``@export``).
 
 .. rst-class:: classref-item-separator
 
@@ -6225,7 +6225,7 @@ The GDScript syntax highlighter text color for annotations (e.g. ``@export``).
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/function_definition_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/function_definition_color>`
 
-The GDScript syntax highlighter text color for function definitions (e.g. the ``_ready`` in ``func _ready():``).
+El color del texto del resaltador de sintaxis GDScript para las definiciones de función (p. ej., el ``_ready`` en ``func _ready():``).
 
 .. rst-class:: classref-item-separator
 
@@ -6237,7 +6237,7 @@ The GDScript syntax highlighter text color for function definitions (e.g. the ``
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/global_function_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/global_function_color>`
 
-The GDScript syntax highlighter text color for global functions, such as the ones in :ref:`@GlobalScope<class_@GlobalScope>` (e.g. ``preload()``).
+El color del texto del resaltador de sintaxis GDScript para las funciones globales, como las de :ref:`@GlobalScope<class_@GlobalScope>` (p. ej., ``preload()``).
 
 .. rst-class:: classref-item-separator
 
@@ -6261,7 +6261,7 @@ The GDScript syntax highlighter text color for :ref:`NodePath<class_NodePath>` l
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/node_reference_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/node_reference_color>`
 
-The GDScript syntax highlighter text color for node reference literals (e.g. ``$"Sprite"`` and ``%"Sprite"``]).
+El color del texto del resaltador de sintaxis GDScript para los literales de referencia a nodos (p. ej. ``$"Sprite"`` y ``%"Sprite"``].
 
 .. rst-class:: classref-item-separator
 
@@ -6273,7 +6273,7 @@ The GDScript syntax highlighter text color for node reference literals (e.g. ``$
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/gdscript/string_name_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/gdscript/string_name_color>`
 
-The GDScript syntax highlighter text color for :ref:`StringName<class_StringName>` literals (e.g. ``&"example"``).
+El color del texto del resaltador de sintaxis GDScript para los literales de :ref:`StringName<class_StringName>` (p. ej. ``&"example"``).
 
 .. rst-class:: classref-item-separator
 
@@ -6285,7 +6285,7 @@ The GDScript syntax highlighter text color for :ref:`StringName<class_StringName
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/keyword_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/keyword_color>`
 
-The script editor's non-control flow keyword color (used for keywords like ``var``, ``func``, ``extends``, ...).
+El color de las palabras clave que no son de flujo de control del editor de scripts (utilizado para palabras clave como ``var``, ``func``, ``extends``, ...).
 
 .. rst-class:: classref-item-separator
 
@@ -6297,7 +6297,7 @@ The script editor's non-control flow keyword color (used for keywords like ``var
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/line_length_guideline_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/line_length_guideline_color>`
 
-The script editor's color for the line length guideline. The "hard" line length guideline will be drawn with this color, whereas the "soft" line length guideline will be drawn with half of its opacity.
+El color del editor de scripts para la guía de longitud de línea. La guía de longitud de línea "dura" se dibujará con este color, mientras que la guía de longitud de línea "suave" se dibujará con la mitad de su opacidad.
 
 .. rst-class:: classref-item-separator
 
@@ -6309,7 +6309,7 @@ The script editor's color for the line length guideline. The "hard" line length 
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/line_number_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/line_number_color>`
 
-The script editor's color for line numbers. See also :ref:`text_editor/theme/highlighting/safe_line_number_color<class_EditorSettings_property_text_editor/theme/highlighting/safe_line_number_color>`.
+El color del editor de scripts para los números de línea. Véase también :ref:`text_editor/theme/highlighting/safe_line_number_color<class_EditorSettings_property_text_editor/theme/highlighting/safe_line_number_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6321,7 +6321,7 @@ The script editor's color for line numbers. See also :ref:`text_editor/theme/hig
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/mark_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/mark_color>`
 
-The script editor's background color for lines with errors. This should be set to a translucent color so that it can display on top of other line color modifiers such as :ref:`text_editor/theme/highlighting/current_line_color<class_EditorSettings_property_text_editor/theme/highlighting/current_line_color>`.
+El color de fondo del editor de scripts para las líneas con errores. Debe establecerse en un color translúcido para que pueda mostrarse sobre otros modificadores del color de la línea, como :ref:`text_editor/theme/highlighting/current_line_color<class_EditorSettings_property_text_editor/theme/highlighting/current_line_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6333,9 +6333,9 @@ The script editor's background color for lines with errors. This should be set t
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/member_variable_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/member_variable_color>`
 
-The script editor's color for member variables on objects (e.g. ``self.some_property``).
+El color del editor de scripts para las variables miembro de los objetos (p. ej., ``self.alguna_propiedad``).
 
-\ **Note:** This color is not used for local variable declaration and access.
+\ **Nota:** Este color no se utiliza para la declaración y el acceso a variables locales.
 
 .. rst-class:: classref-item-separator
 
@@ -6347,7 +6347,7 @@ The script editor's color for member variables on objects (e.g. ``self.some_prop
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/number_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/number_color>`
 
-The script editor's color for numbers (integer and floating-point).
+El color del editor de scripts para los números (enteros y de punto flotante).
 
 .. rst-class:: classref-item-separator
 
@@ -6359,9 +6359,9 @@ The script editor's color for numbers (integer and floating-point).
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/safe_line_number_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/safe_line_number_color>`
 
-The script editor's color for type-safe line numbers. See also :ref:`text_editor/theme/highlighting/line_number_color<class_EditorSettings_property_text_editor/theme/highlighting/line_number_color>`.
+El color del editor de scripts para los números de línea type-safe. Véase también :ref:`text_editor/theme/highlighting/line_number_color<class_EditorSettings_property_text_editor/theme/highlighting/line_number_color>`.
 
-\ **Note:** Only displayed if :ref:`text_editor/appearance/gutters/highlight_type_safe_lines<class_EditorSettings_property_text_editor/appearance/gutters/highlight_type_safe_lines>` is ``true``.
+\ **Nota:** Solo se muestra si :ref:`text_editor/appearance/gutters/highlight_type_safe_lines<class_EditorSettings_property_text_editor/appearance/gutters/highlight_type_safe_lines>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -6385,7 +6385,7 @@ El color del editor de scripts para el borde de los resultados de búsqueda. Est
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/search_result_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/search_result_color>`
 
-The script editor's background color for search results.
+El color de fondo del editor de scripts para los resultados de búsqueda.
 
 .. rst-class:: classref-item-separator
 
@@ -6397,7 +6397,7 @@ The script editor's background color for search results.
 
 :ref:`Color<class_Color>` **text_editor/theme/highlighting/selection_color** :ref:`🔗<class_EditorSettings_property_text_editor/theme/highlighting/selection_color>`
 
-The script editor's background color for the currently selected text.
+El color de fondo del editor de scripts para el texto seleccionado actualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -6586,7 +6586,7 @@ Adds a custom property info to a property. The dictionary must contain:
 
 :ref:`bool<class_bool>` **check_changed_settings_in_group**\ (\ setting_prefix\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorSettings_method_check_changed_settings_in_group>`
 
-Checks if any settings with the prefix ``setting_prefix`` exist in the set of changed settings. See also :ref:`get_changed_settings()<class_EditorSettings_method_get_changed_settings>`.
+Comprueba si existe algún ajuste con el prefijo ``setting_prefix`` en el conjunto de ajustes modificados. Véase también :ref:`get_changed_settings()<class_EditorSettings_method_get_changed_settings>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6598,7 +6598,7 @@ Checks if any settings with the prefix ``setting_prefix`` exist in the set of ch
 
 |void| **erase**\ (\ property\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorSettings_method_erase>`
 
-Erases the setting whose name is specified by ``property``.
+Borra el ajuste cuyo nombre se especifica en ``property``.
 
 .. rst-class:: classref-item-separator
 
@@ -6610,7 +6610,7 @@ Erases the setting whose name is specified by ``property``.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_changed_settings**\ (\ ) |const| :ref:`🔗<class_EditorSettings_method_get_changed_settings>`
 
-Gets an array of the settings which have been changed since the last save. Note that internally ``changed_settings`` is cleared after a successful save, so generally the most appropriate place to use this method is when processing :ref:`NOTIFICATION_EDITOR_SETTINGS_CHANGED<class_EditorSettings_constant_NOTIFICATION_EDITOR_SETTINGS_CHANGED>`.
+Obtiene un array de los ajustes que se han modificado desde el último guardado. Ten en cuenta que internamente ``changed_settings`` se borra después de un guardado exitoso, por lo que generalmente el lugar más apropiado para usar este método es al procesar :ref:`NOTIFICATION_EDITOR_SETTINGS_CHANGED<class_EditorSettings_constant_NOTIFICATION_EDITOR_SETTINGS_CHANGED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6634,7 +6634,7 @@ Devuelve la lista de archivos y directorios favoritos para este proyecto.
 
 :ref:`Variant<class_Variant>` **get_project_metadata**\ (\ section\: :ref:`String<class_String>`, key\: :ref:`String<class_String>`, default\: :ref:`Variant<class_Variant>` = null\ ) |const| :ref:`🔗<class_EditorSettings_method_get_project_metadata>`
 
-Returns project-specific metadata for the ``section`` and ``key`` specified. If the metadata doesn't exist, ``default`` will be returned instead. See also :ref:`set_project_metadata()<class_EditorSettings_method_set_project_metadata>`.
+Devuelve los metadatos específicos del proyecto para la ``section`` y la ``key`` especificadas. Si los metadatos no existen, se devolverá ``default`` en su lugar. Véase también :ref:`set_project_metadata()<class_EditorSettings_method_set_project_metadata>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6658,7 +6658,7 @@ Devuelve la lista de carpetas visitadas recientemente en el diálogo de archivos
 
 :ref:`Variant<class_Variant>` **get_setting**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorSettings_method_get_setting>`
 
-Returns the value of the setting specified by ``name``. This is equivalent to using :ref:`Object.get()<class_Object_method_get>` on the EditorSettings instance.
+Devuelve el valor del ajuste especificado por ``name``. Esto es equivalente a usar :ref:`Object.get()<class_Object_method_get>` en la instancia EditorSettings.
 
 .. rst-class:: classref-item-separator
 
@@ -6670,7 +6670,7 @@ Returns the value of the setting specified by ``name``. This is equivalent to us
 
 :ref:`bool<class_bool>` **has_setting**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorSettings_method_has_setting>`
 
-Returns ``true`` if the setting specified by ``name`` exists, ``false`` otherwise.
+Devuelve ``true`` si el ajuste especificado por ``name`` existe, ``false`` en caso contrario.
 
 .. rst-class:: classref-item-separator
 
@@ -6682,7 +6682,7 @@ Returns ``true`` if the setting specified by ``name`` exists, ``false`` otherwis
 
 |void| **mark_setting_changed**\ (\ setting\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorSettings_method_mark_setting_changed>`
 
-Marks the passed editor setting as being changed, see :ref:`get_changed_settings()<class_EditorSettings_method_get_changed_settings>`. Only settings which exist (see :ref:`has_setting()<class_EditorSettings_method_has_setting>`) will be accepted.
+Marca el ajuste del editor pasado como modificado, véase :ref:`get_changed_settings()<class_EditorSettings_method_get_changed_settings>`. Solo se aceptarán los ajustes que existan (véase :ref:`has_setting()<class_EditorSettings_method_has_setting>`).
 
 .. rst-class:: classref-item-separator
 
@@ -6694,7 +6694,7 @@ Marks the passed editor setting as being changed, see :ref:`get_changed_settings
 
 |void| **set_builtin_action_override**\ (\ name\: :ref:`String<class_String>`, actions_list\: :ref:`Array<class_Array>`\[:ref:`InputEvent<class_InputEvent>`\]\ ) :ref:`🔗<class_EditorSettings_method_set_builtin_action_override>`
 
-Overrides the built-in editor action ``name`` with the input actions defined in ``actions_list``.
+Reemplaza la acción del editor incorporada ``name`` con las acciones de entrada definidas en ``actions_list``.
 
 .. rst-class:: classref-item-separator
 
@@ -6730,7 +6730,7 @@ Sets the initial value of the setting specified by ``name`` to ``value``. This i
 
 |void| **set_project_metadata**\ (\ section\: :ref:`String<class_String>`, key\: :ref:`String<class_String>`, data\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_EditorSettings_method_set_project_metadata>`
 
-Sets project-specific metadata with the ``section``, ``key`` and ``data`` specified. This metadata is stored outside the project folder and therefore won't be checked into version control. See also :ref:`get_project_metadata()<class_EditorSettings_method_get_project_metadata>`.
+Establece metadatos específicos del proyecto con ``section``, ``key`` y ``data`` especificados. Estos metadatos se almacenan fuera de la carpeta del proyecto y, por lo tanto, no se incluirán en el control de versiones. Véase también :ref:`get_project_metadata()<class_EditorSettings_method_get_project_metadata>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6754,7 +6754,7 @@ Establece la lista de carpetas visitadas recientemente en el diálogo de archivo
 
 |void| **set_setting**\ (\ name\: :ref:`String<class_String>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_EditorSettings_method_set_setting>`
 
-Sets the ``value`` of the setting specified by ``name``. This is equivalent to using :ref:`Object.set()<class_Object_method_set>` on the EditorSettings instance.
+Establece el ``value`` del ajuste especificado por ``name``. Esto es equivalente a usar :ref:`Object.set()<class_Object_method_set>` en la instancia EditorSettings.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -89,7 +89,7 @@ La :ref:`MultiMesh<class_MultiMesh>` que será dibujada por la **MultiMeshInstan
 - |void| **set_texture**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ )
 
-The :ref:`Texture2D<class_Texture2D>` that will be used if using the default :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`. Can be accessed as ``TEXTURE`` in CanvasItem shader.
+La :ref:`Texture2D<class_Texture2D>` que se utilizará si se usa el :ref:`CanvasItemMaterial<class_CanvasItemMaterial>` por defecto. Se puede acceder como ``TEXTURE`` en el shader CanvasItem.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

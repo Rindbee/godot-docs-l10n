@@ -10,7 +10,7 @@ InputEventJoypadButton
 
 **Hérite de :** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a gamepad button being pressed or released.
+Représente un bouton de manette qui est appuyé ou relâché.
 
 .. rst-class:: classref-introduction-group
 

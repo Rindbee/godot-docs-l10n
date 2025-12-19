@@ -588,7 +588,7 @@ Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROFILE_S
 
 UUID del perfil de aprovisionamiento. Si se deja vacío, Xcode descargará o creará un perfil de aprovisionamiento automáticamente. Véase `Editar, descargar o eliminar perfiles de aprovisionamiento <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
 
-Se puede anular con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_DEBUG``.
+Se puede sobrescribir con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_DEBUG``.
 
 .. rst-class:: classref-item-separator
 
@@ -602,7 +602,7 @@ Se puede anular con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_
 
 UUID del perfil de aprovisionamiento. Si se deja vacío, Xcode descargará o creará un perfil de aprovisionamiento automáticamente. Véase `Editar, descargar o eliminar perfiles de aprovisionamiento <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
 
-Se puede anular con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_RELEASE``.
+Se puede sobrescribir con la variable de entorno `` GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_RELEASE``.
 
 .. rst-class:: classref-item-separator
 
@@ -654,7 +654,7 @@ Machine-readable application version in the ``major.minor.patch`` format. Can on
 
 :ref:`bool<class_bool>` **architectures/arm64** :ref:`🔗<class_EditorExportPlatformVisionOS_property_architectures/arm64>`
 
-If ``true``, ``arm64`` binaries are included into exported project.
+Si es ``true``, los binarios ``arm64`` se incluirán en el proyecto exportado.
 
 .. rst-class:: classref-item-separator
 
@@ -1181,7 +1181,7 @@ Las razones por las que tu aplicación recopila información crediticia. Véase 
 
 :ref:`bool<class_bool>` **privacy/collected_data/credit_info/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/credit_info/linked_to_user>`
 
-Indicates whether your app links credit information to the user's identity.
+Indica si tu aplicación vincula información de crédito a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1193,7 +1193,7 @@ Indicates whether your app links credit information to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/credit_info/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/credit_info/used_for_tracking>`
 
-Indicates whether your app uses credit information for tracking.
+Indica si tu aplicación utiliza información de crédito para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1205,7 +1205,7 @@ Indicates whether your app uses credit information for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/customer_support/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/customer_support/collected>`
 
-Indicates whether your app collects customer support data.
+Indica si tu aplicación recopila datos de atención al cliente.
 
 .. rst-class:: classref-item-separator
 
@@ -1229,7 +1229,7 @@ Las razones por las que tu aplicación recopila datos de atención al cliente. V
 
 :ref:`bool<class_bool>` **privacy/collected_data/customer_support/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/customer_support/linked_to_user>`
 
-Indicates whether your app links customer support data to the user's identity.
+Indica si tu aplicación vincula los datos de atención al cliente a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1241,7 +1241,7 @@ Indicates whether your app links customer support data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/customer_support/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/customer_support/used_for_tracking>`
 
-Indicates whether your app uses customer support data for tracking.
+Indica si tu aplicación utiliza datos de atención al cliente para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1253,7 +1253,7 @@ Indicates whether your app uses customer support data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/device_id/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/device_id/collected>`
 
-Indicates whether your app collects device IDs.
+Indica si tu aplicación recopila identificadores de dispositivo.
 
 .. rst-class:: classref-item-separator
 
@@ -1277,7 +1277,7 @@ Las razones por las que tu aplicación recopila los ID de dispositivo. Véase `D
 
 :ref:`bool<class_bool>` **privacy/collected_data/device_id/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/device_id/linked_to_user>`
 
-Indicates whether your app links device IDs to the user's identity.
+Indica si tu aplicación vincula los identificadores de dispositivo a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1289,7 +1289,7 @@ Indicates whether your app links device IDs to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/device_id/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/device_id/used_for_tracking>`
 
-Indicates whether your app uses device IDs for tracking.
+Indica si tu aplicación utiliza los identificadores de dispositivo para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1301,7 +1301,7 @@ Indicates whether your app uses device IDs for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/email_address/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/email_address/collected>`
 
-Indicates whether your app collects email address.
+Indica si tu aplicación recopila direcciones de correo electrónico.
 
 .. rst-class:: classref-item-separator
 
@@ -1325,7 +1325,7 @@ Las razones por las que tu aplicación recopila direcciones de correo electróni
 
 :ref:`bool<class_bool>` **privacy/collected_data/email_address/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/email_address/linked_to_user>`
 
-Indicates whether your app links email address to the user's identity.
+Indica si tu aplicación vincula las direcciones de correo electrónico a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1337,7 +1337,7 @@ Indicates whether your app links email address to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/email_address/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/email_address/used_for_tracking>`
 
-Indicates whether your app uses email address for tracking.
+Indica si tu aplicación utiliza las direcciones de correo electrónico para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1373,7 +1373,7 @@ Las razones por las que tu aplicación recopila correos electrónicos o mensajes
 
 :ref:`bool<class_bool>` **privacy/collected_data/emails_or_text_messages/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/emails_or_text_messages/linked_to_user>`
 
-Indicates whether your app links emails or text messages to the user's identity.
+Indica si tu aplicación vincula correos electrónicos o mensajes de texto a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1385,7 +1385,7 @@ Indicates whether your app links emails or text messages to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/emails_or_text_messages/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/emails_or_text_messages/used_for_tracking>`
 
-Indicates whether your app uses emails or text messages for tracking.
+Indica si tu aplicación utiliza correos electrónicos o mensajes de texto para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1397,7 +1397,7 @@ Indicates whether your app uses emails or text messages for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/environment_scanning/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/environment_scanning/collected>`
 
-Indicates whether your app collects environment scanning data.
+Indica si tu aplicación recopila datos de escaneo del entorno.
 
 .. rst-class:: classref-item-separator
 
@@ -1421,7 +1421,7 @@ Las razones por las que tu aplicación recopila datos de análisis del entorno. 
 
 :ref:`bool<class_bool>` **privacy/collected_data/environment_scanning/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/environment_scanning/linked_to_user>`
 
-Indicates whether your app links environment scanning data to the user's identity.
+Indica si tu aplicación vincula los datos de escaneo del entorno a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1433,7 +1433,7 @@ Indicates whether your app links environment scanning data to the user's identit
 
 :ref:`bool<class_bool>` **privacy/collected_data/environment_scanning/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/environment_scanning/used_for_tracking>`
 
-Indicates whether your app uses environment scanning data for tracking.
+Indica si tu aplicación utiliza los datos de escaneo del entorno para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1481,7 +1481,7 @@ Indica si tu aplicación vincula los datos de actividad física y ejercicio a la
 
 :ref:`bool<class_bool>` **privacy/collected_data/fitness/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/fitness/used_for_tracking>`
 
-Indicates whether your app uses fitness and exercise data for tracking.
+Indica si tu aplicación utiliza datos de ejercicio y forma física para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1493,7 +1493,7 @@ Indicates whether your app uses fitness and exercise data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/gameplay_content/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/gameplay_content/collected>`
 
-Indicates whether your app collects gameplay content.
+Indica si tu aplicación recopila contenido de juego.
 
 .. rst-class:: classref-item-separator
 
@@ -1517,7 +1517,7 @@ Las razones por las que tu aplicación recopila contenido de juego. Consulta `De
 
 :ref:`bool<class_bool>` **privacy/collected_data/gameplay_content/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/gameplay_content/linked_to_user>`
 
-Indicates whether your app links gameplay content to the user's identity.
+Indica si tu aplicación vincula el contenido del juego a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1541,7 +1541,7 @@ Indica si tu aplicación utiliza contenido de juego para seguimiento.
 
 :ref:`bool<class_bool>` **privacy/collected_data/hands/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/hands/collected>`
 
-Indicates whether your app collects user's hand structure and hand movements.
+Indica si tu aplicación recopila la estructura de la mano y los movimientos de la mano del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1565,7 +1565,7 @@ Las razones por las que tu aplicación recopila la estructura y los movimientos 
 
 :ref:`bool<class_bool>` **privacy/collected_data/hands/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/hands/linked_to_user>`
 
-Indicates whether your app links user's hand structure and hand movements to the user's identity.
+Indica si tu aplicación vincula la estructura de la mano y los movimientos de la mano del usuario a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1577,7 +1577,7 @@ Indicates whether your app links user's hand structure and hand movements to the
 
 :ref:`bool<class_bool>` **privacy/collected_data/hands/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/hands/used_for_tracking>`
 
-Indicates whether your app uses user's hand structure and hand movements for tracking.
+Indica si tu aplicación utiliza la estructura de la mano y los movimientos de la mano del usuario para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1589,7 +1589,7 @@ Indicates whether your app uses user's hand structure and hand movements for tra
 
 :ref:`bool<class_bool>` **privacy/collected_data/head/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/head/collected>`
 
-Indicates whether your app collects user's head movement.
+Indica si tu aplicación recopila el movimiento de la cabeza del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1613,7 +1613,7 @@ Las razones por las que tu aplicación recopila el movimiento de la cabeza del u
 
 :ref:`bool<class_bool>` **privacy/collected_data/head/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/head/linked_to_user>`
 
-Indicates whether your app links user's head movement to the user's identity.
+Indica si tu aplicación vincula el movimiento de la cabeza del usuario a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1625,7 +1625,7 @@ Indicates whether your app links user's head movement to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/head/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/head/used_for_tracking>`
 
-Indicates whether your app uses user's head movement for tracking.
+Indica si tu aplicación utiliza el movimiento de la cabeza del usuario para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1661,7 +1661,7 @@ Las razones por las que tu app recopila datos médicos y de salud. Consulta `Des
 
 :ref:`bool<class_bool>` **privacy/collected_data/health/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/health/linked_to_user>`
 
-Indicates whether your app links health and medical data to the user's identity.
+Indica si tu aplicación vincula los datos médicos y de salud a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1673,7 +1673,7 @@ Indicates whether your app links health and medical data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/health/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/health/used_for_tracking>`
 
-Indicates whether your app uses health and medical data for tracking.
+Indica si tu aplicación utiliza datos médicos y de salud para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1685,7 +1685,7 @@ Indicates whether your app uses health and medical data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/name/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/name/collected>`
 
-Indicates whether your app collects user's name.
+Indica si tu aplicación recopila el nombre del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1709,7 +1709,7 @@ Las razones por las que tu aplicación recopila el nombre del usuario. Véase `D
 
 :ref:`bool<class_bool>` **privacy/collected_data/name/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/name/linked_to_user>`
 
-Indicates whether your app links user's name to the user's identity.
+Indica si tu aplicación vincula el nombre del usuario a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1721,7 +1721,7 @@ Indicates whether your app links user's name to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/name/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/name/used_for_tracking>`
 
-Indicates whether your app uses user's name for tracking.
+Indica si tu aplicación utiliza el nombre del usuario para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1757,7 +1757,7 @@ Las razones por las que tu aplicación recopila cualquier otra información de c
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_contact_info/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_contact_info/linked_to_user>`
 
-Indicates whether your app links any other contact information to the user's identity.
+Indica si tu aplicación vincula cualquier otra información de contacto a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1769,7 +1769,7 @@ Indicates whether your app links any other contact information to the user's ide
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_contact_info/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_contact_info/used_for_tracking>`
 
-Indicates whether your app uses any other contact information for tracking.
+Indica si tu aplicación utiliza cualquier otra información de contacto para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1781,7 +1781,7 @@ Indicates whether your app uses any other contact information for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_data_types/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_data_types/collected>`
 
-Indicates whether your app collects any other data.
+Indica si tu aplicación recopila cualquier otro dato.
 
 .. rst-class:: classref-item-separator
 
@@ -1805,7 +1805,7 @@ Las razones por las que tu aplicación recopila otros datos. Consulta `Descripci
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_data_types/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_data_types/linked_to_user>`
 
-Indicates whether your app links any other data to the user's identity.
+Indica si tu aplicación vincula cualquier otro dato a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1817,7 +1817,7 @@ Indicates whether your app links any other data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_data_types/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_data_types/used_for_tracking>`
 
-Indicates whether your app uses any other data for tracking.
+Indica si tu aplicación utiliza cualquier otro dato para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1829,7 +1829,7 @@ Indicates whether your app uses any other data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_diagnostic_data/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_diagnostic_data/collected>`
 
-Indicates whether your app collects any other diagnostic data.
+Indica si tu aplicación recopila cualquier otro dato de diagnóstico.
 
 .. rst-class:: classref-item-separator
 
@@ -1853,7 +1853,7 @@ Las razones por las que tu aplicación recopila otros datos de diagnóstico. Vé
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_diagnostic_data/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_diagnostic_data/linked_to_user>`
 
-Indicates whether your app links any other diagnostic data to the user's identity.
+Indica si tu aplicación vincula cualquier otro dato de diagnóstico a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1865,7 +1865,7 @@ Indicates whether your app links any other diagnostic data to the user's identit
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_diagnostic_data/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_diagnostic_data/used_for_tracking>`
 
-Indicates whether your app uses any other diagnostic data for tracking.
+Indica si tu aplicación utiliza cualquier otro dato de diagnóstico para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1877,7 +1877,7 @@ Indicates whether your app uses any other diagnostic data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_financial_info/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_financial_info/collected>`
 
-Indicates whether your app collects any other financial information.
+Indica si tu aplicación recopila cualquier otra información financiera.
 
 .. rst-class:: classref-item-separator
 
@@ -1901,7 +1901,7 @@ Las razones por las que tu aplicación recopila cualquier otra información fina
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_financial_info/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_financial_info/linked_to_user>`
 
-Indicates whether your app links any other financial information to the user's identity.
+Indica si tu aplicación vincula cualquier otra información financiera a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1913,7 +1913,7 @@ Indicates whether your app links any other financial information to the user's i
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_financial_info/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_financial_info/used_for_tracking>`
 
-Indicates whether your app uses any other financial information for tracking.
+Indica si tu aplicación utiliza cualquier otra información financiera para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1925,7 +1925,7 @@ Indicates whether your app uses any other financial information for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_usage_data/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_usage_data/collected>`
 
-Indicates whether your app collects any other usage data.
+Indica si tu aplicación recopila cualquier otro dato de uso.
 
 .. rst-class:: classref-item-separator
 
@@ -1949,7 +1949,7 @@ Las razones por las que tu aplicación recopila otros datos de uso. Consulta `De
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_usage_data/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_usage_data/linked_to_user>`
 
-Indicates whether your app links any other usage data to the user's identity.
+Indica si tu aplicación vincula cualquier otro dato de uso a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1961,7 +1961,7 @@ Indicates whether your app links any other usage data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_usage_data/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_usage_data/used_for_tracking>`
 
-Indicates whether your app uses any other usage data for tracking.
+Indica si tu aplicación utiliza cualquier otro dato de uso para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1973,7 +1973,7 @@ Indicates whether your app uses any other usage data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_user_content/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_user_content/collected>`
 
-Indicates whether your app collects any other user generated content.
+Indica si tu aplicación recopila cualquier otro contenido generado por el usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1997,7 +1997,7 @@ Las razones por las que tu aplicación recopila cualquier otro contenido generad
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_user_content/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_user_content/linked_to_user>`
 
-Indicates whether your app links any other user generated content to the user's identity.
+Indica si tu aplicación vincula cualquier otro contenido generado por el usuario a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2009,7 +2009,7 @@ Indicates whether your app links any other user generated content to the user's 
 
 :ref:`bool<class_bool>` **privacy/collected_data/other_user_content/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/other_user_content/used_for_tracking>`
 
-Indicates whether your app uses any other user generated content for tracking.
+Indica si tu aplicación utiliza cualquier otro contenido generado por el usuario para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2021,7 +2021,7 @@ Indicates whether your app uses any other user generated content for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/payment_info/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/payment_info/collected>`
 
-Indicates whether your app collects payment information.
+Indica si tu aplicación recopila información de pago.
 
 .. rst-class:: classref-item-separator
 
@@ -2057,7 +2057,7 @@ Indica si tu aplicación vincula la información de pago a la identidad del usua
 
 :ref:`bool<class_bool>` **privacy/collected_data/payment_info/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/payment_info/used_for_tracking>`
 
-Indicates whether your app uses payment information for tracking.
+Indica si tu aplicación utiliza información de pago para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2153,7 +2153,7 @@ Indica si tu aplicación vincula el número de teléfono a la identidad del usua
 
 :ref:`bool<class_bool>` **privacy/collected_data/phone_number/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/phone_number/used_for_tracking>`
 
-Indicates whether your app uses phone number for tracking.
+Indica si tu aplicación utiliza el número de teléfono para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2165,7 +2165,7 @@ Indicates whether your app uses phone number for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/photos_or_videos/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/photos_or_videos/collected>`
 
-Indicates whether your app collects photos or videos.
+Indica si tu aplicación recopila fotos o vídeos.
 
 .. rst-class:: classref-item-separator
 
@@ -2189,7 +2189,7 @@ Las razones por las que tu app recopila fotos o vídeos. Consulta `Descripción 
 
 :ref:`bool<class_bool>` **privacy/collected_data/photos_or_videos/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/photos_or_videos/linked_to_user>`
 
-Indicates whether your app links photos or videos to the user's identity.
+Indica si tu aplicación vincula fotos o vídeos a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2201,7 +2201,7 @@ Indicates whether your app links photos or videos to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/photos_or_videos/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/photos_or_videos/used_for_tracking>`
 
-Indicates whether your app uses photos or videos for tracking.
+Indica si tu aplicación utiliza fotos o vídeos para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2213,7 +2213,7 @@ Indicates whether your app uses photos or videos for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/physical_address/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/physical_address/collected>`
 
-Indicates whether your app collects physical address.
+Indica si tu aplicación recopila direcciones físicas.
 
 .. rst-class:: classref-item-separator
 
@@ -2237,7 +2237,7 @@ Las razones por las que tu aplicación recopila la dirección física. Consulta 
 
 :ref:`bool<class_bool>` **privacy/collected_data/physical_address/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/physical_address/linked_to_user>`
 
-Indicates whether your app links physical address to the user's identity.
+Indica si tu aplicación vincula las direcciones físicas a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2249,7 +2249,7 @@ Indicates whether your app links physical address to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/physical_address/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/physical_address/used_for_tracking>`
 
-Indicates whether your app uses physical address for tracking.
+Indica si tu aplicación utiliza la dirección física para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2261,7 +2261,7 @@ Indicates whether your app uses physical address for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/precise_location/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/precise_location/collected>`
 
-Indicates whether your app collects precise location data.
+Indica si tu aplicación recopila datos de ubicación precisos.
 
 .. rst-class:: classref-item-separator
 
@@ -2285,7 +2285,7 @@ Las razones por las que tu aplicación recopila datos de ubicación precisos. V�
 
 :ref:`bool<class_bool>` **privacy/collected_data/precise_location/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/precise_location/linked_to_user>`
 
-Indicates whether your app links precise location data to the user's identity.
+Indica si tu aplicación vincula los datos de ubicación precisos a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2297,7 +2297,7 @@ Indicates whether your app links precise location data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/precise_location/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/precise_location/used_for_tracking>`
 
-Indicates whether your app uses precise location data for tracking.
+Indica si tu aplicación utiliza datos de ubicación precisos para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2309,7 +2309,7 @@ Indicates whether your app uses precise location data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/product_interaction/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/product_interaction/collected>`
 
-Indicates whether your app collects product interaction data.
+Indica si tu aplicación recopila datos de interacción del producto.
 
 .. rst-class:: classref-item-separator
 
@@ -2321,7 +2321,7 @@ Indicates whether your app collects product interaction data.
 
 :ref:`int<class_int>` **privacy/collected_data/product_interaction/collection_purposes** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/product_interaction/collection_purposes>`
 
-The reasons your app collects product interaction data. See `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
+Las razones por las que tu aplicación recopila datos de interacción del producto. Véase `Descripción del uso de datos en los manifiestos de privacidad <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2333,7 +2333,7 @@ The reasons your app collects product interaction data. See `Describing data use
 
 :ref:`bool<class_bool>` **privacy/collected_data/product_interaction/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/product_interaction/linked_to_user>`
 
-Indicates whether your app links product interaction data to the user's identity.
+Indica si tu aplicación vincula los datos de interacción del producto a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2357,7 +2357,7 @@ Indica si tu aplicación utiliza datos de interacción del producto para realiza
 
 :ref:`bool<class_bool>` **privacy/collected_data/purchase_history/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/purchase_history/collected>`
 
-Indicates whether your app collects purchase history.
+Indica si tu aplicación recopila el historial de compras.
 
 .. rst-class:: classref-item-separator
 
@@ -2381,7 +2381,7 @@ Las razones por las que tu app recopila el historial de compras. Consulta `Descr
 
 :ref:`bool<class_bool>` **privacy/collected_data/purchase_history/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/purchase_history/linked_to_user>`
 
-Indicates whether your app links purchase history to the user's identity.
+Indica si tu aplicación vincula el historial de compras a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2393,7 +2393,7 @@ Indicates whether your app links purchase history to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/purchase_history/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/purchase_history/used_for_tracking>`
 
-Indicates whether your app uses purchase history for tracking.
+Indica si tu aplicación utiliza el historial de compras para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2429,7 +2429,7 @@ Las razones por las que tu aplicación recopila el historial de búsqueda. Véas
 
 :ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/search_hhistory/linked_to_user>`
 
-Indicates whether your app links search history to the user's identity.
+Indica si tu aplicación vincula el historial de búsqueda a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2441,7 +2441,7 @@ Indicates whether your app links search history to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/used_for_tracking** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/search_hhistory/used_for_tracking>`
 
-Indicates whether your app uses search history for tracking.
+Indica si tu aplicación utiliza el historial de búsqueda para el seguimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2477,7 +2477,7 @@ Las razones por las que tu aplicación recopila información confidencial del us
 
 :ref:`bool<class_bool>` **privacy/collected_data/sensitive_info/linked_to_user** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/sensitive_info/linked_to_user>`
 
-Indicates whether your app links sensitive user information to the user's identity.
+Indica si tu aplicación vincula información confidencial del usuario a la identidad del usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2501,7 +2501,7 @@ Indica si tu aplicación utiliza información confidencial del usuario para real
 
 :ref:`bool<class_bool>` **privacy/collected_data/user_id/collected** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/collected_data/user_id/collected>`
 
-Indicates whether your app collects user IDs.
+Indica si tu aplicación recopila los ID de usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -2585,7 +2585,7 @@ Un mensaje que se muestra al solicitar acceso al micrófono del dispositivo (en 
 
 :ref:`Dictionary<class_Dictionary>` **privacy/microphone_usage_description_localized** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/microphone_usage_description_localized>`
 
-A message displayed when requesting access to the device's microphone (localized).
+Un mensaje que se muestra cuando se solicita acceso al micrófono del dispositivo (localizado).
 
 .. rst-class:: classref-item-separator
 
@@ -2597,7 +2597,7 @@ A message displayed when requesting access to the device's microphone (localized
 
 :ref:`String<class_String>` **privacy/photolibrary_usage_description** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/photolibrary_usage_description>`
 
-A message displayed when requesting access to the user's photo library (in English).
+Un mensaje que se muestra cuando se solicita acceso a la biblioteca de fotos del usuario (en inglés).
 
 .. rst-class:: classref-item-separator
 
@@ -2609,7 +2609,7 @@ A message displayed when requesting access to the user's photo library (in Engli
 
 :ref:`Dictionary<class_Dictionary>` **privacy/photolibrary_usage_description_localized** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/photolibrary_usage_description_localized>`
 
-A message displayed when requesting access to the user's photo library (localized).
+Un mensaje que se muestra cuando se solicita acceso a la biblioteca de fotos del usuario (localizado).
 
 .. rst-class:: classref-item-separator
 
@@ -2633,7 +2633,7 @@ Las razones por las que tu aplicación usa la API de tiempo de arranque del sist
 
 :ref:`PackedStringArray<class_PackedStringArray>` **privacy/tracking_domains** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/tracking_domains>`
 
-The list of internet domains your app connects to that engage in tracking. See `Privacy manifest files <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files>`__.
+La lista de dominios de Internet a los que se conecta tu aplicación y que se dedican al seguimiento. Véase `Archivos de manifiesto de privacidad <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files>`__.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -2647,7 +2647,7 @@ The list of internet domains your app connects to that engage in tracking. See `
 
 :ref:`bool<class_bool>` **privacy/tracking_enabled** :ref:`🔗<class_EditorExportPlatformVisionOS_property_privacy/tracking_enabled>`
 
-Indicates whether your app uses data for tracking. See `Privacy manifest files <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files>`__.
+Indica si tu aplicación utiliza datos para el seguimiento. Véase `Archivos de manifiesto de privacidad <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2683,7 +2683,7 @@ If ``true``, shaders will be compiled and embedded in the application. This opti
 
 :ref:`bool<class_bool>` **user_data/accessible_from_files_app** :ref:`🔗<class_EditorExportPlatformVisionOS_property_user_data/accessible_from_files_app>`
 
-If ``true``, the app "Documents" folder can be accessed via "Files" app. See `LSSupportsOpeningDocumentsInPlace <https://developer.apple.com/documentation/bundleresources/information_property_list/lssupportsopeningdocumentsinplace>`__.
+Si es ``true``, se puede acceder a la carpeta "Documentos" de la aplicación a través de la aplicación "Archivos". Véase `LSSupportsOpeningDocumentsInPlace <https://developer.apple.com/documentation/bundleresources/information_property_list/lssupportsopeningdocumentsinplace>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -2695,7 +2695,7 @@ If ``true``, the app "Documents" folder can be accessed via "Files" app. See `LS
 
 :ref:`bool<class_bool>` **user_data/accessible_from_itunes_sharing** :ref:`🔗<class_EditorExportPlatformVisionOS_property_user_data/accessible_from_itunes_sharing>`
 
-If ``true``, the app "Documents" folder can be accessed via iTunes file sharing. See `UIFileSharingEnabled <https://developer.apple.com/documentation/bundleresources/information_property_list/uifilesharingenabled>`__.
+Si es ``true``, se puede acceder a la carpeta "Documentos" de la aplicación a través del uso compartido de archivos de iTunes. Véase `UIFileSharingEnabled <https://developer.apple.com/documentation/bundleresources/information_property_list/uifilesharingenabled>`__.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

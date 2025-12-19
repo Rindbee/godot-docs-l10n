@@ -14,15 +14,15 @@ Una forma de polilínea 2D utilizada para colisiones físicas.
 Descripción
 ----------------------
 
-A 2D polyline shape, intended for use in physics. Used internally in :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` when it's in :ref:`CollisionPolygon2D.BUILD_SEGMENTS<class_CollisionPolygon2D_constant_BUILD_SEGMENTS>` mode.
+Una forma de polilínea 2D, pensada para su uso en física. Se utiliza internamente en :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` cuando está en modo :ref:`CollisionPolygon2D.BUILD_SEGMENTS<class_CollisionPolygon2D_constant_BUILD_SEGMENTS>`.
 
-Being just a collection of interconnected line segments, **ConcavePolygonShape2D** is the most freely configurable single 2D shape. It can be used to form polygons of any nature, or even shapes that don't enclose an area. However, **ConcavePolygonShape2D** is *hollow* even if the interconnected line segments do enclose an area, which often makes it unsuitable for physics or detection.
+Siendo sólo una colección de segmentos de línea interconectados, **ConcavePolygonShape2D** es la forma 2D individual más libremente configurable. Puede utilizarse para formar polígonos de cualquier naturaleza, o incluso formas que no encierran un área. Sin embargo, **ConcavePolygonShape2D** es *hueco* incluso si los segmentos de línea interconectados encierran un área, lo que a menudo lo hace inadecuado para la física o la detección.
 
-\ **Note:** When used for collision, **ConcavePolygonShape2D** is intended to work with static :ref:`CollisionShape2D<class_CollisionShape2D>` nodes like :ref:`StaticBody2D<class_StaticBody2D>` and will likely not behave well for :ref:`CharacterBody2D<class_CharacterBody2D>`\ s or :ref:`RigidBody2D<class_RigidBody2D>`\ s in a mode other than Static.
+\ **Nota:** Cuando se utiliza para la colisión, **ConcavePolygonShape2D** está pensado para trabajar con nodos :ref:`CollisionShape2D<class_CollisionShape2D>` estáticos como :ref:`StaticBody2D<class_StaticBody2D>` y probablemente no se comportará bien para :ref:`CharacterBody2D<class_CharacterBody2D>`\ s o :ref:`RigidBody2D<class_RigidBody2D>`\ s en un modo que no sea Estático.
 
-\ **Warning:** Physics bodies that are small have a chance to clip through this shape when moving fast. This happens because on one frame, the physics body may be on the "outside" of the shape, and on the next frame it may be "inside" it. **ConcavePolygonShape2D** is hollow, so it won't detect a collision.
+\ **Advertencia:** Los cuerpos físicos que son pequeños tienen la posibilidad de atravesar esta forma cuando se mueven rápido. Esto sucede porque en un fotograma, el cuerpo físico puede estar en el "exterior" de la forma, y en el siguiente fotograma puede estar "dentro" de ella. **ConcavePolygonShape2D** es hueco, por lo que no detectará una colisión.
 
-\ **Performance:** Due to its complexity, **ConcavePolygonShape2D** is the slowest 2D collision shape to check collisions against. Its use should generally be limited to level geometry. If the polyline is closed, :ref:`CollisionPolygon2D<class_CollisionPolygon2D>`'s :ref:`CollisionPolygon2D.BUILD_SOLIDS<class_CollisionPolygon2D_constant_BUILD_SOLIDS>` mode can be used, which decomposes the polygon into convex ones; see :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`'s documentation for instructions.
+\ **Rendimiento:** Debido a su complejidad, **ConcavePolygonShape2D** es la forma de colisión 2D más lenta para comprobar las colisiones. Su uso debe limitarse generalmente a la geometría del nivel. Si la polilínea está cerrada, se puede utilizar el modo :ref:`CollisionPolygon2D.BUILD_SOLIDS<class_CollisionPolygon2D_constant_BUILD_SOLIDS>` de :ref:`CollisionPolygon2D<class_CollisionPolygon2D>`, que descompone el polígono en polígonos convexos; consulta la documentación de :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>` para obtener instrucciones.
 
 .. rst-class:: classref-reftable-group
 
@@ -56,7 +56,7 @@ Descripciones de Propiedades
 - |void| **set_segments**\ (\ value\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ )
 - :ref:`PackedVector2Array<class_PackedVector2Array>` **get_segments**\ (\ )
 
-The array of points that make up the **ConcavePolygonShape2D**'s line segments. The array (of length divisible by two) is naturally divided into pairs (one pair for each segment); each pair consists of the starting point of a segment and the endpoint of a segment.
+El array de puntos que componen los segmentos de línea de **ConcavePolygonShape2D**. El array (de longitud divisible por dos) se divide naturalmente en pares (un par para cada segmento); cada par consta del punto de inicio de un segmento y el punto final de un segmento.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector2Array<class_PackedVector2Array>` for more details.
 

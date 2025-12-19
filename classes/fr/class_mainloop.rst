@@ -7,7 +7,7 @@ MainLoop
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`SceneTree<class_SceneTree>`
+**Hérité par :** :ref:`SceneTree<class_SceneTree>`
 
 La classe abstraite de base pour la boucle principale du jeu.
 

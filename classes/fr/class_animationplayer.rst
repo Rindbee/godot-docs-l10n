@@ -407,7 +407,7 @@ Si :ref:`playback_auto_capture_duration<class_AnimationPlayer_property_playback_
 - |void| **set_auto_capture_ease_type**\ (\ value\: :ref:`EaseType<enum_Tween_EaseType>`\ )
 - :ref:`EaseType<enum_Tween_EaseType>` **get_auto_capture_ease_type**\ (\ )
 
-The ease type of the capture interpolation. See also :ref:`EaseType<enum_Tween_EaseType>`.
+Le type d'accélération de l'interpolation de capture. Voir aussi :ref:`EaseType<enum_Tween_EaseType>`.
 
 .. rst-class:: classref-item-separator
 

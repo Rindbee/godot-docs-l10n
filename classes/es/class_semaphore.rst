@@ -7,22 +7,22 @@ Semaphore
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A synchronization mechanism used to control access to a shared resource by :ref:`Thread<class_Thread>`\ s.
+Un mecanismo de sincronización utilizado para controlar el acceso a un recurso compartido por :ref:`Thread<class_Thread>`\ s.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A synchronization semaphore that can be used to synchronize multiple :ref:`Thread<class_Thread>`\ s. Initialized to zero on creation. For a binary version, see :ref:`Mutex<class_Mutex>`.
+Un semáforo de sincronización que se puede utilizar para sincronizar múltiples :ref:`Thread<class_Thread>`\ s. Inicializado a cero en la creación. Para una versión binaria, consulta :ref:`Mutex<class_Mutex>`.
 
-\ **Warning:** Semaphores must be used carefully to avoid deadlocks.
+\ **Advertencia:** Los semáforos deben utilizarse con cuidado para evitar interbloqueos.
 
-\ **Warning:** To guarantee that the operating system is able to perform proper cleanup (no crashes, no deadlocks), these conditions must be met:
+\ **Advertencia:** Para garantizar que el sistema operativo pueda realizar una limpieza adecuada (sin bloqueos, sin interbloqueos), se deben cumplir estas condiciones:
 
-- When a **Semaphore**'s reference count reaches zero and it is therefore destroyed, no threads must be waiting on it.
+- Cuando el recuento de referencias de un **Semaphore** llega a cero y, por lo tanto, se destruye, ningún hilo debe estar esperando en él.
 
-- When a :ref:`Thread<class_Thread>`'s reference count reaches zero and it is therefore destroyed, it must not be waiting on any semaphore.
+- Cuando el recuento de referencias de un :ref:`Thread<class_Thread>` llega a cero y, por lo tanto, se destruye, no debe estar esperando en ningún semáforo.
 
 .. rst-class:: classref-introduction-group
 
@@ -64,7 +64,7 @@ Descripciones de Métodos
 
 |void| **post**\ (\ count\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_Semaphore_method_post>`
 
-Lowers the **Semaphore**, allowing one thread in, or more if ``count`` is specified.
+Reduce el **Semaphore**, permitiendo la entrada a un hilo, o más si se especifica ``count``.
 
 .. rst-class:: classref-item-separator
 
@@ -76,7 +76,7 @@ Lowers the **Semaphore**, allowing one thread in, or more if ``count`` is specif
 
 :ref:`bool<class_bool>` **try_wait**\ (\ ) :ref:`🔗<class_Semaphore_method_try_wait>`
 
-Like :ref:`wait()<class_Semaphore_method_wait>`, but won't block, so if the value is zero, fails immediately and returns ``false``. If non-zero, it returns ``true`` to report success.
+Como :ref:`wait()<class_Semaphore_method_wait>`, pero no se bloqueará, por lo que si el valor es cero, falla inmediatamente y devuelve ``false``. Si no es cero, devuelve ``true`` para indicar éxito.
 
 .. rst-class:: classref-item-separator
 
@@ -88,7 +88,7 @@ Like :ref:`wait()<class_Semaphore_method_wait>`, but won't block, so if the valu
 
 |void| **wait**\ (\ ) :ref:`🔗<class_Semaphore_method_wait>`
 
-Waits for the **Semaphore**, if its value is zero, blocks until non-zero.
+Espera al **Semaphore**, si su valor es cero, se bloquea hasta que no sea cero.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

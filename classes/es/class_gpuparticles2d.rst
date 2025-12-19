@@ -221,7 +221,7 @@ La partícula comienza con el color especificado.
 
 :ref:`EmitFlags<enum_GPUParticles2D_EmitFlags>` **EMIT_FLAG_CUSTOM** = ``16``
 
-Particle starts with specified ``CUSTOM`` data.
+La partícula comienza con los datos ``CUSTOM`` especificados.
 
 .. rst-class:: classref-section-separator
 
@@ -355,7 +355,7 @@ La rapidez con la que se emiten las partículas en un ciclo de emisión. Si es m
 - |void| **set_fixed_fps**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_fixed_fps**\ (\ )
 
-The particle system's frame rate is fixed to a value. For example, changing the value to 2 will make the particles render at 2 frames per second. Note this does not slow down the simulation of the particle system itself.
+La velocidad de fotogramas del sistema de partículas se fija a un valor. Por ejemplo, cambiar el valor a 2 hará que las partículas se rendericen a 2 fotogramas por segundo. Ten en cuenta que esto no ralentiza la simulación del sistema de partículas en sí.
 
 .. rst-class:: classref-item-separator
 
@@ -425,7 +425,7 @@ Habilita la interpolación de partículas, lo que hace que el movimiento de las 
 - |void| **set_lifetime**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_lifetime**\ (\ )
 
-The amount of time each particle will exist (in seconds). The effective emission rate is ``(amount * amount_ratio) / lifetime`` particles per second.
+La cantidad de tiempo que cada partícula existirá (en segundos). La tasa de emisión efectiva es ``(amount * amount_ratio) / lifetime`` partículas por segundo.
 
 .. rst-class:: classref-item-separator
 
@@ -688,9 +688,9 @@ Si es ``true``, las partículas usarán la misma semilla para cada simulación u
 - |void| **set_visibility_rect**\ (\ value\: :ref:`Rect2<class_Rect2>`\ )
 - :ref:`Rect2<class_Rect2>` **get_visibility_rect**\ (\ )
 
-The :ref:`Rect2<class_Rect2>` that determines the node's region which needs to be visible on screen for the particle system to be active.
+El :ref:`Rect2<class_Rect2>` que determina la región del nodo que necesita estar visible en la pantalla para que el sistema de partículas esté activo.
 
-Grow the rect if particles suddenly appear/disappear when the node enters/exits the screen. The :ref:`Rect2<class_Rect2>` can be grown via code or with the **Particles → Generate Visibility Rect** editor tool.
+Aumenta el Rect si las partículas aparecen/desaparecen repentinamente cuando el nodo entra/sale de la pantalla. El :ref:`Rect2<class_Rect2>` puede aumentarse mediante código o con la herramienta del editor **Partículas → Generar Rect de Visibilidad**.
 
 .. rst-class:: classref-section-separator
 

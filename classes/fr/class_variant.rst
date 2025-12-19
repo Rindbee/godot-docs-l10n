@@ -118,7 +118,7 @@ Modifications to a container will modify all references to it. A :ref:`Mutex<cla
 
 .. note::
 
-	Il y a des différences notables dans l'utilisation de cette API en C#. Voir ref:`doc_c_sharp_differences` pour plus d'informations.
+	Il y a des différences notables dans l'utilisation de cette API en C#. Voir :ref:`doc_c_sharp_differences` pour plus d'informations.
 
 .. rst-class:: classref-introduction-group
 

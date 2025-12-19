@@ -9,14 +9,14 @@ BoneConstraint3D
 
 **Heredado por:** :ref:`AimModifier3D<class_AimModifier3D>`, :ref:`ConvertTransformModifier3D<class_ConvertTransformModifier3D>`, :ref:`CopyTransformModifier3D<class_CopyTransformModifier3D>`
 
-A node that may modify Skeleton3D's bone with associating the two bones.
+Un nodo que puede modificar el hueso de Skeleton3D asociando los dos huesos.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Base class of :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` that modifies the bone set in :ref:`set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` based on the transform of the bone retrieved by :ref:`get_reference_bone()<class_BoneConstraint3D_method_get_reference_bone>`.
+Clase base de :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` que modifica el hueso establecido en :ref:`set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` basándose en la transformación del hueso recuperado por :ref:`get_reference_bone()<class_BoneConstraint3D_method_get_reference_bone>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -69,7 +69,7 @@ Descripciones de Métodos
 
 |void| **clear_setting**\ (\ ) :ref:`🔗<class_BoneConstraint3D_method_clear_setting>`
 
-Clear all settings.
+Borra todos los ajustes.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ Returns the apply amount of the setting at ``index``.
 
 :ref:`int<class_int>` **get_apply_bone**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_BoneConstraint3D_method_get_apply_bone>`
 
-Returns the apply bone of the setting at ``index``. This bone will be modified.
+Devuelve el hueso de aplicación del ajuste en ``index``. Este hueso será modificado.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Returns the apply bone of the setting at ``index``. This bone will be modified.
 
 :ref:`String<class_String>` **get_apply_bone_name**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_BoneConstraint3D_method_get_apply_bone_name>`
 
-Returns the apply bone name of the setting at ``index``. This bone will be modified.
+Devuelve el nombre del hueso de aplicación del ajuste en ``index``. Este hueso será modificado.
 
 .. rst-class:: classref-item-separator
 
@@ -117,9 +117,9 @@ Returns the apply bone name of the setting at ``index``. This bone will be modif
 
 :ref:`int<class_int>` **get_reference_bone**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_BoneConstraint3D_method_get_reference_bone>`
 
-Returns the reference bone of the setting at ``index``.
+Devuelve el hueso de referencia del ajuste en ``index``.
 
-This bone will be only referenced and not modified by this modifier.
+Este hueso solo será referenciado y no modificado por este modificador.
 
 .. rst-class:: classref-item-separator
 
@@ -131,9 +131,9 @@ This bone will be only referenced and not modified by this modifier.
 
 :ref:`String<class_String>` **get_reference_bone_name**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_BoneConstraint3D_method_get_reference_bone_name>`
 
-Returns the reference bone name of the setting at ``index``.
+Devuelve el nombre del hueso de referencia del ajuste en ``index``.
 
-This bone will be only referenced and not modified by this modifier.
+Este hueso solo será referenciado y no modificado por este modificador.
 
 .. rst-class:: classref-item-separator
 
@@ -145,7 +145,7 @@ This bone will be only referenced and not modified by this modifier.
 
 :ref:`int<class_int>` **get_setting_count**\ (\ ) |const| :ref:`🔗<class_BoneConstraint3D_method_get_setting_count>`
 
-Returns the number of settings in the modifier.
+Devuelve el número de ajustes en el modificador.
 
 .. rst-class:: classref-item-separator
 
@@ -157,7 +157,7 @@ Returns the number of settings in the modifier.
 
 |void| **set_amount**\ (\ index\: :ref:`int<class_int>`, amount\: :ref:`float<class_float>`\ ) :ref:`🔗<class_BoneConstraint3D_method_set_amount>`
 
-Sets the apply amount of the setting at ``index`` to ``amount``.
+Establece la cantidad de aplicación del ajuste en ``index`` a ``amount``.
 
 .. rst-class:: classref-item-separator
 
@@ -169,7 +169,7 @@ Sets the apply amount of the setting at ``index`` to ``amount``.
 
 |void| **set_apply_bone**\ (\ index\: :ref:`int<class_int>`, bone\: :ref:`int<class_int>`\ ) :ref:`🔗<class_BoneConstraint3D_method_set_apply_bone>`
 
-Sets the apply bone of the setting at ``index`` to ``bone``. This bone will be modified.
+Establece el hueso de aplicación del ajuste en ``index`` a ``bone``. Este hueso será modificado.
 
 .. rst-class:: classref-item-separator
 
@@ -181,7 +181,7 @@ Sets the apply bone of the setting at ``index`` to ``bone``. This bone will be m
 
 |void| **set_apply_bone_name**\ (\ index\: :ref:`int<class_int>`, bone_name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_BoneConstraint3D_method_set_apply_bone_name>`
 
-Sets the apply bone of the setting at ``index`` to ``bone_name``. This bone will be modified.
+Establece el hueso de aplicación del ajuste en ``index`` a ``bone_name``. Este hueso será modificado.
 
 .. rst-class:: classref-item-separator
 
@@ -193,9 +193,9 @@ Sets the apply bone of the setting at ``index`` to ``bone_name``. This bone will
 
 |void| **set_reference_bone**\ (\ index\: :ref:`int<class_int>`, bone\: :ref:`int<class_int>`\ ) :ref:`🔗<class_BoneConstraint3D_method_set_reference_bone>`
 
-Sets the reference bone of the setting at ``index`` to ``bone``.
+Establece el hueso de referencia del ajuste en ``index`` a ``bone``.
 
-This bone will be only referenced and not modified by this modifier.
+Este hueso solo será referenciado y no modificado por este modificador.
 
 .. rst-class:: classref-item-separator
 
@@ -207,9 +207,9 @@ This bone will be only referenced and not modified by this modifier.
 
 |void| **set_reference_bone_name**\ (\ index\: :ref:`int<class_int>`, bone_name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_BoneConstraint3D_method_set_reference_bone_name>`
 
-Sets the reference bone of the setting at ``index`` to ``bone_name``.
+Establece el hueso de referencia del ajuste en ``index`` a ``bone_name``.
 
-This bone will be only referenced and not modified by this modifier.
+Este hueso solo será referenciado y no modificado por este modificador.
 
 .. rst-class:: classref-item-separator
 
@@ -221,7 +221,7 @@ This bone will be only referenced and not modified by this modifier.
 
 |void| **set_setting_count**\ (\ count\: :ref:`int<class_int>`\ ) :ref:`🔗<class_BoneConstraint3D_method_set_setting_count>`
 
-Sets the number of settings in the modifier.
+Establece el número de ajustes en el modificador.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

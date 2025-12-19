@@ -7,7 +7,7 @@ AnimationNodeBlendSpace1D
 
 **Hérite de :** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A set of :ref:`AnimationRootNode<class_AnimationRootNode>`\ s placed on a virtual axis, crossfading between the two adjacent ones. Used by :ref:`AnimationTree<class_AnimationTree>`.
+Un ensemble d':ref:`AnimationRootNode<class_AnimationRootNode>`\ s placés sur un axe virtuel, faisant un fondu enchaîné entre les deux nœuds adjacents. Utilisé par :ref:`AnimationTree<class_AnimationTree>`.
 
 .. rst-class:: classref-introduction-group
 

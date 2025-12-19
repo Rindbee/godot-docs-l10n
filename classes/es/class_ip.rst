@@ -237,7 +237,7 @@ Cada adaptador es un diccionario de la forma:
 
 :ref:`String<class_String>` **get_resolve_item_address**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_IP_method_get_resolve_item_address>`
 
-Devuelve la dirección IP de un nombre de host en cola, dado su ``id`` de cola. Devuelve una cadena vacía en caso de error o si la resolución aún no se ha producido (véase :ref:`get_resolve_item_status()<class_IP_method_get_resolve_item_status>`).
+Devuelve la dirección IP de un nombre de host en cola, dado su ``id`` de cola. Devuelve una string vacía en caso de error o si la resolución aún no se ha producido (véase :ref:`get_resolve_item_status()<class_IP_method_get_resolve_item_status>`).
 
 .. rst-class:: classref-item-separator
 

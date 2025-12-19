@@ -16,11 +16,11 @@ Une couche de défilement parallaxe à utiliser avec :ref:`ParallaxBackground<cl
 Description
 -----------
 
-A ParallaxLayer must be the child of a :ref:`ParallaxBackground<class_ParallaxBackground>` node. Each ParallaxLayer can be set to move at different speeds relative to the camera movement or the :ref:`ParallaxBackground.scroll_offset<class_ParallaxBackground_property_scroll_offset>` value.
+Un ParallaxLayer doit être l'enfant d'un nœud :ref:`ParallaxBackground<class_ParallaxBackground>`. Chaque ParallaxLayer peut être défini pour se déplacer à différentes vitesses par rapport au mouvement de la caméra ou à la valeur de :ref:`ParallaxBackground.scroll_offset<class_ParallaxBackground_property_scroll_offset>`.
 
-This node's children will be affected by its scroll offset.
+Les enfants de ce nœud seront affectés par son décalage de défilement.
 
-\ **Note:** Any changes to this node's position and scale made after it enters the scene will be ignored.
+\ **Note :** Tout changement de position et d'échelle de ce nœud effectué après son entrée dans la scène sera ignoré.
 
 .. rst-class:: classref-reftable-group
 
@@ -60,13 +60,13 @@ Descriptions des propriétés
 - |void| **set_mirroring**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_mirroring**\ (\ )
 
-The interval, in pixels, at which the **ParallaxLayer** is drawn repeatedly. Useful for creating an infinitely scrolling background. If an axis is set to ``0``, the **ParallaxLayer** will be drawn only once along that direction.
+L'intervalle, en pixels, auquel le **ParallaxLayer** est dessiné à plusieurs reprises. Utile pour créer un fond défilant de manière infinie. Si un axe est fixé à ``0``, le **ParallaxLayer** ne sera tracé qu'une fois le long de cette direction.
 
-\ **Note:** If you want the repetition to pixel-perfect match a :ref:`Texture2D<class_Texture2D>` displayed by a child node, you should account for any scale applied to the texture when defining this interval. For example, if you use a child :ref:`Sprite2D<class_Sprite2D>` scaled to ``0.5`` to display a 600x600 texture, and want this sprite to be repeated continuously horizontally, you should set the mirroring to ``Vector2(300, 0)``.
+\ **Note :** Si vous voulez que la répétition corresponde au pixel près à une :ref:`Texture2D<class_Texture2D>` affiché par un nœud enfant, vous devez tenir compte de toute échelle appliquée à la texture lors de la définition de cet intervalle. Par exemple, si vous utilisez un enfant :ref:`Sprite2D<class_Sprite2D>` à l'échelle ``0.5`` pour afficher une texture 600x600, et que vous voulez que ce sprite soit répété en continu horizontalement, vous devez configurer cette valeur en ``Vector2(300, 0)``.
 
-\ **Note:** If the length of the viewport axis is bigger than twice the repeated axis size, it will not repeat infinitely, as the parallax layer only draws 2 instances of the layer at any given time. The visibility window is calculated from the parent :ref:`ParallaxBackground<class_ParallaxBackground>`'s position, not the layer's own position. So, if you use mirroring, **do not** change the **ParallaxLayer** position relative to its parent. Instead, if you need to adjust the background's position, set the :ref:`CanvasLayer.offset<class_CanvasLayer_property_offset>` property in the parent :ref:`ParallaxBackground<class_ParallaxBackground>`.
+\ **Note :** Si la longueur de l'axe du viewport est supérieure à deux fois la taille de l'axe répétée, elle ne se répétera pas infiniment, car le calque du parallaxe ne dessine que 2 instances du calque à un moment donné. La fenêtre de visibilité est calculée à partir de la position du :ref:`ParallaxBackground<class_ParallaxBackground>` parent, et non de sa propre position. Donc, si vous utilisez le mirroring, **ne changez pas** la position du **ParallaxLayer** par rapport à son parent. Au lieu de cela, si vous devez ajuster la position de l'arrière-plan, définissez la propriété :ref:`CanvasLayer.offset<class_CanvasLayer_property_offset>` dans le :ref:`ParallaxBackground<class_ParallaxBackground>` parent.
 
-\ **Note:** Despite the name, the layer will not be mirrored, it will only be repeated.
+\ **Note :** Malgré le nom, le calque ne sera pas mis en miroir, il ne sera que répété.
 
 .. rst-class:: classref-item-separator
 

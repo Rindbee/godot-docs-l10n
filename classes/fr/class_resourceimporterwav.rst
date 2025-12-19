@@ -7,7 +7,7 @@ ResourceImporterWAV
 
 **Hérite de :** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Imports a WAV audio file for playback.
+Importe un fichier audio WAV pour la lecture.
 
 .. rst-class:: classref-introduction-group
 

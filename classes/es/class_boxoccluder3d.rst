@@ -57,7 +57,7 @@ Descripciones de Propiedades
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The box's size in 3D units.
+El tamaño de la caja en unidades 3D.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

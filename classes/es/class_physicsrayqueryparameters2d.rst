@@ -14,7 +14,7 @@ Proporciona parámetros para :ref:`PhysicsDirectSpaceState2D.intersect_ray()<cla
 Descripción
 ----------------------
 
-By changing various properties of this object, such as the ray position, you can configure the parameters for :ref:`PhysicsDirectSpaceState2D.intersect_ray()<class_PhysicsDirectSpaceState2D_method_intersect_ray>`.
+Al cambiar varias propiedades de este objeto, como la posición del rayo, puedes configurar los parámetros para :ref:`PhysicsDirectSpaceState2D.intersect_ray()<class_PhysicsDirectSpaceState2D_method_intersect_ray>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -123,9 +123,9 @@ The physics layers the query will detect (as a bitmask). By default, all collisi
 - |void| **set_exclude**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_exclude**\ (\ )
 
-The list of object :ref:`RID<class_RID>`\ s that will be excluded from collisions. Use :ref:`CollisionObject2D.get_rid()<class_CollisionObject2D_method_get_rid>` to get the :ref:`RID<class_RID>` associated with a :ref:`CollisionObject2D<class_CollisionObject2D>`-derived node.
+La lista de :ref:`RID<class_RID>` de objetos que se excluirán de las colisiones. Utiliza :ref:`CollisionObject2D.get_rid()<class_CollisionObject2D_method_get_rid>` para obtener el :ref:`RID<class_RID>` asociado con un nodo derivado de :ref:`CollisionObject2D<class_CollisionObject2D>`.
 
-\ **Note:** The returned array is copied and any changes to it will not update the original property value. To update the value you need to modify the returned array, and then assign it to the property again.
+\ **Nota:** El array devuelto se copia y cualquier cambio en él no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar el array devuelto y, a continuación, asignarlo de nuevo a la propiedad.
 
 .. rst-class:: classref-item-separator
 
@@ -142,7 +142,7 @@ The list of object :ref:`RID<class_RID>`\ s that will be excluded from collision
 - |void| **set_from**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_from**\ (\ )
 
-The starting point of the ray being queried for, in global coordinates.
+El punto de inicio del rayo que se está consultando, en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ The starting point of the ray being queried for, in global coordinates.
 - |void| **set_hit_from_inside**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hit_from_inside_enabled**\ (\ )
 
-If ``true``, the query will detect a hit when starting inside shapes. In this case the collision normal will be ``Vector2(0, 0)``. Does not affect concave polygon shapes.
+Si es ``true``, la consulta detectará un impacto cuando se inicie dentro de las formas. En este caso, la normal de colisión será ``Vector2(0, 0)``. No afecta a las formas de polígonos cóncavos.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ If ``true``, the query will detect a hit when starting inside shapes. In this ca
 - |void| **set_to**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_to**\ (\ )
 
-The ending point of the ray being queried for, in global coordinates.
+El punto final del rayo que se está consultando, en coordenadas globales.
 
 .. rst-class:: classref-section-separator
 
@@ -193,7 +193,7 @@ Descripciones de Métodos
 
 :ref:`PhysicsRayQueryParameters2D<class_PhysicsRayQueryParameters2D>` **create**\ (\ from\: :ref:`Vector2<class_Vector2>`, to\: :ref:`Vector2<class_Vector2>`, collision_mask\: :ref:`int<class_int>` = 4294967295, exclude\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] = []\ ) |static| :ref:`🔗<class_PhysicsRayQueryParameters2D_method_create>`
 
-Returns a new, pre-configured **PhysicsRayQueryParameters2D** object. Use it to quickly create query parameters using the most common options.
+Devuelve un nuevo objeto **PhysicsRayQueryParameters2D** preconfigurado. Úsalo para crear rápidamente parámetros de consulta utilizando las opciones más comunes.
 
 ::
 

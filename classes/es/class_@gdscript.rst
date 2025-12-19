@@ -243,7 +243,7 @@ Véase también :ref:`@GlobalScope.PROPERTY_HINT_COLOR_NO_ALPHA<class_@GlobalSco
 
 **@export_custom**\ (\ hint\: :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`, hint_string\: :ref:`String<class_String>`, usage\: |bitfield|\[:ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`\] = 6\ ) :ref:`🔗<class_@GDScript_annotation_@export_custom>`
 
-Le permite establecer una sugerencia personalizada, una cadena de sugerencia y banderas de uso para la propiedad exportada. Ten en cuenta que no se realiza ninguna validación en GDScript, simplemente se pasarán los parámetros al editor.
+Te permite establecer una sugerencia personalizada, una string de sugerencia y banderas de uso para la propiedad exportada. Ten en cuenta que no se realiza ninguna validación en GDScript, simplemente se pasarán los parámetros al editor.
 
 ::
 
@@ -340,7 +340,7 @@ Véase además :ref:`@GlobalScope.PROPERTY_HINT_EXP_EASING<class_@GlobalScope_co
 
 **@export_file**\ (\ filter\: :ref:`String<class_String>` = "", ...\ ) |vararg| :ref:`🔗<class_@GDScript_annotation_@export_file>`
 
-Exporta una propiedad :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \] o :ref:`PackedStringArray<class_PackedStringArray>` como una ruta a un archivo. La ruta se limitará a la carpeta del proyecto y sus subcarpetas. Consulta :ref:`@export_global_file<class_@GDScript_annotation_@export_global_file>` para permitir la selección de todo el sistema de archivos.
+Exporta una propiedad :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \] o :ref:`PackedStringArray<class_PackedStringArray>` como una ruta a un archivo. La ruta se limitará a la carpeta del proyecto y sus subcarpetas. Véase :ref:`@export_global_file<class_@GDScript_annotation_@export_global_file>` para permitir la selección de todo el sistema de archivos.
 
 Si se proporciona ``filter``, solo estarán disponibles para la selección los archivos coincidentes.
 
@@ -597,11 +597,11 @@ Véase también :ref:`@GlobalScope.PROPERTY_HINT_GLOBAL_FILE<class_@GlobalScope_
 
 Define un nuevo grupo para las siguientes propiedades exportadas. Esto ayuda a organizar las propiedades en el panel Inspector. Los grupos pueden ser agregados con un ``prefix`` opcional, que podría hacer un grupo para solo considerar las propiedades que tenga este prefijo. El agrupamiento se romperá con la primera propiedad que no tenga un prefijo. El prefijo también sera removido del nombre de la propiedad en el panel Inspector.
 
-Si no se proporciona un ``prefix``, entonces cada propiedad siguiente sera agregada al grupo. El grupo se disuelve para cuando el grupo o categoría siguiente es definida. Tambien puedes forzar la disolución de un grupo usando esta anotación con strings vacías como parámetros, ``@export_group("", "")``.
+Si no se proporciona un ``prefix``, entonces cada propiedad siguiente sera agregada al grupo. El grupo se disuelve para cuando el grupo o categoría siguiente es definida. También puedes forzar la disolución de un grupo usando esta anotación con strings vacías como parámetros, ``@export_group("", "")``.
 
 Los grupos no pueden ser anidados, usa :ref:`@export_subgroup<class_@GDScript_annotation_@export_subgroup>` para añadir subgrupos dentro de grupos.
 
-Véase Tambien :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_PROPERTY_USAGE_GROUP>`.
+Véase también :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_PROPERTY_USAGE_GROUP>`.
 
 ::
 
@@ -979,7 +979,7 @@ Comienza a ignorar los tipos de advertencias enumerados hasta el final del archi
 
 \ **Nota:** Para suprimir una sola advertencia, utiliza :ref:`@warning_ignore<class_@GDScript_annotation_@warning_ignore>` en su lugar.
 
-\ **Nota:** A diferencia de la mayoría de otras anotaciones, los argumentos de la anotación :ref:`@warning_ignore_start<class_@GDScript_annotation_@warning_ignore_start>` deben ser literales de cadena (las expresiones constantes no son compatibles).
+\ **Nota:** A diferencia de la mayoría de otras anotaciones, los argumentos de la anotación :ref:`@warning_ignore_start<class_@GDScript_annotation_@warning_ignore_start>` deben ser literales de string (las expresiones constantes no son compatibles).
 
 .. rst-class:: classref-section-separator
 
@@ -1155,7 +1155,7 @@ Imprime:
 
 \ **Nota:** Esta función sólo se puede utilizar para serializar objetos con un :ref:`GDScript<class_GDScript>` adjunto almacenado en un archivo independiente. No están soportados objetos sin un script adjunto, con un script escrito en otro lenguaje o con un script integrado.
 
-\ **Nota:** Esta función no es recursiva, lo que significa que los objetos anidados no se representarán como diccionarios. Además, las propiedades pasadas por referencia (:ref:`Object<class_Object>`, :ref:`Dictionary<class_Dictionary>`, :ref:`Array<class_Array>` y matrices empaquetadas) se copian por referencia, no duplicadas.
+\ **Nota:** Esta función no es recursiva, lo que significa que los objetos anidados no se representarán como diccionarios. Además, las propiedades pasadas por referencia (:ref:`Object<class_Object>`, :ref:`Dictionary<class_Dictionary>`, :ref:`Array<class_Array>` y arrays empaquetados) se copian por referencia, no duplicadas.
 
 .. rst-class:: classref-item-separator
 
@@ -1247,7 +1247,7 @@ Esta función es una versión simplificada de :ref:`ResourceLoader.load()<class_
 
 :ref:`int<class_int>` **ord**\ (\ char\: :ref:`String<class_String>`\ ) :ref:`🔗<class_@GDScript_method_ord>`
 
-Devuelve un entero que representa el punto de código Unicode del carácter ``char`` dado, que debe ser una cadena de longitud 1.
+Devuelve un entero que representa el punto de código Unicode del carácter ``char`` dado, que debe ser una string de longitud 1.
 
 ::
 

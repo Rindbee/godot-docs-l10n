@@ -14,25 +14,25 @@ Un :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` que aplica transformació
 Descripción
 ----------------------
 
-Apply the copied transform of the bone set by :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` to the bone set by :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` with processing it with some masks and options.
+Aplica la transformación copiada del hueso establecido por :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` al hueso establecido por :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` procesándola con algunas máscaras y opciones.
 
-There are 4 ways to apply the transform, depending on the combination of :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` and :ref:`set_additive()<class_CopyTransformModifier3D_method_set_additive>`.
+Hay 4 maneras de aplicar la transformación, dependiendo de la combinación de :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` y :ref:`set_additive()<class_CopyTransformModifier3D_method_set_additive>`.
 
-\ **Relative + Additive:**\ 
+\ **Relativo + Aditivo:**\ 
 
-- Extract reference pose relative to the rest and add it to the apply bone's pose.
+- Extrae la pose de referencia relativa al resto y la añade a la pose del hueso de aplicación.
 
-\ **Relative + Not Additive:**\ 
+\ **Relativo + No Aditivo:**\ 
 
-- Extract reference pose relative to the rest and add it to the apply bone's rest.
+- Extrae la pose de referencia relativa al resto y la añade al reposo del hueso de aplicación.
 
-\ **Not Relative + Additive:**\ 
+\ **No Relativo + Aditivo:**\ 
 
-- Extract reference pose absolutely and add it to the apply bone's pose.
+- Extrae la pose de referencia absolutamente y la añade a la pose del hueso de aplicación.
 
-\ **Not Relative + Not Additive:**\ 
+\ **No Relativo + No Aditivo:**\ 
 
-- Extract reference pose absolutely and the apply bone's pose is replaced with it.
+- Extrae la pose de referencia absolutamente y la pose del hueso de aplicación se reemplaza con ella.
 
 .. rst-class:: classref-reftable-group
 
@@ -406,11 +406,11 @@ Devuelve ``true`` si las banderas de copia tienen la bandera de escala en la con
 
 |void| **set_additive**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_additive>`
 
-Sets additive option in the setting at ``index`` to ``enabled``. This mainly affects the process of applying transform to the :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>`.
+Establece la opción aditiva en el ajuste en ``index`` a ``enabled``. Esto afecta principalmente al proceso de aplicación de la transformación al :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>`.
 
-If sets ``enabled`` to ``true``, the processed transform is added to the pose of the current apply bone.
+Si estableces ``enabled`` a ``true``, la transformación procesada se añade a la pose del hueso de aplicación actual.
 
-If sets ``enabled`` to ``false``, the pose of the current apply bone is replaced with the processed transform. However, if set :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` to ``true``, the transform is relative to rest.
+Si estableces ``enabled`` a ``false``, la pose del hueso de aplicación actual se reemplaza con la transformación procesada. Sin embargo, si estableces :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` a ``true``, la transformación es relativa al reposo.
 
 .. rst-class:: classref-item-separator
 
@@ -556,11 +556,11 @@ Si se establece ``enabled`` en ``true``, se copiará la escala.
 
 |void| **set_invert_flags**\ (\ index\: :ref:`int<class_int>`, axis_flags\: |bitfield|\[:ref:`AxisFlag<enum_CopyTransformModifier3D_AxisFlag>`\]\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_invert_flags>`
 
-Sets the flags to inverte axes. If the flag is valid, the axis is copied.
+Establece las banderas para invertir los ejes. Si la bandera es válida, el eje se copia.
 
-\ **Note:** An inverted scale means an inverse number, not a negative scale. For example, inverting ``2.0`` means ``0.5``.
+\ **Nota:** Una escala invertida significa un número inverso, no una escala negativa. Por ejemplo, invertir ``2.0`` significa ``0.5``.
 
-\ **Note:** An inverted rotation flips the elements of the quaternion. For example, a two-axis inversion will flip the roll of each axis, and a three-axis inversion will flip the final orientation. However, be aware that flipping only one axis may cause unintended rotation by the unflipped axes, due to the characteristics of the quaternion.
+\ **Nota:** Una rotación invertida invierte los elementos del cuaternión. Por ejemplo, una inversión de dos ejes invertirá el balanceo de cada eje, y una inversión de tres ejes invertirá la orientación final. Sin embargo, ten en cuenta que invertir solo un eje puede causar una rotación no deseada por los ejes no invertidos, debido a las características del cuaternión.
 
 .. rst-class:: classref-item-separator
 
@@ -572,11 +572,11 @@ Sets the flags to inverte axes. If the flag is valid, the axis is copied.
 
 |void| **set_relative**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_relative>`
 
-Sets relative option in the setting at ``index`` to ``enabled``.
+Establece la opción relativa en el ajuste en ``index`` a ``enabled``.
 
-If sets ``enabled`` to ``true``, the extracted and applying transform is relative to the rest.
+Si estableces ``enabled`` a ``true``, la transformación extraída y aplicada es relativa al resto.
 
-If sets ``enabled`` to ``false``, the extracted transform is absolute.
+Si estableces ``enabled`` a ``false``, la transformación extraída es absoluta.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

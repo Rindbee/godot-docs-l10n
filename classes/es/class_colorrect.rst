@@ -7,14 +7,14 @@ ColorRect
 
 **Hereda:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A control that displays a solid color rectangle.
+Un control que muestra un rectángulo de color sólido.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Displays a rectangle filled with a solid :ref:`color<class_ColorRect_property_color>`. If you need to display the border alone, consider using a :ref:`Panel<class_Panel>` instead.
+Muestra un rectángulo relleno con un :ref:`color<class_ColorRect_property_color>` sólido. Si necesitas mostrar el borde solo, considera usar un :ref:`Panel<class_Panel>` en su lugar.
 
 .. rst-class:: classref-introduction-group
 

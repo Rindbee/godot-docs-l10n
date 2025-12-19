@@ -14,7 +14,7 @@ Un singleton qui gère tous les :ref:`InputEventAction<class_InputEventAction>`\
 Description
 -----------
 
-Manages all :ref:`InputEventAction<class_InputEventAction>` which can be created/modified from the project settings menu **Project > Project Settings > Input Map** or in code with :ref:`add_action()<class_InputMap_method_add_action>` and :ref:`action_add_event()<class_InputMap_method_action_add_event>`. See :ref:`Node._input()<class_Node_private_method__input>`.
+Gère tous les :ref:`InputEventAction<class_InputEventAction>` qui peuvent être créés/modifiés dans le menu de Paramètres du projet **Projet > Paramètres du projet > Contrôle** ou dans le code avec :ref:`add_action()<class_InputMap_method_add_action>` et :ref:`action_add_event()<class_InputMap_method_action_add_event>`. Voir :ref:`Node._input()<class_Node_private_method__input>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -226,7 +226,7 @@ Renvoie la liste de toutes les actions dans l'**InputMap**.
 
 :ref:`bool<class_bool>` **has_action**\ (\ action\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_InputMap_method_has_action>`
 
-Returns ``true`` if the **InputMap** has a registered action with the given name.
+Renvoie ``true`` si l'**InputMap** a une action enregistrée avec le nom donné.
 
 .. rst-class:: classref-item-separator
 

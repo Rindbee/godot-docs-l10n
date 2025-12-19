@@ -7,7 +7,7 @@ Popup
 
 **Hérite de :** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`PopupMenu<class_PopupMenu>`, :ref:`PopupPanel<class_PopupPanel>`
+**Hérité par :** :ref:`PopupMenu<class_PopupMenu>`, :ref:`PopupPanel<class_PopupPanel>`
 
 Classe de base pour les fenêtres et panneaux contextuels avec une position fixe.
 

@@ -84,11 +84,11 @@ By default, Godot does not detect MIDI devices. You need to call :ref:`OS.open_m
 Tutoriales
 --------------------
 
-- `MIDI Message Status Byte List <https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes>`__
+- `Lista de bits del estado del mensaje MIDI <https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes>`__
 
-- `Wikipedia General MIDI Instrument List <https://en.wikipedia.org/wiki/General_MIDI#Program_change_events>`__
+- `Lista de instrumentos general del MIDI de wikipedia <https://en.wikipedia.org/wiki/General_MIDI#Program_change_events>`__
 
-- `Wikipedia Piano Key Frequencies List <https://en.wikipedia.org/wiki/Piano_key_frequencies#List>`__
+- `Lista de frecuencias de teclas de piano de Wikipedia <https://en.wikipedia.org/wiki/Piano_key_frequencies#List>`__
 
 .. rst-class:: classref-reftable-group
 

@@ -310,7 +310,7 @@ If set to a non-zero value, slants the node in one direction or another. This ca
 - |void| **set_transform**\ (\ value\: :ref:`Transform2D<class_Transform2D>`\ )
 - :ref:`Transform2D<class_Transform2D>` **get_transform**\ (\ )
 
-The node's :ref:`Transform2D<class_Transform2D>`, relative to the node's parent. See also :ref:`global_transform<class_Node2D_property_global_transform>`.
+La :ref:`Transform2D<class_Transform2D>` del nodo, relativa a su nodo padre. Véase también :ref:`global_transform<class_Node2D_property_global_transform>`.
 
 .. rst-class:: classref-section-separator
 
@@ -391,7 +391,7 @@ El ``point`` no debe ser el mismo que la posición del nodo, de lo contrario el 
 
 |void| **move_local_x**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_x>`
 
-Aplica una traslación local en el eje X del nodo basada en el ``delta`` de :ref:`Node._process()<class_Node_private_method__process>`. Si ``scaled`` es ``false``, normaliza el movimiento.
+Applies a local translation on the node's X axis with the amount specified in ``delta``. If ``scaled`` is ``false``, normalizes the movement to occur independently of the node's :ref:`scale<class_Node2D_property_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Aplica una traslación local en el eje X del nodo basada en el ``delta`` de :ref
 
 |void| **move_local_y**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_y>`
 
-Aplica una traslación local en el eje Y del nodo basada en el ``delta`` de :ref:`Node._process()<class_Node_private_method__process>`. Si ``scaled`` es ``false``, normaliza el movimiento.
+Applies a local translation on the node's Y axis with the amount specified in ``delta``. If ``scaled`` is ``false``, normalizes the movement to occur independently of the node's :ref:`scale<class_Node2D_property_scale>`.
 
 .. rst-class:: classref-item-separator
 

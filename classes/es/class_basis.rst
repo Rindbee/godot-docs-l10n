@@ -945,7 +945,7 @@ Transforms (multiplies) the ``right`` vector by this basis, returning a :ref:`Ve
 
 :ref:`Basis<class_Basis>` **operator ***\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Basis_operator_mul_float>`
 
-Multiplies all components of the **Basis** by the given :ref:`float<class_float>`. This affects the basis's scale uniformly, resizing all 3 axes by the ``right`` value.
+Multiplica todos los componentes de la **Basis** por el :ref:`float<class_float>` dado. Esto afecta a la escala de la base de forma uniforme, redimensionando los 3 ejes por el valor de ``right``.
 
 .. rst-class:: classref-item-separator
 
@@ -957,7 +957,7 @@ Multiplies all components of the **Basis** by the given :ref:`float<class_float>
 
 :ref:`Basis<class_Basis>` **operator ***\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Basis_operator_mul_int>`
 
-Multiplies all components of the **Basis** by the given :ref:`int<class_int>`. This affects the basis's scale uniformly, resizing all 3 axes by the ``right`` value.
+Multiplica todos los componentes de la **Basis** por el :ref:`int<class_int>` dado. Esto afecta a la escala de la base de forma uniforme, redimensionando los 3 ejes por el valor de ``right``.
 
 .. rst-class:: classref-item-separator
 
@@ -969,7 +969,7 @@ Multiplies all components of the **Basis** by the given :ref:`int<class_int>`. T
 
 :ref:`Basis<class_Basis>` **operator /**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Basis_operator_div_float>`
 
-Divides all components of the **Basis** by the given :ref:`float<class_float>`. This affects the basis's scale uniformly, resizing all 3 axes by the ``right`` value.
+Divide todos los componentes de la **Basis** por el :ref:`float<class_float>` dado. Esto afecta a la escala de la base de forma uniforme, redimensionando los 3 ejes por el valor de ``right``.
 
 .. rst-class:: classref-item-separator
 
@@ -981,7 +981,7 @@ Divides all components of the **Basis** by the given :ref:`float<class_float>`. 
 
 :ref:`Basis<class_Basis>` **operator /**\ (\ right\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Basis_operator_div_int>`
 
-Divides all components of the **Basis** by the given :ref:`int<class_int>`. This affects the basis's scale uniformly, resizing all 3 axes by the ``right`` value.
+Divide todos los componentes de la **Basis** por el :ref:`int<class_int>` dado. Esto afecta a la escala de la base de forma uniforme, redimensionando los 3 ejes por el valor de ``right``.
 
 .. rst-class:: classref-item-separator
 
@@ -1007,9 +1007,9 @@ Returns ``true`` if the components of both **Basis** matrices are exactly equal.
 
 :ref:`Vector3<class_Vector3>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Basis_operator_idx_int>`
 
-Accesses each axis (column) of this basis by their index. Index ``0`` is the same as :ref:`x<class_Basis_property_x>`, index ``1`` is the same as :ref:`y<class_Basis_property_y>`, and index ``2`` is the same as :ref:`z<class_Basis_property_z>`.
+Accede a cada eje (columna) de esta base por su índice. El índice ``0`` es lo mismo que :ref:`x<class_Basis_property_x>`, el índice ``1`` es lo mismo que :ref:`y<class_Basis_property_y>`, y el índice ``2`` es lo mismo que :ref:`z<class_Basis_property_z>`.
 
-\ **Note:** In C++, this operator accesses the rows of the basis matrix, *not* the columns. For the same behavior as scripting languages, use the ``set_column`` and ``get_column`` methods.
+\ **Nota:** En C++, este operador accede a las filas de la matriz de la base, *no* a las columnas. Para el mismo comportamiento que los lenguajes de script, usa los métodos ``set_column`` y ``get_column``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

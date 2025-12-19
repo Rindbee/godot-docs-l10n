@@ -14,11 +14,11 @@ Une classe qui enregistre une expression que vous pouvez exécuter.
 Description
 -----------
 
-An expression can be made of any arithmetic operation, built-in math function call, method call of a passed instance, or built-in type construction call.
+Une expression peut être faite de n'importe quelle opération arithmétique, d'appels de fonctions mathématiques intégrées, d'appels de méthode sur une instance donnée, ou de constructeurs de type intégrés.
 
-An example expression text using the built-in math functions could be ``sqrt(pow(3, 2) + pow(4, 2))``.
+Un exemple d'expression utilisant les fonctions mathématiques intégrées serait ``sqrt(pow(3,2) + pow(4,2))``.
 
-In the following example we use a :ref:`LineEdit<class_LineEdit>` node to write our expression and show the result.
+Dans l'exemple suivant nous utilisons un nœud :ref:`LineEdit<class_LineEdit>` pour écrire notre expression et afficher le résultat.
 
 
 .. tabs::
@@ -28,16 +28,16 @@ In the following example we use a :ref:`LineEdit<class_LineEdit>` node to write 
     var expression = Expression.new()
 
     func _ready():
-        $LineEdit.text_submitted.connect(self._on_text_submitted)
+        $LineEdit.connect("text_entered", self, "_on_text_entered")
 
-    func _on_text_submitted(command):
-        var error = expression.parse(command)
-        if error != OK:
+    func _on_text_entered(command):
+        var erreur = expression.parse(command, [])
+        if erreur != OK:
             print(expression.get_error_text())
             return
-        var result = expression.execute()
+        var resultat = expression.execute([], null, true)
         if not expression.has_execute_failed():
-            $LineEdit.text = str(result)
+            $LineEdit.text = str(resultat)
 
  .. code-tab:: csharp
 
@@ -50,16 +50,16 @@ In the following example we use a :ref:`LineEdit<class_LineEdit>` node to write 
 
     private void OnTextEntered(string command)
     {
-        Error error = _expression.Parse(command);
-        if (error != Error.Ok)
+        Error erreur = _expression.Parse(command);
+        if (erreur != Error.Ok)
         {
             GD.Print(_expression.GetErrorText());
             return;
         }
-        Variant result = _expression.Execute();
+        Variant resultat = _expression.Execute();
         if (!_expression.HasExecuteFailed())
         {
-            GetNode<LineEdit>("LineEdit").Text = result.ToString();
+            GetNode<LineEdit>("LineEdit").Text = resultat.ToString();
         }
     }
 
@@ -119,7 +119,7 @@ Si vous définissez des variables d'entrée dans :ref:`parse()<class_Expression_
 
 :ref:`String<class_String>` **get_error_text**\ (\ ) |const| :ref:`🔗<class_Expression_method_get_error_text>`
 
-Returns the error text if :ref:`parse()<class_Expression_method_parse>` or :ref:`execute()<class_Expression_method_execute>` has failed.
+Renvoie le texte de l'erreur si :ref:`parse()<class_Expression_method_parse>` ou :ref:`execute()<class_Expression_method_execute>` a échoué.
 
 .. rst-class:: classref-item-separator
 
@@ -143,9 +143,9 @@ Renvoie ``true`` si :ref:`execute()<class_Expression_method_execute>` a échoué
 
 :ref:`Error<enum_@GlobalScope_Error>` **parse**\ (\ expression\: :ref:`String<class_String>`, input_names\: :ref:`PackedStringArray<class_PackedStringArray>` = PackedStringArray()\ ) :ref:`🔗<class_Expression_method_parse>`
 
-Parses the expression and returns an :ref:`Error<enum_@GlobalScope_Error>` code.
+Parse l'expression et renvoie un code d'erreur :ref:`Error<enum_@GlobalScope_Error>`.
 
-You can optionally specify names of variables that may appear in the expression with ``input_names``, so that you can bind them when it gets executed.
+Vous pouvez en option spécifier des noms de variables qui peuvent apparaître dans l'expression avec ``input_names``, afin que vous puissiez les lier lorsqu'elle est exécutée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

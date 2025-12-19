@@ -73,9 +73,9 @@ Descripciones de Propiedades
 - |void| **set_custom_solver_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_custom_solver_bias**\ (\ )
 
-The shape's custom solver bias. Defines how much bodies react to enforce contact separation when this shape is involved.
+El sesgo de resolución personalizado de la forma. Define cuánto reaccionan los cuerpos para forzar la separación de contactos cuando esta forma está involucrada.
 
-When set to ``0``, the default value from :ref:`ProjectSettings.physics/3d/solver/default_contact_bias<class_ProjectSettings_property_physics/3d/solver/default_contact_bias>` is used.
+Cuando se establece en ``0``, se utiliza el valor predeterminado de :ref:`ProjectSettings.physics/3d/solver/default_contact_bias<class_ProjectSettings_property_physics/3d/solver/default_contact_bias>`.
 
 .. rst-class:: classref-item-separator
 
@@ -92,9 +92,9 @@ When set to ``0``, the default value from :ref:`ProjectSettings.physics/3d/solve
 - |void| **set_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_margin**\ (\ )
 
-The collision margin for the shape. This is not used in Godot Physics.
+El margen de colisión de la forma. Esto no se usa en Godot Physics.
 
-Collision margins allow collision detection to be more efficient by adding an extra shell around shapes. Collision algorithms are more expensive when objects overlap by more than their margin, so a higher value for margins is better for performance, at the cost of accuracy around edges as it makes them less sharp.
+Los márgenes de colisión permiten que la detección de colisiones sea más eficiente al agregar una capa adicional alrededor de las formas. Los algoritmos de colisión son más costosos cuando los objetos se superponen en más de su margen, por lo que un valor más alto para los márgenes es mejor para el rendimiento, a costa de la precisión alrededor de los bordes, ya que los hace menos nítidos.
 
 .. rst-class:: classref-section-separator
 

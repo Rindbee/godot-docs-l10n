@@ -115,7 +115,7 @@ Establece las regiones de color. Se eliminarán todas las regiones existentes. L
 - |void| **set_function_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_function_color**\ (\ )
 
-Establece el color para las funciones. Una función es una cadena que no es palabra clave seguida de un '('.
+Establece el color para las funciones. Una función es una string que no es palabra clave seguida de un '('.
 
 .. rst-class:: classref-item-separator
 
@@ -166,7 +166,7 @@ Establece los colores de las palabras clave miembro. Se eliminarán todas las pa
 - |void| **set_member_variable_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_member_variable_color**\ (\ )
 
-Establece el color para las variables miembro. Una variable miembro es una cadena que no es palabra clave ni función, precedida por un '.'.
+Establece el color para las variables miembro. Una variable miembro es una string que no es palabra clave ni función, precedida por un '.'.
 
 .. rst-class:: classref-item-separator
 

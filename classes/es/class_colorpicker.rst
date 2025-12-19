@@ -7,16 +7,16 @@ ColorPicker
 
 **Hereda:** :ref:`VBoxContainer<class_VBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A widget that provides an interface for selecting or modifying a color.
+Un widget que proporciona una interfaz para seleccionar o modificar un color.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A widget that provides an interface for selecting or modifying a color. It can optionally provide functionalities like a color sampler (eyedropper), color modes, and presets.
+Un widget que proporciona una interfaz para seleccionar o modificar un color. Opcionalmente, puede proporcionar funcionalidades como un muestreador de color (cuentagotas), modos de color y preajustes.
 
-\ **Note:** This control is the color picker widget itself. You can use a :ref:`ColorPickerButton<class_ColorPickerButton>` instead if you need a button that brings up a **ColorPicker** in a popup.
+\ **Nota:** Este control es el widget selector de color en sí mismo. Puedes usar un :ref:`ColorPickerButton<class_ColorPickerButton>` en su lugar si necesitas un botón que muestre un **ColorPicker** en un popup.
 
 .. rst-class:: classref-introduction-group
 
@@ -205,7 +205,7 @@ enum **ColorModeType**: :ref:`🔗<enum_ColorPicker_ColorModeType>`
 
 :ref:`ColorModeType<enum_ColorPicker_ColorModeType>` **MODE_RGB** = ``0``
 
-Allows editing the color with Red/Green/Blue sliders in sRGB color space.
+Permite editar el color con deslizadores de Rojo/Verde/Azul en el espacio de color sRGB.
 
 .. _class_ColorPicker_constant_MODE_HSV:
 
@@ -231,7 +231,7 @@ Permite editar el color con los deslizadores de Tono/Saturación/Valor.
 
 :ref:`ColorModeType<enum_ColorPicker_ColorModeType>` **MODE_LINEAR** = ``2``
 
-Allows editing the color with Red/Green/Blue sliders in linear color space.
+Permite editar el color con los deslizadores de Rojo/Verde/Azul en el espacio de color lineal.
 
 .. _class_ColorPicker_constant_MODE_OKHSL:
 
@@ -239,11 +239,11 @@ Allows editing the color with Red/Green/Blue sliders in linear color space.
 
 :ref:`ColorModeType<enum_ColorPicker_ColorModeType>` **MODE_OKHSL** = ``3``
 
-Allows editing the color with Hue/Saturation/Lightness sliders.
+Permite editar el color con los deslizadores de Tono/Saturación/Luminosidad.
 
-OKHSL is a new color space similar to HSL but that better match perception by leveraging the Oklab color space which is designed to be simple to use, while doing a good job at predicting perceived lightness, chroma and hue.
+OKHSL es un nuevo espacio de color similar a HSL pero que se ajusta mejor a la percepción aprovechando el espacio de color Oklab, que está diseñado para ser simple de usar, al tiempo que hace un buen trabajo prediciendo la luminosidad, el croma y el tono percibidos.
 
-\ `Okhsv and Okhsl color spaces <https://bottosson.github.io/posts/colorpicker/>`__
+\ `Espacios de color Okhsv y Okhsl <https://bottosson.github.io/posts/colorpicker/>`__
 
 .. rst-class:: classref-item-separator
 
@@ -269,7 +269,7 @@ Espacio de color rectangular del modelo de color HSV.
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_HSV_WHEEL** = ``1``
 
-HSV Color Model rectangle color space with a wheel.
+Espacio de color rectangular del modelo de color HSV con una rueda.
 
 .. _class_ColorPicker_constant_SHAPE_VHS_CIRCLE:
 
@@ -277,7 +277,7 @@ HSV Color Model rectangle color space with a wheel.
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_VHS_CIRCLE** = ``2``
 
-HSV Color Model circle color space. Use Saturation as a radius.
+Espacio de color circular del modelo de color HSV. Utiliza la Saturación como radio.
 
 .. _class_ColorPicker_constant_SHAPE_OKHSL_CIRCLE:
 
@@ -285,7 +285,7 @@ HSV Color Model circle color space. Use Saturation as a radius.
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_OKHSL_CIRCLE** = ``3``
 
-HSL OK Color Model circle color space.
+Espacio de color circular del modelo de color HSL OK.
 
 .. _class_ColorPicker_constant_SHAPE_NONE:
 
@@ -293,7 +293,7 @@ HSL OK Color Model circle color space.
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_NONE** = ``4``
 
-The color space shape and the shape select button are hidden. Can't be selected from the shapes popup.
+La forma del espacio de color y el botón de selección de forma están ocultos. No se puede seleccionar desde el popup de formas.
 
 .. _class_ColorPicker_constant_SHAPE_OK_HS_RECTANGLE:
 
@@ -301,7 +301,7 @@ The color space shape and the shape select button are hidden. Can't be selected 
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_OK_HS_RECTANGLE** = ``5``
 
-OKHSL Color Model rectangle with constant lightness.
+Rectángulo del modelo de color OKHSL con luminosidad constante.
 
 .. _class_ColorPicker_constant_SHAPE_OK_HL_RECTANGLE:
 
@@ -309,7 +309,7 @@ OKHSL Color Model rectangle with constant lightness.
 
 :ref:`PickerShapeType<enum_ColorPicker_PickerShapeType>` **SHAPE_OK_HL_RECTANGLE** = ``6``
 
-OKHSL Color Model rectangle with constant saturation.
+Rectángulo del modelo de color OKHSL con saturación constante.
 
 .. rst-class:: classref-section-separator
 
@@ -331,7 +331,7 @@ Descripciones de Propiedades
 - |void| **set_can_add_swatches**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **are_swatches_enabled**\ (\ )
 
-If ``true``, it's possible to add presets under Swatches. If ``false``, the button to add presets is disabled.
+Si es ``true``, es posible añadir preajustes bajo Muestras. Si ``false``, el botón para añadir preajustes está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -433,7 +433,7 @@ Si es ``true``, muestra un deslizador de canal alfa (opacidad).
 - |void| **set_edit_intensity**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_intensity**\ (\ )
 
-If ``true``, shows an intensity slider. The intensity is applied as follows: multiply the color by ``2 ** intensity`` in linear RGB space, and then convert it back to sRGB.
+Si es ``true``, muestra un deslizador de intensidad. La intensidad se aplica de la siguiente manera: multiplica el color por ``2 ** intensity`` en espacio RGB lineal, y luego lo convierte de nuevo a sRGB.
 
 .. rst-class:: classref-item-separator
 
@@ -484,7 +484,7 @@ La forma de la vista del espacio de color.
 - |void| **set_presets_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **are_presets_visible**\ (\ )
 
-If ``true``, the Swatches and Recent Colors presets are visible.
+Si es ``true``, los preajustes de Muestras y Colores Recientes son visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -501,7 +501,7 @@ If ``true``, the Swatches and Recent Colors presets are visible.
 - |void| **set_sampler_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_sampler_visible**\ (\ )
 
-If ``true``, the color sampler and color preview are visible.
+Si es ``true``, el selector de color y la vista previa del color son visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -535,9 +535,9 @@ Descripciones de Métodos
 
 |void| **add_preset**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_ColorPicker_method_add_preset>`
 
-Adds the given color to a list of color presets. The presets are displayed in the color picker and the user will be able to select them.
+Añade el color dado a una lista de preajustes de color. Los preajustes se muestran en el selector de color y el usuario podrá seleccionarlos.
 
-\ **Note:** The presets list is only for *this* color picker.
+\ **Nota:** La lista de preajustes es solo para *este* selector de color.
 
 .. rst-class:: classref-item-separator
 
@@ -549,9 +549,9 @@ Adds the given color to a list of color presets. The presets are displayed in th
 
 |void| **add_recent_preset**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_ColorPicker_method_add_recent_preset>`
 
-Adds the given color to a list of color recent presets so that it can be picked later. Recent presets are the colors that were picked recently, a new preset is automatically created and added to recent presets when you pick a new color.
+Añade el color dado a una lista de preajustes de color recientes para que pueda ser seleccionado más adelante. Los preajustes recientes son los colores que se han seleccionado recientemente, un nuevo preajuste se crea y se añade automáticamente a los preajustes recientes cuando seleccionas un nuevo color.
 
-\ **Note:** The recent presets list is only for *this* color picker.
+\ **Nota:** La lista de preajustes recientes es solo para *este* selector de color.
 
 .. rst-class:: classref-item-separator
 
@@ -575,7 +575,7 @@ Elimina el color dado de la lista de colores predefinidos de este selector de co
 
 |void| **erase_recent_preset**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_ColorPicker_method_erase_recent_preset>`
 
-Removes the given color from the list of color recent presets of this color picker.
+Elimina el color dado de la lista de preajustes de color recientes de este selector de color.
 
 .. rst-class:: classref-item-separator
 
@@ -599,7 +599,7 @@ Devuelve la lista de colores en los preajustes del selector de colores.
 
 :ref:`PackedColorArray<class_PackedColorArray>` **get_recent_presets**\ (\ ) |const| :ref:`🔗<class_ColorPicker_method_get_recent_presets>`
 
-Returns the list of colors in the recent presets of the color picker.
+Devuelve la lista de colores en los preajustes recientes del selector de color.
 
 .. rst-class:: classref-section-separator
 
@@ -616,7 +616,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Color<class_Color>` **focused_not_editing_cursor_color** = ``Color(1, 1, 1, 0.275)`` :ref:`🔗<class_ColorPicker_theme_color_focused_not_editing_cursor_color>`
 
-Color of rectangle or circle drawn when a picker shape part is focused but not editable via keyboard or joypad. Displayed *over* the picker shape, so a partially transparent color should be used to ensure the picker shape remains visible.
+Color del rectángulo o círculo dibujado cuando una parte de la forma del selector está enfocada pero no se puede editar mediante el teclado o el mando. Se muestra *sobre* la forma del selector, por lo que se debe utilizar un color parcialmente transparente para garantizar que la forma del selector siga siendo visible.
 
 .. rst-class:: classref-item-separator
 
@@ -628,7 +628,7 @@ Color of rectangle or circle drawn when a picker shape part is focused but not e
 
 :ref:`int<class_int>` **center_slider_grabbers** = ``1`` :ref:`🔗<class_ColorPicker_theme_constant_center_slider_grabbers>`
 
-Overrides the :ref:`Slider.center_grabber<class_Slider_theme_constant_center_grabber>` theme property of the sliders.
+Anula la propiedad de tema :ref:`Slider.center_grabber<class_Slider_theme_constant_center_grabber>` de los deslizadores.
 
 .. rst-class:: classref-item-separator
 
@@ -712,7 +712,7 @@ El icono del botón "Añadir Preajuste".
 
 :ref:`Texture2D<class_Texture2D>` **bar_arrow** :ref:`🔗<class_ColorPicker_theme_icon_bar_arrow>`
 
-The texture for the arrow grabber.
+La textura para el agarrador de flecha.
 
 .. rst-class:: classref-item-separator
 
@@ -736,7 +736,7 @@ Textura personalizada para el deslizador de selección de tonos de la derecha.
 
 :ref:`Texture2D<class_Texture2D>` **color_script** :ref:`🔗<class_ColorPicker_theme_icon_color_script>`
 
-The icon for the button that switches color text to hexadecimal.
+El icono para el botón que cambia el texto del color a hexadecimal.
 
 .. rst-class:: classref-item-separator
 
@@ -748,7 +748,7 @@ The icon for the button that switches color text to hexadecimal.
 
 :ref:`Texture2D<class_Texture2D>` **expanded_arrow** :ref:`🔗<class_ColorPicker_theme_icon_expanded_arrow>`
 
-The icon for color preset drop down menu when expanded.
+El icono para el menú desplegable de preajustes de color cuando está expandido.
 
 .. rst-class:: classref-item-separator
 
@@ -760,7 +760,7 @@ The icon for color preset drop down menu when expanded.
 
 :ref:`Texture2D<class_Texture2D>` **folded_arrow** :ref:`🔗<class_ColorPicker_theme_icon_folded_arrow>`
 
-The icon for color preset drop down menu when folded.
+El icono para el menú desplegable de preajustes de color cuando está plegado.
 
 .. rst-class:: classref-item-separator
 
@@ -772,7 +772,7 @@ The icon for color preset drop down menu when folded.
 
 :ref:`Texture2D<class_Texture2D>` **menu_option** :ref:`🔗<class_ColorPicker_theme_icon_menu_option>`
 
-The icon for color preset option menu.
+El icono para el menú de opciones de preajustes de color.
 
 .. rst-class:: classref-item-separator
 
@@ -796,7 +796,7 @@ El indicador utilizado para señalar que el valor del color está fuera del rang
 
 :ref:`Texture2D<class_Texture2D>` **picker_cursor** :ref:`🔗<class_ColorPicker_theme_icon_picker_cursor>`
 
-The image displayed over the color box/circle (depending on the :ref:`picker_shape<class_ColorPicker_property_picker_shape>`), marking the currently selected color.
+La imagen que se muestra sobre la caja/círculo de color (dependiendo de :ref:`picker_shape<class_ColorPicker_property_picker_shape>`), marcando el color actualmente seleccionado.
 
 .. rst-class:: classref-item-separator
 
@@ -820,7 +820,7 @@ La imagen de relleno que se muestra detrás del cursor del selector.
 
 :ref:`Texture2D<class_Texture2D>` **sample_bg** :ref:`🔗<class_ColorPicker_theme_icon_sample_bg>`
 
-Background panel for the color preview box (visible when the color is translucent).
+Panel de fondo para la caja de vista previa del color (visible cuando el color es translúcido).
 
 .. rst-class:: classref-item-separator
 
@@ -832,7 +832,7 @@ Background panel for the color preview box (visible when the color is translucen
 
 :ref:`Texture2D<class_Texture2D>` **sample_revert** :ref:`🔗<class_ColorPicker_theme_icon_sample_revert>`
 
-The icon for the revert button (visible on the middle of the "old" color when it differs from the currently selected color). This icon is modulated with a dark color if the "old" color is bright enough, so the icon should be bright to ensure visibility in both scenarios.
+El icono para el botón de revertir (visible en el medio del color "antiguo" cuando difiere del color seleccionado actualmente). Este icono se modula con un color oscuro si el color "antiguo" es lo suficientemente brillante, por lo que el icono debe ser brillante para garantizar la visibilidad en ambos escenarios.
 
 .. rst-class:: classref-item-separator
 
@@ -892,7 +892,7 @@ El icono para formas de selector de rueda rectangular.
 
 :ref:`StyleBox<class_StyleBox>` **picker_focus_circle** :ref:`🔗<class_ColorPicker_theme_style_picker_focus_circle>`
 
-The :ref:`StyleBox<class_StyleBox>` used when the circle-shaped part of the picker is focused. Displayed *over* the picker shape, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the picker shape remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+El :ref:`StyleBox<class_StyleBox>` usado cuando la parte con forma de círculo del selector está enfocada. Se muestra *sobre* la forma del selector, por lo que se debe usar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para asegurar que la forma del selector permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para deshabilitar el efecto visual de enfoque, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Nota que deshabilitar el efecto visual de enfoque dañará la usabilidad de la navegación con teclado/mando, por lo que esto no se recomienda por razones de accesibilidad.
 
 .. rst-class:: classref-item-separator
 
@@ -904,7 +904,7 @@ The :ref:`StyleBox<class_StyleBox>` used when the circle-shaped part of the pick
 
 :ref:`StyleBox<class_StyleBox>` **picker_focus_rectangle** :ref:`🔗<class_ColorPicker_theme_style_picker_focus_rectangle>`
 
-The :ref:`StyleBox<class_StyleBox>` used when the rectangle-shaped part of the picker is focused. Displayed *over* the picker shape, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the picker shape remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+El :ref:`StyleBox<class_StyleBox>` usado cuando la parte con forma de rectángulo del selector está enfocada. Se muestra *sobre* la forma del selector, por lo que se debe usar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para asegurar que la forma del selector permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para deshabilitar el efecto visual de enfoque, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Nota que deshabilitar el efecto visual de enfoque dañará la usabilidad de la navegación con teclado/mando, por lo que esto no se recomienda por razones de accesibilidad.
 
 .. rst-class:: classref-item-separator
 
@@ -916,7 +916,7 @@ The :ref:`StyleBox<class_StyleBox>` used when the rectangle-shaped part of the p
 
 :ref:`StyleBox<class_StyleBox>` **sample_focus** :ref:`🔗<class_ColorPicker_theme_style_sample_focus>`
 
-The :ref:`StyleBox<class_StyleBox>` used for the old color sample part when it is focused. Displayed *over* the sample, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the picker shape remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+El :ref:`StyleBox<class_StyleBox>` usado para la parte de muestra del color anterior cuando está enfocada. Se muestra *sobre* la muestra, por lo que se debe usar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para asegurar que la forma del selector permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para deshabilitar el efecto visual de enfoque, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Nota que deshabilitar el efecto visual de enfoque dañará la usabilidad de la navegación con teclado/mando, por lo que esto no se recomienda por razones de accesibilidad.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

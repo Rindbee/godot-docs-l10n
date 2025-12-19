@@ -7,7 +7,7 @@ EditorUndoRedoManager
 
 **Hereda:** :ref:`Object<class_Object>`
 
-Manages undo history of scenes opened in the editor.
+Gestiona el historial de deshacer de las escenas abiertas en el editor.
 
 .. rst-class:: classref-introduction-group
 
@@ -81,7 +81,7 @@ Señales
 
 **history_changed**\ (\ ) :ref:`🔗<class_EditorUndoRedoManager_signal_history_changed>`
 
-Emitted when the list of actions in any history has changed, either when an action is committed or a history is cleared.
+Se emite cuando la lista de acciones en cualquier historial ha cambiado, ya sea cuando se confirma una acción o se borra un historial.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ Emitted when the list of actions in any history has changed, either when an acti
 
 **version_changed**\ (\ ) :ref:`🔗<class_EditorUndoRedoManager_signal_version_changed>`
 
-Emitted when the version of any history has changed as a result of undo or redo call.
+Se emite cuando la versión de cualquier historial ha cambiado como resultado de una llamada de deshacer o rehacer.
 
 .. rst-class:: classref-section-separator
 
@@ -116,7 +116,7 @@ enum **SpecialHistory**: :ref:`🔗<enum_EditorUndoRedoManager_SpecialHistory>`
 
 :ref:`SpecialHistory<enum_EditorUndoRedoManager_SpecialHistory>` **GLOBAL_HISTORY** = ``0``
 
-Global history not associated with any scene, but with external resources etc.
+Historial global no asociado a ninguna escena, sino a recursos externos, etc.
 
 .. _class_EditorUndoRedoManager_constant_REMOTE_HISTORY:
 
@@ -124,7 +124,7 @@ Global history not associated with any scene, but with external resources etc.
 
 :ref:`SpecialHistory<enum_EditorUndoRedoManager_SpecialHistory>` **REMOTE_HISTORY** = ``-9``
 
-History associated with remote inspector. Used when live editing a running project.
+Historial asociado con el inspector remoto. Se utiliza cuando se edita en vivo un proyecto en ejecución.
 
 .. _class_EditorUndoRedoManager_constant_INVALID_HISTORY:
 
@@ -132,7 +132,7 @@ History associated with remote inspector. Used when live editing a running proje
 
 :ref:`SpecialHistory<enum_EditorUndoRedoManager_SpecialHistory>` **INVALID_HISTORY** = ``-99``
 
-Invalid "null" history. It's a special value, not associated with any object.
+Historial "nulo" inválido. Es un valor especial, no asociado a ningún objeto.
 
 .. rst-class:: classref-section-separator
 
@@ -149,9 +149,9 @@ Descripciones de Métodos
 
 |void| **add_do_method**\ (\ object\: :ref:`Object<class_Object>`, method\: :ref:`StringName<class_StringName>`, ...\ ) |vararg| :ref:`🔗<class_EditorUndoRedoManager_method_add_do_method>`
 
-Register a method that will be called when the action is committed (i.e. the "do" action).
+Registra un método que se llamará cuando se confirme la acción (es decir, la acción "do").
 
-If this is the first operation, the ``object`` will be used to deduce target undo history.
+Si esta es la primera operación, el ``object`` se utilizará para deducir el historial de deshacer objetivo.
 
 .. rst-class:: classref-item-separator
 
@@ -163,9 +163,9 @@ If this is the first operation, the ``object`` will be used to deduce target und
 
 |void| **add_do_property**\ (\ object\: :ref:`Object<class_Object>`, property\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_EditorUndoRedoManager_method_add_do_property>`
 
-Register a property value change for "do".
+Registra un cambio de valor de propiedad para "do".
 
-If this is the first operation, the ``object`` will be used to deduce target undo history.
+Si esta es la primera operación, el ``object`` se utilizará para deducir el historial de deshacer objetivo.
 
 .. rst-class:: classref-item-separator
 
@@ -229,9 +229,9 @@ Registra una referencia para "deshacer" que se borrará si se pierde la historia
 
 |void| **clear_history**\ (\ id\: :ref:`int<class_int>` = -99, increase_version\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_EditorUndoRedoManager_method_clear_history>`
 
-Clears the given undo history. You can clear history for a specific scene, global history, or for all scenes at once if ``id`` is :ref:`INVALID_HISTORY<class_EditorUndoRedoManager_constant_INVALID_HISTORY>`.
+Limpia el historial de deshacer dado. Puedes limpiar el historial de una escena específica, el historial global o para todas las escenas a la vez si ``id`` es :ref:`INVALID_HISTORY<class_EditorUndoRedoManager_constant_INVALID_HISTORY>`.
 
-If ``increase_version`` is ``true``, the undo history version will be increased, marking it as unsaved. Useful for operations that modify the scene, but don't support undo.
+Si ``increase_version`` es ``true``, la versión del historial de deshacer se incrementará, marcándola como no guardada. Útil para las operaciones que modifican la escena, pero no admiten deshacer.
 
 ::
 
@@ -239,7 +239,7 @@ If ``increase_version`` is ``true``, the undo history version will be increased,
     var undo_redo = EditorInterface.get_editor_undo_redo()
     undo_redo.clear_history(undo_redo.get_object_history_id(scene_root))
 
-\ **Note:** If you want to mark an edited scene as unsaved without clearing its history, use :ref:`EditorInterface.mark_scene_as_unsaved()<class_EditorInterface_method_mark_scene_as_unsaved>` instead.
+\ **Nota:** Si quieres marcar una escena editada como no guardada sin limpiar su historial, usa :ref:`EditorInterface.mark_scene_as_unsaved()<class_EditorInterface_method_mark_scene_as_unsaved>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -251,7 +251,7 @@ If ``increase_version`` is ``true``, the undo history version will be increased,
 
 |void| **commit_action**\ (\ execute\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_EditorUndoRedoManager_method_commit_action>`
 
-Commits the action. If ``execute`` is ``true`` (default), all "do" methods/properties are called/set when this function is called.
+Confirma la acción. Si ``execute`` es ``true`` (por defecto), todos los métodos/propiedades "do" son llamados/establecidos cuando se llama a esta función.
 
 .. rst-class:: classref-item-separator
 
@@ -283,9 +283,9 @@ If ``mark_unsaved`` is ``false``, the action will not mark the history as unsave
 
 |void| **force_fixed_history**\ (\ ) :ref:`🔗<class_EditorUndoRedoManager_method_force_fixed_history>`
 
-Forces the next operation (e.g. :ref:`add_do_method()<class_EditorUndoRedoManager_method_add_do_method>`) to use the action's history rather than guessing it from the object. This is sometimes needed when a history can't be correctly determined, like for a nested resource that doesn't have a path yet.
+Fuerza a que la siguiente operación (p. ej. :ref:`add_do_method()<class_EditorUndoRedoManager_method_add_do_method>`) use el historial de la acción en lugar de adivinarlo del objeto. Esto a veces es necesario cuando no se puede determinar correctamente un historial, como para un recurso anidado que aún no tiene una ruta.
 
-This method should only be used when absolutely necessary, otherwise it might cause invalid history state. For most of complex cases, the ``custom_context`` parameter of :ref:`create_action()<class_EditorUndoRedoManager_method_create_action>` is sufficient.
+Este método solo debe usarse cuando sea absolutamente necesario, de lo contrario, podría causar un estado de historial no válido. Para la mayoría de los casos complejos, el parámetro ``custom_context`` de :ref:`create_action()<class_EditorUndoRedoManager_method_create_action>` es suficiente.
 
 .. rst-class:: classref-item-separator
 
@@ -297,11 +297,11 @@ This method should only be used when absolutely necessary, otherwise it might ca
 
 :ref:`UndoRedo<class_UndoRedo>` **get_history_undo_redo**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorUndoRedoManager_method_get_history_undo_redo>`
 
-Returns the :ref:`UndoRedo<class_UndoRedo>` object associated with the given history ``id``.
+Devuelve el objeto :ref:`UndoRedo<class_UndoRedo>` asociado con el ``id`` del historial dado.
 
-\ ``id`` above ``0`` are mapped to the opened scene tabs (but it doesn't match their order). ``id`` of ``0`` or lower have special meaning (see :ref:`SpecialHistory<enum_EditorUndoRedoManager_SpecialHistory>`).
+\ ``id`` por encima de ``0`` se asignan a las pestañas de escena abiertas (pero no coinciden con su orden). ``id`` de ``0`` o inferior tienen un significado especial (véase :ref:`SpecialHistory<enum_EditorUndoRedoManager_SpecialHistory>`).
 
-Best used with :ref:`get_object_history_id()<class_EditorUndoRedoManager_method_get_object_history_id>`. This method is only provided in case you need some more advanced methods of :ref:`UndoRedo<class_UndoRedo>` (but keep in mind that directly operating on the :ref:`UndoRedo<class_UndoRedo>` object might affect editor's stability).
+Se utiliza mejor con :ref:`get_object_history_id()<class_EditorUndoRedoManager_method_get_object_history_id>`. Este método solo se proporciona en caso de que necesites algunos métodos más avanzados de :ref:`UndoRedo<class_UndoRedo>` (pero ten en cuenta que operar directamente en el objeto :ref:`UndoRedo<class_UndoRedo>` podría afectar la estabilidad del editor).
 
 .. rst-class:: classref-item-separator
 
@@ -313,7 +313,7 @@ Best used with :ref:`get_object_history_id()<class_EditorUndoRedoManager_method_
 
 :ref:`int<class_int>` **get_object_history_id**\ (\ object\: :ref:`Object<class_Object>`\ ) |const| :ref:`🔗<class_EditorUndoRedoManager_method_get_object_history_id>`
 
-Returns the history ID deduced from the given ``object``. It can be used with :ref:`get_history_undo_redo()<class_EditorUndoRedoManager_method_get_history_undo_redo>`.
+Devuelve el ID del historial deducido del ``object`` dado. Se puede usar con :ref:`get_history_undo_redo()<class_EditorUndoRedoManager_method_get_history_undo_redo>`.
 
 .. rst-class:: classref-item-separator
 
@@ -325,7 +325,7 @@ Returns the history ID deduced from the given ``object``. It can be used with :r
 
 :ref:`bool<class_bool>` **is_committing_action**\ (\ ) |const| :ref:`🔗<class_EditorUndoRedoManager_method_is_committing_action>`
 
-Returns ``true`` if the **EditorUndoRedoManager** is currently committing the action, i.e. running its "do" method or property change (see :ref:`commit_action()<class_EditorUndoRedoManager_method_commit_action>`).
+Devuelve ``true`` si el **EditorUndoRedoManager** está actualmente confirmando la acción, es decir, ejecutando su método "do" o el cambio de propiedad (véase :ref:`commit_action()<class_EditorUndoRedoManager_method_commit_action>`).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

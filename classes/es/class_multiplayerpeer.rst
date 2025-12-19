@@ -304,7 +304,7 @@ Disconnects the given ``peer`` from this host. If ``force`` is ``true`` the :ref
 
 :ref:`int<class_int>` **generate_unique_id**\ (\ ) |const| :ref:`🔗<class_MultiplayerPeer_method_generate_unique_id>`
 
-Returns a randomly generated integer that can be used as a network unique ID.
+Devuelve un entero generado aleatoriamente que se puede usar como un ID único de red.
 
 .. rst-class:: classref-item-separator
 
@@ -376,7 +376,7 @@ Devuelve el ID de este **MultiplayerPeer**.
 
 :ref:`bool<class_bool>` **is_server_relay_supported**\ (\ ) |const| :ref:`🔗<class_MultiplayerPeer_method_is_server_relay_supported>`
 
-Returns ``true`` if the server can act as a relay in the current configuration. That is, if the higher level :ref:`MultiplayerAPI<class_MultiplayerAPI>` should notify connected clients of other peers, and implement a relay protocol to allow communication between them.
+Devuelve ``true`` si el servidor puede actuar como un repetidor en la configuración actual. Es decir, si la :ref:`MultiplayerAPI<class_MultiplayerAPI>` de nivel superior debe notificar a los clientes conectados de otros peers, e implementar un protocolo de retransmisión para permitir la comunicación entre ellos.
 
 .. rst-class:: classref-item-separator
 

@@ -344,7 +344,7 @@ Returns the specified vertex index of the given face.
 
 :ref:`int<class_int>` **get_format**\ (\ ) |const| :ref:`🔗<class_MeshDataTool_method_get_format>`
 
-Returns the :ref:`Mesh<class_Mesh>`'s format as a combination of the :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` flags. For example, a mesh containing both vertices and normals would return a format of ``3`` because :ref:`Mesh.ARRAY_FORMAT_VERTEX<class_Mesh_constant_ARRAY_FORMAT_VERTEX>` is ``1`` and :ref:`Mesh.ARRAY_FORMAT_NORMAL<class_Mesh_constant_ARRAY_FORMAT_NORMAL>` is ``2``.
+Devuelve el formato de la :ref:`Mesh<class_Mesh>` como una combinación de los flags de :ref:`ArrayFormat<enum_Mesh_ArrayFormat>`. Por ejemplo, una malla que contiene tanto vértices como normales devolvería un formato de ``3`` porque :ref:`Mesh.ARRAY_FORMAT_VERTEX<class_Mesh_constant_ARRAY_FORMAT_VERTEX>` es ``1`` y :ref:`Mesh.ARRAY_FORMAT_NORMAL<class_Mesh_constant_ARRAY_FORMAT_NORMAL>` es ``2``.
 
 .. rst-class:: classref-item-separator
 

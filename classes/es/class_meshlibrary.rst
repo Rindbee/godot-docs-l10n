@@ -124,7 +124,7 @@ Puedes obtener un ID sin usar con el :ref:`get_last_unused_item_id()<class_MeshL
 
 :ref:`int<class_int>` **find_item_by_name**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_find_item_by_name>`
 
-Returns the first item with the given name, or ``-1`` if no item is found.
+Devuelve el primer elemento con el nombre dado, o ``-1`` si no se encuentra ningún elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -160,7 +160,7 @@ Devuelve la malla del objeto.
 
 :ref:`ShadowCastingSetting<enum_RenderingServer_ShadowCastingSetting>` **get_item_mesh_cast_shadow**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_mesh_cast_shadow>`
 
-Returns the item's shadow casting mode.
+Devuelve el modo de proyección de sombras del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -172,7 +172,7 @@ Returns the item's shadow casting mode.
 
 :ref:`Transform3D<class_Transform3D>` **get_item_mesh_transform**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_mesh_transform>`
 
-Returns the transform applied to the item's mesh.
+Devuelve la transformación aplicada a la malla del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Devuelve el nombre del artículo.
 
 :ref:`int<class_int>` **get_item_navigation_layers**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_navigation_layers>`
 
-Returns the item's navigation layers bitmask.
+Devuelve la máscara de bits de las capas de navegación del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -232,7 +232,7 @@ Devuelve la transformación aplicada a la malla de navegación del objeto.
 
 :ref:`Texture2D<class_Texture2D>` **get_item_preview**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_preview>`
 
-When running in the editor, returns a generated item preview (a 3D rendering in isometric perspective). When used in a running project, returns the manually-defined item preview which can be set using :ref:`set_item_preview()<class_MeshLibrary_method_set_item_preview>`. Returns an empty :ref:`Texture2D<class_Texture2D>` if no preview was manually set in a running project.
+Cuando se ejecuta en el editor, devuelve una vista previa de elemento generada (una representación 3D en perspectiva isométrica). Cuando se utiliza en un proyecto en ejecución, devuelve la vista previa de elemento definida manualmente que puedes establecer usando :ref:`set_item_preview()<class_MeshLibrary_method_set_item_preview>`. Devuelve una :ref:`Texture2D<class_Texture2D>` vacía si no has establecido manualmente ninguna vista previa en un proyecto en ejecución.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ Establece la malla del objeto.
 
 |void| **set_item_mesh_cast_shadow**\ (\ id\: :ref:`int<class_int>`, shadow_casting_setting\: :ref:`ShadowCastingSetting<enum_RenderingServer_ShadowCastingSetting>`\ ) :ref:`🔗<class_MeshLibrary_method_set_item_mesh_cast_shadow>`
 
-Sets the item's shadow casting mode to ``shadow_casting_setting``.
+Establece el modo de proyección de sombras del elemento a ``shadow_casting_setting``.
 
 .. rst-class:: classref-item-separator
 
@@ -306,7 +306,7 @@ Sets the item's shadow casting mode to ``shadow_casting_setting``.
 
 |void| **set_item_mesh_transform**\ (\ id\: :ref:`int<class_int>`, mesh_transform\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_MeshLibrary_method_set_item_mesh_transform>`
 
-Sets the transform to apply to the item's mesh.
+Establece la transformación a aplicar a la malla del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -332,7 +332,7 @@ Este nombre se muestra en el editor. También puede ser usado para buscar el ít
 
 |void| **set_item_navigation_layers**\ (\ id\: :ref:`int<class_int>`, navigation_layers\: :ref:`int<class_int>`\ ) :ref:`🔗<class_MeshLibrary_method_set_item_navigation_layers>`
 
-Sets the item's navigation layers bitmask.
+Establece la máscara de bits de las capas de navegación del elemento.
 
 .. rst-class:: classref-item-separator
 

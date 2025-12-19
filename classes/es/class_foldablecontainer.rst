@@ -10,22 +10,22 @@ FoldableContainer
 
 **Hereda:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container that can be expanded/collapsed.
+Un contenedor que puede ser expandido/colapsado.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons.
+Un contenedor que puede ser expandido/colapsado, con un título que puede ser rellenado con controles, como botones.
 
-The title can be positioned at the top or bottom of the container.
+El título puede ser posicionado en la parte superior o inferior del contenedor.
 
-The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused.
+El contenedor puede ser expandido o colapsado haciendo clic en el título o presionando ``ui_accept`` cuando está enfocado.
 
-Child control nodes are hidden when the container is collapsed. Ignores non-control children.
+Los nodos de control hijo se ocultan cuando el contenedor está colapsado. Ignora los hijos que no son controles.
 
-Can allow grouping with other FoldableContainers, check :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
+Puede permitir la agrupación con otros FoldableContainers, comprueba :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` y :ref:`FoldableGroup<class_FoldableGroup>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -189,7 +189,7 @@ Descripciones de Propiedades
 - |void| **set_foldable_group**\ (\ value\: :ref:`FoldableGroup<class_FoldableGroup>`\ )
 - :ref:`FoldableGroup<class_FoldableGroup>` **get_foldable_group**\ (\ )
 
-The :ref:`FoldableGroup<class_FoldableGroup>` associated with the container. When multiple **FoldableContainer** nodes share the same group, only one of them is allowed to be unfolded.
+El :ref:`FoldableGroup<class_FoldableGroup>` asociado con el contenedor. Cuando múltiples nodos **FoldableContainer** comparten el mismo grupo, solo uno de ellos puede estar desplegado.
 
 .. rst-class:: classref-item-separator
 
@@ -223,7 +223,7 @@ Si es ``true``, el contenedor se plegará y ocultará a todos sus hijos.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for text shaping algorithms. If left empty, current locale is used instead.
+Código de idioma utilizado para los algoritmos de modelado de texto. Si se deja vacío, se utiliza la configuración regional actual en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -257,7 +257,7 @@ El texto del título del contenedor.
 - |void| **set_title_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_title_alignment**\ (\ )
 
-Title's horizontal text alignment.
+Alineación horizontal del texto del título.
 
 .. rst-class:: classref-item-separator
 
@@ -308,7 +308,7 @@ Dirección de redacción del texto del título.
 - |void| **set_title_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_title_text_overrun_behavior**\ (\ )
 
-Defines the behavior of the title when the text is longer than the available space.
+Define el comportamiento del título cuando el texto es más largo que el espacio disponible.
 
 .. rst-class:: classref-section-separator
 
@@ -325,9 +325,9 @@ Descripciones de Métodos
 
 |void| **add_title_bar_control**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_FoldableContainer_method_add_title_bar_control>`
 
-Adds a :ref:`Control<class_Control>` that will be placed next to the container's title, obscuring the clickable area. Prime usage is adding :ref:`Button<class_Button>` nodes, but it can be any :ref:`Control<class_Control>`.
+Añade un :ref:`Control<class_Control>` que se colocará junto al título del contenedor, oscureciendo el área en la que se puede hacer clic. El uso principal es añadir nodos :ref:`Button<class_Button>`, pero puede ser cualquier :ref:`Control<class_Control>`.
 
-The control will be added as a child of this container and removed from previous parent if necessary. The controls will be placed aligned to the right, with the first added control being the leftmost one.
+El control se añadirá como un hijo de este contenedor y se eliminará del padre anterior si es necesario. Los controles se colocarán alineados a la derecha, siendo el primer control añadido el de la izquierda.
 
 .. rst-class:: classref-item-separator
 
@@ -339,7 +339,7 @@ The control will be added as a child of this container and removed from previous
 
 |void| **expand**\ (\ ) :ref:`🔗<class_FoldableContainer_method_expand>`
 
-Expands the container and emits :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
+Expande el contenedor y emite :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -351,7 +351,7 @@ Expands the container and emits :ref:`folding_changed<class_FoldableContainer_si
 
 |void| **fold**\ (\ ) :ref:`🔗<class_FoldableContainer_method_fold>`
 
-Folds the container and emits :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
+Pliega el contenedor y emite :ref:`folding_changed<class_FoldableContainer_signal_folding_changed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -363,7 +363,7 @@ Folds the container and emits :ref:`folding_changed<class_FoldableContainer_sign
 
 |void| **remove_title_bar_control**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_FoldableContainer_method_remove_title_bar_control>`
 
-Removes a :ref:`Control<class_Control>` added with :ref:`add_title_bar_control()<class_FoldableContainer_method_add_title_bar_control>`. The node is not freed automatically, you need to use :ref:`Node.queue_free()<class_Node_method_queue_free>`.
+Remueve un :ref:`Control<class_Control>` añadido con :ref:`add_title_bar_control()<class_FoldableContainer_method_add_title_bar_control>`. El nodo no se libera automáticamente, necesitas usar :ref:`Node.queue_free()<class_Node_method_queue_free>`.
 
 .. rst-class:: classref-section-separator
 
@@ -524,7 +524,7 @@ El icono del título utilizado cuando está contraído (para diseños de derecha
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_FoldableContainer_theme_style_focus>`
 
-Background used when **FoldableContainer** has GUI focus. The :ref:`focus<class_FoldableContainer_theme_style_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>`, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Fondo utilizado cuando **FoldableContainer** tiene el foco de la GUI. El :ref:`focus<class_FoldableContainer_theme_style_focus>` :ref:`StyleBox<class_StyleBox>` se muestra *sobre* el :ref:`StyleBox<class_StyleBox>` base, por lo que se debe utilizar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para garantizar que el :ref:`StyleBox<class_StyleBox>` base permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para desactivar el efecto visual de enfoque, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Ten en cuenta que desactivar el efecto visual de enfoque perjudicará la usabilidad de la navegación con teclado/mando, por lo que esto no se recomienda por razones de accesibilidad.
 
 .. rst-class:: classref-item-separator
 

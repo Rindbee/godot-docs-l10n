@@ -7,7 +7,7 @@ AcceptDialog
 
 **Hérite de :** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`ConfirmationDialog<class_ConfirmationDialog>`
+**Hérité par :** :ref:`ConfirmationDialog<class_ConfirmationDialog>`
 
 Une boîte de dialogue de base utilisée pour la notification des utilisateurs.
 

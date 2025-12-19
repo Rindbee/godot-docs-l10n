@@ -7,67 +7,67 @@ HashingContext
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides functionality for computing cryptographic hashes chunk by chunk.
+Fournit des fonctionnalités pour calculer des hachages cryptographiques morceau par morceau.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-The HashingContext class provides an interface for computing cryptographic hashes over multiple iterations. Useful for computing hashes of big files (so you don't have to load them all in memory), network streams, and data streams in general (so you don't have to hold buffers).
+La classe HashingContext fournit une interface pour calculer des hachages cryptographiques sur plusieurs itérations. Utile pour calculer des hachages de fichiers très volumineux (pour ne pas avoir à les garder complètement en mémoire), de flux réseau, et de flux de données en général (pour ne pas avoir à maintenir des buffers).
 
-The :ref:`HashType<enum_HashingContext_HashType>` enum shows the supported hashing algorithms.
+L'énumération :ref:`HashType<enum_HashingContext_HashType>` liste tous les algorithmes de hachage supportés.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    const CHUNK_SIZE = 1024
+    const TAILLE_CHUNK = 1024
 
-    func hash_file(path):
-        # Check that file exists.
+    func hacher_fichier(chemin):
+        # Vérifier que le fichier existe.
         if not FileAccess.file_exists(path):
             return
-        # Start an SHA-256 context.
+        # Créer un contexte SHA-256.
         var ctx = HashingContext.new()
         ctx.start(HashingContext.HASH_SHA256)
-        # Open the file to hash.
-        var file = FileAccess.open(path, FileAccess.READ)
-        # Update the context after reading each chunk.
+        # Ouvrir le fichier à hacher.
+        var fichier = FileAccess.open(chemin, FileAccess.READ)
+        # Mettre à jour le contexte après la lecture de chaque morceau ("chunk").
         while file.get_position() < file.get_length():
-            var remaining = file.get_length() - file.get_position()
-            ctx.update(file.get_buffer(min(remaining, CHUNK_SIZE)))
-        # Get the computed hash.
+            var restant = fichier.get_length() - fichier.get_position()
+            ctx.update(fichier.get_buffer(min(restant, TAILLE_CHUNK)))
+        # Récupérer le hachage calculé.
         var res = ctx.finish()
-        # Print the result as hex string and array.
+        # Afficher le résultat sous forme hexadécimale et en tableau.
         printt(res.hex_encode(), Array(res))
 
  .. code-tab:: csharp
 
-    public const int ChunkSize = 1024;
+    public const int TailleChunk = 1024;
 
-    public void HashFile(string path)
+    public void HacherFichier(string chemin)
     {
-        // Check that file exists.
-        if (!FileAccess.FileExists(path))
+        // Vérifier que le fichier existe.
+        if (!FileAccess.FileExists(chemin))
         {
             return;
         }
-        // Start an SHA-256 context.
+        // Créer un contexte SHA-256.
         var ctx = new HashingContext();
         ctx.Start(HashingContext.HashType.Sha256);
-        // Open the file to hash.
-        using var file = FileAccess.Open(path, FileAccess.ModeFlags.Read);
-        // Update the context after reading each chunk.
-        while (file.GetPosition() < file.GetLength())
+        // Ouvrir le fichier à hacher.
+        using var fichier = FileAccess.Open(chemin, FileAccess.ModeFlags.Read);
+        // Mettre à jour le contexte après la lecture de chaque morceau ("chunk").
+        while (fichier.GetPosition() < fichier.GetLength())
         {
-            int remaining = (int)(file.GetLength() - file.GetPosition());
-            ctx.Update(file.GetBuffer(Mathf.Min(remaining, ChunkSize)));
+            int restant = (int)(fichier.GetLength() - fichier.GetPosition());
+            ctx.Update(fichier.GetBuffer(Mathf.Min(restant, TailleChunk)));
         }
-        // Get the computed hash.
+        // Récupérer le hachage calculé.
         byte[] res = ctx.Finish();
-        // Print the result as hex string and array.
+        // Afficher le résultat sous forme hexadécimale et en tableau.
         GD.PrintT(res.HexEncode(), (Variant)res);
     }
 
@@ -155,7 +155,7 @@ Finalise l'actuel contexte, et renvoie le hachage calculé.
 
 :ref:`Error<enum_@GlobalScope_Error>` **start**\ (\ type\: :ref:`HashType<enum_HashingContext_HashType>`\ ) :ref:`🔗<class_HashingContext_method_start>`
 
-Starts a new hash computation of the given ``type`` (e.g. :ref:`HASH_SHA256<class_HashingContext_constant_HASH_SHA256>` to start computation of an SHA-256).
+Commence un nouveau calcul de hachage du ``type`` donné (par exemple :ref:`HASH_SHA256<class_HashingContext_constant_HASH_SHA256>` pour commencer le calcul d'un SHA-256).
 
 .. rst-class:: classref-item-separator
 
@@ -167,7 +167,7 @@ Starts a new hash computation of the given ``type`` (e.g. :ref:`HASH_SHA256<clas
 
 :ref:`Error<enum_@GlobalScope_Error>` **update**\ (\ chunk\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_HashingContext_method_update>`
 
-Updates the computation with the given ``chunk`` of data.
+Met à jour le calcul avec la partie des données ``chunk`` donnée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

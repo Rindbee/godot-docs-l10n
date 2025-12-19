@@ -139,9 +139,9 @@ Emitida cuando el puntero del ratón entra en cualquiera de las formas de este o
 
 **mouse_exited**\ (\ ) :ref:`🔗<class_CollisionObject3D_signal_mouse_exited>`
 
-Emitted when the mouse pointer exits all this object's shapes. Requires :ref:`input_ray_pickable<class_CollisionObject3D_property_input_ray_pickable>` to be ``true`` and at least one :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>` bit to be set.
+Emitida cuando el puntero del ratón sale de todas las formas de este objeto. Requiere que :ref:`input_ray_pickable<class_CollisionObject3D_property_input_ray_pickable>` sea ``true`` y que al menos un bit de :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>` esté establecido.
 
-\ **Note:** Due to the lack of continuous collision detection, this signal may not be emitted in the expected order if the mouse moves fast enough and the **CollisionObject3D**'s area is small. This signal may also not be emitted if another **CollisionObject3D** is overlapping the **CollisionObject3D** in question.
+\ **Nota:** Debido a la falta de detección continua de colisiones, esta señal puede no emitirse en el orden esperado si el ratón se mueve lo suficientemente rápido y el área de **CollisionObject3D** es pequeña. Esta señal también puede no emitirse si otro **CollisionObject3D** se superpone al **CollisionObject3D** en cuestión.
 
 .. rst-class:: classref-section-separator
 
@@ -164,9 +164,9 @@ enum **DisableMode**: :ref:`🔗<enum_CollisionObject3D_DisableMode>`
 
 :ref:`DisableMode<enum_CollisionObject3D_DisableMode>` **DISABLE_MODE_REMOVE** = ``0``
 
-When :ref:`Node.process_mode<class_Node_property_process_mode>` is set to :ref:`Node.PROCESS_MODE_DISABLED<class_Node_constant_PROCESS_MODE_DISABLED>`, remove from the physics simulation to stop all physics interactions with this **CollisionObject3D**.
+Cuando :ref:`Node.process_mode<class_Node_property_process_mode>` se establece en :ref:`Node.PROCESS_MODE_DISABLED<class_Node_constant_PROCESS_MODE_DISABLED>`, se elimina de la simulación física para detener todas las interacciones físicas con este **CollisionObject3D**.
 
-Automatically re-added to the physics simulation when the :ref:`Node<class_Node>` is processed again.
+Se vuelve a añadir automáticamente a la simulación física cuando el :ref:`Node<class_Node>` se procesa de nuevo.
 
 .. _class_CollisionObject3D_constant_DISABLE_MODE_MAKE_STATIC:
 
@@ -174,9 +174,9 @@ Automatically re-added to the physics simulation when the :ref:`Node<class_Node>
 
 :ref:`DisableMode<enum_CollisionObject3D_DisableMode>` **DISABLE_MODE_MAKE_STATIC** = ``1``
 
-When :ref:`Node.process_mode<class_Node_property_process_mode>` is set to :ref:`Node.PROCESS_MODE_DISABLED<class_Node_constant_PROCESS_MODE_DISABLED>`, make the body static. Doesn't affect :ref:`Area3D<class_Area3D>`. :ref:`PhysicsBody3D<class_PhysicsBody3D>` can't be affected by forces or other bodies while static.
+Cuando :ref:`Node.process_mode<class_Node_property_process_mode>` se establece en :ref:`Node.PROCESS_MODE_DISABLED<class_Node_constant_PROCESS_MODE_DISABLED>`, haz que el cuerpo sea estático. No afecta a :ref:`Area3D<class_Area3D>`. :ref:`PhysicsBody3D<class_PhysicsBody3D>` no puede ser afectado por fuerzas u otros cuerpos mientras es estático.
 
-Automatically set :ref:`PhysicsBody3D<class_PhysicsBody3D>` back to its original mode when the :ref:`Node<class_Node>` is processed again.
+Automáticamente devuelve :ref:`PhysicsBody3D<class_PhysicsBody3D>` a su modo original cuando el :ref:`Node<class_Node>` se procesa de nuevo.
 
 .. _class_CollisionObject3D_constant_DISABLE_MODE_KEEP_ACTIVE:
 
@@ -362,7 +362,7 @@ Crea un nuevo dueño de la forma para el objeto dado. Devuelve ``owner_id`` del 
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject3D_method_get_collision_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -374,7 +374,7 @@ Returns whether or not the specified layer of the :ref:`collision_layer<class_Co
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject3D_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_mask<class_CollisionObject3D_property_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_mask<class_CollisionObject3D_property_collision_mask>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -434,7 +434,7 @@ Elimina al dueño de la forma dada.
 
 |void| **set_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CollisionObject3D_method_set_collision_layer_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -446,7 +446,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`collisi
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CollisionObject3D_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_mask<class_CollisionObject3D_property_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_mask<class_CollisionObject3D_property_collision_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -506,7 +506,7 @@ Devuelve el objeto padre del propietario de la forma dada.
 
 :ref:`Shape3D<class_Shape3D>` **shape_owner_get_shape**\ (\ owner_id\: :ref:`int<class_int>`, shape_id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject3D_method_shape_owner_get_shape>`
 
-Returns the :ref:`Shape3D<class_Shape3D>` with the given ID from the given shape owner.
+Devuelve la :ref:`Shape3D<class_Shape3D>` con el ID dado del propietario de la forma dado.
 
 .. rst-class:: classref-item-separator
 

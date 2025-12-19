@@ -7,14 +7,14 @@ RDSamplerState
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Sampler state (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Estado del sampler (utilizado por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -76,9 +76,9 @@ Descripciones de Propiedades
 - |void| **set_anisotropy_max**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_anisotropy_max**\ (\ )
 
-Maximum anisotropy that can be used when sampling. Only effective if :ref:`use_anisotropy<class_RDSamplerState_property_use_anisotropy>` is ``true``. Higher values result in a sharper sampler at oblique angles, at the cost of performance (due to memory bandwidth). This value may be limited by the graphics hardware in use. Most graphics hardware only supports values up to ``16.0``.
+Máxima anisotropía que se puede utilizar al muestrear. Solo es efectivo si :ref:`use_anisotropy<class_RDSamplerState_property_use_anisotropy>` es ``true``. Los valores más altos dan como resultado un sampler más nítido en ángulos oblicuos, a costa del rendimiento (debido al ancho de banda de la memoria). Este valor puede estar limitado por el hardware gráfico en uso. La mayoría del hardware gráfico solo admite valores de hasta ``16.0``.
 
-If :ref:`anisotropy_max<class_RDSamplerState_property_anisotropy_max>` is ``1.0``, forcibly disables anisotropy even if :ref:`use_anisotropy<class_RDSamplerState_property_use_anisotropy>` is ``true``.
+Si :ref:`anisotropy_max<class_RDSamplerState_property_anisotropy_max>` es ``1.0``, desactiva por la fuerza la anisotropía incluso si :ref:`use_anisotropy<class_RDSamplerState_property_use_anisotropy>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -95,7 +95,7 @@ If :ref:`anisotropy_max<class_RDSamplerState_property_anisotropy_max>` is ``1.0`
 - |void| **set_border_color**\ (\ value\: :ref:`SamplerBorderColor<enum_RenderingDevice_SamplerBorderColor>`\ )
 - :ref:`SamplerBorderColor<enum_RenderingDevice_SamplerBorderColor>` **get_border_color**\ (\ )
 
-The border color that will be returned when sampling outside the sampler's bounds and the :ref:`repeat_u<class_RDSamplerState_property_repeat_u>`, :ref:`repeat_v<class_RDSamplerState_property_repeat_v>` or :ref:`repeat_w<class_RDSamplerState_property_repeat_w>` modes have repeating disabled.
+El color del borde que se devolverá al muestrear fuera de los límites del sampler y los modos :ref:`repeat_u<class_RDSamplerState_property_repeat_u>`, :ref:`repeat_v<class_RDSamplerState_property_repeat_v>` o :ref:`repeat_w<class_RDSamplerState_property_repeat_w>` tienen la repetición desactivada.
 
 .. rst-class:: classref-item-separator
 
@@ -112,7 +112,7 @@ The border color that will be returned when sampling outside the sampler's bound
 - |void| **set_compare_op**\ (\ value\: :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>`\ )
 - :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>` **get_compare_op**\ (\ )
 
-The compare operation to use. Only effective if :ref:`enable_compare<class_RDSamplerState_property_enable_compare>` is ``true``.
+La operación de comparación a utilizar. Solo es efectiva si :ref:`enable_compare<class_RDSamplerState_property_enable_compare>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -129,7 +129,7 @@ The compare operation to use. Only effective if :ref:`enable_compare<class_RDSam
 - |void| **set_enable_compare**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enable_compare**\ (\ )
 
-If ``true``, returned values will be based on the comparison operation defined in :ref:`compare_op<class_RDSamplerState_property_compare_op>`. This is a hardware-based approach and is therefore faster than performing this manually in a shader. For example, compare operations are used for shadow map rendering by comparing depth values from a shadow sampler.
+Si es ``true``, los valores devueltos se basarán en la operación de comparación definida en :ref:`compare_op<class_RDSamplerState_property_compare_op>`. Este es un enfoque basado en hardware y, por lo tanto, es más rápido que realizar esto manualmente en un shader. Por ejemplo, las operaciones de comparación se utilizan para el renderizado de mapas de sombras comparando los valores de profundidad de un sampler de sombras.
 
 .. rst-class:: classref-item-separator
 
@@ -146,7 +146,7 @@ If ``true``, returned values will be based on the comparison operation defined i
 - |void| **set_lod_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_lod_bias**\ (\ )
 
-The mipmap LOD bias to use. Positive values will make the sampler blurrier at a given distance, while negative values will make the sampler sharper at a given distance (at the risk of looking grainy). Recommended values are between ``-0.5`` and ``0.0``. Only effective if the sampler has mipmaps available.
+El sesgo de LOD de mipmap a utilizar. Los valores positivos harán que el sampler sea más borroso a una distancia dada, mientras que los valores negativos harán que el sampler sea más nítido a una distancia dada (con el riesgo de verse granulado). Los valores recomendados están entre ``-0.5`` y ``0.0``. Solo es efectivo si el sampler tiene mipmaps disponibles.
 
 .. rst-class:: classref-item-separator
 

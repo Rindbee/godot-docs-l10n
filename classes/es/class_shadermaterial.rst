@@ -7,7 +7,7 @@ ShaderMaterial
 
 **Hereda:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A material defined by a custom :ref:`Shader<class_Shader>` program and the values of its shader parameters.
+Un material definido por un programa de :ref:`Shader<class_Shader>`\ s personalizado y los valores de sus parámetros de shader.
 
 .. rst-class:: classref-introduction-group
 

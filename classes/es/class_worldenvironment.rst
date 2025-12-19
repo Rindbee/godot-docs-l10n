@@ -87,7 +87,7 @@ El recurso :ref:`CameraAttributes<class_CameraAttributes>` por defecto a usar si
 - |void| **set_compositor**\ (\ value\: :ref:`Compositor<class_Compositor>`\ )
 - :ref:`Compositor<class_Compositor>` **get_compositor**\ (\ )
 
-El recurso :ref:`Compositor<class_Compositor>` predeterminado que se utilizará si no se establece ninguno en la :ref:`Camera3D<class_Camera3D>`.
+El recurso :ref:`Compositor<class_Compositor>` por defecto a usar si no se ha configurado ninguno en la :ref:`Camera3D<class_Camera3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -104,7 +104,7 @@ El recurso :ref:`Compositor<class_Compositor>` predeterminado que se utilizará 
 - |void| **set_environment**\ (\ value\: :ref:`Environment<class_Environment>`\ )
 - :ref:`Environment<class_Environment>` **get_environment**\ (\ )
 
-El recurso :ref:`Environment<class_Environment>` utilizado por este **WorldEnvironment**, definiendo las propiedades por defecto.
+El recurso :ref:`Environment<class_Environment>` usado por este **WorldEnvironment**, que define las propiedades por defecto.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

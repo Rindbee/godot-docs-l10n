@@ -266,7 +266,7 @@ Devuelve el tamaño de nuestro objetivo de renderizado para esta interfaz, esto 
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_suggested_pose_names**\ (\ tracker_name\: :ref:`StringName<class_StringName>`\ ) |virtual| |const| :ref:`🔗<class_XRInterfaceExtension_private_method__get_suggested_pose_names>`
 
-Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` con los nombres de pose configurados por esta interfaz. Ten en cuenta que la configuración del usuario puede anular esta lista.
+Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` con los nombres de pose configurados por esta interfaz. Ten en cuenta que la configuración del usuario puede sobrescribir esta lista.
 
 .. rst-class:: classref-item-separator
 
@@ -278,7 +278,7 @@ Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` con los nombres de
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_suggested_tracker_names**\ (\ ) |virtual| |const| :ref:`🔗<class_XRInterfaceExtension_private_method__get_suggested_tracker_names>`
 
-Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` con los nombres de los rastreadores configurados por esta interfaz. Ten en cuenta que la configuración del usuario puede anular esta lista.
+Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` con los nombres de los rastreadores configurados por esta interfaz. Ten en cuenta que la configuración del usuario puede sobrescribir esta lista.
 
 .. rst-class:: classref-item-separator
 

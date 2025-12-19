@@ -12,18 +12,18 @@ Dictionary
 描述
 ----
 
-Dictionaries are associative containers that contain values referenced by unique keys. Dictionaries will preserve the insertion order when adding new entries. In other programming languages, this data structure is often referred to as a hash map or an associative array.
+字典是关系容器，包含的值（Value）由唯一的键（Key）引用。添加新条目时，字典会保持插入顺序。在其他编程语言中，这种数据结构有时也称为哈希表或关联数组。
 
-You can define a dictionary by placing a comma-separated list of ``key: value`` pairs inside curly braces ``{}``.
+在大括号 ``{}`` 中放置用逗号分隔的一对对 ``键: 值`` 列表就可以定义字典。
 
-Creating a dictionary:
+字典的创建：
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var my_dict = {} # Creates an empty dictionary.
+    var my_dict = {} # 创建空字典。
 
     var dict_variable_key = "Another key name"
     var dict_variable_value = "value2"
@@ -34,17 +34,17 @@ Creating a dictionary:
 
     var points_dict = { "White": 50, "Yellow": 75, "Orange": 100 }
 
-    # Alternative Lua-style syntax.
-    # Doesn't require quotes around keys, but only string constants can be used as key names.
-    # Additionally, key names must start with a letter or an underscore.
-    # Here, `some_key` is a string literal, not a variable!
+    # 备选 Lua 分隔语法。
+    # 不需要在键周围加引号，但键名只能为字符串常量。
+    # 另外，键名必须以字母或下划线开头。
+    # 此处的 `some_key` 是字符串字面量，不是变量！
     another_dict = {
         some_key = 42,
     }
 
  .. code-tab:: csharp
 
-    var myDict = new Godot.Collections.Dictionary(); // Creates an empty dictionary.
+    var myDict = new Godot.Collections.Dictionary(); // 创建空字典。
     var pointsDict = new Godot.Collections.Dictionary
     {
         { "White", 50 },
@@ -54,7 +54,7 @@ Creating a dictionary:
 
 
 
-You can access a dictionary's value by referencing its corresponding key. In the above example, ``points_dict["White"]`` will return ``50``. You can also write ``points_dict.White``, which is equivalent. However, you'll have to use the bracket syntax if the key you're accessing the dictionary with isn't a fixed string (such as a number or variable).
+你可以通过键来访问字典中对应的值。上面的例子中，\ ``points_dict["White"]`` 会返回 ``50``\ 。你也可以写 ``points_dict.White``\ ，和前面的写法是等价的。不过如果用来访问字典的键不是固定字符串的话（例如数字或者变量），那么就只能使用方括号语法。
 
 
 .. tabs::
@@ -64,7 +64,7 @@ You can access a dictionary's value by referencing its corresponding key. In the
     @export_enum("White", "Yellow", "Orange") var my_color: String
     var points_dict = { "White": 50, "Yellow": 75, "Orange": 100 }
     func _ready():
-        # We can't use dot syntax here as `my_color` is a variable.
+        # 不能使用点语法，因为 `my_color` 是变量。
         var points = points_dict[my_color]
 
  .. code-tab:: csharp
@@ -85,9 +85,9 @@ You can access a dictionary's value by referencing its corresponding key. In the
 
 
 
-In the above code, ``points`` will be assigned the value that is paired with the appropriate color selected in ``my_color``.
+在上面的代码中，\ ``points`` 会被赋值为与 ``my_color`` 中选中的颜色相对应的值。
 
-Dictionaries can contain more complex data:
+字典可以包含更复杂的数据：
 
 
 .. tabs::
@@ -95,7 +95,7 @@ Dictionaries can contain more complex data:
  .. code-tab:: gdscript
 
     var my_dict = {
-        "First Array": [1, 2, 3, 4] # Assigns an Array to a String key.
+        "First Array": [1, 2, 3, 4] # 将 Array 赋给 String 键。
     }
 
  .. code-tab:: csharp
@@ -107,7 +107,7 @@ Dictionaries can contain more complex data:
 
 
 
-To add a key to an existing dictionary, access it like an existing key and assign to it:
+要往已有字典中添加键，请像已有键一样进行访问并赋值：
 
 
 .. tabs::
@@ -115,7 +115,7 @@ To add a key to an existing dictionary, access it like an existing key and assig
  .. code-tab:: gdscript
 
     var points_dict = { "White": 50, "Yellow": 75, "Orange": 100 }
-    points_dict["Blue"] = 150 # Add "Blue" as a key and assign 150 as its value.
+    points_dict["Blue"] = 150 # 将 "Blue" 添加为键，并将 150 赋为它的值。
 
  .. code-tab:: csharp
 
@@ -125,20 +125,20 @@ To add a key to an existing dictionary, access it like an existing key and assig
         { "Yellow", 75 },
         { "Orange", 100 },
     };
-    pointsDict["Blue"] = 150; // Add "Blue" as a key and assign 150 as its value.
+    pointsDict["Blue"] = 150; // 将 "Blue" 添加为键，并将 150 赋为它的值。
 
 
 
-Finally, untyped dictionaries can contain different types of keys and values in the same dictionary:
+最后，对于非类型化的字典而言，同一个字典里可以包含不同类型的键和值：
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # This is a valid dictionary.
-    # To access the string "Nested value" below, use `my_dict.sub_dict.sub_key` or `my_dict["sub_dict"]["sub_key"]`.
-    # Indexing styles can be mixed and matched depending on your needs.
+    # 这是有效的字典。
+    # 要访问下面的 "Nested value"，请使用 `my_dict.sub_dict.sub_key` 或 `my_dict["sub_dict"]["sub_key"]`。
+    # 索引风格可以按需混合使用。
     var my_dict = {
         "String Key": 5,
         4: [1, 2, 3],
@@ -148,8 +148,8 @@ Finally, untyped dictionaries can contain different types of keys and values in 
 
  .. code-tab:: csharp
 
-    // This is a valid dictionary.
-    // To access the string "Nested value" below, use `((Godot.Collections.Dictionary)myDict["sub_dict"])["sub_key"]`.
+    // 这是有效的字典。
+    // 要访问下面的 "Nested value"，请使用 `((Godot.Collections.Dictionary)myDict["sub_dict"])["sub_key"]`。
     var myDict = new Godot.Collections.Dictionary {
         { "String Key", 5 },
         { 4, new Godot.Collections.Array { 1, 2, 3 } },
@@ -159,7 +159,7 @@ Finally, untyped dictionaries can contain different types of keys and values in 
 
 
 
-The keys of a dictionary can be iterated with the ``for`` keyword:
+字典中的键可以用 ``for`` 关键字进行遍历：
 
 
 .. tabs::
@@ -175,27 +175,27 @@ The keys of a dictionary can be iterated with the ``for`` keyword:
     var groceries = new Godot.Collections.Dictionary { { "Orange", 20 }, { "Apple", 2 }, { "Banana", 4 } };
     foreach (var (fruit, amount) in groceries)
     {
-        // `fruit` is the key, `amount` is the value.
+        // `fruit` 为键，`amount` 为值。
     }
 
 
 
-To enforce a certain type for keys and values, you can create a *typed dictionary*. Typed dictionaries can only contain keys and values of the given types, or that inherit from the given classes:
+创建\ *类型化字典*\ 可以强制键和值所使用的类型。类型化字典只能够包含给定类型的键和值，也可以是继承自给定类的类型。
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Creates a typed dictionary with String keys and int values.
-    # Attempting to use any other type for keys or values will result in an error.
+    # 创建类型化字典，使用 String 键和 int 值。
+    # 尝试使用其他类型的键或值会报错。
     var typed_dict: Dictionary[String, int] = {
         "some_key": 1,
         "some_other_key": 2,
     }
 
-    # Creates a typed dictionary with String keys and values of any type.
-    # Attempting to use any other type for keys will result in an error.
+    # 创建类型化字典，使用 String 键和任意类型的值。
+    # 尝试使用其他类型的键会报错。
     var typed_dict_key_only: Dictionary[String, Variant] = {
         "some_key": 12.34,
         "some_other_key": "string",
@@ -203,15 +203,15 @@ To enforce a certain type for keys and values, you can create a *typed dictionar
 
  .. code-tab:: csharp
 
-    // Creates a typed dictionary with String keys and int values.
-    // Attempting to use any other type for keys or values will result in an error.
+    // 创建类型化字典，使用 String 键和 int 值。
+    // 尝试使用其他类型的键或值会报错。
     var typedDict = new Godot.Collections.Dictionary<String, int> {
         {"some_key", 1},
         {"some_other_key", 2},
     };
 
-    // Creates a typed dictionary with String keys and values of any type.
-    // Attempting to use any other type for keys will result in an error.
+    // 创建类型化字典，使用 String 键和任意类型的值。
+    // 尝试使用其他类型的键会报错。
     var typedDictKeyOnly = new Godot.Collections.Dictionary<String, Variant> {
         {"some_key", 12.34},
         {"some_other_key", "string"},
@@ -219,9 +219,9 @@ To enforce a certain type for keys and values, you can create a *typed dictionar
 
 
 
-\ **Note:** Dictionaries are always passed by reference. To get a copy of a dictionary which can be modified independently of the original dictionary, use :ref:`duplicate()<class_Dictionary_method_duplicate>`.
+\ **注意：**\ 字典始终按引用传递。要获取字典的副本，能独立于原字典进行修改，请使用 :ref:`duplicate()<class_Dictionary_method_duplicate>`\ 。
 
-\ **Note:** Erasing elements while iterating over dictionaries is **not** supported and will result in unpredictable behavior.
+\ **注意：**\ **不支持**\ 在遍历字典时清除元素，可能造成无法预知的行为。
 
 .. note::
 

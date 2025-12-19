@@ -7,16 +7,16 @@ AStarGrid2D
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An implementation of A\* for finding the shortest path between two points on a partial 2D grid.
+Una implementación de A\* para encontrar el camino más corto entre dos puntos en una cuadrícula 2D parcial.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**AStarGrid2D** is a variant of :ref:`AStar2D<class_AStar2D>` that is specialized for partial 2D grids. It is simpler to use because it doesn't require you to manually create points and connect them together. This class also supports multiple types of heuristics, modes for diagonal movement, and a jumping mode to speed up calculations.
+**AStarGrid2D** es una variante de :ref:`AStar2D<class_AStar2D>` que se especializa en cuadrículas 2D parciales. Es más sencillo de usar porque no requiere que crees manualmente los puntos y los conectes. Esta clase también admite múltiples tipos de heurísticas, modos para el movimiento diagonal y un modo de salto para acelerar los cálculos.
 
-To use **AStarGrid2D**, you only need to set the :ref:`region<class_AStarGrid2D_property_region>` of the grid, optionally set the :ref:`cell_size<class_AStarGrid2D_property_cell_size>`, and then call the :ref:`update()<class_AStarGrid2D_method_update>` method:
+Para usar **AStarGrid2D**, solo necesitas establecer la :ref:`region<class_AStarGrid2D_property_region>` de la cuadrícula, opcionalmente establecer el :ref:`cell_size<class_AStarGrid2D_property_cell_size>` y luego llamar al método :ref:`update()<class_AStarGrid2D_method_update>`:
 
 
 .. tabs::
@@ -27,8 +27,8 @@ To use **AStarGrid2D**, you only need to set the :ref:`region<class_AStarGrid2D_
     astar_grid.region = Rect2i(0, 0, 32, 32)
     astar_grid.cell_size = Vector2(16, 16)
     astar_grid.update()
-    print(astar_grid.get_id_path(Vector2i(0, 0), Vector2i(3, 4))) # Prints [(0, 0), (1, 1), (2, 2), (3, 3), (3, 4)]
-    print(astar_grid.get_point_path(Vector2i(0, 0), Vector2i(3, 4))) # Prints [(0, 0), (16, 16), (32, 32), (48, 48), (48, 64)]
+    print(astar_grid.get_id_path(Vector2i(0, 0), Vector2i(3, 4))) # Imprime [(0, 0), (1, 1), (2, 2), (3, 3), (3, 4)]
+    print(astar_grid.get_point_path(Vector2i(0, 0), Vector2i(3, 4))) # Imprime [(0, 0), (16, 16), (32, 32), (48, 48), (48, 64)]
 
  .. code-tab:: csharp
 
@@ -36,19 +36,19 @@ To use **AStarGrid2D**, you only need to set the :ref:`region<class_AStarGrid2D_
     astarGrid.Region = new Rect2I(0, 0, 32, 32);
     astarGrid.CellSize = new Vector2I(16, 16);
     astarGrid.Update();
-    GD.Print(astarGrid.GetIdPath(Vector2I.Zero, new Vector2I(3, 4))); // Prints [(0, 0), (1, 1), (2, 2), (3, 3), (3, 4)]
-    GD.Print(astarGrid.GetPointPath(Vector2I.Zero, new Vector2I(3, 4))); // Prints [(0, 0), (16, 16), (32, 32), (48, 48), (48, 64)]
+    GD.Print(astarGrid.GetIdPath(Vector2I.Zero, new Vector2I(3, 4))); // Imprime [(0, 0), (1, 1), (2, 2), (3, 3), (3, 4)]
+    GD.Print(astarGrid.GetPointPath(Vector2I.Zero, new Vector2I(3, 4))); // Imprime [(0, 0), (16, 16), (32, 32), (48, 48), (48, 64)]
 
 
 
-To remove a point from the pathfinding grid, it must be set as "solid" with :ref:`set_point_solid()<class_AStarGrid2D_method_set_point_solid>`.
+Para eliminar un punto de la cuadrícula de búsqueda de trayectos, debes establecerlo como "sólido" con :ref:`set_point_solid()<class_AStarGrid2D_method_set_point_solid>`.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriales
 --------------------
 
-- `Grid-based Navigation with AStarGrid2D Demo <https://godotengine.org/asset-library/asset/2723>`__
+- `Demo de Navegación basada en cuadrícula con AStarGrid2D <https://godotengine.org/asset-library/asset/2723>`__
 
 .. rst-class:: classref-reftable-group
 
@@ -143,7 +143,7 @@ enum **Heuristic**: :ref:`🔗<enum_AStarGrid2D_Heuristic>`
 
 :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` **HEURISTIC_EUCLIDEAN** = ``0``
 
-The `Euclidean heuristic <https://en.wikipedia.org/wiki/Euclidean_distance>`__ to be used for the pathfinding using the following formula:
+La `heurística euclidiana <https://en.wikipedia.org/wiki/Euclidean_distance>`__ que se utilizará para la búsqueda de trayectos utilizando la siguiente fórmula:
 
 ::
 
@@ -151,7 +151,7 @@ The `Euclidean heuristic <https://en.wikipedia.org/wiki/Euclidean_distance>`__ t
     dy = abs(to_id.y - from_id.y)
     result = sqrt(dx * dx + dy * dy)
 
-\ **Note:** This is also the internal heuristic used in :ref:`AStar3D<class_AStar3D>` and :ref:`AStar2D<class_AStar2D>` by default (with the inclusion of possible z-axis coordinate).
+\ **Nota:** Esta es también la heurística interna utilizada en :ref:`AStar3D<class_AStar3D>` y :ref:`AStar2D<class_AStar2D>` por defecto (con la inclusión de la posible coordenada del eje z).
 
 .. _class_AStarGrid2D_constant_HEURISTIC_MANHATTAN:
 
@@ -159,7 +159,7 @@ The `Euclidean heuristic <https://en.wikipedia.org/wiki/Euclidean_distance>`__ t
 
 :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` **HEURISTIC_MANHATTAN** = ``1``
 
-The `Manhattan heuristic <https://en.wikipedia.org/wiki/Taxicab_geometry>`__ to be used for the pathfinding using the following formula:
+La `heurística de Manhattan <https://en.wikipedia.org/wiki/Taxicab_geometry>`__ que se utilizará para la búsqueda de trayectos utilizando la siguiente fórmula:
 
 ::
 
@@ -167,7 +167,7 @@ The `Manhattan heuristic <https://en.wikipedia.org/wiki/Taxicab_geometry>`__ to 
     dy = abs(to_id.y - from_id.y)
     result = dx + dy
 
-\ **Note:** This heuristic is intended to be used with 4-side orthogonal movements, provided by setting the :ref:`diagonal_mode<class_AStarGrid2D_property_diagonal_mode>` to :ref:`DIAGONAL_MODE_NEVER<class_AStarGrid2D_constant_DIAGONAL_MODE_NEVER>`.
+\ **Nota:** Esta heurística está pensada para ser utilizada con movimientos ortogonales de 4 lados, proporcionados estableciendo :ref:`diagonal_mode<class_AStarGrid2D_property_diagonal_mode>` a :ref:`DIAGONAL_MODE_NEVER<class_AStarGrid2D_constant_DIAGONAL_MODE_NEVER>`.
 
 .. _class_AStarGrid2D_constant_HEURISTIC_OCTILE:
 
@@ -190,7 +190,7 @@ The Octile heuristic to be used for the pathfinding using the following formula:
 
 :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` **HEURISTIC_CHEBYSHEV** = ``3``
 
-The `Chebyshev heuristic <https://en.wikipedia.org/wiki/Chebyshev_distance>`__ to be used for the pathfinding using the following formula:
+La `heurística de Chebyshev <https://en.wikipedia.org/wiki/Chebyshev_distance>`__ que se utilizará para la búsqueda de trayectos utilizando la siguiente fórmula:
 
 ::
 
@@ -280,7 +280,7 @@ Forma de celda rectangular.
 
 :ref:`CellShape<enum_AStarGrid2D_CellShape>` **CELL_SHAPE_ISOMETRIC_RIGHT** = ``1``
 
-Diamond cell shape (for isometric look). Cell coordinates layout where the horizontal axis goes up-right, and the vertical one goes down-right.
+Forma de celda de diamante (para apariencia isométrica). Diseño de coordenadas de celda donde el eje horizontal va hacia arriba a la derecha, y el vertical hacia abajo a la derecha.
 
 .. _class_AStarGrid2D_constant_CELL_SHAPE_ISOMETRIC_DOWN:
 
@@ -318,7 +318,7 @@ Descripciones de Propiedades
 - |void| **set_cell_shape**\ (\ value\: :ref:`CellShape<enum_AStarGrid2D_CellShape>`\ )
 - :ref:`CellShape<enum_AStarGrid2D_CellShape>` **get_cell_shape**\ (\ )
 
-The cell shape. Affects how the positions are placed in the grid. If changed, :ref:`update()<class_AStarGrid2D_method_update>` needs to be called before finding the next path.
+La forma de la celda. Afecta a cómo se colocan las posiciones en la cuadrícula. Si se cambia, es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` antes de encontrar el siguiente trayecto.
 
 .. rst-class:: classref-item-separator
 
@@ -335,7 +335,7 @@ The cell shape. Affects how the positions are placed in the grid. If changed, :r
 - |void| **set_cell_size**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_cell_size**\ (\ )
 
-The size of the point cell which will be applied to calculate the resulting point position returned by :ref:`get_point_path()<class_AStarGrid2D_method_get_point_path>`. If changed, :ref:`update()<class_AStarGrid2D_method_update>` needs to be called before finding the next path.
+El tamaño de la celda de punto que se aplicará para calcular la posición del punto resultante devuelta por :ref:`get_point_path()<class_AStarGrid2D_method_get_point_path>`. Si se cambia, es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` antes de encontrar el siguiente trayecto.
 
 .. rst-class:: classref-item-separator
 
@@ -352,7 +352,7 @@ The size of the point cell which will be applied to calculate the resulting poin
 - |void| **set_default_compute_heuristic**\ (\ value\: :ref:`Heuristic<enum_AStarGrid2D_Heuristic>`\ )
 - :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` **get_default_compute_heuristic**\ (\ )
 
-The default :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` which will be used to calculate the cost between two points if :ref:`_compute_cost()<class_AStarGrid2D_private_method__compute_cost>` was not overridden.
+La :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` predeterminada que se utilizará para calcular el coste entre dos puntos si :ref:`_compute_cost()<class_AStarGrid2D_private_method__compute_cost>` no se ha sobreescrito.
 
 .. rst-class:: classref-item-separator
 
@@ -369,7 +369,7 @@ The default :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` which will be used to c
 - |void| **set_default_estimate_heuristic**\ (\ value\: :ref:`Heuristic<enum_AStarGrid2D_Heuristic>`\ )
 - :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` **get_default_estimate_heuristic**\ (\ )
 
-The default :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` which will be used to calculate the cost between the point and the end point if :ref:`_estimate_cost()<class_AStarGrid2D_private_method__estimate_cost>` was not overridden.
+La :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` predeterminada que se utilizará para calcular el coste entre el punto y el punto final si :ref:`_estimate_cost()<class_AStarGrid2D_private_method__estimate_cost>` no se ha sobreescrito.
 
 .. rst-class:: classref-item-separator
 
@@ -386,7 +386,7 @@ The default :ref:`Heuristic<enum_AStarGrid2D_Heuristic>` which will be used to c
 - |void| **set_diagonal_mode**\ (\ value\: :ref:`DiagonalMode<enum_AStarGrid2D_DiagonalMode>`\ )
 - :ref:`DiagonalMode<enum_AStarGrid2D_DiagonalMode>` **get_diagonal_mode**\ (\ )
 
-A specific :ref:`DiagonalMode<enum_AStarGrid2D_DiagonalMode>` mode which will force the path to avoid or accept the specified diagonals.
+Un modo :ref:`DiagonalMode<enum_AStarGrid2D_DiagonalMode>` específico que forzará a la ruta a evitar o aceptar las diagonales especificadas.
 
 .. rst-class:: classref-item-separator
 
@@ -403,9 +403,9 @@ A specific :ref:`DiagonalMode<enum_AStarGrid2D_DiagonalMode>` mode which will fo
 - |void| **set_jumping_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_jumping_enabled**\ (\ )
 
-Enables or disables jumping to skip up the intermediate points and speeds up the searching algorithm.
+Activa o desactiva el salto para omitir los puntos intermedios y acelera el algoritmo de búsqueda.
 
-\ **Note:** Currently, toggling it on disables the consideration of weight scaling in pathfinding.
+\ **Nota:** Actualmente, activarlo desactiva la consideración del escalado de peso en la búsqueda de trayectos.
 
 .. rst-class:: classref-item-separator
 
@@ -422,7 +422,7 @@ Enables or disables jumping to skip up the intermediate points and speeds up the
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The offset of the grid which will be applied to calculate the resulting point position returned by :ref:`get_point_path()<class_AStarGrid2D_method_get_point_path>`. If changed, :ref:`update()<class_AStarGrid2D_method_update>` needs to be called before finding the next path.
+El desplazamiento de la cuadrícula que se aplicará para calcular la posición del punto resultante devuelta por :ref:`get_point_path()<class_AStarGrid2D_method_get_point_path>`. Si se cambia, es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` antes de encontrar el siguiente trayecto.
 
 .. rst-class:: classref-item-separator
 
@@ -439,7 +439,7 @@ The offset of the grid which will be applied to calculate the resulting point po
 - |void| **set_region**\ (\ value\: :ref:`Rect2i<class_Rect2i>`\ )
 - :ref:`Rect2i<class_Rect2i>` **get_region**\ (\ )
 
-The region of grid cells available for pathfinding. If changed, :ref:`update()<class_AStarGrid2D_method_update>` needs to be called before finding the next path.
+La región de celdas de la cuadrícula disponibles para la búsqueda de trayectos. Si se cambia, es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` antes de encontrar el siguiente trayecto.
 
 .. rst-class:: classref-item-separator
 
@@ -458,7 +458,7 @@ The region of grid cells available for pathfinding. If changed, :ref:`update()<c
 
 **Obsoleto:** Use :ref:`region<class_AStarGrid2D_property_region>` instead.
 
-The size of the grid (number of cells of size :ref:`cell_size<class_AStarGrid2D_property_cell_size>` on each axis). If changed, :ref:`update()<class_AStarGrid2D_method_update>` needs to be called before finding the next path.
+El tamaño de la cuadrícula (número de celdas de tamaño :ref:`cell_size<class_AStarGrid2D_property_cell_size>` en cada eje). Si se cambia, es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` antes de encontrar el siguiente trayecto.
 
 .. rst-class:: classref-section-separator
 
@@ -475,9 +475,9 @@ Descripciones de Métodos
 
 :ref:`float<class_float>` **_compute_cost**\ (\ from_id\: :ref:`Vector2i<class_Vector2i>`, to_id\: :ref:`Vector2i<class_Vector2i>`\ ) |virtual| |const| :ref:`🔗<class_AStarGrid2D_private_method__compute_cost>`
 
-Called when computing the cost between two connected points.
+Llamado al calcular el coste entre dos puntos conectados.
 
-Note that this function is hidden in the default **AStarGrid2D** class.
+Ten en cuenta que esta función está oculta en la clase **AStarGrid2D** por defecto.
 
 .. rst-class:: classref-item-separator
 
@@ -489,9 +489,9 @@ Note that this function is hidden in the default **AStarGrid2D** class.
 
 :ref:`float<class_float>` **_estimate_cost**\ (\ from_id\: :ref:`Vector2i<class_Vector2i>`, end_id\: :ref:`Vector2i<class_Vector2i>`\ ) |virtual| |const| :ref:`🔗<class_AStarGrid2D_private_method__estimate_cost>`
 
-Called when estimating the cost between a point and the path's ending point.
+Llamado al estimar el coste entre un punto y el punto final del camino.
 
-Note that this function is hidden in the default **AStarGrid2D** class.
+Ten en cuenta que esta función está oculta en la clase **AStarGrid2D** por defecto.
 
 .. rst-class:: classref-item-separator
 
@@ -503,7 +503,7 @@ Note that this function is hidden in the default **AStarGrid2D** class.
 
 |void| **clear**\ (\ ) :ref:`🔗<class_AStarGrid2D_method_clear>`
 
-Clears the grid and sets the :ref:`region<class_AStarGrid2D_property_region>` to ``Rect2i(0, 0, 0, 0)``.
+Limpia la cuadrícula y establece :ref:`region<class_AStarGrid2D_property_region>` a ``Rect2i(0, 0, 0, 0)``.
 
 .. rst-class:: classref-item-separator
 
@@ -515,9 +515,9 @@ Clears the grid and sets the :ref:`region<class_AStarGrid2D_property_region>` to
 
 |void| **fill_solid_region**\ (\ region\: :ref:`Rect2i<class_Rect2i>`, solid\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_AStarGrid2D_method_fill_solid_region>`
 
-Fills the given ``region`` on the grid with the specified value for the solid flag.
+Rellena la ``region`` dada en la cuadrícula con el valor especificado para la bandera de sólido.
 
-\ **Note:** Calling :ref:`update()<class_AStarGrid2D_method_update>` is not needed after the call of this function.
+\ **Nota:** No es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` después de la llamada a esta función.
 
 .. rst-class:: classref-item-separator
 
@@ -529,9 +529,9 @@ Fills the given ``region`` on the grid with the specified value for the solid fl
 
 |void| **fill_weight_scale_region**\ (\ region\: :ref:`Rect2i<class_Rect2i>`, weight_scale\: :ref:`float<class_float>`\ ) :ref:`🔗<class_AStarGrid2D_method_fill_weight_scale_region>`
 
-Fills the given ``region`` on the grid with the specified value for the weight scale.
+Rellena la ``region`` dada en la cuadrícula con el valor especificado para la escala de peso.
 
-\ **Note:** Calling :ref:`update()<class_AStarGrid2D_method_update>` is not needed after the call of this function.
+\ **Nota:** No es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` después de la llamada a esta función.
 
 .. rst-class:: classref-item-separator
 
@@ -543,11 +543,11 @@ Fills the given ``region`` on the grid with the specified value for the weight s
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **get_id_path**\ (\ from_id\: :ref:`Vector2i<class_Vector2i>`, to_id\: :ref:`Vector2i<class_Vector2i>`, allow_partial_path\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_AStarGrid2D_method_get_id_path>`
 
-Returns an array with the IDs of the points that form the path found by AStar2D between the given points. The array is ordered from the starting point to the ending point of the path.
+Devuelve un array con los ID de los puntos que forman el camino encontrado por AStar2D entre los puntos dados. El array se ordena desde el punto de inicio hasta el punto final del trayecto.
 
-If there is no valid path to the target, and ``allow_partial_path`` is ``true``, returns a path to the point closest to the target that can be reached.
+Si no hay un trayecto válido hacia el objetivo, y ``allow_partial_path`` es ``true``, devuelve un camino al punto más cercano al objetivo que se puede alcanzar.
 
-\ **Note:** When ``allow_partial_path`` is ``true`` and ``to_id`` is solid the search may take an unusually long time to finish.
+\ **Nota:** Cuando ``allow_partial_path`` es ``true`` y ``to_id`` es sólido, la búsqueda puede tardar un tiempo inusualmente largo en finalizar.
 
 .. rst-class:: classref-item-separator
 
@@ -559,7 +559,7 @@ If there is no valid path to the target, and ``allow_partial_path`` is ``true``,
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_point_data_in_region**\ (\ region\: :ref:`Rect2i<class_Rect2i>`\ ) |const| :ref:`🔗<class_AStarGrid2D_method_get_point_data_in_region>`
 
-Returns an array of dictionaries with point data (``id``: :ref:`Vector2i<class_Vector2i>`, ``position``: :ref:`Vector2<class_Vector2>`, ``solid``: :ref:`bool<class_bool>`, ``weight_scale``: :ref:`float<class_float>`) within a ``region``.
+Devuelve un array de diccionarios con información de los puntos (``id``: :ref:`Vector2i<class_Vector2i>`, ``position``: :ref:`Vector2<class_Vector2>`, ``solid``: :ref:`bool<class_bool>`, ``weight_scale``: :ref:`float<class_float>`) dentro de una ``region``.
 
 .. rst-class:: classref-item-separator
 
@@ -571,13 +571,13 @@ Returns an array of dictionaries with point data (``id``: :ref:`Vector2i<class_V
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **get_point_path**\ (\ from_id\: :ref:`Vector2i<class_Vector2i>`, to_id\: :ref:`Vector2i<class_Vector2i>`, allow_partial_path\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_AStarGrid2D_method_get_point_path>`
 
-Returns an array with the points that are in the path found by **AStarGrid2D** between the given points. The array is ordered from the starting point to the ending point of the path.
+Devuelve un array con los puntos que están en la ruta encontrada por **AStarGrid2D** entre los puntos dados. El array se ordena desde el punto de inicio hasta el punto final del camino.
 
-If there is no valid path to the target, and ``allow_partial_path`` is ``true``, returns a path to the point closest to the target that can be reached.
+Si no hay un camino válido hacia el objetivo, y ``allow_partial_path`` es ``true``, devuelve un camino al punto más cercano al objetivo que se puede alcanzar.
 
-\ **Note:** This method is not thread-safe; it can only be used from a single :ref:`Thread<class_Thread>` at a given time. Consider using :ref:`Mutex<class_Mutex>` to ensure exclusive access to one thread to avoid race conditions.
+\ **Nota:** Este método no es seguro para hilos; solo se puede usar desde un único :ref:`Thread<class_Thread>` a la vez. Considera usar :ref:`Mutex<class_Mutex>` para asegurar el acceso exclusivo a un hilo para evitar condiciones de carrera.
 
-Additionally, when ``allow_partial_path`` is ``true`` and ``to_id`` is solid the search may take an unusually long time to finish.
+Adicionalmente, cuando ``allow_partial_path`` es ``true`` y ``to_id`` es sólido, la búsqueda puede tardar un tiempo inusualmente largo en finalizar.
 
 .. rst-class:: classref-item-separator
 
@@ -601,7 +601,7 @@ Devuelve la posición del punto asociado con el ``id`` dado.
 
 :ref:`float<class_float>` **get_point_weight_scale**\ (\ id\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_AStarGrid2D_method_get_point_weight_scale>`
 
-Returns the weight scale of the point associated with the given ``id``.
+Devuelve la escala de peso del punto asociado con el ``id`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -613,7 +613,7 @@ Returns the weight scale of the point associated with the given ``id``.
 
 :ref:`bool<class_bool>` **is_dirty**\ (\ ) |const| :ref:`🔗<class_AStarGrid2D_method_is_dirty>`
 
-Indicates that the grid parameters were changed and :ref:`update()<class_AStarGrid2D_method_update>` needs to be called.
+Indica que los parámetros de la cuadrícula se han cambiado y que es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>`.
 
 .. rst-class:: classref-item-separator
 
@@ -625,7 +625,7 @@ Indicates that the grid parameters were changed and :ref:`update()<class_AStarGr
 
 :ref:`bool<class_bool>` **is_in_bounds**\ (\ x\: :ref:`int<class_int>`, y\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AStarGrid2D_method_is_in_bounds>`
 
-Returns ``true`` if the ``x`` and ``y`` is a valid grid coordinate (id), i.e. if it is inside :ref:`region<class_AStarGrid2D_property_region>`. Equivalent to ``region.has_point(Vector2i(x, y))``.
+Devuelve ``true`` si ``x`` e ``y`` son coordenadas de cuadrícula válidas (id), es decir, si están dentro de :ref:`region<class_AStarGrid2D_property_region>`. Equivalente a ``region.has_point(Vector2i(x, y))``.
 
 .. rst-class:: classref-item-separator
 
@@ -637,7 +637,7 @@ Returns ``true`` if the ``x`` and ``y`` is a valid grid coordinate (id), i.e. if
 
 :ref:`bool<class_bool>` **is_in_boundsv**\ (\ id\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_AStarGrid2D_method_is_in_boundsv>`
 
-Returns ``true`` if the ``id`` vector is a valid grid coordinate, i.e. if it is inside :ref:`region<class_AStarGrid2D_property_region>`. Equivalent to ``region.has_point(id)``.
+Devuelve ``true`` si el vector ``id`` es una coordenada de cuadrícula válida, es decir, si está dentro de :ref:`region<class_AStarGrid2D_property_region>`. Equivalente a ``region.has_point(id)``.
 
 .. rst-class:: classref-item-separator
 
@@ -649,7 +649,7 @@ Returns ``true`` if the ``id`` vector is a valid grid coordinate, i.e. if it is 
 
 :ref:`bool<class_bool>` **is_point_solid**\ (\ id\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_AStarGrid2D_method_is_point_solid>`
 
-Returns ``true`` if a point is disabled for pathfinding. By default, all points are enabled.
+Devuelve ``true`` si un punto está deshabilitado para la búsqueda de trayectos. Por defecto, todos los puntos están habilitados.
 
 .. rst-class:: classref-item-separator
 
@@ -661,9 +661,9 @@ Returns ``true`` if a point is disabled for pathfinding. By default, all points 
 
 |void| **set_point_solid**\ (\ id\: :ref:`Vector2i<class_Vector2i>`, solid\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_AStarGrid2D_method_set_point_solid>`
 
-Disables or enables the specified point for pathfinding. Useful for making an obstacle. By default, all points are enabled.
+Deshabilita o habilita el punto especificado para la búsqueda de trayectos. Útil para crear un obstáculo. Por defecto, todos los puntos están habilitados.
 
-\ **Note:** Calling :ref:`update()<class_AStarGrid2D_method_update>` is not needed after the call of this function.
+\ **Nota:** No es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` después de llamar a esta función.
 
 .. rst-class:: classref-item-separator
 
@@ -675,9 +675,9 @@ Disables or enables the specified point for pathfinding. Useful for making an ob
 
 |void| **set_point_weight_scale**\ (\ id\: :ref:`Vector2i<class_Vector2i>`, weight_scale\: :ref:`float<class_float>`\ ) :ref:`🔗<class_AStarGrid2D_method_set_point_weight_scale>`
 
-Sets the ``weight_scale`` for the point with the given ``id``. The ``weight_scale`` is multiplied by the result of :ref:`_compute_cost()<class_AStarGrid2D_private_method__compute_cost>` when determining the overall cost of traveling across a segment from a neighboring point to this point.
+Establece el ``weight_scale`` para el punto con el ``id`` dado. El ``weight_scale`` se multiplica por el resultado de :ref:`_compute_cost()<class_AStarGrid2D_private_method__compute_cost>` al determinar el coste general de viajar a través de un segmento desde un punto vecino a este punto.
 
-\ **Note:** Calling :ref:`update()<class_AStarGrid2D_method_update>` is not needed after the call of this function.
+\ **Nota:** No es necesario llamar a :ref:`update()<class_AStarGrid2D_method_update>` después de llamar a esta función.
 
 .. rst-class:: classref-item-separator
 
@@ -689,9 +689,9 @@ Sets the ``weight_scale`` for the point with the given ``id``. The ``weight_scal
 
 |void| **update**\ (\ ) :ref:`🔗<class_AStarGrid2D_method_update>`
 
-Updates the internal state of the grid according to the parameters to prepare it to search the path. Needs to be called if parameters like :ref:`region<class_AStarGrid2D_property_region>`, :ref:`cell_size<class_AStarGrid2D_property_cell_size>` or :ref:`offset<class_AStarGrid2D_property_offset>` are changed. :ref:`is_dirty()<class_AStarGrid2D_method_is_dirty>` will return ``true`` if this is the case and this needs to be called.
+Actualiza el estado interno de la cuadrícula de acuerdo con los parámetros para prepararla para buscar la ruta. Necesita ser llamado si los parámetros como :ref:`region<class_AStarGrid2D_property_region>`, :ref:`cell_size<class_AStarGrid2D_property_cell_size>` o :ref:`offset<class_AStarGrid2D_property_offset>` cambian. :ref:`is_dirty()<class_AStarGrid2D_method_is_dirty>` devolverá ``true`` si este es el caso y esto necesita ser llamado.
 
-\ **Note:** All point data (solidity and weight scale) will be cleared.
+\ **Nota:** Todos los datos de los puntos (solidez y escala de peso) se borrarán.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

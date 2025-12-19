@@ -7,7 +7,7 @@ RigidBody3D
 
 **Hérite de :** :ref:`PhysicsBody3D<class_PhysicsBody3D>` **<** :ref:`CollisionObject3D<class_CollisionObject3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VehicleBody3D<class_VehicleBody3D>`
+**Hérité par :** :ref:`VehicleBody3D<class_VehicleBody3D>`
 
 Un corps physique 3D qui est déplacé par une simulation physique.
 

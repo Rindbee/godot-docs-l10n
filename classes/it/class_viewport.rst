@@ -1923,7 +1923,9 @@ Per controllare questa proprietà nella viewport radice, cambia l'impostazione d
 - |void| **set_transparent_background**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **has_transparent_background**\ (\ )
 
-Se ``true``, la viewport dovrebbe renderizzare il suo sfondo in modo trasparente.
+If ``true``, the viewport should render its background as transparent.
+
+\ **Note:** Due to technical limitations, certain rendering features are disabled when a viewport has a transparent background. This currently applies to screen-space reflections, subsurface scattering, and depth of field.
 
 .. rst-class:: classref-item-separator
 

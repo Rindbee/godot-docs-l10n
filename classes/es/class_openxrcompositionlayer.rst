@@ -416,9 +416,9 @@ The swizzle value for the blue channel of the swapchain state.
 - |void| **set_border_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_border_color**\ (\ )
 
-The border color of the swapchain state that is used when the wrap mode clamps to the border.
+El color del borde del estado de la cadena de intercambio que se utiliza cuando el modo de ajuste se fija al borde.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Esta propiedad solo tiene efecto en los dispositivos que admiten las extensiones OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan.
 
 .. rst-class:: classref-item-separator
 
@@ -454,9 +454,9 @@ The swizzle value for the green channel of the swapchain state.
 - |void| **set_horizontal_wrap**\ (\ value\: :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>`\ )
 - :ref:`Wrap<enum_OpenXRCompositionLayer_Wrap>` **get_horizontal_wrap**\ (\ )
 
-The horizontal wrap mode of the swapchain state.
+El modo de ajuste horizontal del estado de la cadena de intercambio.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Esta propiedad solo tiene efecto en los dispositivos que admiten las extensiones OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan.
 
 .. rst-class:: classref-item-separator
 
@@ -473,9 +473,9 @@ The horizontal wrap mode of the swapchain state.
 - |void| **set_mag_filter**\ (\ value\: :ref:`Filter<enum_OpenXRCompositionLayer_Filter>`\ )
 - :ref:`Filter<enum_OpenXRCompositionLayer_Filter>` **get_mag_filter**\ (\ )
 
-The magnification filter of the swapchain state.
+El filtro de magnificación del estado de la cadena de intercambio.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Esta propiedad solo tiene efecto en los dispositivos que soportan las extensiones OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan.
 
 .. rst-class:: classref-item-separator
 
@@ -492,9 +492,9 @@ The magnification filter of the swapchain state.
 - |void| **set_max_anisotropy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_max_anisotropy**\ (\ )
 
-The max anisotropy of the swapchain state.
+La anisotropía máxima del estado de la cadena de intercambio.
 
-\ **Note:** This property only has an effect on devices that support the OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan extensions.
+\ **Nota:** Esta propiedad solo tiene efecto en los dispositivos que soportan las extensiones OpenXR XR_FB_swapchain_update_state OpenGLES/Vulkan.
 
 .. rst-class:: classref-item-separator
 

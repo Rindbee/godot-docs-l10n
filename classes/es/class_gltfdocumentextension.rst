@@ -356,9 +356,9 @@ Runs when parsing image data from a glTF file. The data could be sourced from a 
 
 :ref:`Error<enum_@GlobalScope_Error>` **_parse_node_extensions**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, gltf_node\: :ref:`GLTFNode<class_GLTFNode>`, extensions\: :ref:`Dictionary<class_Dictionary>`\ ) |virtual| :ref:`🔗<class_GLTFDocumentExtension_private_method__parse_node_extensions>`
 
-Part of the import process. This method is run after :ref:`_get_supported_extensions()<class_GLTFDocumentExtension_private_method__get_supported_extensions>` and before :ref:`_import_post_parse()<class_GLTFDocumentExtension_private_method__import_post_parse>`.
+Parte del proceso de importación. Este método se ejecuta después de :ref:`_get_supported_extensions()<class_GLTFDocumentExtension_private_method__get_supported_extensions>` y antes de :ref:`_import_post_parse()<class_GLTFDocumentExtension_private_method__import_post_parse>`.
 
-Runs when parsing the node extensions of a GLTFNode. This method can be used to process the extension JSON data into a format that can be used by :ref:`_generate_scene_node()<class_GLTFDocumentExtension_private_method__generate_scene_node>`. The return value should be a member of the :ref:`Error<enum_@GlobalScope_Error>` enum.
+Se ejecuta al analizar las extensiones de nodo de un GLTFNode. Este método se puede utilizar para procesar los datos JSON de la extensión en un formato que pueda ser utilizado por :ref:`_generate_scene_node()<class_GLTFDocumentExtension_private_method__generate_scene_node>`. El valor de retorno debe ser un miembro de la enumeración :ref:`Error<enum_@GlobalScope_Error>`.
 
 .. rst-class:: classref-item-separator
 
@@ -370,9 +370,9 @@ Runs when parsing the node extensions of a GLTFNode. This method can be used to 
 
 :ref:`Error<enum_@GlobalScope_Error>` **_parse_texture_json**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, texture_json\: :ref:`Dictionary<class_Dictionary>`, ret_gltf_texture\: :ref:`GLTFTexture<class_GLTFTexture>`\ ) |virtual| :ref:`🔗<class_GLTFDocumentExtension_private_method__parse_texture_json>`
 
-Part of the import process. This method is run after :ref:`_parse_image_data()<class_GLTFDocumentExtension_private_method__parse_image_data>` and before :ref:`_generate_scene_node()<class_GLTFDocumentExtension_private_method__generate_scene_node>`.
+Parte del proceso de importación. Este método se ejecuta después de :ref:`_parse_image_data()<class_GLTFDocumentExtension_private_method__parse_image_data>` y antes de :ref:`_generate_scene_node()<class_GLTFDocumentExtension_private_method__generate_scene_node>`.
 
-Runs when parsing the texture JSON from the glTF textures array. This can be used to set the source image index to use as the texture.
+Se ejecuta al analizar el JSON de la textura desde el array de texturas glTF. Esto se puede utilizar para establecer el índice de la imagen de origen a utilizar como textura.
 
 .. rst-class:: classref-item-separator
 
@@ -384,9 +384,9 @@ Runs when parsing the texture JSON from the glTF textures array. This can be use
 
 :ref:`Error<enum_@GlobalScope_Error>` **_save_image_at_path**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, image\: :ref:`Image<class_Image>`, file_path\: :ref:`String<class_String>`, image_format\: :ref:`String<class_String>`, lossy_quality\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_GLTFDocumentExtension_private_method__save_image_at_path>`
 
-Part of the export process. This method is run after :ref:`_get_saveable_image_formats()<class_GLTFDocumentExtension_private_method__get_saveable_image_formats>` and before :ref:`_serialize_texture_json()<class_GLTFDocumentExtension_private_method__serialize_texture_json>`.
+Parte del proceso de exportación. Este método se ejecuta después de :ref:`_get_saveable_image_formats()<class_GLTFDocumentExtension_private_method__get_saveable_image_formats>` y antes de :ref:`_serialize_texture_json()<class_GLTFDocumentExtension_private_method__serialize_texture_json>`.
 
-This method is run when saving images separately from the glTF file. When images are embedded, :ref:`_serialize_image_to_bytes()<class_GLTFDocumentExtension_private_method__serialize_image_to_bytes>` runs instead. Note that these methods only run when this **GLTFDocumentExtension** is selected as the image exporter.
+Este método se ejecuta al guardar imágenes separadas del archivo glTF. Cuando las imágenes están incrustadas, se ejecuta :ref:`_serialize_image_to_bytes()<class_GLTFDocumentExtension_private_method__serialize_image_to_bytes>` en su lugar. Ten en cuenta que estos métodos solo se ejecutan cuando esta **GLTFDocumentExtension** está seleccionada como el exportador de imágenes.
 
 .. rst-class:: classref-item-separator
 
@@ -398,11 +398,11 @@ This method is run when saving images separately from the glTF file. When images
 
 :ref:`PackedByteArray<class_PackedByteArray>` **_serialize_image_to_bytes**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, image\: :ref:`Image<class_Image>`, image_dict\: :ref:`Dictionary<class_Dictionary>`, image_format\: :ref:`String<class_String>`, lossy_quality\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_GLTFDocumentExtension_private_method__serialize_image_to_bytes>`
 
-Part of the export process. This method is run after :ref:`_get_saveable_image_formats()<class_GLTFDocumentExtension_private_method__get_saveable_image_formats>` and before :ref:`_serialize_texture_json()<class_GLTFDocumentExtension_private_method__serialize_texture_json>`.
+Parte del proceso de exportación. Este método se ejecuta después de :ref:`_get_saveable_image_formats()<class_GLTFDocumentExtension_private_method__get_saveable_image_formats>` y antes de :ref:`_serialize_texture_json()<class_GLTFDocumentExtension_private_method__serialize_texture_json>`.
 
-This method is run when embedding images in the glTF file. When images are saved separately, :ref:`_save_image_at_path()<class_GLTFDocumentExtension_private_method__save_image_at_path>` runs instead. Note that these methods only run when this **GLTFDocumentExtension** is selected as the image exporter.
+Este método se ejecuta al incrustar imágenes en el archivo glTF. Cuando las imágenes se guardan por separado, se ejecuta :ref:`_save_image_at_path()<class_GLTFDocumentExtension_private_method__save_image_at_path>` en su lugar. Ten en cuenta que estos métodos solo se ejecutan cuando esta **GLTFDocumentExtension** se selecciona como el exportador de imágenes.
 
-This method must set the image MIME type in the ``image_dict`` with the ``"mimeType"`` key. For example, for a PNG image, it would be set to ``"image/png"``. The return value must be a :ref:`PackedByteArray<class_PackedByteArray>` containing the image data.
+Este método debe establecer el tipo MIME de la imagen en el ``image_dict`` con la clave ``"mimeType"``. Por ejemplo, para una imagen PNG, se establecería en ``"image/png"``. El valor de retorno debe ser un :ref:`PackedByteArray<class_PackedByteArray>` que contenga los datos de la imagen.
 
 .. rst-class:: classref-item-separator
 
@@ -414,9 +414,9 @@ This method must set the image MIME type in the ``image_dict`` with the ``"mimeT
 
 :ref:`Error<enum_@GlobalScope_Error>` **_serialize_texture_json**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, texture_json\: :ref:`Dictionary<class_Dictionary>`, gltf_texture\: :ref:`GLTFTexture<class_GLTFTexture>`, image_format\: :ref:`String<class_String>`\ ) |virtual| :ref:`🔗<class_GLTFDocumentExtension_private_method__serialize_texture_json>`
 
-Part of the export process. This method is run after :ref:`_save_image_at_path()<class_GLTFDocumentExtension_private_method__save_image_at_path>` or :ref:`_serialize_image_to_bytes()<class_GLTFDocumentExtension_private_method__serialize_image_to_bytes>`, and before :ref:`_export_node()<class_GLTFDocumentExtension_private_method__export_node>`. Note that this method only runs when this **GLTFDocumentExtension** is selected as the image exporter.
+Parte del proceso de exportación. Este método se ejecuta después de :ref:`_save_image_at_path()<class_GLTFDocumentExtension_private_method__save_image_at_path>` o :ref:`_serialize_image_to_bytes()<class_GLTFDocumentExtension_private_method__serialize_image_to_bytes>`, y antes de :ref:`_export_node()<class_GLTFDocumentExtension_private_method__export_node>`. Ten en cuenta que este método solo se ejecuta cuando esta **GLTFDocumentExtension** se selecciona como el exportador de imágenes.
 
-This method can be used to set up the extensions for the texture JSON by editing ``texture_json``. The extension must also be added as used extension with :ref:`GLTFState.add_used_extension()<class_GLTFState_method_add_used_extension>`, be sure to set ``required`` to ``true`` if you are not providing a fallback.
+Este método se puede utilizar para configurar las extensiones para el JSON de la textura editando ``texture_json``. La extensión también debe añadirse como extensión utilizada con :ref:`GLTFState.add_used_extension()<class_GLTFState_method_add_used_extension>`, asegúrate de establecer ``required`` a ``true`` si no estás proporcionando una alternativa.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

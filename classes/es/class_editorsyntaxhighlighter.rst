@@ -9,16 +9,16 @@ EditorSyntaxHighlighter
 
 **Heredado por:** :ref:`GDScriptSyntaxHighlighter<class_GDScriptSyntaxHighlighter>`
 
-Base class for :ref:`SyntaxHighlighter<class_SyntaxHighlighter>` used by the :ref:`ScriptEditor<class_ScriptEditor>`.
+Clase base para :ref:`SyntaxHighlighter<class_SyntaxHighlighter>` utilizada por el :ref:`ScriptEditor<class_ScriptEditor>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Base class that all :ref:`SyntaxHighlighter<class_SyntaxHighlighter>`\ s used by the :ref:`ScriptEditor<class_ScriptEditor>` extend from.
+Clase base de la que extienden todos los :ref:`SyntaxHighlighter<class_SyntaxHighlighter>`\ s utilizados por el :ref:`ScriptEditor<class_ScriptEditor>`.
 
-Add a syntax highlighter to an individual script by calling :ref:`ScriptEditorBase.add_syntax_highlighter()<class_ScriptEditorBase_method_add_syntax_highlighter>`. To apply to all scripts on open, call :ref:`ScriptEditor.register_syntax_highlighter()<class_ScriptEditor_method_register_syntax_highlighter>`.
+Añade un resaltador de sintaxis a un script individual llamando a :ref:`ScriptEditorBase.add_syntax_highlighter()<class_ScriptEditorBase_method_add_syntax_highlighter>`. Para aplicar a todos los scripts al abrir, llama a :ref:`ScriptEditor.register_syntax_highlighter()<class_ScriptEditor_method_register_syntax_highlighter>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ Descripciones de Métodos
 
 :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` **_create**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorSyntaxHighlighter_private_method__create>`
 
-Virtual method which creates a new instance of the syntax highlighter.
+Método virtual que crea una nueva instancia del resaltador de sintaxis.
 
 .. rst-class:: classref-item-separator
 
@@ -63,7 +63,7 @@ Virtual method which creates a new instance of the syntax highlighter.
 
 :ref:`String<class_String>` **_get_name**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorSyntaxHighlighter_private_method__get_name>`
 
-Virtual method which can be overridden to return the syntax highlighter name.
+Método virtual que puede ser sobreescrito para devolver el nombre del resaltador de sintaxis.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ Virtual method which can be overridden to return the syntax highlighter name.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_supported_languages**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorSyntaxHighlighter_private_method__get_supported_languages>`
 
-Virtual method which can be overridden to return the supported language names.
+Método virtual que puede ser sobreescrito para devolver los nombres de los lenguajes soportados.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

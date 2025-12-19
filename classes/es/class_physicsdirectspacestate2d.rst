@@ -9,16 +9,16 @@ PhysicsDirectSpaceState2D
 
 **Heredado por:** :ref:`PhysicsDirectSpaceState2DExtension<class_PhysicsDirectSpaceState2DExtension>`
 
-Provides direct access to a physics space in the :ref:`PhysicsServer2D<class_PhysicsServer2D>`.
+Proporciona acceso directo a un espacio de física en el :ref:`PhysicsServer2D<class_PhysicsServer2D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Provides direct access to a physics space in the :ref:`PhysicsServer2D<class_PhysicsServer2D>`. It's used mainly to do queries against objects and areas residing in a given space.
+Proporciona acceso directo a un espacio de física en el :ref:`PhysicsServer2D<class_PhysicsServer2D>`. Se utiliza principalmente para realizar consultas contra objetos y áreas que residen en un espacio dado.
 
-\ **Note:** This class is not meant to be instantiated directly. Use :ref:`World2D.direct_space_state<class_World2D_property_direct_space_state>` to get the world's physics 2D space state.
+\ **Nota:** Esta clase no está pensada para ser instanciada directamente. Utiliza :ref:`World2D.direct_space_state<class_World2D_property_direct_space_state>` para obtener el estado del espacio 2D de física del mundo.
 
 .. rst-class:: classref-introduction-group
 

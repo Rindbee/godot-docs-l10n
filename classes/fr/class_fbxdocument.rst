@@ -16,9 +16,9 @@ Gère les documents FBX.
 Description
 -----------
 
-The FBXDocument handles FBX documents. It provides methods to append data from buffers or files, generate scenes, and register/unregister document extensions.
+Le FBXDocument gère les documents FBX. Il fournit des méthodes pour ajouter des données à partir de buffers ou de fichiers, générer des scènes et enregistrer/dés-enregistrer des extensions de document.
 
-When exporting FBX from Blender, use the "FBX Units Scale" option. The "FBX Units Scale" option sets the correct scale factor and avoids manual adjustments when re-importing into Blender, such as through glTF export.
+Lorsque vous exportez un FBX de Blender, utilisez l'option "Échelle d'unité FBX". L'option "Échelle d'unité FBX" définit le facteur d'échelle correct et évite les ajustements manuels lors de la réimportation dans Blender, comme lors de l'export en glTF.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

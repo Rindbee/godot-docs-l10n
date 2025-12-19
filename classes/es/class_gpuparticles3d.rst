@@ -239,7 +239,7 @@ La partícula comienza con el color especificado.
 
 :ref:`EmitFlags<enum_GPUParticles3D_EmitFlags>` **EMIT_FLAG_CUSTOM** = ``16``
 
-Particle starts with specified ``CUSTOM`` data.
+La partícula comienza con los datos ``CUSTOM`` especificados.
 
 .. rst-class:: classref-item-separator
 
@@ -554,7 +554,7 @@ Ratio de tiempo entre cada emisión. Si ``0``, las partículas se emiten continu
 - |void| **set_fixed_fps**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_fixed_fps**\ (\ )
 
-The particle system's frame rate is fixed to a value. For example, changing the value to 2 will make the particles render at 2 frames per second. Note this does not slow down the simulation of the particle system itself.
+La velocidad de fotogramas del sistema de partículas se fija a un valor. Por ejemplo, cambiar el valor a 2 hará que las partículas se rendericen a 2 fotogramas por segundo. Ten en cuenta que esto no ralentiza la simulación del sistema de partículas en sí.
 
 .. rst-class:: classref-item-separator
 
@@ -624,7 +624,7 @@ Habilita la interpolación de partículas, lo que hace que el movimiento de las 
 - |void| **set_lifetime**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_lifetime**\ (\ )
 
-The amount of time each particle will exist (in seconds). The effective emission rate is ``(amount * amount_ratio) / lifetime`` particles per second.
+La cantidad de tiempo que cada partícula existirá (en segundos). La tasa de emisión efectiva es ``(amount * amount_ratio) / lifetime`` partículas por segundo.
 
 .. rst-class:: classref-item-separator
 

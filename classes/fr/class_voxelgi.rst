@@ -14,15 +14,15 @@ Sonde d’éclairage global (GI) en temps réel.
 Description
 -----------
 
-**VoxelGI**\ s are used to provide high-quality real-time indirect light and reflections to scenes. They precompute the effect of objects that emit light and the effect of static geometry to simulate the behavior of complex light in real-time. **VoxelGI**\ s need to be baked before having a visible effect. However, once baked, dynamic objects will receive light from them. Furthermore, lights can be fully dynamic or baked.
+Les **VoxelGI**\ s sont utilisées pour fournir une lumière indirecte en temps réel et en haute qualité à des scènes. Elles pré-calculent les effets d'objets qui émettent de la lumière et l'effet de la géométrie statique pour simuler le comportement de lumières complexes en temps réel. Les **VoxelGI**\ s doivent être pré-calculées avant d'avoir un effet visible. Cependant, mais une fois calculées, les objets dynamiques recevront d'elles de la lumière. De plus, des lumières peuvent être entièrement dynamiques ou pré-calculées.
 
-\ **Note:** **VoxelGI** is only supported in the Forward+ rendering method, not Mobile or Compatibility.
+\ **Note :** **VoxelGI** n'est prise en charge que dans la méthode de rendu Forward+, pas Mobile ou Compatibilité.
 
-\ **Procedural generation:** **VoxelGI** can be baked in an exported project, which makes it suitable for procedurally generated or user-built levels as long as all the geometry is generated in advance. For games where geometry is generated at any time during gameplay, SDFGI is more suitable (see :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`).
+\ **Génération procédurale :** **VoxelGI** peut être pré-calculée dans un projet exporté, ce qui la rend adaptée pour des niveaux générés de manière procédurale ou construits par l'utilisateur tant que la géométrie est générée à l'avance. Pour les jeux où la géométrie est générée à tout moment du gameplay, la SDFGI est plus adaptée (voir :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`).
 
-\ **Performance:** **VoxelGI** is relatively demanding on the GPU and is not suited to low-end hardware such as integrated graphics (consider :ref:`LightmapGI<class_LightmapGI>` instead). To improve performance, adjust :ref:`ProjectSettings.rendering/global_illumination/voxel_gi/quality<class_ProjectSettings_property_rendering/global_illumination/voxel_gi/quality>` and enable :ref:`ProjectSettings.rendering/global_illumination/gi/use_half_resolution<class_ProjectSettings_property_rendering/global_illumination/gi/use_half_resolution>` in the Project Settings. To provide a fallback for low-end hardware, consider adding an option to disable **VoxelGI** in your project's options menus. A **VoxelGI** node can be disabled by hiding it.
+\ **Performance :** **VoxelGI** est relativement exigeante sur le GPU et n'est pas adaptée au matériel d'entrée de gamme tel que les cartes graphiques intégrées (utilisez plutôt :ref:`LightmapGI<class_LightmapGI>`). Pour améliorer les performances, ajustez :ref:`ProjectSettings.rendering/global_illumination/voxel_gi/quality<class_ProjectSettings_property_rendering/global_illumination/voxel_gi/quality>` et activez :ref:`ProjectSettings.rendering/global_illumination/gi/use_half_resolution<class_ProjectSettings_property_rendering/global_illumination/gi/use_half_resolution>` dans les Paramètres du projet. Pour fournir une solution de repli au matériel d'entrée de gamme, envisagez d'ajouter une option pour désactiver **VoxelGI** dans les menus d'options de votre projet. Un nœud **VoxelGI** peut être désactivé en le cachant..
 
-\ **Note:** Meshes should have sufficiently thick walls to avoid light leaks (avoid one-sided walls). For interior levels, enclose your level geometry in a sufficiently large box and bridge the loops to close the mesh. To further prevent light leaks, you can also strategically place temporary :ref:`MeshInstance3D<class_MeshInstance3D>` nodes with their :ref:`GeometryInstance3D.gi_mode<class_GeometryInstance3D_property_gi_mode>` set to :ref:`GeometryInstance3D.GI_MODE_STATIC<class_GeometryInstance3D_constant_GI_MODE_STATIC>`. These temporary nodes can then be hidden after baking the **VoxelGI** node.
+\ **Note :** Les maillages doivent avoir des murs suffisamment épais pour éviter les fuites de lumière à travers (évitez les murs qui n'ont qu'un seul côté). Pour les niveaux intérieurs, enfermez votre géométrie du niveau dans une boîte suffisamment grande et bouchez les trous pour fermer le maillage. Pour éviter encore plus les fuites de lumière, vous pouvez également placer stratégiquement des nœuds :ref:`MeshInstance3D<class_MeshInstance3D>` temporaires avec leur :ref:`GeometryInstance3D.gi_mode<class_GeometryInstance3D_property_gi_mode>` défini à :ref:`GeometryInstance3D.GI_MODE_STATIC<class_GeometryInstance3D_constant_GI_MODE_STATIC>`. Ces nœuds temporaires peuvent ensuite être cachés après avoir pré-calculé le nœud **VoxelGI**.
 
 .. rst-class:: classref-introduction-group
 
@@ -140,7 +140,7 @@ Descriptions des propriétés
 - |void| **set_camera_attributes**\ (\ value\: :ref:`CameraAttributes<class_CameraAttributes>`\ )
 - :ref:`CameraAttributes<class_CameraAttributes>` **get_camera_attributes**\ (\ )
 
-The :ref:`CameraAttributes<class_CameraAttributes>` resource that specifies exposure levels to bake at. Auto-exposure and non exposure properties will be ignored. Exposure settings should be used to reduce the dynamic range present when baking. If exposure is too high, the **VoxelGI** will have banding artifacts or may have over-exposure artifacts.
+La ressource :ref:`CameraAttributes<class_CameraAttributes>` qui précise les niveaux d'exposition auxquels pré-calculer. Les propriétés d'auto-exposition et de non-exposition seront ignorées. Les paramètres d'exposition devraient être utilisés pour réduire la plage dynamique présente lors du pré-calcul. Si l'exposition est trop élevée, le **VoxelGI** aura des artéfacts de bande ou peut avoir des artéfacts de sur-exposition.
 
 .. rst-class:: classref-item-separator
 
@@ -157,7 +157,7 @@ The :ref:`CameraAttributes<class_CameraAttributes>` resource that specifies expo
 - |void| **set_probe_data**\ (\ value\: :ref:`VoxelGIData<class_VoxelGIData>`\ )
 - :ref:`VoxelGIData<class_VoxelGIData>` **get_probe_data**\ (\ )
 
-The :ref:`VoxelGIData<class_VoxelGIData>` resource that holds the data for this **VoxelGI**.
+La ressource :ref:`VoxelGIData<class_VoxelGIData>` qui contient les données de ce **VoxelGI**.
 
 .. rst-class:: classref-item-separator
 
@@ -174,9 +174,9 @@ The :ref:`VoxelGIData<class_VoxelGIData>` resource that holds the data for this 
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The size of the area covered by the **VoxelGI**. If you make the size larger without increasing the subdivisions with :ref:`subdiv<class_VoxelGI_property_subdiv>`, the size of each cell will increase and result in lower detailed lighting.
+La taille de la zone couverte par le **VoxelGI**. Si vous rendez la taille plus grande sans augmenter les sous-divisions avec :ref:`subdiv<class_VoxelGI_property_subdiv>`, la taille de chaque cellule augmentera et résultant en un éclairage moins détaillé.
 
-\ **Note:** Size is clamped to 1.0 unit or more on each axis.
+\ **Note :** La taille est bornée à 1,0 unité ou plus sur chaque axe.
 
 .. rst-class:: classref-item-separator
 
@@ -193,7 +193,7 @@ The size of the area covered by the **VoxelGI**. If you make the size larger wit
 - |void| **set_subdiv**\ (\ value\: :ref:`Subdiv<enum_VoxelGI_Subdiv>`\ )
 - :ref:`Subdiv<enum_VoxelGI_Subdiv>` **get_subdiv**\ (\ )
 
-Number of times to subdivide the grid that the **VoxelGI** operates on. A higher number results in finer detail and thus higher visual quality, while lower numbers result in better performance.
+Nombre de sous-divisions de la grille sur laquelle le **VoxelGI** opère. Un nombre plus élevé résulte en un détail plus fin et donc une qualité visuelle plus élevée, tandis que les nombres plus bas résultent en une meilleure performance.
 
 .. rst-class:: classref-section-separator
 
@@ -210,11 +210,11 @@ Descriptions des méthodes
 
 |void| **bake**\ (\ from_node\: :ref:`Node<class_Node>` = null, create_visual_debug\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_VoxelGI_method_bake>`
 
-Bakes the effect from all :ref:`GeometryInstance3D<class_GeometryInstance3D>`\ s marked with :ref:`GeometryInstance3D.GI_MODE_STATIC<class_GeometryInstance3D_constant_GI_MODE_STATIC>` and :ref:`Light3D<class_Light3D>`\ s marked with either :ref:`Light3D.BAKE_STATIC<class_Light3D_constant_BAKE_STATIC>` or :ref:`Light3D.BAKE_DYNAMIC<class_Light3D_constant_BAKE_DYNAMIC>`. If ``create_visual_debug`` is ``true``, after baking the light, this will generate a :ref:`MultiMesh<class_MultiMesh>` that has a cube representing each solid cell with each cube colored to the cell's albedo color. This can be used to visualize the **VoxelGI**'s data and debug any issues that may be occurring.
+Pré-calcul l'effet de toutes les :ref:`GeometryInstance3D<class_GeometryInstance3D>`\ s marquées avec :ref:`GeometryInstance3D.GI_MODE_STATIC<class_GeometryInstance3D_constant_GI_MODE_STATIC>` et les :ref:`Light3D<class_Light3D>`\ s marquées avec :ref:`Light3D.BAKE_STATIC<class_Light3D_constant_BAKE_STATIC>` ou :ref:`Light3D.BAKE_DYNAMIC<class_Light3D_constant_BAKE_DYNAMIC>`. Si ``create_visual_debug`` vaut ``true``, après avoir pré-calculé la lumière, cela générera un :ref:`MultiMesh<class_MultiMesh>` qui a un cube représentant chaque cellule solide avec chaque cube coloré à la couleur d'albedo de la cellule. Ceci peut être utilisé pour visualiser les données de **VoxelGI** et déboguer toute problème qui pourrait se produire.
 
-\ **Note:** :ref:`bake()<class_VoxelGI_method_bake>` works from the editor and in exported projects. This makes it suitable for procedurally generated or user-built levels. Baking a **VoxelGI** node generally takes from 5 to 20 seconds in most scenes. Reducing :ref:`subdiv<class_VoxelGI_property_subdiv>` can speed up baking.
+\ **Note :** :ref:`bake()<class_VoxelGI_method_bake>` fonctionne depuis l'éditeur et dans des projets exportés. Cela le rend adapté aux niveaux générés procéduralement ou construits par l'utilisateur. Pré-calculer un noeud **VoxelGI** prend généralement de 5 à 20 secondes dans la plupart des scènes. Réduire :ref:`subdiv<class_VoxelGI_property_subdiv>` peut accélérer le calcul.
 
-\ **Note:** :ref:`GeometryInstance3D<class_GeometryInstance3D>`\ s and :ref:`Light3D<class_Light3D>`\ s must be fully ready before :ref:`bake()<class_VoxelGI_method_bake>` is called. If you are procedurally creating those and some meshes or lights are missing from your baked **VoxelGI**, use ``call_deferred("bake")`` instead of calling :ref:`bake()<class_VoxelGI_method_bake>` directly.
+\ **Note :** Les :ref:`GeometryInstance3D<class_GeometryInstance3D>`\ s et les :ref:`Light3D<class_Light3D>`\ s doivent être entièrement prêtes avant que :ref:`bake()<class_VoxelGI_method_bake>` soit appelée. Si vous créez de façon procédurale celles-ci et que certains maillages ou lumières sont manquants de votre **VoxelGI** pré-calculée, utilisez ``call_deferred("bake")`` au lieu d'appeler :ref:`bake()<class_VoxelGI_method_bake>` directement.
 
 .. rst-class:: classref-item-separator
 

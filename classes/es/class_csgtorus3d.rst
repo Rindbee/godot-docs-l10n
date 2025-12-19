@@ -23,7 +23,7 @@ This node allows you to create a torus for use with the CSG system.
 Tutoriales
 --------------------
 
-- :doc:`Prototyping levels with CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipado de niveles con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 

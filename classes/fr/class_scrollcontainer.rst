@@ -7,7 +7,7 @@ ScrollContainer
 
 **Hérite de :** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorInspector<class_EditorInspector>`
+**Hérité par :** :ref:`EditorInspector<class_EditorInspector>`
 
 Un conteneur utilisé pour fournir des barres de défilement à un contrôle enfant au besoin.
 
@@ -100,9 +100,9 @@ Signaux
 
 **scroll_ended**\ (\ ) :ref:`🔗<class_ScrollContainer_signal_scroll_ended>`
 
-Emitted when scrolling stops when dragging the scrollable area *with a touch event*. This signal is *not* emitted when scrolling by dragging the scrollbar, scrolling with the mouse wheel or scrolling with keyboard/gamepad events.
+Émis lorsque le défilement s'arrête lors du glissement de la zone défilante *avec un événement tactile*. Ce signal n'est *pas* émis lors du défilement en faisant glisser la barre de défilement, en défilant avec la roue de la souris ou en défilant avec des événements de clavier/manette.
 
-\ **Note:** This signal is only emitted on Android or iOS, or on desktop/web platforms when :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is enabled.
+\ **Note :** Ce signal n'est émis que sur Android ou iOS, ou sur les plateformes de bureau/web lorsque :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` est activé.
 
 .. rst-class:: classref-item-separator
 
@@ -114,9 +114,9 @@ Emitted when scrolling stops when dragging the scrollable area *with a touch eve
 
 **scroll_started**\ (\ ) :ref:`🔗<class_ScrollContainer_signal_scroll_started>`
 
-Emitted when scrolling starts when dragging the scrollable area w\ *ith a touch event*. This signal is *not* emitted when scrolling by dragging the scrollbar, scrolling with the mouse wheel or scrolling with keyboard/gamepad events.
+Émis lorsque le défilement commence lors du glissement de la zone défilante *avec un événement tactile*. Ce signal n'est *pas* émis lors du défilement en faisant glisser la barre de défilement, en défilant avec la roue de la souris ou en défilant avec des événements de clavier/manette.
 
-\ **Note:** This signal is only emitted on Android or iOS, or on desktop/web platforms when :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is enabled.
+\ **Note :** Ce signal n'est émis que sur Android ou iOS, ou sur les plateformes de bureau/web lorsque :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` est activé.
 
 .. rst-class:: classref-section-separator
 
@@ -147,7 +147,7 @@ Défilement désactivé, la barre de défilement sera invisible.
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_AUTO** = ``1``
 
-Scrolling enabled, scrollbar will be visible only if necessary, i.e. container's content is bigger than the container.
+Défilement activé, la barre de défilement ne sera visible que si nécessaire, c'est-à-dire que le contenu du conteneur est plus grand que le conteneur.
 
 .. _class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS:
 
@@ -171,7 +171,7 @@ Défilement activé, la barre de défilement sera cachée.
 
 :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **SCROLL_MODE_RESERVE** = ``4``
 
-Combines :ref:`SCROLL_MODE_AUTO<class_ScrollContainer_constant_SCROLL_MODE_AUTO>` and :ref:`SCROLL_MODE_SHOW_ALWAYS<class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS>`. The scrollbar is only visible if necessary, but the content size is adjusted as if it was always visible. It's useful for ensuring that content size stays the same regardless if the scrollbar is visible.
+Combine :ref:`SCROLL_MODE_AUTO<class_ScrollContainer_constant_SCROLL_MODE_AUTO>` et :ref:`SCROLL_MODE_SHOW_ALWAYS<class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS>`. La barre de défilement n'est visible que si nécessaire, mais la taille du contenu est ajustée comme si elle était toujours visible. Utile pour s'assurer que la taille du contenu reste la même peu importe si la barre de défilement est visible.
 
 .. rst-class:: classref-section-separator
 
@@ -193,7 +193,7 @@ Descriptions des propriétés
 - |void| **set_draw_focus_border**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_focus_border**\ (\ )
 
-If ``true``, :ref:`focus<class_ScrollContainer_theme_style_focus>` is drawn when the ScrollContainer or one of its descendant nodes is focused.
+Si ``true``, :ref:`focus<class_ScrollContainer_theme_style_focus>` est dessiné lorsque le ScrollContainer ou l'un de ses nœuds descendants a le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -227,7 +227,7 @@ Si ``true``, le ScrollContainer défilera automatiquement vers les enfants ayant
 - |void| **set_horizontal_scroll_mode**\ (\ value\: :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>`\ )
 - :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **get_horizontal_scroll_mode**\ (\ )
 
-Controls whether horizontal scrollbar can be used and when it should be visible.
+Contrôle si la barre de défilement horizontale peut être utilisée et quand elle devrait être visible.
 
 .. rst-class:: classref-item-separator
 
@@ -261,9 +261,9 @@ Zone morte pour le défilement tactile. Une zone morte plus basse rend le défil
 - |void| **set_h_scroll**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_h_scroll**\ (\ )
 
-The current horizontal scroll value.
+La valeur de défilement horizontal actuelle.
 
-\ **Note:** If you are setting this value in the :ref:`Node._ready()<class_Node_private_method__ready>` function or earlier, it needs to be wrapped with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`, since scroll bar's :ref:`Range.max_value<class_Range_property_max_value>` is not initialized yet.
+\ **Note :** Si vous définissez cette valeur dans la fonction :ref:`Node._ready()<class_Node_private_method__ready>` ou plus tôt, elle doit être définie avec :ref:`Object.set_deferred()<class_Object_method_set_deferred>`, puisque la :ref:`Range.max_value<class_Range_property_max_value>` de la barre de défilement n'est pas encore initialisée.
 
 ::
 
@@ -302,9 +302,9 @@ Redéfinit le :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`
 - |void| **set_v_scroll**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_v_scroll**\ (\ )
 
-The current vertical scroll value.
+La valeur de défilement vertical actuelle.
 
-\ **Note:** Setting it early needs to be deferred, just like in :ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`.
+\ **Note :** La définir tôt doit être fait en différé, comme avec :ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`.
 
 ::
 
@@ -343,7 +343,7 @@ Redéfinit le :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>`
 - |void| **set_vertical_scroll_mode**\ (\ value\: :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>`\ )
 - :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` **get_vertical_scroll_mode**\ (\ )
 
-Controls whether vertical scrollbar can be used and when it should be visible.
+Contrôle si la barre de défilement verticale peut être utilisée et quand elle devrait être visible.
 
 .. rst-class:: classref-section-separator
 
@@ -360,15 +360,15 @@ Descriptions des méthodes
 
 |void| **ensure_control_visible**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_ScrollContainer_method_ensure_control_visible>`
 
-Ensures the given ``control`` is visible (must be a direct or indirect child of the ScrollContainer). Used by :ref:`follow_focus<class_ScrollContainer_property_follow_focus>`.
+Veille à ce que le ``control`` donné soit visible (doit être un enfant direct ou indirect du ScrollContainer). Utilisé par :ref:`follow_focus<class_ScrollContainer_property_follow_focus>`.
 
-\ **Note:** This will not work on a node that was just added during the same frame. If you want to scroll to a newly added child, you must wait until the next frame using :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>`:
+\ **Note :** Cela ne fonctionnera pas sur un nœud qui vient d'être ajouté pendant la même trame. Si vous voulez faire défiler vers un enfant nouvellement ajouté, vous devez attendre jusqu'à la prochaine trame en utilisant :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>`\  :
 
 ::
 
-    add_child(child_node)
+    add_child(noeud_enfant)
     await get_tree().process_frame
-    ensure_control_visible(child_node)
+    ensure_control_visible(noeud_enfant)
 
 .. rst-class:: classref-item-separator
 
@@ -380,9 +380,9 @@ Ensures the given ``control`` is visible (must be a direct or indirect child of 
 
 :ref:`HScrollBar<class_HScrollBar>` **get_h_scroll_bar**\ (\ ) :ref:`🔗<class_ScrollContainer_method_get_h_scroll_bar>`
 
-Returns the horizontal scrollbar :ref:`HScrollBar<class_HScrollBar>` of this **ScrollContainer**.
+Renvoie la barre de défilement horizontale :ref:`HScrollBar<class_HScrollBar>` de ce **ScrollContainer**.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to disable or hide a scrollbar, you can use :ref:`horizontal_scroll_mode<class_ScrollContainer_property_horizontal_scroll_mode>`.
+\ **Attention :** Il s'agit d'un nœud interne requis, l'enlever et le libérer peut causer un plantage. Si vous souhaitez désactiver ou cacher une barre de défilement, vous pouvez utiliser :ref:`horizontal_scroll_mode<class_ScrollContainer_property_horizontal_scroll_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -394,9 +394,9 @@ Returns the horizontal scrollbar :ref:`HScrollBar<class_HScrollBar>` of this **S
 
 :ref:`VScrollBar<class_VScrollBar>` **get_v_scroll_bar**\ (\ ) :ref:`🔗<class_ScrollContainer_method_get_v_scroll_bar>`
 
-Returns the vertical scrollbar :ref:`VScrollBar<class_VScrollBar>` of this **ScrollContainer**.
+Renvoie la barre de défilement verticale :ref:`VScrollBar<class_VScrollBar>` de ce **ScrollContainer**.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to disable or hide a scrollbar, you can use :ref:`vertical_scroll_mode<class_ScrollContainer_property_vertical_scroll_mode>`.
+\ **Attention :** Il s'agit d'un nœud interne requis, l'enlever et le libérer peut causer un plantage. Si vous souhaitez désactiver ou cacher une barre de défilement, vous pouvez utiliser :ref:`vertical_scroll_mode<class_ScrollContainer_property_vertical_scroll_mode>`.
 
 .. rst-class:: classref-section-separator
 
@@ -413,7 +413,7 @@ Descriptions des propriétés du thème
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_ScrollContainer_theme_style_focus>`
 
-The focus border :ref:`StyleBox<class_StyleBox>` of the **ScrollContainer**. Only used if :ref:`draw_focus_border<class_ScrollContainer_property_draw_focus_border>` is ``true``.
+La :ref:`StyleBox<class_StyleBox>` du bord avec focus du **ScrollContainer**. Seulement utilisé si :ref:`draw_focus_border<class_ScrollContainer_property_draw_focus_border>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 

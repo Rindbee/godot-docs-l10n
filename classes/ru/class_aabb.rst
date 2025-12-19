@@ -247,15 +247,15 @@ AABB
 
     var box = AABB(Vector3(5, 0, 5), Vector3(-20, -10, -5))
     var absolute = box.abs()
-    print(absolute.position) # Prints (-15.0, -10.0, 0.0)
-    print(absolute.size)     # Prints (20.0, 10.0, 5.0)
+    print(absolute.position) # Выводит (-15.0, -10.0, 0.0)
+    print(absolute.size)     # Выводит (20.0, 10.0, 5.0)
 
  .. code-tab:: csharp
 
     var box = new Aabb(new Vector3(5, 0, 5), new Vector3(-20, -10, -5));
     var absolute = box.Abs();
-    GD.Print(absolute.Position); // Prints (-15, -10, 0)
-    GD.Print(absolute.Size);     // Prints (20, 10, 5)
+    GD.Print(absolute.Position); // Выводит (-15, -10, 0)
+    GD.Print(absolute.Size);     // Выводит (20, 10, 5)
 
 
 
@@ -282,9 +282,9 @@ AABB
     var b = AABB(Vector3(1, 1, 1), Vector3(3, 3, 3))
     var c = AABB(Vector3(2, 2, 2), Vector3(8, 8, 8))
 
-    print(a.encloses(a)) # Prints true
-    print(a.encloses(b)) # Prints true
-    print(a.encloses(c)) # Prints false
+    print(a.encloses(a)) # Выводит true
+    print(a.encloses(b)) # Выводит true
+    print(a.encloses(c)) # Выводит false
 
  .. code-tab:: csharp
 
@@ -292,9 +292,9 @@ AABB
     var b = new Aabb(new Vector3(1, 1, 1), new Vector3(3, 3, 3));
     var c = new Aabb(new Vector3(2, 2, 2), new Vector3(8, 8, 8));
 
-    GD.Print(a.Encloses(a)); // Prints True
-    GD.Print(a.Encloses(b)); // Prints True
-    GD.Print(a.Encloses(c)); // Prints False
+    GD.Print(a.Encloses(a)); // Выводит True
+    GD.Print(a.Encloses(b)); // Выводит True
+    GD.Print(a.Encloses(c)); // Выводит False
 
 
 
@@ -318,24 +318,24 @@ AABB
     var box = AABB(Vector3(0, 0, 0), Vector3(5, 2, 5))
 
     box = box.expand(Vector3(10, 0, 0))
-    print(box.position) # Prints (0.0, 0.0, 0.0)
-    print(box.size)     # Prints (10.0, 2.0, 5.0)
+    print(box.position) # Выводит (0.0, 0.0, 0.0)
+    print(box.size)     # Выводит (10.0, 2.0, 5.0)
 
     box = box.expand(Vector3(-5, 0, 5))
-    print(box.position) # Prints (-5.0, 0.0, 0.0)
-    print(box.size)     # Prints (15.0, 2.0, 5.0)
+    print(box.position) # Выводит (-5.0, 0.0, 0.0)
+    print(box.size)     # Выводит (15.0, 2.0, 5.0)
 
  .. code-tab:: csharp
 
     var box = new Aabb(new Vector3(0, 0, 0), new Vector3(5, 2, 5));
 
     box = box.Expand(new Vector3(10, 0, 0));
-    GD.Print(box.Position); // Prints (0, 0, 0)
-    GD.Print(box.Size);     // Prints (10, 2, 5)
+    GD.Print(box.Position); // Выводит (0, 0, 0)
+    GD.Print(box.Size);     // Выводит (10, 2, 5)
 
     box = box.Expand(new Vector3(-5, 0, 5));
-    GD.Print(box.Position); // Prints (-5, 0, 0)
-    GD.Print(box.Size);     // Prints (15, 2, 5)
+    GD.Print(box.Position); // Выводит  (-5, 0, 0)
+    GD.Print(box.Size);     // Выводит (15, 2, 5)
 
 
 
@@ -382,17 +382,17 @@ AABB
 
     var box = AABB(Vector3(0, 0, 0), Vector3(2, 4, 8))
 
-    print(box.get_longest_axis())       # Prints (0.0, 0.0, 1.0)
-    print(box.get_longest_axis_index()) # Prints 2
-    print(box.get_longest_axis_size())  # Prints 8.0
+    print(box.get_longest_axis())       # Выводит (0.0, 0.0, 1.0)
+    print(box.get_longest_axis_index()) # Выводит 2
+    print(box.get_longest_axis_size())  # Выводит 8.0
 
  .. code-tab:: csharp
 
     var box = new Aabb(new Vector3(0, 0, 0), new Vector3(2, 4, 8));
 
-    GD.Print(box.GetLongestAxis());      // Prints (0, 0, 1)
-    GD.Print(box.GetLongestAxisIndex()); // Prints Z
-    GD.Print(box.GetLongestAxisSize());  // Prints 8
+    GD.Print(box.GetLongestAxis());      // Выводит (0, 0, 1)
+    GD.Print(box.GetLongestAxisIndex()); // Выводит Z
+    GD.Print(box.GetLongestAxisSize());  // Выводит 8
 
 
 
@@ -445,17 +445,17 @@ AABB
 
     var box = AABB(Vector3(0, 0, 0), Vector3(2, 4, 8))
 
-    print(box.get_shortest_axis())       # Prints (1.0, 0.0, 0.0)
-    print(box.get_shortest_axis_index()) # Prints 0
-    print(box.get_shortest_axis_size())  # Prints 2.0
+    print(box.get_shortest_axis())       # Выводит (1.0, 0.0, 0.0)
+    print(box.get_shortest_axis_index()) # Выводит 0
+    print(box.get_shortest_axis_size())  # Выводит 2.0
 
  .. code-tab:: csharp
 
     var box = new Aabb(new Vector3(0, 0, 0), new Vector3(2, 4, 8));
 
-    GD.Print(box.GetShortestAxis());      // Prints (1, 0, 0)
-    GD.Print(box.GetShortestAxisIndex()); // Prints X
-    GD.Print(box.GetShortestAxisSize());  // Prints 2
+    GD.Print(box.GetShortestAxis());      // Выводит (1, 0, 0)
+    GD.Print(box.GetShortestAxisIndex()); // Выводит X
+    GD.Print(box.GetShortestAxisSize());  // Выводит 2
 
 
 
@@ -531,22 +531,22 @@ AABB
  .. code-tab:: gdscript
 
     var a = AABB(Vector3(4, 4, 4), Vector3(8, 8, 8)).grow(4)
-    print(a.position) # Prints (0.0, 0.0, 0.0)
-    print(a.size)     # Prints (16.0, 16.0, 16.0)
+    print(a.position) # Выводит (0.0, 0.0, 0.0)
+    print(a.size)     # Выводит (16.0, 16.0, 16.0)
 
     var b = AABB(Vector3(0, 0, 0), Vector3(8, 4, 2)).grow(2)
-    print(b.position) # Prints (-2.0, -2.0, -2.0)
-    print(b.size)     # Prints (12.0, 8.0, 6.0)
+    print(b.position) # Выводит (-2.0, -2.0, -2.0)
+    print(b.size)     # Выводит (12.0, 8.0, 6.0)
 
  .. code-tab:: csharp
 
     var a = new Aabb(new Vector3(4, 4, 4), new Vector3(8, 8, 8)).Grow(4);
-    GD.Print(a.Position); // Prints (0, 0, 0)
-    GD.Print(a.Size);     // Prints (16, 16, 16)
+    GD.Print(a.Position); // Выводит (0, 0, 0)
+    GD.Print(a.Size);     // Выводит (16, 16, 16)
 
     var b = new Aabb(new Vector3(0, 0, 0), new Vector3(8, 4, 2)).Grow(2);
-    GD.Print(b.Position); // Prints (-2, -2, -2)
-    GD.Print(b.Size);     // Prints (12, 8, 6)
+    GD.Print(b.Position); // Выводит (-2, -2, -2)
+    GD.Print(b.Size);     // Выводит (12, 8, 6)
 
 
 
@@ -609,8 +609,8 @@ AABB
     var box2 = AABB(Vector3(2, 0, 2), Vector3(8, 4, 4))
 
     var intersection = box1.intersection(box2)
-    print(intersection.position) # Prints (2.0, 0.0, 2.0)
-    print(intersection.size)     # Prints (3.0, 2.0, 4.0)
+    print(intersection.position) # Выводит (2.0, 0.0, 2.0)
+    print(intersection.size)     # Выводит (3.0, 2.0, 4.0)
 
  .. code-tab:: csharp
 
@@ -618,8 +618,8 @@ AABB
     var box2 = new Aabb(new Vector3(2, 0, 2), new Vector3(8, 4, 4));
 
     var intersection = box1.Intersection(box2);
-    GD.Print(intersection.Position); // Prints (2, 0, 2)
-    GD.Print(intersection.Size);     // Prints (3, 2, 4)
+    GD.Print(intersection.Position); // Выводит (2, 0, 2)
+    GD.Print(intersection.Size);     // Выводит (3, 2, 4)
 
 
 

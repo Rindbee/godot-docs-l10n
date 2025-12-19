@@ -14,16 +14,16 @@ Una forma de malla de CSG que utiliza un recurso de malla.
 Descripción
 ----------------------
 
-This CSG node allows you to use any mesh resource as a CSG shape, provided it is *manifold*. A manifold shape is closed, does not self-intersect, does not contain internal faces and has no edges that connect to more than two faces. See also :ref:`CSGPolygon3D<class_CSGPolygon3D>` for drawing 2D extruded polygons to be used as CSG nodes.
+Este nodo CSG te permite usar cualquier recurso de malla como una forma CSG, siempre que sea *múltiple*. Una forma múltiple es cerrada, no se auto-intersecta, no contiene caras internas y no tiene bordes que se conecten a más de dos caras. Véase también :ref:`CSGPolygon3D<class_CSGPolygon3D>` para dibujar polígonos 2D extruidos para ser usados como nodos CSG.
 
-\ **Note:** CSG nodes are intended to be used for level prototyping. Creating CSG nodes has a significant CPU cost compared to creating a :ref:`MeshInstance3D<class_MeshInstance3D>` with a :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Moving a CSG node within another CSG node also has a significant CPU cost, so it should be avoided during gameplay.
+\ **Nota:** Los nodos CSG están pensados para ser usados para el prototipado de niveles. La creación de nodos CSG tiene un coste de CPU significativo comparado con la creación de una :ref:`MeshInstance3D<class_MeshInstance3D>` con una :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Mover un nodo CSG dentro de otro nodo CSG también tiene un coste de CPU significativo, por lo que debe evitarse durante el juego.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriales
 --------------------
 
-- :doc:`Prototyping levels with CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipado de niveles con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 
@@ -76,13 +76,13 @@ El :ref:`Material<class_Material>` utilizado en el dibujo de la forma CSG.
 - |void| **set_mesh**\ (\ value\: :ref:`Mesh<class_Mesh>`\ )
 - :ref:`Mesh<class_Mesh>` **get_mesh**\ (\ )
 
-The :ref:`Mesh<class_Mesh>` resource to use as a CSG shape.
+El recurso :ref:`Mesh<class_Mesh>` a usar como forma CSG.
 
-\ **Note:** Some :ref:`Mesh<class_Mesh>` types such as :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PointMesh<class_PointMesh>`, :ref:`QuadMesh<class_QuadMesh>`, and :ref:`RibbonTrailMesh<class_RibbonTrailMesh>` are excluded from the type hint for this property, as these primitives are non-*manifold* and thus not compatible with the CSG algorithm.
+\ **Nota:** Algunos tipos de :ref:`Mesh<class_Mesh>` como :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PointMesh<class_PointMesh>`, :ref:`QuadMesh<class_QuadMesh>`, y :ref:`RibbonTrailMesh<class_RibbonTrailMesh>` son excluidos de la sugerencia de tipo para esta propiedad, ya que estas primitivas no son *múltiples* y por lo tanto no son compatibles con el algoritmo CSG.
 
-\ **Note:** When using an :ref:`ArrayMesh<class_ArrayMesh>`, all vertex attributes except :ref:`Mesh.ARRAY_VERTEX<class_Mesh_constant_ARRAY_VERTEX>`, :ref:`Mesh.ARRAY_NORMAL<class_Mesh_constant_ARRAY_NORMAL>` and :ref:`Mesh.ARRAY_TEX_UV<class_Mesh_constant_ARRAY_TEX_UV>` are left unused. Only :ref:`Mesh.ARRAY_VERTEX<class_Mesh_constant_ARRAY_VERTEX>` and :ref:`Mesh.ARRAY_TEX_UV<class_Mesh_constant_ARRAY_TEX_UV>` will be passed to the GPU.
+\ **Nota:** Cuando se usa un :ref:`ArrayMesh<class_ArrayMesh>`, todos los atributos de vértice excepto :ref:`Mesh.ARRAY_VERTEX<class_Mesh_constant_ARRAY_VERTEX>`, :ref:`Mesh.ARRAY_NORMAL<class_Mesh_constant_ARRAY_NORMAL>` y :ref:`Mesh.ARRAY_TEX_UV<class_Mesh_constant_ARRAY_TEX_UV>` se dejan sin usar. Sólo :ref:`Mesh.ARRAY_VERTEX<class_Mesh_constant_ARRAY_VERTEX>` y :ref:`Mesh.ARRAY_TEX_UV<class_Mesh_constant_ARRAY_TEX_UV>` se pasarán a la GPU.
 
-\ :ref:`Mesh.ARRAY_NORMAL<class_Mesh_constant_ARRAY_NORMAL>` is only used to determine which faces require the use of flat shading. By default, CSGMesh will ignore the mesh's vertex normals, recalculate them for each vertex and use a smooth shader. If a flat shader is required for a face, ensure that all vertex normals of the face are approximately equal.
+\ :ref:`Mesh.ARRAY_NORMAL<class_Mesh_constant_ARRAY_NORMAL>` sólo se usa para determinar qué caras requieren el uso de sombreado plano. Por defecto, CSGMesh ignorará las normales de los vértices de la malla, las recalculará para cada vértice y usará un shader suave. Si se requiere un shader plano para una cara, asegúrate de que todas las normales de los vértices de la cara sean aproximadamente iguales.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -420,7 +420,7 @@ Marca la opción como un miembro.
 
 :ref:`CodeCompletionKind<enum_CodeEdit_CodeCompletionKind>` **KIND_ENUM** = ``5``
 
-Marca la opción como una entrada de enumeración.
+Marca la opción como una entrada de enum.
 
 .. _class_CodeEdit_constant_KIND_CONSTANT:
 
@@ -516,7 +516,7 @@ Descripciones de Propiedades
 - |void| **set_auto_brace_completion_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_auto_brace_completion_enabled**\ (\ )
 
-If ``true``, uses :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto_brace_completion_pairs>` to automatically insert the closing brace when the opening brace is inserted by typing or autocompletion. Also automatically removes the closing brace when using backspace on the opening brace.
+Si es ``true``, utiliza :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto_brace_completion_pairs>` para insertar automáticamente la llave de cierre cuando la llave de apertura se inserta escribiendo o mediante autocompletado. También elimina automáticamente la llave de cierre al usar la tecla de retroceso en la llave de apertura.
 
 .. rst-class:: classref-item-separator
 
@@ -533,7 +533,7 @@ If ``true``, uses :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto
 - |void| **set_highlight_matching_braces_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_highlight_matching_braces_enabled**\ (\ )
 
-If ``true``, highlights brace pairs when the caret is on either one, using :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto_brace_completion_pairs>`. If matching, the pairs will be underlined. If a brace is unmatched, it is colored with :ref:`brace_mismatch_color<class_CodeEdit_theme_color_brace_mismatch_color>`.
+Si es ``true``, resalta los pares de llaves cuando el cursor está en uno de ellos, utilizando :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto_brace_completion_pairs>`. Si coinciden, los pares se subrayarán. Si una llave no coincide, se colorea con :ref:`brace_mismatch_color<class_CodeEdit_theme_color_brace_mismatch_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -550,7 +550,7 @@ If ``true``, highlights brace pairs when the caret is on either one, using :ref:
 - |void| **set_auto_brace_completion_pairs**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_auto_brace_completion_pairs**\ (\ )
 
-Sets the brace pairs to be autocompleted. For each entry in the dictionary, the key is the opening brace and the value is the closing brace that matches it. A brace is a :ref:`String<class_String>` made of symbols. See :ref:`auto_brace_completion_enabled<class_CodeEdit_property_auto_brace_completion_enabled>` and :ref:`auto_brace_completion_highlight_matching<class_CodeEdit_property_auto_brace_completion_highlight_matching>`.
+Establece los pares de llaves que se autocompletarán. Para cada entrada en el diccionario, la clave es la llave de apertura y el valor es la llave de cierre que coincide con ella. Una llave es una :ref:`String<class_String>` hecha de símbolos. Véase :ref:`auto_brace_completion_enabled<class_CodeEdit_property_auto_brace_completion_enabled>` y :ref:`auto_brace_completion_highlight_matching<class_CodeEdit_property_auto_brace_completion_highlight_matching>`.
 
 .. rst-class:: classref-item-separator
 
@@ -567,7 +567,7 @@ Sets the brace pairs to be autocompleted. For each entry in the dictionary, the 
 - |void| **set_code_completion_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_code_completion_enabled**\ (\ )
 
-If ``true``, the :ref:`ProjectSettings.input/ui_text_completion_query<class_ProjectSettings_property_input/ui_text_completion_query>` action requests code completion. To handle it, see :ref:`_request_code_completion()<class_CodeEdit_private_method__request_code_completion>` or :ref:`code_completion_requested<class_CodeEdit_signal_code_completion_requested>`.
+Si es ``true``, la acción :ref:`ProjectSettings.input/ui_text_completion_query<class_ProjectSettings_property_input/ui_text_completion_query>` solicita la finalización del código. Para manejarlo, véase :ref:`_request_code_completion()<class_CodeEdit_private_method__request_code_completion>` o :ref:`code_completion_requested<class_CodeEdit_signal_code_completion_requested>`.
 
 .. rst-class:: classref-item-separator
 
@@ -584,7 +584,7 @@ If ``true``, the :ref:`ProjectSettings.input/ui_text_completion_query<class_Proj
 - |void| **set_code_completion_prefixes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_code_completion_prefixes**\ (\ )
 
-Sets prefixes that will trigger code completion.
+Establece los prefijos que activarán el autocompletado de código.
 
 .. rst-class:: classref-item-separator
 
@@ -601,7 +601,7 @@ Sets prefixes that will trigger code completion.
 - |void| **set_comment_delimiters**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_comment_delimiters**\ (\ )
 
-Sets the comment delimiters. All existing comment delimiters will be removed.
+Establece los delimitadores de comentarios. Se eliminarán todos los delimitadores de comentarios existentes.
 
 .. rst-class:: classref-item-separator
 
@@ -618,7 +618,7 @@ Sets the comment delimiters. All existing comment delimiters will be removed.
 - |void| **set_string_delimiters**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_string_delimiters**\ (\ )
 
-Sets the string delimiters. All existing string delimiters will be removed.
+Establece los delimitadores de string. Se eliminarán todos los delimitadores de string existentes.
 
 .. rst-class:: classref-item-separator
 
@@ -737,7 +737,7 @@ If ``true``, line numbers drawn in the gutter are zero padded based on the total
 - |void| **set_auto_indent_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_auto_indent_enabled**\ (\ )
 
-If ``true``, an extra indent is automatically inserted when a new line is added and a prefix in :ref:`indent_automatic_prefixes<class_CodeEdit_property_indent_automatic_prefixes>` is found. If a brace pair opening key is found, the matching closing brace will be moved to another new line (see :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto_brace_completion_pairs>`).
+Si es ``true``, se inserta una indentación adicional automáticamente cuando se añade una nueva línea y se encuentra un prefijo en :ref:`indent_automatic_prefixes<class_CodeEdit_property_indent_automatic_prefixes>`. Si se encuentra una clave de apertura de un par de llaves, la llave de cierre correspondiente se moverá a otra línea nueva (véase :ref:`auto_brace_completion_pairs<class_CodeEdit_property_auto_brace_completion_pairs>`).
 
 .. rst-class:: classref-item-separator
 
@@ -754,7 +754,7 @@ If ``true``, an extra indent is automatically inserted when a new line is added 
 - |void| **set_auto_indent_prefixes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_auto_indent_prefixes**\ (\ )
 
-Prefixes to trigger an automatic indent. Used when :ref:`indent_automatic<class_CodeEdit_property_indent_automatic>` is set to ``true``.
+Prefijos para activar una indentación automática. Se utiliza cuando :ref:`indent_automatic<class_CodeEdit_property_indent_automatic>` se establece en ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -771,7 +771,7 @@ Prefixes to trigger an automatic indent. Used when :ref:`indent_automatic<class_
 - |void| **set_indent_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_indent_size**\ (\ )
 
-Size of the tabulation indent (one :kbd:`Tab` press) in characters. If :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>` is enabled the number of spaces to use.
+Tamaño de la indentación de tabulación (una pulsación de :kbd:`Tab`) en caracteres. Si :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>` está habilitado, es el número de espacios a utilizar.
 
 .. rst-class:: classref-item-separator
 
@@ -925,11 +925,11 @@ Tanto la clave de inicio como la de fin deben ser símbolos. Solo la clave de in
 
 |void| **add_code_completion_option**\ (\ type\: :ref:`CodeCompletionKind<enum_CodeEdit_CodeCompletionKind>`, display_text\: :ref:`String<class_String>`, insert_text\: :ref:`String<class_String>`, text_color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), icon\: :ref:`Resource<class_Resource>` = null, value\: :ref:`Variant<class_Variant>` = null, location\: :ref:`int<class_int>` = 1024\ ) :ref:`🔗<class_CodeEdit_method_add_code_completion_option>`
 
-Submits an item to the queue of potential candidates for the autocomplete menu. Call :ref:`update_code_completion_options()<class_CodeEdit_method_update_code_completion_options>` to update the list.
+Envía un elemento a la cola de posibles candidatos para el menú de completado automático. Llama a :ref:`update_code_completion_options()<class_CodeEdit_method_update_code_completion_options>` para actualizar la lista.
 
-\ ``location`` indicates location of the option relative to the location of the code completion query. See :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` for how to set this value.
+\ ``location`` indica la ubicación de la opción en relación con la ubicación de la consulta de completado automático de código. Véase :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` para saber cómo establecer este valor.
 
-\ **Note:** This list will replace all current candidates.
+\ **Nota:** Esta lista reemplazará a todos los candidatos actuales.
 
 .. rst-class:: classref-item-separator
 
@@ -941,9 +941,9 @@ Submits an item to the queue of potential candidates for the autocomplete menu. 
 
 |void| **add_comment_delimiter**\ (\ start_key\: :ref:`String<class_String>`, end_key\: :ref:`String<class_String>`, line_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CodeEdit_method_add_comment_delimiter>`
 
-Adds a comment delimiter from ``start_key`` to ``end_key``. Both keys should be symbols, and ``start_key`` must not be shared with other delimiters.
+Añade un delimitador de comentario desde ``start_key`` hasta ``end_key``. Ambas claves deben ser símbolos, y ``start_key`` no debe compartirse con otros delimitadores.
 
-If ``line_only`` is ``true`` or ``end_key`` is an empty :ref:`String<class_String>`, the region does not carry over to the next line.
+Si ``line_only`` es ``true`` o ``end_key`` es una :ref:`String<class_String>` vacía, la región no se extiende a la siguiente línea.
 
 .. rst-class:: classref-item-separator
 
@@ -955,9 +955,9 @@ If ``line_only`` is ``true`` or ``end_key`` is an empty :ref:`String<class_Strin
 
 |void| **add_string_delimiter**\ (\ start_key\: :ref:`String<class_String>`, end_key\: :ref:`String<class_String>`, line_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CodeEdit_method_add_string_delimiter>`
 
-Defines a string delimiter from ``start_key`` to ``end_key``. Both keys should be symbols, and ``start_key`` must not be shared with other delimiters.
+Define un delimitador de string desde ``start_key`` hasta ``end_key``. Ambas claves deben ser símbolos, y ``start_key`` no debe compartirse con otros delimitadores.
 
-If ``line_only`` is ``true`` or ``end_key`` is an empty :ref:`String<class_String>`, the region does not carry over to the next line.
+Si ``line_only`` es ``true`` o ``end_key`` es una :ref:`String<class_String>` vacía, la región no se extiende a la siguiente línea.
 
 .. rst-class:: classref-item-separator
 
@@ -969,7 +969,7 @@ If ``line_only`` is ``true`` or ``end_key`` is an empty :ref:`String<class_Strin
 
 :ref:`bool<class_bool>` **can_fold_line**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_can_fold_line>`
 
-Returns ``true`` if the given line is foldable. A line is foldable if it is the start of a valid code region (see :ref:`get_code_region_start_tag()<class_CodeEdit_method_get_code_region_start_tag>`), if it is the start of a comment or string block, or if the next non-empty line is more indented (see :ref:`TextEdit.get_indent_level()<class_TextEdit_method_get_indent_level>`).
+Devuelve ``true`` si la línea dada se puede plegar. Una línea se puede plegar si es el inicio de una región de código válida (ver :ref:`get_code_region_start_tag()<class_CodeEdit_method_get_code_region_start_tag>`), si es el inicio de un comentario o bloque de string, o si la siguiente línea no vacía está más indentada (ver :ref:`TextEdit.get_indent_level()<class_TextEdit_method_get_indent_level>`).
 
 .. rst-class:: classref-item-separator
 
@@ -993,7 +993,7 @@ Cancela el menú de completado automático.
 
 |void| **clear_bookmarked_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_clear_bookmarked_lines>`
 
-Clears all bookmarked lines.
+Borra todas las líneas con marcadores.
 
 .. rst-class:: classref-item-separator
 
@@ -1053,7 +1053,7 @@ Elimina todos los delimitadores de strings.
 
 |void| **confirm_code_completion**\ (\ replace\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CodeEdit_method_confirm_code_completion>`
 
-Inserts the selected entry into the text. If ``replace`` is ``true``, any existing text is replaced rather than merged.
+Inserta la entrada seleccionada en el texto. Si ``replace`` es ``true``, cualquier texto existente se reemplaza en lugar de fusionarse.
 
 .. rst-class:: classref-item-separator
 
@@ -1065,9 +1065,9 @@ Inserts the selected entry into the text. If ``replace`` is ``true``, any existi
 
 |void| **convert_indent**\ (\ from_line\: :ref:`int<class_int>` = -1, to_line\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_CodeEdit_method_convert_indent>`
 
-Converts the indents of lines between ``from_line`` and ``to_line`` to tabs or spaces as set by :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>`.
+Convierte las indentaciones de las líneas entre ``from_line`` y ``to_line`` a tabulaciones o espacios según lo establecido por :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>`.
 
-Values of ``-1`` convert the entire text.
+Los valores de ``-1`` convierten todo el texto.
 
 .. rst-class:: classref-item-separator
 
@@ -1079,13 +1079,13 @@ Values of ``-1`` convert the entire text.
 
 |void| **create_code_region**\ (\ ) :ref:`🔗<class_CodeEdit_method_create_code_region>`
 
-Creates a new code region with the selection. At least one single line comment delimiter have to be defined (see :ref:`add_comment_delimiter()<class_CodeEdit_method_add_comment_delimiter>`).
+Crea una nueva región de código con la selección. Se debe definir al menos un delimitador de comentario de una sola línea (véase :ref:`add_comment_delimiter()<class_CodeEdit_method_add_comment_delimiter>`).
 
-A code region is a part of code that is highlighted when folded and can help organize your script.
+Una región de código es una parte del código que se resalta cuando se pliega y puede ayudar a organizar tu script.
 
-Code region start and end tags can be customized (see :ref:`set_code_region_tags()<class_CodeEdit_method_set_code_region_tags>`).
+Las etiquetas de inicio y fin de la región de código se pueden personalizar (ver :ref:`set_code_region_tags()<class_CodeEdit_method_set_code_region_tags>`).
 
-Code regions are delimited using start and end tags (respectively ``region`` and ``endregion`` by default) preceded by one line comment delimiter. (eg. ``#region`` and ``#endregion``)
+Las regiones de código se delimitan mediante etiquetas de inicio y fin (respectivamente ``region`` y ``endregion`` por defecto) precedidas por un delimitador de comentario de una línea. (ej. ``#region`` y ``#endregion``)
 
 .. rst-class:: classref-item-separator
 
@@ -1109,7 +1109,7 @@ Elimina todas las líneas que están seleccionadas o que tienen un cursor sobre 
 
 |void| **do_indent**\ (\ ) :ref:`🔗<class_CodeEdit_method_do_indent>`
 
-If there is no selection, indentation is inserted at the caret. Otherwise, the selected lines are indented like :ref:`indent_lines()<class_CodeEdit_method_indent_lines>`. Equivalent to the :ref:`ProjectSettings.input/ui_text_indent<class_ProjectSettings_property_input/ui_text_indent>` action. The indentation characters used depend on :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>` and :ref:`indent_size<class_CodeEdit_property_indent_size>`.
+Si no hay selección, se inserta una indentación en el cursor. De lo contrario, las líneas seleccionadas se indentan como :ref:`indent_lines()<class_CodeEdit_method_indent_lines>`. Equivalente a la acción :ref:`ProjectSettings.input/ui_text_indent<class_ProjectSettings_property_input/ui_text_indent>`. Los caracteres de indentación utilizados dependen de :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>` y :ref:`indent_size<class_CodeEdit_property_indent_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1121,7 +1121,7 @@ If there is no selection, indentation is inserted at the caret. Otherwise, the s
 
 |void| **duplicate_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_duplicate_lines>`
 
-Duplicates all lines currently selected with any caret. Duplicates the entire line beneath the current one no matter where the caret is within the line.
+Duplica todas las líneas seleccionadas actualmente con cualquier cursor. Duplica toda la línea debajo de la actual, sin importar dónde se encuentre el cursor dentro de la línea.
 
 .. rst-class:: classref-item-separator
 
@@ -1145,7 +1145,7 @@ Duplica todo el texto seleccionado y duplica todas las líneas que tengan un cur
 
 |void| **fold_all_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_fold_all_lines>`
 
-Folds all lines that are possible to be folded (see :ref:`can_fold_line()<class_CodeEdit_method_can_fold_line>`).
+Pliega todas las líneas que se pueden plegar (véase :ref:`can_fold_line()<class_CodeEdit_method_can_fold_line>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1157,7 +1157,7 @@ Folds all lines that are possible to be folded (see :ref:`can_fold_line()<class_
 
 |void| **fold_line**\ (\ line\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CodeEdit_method_fold_line>`
 
-Folds the given line, if possible (see :ref:`can_fold_line()<class_CodeEdit_method_can_fold_line>`).
+Pliega la línea dada, si es posible (véase :ref:`can_fold_line()<class_CodeEdit_method_can_fold_line>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1169,7 +1169,7 @@ Folds the given line, if possible (see :ref:`can_fold_line()<class_CodeEdit_meth
 
 :ref:`String<class_String>` **get_auto_brace_completion_close_key**\ (\ open_key\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_auto_brace_completion_close_key>`
 
-Gets the matching auto brace close key for ``open_key``.
+Obtiene la llave de cierre automático de corchete coincidente para ``open_key``.
 
 .. rst-class:: classref-item-separator
 
@@ -1229,7 +1229,7 @@ Gets the completion option at ``index``. The return :ref:`Dictionary<class_Dicti
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_code_completion_options**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_code_completion_options>`
 
-Gets all completion options, see :ref:`get_code_completion_option()<class_CodeEdit_method_get_code_completion_option>` for return content.
+Obtiene todas las opciones de completado automático, véase :ref:`get_code_completion_option()<class_CodeEdit_method_get_code_completion_option>` para el contenido devuelto.
 
 .. rst-class:: classref-item-separator
 
@@ -1241,7 +1241,7 @@ Gets all completion options, see :ref:`get_code_completion_option()<class_CodeEd
 
 :ref:`int<class_int>` **get_code_completion_selected_index**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_code_completion_selected_index>`
 
-Gets the index of the current selected completion option.
+Obtiene el índice de la opción de completado automático seleccionada.
 
 .. rst-class:: classref-item-separator
 
@@ -1253,7 +1253,7 @@ Gets the index of the current selected completion option.
 
 :ref:`String<class_String>` **get_code_region_end_tag**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_code_region_end_tag>`
 
-Returns the code region end tag (without comment delimiter).
+Devuelve la etiqueta final de la región de código (sin delimitador de comentario).
 
 .. rst-class:: classref-item-separator
 
@@ -1265,7 +1265,7 @@ Returns the code region end tag (without comment delimiter).
 
 :ref:`String<class_String>` **get_code_region_start_tag**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_code_region_start_tag>`
 
-Returns the code region start tag (without comment delimiter).
+Devuelve la etiqueta de inicio de la región de código (sin delimitador de comentario).
 
 .. rst-class:: classref-item-separator
 
@@ -1277,7 +1277,7 @@ Returns the code region start tag (without comment delimiter).
 
 :ref:`String<class_String>` **get_delimiter_end_key**\ (\ delimiter_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_delimiter_end_key>`
 
-Gets the end key for a string or comment region index.
+Obtiene la clave final para un índice de región de string o comentario.
 
 .. rst-class:: classref-item-separator
 
@@ -1289,7 +1289,7 @@ Gets the end key for a string or comment region index.
 
 :ref:`Vector2<class_Vector2>` **get_delimiter_end_position**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_delimiter_end_position>`
 
-If ``line`` ``column`` is in a string or comment, returns the end position of the region. If not or no end could be found, both :ref:`Vector2<class_Vector2>` values will be ``-1``.
+Si ``line`` ``column`` está en una string o comentario, devuelve la posición final de la región. Si no, o no se pudo encontrar un final, ambos valores de :ref:`Vector2<class_Vector2>` serán ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -1301,7 +1301,7 @@ If ``line`` ``column`` is in a string or comment, returns the end position of th
 
 :ref:`String<class_String>` **get_delimiter_start_key**\ (\ delimiter_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_delimiter_start_key>`
 
-Gets the start key for a string or comment region index.
+Obtiene la clave de inicio para un índice de región de string o comentario.
 
 .. rst-class:: classref-item-separator
 
@@ -1313,7 +1313,7 @@ Gets the start key for a string or comment region index.
 
 :ref:`Vector2<class_Vector2>` **get_delimiter_start_position**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_delimiter_start_position>`
 
-If ``line`` ``column`` is in a string or comment, returns the start position of the region. If not or no start could be found, both :ref:`Vector2<class_Vector2>` values will be ``-1``.
+Si ``line`` ``column`` está en una string o comentario, devuelve la posición inicial de la región. Si no, o no se pudo encontrar un inicio, ambos valores de :ref:`Vector2<class_Vector2>` serán ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -1361,7 +1361,7 @@ Devuelve el texto completo con el carácter ``0xFFFF`` en la ubicación del curs
 
 :ref:`String<class_String>` **get_text_for_symbol_lookup**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_text_for_symbol_lookup>`
 
-Returns the full text with char ``0xFFFF`` at the cursor location.
+Devuelve el texto completo con el carácter ``0xFFFF`` en la ubicación del cursor.
 
 .. rst-class:: classref-item-separator
 
@@ -1373,7 +1373,7 @@ Returns the full text with char ``0xFFFF`` at the cursor location.
 
 :ref:`String<class_String>` **get_text_with_cursor_char**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_text_with_cursor_char>`
 
-Returns the full text with char ``0xFFFF`` at the specified location.
+Devuelve el texto completo con el carácter ``0xFFFF`` en la ubicación especificada.
 
 .. rst-class:: classref-item-separator
 
@@ -1385,7 +1385,7 @@ Returns the full text with char ``0xFFFF`` at the specified location.
 
 :ref:`bool<class_bool>` **has_auto_brace_completion_close_key**\ (\ close_key\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_CodeEdit_method_has_auto_brace_completion_close_key>`
 
-Returns ``true`` if close key ``close_key`` exists.
+Devuelve ``true`` si la clave de cierre ``close_key`` existe.
 
 .. rst-class:: classref-item-separator
 
@@ -1397,7 +1397,7 @@ Returns ``true`` if close key ``close_key`` exists.
 
 :ref:`bool<class_bool>` **has_auto_brace_completion_open_key**\ (\ open_key\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_CodeEdit_method_has_auto_brace_completion_open_key>`
 
-Returns ``true`` if open key ``open_key`` exists.
+Devuelve ``true`` si la clave de apertura ``open_key`` existe.
 
 .. rst-class:: classref-item-separator
 
@@ -1409,7 +1409,7 @@ Returns ``true`` if open key ``open_key`` exists.
 
 :ref:`bool<class_bool>` **has_comment_delimiter**\ (\ start_key\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_CodeEdit_method_has_comment_delimiter>`
 
-Returns ``true`` if comment ``start_key`` exists.
+Devuelve ``true`` si el comentario ``start_key`` existe.
 
 .. rst-class:: classref-item-separator
 
@@ -1421,7 +1421,7 @@ Returns ``true`` if comment ``start_key`` exists.
 
 :ref:`bool<class_bool>` **has_string_delimiter**\ (\ start_key\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_CodeEdit_method_has_string_delimiter>`
 
-Returns ``true`` if string ``start_key`` exists.
+Devuelve ``true`` si la string ``start_key`` existe.
 
 .. rst-class:: classref-item-separator
 
@@ -1445,7 +1445,7 @@ Sangra todas las líneas seleccionadas o que tienen un cursor. Usa espacios o un
 
 :ref:`int<class_int>` **is_in_comment**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_CodeEdit_method_is_in_comment>`
 
-Returns delimiter index if ``line`` ``column`` is in a comment. If ``column`` is not provided, will return delimiter index if the entire ``line`` is a comment. Otherwise ``-1``.
+Devuelve el índice del delimitador si ``line`` ``column`` está en un comentario. Si no se proporciona ``column``, devolverá el índice del delimitador si toda la ``line`` es un comentario. De lo contrario, devuelve ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -1457,7 +1457,7 @@ Returns delimiter index if ``line`` ``column`` is in a comment. If ``column`` is
 
 :ref:`int<class_int>` **is_in_string**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_CodeEdit_method_is_in_string>`
 
-Returns the delimiter index if ``line`` ``column`` is in a string. If ``column`` is not provided, will return the delimiter index if the entire ``line`` is a string. Otherwise ``-1``.
+Devuelve el índice del delimitador si ``line`` ``column`` está en una string. Si no se proporciona ``column``, devolverá el índice del delimitador si toda la ``line`` es una string. De lo contrario, devuelve ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -1469,7 +1469,7 @@ Returns the delimiter index if ``line`` ``column`` is in a string. If ``column``
 
 :ref:`bool<class_bool>` **is_line_bookmarked**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_is_line_bookmarked>`
 
-Returns ``true`` if the given line is bookmarked. See :ref:`set_line_as_bookmarked()<class_CodeEdit_method_set_line_as_bookmarked>`.
+Devuelve ``true`` si la línea dada tiene un marcador. Véase :ref:`set_line_as_bookmarked()<class_CodeEdit_method_set_line_as_bookmarked>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1481,7 +1481,7 @@ Returns ``true`` if the given line is bookmarked. See :ref:`set_line_as_bookmark
 
 :ref:`bool<class_bool>` **is_line_breakpointed**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_is_line_breakpointed>`
 
-Returns ``true`` if the given line is breakpointed. See :ref:`set_line_as_breakpoint()<class_CodeEdit_method_set_line_as_breakpoint>`.
+Devuelve ``true`` si la línea dada tiene un punto de interrupción. Véase :ref:`set_line_as_breakpoint()<class_CodeEdit_method_set_line_as_breakpoint>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1493,7 +1493,7 @@ Returns ``true`` if the given line is breakpointed. See :ref:`set_line_as_breakp
 
 :ref:`bool<class_bool>` **is_line_code_region_end**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_is_line_code_region_end>`
 
-Returns ``true`` if the given line is a code region end. See :ref:`set_code_region_tags()<class_CodeEdit_method_set_code_region_tags>`.
+Devuelve ``true`` si la línea dada es el final de una región de código. Véase :ref:`set_code_region_tags()<class_CodeEdit_method_set_code_region_tags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1505,7 +1505,7 @@ Returns ``true`` if the given line is a code region end. See :ref:`set_code_regi
 
 :ref:`bool<class_bool>` **is_line_code_region_start**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_is_line_code_region_start>`
 
-Returns ``true`` if the given line is a code region start. See :ref:`set_code_region_tags()<class_CodeEdit_method_set_code_region_tags>`.
+Devuelve ``true`` si la línea dada es el inicio de una región de código. Véase :ref:`set_code_region_tags()<class_CodeEdit_method_set_code_region_tags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1517,7 +1517,7 @@ Returns ``true`` if the given line is a code region start. See :ref:`set_code_re
 
 :ref:`bool<class_bool>` **is_line_executing**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_is_line_executing>`
 
-Returns ``true`` if the given line is marked as executing. See :ref:`set_line_as_executing()<class_CodeEdit_method_set_line_as_executing>`.
+Devuelve ``true`` si la línea dada está marcada como en ejecución. Véase :ref:`set_line_as_executing()<class_CodeEdit_method_set_line_as_executing>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1529,7 +1529,7 @@ Returns ``true`` if the given line is marked as executing. See :ref:`set_line_as
 
 :ref:`bool<class_bool>` **is_line_folded**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_is_line_folded>`
 
-Returns ``true`` if the given line is folded. See :ref:`fold_line()<class_CodeEdit_method_fold_line>`.
+Devuelve ``true`` si la línea dada está plegada. Véase :ref:`fold_line()<class_CodeEdit_method_fold_line>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1565,7 +1565,7 @@ Mueve hacia arriba todas las líneas que estén seleccionadas o que tengan un cu
 
 |void| **remove_comment_delimiter**\ (\ start_key\: :ref:`String<class_String>`\ ) :ref:`🔗<class_CodeEdit_method_remove_comment_delimiter>`
 
-Removes the comment delimiter with ``start_key``.
+Elimina el delimitador de comentario con ``start_key``.
 
 .. rst-class:: classref-item-separator
 
@@ -1577,7 +1577,7 @@ Removes the comment delimiter with ``start_key``.
 
 |void| **remove_string_delimiter**\ (\ start_key\: :ref:`String<class_String>`\ ) :ref:`🔗<class_CodeEdit_method_remove_string_delimiter>`
 
-Removes the string delimiter with ``start_key``.
+Elimina el delimitador de string con ``start_key``.
 
 .. rst-class:: classref-item-separator
 
@@ -1589,7 +1589,7 @@ Removes the string delimiter with ``start_key``.
 
 |void| **request_code_completion**\ (\ force\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CodeEdit_method_request_code_completion>`
 
-Emits :ref:`code_completion_requested<class_CodeEdit_signal_code_completion_requested>`, if ``force`` is ``true`` will bypass all checks. Otherwise will check that the caret is in a word or in front of a prefix. Will ignore the request if all current options are of type file path, node path, or signal.
+Emite :ref:`code_completion_requested<class_CodeEdit_signal_code_completion_requested>`, si ``force`` es ``true`` se omitirán todas las comprobaciones. De lo contrario, comprobará que el cursor está en una palabra o delante de un prefijo. Ignorará la petición si todas las opciones actuales son de tipo ruta de archivo, ruta de nodo o señal.
 
 .. rst-class:: classref-item-separator
 
@@ -1613,7 +1613,7 @@ Establece la opción de finalización seleccionada actualmente.
 
 |void| **set_code_hint**\ (\ code_hint\: :ref:`String<class_String>`\ ) :ref:`🔗<class_CodeEdit_method_set_code_hint>`
 
-Sets the code hint text. Pass an empty string to clear.
+Establece el texto de sugerencia de código. Pasa una string vacía para borrarlo.
 
 .. rst-class:: classref-item-separator
 
@@ -1625,7 +1625,7 @@ Sets the code hint text. Pass an empty string to clear.
 
 |void| **set_code_hint_draw_below**\ (\ draw_below\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CodeEdit_method_set_code_hint_draw_below>`
 
-If ``true``, the code hint will draw below the main caret. If ``false``, the code hint will draw above the main caret. See :ref:`set_code_hint()<class_CodeEdit_method_set_code_hint>`.
+Si es ``true``, la sugerencia de código se dibujará debajo del cursor principal. Si es ``false``, la sugerencia de código se dibujará encima del cursor principal. Véase :ref:`set_code_hint()<class_CodeEdit_method_set_code_hint>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1637,7 +1637,7 @@ If ``true``, the code hint will draw below the main caret. If ``false``, the cod
 
 |void| **set_code_region_tags**\ (\ start\: :ref:`String<class_String>` = "region", end\: :ref:`String<class_String>` = "endregion"\ ) :ref:`🔗<class_CodeEdit_method_set_code_region_tags>`
 
-Sets the code region start and end tags (without comment delimiter).
+Establece las etiquetas de inicio y fin de la región de código (sin delimitador de comentario).
 
 .. rst-class:: classref-item-separator
 
@@ -1649,7 +1649,7 @@ Sets the code region start and end tags (without comment delimiter).
 
 |void| **set_line_as_bookmarked**\ (\ line\: :ref:`int<class_int>`, bookmarked\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CodeEdit_method_set_line_as_bookmarked>`
 
-Sets the given line as bookmarked. If ``true`` and :ref:`gutters_draw_bookmarks<class_CodeEdit_property_gutters_draw_bookmarks>` is ``true``, draws the :ref:`bookmark<class_CodeEdit_theme_icon_bookmark>` icon in the gutter for this line. See :ref:`get_bookmarked_lines()<class_CodeEdit_method_get_bookmarked_lines>` and :ref:`is_line_bookmarked()<class_CodeEdit_method_is_line_bookmarked>`.
+Establece la línea dada como marcada. Si es ``true`` y :ref:`gutters_draw_bookmarks<class_CodeEdit_property_gutters_draw_bookmarks>` es ``true``, dibuja el icono :ref:`bookmark<class_CodeEdit_theme_icon_bookmark>` en el medianil para esta línea. Véase :ref:`get_bookmarked_lines()<class_CodeEdit_method_get_bookmarked_lines>` y :ref:`is_line_bookmarked()<class_CodeEdit_method_is_line_bookmarked>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1661,7 +1661,7 @@ Sets the given line as bookmarked. If ``true`` and :ref:`gutters_draw_bookmarks<
 
 |void| **set_line_as_breakpoint**\ (\ line\: :ref:`int<class_int>`, breakpointed\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CodeEdit_method_set_line_as_breakpoint>`
 
-Sets the given line as a breakpoint. If ``true`` and :ref:`gutters_draw_breakpoints_gutter<class_CodeEdit_property_gutters_draw_breakpoints_gutter>` is ``true``, draws the :ref:`breakpoint<class_CodeEdit_theme_icon_breakpoint>` icon in the gutter for this line. See :ref:`get_breakpointed_lines()<class_CodeEdit_method_get_breakpointed_lines>` and :ref:`is_line_breakpointed()<class_CodeEdit_method_is_line_breakpointed>`.
+Establece la línea dada como un punto de interrupción. Si es ``true`` y :ref:`gutters_draw_breakpoints_gutter<class_CodeEdit_property_gutters_draw_breakpoints_gutter>` es ``true``, dibuja el icono :ref:`breakpoint<class_CodeEdit_theme_icon_breakpoint>` en el medianil para esta línea. Véase :ref:`get_breakpointed_lines()<class_CodeEdit_method_get_breakpointed_lines>` y :ref:`is_line_breakpointed()<class_CodeEdit_method_is_line_breakpointed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1673,7 +1673,7 @@ Sets the given line as a breakpoint. If ``true`` and :ref:`gutters_draw_breakpoi
 
 |void| **set_line_as_executing**\ (\ line\: :ref:`int<class_int>`, executing\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CodeEdit_method_set_line_as_executing>`
 
-Sets the given line as executing. If ``true`` and :ref:`gutters_draw_executing_lines<class_CodeEdit_property_gutters_draw_executing_lines>` is ``true``, draws the :ref:`executing_line<class_CodeEdit_theme_icon_executing_line>` icon in the gutter for this line. See :ref:`get_executing_lines()<class_CodeEdit_method_get_executing_lines>` and :ref:`is_line_executing()<class_CodeEdit_method_is_line_executing>`.
+Establece la línea dada como en ejecución. Si es ``true`` y :ref:`gutters_draw_executing_lines<class_CodeEdit_property_gutters_draw_executing_lines>` es ``true``, dibuja el icono :ref:`executing_line<class_CodeEdit_theme_icon_executing_line>` en el medianil para esta línea. Véase :ref:`get_executing_lines()<class_CodeEdit_method_get_executing_lines>` e :ref:`is_line_executing()<class_CodeEdit_method_is_line_executing>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1685,7 +1685,7 @@ Sets the given line as executing. If ``true`` and :ref:`gutters_draw_executing_l
 
 |void| **set_symbol_lookup_word_as_valid**\ (\ valid\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CodeEdit_method_set_symbol_lookup_word_as_valid>`
 
-Sets the symbol emitted by :ref:`symbol_validate<class_CodeEdit_signal_symbol_validate>` as a valid lookup.
+Establece el símbolo emitido por :ref:`symbol_validate<class_CodeEdit_signal_symbol_validate>` como una búsqueda válida.
 
 .. rst-class:: classref-item-separator
 
@@ -1721,7 +1721,7 @@ Alterna el plegado del bloque de código en todas las líneas que tienen un curs
 
 |void| **unfold_all_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_unfold_all_lines>`
 
-Unfolds all lines that are folded.
+Despliega todas las líneas que están plegadas.
 
 .. rst-class:: classref-item-separator
 
@@ -1733,7 +1733,7 @@ Unfolds all lines that are folded.
 
 |void| **unfold_line**\ (\ line\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CodeEdit_method_unfold_line>`
 
-Unfolds the given line if it is folded or if it is hidden under a folded line.
+Despliega la línea dada si está plegada o si está oculta bajo una línea plegada.
 
 .. rst-class:: classref-item-separator
 
@@ -1745,7 +1745,7 @@ Unfolds the given line if it is folded or if it is hidden under a folded line.
 
 |void| **unindent_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_unindent_lines>`
 
-Unindents all lines that are selected or have a caret on them. Uses spaces or a tab depending on :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>`. Equivalent to the :ref:`ProjectSettings.input/ui_text_dedent<class_ProjectSettings_property_input/ui_text_dedent>` action. See :ref:`indent_lines()<class_CodeEdit_method_indent_lines>`.
+Elimina la indentación de todas las líneas que están seleccionadas o tienen un cursor sobre ellas. Utiliza espacios o una tabulación dependiendo de :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>`. Equivalente a la acción :ref:`ProjectSettings.input/ui_text_dedent<class_ProjectSettings_property_input/ui_text_dedent>`. Véase :ref:`indent_lines()<class_CodeEdit_method_indent_lines>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1757,9 +1757,9 @@ Unindents all lines that are selected or have a caret on them. Uses spaces or a 
 
 |void| **update_code_completion_options**\ (\ force\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CodeEdit_method_update_code_completion_options>`
 
-Submits all completion options added with :ref:`add_code_completion_option()<class_CodeEdit_method_add_code_completion_option>`. Will try to force the autocomplete menu to popup, if ``force`` is ``true``.
+Envía todas las opciones de completado añadidas con :ref:`add_code_completion_option()<class_CodeEdit_method_add_code_completion_option>`. Intentará forzar la aparición del menú de autocompletado, si ``force`` es ``true``.
 
-\ **Note:** This will replace all current candidates.
+\ **Nota:** Esto reemplazará todos los candidatos actuales.
 
 .. rst-class:: classref-section-separator
 

@@ -7,7 +7,7 @@ WorkerThreadPool
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-A singleton that allocates some :ref:`Thread<class_Thread>`\ s on startup, used to offload tasks to these threads.
+Un singleton qui attribue quelques :ref:`Thread<class_Thread>`\ s au démarrage, utilisé pour décharger des tâches à ces threads.
 
 .. rst-class:: classref-introduction-group
 
@@ -147,7 +147,7 @@ Returns a task ID that can be used by other methods.
 
 :ref:`int<class_int>` **get_caller_group_id**\ (\ ) |const| :ref:`🔗<class_WorkerThreadPool_method_get_caller_group_id>`
 
-Returns the task group ID of the current thread calling this method, or ``-1`` if invalid or the current thread is not part of a task group.
+Renvoie l'ID du groupe de tâche du thread courant appelant cette méthode, ou ``-1`` si invalide ou si le thread courant ne fait pas partie d'un groupe de tâche.
 
 .. rst-class:: classref-item-separator
 
@@ -203,9 +203,9 @@ Returns ``true`` if the group task with the given ID is completed.
 
 :ref:`bool<class_bool>` **is_task_completed**\ (\ task_id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_WorkerThreadPool_method_is_task_completed>`
 
-Returns ``true`` if the task with the given ID is completed.
+Renvoie ``true`` si la tâche avec l'identifiant donné est terminée.
 
-\ **Note:** You should only call this method between adding the task and awaiting its completion.
+\ **Note :** Vous ne devriez appeler cette méthode que seulement entre l'ajout de la tâche et l'attente de sa complétion.
 
 .. rst-class:: classref-item-separator
 
@@ -217,7 +217,7 @@ Returns ``true`` if the task with the given ID is completed.
 
 |void| **wait_for_group_task_completion**\ (\ group_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_WorkerThreadPool_method_wait_for_group_task_completion>`
 
-Pauses the thread that calls this method until the group task with the given ID is completed.
+Pause le thread qui appelle cette méthode jusqu'à ce que la tâche du groupe avec l'identifiant donné soit terminée.
 
 .. rst-class:: classref-item-separator
 

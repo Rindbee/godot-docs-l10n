@@ -7,16 +7,16 @@ MissingResource
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An internal editor class intended for keeping the data of unrecognized resources.
+Une classe d'éditeur interne destinée à conserver les données des ressources non reconnues.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This is an internal editor class intended for keeping data of resources of unknown type (most likely this type was supplied by an extension that is no longer loaded). It can't be manually instantiated or placed in a scene.
+Il s'agit d'une classe de l'éditeur interne destinée à conserver les données d'un type inconnu (ce type a probablement été fourni par une extension qui n'est plus chargée). Elle ne peut pas être manuellement instanciée ou placée dans une scène.
 
-\ **Warning:** Ignore missing resources unless you know what you are doing. Existing properties on a missing resource can be freely modified in code, regardless of the type they are intended to be.
+\ **Attention :** Ignorez les ressources manquantes à moins que vous ne sachiez ce que vous faites. Les propriétés existantes sur une ressource manquante peuvent être librement modifiées dans le code, peu importe le type qu'elles sont censées être.
 
 .. rst-class:: classref-reftable-group
 
@@ -52,7 +52,7 @@ Descriptions des propriétés
 - |void| **set_original_class**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_original_class**\ (\ )
 
-The name of the class this resource was supposed to be (see :ref:`Object.get_class()<class_Object_method_get_class>`).
+Le nom de la classe prévue pour cette ressource (voir :ref:`Object.get_class()<class_Object_method_get_class>`).
 
 .. rst-class:: classref-item-separator
 
@@ -69,7 +69,7 @@ The name of the class this resource was supposed to be (see :ref:`Object.get_cla
 - |void| **set_recording_properties**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_recording_properties**\ (\ )
 
-If set to ``true``, allows new properties to be added on top of the existing ones with :ref:`Object.set()<class_Object_method_set>`.
+Si défini à ``true`` autorise l'ajout de nouvelles propriétés par-dessus les propriétés existantes avec :ref:`Object.set()<class_Object_method_set>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

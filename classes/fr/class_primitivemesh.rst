@@ -7,16 +7,16 @@ PrimitiveMesh
 
 **Hérite de :** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`BoxMesh<class_BoxMesh>`, :ref:`CapsuleMesh<class_CapsuleMesh>`, :ref:`CylinderMesh<class_CylinderMesh>`, :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PointMesh<class_PointMesh>`, :ref:`PrismMesh<class_PrismMesh>`, :ref:`RibbonTrailMesh<class_RibbonTrailMesh>`, :ref:`SphereMesh<class_SphereMesh>`, :ref:`TextMesh<class_TextMesh>`, :ref:`TorusMesh<class_TorusMesh>`, :ref:`TubeTrailMesh<class_TubeTrailMesh>`
+**Hérité par :** :ref:`BoxMesh<class_BoxMesh>`, :ref:`CapsuleMesh<class_CapsuleMesh>`, :ref:`CylinderMesh<class_CylinderMesh>`, :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PointMesh<class_PointMesh>`, :ref:`PrismMesh<class_PrismMesh>`, :ref:`RibbonTrailMesh<class_RibbonTrailMesh>`, :ref:`SphereMesh<class_SphereMesh>`, :ref:`TextMesh<class_TextMesh>`, :ref:`TorusMesh<class_TorusMesh>`, :ref:`TubeTrailMesh<class_TubeTrailMesh>`
 
-Base class for all primitive meshes. Handles applying a :ref:`Material<class_Material>` to a primitive mesh.
+Classe de base pour tous les maillages primitifs. Gère l'application d'un :ref:`Material<class_Material>` à un maillage primitif.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Base class for all primitive meshes. Handles applying a :ref:`Material<class_Material>` to a primitive mesh. Examples include :ref:`BoxMesh<class_BoxMesh>`, :ref:`CapsuleMesh<class_CapsuleMesh>`, :ref:`CylinderMesh<class_CylinderMesh>`, :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PrismMesh<class_PrismMesh>`, and :ref:`SphereMesh<class_SphereMesh>`.
+Classe de base pour tous les maillages primitifs. Gère l'application d'un :ref:`Material<class_Material>` à un maillage primitif. On peut citer par exemple :ref:`BoxMesh<class_BoxMesh>`, :ref:`CapsuleMesh<class_CapsuleMesh>`, :ref:`CylinderMesh<class_CylinderMesh>`, :ref:`PlaneMesh<class_PlaneMesh>`, :ref:`PrismMesh<class_PrismMesh>`, et :ref:`SphereMesh<class_SphereMesh>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -163,7 +163,7 @@ Descriptions des méthodes
 
 :ref:`Array<class_Array>` **_create_mesh_array**\ (\ ) |virtual| |const| :ref:`🔗<class_PrimitiveMesh_private_method__create_mesh_array>`
 
-Override this method to customize how this primitive mesh should be generated. Should return an :ref:`Array<class_Array>` where each element is another Array of values required for the mesh (see the :ref:`ArrayType<enum_Mesh_ArrayType>` constants).
+Redéfinissez cette méthode pour personnaliser comment ce maillage primitif devrait être généré. Devrait renvoyer un :ref:`Array<class_Array>` où chaque élément est un autre Array de valeurs requises pour le maillage (voir les constantes :ref:`ArrayType<enum_Mesh_ArrayType>`).
 
 .. rst-class:: classref-item-separator
 
@@ -175,9 +175,9 @@ Override this method to customize how this primitive mesh should be generated. S
 
 :ref:`Array<class_Array>` **get_mesh_arrays**\ (\ ) |const| :ref:`🔗<class_PrimitiveMesh_method_get_mesh_arrays>`
 
-Returns the mesh arrays used to make up the surface of this primitive mesh.
+Renvoie les tableaux du maillage utilisés pour constituer la surface de ce maillage primitif.
 
-\ **Example:** Pass the result to :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>` to create a new surface:
+\ **Exemple :** Passez le résultat à :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>` pour créer une nouvelle surface :
 
 
 .. tabs::
@@ -206,7 +206,7 @@ Returns the mesh arrays used to make up the surface of this primitive mesh.
 
 |void| **request_update**\ (\ ) :ref:`🔗<class_PrimitiveMesh_method_request_update>`
 
-Request an update of this primitive mesh based on its properties.
+Demande une mise à jour de ce maillage primitif selon ses propriétés.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

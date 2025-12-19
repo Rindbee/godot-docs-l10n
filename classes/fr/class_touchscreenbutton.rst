@@ -7,18 +7,18 @@ TouchScreenButton
 
 **Hérite de :** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Button for touch screen devices for gameplay use.
+Bouton pour écran tactile pour utilisation durant le gameplay.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-TouchScreenButton allows you to create on-screen buttons for touch devices. It's intended for gameplay use, such as a unit you have to touch to move. Unlike :ref:`Button<class_Button>`, TouchScreenButton supports multitouch out of the box. Several TouchScreenButtons can be pressed at the same time with touch input.
+TouchScreenButton vous permet de créer des boutons à l'écran pour les appareils tactiles. Il est destiné à l'utilisation durant le gameplay, comme avec une unité que vous devez toucher pour la bouger. Contrairement à :ref:`Button<class_Button>`, TouchScreenButton supporte directement le multi-toucher. Plusieurs TouchScreenButtons peuvent être appuyés en même temps avec l'entrée tactile.
 
-This node inherits from :ref:`Node2D<class_Node2D>`. Unlike with :ref:`Control<class_Control>` nodes, you cannot set anchors on it. If you want to create menus or user interfaces, you may want to use :ref:`Button<class_Button>` nodes instead. To make button nodes react to touch events, you can enable :ref:`ProjectSettings.input_devices/pointing/emulate_mouse_from_touch<class_ProjectSettings_property_input_devices/pointing/emulate_mouse_from_touch>` in the Project Settings.
+Ce nœud hérite de :ref:`Node2D<class_Node2D>`. Contrairement aux nœuds :ref:`Control<class_Control>`, vous ne pouvez pas définir des ancres dessus. Si vous voulez créer des menus ou des interfaces utilisateur, vous pourriez vouloir utiliser des nœuds :ref:`Button<class_Button>` à la place. Pour que les nœuds de bouton réagissent aux événements tactiles, vous pouvez activer :ref:`ProjectSettings.input_devices/pointing/emulate_mouse_from_touch<class_ProjectSettings_property_input_devices/pointing/emulate_mouse_from_touch>` dans les paramètres du projet.
 
-You can configure TouchScreenButton to be visible only on touch devices, helping you develop your game both for desktop and mobile devices.
+Vous pouvez configurer TouchScreenButton pour être visible uniquement sur les appareils tactiles, vous aidant ainsi à développer votre jeu à la fois pour les appareils de bureau et mobiles.
 
 .. rst-class:: classref-reftable-group
 
@@ -174,9 +174,9 @@ Le masque binaire du bouton.
 - |void| **set_passby_press**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_passby_press_enabled**\ (\ )
 
-If ``true``, the :ref:`pressed<class_TouchScreenButton_signal_pressed>` and :ref:`released<class_TouchScreenButton_signal_released>` signals are emitted whenever a pressed finger goes in and out of the button, even if the pressure started outside the active area of the button.
+Si ``true``, les signaux :ref:`pressed<class_TouchScreenButton_signal_pressed>` et :ref:`released<class_TouchScreenButton_signal_released>` sont émis lorsqu'un doigt appuyé entre et sort du bouton, même si la pression a commencé à l'extérieur de la zone active du bouton.
 
-\ **Note:** This is a "pass-by" (not "bypass") press mode.
+\ **Note :** Il s'agit d'un mode d'appui "pass-by" (et non "bypass").
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ La forme du bouton.
 - |void| **set_shape_centered**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_shape_centered**\ (\ )
 
-If ``true``, the button's shape is centered in the provided texture. If no texture is used, this property has no effect.
+Si ``true``, la forme du bouton est centrée dans la texture fournie. Si aucune texture n'est utilisée, cette propriété n'a aucun effet.
 
 .. rst-class:: classref-item-separator
 
@@ -227,7 +227,7 @@ If ``true``, the button's shape is centered in the provided texture. If no textu
 - |void| **set_shape_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_shape_visible**\ (\ )
 
-If ``true``, the button's shape is visible in the editor.
+Si ``true``, la forme du bouton est visible dans l'éditeur.
 
 .. rst-class:: classref-item-separator
 
@@ -278,7 +278,7 @@ La texture du bouton pour l'état appuyé.
 - |void| **set_visibility_mode**\ (\ value\: :ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>`\ )
 - :ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>` **get_visibility_mode**\ (\ )
 
-The button's visibility mode.
+Le mode de visibilité du bouton.
 
 .. rst-class:: classref-section-separator
 

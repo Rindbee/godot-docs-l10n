@@ -14,9 +14,9 @@ Texture avec des normal maps et specular maps optionnelles à utiliser pour le r
 Description
 -----------
 
-**CanvasTexture** is an alternative to :ref:`ImageTexture<class_ImageTexture>` for 2D rendering. It allows using normal maps and specular maps in any node that inherits from :ref:`CanvasItem<class_CanvasItem>`. **CanvasTexture** also allows overriding the texture's filter and repeat mode independently of the node's properties (or the project settings).
+**CanvasTexture** est une alternative à :ref:`ImageTexture<class_ImageTexture>` pour le rendu 2D. Elle permet d'utiliser des normal maps et des maps spéculaires dans n'importe quel nœud héritant de :ref:`CanvasItem<class_CanvasItem>`. **CanvasTexture** permet aussi de redéfinir le filtrage de texture et le mode de répétition indépendamment des propriétés du nœud (ou des paramètres du projet).
 
-\ **Note:** **CanvasTexture** cannot be used in 3D. It will not display correctly when applied to any :ref:`VisualInstance3D<class_VisualInstance3D>`, such as :ref:`Sprite3D<class_Sprite3D>` or :ref:`Decal<class_Decal>`. For physically-based materials in 3D, use :ref:`BaseMaterial3D<class_BaseMaterial3D>` instead.
+\ **Remarque :** **CanvasTexture** ne peut pas être utilisée en 3D. Elle ne s'affichera pas correctement quand appliquée à un :ref:`VisualInstance3D<class_VisualInstance3D>`, tel que :ref:`Sprite3D<class_Sprite3D>` ou :ref:`Decal<class_Decal>`. Pour des matériaux basés sur la physique en 3D, utilisez plutôt :ref:`BaseMaterial3D<class_BaseMaterial3D>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -124,7 +124,7 @@ Le multiplicateur pour les couleurs de réflexion spéculaire. La couleur de la 
 - |void| **set_specular_shininess**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_specular_shininess**\ (\ )
 
-The specular exponent for :ref:`Light2D<class_Light2D>` specular reflections. Higher values result in a more glossy/"wet" look, with reflections becoming more localized and less visible overall. The default value of ``1.0`` disables specular reflections entirely. Only has a visible effect if :ref:`Light2D<class_Light2D>`\ s are affecting this **CanvasTexture**.
+L'exposant spéculaire pour des réflexions spéculaires de :ref:`Light2D<class_Light2D>`\ s. Des valeurs plus grandes donnent un aspect plus brillant/"mouillé", avec des réflexions devenant plus locales et moins visible au global. La valeur par défaut de ``1.0`` désactive complètement les reflets spéculaires. A un effet visible seulement si des :ref:`Light2D<class_Light2D>`\ s affectent cette **CanvasTexture**.
 
 .. rst-class:: classref-item-separator
 
@@ -141,7 +141,7 @@ The specular exponent for :ref:`Light2D<class_Light2D>` specular reflections. Hi
 - |void| **set_specular_texture**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_specular_texture**\ (\ )
 
-The specular map to use for :ref:`Light2D<class_Light2D>` specular reflections. This should be a grayscale or colored texture, with brighter areas resulting in a higher :ref:`specular_shininess<class_CanvasTexture_property_specular_shininess>` value. Using a colored :ref:`specular_texture<class_CanvasTexture_property_specular_texture>` allows controlling specular shininess on a per-channel basis. Only has a visible effect if :ref:`Light2D<class_Light2D>`\ s are affecting this **CanvasTexture**.
+La specular map à utiliser pour des reflets spéculaires de :ref:`Light2D<class_Light2D>`. Cela devrait être une texture en noir et blanc ou en couleur, où les zones plus claires correspondent à une valeur plus grande de :ref:`specular_shininess<class_CanvasTexture_property_specular_shininess>`. Utiliser une :ref:`specular_texture<class_CanvasTexture_property_specular_texture>` en couleur permet de contrôler la brillance spéculaire canal par canal. N'a d'effet visible que si des :ref:`Light2D<class_Light2D>`\ s affectent cette **CanvasTexture**.
 
 .. rst-class:: classref-item-separator
 
@@ -158,7 +158,7 @@ The specular map to use for :ref:`Light2D<class_Light2D>` specular reflections. 
 - |void| **set_texture_filter**\ (\ value\: :ref:`TextureFilter<enum_CanvasItem_TextureFilter>`\ )
 - :ref:`TextureFilter<enum_CanvasItem_TextureFilter>` **get_texture_filter**\ (\ )
 
-The texture filtering mode to use when drawing this **CanvasTexture**.
+Le mode de filtrage de texture à utiliser lors du dessin de cette **CanvasTexture**.
 
 .. rst-class:: classref-item-separator
 

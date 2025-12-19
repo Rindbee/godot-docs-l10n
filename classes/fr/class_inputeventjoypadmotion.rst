@@ -10,14 +10,14 @@ InputEventJoypadMotion
 
 **Hérite de :** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents axis motions (such as joystick or analog triggers) from a gamepad.
+Représente des déplacements d'axe (comme un joystick ou des gâchettes analogiques) d'une manette.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Stores information about joystick motions. One **InputEventJoypadMotion** represents one axis at a time. For gamepad buttons, see :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`.
+Stocke des informations sur des mouvements de joystick. Un **InputEventJoypadMotion** représente un axe à la fois. Pour les boutons de manette, voir :ref:`InputEventJoypadButton<class_InputEventJoypadButton>`.
 
 .. rst-class:: classref-introduction-group
 

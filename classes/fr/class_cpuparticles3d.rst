@@ -892,7 +892,7 @@ Ordre de dessin des particules.
 - |void| **set_emission_box_extents**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_emission_box_extents**\ (\ )
 
-La taille de rectangle si :ref:`emission_shape<class_CPUParticles3D_property_emission_shape>` est :ref:`EMISSION_SHAPE_BOX<class_CPUParticles3D_constant_EMISSION_SHAPE_BOX>`.
+L'étendue du rectangle si :ref:`emission_shape<class_CPUParticles3D_property_emission_shape>` vaut :ref:`EMISSION_SHAPE_BOX<class_CPUParticles3D_constant_EMISSION_SHAPE_BOX>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1839,7 +1839,7 @@ Si ``true``, les particules utiliseront la même graine pour chaque simulation e
 
 La :ref:`AABB<class_AABB>` qui détermine la région du nœud qui doit être visible à l'écran pour que le système de particules soit actif.
 
-Agrandissez la boîte si les particules apparaissent/disparaissent soudainement lorsque le noeud entre/sort de l'écran. La :ref:`AABB<class_AABB>` peut être agrandie par code ou avec l'outil de l'éditeur **Particules → Générer AABB**.
+Agrandissez la boîte si les particules apparaissent/disparaissent soudainement lorsque le nœud entre/sort de l'écran. La :ref:`AABB<class_AABB>` peut être agrandie par code ou avec l'outil de l'éditeur **Particules → Générer AABB**.
 
 .. rst-class:: classref-section-separator
 

@@ -100,7 +100,7 @@ Signaux
 
 **picker_created**\ (\ ) :ref:`🔗<class_ColorPickerButton_signal_picker_created>`
 
-Émis lorsque le :ref:`ColorPicker<class_ColorPicker>` est créé (le bouton est pressé pour la première fois).
+Émis lorsque le :ref:`ColorPicker<class_ColorPicker>` est créé (le bouton est appuyé pour la première fois).
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ La couleur actuellement sélectionnée.
 - |void| **set_edit_alpha**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_alpha**\ (\ )
 
-Si ``true``, le canal alpha sera affiché dans le :ref:`ColorPicker<class_ColorPicker>`.
+Si ``true``, le canal alpha dans le :ref:`ColorPicker<class_ColorPicker>` affiché sera visible.
 
 .. rst-class:: classref-item-separator
 

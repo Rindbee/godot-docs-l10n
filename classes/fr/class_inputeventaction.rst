@@ -14,9 +14,9 @@ Un type d’évènement d’entrée pour les actions.
 Description
 -----------
 
-Contains a generic action which can be targeted from several types of inputs. Actions and their events can be set in the **Input Map** tab in **Project > Project Settings**, or with the :ref:`InputMap<class_InputMap>` class.
+Contient une action générique qui peut être ciblée à partir de plusieurs types d'entrées. Les actions et leurs événements peuvent être définis dans l'onglet **Contrôles** dans **Projet > Paramètres du projet**, ou avec la classe :ref:`InputMap<class_InputMap>`.
 
-\ **Note:** Unlike the other :ref:`InputEvent<class_InputEvent>` subclasses which map to unique physical events, this virtual one is not emitted by the engine. This class is useful to emit actions manually with :ref:`Input.parse_input_event()<class_Input_method_parse_input_event>`, which are then received in :ref:`Node._input()<class_Node_private_method__input>`. To check if a physical event matches an action from the Input Map, use :ref:`InputEvent.is_action()<class_InputEvent_method_is_action>` and :ref:`InputEvent.is_action_pressed()<class_InputEvent_method_is_action_pressed>`.
+\ **Note :** Contrairement aux autres sous-classes :ref:`InputEvent<class_InputEvent>` qui s'associent à des événements physiques uniques, cette classe virtuelle n'est pas émise par le moteur. Cette classe est utile pour émettre des actions manuellement avec :ref:`Input.parse_input_event()<class_Input_method_parse_input_event>`, qui sont ensuite reçues dans :ref:`Node._input()<class_Node_private_method__input>`. Pour vérifier si un événement physique correspond à une action de l'action map, utilisez :ref:`InputEvent.is_action()<class_InputEvent_method_is_action>` et :ref:`InputEvent.is_action_pressed()<class_InputEvent_method_is_action_pressed>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -67,7 +67,7 @@ Descriptions des propriétés
 - |void| **set_action**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_action**\ (\ )
 
-The action's name. This is usually the name of an existing action in the :ref:`InputMap<class_InputMap>` which you want this custom event to match.
+Le nom de l'action. Il s'agit généralement du nom d'une action existante dans l':ref:`InputMap<class_InputMap>` avec laquelle vous voulez que cet événement personnalisé corresponde.
 
 .. rst-class:: classref-item-separator
 
@@ -101,7 +101,7 @@ The real event index in action this event corresponds to (from events defined fo
 - |void| **set_pressed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_pressed**\ (\ )
 
-If ``true``, the action's state is pressed. If ``false``, the action's state is released.
+Si ``true``, l'état de l'action est appuyé. Si ``false``, l'état de l'action est relâché.
 
 .. rst-class:: classref-item-separator
 

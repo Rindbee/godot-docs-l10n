@@ -7,14 +7,14 @@ RDPipelineRasterizationState
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Pipeline rasterization state (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Estado de rasterización del pipeline (utilizado por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -68,7 +68,7 @@ Descripciones de Propiedades
 - |void| **set_cull_mode**\ (\ value\: :ref:`PolygonCullMode<enum_RenderingDevice_PolygonCullMode>`\ )
 - :ref:`PolygonCullMode<enum_RenderingDevice_PolygonCullMode>` **get_cull_mode**\ (\ )
 
-The cull mode to use when drawing polygons, which determines whether front faces or backfaces are hidden.
+El modo de descarte a utilizar al dibujar polígonos, que determina si las caras frontales o traseras están ocultas.
 
 .. rst-class:: classref-item-separator
 
@@ -85,7 +85,7 @@ The cull mode to use when drawing polygons, which determines whether front faces
 - |void| **set_depth_bias_clamp**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_depth_bias_clamp**\ (\ )
 
-A limit for how much each depth value can be offset. If negative, it serves as a minimum value, but if positive, it serves as a maximum value.
+Un límite para cuánto se puede desplazar cada valor de profundidad. Si es negativo, sirve como un valor mínimo, pero si es positivo, sirve como un valor máximo.
 
 .. rst-class:: classref-item-separator
 
@@ -102,7 +102,7 @@ A limit for how much each depth value can be offset. If negative, it serves as a
 - |void| **set_depth_bias_constant_factor**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_depth_bias_constant_factor**\ (\ )
 
-A constant offset added to each depth value. Applied after :ref:`depth_bias_slope_factor<class_RDPipelineRasterizationState_property_depth_bias_slope_factor>`.
+Un desplazamiento constante añadido a cada valor de profundidad. Se aplica después de :ref:`depth_bias_slope_factor<class_RDPipelineRasterizationState_property_depth_bias_slope_factor>`.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ A constant offset added to each depth value. Applied after :ref:`depth_bias_slop
 - |void| **set_depth_bias_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_depth_bias_enabled**\ (\ )
 
-If ``true``, each generated depth value will by offset by some amount. The specific amount is generated per polygon based on the values of :ref:`depth_bias_slope_factor<class_RDPipelineRasterizationState_property_depth_bias_slope_factor>` and :ref:`depth_bias_constant_factor<class_RDPipelineRasterizationState_property_depth_bias_constant_factor>`.
+Si es ``true``, cada valor de profundidad generado se desplazará por alguna cantidad. La cantidad específica se genera por polígono en función de los valores de :ref:`depth_bias_slope_factor<class_RDPipelineRasterizationState_property_depth_bias_slope_factor>` y :ref:`depth_bias_constant_factor<class_RDPipelineRasterizationState_property_depth_bias_constant_factor>`.
 
 .. rst-class:: classref-item-separator
 
@@ -136,7 +136,7 @@ If ``true``, each generated depth value will by offset by some amount. The speci
 - |void| **set_depth_bias_slope_factor**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_depth_bias_slope_factor**\ (\ )
 
-A constant scale applied to the slope of each polygons' depth. Applied before :ref:`depth_bias_constant_factor<class_RDPipelineRasterizationState_property_depth_bias_constant_factor>`.
+Una escala constante aplicada a la pendiente de la profundidad de cada polígono. Se aplica antes de :ref:`depth_bias_constant_factor<class_RDPipelineRasterizationState_property_depth_bias_constant_factor>`.
 
 .. rst-class:: classref-item-separator
 
@@ -153,7 +153,7 @@ A constant scale applied to the slope of each polygons' depth. Applied before :r
 - |void| **set_discard_primitives**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_discard_primitives**\ (\ )
 
-If ``true``, primitives are discarded immediately before the rasterization stage.
+Si es ``true``, las primitivas se descartan inmediatamente antes de la etapa de rasterización.
 
 .. rst-class:: classref-item-separator
 
@@ -170,7 +170,7 @@ If ``true``, primitives are discarded immediately before the rasterization stage
 - |void| **set_enable_depth_clamp**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enable_depth_clamp**\ (\ )
 
-If ``true``, clamps depth values according to the minimum and maximum depth of the associated viewport.
+Si es ``true``, limita los valores de profundidad de acuerdo con la profundidad mínima y máxima del viewport asociado.
 
 .. rst-class:: classref-item-separator
 
@@ -187,7 +187,7 @@ If ``true``, clamps depth values according to the minimum and maximum depth of t
 - |void| **set_front_face**\ (\ value\: :ref:`PolygonFrontFace<enum_RenderingDevice_PolygonFrontFace>`\ )
 - :ref:`PolygonFrontFace<enum_RenderingDevice_PolygonFrontFace>` **get_front_face**\ (\ )
 
-The winding order to use to determine which face of a triangle is considered its front face.
+El orden de enrollamiento a utilizar para determinar qué cara de un triángulo se considera su cara frontal.
 
 .. rst-class:: classref-item-separator
 
@@ -204,7 +204,7 @@ The winding order to use to determine which face of a triangle is considered its
 - |void| **set_line_width**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_line_width**\ (\ )
 
-The line width to use when drawing lines (in pixels). Thick lines may not be supported on all hardware.
+El ancho de línea a utilizar al dibujar líneas (en píxeles). Las líneas gruesas pueden no ser compatibles con todo el hardware.
 
 .. rst-class:: classref-item-separator
 
@@ -221,7 +221,7 @@ The line width to use when drawing lines (in pixels). Thick lines may not be sup
 - |void| **set_patch_control_points**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_patch_control_points**\ (\ )
 
-The number of control points to use when drawing a patch with tessellation enabled. Higher values result in higher quality at the cost of performance.
+El número de puntos de control a utilizar al dibujar un parche con la teselación habilitada. Los valores más altos dan como resultado una mayor calidad a costa del rendimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -238,7 +238,7 @@ The number of control points to use when drawing a patch with tessellation enabl
 - |void| **set_wireframe**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_wireframe**\ (\ )
 
-If ``true``, performs wireframe rendering for triangles instead of flat or textured rendering.
+Si es ``true``, realiza el renderizado de alambre para los triángulos en lugar de renderizado plano o texturizado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

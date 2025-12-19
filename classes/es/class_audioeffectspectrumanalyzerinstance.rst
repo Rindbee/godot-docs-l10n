@@ -58,7 +58,7 @@ enum **MagnitudeMode**: :ref:`🔗<enum_AudioEffectSpectrumAnalyzerInstance_Magn
 
 :ref:`MagnitudeMode<enum_AudioEffectSpectrumAnalyzerInstance_MagnitudeMode>` **MAGNITUDE_AVERAGE** = ``0``
 
-Use the average value across the frequency range as magnitude.
+Usa el valor promedio en todo el rango de frecuencia como magnitud.
 
 .. _class_AudioEffectSpectrumAnalyzerInstance_constant_MAGNITUDE_MAX:
 
@@ -66,7 +66,7 @@ Use the average value across the frequency range as magnitude.
 
 :ref:`MagnitudeMode<enum_AudioEffectSpectrumAnalyzerInstance_MagnitudeMode>` **MAGNITUDE_MAX** = ``1``
 
-Use the maximum value of the frequency range as magnitude.
+Usa el valor máximo del rango de frecuencia como magnitud.
 
 .. rst-class:: classref-section-separator
 

@@ -7,18 +7,18 @@ InputEventMIDI
 
 **Hérite de :** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a MIDI message from a MIDI device, such as a musical keyboard.
+Représente un message MIDI d'un appareil MIDI, tel qu'un clavier de musique.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-InputEventMIDI stores information about messages from `MIDI <https://en.wikipedia.org/wiki/MIDI>`__ (Musical Instrument Digital Interface) devices. These may include musical keyboards, synthesizers, and drum machines.
+InputEventMIDI stocke des informations sur des messages de périphériques `MIDI <https://fr.wikipedia.org/wiki/Musical_Instrument_Digital_Interface>`__ (Musical Instrument Digital Interface, litt. "Interface pour instrument de musique numérique"). Il peut s'agir de claviers de musique, de synthétiseurs et de boîtes à rythmes.
 
-MIDI messages can be received over a 5-pin MIDI connector or over USB. If your device supports both be sure to check the settings in the device to see which output it is using.
+Les messages MIDI peuvent être reçus sur un connecteur MIDI 5 broches ou par USB. Si votre appareil prend en charge les deux, assurez-vous de vérifier les paramètres de l'appareil pour voir quelle sortie il utilise.
 
-By default, Godot does not detect MIDI devices. You need to call :ref:`OS.open_midi_inputs()<class_OS_method_open_midi_inputs>`, first. You can check which devices are detected with :ref:`OS.get_connected_midi_inputs()<class_OS_method_get_connected_midi_inputs>`, and close the connection with :ref:`OS.close_midi_inputs()<class_OS_method_close_midi_inputs>`.
+Par défaut, Godot ne détecte pas les périphériques MIDI. Vous devez d'abord appeler :ref:`OS.open_midi_inputs()<class_OS_method_open_midi_inputs>`. Vous pouvez vérifier quels périphériques sont détectés avec :ref:`OS.get_connected_midi_inputs()<class_OS_method_get_connected_midi_inputs>`, et fermer la connexion avec :ref:`OS.close_midi_inputs()<class_OS_method_close_midi_inputs>`.
 
 
 .. tabs::
@@ -31,18 +31,18 @@ By default, Godot does not detect MIDI devices. You need to call :ref:`OS.open_m
 
     func _input(input_event):
         if input_event is InputEventMIDI:
-            _print_midi_info(input_event)
+            _afficher_info_midi(input_event)
 
-    func _print_midi_info(midi_event):
+    func _afficher_info_midi(evenement_midi):
         print(midi_event)
-        print("Channel ", midi_event.channel)
-        print("Message ", midi_event.message)
-        print("Pitch ", midi_event.pitch)
-        print("Velocity ", midi_event.velocity)
-        print("Instrument ", midi_event.instrument)
-        print("Pressure ", midi_event.pressure)
-        print("Controller number: ", midi_event.controller_number)
-        print("Controller value: ", midi_event.controller_value)
+        print("Canal ", evenement_midi.channel)
+        print("Message ", evenement_midi.message)
+        print("Hauteur ", evenement_midi.pitch)
+        print("Vitesse ", evenement_midi.velocity)
+        print("Instrument ", evenement_midi.instrument)
+        print("Pression ", evenement_midi.pressure)
+        print("Numéro du contrôleur : ", evenement_midi.controller_number)
+        print("Valeur du contrôleur : ", evenement_midi.controller_value)
 
  .. code-tab:: csharp
 
@@ -54,37 +54,37 @@ By default, Godot does not detect MIDI devices. You need to call :ref:`OS.open_m
 
     public override void _Input(InputEvent inputEvent)
     {
-        if (inputEvent is InputEventMidi midiEvent)
+        if (inputEvent is InputEventMidi evenementMidi)
         {
-            PrintMIDIInfo(midiEvent);
+            AfficherInfoMIDI(evenementMidi);
         }
     }
 
-    private void PrintMIDIInfo(InputEventMidi midiEvent)
+    private void AfficherInfoMIDI(InputEventMidi evenementMidi)
     {
         GD.Print(midiEvent);
-        GD.Print($"Channel {midiEvent.Channel}");
-        GD.Print($"Message {midiEvent.Message}");
-        GD.Print($"Pitch {midiEvent.Pitch}");
-        GD.Print($"Velocity {midiEvent.Velocity}");
-        GD.Print($"Instrument {midiEvent.Instrument}");
-        GD.Print($"Pressure {midiEvent.Pressure}");
-        GD.Print($"Controller number: {midiEvent.ControllerNumber}");
-        GD.Print($"Controller value: {midiEvent.ControllerValue}");
+        GD.Print($"Canal {evenementMidi.Channel}");
+        GD.Print($"Message {evenementMidi.Message}");
+        GD.Print($"Hauteur {evenementMidi.Pitch}");
+        GD.Print($"Vitesse {evenementMidi.Velocity}");
+        GD.Print($"Instrument {evenementMidi.Instrument}");
+        GD.Print($"Pression {evenementMidi.Pressure}");
+        GD.Print($"Numéro du contrôleur : {evenementMidi.ControllerNumber}");
+        GD.Print($"Valeur du contrôleur : {evenementMidi.ControllerValue}");
     }
 
 
 
-\ **Note:** Godot does not support MIDI output, so there is no way to emit MIDI messages from Godot. Only MIDI input is supported.
+\ **Note :** Godot ne supporte pas la sortie MIDI, donc il n'y a aucun moyen d'émettre des messages MIDI depuis Godot. Seule l'entrée MIDI est supportée.
 
-\ **Note:** On the Web platform, using MIDI input requires a browser permission to be granted first. This permission request is performed when calling :ref:`OS.open_midi_inputs()<class_OS_method_open_midi_inputs>`. MIDI input will not work until the user accepts the permission request.
+\ **Note :** Sur la plate-forme Web, l'utilisation de l'entrée MIDI nécessite une autorisation du navigateur accordée d'abord. Cette requête de permission est effectuée lors de l'appel à :ref:`OS.open_midi_inputs()<class_OS_method_open_midi_inputs>`. L'entrée MIDI ne fonctionnera pas tant que l'utilisateur n'aura pas accepté la requête de permission.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriels
 ------------------
 
-- `MIDI Message Status Byte List <https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes>`__
+- `Liste des octets de statut de message MIDI <https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes>`__
 
 - `Liste d'instruments General MIDI de Wikipédia <https://en.wikipedia.org/wiki/General_MIDI#Program_change_events>`__
 
@@ -136,7 +136,7 @@ Descriptions des propriétés
 - |void| **set_channel**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_channel**\ (\ )
 
-The MIDI channel of this message, ranging from ``0`` to ``15``. MIDI channel ``9`` is reserved for percussion instruments.
+Le canal MIDI de ce message, allant de ``0`` à ``15``. Le canal MIDI ``9`` est réservé aux instruments à percussion.
 
 .. rst-class:: classref-item-separator
 
@@ -170,7 +170,7 @@ The unique number of the controller, if :ref:`message<class_InputEventMIDI_prope
 - |void| **set_controller_value**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_controller_value**\ (\ )
 
-The value applied to the controller. If :ref:`message<class_InputEventMIDI_property_message>` is :ref:`@GlobalScope.MIDI_MESSAGE_CONTROL_CHANGE<class_@GlobalScope_constant_MIDI_MESSAGE_CONTROL_CHANGE>`, this value ranges from ``0`` to ``127``, otherwise it is ``0``. See also :ref:`controller_value<class_InputEventMIDI_property_controller_value>`.
+La valeur appliquée au contrôleur. Si :ref:`message<class_InputEventMIDI_property_message>` vaut :ref:`@GlobalScope.MIDI_MESSAGE_CONTROL_CHANGE<class_@GlobalScope_constant_MIDI_MESSAGE_CONTROL_CHANGE>`, cette valeur varie de ``0`` à ``127``, sinon elle vaut ``0``. Voir aussi :ref:`controller_value<class_InputEventMIDI_property_controller_value>`.
 
 .. rst-class:: classref-item-separator
 
@@ -206,9 +206,9 @@ To see what each value means, refer to the `General MIDI's instrument list <http
 - |void| **set_message**\ (\ value\: :ref:`MIDIMessage<enum_@GlobalScope_MIDIMessage>`\ )
 - :ref:`MIDIMessage<enum_@GlobalScope_MIDIMessage>` **get_message**\ (\ )
 
-Represents the type of MIDI message (see the :ref:`MIDIMessage<enum_@GlobalScope_MIDIMessage>` enum).
+Représente le type de message MIDI (voir l’énumération :ref:`MIDIMessage<enum_@GlobalScope_MIDIMessage>`).
 
-For more information, see the `MIDI message status byte list chart <https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes>`__.
+Pour plus d'informations, voir la `spécification de la liste des octets de statut de message MIDI <https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -244,9 +244,9 @@ On a piano, the **middle C** is ``60``, followed by a **C-sharp** (``61``), then
 - |void| **set_pressure**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_pressure**\ (\ )
 
-The strength of the key being pressed. This value ranges from ``0`` to ``127``.
+La force de la touche appuyée. Cette valeur varie de ``0`` à ``127``.
 
-\ **Note:** For many devices, this value is always ``0``. Other devices such as musical keyboards may simulate pressure by changing the :ref:`velocity<class_InputEventMIDI_property_velocity>`, instead.
+\ **Note :** Pour de nombreux appareils, cette valeur vaut toujours ``0``. D'autres appareils tels que les claviers de musique peuvent simuler la pression en changeant :ref:`velocity<class_InputEventMIDI_property_velocity>` à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -263,16 +263,16 @@ The strength of the key being pressed. This value ranges from ``0`` to ``127``.
 - |void| **set_velocity**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_velocity**\ (\ )
 
-The velocity of the MIDI message. This value ranges from ``0`` to ``127``. For a musical keyboard, this corresponds to how quickly the key was pressed, and is rarely above ``110`` in practice.
+La vitesse du message MIDI. Cette valeur varie de ``0`` à ``127``. Pour un clavier de musique, cela correspond à la rapidité avec laquelle la touche a été appuyée et est rarement supérieure à ``110`` en pratique.
 
-\ **Note:** Some MIDI devices may send a :ref:`@GlobalScope.MIDI_MESSAGE_NOTE_ON<class_@GlobalScope_constant_MIDI_MESSAGE_NOTE_ON>` message with ``0`` velocity and expect it to be treated the same as a :ref:`@GlobalScope.MIDI_MESSAGE_NOTE_OFF<class_@GlobalScope_constant_MIDI_MESSAGE_NOTE_OFF>` message. If necessary, this can be handled with a few lines of code:
+\ **Note :** Certains périphériques MIDI peuvent envoyer un message :ref:`@GlobalScope.MIDI_MESSAGE_NOTE_ON<class_@GlobalScope_constant_MIDI_MESSAGE_NOTE_ON>` avec une vitesse de ``0`` et s'attendent à ce qu'il soit traité comme un message :ref:`@GlobalScope.MIDI_MESSAGE_NOTE_OFF<class_@GlobalScope_constant_MIDI_MESSAGE_NOTE_OFF>`. Si nécessaire, cela peut être géré avec quelques lignes de code :
 
 ::
 
     func _input(event):
         if event is InputEventMIDI:
             if event.message == MIDI_MESSAGE_NOTE_ON and event.velocity > 0:
-                print("Note pressed!")
+                print("Touche appuyée !")
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -250,7 +250,7 @@ Returns the axis flags of the setting at ``index``.
 
 |bitfield|\[:ref:`TransformFlag<enum_CopyTransformModifier3D_TransformFlag>`\] **get_copy_flags**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_get_copy_flags>`
 
-Returns the copy flags of the setting at ``index``.
+Renvoie les drapeaux de copie du paramètre à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Returns the copy flags of the setting at ``index``.
 
 |bitfield|\[:ref:`AxisFlag<enum_CopyTransformModifier3D_AxisFlag>`\] **get_invert_flags**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CopyTransformModifier3D_method_get_invert_flags>`
 
-Returns the invert flags of the setting at ``index``.
+Renvoie les drapeaux d'inversion du paramètre à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 

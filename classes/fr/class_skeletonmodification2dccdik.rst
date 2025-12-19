@@ -9,7 +9,7 @@ SkeletonModification2DCCDIK
 
 **Hérite de :** :ref:`SkeletonModification2D<class_SkeletonModification2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A modification that uses CCDIK to manipulate a series of bones to reach a target in 2D.
+Une modification qui utilise un algorithme de CCDIK pour manipuler une série d'os pour atteindre une cible en 2D.
 
 .. rst-class:: classref-introduction-group
 

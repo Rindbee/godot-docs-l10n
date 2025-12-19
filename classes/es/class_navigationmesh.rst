@@ -9,14 +9,14 @@ NavigationMesh
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A navigation mesh that defines traversable areas and obstacles.
+Una malla de navegación que define las áreas transitables y los obstáculos.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A navigation mesh is a collection of polygons that define which areas of an environment are traversable to aid agents in pathfinding through complicated spaces.
+Una malla de navegación es una colección de polígonos que definen qué áreas de un entorno son transitables para ayudar a los agentes en la búsqueda de rutas a través de espacios complicados.
 
 .. rst-class:: classref-introduction-group
 
@@ -266,9 +266,9 @@ Descripciones de Propiedades
 - |void| **set_agent_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_agent_height**\ (\ )
 
-The minimum floor to ceiling height that will still allow the floor area to be considered walkable.
+La altura mínima del piso al techo que aún permitirá que el área del piso se considere transitable.
 
-\ **Note:** While baking, this value will be rounded up to the nearest multiple of :ref:`cell_height<class_NavigationMesh_property_cell_height>`.
+\ **Nota:** Al hornear, este valor se redondeará al múltiplo más cercano de :ref:`cell_height<class_NavigationMesh_property_cell_height>`.
 
 .. rst-class:: classref-item-separator
 
@@ -708,7 +708,7 @@ Añade un polígono usando los índices de los vértices que obtienes al llamar 
 
 |void| **clear**\ (\ ) :ref:`🔗<class_NavigationMesh_method_clear>`
 
-Clears the internal arrays for vertices and polygon indices.
+Limpia los arrays internos para los vértices e índices de polígonos.
 
 .. rst-class:: classref-item-separator
 
@@ -732,9 +732,9 @@ Limpia el array de polígonos, pero no borra el array de vértices.
 
 |void| **create_from_mesh**\ (\ mesh\: :ref:`Mesh<class_Mesh>`\ ) :ref:`🔗<class_NavigationMesh_method_create_from_mesh>`
 
-Initializes the navigation mesh by setting the vertices and indices according to a :ref:`Mesh<class_Mesh>`.
+Inicializa la malla de navegación estableciendo los vértices e índices de acuerdo con una :ref:`Mesh<class_Mesh>`.
 
-\ **Note:** The given ``mesh`` must be of type :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>` and have an index array.
+\ **Nota:** La ``mesh`` dada debe ser de tipo :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>` y tener un array de índice.
 
 .. rst-class:: classref-item-separator
 
@@ -746,7 +746,7 @@ Initializes the navigation mesh by setting the vertices and indices according to
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationMesh_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de la :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -758,7 +758,7 @@ Returns whether or not the specified layer of the :ref:`geometry_collision_mask<
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_polygon**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_NavigationMesh_method_get_polygon>`
 
-Returns a :ref:`PackedInt32Array<class_PackedInt32Array>` containing the indices of the vertices of a created polygon.
+Devuelve un :ref:`PackedInt32Array<class_PackedInt32Array>` que contiene los índices de los vértices de un polígono creado.
 
 .. rst-class:: classref-item-separator
 
@@ -782,7 +782,7 @@ Devuelve el número de polígonos en la malla de navegación.
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **get_vertices**\ (\ ) |const| :ref:`🔗<class_NavigationMesh_method_get_vertices>`
 
-Returns a :ref:`PackedVector3Array<class_PackedVector3Array>` containing all the vertices being used to create the polygons.
+Devuelve un :ref:`PackedVector3Array<class_PackedVector3Array>` que contiene todos los vértices que se están utilizando para crear los polígonos.
 
 .. rst-class:: classref-item-separator
 
@@ -794,7 +794,7 @@ Returns a :ref:`PackedVector3Array<class_PackedVector3Array>` containing all the
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationMesh_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, activa o desactiva la capa especificada en la :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 

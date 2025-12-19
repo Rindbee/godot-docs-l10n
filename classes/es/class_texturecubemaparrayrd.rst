@@ -14,7 +14,7 @@ Array de Texturas para Cubemaps que está vinculado a una textura creada en el :
 Descripción
 ----------------------
 
-Esta clase de textura le permite utilizar una textura de array de cubemaps creada directamente en el :ref:`RenderingDevice<class_RenderingDevice>` como textura para materiales, mallas, etc.
+Esta clase de textura te permite utilizar una textura de array de cubemaps creada directamente en el :ref:`RenderingDevice<class_RenderingDevice>` como textura para materiales, mallas, etc.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

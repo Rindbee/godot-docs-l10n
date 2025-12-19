@@ -950,7 +950,7 @@ Devuelve el índice de la pista especificada. Si la pista no se encuentra, devue
 
 :ref:`StringName<class_StringName>` **get_marker_at_time**\ (\ time\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Animation_method_get_marker_at_time>`
 
-Returns the name of the marker located at the given time.
+Devuelve el nombre del marcador ubicado en el tiempo dado.
 
 .. rst-class:: classref-item-separator
 
@@ -974,7 +974,7 @@ Devuelve el color del marcador dado.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_marker_names**\ (\ ) |const| :ref:`🔗<class_Animation_method_get_marker_names>`
 
-Returns every marker in this Animation, sorted ascending by time.
+Devuelve cada marcador en esta animación, ordenado de forma ascendente por tiempo.
 
 .. rst-class:: classref-item-separator
 
@@ -998,7 +998,7 @@ Devuelve el tiempo del marcador dado.
 
 :ref:`StringName<class_StringName>` **get_next_marker**\ (\ time\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Animation_method_get_next_marker>`
 
-Returns the closest marker that comes after the given time. If no such marker exists, an empty string is returned.
+Devuelve el marcador más cercano que viene después del tiempo dado. Si no existe tal marcador, se devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -1010,7 +1010,7 @@ Returns the closest marker that comes after the given time. If no such marker ex
 
 :ref:`StringName<class_StringName>` **get_prev_marker**\ (\ time\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Animation_method_get_prev_marker>`
 
-Returns the closest marker that comes before the given time. If no such marker exists, an empty string is returned.
+Devuelve el marcador más cercano que está antes del tiempo dado. Si no existe tal marcador, se devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -1034,7 +1034,7 @@ Devuelve la cantidad de pistas en la animación.
 
 :ref:`bool<class_bool>` **has_marker**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Animation_method_has_marker>`
 
-Returns ``true`` if this Animation contains a marker with the given name.
+Devuelve ``true`` si esta animación contiene un marcador con el nombre dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1094,7 +1094,7 @@ Inserta una clave en una posición de la pista 3D dada. Devuelve el índice de l
 
 :ref:`Vector3<class_Vector3>` **position_track_interpolate**\ (\ track_idx\: :ref:`int<class_int>`, time_sec\: :ref:`float<class_float>`, backward\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Animation_method_position_track_interpolate>`
 
-Returns the interpolated position value at the given time (in seconds). The ``track_idx`` must be the index of a 3D position track.
+Devuelve el valor de posición interpolado en el tiempo dado (en segundos). El ``track_idx`` debe ser el índice de una pista de posición 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -1106,7 +1106,7 @@ Returns the interpolated position value at the given time (in seconds). The ``tr
 
 |void| **remove_marker**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_Animation_method_remove_marker>`
 
-Removes the marker with the given name from this Animation.
+Elimina el marcador con el nombre dado de esta animación.
 
 .. rst-class:: classref-item-separator
 
@@ -1142,7 +1142,7 @@ Inserta una clave en una pista de rotación 3D determinada. Devuelve el índice 
 
 :ref:`Quaternion<class_Quaternion>` **rotation_track_interpolate**\ (\ track_idx\: :ref:`int<class_int>`, time_sec\: :ref:`float<class_float>`, backward\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Animation_method_rotation_track_interpolate>`
 
-Returns the interpolated rotation value at the given time (in seconds). The ``track_idx`` must be the index of a 3D rotation track.
+Devuelve el valor de rotación interpolado en el tiempo dado (en segundos). El ``track_idx`` debe ser el índice de una pista de rotación 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -1166,7 +1166,7 @@ Inserta una clave en una pista de escala 3D determinada. Devuelve el índice de 
 
 :ref:`Vector3<class_Vector3>` **scale_track_interpolate**\ (\ track_idx\: :ref:`int<class_int>`, time_sec\: :ref:`float<class_float>`, backward\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Animation_method_scale_track_interpolate>`
 
-Returns the interpolated scale value at the given time (in seconds). The ``track_idx`` must be the index of a 3D scale track.
+Devuelve el valor de escala interpolado en el tiempo dado (en segundos). El ``track_idx`` debe ser el índice de una pista de escala 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -1178,7 +1178,7 @@ Returns the interpolated scale value at the given time (in seconds). The ``track
 
 |void| **set_marker_color**\ (\ name\: :ref:`StringName<class_StringName>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Animation_method_set_marker_color>`
 
-Sets the given marker's color.
+Establece el color del marcador dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1190,13 +1190,13 @@ Sets the given marker's color.
 
 :ref:`int<class_int>` **track_find_key**\ (\ track_idx\: :ref:`int<class_int>`, time\: :ref:`float<class_float>`, find_mode\: :ref:`FindMode<enum_Animation_FindMode>` = 0, limit\: :ref:`bool<class_bool>` = false, backward\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Animation_method_track_find_key>`
 
-Finds the key index by time in a given track. Optionally, only find it if the approx/exact time is given.
+Encuentra el índice de la clave por tiempo en una pista dada. Opcionalmente, solo lo encuentra si se da el tiempo aproximado/exacto.
 
-If ``limit`` is ``true``, it does not return keys outside the animation range.
+Si ``limit`` es ``true``, no devuelve las claves fuera del rango de la animación.
 
-If ``backward`` is ``true``, the direction is reversed in methods that rely on one directional processing.
+Si ``backward`` es ``true``, la dirección se invierte en los métodos que se basan en el procesamiento unidireccional.
 
-For example, in case ``find_mode`` is :ref:`FIND_MODE_NEAREST<class_Animation_constant_FIND_MODE_NEAREST>`, if there is no key in the current position just after seeked, the first key found is retrieved by searching before the position, but if ``backward`` is ``true``, the first key found is retrieved after the position.
+Por ejemplo, en el caso de que ``find_mode`` sea :ref:`FIND_MODE_NEAREST<class_Animation_constant_FIND_MODE_NEAREST>`, si no hay ninguna clave en la posición actual justo después de buscar, la primera clave encontrada se recupera buscando antes de la posición, pero si ``backward`` es ``true``, la primera clave encontrada se recupera después de la posición.
 
 .. rst-class:: classref-item-separator
 

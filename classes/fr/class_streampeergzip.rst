@@ -9,16 +9,16 @@ StreamPeerGZIP
 
 **Hérite de :** :ref:`StreamPeer<class_StreamPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A stream peer that handles GZIP and deflate compression/decompression.
+Un pair de flux qui gère la compression/décompression GZIP et deflate.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This class allows to compress or decompress data using GZIP/deflate in a streaming fashion. This is particularly useful when compressing or decompressing files that have to be sent through the network without needing to allocate them all in memory.
+Cette classe permet de compresser ou de décompresser des données utilisant GZIP/deflate à la manière d'un flux. Ceci est particulièrement utile lorsque vous compressez ou décompressez des fichiers qui doivent être envoyés par le réseau sans avoir besoin de tous les allouer en mémoire.
 
-After starting the stream via :ref:`start_compression()<class_StreamPeerGZIP_method_start_compression>` (or :ref:`start_decompression()<class_StreamPeerGZIP_method_start_decompression>`), calling :ref:`StreamPeer.put_partial_data()<class_StreamPeer_method_put_partial_data>` on this stream will compress (or decompress) the data, writing it to the internal buffer. Calling :ref:`StreamPeer.get_available_bytes()<class_StreamPeer_method_get_available_bytes>` will return the pending bytes in the internal buffer, and :ref:`StreamPeer.get_partial_data()<class_StreamPeer_method_get_partial_data>` will retrieve the compressed (or decompressed) bytes from it. When the stream is over, you must call :ref:`finish()<class_StreamPeerGZIP_method_finish>` to ensure the internal buffer is properly flushed (make sure to call :ref:`StreamPeer.get_available_bytes()<class_StreamPeer_method_get_available_bytes>` on last time to check if more data needs to be read after that).
+Après avoir démarré le flux via :ref:`start_compression()<class_StreamPeerGZIP_method_start_compression>` (ou :ref:`start_decompression()<class_StreamPeerGZIP_method_start_decompression>`), appeler :ref:`StreamPeer.put_partial_data()<class_StreamPeer_method_put_partial_data>` sur ce flux compressera (ou décompressera) les données, les écrivant dans le buffer interne. L'appel à :ref:`StreamPeer.get_available_bytes()<class_StreamPeer_method_get_available_bytes>` renverra les octets en attente dans le buffer interne, et :ref:`StreamPeer.get_partial_data()<class_StreamPeer_method_get_partial_data>` récupérera les octets compressés (ou décompressés). Lorsque le flux est terminé, vous devez appeler :ref:`finish()<class_StreamPeerGZIP_method_finish>` pour garantir que le buffer interne est correctement vidé (assurez vous d'appeler :ref:`StreamPeer.get_available_bytes()<class_StreamPeer_method_get_available_bytes>` une dernière fois pour vérifier si d'autres données doivent être lues après cela).
 
 .. rst-class:: classref-reftable-group
 
@@ -65,9 +65,9 @@ Vide le flux, réinitialisant l'état interne.
 
 :ref:`Error<enum_@GlobalScope_Error>` **finish**\ (\ ) :ref:`🔗<class_StreamPeerGZIP_method_finish>`
 
-Finalizes the stream, compressing any buffered chunk left.
+Finalise le flux, compressant n'importe quel morceau du buffer restant.
 
-You must call it only when you are compressing.
+Vous ne devez l'appeler seulement que quand vous compressez.
 
 .. rst-class:: classref-item-separator
 
@@ -79,7 +79,7 @@ You must call it only when you are compressing.
 
 :ref:`Error<enum_@GlobalScope_Error>` **start_compression**\ (\ use_deflate\: :ref:`bool<class_bool>` = false, buffer_size\: :ref:`int<class_int>` = 65535\ ) :ref:`🔗<class_StreamPeerGZIP_method_start_compression>`
 
-Start the stream in compression mode with the given ``buffer_size``, if ``use_deflate`` is ``true`` uses deflate instead of GZIP.
+Démarre le flux en mode compression avec la taille de buffer ``buffer_size`` donnée. Si ``use_deflate`` vaut ``true``, utilise deflate au lieu de GZIP.
 
 .. rst-class:: classref-item-separator
 
@@ -91,7 +91,7 @@ Start the stream in compression mode with the given ``buffer_size``, if ``use_de
 
 :ref:`Error<enum_@GlobalScope_Error>` **start_decompression**\ (\ use_deflate\: :ref:`bool<class_bool>` = false, buffer_size\: :ref:`int<class_int>` = 65535\ ) :ref:`🔗<class_StreamPeerGZIP_method_start_decompression>`
 
-Start the stream in decompression mode with the given ``buffer_size``, if ``use_deflate`` is ``true`` uses deflate instead of GZIP.
+Démarre le flux en mode décompression avec la taille de buffer ``buffer_size`` donnée. Si ``use_deflate`` vaut ``true``, utilise deflate au lieu de GZIP.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

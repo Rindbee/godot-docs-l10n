@@ -9,7 +9,7 @@ EditorExportPlatformAppleEmbedded
 
 **Ereditato da:** :ref:`EditorExportPlatformIOS<class_EditorExportPlatformIOS>`, :ref:`EditorExportPlatformVisionOS<class_EditorExportPlatformVisionOS>`
 
-Base class for the Apple embedded platform exporters (iOS and visionOS).
+Classe di base per gli esportatori di Apple embedded platform (iOS e visionOS).
 
 .. rst-class:: classref-introduction-group
 

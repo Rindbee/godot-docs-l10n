@@ -14,7 +14,7 @@ Contiene una línea de texto.
 Descripción
 ----------------------
 
-Abstraction over :ref:`TextServer<class_TextServer>` for handling a single line of text.
+Abstracción sobre :ref:`TextServer<class_TextServer>` para manejar una sola línea de texto.
 
 .. rst-class:: classref-reftable-group
 
@@ -163,7 +163,7 @@ Carácter de elipsis utilizado para el recorte de texto.
 - |void| **set_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_flags**\ (\ )
 
-Line alignment rules. For more info see :ref:`TextServer<class_TextServer>`.
+Reglas de alineación de línea. Para más información, consulta :ref:`TextServer<class_TextServer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -197,7 +197,7 @@ Orientación del texto.
 - |void| **set_preserve_control**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_preserve_control**\ (\ )
 
-If set to ``true`` text will display control characters.
+Si se establece a ``true``, el texto mostrará caracteres de control.
 
 .. rst-class:: classref-item-separator
 
@@ -214,7 +214,7 @@ If set to ``true`` text will display control characters.
 - |void| **set_preserve_invalid**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_preserve_invalid**\ (\ )
 
-If set to ``true`` text will display invalid characters.
+Si se establece a ``true``, el texto mostrará caracteres inválidos.
 
 .. rst-class:: classref-item-separator
 
@@ -231,7 +231,7 @@ If set to ``true`` text will display invalid characters.
 - |void| **set_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_text_overrun_behavior**\ (\ )
 
-The clipping behavior when the text exceeds the text line's set width.
+El comportamiento de recorte cuando el texto excede el ancho establecido de la línea de texto.
 
 .. rst-class:: classref-item-separator
 
@@ -265,7 +265,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **add_object**\ (\ key\: :ref:`Variant<class_Variant>`, size\: :ref:`Vector2<class_Vector2>`, inline_align\: :ref:`InlineAlignment<enum_@GlobalScope_InlineAlignment>` = 5, length\: :ref:`int<class_int>` = 1, baseline\: :ref:`float<class_float>` = 0.0\ ) :ref:`🔗<class_TextLine_method_add_object>`
 
-Adds inline object to the text buffer, ``key`` must be unique. In the text, object is represented as ``length`` object replacement characters.
+Añade un objeto en línea al buffer de texto, ``key`` debe ser único. En el texto, el objeto se representa como ``length`` caracteres de reemplazo de objeto.
 
 .. rst-class:: classref-item-separator
 
@@ -289,7 +289,7 @@ Agrega espacio de texto y fuente para dibujarlo.
 
 |void| **clear**\ (\ ) :ref:`🔗<class_TextLine_method_clear>`
 
-Clears text line (removes text and inline objects).
+Limpia la línea de texto (elimina el texto y los objetos en línea).
 
 .. rst-class:: classref-item-separator
 

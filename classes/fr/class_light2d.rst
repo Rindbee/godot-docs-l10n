@@ -7,7 +7,7 @@ Light2D
 
 **Hérite de :** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`DirectionalLight2D<class_DirectionalLight2D>`, :ref:`PointLight2D<class_PointLight2D>`
+**Hérité par :** :ref:`DirectionalLight2D<class_DirectionalLight2D>`, :ref:`PointLight2D<class_PointLight2D>`
 
 Projette de la lumière dans un environnement 2D.
 
@@ -206,7 +206,7 @@ La :ref:`Color<class_Color>` de Light2D.
 - |void| **set_editor_only**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editor_only**\ (\ )
 
-Si ``true``, la Light2D n'apparaitra que dans l'éditeur de scène.
+Si ``true``, la Light2D n’apparaîtra que lors de l'édition de la scène.
 
 .. rst-class:: classref-item-separator
 

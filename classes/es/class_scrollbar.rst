@@ -9,14 +9,14 @@ ScrollBar
 
 **Heredado por:** :ref:`HScrollBar<class_HScrollBar>`, :ref:`VScrollBar<class_VScrollBar>`
 
-Abstract base class for scrollbars.
+Clase base abstracta para barras de desplazamiento.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Abstract base class for scrollbars, typically used to navigate through content that extends beyond the visible area of a control. Scrollbars are :ref:`Range<class_Range>`-based controls.
+Clase base abstracta para las barras de desplazamiento, que se utiliza normalmente para navegar por contenido que se extiende más allá del área visible de un control. Las barras de desplazamiento son controles basados en :ref:`Range<class_Range>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -120,7 +120,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Texture2D<class_Texture2D>` **decrement** :ref:`🔗<class_ScrollBar_theme_icon_decrement>`
 
-Icon used as a button to scroll the **ScrollBar** left/up. Supports custom step using the :ref:`custom_step<class_ScrollBar_property_custom_step>` property.
+Icono usado como botón para desplazar la **ScrollBar** a la izquierda/arriba. Admite un paso personalizado usando la propiedad :ref:`custom_step<class_ScrollBar_property_custom_step>`.
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ Se muestra cuando el cursor del ratón pasa por encima del botón de disminució
 
 :ref:`Texture2D<class_Texture2D>` **decrement_pressed** :ref:`🔗<class_ScrollBar_theme_icon_decrement_pressed>`
 
-Displayed when the decrement button is being pressed.
+Se muestra cuando se presiona el botón de decremento.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ Displayed when the decrement button is being pressed.
 
 :ref:`Texture2D<class_Texture2D>` **increment** :ref:`🔗<class_ScrollBar_theme_icon_increment>`
 
-Icon used as a button to scroll the **ScrollBar** right/down. Supports custom step using the :ref:`custom_step<class_ScrollBar_property_custom_step>` property.
+Icono usado como botón para desplazar la **ScrollBar** a la derecha/abajo. Admite un paso personalizado usando la propiedad :ref:`custom_step<class_ScrollBar_property_custom_step>`.
 
 .. rst-class:: classref-item-separator
 
@@ -180,7 +180,7 @@ Se muestra cuando el cursor del ratón pasa por encima del botón de incremento.
 
 :ref:`Texture2D<class_Texture2D>` **increment_pressed** :ref:`🔗<class_ScrollBar_theme_icon_increment_pressed>`
 
-Displayed when the increment button is being pressed.
+Se muestra cuando se presiona el botón de incremento.
 
 .. rst-class:: classref-item-separator
 

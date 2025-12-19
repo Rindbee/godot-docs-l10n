@@ -7,7 +7,7 @@ ShapeCast3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A 3D shape that sweeps a region of space to detect :ref:`CollisionObject3D<class_CollisionObject3D>`\ s.
+Una forma 3D que barre una región del espacio para detectar :ref:`CollisionObject3D<class_CollisionObject3D>`\ s.
 
 .. rst-class:: classref-introduction-group
 
@@ -118,7 +118,7 @@ Descripciones de Propiedades
 - |void| **set_collide_with_areas**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collide_with_areas_enabled**\ (\ )
 
-If ``true``, collisions with :ref:`Area3D<class_Area3D>`\ s will be reported.
+Si es ``true``, se informará de las colisiones con :ref:`Area3D<class_Area3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -135,7 +135,7 @@ If ``true``, collisions with :ref:`Area3D<class_Area3D>`\ s will be reported.
 - |void| **set_collide_with_bodies**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collide_with_bodies_enabled**\ (\ )
 
-If ``true``, collisions with :ref:`PhysicsBody3D<class_PhysicsBody3D>`\ s will be reported.
+Si es ``true``, se informará de las colisiones con :ref:`PhysicsBody3D<class_PhysicsBody3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -168,7 +168,7 @@ The shape's collision mask. Only objects in at least one collision layer enabled
 
 - :ref:`Array<class_Array>` **get_collision_result**\ (\ )
 
-Returns the complete collision information from the collision sweep. The data returned is the same as in the :ref:`PhysicsDirectSpaceState3D.get_rest_info()<class_PhysicsDirectSpaceState3D_method_get_rest_info>` method.
+Devuelve la información completa de la colisión del barrido de colisión. Los datos devueltos son los mismos que en el método :ref:`PhysicsDirectSpaceState3D.get_rest_info()<class_PhysicsDirectSpaceState3D_method_get_rest_info>`.
 
 .. rst-class:: classref-item-separator
 
@@ -185,9 +185,9 @@ Returns the complete collision information from the collision sweep. The data re
 - |void| **set_debug_shape_custom_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_debug_shape_custom_color**\ (\ )
 
-The custom color to use to draw the shape in the editor and at run-time if **Visible Collision Shapes** is enabled in the **Debug** menu. This color will be highlighted at run-time if the **ShapeCast3D** is colliding with something.
+El color personalizado para usar para dibujar la forma en el editor y en tiempo de ejecución si **Visible Collision Shapes** está habilitado en el menú **Depurar**. Este color se resaltará en tiempo de ejecución si el **ShapeCast3D** está colisionando con algo.
 
-If set to ``Color(0.0, 0.0, 0.0)`` (by default), the color set in :ref:`ProjectSettings.debug/shapes/collision/shape_color<class_ProjectSettings_property_debug/shapes/collision/shape_color>` is used.
+Si se establece en ``Color(0.0, 0.0, 0.0)`` (por defecto), se utiliza el color establecido en :ref:`ProjectSettings.debug/shapes/collision/shape_color<class_ProjectSettings_property_debug/shapes/collision/shape_color>`.
 
 .. rst-class:: classref-item-separator
 
@@ -238,7 +238,7 @@ Si es ``true``, el nodo padre será excluido de la detección de colisiones.
 - |void| **set_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_margin**\ (\ )
 
-The collision margin for the shape. A larger margin helps detecting collisions more consistently, at the cost of precision.
+El margen de colisión de la forma. Un margen más grande ayuda a detectar colisiones de forma más consistente, a costa de la precisión.
 
 .. rst-class:: classref-item-separator
 
@@ -255,7 +255,7 @@ The collision margin for the shape. A larger margin helps detecting collisions m
 - |void| **set_max_results**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_results**\ (\ )
 
-The number of intersections can be limited with this parameter, to reduce the processing time.
+El número de intersecciones se puede limitar con este parámetro, para reducir el tiempo de procesamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -272,7 +272,7 @@ The number of intersections can be limited with this parameter, to reduce the pr
 - |void| **set_shape**\ (\ value\: :ref:`Shape3D<class_Shape3D>`\ )
 - :ref:`Shape3D<class_Shape3D>` **get_shape**\ (\ )
 
-The shape to be used for collision queries.
+La forma que se usará para las consultas de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -289,7 +289,7 @@ The shape to be used for collision queries.
 - |void| **set_target_position**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_target_position**\ (\ )
 
-The shape's destination point, relative to this node's :ref:`Node3D.position<class_Node3D_property_position>`.
+El punto de destino de la forma, relativo a la :ref:`Node3D.position<class_Node3D_property_position>` de este nodo.
 
 .. rst-class:: classref-section-separator
 
@@ -306,7 +306,7 @@ Descripciones de Métodos
 
 |void| **add_exception**\ (\ node\: :ref:`CollisionObject3D<class_CollisionObject3D>`\ ) :ref:`🔗<class_ShapeCast3D_method_add_exception>`
 
-Adds a collision exception so the shape does not report collisions with the specified node.
+Añade una excepción de colisión para que la forma no reporte colisiones con el nodo especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -318,7 +318,7 @@ Adds a collision exception so the shape does not report collisions with the spec
 
 |void| **add_exception_rid**\ (\ rid\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_ShapeCast3D_method_add_exception_rid>`
 
-Adds a collision exception so the shape does not report collisions with the specified :ref:`RID<class_RID>`.
+Añade una excepción de colisión para que la forma no reporte colisiones con el :ref:`RID<class_RID>` especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -330,7 +330,7 @@ Adds a collision exception so the shape does not report collisions with the spec
 
 |void| **clear_exceptions**\ (\ ) :ref:`🔗<class_ShapeCast3D_method_clear_exceptions>`
 
-Removes all collision exceptions for this shape.
+Elimina todas las excepciones de colisión para esta forma.
 
 .. rst-class:: classref-item-separator
 
@@ -418,7 +418,7 @@ Returns the shape ID of the colliding shape of one of the multiple collisions at
 
 :ref:`int<class_int>` **get_collision_count**\ (\ ) |const| :ref:`🔗<class_ShapeCast3D_method_get_collision_count>`
 
-The number of collisions detected at the point of impact. Use this to iterate over multiple collisions as provided by :ref:`get_collider()<class_ShapeCast3D_method_get_collider>`, :ref:`get_collider_shape()<class_ShapeCast3D_method_get_collider_shape>`, :ref:`get_collision_point()<class_ShapeCast3D_method_get_collision_point>`, and :ref:`get_collision_normal()<class_ShapeCast3D_method_get_collision_normal>` methods.
+El número de colisiones detectadas en el punto de impacto. Utiliza esto para iterar sobre múltiples colisiones como las proporcionadas por los métodos :ref:`get_collider()<class_ShapeCast3D_method_get_collider>`, :ref:`get_collider_shape()<class_ShapeCast3D_method_get_collider_shape>`, :ref:`get_collision_point()<class_ShapeCast3D_method_get_collision_point>` y :ref:`get_collision_normal()<class_ShapeCast3D_method_get_collision_normal>`.
 
 .. rst-class:: classref-item-separator
 
@@ -430,7 +430,7 @@ The number of collisions detected at the point of impact. Use this to iterate ov
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ShapeCast3D_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_mask<class_ShapeCast3D_property_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_mask<class_ShapeCast3D_property_collision_mask>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -442,7 +442,7 @@ Returns whether or not the specified layer of the :ref:`collision_mask<class_Sha
 
 :ref:`Vector3<class_Vector3>` **get_collision_normal**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ShapeCast3D_method_get_collision_normal>`
 
-Returns the normal of one of the multiple collisions at ``index`` of the intersecting object.
+Devuelve la normal de una de las múltiples colisiones en ``index`` del objeto que se interseca.
 
 .. rst-class:: classref-item-separator
 
@@ -454,9 +454,9 @@ Returns the normal of one of the multiple collisions at ``index`` of the interse
 
 :ref:`Vector3<class_Vector3>` **get_collision_point**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ShapeCast3D_method_get_collision_point>`
 
-Returns the collision point of one of the multiple collisions at ``index`` where the shape intersects the colliding object.
+Devuelve el punto de colisión de una de las múltiples colisiones en ``index`` donde la forma se interseca con el objeto que colisiona.
 
-\ **Note:** This point is in the **global** coordinate system.
+\ **Nota:** Este punto está en el sistema de coordenadas **global**.
 
 .. rst-class:: classref-item-separator
 
@@ -518,7 +518,7 @@ Este método no hace nada.
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_ShapeCast3D_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_mask<class_ShapeCast3D_property_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_mask<class_ShapeCast3D_property_collision_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

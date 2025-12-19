@@ -14,7 +14,7 @@ Formato de textura (utilizado por :ref:`RenderingDevice<class_RenderingDevice>`)
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -82,7 +82,7 @@ Descripciones de Propiedades
 - |void| **set_array_layers**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_array_layers**\ (\ )
 
-The number of layers in the texture. Only relevant for 2D texture arrays.
+El número de capas en la textura. Solo relevante para los arrays de texturas 2D.
 
 .. rst-class:: classref-item-separator
 
@@ -99,7 +99,7 @@ The number of layers in the texture. Only relevant for 2D texture arrays.
 - |void| **set_depth**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_depth**\ (\ )
 
-The texture's depth (in pixels). This is always ``1`` for 2D textures.
+La profundidad de la textura (en píxeles). Esto siempre es ``1`` para texturas 2D.
 
 .. rst-class:: classref-item-separator
 
@@ -116,7 +116,7 @@ The texture's depth (in pixels). This is always ``1`` for 2D textures.
 - |void| **set_format**\ (\ value\: :ref:`DataFormat<enum_RenderingDevice_DataFormat>`\ )
 - :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **get_format**\ (\ )
 
-The texture's pixel data format.
+El formato de datos de píxeles de la textura.
 
 .. rst-class:: classref-item-separator
 
@@ -133,7 +133,7 @@ The texture's pixel data format.
 - |void| **set_height**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_height**\ (\ )
 
-The texture's height (in pixels).
+La altura de la textura (en píxeles).
 
 .. rst-class:: classref-item-separator
 
@@ -150,9 +150,9 @@ The texture's height (in pixels).
 - |void| **set_is_discardable**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_is_discardable**\ (\ )
 
-If a texture is discardable, its contents do not need to be preserved between frames. This flag is only relevant when the texture is used as target in a draw list.
+Si una textura es descartable, no es necesario preservar su contenido entre frames. Este indicador solo es relevante cuando la textura se usa como destino en una lista de dibujo.
 
-This information is used by :ref:`RenderingDevice<class_RenderingDevice>` to figure out if a texture's contents can be discarded, eliminating unnecessary writes to memory and boosting performance.
+Esta información es utilizada por :ref:`RenderingDevice<class_RenderingDevice>` para determinar si el contenido de una textura puede descartarse, eliminando escrituras innecesarias en la memoria y aumentando el rendimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -169,7 +169,7 @@ This information is used by :ref:`RenderingDevice<class_RenderingDevice>` to fig
 - |void| **set_is_resolve_buffer**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_is_resolve_buffer**\ (\ )
 
-The texture will be used as the destination of a resolve operation.
+La textura se utilizará como destino de una operación de resolución.
 
 .. rst-class:: classref-item-separator
 
@@ -186,7 +186,7 @@ The texture will be used as the destination of a resolve operation.
 - |void| **set_mipmaps**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_mipmaps**\ (\ )
 
-The number of mipmaps available in the texture.
+El número de mipmaps disponibles en la textura.
 
 .. rst-class:: classref-item-separator
 
@@ -203,7 +203,7 @@ The number of mipmaps available in the texture.
 - |void| **set_samples**\ (\ value\: :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>`\ )
 - :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>` **get_samples**\ (\ )
 
-The number of samples used when sampling the texture.
+El número de muestras utilizadas al muestrear la textura.
 
 .. rst-class:: classref-item-separator
 
@@ -237,7 +237,7 @@ El tipo de textura.
 - |void| **set_usage_bits**\ (\ value\: |bitfield|\[:ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>`\]\ )
 - |bitfield|\[:ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>`\] **get_usage_bits**\ (\ )
 
-The texture's usage bits, which determine what can be done using the texture.
+Los bits de uso de la textura, que determinan lo que se puede hacer con la textura.
 
 .. rst-class:: classref-item-separator
 
@@ -254,7 +254,7 @@ The texture's usage bits, which determine what can be done using the texture.
 - |void| **set_width**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_width**\ (\ )
 
-The texture's width (in pixels).
+El ancho de la textura (en píxeles).
 
 .. rst-class:: classref-section-separator
 
@@ -271,7 +271,7 @@ Descripciones de Métodos
 
 |void| **add_shareable_format**\ (\ format\: :ref:`DataFormat<enum_RenderingDevice_DataFormat>`\ ) :ref:`🔗<class_RDTextureFormat_method_add_shareable_format>`
 
-Adds ``format`` as a valid format for the corresponding :ref:`RDTextureView<class_RDTextureView>`'s :ref:`RDTextureView.format_override<class_RDTextureView_property_format_override>` property. If any format is added as shareable, then the main :ref:`format<class_RDTextureFormat_property_format>` must also be added.
+Añade ``format`` como un formato válido para la propiedad :ref:`RDTextureView.format_override<class_RDTextureView_property_format_override>` de la :ref:`RDTextureView<class_RDTextureView>` correspondiente. Si se añade algún formato como compartible, también se debe añadir el :ref:`format<class_RDTextureFormat_property_format>` principal.
 
 .. rst-class:: classref-item-separator
 
@@ -283,7 +283,7 @@ Adds ``format`` as a valid format for the corresponding :ref:`RDTextureView<clas
 
 |void| **remove_shareable_format**\ (\ format\: :ref:`DataFormat<enum_RenderingDevice_DataFormat>`\ ) :ref:`🔗<class_RDTextureFormat_method_remove_shareable_format>`
 
-Removes ``format`` from the list of valid formats that the corresponding :ref:`RDTextureView<class_RDTextureView>`'s :ref:`RDTextureView.format_override<class_RDTextureView_property_format_override>` property can be set to.
+Elimina ``format`` de la lista de formatos válidos a los que se puede establecer la propiedad :ref:`RDTextureView.format_override<class_RDTextureView_property_format_override>` de la :ref:`RDTextureView<class_RDTextureView>` correspondiente.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

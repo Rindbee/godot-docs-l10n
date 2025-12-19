@@ -158,7 +158,7 @@ enum **OpenXRAlphaBlendModeSupport**: :ref:`🔗<enum_OpenXRAPIExtension_OpenXRA
 
 :ref:`OpenXRAlphaBlendModeSupport<enum_OpenXRAPIExtension_OpenXRAlphaBlendModeSupport>` **OPENXR_ALPHA_BLEND_MODE_SUPPORT_NONE** = ``0``
 
-Means that :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` isn't supported at all.
+Significa que :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` no es compatible en absoluto.
 
 .. _class_OpenXRAPIExtension_constant_OPENXR_ALPHA_BLEND_MODE_SUPPORT_REAL:
 
@@ -166,7 +166,7 @@ Means that :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_con
 
 :ref:`OpenXRAlphaBlendModeSupport<enum_OpenXRAPIExtension_OpenXRAlphaBlendModeSupport>` **OPENXR_ALPHA_BLEND_MODE_SUPPORT_REAL** = ``1``
 
-Means that :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` is really supported.
+Significa que :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` es realmente compatible.
 
 .. _class_OpenXRAPIExtension_constant_OPENXR_ALPHA_BLEND_MODE_SUPPORT_EMULATING:
 
@@ -174,7 +174,7 @@ Means that :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_con
 
 :ref:`OpenXRAlphaBlendModeSupport<enum_OpenXRAPIExtension_OpenXRAlphaBlendModeSupport>` **OPENXR_ALPHA_BLEND_MODE_SUPPORT_EMULATING** = ``2``
 
-Means that :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` is emulated.
+Significa que :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` es emulado.
 
 .. rst-class:: classref-section-separator
 
@@ -203,7 +203,7 @@ Returns the corresponding ``XrAction`` OpenXR handle for the given action RID.
 
 |void| **begin_debug_label_region**\ (\ label_name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OpenXRAPIExtension_method_begin_debug_label_region>`
 
-Begins a new debug label region, this label will be reported in debug messages for any calls following this until :ref:`end_debug_label_region()<class_OpenXRAPIExtension_method_end_debug_label_region>` is called. Debug labels can be stacked.
+Comienza una nueva región de etiqueta de depuración, esta etiqueta se reportará en los mensajes de depuración para cualquier llamada posterior a esta hasta que se llame a :ref:`end_debug_label_region()<class_OpenXRAPIExtension_method_end_debug_label_region>`. Las etiquetas de depuración se pueden apilar.
 
 .. rst-class:: classref-item-separator
 
@@ -215,7 +215,7 @@ Begins a new debug label region, this label will be reported in debug messages f
 
 :ref:`bool<class_bool>` **can_render**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_can_render>`
 
-Returns ``true`` if OpenXR is initialized for rendering with an XR viewport.
+Devuelve ``true`` si OpenXR está inicializado para renderizar con un viewport XR.
 
 .. rst-class:: classref-item-separator
 
@@ -583,7 +583,7 @@ Registers the given extension as modifying frame info via the :ref:`OpenXRExtens
 
 |void| **register_projection_views_extension**\ (\ extension\: :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`\ ) :ref:`🔗<class_OpenXRAPIExtension_method_register_projection_views_extension>`
 
-Registers the given extension as a provider of additional data structures to projections views.
+Registra la extensión dada como un proveedor de estructuras de datos adicionales para las vistas de proyección.
 
 .. rst-class:: classref-item-separator
 
@@ -595,7 +595,7 @@ Registers the given extension as a provider of additional data structures to pro
 
 |void| **set_custom_play_space**\ (\ space\: ``const void*``\ ) :ref:`🔗<class_OpenXRAPIExtension_method_set_custom_play_space>`
 
-Sets the reference space used by OpenXR to the given `XrSpace <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSpace.html>`__ (cast to a ``void *``).
+Establece el espacio de referencia utilizado por OpenXR al `XrSpace <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSpace.html>`__ dado (convertido a un ``void *``).
 
 .. rst-class:: classref-item-separator
 
@@ -607,7 +607,7 @@ Sets the reference space used by OpenXR to the given `XrSpace <https://registry.
 
 |void| **set_emulate_environment_blend_mode_alpha_blend**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_OpenXRAPIExtension_method_set_emulate_environment_blend_mode_alpha_blend>`
 
-If set to ``true``, an OpenXR extension is loaded which is capable of emulating the :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>` blend mode.
+Si se establece en ``true``, se carga una extensión de OpenXR que es capaz de emular el modo de mezcla :ref:`XRInterface.XR_ENV_BLEND_MODE_ALPHA_BLEND<class_XRInterface_constant_XR_ENV_BLEND_MODE_ALPHA_BLEND>`.
 
 .. rst-class:: classref-item-separator
 
@@ -619,7 +619,7 @@ If set to ``true``, an OpenXR extension is loaded which is capable of emulating 
 
 |void| **set_object_name**\ (\ object_type\: :ref:`int<class_int>`, object_handle\: :ref:`int<class_int>`, object_name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OpenXRAPIExtension_method_set_object_name>`
 
-Set the object name of an OpenXR object, used for debug output. ``object_type`` must be a valid OpenXR ``XrObjectType`` enum and ``object_handle`` must be a valid OpenXR object handle.
+Establece el nombre del objeto de un objeto OpenXR, utilizado para la salida de depuración. ``object_type`` debe ser un enum ``XrObjectType`` válido de OpenXR y ``object_handle`` debe ser un identificador de objeto válido de OpenXR.
 
 .. rst-class:: classref-item-separator
 

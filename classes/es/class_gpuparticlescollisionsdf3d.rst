@@ -151,7 +151,7 @@ Descripciones de Propiedades
 - |void| **set_bake_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bake_mask**\ (\ )
 
-The visual layers to account for when baking the particle collision SDF. Only :ref:`MeshInstance3D<class_MeshInstance3D>`\ s whose :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>` match with this :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>` will be included in the generated particle collision SDF. By default, all objects are taken into account for the particle collision SDF baking.
+Las capas visuales a tener en cuenta al procesar el SDF de colisión de partículas. Solo los :ref:`MeshInstance3D<class_MeshInstance3D>` cuyo :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>` coincidan con esta :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>` se incluirán en el SDF de colisión de partículas generado. Por defecto, todos los objetos se tienen en cuenta para el procesado del SDF de colisión de partículas.
 
 .. rst-class:: classref-item-separator
 
@@ -168,7 +168,7 @@ The visual layers to account for when baking the particle collision SDF. Only :r
 - |void| **set_resolution**\ (\ value\: :ref:`Resolution<enum_GPUParticlesCollisionSDF3D_Resolution>`\ )
 - :ref:`Resolution<enum_GPUParticlesCollisionSDF3D_Resolution>` **get_resolution**\ (\ )
 
-The bake resolution to use for the signed distance field :ref:`texture<class_GPUParticlesCollisionSDF3D_property_texture>`. The texture must be baked again for changes to the :ref:`resolution<class_GPUParticlesCollisionSDF3D_property_resolution>` property to be effective. Higher resolutions have a greater performance cost and take more time to bake. Higher resolutions also result in larger baked textures, leading to increased VRAM and storage space requirements. To improve performance and reduce bake times, use the lowest resolution possible for the object you're representing the collision of.
+La resolución de procesado a utilizar para el campo de distancia con signo :ref:`texture<class_GPUParticlesCollisionSDF3D_property_texture>`. La textura debe ser procesada de nuevo para que los cambios en la propiedad :ref:`resolution<class_GPUParticlesCollisionSDF3D_property_resolution>` sean efectivos. Las resoluciones más altas tienen un mayor coste de rendimiento y tardan más tiempo en procesarse. Las resoluciones más altas también dan como resultado texturas procesadas más grandes, lo que conlleva un aumento de los requisitos de VRAM y espacio de almacenamiento. Para mejorar el rendimiento y reducir los tiempos de procesado, utiliza la resolución más baja posible para el objeto que estás representando la colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -185,7 +185,7 @@ The bake resolution to use for the signed distance field :ref:`texture<class_GPU
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The collision SDF's size in 3D units. To improve SDF quality, the :ref:`size<class_GPUParticlesCollisionSDF3D_property_size>` should be set as small as possible while covering the parts of the scene you need.
+El tamaño del SDF de colisión en unidades 3D. Para mejorar la calidad del SDF, el :ref:`size<class_GPUParticlesCollisionSDF3D_property_size>` debe establecerse lo más pequeño posible, cubriendo las partes de la escena que necesites.
 
 .. rst-class:: classref-item-separator
 
@@ -202,7 +202,7 @@ The collision SDF's size in 3D units. To improve SDF quality, the :ref:`size<cla
 - |void| **set_texture**\ (\ value\: :ref:`Texture3D<class_Texture3D>`\ )
 - :ref:`Texture3D<class_Texture3D>` **get_texture**\ (\ )
 
-The 3D texture representing the signed distance field.
+La textura 3D que representa el campo de distancia con signo.
 
 .. rst-class:: classref-item-separator
 
@@ -219,7 +219,7 @@ The 3D texture representing the signed distance field.
 - |void| **set_thickness**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_thickness**\ (\ )
 
-The collision shape's thickness. Unlike other particle colliders, **GPUParticlesCollisionSDF3D** is actually hollow on the inside. :ref:`thickness<class_GPUParticlesCollisionSDF3D_property_thickness>` can be increased to prevent particles from tunneling through the collision shape at high speeds, or when the **GPUParticlesCollisionSDF3D** is moved.
+El grosor de la forma de colisión. A diferencia de otros colisionadores de partículas, **GPUParticlesCollisionSDF3D** es en realidad hueco en su interior. :ref:`thickness<class_GPUParticlesCollisionSDF3D_property_thickness>` puede aumentarse para evitar que las partículas atraviesen la forma de colisión a altas velocidades, o cuando se mueve el **GPUParticlesCollisionSDF3D**.
 
 .. rst-class:: classref-section-separator
 
@@ -236,7 +236,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **get_bake_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GPUParticlesCollisionSDF3D_method_get_bake_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>` está habilitada, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -248,7 +248,7 @@ Returns whether or not the specified layer of the :ref:`bake_mask<class_GPUParti
 
 |void| **set_bake_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_GPUParticlesCollisionSDF3D_method_set_bake_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en el :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

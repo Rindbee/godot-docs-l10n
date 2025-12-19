@@ -169,7 +169,7 @@ enum **FadeMode**: :ref:`🔗<enum_AudioStreamInteractive_FadeMode>`
 
 :ref:`FadeMode<enum_AudioStreamInteractive_FadeMode>` **FADE_DISABLED** = ``0``
 
-Do not use fade for the transition. This is useful when transitioning from a clip-end to clip-beginning, and each clip has their begin/end.
+Ne pas utiliser de fondu pour la transition. Ceci est utile lors du passage d'une fin de clip à un début de clip, et que chaque clip a son début/fin.
 
 .. _class_AudioStreamInteractive_constant_FADE_IN:
 

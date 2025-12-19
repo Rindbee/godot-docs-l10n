@@ -113,7 +113,7 @@ Starts a debug break in script execution, optionally specifying whether the prog
 
 **Expérimental :** Cette méthode peut être changée ou retirée dans de futures versions.
 
-Returns the current debug depth.
+Renvoie la profondeur de débogage actuelle.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ Returns the current debug depth.
 
 **Expérimental :** Cette méthode peut être changée ou retirée dans de futures versions.
 
-Returns the number of lines that remain.
+Renvoie le nombre de lignes restantes.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ Inserts a new breakpoint with the given ``source`` and ``line``.
 
 :ref:`bool<class_bool>` **is_active**\ (\ ) :ref:`🔗<class_EngineDebugger_method_is_active>`
 
-Returns ``true`` if the debugger is active otherwise ``false``.
+Renvoie ``true`` si le débogueur est actif, sinon ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -211,7 +211,7 @@ Returns ``true`` if a profiler with the given name is present and active otherwi
 
 :ref:`bool<class_bool>` **is_skipping_breakpoints**\ (\ ) |const| :ref:`🔗<class_EngineDebugger_method_is_skipping_breakpoints>`
 
-Returns ``true`` if the debugger is skipping breakpoints otherwise ``false``.
+Renvoie ``true`` si le débogueur saute les points d'arrêt, sinon ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -325,7 +325,7 @@ Envoie un message avec le ``message`` et le tableau ``data`` donnés.
 
 **Expérimental :** Cette méthode peut être changée ou retirée dans de futures versions.
 
-Sets the current debugging depth.
+Définit la profondeur de débogage actuelle.
 
 .. rst-class:: classref-item-separator
 
@@ -339,7 +339,7 @@ Sets the current debugging depth.
 
 **Expérimental :** Cette méthode peut être changée ou retirée dans de futures versions.
 
-Sets the current debugging lines that remain.
+Définit les lignes de débogage actuelles restantes.
 
 .. rst-class:: classref-item-separator
 
@@ -351,7 +351,7 @@ Sets the current debugging lines that remain.
 
 |void| **unregister_message_capture**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_EngineDebugger_method_unregister_message_capture>`
 
-Unregisters the message capture with given ``name``.
+Désenregistre la capture de message avec le nom ``name`` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -363,7 +363,7 @@ Unregisters the message capture with given ``name``.
 
 |void| **unregister_profiler**\ (\ name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_EngineDebugger_method_unregister_profiler>`
 
-Unregisters a profiler with given ``name``.
+Désenregistre un profileur avec le nom ``name`` donné.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

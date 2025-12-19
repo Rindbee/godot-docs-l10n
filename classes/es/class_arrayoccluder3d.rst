@@ -71,9 +71,9 @@ Descripciones de Propiedades
 - |void| **set_indices**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_indices**\ (\ )
 
-The occluder's index position. Indices determine which points from the :ref:`vertices<class_ArrayOccluder3D_property_vertices>` array should be drawn, and in which order.
+La posición del índice del oclusor. Los índices determinan qué puntos del array :ref:`vertices<class_ArrayOccluder3D_property_vertices>` deben dibujarse, y en qué orden.
 
-\ **Note:** The occluder is always updated after setting this value. If creating occluders procedurally, consider using :ref:`set_arrays()<class_ArrayOccluder3D_method_set_arrays>` instead to avoid updating the occluder twice when it's created.
+\ **Nota:** El oclusor siempre se actualiza después de establecer este valor. Si estás creando oclusores por procedimiento, considera usar :ref:`set_arrays()<class_ArrayOccluder3D_method_set_arrays>` en su lugar para evitar actualizar el oclusor dos veces cuando se crea.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 
@@ -92,9 +92,9 @@ The occluder's index position. Indices determine which points from the :ref:`ver
 - |void| **set_vertices**\ (\ value\: :ref:`PackedVector3Array<class_PackedVector3Array>`\ )
 - :ref:`PackedVector3Array<class_PackedVector3Array>` **get_vertices**\ (\ )
 
-The occluder's vertex positions in local 3D coordinates.
+Las posiciones de los vértices del oclusor en coordenadas 3D locales.
 
-\ **Note:** The occluder is always updated after setting this value. If creating occluders procedurally, consider using :ref:`set_arrays()<class_ArrayOccluder3D_method_set_arrays>` instead to avoid updating the occluder twice when it's created.
+\ **Nota:** El oclusor siempre se actualiza después de establecer este valor. Si estás creando oclusores por procedimiento, considera usar :ref:`set_arrays()<class_ArrayOccluder3D_method_set_arrays>` en su lugar para evitar actualizar el oclusor dos veces cuando se crea.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector3Array<class_PackedVector3Array>` for more details.
 
@@ -113,7 +113,7 @@ Descripciones de Métodos
 
 |void| **set_arrays**\ (\ vertices\: :ref:`PackedVector3Array<class_PackedVector3Array>`, indices\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ ) :ref:`🔗<class_ArrayOccluder3D_method_set_arrays>`
 
-Sets :ref:`indices<class_ArrayOccluder3D_property_indices>` and :ref:`vertices<class_ArrayOccluder3D_property_vertices>`, while updating the final occluder only once after both values are set.
+Establece :ref:`indices<class_ArrayOccluder3D_property_indices>` y :ref:`vertices<class_ArrayOccluder3D_property_vertices>`, mientras actualiza el oclusor final solo una vez después de que ambos valores han sido establecidos.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -9,16 +9,16 @@ Material
 
 **Heredado por:** :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`, :ref:`FogMaterial<class_FogMaterial>`, :ref:`PanoramaSkyMaterial<class_PanoramaSkyMaterial>`, :ref:`ParticleProcessMaterial<class_ParticleProcessMaterial>`, :ref:`PhysicalSkyMaterial<class_PhysicalSkyMaterial>`, :ref:`PlaceholderMaterial<class_PlaceholderMaterial>`, :ref:`ProceduralSkyMaterial<class_ProceduralSkyMaterial>`, :ref:`ShaderMaterial<class_ShaderMaterial>`
 
-Virtual base class for applying visual properties to an object, such as color and roughness.
+Clase base virtual para aplicar propiedades visuales a un objeto, como el color y la rugosidad.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**Material** is a base resource used for coloring and shading geometry. All materials inherit from it and almost all :ref:`VisualInstance3D<class_VisualInstance3D>` derived nodes carry a **Material**. A few flags and parameters are shared between all material types and are configured here.
+**Material** es un recurso base usado para colorear y sombrear la geometría. Todos los materiales heredan de él y casi todos los nodos derivados de :ref:`VisualInstance3D<class_VisualInstance3D>` llevan un **Material**. Algunas banderas y parámetros son compartidos por todos los tipos de materiales y se configuran aquí.
 
-Importantly, you can inherit from **Material** to create your own custom material type in script or in GDExtension.
+Es importante destacar que puedes heredar de **Material** para crear tu propio tipo de material personalizado en script o en GDExtension.
 
 .. rst-class:: classref-introduction-group
 
@@ -110,11 +110,11 @@ Descripciones de Propiedades
 - |void| **set_next_pass**\ (\ value\: :ref:`Material<class_Material>`\ )
 - :ref:`Material<class_Material>` **get_next_pass**\ (\ )
 
-Sets the **Material** to be used for the next pass. This renders the object again using a different material.
+Establece el **Material** que se utilizará para el siguiente pase. Esto renderiza el objeto de nuevo utilizando un material diferente.
 
-\ **Note:** :ref:`next_pass<class_Material_property_next_pass>` materials are not necessarily drawn immediately after the source **Material**. Draw order is determined by material properties, :ref:`render_priority<class_Material_property_render_priority>`, and distance to camera.
+\ **Nota:** Los materiales :ref:`next_pass<class_Material_property_next_pass>` no se dibujan necesariamente inmediatamente después del **Material** de origen. El orden de dibujado está determinado por las propiedades del material, :ref:`render_priority<class_Material_property_render_priority>` y la distancia a la cámara.
 
-\ **Note:** This only applies to :ref:`StandardMaterial3D<class_StandardMaterial3D>`\ s and :ref:`ShaderMaterial<class_ShaderMaterial>`\ s with type "Spatial".
+\ **Nota:** Esto solo se aplica a :ref:`StandardMaterial3D<class_StandardMaterial3D>` y :ref:`ShaderMaterial<class_ShaderMaterial>` con el tipo "Spatial".
 
 .. rst-class:: classref-item-separator
 
@@ -152,7 +152,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **_can_do_next_pass**\ (\ ) |virtual| |const| :ref:`🔗<class_Material_private_method__can_do_next_pass>`
 
-Only exposed for the purpose of overriding. You cannot call this function directly. Used internally to determine if :ref:`next_pass<class_Material_property_next_pass>` should be shown in the editor or not.
+Expuesto solo con el propósito de ser sobrescrito. No puedes llamar a esta función directamente. Se utiliza internamente para determinar si :ref:`next_pass<class_Material_property_next_pass>` debe mostrarse o no en el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -164,7 +164,7 @@ Only exposed for the purpose of overriding. You cannot call this function direct
 
 :ref:`bool<class_bool>` **_can_use_render_priority**\ (\ ) |virtual| |const| :ref:`🔗<class_Material_private_method__can_use_render_priority>`
 
-Only exposed for the purpose of overriding. You cannot call this function directly. Used internally to determine if :ref:`render_priority<class_Material_property_render_priority>` should be shown in the editor or not.
+Expuesto solo con el propósito de ser sobrescrito. No puedes llamar a esta función directamente. Se utiliza internamente para determinar si :ref:`render_priority<class_Material_property_render_priority>` debe mostrarse o no en el editor.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Only exposed for the purpose of overriding. You cannot call this function direct
 
 :ref:`Mode<enum_Shader_Mode>` **_get_shader_mode**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Material_private_method__get_shader_mode>`
 
-Only exposed for the purpose of overriding. You cannot call this function directly. Used internally by various editor tools.
+Expuesto solo con el propósito de ser sobrescrito. No puedes llamar a esta función directamente. Utilizado internamente por varias herramientas del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -188,7 +188,7 @@ Only exposed for the purpose of overriding. You cannot call this function direct
 
 :ref:`RID<class_RID>` **_get_shader_rid**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Material_private_method__get_shader_rid>`
 
-Only exposed for the purpose of overriding. You cannot call this function directly. Used internally by various editor tools. Used to access the RID of the **Material**'s :ref:`Shader<class_Shader>`.
+Expuesto solo con el propósito de ser sobrescrito. No puedes llamar a esta función directamente. Se utiliza internamente por varias herramientas del editor. Se utiliza para acceder al RID del :ref:`Shader<class_Shader>` del **Material**.
 
 .. rst-class:: classref-item-separator
 
@@ -200,7 +200,7 @@ Only exposed for the purpose of overriding. You cannot call this function direct
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Material_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderMaterial<class_PlaceholderMaterial>`).
+Crea una versión de marcador de posición de este recurso (:ref:`PlaceholderMaterial<class_PlaceholderMaterial>`).
 
 .. rst-class:: classref-item-separator
 
@@ -212,7 +212,7 @@ Creates a placeholder version of this resource (:ref:`PlaceholderMaterial<class_
 
 |void| **inspect_native_shader_code**\ (\ ) :ref:`🔗<class_Material_method_inspect_native_shader_code>`
 
-Only available when running in the editor. Opens a popup that visualizes the generated shader code, including all variants and internal shader code. See also :ref:`Shader.inspect_native_shader_code()<class_Shader_method_inspect_native_shader_code>`.
+Solo disponible cuando se ejecuta en el editor. Abre un popup que visualiza el código de shader generado, incluyendo todas las variantes y el código de shader interno. Véase también :ref:`Shader.inspect_native_shader_code()<class_Shader_method_inspect_native_shader_code>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

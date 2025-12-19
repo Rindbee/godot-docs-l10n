@@ -14,7 +14,7 @@ Textura para 3D que está vinculada a una textura creada en el :ref:`RenderingDe
 Descripción
 ----------------------
 
-Esta clase de textura le permite utilizar una textura 3D creada directamente en :ref:`RenderingDevice<class_RenderingDevice>` como textura para materiales, mallas, etc.
+Esta clase de textura te permite utilizar una textura 3D creada directamente en :ref:`RenderingDevice<class_RenderingDevice>` como textura para materiales, mallas, etc.
 
 .. rst-class:: classref-reftable-group
 

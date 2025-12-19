@@ -14,11 +14,11 @@ Una textura que recorta parte de otra Texture2D.
 Descripción
 ----------------------
 
-:ref:`Texture2D<class_Texture2D>` resource that draws only part of its :ref:`atlas<class_AtlasTexture_property_atlas>` texture, as defined by the :ref:`region<class_AtlasTexture_property_region>`. An additional :ref:`margin<class_AtlasTexture_property_margin>` can also be set, which is useful for small adjustments.
+Recurso :ref:`Texture2D<class_Texture2D>` que dibuja solo una parte de su textura :ref:`atlas<class_AtlasTexture_property_atlas>`, como se define en :ref:`region<class_AtlasTexture_property_region>`. También se puede establecer un :ref:`margin<class_AtlasTexture_property_margin>` adicional, lo cual es útil para pequeños ajustes.
 
-Multiple **AtlasTexture** resources can be cropped from the same :ref:`atlas<class_AtlasTexture_property_atlas>`. Packing many smaller textures into a singular large texture helps to optimize video memory costs and render calls.
+Se pueden recortar varios recursos **AtlasTexture** del mismo :ref:`atlas<class_AtlasTexture_property_atlas>`. Empaquetar muchas texturas más pequeñas en una única textura grande ayuda a optimizar los costos de memoria de video y las llamadas de renderizado.
 
-\ **Note:** **AtlasTexture** cannot be used in an :ref:`AnimatedTexture<class_AnimatedTexture>`, and will not tile properly in nodes such as :ref:`TextureRect<class_TextureRect>` or :ref:`Sprite2D<class_Sprite2D>`. To tile an **AtlasTexture**, modify its :ref:`region<class_AtlasTexture_property_region>` instead.
+\ **Nota:** **AtlasTexture** no se puede usar en una :ref:`AnimatedTexture<class_AnimatedTexture>`, y no se repetirá correctamente en nodos como :ref:`TextureRect<class_TextureRect>` o :ref:`Sprite2D<class_Sprite2D>`. Para repetir una **AtlasTexture**, modifica su :ref:`region<class_AtlasTexture_property_region>` en su lugar.
 
 .. rst-class:: classref-reftable-group
 

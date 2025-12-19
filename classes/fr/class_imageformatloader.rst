@@ -7,16 +7,16 @@ ImageFormatLoader
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`ImageFormatLoaderExtension<class_ImageFormatLoaderExtension>`
+**Hérité par :** :ref:`ImageFormatLoaderExtension<class_ImageFormatLoaderExtension>`
 
-Base class to add support for specific image formats.
+Classe de base pour ajouter du support pour des formats d'image spécifiques.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-The engine supports multiple image formats out of the box (PNG, SVG, JPEG, WebP to name a few), but you can choose to implement support for additional image formats by extending :ref:`ImageFormatLoaderExtension<class_ImageFormatLoaderExtension>`.
+Le moteur prend en charge plusieurs formats d'image (PNG, SVG, JPEG, WebP pour n'en nommer que quelques-uns), mais vous pouvez choisir d'implémenter du support pour des formats d'image supplémentaires en étendant :ref:`ImageFormatLoaderExtension<class_ImageFormatLoaderExtension>`.
 
 .. rst-class:: classref-section-separator
 

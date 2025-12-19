@@ -215,9 +215,9 @@ Returns the name of the local variable at the specified ``variable_index`` in th
 
 :ref:`Variant<class_Variant>` **get_local_variable_value**\ (\ frame_index\: :ref:`int<class_int>`, variable_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_local_variable_value>`
 
-Returns the value of the local variable at the specified ``variable_index`` in the stack frame at the specified ``frame_index``.
+Devuelve el valor de la variable local en el ``variable_index`` especificado en el frame de la pila en el ``frame_index`` especificado.
 
-\ **Warning:** With GDScript backtraces, the returned :ref:`Variant<class_Variant>` will be the variable's actual value, including any object references. This means that storing the returned :ref:`Variant<class_Variant>` will prevent any such object from being deallocated, so it's generally recommended not to do so.
+\ **Advertencia:** Con los backtraces de GDScript, el :ref:`Variant<class_Variant>` devuelto será el valor real de la variable, incluyendo cualquier referencia a objetos. Esto significa que almacenar el :ref:`Variant<class_Variant>` devuelto evitará que dicho objeto sea desasignado, por lo que generalmente se recomienda no hacerlo.
 
 .. rst-class:: classref-item-separator
 
@@ -229,9 +229,9 @@ Returns the value of the local variable at the specified ``variable_index`` in t
 
 :ref:`int<class_int>` **get_member_variable_count**\ (\ frame_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_member_variable_count>`
 
-Returns the number of member variables in the stack frame at the specified index.
+Devuelve el número de variables miembro en el frame de la pila en el índice especificado.
 
-\ **Note:** This will be non-zero only if the ``include_variables`` parameter was ``true`` when capturing the backtrace with :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+\ **Nota:** Esto será distinto de cero solo si el parámetro ``include_variables`` era ``true`` al capturar el backtrace con :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
 
 .. rst-class:: classref-item-separator
 
@@ -243,7 +243,7 @@ Returns the number of member variables in the stack frame at the specified index
 
 :ref:`String<class_String>` **get_member_variable_name**\ (\ frame_index\: :ref:`int<class_int>`, variable_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ScriptBacktrace_method_get_member_variable_name>`
 
-Returns the name of the member variable at the specified ``variable_index`` in the stack frame at the specified ``frame_index``.
+Devuelve el nombre de la variable miembro en el ``variable_index`` especificado en el frame de la pila en el ``frame_index`` especificado.
 
 .. rst-class:: classref-item-separator
 

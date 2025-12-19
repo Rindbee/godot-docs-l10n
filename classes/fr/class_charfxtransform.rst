@@ -96,9 +96,9 @@ La couleur utilisée pour afficher le caractère.
 - |void| **set_elapsed_time**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_elapsed_time**\ (\ )
 
-The time elapsed since the :ref:`RichTextLabel<class_RichTextLabel>` was added to the scene tree (in seconds). Time stops when the :ref:`RichTextLabel<class_RichTextLabel>` is paused (see :ref:`Node.process_mode<class_Node_property_process_mode>`). Resets when the text in the :ref:`RichTextLabel<class_RichTextLabel>` is changed.
+Le temps écoulé depuis que le :ref:`RichTextLabel<class_RichTextLabel>` ait été ajouté à l'arborescence de scène (en secondes). Le temps s’arrête lorsque le :ref:`RichTextLabel<class_RichTextLabel>` est en pause (voir :ref:`Node.process_mode<class_Node_property_process_mode>`). Réinitialisé lorsque le texte du :ref:`RichTextLabel<class_RichTextLabel>` est modifié.
 
-\ **Note:** Time still passes while the :ref:`RichTextLabel<class_RichTextLabel>` is hidden.
+\ **Note :** Le temps continue de s'écouler même lorsque le :ref:`RichTextLabel<class_RichTextLabel>` est caché.
 
 .. rst-class:: classref-item-separator
 
@@ -138,9 +138,9 @@ Par exemple, la balise BBCode d'ouverture ``[exemple foo=bonjour bar=true baz=42
 - |void| **set_font**\ (\ value\: :ref:`RID<class_RID>`\ )
 - :ref:`RID<class_RID>` **get_font**\ (\ )
 
-:ref:`TextServer<class_TextServer>` RID of the font used to render glyph, this value can be used with ``TextServer.font_*`` methods to retrieve font information.
+RID du :ref:`TextServer<class_TextServer>` de la police de caractère utilisée pour rendre le glyphe, cette valeur peut être utilisée avec les méthodes de ``TextServer.font_*`` pour récupérer les informations de police de caractère.
 
-\ **Note:** Read-only. Setting this property won't affect drawing.
+\ **Remarque :** Lecture seule. Définir cette propriété n'affectera pas le dessin.
 
 .. rst-class:: classref-item-separator
 
@@ -176,9 +176,9 @@ Number of glyphs in the grapheme cluster. This value is set in the first glyph o
 - |void| **set_glyph_flags**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_glyph_flags**\ (\ )
 
-Glyph flags. See :ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>` for more info.
+Options des glyphes. Voir :ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>` pour plus d'informations.
 
-\ **Note:** Read-only. Setting this property won't affect drawing.
+\ **Remarque :** Lecture seule. Définir cette propriété n'affectera pas le dessin.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ Glyph flags. See :ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>` for more info
 - |void| **set_glyph_index**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_glyph_index**\ (\ )
 
-Glyph index specific to the :ref:`font<class_CharFXTransform_property_font>`. If you want to replace this glyph, use :ref:`TextServer.font_get_glyph_index()<class_TextServer_method_font_get_glyph_index>` with :ref:`font<class_CharFXTransform_property_font>` to get a new glyph index for a single character.
+Index de glyphes spécifiques à :ref:`font<class_CharFXTransform_property_font>`. Si vous souhaitez remplacer ce glyphe, utilisez :ref:`TextServer.font_get_glyph_index()<class_TextServer_method_font_get_glyph_index>` avec :ref:`font<class_CharFXTransform_property_font>` pour recevoir un nouvel index de glyphe pour un caractère unique.
 
 .. rst-class:: classref-item-separator
 

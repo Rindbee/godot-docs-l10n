@@ -1980,9 +1980,11 @@ SDFGI 可見的最大距離。超出該距離，環境照明或其他 GI 來源�
 - |void| **set_ssr_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ssr_enabled**\ (\ )
 
-如果為 ``true``\ ，則啟用螢幕空間反射。螢幕空間反射比來自 :ref:`VoxelGI<class_VoxelGI>` 或 :ref:`ReflectionProbe<class_ReflectionProbe>` 的反射更準確，但更慢並且不能反射被其他物體遮擋的表面。
+如果 ``true``\ ，則啟用螢幕空間反射。螢幕空間反射比體素全域光照 (VoxelGI) 或反射探針 (ReflectionProbe) 的反射更精確，但速度較慢，且無法反射被其他物體遮蔽的表面。
 
-\ **注意：**\ SSR 只支援 Forward+ 算繪方式，不支援 Mobile 或 Compatibility。
+\ **注意：** 螢幕空間反射僅在 Forward+ 渲染模式下受支持，不支援行動端或相容模式。
+
+\ **注意：** 螢幕空間反射不支援具有透明背景的視窗（\ :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` 為 ``true``\ ）。
 
 .. rst-class:: classref-item-separator
 

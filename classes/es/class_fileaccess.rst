@@ -66,7 +66,7 @@ Tutoriales
 
 - :doc:`Carga y guardado de archivos en tiempo de ejecución <../tutorials/io/runtime_file_loading_and_saving>`
 
-- :doc:`Binary serialization API <../tutorials/io/binary_serialization_api>`
+- :doc:`API de serialización binaria <../tutorials/io/binary_serialization_api>`
 
 - `Demo de Vóxeles en 3D <https://godotengine.org/asset-library/asset/2755>`__
 
@@ -233,7 +233,7 @@ enum **ModeFlags**: :ref:`🔗<enum_FileAccess_ModeFlags>`
 
 :ref:`ModeFlags<enum_FileAccess_ModeFlags>` **READ** = ``1``
 
-Opens the file for read operations. The file cursor is positioned at the beginning of the file.
+Abre el archivo para operaciones de lectura. El cursor del archivo se posiciona al principio del archivo.
 
 .. _class_FileAccess_constant_WRITE:
 
@@ -241,9 +241,9 @@ Opens the file for read operations. The file cursor is positioned at the beginni
 
 :ref:`ModeFlags<enum_FileAccess_ModeFlags>` **WRITE** = ``2``
 
-Opens the file for write operations. The file is created if it does not exist, and truncated if it does.
+Abre el archivo para operaciones de escritura. El archivo se crea si no existe y se trunca si existe.
 
-\ **Note:** When creating a file it must be in an already existing directory. To recursively create directories for a file path, see :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
+\ **Nota:** Al crear un archivo, debe estar en un directorio ya existente. Para crear directorios de forma recursiva para una ruta de archivo, véase :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
 
 .. _class_FileAccess_constant_READ_WRITE:
 
@@ -251,7 +251,7 @@ Opens the file for write operations. The file is created if it does not exist, a
 
 :ref:`ModeFlags<enum_FileAccess_ModeFlags>` **READ_WRITE** = ``3``
 
-Opens the file for read and write operations. Does not truncate the file. The file cursor is positioned at the beginning of the file.
+Abre el archivo para operaciones de lectura y escritura. No trunca el archivo. El cursor del archivo se posiciona al principio del archivo.
 
 .. _class_FileAccess_constant_WRITE_READ:
 
@@ -259,9 +259,9 @@ Opens the file for read and write operations. Does not truncate the file. The fi
 
 :ref:`ModeFlags<enum_FileAccess_ModeFlags>` **WRITE_READ** = ``7``
 
-Opens the file for read and write operations. The file is created if it does not exist, and truncated if it does. The file cursor is positioned at the beginning of the file.
+Abre el archivo para operaciones de lectura y escritura. El archivo se crea si no existe y se trunca si existe. El cursor del archivo se posiciona al principio del archivo.
 
-\ **Note:** When creating a file it must be in an already existing directory. To recursively create directories for a file path, see :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
+\ **Nota:** Al crear un archivo, debe estar en un directorio ya existente. Para crear directorios de forma recursiva para una ruta de archivo, véase :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
 
 .. rst-class:: classref-item-separator
 
@@ -279,7 +279,7 @@ enum **CompressionMode**: :ref:`🔗<enum_FileAccess_CompressionMode>`
 
 :ref:`CompressionMode<enum_FileAccess_CompressionMode>` **COMPRESSION_FASTLZ** = ``0``
 
-Uses the `FastLZ <https://fastlz.org/>`__ compression method.
+Utiliza el método de compresión `FastLZ <https://fastlz.org/>`__.
 
 .. _class_FileAccess_constant_COMPRESSION_DEFLATE:
 
@@ -311,7 +311,7 @@ Utiliza el método de compresión `gzip <https://www.gzip.org/>`__.
 
 :ref:`CompressionMode<enum_FileAccess_CompressionMode>` **COMPRESSION_BROTLI** = ``4``
 
-Uses the `brotli <https://github.com/google/brotli>`__ compression method (only decompression is supported).
+Utiliza el método de compresión `brotli <https://github.com/google/brotli>`__ (solo se admite la descompresión).
 
 .. rst-class:: classref-item-separator
 
@@ -439,9 +439,9 @@ Descripciones de Propiedades
 - |void| **set_big_endian**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_big_endian**\ (\ )
 
-If ``true``, the file is read with big-endian `endianness <https://en.wikipedia.org/wiki/Endianness>`__. If ``false``, the file is read with little-endian endianness. If in doubt, leave this to ``false`` as most files are written with little-endian endianness.
+Si es ``true``, el archivo se lee con endianness big-endian (`endianness <https://en.wikipedia.org/wiki/Endianness>`__). Si es ``false``, el archivo se lee con endianness little-endian. En caso de duda, déjalo en ``false``, ya que la mayoría de los archivos se escriben con endianness little-endian.
 
-\ **Note:** This is always reset to system endianness, which is little-endian on all supported platforms, whenever you open the file. Therefore, you must set :ref:`big_endian<class_FileAccess_property_big_endian>` *after* opening the file, not before.
+\ **Nota:** Esto siempre se restablece a la endianness del sistema, que es little-endian en todas las plataformas compatibles, cada vez que abres el archivo. Por lo tanto, debes establecer :ref:`big_endian<class_FileAccess_property_big_endian>` *después* de abrir el archivo, no antes.
 
 .. rst-class:: classref-section-separator
 
@@ -458,9 +458,9 @@ Descripciones de Métodos
 
 |void| **close**\ (\ ) :ref:`🔗<class_FileAccess_method_close>`
 
-Closes the currently opened file and prevents subsequent read/write operations. Use :ref:`flush()<class_FileAccess_method_flush>` to persist the data to disk without closing the file.
+Cierra el archivo actualmente abierto e impide las operaciones de lectura/escritura posteriores. Utiliza :ref:`flush()<class_FileAccess_method_flush>` para guardar los datos en el disco sin cerrar el archivo.
 
-\ **Note:** **FileAccess** will automatically close when it's freed, which happens when it goes out of scope or when it gets assigned with ``null``. In C# the reference must be disposed after we are done using it, this can be done with the ``using`` statement or calling the ``Dispose`` method directly.
+\ **Nota:** **FileAccess** se cerrará automáticamente cuando se libere, lo que sucede cuando sale del alcance o cuando se le asigna ``null``. En C#, la referencia debe eliminarse después de que hayamos terminado de usarla, esto se puede hacer con la declaración ``using`` o llamando al método ``Dispose`` directamente.
 
 .. rst-class:: classref-item-separator
 
@@ -472,15 +472,15 @@ Closes the currently opened file and prevents subsequent read/write operations. 
 
 :ref:`FileAccess<class_FileAccess>` **create_temp**\ (\ mode_flags\: :ref:`int<class_int>`, prefix\: :ref:`String<class_String>` = "", extension\: :ref:`String<class_String>` = "", keep\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_FileAccess_method_create_temp>`
 
-Creates a temporary file. This file will be freed when the returned **FileAccess** is freed.
+Crea un archivo temporal. Este archivo se liberará cuando el **FileAccess** devuelto se libere.
 
-If ``prefix`` is not empty, it will be prefixed to the file name, separated by a ``-``.
+Si ``prefix`` no está vacío, se antepondrá al nombre del archivo, separado por un ``-``.
 
-If ``extension`` is not empty, it will be appended to the temporary file name.
+Si ``extension`` no está vacío, se agregará al nombre del archivo temporal.
 
-If ``keep`` is ``true``, the file is not deleted when the returned **FileAccess** is freed.
+Si ``keep`` es ``true``, el archivo no se elimina cuando se libera el **FileAccess** devuelto.
 
-Returns ``null`` if opening the file failed. You can use :ref:`get_open_error()<class_FileAccess_method_get_open_error>` to check the error that occurred.
+Devuelve ``null`` si falla la apertura del archivo. Puedes utilizar :ref:`get_open_error()<class_FileAccess_method_get_open_error>` para comprobar el error que se produjo.
 
 .. rst-class:: classref-item-separator
 
@@ -523,11 +523,11 @@ Returns ``true`` if the file cursor has already read past the end of the file.
 
 :ref:`bool<class_bool>` **file_exists**\ (\ path\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_file_exists>`
 
-Returns ``true`` if the file exists in the given path.
+Devuelve ``true`` si el archivo existe en la ruta dada.
 
-\ **Note:** Many resources types are imported (e.g. textures or sound files), and their source asset will not be included in the exported game, as only the imported version is used. See :ref:`ResourceLoader.exists()<class_ResourceLoader_method_exists>` for an alternative approach that takes resource remapping into account.
+\ **Nota:** Muchos tipos de recursos son importados (por ejemplo, texturas o archivos de sonido), y su activo de origen no se incluirá en el juego exportado, ya que solo se utiliza la versión importada. Véase :ref:`ResourceLoader.exists()<class_ResourceLoader_method_exists>` para un enfoque alternativo que tenga en cuenta la reasignación de recursos.
 
-For a non-static, relative equivalent, use :ref:`DirAccess.file_exists()<class_DirAccess_method_file_exists>`.
+Para un equivalente relativo no estático, utiliza :ref:`DirAccess.file_exists()<class_DirAccess_method_file_exists>`.
 
 .. rst-class:: classref-item-separator
 
@@ -539,9 +539,9 @@ For a non-static, relative equivalent, use :ref:`DirAccess.file_exists()<class_D
 
 |void| **flush**\ (\ ) :ref:`🔗<class_FileAccess_method_flush>`
 
-Writes the file's buffer to disk. Flushing is automatically performed when the file is closed. This means you don't need to call :ref:`flush()<class_FileAccess_method_flush>` manually before closing a file. Still, calling :ref:`flush()<class_FileAccess_method_flush>` can be used to ensure the data is safe even if the project crashes instead of being closed gracefully.
+Escribe el búfer del archivo en el disco. El vaciado se realiza automáticamente cuando se cierra el archivo. Esto significa que no necesitas llamar a :ref:`flush()<class_FileAccess_method_flush>` manualmente antes de cerrar un archivo. Aún así, llamar a :ref:`flush()<class_FileAccess_method_flush>` puede utilizarse para asegurar que los datos están a salvo incluso si el proyecto falla en lugar de cerrarse correctamente.
 
-\ **Note:** Only call :ref:`flush()<class_FileAccess_method_flush>` when you actually need it. Otherwise, it will decrease performance due to constant disk writes.
+\ **Nota:** Solo llama a :ref:`flush()<class_FileAccess_method_flush>` cuando realmente lo necesites. De lo contrario, disminuirá el rendimiento debido a las constantes escrituras en disco.
 
 .. rst-class:: classref-item-separator
 
@@ -553,7 +553,7 @@ Writes the file's buffer to disk. Flushing is automatically performed when the f
 
 :ref:`int<class_int>` **get_8**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_8>`
 
-Returns the next 8 bits from the file as an integer. This advances the file cursor by 1 byte. See :ref:`store_8()<class_FileAccess_method_store_8>` for details on what values can be stored and retrieved this way.
+Devuelve los siguientes 8 bits del archivo como un entero. Esto avanza el cursor del archivo en 1 byte. Véase :ref:`store_8()<class_FileAccess_method_store_8>` para obtener detalles sobre qué valores pueden ser almacenados y recuperados de esta manera.
 
 .. rst-class:: classref-item-separator
 
@@ -577,7 +577,7 @@ Returns the next 16 bits from the file as an integer. This advances the file cur
 
 :ref:`int<class_int>` **get_32**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_32>`
 
-Returns the next 32 bits from the file as an integer. This advances the file cursor by 4 bytes. See :ref:`store_32()<class_FileAccess_method_store_32>` for details on what values can be stored and retrieved this way.
+Devuelve los siguientes 32 bits del archivo como un entero. Esto avanza el cursor del archivo en 4 bytes. Véase :ref:`store_32()<class_FileAccess_method_store_32>` para obtener detalles sobre qué valores se pueden almacenar y recuperar de esta manera.
 
 .. rst-class:: classref-item-separator
 
@@ -589,7 +589,7 @@ Returns the next 32 bits from the file as an integer. This advances the file cur
 
 :ref:`int<class_int>` **get_64**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_64>`
 
-Returns the next 64 bits from the file as an integer. This advances the file cursor by 8 bytes. See :ref:`store_64()<class_FileAccess_method_store_64>` for details on what values can be stored and retrieved this way.
+Devuelve los siguientes 64 bits del archivo como un entero. Esto avanza el cursor del archivo en 8 bytes. Véase :ref:`store_64()<class_FileAccess_method_store_64>` para obtener detalles sobre qué valores se pueden almacenar y recuperar de esta manera.
 
 .. rst-class:: classref-item-separator
 
@@ -613,9 +613,9 @@ Devuelve la última vez que se accedió al ``file`` en formato de marca de tiemp
 
 :ref:`String<class_String>` **get_as_text**\ (\ skip_cr\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_FileAccess_method_get_as_text>`
 
-Returns the whole file as a :ref:`String<class_String>`. Text is interpreted as being UTF-8 encoded. This ignores the file cursor and does not affect it.
+Devuelve el archivo completo como una :ref:`String<class_String>`. El texto se interpreta como codificado en UTF-8. Esto ignora el cursor del archivo y no lo afecta.
 
-If ``skip_cr`` is ``true``, carriage return characters (``\r``, CR) will be ignored when parsing the UTF-8, so that only line feed characters (``\n``, LF) represent a new line (Unix convention).
+Si ``skip_cr`` es ``true``, los caracteres de retorno de carro (``\r``, CR) se ignorarán al analizar el UTF-8, de modo que solo los caracteres de avance de línea (``\n``, LF) representen una nueva línea (convención de Unix).
 
 .. rst-class:: classref-item-separator
 
@@ -627,7 +627,7 @@ If ``skip_cr`` is ``true``, carriage return characters (``\r``, CR) will be igno
 
 :ref:`PackedByteArray<class_PackedByteArray>` **get_buffer**\ (\ length\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FileAccess_method_get_buffer>`
 
-Returns next ``length`` bytes of the file as a :ref:`PackedByteArray<class_PackedByteArray>`. This advances the file cursor by ``length`` bytes.
+Devuelve los siguientes ``length`` bytes del archivo como un :ref:`PackedByteArray<class_PackedByteArray>`. Esto avanza el cursor del archivo en ``length`` bytes.
 
 .. rst-class:: classref-item-separator
 
@@ -687,9 +687,9 @@ Devuelve el último error que ocurrió al intentar realizar las operaciones. Com
 
 :ref:`PackedByteArray<class_PackedByteArray>` **get_file_as_bytes**\ (\ path\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_file_as_bytes>`
 
-Returns the whole ``path`` file contents as a :ref:`PackedByteArray<class_PackedByteArray>` without any decoding.
+Devuelve todo el contenido del archivo ``path`` como un :ref:`PackedByteArray<class_PackedByteArray>` sin ninguna decodificación.
 
-Returns an empty :ref:`PackedByteArray<class_PackedByteArray>` if an error occurred while opening the file. You can use :ref:`get_open_error()<class_FileAccess_method_get_open_error>` to check the error that occurred.
+Devuelve un :ref:`PackedByteArray<class_PackedByteArray>` vacío si se produce un error al abrir el archivo. Puedes usar :ref:`get_open_error()<class_FileAccess_method_get_open_error>` para verificar el error que ocurrió.
 
 .. rst-class:: classref-item-separator
 
@@ -701,9 +701,9 @@ Returns an empty :ref:`PackedByteArray<class_PackedByteArray>` if an error occur
 
 :ref:`String<class_String>` **get_file_as_string**\ (\ path\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_file_as_string>`
 
-Returns the whole ``path`` file contents as a :ref:`String<class_String>`. Text is interpreted as being UTF-8 encoded.
+Devuelve todo el contenido del archivo ``path`` como un :ref:`String<class_String>`. El texto se interpreta como codificado en UTF-8.
 
-Returns an empty :ref:`String<class_String>` if an error occurred while opening the file. You can use :ref:`get_open_error()<class_FileAccess_method_get_open_error>` to check the error that occurred.
+Devuelve un :ref:`String<class_String>` vacío si se produce un error al abrir el archivo. Puedes usar :ref:`get_open_error()<class_FileAccess_method_get_open_error>` para verificar el error que ocurrió.
 
 .. rst-class:: classref-item-separator
 
@@ -715,7 +715,7 @@ Returns an empty :ref:`String<class_String>` if an error occurred while opening 
 
 :ref:`float<class_float>` **get_float**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_float>`
 
-Returns the next 32 bits from the file as a floating-point number. This advances the file cursor by 4 bytes.
+Devuelve los siguientes 32 bits del archivo como un número de punto flotante. Esto avanza el cursor del archivo en 4 bytes.
 
 .. rst-class:: classref-item-separator
 
@@ -727,7 +727,7 @@ Returns the next 32 bits from the file as a floating-point number. This advances
 
 :ref:`float<class_float>` **get_half**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_half>`
 
-Returns the next 16 bits from the file as a half-precision floating-point number. This advances the file cursor by 2 bytes.
+Devuelve los siguientes 16 bits del archivo como un número de punto flotante de media precisión. Esto avanza el cursor del archivo en 2 bytes.
 
 .. rst-class:: classref-item-separator
 
@@ -739,9 +739,9 @@ Returns the next 16 bits from the file as a half-precision floating-point number
 
 :ref:`bool<class_bool>` **get_hidden_attribute**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_hidden_attribute>`
 
-Returns ``true``, if file ``hidden`` attribute is set.
+Devuelve ``true`` si el atributo ``hidden`` del archivo está activado.
 
-\ **Note:** This method is implemented on iOS, BSD, macOS, and Windows.
+\ **Nota:** Este método está implementado en iOS, BSD, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -753,7 +753,7 @@ Returns ``true``, if file ``hidden`` attribute is set.
 
 :ref:`int<class_int>` **get_length**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_length>`
 
-Returns the size of the file in bytes. For a pipe, returns the number of bytes available for reading from the pipe.
+Devuelve el tamaño del archivo en bytes. Para una tubería, devuelve el número de bytes disponibles para leer de la tubería.
 
 .. rst-class:: classref-item-separator
 
@@ -765,9 +765,9 @@ Returns the size of the file in bytes. For a pipe, returns the number of bytes a
 
 :ref:`String<class_String>` **get_line**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_line>`
 
-Returns the next line of the file as a :ref:`String<class_String>`. The returned string doesn't include newline (``\n``) or carriage return (``\r``) characters, but does include any other leading or trailing whitespace. This advances the file cursor to after the newline character at the end of the line.
+Devuelve la siguiente línea del archivo como una :ref:`String<class_String>`. La string devuelta no incluye el carácter de nueva línea (``\n``) ni el de retorno de carro (``\r``), pero sí incluye cualquier otro espacio en blanco inicial o final. Esto avanza el cursor del archivo hasta después del carácter de nueva línea al final de la línea.
 
-Text is interpreted as being UTF-8 encoded.
+El texto se interpreta como codificado en UTF-8.
 
 .. rst-class:: classref-item-separator
 
@@ -815,9 +815,9 @@ Returns the result of the last :ref:`open()<class_FileAccess_method_open>` call 
 
 :ref:`String<class_String>` **get_pascal_string**\ (\ ) :ref:`🔗<class_FileAccess_method_get_pascal_string>`
 
-Returns a :ref:`String<class_String>` saved in Pascal format from the file, meaning that the length of the string is explicitly stored at the start. See :ref:`store_pascal_string()<class_FileAccess_method_store_pascal_string>`. This may include newline characters. The file cursor is advanced after the bytes read.
+Devuelve una :ref:`String<class_String>` guardado en formato Pascal desde el archivo, lo que significa que la longitud de la string se almacena explícitamente al principio. Véase :ref:`store_pascal_string()<class_FileAccess_method_store_pascal_string>`. Esto puede incluir caracteres de nueva línea. El cursor del archivo se avanza después de los bytes leídos.
 
-Text is interpreted as being UTF-8 encoded.
+El texto se interpreta como codificado en UTF-8.
 
 .. rst-class:: classref-item-separator
 
@@ -853,7 +853,7 @@ Devuelve la ruta absoluta como una :ref:`String<class_String>` para el archivo a
 
 :ref:`int<class_int>` **get_position**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_position>`
 
-Returns the file cursor's position in bytes from the beginning of the file. This is the file reading/writing cursor set by :ref:`seek()<class_FileAccess_method_seek>` or :ref:`seek_end()<class_FileAccess_method_seek_end>` and advanced by read/write operations.
+Devuelve la posición en bytes del cursor del archivo desde el principio del archivo. Este es el cursor de lectura/escritura del archivo establecido por :ref:`seek()<class_FileAccess_method_seek>` o :ref:`seek_end()<class_FileAccess_method_seek_end>` y avanzado por las operaciones de lectura/escritura.
 
 .. rst-class:: classref-item-separator
 
@@ -865,9 +865,9 @@ Returns the file cursor's position in bytes from the beginning of the file. This
 
 :ref:`bool<class_bool>` **get_read_only_attribute**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_read_only_attribute>`
 
-Returns ``true``, if file ``read only`` attribute is set.
+Devuelve ``true`` si el atributo ``read only`` del archivo está establecido.
 
-\ **Note:** This method is implemented on iOS, BSD, macOS, and Windows.
+\ **Nota:** Este método está implementado en iOS, BSD, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -879,9 +879,9 @@ Returns ``true``, if file ``read only`` attribute is set.
 
 :ref:`float<class_float>` **get_real**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_real>`
 
-Returns the next bits from the file as a floating-point number. This advances the file cursor by either 4 or 8 bytes, depending on the precision used by the Godot build that saved the file.
+Devuelve los siguientes bits del archivo como un número de punto flotante. Esto avanza el cursor del archivo en 4 u 8 bytes, dependiendo de la precisión utilizada por la compilación de Godot que guardó el archivo.
 
-If the file was saved by a Godot build compiled with the ``precision=single`` option (the default), the number of read bits for that file is 32. Otherwise, if compiled with the ``precision=double`` option, the number of read bits is 64.
+Si el archivo fue guardado por una compilación de Godot compilada con la opción ``precision=single`` (la predeterminada), el número de bits leídos para ese archivo es 32. De lo contrario, si se compila con la opción ``precision=double``, el número de bits leídos es 64.
 
 .. rst-class:: classref-item-separator
 
@@ -931,11 +931,11 @@ Devuelve los permisos de archivo UNIX.
 
 :ref:`Variant<class_Variant>` **get_var**\ (\ allow_objects\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_FileAccess_method_get_var>`
 
-Returns the next :ref:`Variant<class_Variant>` value from the file. If ``allow_objects`` is ``true``, decoding objects is allowed. This advances the file cursor by the number of bytes read.
+Devuelve el siguiente valor :ref:`Variant<class_Variant>` del archivo. Si ``allow_objects`` es ``true``, se permite la decodificación de objetos. Esto avanza el cursor del archivo por el número de bytes leídos.
 
-Internally, this uses the same decoding mechanism as the :ref:`@GlobalScope.bytes_to_var()<class_@GlobalScope_method_bytes_to_var>` method, as described in the :doc:`Binary serialization API <../tutorials/io/binary_serialization_api>` documentation.
+Internamente, esto utiliza el mismo mecanismo de decodificación que el :ref:`@GlobalScope.bytes_to_var()<class_@GlobalScope_method_bytes_to_var>`, como se describe en la :doc:`documentación de la API de serialización binaria <../tutorials/io/binary_serialization_api>`.
 
-\ **Warning:** Deserialized objects can contain code which gets executed. Do not use this option if the serialized object comes from untrusted sources to avoid potential security threats such as remote code execution.
+\ **Advertencia:** Los objetos deserializados pueden contener código que se ejecuta. No uses esta opción si el objeto serializado proviene de fuentes no confiables para evitar posibles amenazas a la seguridad, como la ejecución remota de código.
 
 .. rst-class:: classref-item-separator
 
@@ -1005,9 +1005,9 @@ Devuelve ``null`` si no se pudo abrir el archivo. Puedes usar :ref:`get_open_err
 
 :ref:`FileAccess<class_FileAccess>` **open_encrypted_with_pass**\ (\ path\: :ref:`String<class_String>`, mode_flags\: :ref:`ModeFlags<enum_FileAccess_ModeFlags>`, pass\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_open_encrypted_with_pass>`
 
-Creates a new **FileAccess** object and opens an encrypted file in write or read mode. You need to pass a password to encrypt/decrypt it.
+Crea un nuevo objeto **FileAccess** y abre un archivo encriptado en modo de escritura o lectura. Necesitas proporcionar una contraseña para encriptarlo/desencriptarlo.
 
-Returns ``null`` if opening the file failed. You can use :ref:`get_open_error()<class_FileAccess_method_get_open_error>` to check the error that occurred.
+Devuelve ``null`` si la apertura del archivo falla. Puedes usar :ref:`get_open_error()<class_FileAccess_method_get_open_error>` para verificar el error que ocurrió.
 
 .. rst-class:: classref-item-separator
 
@@ -1019,7 +1019,7 @@ Returns ``null`` if opening the file failed. You can use :ref:`get_open_error()<
 
 :ref:`Error<enum_@GlobalScope_Error>` **resize**\ (\ length\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileAccess_method_resize>`
 
-Resizes the file to a specified length. The file must be open in a mode that permits writing. If the file is extended, NUL characters are appended. If the file is truncated, all data from the end file to the original length of the file is lost.
+Cambia el tamaño del archivo a una longitud especificada. El archivo debe estar abierto en un modo que permita la escritura. Si el archivo se extiende, se añaden caracteres NUL. Si el archivo se trunca, todos los datos desde el final del archivo hasta la longitud original del archivo se pierden.
 
 .. rst-class:: classref-item-separator
 
@@ -1031,7 +1031,7 @@ Resizes the file to a specified length. The file must be open in a mode that per
 
 |void| **seek**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileAccess_method_seek>`
 
-Changes the file reading/writing cursor to the specified position (in bytes from the beginning of the file). This changes the value returned by :ref:`get_position()<class_FileAccess_method_get_position>`.
+Cambia el cursor de lectura/escritura del archivo a la posición especificada (en bytes desde el principio del archivo). Esto cambia el valor devuelto por :ref:`get_position()<class_FileAccess_method_get_position>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1043,9 +1043,9 @@ Changes the file reading/writing cursor to the specified position (in bytes from
 
 |void| **seek_end**\ (\ position\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_FileAccess_method_seek_end>`
 
-Changes the file reading/writing cursor to the specified position (in bytes from the end of the file). This changes the value returned by :ref:`get_position()<class_FileAccess_method_get_position>`.
+Cambia el cursor de lectura/escritura del archivo a la posición especificada (en bytes desde el final del archivo). Esto cambia el valor devuelto por :ref:`get_position()<class_FileAccess_method_get_position>`.
 
-\ **Note:** This is an offset, so you should use negative numbers or the file cursor will be at the end of the file.
+\ **Nota:** Esto es un offset, así que deberías usar números negativos o el cursor del archivo estará al final del archivo.
 
 .. rst-class:: classref-item-separator
 
@@ -1071,9 +1071,9 @@ Sets file **hidden** attribute.
 
 :ref:`Error<enum_@GlobalScope_Error>` **set_read_only_attribute**\ (\ file\: :ref:`String<class_String>`, ro\: :ref:`bool<class_bool>`\ ) |static| :ref:`🔗<class_FileAccess_method_set_read_only_attribute>`
 
-Sets file **read only** attribute.
+Establece el atributo de **solo lectura** del archivo.
 
-\ **Note:** This method is implemented on iOS, BSD, macOS, and Windows.
+\ **Nota:** Este método está implementado en iOS, BSD, macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -1085,9 +1085,9 @@ Sets file **read only** attribute.
 
 :ref:`Error<enum_@GlobalScope_Error>` **set_unix_permissions**\ (\ file\: :ref:`String<class_String>`, permissions\: |bitfield|\[:ref:`UnixPermissionFlags<enum_FileAccess_UnixPermissionFlags>`\]\ ) |static| :ref:`🔗<class_FileAccess_method_set_unix_permissions>`
 
-Sets file UNIX permissions.
+Establece los permisos UNIX del archivo.
 
-\ **Note:** This method is implemented on iOS, Linux/BSD, and macOS.
+\ **Nota:** Este método está implementado en iOS, Linux/BSD y macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -1099,13 +1099,13 @@ Sets file UNIX permissions.
 
 :ref:`bool<class_bool>` **store_8**\ (\ value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileAccess_method_store_8>`
 
-Stores an integer as 8 bits in the file. This advances the file cursor by 1 byte. Returns ``true`` if the operation is successful.
+Almacena un entero de 8 bits en el archivo. Esto avanza el cursor del archivo 1 byte. Devuelve ``true`` si la operación se realiza con éxito.
 
-\ **Note:** The ``value`` should lie in the interval ``[0, 255]``. Any other value will overflow and wrap around.
+\ **Nota:** El ``value`` debe estar en el intervalo ``[0, 255]``. Cualquier otro valor provocará un desbordamiento y dará la vuelta.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si se produce un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
-To store a signed integer, use :ref:`store_64()<class_FileAccess_method_store_64>`, or convert it manually (see :ref:`store_16()<class_FileAccess_method_store_16>` for an example).
+Para almacenar un entero con signo, utiliza :ref:`store_64()<class_FileAccess_method_store_64>`, o conviértelo manualmente (véase :ref:`store_16()<class_FileAccess_method_store_16>` para un ejemplo).
 
 .. rst-class:: classref-item-separator
 
@@ -1172,13 +1172,13 @@ Para almacenar un entero con signo, usa :ref:`store_64()<class_FileAccess_method
 
 :ref:`bool<class_bool>` **store_32**\ (\ value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileAccess_method_store_32>`
 
-Stores an integer as 32 bits in the file. This advances the file cursor by 4 bytes. Returns ``true`` if the operation is successful.
+Almacena un entero de 32 bits en el archivo. Esto avanza el cursor del archivo 4 bytes. Devuelve ``true`` si la operación tiene éxito.
 
-\ **Note:** The ``value`` should lie in the interval ``[0, 2^32 - 1]``. Any other value will overflow and wrap around.
+\ **Nota:** El ``value`` debe estar en el intervalo ``[0, 2^32 - 1]``. Cualquier otro valor causará un desbordamiento y dará la vuelta.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
-To store a signed integer, use :ref:`store_64()<class_FileAccess_method_store_64>`, or convert it manually (see :ref:`store_16()<class_FileAccess_method_store_16>` for an example).
+Para almacenar un entero con signo, usa :ref:`store_64()<class_FileAccess_method_store_64>`, o conviértelo manualmente (véase :ref:`store_16()<class_FileAccess_method_store_16>` para un ejemplo).
 
 .. rst-class:: classref-item-separator
 
@@ -1190,11 +1190,11 @@ To store a signed integer, use :ref:`store_64()<class_FileAccess_method_store_64
 
 :ref:`bool<class_bool>` **store_64**\ (\ value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileAccess_method_store_64>`
 
-Stores an integer as 64 bits in the file. This advances the file cursor by 8 bytes. Returns ``true`` if the operation is successful.
+Almacena un entero de 64 bits en el archivo. Esto avanza el cursor del archivo 8 bytes. Devuelve ``true`` si la operación tiene éxito.
 
-\ **Note:** The ``value`` must lie in the interval ``[-2^63, 2^63 - 1]`` (i.e. be a valid :ref:`int<class_int>` value).
+\ **Nota:** El ``value`` debe estar en el intervalo ``[-2^63, 2^63 - 1]`` (es decir, debe ser un valor :ref:`int<class_int>` válido).
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1206,9 +1206,9 @@ Stores an integer as 64 bits in the file. This advances the file cursor by 8 byt
 
 :ref:`bool<class_bool>` **store_buffer**\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_FileAccess_method_store_buffer>`
 
-Stores the given array of bytes in the file. This advances the file cursor by the number of bytes written. Returns ``true`` if the operation is successful.
+Almacena la array de bytes dada en el archivo. Esto avanza el cursor del archivo por el número de bytes escritos. Devuelve ``true`` si la operación tiene éxito.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1220,11 +1220,11 @@ Stores the given array of bytes in the file. This advances the file cursor by th
 
 :ref:`bool<class_bool>` **store_csv_line**\ (\ values\: :ref:`PackedStringArray<class_PackedStringArray>`, delim\: :ref:`String<class_String>` = ","\ ) :ref:`🔗<class_FileAccess_method_store_csv_line>`
 
-Store the given :ref:`PackedStringArray<class_PackedStringArray>` in the file as a line formatted in the CSV (Comma-Separated Values) format. You can pass a different delimiter ``delim`` to use other than the default ``","`` (comma). This delimiter must be one-character long.
+Almacena el :ref:`PackedStringArray<class_PackedStringArray>` dado en el archivo como una línea formateada en formato CSV (valores separados por comas). Puedes pasar un ``delim`` diferente para usar otro que no sea el predeterminado ``","`` (coma). Este delimitador debe tener un carácter de longitud.
 
-Text will be encoded as UTF-8. Returns ``true`` if the operation is successful.
+El texto se codificará como UTF-8. Devuelve ``true`` si la operación se realiza correctamente.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si se produce un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1236,9 +1236,9 @@ Text will be encoded as UTF-8. Returns ``true`` if the operation is successful.
 
 :ref:`bool<class_bool>` **store_double**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FileAccess_method_store_double>`
 
-Stores a floating-point number as 64 bits in the file. This advances the file cursor by 8 bytes. Returns ``true`` if the operation is successful.
+Almacena un número de punto flotante como 64 bits en el archivo. Esto avanza el cursor del archivo en 8 bytes. Devuelve ``true`` si la operación se realiza correctamente.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si se produce un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1250,9 +1250,9 @@ Stores a floating-point number as 64 bits in the file. This advances the file cu
 
 :ref:`bool<class_bool>` **store_float**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FileAccess_method_store_float>`
 
-Stores a floating-point number as 32 bits in the file. This advances the file cursor by 4 bytes. Returns ``true`` if the operation is successful.
+Almacena un número de punto flotante como 32 bits en el archivo. Esto avanza el cursor del archivo en 4 bytes. Devuelve ``true`` si la operación se realiza correctamente.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si se produce un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1264,9 +1264,9 @@ Stores a floating-point number as 32 bits in the file. This advances the file cu
 
 :ref:`bool<class_bool>` **store_half**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FileAccess_method_store_half>`
 
-Stores a half-precision floating-point number as 16 bits in the file. This advances the file cursor by 2 bytes. Returns ``true`` if the operation is successful.
+Almacena un número de punto flotante de media precisión como 16 bits en el archivo. Esto avanza el cursor del archivo en 2 bytes. Devuelve ``true`` si la operación se realiza correctamente.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si se produce un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1278,9 +1278,9 @@ Stores a half-precision floating-point number as 16 bits in the file. This advan
 
 :ref:`bool<class_bool>` **store_line**\ (\ line\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileAccess_method_store_line>`
 
-Stores ``line`` in the file followed by a newline character (``\n``), encoding the text as UTF-8. This advances the file cursor by the length of the line, after the newline character. The amount of bytes written depends on the UTF-8 encoded bytes, which may be different from :ref:`String.length()<class_String_method_length>` which counts the number of UTF-32 codepoints. Returns ``true`` if the operation is successful.
+Almacena ``line`` en el archivo seguido de un carácter de nueva línea (``\n``), codificando el texto como UTF-8. Esto avanza el cursor del archivo en la longitud de la línea, después del carácter de nueva línea. La cantidad de bytes escritos depende de los bytes codificados en UTF-8, que pueden ser diferentes de :ref:`String.length()<class_String_method_length>` que cuenta el número de codepuntos UTF-32. Devuelve ``true`` si la operación es exitosa.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1292,9 +1292,9 @@ Stores ``line`` in the file followed by a newline character (``\n``), encoding t
 
 :ref:`bool<class_bool>` **store_pascal_string**\ (\ string\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileAccess_method_store_pascal_string>`
 
-Stores the given :ref:`String<class_String>` as a line in the file in Pascal format (i.e. also store the length of the string). Text will be encoded as UTF-8. This advances the file cursor by the number of bytes written depending on the UTF-8 encoded bytes, which may be different from :ref:`String.length()<class_String_method_length>` which counts the number of UTF-32 codepoints. Returns ``true`` if the operation is successful.
+Almacena la :ref:`String<class_String>` dada como una línea en el archivo en formato Pascal (es decir, también almacena la longitud de la string). El texto se codificará como UTF-8. Esto avanza el cursor del archivo por el número de bytes escritos dependiendo de los bytes codificados en UTF-8, que pueden ser diferentes de :ref:`String.length()<class_String_method_length>` que cuenta el número de codepuntos UTF-32. Devuelve ``true`` si la operación es exitosa.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1306,11 +1306,11 @@ Stores the given :ref:`String<class_String>` as a line in the file in Pascal for
 
 :ref:`bool<class_bool>` **store_real**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FileAccess_method_store_real>`
 
-Stores a floating-point number in the file. This advances the file cursor by either 4 or 8 bytes, depending on the precision used by the current Godot build.
+Almacena un número de punto flotante en el archivo. Esto avanza el cursor del archivo en 4 u 8 bytes, dependiendo de la precisión utilizada por la compilación actual de Godot.
 
-If using a Godot build compiled with the ``precision=single`` option (the default), this method will save a 32-bit float. Otherwise, if compiled with the ``precision=double`` option, this will save a 64-bit float. Returns ``true`` if the operation is successful.
+Si se utiliza una compilación de Godot compilada con la opción ``precision=single`` (la predeterminada), este método guardará un float de 32 bits. De lo contrario, si se compila con la opción ``precision=double``, esto guardará un float de 64 bits. Devuelve ``true`` si la operación es exitosa.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1322,11 +1322,11 @@ If using a Godot build compiled with the ``precision=single`` option (the defaul
 
 :ref:`bool<class_bool>` **store_string**\ (\ string\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileAccess_method_store_string>`
 
-Stores ``string`` in the file without a newline character (``\n``), encoding the text as UTF-8. This advances the file cursor by the length of the string in UTF-8 encoded bytes, which may be different from :ref:`String.length()<class_String_method_length>` which counts the number of UTF-32 codepoints. Returns ``true`` if the operation is successful.
+Almacena ``string`` en el archivo sin un carácter de nueva línea (``\n``), codificando el texto como UTF-8. Esto avanza el cursor del archivo por la longitud de la string en bytes codificados en UTF-8, lo que puede ser diferente de :ref:`String.length()<class_String_method_length>` que cuenta el número de codepuntos UTF-32. Devuelve ``true`` si la operación se realiza correctamente.
 
-\ **Note:** This method is intended to be used to write text files. The string is stored as a UTF-8 encoded buffer without string length or terminating zero, which means that it can't be loaded back easily. If you want to store a retrievable string in a binary file, consider using :ref:`store_pascal_string()<class_FileAccess_method_store_pascal_string>` instead. For retrieving strings from a text file, you can use ``get_buffer(length).get_string_from_utf8()`` (if you know the length) or :ref:`get_as_text()<class_FileAccess_method_get_as_text>`.
+\ **Nota:** Este método está destinado a ser utilizado para escribir archivos de texto. La string se almacena como un búfer codificado en UTF-8 sin longitud de string o cero de terminación, lo que significa que no se puede volver a cargar fácilmente. Si quieres almacenar una string recuperable en un archivo binario, considera usar :ref:`store_pascal_string()<class_FileAccess_method_store_pascal_string>` en su lugar. Para recuperar strings de un archivo de texto, puedes usar ``get_buffer(length).get_string_from_utf8()`` (si conoces la longitud) o :ref:`get_as_text()<class_FileAccess_method_get_as_text>`.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -1338,13 +1338,13 @@ Stores ``string`` in the file without a newline character (``\n``), encoding the
 
 :ref:`bool<class_bool>` **store_var**\ (\ value\: :ref:`Variant<class_Variant>`, full_objects\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_FileAccess_method_store_var>`
 
-Stores any Variant value in the file. If ``full_objects`` is ``true``, encoding objects is allowed (and can potentially include code). This advances the file cursor by the number of bytes written. Returns ``true`` if the operation is successful.
+Almacena cualquier valor Variant en el archivo. Si ``full_objects`` es ``true``, se permite la codificación de objetos (y puede incluir código). Esto avanza el cursor del archivo por el número de bytes escritos. Devuelve ``true`` si la operación se realiza correctamente.
 
-Internally, this uses the same encoding mechanism as the :ref:`@GlobalScope.var_to_bytes()<class_@GlobalScope_method_var_to_bytes>` method, as described in the :doc:`Binary serialization API <../tutorials/io/binary_serialization_api>` documentation.
+Internamente, esto utiliza el mismo mecanismo de codificación que el :ref:`@GlobalScope.var_to_bytes()<class_@GlobalScope_method_var_to_bytes>`, como se describe en la :doc:`documentación de la API de serialización binaria <../tutorials/io/binary_serialization_api>`.
 
-\ **Note:** Not all properties are included. Only properties that are configured with the :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` flag set will be serialized. You can add a new usage flag to a property by overriding the :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>` method in your class. You can also check how property usage is configured by calling :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`. See :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` for the possible usage flags.
+\ **Nota:** No se incluyen todas las propiedades. Solo se serializarán las propiedades que estén configuradas con el flag :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` establecido. Puedes agregar un nuevo flag de uso a una propiedad sobrescribiendo el método :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>` en tu clase. También puedes verificar cómo se configura el uso de la propiedad llamando a :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`. Véase :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` para ver los flags de uso posibles.
 
-\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
+\ **Nota:** Si ocurre un error, el valor resultante del indicador de posición del archivo es indeterminado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

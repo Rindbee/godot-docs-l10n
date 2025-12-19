@@ -88,7 +88,7 @@ Descripciones de Propiedades
 - |void| **set_allow_system_fallback**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_allow_system_fallback**\ (\ )
 
-If set to ``true``, system fonts can be automatically used as fallbacks.
+Si se establece en ``true``, las fuentes del sistema se pueden utilizar automáticamente como alternativas.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ If set to ``true``, system fonts can be automatically used as fallbacks.
 - |void| **set_antialiasing**\ (\ value\: :ref:`FontAntialiasing<enum_TextServer_FontAntialiasing>`\ )
 - :ref:`FontAntialiasing<enum_TextServer_FontAntialiasing>` **get_antialiasing**\ (\ )
 
-Font anti-aliasing mode.
+Modo de antialiasing de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -209,7 +209,7 @@ Peso (grosor) preferido de la fuente. Un valor en el rango ``100...999``, el pes
 - |void| **set_force_autohinter**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_force_autohinter**\ (\ )
 
-If set to ``true``, auto-hinting is supported and preferred over font built-in hinting.
+Si se establece como ``true``, se admite y prefiere el hinting automático sobre el hinting incorporado de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -226,7 +226,7 @@ If set to ``true``, auto-hinting is supported and preferred over font built-in h
 - |void| **set_generate_mipmaps**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_generate_mipmaps**\ (\ )
 
-If set to ``true``, generate mipmaps for the font textures.
+Si se establece en ``true``, se generan mipmaps para las texturas de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -260,7 +260,7 @@ Modo de sugerencia de fuente.
 - |void| **set_keep_rounding_remainders**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_keep_rounding_remainders**\ (\ )
 
-If set to ``true``, when aligning glyphs to the pixel boundaries rounding remainders are accumulated to ensure more uniform glyph distribution. This setting has no effect if subpixel positioning is enabled.
+Si se establece en ``true``, al alinear los glifos a los límites de los píxeles, los restos de redondeo se acumulan para asegurar una distribución de glifos más uniforme. Este ajuste no tiene efecto si el posicionamiento subpíxel está habilitado.
 
 .. rst-class:: classref-item-separator
 

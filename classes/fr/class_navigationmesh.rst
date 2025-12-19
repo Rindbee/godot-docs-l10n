@@ -9,7 +9,7 @@ NavigationMesh
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A navigation mesh that defines traversable areas and obstacles.
+Un maillage de navigation qui définit des zones traversables et des obstacles.
 
 .. rst-class:: classref-introduction-group
 
@@ -363,7 +363,7 @@ In conjunction with the :ref:`filter_baking_aabb<class_NavigationMesh_property_f
 - |void| **set_cell_height**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_cell_height**\ (\ )
 
-The cell height used to rasterize the navigation mesh vertices on the Y axis. Must match with the cell height on the navigation map.
+La hauteur de cellule utilisée pour rastériser les sommets du maillage de navigation sur l'axe Y. Doit correspondre à la hauteur de cellule sur la carte de navigation.
 
 .. rst-class:: classref-item-separator
 
@@ -380,7 +380,7 @@ The cell height used to rasterize the navigation mesh vertices on the Y axis. Mu
 - |void| **set_cell_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_cell_size**\ (\ )
 
-The cell size used to rasterize the navigation mesh vertices on the XZ plane. Must match with the cell size on the navigation map.
+La taille de cellule utilisée pour rastériser les sommets du maillage de navigation sur le plan XZ. Doit correspondre à la taille de cellule sur la carte de navigation.
 
 .. rst-class:: classref-item-separator
 
@@ -448,9 +448,9 @@ The maximum distance a simplified contour's border edges should deviate the orig
 - |void| **set_edge_max_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_edge_max_length**\ (\ )
 
-The maximum allowed length for contour edges along the border of the mesh. A value of ``0.0`` disables this feature.
+La longueur maximale autorisée pour les arêtes du contour le long de la bordure du maillage. Une valeur de ``0.0`` désactive cette fonctionnalité.
 
-\ **Note:** While baking, this value will be rounded up to the nearest multiple of :ref:`cell_size<class_NavigationMesh_property_cell_size>`.
+\ **Note :** Pendant le pré-calcul, cette valeur sera arrondie vers le haut au multiple le plus proche de :ref:`cell_size<class_NavigationMesh_property_cell_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -535,7 +535,7 @@ If ``true``, marks non-walkable spans as walkable if their maximum is within :re
 - |void| **set_filter_walkable_low_height_spans**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_filter_walkable_low_height_spans**\ (\ )
 
-If ``true``, marks walkable spans as not walkable if the clearance above the span is less than :ref:`agent_height<class_NavigationMesh_property_agent_height>`.
+Si ``true``, marque les étendues praticables comme non-praticables si l'espace au dessus de l'étendue est inférieur à :ref:`agent_height<class_NavigationMesh_property_agent_height>`.
 
 .. rst-class:: classref-item-separator
 
@@ -571,7 +571,7 @@ Seulement utilisé quand :ref:`geometry_parsed_geometry_type<class_NavigationMes
 - |void| **set_parsed_geometry_type**\ (\ value\: :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>`\ )
 - :ref:`ParsedGeometryType<enum_NavigationMesh_ParsedGeometryType>` **get_parsed_geometry_type**\ (\ )
 
-Determines which type of nodes will be parsed as geometry.
+Détermine quel type de nœuds seront parsés en tant que géométrie.
 
 .. rst-class:: classref-item-separator
 
@@ -588,7 +588,7 @@ Determines which type of nodes will be parsed as geometry.
 - |void| **set_source_geometry_mode**\ (\ value\: :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>`\ )
 - :ref:`SourceGeometryMode<enum_NavigationMesh_SourceGeometryMode>` **get_source_geometry_mode**\ (\ )
 
-The source of the geometry used when baking.
+La source de la géométrie utilisée lors du pré-calcul.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ La taille minimale d'une région pour qu'elle soit créée.
 - |void| **set_sample_partition_type**\ (\ value\: :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>`\ )
 - :ref:`SamplePartitionType<enum_NavigationMesh_SamplePartitionType>` **get_sample_partition_type**\ (\ )
 
-Partitioning algorithm for creating the navigation mesh polys.
+Algorithme de partitionnement pour la création des polygones du maillage de navigation.
 
 .. rst-class:: classref-item-separator
 
@@ -708,7 +708,7 @@ Ajoute un polygone en utilisant les indices des sommets que obtenus avec :ref:`g
 
 |void| **clear**\ (\ ) :ref:`🔗<class_NavigationMesh_method_clear>`
 
-Clears the internal arrays for vertices and polygon indices.
+Vide les tableaux internes pour les indices de sommets et de polygones.
 
 .. rst-class:: classref-item-separator
 
@@ -720,7 +720,7 @@ Clears the internal arrays for vertices and polygon indices.
 
 |void| **clear_polygons**\ (\ ) :ref:`🔗<class_NavigationMesh_method_clear_polygons>`
 
-Efface le tableau de polygones, mais n'efface pas le tableau de sommets.
+Vide le tableau des polygones, mais ne vide pas le tableau des sommets.
 
 .. rst-class:: classref-item-separator
 
@@ -732,9 +732,9 @@ Efface le tableau de polygones, mais n'efface pas le tableau de sommets.
 
 |void| **create_from_mesh**\ (\ mesh\: :ref:`Mesh<class_Mesh>`\ ) :ref:`🔗<class_NavigationMesh_method_create_from_mesh>`
 
-Initializes the navigation mesh by setting the vertices and indices according to a :ref:`Mesh<class_Mesh>`.
+Initialise le maillage de navigation en définissant les sommets et les indices selon un :ref:`Mesh<class_Mesh>`.
 
-\ **Note:** The given ``mesh`` must be of type :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>` and have an index array.
+\ **Note :** Le ``mesh`` donné doit être du type :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>` et avoir un tableau d'indices.
 
 .. rst-class:: classref-item-separator
 
@@ -746,7 +746,7 @@ Initializes the navigation mesh by setting the vertices and indices according to
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationMesh_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Renvoie si la couche spécifiée du :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -758,7 +758,7 @@ Returns whether or not the specified layer of the :ref:`geometry_collision_mask<
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_polygon**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_NavigationMesh_method_get_polygon>`
 
-Returns a :ref:`PackedInt32Array<class_PackedInt32Array>` containing the indices of the vertices of a created polygon.
+Renvoie un :ref:`PackedInt32Array<class_PackedInt32Array>` contenant les indices des sommets d'un polygone créé.
 
 .. rst-class:: classref-item-separator
 
@@ -782,7 +782,7 @@ Renvoie le nombre de polygones dans le maillage de navigation.
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **get_vertices**\ (\ ) |const| :ref:`🔗<class_NavigationMesh_method_get_vertices>`
 
-Returns a :ref:`PackedVector3Array<class_PackedVector3Array>` containing all the vertices being used to create the polygons.
+Renvoie un :ref:`PackedVector3Array<class_PackedVector3Array>` contenant tous les indices utilisés pour créer les polygones.
 
 .. rst-class:: classref-item-separator
 
@@ -794,7 +794,7 @@ Returns a :ref:`PackedVector3Array<class_PackedVector3Array>` containing all the
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationMesh_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le :ref:`geometry_collision_mask<class_NavigationMesh_property_geometry_collision_mask>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

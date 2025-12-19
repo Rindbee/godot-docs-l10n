@@ -1189,7 +1189,7 @@ Multiplica cada componente de **Vector3** por los componentes del **Vector3** da
 
 :ref:`Vector3<class_Vector3>` **operator ***\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Vector3_operator_mul_float>`
 
-Multiplies each component of the **Vector3** by the given :ref:`float<class_float>`.
+Multiplica cada componente del **Vector3** por el :ref:`float<class_float>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1369,7 +1369,7 @@ Accede a los componentes del vector utilizando su ``index``. ``v[0]`` es equival
 
 :ref:`Vector3<class_Vector3>` **operator unary+**\ (\ ) :ref:`🔗<class_Vector3_operator_unplus>`
 
-Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, but sometimes it can make your code more readable.
+Devuelve el mismo valor como si el ``+`` no estuviera ahí. El ``+`` unario no hace nada, pero a veces puede hacer que tu código sea más legible.
 
 .. rst-class:: classref-item-separator
 

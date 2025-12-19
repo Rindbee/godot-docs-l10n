@@ -10,7 +10,7 @@ MarginContainer
 
 **Hereda:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container that keeps a margin around its child controls.
+Un contenedor que mantiene un margen alrededor de sus controles hijos.
 
 .. rst-class:: classref-introduction-group
 
@@ -84,7 +84,7 @@ Descripciones de las propiedades del tema
 
 :ref:`int<class_int>` **margin_bottom** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_bottom>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the bottom.
+Desplaza hacia adentro a los hijos directos del contenedor esta cantidad de píxeles desde la parte inferior.
 
 .. rst-class:: classref-item-separator
 
@@ -96,7 +96,7 @@ Offsets towards the inside direct children of the container by this amount of pi
 
 :ref:`int<class_int>` **margin_left** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_left>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the left.
+Desplaza hacia adentro a los hijos directos del contenedor esta cantidad de píxeles desde la izquierda.
 
 .. rst-class:: classref-item-separator
 
@@ -108,7 +108,7 @@ Offsets towards the inside direct children of the container by this amount of pi
 
 :ref:`int<class_int>` **margin_right** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_right>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the right.
+Desplaza hacia adentro a los hijos directos del contenedor esta cantidad de píxeles desde la derecha.
 
 .. rst-class:: classref-item-separator
 
@@ -120,7 +120,7 @@ Offsets towards the inside direct children of the container by this amount of pi
 
 :ref:`int<class_int>` **margin_top** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_top>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the top.
+Desplaza hacia adentro a los hijos directos del contenedor esta cantidad de píxeles desde la parte superior.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

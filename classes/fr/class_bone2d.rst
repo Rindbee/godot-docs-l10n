@@ -173,7 +173,7 @@ Renvoie la :ref:`Transform2D<class_Transform2D>` au repos (:ref:`rest<class_Bone
 
 |void| **set_autocalculate_length_and_angle**\ (\ auto_calculate\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Bone2D_method_set_autocalculate_length_and_angle>`
 
-Lorsque défini à ``true``, le nœud **Bone2D** tentera de calculer automatiquement l'angle de l'os et la longueur en utilisant le premier noeud **Bone2D** enfant, s'il existe. Si aucun n'existe, le **Bone2D** ne peut pas calculer automatiquement ces valeurs et affichera un avertissement.
+Lorsque défini à ``true``, le nœud **Bone2D** tentera de calculer automatiquement l'angle de l'os et la longueur en utilisant le premier nœud **Bone2D** enfant, s'il existe. Si aucun n'existe, le **Bone2D** ne peut pas calculer automatiquement ces valeurs et affichera un avertissement.
 
 .. rst-class:: classref-item-separator
 

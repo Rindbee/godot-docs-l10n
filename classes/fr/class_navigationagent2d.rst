@@ -573,7 +573,7 @@ Le post-traitement du chemin appliqué au couloir de chemin brut trouvé par :re
 - |void| **set_path_return_max_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_path_return_max_length**\ (\ )
 
-The maximum allowed length of the returned path in world units. A path will be clipped when going over this length.
+La longueur maximale autorisée du chemin renvoyé en unités globales. Un chemin sera coupé s'il dépasse cette longueur.
 
 .. rst-class:: classref-item-separator
 
@@ -816,7 +816,7 @@ Renvoie la distance jusqu'à l'emplacement cible, en utilisant la position globa
 
 :ref:`bool<class_bool>` **get_avoidance_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_avoidance_layer_value>`
 
-Renvoie si la couche spécifiée du masque de bits :ref:`avoidance_layers<class_NavigationAgent2D_property_avoidance_layers>` est activée, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Renvoie si la couche spécifiée du masque de bits :ref:`avoidance_layers<class_NavigationAgent2D_property_avoidance_layers>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -888,7 +888,7 @@ Renvoie la position finale accessible du chemin de navigation actuel dans les co
 
 :ref:`bool<class_bool>` **get_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_navigation_layer_value>`
 
-Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class_NavigationAgent2D_property_navigation_layers>` est activée, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class_NavigationAgent2D_property_navigation_layers>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -924,7 +924,7 @@ Renvoie la position suivante dans les coordonnées globales à laquelle il est p
 
 :ref:`float<class_float>` **get_path_length**\ (\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_path_length>`
 
-Returns the length of the currently calculated path. The returned value is ``0.0``, if the path is still calculating or no calculation has been requested yet.
+Renvoie la longueur du chemin actuellement calculé. La valeur renvoyée vaut ``0.0``, si le chemin est encore en calcul ou si aucun calcul n'a pour l'instant été demandé.
 
 .. rst-class:: classref-item-separator
 
@@ -986,7 +986,7 @@ Renvoie ``true`` si l'agent a atteint la cible, c'est-à-dire que l'agent s'est 
 
 |void| **set_avoidance_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationAgent2D_method_set_avoidance_layer_value>`
 
-Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`avoidance_layers<class_NavigationAgent2D_property_avoidance_layers>`, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`avoidance_layers<class_NavigationAgent2D_property_avoidance_layers>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -1010,7 +1010,7 @@ Selon ``value``, active ou désactive le masque spécifié dans le masque de bit
 
 |void| **set_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationAgent2D_method_set_navigation_layer_value>`
 
-Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`navigation_layers<class_NavigationAgent2D_property_navigation_layers>`, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`navigation_layers<class_NavigationAgent2D_property_navigation_layers>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

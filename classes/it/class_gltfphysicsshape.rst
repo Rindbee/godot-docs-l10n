@@ -127,9 +127,9 @@ La risorsa :ref:`ImporterMesh<class_ImporterMesh>` della forma. È utilizzata so
 - |void| **set_is_trigger**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_is_trigger**\ (\ )
 
-If ``true``, indicates that this shape is a trigger. For Godot, this means that the shape should be a child of an :ref:`Area3D<class_Area3D>` node.
+Se ``true``, indica che questa forma è un trigger. Per Godot, questo significa che la forma dovrebbe essere un figlio di un nodo :ref:`Area3D<class_Area3D>`.
 
-This is the only variable not used in the :ref:`to_node()<class_GLTFPhysicsShape_method_to_node>` method, it's intended to be used alongside when deciding where to add the generated node as a child.
+Questa è l'unica variabile non utilizzata nel metodo :ref:`to_node()<class_GLTFPhysicsShape_method_to_node>`, è pensata per essere utilizzata accanto quando si decide dove aggiungere il nodo generato come figlio.
 
 .. rst-class:: classref-item-separator
 

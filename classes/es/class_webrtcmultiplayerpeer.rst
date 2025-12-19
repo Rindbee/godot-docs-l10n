@@ -79,7 +79,7 @@ Se crearán tres canales para transporte fiable, no fiable y ordenado. El valor 
 
 Inicializa el par multijugador como cliente con el ``peer_id`` dado (debe estar entre 2 y 2147483647). En este modo, sólo debe llamar a :ref:`add_peer()<class_WebRTCMultiplayerPeer_method_add_peer>` una vez y con el ``peer_id`` de ``1``. Este modo activa :ref:`MultiplayerPeer.is_server_relay_supported()<class_MultiplayerPeer_method_is_server_relay_supported>`, permitiendo que la capa superior :ref:`MultiplayerAPI<class_MultiplayerAPI>` realice el intercambio de pares y el reenvío de paquetes.
 
-Opcionalmente, puede especificar una matriz ``channels_config`` de :ref:`TransferMode<enum_MultiplayerPeer_TransferMode>` que se utilizará para crear canales adicionales (WebRTC sólo soporta un modo de transferencia por canal).
+Opcionalmente, puedes especificar un array ``channels_config`` de :ref:`TransferMode<enum_MultiplayerPeer_TransferMode>` que se utilizará para crear canales adicionales (WebRTC sólo soporta un modo de transferencia por canal).
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Inicializa el par multijugador como una malla (es decir, todos los pares se cone
 
 Inicializa el par multijugador como servidor (con ID único de ``1``). Este modo activa :ref:`MultiplayerPeer.is_server_relay_supported()<class_MultiplayerPeer_method_is_server_relay_supported>`, permitiendo que la capa superior :ref:`MultiplayerAPI<class_MultiplayerAPI>` realice el intercambio de pares y el reenvío de paquetes.
 
-Opcionalmente, puede especificar una matriz ``channels_config`` de :ref:`TransferMode<enum_MultiplayerPeer_TransferMode>` que se utilizará para crear canales adicionales (WebRTC sólo soporta un modo de transferencia por canal).
+Opcionalmente, puedes especificar un array ``channels_config`` de :ref:`TransferMode<enum_MultiplayerPeer_TransferMode>` que se utilizará para crear canales adicionales (WebRTC sólo soporta un modo de transferencia por canal).
 
 .. rst-class:: classref-item-separator
 

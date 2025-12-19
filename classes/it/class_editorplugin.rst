@@ -198,7 +198,7 @@ Segnali
 
 **main_screen_changed**\ (\ screen_name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorPlugin_signal_main_screen_changed>`
 
-Emesso quando l'utente cambia lo spazio di lavoro (**2D**, **3D**, **Script**, **Game**, **AssetLib**). Funziona anche con schermate personalizzate definite dalle estensioni.
+Emesso quando l'utente cambia lo spazio di lavoro (**2D**, **3D**, **Script**, **Gioco**, **AssetLib**). Funziona anche con schermate personalizzate definite dalle estensioni.
 
 .. rst-class:: classref-item-separator
 
@@ -830,11 +830,11 @@ Questo è per gli editor che modificano oggetti basati su script. È possibile r
 
 :ref:`Texture2D<class_Texture2D>` **_get_plugin_icon**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__get_plugin_icon>`
 
-Override this method in your plugin to return a :ref:`Texture2D<class_Texture2D>` in order to give it an icon.
+Sovrascrivi questo metodo nella tua estensione per restituire una :ref:`Texture2D<class_Texture2D>` per fornirgli un'icona.
 
-For main screen plugins, this appears at the top of the screen, to the right of the "2D", "3D", "Script", "Game", and "AssetLib" buttons.
+Per le estensioni della schermata principale, l'icona appare nella parte superiore dello schermo, a destra dei pulsanti "2D", "3D", "Script", "Gioco" e "AssetLib".
 
-Ideally, the plugin icon should be white with a transparent background and 16×16 pixels in size.
+Idealmente, l'icona dell'estensione dovrebbe essere bianca con uno sfondo trasparente e una dimensione di 16×16 pixel.
 
 
 .. tabs::
@@ -842,18 +842,18 @@ Ideally, the plugin icon should be white with a transparent background and 16×1
  .. code-tab:: gdscript
 
     func _get_plugin_icon():
-        # You can use a custom icon:
+        # È possibile usare un'icona personalizzata:
         return preload("res://addons/my_plugin/my_plugin_icon.svg")
-        # Or use a built-in icon:
+        # Oppure usare un'icona integrata:
         return EditorInterface.get_editor_theme().get_icon("Node", "EditorIcons")
 
  .. code-tab:: csharp
 
     public override Texture2D _GetPluginIcon()
     {
-        // You can use a custom icon:
+        // È possibile usare un'icona personalizzata:
         return ResourceLoader.Load<Texture2D>("res://addons/my_plugin/my_plugin_icon.svg");
-        // Or use a built-in icon:
+        // Oppure usare un'icona integrata:
         return EditorInterface.Singleton.GetEditorTheme().GetIcon("Node", "EditorIcons");
     }
 
@@ -869,9 +869,9 @@ Ideally, the plugin icon should be white with a transparent background and 16×1
 
 :ref:`String<class_String>` **_get_plugin_name**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__get_plugin_name>`
 
-Override this method in your plugin to provide the name of the plugin when displayed in the Godot editor.
+Sovrascrivi questo metodo nella tua estensione per fornire il nome dell'estensione quando viene visualizzato nell'editor Godot.
 
-For main screen plugins, this appears at the top of the screen, to the right of the "2D", "3D", "Script", "Game", and "AssetLib" buttons.
+Per le estensioni della schermata principale, il nome appare nella parte superiore dello schermo, a destra dei pulsanti "2D", "3D", "Script", "Gioco" e "AssetLib".
 
 .. rst-class:: classref-item-separator
 
@@ -883,13 +883,13 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 :ref:`Dictionary<class_Dictionary>` **_get_state**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__get_state>`
 
-Override this method to provide a state data you want to be saved, like view position, grid settings, folding, etc. This is used when saving the scene (so state is kept when opening it again) and for switching tabs (so state can be restored when the tab returns). This data is automatically saved for each scene in an ``editstate`` file in the editor metadata folder. If you want to store global (scene-independent) editor data for your plugin, you can use :ref:`_get_window_layout()<class_EditorPlugin_private_method__get_window_layout>` instead.
+Sovrascrivi questo metodo per fornire i dati di stato che si desidera salvare, come posizione della vista, impostazioni della griglia, pannelli compressi, ecc. Questo è utilizzato quando si salva la scena (in modo che lo stato sia mantenuto quando la si riapre) e per cambiare scheda (in modo che lo stato possa essere ripristinato quando si passa alla scheda). Questi dati sono salvati automaticamente per ogni scena in un file ``editstate`` nella cartella dei metadati dell'editor. Se si desidera memorizzare i dati dell'editor globali (indipendenti dalla scena) per l'estensione, è possibile usare :ref:`_get_window_layout()<class_EditorPlugin_private_method__get_window_layout>`.
 
-Use :ref:`_set_state()<class_EditorPlugin_private_method__set_state>` to restore your saved state.
+Usa :ref:`_set_state()<class_EditorPlugin_private_method__set_state>` per ripristinare lo stato salvato.
 
-\ **Note:** This method should not be used to save important settings that should persist with the project.
+\ **Nota:** Questo metodo non dovrebbe essere utilizzato per salvare impostazioni importanti che dovrebbero persistere con il progetto.
 
-\ **Note:** You must implement :ref:`_get_plugin_name()<class_EditorPlugin_private_method__get_plugin_name>` for the state to be stored and restored correctly.
+\ **Nota:** È necessario implementare :ref:`_get_plugin_name()<class_EditorPlugin_private_method__get_plugin_name>` affinché lo stato sia memorizzato e ripristinato correttamente.
 
 ::
 
@@ -979,7 +979,7 @@ Implementa questa funzione se la tua estensione modifica un tipo specifico di og
 
 :ref:`bool<class_bool>` **_has_main_screen**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__has_main_screen>`
 
-Restituisce ``true`` se questo è un'estensione dell'editor per la schermata principale (va nel selettore dell'area di lavoro insieme a **2D**, **3D**, **Script**, **Game** e **AssetLib**).
+Restituisce ``true`` se questo è un'estensione dell'editor per la schermata principale (va nel selettore dell'area di lavoro insieme a **2D**, **3D**, **Script**, **Gioco** e **AssetLib**).
 
 Quando l'area di lavoro dell'estensione è selezionata, le altre estensioni nella schermata principale saranno nascosti, ma l'estensione non apparirà automaticamente. Deve essere aggiunta come figlio di :ref:`EditorInterface.get_editor_main_screen()<class_EditorInterface_method_get_editor_main_screen>` e resa visibile all'interno di :ref:`_make_visible()<class_EditorPlugin_private_method__make_visible>`.
 
@@ -1304,9 +1304,9 @@ Se ``first_priority`` è ``true``, la nuovo estensione di importazione viene ins
 
 |void| **add_scene_post_import_plugin**\ (\ scene_import_plugin\: :ref:`EditorScenePostImportPlugin<class_EditorScenePostImportPlugin>`, first_priority\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorPlugin_method_add_scene_post_import_plugin>`
 
-Add an :ref:`EditorScenePostImportPlugin<class_EditorScenePostImportPlugin>`. These plugins allow customizing the import process of 3D assets by adding new options to the import dialogs.
+Aggiungi un :ref:`EditorScenePostImportPlugin<class_EditorScenePostImportPlugin>`. Queste estensioni consentono di personalizzare il processo di importazione delle risorse 3D, aggiungendo nuove opzioni alle finestre di dialogo di importazione.
 
-If ``first_priority`` is ``true``, the new import plugin is inserted first in the list and takes precedence over pre-existing plugins.
+Se ``first_priority`` è ``true``, la nuovo estensione di importazione viene inserita per prima nell'elenco e ha la precedenza sulle estensioni preesistenti.
 
 .. rst-class:: classref-item-separator
 

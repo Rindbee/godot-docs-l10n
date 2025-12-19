@@ -7,14 +7,14 @@ LabelSettings
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides common settings to customize the text in a :ref:`Label<class_Label>`.
+Fournit des paramètres communs pour personnaliser le texte dans un :ref:`Label<class_Label>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**LabelSettings** is a resource that provides common settings to customize the text in a :ref:`Label<class_Label>`. It will take priority over the properties defined in :ref:`Control.theme<class_Control_property_theme>`. The resource can be shared between multiple labels and changed on the fly, so it's convenient and flexible way to setup text style.
+**LabelSettings** est une ressource qui fournit des paramètres communs pour personnaliser le texte dans un :ref:`Label<class_Label>`. Elle prendra la priorité sur les propriétés définies dans :ref:`Control.theme<class_Control_property_theme>`. La ressource peut être partagée entre plusieurs étiquettes et changée à la volée, de sorte que ce soit une façon commode et flexible de configurer un style de texte.
 
 .. rst-class:: classref-reftable-group
 
@@ -163,7 +163,7 @@ Taille du texte.
 - |void| **set_line_spacing**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_line_spacing**\ (\ )
 
-Additional vertical spacing between lines (in pixels), spacing is added to line descent. This value can be negative.
+Espacement vertical supplémentaire entre les lignes (en pixels), l'espacement est ajouté à la descente de la ligne. Cette valeur peut être négative.
 
 .. rst-class:: classref-item-separator
 
@@ -214,7 +214,7 @@ Taille du contour du texte.
 - |void| **set_paragraph_spacing**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_paragraph_spacing**\ (\ )
 
-Vertical space between paragraphs. Added on top of :ref:`line_spacing<class_LabelSettings_property_line_spacing>`.
+Espace vertical entre les paragraphes. Ajouté en plus de :ref:`line_spacing<class_LabelSettings_property_line_spacing>`.
 
 .. rst-class:: classref-item-separator
 
@@ -231,7 +231,7 @@ Vertical space between paragraphs. Added on top of :ref:`line_spacing<class_Labe
 - |void| **set_shadow_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_shadow_color**\ (\ )
 
-Color of the shadow effect. If alpha is ``0``, no shadow will be drawn.
+Couleur de l'effet d'ombre. Si alpha vaut ``0``, aucune ombre ne sera dessinée.
 
 .. rst-class:: classref-item-separator
 
@@ -248,7 +248,7 @@ Color of the shadow effect. If alpha is ``0``, no shadow will be drawn.
 - |void| **set_shadow_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_shadow_offset**\ (\ )
 
-Offset of the shadow effect, in pixels.
+Décalage de l'effet d'ombre, en pixels.
 
 .. rst-class:: classref-item-separator
 
@@ -282,7 +282,7 @@ Taille de l'effet d'ombre.
 - |void| **set_stacked_outline_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_stacked_outline_count**\ (\ )
 
-The number of stacked outlines.
+Le nombre de contours empilés.
 
 .. rst-class:: classref-item-separator
 
@@ -299,7 +299,7 @@ The number of stacked outlines.
 - |void| **set_stacked_shadow_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_stacked_shadow_count**\ (\ )
 
-The number of stacked shadows.
+Le nombre d'ombres empilées.
 
 .. rst-class:: classref-section-separator
 
@@ -340,7 +340,7 @@ Adds a new stacked shadow to the label at the given ``index``. If ``index`` is `
 
 :ref:`Color<class_Color>` **get_stacked_outline_color**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_outline_color>`
 
-Returns the color of the stacked outline at ``index``.
+Renvoie la couleur du contour empilé à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -352,7 +352,7 @@ Returns the color of the stacked outline at ``index``.
 
 :ref:`int<class_int>` **get_stacked_outline_size**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_outline_size>`
 
-Returns the size of the stacked outline at ``index``.
+Renvoie la taille du contour empilé à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -364,7 +364,7 @@ Returns the size of the stacked outline at ``index``.
 
 :ref:`Color<class_Color>` **get_stacked_shadow_color**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_shadow_color>`
 
-Returns the color of the stacked shadow at ``index``.
+Renvoie la couleur de l'ombre empilée à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -376,7 +376,7 @@ Returns the color of the stacked shadow at ``index``.
 
 :ref:`Vector2<class_Vector2>` **get_stacked_shadow_offset**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_shadow_offset>`
 
-Returns the offset of the stacked shadow at ``index``.
+Renvoie le décalage de l'ombre empilée à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -388,7 +388,7 @@ Returns the offset of the stacked shadow at ``index``.
 
 :ref:`int<class_int>` **get_stacked_shadow_outline_size**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_LabelSettings_method_get_stacked_shadow_outline_size>`
 
-Returns the outline size of the stacked shadow at ``index``.
+Renvoie la taille du contour de l'ombre empilée à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -400,7 +400,7 @@ Returns the outline size of the stacked shadow at ``index``.
 
 |void| **move_stacked_outline**\ (\ from_index\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_move_stacked_outline>`
 
-Moves the stacked outline at index ``from_index`` to the given position ``to_position`` in the array.
+Déplace le contour empilé à l'index ``from_index`` à la position donnée ``to_position`` dans le tableau.
 
 .. rst-class:: classref-item-separator
 
@@ -412,7 +412,7 @@ Moves the stacked outline at index ``from_index`` to the given position ``to_pos
 
 |void| **move_stacked_shadow**\ (\ from_index\: :ref:`int<class_int>`, to_position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_move_stacked_shadow>`
 
-Moves the stacked shadow at index ``from_index`` to the given position ``to_position`` in the array.
+Déplace l'ombre empilée à l'index ``from_index`` à la position donnée ``to_position`` dans le tableau.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ Moves the stacked shadow at index ``from_index`` to the given position ``to_posi
 
 |void| **remove_stacked_outline**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_remove_stacked_outline>`
 
-Removes the stacked outline at index ``index``.
+Retire le contour empilé à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -436,7 +436,7 @@ Removes the stacked outline at index ``index``.
 
 |void| **remove_stacked_shadow**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_remove_stacked_shadow>`
 
-Removes the stacked shadow at index ``index``.
+Retire l'ombre empilée à l'index ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -448,7 +448,7 @@ Removes the stacked shadow at index ``index``.
 
 |void| **set_stacked_outline_color**\ (\ index\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_outline_color>`
 
-Sets the color of the stacked outline identified by the given ``index`` to ``color``.
+Définit la couleur du contour empilé identifié par l'index ``index`` donné à ``color``.
 
 .. rst-class:: classref-item-separator
 
@@ -460,7 +460,7 @@ Sets the color of the stacked outline identified by the given ``index`` to ``col
 
 |void| **set_stacked_outline_size**\ (\ index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_outline_size>`
 
-Sets the size of the stacked outline identified by the given ``index`` to ``size``.
+Définit la taille du contour empilé identifié par l'index ``index`` donné à ``size``.
 
 .. rst-class:: classref-item-separator
 
@@ -472,7 +472,7 @@ Sets the size of the stacked outline identified by the given ``index`` to ``size
 
 |void| **set_stacked_shadow_color**\ (\ index\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_shadow_color>`
 
-Sets the color of the stacked shadow identified by the given ``index`` to ``color``.
+Définit la couleur de l'ombre empilée identifiée par l'index ``index`` donné à ``color``.
 
 .. rst-class:: classref-item-separator
 
@@ -484,7 +484,7 @@ Sets the color of the stacked shadow identified by the given ``index`` to ``colo
 
 |void| **set_stacked_shadow_offset**\ (\ index\: :ref:`int<class_int>`, offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_shadow_offset>`
 
-Sets the offset of the stacked shadow identified by the given ``index`` to ``offset``.
+Définit le décalage de l'ombre empilée identifiée par l'index ``index`` donné à ``offset``.
 
 .. rst-class:: classref-item-separator
 
@@ -496,7 +496,7 @@ Sets the offset of the stacked shadow identified by the given ``index`` to ``off
 
 |void| **set_stacked_shadow_outline_size**\ (\ index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_LabelSettings_method_set_stacked_shadow_outline_size>`
 
-Sets the outline size of the stacked shadow identified by the given ``index`` to ``size``.
+Définit la taille du contour de l'ombre empilée identifiée par l'index ``index`` donné à ``size``.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

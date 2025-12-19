@@ -154,7 +154,7 @@ flags **DebugFlags**: :ref:`🔗<enum_EditorExportPlatform_DebugFlags>`
 
 :ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>` **DEBUG_FLAG_DUMB_CLIENT** = ``1``
 
-Flag is set if the remotely debugged project is expected to use the remote file system. If set, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` will append ``--remote-fs`` and ``--remote-fs-password`` (if :ref:`EditorSettings.filesystem/file_server/password<class_EditorSettings_property_filesystem/file_server/password>` is defined) command line arguments to the returned list.
+Il flag è impostato se si prevede che il progetto sottoposto a debug remoto utilizzi un file system remoto. Se impostato, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` aggiungerà gli argomenti della riga di comando ``--remote-fs`` e ``--remote-fs-password`` (se :ref:`EditorSettings.filesystem/file_server/password<class_EditorSettings_property_filesystem/file_server/password>` è impostato) alla lista restituita.
 
 .. _class_EditorExportPlatform_constant_DEBUG_FLAG_REMOTE_DEBUG:
 
@@ -162,7 +162,7 @@ Flag is set if the remotely debugged project is expected to use the remote file 
 
 :ref:`DebugFlags<enum_EditorExportPlatform_DebugFlags>` **DEBUG_FLAG_REMOTE_DEBUG** = ``2``
 
-Flag is set if remote debug is enabled. If set, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` will append ``--remote-debug`` and ``--breakpoints`` (if breakpoints are selected in the script editor or added by the plugin) command line arguments to the returned list.
+Il flag è impostato se il debug remoto è abilitato. Se impostato, :ref:`gen_export_flags()<class_EditorExportPlatform_method_gen_export_flags>` aggiungerà gli argomenti della riga di comando ``--remote-debug`` e ``--breakpoints`` (se i punti d'interruzione sono selezionati nell'editor di script o aggiunti dall'estensione) alla lista restituita.
 
 .. _class_EditorExportPlatform_constant_DEBUG_FLAG_REMOTE_DEBUG_LOCALHOST:
 

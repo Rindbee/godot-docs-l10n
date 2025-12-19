@@ -91,9 +91,9 @@ If ``true``, discards empty areas from the atlas. This only affects final sprite
 
 :ref:`bool<class_bool>` **trim_alpha_border_from_region** = ``true`` :ref:`🔗<class_ResourceImporterTextureAtlas_property_trim_alpha_border_from_region>`
 
-If ``true``, trims the region to exclude fully transparent pixels using a clipping rectangle (which is never rotated). This can be used to save memory. See also :ref:`crop_to_region<class_ResourceImporterTextureAtlas_property_crop_to_region>`.
+Si ``true``, coupe la région pour exclure les pixels entièrement transparents en utilisant un rectangle de découpage (qui n'est jamais tourné). Cela peut être utilisé pour économiser de la mémoire. Voir aussi :ref:`crop_to_region<class_ResourceImporterTextureAtlas_property_crop_to_region>`.
 
-\ **Note:** Only effective if :ref:`import_mode<class_ResourceImporterTextureAtlas_property_import_mode>` is **Region**.
+\ **Note :** Seulement effectif si :ref:`import_mode<class_ResourceImporterTextureAtlas_property_import_mode>` vaut **Region**.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

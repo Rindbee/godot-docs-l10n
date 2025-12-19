@@ -439,9 +439,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody2D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_velocity**\ (\ )
 
-Current velocity vector in pixels per second, used and modified during calls to :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
+Вектор поточної швидкості в пікселях за секунду, який використовується та модифікується під час викликів :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
 
-This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
+Ця властивість не повинна бути встановлена на значення, помножене на ``delta``, оскільки це відбувається внутрішньо в :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`. В іншому випадку симуляція буде працювати з неправильною швидкістю.
 
 .. rst-class:: classref-item-separator
 
@@ -704,17 +704,17 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody2D_method_move_and_slide>`
 
-Moves the body based on :ref:`velocity<class_CharacterBody2D_property_velocity>`. If the body collides with another, it will slide along the other body (by default only on floor) rather than stop immediately. If the other body is a **CharacterBody2D** or :ref:`RigidBody2D<class_RigidBody2D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
+Переміщує тіло на основі :ref:`velocity<class_CharacterBody2D_property_velocity>`. Якщо тіло зіштовхується з іншим, воно буде ковзати по іншому тілу (за замовчуванням тільки на підлозі), а не зупинятися відразу. Якщо інше тіло є **CharacterBody2D** або :ref:`RigidBody2D<class_RigidBody2D>`, воно також буде піддаватися впливу руху іншого тіла. Ви можете використовувати це для створення рухомих і обертових платформ або для того, щоб вузли штовхали інші вузли.
 
-This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
+Цей метод слід використовувати в :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (або в методі, що викликається :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), оскільки він автоматично використовує значення ``delta`` фізичного кроку в обчисленнях. В іншому випадку симуляція буде працювати з неправильною швидкістю.
 
-Modifies :ref:`velocity<class_CharacterBody2D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, for detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
+Змінює ``член velocity``, якщо відбулося зіткнення ковзання. Щоб отримати останнє зіткнення, викличте :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, для детальної інформації про зіткнення, що відбулися, використовуйте :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
 
-When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+Коли тіло торкається рухомої платформи, швидкість платформи автоматично додається до руху тіла. Якщо зіткнення відбувається через рух платформи, воно завжди буде першим у зіткненнях ковзання.
 
-The general behavior and available properties change according to the :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
+Загальна поведінка та доступні властивості змінюються відповідно до :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
 
-Returns ``true`` if the body collided, otherwise, returns ``false``.
+Повертає ``true``, якщо тіло зіткнулося, інакше повертає ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (Зазвичай, цей метод перевизначається користувачем, щоб він мав вплив.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

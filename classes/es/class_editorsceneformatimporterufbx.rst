@@ -9,14 +9,14 @@ EditorSceneFormatImporterUFBX
 
 **Hereda:** :ref:`EditorSceneFormatImporter<class_EditorSceneFormatImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Import FBX files using the ufbx library.
+Importa archivos FBX utilizando la biblioteca ufbx.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-EditorSceneFormatImporterUFBX is designed to load FBX files and supports both binary and ASCII FBX files from version 3000 onward. This class supports various 3D object types like meshes, skins, blend shapes, materials, and rigging information. The class aims for feature parity with the official FBX SDK and supports FBX 7.4 specifications.
+EditorSceneFormatImporterUFBX está diseñado para cargar archivos FBX y admite tanto archivos FBX binarios como ASCII a partir de la versión 3000. Esta clase soporta varios tipos de objetos 3D como mallas, pieles, blendshapes, materiales e información de rigging. La clase tiene como objetivo la paridad de características con el SDK oficial de FBX y soporta las especificaciones de FBX 7.4.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

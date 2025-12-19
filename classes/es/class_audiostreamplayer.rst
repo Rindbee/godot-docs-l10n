@@ -109,7 +109,7 @@ Señales
 
 **finished**\ (\ ) :ref:`🔗<class_AudioStreamPlayer_signal_finished>`
 
-Emitted when a sound finishes playing without interruptions. This signal is *not* emitted when calling :ref:`stop()<class_AudioStreamPlayer_method_stop>`, or when exiting the tree while sounds are playing.
+Emitida cuando un sonido termina de reproducirse sin interrupciones. Esta señal *no* se emite al llamar a :ref:`stop()<class_AudioStreamPlayer_method_stop>`, o al salir del árbol mientras los sonidos se están reproduciendo.
 
 .. rst-class:: classref-section-separator
 
@@ -132,7 +132,7 @@ enum **MixTarget**: :ref:`🔗<enum_AudioStreamPlayer_MixTarget>`
 
 :ref:`MixTarget<enum_AudioStreamPlayer_MixTarget>` **MIX_TARGET_STEREO** = ``0``
 
-The audio will be played only on the first channel. This is the default.
+El audio se reproducirá solo en el primer canal. Este es el comportamiento predeterminado.
 
 .. _class_AudioStreamPlayer_constant_MIX_TARGET_SURROUND:
 
@@ -348,9 +348,9 @@ Volume of sound, in decibels. This is an offset of the :ref:`stream<class_AudioS
 - |void| **set_volume_linear**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volume_linear**\ (\ )
 
-Volume of sound, as a linear value.
+Volumen del sonido, como un valor lineal.
 
-\ **Note:** This member modifies :ref:`volume_db<class_AudioStreamPlayer_property_volume_db>` for convenience. The returned value is equivalent to the result of :ref:`@GlobalScope.db_to_linear()<class_@GlobalScope_method_db_to_linear>` on :ref:`volume_db<class_AudioStreamPlayer_property_volume_db>`. Setting this member is equivalent to setting :ref:`volume_db<class_AudioStreamPlayer_property_volume_db>` to the result of :ref:`@GlobalScope.linear_to_db()<class_@GlobalScope_method_linear_to_db>` on a value.
+\ **Nota:** Este miembro modifica :ref:`volume_db<class_AudioStreamPlayer_property_volume_db>` por conveniencia. El valor devuelto es equivalente al resultado de :ref:`@GlobalScope.db_to_linear()<class_@GlobalScope_method_db_to_linear>` sobre :ref:`volume_db<class_AudioStreamPlayer_property_volume_db>`. Establecer este miembro es equivalente a establecer :ref:`volume_db<class_AudioStreamPlayer_property_volume_db>` al resultado de :ref:`@GlobalScope.linear_to_db()<class_@GlobalScope_method_linear_to_db>` sobre un valor.
 
 .. rst-class:: classref-section-separator
 

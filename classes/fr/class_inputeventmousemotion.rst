@@ -7,18 +7,18 @@ InputEventMouseMotion
 
 **Hérite de :** :ref:`InputEventMouse<class_InputEventMouse>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a mouse or a pen movement.
+Représente une mouvement de souris ou de stylo.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Stores information about a mouse or a pen motion. This includes relative position, absolute position, and velocity. See :ref:`Node._input()<class_Node_private_method__input>`.
+Stocke des informations sur un mouvement de souris ou de stylo. Cela comprend la position relative, la position absolue et la vitesse. Voir :ref:`Node._input()<class_Node_private_method__input>`.
 
-\ **Note:** By default, this event is only emitted once per frame rendered at most. If you need more precise input reporting, set :ref:`Input.use_accumulated_input<class_Input_property_use_accumulated_input>` to ``false`` to make events emitted as often as possible. If you use InputEventMouseMotion to draw lines, consider using :ref:`Geometry2D.bresenham_line()<class_Geometry2D_method_bresenham_line>` as well to avoid visible gaps in lines if the user is moving the mouse quickly.
+\ **Note :** Par défaut, cet événement n'est émis qu'une fois par trame rendue au maximum. Si vous avez besoin d'un suivi des entrées plus précis, définissez :ref:`Input.use_accumulated_input<class_Input_property_use_accumulated_input>` à ``false`` pour faire que les événements soient émis le plus souvent possible. Si vous utilisez InputEventMouseMotion pour dessiner des lignes, envisagez d'aussi utiliser :ref:`Geometry2D.bresenham_line()<class_Geometry2D_method_bresenham_line>` pour éviter les lacunes visibles dans les lignes si l'utilisateur déplace la souris rapidement.
 
-\ **Note:** This event may be emitted even when the mouse hasn't moved, either by the operating system or by Godot itself. If you really need to know if the mouse has moved (e.g. to suppress displaying a tooltip), you should check that ``relative.is_zero_approx()`` is ``false``.
+\ **Note :** Cet événement peut être émis même lorsque la souris n'a pas bougé, que ce soit par le système d'exploitation ou par Godot lui-même. Si vous avez vraiment besoin de savoir si la souris a bougé (par exemple pour supprimer l'affichage d'une info-bulle), vous devez vérifier que ``relative.is_zero_approx()`` vaut ``false``.
 
 .. rst-class:: classref-introduction-group
 
@@ -172,7 +172,7 @@ The unscaled mouse velocity in pixels per second in screen coordinates. This vel
 - |void| **set_tilt**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_tilt**\ (\ )
 
-Représente les angles d'inclinaison du stylo. Une valeur en X positive indique une inclinaison à droite. Une valeur en Y positive indique une inclinaison vers l'utilisateur. Va de ``-1.0`` à ``1.0`` pour les deux axes.
+Représente les angles d'inclinaison du stylet. Une valeur en X positive indique une inclinaison à droite. Une valeur en Y positive indique une inclinaison vers l'utilisateur. Va de ``-1.0`` à ``1.0`` pour les deux axes.
 
 .. rst-class:: classref-item-separator
 

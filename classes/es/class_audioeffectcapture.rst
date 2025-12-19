@@ -14,11 +14,11 @@ Captura el audio de un bus de audio en tiempo real.
 Descripción
 ----------------------
 
-AudioEffectCapture is an AudioEffect which copies all audio frames from the attached audio effect bus into its internal ring buffer.
+AudioEffectCapture es un AudioEffect que copia todos los fotogramas de audio del bus de efectos de audio adjunto en su búfer de anillo interno.
 
-Application code should consume these audio frames from this ring buffer using :ref:`get_buffer()<class_AudioEffectCapture_method_get_buffer>` and process it as needed, for example to capture data from an :ref:`AudioStreamMicrophone<class_AudioStreamMicrophone>`, implement application-defined effects, or to transmit audio over the network. When capturing audio data from a microphone, the format of the samples will be stereo 32-bit floating-point PCM.
+El código de la aplicación debe consumir estos fotogramas de audio de este búfer de anillo utilizando :ref:`get_buffer()<class_AudioEffectCapture_method_get_buffer>` y procesarlos según sea necesario, por ejemplo, para capturar datos de un :ref:`AudioStreamMicrophone<class_AudioStreamMicrophone>`, implementar efectos definidos por la aplicación o para transmitir audio a través de la red. Al capturar datos de audio de un micrófono, el formato de las muestras será PCM estéreo de punto flotante de 32 bits.
 
-Unlike :ref:`AudioEffectRecord<class_AudioEffectRecord>`, this effect only returns the raw audio samples instead of encoding them into an :ref:`AudioStream<class_AudioStream>`.
+A diferencia de :ref:`AudioEffectRecord<class_AudioEffectRecord>`, este efecto solo devuelve las muestras de audio sin procesar en lugar de codificarlas en un :ref:`AudioStream<class_AudioStream>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -100,7 +100,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **can_get_buffer**\ (\ frames\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AudioEffectCapture_method_can_get_buffer>`
 
-Returns ``true`` if at least ``frames`` audio frames are available to read in the internal ring buffer.
+Devuelve ``true`` si al menos ``frames`` fotogramas de audio están disponibles para leer en el búfer de anillo interno.
 
 .. rst-class:: classref-item-separator
 

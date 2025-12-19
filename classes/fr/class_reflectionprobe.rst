@@ -159,7 +159,7 @@ Descriptions des propriétés
 - |void| **set_ambient_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_ambient_color**\ (\ )
 
-The custom ambient color to use within the **ReflectionProbe**'s box defined by its :ref:`size<class_ReflectionProbe_property_size>`. Only effective if :ref:`ambient_mode<class_ReflectionProbe_property_ambient_mode>` is :ref:`AMBIENT_COLOR<class_ReflectionProbe_constant_AMBIENT_COLOR>`.
+La couleur ambiante personnalisée à utiliser dans la boîte de la **ReflectionProbe** définie par sa taille :ref:`size<class_ReflectionProbe_property_size>`. Seulement effectif si :ref:`ambient_mode<class_ReflectionProbe_property_ambient_mode>` vaut :ref:`AMBIENT_COLOR<class_ReflectionProbe_constant_AMBIENT_COLOR>`.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ The custom ambient color to use within the **ReflectionProbe**'s box defined by 
 - |void| **set_ambient_color_energy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ambient_color_energy**\ (\ )
 
-The custom ambient color energy to use within the **ReflectionProbe**'s box defined by its :ref:`size<class_ReflectionProbe_property_size>`. Only effective if :ref:`ambient_mode<class_ReflectionProbe_property_ambient_mode>` is :ref:`AMBIENT_COLOR<class_ReflectionProbe_constant_AMBIENT_COLOR>`.
+L'énergie de la couleur ambiante personnalisée à utiliser dans la boîte de la **ReflectionProbe** définie par sa taille :ref:`size<class_ReflectionProbe_property_size>`. Seulement effective si :ref:`ambient_mode<class_ReflectionProbe_property_ambient_mode>` vaut :ref:`AMBIENT_COLOR<class_ReflectionProbe_constant_AMBIENT_COLOR>`.
 
 .. rst-class:: classref-item-separator
 
@@ -193,7 +193,7 @@ The custom ambient color energy to use within the **ReflectionProbe**'s box defi
 - |void| **set_ambient_mode**\ (\ value\: :ref:`AmbientMode<enum_ReflectionProbe_AmbientMode>`\ )
 - :ref:`AmbientMode<enum_ReflectionProbe_AmbientMode>` **get_ambient_mode**\ (\ )
 
-The ambient color to use within the **ReflectionProbe**'s box defined by its :ref:`size<class_ReflectionProbe_property_size>`. The ambient color will smoothly blend with other **ReflectionProbe**\ s and the rest of the scene (outside the **ReflectionProbe**'s box defined by its :ref:`size<class_ReflectionProbe_property_size>`).
+La couleur ambiante personnalisée à utiliser dans la boîte de la **ReflectionProbe** définie par sa taille :ref:`size<class_ReflectionProbe_property_size>`. La couleur ambiante se mélangera en douceur avec d'autres **ReflectionProbe**\ s et le reste de la scène (à l'extérieur de la boîte de la **ReflectionProbe** définie par sa taille :ref:`size<class_ReflectionProbe_property_size>`).
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ The ambient color to use within the **ReflectionProbe**'s box defined by its :re
 - |void| **set_blend_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_blend_distance**\ (\ )
 
-Defines the distance in meters over which a probe blends into the scene.
+Définit la distance en mètres sur laquelle une sonde se mélange avec la scène.
 
 .. rst-class:: classref-item-separator
 

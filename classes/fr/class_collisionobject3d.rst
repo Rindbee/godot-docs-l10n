@@ -7,7 +7,7 @@ CollisionObject3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Area3D<class_Area3D>`, :ref:`PhysicsBody3D<class_PhysicsBody3D>`
+**Hérité par :** :ref:`Area3D<class_Area3D>`, :ref:`PhysicsBody3D<class_PhysicsBody3D>`
 
 Classe de base abstraite pour les objets physiques 3D.
 
@@ -362,7 +362,7 @@ Crée un nouveau propriétaire de forme pour l'objet donné. Renvoie l’\ ``own
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject3D_method_get_collision_layer_value>`
 
-Renvoie si la couche spécifiée du :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>` est activée, selon un numéro de couche ``layer_number`` entre 1 et 32 donné.
+Renvoie si la couche spécifiée du :ref:`collision_layer<class_CollisionObject3D_property_collision_layer>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

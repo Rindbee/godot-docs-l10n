@@ -22,7 +22,7 @@ Pour des coordonnées entières, utilisez :ref:`Rect2i<class_Rect2i>`. L'équiva
 
 .. note::
 
-	Il y a des différences notables dans l'utilisation de cette API en C#. Voir ref:`doc_c_sharp_differences` pour plus d'informations.
+	Il y a des différences notables dans l'utilisation de cette API en C#. Voir :ref:`doc_c_sharp_differences` pour plus d'informations.
 
 .. rst-class:: classref-introduction-group
 

@@ -10,14 +10,14 @@ Label3D
 
 **Hérite de :** :ref:`GeometryInstance3D<class_GeometryInstance3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A node for displaying plain text in 3D space.
+Un nœud utilisé pour afficher du texte brut dans un espace 3D.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A node for displaying plain text in 3D space. By adjusting various properties of this node, you can configure things such as the text's appearance and whether it always faces the camera.
+Un nœud utilisé pour afficher du texte brut dans un espace 3D. En ajustant différentes propriétés de ce nœud, vous pouvez configurer des choses comme l'apparence du texte et s'il fait toujours face à la caméra.
 
 .. rst-class:: classref-introduction-group
 
@@ -143,7 +143,7 @@ enum **DrawFlags**: :ref:`🔗<enum_Label3D_DrawFlags>`
 
 :ref:`DrawFlags<enum_Label3D_DrawFlags>` **FLAG_SHADED** = ``0``
 
-If set, lights in the environment affect the label.
+Si défini, les lumières dans l’environnement affectent l'étiquette.
 
 .. _class_Label3D_constant_FLAG_DOUBLE_SIDED:
 
@@ -193,7 +193,7 @@ enum **AlphaCutMode**: :ref:`🔗<enum_Label3D_AlphaCutMode>`
 
 :ref:`AlphaCutMode<enum_Label3D_AlphaCutMode>` **ALPHA_CUT_DISABLED** = ``0``
 
-This mode performs standard alpha blending. It can display translucent areas, but transparency sorting issues may be visible when multiple transparent materials are overlapping. :ref:`GeometryInstance3D.cast_shadow<class_GeometryInstance3D_property_cast_shadow>` has no effect when this transparency mode is used; the **Label3D** will never cast shadows.
+Ce mode réalise un mélange alpha standard. Il peut afficher des zones translucides, mais des problèmes de tri de la transparence peuvent être visibles lorsque plusieurs matériaux transparents se chevauchent. :ref:`GeometryInstance3D.cast_shadow<class_GeometryInstance3D_property_cast_shadow>` n'a aucun effet lorsque ce mode de transparence est utilisé, le **Label3D** ne projettera jamais d'ombres.
 
 .. _class_Label3D_constant_ALPHA_CUT_DISCARD:
 
@@ -330,7 +330,7 @@ Le seuil à partir duquel le ciseau alpha ignorera les valeurs.
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, the text gets wrapped inside the node's bounding rectangle. If you resize the node, it will change its height automatically to show all the text.
+Si défini à quelque chose d'autre que :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, le texte retourne automatiquement à la ligne dans le rectangle délimitant du nœud. Si vous redimensionnez le nœud, il va changer sa hauteur automatiquement pour afficher tout le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -347,7 +347,7 @@ If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_co
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Drapeaux de trimming des espaces en autowrap. Voir :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` et :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -364,7 +364,7 @@ Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES
 - |void| **set_billboard_mode**\ (\ value\: :ref:`BillboardMode<enum_BaseMaterial3D_BillboardMode>`\ )
 - :ref:`BillboardMode<enum_BaseMaterial3D_BillboardMode>` **get_billboard_mode**\ (\ )
 
-The billboard mode to use for the label.
+Le mode de billboard à utiliser pour l'étiquette.
 
 .. rst-class:: classref-item-separator
 
@@ -381,7 +381,7 @@ The billboard mode to use for the label.
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`\ ) |const|
 
-If ``true``, text can be seen from the back as well, if ``false``, it is invisible when looking at it from behind.
+Si ``true``, le texte peut aussi être vu de derrière, si ``false``, il est invisible quand on le regarde de derrière.
 
 .. rst-class:: classref-item-separator
 
@@ -398,7 +398,7 @@ If ``true``, text can be seen from the back as well, if ``false``, it is invisib
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`\ ) |const|
 
-If ``true``, the label is rendered at the same size regardless of distance. The label's size on screen is the same as if the camera was ``1.0`` units away from the label's origin, regardless of the actual distance from the camera. The :ref:`Camera3D<class_Camera3D>`'s field of view (or :ref:`Camera3D.size<class_Camera3D_property_size>` when in orthogonal/frustum mode) still affects the size the label is drawn at.
+Si ``true``, l'étiquette est rendue à la même taille indépendamment de la distance. La taille de l'étiquette à l'écran est la même que si la caméra était à ``1.0`` unité de l'origine de l'étiquette, peu importe la distance réelle de la caméra. Le champ de vision de la :ref:`Camera3D<class_Camera3D>` (ou :ref:`Camera3D.size<class_Camera3D_property_size>` en mode orthogonal/frustum) affecte toujours la taille à laquelle l'étiquette est dessinée.
 
 .. rst-class:: classref-item-separator
 
@@ -415,7 +415,7 @@ If ``true``, the label is rendered at the same size regardless of distance. The 
 - |void| **set_font**\ (\ value\: :ref:`Font<class_Font>`\ )
 - :ref:`Font<class_Font>` **get_font**\ (\ )
 
-Font configuration used to display text.
+Configuration de la police utilisée pour afficher le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -432,9 +432,9 @@ Font configuration used to display text.
 - |void| **set_font_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_font_size**\ (\ )
 
-Font size of the **Label3D**'s text. To make the font look more detailed when up close, increase :ref:`font_size<class_Label3D_property_font_size>` while decreasing :ref:`pixel_size<class_Label3D_property_pixel_size>` at the same time.
+Taille de police du texte du **Label3D**. Pour rendre la police plus détaillée de près, augmentez :ref:`font_size<class_Label3D_property_font_size>` tout en diminuant :ref:`pixel_size<class_Label3D_property_pixel_size>` en même temps.
 
-Higher font sizes require more time to render new characters, which can cause stuttering during gameplay.
+Les tailles de police plus élevées nécessitent plus de temps pour rendre de nouveaux caractères, ce qui peut causer du stuttering pendant le gameplay.
 
 .. rst-class:: classref-item-separator
 
@@ -451,7 +451,7 @@ Higher font sizes require more time to render new characters, which can cause st
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Controls the text's horizontal alignment. Supports left, center, right, and fill (also known as justify).
+Contrôle l'alignement horizontal du texte. Supporte à gauche, au centre, à droite, ou remplir (aussi connu comme justifié).
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ Controls the text's horizontal alignment. Supports left, center, right, and fill
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Règles d'alignement du remplissage des lignes.
 
 .. rst-class:: classref-item-separator
 
@@ -502,7 +502,7 @@ Code de langue utilisé pour les algorithmes de retour à la ligne et de "text s
 - |void| **set_line_spacing**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_line_spacing**\ (\ )
 
-Additional vertical spacing between lines (in pixels), spacing is added to line descent. This value can be negative.
+Espacement vertical supplémentaire entre les lignes (en pixels), l'espacement est ajouté à la descente de la ligne. Cette valeur peut être négative.
 
 .. rst-class:: classref-item-separator
 
@@ -553,7 +553,7 @@ Si ``true``, les tests de profondeur sont désactivés et l'objet sera dessiné 
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The text drawing offset (in pixels).
+Le décalage du dessin du texte (en pixels).
 
 .. rst-class:: classref-item-separator
 
@@ -625,7 +625,7 @@ Taille du contour du texte.
 - |void| **set_pixel_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_pixel_size**\ (\ )
 
-The size of one pixel's width on the label to scale it in 3D. To make the font look more detailed when up close, increase :ref:`font_size<class_Label3D_property_font_size>` while decreasing :ref:`pixel_size<class_Label3D_property_pixel_size>` at the same time.
+La taille de la largeur d'un pixel sur l'étiquette pour la redimensionner en 3D. Pour rendre la police plus détaillée de près, augmentez :ref:`font_size<class_Label3D_property_font_size>` tout en diminuant :ref:`pixel_size<class_Label3D_property_pixel_size>` en même temps.
 
 .. rst-class:: classref-item-separator
 
@@ -663,7 +663,7 @@ Définit la priorité de rendu pour le texte. Les objets les plus prioritaires s
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`\ ) |const|
 
-If ``true``, the :ref:`Light3D<class_Light3D>` in the :ref:`Environment<class_Environment>` has effects on the label.
+Si ``true``, la :ref:`Light3D<class_Light3D>` dans l':ref:`Environment<class_Environment>` a des effets sur l'étiquette.
 
 .. rst-class:: classref-item-separator
 
@@ -680,7 +680,7 @@ If ``true``, the :ref:`Light3D<class_Light3D>` in the :ref:`Environment<class_En
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Set BiDi algorithm override for the structured text.
+Définit la redéfinition de l'algorithme BiDi pour le texte structuré.
 
 .. rst-class:: classref-item-separator
 
@@ -697,7 +697,7 @@ Set BiDi algorithm override for the structured text.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Set additional options for BiDi override.
+Définit des options supplémentaires pour la redéfinition BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -748,7 +748,7 @@ Direction d'écriture du texte de base.
 - |void| **set_texture_filter**\ (\ value\: :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>`\ )
 - :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **get_texture_filter**\ (\ )
 
-Filter flags for the texture.
+Drapeaux de filtrage pour la texture.
 
 .. rst-class:: classref-item-separator
 
@@ -782,7 +782,7 @@ Si ``true``, tous les textes seront en MAJUSCULE.
 - |void| **set_vertical_alignment**\ (\ value\: :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>`\ )
 - :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>` **get_vertical_alignment**\ (\ )
 
-Controls the text's vertical alignment. Supports top, center, and bottom.
+Contrôle l'alignement vertical du texte. Supporte en haut, au centre, et en bas.
 
 .. rst-class:: classref-item-separator
 
@@ -816,7 +816,7 @@ Descriptions des méthodes
 
 :ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh**\ (\ ) |const| :ref:`🔗<class_Label3D_method_generate_triangle_mesh>`
 
-Returns a :ref:`TriangleMesh<class_TriangleMesh>` with the label's vertices following its current configuration (such as its :ref:`pixel_size<class_Label3D_property_pixel_size>`).
+Renvoie un :ref:`TriangleMesh<class_TriangleMesh>` avec les sommets de l'étiquette suivant sa configuration actuelle (comme :ref:`pixel_size<class_Label3D_property_pixel_size>`).
 
 .. rst-class:: classref-item-separator
 
@@ -840,7 +840,7 @@ Renvoie la valeur de l'option donnée.
 
 |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_Label3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Label3D_method_set_draw_flag>`
 
-If ``true``, the specified ``flag`` will be enabled.
+Si ``true``, le drapeau ``flag`` spécifié sera activé.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

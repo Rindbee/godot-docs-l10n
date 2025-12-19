@@ -7,7 +7,7 @@ CameraAttributesPractical
 
 **Hereda:** :ref:`CameraAttributes<class_CameraAttributes>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Camera settings in an easy to use format.
+Ajustes de la cámara en un formato fácil de usar.
 
 .. rst-class:: classref-introduction-group
 
@@ -138,6 +138,8 @@ Enables depth of field blur for objects further than :ref:`dof_blur_far_distance
 
 \ **Note:** Depth of field blur is only supported in the Forward+ and Mobile rendering methods, not Compatibility.
 
+\ **Note:** Depth of field blur is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -190,6 +192,8 @@ Objects closer from the :ref:`Camera3D<class_Camera3D>` by this amount will be b
 Enables depth of field blur for objects closer than :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>`. Strength of blur is controlled by :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` and modulated by :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>`.
 
 \ **Note:** Depth of field blur is only supported in the Forward+ and Mobile rendering methods, not Compatibility.
+
+\ **Note:** Depth of field blur is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 

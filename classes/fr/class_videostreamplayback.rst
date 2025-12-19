@@ -213,7 +213,7 @@ Arrête la lecture. Peut être appelée plusieurs fois avant :ref:`_play()<class
 
 |void| **_update**\ (\ delta\: :ref:`float<class_float>`\ ) |virtual| |required| :ref:`🔗<class_VideoStreamPlayback_private_method__update>`
 
-Ticks video playback for ``delta`` seconds. Called every frame as long as both :ref:`_is_paused()<class_VideoStreamPlayback_private_method__is_paused>` and :ref:`_is_playing()<class_VideoStreamPlayback_private_method__is_playing>` return ``true``.
+Avance la lecture vidéo de ``delta`` secondes. Appelée à chaque trame tant que :ref:`_is_paused()<class_VideoStreamPlayback_private_method__is_paused>` et :ref:`_is_playing()<class_VideoStreamPlayback_private_method__is_playing>` renvoient ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -225,7 +225,7 @@ Ticks video playback for ``delta`` seconds. Called every frame as long as both :
 
 :ref:`int<class_int>` **mix_audio**\ (\ num_frames\: :ref:`int<class_int>`, buffer\: :ref:`PackedFloat32Array<class_PackedFloat32Array>` = PackedFloat32Array(), offset\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_VideoStreamPlayback_method_mix_audio>`
 
-Render ``num_frames`` audio frames (of :ref:`_get_channels()<class_VideoStreamPlayback_private_method__get_channels>` floats each) from ``buffer``, starting from index ``offset`` in the array. Returns the number of audio frames rendered, or -1 on error.
+Rend ``num_frames`` trames audio (de :ref:`_get_channels()<class_VideoStreamPlayback_private_method__get_channels>` flottants chacun) du ``buffer``, à partir de l'index ``offset`` dans le tableau. Renvoie le nombre de trames audio rendues, ou -1 lors d'une erreur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

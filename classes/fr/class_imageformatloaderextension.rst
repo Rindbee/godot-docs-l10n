@@ -7,16 +7,16 @@ ImageFormatLoaderExtension
 
 **Hérite de :** :ref:`ImageFormatLoader<class_ImageFormatLoader>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Base class for creating :ref:`ImageFormatLoader<class_ImageFormatLoader>` extensions (adding support for extra image formats).
+Classe de base pour la création d'extensions de :ref:`ImageFormatLoader<class_ImageFormatLoader>` (ajouter du support pour des formats d'image supplémentaires).
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-The engine supports multiple image formats out of the box (PNG, SVG, JPEG, WebP to name a few), but you can choose to implement support for additional image formats by extending this class.
+Le moteur prend en charge plusieurs formats d'image (PNG, SVG, JPEG, WebP pour n'en nommer que quelques-uns), mais vous pouvez choisir d'implémenter le support pour des formats d'image supplémentaires en élargissant cette classe.
 
-Be sure to respect the documented return types and values. You should create an instance of it, and call :ref:`add_format_loader()<class_ImageFormatLoaderExtension_method_add_format_loader>` to register that loader during the initialization phase.
+Assurez-vous de respecter les types et les valeurs de renvoi documentés. Vous devriez en créer une instance et appeler :ref:`add_format_loader()<class_ImageFormatLoaderExtension_method_add_format_loader>` pour enregistrer ce chargeur pendant la phase d'initialisation.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ Descriptions des méthodes
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_recognized_extensions**\ (\ ) |virtual| |const| :ref:`🔗<class_ImageFormatLoaderExtension_private_method__get_recognized_extensions>`
 
-Returns the list of file extensions for this image format. Files with the given extensions will be treated as image file and loaded using this class.
+Renvoie la liste des extensions de fichier pour ce format d'image. Les fichiers avec les extensions données seront traités comme des fichier image et chargés en utilisant cette classe.
 
 .. rst-class:: classref-item-separator
 
@@ -63,7 +63,7 @@ Returns the list of file extensions for this image format. Files with the given 
 
 :ref:`Error<enum_@GlobalScope_Error>` **_load_image**\ (\ image\: :ref:`Image<class_Image>`, fileaccess\: :ref:`FileAccess<class_FileAccess>`, flags\: |bitfield|\[:ref:`LoaderFlags<enum_ImageFormatLoader_LoaderFlags>`\], scale\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_ImageFormatLoaderExtension_private_method__load_image>`
 
-Loads the content of ``fileaccess`` into the provided ``image``.
+Charge le contenu de ``fileaccess`` dans l'``image`` fournie.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ Loads the content of ``fileaccess`` into the provided ``image``.
 
 |void| **add_format_loader**\ (\ ) :ref:`🔗<class_ImageFormatLoaderExtension_method_add_format_loader>`
 
-Add this format loader to the engine, allowing it to recognize the file extensions returned by :ref:`_get_recognized_extensions()<class_ImageFormatLoaderExtension_private_method__get_recognized_extensions>`.
+Ajoute ce chargeur de format au moteur, lui permettant de reconnaître les extensions de fichier renvoyées par :ref:`_get_recognized_extensions()<class_ImageFormatLoaderExtension_private_method__get_recognized_extensions>`.
 
 .. rst-class:: classref-item-separator
 
@@ -87,7 +87,7 @@ Add this format loader to the engine, allowing it to recognize the file extensio
 
 |void| **remove_format_loader**\ (\ ) :ref:`🔗<class_ImageFormatLoaderExtension_method_remove_format_loader>`
 
-Remove this format loader from the engine.
+Retire ce chargeur de format du moteur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

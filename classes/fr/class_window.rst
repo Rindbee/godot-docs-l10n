@@ -7,7 +7,7 @@ Window
 
 **Hérite de :** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`AcceptDialog<class_AcceptDialog>`, :ref:`Popup<class_Popup>`
+**Hérité par :** :ref:`AcceptDialog<class_AcceptDialog>`, :ref:`Popup<class_Popup>`
 
 Classe de base pour toutes les fenêtres, boîtes de dialogue et popups.
 

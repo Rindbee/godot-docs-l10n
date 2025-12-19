@@ -7,14 +7,14 @@ NinePatchRect
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A control that displays a texture by keeping its corners intact, but tiling its edges and center.
+Un contrôle qui affiche une texture en gardant ses angles intacts, mais en répétant ses bords et son centre.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Also known as 9-slice panels, **NinePatchRect** produces clean panels of any size based on a small texture. To do so, it splits the texture in a 3×3 grid. When you scale the node, it tiles the texture's edges horizontally or vertically, tiles the center on both axes, and leaves the corners unchanged.
+Aussi connu sous le nom de panneaux à 9 tranches (9-slice panels), **NinePatchRect** produit des panneaux propres de toute taille en fonction d'une petite texture. Pour ce faire, il divise la texture en une grille de 3×3. Lorsque vous redimensionnez le nœud, il répète les bords de la texture horizontalement ou verticalement, répète le centre sur les deux axes, et laisse les coins inchangés.
 
 .. rst-class:: classref-reftable-group
 
@@ -106,7 +106,7 @@ enum **AxisStretchMode**: :ref:`🔗<enum_NinePatchRect_AxisStretchMode>`
 
 :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **AXIS_STRETCH_MODE_TILE** = ``1``
 
-Repeats the center texture across the NinePatchRect. This won't cause any visible distortion. The texture must be seamless for this to work without displaying artifacts between edges.
+Répète la texture du centre sur tout le NinePatchRect. Cela ne provoque aucune distorsion visible. La texture doit être sans raccord pour que cela fonctionne sans afficher d'artefacts entre les bords.
 
 .. _class_NinePatchRect_constant_AXIS_STRETCH_MODE_TILE_FIT:
 
@@ -114,7 +114,7 @@ Repeats the center texture across the NinePatchRect. This won't cause any visibl
 
 :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **AXIS_STRETCH_MODE_TILE_FIT** = ``2``
 
-Repeats the center texture across the NinePatchRect, but will also stretch the texture to make sure each tile is visible in full. This may cause the texture to be distorted, but less than :ref:`AXIS_STRETCH_MODE_STRETCH<class_NinePatchRect_constant_AXIS_STRETCH_MODE_STRETCH>`. The texture must be seamless for this to work without displaying artifacts between edges.
+Répète la texture centrale sur tout le NinePatchRect, mais étirera également la texture pour s'assurer que chaque tuile est visible entièrement. Cela peut causer une distorsion de la texture, mais moins que :ref:`AXIS_STRETCH_MODE_STRETCH<class_NinePatchRect_constant_AXIS_STRETCH_MODE_STRETCH>`. La texture doit être sans raccord pour que cela fonctionne sans afficher d'artefacts entre les bords.
 
 .. rst-class:: classref-section-separator
 
@@ -136,7 +136,7 @@ Descriptions des propriétés
 - |void| **set_h_axis_stretch_mode**\ (\ value\: :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`\ )
 - :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **get_h_axis_stretch_mode**\ (\ )
 
-The stretch mode to use for horizontal stretching/tiling.
+Le mode d'étirement à utiliser pour l'étirement ou la répétition horizontale.
 
 .. rst-class:: classref-item-separator
 
@@ -153,7 +153,7 @@ The stretch mode to use for horizontal stretching/tiling.
 - |void| **set_v_axis_stretch_mode**\ (\ value\: :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`\ )
 - :ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` **get_v_axis_stretch_mode**\ (\ )
 
-The stretch mode to use for vertical stretching/tiling.
+Le mode d'étirement à utiliser pour l'étirement ou la répétition verticale.
 
 .. rst-class:: classref-item-separator
 
@@ -289,7 +289,7 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **get_patch_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_NinePatchRect_method_get_patch_margin>`
 
-Returns the size of the margin on the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Renvoie la taille de la marge sur le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -301,7 +301,7 @@ Returns the size of the margin on the specified :ref:`Side<enum_@GlobalScope_Sid
 
 |void| **set_patch_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_NinePatchRect_method_set_patch_margin>`
 
-Sets the size of the margin on the specified :ref:`Side<enum_@GlobalScope_Side>` to ``value`` pixels.
+Définit la taille de la marge sur le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié à ``value`` pixels.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

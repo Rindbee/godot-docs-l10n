@@ -218,7 +218,7 @@ Direction d'écriture du texte.
 - |void| **set_ellipsis_char**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_ellipsis_char**\ (\ )
 
-Ellipsis character used for text clipping.
+Caractère d’ellipse utilisé pour tronquer du texte.
 
 .. rst-class:: classref-item-separator
 
@@ -235,7 +235,7 @@ Ellipsis character used for text clipping.
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Règles d'alignement du remplissage des lignes.
 
 .. rst-class:: classref-item-separator
 
@@ -252,7 +252,7 @@ Line fill alignment rules.
 - |void| **set_line_spacing**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_line_spacing**\ (\ )
 
-Additional vertical spacing between lines (in pixels), spacing is added to line descent. This value can be negative.
+Espacement vertical supplémentaire entre les lignes (en pixels), l'espacement est ajouté à la descente de la ligne. Cette valeur peut être négative.
 
 .. rst-class:: classref-item-separator
 

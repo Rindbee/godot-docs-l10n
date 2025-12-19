@@ -7,7 +7,7 @@ CubemapArray
 
 **Hérite de :** :ref:`ImageTextureLayered<class_ImageTextureLayered>` **<** :ref:`TextureLayered<class_TextureLayered>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An array of :ref:`Cubemap<class_Cubemap>`\ s, stored together and with a single reference.
+Un tableau de :ref:`Cubemap<class_Cubemap>`\ s, stockés ensemble et avec une seule référence.
 
 .. rst-class:: classref-introduction-group
 

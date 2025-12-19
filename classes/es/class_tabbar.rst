@@ -302,7 +302,7 @@ Emitted when a tab is right-clicked. :ref:`select_with_rmb<class_TabBar_property
 
 **tab_selected**\ (\ tab\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TabBar_signal_tab_selected>`
 
-Emitted when a tab is selected via click, directional input, or script, even if it is the current tab.
+Emitida cuando una pestaña es seleccionada mediante un clic, entrada direccional o script, incluso si es la pestaña actual.
 
 .. rst-class:: classref-section-separator
 
@@ -325,7 +325,7 @@ enum **AlignmentMode**: :ref:`🔗<enum_TabBar_AlignmentMode>`
 
 :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **ALIGNMENT_LEFT** = ``0``
 
-Places tabs to the left.
+Coloca las pestañas a la izquierda.
 
 .. _class_TabBar_constant_ALIGNMENT_CENTER:
 
@@ -333,7 +333,7 @@ Places tabs to the left.
 
 :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **ALIGNMENT_CENTER** = ``1``
 
-Places tabs in the middle.
+Coloca las pestañas en el medio.
 
 .. _class_TabBar_constant_ALIGNMENT_RIGHT:
 
@@ -341,7 +341,7 @@ Places tabs in the middle.
 
 :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **ALIGNMENT_RIGHT** = ``2``
 
-Places tabs to the right.
+Coloca las pestañas a la derecha.
 
 .. _class_TabBar_constant_ALIGNMENT_MAX:
 
@@ -349,7 +349,7 @@ Places tabs to the right.
 
 :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` **ALIGNMENT_MAX** = ``3``
 
-Represents the size of the :ref:`AlignmentMode<enum_TabBar_AlignmentMode>` enum.
+Representa el tamaño del enum :ref:`AlignmentMode<enum_TabBar_AlignmentMode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -617,9 +617,9 @@ El número de pestañas que hay actualmente en la barra.
 - |void| **set_tabs_rearrange_group**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_tabs_rearrange_group**\ (\ )
 
-**TabBar**\ s with the same rearrange group ID will allow dragging the tabs between them. Enable drag with :ref:`drag_to_rearrange_enabled<class_TabBar_property_drag_to_rearrange_enabled>`.
+Las **TabBar**\ s con el mismo ID de grupo de reorganización permitirán arrastrar las pestañas entre ellas. Activa el arrastre con :ref:`drag_to_rearrange_enabled<class_TabBar_property_drag_to_rearrange_enabled>`.
 
-Setting this to ``-1`` will disable rearranging between **TabBar**\ s.
+Establecer esto como ``-1`` desactivará la reorganización entre **TabBar**\ s.
 
 .. rst-class:: classref-section-separator
 
@@ -900,7 +900,7 @@ Selecciona la primera pestaña disponible con un índice menor que la actualment
 
 |void| **set_tab_button_icon**\ (\ tab_idx\: :ref:`int<class_int>`, icon\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_TabBar_method_set_tab_button_icon>`
 
-Establece un ``icon`` para el botón de la pestaña en el índice ``tab_idx`` (ubicado a la derecha, antes del botón de cierre), haciéndolo visible y clickable (Ver :ref:`tab_button_pressed<class_TabBar_signal_tab_button_pressed>`). Darle un valor ``null`` ocultará el botón.
+Establece un ``icon`` para el botón de la pestaña en el índice ``tab_idx`` (ubicado a la derecha, antes del botón de cierre), haciéndolo visible y clicable (Véase :ref:`tab_button_pressed<class_TabBar_signal_tab_button_pressed>`). Darle un valor ``null`` ocultará el botón.
 
 .. rst-class:: classref-item-separator
 
@@ -1027,7 +1027,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Color<class_Color>` **drop_mark_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_TabBar_theme_color_drop_mark_color>`
 
-Modulation color for the :ref:`drop_mark<class_TabBar_theme_icon_drop_mark>` icon.
+Color de modulación para el icono :ref:`drop_mark<class_TabBar_theme_icon_drop_mark>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1051,7 +1051,7 @@ El color de la fuente de las pestañas desactivadas.
 
 :ref:`Color<class_Color>` **font_hovered_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_TabBar_theme_color_font_hovered_color>`
 
-Font color of the currently hovered tab. Does not apply to the selected tab.
+Color de la fuente de la pestaña sobre la que está el cursor. No se aplica a la pestaña seleccionada.
 
 .. rst-class:: classref-item-separator
 
@@ -1063,7 +1063,7 @@ Font color of the currently hovered tab. Does not apply to the selected tab.
 
 :ref:`Color<class_Color>` **font_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_TabBar_theme_color_font_outline_color>`
 
-The tint of text outline of the tab name.
+El tinte del contorno del texto del nombre de la pestaña.
 
 .. rst-class:: classref-item-separator
 
@@ -1087,7 +1087,7 @@ Color de la fuente de la pestaña actualmente seleccionada.
 
 :ref:`Color<class_Color>` **font_unselected_color** = ``Color(0.7, 0.7, 0.7, 1)`` :ref:`🔗<class_TabBar_theme_color_font_unselected_color>`
 
-Font color of the other, unselected tabs.
+Color de la fuente de las otras pestañas no seleccionadas.
 
 .. rst-class:: classref-item-separator
 
@@ -1099,7 +1099,7 @@ Font color of the other, unselected tabs.
 
 :ref:`int<class_int>` **h_separation** = ``4`` :ref:`🔗<class_TabBar_theme_constant_h_separation>`
 
-The horizontal separation between the elements inside tabs.
+La separación horizontal entre los elementos dentro de las pestañas.
 
 .. rst-class:: classref-item-separator
 
@@ -1111,7 +1111,7 @@ The horizontal separation between the elements inside tabs.
 
 :ref:`int<class_int>` **icon_max_width** = ``0`` :ref:`🔗<class_TabBar_theme_constant_icon_max_width>`
 
-The maximum allowed width of the tab's icon. This limit is applied on top of the default size of the icon, but before the value set with :ref:`set_tab_icon_max_width()<class_TabBar_method_set_tab_icon_max_width>`. The height is adjusted according to the icon's ratio.
+El ancho máximo permitido para el icono de la pestaña. Este límite se aplica además del tamaño por defecto del icono, pero antes del valor establecido con :ref:`set_tab_icon_max_width()<class_TabBar_method_set_tab_icon_max_width>`. La altura se ajusta según la proporción del icono.
 
 .. rst-class:: classref-item-separator
 
@@ -1123,9 +1123,9 @@ The maximum allowed width of the tab's icon. This limit is applied on top of the
 
 :ref:`int<class_int>` **outline_size** = ``0`` :ref:`🔗<class_TabBar_theme_constant_outline_size>`
 
-The size of the tab text outline.
+El tamaño del contorno del texto de la pestaña.
 
-\ **Note:** If using a font with :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` enabled, its :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` must be set to at least *twice* the value of :ref:`outline_size<class_TabBar_theme_constant_outline_size>` for outline rendering to look correct. Otherwise, the outline may appear to be cut off earlier than intended.
+\ **Nota:** Si utilizas una fuente con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` activado, su :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` debe establecerse al menos al *doble* del valor de :ref:`outline_size<class_TabBar_theme_constant_outline_size>` para que el renderizado del contorno se vea correctamente. De lo contrario, el contorno puede aparecer recortado antes de lo previsto.
 
 .. rst-class:: classref-item-separator
 
@@ -1209,7 +1209,7 @@ Icono para el botón de la flecha izquierda que aparece cuando hay demasiadas pe
 
 :ref:`Texture2D<class_Texture2D>` **drop_mark** :ref:`🔗<class_TabBar_theme_icon_drop_mark>`
 
-Icon shown to indicate where a dragged tab is gonna be dropped (see :ref:`drag_to_rearrange_enabled<class_TabBar_property_drag_to_rearrange_enabled>`).
+Icono que se muestra para indicar dónde se va a soltar una pestaña arrastrada (véase :ref:`drag_to_rearrange_enabled<class_TabBar_property_drag_to_rearrange_enabled>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1245,7 +1245,7 @@ Icono para el botón de la flecha derecha que aparece cuando hay demasiadas pest
 
 :ref:`StyleBox<class_StyleBox>` **button_highlight** :ref:`🔗<class_TabBar_theme_style_button_highlight>`
 
-Background of the tab and close buttons when they're being hovered with the cursor.
+Fondo de la pestaña y los botones de cierre cuando se está pasando el cursor sobre ellos.
 
 .. rst-class:: classref-item-separator
 
@@ -1257,7 +1257,7 @@ Background of the tab and close buttons when they're being hovered with the curs
 
 :ref:`StyleBox<class_StyleBox>` **button_pressed** :ref:`🔗<class_TabBar_theme_style_button_pressed>`
 
-Background of the tab and close buttons when it's being pressed.
+Fondo de la pestaña y los botones de cierre cuando se están presionando.
 
 .. rst-class:: classref-item-separator
 
@@ -1281,7 +1281,7 @@ El estilo de las pestañas desactivadas.
 
 :ref:`StyleBox<class_StyleBox>` **tab_focus** :ref:`🔗<class_TabBar_theme_style_tab_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **TabBar** is focused. The :ref:`tab_focus<class_TabBar_theme_style_tab_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>` of the selected tab, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+:ref:`StyleBox<class_StyleBox>` que se usa cuando el **TabBar** tiene el foco. El :ref:`StyleBox<class_StyleBox>` de :ref:`tab_focus<class_TabBar_theme_style_tab_focus>` se muestra *sobre* el :ref:`StyleBox<class_StyleBox>` base de la pestaña seleccionada, por lo que se debe usar un :ref:`StyleBox<class_StyleBox>` parcialmente transparente para garantizar que el :ref:`StyleBox<class_StyleBox>` base permanezca visible. Un :ref:`StyleBox<class_StyleBox>` que representa un contorno o un subrayado funciona bien para este propósito. Para deshabilitar el efecto visual de foco, asigna un recurso :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Ten en cuenta que deshabilitar el efecto visual de foco perjudicará la usabilidad de la navegación por teclado/controlador, por lo que no se recomienda por razones de accesibilidad.
 
 .. rst-class:: classref-item-separator
 

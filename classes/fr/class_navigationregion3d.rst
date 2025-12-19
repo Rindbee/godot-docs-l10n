@@ -9,7 +9,7 @@ NavigationRegion3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A traversable 3D region that :ref:`NavigationAgent3D<class_NavigationAgent3D>`\ s can use for pathfinding.
+Une région 3D traversable que des :ref:`NavigationAgent3D<class_NavigationAgent3D>`\ s peuvent utiliser pour leur recherche de chemin.
 
 .. rst-class:: classref-introduction-group
 
@@ -153,7 +153,7 @@ Détermine si la **NavigationRegion3D** est activée ou désactivée.
 - |void| **set_enter_cost**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_enter_cost**\ (\ )
 
-When pathfinding enters this region's navigation mesh from another regions navigation mesh the :ref:`enter_cost<class_NavigationRegion3D_property_enter_cost>` value is added to the path distance for determining the shortest path.
+Lorsque la recherche de chemin entre dans le maillage de navigation de cette région depuis le maillage de navigation d'une autre région, la valeur :ref:`enter_cost<class_NavigationRegion3D_property_enter_cost>` est ajoutée à la distance du chemin pour déterminer le chemin le plus court.
 
 .. rst-class:: classref-item-separator
 
@@ -204,7 +204,7 @@ La ressource :ref:`NavigationMesh<class_NavigationMesh>` à utiliser.
 - |void| **set_travel_cost**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_travel_cost**\ (\ )
 
-When pathfinding moves inside this region's navigation mesh the traveled distances are multiplied with :ref:`travel_cost<class_NavigationRegion3D_property_travel_cost>` for determining the shortest path.
+Lorsque la recherche de chemin se déplace dans le maillage de navigation de cette région, les distances parcourues sont multipliées par :ref:`travel_cost<class_NavigationRegion3D_property_travel_cost>` pour déterminer le chemin le plus court.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Returns the axis-aligned bounding box for the region's transformed navigation me
 
 :ref:`bool<class_bool>` **get_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationRegion3D_method_get_navigation_layer_value>`
 
-Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class_NavigationRegion3D_property_navigation_layers>` est activée, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class_NavigationRegion3D_property_navigation_layers>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -274,7 +274,7 @@ Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class
 
 :ref:`RID<class_RID>` **get_navigation_map**\ (\ ) |const| :ref:`🔗<class_NavigationRegion3D_method_get_navigation_map>`
 
-Returns the current navigation map :ref:`RID<class_RID>` used by this region.
+Renvoie le :ref:`RID<class_RID>` de la carte de navigation actuelle utilisée par cette région.
 
 .. rst-class:: classref-item-separator
 
@@ -288,7 +288,7 @@ Returns the current navigation map :ref:`RID<class_RID>` used by this region.
 
 **Obsolète :** Use :ref:`get_rid()<class_NavigationRegion3D_method_get_rid>` instead.
 
-Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Renvoie le :ref:`RID<class_RID>` de cette région sur le :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer3D
 
 :ref:`RID<class_RID>` **get_rid**\ (\ ) |const| :ref:`🔗<class_NavigationRegion3D_method_get_rid>`
 
-Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer3D<class_NavigationServer3D>`. Combined with :ref:`NavigationServer3D.map_get_closest_point_owner()<class_NavigationServer3D_method_map_get_closest_point_owner>` can be used to identify the **NavigationRegion3D** closest to a point on the merged navigation map.
+Renvoie le :ref:`RID<class_RID>` de cette région sur le :ref:`NavigationServer3D<class_NavigationServer3D>`. Combiné avec :ref:`NavigationServer3D.map_get_closest_point_owner()<class_NavigationServer3D_method_map_get_closest_point_owner>`, cela peut être utilisé pour identifier la **NavigationRegion3D** la plus proche d'un point sur la carte de navigation fusionnée.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Renvoie ``true`` lorsque le :ref:`NavigationMesh<class_NavigationMesh>` est en c
 
 |void| **set_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationRegion3D_method_set_navigation_layer_value>`
 
-Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`navigation_layers<class_NavigationRegion3D_property_navigation_layers>`, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`navigation_layers<class_NavigationRegion3D_property_navigation_layers>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

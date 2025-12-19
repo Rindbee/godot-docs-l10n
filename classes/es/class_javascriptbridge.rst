@@ -145,9 +145,9 @@ If ``use_global_execution_context`` is ``true``, the code will be evaluated in t
 
 |void| **force_fs_sync**\ (\ ) :ref:`🔗<class_JavaScriptBridge_method_force_fs_sync>`
 
-Force synchronization of the persistent file system (when enabled).
+Fuerza la sincronización del sistema de archivos persistente (cuando está habilitado).
 
-\ **Note:** This is only useful for modules or extensions that can't use :ref:`FileAccess<class_FileAccess>` to write files.
+\ **Nota: ** Esto sólo es útil para módulos o extensiones que no pueden usar :ref:`FileAccess<class_FileAccess>` para escribir archivos.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ Force synchronization of the persistent file system (when enabled).
 
 :ref:`JavaScriptObject<class_JavaScriptObject>` **get_interface**\ (\ interface\: :ref:`String<class_String>`\ ) :ref:`🔗<class_JavaScriptBridge_method_get_interface>`
 
-Returns an interface to a JavaScript object that can be used by scripts. The ``interface`` must be a valid property of the JavaScript ``window``. The callback must accept a single :ref:`Array<class_Array>` argument, which will contain the JavaScript ``arguments``. See :ref:`JavaScriptObject<class_JavaScriptObject>` for usage.
+Devuelve una interfaz a un objeto de JavaScript que puede ser utilizado por scripts. La ``interface`` debe ser una propiedad válida de la ventana de JavaScript ````. El callback debe aceptar un solo argumento :ref:`Array<class_Array>`, el cual contiene los ``arguments`` de JavaScript. Véase :ref:`JavaScriptObject<class_JavaScriptObject>` para su uso.
 
 .. rst-class:: classref-item-separator
 

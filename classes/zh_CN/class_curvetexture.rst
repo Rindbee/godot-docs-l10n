@@ -104,7 +104,7 @@ enum **TextureMode**: :ref:`🔗<enum_CurveTexture_TextureMode>`
 - |void| **set_texture_mode**\ (\ value\: :ref:`TextureMode<enum_CurveTexture_TextureMode>`\ )
 - :ref:`TextureMode<enum_CurveTexture_TextureMode>` **get_texture_mode**\ (\ )
 
-生成纹理时应使用的格式。当将 CurveTexture 作为输入传递给 :ref:`Shader<class_Shader>` 时，可能需要调整。
+生成纹理时应使用的格式。将 CurveTexture 作为输入传递给 :ref:`Shader<class_Shader>` 时，可能需要调整。
 
 .. rst-class:: classref-item-separator
 

@@ -7,20 +7,20 @@ VisibleOnScreenNotifier2D
 
 **Hérite de :** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisibleOnScreenEnabler2D<class_VisibleOnScreenEnabler2D>`
+**Hérité par :** :ref:`VisibleOnScreenEnabler2D<class_VisibleOnScreenEnabler2D>`
 
-A rectangular region of 2D space that detects whether it is visible on screen.
+Une région rectangulaire de l'espace 2D qui détecte s'il est visible à l'écran.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**VisibleOnScreenNotifier2D** represents a rectangular region of 2D space. When any part of this region becomes visible on screen or in a viewport, it will emit a :ref:`screen_entered<class_VisibleOnScreenNotifier2D_signal_screen_entered>` signal, and likewise it will emit a :ref:`screen_exited<class_VisibleOnScreenNotifier2D_signal_screen_exited>` signal when no part of it remains visible.
+**VisibleOnScreenNotifier2D** représente une région rectangulaire de l'espace 2D qui détecte s'il est visible à l'écran. Lorsqu'une partie de cette région devient visible à l'écran ou dans un viewport, il émettra un signal :ref:`screen_entered<class_VisibleOnScreenNotifier2D_signal_screen_entered>`, et de même il émettra un signal :ref:`screen_exited<class_VisibleOnScreenNotifier2D_signal_screen_exited>` lorsqu'aucune partie de celle-ci n'est visible.
 
-If you want a node to be enabled automatically when this region is visible on screen, use :ref:`VisibleOnScreenEnabler2D<class_VisibleOnScreenEnabler2D>`.
+Si vous voulez qu'un nœud soit activé automatiquement lorsque cette région est visible à l'écran, utilisez :ref:`VisibleOnScreenEnabler2D<class_VisibleOnScreenEnabler2D>`.
 
-\ **Note:** **VisibleOnScreenNotifier2D** uses the render culling code to determine whether it's visible on screen, so it won't function unless :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` is set to ``true``.
+\ **Note :** **VisibleOnScreenNotifier2D** utilise le code du render culling pour déterminer s'il est visible à l'écran, ainsi il ne fonctionnera pas sauf si :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` est défini à ``true``.
 
 .. rst-class:: classref-introduction-group
 
@@ -121,7 +121,7 @@ Le rectangle délimitant du VisibleOnScreenNotifier2D.
 - |void| **set_show_rect**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_showing_rect**\ (\ )
 
-If ``true``, shows the rectangle area of :ref:`rect<class_VisibleOnScreenNotifier2D_property_rect>` in the editor with a translucent magenta fill. Unlike changing the visibility of the VisibleOnScreenNotifier2D, this does not affect the screen culling detection.
+Si ``true``, affiche la zone du rectangle de :ref:`rect<class_VisibleOnScreenNotifier2D_property_rect>` dans l'éditeur avec un remplissage magenta translucide. Contrairement à changer la visibilité du VisibleOnScreenNotifier2D, cela n'affecte pas la détection du screen culling.
 
 .. rst-class:: classref-section-separator
 

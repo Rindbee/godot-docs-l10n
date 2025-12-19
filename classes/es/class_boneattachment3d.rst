@@ -10,14 +10,14 @@ BoneAttachment3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-А node that dynamically copies or overrides the 3D transform of a bone in its parent :ref:`Skeleton3D<class_Skeleton3D>`.
+Un nodo que copia u omite dinámicamente la transformación 3D de un hueso en su :ref:`Skeleton3D<class_Skeleton3D>` padre.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This node selects a bone in a :ref:`Skeleton3D<class_Skeleton3D>` and attaches to it. This means that the **BoneAttachment3D** node will either dynamically copy or override the 3D transform of the selected bone.
+Este nodo selecciona un hueso en un :ref:`Skeleton3D<class_Skeleton3D>` y se adjunta a él. Esto significa que el nodo **BoneAttachment3D** copiará dinámicamente o anulará la transformación 3D del hueso seleccionado.
 
 .. rst-class:: classref-reftable-group
 
@@ -75,7 +75,7 @@ Descripciones de Propiedades
 - |void| **set_bone_idx**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bone_idx**\ (\ )
 
-The index of the attached bone.
+El índice del hueso adjunto.
 
 .. rst-class:: classref-item-separator
 
@@ -109,7 +109,7 @@ El nombre del hueso unido.
 - |void| **set_external_skeleton**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_external_skeleton**\ (\ )
 
-The :ref:`NodePath<class_NodePath>` to the external :ref:`Skeleton3D<class_Skeleton3D>` node.
+El :ref:`NodePath<class_NodePath>` al nodo :ref:`Skeleton3D<class_Skeleton3D>` externo.
 
 .. rst-class:: classref-item-separator
 
@@ -126,9 +126,9 @@ The :ref:`NodePath<class_NodePath>` to the external :ref:`Skeleton3D<class_Skele
 - |void| **set_override_pose**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_override_pose**\ (\ )
 
-Whether the **BoneAttachment3D** node will override the bone pose of the bone it is attached to. When set to ``true``, the **BoneAttachment3D** node can change the pose of the bone. When set to ``false``, the **BoneAttachment3D** will always be set to the bone's transform.
+Indica si el nodo **BoneAttachment3D** va a sobrescribir la pose del hueso al que está adjunto. Cuando se establece en ``true``, el nodo **BoneAttachment3D** puede cambiar la pose del hueso. Cuando se establece en ``false``, el **BoneAttachment3D** siempre se establecerá en la transformación del hueso.
 
-\ **Note:** This override performs interruptively in the skeleton update process using signals due to the old design. It may cause unintended behavior when used at the same time with :ref:`SkeletonModifier3D<class_SkeletonModifier3D>`.
+\ **Nota:** Esta sobrescritura se realiza de forma interrumpida en el proceso de actualización del esqueleto mediante señales debido al antiguo diseño. Puede causar un comportamiento no deseado cuando se utiliza al mismo tiempo que :ref:`SkeletonModifier3D<class_SkeletonModifier3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -145,7 +145,7 @@ Whether the **BoneAttachment3D** node will override the bone pose of the bone it
 - |void| **set_use_external_skeleton**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_external_skeleton**\ (\ )
 
-Whether the **BoneAttachment3D** node will use an external :ref:`Skeleton3D<class_Skeleton3D>` node rather than attempting to use its parent node as the :ref:`Skeleton3D<class_Skeleton3D>`. When set to ``true``, the **BoneAttachment3D** node will use the external :ref:`Skeleton3D<class_Skeleton3D>` node set in :ref:`external_skeleton<class_BoneAttachment3D_property_external_skeleton>`.
+Indica si el nodo **BoneAttachment3D** usará un nodo :ref:`Skeleton3D<class_Skeleton3D>` externo en lugar de intentar usar su nodo padre como :ref:`Skeleton3D<class_Skeleton3D>`. Cuando se establece en ``true``, el nodo **BoneAttachment3D** usará el nodo :ref:`Skeleton3D<class_Skeleton3D>` externo establecido en :ref:`external_skeleton<class_BoneAttachment3D_property_external_skeleton>`.
 
 .. rst-class:: classref-section-separator
 
@@ -162,7 +162,7 @@ Descripciones de Métodos
 
 :ref:`Skeleton3D<class_Skeleton3D>` **get_skeleton**\ (\ ) :ref:`🔗<class_BoneAttachment3D_method_get_skeleton>`
 
-Returns the parent or external :ref:`Skeleton3D<class_Skeleton3D>` node if it exists, otherwise returns ``null``.
+Devuelve el nodo :ref:`Skeleton3D<class_Skeleton3D>` padre o externo si existe, de lo contrario devuelve ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -174,7 +174,7 @@ Returns the parent or external :ref:`Skeleton3D<class_Skeleton3D>` node if it ex
 
 |void| **on_skeleton_update**\ (\ ) :ref:`🔗<class_BoneAttachment3D_method_on_skeleton_update>`
 
-A function that is called automatically when the :ref:`Skeleton3D<class_Skeleton3D>` is updated. This function is where the **BoneAttachment3D** node updates its position so it is correctly bound when it is *not* set to override the bone pose.
+Una función que se llama automáticamente cuando se actualiza el :ref:`Skeleton3D<class_Skeleton3D>`. Esta función es donde el nodo **BoneAttachment3D** actualiza su posición para que esté correctamente vinculado cuando *no* está configurado para sobrescribir la pose del hueso.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

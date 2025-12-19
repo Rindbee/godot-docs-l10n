@@ -7,14 +7,14 @@ VisualShaderNodeGlobalExpression
 
 **Hereda:** :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>` **<** :ref:`VisualShaderNodeGroupBase<class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNodeResizableBase<class_VisualShaderNodeResizableBase>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Una expresión gráfica de shader visual global personalizada, escrita en el Lenguaje Shader de Godot.
+Una expresión gráfica de shader visual global personalizada, escrita en el Lenguaje de Shaders de Godot.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-La expresión del Lenguaje Shader Godot personalizado, que se coloca sobre el shader generado. Puedes colocar varias definiciones de funciones dentro para llamarlas más tarde en :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>`\ s (que se inyectan en las principales funciones shader). También puedes declarar variaciones, uniformes y constantes globales.
+Expresión personalizada del Lenguaje de Shaders de Godot, que se coloca sobre el shader generado. Puedes colocar varias definiciones de funciones dentro para llamarlas más tarde en :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>`\ s (que se inyectan en las principales funciones shader). También puedes declarar variaciones, uniformes y constantes globales.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

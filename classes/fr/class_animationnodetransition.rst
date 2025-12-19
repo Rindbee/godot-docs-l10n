@@ -124,7 +124,7 @@ Descriptions des propriétés
 - |void| **set_allow_transition_to_self**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_allow_transition_to_self**\ (\ )
 
-If ``true``, allows transition to the self state. When the reset option is enabled in input, the animation is restarted. If ``false``, nothing happens on the transition to the self state.
+Si ``true``, permet la transition vers son propre état. Lorsque l'option de réinitialisation est activée en entrée, l'animation est redémarrée. Si ``false``, rien ne se passe lors de la transition vers son propre état.
 
 .. rst-class:: classref-item-separator
 
@@ -158,7 +158,7 @@ Le nombre de ports d'entrée actifs pour ce nœud d'animation.
 - |void| **set_xfade_curve**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_xfade_curve**\ (\ )
 
-Determines how cross-fading between animations is eased. If empty, the transition will be linear. Should be a unit :ref:`Curve<class_Curve>`.
+Détermine comment le fondu enchaîné entre les animations est amorti. Si vide, la transition sera linéaire. Devrait être une :ref:`Curve<class_Curve>` unitaire.
 
 .. rst-class:: classref-item-separator
 
@@ -175,9 +175,9 @@ Determines how cross-fading between animations is eased. If empty, the transitio
 - |void| **set_xfade_time**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_xfade_time**\ (\ )
 
-Cross-fading time (in seconds) between each animation connected to the inputs.
+Temps du fondu croisé (en secondes) entre chaque animation connectée aux entrées.
 
-\ **Note:** **AnimationNodeTransition** transitions the current state immediately after the start of the fading. The precise remaining time can only be inferred from the main animation. When :ref:`AnimationNodeOutput<class_AnimationNodeOutput>` is considered as the most upstream, so the :ref:`xfade_time<class_AnimationNodeTransition_property_xfade_time>` is not scaled depending on the downstream delta. See also :ref:`AnimationNodeOneShot.fadeout_time<class_AnimationNodeOneShot_property_fadeout_time>`.
+\ **Note :** :ref:`AnimationNodeStateMachine<class_AnimationNodeStateMachine>` transitionne de l'état actuel immédiatement après le début du fondu. Le temps restant précis ne peut être déduit que de l'animation principale. Si :ref:`AnimationNodeOutput<class_AnimationNodeOutput>` est considéré comme le plus en amont, le :ref:`xfade_time<class_AnimationNodeTransition_property_xfade_time>` n'est pas échelonné selon le delta de l'aval. Voir aussi :ref:`AnimationNodeOneShot.fadeout_time<class_AnimationNodeOneShot_property_fadeout_time>`.
 
 .. rst-class:: classref-section-separator
 
@@ -194,7 +194,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **is_input_loop_broken_at_end**\ (\ input\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AnimationNodeTransition_method_is_input_loop_broken_at_end>`
 
-Returns whether the animation breaks the loop at the end of the loop cycle for transition.
+Renvoie si l'animation brise la boucle à la fin du cycle de boucle pour la transition.
 
 .. rst-class:: classref-item-separator
 

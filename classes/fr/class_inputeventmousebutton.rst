@@ -10,16 +10,16 @@ InputEventMouseButton
 
 **Hérite de :** :ref:`InputEventMouse<class_InputEventMouse>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a mouse button being pressed or released.
+Représente un bouton de souris appuyé ou relâché.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Stores information about mouse click events. See :ref:`Node._input()<class_Node_private_method__input>`.
+Stocke des informations sur les événements de clic de souris. Voir :ref:`Node._input()<class_Node_private_method__input>`.
 
-\ **Note:** On Wear OS devices, rotary input is mapped to :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_UP<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_UP>` and :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_DOWN<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_DOWN>`. This can be changed to :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_LEFT<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_LEFT>` and :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_RIGHT<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_RIGHT>` with the :ref:`ProjectSettings.input_devices/pointing/android/rotary_input_scroll_axis<class_ProjectSettings_property_input_devices/pointing/android/rotary_input_scroll_axis>` setting.
+\ **Note :** Sur les appareils Wear OS, l'entrée rotative est associée à :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_UP<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_UP>` et :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_DOWN<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_DOWN>`. Cela peut être changé en :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_LEFT<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_LEFT>` et :ref:`@GlobalScope.MOUSE_BUTTON_WHEEL_RIGHT<class_@GlobalScope_constant_MOUSE_BUTTON_WHEEL_RIGHT>` avec le paramètre :ref:`ProjectSettings.input_devices/pointing/android/rotary_input_scroll_axis<class_ProjectSettings_property_input_devices/pointing/android/rotary_input_scroll_axis>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -70,7 +70,7 @@ Descriptions des propriétés
 - |void| **set_button_index**\ (\ value\: :ref:`MouseButton<enum_@GlobalScope_MouseButton>`\ )
 - :ref:`MouseButton<enum_@GlobalScope_MouseButton>` **get_button_index**\ (\ )
 
-The mouse button identifier, one of the :ref:`MouseButton<enum_@GlobalScope_MouseButton>` button or button wheel constants.
+L'identifiant du bouton de la souris, l'une des constantes de bouton ou de bouton de molette :ref:`MouseButton<enum_@GlobalScope_MouseButton>`.
 
 .. rst-class:: classref-item-separator
 
@@ -87,7 +87,7 @@ The mouse button identifier, one of the :ref:`MouseButton<enum_@GlobalScope_Mous
 - |void| **set_canceled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_canceled**\ (\ )
 
-If ``true``, the mouse button event has been canceled.
+Si ``true``, l'événement du bouton de la souris a été annulé.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ EditorTranslationParserPlugin
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Plugin for adding custom parsers to extract strings that are to be translated from custom files (.csv, .json etc.).
+Plugin para añadir analizadores personalizados para extraer cadenas que se van a traducir de archivos personalizados (.csv, .json, etc.).
 
 .. rst-class:: classref-introduction-group
 
@@ -160,7 +160,7 @@ Descripciones de Métodos
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_recognized_extensions**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorTranslationParserPlugin_private_method__get_recognized_extensions>`
 
-Gets the list of file extensions to associate with this parser, e.g. ``["csv"]``.
+Obtiene la lista de extensiones de archivo que se asociarán con este analizador, por ejemplo, ``["csv"]``.
 
 .. rst-class:: classref-item-separator
 
@@ -172,7 +172,7 @@ Gets the list of file extensions to associate with this parser, e.g. ``["csv"]``
 
 :ref:`Array<class_Array>`\[:ref:`PackedStringArray<class_PackedStringArray>`\] **_parse_file**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| :ref:`🔗<class_EditorTranslationParserPlugin_private_method__parse_file>`
 
-Override this method to define a custom parsing logic to extract the translatable strings.
+Sobrescribe este método para definir una lógica de análisis personalizada para extraer las cadenas traducibles.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

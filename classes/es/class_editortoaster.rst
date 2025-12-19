@@ -7,16 +7,16 @@ EditorToaster
 
 **Hereda:** :ref:`HBoxContainer<class_HBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Manages toast notifications within the editor.
+Gestiona las notificaciones toast dentro del editor.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This object manages the functionality and display of toast notifications within the editor, ensuring timely and informative alerts are presented to users.
+Este objeto gestiona la funcionalidad y la visualización de las notificaciones toast dentro del editor, asegurando que se presenten alertas oportunas e informativas a los usuarios.
 
-\ **Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_editor_toaster()<class_EditorInterface_method_get_editor_toaster>`.
+\ **Nota:** Esta clase no debe ser instanciada directamente. En su lugar, accede al singleton usando :ref:`EditorInterface.get_editor_toaster()<class_EditorInterface_method_get_editor_toaster>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ enum **Severity**: :ref:`🔗<enum_EditorToaster_Severity>`
 
 :ref:`Severity<enum_EditorToaster_Severity>` **SEVERITY_INFO** = ``0``
 
-Toast will display with an INFO severity.
+La notificación toast se mostrará con una severidad INFO.
 
 .. _class_EditorToaster_constant_SEVERITY_WARNING:
 
@@ -59,7 +59,7 @@ Toast will display with an INFO severity.
 
 :ref:`Severity<enum_EditorToaster_Severity>` **SEVERITY_WARNING** = ``1``
 
-Toast will display with a WARNING severity and have a corresponding color.
+La notificación toast se mostrará con una severidad WARNING y tendrá un color correspondiente.
 
 .. _class_EditorToaster_constant_SEVERITY_ERROR:
 
@@ -67,7 +67,7 @@ Toast will display with a WARNING severity and have a corresponding color.
 
 :ref:`Severity<enum_EditorToaster_Severity>` **SEVERITY_ERROR** = ``2``
 
-Toast will display with an ERROR severity and have a corresponding color.
+La notificación toast se mostrará con una severidad ERROR y tendrá un color correspondiente.
 
 .. rst-class:: classref-section-separator
 
@@ -84,7 +84,7 @@ Descripciones de Métodos
 
 |void| **push_toast**\ (\ message\: :ref:`String<class_String>`, severity\: :ref:`Severity<enum_EditorToaster_Severity>` = 0, tooltip\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_EditorToaster_method_push_toast>`
 
-Pushes a toast notification to the editor for display.
+Muestra una notificación toast en el editor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

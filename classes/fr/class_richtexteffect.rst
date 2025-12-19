@@ -14,26 +14,26 @@ Un effet personnalisé pour un :ref:`RichTextLabel<class_RichTextLabel>`.
 Description
 -----------
 
-A custom effect for a :ref:`RichTextLabel<class_RichTextLabel>`, which can be loaded in the :ref:`RichTextLabel<class_RichTextLabel>` inspector or using :ref:`RichTextLabel.install_effect()<class_RichTextLabel_method_install_effect>`.
+Un effet personnalisé pour un :ref:`RichTextLabel<class_RichTextLabel>`, qui peut être chargé dans l'inspecteur :ref:`RichTextLabel<class_RichTextLabel>` ou en utilisant :ref:`RichTextLabel.install_effect()<class_RichTextLabel_method_install_effect>`.
 
-\ **Note:** For a **RichTextEffect** to be usable, a BBCode tag must be defined as a member variable called ``bbcode`` in the script.
+\ **Note :** Pour qu'un **RichTextEffect** soit utilisable, une balise BBCode doit être définie sous forme de variable membre nommée ``bbcode`` dans le script.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # The RichTextEffect will be usable like this: `[example]Some text[/example]`
-    var bbcode = "example"
+    # Le RichTextEffect sera utilisable comme ceci : `[exemple]Du texte[/exemple]`
+    var bbcode = "exemple"
 
  .. code-tab:: csharp
 
-    // The RichTextEffect will be usable like this: `[example]Some text[/example]`
+    // Le RichTextEffect sera utilisable comme ceci : `[exemple]Du texte[/exemple]`
     string bbcode = "example";
 
 
 
-\ **Note:** As soon as a :ref:`RichTextLabel<class_RichTextLabel>` contains at least one **RichTextEffect**, it will continuously process the effect unless the project is paused. This may impact battery life negatively.
+\ **Note :** Dès qu'un :ref:`RichTextLabel<class_RichTextLabel>` contient au moins un **RichTextEffect**, il va traiter l'effet en permanence tant que le projet ne sera pas mis en pause. Ceci peut impacter négativement la vie de la batterie.
 
 .. rst-class:: classref-introduction-group
 
@@ -42,7 +42,7 @@ Tutoriels
 
 - :doc:`BBCode dans RichTextLabel <../tutorials/ui/bbcode_in_richtextlabel>`
 
-- `Projet d'essai RichTextEffect (tierce-partie) <https://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project>`__
+- `Projet de test pour RichTextEffect (tierce partie) <https://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project>`__
 
 .. rst-class:: classref-reftable-group
 
@@ -71,7 +71,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **_process_custom_fx**\ (\ char_fx\: :ref:`CharFXTransform<class_CharFXTransform>`\ ) |virtual| |const| :ref:`🔗<class_RichTextEffect_private_method__process_custom_fx>`
 
-Override this method to modify properties in ``char_fx``. The method must return ``true`` if the character could be transformed successfully. If the method returns ``false``, it will skip transformation to avoid displaying broken text.
+Redéfinissez cette méthode pour modifier les propriétés de ``char_fx``. Cette méthode doit renvoyer ``true`` si le caractère peut être transformé avec succès. Si la méthode renvoie ``false``, l'effet sera ignoré pour éviter de mal afficher le texte.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -194,9 +194,9 @@ Añade un **PackedColorArray** al final de este array.
 
 :ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`Color<class_Color>`, before\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_PackedColorArray_method_bsearch>`
 
-Finds the index of an existing value (or the insertion index that maintains sorting order, if the value is not yet present in the array) using binary search. Optionally, a ``before`` specifier can be passed. If ``false``, the returned index comes after all existing entries of the value in the array.
+Encuentra el índice de un valor existente (o el índice de inserción que mantiene el orden de clasificación, si el valor aún no está presente en el array) utilizando la búsqueda binaria. Opcionalmente, se puede pasar un especificador ``before``. Si es ``false``, el índice devuelto viene después de todas las entradas existentes del valor en el array.
 
-\ **Note:** Calling :ref:`bsearch()<class_PackedColorArray_method_bsearch>` on an unsorted array results in unexpected behavior.
+\ **Nota:** Llamar a :ref:`bsearch()<class_PackedColorArray_method_bsearch>` en un array sin ordenar da como resultado un comportamiento inesperado.
 
 .. rst-class:: classref-item-separator
 
@@ -244,7 +244,7 @@ Creates a copy of the array, and returns it.
 
 :ref:`bool<class_bool>` **erase**\ (\ value\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_PackedColorArray_method_erase>`
 
-Removes the first occurrence of a value from the array and returns ``true``. If the value does not exist in the array, nothing happens and ``false`` is returned. To remove an element by index, use :ref:`remove_at()<class_PackedColorArray_method_remove_at>` instead.
+Elimina la primera aparición de un valor del array y devuelve ``true``. Si el valor no existe en el array, no sucede nada y se devuelve ``false``. Para eliminar un elemento por índice, usa :ref:`remove_at()<class_PackedColorArray_method_remove_at>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -256,7 +256,7 @@ Removes the first occurrence of a value from the array and returns ``true``. If 
 
 |void| **fill**\ (\ value\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_PackedColorArray_method_fill>`
 
-Assigns the given value to all elements in the array. This can typically be used together with :ref:`resize()<class_PackedColorArray_method_resize>` to create an array with a given size and initialized elements.
+Asigna el valor dado a todos los elementos del array. Esto normalmente se puede usar junto con :ref:`resize()<class_PackedColorArray_method_resize>` para crear un array con un tamaño dado y elementos inicializados.
 
 .. rst-class:: classref-item-separator
 
@@ -268,7 +268,7 @@ Assigns the given value to all elements in the array. This can typically be used
 
 :ref:`int<class_int>` **find**\ (\ value\: :ref:`Color<class_Color>`, from\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_PackedColorArray_method_find>`
 
-Searches the array for a value and returns its index or ``-1`` if not found. Optionally, the initial search index can be passed.
+Busca un valor en el array y devuelve su índice o ``-1`` si no lo encuentra. Opcionalmente, se puede pasar el índice de búsqueda inicial.
 
 .. rst-class:: classref-item-separator
 

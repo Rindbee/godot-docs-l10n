@@ -7,7 +7,7 @@ EditorExportPlatformPC
 
 **Hérite de :** :ref:`EditorExportPlatform<class_EditorExportPlatform>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorExportPlatformLinuxBSD<class_EditorExportPlatformLinuxBSD>`, :ref:`EditorExportPlatformWindows<class_EditorExportPlatformWindows>`
+**Hérité par :** :ref:`EditorExportPlatformLinuxBSD<class_EditorExportPlatformLinuxBSD>`, :ref:`EditorExportPlatformWindows<class_EditorExportPlatformWindows>`
 
 Base class for the desktop platform exporter (Windows and Linux/BSD).
 

@@ -64,7 +64,7 @@ Descripciones de Propiedades
 - |void| **set_collide_with_areas**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collide_with_areas_enabled**\ (\ )
 
-If ``true``, the query will take :ref:`Area3D<class_Area3D>`\ s into account.
+Si es ``true``, la consulta tendrá en cuenta las :ref:`Area3D<class_Area3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -81,7 +81,7 @@ If ``true``, the query will take :ref:`Area3D<class_Area3D>`\ s into account.
 - |void| **set_collide_with_bodies**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collide_with_bodies_enabled**\ (\ )
 
-If ``true``, the query will take :ref:`PhysicsBody3D<class_PhysicsBody3D>`\ s into account.
+Si es ``true``, la consulta tendrá en cuenta los :ref:`PhysicsBody3D<class_PhysicsBody3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -115,9 +115,9 @@ The physics layers the query will detect (as a bitmask). By default, all collisi
 - |void| **set_exclude**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_exclude**\ (\ )
 
-The list of object :ref:`RID<class_RID>`\ s that will be excluded from collisions. Use :ref:`CollisionObject3D.get_rid()<class_CollisionObject3D_method_get_rid>` to get the :ref:`RID<class_RID>` associated with a :ref:`CollisionObject3D<class_CollisionObject3D>`-derived node.
+La lista de :ref:`RID<class_RID>` de objetos que se excluirán de las colisiones. Utiliza :ref:`CollisionObject3D.get_rid()<class_CollisionObject3D_method_get_rid>` para obtener el :ref:`RID<class_RID>` asociado con un nodo derivado de :ref:`CollisionObject3D<class_CollisionObject3D>`.
 
-\ **Note:** The returned array is copied and any changes to it will not update the original property value. To update the value you need to modify the returned array, and then assign it to the property again.
+\ **Nota:** El array devuelto se copia y cualquier cambio en él no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar el array devuelto y, a continuación, asignarlo de nuevo a la propiedad.
 
 .. rst-class:: classref-item-separator
 

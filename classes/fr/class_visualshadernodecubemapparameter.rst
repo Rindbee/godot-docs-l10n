@@ -7,14 +7,14 @@ VisualShaderNodeCubemapParameter
 
 **Hérite de :** :ref:`VisualShaderNodeTextureParameter<class_VisualShaderNodeTextureParameter>` **<** :ref:`VisualShaderNodeParameter<class_VisualShaderNodeParameter>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A :ref:`Cubemap<class_Cubemap>` parameter node to be used within the visual shader graph.
+Un nœud de paramètre :ref:`Cubemap<class_Cubemap>` à utiliser dans le graphe de shader visuel.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Translated to ``uniform samplerCube`` in the shader language. The output value can be used as port for :ref:`VisualShaderNodeCubemap<class_VisualShaderNodeCubemap>`.
+Sera traduit en ``uniform samplerCube`` dans le langage du shader. La valeur de sortie peut être utilisée comme port pour :ref:`VisualShaderNodeCubemap<class_VisualShaderNodeCubemap>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,7 +7,7 @@ RDPipelineColorBlendStateAttachment
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Pipeline color blend state attachment (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Adjunto del estado de mezcla de color del pipeline (utilizado por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
@@ -215,7 +215,7 @@ Controla cómo se determina el factor de mezcla para los canales de color en fun
 - |void| **set_enable_blend**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enable_blend**\ (\ )
 
-If ``true``, performs blending between the source and destination according to the factors defined in :ref:`src_color_blend_factor<class_RDPipelineColorBlendStateAttachment_property_src_color_blend_factor>`, :ref:`dst_color_blend_factor<class_RDPipelineColorBlendStateAttachment_property_dst_color_blend_factor>`, :ref:`src_alpha_blend_factor<class_RDPipelineColorBlendStateAttachment_property_src_alpha_blend_factor>` and :ref:`dst_alpha_blend_factor<class_RDPipelineColorBlendStateAttachment_property_dst_alpha_blend_factor>`. The blend modes :ref:`color_blend_op<class_RDPipelineColorBlendStateAttachment_property_color_blend_op>` and :ref:`alpha_blend_op<class_RDPipelineColorBlendStateAttachment_property_alpha_blend_op>` are also taken into account, with :ref:`write_r<class_RDPipelineColorBlendStateAttachment_property_write_r>`, :ref:`write_g<class_RDPipelineColorBlendStateAttachment_property_write_g>`, :ref:`write_b<class_RDPipelineColorBlendStateAttachment_property_write_b>` and :ref:`write_a<class_RDPipelineColorBlendStateAttachment_property_write_a>` controlling the output.
+Si es ``true``, realiza la mezcla entre el origen y el destino de acuerdo con los factores definidos en :ref:`src_color_blend_factor<class_RDPipelineColorBlendStateAttachment_property_src_color_blend_factor>`, :ref:`dst_color_blend_factor<class_RDPipelineColorBlendStateAttachment_property_dst_color_blend_factor>`, :ref:`src_alpha_blend_factor<class_RDPipelineColorBlendStateAttachment_property_src_alpha_blend_factor>` y :ref:`dst_alpha_blend_factor<class_RDPipelineColorBlendStateAttachment_property_dst_alpha_blend_factor>`. Los modos de mezcla :ref:`color_blend_op<class_RDPipelineColorBlendStateAttachment_property_color_blend_op>` y :ref:`alpha_blend_op<class_RDPipelineColorBlendStateAttachment_property_alpha_blend_op>` también se tienen en cuenta, con :ref:`write_r<class_RDPipelineColorBlendStateAttachment_property_write_r>`, :ref:`write_g<class_RDPipelineColorBlendStateAttachment_property_write_g>`, :ref:`write_b<class_RDPipelineColorBlendStateAttachment_property_write_b>` y :ref:`write_a<class_RDPipelineColorBlendStateAttachment_property_write_a>` controlando la salida.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Si es ``true``, escribe el nuevo canal de color azul en el resultado final.
 - |void| **set_write_g**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_write_g**\ (\ )
 
-If ``true``, writes the new green color channel to the final result.
+Si es ``true``, escribe el nuevo canal de color verde en el resultado final.
 
 .. rst-class:: classref-item-separator
 
@@ -317,7 +317,7 @@ If ``true``, writes the new green color channel to the final result.
 - |void| **set_write_r**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_write_r**\ (\ )
 
-If ``true``, writes the new red color channel to the final result.
+Si es ``true``, escribe el nuevo canal de color rojo en el resultado final.
 
 .. rst-class:: classref-section-separator
 

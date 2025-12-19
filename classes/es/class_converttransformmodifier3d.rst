@@ -14,25 +14,25 @@ Un :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` que aplica transformació
 Descripción
 ----------------------
 
-Apply the copied transform of the bone set by :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` to the bone set by :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` about the specific axis with remapping it with some options.
+Aplica la transformación copiada del hueso establecido por :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` al hueso establecido por :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` sobre el eje específico, remapeándolo con algunas opciones.
 
-There are 4 ways to apply the transform, depending on the combination of :ref:`set_relative()<class_ConvertTransformModifier3D_method_set_relative>` and :ref:`set_additive()<class_ConvertTransformModifier3D_method_set_additive>`.
+Hay 4 maneras de aplicar la transformación, dependiendo de la combinación de :ref:`set_relative()<class_ConvertTransformModifier3D_method_set_relative>` y :ref:`set_additive()<class_ConvertTransformModifier3D_method_set_additive>`.
 
-\ **Relative + Additive:**\ 
+\ **Relativo + Aditivo:**\ 
 
-- Extract reference pose relative to the rest and add it to the apply bone's pose.
+- Extrae la pose de referencia relativa al resto y la añade a la pose del hueso de aplicación.
 
-\ **Relative + Not Additive:**\ 
+\ **Relativo + No Aditivo:**\ 
 
-- Extract reference pose relative to the rest and add it to the apply bone's rest.
+- Extrae la pose de referencia relativa al resto y la añade al reposo del hueso de aplicación.
 
-\ **Not Relative + Additive:**\ 
+\ **No Relativo + Aditivo:**\ 
 
-- Extract reference pose absolutely and add it to the apply bone's pose.
+- Extrae la pose de referencia absolutamente y la añade a la pose del hueso de aplicación.
 
-\ **Not Relative + Not Additive:**\ 
+\ **No Relativo + No Aditivo:**\ 
 
-- Extract reference pose absolutely and the apply bone's pose is replaced with it.
+- Extrae la pose de referencia absolutamente y la pose del hueso de aplicación se reemplaza con ella.
 
 .. rst-class:: classref-reftable-group
 
@@ -292,11 +292,11 @@ Devuelve ``true`` si la opción relativa está habilitada en la configuración e
 
 |void| **set_additive**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_additive>`
 
-Sets additive option in the setting at ``index`` to ``enabled``. This mainly affects the process of applying transform to the :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>`.
+Establece la opción aditiva en el ajuste en ``index`` a ``enabled``. Esto afecta principalmente al proceso de aplicación de la transformación al :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>`.
 
-If sets ``enabled`` to ``true``, the processed transform is added to the pose of the current apply bone.
+Si estableces ``enabled`` a ``true``, la transformación procesada se añade a la pose del hueso de aplicación actual.
 
-If sets ``enabled`` to ``false``, the pose of the current apply bone is replaced with the processed transform. However, if set :ref:`set_relative()<class_ConvertTransformModifier3D_method_set_relative>` to ``true``, the transform is relative to rest.
+Si estableces ``enabled`` a ``false``, la pose del hueso de aplicación actual se reemplaza con la transformación procesada. Sin embargo, si estableces :ref:`set_relative()<class_ConvertTransformModifier3D_method_set_relative>` a ``true``, la transformación es relativa al reposo.
 
 .. rst-class:: classref-item-separator
 
@@ -404,11 +404,11 @@ Establece la operación de transformación de la fuente de reasignación.
 
 |void| **set_relative**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_ConvertTransformModifier3D_method_set_relative>`
 
-Sets relative option in the setting at ``index`` to ``enabled``.
+Establece la opción relativa en el ajuste en ``index`` a ``enabled``.
 
-If sets ``enabled`` to ``true``, the extracted and applying transform is relative to the rest.
+Si estableces ``enabled`` a ``true``, la transformación extraída y aplicada es relativa al resto.
 
-If sets ``enabled`` to ``false``, the extracted transform is absolute.
+Si estableces ``enabled`` a ``false``, la transformación extraída es absoluta.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

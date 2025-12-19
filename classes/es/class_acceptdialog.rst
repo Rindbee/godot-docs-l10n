@@ -244,7 +244,7 @@ Descripciones de Métodos
 
 Añade un botón con la etiqueta ``text`` y una ``action`` personalizada al diálogo y devuelve el botón creado.
 
-Si ``action`` no está vacío, al pulsar el botón se emitirá la señal :ref:`custom_action<class_AcceptDialog_signal_custom_action>` con la cadena de acción especificada.
+Si ``action`` no está vacío, al pulsar el botón se emitirá la señal :ref:`custom_action<class_AcceptDialog_signal_custom_action>` con la string de acción especificada.
 
 Si es ``true``, ``right`` colocará el botón a la derecha de cualquier botón hermano.
 

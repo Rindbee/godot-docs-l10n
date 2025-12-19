@@ -391,7 +391,7 @@ Node2D
 
 |void| **move_local_x**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_x>`
 
-Применяет локальное смещение по оси X узла на основе ``delta`` :ref:`Node._process()<class_Node_private_method__process>`. Если ``scaled`` равен ``false``, нормализует движение.
+Применяет локальное смещение по оси X узла на основе ``delta``. Если ``scaled`` равен ``false``, нормализует движение так, чтобы оно не зависело от :ref:`scale<class_Node2D_property_scale>` узла.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Node2D
 
 |void| **move_local_y**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_y>`
 
-Применяет локальное смещение по оси Y узла на основе ``delta`` :ref:`Node._process()<class_Node_private_method__process>`. Если ``scaled`` равен ``false``, нормализует движение.
+Применяет локальное смещение по оси Y узла на основе ``delta``. Если ``scaled`` равен ``false``, нормализует движение так, чтобы оно не зависело от :ref:`scale<class_Node2D_property_scale>` узла.
 
 .. rst-class:: classref-item-separator
 

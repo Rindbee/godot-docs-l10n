@@ -7,18 +7,18 @@ ColorPickerButton
 
 **Hereda:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A button that brings up a :ref:`ColorPicker<class_ColorPicker>` when pressed.
+Un botón que abre un :ref:`ColorPicker<class_ColorPicker>` cuando se pulsa.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Encapsulates a :ref:`ColorPicker<class_ColorPicker>`, making it accessible by pressing a button. Pressing the button will toggle the :ref:`ColorPicker<class_ColorPicker>`'s visibility.
+Encapsula un :ref:`ColorPicker<class_ColorPicker>`, haciéndolo accesible al pulsar un botón. Al pulsar el botón se activará/desactivará la visibilidad del :ref:`ColorPicker<class_ColorPicker>`.
 
-See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node.
+Véase también :ref:`BaseButton<class_BaseButton>`, que contiene propiedades y métodos comunes asociados a este nodo.
 
-\ **Note:** By default, the button may not be wide enough for the color preview swatch to be visible. Make sure to set :ref:`Control.custom_minimum_size<class_Control_property_custom_minimum_size>` to a big enough value to give the button enough space.
+\ **Nota:** Por defecto, el botón puede no ser lo suficientemente ancho para que la muestra de previsualización del color sea visible. Asegúrate de establecer :ref:`Control.custom_minimum_size<class_Control_property_custom_minimum_size>` a un valor lo suficientemente grande para darle al botón espacio suficiente.
 
 .. rst-class:: classref-introduction-group
 
@@ -185,9 +185,9 @@ Descripciones de Métodos
 
 :ref:`ColorPicker<class_ColorPicker>` **get_picker**\ (\ ) :ref:`🔗<class_ColorPickerButton_method_get_picker>`
 
-Returns the :ref:`ColorPicker<class_ColorPicker>` that this node toggles.
+Devuelve el :ref:`ColorPicker<class_ColorPicker>` que este nodo activa/desactiva.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` property.
+\ **Advertencia:** Este es un nodo interno requerido, removerlo y liberarlo puede causar un fallo. Si deseas ocultarlo o alguno de sus hijos, usa su propiedad :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`.
 
 .. rst-class:: classref-item-separator
 

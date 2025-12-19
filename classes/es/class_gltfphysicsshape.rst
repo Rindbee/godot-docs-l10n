@@ -14,7 +14,7 @@ Representa una forma física glTF.
 Descripción
 ----------------------
 
-Represents a physics shape as defined by the ``OMI_physics_shape`` or ``OMI_collider`` glTF extensions. This class is an intermediary between the glTF data and Godot's nodes, and it's abstracted in a way that allows adding support for different glTF physics extensions in the future.
+Representa una forma física tal como la definen las extensiones glTF ``OMI_physics_shape`` o ``OMI_collider``. Esta clase es un intermediario entre los datos glTF y los nodos de Godot, y se abstrae de una manera que permite añadir soporte para diferentes extensiones de física glTF en el futuro.
 
 .. rst-class:: classref-introduction-group
 

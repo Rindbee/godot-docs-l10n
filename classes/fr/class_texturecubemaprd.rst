@@ -7,14 +7,14 @@ TextureCubemapRD
 
 **Hérite de :** :ref:`TextureLayeredRD<class_TextureLayeredRD>` **<** :ref:`TextureLayered<class_TextureLayered>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Texture for Cubemap that is bound to a texture created on the :ref:`RenderingDevice<class_RenderingDevice>`.
+Texture pour Cubemap qui est liée à une texture créée sur le :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This texture class allows you to use a cubemap texture created directly on the :ref:`RenderingDevice<class_RenderingDevice>` as a texture for materials, meshes, etc.
+Cette classe de texture vous permet d'utiliser une texture cubemap créée directement sur le :ref:`RenderingDevice<class_RenderingDevice>` comme texture pour des matériaux, des maillages, etc.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

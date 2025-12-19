@@ -321,7 +321,7 @@ La pendenza massima che è considerata percorribile, in gradi.
 - |void| **set_agent_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_agent_radius**\ (\ )
 
-La distanza per erodere/restringere l'area percorribile del campo di altezza dagli ostacoli.
+La distanza per erodere/restringere l'area percorribile dell'heightfield dagli ostacoli.
 
 \ **Nota:** Durante la preparazione, questo valore sarà arrotondato al multiplo più vicino di :ref:`cell_size<class_NavigationMesh_property_cell_size>`.
 
@@ -414,7 +414,7 @@ La distanza di campionamento da utilizzare per generare la mesh di dettaglio, in
 - |void| **set_detail_sample_max_error**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_detail_sample_max_error**\ (\ )
 
-La distanza massima a cui la superficie della mesh di dettaglio deve deviare da campo d'altezza, in unità di cella.
+La distanza massima a cui la superficie della mesh di dettaglio deve deviare da heightfield, in unità di cella.
 
 .. rst-class:: classref-item-separator
 

@@ -400,9 +400,9 @@ Genera un identificatore univoco per una risorsa da contenere all'interno di un 
 
 :ref:`String<class_String>` **get_id_for_path**\ (\ path\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Resource_method_get_id_for_path>`
 
-From the internal cache for scene-unique IDs, returns the ID of this resource for the scene at ``path``. If there is no entry, an empty string is returned. Useful to keep scene-unique IDs the same when implementing a VCS-friendly custom resource format by extending :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` and :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
+Restituisce l'ID di questa risorsa per la scena al percorso ``path``, ricavato dalla cache interna per gli ID univoci nelle scene. Se non c'è alcuna voce, viene restituita una stringa vuota. Utile per mantenere invariati gli ID univoci nelle scene quando si implementa un formato di risorsa personalizzato compatibile con VCS, estendendo :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` e :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
 
-\ **Note:** This method is only implemented when running in an editor context. At runtime, it returns an empty string.
+\ **Nota:** Questo metodo è implementato solo se eseguito in un contesto dell'editor. In fase di esecuzione, restituisce una stringa vuota.
 
 .. rst-class:: classref-item-separator
 

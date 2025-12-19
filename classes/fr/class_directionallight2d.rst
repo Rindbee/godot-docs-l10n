@@ -19,7 +19,7 @@ Description
 
 Une lumière directionnelle est un type de nœud :ref:`Light2D<class_Light2D>` qui modélise un nombre infini de rayons parallèles couvrant toute la scène. Elle est utilisée pour les lumières à forte intensité qui sont situées loin de la scène (par exemple : pour modéliser la lumière du soleil ou le clair de lune).
 
-La lumière est émise dans la direction +Y de la base globale du noeud. Pour une lumière non-pivotée, cela signifie que la lumière est émise vers le bas. La position du nœud est ignorée, seule la base est utilisée pour déterminer la direction de la lumière.
+La lumière est émise dans la direction +Y de la base globale du nœud. Pour une lumière non-pivotée, cela signifie que la lumière est émise vers le bas. La position du nœud est ignorée, seule la base est utilisée pour déterminer la direction de la lumière.
 
 \ **Note :** **DirectionalLight2D** ne supporte pas les masques de light cull (mais il supporte les masques de shadow cull). Elle va toujours éclairer les nœuds 2D, peu importe le :ref:`CanvasItem.light_mask<class_CanvasItem_property_light_mask>` du nœud 2D.
 

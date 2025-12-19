@@ -7,7 +7,7 @@ ImageTextureLayered
 
 **Hérite de :** :ref:`TextureLayered<class_TextureLayered>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>`
+**Hérité par :** :ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>`
 
 Classe de base pour les types de texture qui contiennent les données de plusieurs :ref:`ImageTexture<class_ImageTexture>`\ s. Chaque image est de la même taille et du même format.
 

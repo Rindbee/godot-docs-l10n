@@ -67,7 +67,7 @@ Un estado que representa un **PacketPeerDTLS** que está desconectado.
 
 :ref:`Status<enum_PacketPeerDTLS_Status>` **STATUS_HANDSHAKING** = ``1``
 
-Un estado que representa un **PacketPeerDTLS** que está actualmente realizando el handshake con un par remoto.
+Un estado que representa un **PacketPeerDTLS** que está actualmente realizando el establecimiento de comunicación con un par remoto.
 
 .. _class_PacketPeerDTLS_constant_STATUS_CONNECTED:
 

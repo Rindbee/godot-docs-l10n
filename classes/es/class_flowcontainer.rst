@@ -9,14 +9,14 @@ FlowContainer
 
 **Heredado por:** :ref:`HFlowContainer<class_HFlowContainer>`, :ref:`VFlowContainer<class_VFlowContainer>`
 
-A container that arranges its child controls horizontally or vertically and wraps them around at the borders.
+Un contenedor que organiza sus controles hijos horizontal o verticalmente y los envuelve alrededor de los bordes.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A container that arranges its child controls horizontally or vertically and wraps them around at the borders. This is similar to how text in a book wraps around when no more words can fit on a line.
+Un contenedor que organiza sus controles hijos horizontal o verticalmente y los envuelve alrededor de los bordes. Esto es similar a cómo el texto en un libro se envuelve cuando no caben más palabras en una línea.
 
 .. rst-class:: classref-introduction-group
 
@@ -90,7 +90,7 @@ enum **AlignmentMode**: :ref:`🔗<enum_FlowContainer_AlignmentMode>`
 
 :ref:`AlignmentMode<enum_FlowContainer_AlignmentMode>` **ALIGNMENT_BEGIN** = ``0``
 
-The child controls will be arranged at the beginning of the container, i.e. top if orientation is vertical, left if orientation is horizontal (right for RTL layout).
+Los controles secundarios se organizarán al principio del contenedor, es decir, en la parte superior si la orientación es vertical, a la izquierda si la orientación es horizontal (a la derecha para el diseño RTL).
 
 .. _class_FlowContainer_constant_ALIGNMENT_CENTER:
 
@@ -106,7 +106,7 @@ Los controles hijos se centrarán en el contenedor.
 
 :ref:`AlignmentMode<enum_FlowContainer_AlignmentMode>` **ALIGNMENT_END** = ``2``
 
-The child controls will be arranged at the end of the container, i.e. bottom if orientation is vertical, right if orientation is horizontal (left for RTL layout).
+Los controles secundarios se organizarán al final del contenedor, es decir, en la parte inferior si la orientación es vertical, a la derecha si la orientación es horizontal (a la izquierda para el diseño RTL).
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +124,7 @@ enum **LastWrapAlignmentMode**: :ref:`🔗<enum_FlowContainer_LastWrapAlignmentM
 
 :ref:`LastWrapAlignmentMode<enum_FlowContainer_LastWrapAlignmentMode>` **LAST_WRAP_ALIGNMENT_INHERIT** = ``0``
 
-The last partially filled row or column will wrap aligned to the previous row or column in accordance with :ref:`alignment<class_FlowContainer_property_alignment>`.
+La última fila o columna parcialmente llena se ajustará alineada con la fila o columna anterior de acuerdo con :ref:`alignment<class_FlowContainer_property_alignment>`.
 
 .. _class_FlowContainer_constant_LAST_WRAP_ALIGNMENT_BEGIN:
 
@@ -132,7 +132,7 @@ The last partially filled row or column will wrap aligned to the previous row or
 
 :ref:`LastWrapAlignmentMode<enum_FlowContainer_LastWrapAlignmentMode>` **LAST_WRAP_ALIGNMENT_BEGIN** = ``1``
 
-The last partially filled row or column will wrap aligned to the beginning of the previous row or column.
+La última fila o columna parcialmente llena se ajustará alineada al principio de la fila o columna anterior.
 
 .. _class_FlowContainer_constant_LAST_WRAP_ALIGNMENT_CENTER:
 
@@ -140,7 +140,7 @@ The last partially filled row or column will wrap aligned to the beginning of th
 
 :ref:`LastWrapAlignmentMode<enum_FlowContainer_LastWrapAlignmentMode>` **LAST_WRAP_ALIGNMENT_CENTER** = ``2``
 
-The last partially filled row or column will wrap aligned to the center of the previous row or column.
+La última fila o columna parcialmente llena se ajustará alineada al centro de la fila o columna anterior.
 
 .. _class_FlowContainer_constant_LAST_WRAP_ALIGNMENT_END:
 
@@ -148,7 +148,7 @@ The last partially filled row or column will wrap aligned to the center of the p
 
 :ref:`LastWrapAlignmentMode<enum_FlowContainer_LastWrapAlignmentMode>` **LAST_WRAP_ALIGNMENT_END** = ``3``
 
-The last partially filled row or column will wrap aligned to the end of the previous row or column.
+La última fila o columna parcialmente llena se ajustará alineada al final de la fila o columna anterior.
 
 .. rst-class:: classref-section-separator
 
@@ -170,7 +170,7 @@ Descripciones de Propiedades
 - |void| **set_alignment**\ (\ value\: :ref:`AlignmentMode<enum_FlowContainer_AlignmentMode>`\ )
 - :ref:`AlignmentMode<enum_FlowContainer_AlignmentMode>` **get_alignment**\ (\ )
 
-The alignment of the container's children (must be one of :ref:`ALIGNMENT_BEGIN<class_FlowContainer_constant_ALIGNMENT_BEGIN>`, :ref:`ALIGNMENT_CENTER<class_FlowContainer_constant_ALIGNMENT_CENTER>`, or :ref:`ALIGNMENT_END<class_FlowContainer_constant_ALIGNMENT_END>`).
+La alineación de los hijos del contenedor (debe ser uno de :ref:`ALIGNMENT_BEGIN<class_FlowContainer_constant_ALIGNMENT_BEGIN>`, :ref:`ALIGNMENT_CENTER<class_FlowContainer_constant_ALIGNMENT_CENTER>`, o :ref:`ALIGNMENT_END<class_FlowContainer_constant_ALIGNMENT_END>`).
 
 .. rst-class:: classref-item-separator
 
@@ -204,9 +204,9 @@ El comportamiento de ajuste de la última fila o columna parcialmente llena (deb
 - |void| **set_reverse_fill**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_reverse_fill**\ (\ )
 
-If ``true``, reverses fill direction. Horizontal **FlowContainer**\ s will fill rows bottom to top, vertical **FlowContainer**\ s will fill columns right to left.
+Si es ``true``, invierte la dirección de llenado. Los **FlowContainer** horizontales llenarán las filas de abajo hacia arriba, los **FlowContainer** verticales llenarán las columnas de derecha a izquierda.
 
-When using a vertical **FlowContainer** with a right to left :ref:`Control.layout_direction<class_Control_property_layout_direction>`, columns will fill left to right instead.
+Cuando se usa un **FlowContainer** vertical con una :ref:`Control.layout_direction<class_Control_property_layout_direction>` de derecha a izquierda, las columnas se llenarán de izquierda a derecha en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -223,9 +223,9 @@ When using a vertical **FlowContainer** with a right to left :ref:`Control.layou
 - |void| **set_vertical**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_vertical**\ (\ )
 
-If ``true``, the **FlowContainer** will arrange its children vertically, rather than horizontally.
+Si es ``true``, el **FlowContainer** organizará sus hijos verticalmente, en lugar de horizontalmente.
 
-Can't be changed when using :ref:`HFlowContainer<class_HFlowContainer>` and :ref:`VFlowContainer<class_VFlowContainer>`.
+No se puede cambiar cuando se usa :ref:`HFlowContainer<class_HFlowContainer>` y :ref:`VFlowContainer<class_VFlowContainer>`.
 
 .. rst-class:: classref-section-separator
 

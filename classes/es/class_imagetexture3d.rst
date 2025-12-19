@@ -16,7 +16,7 @@ Descripción
 
 **ImageTexture3D** es una :ref:`ImageTexture<class_ImageTexture>` tridimensional que tiene anchura, altura y profundidad. Véase también :ref:`ImageTextureLayered<class_ImageTextureLayered>`.
 
-Las texturas 3D se utilizan normalmente para almacenar mapas de densidad para :ref:`FogMaterial<class_FogMaterial>`, LUTs de corrección de color para :ref:`Environment<class_Environment>`, campos vectoriales para :ref:`GPUParticlesAttractorVectorField3D<class_GPUParticlesAttractorVectorField3D>` y mapas de colisión para :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`. Las texturas 3D también se pueden utilizar en sombreadores personalizados.
+Las texturas 3D se utilizan normalmente para almacenar mapas de densidad para :ref:`FogMaterial<class_FogMaterial>`, LUTs de corrección de color para :ref:`Environment<class_Environment>`, campos vectoriales para :ref:`GPUParticlesAttractorVectorField3D<class_GPUParticlesAttractorVectorField3D>` y mapas de colisión para :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`. Las texturas 3D también se pueden utilizar en shaders personalizados.
 
 .. rst-class:: classref-reftable-group
 

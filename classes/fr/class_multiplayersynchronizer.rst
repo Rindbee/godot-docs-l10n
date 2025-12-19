@@ -10,22 +10,22 @@ MultiplayerSynchronizer
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Synchronizes properties from the multiplayer authority to the remote peers.
+Synchronise des propriétés de l'autorité multijoueur vers les pairs distants.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-By default, **MultiplayerSynchronizer** synchronizes configured properties to all peers.
+Par défaut, **MultiplayerSynchronizer** synchronise les propriétés configurées vers tous les pairs.
 
-Visibility can be handled directly with :ref:`set_visibility_for()<class_MultiplayerSynchronizer_method_set_visibility_for>` or as-needed with :ref:`add_visibility_filter()<class_MultiplayerSynchronizer_method_add_visibility_filter>` and :ref:`update_visibility()<class_MultiplayerSynchronizer_method_update_visibility>`.
+La visibilité peut être gérée directement avec :ref:`set_visibility_for()<class_MultiplayerSynchronizer_method_set_visibility_for>` ou au besoin avec :ref:`add_visibility_filter()<class_MultiplayerSynchronizer_method_add_visibility_filter>` et :ref:`update_visibility()<class_MultiplayerSynchronizer_method_update_visibility>`.
 
-\ :ref:`MultiplayerSpawner<class_MultiplayerSpawner>`\ s will handle nodes according to visibility of synchronizers as long as the node at :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` was spawned by one.
+Les :ref:`MultiplayerSpawner<class_MultiplayerSpawner>`\ s géreront les nœuds en fonction de la visibilité des synchroniseurs tant que le nœud à :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` ait été spawné par un MultiplayerSpawner..
 
-Internally, **MultiplayerSynchronizer** uses :ref:`MultiplayerAPI.object_configuration_add()<class_MultiplayerAPI_method_object_configuration_add>` to notify synchronization start passing the :ref:`Node<class_Node>` at :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` as the ``object`` and itself as the ``configuration``, and uses :ref:`MultiplayerAPI.object_configuration_remove()<class_MultiplayerAPI_method_object_configuration_remove>` to notify synchronization end in a similar way.
+En interne, **MultiplayerSynchronizer** utilise :ref:`MultiplayerAPI.object_configuration_add()<class_MultiplayerAPI_method_object_configuration_add>` pour notifier le démarrage de la synchronisation en passant :ref:`Node<class_Node>` à :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` dans ``object`` et lui-même dans ``configuration``, et utilise :ref:`MultiplayerAPI.object_configuration_remove()<class_MultiplayerAPI_method_object_configuration_remove>` pour notifier la fin de la synchronisation de la même manière.
 
-\ **Note:** Synchronization is not supported for :ref:`Object<class_Object>` type properties, like :ref:`Resource<class_Resource>`. Properties that are unique to each peer, like the instance IDs of :ref:`Object<class_Object>`\ s (see :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`) or :ref:`RID<class_RID>`\ s, will also not work in synchronization.
+\ **Note :** La synchronisation n'est pas supportée pour les propriétés de type :ref:`Object<class_Object>`, comme :ref:`Resource<class_Resource>`. Les propriétés qui sont uniques à chaque pair, comme les identifiants d'instance d':ref:`Object<class_Object>`\ s (voir :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`) ou les :ref:`RID<class_RID>`\ s, ne fonctionneront aussi pas dans la synchronisation.
 
 .. rst-class:: classref-reftable-group
 
@@ -84,7 +84,7 @@ Signaux
 
 **delta_synchronized**\ (\ ) :ref:`🔗<class_MultiplayerSynchronizer_signal_delta_synchronized>`
 
-Emitted when a new delta synchronization state is received by this synchronizer after the properties have been updated.
+Émis quand un nouvel état de synchronisation delta est reçu par ce synchroniseur après que les propriétés aient été mises à jour.
 
 .. rst-class:: classref-item-separator
 
@@ -96,7 +96,7 @@ Emitted when a new delta synchronization state is received by this synchronizer 
 
 **synchronized**\ (\ ) :ref:`🔗<class_MultiplayerSynchronizer_signal_synchronized>`
 
-Emitted when a new synchronization state is received by this synchronizer after the properties have been updated.
+Émis quand un nouvel état de synchronisation est reçu par ce synchroniseur après que les propriétés aient été mises à jour.
 
 .. rst-class:: classref-item-separator
 
@@ -108,7 +108,7 @@ Emitted when a new synchronization state is received by this synchronizer after 
 
 **visibility_changed**\ (\ for_peer\: :ref:`int<class_int>`\ ) :ref:`🔗<class_MultiplayerSynchronizer_signal_visibility_changed>`
 
-Emitted when visibility of ``for_peer`` is updated. See :ref:`update_visibility()<class_MultiplayerSynchronizer_method_update_visibility>`.
+Émis quand la visibilité du pair ``for_peer`` est mise à jour. Voir :ref:`update_visibility()<class_MultiplayerSynchronizer_method_update_visibility>`.
 
 .. rst-class:: classref-section-separator
 
@@ -131,7 +131,7 @@ enum **VisibilityUpdateMode**: :ref:`🔗<enum_MultiplayerSynchronizer_Visibilit
 
 :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>` **VISIBILITY_PROCESS_IDLE** = ``0``
 
-Visibility filters are updated during process frames (see :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
+Les filtres de visibilité sont mis à jour pendant les trames de traitement (voir :ref:`Node.NOTIFICATION_INTERNAL_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PROCESS>`).
 
 .. _class_MultiplayerSynchronizer_constant_VISIBILITY_PROCESS_PHYSICS:
 
@@ -139,7 +139,7 @@ Visibility filters are updated during process frames (see :ref:`Node.NOTIFICATIO
 
 :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>` **VISIBILITY_PROCESS_PHYSICS** = ``1``
 
-Visibility filters are updated during physics frames (see :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
+Les filtres de visibilité sont mis à jour pendant les trames de physique (voir :ref:`Node.NOTIFICATION_INTERNAL_PHYSICS_PROCESS<class_Node_constant_NOTIFICATION_INTERNAL_PHYSICS_PROCESS>`).
 
 .. _class_MultiplayerSynchronizer_constant_VISIBILITY_PROCESS_NONE:
 
@@ -147,7 +147,7 @@ Visibility filters are updated during physics frames (see :ref:`Node.NOTIFICATIO
 
 :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>` **VISIBILITY_PROCESS_NONE** = ``2``
 
-Visibility filters are not updated automatically, and must be updated manually by calling :ref:`update_visibility()<class_MultiplayerSynchronizer_method_update_visibility>`.
+Les filtres de visibilité ne sont pas mis à jour automatiquement et doivent être mis à jour manuellement en appelant :ref:`update_visibility()<class_MultiplayerSynchronizer_method_update_visibility>`.
 
 .. rst-class:: classref-section-separator
 
@@ -169,7 +169,7 @@ Descriptions des propriétés
 - |void| **set_delta_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_delta_interval**\ (\ )
 
-Time interval between delta synchronizations. Used when the replication is set to :ref:`SceneReplicationConfig.REPLICATION_MODE_ON_CHANGE<class_SceneReplicationConfig_constant_REPLICATION_MODE_ON_CHANGE>`. If set to ``0.0`` (the default), delta synchronizations happen every network process frame.
+Intervalle de temps entre les synchronisations delta. Utilisé lorsque la réplication est définie à :ref:`SceneReplicationConfig.REPLICATION_MODE_ON_CHANGE<class_SceneReplicationConfig_constant_REPLICATION_MODE_ON_CHANGE>`. Si défini à ``0.0`` (la valeur par défaut), les synchronisations delta se produisent à chaque trame de traitement réseau.
 
 .. rst-class:: classref-item-separator
 
@@ -186,7 +186,7 @@ Time interval between delta synchronizations. Used when the replication is set t
 - |void| **set_visibility_public**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_visibility_public**\ (\ )
 
-Whether synchronization should be visible to all peers by default. See :ref:`set_visibility_for()<class_MultiplayerSynchronizer_method_set_visibility_for>` and :ref:`add_visibility_filter()<class_MultiplayerSynchronizer_method_add_visibility_filter>` for ways of configuring fine-grained visibility options.
+Indique si la synchronisation devrait être visible par défaut pour tous les pairs. Voir :ref:`set_visibility_for()<class_MultiplayerSynchronizer_method_set_visibility_for>` et :ref:`add_visibility_filter()<class_MultiplayerSynchronizer_method_add_visibility_filter>` pour des moyens de configurer des options de visibilité plus détaillées.
 
 .. rst-class:: classref-item-separator
 
@@ -203,7 +203,7 @@ Whether synchronization should be visible to all peers by default. See :ref:`set
 - |void| **set_replication_config**\ (\ value\: :ref:`SceneReplicationConfig<class_SceneReplicationConfig>`\ )
 - :ref:`SceneReplicationConfig<class_SceneReplicationConfig>` **get_replication_config**\ (\ )
 
-Resource containing which properties to synchronize.
+Ressource contenant les propriétés à synchroniser.
 
 .. rst-class:: classref-item-separator
 
@@ -220,7 +220,7 @@ Resource containing which properties to synchronize.
 - |void| **set_replication_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_replication_interval**\ (\ )
 
-Time interval between synchronizations. Used when the replication is set to :ref:`SceneReplicationConfig.REPLICATION_MODE_ALWAYS<class_SceneReplicationConfig_constant_REPLICATION_MODE_ALWAYS>`. If set to ``0.0`` (the default), synchronizations happen every network process frame.
+Intervalle de temps entre les synchronisations. Utilisé lorsque la réplication est définie à :ref:`SceneReplicationConfig.REPLICATION_MODE_ALWAYS<class_SceneReplicationConfig_constant_REPLICATION_MODE_ALWAYS>`. Si défini à ``0.0`` (la valeur par défaut), les synchronisations se produisent à chaque trame de traitement réseau.
 
 .. rst-class:: classref-item-separator
 
@@ -237,9 +237,9 @@ Time interval between synchronizations. Used when the replication is set to :ref
 - |void| **set_root_path**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_root_path**\ (\ )
 
-Node path that replicated properties are relative to.
+Chemin du nœud auquel les propriétés répliquées sont relatives.
 
-If :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` was spawned by a :ref:`MultiplayerSpawner<class_MultiplayerSpawner>`, the node will be also be spawned and despawned based on this synchronizer visibility options.
+Si :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` a été spawné par un :ref:`MultiplayerSpawner<class_MultiplayerSpawner>`, le nœud sera également spawné et despawné en fonction des options de visibilité de ce synchroniseur.
 
 .. rst-class:: classref-item-separator
 
@@ -256,7 +256,7 @@ If :ref:`root_path<class_MultiplayerSynchronizer_property_root_path>` was spawne
 - |void| **set_visibility_update_mode**\ (\ value\: :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>`\ )
 - :ref:`VisibilityUpdateMode<enum_MultiplayerSynchronizer_VisibilityUpdateMode>` **get_visibility_update_mode**\ (\ )
 
-Specifies when visibility filters are updated.
+Spécifie quand les filtres de visibilité sont mis à jour.
 
 .. rst-class:: classref-section-separator
 
@@ -273,9 +273,9 @@ Descriptions des méthodes
 
 |void| **add_visibility_filter**\ (\ filter\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_MultiplayerSynchronizer_method_add_visibility_filter>`
 
-Adds a peer visibility filter for this synchronizer.
+Ajoute un filtre de visibilité des pairs pour ce synchroniseur.
 
-\ ``filter`` should take a peer ID :ref:`int<class_int>` and return a :ref:`bool<class_bool>`.
+\ ``filter`` devrait prendre un identifiant :ref:`int<class_int>` de pair et renvoyer un :ref:`bool<class_bool>`.
 
 .. rst-class:: classref-item-separator
 
@@ -287,7 +287,7 @@ Adds a peer visibility filter for this synchronizer.
 
 :ref:`bool<class_bool>` **get_visibility_for**\ (\ peer\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MultiplayerSynchronizer_method_get_visibility_for>`
 
-Queries the current visibility for peer ``peer``.
+Demande la visibilité actuelle du pair ``peer``.
 
 .. rst-class:: classref-item-separator
 
@@ -299,7 +299,7 @@ Queries the current visibility for peer ``peer``.
 
 |void| **remove_visibility_filter**\ (\ filter\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_MultiplayerSynchronizer_method_remove_visibility_filter>`
 
-Removes a peer visibility filter from this synchronizer.
+Retire un filtre de visibilité des pairs de ce synchroniseur.
 
 .. rst-class:: classref-item-separator
 
@@ -311,7 +311,7 @@ Removes a peer visibility filter from this synchronizer.
 
 |void| **set_visibility_for**\ (\ peer\: :ref:`int<class_int>`, visible\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_MultiplayerSynchronizer_method_set_visibility_for>`
 
-Sets the visibility of ``peer`` to ``visible``. If ``peer`` is ``0``, the value of :ref:`public_visibility<class_MultiplayerSynchronizer_property_public_visibility>` will be updated instead.
+Définit la visibilité du pair ``peer`` à ``visible``. Si ``peer`` vaut ``0``, la valeur de :ref:`public_visibility<class_MultiplayerSynchronizer_property_public_visibility>` sera mise à jour à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -323,7 +323,7 @@ Sets the visibility of ``peer`` to ``visible``. If ``peer`` is ``0``, the value 
 
 |void| **update_visibility**\ (\ for_peer\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_MultiplayerSynchronizer_method_update_visibility>`
 
-Updates the visibility of ``for_peer`` according to visibility filters. If ``for_peer`` is ``0`` (the default), all peers' visibilties are updated.
+Met à jour la visibilité de ``for_peer`` selon les filtres de visibilité. Si ``for_peer`` vaut ``0`` (par défaut), toutes les visibilités des pairs sont mises à jour.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

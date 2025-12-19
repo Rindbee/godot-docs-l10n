@@ -253,7 +253,7 @@ Obtiene un float de precisión media de la transmisión.
 
 :ref:`Array<class_Array>` **get_partial_data**\ (\ bytes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeer_method_get_partial_data>`
 
-Returns a chunk data with the received bytes. The number of bytes to be received can be requested in the ``bytes`` argument. If not enough bytes are available, the function will return how many were actually received. This function returns two values: an :ref:`Error<enum_@GlobalScope_Error>` code and a data array.
+Devuelve un fragmento de datos con los bytes recibidos. La cantidad de bytes a recibir se puede solicitar en el argumento ``bytes``. Si no hay suficientes bytes disponibles, la función devolverá cuántos se recibieron realmente. Esta función devuelve dos valores: un código :ref:`Error<enum_@GlobalScope_Error>` y un array de datos.
 
 .. rst-class:: classref-item-separator
 
@@ -265,7 +265,7 @@ Returns a chunk data with the received bytes. The number of bytes to be received
 
 :ref:`String<class_String>` **get_string**\ (\ bytes\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_StreamPeer_method_get_string>`
 
-Gets an ASCII string with byte-length ``bytes`` from the stream. If ``bytes`` is negative (default) the length will be read from the stream using the reverse process of :ref:`put_string()<class_StreamPeer_method_put_string>`.
+Obtiene una string ASCII con una longitud de bytes ``bytes`` del flujo. Si ``bytes`` es negativo (por defecto), la longitud se leerá del flujo utilizando el proceso inverso de :ref:`put_string()<class_StreamPeer_method_put_string>`.
 
 .. rst-class:: classref-item-separator
 

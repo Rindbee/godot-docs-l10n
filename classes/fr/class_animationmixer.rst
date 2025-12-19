@@ -7,7 +7,7 @@ AnimationMixer
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`AnimationPlayer<class_AnimationPlayer>`, :ref:`AnimationTree<class_AnimationTree>`
+**Hérité par :** :ref:`AnimationPlayer<class_AnimationPlayer>`, :ref:`AnimationTree<class_AnimationTree>`
 
 Classe de base pour :ref:`AnimationPlayer<class_AnimationPlayer>` et :ref:`AnimationTree<class_AnimationTree>`.
 
@@ -383,11 +383,11 @@ Par exemple, si cette valeur est ``32`` et que l'animation a deux pistes audio, 
 - |void| **set_callback_mode_discrete**\ (\ value\: :ref:`AnimationCallbackModeDiscrete<enum_AnimationMixer_AnimationCallbackModeDiscrete>`\ )
 - :ref:`AnimationCallbackModeDiscrete<enum_AnimationMixer_AnimationCallbackModeDiscrete>` **get_callback_mode_discrete**\ (\ )
 
-Ordinarily, tracks can be set to :ref:`Animation.UPDATE_DISCRETE<class_Animation_constant_UPDATE_DISCRETE>` to update infrequently, usually when using nearest interpolation.
+Habituellement, les pistes peuvent être définies à :ref:`Animation.UPDATE_DISCRETE<class_Animation_constant_UPDATE_DISCRETE>` pour se mettre à jour infréquemment, habituellement en utilisant l'interpolation du plus proche.
 
-However, when blending with :ref:`Animation.UPDATE_CONTINUOUS<class_Animation_constant_UPDATE_CONTINUOUS>` several results are considered. The :ref:`callback_mode_discrete<class_AnimationMixer_property_callback_mode_discrete>` specify it explicitly. See also :ref:`AnimationCallbackModeDiscrete<enum_AnimationMixer_AnimationCallbackModeDiscrete>`.
+Cependant, lors du mélange avec :ref:`Animation.UPDATE_CONTINUOUS<class_Animation_constant_UPDATE_CONTINUOUS>`, plusieurs résultats sont pris en considération. Le :ref:`callback_mode_discrete<class_AnimationMixer_property_callback_mode_discrete>` le spécifie explicitement. Voir aussi :ref:`AnimationCallbackModeDiscrete<enum_AnimationMixer_AnimationCallbackModeDiscrete>`.
 
-To make the blended results look good, it is recommended to set this to :ref:`ANIMATION_CALLBACK_MODE_DISCRETE_FORCE_CONTINUOUS<class_AnimationMixer_constant_ANIMATION_CALLBACK_MODE_DISCRETE_FORCE_CONTINUOUS>` to update every frame during blending. Other values exist for compatibility and they are fine if there is no blending, but not so, may produce artifacts.
+Pour que les résultats mélangés soient bons, il est recommandé de définir ceci à :ref:`ANIMATION_CALLBACK_MODE_DISCRETE_FORCE_CONTINUOUS<class_AnimationMixer_constant_ANIMATION_CALLBACK_MODE_DISCRETE_FORCE_CONTINUOUS>` pour se mettre à jour à chaque trame pendant le mélange. D'autres valeurs existent pour la compatibilité et elles sont bonnes s'il n'y a pas de mélange, mais pas ainsi, peuvent produire des artéfacts.
 
 .. rst-class:: classref-item-separator
 
@@ -484,7 +484,7 @@ Cela rend plus commode la prévisualisation et la modification des animations da
 - |void| **set_root_motion_local**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_root_motion_local**\ (\ )
 
-If ``true``, :ref:`get_root_motion_position()<class_AnimationMixer_method_get_root_motion_position>` value is extracted as a local translation value before blending. In other words, it is treated like the translation is done after the rotation.
+Si ``true``, la valeur de :ref:`get_root_motion_position()<class_AnimationMixer_method_get_root_motion_position>` est extraite en tant que valeur de translation locale avant le mélange. En d'autres termes, c'est traité comme si la translation est faite après la rotation.
 
 .. rst-class:: classref-item-separator
 
@@ -687,32 +687,32 @@ Renvoie la liste des clés d'animations stockées.
 
 :ref:`Vector3<class_Vector3>` **get_root_motion_position**\ (\ ) |const| :ref:`🔗<class_AnimationMixer_method_get_root_motion_position>`
 
-Retrieve the motion delta of position with the :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` as a :ref:`Vector3<class_Vector3>` that can be used elsewhere.
+Récupère le différentiel de position du mouvement avec :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` en tant que :ref:`Vector3<class_Vector3>` qui peut être utilisé autre part.
 
-If :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` is not a path to a track of type :ref:`Animation.TYPE_POSITION_3D<class_Animation_constant_TYPE_POSITION_3D>`, returns ``Vector3(0, 0, 0)``.
+Si :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` n'est pas un chemin vers une piste de type :ref:`Animation.TYPE_POSITION_3D<class_Animation_constant_TYPE_POSITION_3D>`, renvoie ``Vector3(0,0,0)``.
 
-See also :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` and :ref:`RootMotionView<class_RootMotionView>`.
+Voir aussi :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` et :ref:`RootMotionView<class_RootMotionView>`;
 
-The most basic example is applying position to :ref:`CharacterBody3D<class_CharacterBody3D>`:
+Le plus simple example est d'appliquer la position à :ref:`CharacterBody3D<class_CharacterBody3D>`\  :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var current_rotation
+    var rotation_actuelle
 
     func _process(delta):
         if Input.is_action_just_pressed("animate"):
-            current_rotation = get_quaternion()
+            rotation_actuelle = get_quaternion()
             state_machine.travel("Animate")
-        var velocity = current_rotation * animation_tree.get_root_motion_position() / delta
-        set_velocity(velocity)
+        var velocite = rotation_actuelle * animation_tree.get_root_motion_position() / delta
+        set_velocity(velocite)
         move_and_slide()
 
 
 
-By using this in combination with :ref:`get_root_motion_rotation_accumulator()<class_AnimationMixer_method_get_root_motion_rotation_accumulator>`, you can apply the root motion position more correctly to account for the rotation of the node.
+En utilisant ceci en combinaison avec :ref:`get_root_motion_rotation_accumulator()<class_AnimationMixer_method_get_root_motion_rotation_accumulator>`, vous pouvez appliquer la position du mouvement racine correctement pour prendre en compte la rotation du nœud.
 
 
 .. tabs::
@@ -723,15 +723,15 @@ By using this in combination with :ref:`get_root_motion_rotation_accumulator()<c
         if Input.is_action_just_pressed("animate"):
             state_machine.travel("Animate")
         set_quaternion(get_quaternion() * animation_tree.get_root_motion_rotation())
-        var velocity = (animation_tree.get_root_motion_rotation_accumulator().inverse() * get_quaternion()) * animation_tree.get_root_motion_position() / delta
-        set_velocity(velocity)
+        var vitesse = (animation_tree.get_root_motion_rotation_accumulator().inverse() * get_quaternion()) * animation_tree.get_root_motion_position() / delta
+        set_velocity(vitesse)
         move_and_slide()
 
 
 
-If :ref:`root_motion_local<class_AnimationMixer_property_root_motion_local>` is ``true``, returns the pre-multiplied translation value with the inverted rotation.
+Si :ref:`root_motion_local<class_AnimationMixer_property_root_motion_local>` vaut ``true``, renvoie la valeur de translation pré-multipliée avec la rotation inversée.
 
-In this case, the code can be written as follows:
+Dans ce cas, le code peut être écrit comme suit :
 
 
 .. tabs::
@@ -742,8 +742,8 @@ In this case, the code can be written as follows:
         if Input.is_action_just_pressed("animate"):
             state_machine.travel("Animate")
         set_quaternion(get_quaternion() * animation_tree.get_root_motion_rotation())
-        var velocity = get_quaternion() * animation_tree.get_root_motion_position() / delta
-        set_velocity(velocity)
+        var vitesse = get_quaternion() * animation_tree.get_root_motion_position() / delta
+        set_velocity(vitesse)
         move_and_slide()
 
 
@@ -758,30 +758,30 @@ In this case, the code can be written as follows:
 
 :ref:`Vector3<class_Vector3>` **get_root_motion_position_accumulator**\ (\ ) |const| :ref:`🔗<class_AnimationMixer_method_get_root_motion_position_accumulator>`
 
-Retrieve the blended value of the position tracks with the :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` as a :ref:`Vector3<class_Vector3>` that can be used elsewhere.
+Récupère la valeur mélangée des pistes de position avec :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` en tant que :ref:`Vector3<class_Vector3>` qui peut être utilisé autre part.
 
-This is useful in cases where you want to respect the initial key values of the animation.
+Ceci est utile dans les cas où vous voulez respecter les valeurs de clés initiales de l'animation.
 
-For example, if an animation with only one key ``Vector3(0, 0, 0)`` is played in the previous frame and then an animation with only one key ``Vector3(1, 0, 1)`` is played in the next frame, the difference can be calculated as follows:
+Par exemple, si une animation avec seulement une clé ``Vector3(0, 0, 0)`` est jouée dans la trame précédente et ensuite une animation avec seulement une clé ``Vector3(1, 0, 1)`` est jouée à la trame suivante, la différence peut-être calculée comme suit :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var prev_root_motion_position_accumulator
+    var accumulateur_position_mouvement_racine_precedent
 
     func _process(delta):
         if Input.is_action_just_pressed("animate"):
             state_machine.travel("Animate")
-        var current_root_motion_position_accumulator = animation_tree.get_root_motion_position_accumulator()
-        var difference = current_root_motion_position_accumulator - prev_root_motion_position_accumulator
-        prev_root_motion_position_accumulator = current_root_motion_position_accumulator
+        var accumulateur_position_mouvement_racine_actuel = animation_tree.get_root_motion_position_accumulator()
+        var difference = accumulateur_position_mouvement_racine_actuel - accumulateur_position_mouvement_racine_precedent
+        accumulateur_position_mouvement_racine_precedent = accumulateur_position_mouvement_racine_actuel
         transform.origin += difference
 
 
 
-However, if the animation loops, an unintended discrete change may occur, so this is only useful for some simple use cases.
+Cependant, si l'animation boucle, un changement discret non intentionnel peut se produire, donc cela n'est utile que pour certains cas d'utilisation simples.
 
 .. rst-class:: classref-item-separator
 
@@ -793,13 +793,13 @@ However, if the animation loops, an unintended discrete change may occur, so thi
 
 :ref:`Quaternion<class_Quaternion>` **get_root_motion_rotation**\ (\ ) |const| :ref:`🔗<class_AnimationMixer_method_get_root_motion_rotation>`
 
-Retrieve the motion delta of rotation with the :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` as a :ref:`Quaternion<class_Quaternion>` that can be used elsewhere.
+Récupère le différentiel de rotation du mouvement avec :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` en tant que :ref:`Quaternion<class_Quaternion>` qui peut être utilisé autre part.
 
-If :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` is not a path to a track of type :ref:`Animation.TYPE_ROTATION_3D<class_Animation_constant_TYPE_ROTATION_3D>`, returns ``Quaternion(0, 0, 0, 1)``.
+Si :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` n'est pas un chemin vers une piste de type :ref:`Animation.TYPE_ROTATION_3D<class_Animation_constant_TYPE_ROTATION_3D>`, renvoie ``Quaternion(0, 0, 0, 1)``.
 
-See also :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` and :ref:`RootMotionView<class_RootMotionView>`.
+Voir aussi :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` et :ref:`RootMotionView<class_RootMotionView>`;
 
-The most basic example is applying rotation to :ref:`CharacterBody3D<class_CharacterBody3D>`:
+Le plus simple example est d'appliquer la rotation à :ref:`CharacterBody3D<class_CharacterBody3D>`\  :
 
 
 .. tabs::
@@ -860,29 +860,29 @@ Cependant, si l'animation boucle, un changement discret non intentionnel peut se
 
 :ref:`Vector3<class_Vector3>` **get_root_motion_scale**\ (\ ) |const| :ref:`🔗<class_AnimationMixer_method_get_root_motion_scale>`
 
-Retrieve the motion delta of scale with the :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` as a :ref:`Vector3<class_Vector3>` that can be used elsewhere.
+Récupère le différentiel d'échelle du mouvement avec :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` en tant que :ref:`Vector3<class_Vector3>` qui peut être utilisé autre part.
 
-If :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` is not a path to a track of type :ref:`Animation.TYPE_SCALE_3D<class_Animation_constant_TYPE_SCALE_3D>`, returns ``Vector3(0, 0, 0)``.
+Si :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` n'est pas un chemin vers une piste de type :ref:`Animation.TYPE_SCALE_3D<class_Animation_constant_TYPE_SCALE_3D>`, renvoie ``Vector3(0, 0, 0)``.
 
-See also :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` and :ref:`RootMotionView<class_RootMotionView>`.
+Voir aussi :ref:`root_motion_track<class_AnimationMixer_property_root_motion_track>` et :ref:`RootMotionView<class_RootMotionView>`;
 
-The most basic example is applying scale to :ref:`CharacterBody3D<class_CharacterBody3D>`:
+Le plus simple exemple est d'appliquer l'échelle à :ref:`CharacterBody3D<class_CharacterBody3D>`\  :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var current_scale = Vector3(1, 1, 1)
-    var scale_accum = Vector3(1, 1, 1)
+    var echelle_actuelle = Vector3(1, 1, 1)
+    var accum_echelle = Vector3(1, 1, 1)
 
     func _process(delta):
         if Input.is_action_just_pressed("animate"):
-            current_scale = get_scale()
-            scale_accum = Vector3(1, 1, 1)
+            echelle_actuelle = get_scale()
+            accum_echelle = Vector3(1, 1, 1)
             state_machine.travel("Animate")
-        scale_accum += animation_tree.get_root_motion_scale()
-        set_scale(current_scale * scale_accum)
+        accum_echelle += animation_tree.get_root_motion_scale()
+        set_scale(echelle_actuelle * accum_echelle)
 
 
 

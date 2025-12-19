@@ -421,7 +421,7 @@ Un valor de color utilizado para *multiplicar* los colores de la textura. Puede 
 
 \ **Nota:** A diferencia de :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>` para 2D, los colores con valores superiores a ``1.0`` (sobresaturados) no son compatibles.
 
-\ **Nota:** Si se define un :ref:`GeometryInstance3D.material_override<class_GeometryInstance3D_property_material_override>` en el **SpriteBase3D**, el material de sobreescritura debe configurarse para tener en cuenta los colores de los vértices para el albedo. De lo contrario, el color definido en :ref:`modulate<class_SpriteBase3D_property_modulate>` será ignorado. Para un :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` debe ser ``true``. Para un :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALBEDO *= COLOR.rgb;`` debe insertarse en la función ``fragment()`` del shader.
+\ **Nota:** Si se define un :ref:`GeometryInstance3D.material_override<class_GeometryInstance3D_property_material_override>` en el **SpriteBase3D**, el material de sobrescritura debe configurarse para tener en cuenta los colores de los vértices para el albedo. De lo contrario, el color definido en :ref:`modulate<class_SpriteBase3D_property_modulate>` será ignorado. Para un :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` debe ser ``true``. Para un :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALBEDO *= COLOR.rgb;`` debe insertarse en la función ``fragment()`` del shader.
 
 .. rst-class:: classref-item-separator
 
@@ -512,7 +512,7 @@ Sets the render priority for the sprite. Higher priority objects will be sorted 
 - |void| **set_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_draw_flag**\ (\ flag\: :ref:`DrawFlags<enum_SpriteBase3D_DrawFlags>`\ ) |const|
 
-If ``true``, the :ref:`Light3D<class_Light3D>` in the :ref:`Environment<class_Environment>` has effects on the sprite.
+Si es ``true``, la :ref:`Light3D<class_Light3D>` en el :ref:`Environment<class_Environment>` tiene efectos en el sprite.
 
 .. rst-class:: classref-item-separator
 

@@ -7,14 +7,14 @@ SeparationRayShape2D
 
 **Hereda:** :ref:`Shape2D<class_Shape2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 2D ray shape used for physics collision that tries to separate itself from any collider.
+Una forma de rayo 2D utilizada para la colisión física que intenta separarse de cualquier colisionador.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A 2D ray shape, intended for use in physics. Usually used to provide a shape for a :ref:`CollisionShape2D<class_CollisionShape2D>`. When a **SeparationRayShape2D** collides with an object, it tries to separate itself from it by moving its endpoint to the collision point. For example, a **SeparationRayShape2D** next to a character can allow it to instantly move up when touching stairs.
+Una forma de rayo 2D, destinada a ser utilizada en física. Normalmente se utiliza para proporcionar una forma para un :ref:`CollisionShape2D<class_CollisionShape2D>`. Cuando un **SeparationRayShape2D** colisiona con un objeto, intenta separarse de él moviendo su punto final al punto de colisión. Por ejemplo, un **SeparationRayShape2D** al lado de un personaje puede permitirle moverse instantáneamente hacia arriba al tocar las escaleras.
 
 .. rst-class:: classref-reftable-group
 
@@ -67,9 +67,9 @@ La longitud del rayo.
 - |void| **set_slide_on_slope**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_slide_on_slope**\ (\ )
 
-If ``false`` (default), the shape always separates and returns a normal along its own direction.
+Si es ``false`` (por defecto), la forma siempre se separa y devuelve una normal a lo largo de su propia dirección.
 
-If ``true``, the shape can return the correct normal and separate in any direction, allowing sliding motion on slopes.
+Si es ``true``, la forma puede devolver la normal correcta y separarse en cualquier dirección, permitiendo el movimiento de deslizamiento en pendientes.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

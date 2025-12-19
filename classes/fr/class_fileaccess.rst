@@ -803,7 +803,7 @@ Returns the last time the ``file`` was modified in Unix timestamp format, or ``0
 
 :ref:`Error<enum_@GlobalScope_Error>` **get_open_error**\ (\ ) |static| :ref:`🔗<class_FileAccess_method_get_open_error>`
 
-Returns the result of the last :ref:`open()<class_FileAccess_method_open>` call in the current thread.
+Renvoie le résultat du dernier appel à :ref:`open()<class_FileAccess_method_open>` sur le thread courant.
 
 .. rst-class:: classref-item-separator
 

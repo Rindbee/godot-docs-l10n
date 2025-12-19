@@ -93,7 +93,7 @@ Descriptions des propriétés
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, the text gets wrapped inside the node's bounding rectangle. If you resize the node, it will change its height automatically to show all the text.
+Si défini à quelque chose d'autre que :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, le texte retourne automatiquement à la ligne dans le rectangle délimitant du nœud. Si vous redimensionnez le nœud, il va changer sa hauteur automatiquement pour afficher tout le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ Depths of the mesh, if set to ``0.0`` only front surface, is generated, and UV l
 - |void| **set_font**\ (\ value\: :ref:`Font<class_Font>`\ )
 - :ref:`Font<class_Font>` **get_font**\ (\ )
 
-Font configuration used to display text.
+Configuration de la police utilisée pour afficher le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -161,7 +161,7 @@ Font configuration used to display text.
 - |void| **set_font_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_font_size**\ (\ )
 
-Font size of the **TextMesh**'s text.
+Taille de police du texte du **TextMesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +178,7 @@ Font size of the **TextMesh**'s text.
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Controls the text's horizontal alignment. Supports left, center, right, and fill, or justify.
+Contrôle l'alignement horizontal du texte. Supporte à gauche, au centre, à droite, et rempli ou justifié.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ Controls the text's horizontal alignment. Supports left, center, right, and fill
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Règles d'alignement du remplissage des lignes.
 
 .. rst-class:: classref-item-separator
 
@@ -229,7 +229,7 @@ Language code used for text shaping algorithms, if left empty current locale is 
 - |void| **set_line_spacing**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_line_spacing**\ (\ )
 
-Additional vertical spacing between lines (in pixels), spacing is added to line descent. This value can be negative.
+Espacement vertical supplémentaire entre les lignes (en pixels), l'espacement est ajouté à la descente de la ligne. Cette valeur peut être négative.
 
 .. rst-class:: classref-item-separator
 
@@ -246,7 +246,7 @@ Additional vertical spacing between lines (in pixels), spacing is added to line 
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-The text drawing offset (in pixels).
+Le décalage du dessin du texte (en pixels).
 
 .. rst-class:: classref-item-separator
 
@@ -280,7 +280,7 @@ La taille d'un des pixels du texte pour définir sa taille en 3D.
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Set BiDi algorithm override for the structured text.
+Définit la redéfinition de l'algorithme BiDi pour le texte structuré.
 
 .. rst-class:: classref-item-separator
 
@@ -297,7 +297,7 @@ Set BiDi algorithm override for the structured text.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Set additional options for BiDi override.
+Définit des options supplémentaires pour la redéfinition BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -314,9 +314,9 @@ Set additional options for BiDi override.
 - |void| **set_text**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_text**\ (\ )
 
-The text to generate mesh from.
+Le texte duquel générer du maillage.
 
-\ **Note:** Due to being a :ref:`Resource<class_Resource>`, it doesn't follow the rules of :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>`. If disabling translation is desired, it should be done manually with :ref:`Object.set_message_translation()<class_Object_method_set_message_translation>`.
+\ **Note :** En raison d'être une :ref:`Resource<class_Resource>`, il ne suit pas les règles de :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>`. Si désactiver la traduction est souhaité, cela doit être fait manuellement avec :ref:`Object.set_message_translation()<class_Object_method_set_message_translation>`.
 
 .. rst-class:: classref-item-separator
 
@@ -367,7 +367,7 @@ Si ``true``, tous les textes seront en MAJUSCULE.
 - |void| **set_vertical_alignment**\ (\ value\: :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>`\ )
 - :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>` **get_vertical_alignment**\ (\ )
 
-Controls the text's vertical alignment. Supports top, center, and bottom.
+Contrôle l'alignement vertical du texte. Supporte en haut, au centre, et en bas.
 
 .. rst-class:: classref-item-separator
 
@@ -384,7 +384,7 @@ Controls the text's vertical alignment. Supports top, center, and bottom.
 - |void| **set_width**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_width**\ (\ )
 
-Text width (in pixels), used for fill alignment.
+Largeur du texte (en pixels), utilisée pour l'alignement du remplissage.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

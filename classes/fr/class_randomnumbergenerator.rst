@@ -7,7 +7,7 @@ RandomNumberGenerator
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides methods for generating pseudo-random numbers.
+Fournit des méthodes pour générer des nombres pseudo-aléatoires.
 
 .. rst-class:: classref-introduction-group
 
@@ -120,20 +120,20 @@ Initialise l'état du générateur de nombres aléatoires selon la valeur la gra
 - |void| **set_state**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_state**\ (\ )
 
-The current state of the random number generator. Save and restore this property to restore the generator to a previous state:
+L'état actuel du générateur de nombres aléatoires. Enregistrez puis restaurez cette propriété pour restorer l'état du générateur à un état précédent :
 
 ::
 
     var rng = RandomNumberGenerator.new()
     print(rng.randf())
-    var saved_state = rng.state # Store current state.
-    print(rng.randf()) # Advance internal state.
-    rng.state = saved_state # Restore the state.
-    print(rng.randf()) # Prints the same value as previously.
+    var etat_sauvegarde = rng.state # Enregistre l'état actuel.
+    print(rng.randf()) # Avance l'état interne.
+    rng.state = etat_sauvegarde # Restaure l'état.
+    print(rng.randf()) # Affiche la même valeur que précédemment.
 
-\ **Note:** Do not set state to arbitrary values, since the random number generator requires the state to have certain qualities to behave properly. It should only be set to values that came from the state property itself. To initialize the random number generator with arbitrary input, use :ref:`seed<class_RandomNumberGenerator_property_seed>` instead.
+\ **Note :** Ne définissez pas l'état sauvegardé à des valeurs arbitraires, car le générateur de nombre aléatoires a besoin que l'état ait des propriétés particulières pour se comporter correctement. Cet état ne devrait être défini qu'à partir de valeurs qui proviennent de la propriété de l'état lui-même. Pour initialiser le générateur avec une entrée arbitraire, utilisez plutôt :ref:`seed<class_RandomNumberGenerator_property_seed>`.
 
-\ **Note:** The default value of this property is pseudo-random, and changes when calling :ref:`randomize()<class_RandomNumberGenerator_method_randomize>`. The ``0`` value documented here is a placeholder, and not the actual default state.
+\ **Note :** La valeur par défaut de cette propriété est pseudo-aléatoire, et change lors de l'appel à :ref:`randomize()<class_RandomNumberGenerator_method_randomize>`. La valeur de ``0`` documentée ici est un placeholder, et non l'état par défaut réel.
 
 .. rst-class:: classref-section-separator
 
@@ -150,7 +150,7 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **rand_weighted**\ (\ weights\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) :ref:`🔗<class_RandomNumberGenerator_method_rand_weighted>`
 
-Returns a random index with non-uniform weights. Prints an error and returns ``-1`` if the array is empty.
+Renvoie un index aléatoire avec des poids non-uniformes. Affiche une erreur et renvoie ``-1`` si le tableau est vide.
 
 
 .. tabs::
@@ -159,12 +159,12 @@ Returns a random index with non-uniform weights. Prints an error and returns ``-
 
     var rng = RandomNumberGenerator.new()
 
-    var my_array = ["one", "two", "three", "four"]
-    var weights = PackedFloat32Array([0.5, 1, 1, 2])
+    var mon_tableau = ["un", "deux", "trois", "quatre"]
+    var poids = PackedFloat32Array([0.5, 1, 1, 2])
 
-    # Prints one of the four elements in `my_array`.
-    # It is more likely to print "four", and less likely to print "one".
-    print(my_array[rng.rand_weighted(weights)])
+    # Affiche un des quatre éléments dans `mon_tableau`.
+    # Il est plus probable que "quatre" soit affiché, et moins probable que "un" soit affiché.
+    print(mon_tableau[rng.rand_weighted(poids)])
 
 
 
@@ -178,7 +178,7 @@ Returns a random index with non-uniform weights. Prints an error and returns ``-
 
 :ref:`float<class_float>` **randf**\ (\ ) :ref:`🔗<class_RandomNumberGenerator_method_randf>`
 
-Returns a pseudo-random float between ``0.0`` and ``1.0`` (inclusive).
+Renvoie un flottant pseudo-aléatoire entre ``0.0`` et ``1.0`` (inclus).
 
 .. rst-class:: classref-item-separator
 
@@ -190,7 +190,7 @@ Returns a pseudo-random float between ``0.0`` and ``1.0`` (inclusive).
 
 :ref:`float<class_float>` **randf_range**\ (\ from\: :ref:`float<class_float>`, to\: :ref:`float<class_float>`\ ) :ref:`🔗<class_RandomNumberGenerator_method_randf_range>`
 
-Returns a pseudo-random float between ``from`` and ``to`` (inclusive).
+Renvoie un flottant pseudo-aléatoire entre ``from`` et ``to`` (inclus).
 
 .. rst-class:: classref-item-separator
 
@@ -202,9 +202,9 @@ Returns a pseudo-random float between ``from`` and ``to`` (inclusive).
 
 :ref:`float<class_float>` **randfn**\ (\ mean\: :ref:`float<class_float>` = 0.0, deviation\: :ref:`float<class_float>` = 1.0\ ) :ref:`🔗<class_RandomNumberGenerator_method_randfn>`
 
-Returns a `normally-distributed <https://en.wikipedia.org/wiki/Normal_distribution>`__, pseudo-random floating-point number from the specified ``mean`` and a standard ``deviation``. This is also known as a Gaussian distribution.
+Renvoie un flottant pseudo-aléatoire, `distribué normalement <https://fr.wikipedia.org/wiki/Loi_normale>`__, depuis la moyenne ``mean`` et l'écart-type ``deviation`` spécifiés. Ceci est également connu en tant que loi gaussienne.
 
-\ **Note:** This method uses the `Box-Muller transform <https://en.wikipedia.org/wiki/Box%E2%80%93Muller_transform>`__ algorithm.
+\ **Note :** Cette méthode utilise l'algorithme de la `méthode de Box-Muller <https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Box-Muller>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -216,7 +216,7 @@ Returns a `normally-distributed <https://en.wikipedia.org/wiki/Normal_distributi
 
 :ref:`int<class_int>` **randi**\ (\ ) :ref:`🔗<class_RandomNumberGenerator_method_randi>`
 
-Returns a pseudo-random 32-bit unsigned integer between ``0`` and ``4294967295`` (inclusive).
+Renvoie un entier non signé de 32 bits pseudo-aléatoire compris entre ``0`` et ``4294967295`` (inclus).
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ Returns a pseudo-random 32-bit unsigned integer between ``0`` and ``4294967295``
 
 :ref:`int<class_int>` **randi_range**\ (\ from\: :ref:`int<class_int>`, to\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RandomNumberGenerator_method_randi_range>`
 
-Returns a pseudo-random 32-bit signed integer between ``from`` and ``to`` (inclusive).
+Renvoie un entier signé de 32 bits pseudo-aléatoire compris entre ``from`` et ``to`` (inclus).
 
 .. rst-class:: classref-item-separator
 
@@ -240,7 +240,7 @@ Returns a pseudo-random 32-bit signed integer between ``from`` and ``to`` (inclu
 
 |void| **randomize**\ (\ ) :ref:`🔗<class_RandomNumberGenerator_method_randomize>`
 
-Sets up a time-based seed for this **RandomNumberGenerator** instance. Unlike the :ref:`@GlobalScope<class_@GlobalScope>` random number generation functions, different **RandomNumberGenerator** instances can use different seeds.
+Définit une graine basée sur le temps pour cette instance **RandomNumberGenerator**. Contrairement aux fonctions de génération de nombres aléatoires de :ref:`@GlobalScope<class_@GlobalScope>`, différentes instances de **RandomNumberGenerator** peuvent utiliser des graines différentes.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

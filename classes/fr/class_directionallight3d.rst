@@ -19,7 +19,7 @@ Description
 
 Une lumière directionnelle est un type de nœud :ref:`Light3D<class_Light3D>` qui modélise un nombre infini de rayons parallèles couvrant toute la scène. Elle est utilisée pour les lumières à forte intensité qui sont situées loin de la scène pour modéliser la lumière du soleil ou le clair de lune.
 
-La lumière est émise dans la direction -Z de la base globale du noeud. Pour une lumière non-pivotée, cela signifie que la lumière est émise vers l'avant, illuminant la face d'avant d'un modèle 3D (voir :ref:`Vector3.FORWARD<class_Vector3_constant_FORWARD>` et :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`). La position du nœud est ignorée, seule la base est utilisée pour déterminer la direction de la lumière.
+La lumière est émise dans la direction -Z de la base globale du nœud. Pour une lumière non-pivotée, cela signifie que la lumière est émise vers l'avant, illuminant la face d'avant d'un modèle 3D (voir :ref:`Vector3.FORWARD<class_Vector3_constant_FORWARD>` et :ref:`Vector3.MODEL_FRONT<class_Vector3_constant_MODEL_FRONT>`). La position du nœud est ignorée, seule la base est utilisée pour déterminer la direction de la lumière.
 
 .. rst-class:: classref-introduction-group
 
@@ -185,7 +185,7 @@ Proportion de :ref:`directional_shadow_max_distance<class_DirectionalLight3D_pro
 - |void| **set_param**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param**\ (\ )
 
-La distance maximale pour les fractions des ombres. Augmenter cette valeur rendra visibles les ombres directionnelles de plus loin, mais affichera moins de détails des ombres et de moins bonnes performances (puisque plus d'objets doivent être inclus dans le rendu d'ombre directionnel).
+La distance maximale pour les divisions des ombres. Augmenter cette valeur rendra visible les ombres directionnelles de plus loin, mais affichera moins de détails des ombres et de moins bonnes performances (puisque plus d'objets doivent être inclus dans le rendu des ombres directionnelles).
 
 .. rst-class:: classref-item-separator
 

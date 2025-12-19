@@ -262,7 +262,7 @@ Removes the first occurrence of a value from the array and returns ``true``. If 
 
 |void| **fill**\ (\ value\: :ref:`Vector4<class_Vector4>`\ ) :ref:`🔗<class_PackedVector4Array_method_fill>`
 
-Assigns the given value to all elements in the array. This can typically be used together with :ref:`resize()<class_PackedVector4Array_method_resize>` to create an array with a given size and initialized elements.
+Asigna el valor dado a todos los elementos del array. Esto normalmente se puede usar junto con :ref:`resize()<class_PackedVector4Array_method_resize>` para crear un array con un tamaño dado y elementos inicializados.
 
 .. rst-class:: classref-item-separator
 

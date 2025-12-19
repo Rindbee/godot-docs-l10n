@@ -720,7 +720,7 @@ Removes all textures from font cache entry.
 
 :ref:`float<class_float>` **get_cache_ascent**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_cache_ascent>`
 
-Returns the font ascent (number of pixels above the baseline).
+Renvoie l’ascendant de la police (le nombre de pixels au dessus de la ligne de base).
 
 .. rst-class:: classref-item-separator
 
@@ -744,7 +744,7 @@ Returns number of the font cache entries.
 
 :ref:`float<class_float>` **get_cache_descent**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_cache_descent>`
 
-Returns the font descent (number of pixels below the baseline).
+Renvoie le descendant de la police (le nombre de pixels en dessous de la ligne de base).
 
 .. rst-class:: classref-item-separator
 

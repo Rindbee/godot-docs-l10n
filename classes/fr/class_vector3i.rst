@@ -833,7 +833,7 @@ Renvoie la même valeur comme si ``+`` n'était pas là. Le ``+`` unaire ne fait
 
 :ref:`Vector3i<class_Vector3i>` **operator unary-**\ (\ ) :ref:`🔗<class_Vector3i_operator_unminus>`
 
-Renvoie la valeur négative du **Vector3i**. C'est la même chose qu'écrire ``Vector3i(-v.x, -v.y,-v.z)``. Cette opération retourne la direction du vecteur tout en gardant la même magnitude.
+Renvoie la valeur négative du **Vector3i**. Revient à écrire ``Vector3i(-v.x, -v.y,-v.z)``. Cette opération retourne la direction du vecteur tout en gardant la même magnitude.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

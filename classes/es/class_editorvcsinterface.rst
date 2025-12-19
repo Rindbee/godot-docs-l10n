@@ -7,14 +7,14 @@ EditorVCSInterface
 
 **Hereda:** :ref:`Object<class_Object>`
 
-Version Control System (VCS) interface, which reads and writes to the local VCS in use.
+Interfaz del Sistema de Control de Versiones (VCS), que lee y escribe en el VCS local en uso.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Defines the API that the editor uses to extract information from the underlying VCS. The implementation of this API is included in VCS plugins, which are GDExtension plugins that inherit **EditorVCSInterface** and are attached (on demand) to the singleton instance of **EditorVCSInterface**. Instead of performing the task themselves, all the virtual functions listed below are calling the internally overridden functions in the VCS plugins to provide a plug-n-play experience. A custom VCS plugin is supposed to inherit from **EditorVCSInterface** and override each of these virtual functions.
+Define la API que el editor utiliza para extraer información del VCS subyacente. La implementación de esta API se incluye en los plugins de VCS, que son plugins GDExtension que heredan de **EditorVCSInterface** y se adjuntan (bajo demanda) a la instancia singleton de **EditorVCSInterface**. En lugar de realizar la tarea por sí mismas, todas las funciones virtuales listadas a continuación llaman a las funciones internas sobrescritas en los plugins de VCS para proporcionar una experiencia plug-n-play. Se supone que un plugin de VCS personalizado hereda de **EditorVCSInterface** y sobrescribe cada una de estas funciones virtuales.
 
 .. rst-class:: classref-introduction-group
 
@@ -219,7 +219,7 @@ Checks out a ``branch_name`` in the VCS.
 
 |void| **_commit**\ (\ msg\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__commit>`
 
-Commits the currently staged changes and applies the commit ``msg`` to the resulting commit.
+Confirma los cambios actualmente preparados y aplica el ``msg`` de confirmación al commit resultante.
 
 .. rst-class:: classref-item-separator
 
@@ -231,7 +231,7 @@ Commits the currently staged changes and applies the commit ``msg`` to the resul
 
 |void| **_create_branch**\ (\ branch_name\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__create_branch>`
 
-Creates a new branch named ``branch_name`` in the VCS.
+Crea una nueva rama llamada ``branch_name`` en el VCS.
 
 .. rst-class:: classref-item-separator
 
@@ -243,7 +243,7 @@ Creates a new branch named ``branch_name`` in the VCS.
 
 |void| **_create_remote**\ (\ remote_name\: :ref:`String<class_String>`, remote_url\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__create_remote>`
 
-Creates a new remote destination with name ``remote_name`` and points it to ``remote_url``. This can be an HTTPS remote or an SSH remote.
+Crea un nuevo destino remoto con el nombre ``remote_name`` y lo dirige a ``remote_url``. Esto puede ser un remoto HTTPS o un remoto SSH.
 
 .. rst-class:: classref-item-separator
 
@@ -255,7 +255,7 @@ Creates a new remote destination with name ``remote_name`` and points it to ``re
 
 |void| **_discard_file**\ (\ file_path\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__discard_file>`
 
-Discards the changes made in a file present at ``file_path``.
+Descarta los cambios realizados en un archivo presente en ``file_path``.
 
 .. rst-class:: classref-item-separator
 
@@ -267,7 +267,7 @@ Discards the changes made in a file present at ``file_path``.
 
 |void| **_fetch**\ (\ remote\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__fetch>`
 
-Fetches new changes from the ``remote``, but doesn't write changes to the current working directory. Equivalent to ``git fetch``.
+Obtiene los nuevos cambios del ``remote``, pero no escribe los cambios en el directorio de trabajo actual. Equivalente a ``git fetch``.
 
 .. rst-class:: classref-item-separator
 
@@ -279,7 +279,7 @@ Fetches new changes from the ``remote``, but doesn't write changes to the curren
 
 :ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **_get_branch_list**\ (\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__get_branch_list>`
 
-Gets an instance of an :ref:`Array<class_Array>` of :ref:`String<class_String>`\ s containing available branch names in the VCS.
+Obtiene una instancia de un :ref:`Array<class_Array>` de :ref:`String<class_String>`\ s que contiene los nombres de las ramas disponibles en el VCS.
 
 .. rst-class:: classref-item-separator
 
@@ -291,7 +291,7 @@ Gets an instance of an :ref:`Array<class_Array>` of :ref:`String<class_String>`\
 
 :ref:`String<class_String>` **_get_current_branch_name**\ (\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__get_current_branch_name>`
 
-Gets the current branch name defined in the VCS.
+Obtiene el nombre de la rama actual definido en el VCS.
 
 .. rst-class:: classref-item-separator
 
@@ -303,7 +303,7 @@ Gets the current branch name defined in the VCS.
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_diff**\ (\ identifier\: :ref:`String<class_String>`, area\: :ref:`int<class_int>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__get_diff>`
 
-Returns an array of :ref:`Dictionary<class_Dictionary>` items (see :ref:`create_diff_file()<class_EditorVCSInterface_method_create_diff_file>`, :ref:`create_diff_hunk()<class_EditorVCSInterface_method_create_diff_hunk>`, :ref:`create_diff_line()<class_EditorVCSInterface_method_create_diff_line>`, :ref:`add_line_diffs_into_diff_hunk()<class_EditorVCSInterface_method_add_line_diffs_into_diff_hunk>` and :ref:`add_diff_hunks_into_diff_file()<class_EditorVCSInterface_method_add_diff_hunks_into_diff_file>`), each containing information about a diff. If ``identifier`` is a file path, returns a file diff, and if it is a commit identifier, then returns a commit diff.
+Devuelve un array de elementos :ref:`Dictionary<class_Dictionary>` (véase :ref:`create_diff_file()<class_EditorVCSInterface_method_create_diff_file>`, :ref:`create_diff_hunk()<class_EditorVCSInterface_method_create_diff_hunk>`, :ref:`create_diff_line()<class_EditorVCSInterface_method_create_diff_line>`, :ref:`add_line_diffs_into_diff_hunk()<class_EditorVCSInterface_method_add_line_diffs_into_diff_hunk>` y :ref:`add_diff_hunks_into_diff_file()<class_EditorVCSInterface_method_add_diff_hunks_into_diff_file>`), cada uno conteniendo información sobre una diferencia. Si ``identifier`` es una ruta de archivo, devuelve una diferencia de archivo, y si es un identificador de commit, entonces devuelve una diferencia de commit.
 
 .. rst-class:: classref-item-separator
 
@@ -315,7 +315,7 @@ Returns an array of :ref:`Dictionary<class_Dictionary>` items (see :ref:`create_
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_line_diff**\ (\ file_path\: :ref:`String<class_String>`, text\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__get_line_diff>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>` items (see :ref:`create_diff_hunk()<class_EditorVCSInterface_method_create_diff_hunk>`), each containing a line diff between a file at ``file_path`` and the ``text`` which is passed in.
+Devuelve un :ref:`Array<class_Array>` de elementos :ref:`Dictionary<class_Dictionary>` (véase :ref:`create_diff_hunk()<class_EditorVCSInterface_method_create_diff_hunk>`), cada uno conteniendo una diferencia de línea entre un archivo en ``file_path`` y el ``text`` que se pasa.
 
 .. rst-class:: classref-item-separator
 
@@ -327,7 +327,7 @@ Returns an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>` item
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_modified_files_data**\ (\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__get_modified_files_data>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>` items (see :ref:`create_status_file()<class_EditorVCSInterface_method_create_status_file>`), each containing the status data of every modified file in the project folder.
+Devuelve un :ref:`Array<class_Array>` de elementos :ref:`Dictionary<class_Dictionary>` (véase :ref:`create_status_file()<class_EditorVCSInterface_method_create_status_file>`), cada uno conteniendo los datos de estado de cada archivo modificado en la carpeta del proyecto.
 
 .. rst-class:: classref-item-separator
 
@@ -339,7 +339,7 @@ Returns an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>` item
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_previous_commits**\ (\ max_commits\: :ref:`int<class_int>`\ ) |virtual| |required| :ref:`🔗<class_EditorVCSInterface_private_method__get_previous_commits>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`Dictionary<class_Dictionary>` items (see :ref:`create_commit()<class_EditorVCSInterface_method_create_commit>`), each containing the data for a past commit.
+Devuelve un :ref:`Array<class_Array>` de elementos :ref:`Dictionary<class_Dictionary>` (véase :ref:`create_commit()<class_EditorVCSInterface_method_create_commit>`), cada uno conteniendo los datos para un commit pasado.
 
 .. rst-class:: classref-item-separator
 

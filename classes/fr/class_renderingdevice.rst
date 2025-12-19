@@ -2826,7 +2826,7 @@ Texture can be read back on the CPU using :ref:`texture_get_data()<class_Renderi
 
 :ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_CAN_UPDATE_BIT** = ``64``
 
-Texture can be updated using :ref:`texture_update()<class_RenderingDevice_method_texture_update>`.
+La texture peut être mise à jour en utilisant :ref:`texture_update()<class_RenderingDevice_method_texture_update>`.
 
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_CAN_COPY_FROM_BIT:
 
@@ -2834,7 +2834,7 @@ Texture can be updated using :ref:`texture_update()<class_RenderingDevice_method
 
 :ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_CAN_COPY_FROM_BIT** = ``128``
 
-Texture can be a source for :ref:`texture_copy()<class_RenderingDevice_method_texture_copy>`.
+La texture peut être une source pour :ref:`texture_copy()<class_RenderingDevice_method_texture_copy>`.
 
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_CAN_COPY_TO_BIT:
 
@@ -2842,7 +2842,7 @@ Texture can be a source for :ref:`texture_copy()<class_RenderingDevice_method_te
 
 :ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_CAN_COPY_TO_BIT** = ``256``
 
-Texture can be a destination for :ref:`texture_copy()<class_RenderingDevice_method_texture_copy>`.
+La texture peut être une destination pour :ref:`texture_copy()<class_RenderingDevice_method_texture_copy>`.
 
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_INPUT_ATTACHMENT_BIT:
 
@@ -5617,7 +5617,7 @@ High-level variant of :ref:`draw_list_begin()<class_RenderingDevice_method_draw_
 
 **Obsolète :** Split draw lists are used automatically by RenderingDevice.
 
-This method does nothing and always returns an empty :ref:`PackedInt64Array<class_PackedInt64Array>`.
+Cette méthode ne fait rien et renvoie toujours un :ref:`PackedInt64Array<class_PackedInt64Array>` vide.
 
 .. rst-class:: classref-item-separator
 
@@ -5777,7 +5777,7 @@ Switches to the next draw pass.
 
 **Obsolète :** Split draw lists are used automatically by RenderingDevice.
 
-This method does nothing and always returns an empty :ref:`PackedInt64Array<class_PackedInt64Array>`.
+Cette méthode ne fait rien et renvoie toujours un :ref:`PackedInt64Array<class_PackedInt64Array>` vide.
 
 .. rst-class:: classref-item-separator
 

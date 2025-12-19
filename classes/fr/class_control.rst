@@ -7,7 +7,7 @@ Control
 
 **Hérite de :** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`BaseButton<class_BaseButton>`, :ref:`ColorRect<class_ColorRect>`, :ref:`Container<class_Container>`, :ref:`GraphEdit<class_GraphEdit>`, :ref:`ItemList<class_ItemList>`, :ref:`Label<class_Label>`, :ref:`LineEdit<class_LineEdit>`, :ref:`MenuBar<class_MenuBar>`, :ref:`NinePatchRect<class_NinePatchRect>`, :ref:`Panel<class_Panel>`, :ref:`Range<class_Range>`, :ref:`ReferenceRect<class_ReferenceRect>`, :ref:`RichTextLabel<class_RichTextLabel>`, :ref:`Separator<class_Separator>`, :ref:`TabBar<class_TabBar>`, :ref:`TextEdit<class_TextEdit>`, :ref:`TextureRect<class_TextureRect>`, :ref:`Tree<class_Tree>`, :ref:`VideoStreamPlayer<class_VideoStreamPlayer>`
+**Hérité par :** :ref:`BaseButton<class_BaseButton>`, :ref:`ColorRect<class_ColorRect>`, :ref:`Container<class_Container>`, :ref:`GraphEdit<class_GraphEdit>`, :ref:`ItemList<class_ItemList>`, :ref:`Label<class_Label>`, :ref:`LineEdit<class_LineEdit>`, :ref:`MenuBar<class_MenuBar>`, :ref:`NinePatchRect<class_NinePatchRect>`, :ref:`Panel<class_Panel>`, :ref:`Range<class_Range>`, :ref:`ReferenceRect<class_ReferenceRect>`, :ref:`RichTextLabel<class_RichTextLabel>`, :ref:`Separator<class_Separator>`, :ref:`TabBar<class_TabBar>`, :ref:`TextEdit<class_TextEdit>`, :ref:`TextureRect<class_TextureRect>`, :ref:`Tree<class_Tree>`, :ref:`VideoStreamPlayer<class_VideoStreamPlayer>`
 
 Classe de base pour tous les contrôles GUI. Adapte sa position et sa taille en fonction de son contrôle parent.
 
@@ -16,27 +16,27 @@ Classe de base pour tous les contrôles GUI. Adapte sa position et sa taille en 
 Description
 -----------
 
-Base class for all UI-related nodes. **Control** features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.
+Classe de base pour tous les nœuds liés à l'interface utilisateur. **Control** contient un rectangle englobant qui définit sa taille, une position d'ancrage par rapport au contrôle parent ou au viewport actuel, et des déclages qui représentent relatifs à l'ancrage. Les décalages se mettent à jour automatiquement lorsque le nœud, l'un de ses parents ou la taille de l'écran changent.
 
-For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from **Control** and :ref:`Container<class_Container>` nodes.
+Pour plus d'informations sur le système d'interface utilisateur de Godot, les ancres, les décalages, les conteneurs, voir les tutoriels correspondants dans le manuel. Pour construire des interfaces flexibles, vous avez besoin d'un ensemble d'éléments d'interface utilisateur héritant des nœuds **Control** et :ref:`Container<class_Container>`.
 
-\ **Note:** Since both :ref:`Node2D<class_Node2D>` and **Control** inherit from :ref:`CanvasItem<class_CanvasItem>`, they share several concepts from the class such as the :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` and :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` properties.
+\ **Note :** Comme :ref:`Node2D<class_Node2D>` et **Control** héritent tous deux de :ref:`CanvasItem<class_CanvasItem>`, ils partagent de nombreux concepts de la classe, comme les propriétés :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` et :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`.
 
-\ **User Interface nodes and input**\ 
+\ **Nœuds d'interface utilisateur et entrées**\ 
 
-Godot propagates input events via viewports. Each :ref:`Viewport<class_Viewport>` is responsible for propagating :ref:`InputEvent<class_InputEvent>`\ s to their child nodes. As the :ref:`SceneTree.root<class_SceneTree_property_root>` is a :ref:`Window<class_Window>`, this already happens automatically for all UI elements in your game.
+Godot propage les évènements d'entrée via les viewports. Chaque :ref:`Viewport<class_Viewport>` est responsable de propage des :ref:`InputEvent<class_InputEvent>`\ s à ses nœuds enfants. Comme :ref:`SceneTree.root<class_SceneTree_property_root>` est une :ref:`Window<class_Window>`, cela se déroule déjà automatiquement pour les évènements d'interface utilisateur dans votre jeu.
 
-Input events are propagated through the :ref:`SceneTree<class_SceneTree>` from the root node to all child nodes by calling :ref:`Node._input()<class_Node_private_method__input>`. For UI elements specifically, it makes more sense to override the virtual method :ref:`_gui_input()<class_Control_private_method__gui_input>`, which filters out unrelated input events, such as by checking z-order, :ref:`mouse_filter<class_Control_property_mouse_filter>`, focus, or if the event was inside of the control's bounding box.
+Les événements d'entrée sont propagés dans le :ref:`SceneTree<class_SceneTree>` à partir du nœud racine de la scène vers les nœuds enfants, en appelant :ref:`Node._input()<class_Node_private_method__input>`. Pour les éléments d'UI spécifiquement, il est plus logique de redéfinir la méthode virtuelle :ref:`_gui_input()<class_Control_private_method__gui_input>`, qui filtre les évènements d'entrée sans rapport, en vérifiant le z-order, :ref:`mouse_filter<class_Control_property_mouse_filter>`, le focus, ou si l'évènement était à l'intérieur de la boîte délimitante du contrôle.
 
-Call :ref:`accept_event()<class_Control_method_accept_event>` so no other node receives the event. Once you accept an input, it becomes handled so :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` will not process it.
+Appelez :ref:`accept_event()<class_Control_method_accept_event>` afin qu'aucun autre nœud ne reçoive l'évènement. Une fois que vous acceptez une entrée, elle devient gérée et :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` ne la traitera donc pas.
 
-Only one **Control** node can be in focus. Only the node in focus will receive events. To get the focus, call :ref:`grab_focus()<class_Control_method_grab_focus>`. **Control** nodes lose focus when another node grabs it, or if you hide the node in focus.
+Seul un nœud **Control** peut avoir le focus. Seulement le nœud avec le focus recevra des événements. Pour obtenir le focus, appelez :ref:`grab_focus()<class_Control_method_grab_focus>`. Les nœuds **Control** perdent le focus lorsqu'un autre nœud le prend, ou si vous cachez le nœud ayant le focus.
 
-Sets :ref:`mouse_filter<class_Control_property_mouse_filter>` to :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` to tell a **Control** node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.
+Définissez :ref:`mouse_filter<class_Control_property_mouse_filter>` à :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` pour indiquer qu'un nœud **Control** doit ignorer les événements de la souris ou du clavier. Vous en aurez besoin si vous placez une icône par dessus un bouton.
 
-\ :ref:`Theme<class_Theme>` resources change the control's appearance. The :ref:`theme<class_Control_property_theme>` of a **Control** node affects all of its direct and indirect children (as long as a chain of controls is uninterrupted). To override some of the theme items, call one of the ``add_theme_*_override`` methods, like :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`. You can also override theme items in the Inspector.
+Les ressources :ref:`Theme<class_Theme>` changent l'aspect du contrôle. Le :ref:`theme<class_Control_property_theme>` d'un nœud **Control** affecte tous ses enfants directs et indirects (tant qu'une chaîne de contrôles est ininterrompue). Pour redéfinir certains paramètres du thème, appelez l'une des méthodes ``add_theme_*_override``, comme :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`. Vous pouvez redéfinir les éléments du thème depuis l'Inspecteur.
 
-\ **Note:** Theme items are *not* :ref:`Object<class_Object>` properties. This means you can't access their values using :ref:`Object.get()<class_Object_method_get>` and :ref:`Object.set()<class_Object_method_set>`. Instead, use the ``get_theme_*`` and ``add_theme_*_override`` methods provided by this class.
+\ **Note :** Les objets de thème ne sont *pas* des propriétés :ref:`Object<class_Object>`. Cela signifie que vous ne pouvez pas accéder à leurs valeurs en utilisant :ref:`Object.get()<class_Object_method_get>` et :ref:`Object.set()<class_Object_method_set>`. À la place, utilisez les méthodes ``get_theme_*`` et ``add_theme_*_override`` fournies par cette classe.
 
 .. rst-class:: classref-introduction-group
 
@@ -434,17 +434,17 @@ Signaux
 
 **mouse_exited**\ (\ ) :ref:`🔗<class_Control_signal_mouse_exited>`
 
-Emitted when the mouse cursor leaves the control's (and all child control's) visible area, that is not occluded behind other Controls or Windows, provided its :ref:`mouse_filter<class_Control_property_mouse_filter>` lets the event reach it and regardless if it's currently focused or not.
+Émis lorsque le curseur de la souris quitte la zone visible du contrôle (et de tout contrôle enfant), qui n'est pas occlus derrière d'autres Controls ou Windows, à condition que son :ref:`mouse_filter<class_Control_property_mouse_filter>` permette à l'événement de l'atteindre et peu importe de s'il a le focus ou non.
 
-\ **Note:** :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` doesn't affect, which Control receives the signal.
+\ **Note :** :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` n'a pas d'incidence sur quel Control reçoit le signal.
 
-\ **Note:** If you want to check whether the mouse truly left the area, ignoring any top nodes, you can use code like this:
+\ **Note :** Si vous voulez vérifier si la souris a vraiment quitté la zone, en ignorant les nœuds supérieurs, vous pouvez utiliser un code comme ceci :
 
 ::
 
-    func _on_mouse_exited():
-        if not Rect2(Vector2(), size).has_point(get_local_mouse_position()):
-            # Not hovering over area.
+    func on_mouse_exited():
+        if not Rect2(Vector2(), rect_size).has_point(get_local_mouse_position()):
+            # Ne survole pas la zone.
 
 .. rst-class:: classref-item-separator
 
@@ -519,7 +519,7 @@ Le nœud ne reçoit le focus que pour les clics de la souris. À utiliser avec :
 
 :ref:`FocusMode<enum_Control_FocusMode>` **FOCUS_ALL** = ``2``
 
-The node can grab focus on mouse click, using the arrows and the Tab keys on the keyboard, or using the D-pad buttons on a gamepad. Use with :ref:`focus_mode<class_Control_property_focus_mode>`.
+Le nœud peut obtenir le focus lors d'un clic de souris, en utilisant les flèches et la touche de tabulation du clavier ou en utilisant les boutons de la croix directionnelle d'une manette. À utiliser avec :ref:`focus_mode<class_Control_property_focus_mode>`.
 
 .. _class_Control_constant_FOCUS_ACCESSIBILITY:
 
@@ -579,7 +579,7 @@ enum **MouseBehaviorRecursive**: :ref:`🔗<enum_Control_MouseBehaviorRecursive>
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_INHERITED** = ``0``
 
-Inherits the :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` from the parent control. If there is no parent control, this is the same as :ref:`MOUSE_BEHAVIOR_ENABLED<class_Control_constant_MOUSE_BEHAVIOR_ENABLED>`.
+Hérite du :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` du contrôle parent. S'il n'y a pas de contrôle parent, cela renvient à :ref:`MOUSE_BEHAVIOR_ENABLED<class_Control_constant_MOUSE_BEHAVIOR_ENABLED>`.
 
 .. _class_Control_constant_MOUSE_BEHAVIOR_DISABLED:
 
@@ -587,7 +587,7 @@ Inherits the :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavio
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_DISABLED** = ``1``
 
-Prevents the control from receiving mouse input. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` will return :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
+Empêche le contrôle de recevoir l'entrée de la souris. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` renverra :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
 
 .. _class_Control_constant_MOUSE_BEHAVIOR_ENABLED:
 
@@ -595,7 +595,7 @@ Prevents the control from receiving mouse input. :ref:`get_mouse_filter_with_ove
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_ENABLED** = ``2``
 
-Allows the control to be receive mouse input, depending on the :ref:`mouse_filter<class_Control_property_mouse_filter>`. This can be used to ignore the parent's :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` will return the :ref:`mouse_filter<class_Control_property_mouse_filter>`.
+Permet au contrôle de recevoir l'entrée de la souris, en fonction de :ref:`mouse_filter<class_Control_property_mouse_filter>`. Cela peut être utilisé pour ignorer le :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` du parent. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` renverra :ref:`mouse_filter<class_Control_property_mouse_filter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -831,7 +831,7 @@ Magnétise les 4 ancres au centre du rectangle délimitant du contrôle parent. 
 
 :ref:`LayoutPreset<enum_Control_LayoutPreset>` **PRESET_LEFT_WIDE** = ``9``
 
-Snap all 4 anchors to the left edge of the parent control. The left offset becomes relative to the left edge and the top offset relative to the top left corner of the node's parent. Use with :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>`.
+Magnétise les 4 ancres au bord gauche du contrôle parent. La marge gauche devient alors relative au bord gauche et à la marge supérieure relative au coin supérieur gauche du nœud parent. Utilisez avec :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>`.
 
 .. _class_Control_constant_PRESET_TOP_WIDE:
 
@@ -839,7 +839,7 @@ Snap all 4 anchors to the left edge of the parent control. The left offset becom
 
 :ref:`LayoutPreset<enum_Control_LayoutPreset>` **PRESET_TOP_WIDE** = ``10``
 
-Snap all 4 anchors to the top edge of the parent control. The left offset becomes relative to the top left corner, the top offset relative to the top edge, and the right offset relative to the top right corner of the node's parent. Use with :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>`.
+Aimante les 4 ancres au bord supérieur du contrôle parent. Le décalage gauche devient alors relatif au coin supérieur gauche, le décalage du haut relatif au bord supérieur, et le décalage droit relatif au coin supérieur droit du nœud parent. À utiliser avec :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>`.
 
 .. _class_Control_constant_PRESET_RIGHT_WIDE:
 
@@ -847,7 +847,7 @@ Snap all 4 anchors to the top edge of the parent control. The left offset become
 
 :ref:`LayoutPreset<enum_Control_LayoutPreset>` **PRESET_RIGHT_WIDE** = ``11``
 
-Snap all 4 anchors to the right edge of the parent control. The right offset becomes relative to the right edge and the top offset relative to the top right corner of the node's parent. Use with :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>`.
+Aimante les 4 ancres au bord droit du contrôle parent. Le décalage droit devient alors relatif au bord droit et le décalage du haut relatif au coin supérieur droit. À utiliser avec :ref:`set_anchors_preset()<class_Control_method_set_anchors_preset>`.
 
 .. _class_Control_constant_PRESET_BOTTOM_WIDE:
 
@@ -939,9 +939,9 @@ flags **SizeFlags**: :ref:`🔗<enum_Control_SizeFlags>`
 
 :ref:`SizeFlags<enum_Control_SizeFlags>` **SIZE_SHRINK_BEGIN** = ``0``
 
-Tells the parent :ref:`Container<class_Container>` to align the node with its start, either the top or the left edge. It is mutually exclusive with :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` and other shrink size flags, but can be used with :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` in some containers. Use with :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` and :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
+Indique au :ref:`Container<class_Container>` parent d'aligner le nœud sur son début, soit au bord supérieur soit au bord gauche. Il est mutuellement exclusif avec :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` et les autres drapeaux de rétrécissement de la taille, mais peut être utilisé avec :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` dans quelques conteneurs. À utiliser avec :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` et :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
 
-\ **Note:** Setting this flag is equal to not having any size flags.
+\ **Note :** Définir ce drapeau est égal à ne pas avoir de drapeau de taille.
 
 .. _class_Control_constant_SIZE_FILL:
 
@@ -949,7 +949,7 @@ Tells the parent :ref:`Container<class_Container>` to align the node with its st
 
 :ref:`SizeFlags<enum_Control_SizeFlags>` **SIZE_FILL** = ``1``
 
-Tells the parent :ref:`Container<class_Container>` to expand the bounds of this node to fill all the available space without pushing any other node. It is mutually exclusive with shrink size flags. Use with :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` and :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
+Indique au :ref:`Container<class_Container>` parent d'étendre les limites de ce nœud pour remplir tout l'espace disponible sans pousser d'autre nœuds. Il est mutuellement exclusif avec les autres drapeaux de rétrécissement de la taille. À utiliser avec :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` et :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
 
 .. _class_Control_constant_SIZE_EXPAND:
 
@@ -965,7 +965,7 @@ Signale au :ref:`Container<class_Container>` parent de laisser ce nœud prendre 
 
 :ref:`SizeFlags<enum_Control_SizeFlags>` **SIZE_EXPAND_FILL** = ``3``
 
-Sets the node's size flags to both fill and expand. See :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` and :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` for more information.
+Définit les drapeaux de taille du nœud pour à la fois remplir et s'étendre. Voir :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` et :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` pour plus d'informations.
 
 .. _class_Control_constant_SIZE_SHRINK_CENTER:
 
@@ -973,7 +973,7 @@ Sets the node's size flags to both fill and expand. See :ref:`SIZE_FILL<class_Co
 
 :ref:`SizeFlags<enum_Control_SizeFlags>` **SIZE_SHRINK_CENTER** = ``4``
 
-Tells the parent :ref:`Container<class_Container>` to center the node in the available space. It is mutually exclusive with :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` and other shrink size flags, but can be used with :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` in some containers. Use with :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` and :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
+Indique au :ref:`Container<class_Container>` parent de centrer le nœud dans l'espace disponible. Il est mutuellement exclusif avec :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` et les autres drapeau de rétrécissement de la taille, mais peut être utilisé avec :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` dans quelques conteneurs. À utiliser avec :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` et :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
 
 .. _class_Control_constant_SIZE_SHRINK_END:
 
@@ -981,7 +981,7 @@ Tells the parent :ref:`Container<class_Container>` to center the node in the ava
 
 :ref:`SizeFlags<enum_Control_SizeFlags>` **SIZE_SHRINK_END** = ``8``
 
-Tells the parent :ref:`Container<class_Container>` to align the node with its end, either the bottom or the right edge. It is mutually exclusive with :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` and other shrink size flags, but can be used with :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` in some containers. Use with :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` and :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
+Indique au :ref:`Container<class_Container>` parent d'aligner le nœud sur sa fin, soit en bas, soit sur le bord droit. Il est mutuellement exclusif avec :ref:`SIZE_FILL<class_Control_constant_SIZE_FILL>` et les autres drapeau de rétrécissement de la taille, mais peut être utilisé avec :ref:`SIZE_EXPAND<class_Control_constant_SIZE_EXPAND>` dans quelques conteneurs. À utiliser avec :ref:`size_flags_horizontal<class_Control_property_size_flags_horizontal>` et :ref:`size_flags_vertical<class_Control_property_size_flags_vertical>`.
 
 .. rst-class:: classref-item-separator
 
@@ -999,7 +999,7 @@ enum **MouseFilter**: :ref:`🔗<enum_Control_MouseFilter>`
 
 :ref:`MouseFilter<enum_Control_MouseFilter>` **MOUSE_FILTER_STOP** = ``0``
 
-The control will receive mouse movement input events and mouse button input events if clicked on through :ref:`_gui_input()<class_Control_private_method__gui_input>`. The control will also receive the :ref:`mouse_entered<class_Control_signal_mouse_entered>` and :ref:`mouse_exited<class_Control_signal_mouse_exited>` signals. These events are automatically marked as handled, and they will not propagate further to other controls. This also results in blocking signals in other controls.
+Le contrôle recevra les événements d'entrée de mouvement de la souris et les événements d'entrée de bouton de la souris via :ref:`_gui_input()<class_Control_private_method__gui_input>` si vous cliquez dessus. Le contrôle recevra également les signaux :ref:`mouse_entered<class_Control_signal_mouse_entered>` et :ref:`mouse_exited<class_Control_signal_mouse_exited>`. Ces événements sont automatiquement marqués comme traités, et ils ne se propagent pas vers d'autres contrôles. Cela permet également de bloquer les signaux dans d'autres contrôles.
 
 .. _class_Control_constant_MOUSE_FILTER_PASS:
 
@@ -1017,9 +1017,9 @@ If this control does not handle the event, the event will propagate up to its pa
 
 :ref:`MouseFilter<enum_Control_MouseFilter>` **MOUSE_FILTER_IGNORE** = ``2``
 
-The control will not receive any mouse movement input events nor mouse button input events through :ref:`_gui_input()<class_Control_private_method__gui_input>`. The control will also not receive the :ref:`mouse_entered<class_Control_signal_mouse_entered>` nor :ref:`mouse_exited<class_Control_signal_mouse_exited>` signals. This will not block other controls from receiving these events or firing the signals. Ignored events will not be handled automatically. If a child has :ref:`MOUSE_FILTER_PASS<class_Control_constant_MOUSE_FILTER_PASS>` and an event was passed to this control, the event will further propagate up to the control's parent.
+La contrôle ne recevra aucun événement d'entrée de la souris ou d'évènement de bouton de la souris si cliqué via :ref:`_gui_input()<class_Control_private_method__gui_input>`. Le contrôle ne recevra aussi pas les signaux :ref:`mouse_entered<class_Control_signal_mouse_entered>` et :ref:`mouse_exited<class_Control_signal_mouse_exited>`. Ceci ne bloquera pas d'autres contrôles de recevoir ces événements ou de déclencher les signaux. Les événements ignorés ne seront pas gérés automatiquement. Si un enfant a :ref:`MOUSE_FILTER_PASS<class_Control_constant_MOUSE_FILTER_PASS>` et qu'un événement a été transmis à ce contrôle, l'événement se propagera vers le haut vers le parent du contrôle.
 
-\ **Note:** If the control has received :ref:`mouse_entered<class_Control_signal_mouse_entered>` but not :ref:`mouse_exited<class_Control_signal_mouse_exited>`, changing the :ref:`mouse_filter<class_Control_property_mouse_filter>` to :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` will cause :ref:`mouse_exited<class_Control_signal_mouse_exited>` to be emitted.
+\ **Note :** Si le contrôle a reçu :ref:`mouse_entered<class_Control_signal_mouse_entered>` mais pas :ref:`mouse_exited<class_Control_signal_mouse_exited>`, changer :ref:`mouse_filter<class_Control_property_mouse_filter>` à :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` causera l'émission de :ref:`mouse_exited<class_Control_signal_mouse_exited>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1097,7 +1097,7 @@ enum **LayoutDirection**: :ref:`🔗<enum_Control_LayoutDirection>`
 
 :ref:`LayoutDirection<enum_Control_LayoutDirection>` **LAYOUT_DIRECTION_INHERITED** = ``0``
 
-Automatic layout direction, determined from the parent control layout direction.
+Direction de mise en page automatique, déterminée à partir de la direction de mise en page du contrôle parent.
 
 .. _class_Control_constant_LAYOUT_DIRECTION_APPLICATION_LOCALE:
 
@@ -1105,7 +1105,7 @@ Automatic layout direction, determined from the parent control layout direction.
 
 :ref:`LayoutDirection<enum_Control_LayoutDirection>` **LAYOUT_DIRECTION_APPLICATION_LOCALE** = ``1``
 
-Automatic layout direction, determined from the current locale. Right-to-left layout direction is automatically used for languages that require it such as Arabic and Hebrew, but only if a valid translation file is loaded for the given language (unless said language is configured as a fallback in :ref:`ProjectSettings.internationalization/locale/fallback<class_ProjectSettings_property_internationalization/locale/fallback>`). For all other languages (or if no valid translation file is found by Godot), left-to-right layout direction is used. If using :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), left-to-right layout direction is always used regardless of the language. Right-to-left layout direction can also be forced using :ref:`ProjectSettings.internationalization/rendering/force_right_to_left_layout_direction<class_ProjectSettings_property_internationalization/rendering/force_right_to_left_layout_direction>`.
+Direction de mise en page automatique, déterminée à partir de la langue actuelle. La direction de mise en page de droite à gauche est automatiquement utilisée pour les langues qui l'exigent comme l'arabe et l'hébreu, mais seulement si un fichier de traduction valide est chargé pour la langue donnée (sauf si la-dite langue est configurée comme un repli dans :ref:`ProjectSettings.internationalization/locale/fallback<class_ProjectSettings_property_internationalization/locale/fallback>`). Pour toutes les autres langues (ou si aucun fichier de traduction valide n'est trouvé par Godot), la direction de mise en page de gauche à droite est utilisée. Si vous utilisez :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), la direction de mise en page de gauche à droite est toujours utilisée peu importe la langue. La direction de mise en page de droite à gauche peut aussi être forcée en utilisant :ref:`ProjectSettings.internationalization/rendering/force_right_to_left_layout_direction<class_ProjectSettings_property_internationalization/rendering/force_right_to_left_layout_direction>`.
 
 .. _class_Control_constant_LAYOUT_DIRECTION_LTR:
 
@@ -1129,7 +1129,7 @@ Disposition de direction de droite à gauche.
 
 :ref:`LayoutDirection<enum_Control_LayoutDirection>` **LAYOUT_DIRECTION_SYSTEM_LOCALE** = ``4``
 
-Automatic layout direction, determined from the system locale. Right-to-left layout direction is automatically used for languages that require it such as Arabic and Hebrew, but only if a valid translation file is loaded for the given language. For all other languages (or if no valid translation file is found by Godot), left-to-right layout direction is used. If using :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), left-to-right layout direction is always used regardless of the language.
+Direction de mise en page automatique, déterminée à partir de la langue du système. La direction de mise en page de droite à gauche est automatiquement utilisée pour les langues qui l'exigent comme l'arabe et l'hébreu, mais seulement si un fichier de traduction valide est chargé pour la langue donnée. Pour toutes les autres langues (ou si aucun fichier de traduction valide n'est trouvé par Godot), la direction de mise en page de gauche à droite est utilisée. Si vous utilisez :ref:`TextServerFallback<class_TextServerFallback>` (:ref:`ProjectSettings.internationalization/rendering/text_driver<class_ProjectSettings_property_internationalization/rendering/text_driver>`), la direction de mise en page de gauche à droite est toujours utilisée peu importe la langue.
 
 .. _class_Control_constant_LAYOUT_DIRECTION_MAX:
 
@@ -1206,7 +1206,7 @@ Constantes
 
 **NOTIFICATION_RESIZED** = ``40`` :ref:`🔗<class_Control_constant_NOTIFICATION_RESIZED>`
 
-Sent when the node changes size. Use :ref:`size<class_Control_property_size>` to get the new size.
+Envoyé quand le nœud change de taille. Utilisez :ref:`size<class_Control_property_size>` pour obtenir la nouvelle taille.
 
 .. _class_Control_constant_NOTIFICATION_MOUSE_ENTER:
 
@@ -1310,9 +1310,9 @@ Envoyé si le nœud a besoin de rafraîchir ses éléments de thème. Cela arriv
 
 **NOTIFICATION_SCROLL_BEGIN** = ``47`` :ref:`🔗<class_Control_constant_NOTIFICATION_SCROLL_BEGIN>`
 
-Sent when this node is inside a :ref:`ScrollContainer<class_ScrollContainer>` which has begun being scrolled when dragging the scrollable area *with a touch event*. This notification is *not* sent when scrolling by dragging the scrollbar, scrolling with the mouse wheel or scrolling with keyboard/gamepad events.
+Envoyé lorsque ce nœud est à l'intérieur d'un :ref:`ScrollContainer<class_ScrollContainer>` qui a commencé à être défilé lors du glissement de la zone défilante *avec un événement tactile*. Cette notification n'est *pas* envoyée lors du défilement en glissant la barre de défilement, en défilant avec la molette de la souris ou en défilant avec des événements clavier/manette.
 
-\ **Note:** This signal is only emitted on Android or iOS, or on desktop/web platforms when :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is enabled.
+\ **Note :** Ce signal n'est émis que sur Android ou iOS, ou sur les plateformes de bureau/web lorsque :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` est activé.
 
 .. _class_Control_constant_NOTIFICATION_SCROLL_END:
 
@@ -1320,9 +1320,9 @@ Sent when this node is inside a :ref:`ScrollContainer<class_ScrollContainer>` wh
 
 **NOTIFICATION_SCROLL_END** = ``48`` :ref:`🔗<class_Control_constant_NOTIFICATION_SCROLL_END>`
 
-Sent when this node is inside a :ref:`ScrollContainer<class_ScrollContainer>` which has stopped being scrolled when dragging the scrollable area *with a touch event*. This notification is *not* sent when scrolling by dragging the scrollbar, scrolling with the mouse wheel or scrolling with keyboard/gamepad events.
+Envoyé lorsque ce nœud est à l'intérieur d'un :ref:`ScrollContainer<class_ScrollContainer>` qui a arrêté d'être défilé lors du glissement de la zone défilante *avec un événement tactile*. Cette notification n'est *pas* envoyée lors du défilement en glissant la barre de défilement, en défilant avec la molette de la souris ou en défilant avec des événements clavier/manette.
 
-\ **Note:** This signal is only emitted on Android or iOS, or on desktop/web platforms when :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is enabled.
+\ **Note :** Ce signal n'est émis que sur Android ou iOS, ou sur les plateformes de bureau/web lorsque :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` est activé.
 
 .. _class_Control_constant_NOTIFICATION_LAYOUT_DIRECTION_CHANGED:
 
@@ -1352,7 +1352,7 @@ Descriptions des propriétés
 - |void| **set_accessibility_controls_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_controls_nodes**\ (\ )
 
-The paths to the nodes which are controlled by this node.
+Les chemins vers les nœuds qui sont contrôlés par ce nœud.
 
 .. rst-class:: classref-item-separator
 
@@ -1369,7 +1369,7 @@ The paths to the nodes which are controlled by this node.
 - |void| **set_accessibility_described_by_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_described_by_nodes**\ (\ )
 
-The paths to the nodes which are describing this node.
+Les chemins vers les nœuds qui décrivent ce noeud.
 
 .. rst-class:: classref-item-separator
 
@@ -1420,7 +1420,7 @@ The paths to the nodes which this node flows into.
 - |void| **set_accessibility_labeled_by_nodes**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`NodePath<class_NodePath>`\] **get_accessibility_labeled_by_nodes**\ (\ )
 
-The paths to the nodes which label this node.
+Les chemins vers les nœuds qui étiquettent ce nœud.
 
 .. rst-class:: classref-item-separator
 
@@ -1437,7 +1437,7 @@ The paths to the nodes which label this node.
 - |void| **set_accessibility_live**\ (\ value\: :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>`\ )
 - :ref:`AccessibilityLiveMode<enum_DisplayServer_AccessibilityLiveMode>` **get_accessibility_live**\ (\ )
 
-The mode with which a live region updates. A live region is a :ref:`Node<class_Node>` that is updated as a result of an external event when the user's focus may be elsewhere.
+Le mode avec lequel une région dynamique se met à jour. Une région dynamique est un :ref:`Node<class_Node>` qui est mis à jour à la suite d'un événement externe lorsque le focus de l'utilisateur peut être ailleurs.
 
 .. rst-class:: classref-item-separator
 
@@ -1470,7 +1470,7 @@ Le nom facilement lisible du nœud qui est rapporté aux applications d'assistan
 
 - :ref:`float<class_float>` **get_anchor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Anchors the bottom edge of the node to the origin, the center, or the end of its parent control. It changes how the bottom offset updates when the node moves or changes size. You can use one of the :ref:`Anchor<enum_Control_Anchor>` constants for convenience.
+Ancre le bord inférieur du nœud à l'origine, le centre ou la fin de son contrôle parent. Cela modifie comment le décalage du bas se met à jour lorsque le nœud se déplace ou change de taille. Vous pouvez utiliser une des constantes :ref:`Anchor<enum_Control_Anchor>` pour plus de facilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1486,7 +1486,7 @@ Anchors the bottom edge of the node to the origin, the center, or the end of its
 
 - :ref:`float<class_float>` **get_anchor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Anchors the left edge of the node to the origin, the center or the end of its parent control. It changes how the left offset updates when the node moves or changes size. You can use one of the :ref:`Anchor<enum_Control_Anchor>` constants for convenience.
+Ancre le bord gauche du nœud à l'origine, le centre ou la fin de son contrôle parent. Cela modifie comment le décalage gauche se met à jour lorsque le nœud se déplace ou change de taille. Vous pouvez utiliser une des constantes :ref:`Anchor<enum_Control_Anchor>` pour plus de facilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1502,7 +1502,7 @@ Anchors the left edge of the node to the origin, the center or the end of its pa
 
 - :ref:`float<class_float>` **get_anchor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Anchors the right edge of the node to the origin, the center or the end of its parent control. It changes how the right offset updates when the node moves or changes size. You can use one of the :ref:`Anchor<enum_Control_Anchor>` constants for convenience.
+Ancre le bord droit du nœud à l'origine, le centre ou la fin de son contrôle parent. Cela modifie comment le décalage droit se met à jour lorsque le nœud se déplace ou change de taille. Vous pouvez utiliser une des constantes :ref:`Anchor<enum_Control_Anchor>` pour plus de facilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1518,7 +1518,7 @@ Anchors the right edge of the node to the origin, the center or the end of its p
 
 - :ref:`float<class_float>` **get_anchor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Anchors the top edge of the node to the origin, the center or the end of its parent control. It changes how the top offset updates when the node moves or changes size. You can use one of the :ref:`Anchor<enum_Control_Anchor>` constants for convenience.
+Ancre le bord supérieur du nœud à l'origine, le centre ou la fin de son contrôle parent. Cela modifie comment le décalage du haut se met à jour lorsque le nœud se déplace ou change de taille. Vous pouvez utiliser une des constantes :ref:`Anchor<enum_Control_Anchor>` pour plus de facilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1571,7 +1571,7 @@ Active si le rendu des nœuds basés sur :ref:`CanvasItem<class_CanvasItem>` enf
 - |void| **set_custom_minimum_size**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_custom_minimum_size**\ (\ )
 
-The minimum size of the node's bounding rectangle. If you set it to a value greater than ``(0, 0)``, the node's bounding rectangle will always have at least this size. Note that **Control** nodes have their internal minimum size returned by :ref:`get_minimum_size()<class_Control_method_get_minimum_size>`. It depends on the control's contents, like text, textures, or style boxes. The actual minimum size is the maximum value of this property and the internal minimum size (see :ref:`get_combined_minimum_size()<class_Control_method_get_combined_minimum_size>`).
+La taille minimale du rectangle délimitant du nœud. Si vous le définissez à une valeur supérieure à ``(0, 0)``, le rectangle délimitant du nœud aura toujours au moins cette taille. Notez que es nœuds **Control** ont leur taille minimale interne renvoyée par :ref:`get_minimum_size()<class_Control_method_get_minimum_size>`. Cela dépend du contenu du contrôle, comme du texte, des textures ou des styleboxes. La taille minimale réelle est la valeur maximale de cette propriété et de la taille minimale interne (voir :ref:`get_combined_minimum_size()<class_Control_method_get_combined_minimum_size>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1588,7 +1588,7 @@ The minimum size of the node's bounding rectangle. If you set it to a value grea
 - |void| **set_focus_behavior_recursive**\ (\ value\: :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>`\ )
 - :ref:`FocusBehaviorRecursive<enum_Control_FocusBehaviorRecursive>` **get_focus_behavior_recursive**\ (\ )
 
-Determines which controls can be focused together with :ref:`focus_mode<class_Control_property_focus_mode>`. See :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>`. Since the default behavior is :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>`, this can be used to prevent all children controls from getting focused.
+Détermine quels contrôles peuvent avoir le focus ensemble avec :ref:`focus_mode<class_Control_property_focus_mode>`. Voir :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>`. Comme le comportement par défaut est :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>`, cela peut être utilisé pour empêcher tous les contrôles enfants d'avoir le focus.
 
 .. rst-class:: classref-item-separator
 
@@ -1605,7 +1605,7 @@ Determines which controls can be focused together with :ref:`focus_mode<class_Co
 - |void| **set_focus_mode**\ (\ value\: :ref:`FocusMode<enum_Control_FocusMode>`\ )
 - :ref:`FocusMode<enum_Control_FocusMode>` **get_focus_mode**\ (\ )
 
-Determines which controls can be focused. Only one control can be focused at a time, and the focused control will receive keyboard, gamepad, and mouse events in :ref:`_gui_input()<class_Control_private_method__gui_input>`. Use :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` to determine if a control can grab focus, since :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` also affects it. See also :ref:`grab_focus()<class_Control_method_grab_focus>`.
+Détermine quels contrôles peuvent recevoir le focus. Un contrôle peut avoir le fcous à la fois, et le contrôle ayant le focus recevra des événements de clavier, de manette et de souris dans :ref:`_gui_input()<class_Control_private_method__gui_input>`. Utilisez :ref:`get_focus_mode_with_override()<class_Control_method_get_focus_mode_with_override>` pour déterminer si un contrôle peut attraper le focus, puisque :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` l'affecte également. Voir aussi :ref:`grab_focus()<class_Control_method_grab_focus>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1622,7 +1622,7 @@ Determines which controls can be focused. Only one control can be focused at a t
 - |void| **set_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, neighbor\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Tells Godot which node it should give focus to if the user presses the down arrow on the keyboard or down on a gamepad by default. You can change the key by editing the :ref:`ProjectSettings.input/ui_down<class_ProjectSettings_property_input/ui_down>` input action. The node must be a **Control**. If this property is not set, Godot will give focus to the closest **Control** to the bottom of this one.
+Indique à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur la flèche bas sur le clavier ou bas sur une manette par défaut. Vous pouvez modifier la touche en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_down<class_ProjectSettings_property_input/ui_down>`. Le nœud doit être un **Control**. Si cette propriété n'est pas définie, Godot donnera le focus au **Control** le plus proche en-dessous de celui-ci.
 
 .. rst-class:: classref-item-separator
 
@@ -1639,7 +1639,7 @@ Tells Godot which node it should give focus to if the user presses the down arro
 - |void| **set_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, neighbor\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Tells Godot which node it should give focus to if the user presses the left arrow on the keyboard or left on a gamepad by default. You can change the key by editing the :ref:`ProjectSettings.input/ui_left<class_ProjectSettings_property_input/ui_left>` input action. The node must be a **Control**. If this property is not set, Godot will give focus to the closest **Control** to the left of this one.
+Indique à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur la flèche gauche sur le clavier ou gauche sur une manette par défaut. Vous pouvez modifier la touche en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_left<class_ProjectSettings_property_input/ui_left>`. Le nœud doit être un **Control**. Si cette propriété n'est pas définie, Godot donnera le focus au **Control** le plus proche à gauche de celui-ci.
 
 .. rst-class:: classref-item-separator
 
@@ -1656,7 +1656,7 @@ Tells Godot which node it should give focus to if the user presses the left arro
 - |void| **set_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, neighbor\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Tells Godot which node it should give focus to if the user presses the right arrow on the keyboard or right on a gamepad by default. You can change the key by editing the :ref:`ProjectSettings.input/ui_right<class_ProjectSettings_property_input/ui_right>` input action. The node must be a **Control**. If this property is not set, Godot will give focus to the closest **Control** to the right of this one.
+Indique à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur la flèche droite sur le clavier ou droite sur une manette par défaut. Vous pouvez modifier la touche en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_right<class_ProjectSettings_property_input/ui_right>`. Le nœud doit être un **Control**. Si cette propriété n'est pas définie, Godot donnera le focus au **Control** le plus proche à droite de celui-ci.
 
 .. rst-class:: classref-item-separator
 
@@ -1673,7 +1673,7 @@ Tells Godot which node it should give focus to if the user presses the right arr
 - |void| **set_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, neighbor\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Tells Godot which node it should give focus to if the user presses the top arrow on the keyboard or top on a gamepad by default. You can change the key by editing the :ref:`ProjectSettings.input/ui_up<class_ProjectSettings_property_input/ui_up>` input action. The node must be a **Control**. If this property is not set, Godot will give focus to the closest **Control** to the top of this one.
+Indique à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur la flèche haut sur le clavier ou haut sur une manette par défaut. Vous pouvez modifier la touche en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_up<class_ProjectSettings_property_input/ui_up>`. Le nœud doit être un **Control**. Si cette propriété n'est pas définie, Godot donnera le focus au **Control** le plus proche au-dessus de celui-ci.
 
 .. rst-class:: classref-item-separator
 
@@ -1690,9 +1690,9 @@ Tells Godot which node it should give focus to if the user presses the top arrow
 - |void| **set_focus_next**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_focus_next**\ (\ )
 
-Tells Godot which node it should give focus to if the user presses :kbd:`Tab` on a keyboard by default. You can change the key by editing the :ref:`ProjectSettings.input/ui_focus_next<class_ProjectSettings_property_input/ui_focus_next>` input action.
+Indique à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur :kbd:`Tab` sur un clavier par défaut. Vous pouvez modifier la touche en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_focus_next<class_ProjectSettings_property_input/ui_focus_next>`.
 
-If this property is not set, Godot will select a "best guess" based on surrounding nodes in the scene tree.
+Si cette propriété n'est pas définie, Godot choisira la « meilleure solution » basée sur les nœuds environnants dans l'arborescence.
 
 .. rst-class:: classref-item-separator
 
@@ -1709,7 +1709,7 @@ If this property is not set, Godot will select a "best guess" based on surroundi
 - |void| **set_focus_previous**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_focus_previous**\ (\ )
 
-Signale à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur :kbd:`Shift+Tab` sur un clavier par défaut. Vous pouvez modifier la clé en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_focus_prev<class_ProjectSettings_property_input/ui_focus_prev>`.
+Indique à Godot à quel nœud il devrait donner le focus si l'utilisateur appuie sur :kbd:`Shift+Tab` sur un clavier par défaut. Vous pouvez modifier la touche en éditant l'action d'entrée :ref:`ProjectSettings.input/ui_focus_prev<class_ProjectSettings_property_input/ui_focus_prev>`.
 
 Si cette propriété n'est pas définie, Godot choisira la « meilleure solution » basée sur les nœuds environnants dans l'arborescence.
 
@@ -1778,7 +1778,7 @@ Control la direction sur l'axe vertical selon lequel le contrôle doit croître 
 - |void| **set_layout_direction**\ (\ value\: :ref:`LayoutDirection<enum_Control_LayoutDirection>`\ )
 - :ref:`LayoutDirection<enum_Control_LayoutDirection>` **get_layout_direction**\ (\ )
 
-Controls layout direction and text writing direction. Right-to-left layouts are necessary for certain languages (e.g. Arabic and Hebrew). See also :ref:`is_layout_rtl()<class_Control_method_is_layout_rtl>`.
+Contrôle la direction de mise en page et la direction d'écriture du texte. Les mises en page de droite à gauche sont nécessaires pour certaines langues (par exemple, arabe et hébreu). Voir aussi :ref:`is_layout_rtl()<class_Control_method_is_layout_rtl>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1795,9 +1795,9 @@ Controls layout direction and text writing direction. Right-to-left layouts are 
 - |void| **set_localize_numeral_system**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_localizing_numeral_system**\ (\ )
 
-If ``true``, automatically converts code line numbers, list indices, :ref:`SpinBox<class_SpinBox>` and :ref:`ProgressBar<class_ProgressBar>` values from the Western Arabic (0..9) to the numeral systems used in current locale.
+Si ``true``, convertit automatiquement les numéros de ligne de code, les indices de liste, les valeurs de :ref:`SpinBox<class_SpinBox>` et de :ref:`ProgressBar<class_ProgressBar>` de l'arabe occidental (0..9) aux systèmes numériques utilisés dans la langue actuelle.
 
-\ **Note:** Numbers within the text are not automatically converted, it can be done manually, using :ref:`TextServer.format_number()<class_TextServer_method_format_number>`.
+\ **Note :** Les nombres dans le texte ne sont pas automatiquement convertis, cela peut être fait manuellement, en utilisant :ref:`TextServer.format_number()<class_TextServer_method_format_number>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1814,7 +1814,7 @@ If ``true``, automatically converts code line numbers, list indices, :ref:`SpinB
 - |void| **set_mouse_behavior_recursive**\ (\ value\: :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>`\ )
 - :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **get_mouse_behavior_recursive**\ (\ )
 
-Determines which controls can receive mouse input together with :ref:`mouse_filter<class_Control_property_mouse_filter>`. See :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>`. Since the default behavior is :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>`, this can be used to prevent all children controls from receiving mouse input.
+Détermine quels contrôles peuvent recevoir les entrées de la souris ensemble avec :ref:`mouse_filter<class_Control_property_mouse_filter>`. Voir :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>`. Comme le comportement par défaut est :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>`, cela peut être utilisé pour empêcher tous les contrôles enfants de recevoir les entrées de la souris.
 
 .. rst-class:: classref-item-separator
 
@@ -1850,7 +1850,7 @@ La forme par défaut du curseur pour ce contrôle. Utile pour les greffons de Go
 - |void| **set_mouse_filter**\ (\ value\: :ref:`MouseFilter<enum_Control_MouseFilter>`\ )
 - :ref:`MouseFilter<enum_Control_MouseFilter>` **get_mouse_filter**\ (\ )
 
-Determines which controls will be able to receive mouse button input events through :ref:`_gui_input()<class_Control_private_method__gui_input>` and the :ref:`mouse_entered<class_Control_signal_mouse_entered>`, and :ref:`mouse_exited<class_Control_signal_mouse_exited>` signals. Also determines how these events should be propagated. See the constants to learn what each does. Use :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` to determine if a control can receive mouse input, since :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` also affects it.
+Détermine quels contrôles pourront recevoir les événements d'entrée de bouton de la souris via :ref:`_gui_input()<class_Control_private_method__gui_input>` et les signaux :ref:`mouse_entered<class_Control_signal_mouse_entered>`, et :ref:`mouse_exited<class_Control_signal_mouse_exited>`. Détermine également comment ces événements devraient être propagés. Voir les constantes pour apprendre ce que chacune fait. Utilisez :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` pour déterminer si un contrôle peut recevoir l'entrée de la souris, puisque :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` l'affecte également.
 
 .. rst-class:: classref-item-separator
 
@@ -1867,11 +1867,11 @@ Determines which controls will be able to receive mouse button input events thro
 - |void| **set_force_pass_scroll_events**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_force_pass_scroll_events**\ (\ )
 
-When enabled, scroll wheel events processed by :ref:`_gui_input()<class_Control_private_method__gui_input>` will be passed to the parent control even if :ref:`mouse_filter<class_Control_property_mouse_filter>` is set to :ref:`MOUSE_FILTER_STOP<class_Control_constant_MOUSE_FILTER_STOP>`.
+Lorsque activé, les événements de la molette de défilement traités par :ref:`_gui_input()<class_Control_private_method__gui_input>` seront passés au contrôle parent même si :ref:`mouse_filter<class_Control_property_mouse_filter>` est défini à :ref:`MOUSE_FILTER_STOP<class_Control_constant_MOUSE_FILTER_STOP>`.
 
-You should disable it on the root of your UI if you do not want scroll events to go to the :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` processing.
+Vous devriez le désactiver sur la racine de votre interface utilisateur si vous ne voulez pas que les événements de défilement aillent dans le traitement de :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>`.
 
-\ **Note:** Because this property defaults to ``true``, this allows nested scrollable containers to work out of the box.
+\ **Note :** Parce que cette propriété vaut par défaut ``true``, cela permet aux conteneurs défilables imbriqués de fonctionner directement.
 
 .. rst-class:: classref-item-separator
 
@@ -1980,7 +1980,7 @@ Par défaut, le pivot du nœud est son coin supérieur gauche. Lorsque vous modi
 
 - :ref:`Vector2<class_Vector2>` **get_position**\ (\ )
 
-The node's position, relative to its containing node. It corresponds to the rectangle's top-left corner. The property is not affected by :ref:`pivot_offset<class_Control_property_pivot_offset>`.
+La position du nœud, par rapport au nœud le contenant. Elle correspond au coin supérieur gauche du rectangle. La propriété n'est pas affectée par :ref:`pivot_offset<class_Control_property_pivot_offset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1997,9 +1997,9 @@ The node's position, relative to its containing node. It corresponds to the rect
 - |void| **set_rotation**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_rotation**\ (\ )
 
-The node's rotation around its pivot, in radians. See :ref:`pivot_offset<class_Control_property_pivot_offset>` to change the pivot's position.
+La rotation du nœud autour de son pivot, en radians. Voir :ref:`pivot_offset<class_Control_property_pivot_offset>` pour modifier la position du pivot.
 
-\ **Note:** This property is edited in the inspector in degrees. If you want to use degrees in a script, use :ref:`rotation_degrees<class_Control_property_rotation_degrees>`.
+\ **Note :** Cette propriété est modifiée en degrés dans l'inspecteur. Si vous voulez utiliser des degrés dans un script, utilisez :ref:`rotation_degrees<class_Control_property_rotation_degrees>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2033,13 +2033,13 @@ Propriété d'aide pour accéder à la :ref:`rotation<class_Control_property_rot
 - |void| **set_scale**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scale**\ (\ )
 
-The node's scale, relative to its :ref:`size<class_Control_property_size>`. Change this property to scale the node around its :ref:`pivot_offset<class_Control_property_pivot_offset>`. The Control's tooltip will also scale according to this value.
+L'échelle du nœud, relative à :ref:`size<class_Control_property_size>`. Changez cette propriété pour changer l'échelle du nœud autour de :ref:`pivot_offset<class_Control_property_pivot_offset>`. L'info-bulle du Control sera également échelonnée en fonction de cette valeur.
 
-\ **Note:** This property is mainly intended to be used for animation purposes. To support multiple resolutions in your project, use an appropriate viewport stretch mode as described in the :doc:`documentation <../tutorials/rendering/multiple_resolutions>` instead of scaling Controls individually.
+\ **Note :** Cette propriété est principalement destinée à être utilisée pour des animations. Pour supporter plusieurs résolutions dans votre projet, utilisez un mode d'étirement approprié comme décrit dans la :doc:`documentation <../tutorials/rendering/multiple_resolutions>` au lieu de dimensionner chaque Control individuellement.
 
-\ **Note:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` does *not* take **Control** :ref:`scale<class_Control_property_scale>` into account. This means that scaling up/down will cause bitmap fonts and rasterized (non-MSDF) dynamic fonts to appear blurry or pixelated. To ensure text remains crisp regardless of scale, you can enable MSDF font rendering by enabling :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (applies to the default project font only), or enabling **Multichannel Signed Distance Field** in the import options of a DynamicFont for custom fonts. On system fonts, :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` can be enabled in the inspector.
+\ **Note:** :ref:`FontFile.oversampling<class_FontFile_property_oversampling>` ne prend *pas* la :ref:`scale<class_Control_property_scale>` du **Control** en compte. Cela signifie que l'agrandissement/rétrécissement causera un aspect flou et pixelisé aux polices bitmap et des polices dynamiques rasterisées (non-MSDF). Pour garantir que le texte reste net indépendamment de l'échelle, vous pouvez activer le rendu de police MSDF en activant :ref:`ProjectSettings.gui/theme/default_font_multichannel_signed_distance_field<class_ProjectSettings_property_gui/theme/default_font_multichannel_signed_distance_field>` (s'applique uniquement à la police du projet par défaut), ou en activant **Champ de Distance Signé Multicanal** dans les options d'import d'une DynamicFont pour les polices personnalisées. Sur les polices système, :ref:`SystemFont.multichannel_signed_distance_field<class_SystemFont_property_multichannel_signed_distance_field>` peut être activé dans l'inspecteur.
 
-\ **Note:** If the Control node is a child of a :ref:`Container<class_Container>` node, the scale will be reset to ``Vector2(1, 1)`` when the scene is instantiated. To set the Control's scale when it's instantiated, wait for one frame using ``await get_tree().process_frame`` then set its :ref:`scale<class_Control_property_scale>` property.
+\ **Note :** Si le nœud Control est un enfant d'un nœud :ref:`Container<class_Container>`, l'échelle sera réinitialisée à ``Vector2(1, 1)`` lorsque la scène est instanciée. Pour définir l'échelle du Control lors de son instanciation, attendez une trame avec ``await get_tree().process_frame`` puis définissez sa propriété :ref:`scale<class_Control_property_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2159,13 +2159,13 @@ La ressource :ref:`Theme<class_Theme>` que ce nœud et tous ses enfants **Contro
 - |void| **set_theme_type_variation**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_theme_type_variation**\ (\ )
 
-The name of a theme type variation used by this **Control** to look up its own theme items. When empty, the class name of the node is used (e.g. ``Button`` for the :ref:`Button<class_Button>` control), as well as the class names of all parent classes (in order of inheritance).
+Le nom d'une variation de type d'un thème utilisée par ce **Control** pour rechercher ses propres éléments de thème. Lorsque vide, le nom de classe du nœud est utilisé (par exemple ``Button`` pour le contrôle :ref:`Button<class_Button>`), ainsi que les noms de classe de toutes les classes parentes (dans l'ordre d'héritage).
 
-When set, this property gives the highest priority to the type of the specified name. This type can in turn extend another type, forming a dependency chain. See :ref:`Theme.set_type_variation()<class_Theme_method_set_type_variation>`. If the theme item cannot be found using this type or its base types, lookup falls back on the class names.
+Lorsque définie, cette propriété donne la plus haute priorité au type du nom spécifié. Ce type peut ensuite étendre un autre type, formant une chaîne de dépendances. Voir :ref:`Theme.set_type_variation()<class_Theme_method_set_type_variation>`. Si l'élément de thème n'est pas trouvé en utilisant ce type ou ses types de base, la recherche se replie alors sur les noms de classe.
 
-\ **Note:** To look up **Control**'s own items use various ``get_theme_*`` methods without specifying ``theme_type``.
+\ **Note :** Pour rechercher les propres éléments d'un **Control**, utilisez les diverses méthodes ``get_theme_*`` sans spécifier ``theme_type``.
 
-\ **Note:** Theme items are looked for in the tree order, from branch to root, where each **Control** node is checked for its :ref:`theme<class_Control_property_theme>` property. The earliest match against any type/class name is returned. The project-level Theme and the default Theme are checked last.
+\ **Note :** Les éléments de thème sont recherchés dans l'ordre de l'arborescence, depuis la branche jusqu'à la racine, où chaque nœud **Control** est vérifié suivant sa propriété :ref:`theme<class_Control_property_theme>`. Le premier résultat trouvé sur n'importe quel type ou classe est renvoyé. Le thème du projet et celui par défaut sont vérifiés en dernier.
 
 .. rst-class:: classref-item-separator
 
@@ -2182,9 +2182,9 @@ When set, this property gives the highest priority to the type of the specified 
 - |void| **set_tooltip_auto_translate_mode**\ (\ value\: :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>`\ )
 - :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **get_tooltip_auto_translate_mode**\ (\ )
 
-Defines if tooltip text should automatically change to its translated version depending on the current locale. Uses the same auto translate mode as this control when set to :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
+Définit si le texte de l'info-bulle doit automatiquement changer à sa version traduite en fonction de la langue actuelle. Utilise le même mode de traduction automatique que ce contrôle lorsque défini à :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
 
-\ **Note:** Tooltips customized using :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` do not use this auto translate mode automatically.
+\ **Note :** Les info-bulles personnalisées utilisant :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` n'utilisent pas ce mode de traduction automatique automatiquement.
 
 .. rst-class:: classref-item-separator
 
@@ -2201,11 +2201,11 @@ Defines if tooltip text should automatically change to its translated version de
 - |void| **set_tooltip_text**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_tooltip_text**\ (\ )
 
-The default tooltip text. The tooltip appears when the user's mouse cursor stays idle over this control for a few moments, provided that the :ref:`mouse_filter<class_Control_property_mouse_filter>` property is not :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`. The time required for the tooltip to appear can be changed with the :ref:`ProjectSettings.gui/timers/tooltip_delay_sec<class_ProjectSettings_property_gui/timers/tooltip_delay_sec>` setting.
+Le texte de l'info-bulle par défaut. L'info-bulle apparaît lorsque le curseur de la souris reste sur ce contrôle durant quelques instants, à condition que la propriété :ref:`mouse_filter<class_Control_property_mouse_filter>` ne vaille pas :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`. Vous pouvez modifier le temps nécessaire avant que l'info-bulle n'apparaisse avec le paramètre :ref:`ProjectSettings.gui/timers/tooltip_delay_sec<class_ProjectSettings_property_gui/timers/tooltip_delay_sec>`.
 
-This string is the default return value of :ref:`get_tooltip()<class_Control_method_get_tooltip>`. Override :ref:`_get_tooltip()<class_Control_private_method__get_tooltip>` to generate tooltip text dynamically. Override :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` to customize the tooltip interface and behavior.
+Cette chaîne est la valeur de renvoi par défaut de :ref:`get_tooltip()<class_Control_method_get_tooltip>`. Redéfinissez :ref:`_get_tooltip()<class_Control_private_method__get_tooltip>` pour générer le texte de l'info-bulle dynamiquement. Redéfinissez :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` pour personnaliser l'interface et le comportement de l'info-bulle.
 
-The tooltip popup will use either a default implementation, or a custom one that you can provide by overriding :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>`. The default tooltip includes a :ref:`PopupPanel<class_PopupPanel>` and :ref:`Label<class_Label>` whose theme properties can be customized using :ref:`Theme<class_Theme>` methods with the ``"TooltipPanel"`` and ``"TooltipLabel"`` respectively. For example:
+La popup de l'info-bulle utilisera soit l'implémentation par défaut, soit une que vous pouvez personnaliser en redéfinissant :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>`. L'info-bulle par défaut comprend un :ref:`PopupPanel<class_PopupPanel>` et un :ref:`Label<class_Label>` dont les propriétés de thème peuvent être personnalisées en utilisant des méthodes de :ref:`Theme<class_Theme>` pour ``"TooltipPanel"`` et ``"TooltipLabel"`` respectivement. Par exemple :
 
 
 .. tabs::
@@ -2215,7 +2215,7 @@ The tooltip popup will use either a default implementation, or a custom one that
     var style_box = StyleBoxFlat.new()
     style_box.set_bg_color(Color(1, 1, 0))
     style_box.set_border_width_all(2)
-    # We assume here that the `theme` property has been assigned a custom Theme beforehand.
+    # On part du principe ici que la propriété `theme` a déjà été assignée avec un Theme personnalisé.
     theme.set_stylebox("panel", "TooltipPanel", style_box)
     theme.set_color("font_color", "TooltipLabel", Color(0, 1, 1))
 
@@ -2224,7 +2224,7 @@ The tooltip popup will use either a default implementation, or a custom one that
     var styleBox = new StyleBoxFlat();
     styleBox.SetBgColor(new Color(1, 1, 0));
     styleBox.SetBorderWidthAll(2);
-    // We assume here that the `Theme` property has been assigned a custom Theme beforehand.
+    // On part du principe ici que la propriété `Theme` a déjà été assignée avec un Theme personnalisé.
     Theme.SetStyleBox("panel", "TooltipPanel", styleBox);
     Theme.SetColor("font_color", "TooltipLabel", new Color(0, 1, 1));
 
@@ -2245,7 +2245,7 @@ Descriptions des méthodes
 
 :ref:`String<class_String>` **_accessibility_get_contextual_info**\ (\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__accessibility_get_contextual_info>`
 
-Return the description of the keyboard shortcuts and other contextual help for this control.
+Renvoie la description des raccourcis clavier et des autres aides contextuelles pour ce contrôle.
 
 .. rst-class:: classref-item-separator
 
@@ -2257,11 +2257,11 @@ Return the description of the keyboard shortcuts and other contextual help for t
 
 :ref:`bool<class_bool>` **_can_drop_data**\ (\ at_position\: :ref:`Vector2<class_Vector2>`, data\: :ref:`Variant<class_Variant>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__can_drop_data>`
 
-Godot calls this method to test if ``data`` from a control's :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` can be dropped at ``at_position``. ``at_position`` is local to this control.
+Godot appelle cette méthode pour vérifier si les ``data`` de la méthode :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` d'un contrôle peuvent être déposées à la position ``at_position``. ``at_position`` est locale à ce contrôle.
 
-This method should only be used to test the data. Process the data in :ref:`_drop_data()<class_Control_private_method__drop_data>`.
+Cette méthode ne devrait être utilisée uniquement que pour tester les données. Traitez les données dans :ref:`_drop_data()<class_Control_private_method__drop_data>`.
 
-\ **Note:** If the drag was initiated by a keyboard shortcut or :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` is set to :ref:`Vector2.INF<class_Vector2_constant_INF>`, and the currently selected item/text position should be used as the drop position.
+\ **Note :** Si le glissement a été lancé par un raccourci clavier ou :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` est définie à :ref:`Vector2.INF<class_Vector2_constant_INF>`, et la position de l'objet/texte actuellement sélectionné doit être utilisée comme position de dépôt.
 
 
 .. tabs::
@@ -2269,17 +2269,17 @@ This method should only be used to test the data. Process the data in :ref:`_dro
  .. code-tab:: gdscript
 
     func _can_drop_data(position, data):
-        # Check position if it is relevant to you
-        # Otherwise, just check data
-        return typeof(data) == TYPE_DICTIONARY and data.has("expected")
+        # Vérifiez la position si c'est important pour vous
+        # Sinon, vérifiez juste les données
+        return typeof(data) == TYPE_DICTIONARY and data.has("attendu")
 
  .. code-tab:: csharp
 
     public override bool _CanDropData(Vector2 atPosition, Variant data)
     {
-        // Check position if it is relevant to you
-        // Otherwise, just check data
-        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("expected");
+        // Vérifiez la position si c'est important pour vous
+        // Sinon, vérifiez juste les données
+        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("attendu");
     }
 
 
@@ -2294,9 +2294,9 @@ This method should only be used to test the data. Process the data in :ref:`_dro
 
 |void| **_drop_data**\ (\ at_position\: :ref:`Vector2<class_Vector2>`, data\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Control_private_method__drop_data>`
 
-Godot calls this method to pass you the ``data`` from a control's :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` result. Godot first calls :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` to test if ``data`` is allowed to drop at ``at_position`` where ``at_position`` is local to this control.
+Godot appelle cette méthode pour vous transmettre les ``data`` du résultat de :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` d'un contrôle. Godot appelle d'abord :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` pour vérifier si ``data`` est autorisé à être déposé à la position ``at_position`` où ``at_position`` est locale à ce contrôle.
 
-\ **Note:** If the drag was initiated by a keyboard shortcut or :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` is set to :ref:`Vector2.INF<class_Vector2_constant_INF>`, and the currently selected item/text position should be used as the drop position.
+\ **Note :** Si le glissement a été lancé par un raccourci clavier ou :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` est définie à :ref:`Vector2.INF<class_Vector2_constant_INF>`, et la position de l'objet/texte actuellement sélectionné doit être utilisée comme position de dépôt.
 
 
 .. tabs::
@@ -2304,21 +2304,21 @@ Godot calls this method to pass you the ``data`` from a control's :ref:`_get_dra
  .. code-tab:: gdscript
 
     func _can_drop_data(position, data):
-        return typeof(data) == TYPE_DICTIONARY and data.has("color")
+        return typeof(data) == TYPE_DICTIONARY and data.has("couleur")
 
     func _drop_data(position, data):
-        var color = data["color"]
+        var color = data["couleur"]
 
  .. code-tab:: csharp
 
     public override bool _CanDropData(Vector2 atPosition, Variant data)
     {
-        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("color");
+        return data.VariantType == Variant.Type.Dictionary && data.AsGodotDictionary().ContainsKey("couleur");
     }
 
     public override void _DropData(Vector2 atPosition, Variant data)
     {
-        Color color = data.AsGodotDictionary()["color"].AsColor();
+        Color color = data.AsGodotDictionary()["couleur"].AsColor();
     }
 
 
@@ -2333,7 +2333,7 @@ Godot calls this method to pass you the ``data`` from a control's :ref:`_get_dra
 
 :ref:`String<class_String>` **_get_accessibility_container_name**\ (\ node\: :ref:`Node<class_Node>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__get_accessibility_container_name>`
 
-Override this method to return a human-readable description of the position of the child ``node`` in the custom container, added to the :ref:`accessibility_name<class_Control_property_accessibility_name>`.
+Redéfinissez cette méthode pour renvoyer une description facilement lisible de la position du nœud enfant ``node`` dans le conteneur personnalisé, ajouté à :ref:`accessibility_name<class_Control_property_accessibility_name>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2345,11 +2345,11 @@ Override this method to return a human-readable description of the position of t
 
 :ref:`Variant<class_Variant>` **_get_drag_data**\ (\ at_position\: :ref:`Vector2<class_Vector2>`\ ) |virtual| :ref:`🔗<class_Control_private_method__get_drag_data>`
 
-Godot calls this method to get data that can be dragged and dropped onto controls that expect drop data. Returns ``null`` if there is no data to drag. Controls that want to receive drop data should implement :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` and :ref:`_drop_data()<class_Control_private_method__drop_data>`. ``at_position`` is local to this control. Drag may be forced with :ref:`force_drag()<class_Control_method_force_drag>`.
+Godot appelle cette méthode pour obtenir des données qui peuvent être glissées et déposées sur des contrôles qui attendent des données de glisser-déposer. Renvoie ``null`` s'il n'y a pas de données à glisser. Les contrôles qui veulent recevoir des données de glisser-déposer doivent implémenter :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` et :ref:`_drop_data()<class_Control_private_method__drop_data>`. ``at_position`` est locale à ce contrôle. Le glissement peut être forcé avec :ref:`force_drag()<class_Control_method_force_drag>`.
 
-A preview that will follow the mouse that should represent the data can be set with :ref:`set_drag_preview()<class_Control_method_set_drag_preview>`. A good time to set the preview is in this method.
+Un aperçu suivant la souris représentant les données peut être défini avec :ref:`set_drag_preview()<class_Control_method_set_drag_preview>`. L'appel à cette méthode est un bon moment définir cet aperçu.
 
-\ **Note:** If the drag was initiated by a keyboard shortcut or :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` is set to :ref:`Vector2.INF<class_Vector2_constant_INF>`, and the currently selected item/text position should be used as the drag position.
+\ **Note :** Si le glissement a été lancé par un raccourci clavier ou :ref:`accessibility_drag()<class_Control_method_accessibility_drag>`, ``at_position`` est définie à :ref:`Vector2.INF<class_Vector2_constant_INF>`, et la position de l'objet/texte actuellement sélectionné doit être utilisée comme position de dépôt.
 
 
 .. tabs::
@@ -2357,17 +2357,17 @@ A preview that will follow the mouse that should represent the data can be set w
  .. code-tab:: gdscript
 
     func _get_drag_data(position):
-        var mydata = make_data() # This is your custom method generating the drag data.
-        set_drag_preview(make_preview(mydata)) # This is your custom method generating the preview of the drag data.
-        return mydata
+        var mesdonnees = creer_donnees() # Ceci est votre méthode personnalisées générant les données du glissement.
+        set_drag_preview(creer_apercu(mesdonnees)) # Ceci est votre méthode personnalisée générant l'aperçu des données du glissement.
+        return mesdonnees
 
  .. code-tab:: csharp
 
     public override Variant _GetDragData(Vector2 atPosition)
     {
-        var myData = MakeData(); // This is your custom method generating the drag data.
-        SetDragPreview(MakePreview(myData)); // This is your custom method generating the preview of the drag data.
-        return myData;
+        var mesDonnees = CreerDonnees(); // Ceci est votre méthode personnalisées générant les données du glissement.
+        SetDragPreview(CreerApercu(mesDonnees)); // Ceci est votre méthode personnalisée générant l'aperçu des données du glissement.
+        return mesDonnees;
     }
 
 
@@ -2398,9 +2398,9 @@ Si non redéfinie, la valeur par défaut est :ref:`Vector2.ZERO<class_Vector2_co
 
 :ref:`String<class_String>` **_get_tooltip**\ (\ at_position\: :ref:`Vector2<class_Vector2>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__get_tooltip>`
 
-Virtual method to be implemented by the user. Returns the tooltip text for the position ``at_position`` in control's local coordinates, which will typically appear when the cursor is resting over this control. See :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
+Méthode virtuelle à implémenter par l'utilisateur. Renvoie le texte d'info-bulle pour la position ``at_position`` dans les coordonnées locales du contrôle, ce qui apparaîtra généralement lorsque le curseur reste sur ce contrôle. Voir :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
 
-\ **Note:** If this method returns an empty :ref:`String<class_String>` and :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` is not overridden, no tooltip is displayed.
+\ **Note :** Si cette méthode renvoie une :ref:`String<class_String>` vide et :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` n'est pas redéfinie, aucune info-bulle n'est affichée.
 
 .. rst-class:: classref-item-separator
 
@@ -2412,9 +2412,9 @@ Virtual method to be implemented by the user. Returns the tooltip text for the p
 
 |void| **_gui_input**\ (\ event\: :ref:`InputEvent<class_InputEvent>`\ ) |virtual| :ref:`🔗<class_Control_private_method__gui_input>`
 
-Virtual method to be implemented by the user. Override this method to handle and accept inputs on UI elements. See also :ref:`accept_event()<class_Control_method_accept_event>`.
+Méthode virtuelle à implémenter par l'utilisateur. Redéfinissez cette méthode pour gérer et accepter des entrées sur des éléments d'interface utilisateur. Voir aussi :ref:`accept_event()<class_Control_method_accept_event>`.
 
-\ **Example:** Click on the control to print a message:
+\ **Exemple :** Cliquer sur un contrôle pour afficher un message :
 
 
 .. tabs::
@@ -2424,7 +2424,7 @@ Virtual method to be implemented by the user. Override this method to handle and
     func _gui_input(event):
         if event is InputEventMouseButton:
             if event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
-                print("I've been clicked D:")
+                print("J'ai été cliqué ! :D")
 
  .. code-tab:: csharp
 
@@ -2434,26 +2434,26 @@ Virtual method to be implemented by the user. Override this method to handle and
         {
             if (mb.ButtonIndex == MouseButton.Left && mb.Pressed)
             {
-                GD.Print("I've been clicked D:");
+                GD.Print("J'ai été cliqué ! :D");
             }
         }
     }
 
 
 
-If the ``event`` inherits :ref:`InputEventMouse<class_InputEventMouse>`, this method will **not** be called when:
+Si l'évènement ``event`` hérite de :ref:`InputEventMouse<class_InputEventMouse>`, cette méthode ne sera **pas** appelée lorsque :
 
-- the control's :ref:`mouse_filter<class_Control_property_mouse_filter>` is set to :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`;
+- le :ref:`mouse_filter<class_Control_property_mouse_filter>` du contrôle est défini à :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`\  ;
 
-- the control is obstructed by another control on top, that doesn't have :ref:`mouse_filter<class_Control_property_mouse_filter>` set to :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`;
+- le contrôle est recouvert par un autre **Control**, qui n'a pas :ref:`mouse_filter<class_Control_property_mouse_filter>` défini à :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`\  ;
 
-- the control's parent has :ref:`mouse_filter<class_Control_property_mouse_filter>` set to :ref:`MOUSE_FILTER_STOP<class_Control_constant_MOUSE_FILTER_STOP>` or has accepted the event;
+- le parent de ce contrôle a :ref:`mouse_filter<class_Control_property_mouse_filter>` défini à :ref:`MOUSE_FILTER_STOP<class_Control_constant_MOUSE_FILTER_STOP>` ou a accepté l'événement ;
 
-- the control's parent has :ref:`clip_contents<class_Control_property_clip_contents>` enabled and the ``event``'s position is outside the parent's rectangle;
+- le parent du contrôle a :ref:`clip_contents<class_Control_property_clip_contents>` activé et la position de ``event`` est en dehors du rectangle du parent;
 
-- the ``event``'s position is outside the control (see :ref:`_has_point()<class_Control_private_method__has_point>`).
+- la position d'``event`` est en dehors du contrôle (voir :ref:`_has_point()<class_Control_private_method__has_point>`).
 
-\ **Note:** The ``event``'s position is relative to this control's origin.
+\ **Note :** La position d'``event`` est relative à l'origine du contrôle.
 
 .. rst-class:: classref-item-separator
 
@@ -2465,11 +2465,11 @@ If the ``event`` inherits :ref:`InputEventMouse<class_InputEventMouse>`, this me
 
 :ref:`bool<class_bool>` **_has_point**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__has_point>`
 
-Virtual method to be implemented by the user. Returns whether the given ``point`` is inside this control.
+Méthode virtuelle à implémenter par l'utilisateur. Renvoie si le ``point`` donné est à l'intérieur de ce contrôle.
 
-If not overridden, default behavior is checking if the point is within control's Rect.
+Si non redéfini, le comportement par défaut vérifie si le point se trouve dans le Rect du contrôle.
 
-\ **Note:** If you want to check if a point is inside the control, you can use ``Rect2(Vector2.ZERO, size).has_point(point)``.
+\ **Note :** Si vous voulez vérifier si un point est à l'intérieur du contrôle, vous pouvez utiliser ``Rect2(Vector2.ZERO, size).has_point(point)``.
 
 .. rst-class:: classref-item-separator
 
@@ -2481,19 +2481,19 @@ If not overridden, default behavior is checking if the point is within control's
 
 :ref:`Object<class_Object>` **_make_custom_tooltip**\ (\ for_text\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__make_custom_tooltip>`
 
-Virtual method to be implemented by the user. Returns a **Control** node that should be used as a tooltip instead of the default one. ``for_text`` is the return value of :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
+Méthode virtuelle à implémenter par l'utilisateur. Renvoie un nœud **Control** qui devrait être utilisé pour l'infobulle plutôt que celui par défaut. Le texte ``for_text`` contient le valeur de renvoi de :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
 
-The returned node must be of type **Control** or Control-derived. It can have child nodes of any type. It is freed when the tooltip disappears, so make sure you always provide a new instance (if you want to use a pre-existing node from your scene tree, you can duplicate it and pass the duplicated instance). When ``null`` or a non-Control node is returned, the default tooltip will be used instead.
+Le nœud renvoyé doit être du type **Control** ou en hériter. Il peut avoir des nœuds enfants de n'importe quel type. Il est libéré quand l'infobulle disparaît, alors assurez vous que vous fournissez toujours une nouvelle instance (si vous voulez utiliser un nœud déjà existant dans votre arborescence de scène, vous pouvez le dupliquer et passer cette instance dupliquée). Quand ``null`` ou un nœud non-Control est renvoyé, l'infobulle par défaut sera utilisée à la place.
 
-The returned node will be added as child to a :ref:`PopupPanel<class_PopupPanel>`, so you should only provide the contents of that panel. That :ref:`PopupPanel<class_PopupPanel>` can be themed using :ref:`Theme.set_stylebox()<class_Theme_method_set_stylebox>` for the type ``"TooltipPanel"`` (see :ref:`tooltip_text<class_Control_property_tooltip_text>` for an example).
+Le nœud renvoyé sera ajouté comme enfant à un :ref:`PopupPanel<class_PopupPanel>`, vous devriez donc fournir uniquement le contenu de ce panneau. Ce :ref:`PopupPanel<class_PopupPanel>` peut avoir un thème défini par :ref:`Theme.set_stylebox()<class_Theme_method_set_stylebox>` pour le type ``"TooltipPanel"`` (voir :ref:`tooltip_text<class_Control_property_tooltip_text>` pour un exemple).
 
-\ **Note:** The tooltip is shrunk to minimal size. If you want to ensure it's fully visible, you might want to set its :ref:`custom_minimum_size<class_Control_property_custom_minimum_size>` to some non-zero value.
+\ **Note :** L'infobulle est réduite à sa taille minimale. Si vous voulez vous assurer qu'elle soit entièrement visible, vous devriez définir sa taille minimale :ref:`custom_minimum_size<class_Control_property_custom_minimum_size>` à une valeur non-nulle.
 
-\ **Note:** The node (and any relevant children) should have their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` set to ``true`` when returned, otherwise, the viewport that instantiates it will not be able to calculate its minimum size reliably.
+\ **Note :** Le nœud (et tous les enfants pertinents) devraient avoir leur :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` défini à ``true`` lorsque renvoyé, sinon, le viewport qui l'instancie ne pourra pas calculer sa taille minimale de manière fiable.
 
-\ **Note:** If overridden, this method is called even if :ref:`get_tooltip()<class_Control_method_get_tooltip>` returns an empty string. When this happens with the default tooltip, it is not displayed. To copy this behavior, return ``null`` in this method when ``for_text`` is empty.
+\ **Note :** Si cette méthode est redéfinie, même si :ref:`get_tooltip()<class_Control_method_get_tooltip>` renvoie une chaîne vide. Lorsque cela se produit avec l'infobulle par défaut, elle n'est pas affichée. Pour copier ce comportement, renvoyez ``null`` dans cette méthode lorsque ``for_text`` est vide.
 
-\ **Example:** Use a constructed node as a tooltip:
+\ **Exemple :** Utiliser un nœud construit comme info-bulle :
 
 
 .. tabs::
@@ -2516,7 +2516,7 @@ The returned node will be added as child to a :ref:`PopupPanel<class_PopupPanel>
 
 
 
-\ **Example:** Usa a scene instance as a tooltip:
+\ **Exemple :** Utiliser une instance de scène comme info-bulle :
 
 
 .. tabs::
@@ -2524,17 +2524,17 @@ The returned node will be added as child to a :ref:`PopupPanel<class_PopupPanel>
  .. code-tab:: gdscript
 
     func _make_custom_tooltip(for_text):
-        var tooltip = preload("res://some_tooltip_scene.tscn").instantiate()
-        tooltip.get_node("Label").text = for_text
+        var infobulle = preload("res://une_scene_d_infobulle.tscn").instantiate()
+        infobulle.get_node("Label").text = for_text
         return tooltip
 
  .. code-tab:: csharp
 
     public override Control _MakeCustomTooltip(string forText)
     {
-        Node tooltip = ResourceLoader.Load<PackedScene>("res://some_tooltip_scene.tscn").Instantiate();
-        tooltip.GetNode<Label>("Label").Text = forText;
-        return tooltip;
+        Node infobulle = ResourceLoader.Load<PackedScene>("res://une_scene_d_infobulle.tscn").Instantiate();
+        infobulle.GetNode<Label>("Label").Text = forText;
+        return infobulle;
     }
 
 
@@ -2549,9 +2549,9 @@ The returned node will be added as child to a :ref:`PopupPanel<class_PopupPanel>
 
 :ref:`Array<class_Array>`\[:ref:`Vector3i<class_Vector3i>`\] **_structured_text_parser**\ (\ args\: :ref:`Array<class_Array>`, text\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__structured_text_parser>`
 
-User defined BiDi algorithm override function.
+Fonction de redéfinition de l'algorithme BiDi définie par l'utilisateur.
 
-Returns an :ref:`Array<class_Array>` of :ref:`Vector3i<class_Vector3i>` text ranges and text base directions, in the left-to-right order. Ranges should cover full source ``text`` without overlaps. BiDi algorithm will be used on each range separately.
+Renvoie un :ref:`Array<class_Array>` de :ref:`Vector3i<class_Vector3i>` de plages de texte et directions de base de texte, dans l'ordre gauche à droite. Les plages devraient couvrir le texte source complet ``text`` sans chevauchements. L'algorithme BiDi sera utilisé sur chaque plage séparément.
 
 .. rst-class:: classref-item-separator
 
@@ -2563,9 +2563,9 @@ Returns an :ref:`Array<class_Array>` of :ref:`Vector3i<class_Vector3i>` text ran
 
 |void| **accept_event**\ (\ ) :ref:`🔗<class_Control_method_accept_event>`
 
-Marks an input event as handled. Once you accept an input event, it stops propagating, even to nodes listening to :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` or :ref:`Node._unhandled_key_input()<class_Node_private_method__unhandled_key_input>`.
+Marque un événement d'entrée comme traité. Une fois un événement accepté, il arrête de se propager, même aux nœuds écoutant :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` ou :ref:`Node._unhandled_key_input()<class_Node_private_method__unhandled_key_input>`.
 
-\ **Note:** This does not affect the methods in :ref:`Input<class_Input>`, only the way events are propagated.
+\ **Note :** Cela n'affecte pas les méthodes dans :ref:`Input<class_Input>`, seulement la façon dont les événements sont propagés.
 
 .. rst-class:: classref-item-separator
 
@@ -2577,7 +2577,7 @@ Marks an input event as handled. Once you accept an input event, it stops propag
 
 |void| **accessibility_drag**\ (\ ) :ref:`🔗<class_Control_method_accessibility_drag>`
 
-Starts drag-and-drop operation without using a mouse.
+Commence une opération de glisser-déposer sans utiliser de souris.
 
 .. rst-class:: classref-item-separator
 
@@ -2589,7 +2589,7 @@ Starts drag-and-drop operation without using a mouse.
 
 |void| **accessibility_drop**\ (\ ) :ref:`🔗<class_Control_method_accessibility_drop>`
 
-Ends drag-and-drop operation without using a mouse.
+Termine une opération de glisser-déposer sans utiliser de souris.
 
 .. rst-class:: classref-item-separator
 
@@ -2601,32 +2601,32 @@ Ends drag-and-drop operation without using a mouse.
 
 |void| **add_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Control_method_add_theme_color_override>`
 
-Creates a local override for a theme :ref:`Color<class_Color>` with the specified ``name``. Local overrides always take precedence when fetching theme items for the control. An override can be removed with :ref:`remove_theme_color_override()<class_Control_method_remove_theme_color_override>`.
+Crée une redéfinition locale pour une :ref:`Color<class_Color>` de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération d'éléments de thème pour le contrôle. Une redéfinie peut être retirée avec :ref:`remove_theme_color_override()<class_Control_method_remove_theme_color_override>`.
 
-See also :ref:`get_theme_color()<class_Control_method_get_theme_color>`.
+Voir aussi :ref:`get_theme_color()<class_Control_method_get_theme_color>`.
 
-\ **Example:** Override a :ref:`Label<class_Label>`'s color and reset it later:
+\ **Exemple :** Redéfinir la couleur d'un :ref:`Label<class_Label>` et la réinitialiser plus tard :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Given the child Label node "MyLabel", override its font color with a custom value.
-    $MyLabel.add_theme_color_override("font_color", Color(1, 0.5, 0))
-    # Reset the font color of the child label.
-    $MyLabel.remove_theme_color_override("font_color")
-    # Alternatively it can be overridden with the default value from the Label type.
-    $MyLabel.add_theme_color_override("font_color", get_theme_color("font_color", "Label"))
+    # Compte tenu du nœud enfant Label "MonLabel", remplace sa couleur de police par une valeur personnalisée.
+    $MonLabel.add_theme_color_override("font_color", Color(1, 0.5, 0))
+    # Réinitialise la couleur de police du Label enfant.
+    $MonLabel.remove_theme_color_override("font_color")
+    # Alternativement, elle peut être redéfinie avec la valeur par défaut du type Label.
+    $MonLabel.add_theme_color_override("font_color", get_theme_color("font_color", "Label"))
 
  .. code-tab:: csharp
 
-    // Given the child Label node "MyLabel", override its font color with a custom value.
-    GetNode<Label>("MyLabel").AddThemeColorOverride("font_color", new Color(1, 0.5f, 0));
-    // Reset the font color of the child label.
-    GetNode<Label>("MyLabel").RemoveThemeColorOverride("font_color");
-    // Alternatively it can be overridden with the default value from the Label type.
-    GetNode<Label>("MyLabel").AddThemeColorOverride("font_color", GetThemeColor("font_color", "Label"));
+    // Compte tenu du nœud enfant Label "MonLabel", remplace sa couleur de police par une valeur personnalisée.
+    GetNode<Label>("MonLabel").AddThemeColorOverride("font_color", new Color(1, 0.5f, 0));
+    // Réinitialise la couleur de police du Label enfant.
+    GetNode<Label>("MonLabel").RemoveThemeColorOverride("font_color");
+    // Alternativement, elle peut être redéfinie avec la valeur par défaut du type Label.
+    GetNode<Label>("MonLabel").AddThemeColorOverride("font_color", GetThemeColor("font_color", "Label"));
 
 
 
@@ -2696,38 +2696,38 @@ Voir aussi :ref:`get_theme_icon()<class_Control_method_get_theme_icon>`.
 
 |void| **add_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`, stylebox\: :ref:`StyleBox<class_StyleBox>`\ ) :ref:`🔗<class_Control_method_add_theme_stylebox_override>`
 
-Creates a local override for a theme :ref:`StyleBox<class_StyleBox>` with the specified ``name``. Local overrides always take precedence when fetching theme items for the control. An override can be removed with :ref:`remove_theme_stylebox_override()<class_Control_method_remove_theme_stylebox_override>`.
+Crée une redéfinition locale pour une :ref:`StyleBox<class_StyleBox>` de thème nommée ``name``. Les redéfinitions locales ont toujours la priorité lors de la récupération d'éléments de thème pour le contrôle. Une redéfinie peut être retirée avec :ref:`remove_theme_stylebox_override()<class_Control_method_remove_theme_stylebox_override>`.
 
-See also :ref:`get_theme_stylebox()<class_Control_method_get_theme_stylebox>`.
+Voir aussi :ref:`get_theme_stylebox()<class_Control_method_get_theme_stylebox>`.
 
-\ **Example:** Modify a property in a :ref:`StyleBox<class_StyleBox>` by duplicating it:
+\ **Exemple :** Modifier une propriété dans une :ref:`StyleBox<class_StyleBox>` en la dupliquant :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # The snippet below assumes the child node "MyButton" has a StyleBoxFlat assigned.
-    # Resources are shared across instances, so we need to duplicate it
-    # to avoid modifying the appearance of all other buttons.
-    var new_stylebox_normal = $MyButton.get_theme_stylebox("normal").duplicate()
-    new_stylebox_normal.border_width_top = 3
-    new_stylebox_normal.border_color = Color(0, 1, 0.5)
-    $MyButton.add_theme_stylebox_override("normal", new_stylebox_normal)
-    # Remove the stylebox override.
-    $MyButton.remove_theme_stylebox_override("normal")
+    # Le code ci-dessous part du principe que le nœud enfant "MonBouton" a une StyleBoxFlat qui lui est assignée.
+    # Les ressources sont partagées entre les instances, il est donc nécessaire de les dupliquer
+    # pour éviter que les modifications ne se répercutent sur tous les autres boutons.
+    var nouvelle_stylebox_normal = $MyButton.get_stylebox("normal").duplicate()
+    nouvelle_stylebox_normal.border_width_top = 3
+    nouvelle_stylebox_normal.border_color = Color(0, 1, 0.5)
+    $MonBouton.add_stylebox_override("normal", nouvelle_stylebox_normal)
+    # Retirer la redéfinition de la stylebox.
+    $MonBouton.add_stylebox_override("normal", null)
 
  .. code-tab:: csharp
 
-    // The snippet below assumes the child node "MyButton" has a StyleBoxFlat assigned.
-    // Resources are shared across instances, so we need to duplicate it
-    // to avoid modifying the appearance of all other buttons.
-    StyleBoxFlat newStyleboxNormal = GetNode<Button>("MyButton").GetThemeStylebox("normal").Duplicate() as StyleBoxFlat;
-    newStyleboxNormal.BorderWidthTop = 3;
-    newStyleboxNormal.BorderColor = new Color(0, 1, 0.5f);
-    GetNode<Button>("MyButton").AddThemeStyleboxOverride("normal", newStyleboxNormal);
-    // Remove the stylebox override.
-    GetNode<Button>("MyButton").RemoveThemeStyleboxOverride("normal");
+    // Le code ci-dessous part du principe que le nœud enfant "MonBouton" a une StyleBoxFlat qui lui est assignée.
+    // Les ressources sont partagées entre les instances, il est donc nécessaire de les dupliquer
+    // pour éviter que les modifications ne se répercutent sur tous les autres boutons.
+    StyleBoxFlat nouvelleStyleboxNomal = GetNode<Button>("MonBouton").GetThemeStylebox("normal").Duplicate() as StyleBoxFlat;
+    nouvelleStyleboxNomal.BorderWidthTop = 3;
+    nouvelleStyleboxNomal.BorderColor = new Color(0, 1, 0.5f);
+    GetNode<Button>("MonBouton").AddThemeStyleboxOverride("normal", nouvelleStyleboxNomal);
+    // Retirer la redéfinition de la stylebox.
+    GetNode<Button>("MonBouton").RemoveThemeStyleboxOverride("normal");
 
 
 
@@ -2789,9 +2789,9 @@ Trouve (et renvoie) le **Control** précédent (au-dessus dans l'arbre) qui peut
 
 :ref:`Control<class_Control>` **find_valid_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_Control_method_find_valid_focus_neighbor>`
 
-Finds the next **Control** that can receive the focus on the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Trouve le prochain **Control** qui peut recevoir le focus du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
-\ **Note:** This is different from :ref:`get_focus_neighbor()<class_Control_method_get_focus_neighbor>`, which returns the path of a specified focus neighbor.
+\ **Note :** Ceci est différent de :ref:`get_focus_neighbor()<class_Control_method_get_focus_neighbor>`, qui renvoie le chemin d'un voisin de focus spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -2803,9 +2803,9 @@ Finds the next **Control** that can receive the focus on the specified :ref:`Sid
 
 |void| **force_drag**\ (\ data\: :ref:`Variant<class_Variant>`, preview\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_Control_method_force_drag>`
 
-Forces drag and bypasses :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` and :ref:`set_drag_preview()<class_Control_method_set_drag_preview>` by passing ``data`` and ``preview``. Drag will start even if the mouse is neither over nor pressed on this control.
+Force le glissement et contourne :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` et :ref:`set_drag_preview()<class_Control_method_set_drag_preview>` en passant ``data`` et ``preview``. Le glissement va commencer même si la souris n'est ni sur, ni appuyée sur ce contrôle.
 
-The methods :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` and :ref:`_drop_data()<class_Control_private_method__drop_data>` must be implemented on controls that want to receive drop data.
+Les méthodes :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` et :ref:`_drop_data()<class_Control_private_method__drop_data>` doivent être implémentées pour les contrôles qui veulent recevoir des données de glissement.
 
 .. rst-class:: classref-item-separator
 
@@ -2817,7 +2817,7 @@ The methods :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>`
 
 :ref:`float<class_float>` **get_anchor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_Control_method_get_anchor>`
 
-Returns the anchor for the specified :ref:`Side<enum_@GlobalScope_Side>`. A getter method for :ref:`anchor_bottom<class_Control_property_anchor_bottom>`, :ref:`anchor_left<class_Control_property_anchor_left>`, :ref:`anchor_right<class_Control_property_anchor_right>` and :ref:`anchor_top<class_Control_property_anchor_top>`.
+Renvoie l'ancre du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié. Une méthode getter pour :ref:`anchor_bottom<class_Control_property_anchor_bottom>`, :ref:`anchor_left<class_Control_property_anchor_left>`, :ref:`anchor_right<class_Control_property_anchor_right>` et :ref:`anchor_top<class_Control_property_anchor_top>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2829,7 +2829,7 @@ Returns the anchor for the specified :ref:`Side<enum_@GlobalScope_Side>`. A gett
 
 :ref:`Vector2<class_Vector2>` **get_begin**\ (\ ) |const| :ref:`🔗<class_Control_method_get_begin>`
 
-Returns :ref:`offset_left<class_Control_property_offset_left>` and :ref:`offset_top<class_Control_property_offset_top>`. See also :ref:`position<class_Control_property_position>`.
+Renvoie :ref:`offset_left<class_Control_property_offset_left>` et :ref:`offset_top<class_Control_property_offset_top>`. Voir aussi :ref:`position<class_Control_property_position>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2853,7 +2853,7 @@ Renvoie la taille minimale combinée de :ref:`custom_minimum_size<class_Control_
 
 :ref:`CursorShape<enum_Control_CursorShape>` **get_cursor_shape**\ (\ position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) |const| :ref:`🔗<class_Control_method_get_cursor_shape>`
 
-Returns the mouse cursor shape for this control when hovered over ``position`` in local coordinates. For most controls, this is the same as :ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`, but some built-in controls implement more complex logic.
+Renvoie la forme du curseur de la souris pour ce contrôle lorsque survolé à la position ``position`` dans les coordonnées locales. Pour la plupart des contrôles, cela revient à :ref:`mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>`, mais certains contrôles intégrés implémentent une logique plus complexe.
 
 .. rst-class:: classref-item-separator
 
@@ -2877,7 +2877,7 @@ Renvoie :ref:`offset_right<class_Control_property_offset_right>` et :ref:`offset
 
 :ref:`FocusMode<enum_Control_FocusMode>` **get_focus_mode_with_override**\ (\ ) |const| :ref:`🔗<class_Control_method_get_focus_mode_with_override>`
 
-Returns the :ref:`focus_mode<class_Control_property_focus_mode>`, but takes the :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` into account. If :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` is set to :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, or it is set to :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>` and its ancestor is set to :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, then this returns :ref:`FOCUS_NONE<class_Control_constant_FOCUS_NONE>`.
+Renvoie le :ref:`focus_mode<class_Control_property_focus_mode>`, mais prend en compte le :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>`. Si :ref:`focus_behavior_recursive<class_Control_property_focus_behavior_recursive>` est défini à :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, ou est défini à :ref:`FOCUS_BEHAVIOR_INHERITED<class_Control_constant_FOCUS_BEHAVIOR_INHERITED>` et son ancêtre est défini à :ref:`FOCUS_BEHAVIOR_DISABLED<class_Control_constant_FOCUS_BEHAVIOR_DISABLED>`, alors ceci renvoie :ref:`FOCUS_NONE<class_Control_constant_FOCUS_NONE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2889,9 +2889,9 @@ Returns the :ref:`focus_mode<class_Control_property_focus_mode>`, but takes the 
 
 :ref:`NodePath<class_NodePath>` **get_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_Control_method_get_focus_neighbor>`
 
-Returns the focus neighbor for the specified :ref:`Side<enum_@GlobalScope_Side>`. A getter method for :ref:`focus_neighbor_bottom<class_Control_property_focus_neighbor_bottom>`, :ref:`focus_neighbor_left<class_Control_property_focus_neighbor_left>`, :ref:`focus_neighbor_right<class_Control_property_focus_neighbor_right>` and :ref:`focus_neighbor_top<class_Control_property_focus_neighbor_top>`.
+Renvoie le voisin de focus pour le côte :ref:`Side<enum_@GlobalScope_Side>` spécifié. Une méthode getter pour :ref:`focus_neighbor_bottom<class_Control_property_focus_neighbor_bottom>`, :ref:`focus_neighbor_left<class_Control_property_focus_neighbor_left>`, :ref:`focus_neighbor_right<class_Control_property_focus_neighbor_right>` et :ref:`focus_neighbor_top<class_Control_property_focus_neighbor_top>`.
 
-\ **Note:** To find the next **Control** on the specific :ref:`Side<enum_@GlobalScope_Side>`, even if a neighbor is not assigned, use :ref:`find_valid_focus_neighbor()<class_Control_method_find_valid_focus_neighbor>`.
+\ **Note :** Pour trouver le prochain **Control** sur le :ref:`Side<enum_@GlobalScope_Side>` spécifique, même si un voisin n'est pas assigné, utilisez :ref:`find_valid_focus_neighbor()<class_Control_method_find_valid_focus_neighbor>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2903,11 +2903,11 @@ Returns the focus neighbor for the specified :ref:`Side<enum_@GlobalScope_Side>`
 
 :ref:`Rect2<class_Rect2>` **get_global_rect**\ (\ ) |const| :ref:`🔗<class_Control_method_get_global_rect>`
 
-Returns the position and size of the control relative to the containing canvas. See :ref:`global_position<class_Control_property_global_position>` and :ref:`size<class_Control_property_size>`.
+Renvoie la position et la taille du contrôle relativement au canevas le contenant. Voir :ref:`global_position<class_Control_property_global_position>` et :ref:`size<class_Control_property_size>`.
 
-\ **Note:** If the node itself or any parent :ref:`CanvasItem<class_CanvasItem>` between the node and the canvas have a non default rotation or skew, the resulting size is likely not meaningful.
+\ **Note :** Si le nœud lui-même ou tout parent :ref:`CanvasItem<class_CanvasItem>` entre le nœud et le canevas ont une rotation ou un cisaillement non par défaut, la taille résultante n'est probablement pas significative.
 
-\ **Note:** Setting :ref:`Viewport.gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>` to ``true`` can lead to rounding inaccuracies between the displayed control and the returned :ref:`Rect2<class_Rect2>`.
+\ **Note :** Définir :ref:`Viewport.gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>` à ``true`` peut conduire à des erreurs d'arrondi entre le contrôle affiché et le :ref:`Rect2<class_Rect2>` renvoyé.
 
 .. rst-class:: classref-item-separator
 
@@ -2931,7 +2931,7 @@ Renvoie la taille minimale pour ce contrôle. Voir :ref:`custom_minimum_size<cla
 
 :ref:`MouseFilter<enum_Control_MouseFilter>` **get_mouse_filter_with_override**\ (\ ) |const| :ref:`🔗<class_Control_method_get_mouse_filter_with_override>`
 
-Returns the :ref:`mouse_filter<class_Control_property_mouse_filter>`, but takes the :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` into account. If :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` is set to :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, or it is set to :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>` and its ancestor is set to :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, then this returns :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
+Renvoie le :ref:`mouse_filter<class_Control_property_mouse_filter>`, mais prend en compte le :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`. Si :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` est défini à :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, ou il est défini à :ref:`MOUSE_BEHAVIOR_INHERITED<class_Control_constant_MOUSE_BEHAVIOR_INHERITED>` et son ancêtre est défini à :ref:`MOUSE_BEHAVIOR_DISABLED<class_Control_constant_MOUSE_BEHAVIOR_DISABLED>`, alors cela renvoie :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2943,7 +2943,7 @@ Returns the :ref:`mouse_filter<class_Control_property_mouse_filter>`, but takes 
 
 :ref:`float<class_float>` **get_offset**\ (\ offset\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_Control_method_get_offset>`
 
-Returns the offset for the specified :ref:`Side<enum_@GlobalScope_Side>`. A getter method for :ref:`offset_bottom<class_Control_property_offset_bottom>`, :ref:`offset_left<class_Control_property_offset_left>`, :ref:`offset_right<class_Control_property_offset_right>` and :ref:`offset_top<class_Control_property_offset_top>`.
+Renvoie le décalage pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié. Une méthode getter pour :ref:`offset_bottom<class_Control_property_offset_bottom>`, :ref:`offset_left<class_Control_property_offset_left>`, :ref:`offset_right<class_Control_property_offset_right>` et :ref:`offset_top<class_Control_property_offset_top>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2979,11 +2979,11 @@ Renvoie le nœud de contrôle parent.
 
 :ref:`Rect2<class_Rect2>` **get_rect**\ (\ ) |const| :ref:`🔗<class_Control_method_get_rect>`
 
-Returns the position and size of the control in the coordinate system of the containing node. See :ref:`position<class_Control_property_position>`, :ref:`scale<class_Control_property_scale>` and :ref:`size<class_Control_property_size>`.
+Renvoie la position et la taille du contrôle dans le système de coordonnées du nœud le contenant. Voir :ref:`position<class_Control_property_position>`, :ref:`scale<class_Control_property_scale>` et :ref:`size<class_Control_property_size>`.
 
-\ **Note:** If :ref:`rotation<class_Control_property_rotation>` is not the default rotation, the resulting size is not meaningful.
+\ **Note :** Si :ref:`rotation<class_Control_property_rotation>` n'est pas la rotation par défaut, la taille résultante n'est pas significative.
 
-\ **Note:** Setting :ref:`Viewport.gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>` to ``true`` can lead to rounding inaccuracies between the displayed control and the returned :ref:`Rect2<class_Rect2>`.
+\ **Note :** Définir :ref:`Viewport.gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>` à ``true`` peut conduire à des erreurs d'arrondi entre le contrôle affiché et le :ref:`Rect2<class_Rect2>` renvoyé.
 
 .. rst-class:: classref-item-separator
 
@@ -2995,17 +2995,17 @@ Returns the position and size of the control in the coordinate system of the con
 
 :ref:`Vector2<class_Vector2>` **get_screen_position**\ (\ ) |const| :ref:`🔗<class_Control_method_get_screen_position>`
 
-Returns the position of this **Control** in global screen coordinates (i.e. taking window position into account). Mostly useful for editor plugins.
+Renvoie la position de ce **Control** dans les coordonnées globales de l'écran (c.-à-d. en tenant compte de la position de la fenêtre). Généralement utile pour les plugins éditeur.
 
-Equals to :ref:`global_position<class_Control_property_global_position>` if the window is embedded (see :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
+Égal à :ref:`global_position<class_Control_property_global_position>` si la fenêtre est intégrée (voir :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
 
-\ **Example:** Show a popup at the mouse position:
+\ **Exemple :** Afficher une popup à la position de la souris :
 
 ::
 
-    popup_menu.position = get_screen_position() + get_local_mouse_position()
-    popup_menu.reset_size()
-    popup_menu.popup()
+    menu_popup.position = get_screen_position() + get_local_mouse_position()
+    menu_popup.reset_size()
+    menu_popup.popup()
 
 .. rst-class:: classref-item-separator
 
@@ -3017,9 +3017,9 @@ Equals to :ref:`global_position<class_Control_property_global_position>` if the 
 
 :ref:`Color<class_Color>` **get_theme_color**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_get_theme_color>`
 
-Returns a :ref:`Color<class_Color>` from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a color item with the specified ``name`` and ``theme_type``. If ``theme_type`` is omitted the class name of the current control is used as the type, or :ref:`theme_type_variation<class_Control_property_theme_type_variation>` if it is defined. If the type is a class name its parent classes are also checked, in order of inheritance. If the type is a variation its base types are checked, in order of dependency, then the control's class name and its parent classes are checked.
+Renvoie une :ref:`Color<class_Color>` du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a un élément de couleur avec le nom ``name`` et le type ``theme_type`` spécifiés. Si ``theme_type`` n'est pas précisé, le nom de classe du contrôle actuel sera utilisé pour le type, ou :ref:`theme_type_variation<class_Control_property_theme_type_variation>` si défini. Si le type est un nom de classe, ses classes parentes sont également testées, par ordre d'héritage. Si le type est une variation, ses types de bases sont vérifiés, dans l'ordre des dépendances, et enfin le nom de la classe du contrôle et ses classes parentes sont vérifiées.
 
-For the current control its local overrides are considered first (see :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>`), then its assigned :ref:`theme<class_Control_property_theme>`. After the current control, each parent control and its assigned :ref:`theme<class_Control_property_theme>` are considered; controls without a :ref:`theme<class_Control_property_theme>` assigned are skipped. If no matching :ref:`Theme<class_Theme>` is found in the tree, the custom project :ref:`Theme<class_Theme>` (see :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`) and the default :ref:`Theme<class_Theme>` are used (see :ref:`ThemeDB<class_ThemeDB>`).
+Pour le contrôle actuel, ses redéfinitions locales sont considérées en premier (voir :ref:`add_theme_color_override()<class_Control_method_add_theme_color_override>`), puis son :ref:`theme<class_Control_property_theme>` assigné. Après le contrôle actuel, chaque contrôle parent et son :ref:`theme<class_Control_property_theme>` assigné seront pris en considération, les contrôles sans de :ref:`theme<class_Control_property_theme>` assigné sont ignorés. Si aucune correspondance de :ref:`Theme<class_Theme>` n'est trouvée dans l'arborescence, le :ref:`Theme<class_Theme>` personnalisé du projet (voir :ref:`ProjectSettings.gui/theme/custom<class_ProjectSettings_property_gui/theme/custom>`) et le :ref:`Theme<class_Theme>` par défaut seront utilisés (voir :ref:`ThemeDB<class_ThemeDB>`).
 
 
 .. tabs::
@@ -3027,18 +3027,18 @@ For the current control its local overrides are considered first (see :ref:`add_
  .. code-tab:: gdscript
 
     func _ready():
-        # Get the font color defined for the current Control's class, if it exists.
+        # Obtenir la couleur de police définie pour la classe du Control actuel, si elle existe.
         modulate = get_theme_color("font_color")
-        # Get the font color defined for the Button class.
+        # Obtenir la couleur de police définie pour la classe Button.
         modulate = get_theme_color("font_color", "Button")
 
  .. code-tab:: csharp
 
     public override void _Ready()
     {
-        // Get the font color defined for the current Control's class, if it exists.
+        // Obtenir la couleur de police définie pour la classe du Control actuel, si elle existe.
         Modulate = GetThemeColor("font_color");
-        // Get the font color defined for the Button class.
+        // Obtenir la couleur de police définie pour la classe Button.
         Modulate = GetThemeColor("font_color", "Button");
     }
 
@@ -3068,9 +3068,9 @@ Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de
 
 :ref:`float<class_float>` **get_theme_default_base_scale**\ (\ ) |const| :ref:`🔗<class_Control_method_get_theme_default_base_scale>`
 
-Returns the default base scale value from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>` value.
+Renvoie la valeur d'échelle de base par défaut du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a une valeur :ref:`Theme.default_base_scale<class_Theme_property_default_base_scale>` valide.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -3082,9 +3082,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`Font<class_Font>` **get_theme_default_font**\ (\ ) |const| :ref:`🔗<class_Control_method_get_theme_default_font>`
 
-Returns the default font from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_font<class_Theme_property_default_font>` value.
+Renvoie la police par défaut du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a une valeur :ref:`Theme.default_font<class_Theme_property_default_font>` valide.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -3096,9 +3096,9 @@ See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
 
 :ref:`int<class_int>` **get_theme_default_font_size**\ (\ ) |const| :ref:`🔗<class_Control_method_get_theme_default_font_size>`
 
-Returns the default font size value from the first matching :ref:`Theme<class_Theme>` in the tree if that :ref:`Theme<class_Theme>` has a valid :ref:`Theme.default_font_size<class_Theme_property_default_font_size>` value.
+Renvoie la taille de police par défaut du premier :ref:`Theme<class_Theme>` correspondant dans l'arborescence si ce :ref:`Theme<class_Theme>` a une valeur :ref:`Theme.default_font_size<class_Theme_property_default_font_size>` valide.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -3166,11 +3166,11 @@ Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de
 
 :ref:`String<class_String>` **get_tooltip**\ (\ at_position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) |const| :ref:`🔗<class_Control_method_get_tooltip>`
 
-Returns the tooltip text for the position ``at_position`` in control's local coordinates, which will typically appear when the cursor is resting over this control. By default, it returns :ref:`tooltip_text<class_Control_property_tooltip_text>`.
+Renvoie le texte d'info-bulle pour la position ``at_position`` dans les coordonnées locales du contrôle, qui apparaîtra généralement lorsque le curseur reste sur ce contrôle. Par défaut, cela renvoie :ref:`tooltip_text<class_Control_property_tooltip_text>`.
 
-This method can be overridden to customize its behavior. See :ref:`_get_tooltip()<class_Control_private_method__get_tooltip>`.
+Cette méthode peut être redéfinie pour personnaliser son comportement. Voir :ref:`_get_tooltip()<class_Control_private_method__get_tooltip>`.
 
-\ **Note:** If this method returns an empty :ref:`String<class_String>` and :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` is not overridden, no tooltip is displayed.
+\ **Not e:** Si cette méthode renvoie une :ref:`String<class_String>` vide et :ref:`_make_custom_tooltip()<class_Control_private_method__make_custom_tooltip>` n'est pas redéfinie, aucune info-bulle n'est affichée.
 
 .. rst-class:: classref-item-separator
 
@@ -3211,9 +3211,9 @@ Crée un :ref:`InputEventMouseButton<class_InputEventMouseButton>` qui tente de 
 
 |void| **grab_focus**\ (\ ) :ref:`🔗<class_Control_method_grab_focus>`
 
-Steal the focus from another control and become the focused control (see :ref:`focus_mode<class_Control_property_focus_mode>`).
+Vole le focus d'un autre contrôle et devient le contrôle ayant le focus (voir :ref:`focus_mode<class_Control_property_focus_mode>`).
 
-\ **Note:** Using this method together with :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>` makes it more reliable, especially when called inside :ref:`Node._ready()<class_Node_private_method__ready>`.
+\ **Note :** Utiliser cette méthode avec :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>` la rend plus fiable, surtout lorsqu'elle est appelée à l'intérieur de :ref:`Node._ready()<class_Node_private_method__ready>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3349,9 +3349,9 @@ Voir :ref:`add_theme_font_size_override()<class_Control_method_add_theme_font_si
 
 :ref:`bool<class_bool>` **has_theme_icon**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_icon>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has an icon item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il existe un :ref:`Theme<class_Theme>` correspondant dans l’arborescence qui a un élément d'icône nommé ``name`` et de type de thème ``theme_type`` spécifiés.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -3377,9 +3377,9 @@ Voir :ref:`add_theme_icon_override()<class_Control_method_add_theme_icon_overrid
 
 :ref:`bool<class_bool>` **has_theme_stylebox**\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const| :ref:`🔗<class_Control_method_has_theme_stylebox>`
 
-Returns ``true`` if there is a matching :ref:`Theme<class_Theme>` in the tree that has a stylebox item with the specified ``name`` and ``theme_type``.
+Renvoie ``true`` s'il existe un :ref:`Theme<class_Theme>` correspondant dans l’arborescence qui a un élément de stylebox nommé ``name`` et de type de thème ``theme_type`` spécifiés.
 
-See :ref:`get_theme_color()<class_Control_method_get_theme_color>` for details.
+Voir :ref:`get_theme_color()<class_Control_method_get_theme_color>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -3419,7 +3419,7 @@ Généralement utilisé avec :ref:`Node.NOTIFICATION_DRAG_END<class_Node_constan
 
 :ref:`bool<class_bool>` **is_layout_rtl**\ (\ ) |const| :ref:`🔗<class_Control_method_is_layout_rtl>`
 
-Returns ``true`` if the layout is right-to-left. See also :ref:`layout_direction<class_Control_property_layout_direction>`.
+Renvoie ``true`` si la mise en page est de droite à gauche. Voir aussi :ref:`layout_direction<class_Control_property_layout_direction>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3431,7 +3431,7 @@ Returns ``true`` if the layout is right-to-left. See also :ref:`layout_direction
 
 |void| **release_focus**\ (\ ) :ref:`🔗<class_Control_method_release_focus>`
 
-Give up the focus. No other control will be able to receive input.
+Relâche le focus. Aucun autre contrôle ne pourra recevoir d'entrées.
 
 .. rst-class:: classref-item-separator
 
@@ -3527,11 +3527,11 @@ Réinitialise la taille à :ref:`get_combined_minimum_size()<class_Control_metho
 
 |void| **set_anchor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, anchor\: :ref:`float<class_float>`, keep_offset\: :ref:`bool<class_bool>` = false, push_opposite_anchor\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_Control_method_set_anchor>`
 
-Sets the anchor for the specified :ref:`Side<enum_@GlobalScope_Side>` to ``anchor``. A setter method for :ref:`anchor_bottom<class_Control_property_anchor_bottom>`, :ref:`anchor_left<class_Control_property_anchor_left>`, :ref:`anchor_right<class_Control_property_anchor_right>` and :ref:`anchor_top<class_Control_property_anchor_top>`.
+Définit l'ancre pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié à ``anchor``. Une méthode setter pour :ref:`anchor_bottom<class_Control_property_anchor_bottom>`, :ref:`anchor_left<class_Control_property_anchor_left>`, :ref:`anchor_right<class_Control_property_anchor_right>` et :ref:`anchor_top<class_Control_property_anchor_top>`.
 
-If ``keep_offset`` is ``true``, offsets aren't updated after this operation.
+Si ``keep_offset`` vaut ``true``, les décalages ne seront pas mises à jour après cette opération.
 
-If ``push_opposite_anchor`` is ``true`` and the opposite anchor overlaps this anchor, the opposite one will have its value overridden. For example, when setting left anchor to 1 and the right anchor has value of 0.5, the right anchor will also get value of 1. If ``push_opposite_anchor`` was ``false``, the left anchor would get value 0.5.
+Si ``push_opposite_anchor`` vaut ``true`` et que l'ancre opposée recouvre cette ancre, l'ancre opposée aura sa valeur redéfinie. Par exemple, lorsque l'ancre gauche est fixée à 1 et que l'ancre droite a une valeur de 0.5, l'ancre droite aura également une valeur de 1. Si ``push_opposite_anchor`` valait ``false``, l'ancre gauche aurait alors une valeur de 0.5.
 
 .. rst-class:: classref-item-separator
 
@@ -3543,7 +3543,7 @@ If ``push_opposite_anchor`` is ``true`` and the opposite anchor overlaps this an
 
 |void| **set_anchor_and_offset**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, anchor\: :ref:`float<class_float>`, offset\: :ref:`float<class_float>`, push_opposite_anchor\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_set_anchor_and_offset>`
 
-Works the same as :ref:`set_anchor()<class_Control_method_set_anchor>`, but instead of ``keep_offset`` argument and automatic update of offset, it allows to set the offset yourself (see :ref:`set_offset()<class_Control_method_set_offset>`).
+Fonctionne comme :ref:`set_anchor()<class_Control_method_set_anchor>`, mais au lieu de l'argument ``keep_offset`` et de la mise à jour automatique du décalage, elle vous permet de définir le décalage vous-même (voir :ref:`set_offset()<class_Control_method_set_offset>`).
 
 .. rst-class:: classref-item-separator
 
@@ -3593,15 +3593,15 @@ Définit à la fois :ref:`offset_left<class_Control_property_offset_left>` et :r
 
 |void| **set_drag_forwarding**\ (\ drag_func\: :ref:`Callable<class_Callable>`, can_drop_func\: :ref:`Callable<class_Callable>`, drop_func\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_Control_method_set_drag_forwarding>`
 
-Sets the given callables to be used instead of the control's own drag-and-drop virtual methods. If a callable is empty, its respective virtual method is used as normal.
+Définit les callables donnés à être utilisés au lieu des propres méthodes virtuelles de glisser-déposer du contrôle. Si un callable est vide, sa méthode virtuelle respective est utilisée comme habituellement.
 
-The arguments for each callable should be exactly the same as their respective virtual methods, which would be:
+Les arguments pour chaque appelable devraient être exactement les mêmes que leurs méthodes virtuelles respectives, ce qui serait :
 
-- ``drag_func`` corresponds to :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` and requires a :ref:`Vector2<class_Vector2>`;
+- ``drag_func`` correspond à :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>` et nécessite un :ref:`Vector2<class_Vector2>`;
 
-- ``can_drop_func`` corresponds to :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` and requires both a :ref:`Vector2<class_Vector2>` and a :ref:`Variant<class_Variant>`;
+- ``can_drop_func`` correspond à :ref:`_can_drop_data()<class_Control_private_method__can_drop_data>` et nécessite à la fois un :ref:`Vector2<class_Vector2>` et un :ref:`Variant<class_Variant>`;
 
-- ``drop_func`` corresponds to :ref:`_drop_data()<class_Control_private_method__drop_data>` and requires both a :ref:`Vector2<class_Vector2>` and a :ref:`Variant<class_Variant>`.
+- ``drop_func`` correspond à :ref:`_drop_data()<class_Control_private_method__drop_data>` et nécessite à la fois un :ref:`Vector2<class_Vector2>` et un :ref:`Variant<class_Variant>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3613,36 +3613,36 @@ The arguments for each callable should be exactly the same as their respective v
 
 |void| **set_drag_preview**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_Control_method_set_drag_preview>`
 
-Shows the given control at the mouse pointer. A good time to call this method is in :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>`. The control must not be in the scene tree. You should not free the control, and you should not keep a reference to the control beyond the duration of the drag. It will be deleted automatically after the drag has ended.
+Affiche le contrôle donné comme curseur de la souris. Un bon moment pour appeler cette méthode est dans :ref:`_get_drag_data()<class_Control_private_method__get_drag_data>`. Le contrôle doit ne pas être dans l'arborescence de la scène. Vous ne devriez pas libérer le contrôle, et vous ne devriez pas garder une référence du contrôle en-dehors de la durée du glissement. Il sera supprimé automatiquement après le glissement soit terminé.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    @export var color = Color(1, 0, 0, 1)
+    export (Color, RGBA) var couleur = Color(1, 0, 0, 1)
 
-    func _get_drag_data(position):
-        # Use a control that is not in the tree
+    func get_drag_data(position):
+        # Utiliser un contrôle qui n'est pas dans l'arborescence
         var cpb = ColorPickerButton.new()
-        cpb.color = color
-        cpb.size = Vector2(50, 50)
+        cpb.color = couleur
+        cpb.rect_size = Vector2(50, 50)
         set_drag_preview(cpb)
-        return color
+        return couleur
 
  .. code-tab:: csharp
 
     [Export]
-    private Color _color = new Color(1, 0, 0, 1);
+    private Color _couleur = new Color(1, 0, 0, 1);
 
     public override Variant _GetDragData(Vector2 atPosition)
     {
-        // Use a control that is not in the tree
+        // Utiliser un contrôle qui n'est pas dans l'arborescence
         var cpb = new ColorPickerButton();
-        cpb.Color = _color;
+        cpb.Color = _couleur;
         cpb.Size = new Vector2(50, 50);
         SetDragPreview(cpb);
-        return _color;
+        return _couleur;
     }
 
 
@@ -3669,7 +3669,7 @@ Définit à la fois :ref:`offset_right<class_Control_property_offset_right>` et 
 
 |void| **set_focus_neighbor**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, neighbor\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_Control_method_set_focus_neighbor>`
 
-Sets the focus neighbor for the specified :ref:`Side<enum_@GlobalScope_Side>` to the **Control** at ``neighbor`` node path. A setter method for :ref:`focus_neighbor_bottom<class_Control_property_focus_neighbor_bottom>`, :ref:`focus_neighbor_left<class_Control_property_focus_neighbor_left>`, :ref:`focus_neighbor_right<class_Control_property_focus_neighbor_right>` and :ref:`focus_neighbor_top<class_Control_property_focus_neighbor_top>`.
+Définit le voisin de focus pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié au **Control** au chemin de nœud ``neighbor``. Une méthode setter pour :ref:`focus_neighbor_bottom<class_Control_property_focus_neighbor_bottom>`, :ref:`focus_neighbor_left<class_Control_property_focus_neighbor_left>`, :ref:`focus_neighbor_right<class_Control_property_focus_neighbor_right>` et :ref:`focus_neighbor_top<class_Control_property_focus_neighbor_top>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3695,7 +3695,7 @@ Si ``keep_offsets`` vaut ``true``, les ancrages de contrôle seront changés à 
 
 |void| **set_offset**\ (\ side\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Control_method_set_offset>`
 
-Sets the offset for the specified :ref:`Side<enum_@GlobalScope_Side>` to ``offset``. A setter method for :ref:`offset_bottom<class_Control_property_offset_bottom>`, :ref:`offset_left<class_Control_property_offset_left>`, :ref:`offset_right<class_Control_property_offset_right>` and :ref:`offset_top<class_Control_property_offset_top>`.
+Définit le décalage pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié à ``offset``. Une méthode setter pour :ref:`offset_bottom<class_Control_property_offset_bottom>`, :ref:`offset_left<class_Control_property_offset_left>`, :ref:`offset_right<class_Control_property_offset_right>` et :ref:`offset_top<class_Control_property_offset_top>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3707,11 +3707,11 @@ Sets the offset for the specified :ref:`Side<enum_@GlobalScope_Side>` to ``offse
 
 |void| **set_offsets_preset**\ (\ preset\: :ref:`LayoutPreset<enum_Control_LayoutPreset>`, resize_mode\: :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` = 0, margin\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Control_method_set_offsets_preset>`
 
-Sets the offsets to a ``preset`` from :ref:`LayoutPreset<enum_Control_LayoutPreset>` enum. This is the code equivalent to using the Layout menu in the 2D editor.
+Définit les décalages à un préréglage ``preset`` de l'énumeration :ref:`LayoutPreset<enum_Control_LayoutPreset>`. Il s'agit de l'équivalent en code de l'utilisation du menu Disposition dans l'éditeur 2D.
 
-Use parameter ``resize_mode`` with constants from :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` to better determine the resulting size of the **Control**. Constant size will be ignored if used with presets that change size, e.g. :ref:`PRESET_LEFT_WIDE<class_Control_constant_PRESET_LEFT_WIDE>`.
+Utilisez le paramètre ``resize_mode`` avec des constantes de :ref:`LayoutPresetMode<enum_Control_LayoutPresetMode>` pour mieux déterminer la taille résultante du **Control**. La taille constante sera ignorée si elle est utilisée avec des préréglages qui changent la taille, par exemple :ref:`PRESET_LEFT_WIDE<class_Control_constant_PRESET_LEFT_WIDE>`.
 
-Use parameter ``margin`` to determine the gap between the **Control** and the edges.
+Utilisez le paramètre ``margin`` pour déterminer l'écart entre le **Control** et les bords.
 
 .. rst-class:: classref-item-separator
 
@@ -3763,9 +3763,9 @@ Invalide le cache de taille de ce nœud et des nœuds parents jusqu'au niveau du
 
 |void| **warp_mouse**\ (\ position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Control_method_warp_mouse>`
 
-Moves the mouse cursor to ``position``, relative to :ref:`position<class_Control_property_position>` of this **Control**.
+Déplace le curseur de la souris vers ``position``, relative à :ref:`position<class_Control_property_position>` de ce **Control**.
 
-\ **Note:** :ref:`warp_mouse()<class_Control_method_warp_mouse>` is only supported on Windows, macOS and Linux. It has no effect on Android, iOS and Web.
+\ **Note :** :ref:`warp_mouse()<class_Control_method_warp_mouse>` n'est supportée que sous Windows, macOS et Linux. Elle n'a aucun effet sur Android, iOS et Web.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

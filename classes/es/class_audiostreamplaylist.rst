@@ -148,7 +148,7 @@ Descripciones de Métodos
 
 :ref:`float<class_float>` **get_bpm**\ (\ ) |const| :ref:`🔗<class_AudioStreamPlaylist_method_get_bpm>`
 
-Returns the BPM of the playlist, which can vary depending on the clip being played.
+Devuelve el BPM de la lista de reproducción, que puede variar dependiendo del clip que se esté reproduciendo.
 
 .. rst-class:: classref-item-separator
 

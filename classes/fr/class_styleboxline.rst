@@ -7,14 +7,14 @@ StyleBoxLine
 
 **Hérite de :** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A :ref:`StyleBox<class_StyleBox>` that displays a single line of a given color and thickness.
+Une :ref:`StyleBox<class_StyleBox>` qui affiche une seule ligne de couleur et d'épaisseur données.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A :ref:`StyleBox<class_StyleBox>` that displays a single line of a given color and thickness. The line can be either horizontal or vertical. Useful for separators.
+Une :ref:`StyleBox<class_StyleBox>` qui affiche une seule ligne de couleur et d'épaisseur données. Cette ligne peut être verticale ou horizontale. Utile pour des séparateurs.
 
 .. rst-class:: classref-reftable-group
 
@@ -73,7 +73,7 @@ La couleur de la ligne.
 - |void| **set_grow_begin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_grow_begin**\ (\ )
 
-The number of pixels the line will extend before the **StyleBoxLine**'s bounds. If set to a negative value, the line will begin inside the **StyleBoxLine**'s bounds.
+Le nombre de pixels où la ligne s'étendra avant les limites de la **StyleBoxLine**. Si défini à une valeur négative, la ligne commencera dans les limites de la **StyleBoxLine**.
 
 .. rst-class:: classref-item-separator
 
@@ -90,7 +90,7 @@ The number of pixels the line will extend before the **StyleBoxLine**'s bounds. 
 - |void| **set_grow_end**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_grow_end**\ (\ )
 
-The number of pixels the line will extend past the **StyleBoxLine**'s bounds. If set to a negative value, the line will end inside the **StyleBoxLine**'s bounds.
+Le nombre de pixels où la ligne s'étendra après les limites de la **StyleBoxLine**. Si défini à une valeur négative, la ligne finira dans les limites de la **StyleBoxLine**.
 
 .. rst-class:: classref-item-separator
 

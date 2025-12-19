@@ -7,14 +7,14 @@ ColorPalette
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A resource class for managing a palette of colors, which can be loaded and saved using :ref:`ColorPicker<class_ColorPicker>`.
+Una clase de recurso para gestionar una paleta de colores, que puede ser cargada y guardada usando :ref:`ColorPicker<class_ColorPicker>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The **ColorPalette** resource is designed to store and manage a collection of colors. This resource is useful in scenarios where a predefined set of colors is required, such as for creating themes, designing user interfaces, or managing game assets. The built-in :ref:`ColorPicker<class_ColorPicker>` control can also make use of **ColorPalette** without additional code.
+El recurso **ColorPalette** está diseñado para almacenar y gestionar una colección de colores. Este recurso es útil en escenarios donde se requiere un conjunto de colores predefinido, como para crear temas, diseñar interfaces de usuario o gestionar recursos del juego. El control :ref:`ColorPicker<class_ColorPicker>` incorporado también puede hacer uso de **ColorPalette** sin código adicional.
 
 .. rst-class:: classref-reftable-group
 

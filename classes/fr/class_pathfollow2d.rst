@@ -14,9 +14,9 @@ PathFollow2D
 Description
 -----------
 
-This node takes its parent :ref:`Path2D<class_Path2D>`, and returns the coordinates of a point within it, given a distance from the first vertex.
+Ce nœud prend son parent :ref:`Path2D<class_Path2D>`, et renvoie les coordonnées d'un point à l'intérieur, selon une distance par rapport au premier sommet.
 
-It is useful for making other nodes follow a path, without coding the movement pattern. For that, the nodes must be children of this node. The descendant nodes will then move accordingly when setting the :ref:`progress<class_PathFollow2D_property_progress>` in this node.
+Il est utile pour faire que d'autres nœuds suivent un chemin, sans coder le motif du mouvement. Pour cela, les nœuds doivent être des enfants de ce nœud. Les nœuds descendants se déplaceront alors en conséquence lorsque :ref:`progress<class_PathFollow2D_property_progress>` est défini.
 
 .. rst-class:: classref-reftable-group
 
@@ -62,11 +62,11 @@ Descriptions des propriétés
 - |void| **set_cubic_interpolation**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_cubic_interpolation**\ (\ )
 
-If ``true``, the position between two cached points is interpolated cubically, and linearly otherwise.
+Si ``true``, la position entre deux points mis en cache est interpolée de façon cubique, et linéairement sinon.
 
-The points along the :ref:`Curve2D<class_Curve2D>` of the :ref:`Path2D<class_Path2D>` are precomputed before use, for faster calculations. The point at the requested offset is then calculated interpolating between two adjacent cached points. This may present a problem if the curve makes sharp turns, as the cached points may not follow the curve closely enough.
+Les points le long de la :ref:`Curve2D<class_Curve2D>` du :ref:`Path2D<class_Path2D>` sont pré-calculés avant utilisation, pour des calculs plus rapides. Le point au décalage demandé est alors calculé en interpolant entre deux points du cache adjacents. Cela peut présenter un problème si la courbe fait des virages aigus, car les points mis en cache peuvent ne pas suivre la courbe d'assez près.
 
-There are two answers to this problem: either increase the number of cached points and increase memory consumption, or make a cubic interpolation between two points at the cost of (slightly) slower calculations.
+Il y a deux réponses à ce problème : soit augmenter le nombre de points mis en cache et augmenter la consommation de mémoire, soit faire une interpolation cubique entre deux points au coût de calculs (légèrement) plus lents.
 
 .. rst-class:: classref-item-separator
 
@@ -117,7 +117,7 @@ If ``true``, any offset outside the path's length will wrap around, instead of s
 - |void| **set_progress**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_progress**\ (\ )
 
-The distance along the path, in pixels. Changing this value sets this node's position to a point within the path.
+La distance le long du chemin, en pixels. Changer cette valeur fixe la position de ce nœud à celle d'un point sur le chemin.
 
 .. rst-class:: classref-item-separator
 
@@ -134,9 +134,9 @@ The distance along the path, in pixels. Changing this value sets this node's pos
 - |void| **set_progress_ratio**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_progress_ratio**\ (\ )
 
-The distance along the path as a number in the range 0.0 (for the first vertex) to 1.0 (for the last). This is just another way of expressing the progress within the path, as the offset supplied is multiplied internally by the path's length.
+La distance le long du chemin en tant que nombre dans l'intervalle 0.0 (pour le premier sommet) à 1.0 (pour le dernier). Il s'agit juste d'une autre façon d'exprimer la progression sur le chemin, car le décalage fourni est multiplié en interne par la longueur du chemin.
 
-It can be set or get only if the **PathFollow2D** is the child of a :ref:`Path2D<class_Path2D>` which is part of the scene tree, and that this :ref:`Path2D<class_Path2D>` has a :ref:`Curve2D<class_Curve2D>` with a non-zero length. Otherwise, trying to set this field will print an error, and getting this field will return ``0.0``.
+Elle peut être définie ou obtenue seulement si le **PathFollow2D** est l'enfant d'un :ref:`Path2D<class_Path2D>` qui fait partie de l'arborescence de scène, et que ce :ref:`Path2D<class_Path2D>` a une :ref:`Curve2D<class_Curve2D>` avec une longueur non nulle. Sinon, essayer de définir ce champ affichera une erreur, et obtenir ce champ renverra ``0.0``.
 
 .. rst-class:: classref-item-separator
 

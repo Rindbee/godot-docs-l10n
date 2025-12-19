@@ -287,7 +287,7 @@ Il buffer grezzo di rugosità e di normale è memorizzato in un formato ottimizz
 - |void| **set_needs_separate_specular**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_needs_separate_specular**\ (\ )
 
-If ``true`` this triggers specular data being rendered to a separate buffer and combined after effects have been applied, only applicable for the Forward+ renderer.
+Se ``true`` questo attiva il rendering dei dati speculari in un buffer separato e li combina dopo che gli effetti siano applicati, applicabile solo per il renderer Forward+.
 
 .. rst-class:: classref-section-separator
 

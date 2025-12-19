@@ -7,7 +7,7 @@ GLTFObjectModelProperty
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Describes how to access a property as defined in the glTF object model.
+Describe cómo acceder a una propiedad tal como se define en el modelo de objeto glTF.
 
 .. rst-class:: classref-introduction-group
 
@@ -324,7 +324,7 @@ Wrapper de alto nivel sobre :ref:`append_node_path()<class_GLTFObjectModelProper
 
 :ref:`GLTFAccessorType<enum_GLTFAccessor_GLTFAccessorType>` **get_accessor_type**\ (\ ) |const| :ref:`🔗<class_GLTFObjectModelProperty_method_get_accessor_type>`
 
-The GLTF accessor type associated with this property's :ref:`object_model_type<class_GLTFObjectModelProperty_property_object_model_type>`. See :ref:`GLTFAccessor.accessor_type<class_GLTFAccessor_property_accessor_type>` for possible values, and see :ref:`GLTFObjectModelType<enum_GLTFObjectModelProperty_GLTFObjectModelType>` for how the object model type maps to accessor types.
+El tipo de accesor GLTF asociado con el :ref:`object_model_type<class_GLTFObjectModelProperty_property_object_model_type>` de esta propiedad. Véase :ref:`GLTFAccessor.accessor_type<class_GLTFAccessor_property_accessor_type>` para ver los valores posibles, y véase :ref:`GLTFObjectModelType<enum_GLTFObjectModelProperty_GLTFObjectModelType>` para ver cómo el tipo de modelo de objeto se asigna a los tipos de accesor.
 
 .. rst-class:: classref-item-separator
 
@@ -336,7 +336,7 @@ The GLTF accessor type associated with this property's :ref:`object_model_type<c
 
 :ref:`bool<class_bool>` **has_json_pointers**\ (\ ) |const| :ref:`🔗<class_GLTFObjectModelProperty_method_has_json_pointers>`
 
-Returns ``true`` if :ref:`json_pointers<class_GLTFObjectModelProperty_property_json_pointers>` is not empty. This is used during export to determine if a **GLTFObjectModelProperty** can handle converting a Godot property to a glTF object model property.
+Devuelve ``true`` si :ref:`json_pointers<class_GLTFObjectModelProperty_property_json_pointers>` no está vacío. Esto se utiliza durante la exportación para determinar si una **GLTFObjectModelProperty** puede manejar la conversión de una propiedad de Godot a una propiedad de modelo de objeto glTF.
 
 .. rst-class:: classref-item-separator
 

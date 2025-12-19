@@ -275,7 +275,7 @@ The callable must accept a message string and a data array as argument. The call
 
 |void| **register_profiler**\ (\ name\: :ref:`StringName<class_StringName>`, profiler\: :ref:`EngineProfiler<class_EngineProfiler>`\ ) :ref:`🔗<class_EngineDebugger_method_register_profiler>`
 
-Registers a profiler with the given ``name``. See :ref:`EngineProfiler<class_EngineProfiler>` for more information.
+Registra un perfilador con el ``name`` dado. Véase :ref:`EngineProfiler<class_EngineProfiler>` para obtener más información.
 
 .. rst-class:: classref-item-separator
 
@@ -311,7 +311,7 @@ Starts a debug break in script execution, optionally specifying whether the prog
 
 |void| **send_message**\ (\ message\: :ref:`String<class_String>`, data\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_EngineDebugger_method_send_message>`
 
-Sends a message with given ``message`` and ``data`` array.
+Envía un mensaje con el ``message`` dado y el array ``data``.
 
 .. rst-class:: classref-item-separator
 

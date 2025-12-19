@@ -857,7 +857,7 @@ Si ``true``, les particules utiliseront la même graine pour chaque simulation e
 
 La :ref:`AABB<class_AABB>` qui détermine la région du nœud qui doit être visible à l'écran pour que le système de particules soit actif. :ref:`GeometryInstance3D.extra_cull_margin<class_GeometryInstance3D_property_extra_cull_margin>` est ajouté sur chaque axe de l'AABB. Les attractions et collisions de particules ne se produiront que dans cette zone.
 
-Agrandissez la boîte si les particules apparaissent/disparaissent soudainement lorsque le noeud entre/sort de l'écran. La :ref:`AABB<class_AABB>` peut être agrandie par code ou avec l'outil de l'éditeur **Particules → Générer AABB**.
+Agrandissez la boîte si les particules apparaissent/disparaissent soudainement lorsque le nœud entre/sort de l'écran. La :ref:`AABB<class_AABB>` peut être agrandie par code ou avec l'outil de l'éditeur **Particules → Générer AABB**.
 
 \ **Note :** :ref:`visibility_aabb<class_GPUParticles3D_property_visibility_aabb>` est redéfini par :ref:`GeometryInstance3D.custom_aabb<class_GeometryInstance3D_property_custom_aabb>` si cette propriété est définie à une valeur non par défaut.
 

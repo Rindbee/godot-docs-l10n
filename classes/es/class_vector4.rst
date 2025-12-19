@@ -1004,7 +1004,7 @@ Accede a los componentes del vector usando su ``index``. ``v[0]`` es equivalente
 
 :ref:`Vector4<class_Vector4>` **operator unary+**\ (\ ) :ref:`🔗<class_Vector4_operator_unplus>`
 
-Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, but sometimes it can make your code more readable.
+Devuelve el mismo valor como si el ``+`` no estuviera ahí. El ``+`` unario no hace nada, pero a veces puede hacer que tu código sea más legible.
 
 .. rst-class:: classref-item-separator
 

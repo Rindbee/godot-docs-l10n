@@ -556,7 +556,7 @@ Renvoie la passerelle par défaut. Il s'agit du premier :ref:`UPNPDevice<class_U
 
 :ref:`String<class_String>` **query_external_address**\ (\ ) |const| :ref:`🔗<class_UPNP_method_query_external_address>`
 
-Renvoie l'adresse :ref:`IP<class_IP>` externe de la passerelle par défaut (voir :ref:`get_gateway()<class_UPNP_method_get_gateway>`) en tant que chaîne. Retourne une chaîne vide en cas d'erreur.
+Renvoie l'adresse :ref:`IP<class_IP>` externe de la passerelle par défaut (voir :ref:`get_gateway()<class_UPNP_method_get_gateway>`) en tant que chaîne. Renvoie une chaîne vide en cas d'erreur.
 
 .. rst-class:: classref-item-separator
 

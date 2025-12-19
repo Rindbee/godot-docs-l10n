@@ -14,11 +14,11 @@ Interpole une propriété d'un :ref:`Object<class_Object>` dans le temps.
 Description
 -----------
 
-**PropertyTweener** is used to interpolate a property in an object. See :ref:`Tween.tween_property()<class_Tween_method_tween_property>` for more usage information.
+**PropertyTweener** est utilisé pour interpoler une propriété dans un objet. Voir :ref:`Tween.tween_property()<class_Tween_method_tween_property>` pour plus d'informations.
 
-The tweener will finish automatically if the target object is freed.
+Le tweener se finira automatiquement si l'objet cible est libéré.
 
-\ **Note:** :ref:`Tween.tween_property()<class_Tween_method_tween_property>` is the only correct way to create **PropertyTweener**. Any **PropertyTweener** created manually will not function correctly.
+\ **Note :** :ref:`Tween.tween_property()<class_Tween_method_tween_property>` est le seul moyen correct de créer un **PropertyTweener**. Les **PropertyTweener** créés manuellement ne fonctionneront pas correctement.
 
 .. rst-class:: classref-reftable-group
 
@@ -59,9 +59,9 @@ Descriptions des méthodes
 
 :ref:`PropertyTweener<class_PropertyTweener>` **as_relative**\ (\ ) :ref:`🔗<class_PropertyTweener_method_as_relative>`
 
-When called, the final value will be used as a relative value instead.
+Quand appelée, la valeur finale sera utilisée comme une valeur relative à la place.
 
-\ **Example:** Move the node by ``100`` pixels to the right.
+\ **Exemple :** Déplacer le nœud de ``100`` pixels vers la droite.
 
 
 .. tabs::
@@ -88,9 +88,9 @@ When called, the final value will be used as a relative value instead.
 
 :ref:`PropertyTweener<class_PropertyTweener>` **from**\ (\ value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_PropertyTweener_method_from>`
 
-Sets a custom initial value to the **PropertyTweener**.
+Définit une valeur initiale personnalisée pour le **PropertyTweener**.
 
-\ **Example:** Move the node from position ``(100, 100)`` to ``(200, 100)``.
+\ **Exemple :** Déplacer le nœud de la position ``(100, 100)`` à ``(200, 100)``.
 
 
 .. tabs::
@@ -117,7 +117,7 @@ Sets a custom initial value to the **PropertyTweener**.
 
 :ref:`PropertyTweener<class_PropertyTweener>` **from_current**\ (\ ) :ref:`🔗<class_PropertyTweener_method_from_current>`
 
-Makes the **PropertyTweener** use the current property value (i.e. at the time of creating this **PropertyTweener**) as a starting point. This is equivalent of using :ref:`from()<class_PropertyTweener_method_from>` with the current value. These two calls will do the same:
+Fait que ce **PropertyTweener** utilisera la valeur de propriété actuelle (c'est-à-dire au moment de créer ce **PropertyTweener**) comme point de départ. Ceci est équivalent à l'utilisation de :ref:`from()<class_PropertyTweener_method_from>` avec la valeur actuelle. Ces deux appels sont identiques :
 
 
 .. tabs::
@@ -203,7 +203,7 @@ Définit le délai en secondes avant que le **PropertyTweener** commence son int
 
 :ref:`PropertyTweener<class_PropertyTweener>` **set_ease**\ (\ ease\: :ref:`EaseType<enum_Tween_EaseType>`\ ) :ref:`🔗<class_PropertyTweener_method_set_ease>`
 
-Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not set, the default easing is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Définit le type de comportement utilisé pour :ref:`EaseType<enum_Tween_EaseType>`. Si non défini, le comportement par défaut sera celui utilisé dans le :ref:`Tween<class_Tween>` qui contient ce Tweener.
 
 .. rst-class:: classref-item-separator
 
@@ -215,7 +215,7 @@ Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not s
 
 :ref:`PropertyTweener<class_PropertyTweener>` **set_trans**\ (\ trans\: :ref:`TransitionType<enum_Tween_TransitionType>`\ ) :ref:`🔗<class_PropertyTweener_method_set_trans>`
 
-Sets the type of used transition from :ref:`TransitionType<enum_Tween_TransitionType>`. If not set, the default transition is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Définit le type de transition utilisée pour :ref:`TransitionType<enum_Tween_TransitionType>`. Si non défini, la transition par défaut sera celle utilisée dans le :ref:`Tween<class_Tween>` qui contient ce Tweener.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

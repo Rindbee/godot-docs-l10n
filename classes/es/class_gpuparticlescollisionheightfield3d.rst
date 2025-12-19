@@ -7,22 +7,22 @@ GPUParticlesCollisionHeightField3D
 
 **Hereda:** :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A real-time heightmap-shaped 3D particle collision shape affecting :ref:`GPUParticles3D<class_GPUParticles3D>` nodes.
+Una forma de colisión de partículas 3D con forma de mapa de altura en tiempo real que afecta a los nodos :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A real-time heightmap-shaped 3D particle collision shape affecting :ref:`GPUParticles3D<class_GPUParticles3D>` nodes.
+Una forma de colisión de partículas 3D con forma de mapa de altura en tiempo real que afecta a los nodos :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
-Heightmap shapes allow for efficiently representing collisions for convex and concave objects with a single "floor" (such as terrain). This is less flexible than :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`, but it doesn't require a baking step.
+Las formas de mapa de altura permiten representar de forma eficiente las colisiones de objetos convexos y cóncavos con un solo "suelo" (como el terreno). Esto es menos flexible que :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`, pero no requiere un paso de procesado.
 
-\ **GPUParticlesCollisionHeightField3D** can also be regenerated in real-time when it is moved, when the camera moves, or even continuously. This makes **GPUParticlesCollisionHeightField3D** a good choice for weather effects such as rain and snow and games with highly dynamic geometry. However, this class is limited since heightmaps cannot represent overhangs (e.g. indoors or caves).
+\ **GPUParticlesCollisionHeightField3D** también se puede regenerar en tiempo real cuando se mueve, cuando se mueve la cámara o incluso de forma continua. Esto hace que **GPUParticlesCollisionHeightField3D** sea una buena opción para efectos climáticos como la lluvia y la nieve, y juegos con geometría muy dinámica. Sin embargo, esta clase es limitada ya que los mapas de altura no pueden representar salientes (por ejemplo, interiores o cuevas).
 
-\ **Note:** :ref:`ParticleProcessMaterial.collision_mode<class_ParticleProcessMaterial_property_collision_mode>` must be ``true`` on the :ref:`GPUParticles3D<class_GPUParticles3D>`'s process material for collision to work.
+\ **Nota:** :ref:`ParticleProcessMaterial.collision_mode<class_ParticleProcessMaterial_property_collision_mode>` debe ser `` true`` en el material de proceso del :ref:`GPUParticles3D<class_GPUParticles3D>` para que la colisión funcione.
 
-\ **Note:** Particle collision only affects :ref:`GPUParticles3D<class_GPUParticles3D>`, not :ref:`CPUParticles3D<class_CPUParticles3D>`.
+\ **Nota:** La colisión de partículas solo afecta a :ref:`GPUParticles3D<class_GPUParticles3D>`, no a :ref:`CPUParticles3D<class_CPUParticles3D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -175,9 +175,9 @@ Descripciones de Propiedades
 - |void| **set_follow_camera_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_follow_camera_enabled**\ (\ )
 
-If ``true``, the **GPUParticlesCollisionHeightField3D** will follow the current camera in global space. The **GPUParticlesCollisionHeightField3D** does not need to be a child of the :ref:`Camera3D<class_Camera3D>` node for this to work.
+Si es ``true``, el **GPUParticlesCollisionHeightField3D** seguirá la cámara actual en el espacio global. El **GPUParticlesCollisionHeightField3D** no necesita ser un hijo del nodo :ref:`Camera3D<class_Camera3D>` para que esto funcione.
 
-Following the camera has a performance cost, as it will force the heightmap to update whenever the camera moves. Consider lowering :ref:`resolution<class_GPUParticlesCollisionHeightField3D_property_resolution>` to improve performance if :ref:`follow_camera_enabled<class_GPUParticlesCollisionHeightField3D_property_follow_camera_enabled>` is ``true``.
+Seguir a la cámara tiene un coste de rendimiento, ya que obligará al mapa de altura a actualizarse cada vez que la cámara se mueva. Considera la posibilidad de reducir :ref:`resolution<class_GPUParticlesCollisionHeightField3D_property_resolution>` para mejorar el rendimiento si :ref:`follow_camera_enabled<class_GPUParticlesCollisionHeightField3D_property_follow_camera_enabled>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -266,7 +266,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **get_heightfield_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GPUParticlesCollisionHeightField3D_method_get_heightfield_mask_value>`
 
-Returns ``true`` if the specified layer of the :ref:`heightfield_mask<class_GPUParticlesCollisionHeightField3D_property_heightfield_mask>` is enabled, given a ``layer_number`` between ``1`` and ``20``, inclusive.
+Devuelve ``true`` si la capa especificada de :ref:`heightfield_mask<class_GPUParticlesCollisionHeightField3D_property_heightfield_mask>` está habilitada, dado un ``layer_number`` entre ``1`` y ``20``, inclusivo.
 
 .. rst-class:: classref-item-separator
 
@@ -278,7 +278,7 @@ Returns ``true`` if the specified layer of the :ref:`heightfield_mask<class_GPUP
 
 |void| **set_heightfield_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_GPUParticlesCollisionHeightField3D_method_set_heightfield_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`heightfield_mask<class_GPUParticlesCollisionHeightField3D_property_heightfield_mask>`, given a ``layer_number`` between ``1`` and ``20``, inclusive.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`heightfield_mask<class_GPUParticlesCollisionHeightField3D_property_heightfield_mask>`, dado un ``layer_number`` entre ``1`` y ``20``, inclusivo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

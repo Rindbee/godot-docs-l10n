@@ -442,7 +442,7 @@ Renvoie un tableau de nœuds qui ont été ajoutés comme exceptions de collisio
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SoftBody3D_method_get_collision_layer_value>`
 
-Renvoie si la couche spécifiée du :ref:`collision_layer<class_SoftBody3D_property_collision_layer>` est activée, selon un numéro de couche ``layer_number`` entre 1 et 32 donné.
+Renvoie si la couche spécifiée du :ref:`collision_layer<class_SoftBody3D_property_collision_layer>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

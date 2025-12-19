@@ -14,11 +14,11 @@ Un attracteur en forme de sphéroïde qui influence les particules des nœuds :r
 Description
 -----------
 
-A spheroid-shaped attractor that influences particles from :ref:`GPUParticles3D<class_GPUParticles3D>` nodes. Can be used to attract particles towards its origin, or to push them away from its origin.
+Un attracteur en forme de sphère qui influence les particules de nœuds :ref:`GPUParticles3D<class_GPUParticles3D>`. Peut être utilisé pour attirer des particules vers son origine, ou pour les pousser hors de son origine.
 
-Particle attractors work in real-time and can be moved, rotated and scaled during gameplay. Unlike collision shapes, non-uniform scaling of attractors is also supported.
+Les attracteurs de particules fonctionnent en temps réel et peuvent être déplacés, tournés et redimensionnés pendant le gameplay. Contrairement aux formes de collision, les attracteurs à échelle non uniformes sont également supportés.
 
-\ **Note:** Particle attractors only affect :ref:`GPUParticles3D<class_GPUParticles3D>`, not :ref:`CPUParticles3D<class_CPUParticles3D>`.
+\ **Note :** Les attracteurs de particules n'affectent que :ref:`GPUParticles3D<class_GPUParticles3D>`, pas :ref:`CPUParticles3D<class_CPUParticles3D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -52,9 +52,9 @@ Descriptions des propriétés
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-The attractor sphere's radius in 3D units.
+Le rayon de la sphère de l'attracteur en unités 3D.
 
-\ **Note:** Stretched ellipses can be obtained by using non-uniform scaling on the **GPUParticlesAttractorSphere3D** node.
+\ **Note: ** Des ellipses étirées peuvent être obtenues en utilisant une échelle non uniforme sur le nœud **GPUParticlesAttractorSphere3D**.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

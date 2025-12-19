@@ -14,25 +14,25 @@ Client de protocole de transfert hypertexte de bas niveau.
 Description
 -----------
 
-Hyper-text transfer protocol client (sometimes called "User Agent"). Used to make HTTP requests to download web content, upload files and other data or to communicate with various services, among other use cases.
+Client de protocole de transfert hypertexte (parfois appelé "User Agent"). Utilisé pour faire des requêtes HTTP pour télécharger du contenu web, téléverser des fichiers et d'autres données ou communiquer avec divers services, ou pour d'autres cas d'utilisation.
 
-See the :ref:`HTTPRequest<class_HTTPRequest>` node for a higher-level alternative.
+Voir le nœud :ref:`HTTPRequest<class_HTTPRequest>` pour une alternative de plus haut-niveau.
 
-\ **Note:** This client only needs to connect to a host once (see :ref:`connect_to_host()<class_HTTPClient_method_connect_to_host>`) to send multiple requests. Because of this, methods that take URLs usually take just the part after the host instead of the full URL, as the client is already connected to a host. See :ref:`request()<class_HTTPClient_method_request>` for a full example and to get started.
+\ **Note :** Ce client doit seulement se connecter à un hôte une fois (voir :ref:`connect_to_host()<class_HTTPClient_method_connect_to_host>`) pour envoyer plusieurs requêtes. En raison de cela, les méthodes qui prennent des URL prennent généralement juste la partie après l'hôte au lieu de l'URL complète, puisque le client est déjà connecté à l'hôte. Voir :ref:`request()<class_HTTPClient_method_request>` pour un exemple complet pour pouvoir démarrer.
 
-An **HTTPClient** should be reused between multiple requests or to connect to different hosts instead of creating one client per request. Supports Transport Layer Security (TLS), including server certificate verification. HTTP status codes in the 2xx range indicate success, 3xx redirection (i.e. "try again, but over here"), 4xx something was wrong with the request, and 5xx something went wrong on the server's side.
+Un **HTTPClient** devrait être réutilisé entre plusieurs requêtes ou pour se connecter à différents hôtes au lieu de créer un client par requête. Supporte le protocole Transport Layer Security (TLS), y compris la vérification du certificat du serveur. Les codes de statut HTTP de la plage 2xx indiquent un succès, 3xx une redirection (c.-à-d. "essayez à nouveau, mais ici"), 4xx que quelque chose ne va pas avec la requête, et 5xx qu'un problème est survenu du côté du serveur.
 
-For more information on HTTP, see `MDN's documentation on HTTP <https://developer.mozilla.org/en-US/docs/Web/HTTP>`__ (or read `RFC 2616 <https://tools.ietf.org/html/rfc2616>`__ to get it straight from the source).
+Pour plus d'informations sur HTTP, voir `la documentation de MDN sur HTTP <https://developer.mozilla.org/fr/docs/Web/HTTP>`__ (ou lire le `RFC 2616 <https://tools.ietf.org/html/rfc2616>`__ pour l'avoir directement depuis la source).
 
-\ **Note:** When exporting to Android, make sure to enable the ``INTERNET`` permission in the Android export preset before exporting the project or using one-click deploy. Otherwise, network communication of any kind will be blocked by Android.
+\ **Note :** Lors de l'export vers Android, assurez-vous d'activer la permission ``INTERNET`` dans le préréglage d'export Android avant d'exporter le projet ou en utilisant le déploiement en un clic. Sinon, la communication réseau de tout type sera bloquée par Android.
 
-\ **Note:** It's recommended to use transport encryption (TLS) and to avoid sending sensitive information (such as login credentials) in HTTP GET URL parameters. Consider using HTTP POST requests or HTTP headers for such information instead.
+\ **Note :** Il est recommandé d'utiliser le chiffrement du transport (TLS) et d'éviter d'envoyer des informations sensibles (comme des identifiants de connexion) dans les paramètres d'URL GET HTTP. Envisagez d'utiliser des requêtes HTTP POST ou des en-têtes HTTP pour ces informations à la place.
 
-\ **Note:** When performing HTTP requests from a project exported to Web, keep in mind the remote server may not allow requests from foreign origins due to `CORS <https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS>`__. If you host the server in question, you should modify its backend to allow requests from foreign origins by adding the ``Access-Control-Allow-Origin: *`` HTTP header.
+\ **Note :** Lorsque vous effectuez des requêtes HTTP d'un projet exporté vers le Web, gardez à l'esprit que le serveur distant peut ne pas autoriser des requêtes d'origine étrangère en raison du `CORS <https://developer.mozilla.org/fr/docs/Web/HTTP/CORS>`__. Si vous hébergez le serveur en question, vous devez modifier son backend pour autoriser les requêtes d'origine étrangère en ajoutant l'en-tête HTTP ``Access-Control-Allow-Origin: *``.
 
-\ **Note:** TLS support is currently limited to TLSv1.2 and TLSv1.3. Attempting to connect to a server that only supports older (insecure) TLS versions will return an error.
+\ **Note :** Le support TLS est actuellement limité à TLSv1.1 et TLSv1.3. Tenter de se connecter à un serveur qui ne supporte que des versions plus vieilles (non sécurisées) de TLS renverra une erreur.
 
-\ **Warning:** TLS certificate revocation and certificate pinning are currently not supported. Revoked certificates are accepted as long as they are otherwise valid. If this is a concern, you may want to use automatically managed certificates with a short validity period.
+\ **Avertissement :** La révocation de certificat TLS et le pinning de certificat ne sont actuellement pas supportés. Les certificats révoqués sont acceptés tant qu'ils sont sinon valides. Si c'est un problème, vous pourriez vouloir utiliser des certificats gérés automatiquement avec une courte période de validité.
 
 .. rst-class:: classref-introduction-group
 
@@ -302,7 +302,7 @@ enum **ResponseCode**: :ref:`🔗<enum_HTTPClient_ResponseCode>`
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_CONTINUE** = ``100``
 
-Le code d'état HTTP ``100 Continue``. La réponse intermédiaire qui indique que tout est bon jusqu'à présent et que le client devrait continuer avec cette demande (ou ignorer ce statut s'il a déjà terminé).
+Code de statut HTTP ``100 Continue``. La réponse intermédiaire qui indique que tout est bon jusqu'à présent et que le client devrait continuer avec cette demande (ou ignorer ce statut s'il a déjà terminé).
 
 .. _class_HTTPClient_constant_RESPONSE_SWITCHING_PROTOCOLS:
 
@@ -310,7 +310,7 @@ Le code d'état HTTP ``100 Continue``. La réponse intermédiaire qui indique qu
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_SWITCHING_PROTOCOLS** = ``101``
 
-Le code d'état HTTP ``101 Switching Protocol``. Envoyé en réponse à une en-tête de requête ``Upgrade`` du client. Précise le nouveau protocole que le serveur utilise dès à présent.
+Code de statut HTTP ``101 Switching Protocol``. Envoyé en réponse à une en-tête de requête ``Upgrade`` du client. Précise le nouveau protocole que le serveur utilise dès à présent.
 
 .. _class_HTTPClient_constant_RESPONSE_PROCESSING:
 
@@ -318,7 +318,7 @@ Le code d'état HTTP ``101 Switching Protocol``. Envoyé en réponse à une en-t
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_PROCESSING** = ``102``
 
-Le code de status HTTP ``102 Processing`` (WebDAV). Indique que le serveur a reçu la requête et la traite, mais aucune réponse n'est disponible pour l'instant.
+Code de statut HTTP ``102 Processing`` (WebDAV). Indique que le serveur a reçu la requête et la traite, mais aucune réponse n'est disponible pour l'instant.
 
 .. _class_HTTPClient_constant_RESPONSE_OK:
 
@@ -326,15 +326,15 @@ Le code de status HTTP ``102 Processing`` (WebDAV). Indique que le serveur a re�
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_OK** = ``200``
 
-HTTP status code ``200 OK``. The request has succeeded. Default response for successful requests. Meaning varies depending on the request:
+Code de statut HTTP ``200 OK``. La requête a réussi. Réponse par défaut pour les requêtes réussies. La signification varie selon la requête :
 
-- :ref:`METHOD_GET<class_HTTPClient_constant_METHOD_GET>`: The resource has been fetched and is transmitted in the message body.
+- :ref:`METHOD_GET<class_HTTPClient_constant_METHOD_GET>`\  : La ressource a été récupérée et est transmise dans le corps du message.
 
-- :ref:`METHOD_HEAD<class_HTTPClient_constant_METHOD_HEAD>`: The entity headers are in the message body.
+- :ref:`METHOD_HEAD<class_HTTPClient_constant_METHOD_HEAD>`\  : Les en-têtes de l'entité sont dans le corps du message.
 
-- :ref:`METHOD_POST<class_HTTPClient_constant_METHOD_POST>`: The resource describing the result of the action is transmitted in the message body.
+- :ref:`METHOD_POST<class_HTTPClient_constant_METHOD_POST>`\  : La ressource décrivant le résultat de l'action est transmise dans le corps du message.
 
-- :ref:`METHOD_TRACE<class_HTTPClient_constant_METHOD_TRACE>`: The message body contains the request message as received by the server.
+- :ref:`METHOD_TRACE<class_HTTPClient_constant_METHOD_TRACE>`\  : Le corps du message contient le message de requête comme reçu par le serveur.
 
 .. _class_HTTPClient_constant_RESPONSE_CREATED:
 
@@ -342,7 +342,7 @@ HTTP status code ``200 OK``. The request has succeeded. Default response for suc
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_CREATED** = ``201``
 
-Le code d'état HTTP ``201 Created``. La requête a réussi et une nouvelle ressource a été créée en conséquence. C'est généralement la réponse envoyée après une requête "PUT".
+Code de statut HTTP ``201 Created``. La requête a réussi et une nouvelle ressource a été créée en conséquence. C'est généralement la réponse envoyée après une requête "PUT".
 
 .. _class_HTTPClient_constant_RESPONSE_ACCEPTED:
 
@@ -350,7 +350,7 @@ Le code d'état HTTP ``201 Created``. La requête a réussi et une nouvelle ress
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_ACCEPTED** = ``202``
 
-Le code d'état HTTP ``202 Accepted``. La requête a été reçue mais n'a pas encore été traitée. Aucune réponse n'est envoyé même asynchrone indiquant le résultat du traitement de cette requête. Il est destiné aux cas où un autre processus ou un serveur traite la requête, ou pour le traitement par lots.
+Code de statut HTTP ``202 Accepted``. La requête a été reçue mais n'a pas encore été traitée. Aucune réponse n'est envoyé même asynchrone indiquant le résultat du traitement de cette requête. Il est destiné aux cas où un autre processus ou un serveur traite la requête, ou pour le traitement par lots.
 
 .. _class_HTTPClient_constant_RESPONSE_NON_AUTHORITATIVE_INFORMATION:
 
@@ -358,7 +358,7 @@ Le code d'état HTTP ``202 Accepted``. La requête a été reçue mais n'a pas e
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_NON_AUTHORITATIVE_INFORMATION** = ``203``
 
-Le code d'état HTTP ``203 Non-Authoritative Information``. Ce code de réponse signifie que l'ensemble de méta-donnée retournée n'est pas la copie exacte de celles sur le serveur d'origine, mais composée à partir d'une copie locale ou autre. Sauf dans ce cas, la réponse 200 "OK" est préférable à la place de cette réponse.
+Code de statut HTTP ``203 Non-Authoritative Information``. Ce code de réponse signifie que l'ensemble de méta-donnée retournée n'est pas la copie exacte de celles sur le serveur d'origine, mais composée à partir d'une copie locale ou autre. Sauf dans ce cas, la réponse 200 "OK" est préférable à la place de cette réponse.
 
 .. _class_HTTPClient_constant_RESPONSE_NO_CONTENT:
 
@@ -366,7 +366,7 @@ Le code d'état HTTP ``203 Non-Authoritative Information``. Ce code de réponse 
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_NO_CONTENT** = ``204``
 
-Le code d'état HTTP ``204 No Content``. Il n'y a pas de contenu à envoyer en réponse à cette requête, mais les en-têtes peuvent être utiles. Le user-agent peut mettre à jour les en-têtes de cette ressource avec de nouvelles.
+Code de statut HTTP ``204 No Content``. Il n'y a pas de contenu à envoyer en réponse à cette requête, mais les en-têtes peuvent être utiles. Le user-agent peut mettre à jour les en-têtes de cette ressource avec de nouvelles.
 
 .. _class_HTTPClient_constant_RESPONSE_RESET_CONTENT:
 
@@ -374,7 +374,7 @@ Le code d'état HTTP ``204 No Content``. Il n'y a pas de contenu à envoyer en r
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_RESET_CONTENT** = ``205``
 
-Le code d'état HTTP ``205 Reset Content``. Le serveur a rempli la requête et souhaite que le client réinitialise son « vue de document » qui a envoyé la requête à son état original tel qu'il a été reçu du serveur d'origine.
+Code de statut HTTP ``205 Reset Content``. Le serveur a rempli la requête et souhaite que le client réinitialise son « vue de document » qui a envoyé la requête à son état original tel qu'il a été reçu du serveur d'origine.
 
 .. _class_HTTPClient_constant_RESPONSE_PARTIAL_CONTENT:
 
@@ -382,7 +382,7 @@ Le code d'état HTTP ``205 Reset Content``. Le serveur a rempli la requête et s
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_PARTIAL_CONTENT** = ``206``
 
-Le code d'état HTTP ``206 Partial Content``. Ce code de réponse est utilisé suivant l'intervalle spécifié dans l'en-tête envoyé par le client pour que le téléchargement soit disponible dans plusieurs flux.
+Code de statut HTTP ``206 Partial Content``. Ce code de réponse est utilisé suivant l'intervalle spécifié dans l'en-tête envoyé par le client pour que le téléchargement soit disponible dans plusieurs flux.
 
 .. _class_HTTPClient_constant_RESPONSE_MULTI_STATUS:
 
@@ -390,7 +390,7 @@ Le code d'état HTTP ``206 Partial Content``. Ce code de réponse est utilisé s
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_MULTI_STATUS** = ``207``
 
-Le code d'état HTTP ``207 Multi-Status`` (WebDAV). Une réponse multi-états qui transmet des informations sur plusieurs ressources dans des situations où plusieurs codes de statut seraient appropriés.
+Code de statut HTTP ``207 Multi-Status`` (WebDAV). Une réponse multi-états qui transmet des informations sur plusieurs ressources dans des situations où plusieurs codes de statut seraient appropriés.
 
 .. _class_HTTPClient_constant_RESPONSE_ALREADY_REPORTED:
 
@@ -398,7 +398,7 @@ Le code d'état HTTP ``207 Multi-Status`` (WebDAV). Une réponse multi-états qu
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_ALREADY_REPORTED** = ``208``
 
-Le code d'état HTTP ``208 Already Reported`` (WebDAV). Utilisé à l'intérieur d'un DAV : l'élément de réponse "propstat" pour éviter d'énumérer plusieurs fois les membres internes de liaisons d'une même collection.
+Code de statut HTTP ``208 Already Reported`` (WebDAV). Utilisé à l'intérieur d'un DAV : l'élément de réponse "propstat" pour éviter d'énumérer plusieurs fois les membres internes de liaisons d'une même collection.
 
 .. _class_HTTPClient_constant_RESPONSE_IM_USED:
 
@@ -406,7 +406,7 @@ Le code d'état HTTP ``208 Already Reported`` (WebDAV). Utilisé à l'intérieur
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_IM_USED** = ``226``
 
-Le code d'état HTTP ``226 IM Used`` (WebDAV). Le serveur a traité une requête GET pour cette ressource, et la réponse est une représentation du résultat d'une ou plusieurs manipulations d'instance appliquées à l'instance actuelle.
+Code de statut HTTP ``226 IM Used`` (WebDAV). Le serveur a traité une requête GET pour cette ressource, et la réponse est une représentation du résultat d'une ou plusieurs manipulations d'instance appliquées à l'instance actuelle.
 
 .. _class_HTTPClient_constant_RESPONSE_MULTIPLE_CHOICES:
 
@@ -414,7 +414,7 @@ Le code d'état HTTP ``226 IM Used`` (WebDAV). Le serveur a traité une requête
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_MULTIPLE_CHOICES** = ``300``
 
-Le code d'état HTTP ``300 Multiple Choice``. La requête a plusieurs réponses possibles et il n'y a pas de moyen spécifique de choisir la bonne réponse. C'est alors le user-agent ou l'utilisateur qui devrait la choisir parmi celle retournées.
+Code de statut HTTP ``300 Multiple Choice``. La requête a plusieurs réponses possibles et il n'y a pas de moyen spécifique de choisir la bonne réponse. C'est alors le user-agent ou l'utilisateur qui devrait la choisir parmi celle retournées.
 
 .. _class_HTTPClient_constant_RESPONSE_MOVED_PERMANENTLY:
 
@@ -422,7 +422,7 @@ Le code d'état HTTP ``300 Multiple Choice``. La requête a plusieurs réponses 
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_MOVED_PERMANENTLY** = ``301``
 
-Le code d'état HTTP ``301 Moved Permanently``. Redirection. Ce code de réponse signifie que l'URI des ressources demandées a été modifiée. La nouvelle URI est généralement retournée dans cette réponse.
+Code de statut HTTP ``301 Moved Permanently``. Redirection. Ce code de réponse signifie que l'URI des ressources demandées a été modifiée. La nouvelle URI est généralement retournée dans cette réponse.
 
 .. _class_HTTPClient_constant_RESPONSE_FOUND:
 
@@ -456,7 +456,7 @@ Code de statut HTTP ``304 Not Modified``. Une demande conditionnelle de GET ou d
 
 **Obsolète :** Many clients ignore this response code for security reasons. It is also deprecated by the HTTP standard.
 
-Code de status HTTP ``305 Use Proxy``.
+Code de statut HTTP ``305 Use Proxy``.
 
 .. _class_HTTPClient_constant_RESPONSE_SWITCH_PROXY:
 
@@ -466,7 +466,7 @@ Code de status HTTP ``305 Use Proxy``.
 
 **Obsolète :** Many clients ignore this response code for security reasons. It is also deprecated by the HTTP standard.
 
-Code de status HTTP ``306 Switch Proxy``.
+Code de statut HTTP ``306 Switch Proxy``.
 
 .. _class_HTTPClient_constant_RESPONSE_TEMPORARY_REDIRECT:
 
@@ -562,7 +562,7 @@ Code de statut HTTP ``408 Request Timeout``. Le serveur n'a pas reçu un message
 
 :ref:`ResponseCode<enum_HTTPClient_ResponseCode>` **RESPONSE_CONFLICT** = ``409``
 
-Le code de status HTTP ``409 Conflict``. La requête n'a pu être complétée à cause d'un conflit avec l'état actuel de la ressource cible. Ce code est utilisé dans les situations où l'utilisateur peut être capable de résoudre le conflit et de soumettre à nouveau la requête.
+Code de statut HTTP ``409 Conflict``. La requête n'a pu être complétée à cause d'un conflit avec l'état actuel de la ressource cible. Ce code est utilisé dans les situations où l'utilisateur peut être capable de résoudre le conflit et de soumettre à nouveau la requête.
 
 .. _class_HTTPClient_constant_RESPONSE_GONE:
 
@@ -879,9 +879,9 @@ Ferme l'actuelle connexion, permettant de la réutiliser pour cet **HTTPClient**
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect_to_host**\ (\ host\: :ref:`String<class_String>`, port\: :ref:`int<class_int>` = -1, tls_options\: :ref:`TLSOptions<class_TLSOptions>` = null\ ) :ref:`🔗<class_HTTPClient_method_connect_to_host>`
 
-Connects to a host. This needs to be done before any requests are sent.
+Se connecte à un hôte. Cela est nécessaire avant d'effectuer une quelconque requête.
 
-If no ``port`` is specified (or ``-1`` is used), it is automatically set to 80 for HTTP and 443 for HTTPS. You can pass the optional ``tls_options`` parameter to customize the trusted certification authorities, or the common name verification when using HTTPS. See :ref:`TLSOptions.client()<class_TLSOptions_method_client>` and :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
+Si aucun ``port`` n'est spécifié (ou ``-1`` est utilisé), il est automatiquement défini à 80 pour HTTP et 443 pour HTTPS. Vous pouvez passer le paramètre optionnel ``tls_options`` pour personnaliser les autorités de certification de confiance, ou la vérification de nom commun lors de l'utilisation d'HTTPS. Voir :ref:`TLSOptions.client()<class_TLSOptions_method_client>` et :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
 
 .. rst-class:: classref-item-separator
 
@@ -893,11 +893,11 @@ If no ``port`` is specified (or ``-1`` is used), it is automatically set to 80 f
 
 :ref:`int<class_int>` **get_response_body_length**\ (\ ) |const| :ref:`🔗<class_HTTPClient_method_get_response_body_length>`
 
-Returns the response's body length.
+Renvoie la longueur du corps de la requête.
 
-\ **Note:** Some Web servers may not send a body length. In this case, the value returned will be ``-1``. If using chunked transfer encoding, the body length will also be ``-1``.
+\ **Note :** Certains serveurs web peuvent ne pas envoyer une longueur de corps. Dans ce cas, la valeur renvoyée sera ``-1``. Si vous utilisez le chunked transfer encoding, la longueur du corps sera également de ``-1``.
 
-\ **Note:** This function always returns ``-1`` on the Web platform due to browsers limitations.
+\ **Note :** Cette fonction renvoie toujours ``-1`` sur la plateforme Web en raison des limitations des navigateurs.
 
 .. rst-class:: classref-item-separator
 
@@ -909,7 +909,7 @@ Returns the response's body length.
 
 :ref:`int<class_int>` **get_response_code**\ (\ ) |const| :ref:`🔗<class_HTTPClient_method_get_response_code>`
 
-Renvoie le code d’état de la réponse HTTP.
+Renvoie le code de statut de la réponse HTTP.
 
 .. rst-class:: classref-item-separator
 
@@ -1104,13 +1104,13 @@ Pour créer une requête POST avec des chaînes de requête à envoyer sur le se
 
 :ref:`Error<enum_@GlobalScope_Error>` **request_raw**\ (\ method\: :ref:`Method<enum_HTTPClient_Method>`, url\: :ref:`String<class_String>`, headers\: :ref:`PackedStringArray<class_PackedStringArray>`, body\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_HTTPClient_method_request_raw>`
 
-Sends a raw HTTP request to the connected host with the given ``method``.
+Envoie une requête HTTP brute à l'hôte connecté avec la méthode ``method`` donnée.
 
-The URL parameter is usually just the part after the host, so for ``https://example.com/index.php``, it is ``/index.php``. When sending requests to an HTTP proxy server, it should be an absolute URL. For :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>` requests, ``*`` is also allowed. For :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>` requests, it should be the authority component (``host:port``).
+Le paramètre URL est généralement juste la partie après le nom de l'hôte, donc pour ``http://example.com/index.php``, il s'agit de ``/index.php``. Lors de l'envoi de requêtes vers un serveur de proxy HTTP, cela devrait être une URL absolue. Pour les requêtes :ref:`METHOD_OPTIONS<class_HTTPClient_constant_METHOD_OPTIONS>`, ``*`` est également autorisé. Pour les requêtes :ref:`METHOD_CONNECT<class_HTTPClient_constant_METHOD_CONNECT>`, cela devrait être le composant d'autorité (``host:port``).
 
-\ ``headers`` are HTTP request headers.
+\ ``headers`` sont les en-têtes de la requête HTTP.
 
-Sends the body data raw, as a byte array and does not encode it in any way.
+Envoie les données du corps de manière brute, en tant que tableau d'octets et ne l'encode pas du tout.
 
 .. rst-class:: classref-item-separator
 

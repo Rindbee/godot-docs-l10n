@@ -909,9 +909,9 @@ La extensión del rectángulo si :ref:`emission_shape<class_CPUParticles3D_prope
 - |void| **set_emission_colors**\ (\ value\: :ref:`PackedColorArray<class_PackedColorArray>`\ )
 - :ref:`PackedColorArray<class_PackedColorArray>` **get_emission_colors**\ (\ )
 
-Sets the :ref:`Color<class_Color>`\ s to modulate particles by when using :ref:`EMISSION_SHAPE_POINTS<class_CPUParticles3D_constant_EMISSION_SHAPE_POINTS>` or :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles3D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`.
+Establece los :ref:`Color<class_Color>`\ s para modular las partículas cuando se utiliza :ref:`EMISSION_SHAPE_POINTS<class_CPUParticles3D_constant_EMISSION_SHAPE_POINTS>` o :ref:`EMISSION_SHAPE_DIRECTED_POINTS<class_CPUParticles3D_constant_EMISSION_SHAPE_DIRECTED_POINTS>`.
 
-\ **Note:** :ref:`emission_colors<class_CPUParticles3D_property_emission_colors>` multiplies the particle mesh's vertex colors. To have a visible effect on a :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` *must* be ``true``. For a :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALBEDO *= COLOR.rgb;`` must be inserted in the shader's ``fragment()`` function. Otherwise, :ref:`emission_colors<class_CPUParticles3D_property_emission_colors>` will have no visible effect.
+\ **Nota:** :ref:`emission_colors<class_CPUParticles3D_property_emission_colors>` multiplica los colores de los vértices de la malla de partículas. Para que tenga un efecto visible en un :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` *debe* ser ``true``. Para un :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALBEDO *= COLOR.rgb;`` debe insertarse en la función ``fragment()`` del shader. De lo contrario, :ref:`emission_colors<class_CPUParticles3D_property_emission_colors>` no tendrá ningún efecto visible.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedColorArray<class_PackedColorArray>` for more details.
 
@@ -1191,7 +1191,7 @@ La gravedad aplicada a cada partícula.
 - |void| **set_param_curve**\ (\ param\: :ref:`Parameter<enum_CPUParticles3D_Parameter>`, curve\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_param_curve**\ (\ param\: :ref:`Parameter<enum_CPUParticles3D_Parameter>`\ ) |const|
 
-Each particle's hue will vary along this :ref:`Curve<class_Curve>`. Should be a unit :ref:`Curve<class_Curve>`.
+El tono de cada partícula variará a lo largo de esta :ref:`Curve<class_Curve>`. Debe ser una :ref:`Curve<class_Curve>` unitaria.
 
 .. rst-class:: classref-item-separator
 

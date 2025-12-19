@@ -388,7 +388,7 @@ Le format de vue dans lequel le **EditorFileDialog** affiche les ressources à l
 - |void| **set_file_mode**\ (\ value\: :ref:`FileMode<enum_EditorFileDialog_FileMode>`\ )
 - :ref:`FileMode<enum_EditorFileDialog_FileMode>` **get_file_mode**\ (\ )
 
-The dialog's open or save mode, which affects the selection behavior.
+Le mode d'ouverture ou de sauvegarde de la fenêtre, qui affecte le comportement de la sélection.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ The available file type filters. For example, this shows only ``.png`` and ``.gd
 - |void| **set_option_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_option_count**\ (\ )
 
-The number of additional :ref:`OptionButton<class_OptionButton>`\ s and :ref:`CheckBox<class_CheckBox>`\ es in the dialog.
+Le nombre d':ref:`OptionButton<class_OptionButton>`\ s et de :ref:`CheckBox<class_CheckBox>`\ s supplémentaires dans la fenêtre.
 
 .. rst-class:: classref-item-separator
 
@@ -474,9 +474,9 @@ For example, a ``filter`` of ``"*.tscn, *.scn"`` and a ``description`` of ``"Sce
 
 |void| **add_option**\ (\ name\: :ref:`String<class_String>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`, default_value_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_EditorFileDialog_method_add_option>`
 
-Adds an additional :ref:`OptionButton<class_OptionButton>` to the file dialog. If ``values`` is empty, a :ref:`CheckBox<class_CheckBox>` is added instead.
+Ajoute un :ref:`OptionButton<class_OptionButton>` supplémentaire au dialogue de fichier. Si ``values`` est vide, une :ref:`CheckBox<class_CheckBox>` est ajoutée à la place.
 
-\ ``default_value_index`` should be an index of the value in the ``values``. If ``values`` is empty it should be either ``1`` (checked), or ``0`` (unchecked).
+\ ``default_value_index`` devrait être un index de la valeur dans les ``values``. Si ``values`` est vide, il doit valoir soit ``1`` (coché), soit ``0`` (non coché).
 
 .. rst-class:: classref-item-separator
 
@@ -550,7 +550,7 @@ Renvoie le LineEdit pour le fichier sélectionné.
 
 :ref:`int<class_int>` **get_option_default**\ (\ option\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorFileDialog_method_get_option_default>`
 
-Returns the default value index of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Renvoie l'index de valeur par défaut de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -562,7 +562,7 @@ Returns the default value index of the :ref:`OptionButton<class_OptionButton>` o
 
 :ref:`String<class_String>` **get_option_name**\ (\ option\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorFileDialog_method_get_option_name>`
 
-Returns the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Renvoie le nom de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -574,7 +574,7 @@ Returns the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBo
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_option_values**\ (\ option\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorFileDialog_method_get_option_values>`
 
-Returns an array of values of the :ref:`OptionButton<class_OptionButton>` with index ``option``.
+Renvoie un tableau des valeurs de l':ref:`OptionButton<class_OptionButton>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -586,7 +586,7 @@ Returns an array of values of the :ref:`OptionButton<class_OptionButton>` with i
 
 :ref:`Dictionary<class_Dictionary>` **get_selected_options**\ (\ ) |const| :ref:`🔗<class_EditorFileDialog_method_get_selected_options>`
 
-Returns a :ref:`Dictionary<class_Dictionary>` with the selected values of the additional :ref:`OptionButton<class_OptionButton>`\ s and/or :ref:`CheckBox<class_CheckBox>`\ es. :ref:`Dictionary<class_Dictionary>` keys are names and values are selected value indices.
+Renvoie un :ref:`Dictionary<class_Dictionary>` avec les valeurs sélectionnées des :ref:`OptionButton<class_OptionButton>`\ s et/ou des :ref:`CheckBox<class_CheckBox>`\ s supplémentaires. Les clés du :ref:`Dictionary<class_Dictionary>` sont des noms et les valeurs sont les indices des valeur sélectionnées.
 
 .. rst-class:: classref-item-separator
 
@@ -648,7 +648,7 @@ Sets the value of the filter for file names.
 
 |void| **set_option_default**\ (\ option\: :ref:`int<class_int>`, default_value_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_EditorFileDialog_method_set_option_default>`
 
-Sets the default value index of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Définit l'index de valeur par défaut de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -660,7 +660,7 @@ Sets the default value index of the :ref:`OptionButton<class_OptionButton>` or :
 
 |void| **set_option_name**\ (\ option\: :ref:`int<class_int>`, name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorFileDialog_method_set_option_name>`
 
-Sets the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Définit le nom de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -672,7 +672,7 @@ Sets the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<c
 
 |void| **set_option_values**\ (\ option\: :ref:`int<class_int>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_EditorFileDialog_method_set_option_values>`
 
-Sets the option values of the :ref:`OptionButton<class_OptionButton>` with index ``option``.
+Définit les valeurs des options de l':ref:`OptionButton<class_OptionButton>` avec l'index ``option``.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

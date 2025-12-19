@@ -7,7 +7,7 @@ AnimationTree
 
 **Hereda:** :ref:`AnimationMixer<class_AnimationMixer>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A node used for advanced animation transitions in an :ref:`AnimationPlayer<class_AnimationPlayer>`.
+Un nodo para usarse en transiciones de animación avanzadas en un :ref:`AnimationPlayer<class_AnimationPlayer>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -143,7 +143,7 @@ Descripciones de Propiedades
 - |void| **set_advance_expression_base_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_advance_expression_base_node**\ (\ )
 
-The path to the :ref:`Node<class_Node>` used to evaluate the :ref:`AnimationNode<class_AnimationNode>` :ref:`Expression<class_Expression>` if one is not explicitly specified internally.
+El path al :ref:`Node<class_Node>` usado para evaluar el :ref:`AnimationNode<class_AnimationNode>` :ref:`Expression<class_Expression>` si no se especifica una explícitamente de manera interna.
 
 .. rst-class:: classref-item-separator
 
@@ -177,7 +177,7 @@ La ruta al :ref:`AnimationPlayer<class_AnimationPlayer>` utilizada para la anima
 - |void| **set_tree_root**\ (\ value\: :ref:`AnimationRootNode<class_AnimationRootNode>`\ )
 - :ref:`AnimationRootNode<class_AnimationRootNode>` **get_tree_root**\ (\ )
 
-The root animation node of this **AnimationTree**. See :ref:`AnimationRootNode<class_AnimationRootNode>`.
+El nodo de animación raíz de este **AnimationTree**. Véase :ref:`AnimationRootNode<class_AnimationRootNode>`.
 
 .. rst-class:: classref-section-separator
 

@@ -10,7 +10,7 @@ TextEdit
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`CodeEdit<class_CodeEdit>`
+**Hérité par :** :ref:`CodeEdit<class_CodeEdit>`
 
 Un éditeur de texte multi-ligne.
 
@@ -697,7 +697,7 @@ Refait l’action précédente.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_SUBMENU_TEXT_DIR** = ``7``
 
-ID of "Text Writing Direction" submenu.
+ID du sous-menu "Direction d'écriture du texte".
 
 .. _class_TextEdit_constant_MENU_DIR_INHERITED:
 
@@ -737,7 +737,7 @@ Définit la direction du texte à "droite à gauche".
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_DISPLAY_UCC** = ``12``
 
-Toggles control character display.
+Active/désactive l'affichage des caractères de contrôle.
 
 .. _class_TextEdit_constant_MENU_SUBMENU_INSERT_UCC:
 
@@ -745,7 +745,7 @@ Toggles control character display.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_SUBMENU_INSERT_UCC** = ``13``
 
-ID of "Insert Control Character" submenu.
+ID du sous-menu "Insérer caractère de contrôle".
 
 .. _class_TextEdit_constant_MENU_INSERT_LRM:
 
@@ -753,7 +753,7 @@ ID of "Insert Control Character" submenu.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_LRM** = ``14``
 
-Inserts left-to-right mark (LRM) character.
+Insère un caractère marque gauche-à-droite (Left-to-Right Mark).
 
 .. _class_TextEdit_constant_MENU_INSERT_RLM:
 
@@ -761,7 +761,7 @@ Inserts left-to-right mark (LRM) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_RLM** = ``15``
 
-Inserts right-to-left mark (RLM) character.
+Insère un caractère marque droite-à-gauche (Right-to-Left Mark).
 
 .. _class_TextEdit_constant_MENU_INSERT_LRE:
 
@@ -769,7 +769,7 @@ Inserts right-to-left mark (RLM) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_LRE** = ``16``
 
-Inserts start of left-to-right embedding (LRE) character.
+Insère un caractère enchâssement gauche-à-droite (Left-to-Right Embedding).
 
 .. _class_TextEdit_constant_MENU_INSERT_RLE:
 
@@ -777,7 +777,7 @@ Inserts start of left-to-right embedding (LRE) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_RLE** = ``17``
 
-Inserts start of right-to-left embedding (RLE) character.
+Insère un caractère enchâssement droite-à-gauche (Right-to-Left Embedding).
 
 .. _class_TextEdit_constant_MENU_INSERT_LRO:
 
@@ -785,7 +785,7 @@ Inserts start of right-to-left embedding (RLE) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_LRO** = ``18``
 
-Inserts start of left-to-right override (LRO) character.
+Insère un caractère forçage gauche-à-droite (Left-to-Right Override).
 
 .. _class_TextEdit_constant_MENU_INSERT_RLO:
 
@@ -793,7 +793,7 @@ Inserts start of left-to-right override (LRO) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_RLO** = ``19``
 
-Inserts start of right-to-left override (RLO) character.
+Insère un caractère forçage droite-à-gauche (Right-to-Left Override).
 
 .. _class_TextEdit_constant_MENU_INSERT_PDF:
 
@@ -801,7 +801,7 @@ Inserts start of right-to-left override (RLO) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_PDF** = ``20``
 
-Inserts pop direction formatting (PDF) character.
+Insère un caractère dépilement de formatage conditionnel (Pop Direction Formatting).
 
 .. _class_TextEdit_constant_MENU_INSERT_ALM:
 
@@ -809,7 +809,7 @@ Inserts pop direction formatting (PDF) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_ALM** = ``21``
 
-Inserts Arabic letter mark (ALM) character.
+Insère un caractère marque de lettre arabe (Arabic Letter Mark).
 
 .. _class_TextEdit_constant_MENU_INSERT_LRI:
 
@@ -817,7 +817,7 @@ Inserts Arabic letter mark (ALM) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_LRI** = ``22``
 
-Inserts left-to-right isolate (LRI) character.
+Insère un caractère isolat de gauche-à-droite (Left-to-Right Isolate).
 
 .. _class_TextEdit_constant_MENU_INSERT_RLI:
 
@@ -825,7 +825,7 @@ Inserts left-to-right isolate (LRI) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_RLI** = ``23``
 
-Inserts right-to-left isolate (RLI) character.
+Insère un caractère isolat de droite-à-gauche (Right-to-Left Isolate).
 
 .. _class_TextEdit_constant_MENU_INSERT_FSI:
 
@@ -833,7 +833,7 @@ Inserts right-to-left isolate (RLI) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_FSI** = ``24``
 
-Inserts first strong isolate (FSI) character.
+Insère un caractère isolat à direction indéterminée (First Strong Isolate).
 
 .. _class_TextEdit_constant_MENU_INSERT_PDI:
 
@@ -841,7 +841,7 @@ Inserts first strong isolate (FSI) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_PDI** = ``25``
 
-Inserts pop direction isolate (PDI) character.
+Insère un caractère dépilement d'isolat directionnel (Pop Direction Isolate).
 
 .. _class_TextEdit_constant_MENU_INSERT_ZWJ:
 
@@ -849,7 +849,7 @@ Inserts pop direction isolate (PDI) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_ZWJ** = ``26``
 
-Inserts zero width joiner (ZWJ) character.
+Ajoute un caractère liant sans chasse (Zero Width Joiner).
 
 .. _class_TextEdit_constant_MENU_INSERT_ZWNJ:
 
@@ -857,7 +857,7 @@ Inserts zero width joiner (ZWJ) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_ZWNJ** = ``27``
 
-Inserts zero width non-joiner (ZWNJ) character.
+Insère un caractère antiliant sans chasse (Zero Width Non-Joiner).
 
 .. _class_TextEdit_constant_MENU_INSERT_WJ:
 
@@ -865,7 +865,7 @@ Inserts zero width non-joiner (ZWNJ) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_WJ** = ``28``
 
-Inserts word joiner (WJ) character.
+Insère un caractère gluon de mots (Word Joiner).
 
 .. _class_TextEdit_constant_MENU_INSERT_SHY:
 
@@ -873,7 +873,7 @@ Inserts word joiner (WJ) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_INSERT_SHY** = ``29``
 
-Inserts soft hyphen (SHY) character.
+Insère un caractère trait d’union conditionnel (Soft HYphen).
 
 .. _class_TextEdit_constant_MENU_EMOJI_AND_SYMBOL:
 
@@ -881,7 +881,7 @@ Inserts soft hyphen (SHY) character.
 
 :ref:`MenuItems<enum_TextEdit_MenuItems>` **MENU_EMOJI_AND_SYMBOL** = ``30``
 
-Opens system emoji and symbol picker.
+Ouvre le sélecteur d'émojis et de symboles du système.
 
 .. _class_TextEdit_constant_MENU_MAX:
 
@@ -1140,7 +1140,7 @@ If :ref:`wrap_mode<class_TextEdit_property_wrap_mode>` is set to :ref:`LINE_WRAP
 - |void| **set_backspace_deletes_composite_character_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_backspace_deletes_composite_character_enabled**\ (\ )
 
-If ``true`` and :ref:`caret_mid_grapheme<class_TextEdit_property_caret_mid_grapheme>` is ``false``, backspace deletes an entire composite character such as ❤️‍🩹, instead of deleting part of the composite character.
+Si ``true`` et :ref:`caret_mid_grapheme<class_TextEdit_property_caret_mid_grapheme>` vaut ``false``, le retour arrière supprime un caractère composite tel que ❤️‍🩹 en entier, au lieu de ne supprimer qu'une partie du caractère composite.
 
 .. rst-class:: classref-item-separator
 
@@ -1174,7 +1174,7 @@ Si ``true``, fait clignoter le curseur.
 - |void| **set_caret_blink_interval**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_caret_blink_interval**\ (\ )
 
-The interval at which the caret blinks (in seconds).
+L'intervalle auquel le curseur clignote (en secondes).
 
 .. rst-class:: classref-item-separator
 
@@ -1208,9 +1208,9 @@ If ``true``, caret will be visible when :ref:`editable<class_TextEdit_property_e
 - |void| **set_caret_mid_grapheme_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_caret_mid_grapheme_enabled**\ (\ )
 
-Allow moving caret, selecting and removing the individual composite character components.
+Permet de déplacer le curseur, de sélectionner et de supprimer les composantes individuelles de caractères composites.
 
-\ **Note:** :kbd:`Backspace` is always removing individual composite character components.
+\ **Note :** :kbd:`Retour arrière` supprime toujours les composantes individuelles de caractères composites.
 
 .. rst-class:: classref-item-separator
 
@@ -1331,7 +1331,7 @@ Si ``true``, le texte actuellement sélectionné sera désélectionné quand le 
 - |void| **set_drag_and_drop_selection_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_drag_and_drop_selection_enabled**\ (\ )
 
-If ``true``, allow drag and drop of selected text. Text can still be dropped from other sources.
+Si ``true``, permet le glissé-déposé du texte sélectionné. Le texte peut toujours être déposé depuis d'autres sources.
 
 .. rst-class:: classref-item-separator
 
@@ -1416,7 +1416,7 @@ Si ``false``, le texte existant ne peut être modifié et du nouveau texte ne pe
 - |void| **set_emoji_menu_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_emoji_menu_enabled**\ (\ )
 
-If ``true``, "Emoji and Symbols" menu is enabled.
+Si ``true``, le menu "Émojis et Symboles" est activé.
 
 .. rst-class:: classref-item-separator
 
@@ -1518,9 +1518,9 @@ Code de langue utilisé pour les algorithmes de retour à la ligne et de "text s
 - |void| **set_middle_mouse_paste_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_middle_mouse_paste_enabled**\ (\ )
 
-If ``false``, using middle mouse button to paste clipboard will be disabled.
+Si ``false``, utiliser le bouton du milieu de la souris pour coller le presse-papiers sera désactivé.
 
-\ **Note:** This method is only implemented on Linux.
+\ **Note :** Cette méthode n'est implémentée que sur Linux.
 
 .. rst-class:: classref-item-separator
 
@@ -1743,7 +1743,7 @@ Si ``true``, les touches de raccourci pour les éléments de menu contextuel son
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Set BiDi algorithm override for the structured text.
+Définit la redéfinition de l'algorithme BiDi pour le texte structuré.
 
 .. rst-class:: classref-item-separator
 
@@ -1760,7 +1760,7 @@ Set BiDi algorithm override for the structured text.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Set additional options for BiDi override.
+Définit des options supplémentaires pour la redéfinition BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -1881,7 +1881,7 @@ If ``false``, using :kbd:`Ctrl + Left` or :kbd:`Ctrl + Right` (:kbd:`Cmd + Left`
 - |void| **set_virtual_keyboard_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_virtual_keyboard_enabled**\ (\ )
 
-If ``true``, the native virtual keyboard is enabled on platforms that support it.
+Si ``true``, le clavier virtuel natif est activé sur les plateformes qui le supportent.
 
 .. rst-class:: classref-item-separator
 
@@ -1898,7 +1898,7 @@ If ``true``, the native virtual keyboard is enabled on platforms that support it
 - |void| **set_virtual_keyboard_show_on_focus**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_virtual_keyboard_show_on_focus**\ (\ )
 
-If ``true``, the native virtual keyboard is shown on focus events on platforms that support it.
+Si ``true``, le clavier virtuel natif est affiché lors des évènements de focus sur les plateformes qui le supportent.
 
 .. rst-class:: classref-item-separator
 
@@ -2139,7 +2139,7 @@ Starts an edit for multiple carets. The edit must be ended with :ref:`end_multic
 
 |void| **cancel_ime**\ (\ ) :ref:`🔗<class_TextEdit_method_cancel_ime>`
 
-Closes the `Input Method Editor <https://en.wikipedia.org/wiki/Input_method>`__ (IME) if it is open. Any text in the IME will be lost.
+Ferme l'`éditeur de méthode de saisie <https://fr.wikipedia.org/wiki/M%C3%A9thode_de_saisie>`__ (Input Method Editor) s'il est ouvert. Tout texte dans l'IME sera perdu.
 
 .. rst-class:: classref-item-separator
 
@@ -3142,7 +3142,7 @@ Returns a :ref:`String<class_String>` text with the word under the caret's locat
 
 :ref:`bool<class_bool>` **has_ime_text**\ (\ ) |const| :ref:`🔗<class_TextEdit_method_has_ime_text>`
 
-Returns ``true`` if the user has text in the `Input Method Editor <https://en.wikipedia.org/wiki/Input_method>`__ (IME).
+Renvoie ``true`` si l'utilisateur a du texte dans l'`éditeur de méthode de saisie <https://fr.wikipedia.org/wiki/M%C3%A9thode_de_saisie>`__ (Input Method Editor).
 
 .. rst-class:: classref-item-separator
 
@@ -3304,7 +3304,7 @@ Returns ``true`` if the gutter at the given index is overwritable. See :ref:`set
 
 :ref:`bool<class_bool>` **is_in_mulitcaret_edit**\ (\ ) |const| :ref:`🔗<class_TextEdit_method_is_in_mulitcaret_edit>`
 
-Returns ``true`` if a :ref:`begin_multicaret_edit()<class_TextEdit_method_begin_multicaret_edit>` has been called and :ref:`end_multicaret_edit()<class_TextEdit_method_end_multicaret_edit>` has not yet been called.
+Renvoie ``true`` si une :ref:`begin_multicaret_edit()<class_TextEdit_method_begin_multicaret_edit>` a été appelée et que :ref:`end_multicaret_edit()<class_TextEdit_method_end_multicaret_edit>` n'a pas encore été appelée.
 
 .. rst-class:: classref-item-separator
 
@@ -4186,7 +4186,7 @@ The caret's width in pixels. Greater values can be used to improve accessibility
 
 :ref:`int<class_int>` **line_spacing** = ``4`` :ref:`🔗<class_TextEdit_theme_constant_line_spacing>`
 
-Additional vertical spacing between lines (in pixels), spacing is added to line descent. This value can be negative.
+Espacement vertical supplémentaire entre les lignes (en pixels), l'espacement est ajouté à la descente de la ligne. Cette valeur peut être négative.
 
 .. rst-class:: classref-item-separator
 

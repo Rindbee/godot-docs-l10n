@@ -552,7 +552,7 @@ enum **SDFGIYScale**: :ref:`🔗<enum_Environment_SDFGIYScale>`
 
 :ref:`SDFGIYScale<enum_Environment_SDFGIYScale>` **SDFGI_Y_SCALE_50_PERCENT** = ``0``
 
-Use 50% scale for SDFGI on the Y (vertical) axis. SDFGI cells will be twice as short as they are wide. This allows providing increased GI detail and reduced light leaking with thin floors and ceilings. This is usually the best choice for scenes that don't feature much verticality.
+Utiliser une échelle de 50% pour la SDFGI sur l'axe Y (vertical). Les cellules de la SDFGI seront deux fois plus courtes que larges. Cela permet d'augmenter les détails de la GI et de réduire les fuites de lumière avec des sols et des plafonds minces. Il s'agit généralement du meilleur choix pour les scènes qui ne présentent pas beaucoup de verticalité.
 
 .. _class_Environment_constant_SDFGI_Y_SCALE_75_PERCENT:
 
@@ -560,7 +560,7 @@ Use 50% scale for SDFGI on the Y (vertical) axis. SDFGI cells will be twice as s
 
 :ref:`SDFGIYScale<enum_Environment_SDFGIYScale>` **SDFGI_Y_SCALE_75_PERCENT** = ``1``
 
-Use 75% scale for SDFGI on the Y (vertical) axis. This is a balance between the 50% and 100% SDFGI Y scales.
+Utiliser une échelle de 75% pour la SDFGI sur l'axe Y (vertical). Il s'agit d'un équilibre entre les échelles en Y 50% et 100% de la SDFGI.
 
 .. _class_Environment_constant_SDFGI_Y_SCALE_100_PERCENT:
 
@@ -568,7 +568,7 @@ Use 75% scale for SDFGI on the Y (vertical) axis. This is a balance between the 
 
 :ref:`SDFGIYScale<enum_Environment_SDFGIYScale>` **SDFGI_Y_SCALE_100_PERCENT** = ``2``
 
-Use 100% scale for SDFGI on the Y (vertical) axis. SDFGI cells will be as tall as they are wide. This is usually the best choice for highly vertical scenes. The downside is that light leaking may become more noticeable with thin floors and ceilings.
+Utiliser une échelle de 100% pour la SDFGI sur l'axe Y (vertical). Les cellules de la SDFGI seront deux fois plus grandes que larges. Il s'agit généralement du meilleur choix pour les scènes très verticales. Le désavantage est que les fuites de lumières peuvent être plus visibles avec des sols et des plafonds minces.
 
 .. rst-class:: classref-section-separator
 
@@ -1876,9 +1876,9 @@ La quantité avec laquelle l'effet d'occlusion ambiante de l'espace-écran est a
 - |void| **set_ssil_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ssil_enabled**\ (\ )
 
-If ``true``, the screen-space indirect lighting effect is enabled. Screen space indirect lighting is a form of indirect lighting that allows diffuse light to bounce between nearby objects. Screen-space indirect lighting works very similarly to screen-space ambient occlusion, in that it only affects a limited range. It is intended to be used along with a form of proper global illumination like SDFGI or :ref:`VoxelGI<class_VoxelGI>`. Screen-space indirect lighting is not affected by individual light's :ref:`Light3D.light_indirect_energy<class_Light3D_property_light_indirect_energy>`.
+Si ``true``, l'effet d'éclairage indirect dans l'espace-écran (Screen-Space Indirect Lightning) est activé. L'éclairage indirect dans l'espace-écran est une forme d'éclairage indirect qui permet à la lumière diffuse de rebondir entre des objets voisins. L'éclairage indirect dans l'espace-écran fonctionne de manière très similaire à l'occlusion ambiante dans l'espace-écran, car il affecte seulement une plage limitée. Il est destiné à être utilisé avec une forme d'éclairage global appropriée comme SDFGI ou :ref:`VoxelGI<class_VoxelGI>`. L'éclairage indirect dans l'espace-écran n'est pas affecté par les :ref:`Light3D.light_indirect_energy<class_Light3D_property_light_indirect_energy>` de lumières individuelles.
 
-\ **Note:** SSIL is only supported in the Forward+ rendering method, not Mobile or Compatibility.
+\ **Note :** Le SSIL n'est supporté que dans la méthode de rendu Forward+, et non Mobile ou Compatibilité.
 
 .. rst-class:: classref-item-separator
 
@@ -1895,7 +1895,7 @@ If ``true``, the screen-space indirect lighting effect is enabled. Screen space 
 - |void| **set_ssil_intensity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssil_intensity**\ (\ )
 
-The brightness multiplier for the screen-space indirect lighting effect. A higher value will result in brighter light.
+Le multiplicateur de luminosité pour l'effet d'éclairage indirect dans l'espace-écran. Une valeur plus élevée résultera en une lumière plus brillante.
 
 .. rst-class:: classref-item-separator
 
@@ -1984,6 +1984,8 @@ If ``true``, screen-space reflections are enabled. Screen-space reflections are 
 
 \ **Note:** SSR is only supported in the Forward+ rendering method, not Mobile or Compatibility.
 
+\ **Note:** SSR is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -2069,7 +2071,7 @@ Adjusts the brightness of values before they are provided to the tonemapper. Hig
 - |void| **set_tonemapper**\ (\ value\: :ref:`ToneMapper<enum_Environment_ToneMapper>`\ )
 - :ref:`ToneMapper<enum_Environment_ToneMapper>` **get_tonemapper**\ (\ )
 
-The tonemapping mode to use. Tonemapping is the process that "converts" HDR values to be suitable for rendering on an LDR display. (Godot doesn't support rendering on HDR displays yet.)
+Le mode de tonemapping à utiliser. Le tonemapping est le processus qui "convertit" des valeurs HDR pour être adaptées à du rendu sur un écran LDR. (Godot ne supporte pas encore le rendu sur des écrans HDR.)
 
 .. rst-class:: classref-item-separator
 
@@ -2105,7 +2107,7 @@ The white reference value for tonemapping, which indicates where bright white is
 - |void| **set_volumetric_fog_albedo**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_volumetric_fog_albedo**\ (\ )
 
-The :ref:`Color<class_Color>` of the volumetric fog when interacting with lights. Mist and fog have an albedo close to ``Color(1, 1, 1, 1)`` while smoke has a darker albedo.
+La :ref:`Color<class_Color>` du brouillard volumétrique lors de l'interaction avec des lumières. La brume et le brouillard ont un albédo proche de ``Color(1, 1, 1, 1)`` tandis que la fumée a un albédo plus foncé.
 
 .. rst-class:: classref-item-separator
 
@@ -2122,9 +2124,9 @@ The :ref:`Color<class_Color>` of the volumetric fog when interacting with lights
 - |void| **set_volumetric_fog_ambient_inject**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_ambient_inject**\ (\ )
 
-Scales the strength of ambient light used in the volumetric fog. A value of ``0.0`` means that ambient light will not impact the volumetric fog. :ref:`volumetric_fog_ambient_inject<class_Environment_property_volumetric_fog_ambient_inject>` has a small performance cost when set above ``0.0``.
+Dimensionne la force de la lumière ambiante utilisée dans le brouillard volumétrique. Une valeur de ``0.0`` signifie que la lumière ambiante n'affectera pas le brouillard volumétrique. :ref:`volumetric_fog_ambient_inject<class_Environment_property_volumetric_fog_ambient_inject>` a un petit coût en performances lorsque défini au-dessus de ``0.0``.
 
-\ **Note:** This has no visible effect if :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` is ``0.0`` or if :ref:`volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>` is a fully black color.
+\ **Note :** Cela n'a aucun effet visible si :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` vaut ``0.0`` ou si :ref:`volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>` est une couleur entièrement noire.
 
 .. rst-class:: classref-item-separator
 

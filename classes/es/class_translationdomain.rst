@@ -170,7 +170,7 @@ Si es ``true``, activa la seudolocalización para el proyecto. Esto se puede uti
 - |void| **set_pseudolocalization_expansion_ratio**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_pseudolocalization_expansion_ratio**\ (\ )
 
-La relación de expansión a utilizar durante la seudolocalización. Un valor de ``0.3`` es suficiente para la mayoría de los propósitos prácticos, y aumentará la longitud de cada cadena en un 30%.
+La relación de expansión a utilizar durante la seudolocalización. Un valor de ``0.3`` es suficiente para la mayoría de los propósitos prácticos, y aumentará la longitud de cada string en un 30%.
 
 \ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
@@ -208,7 +208,7 @@ Si es ``true``, emula texto bidireccional (de derecha a izquierda) cuando la seu
 - |void| **set_pseudolocalization_override_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_pseudolocalization_override_enabled**\ (\ )
 
-Reemplaza todos los caracteres de la cadena con ``*``. Útil para encontrar strings no localizables.
+Reemplaza todos los caracteres de la string con ``*``. Útil para encontrar strings no localizables.
 
 \ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
@@ -227,7 +227,7 @@ Reemplaza todos los caracteres de la cadena con ``*``. Útil para encontrar stri
 - |void| **set_pseudolocalization_prefix**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_pseudolocalization_prefix**\ (\ )
 
-Prefijo que se añadirá a la cadena pseudolocalizada.
+Prefijo que se añadirá a la string pseudolocalizada.
 
 \ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
@@ -265,7 +265,7 @@ Omite los marcadores de posición para el formato de strings como ``%s`` o ``%f`
 - |void| **set_pseudolocalization_suffix**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_pseudolocalization_suffix**\ (\ )
 
-Sufijo que se añadirá a la cadena pseudolocalizada.
+Sufijo que se añadirá a la string pseudolocalizada.
 
 \ **Nota:** La actualización de esta propiedad no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la notificación :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente después de que hayas terminado de modificar las opciones relacionadas con la seudolocalización.
 
@@ -308,7 +308,7 @@ Elimina todas las traducciones.
 
 :ref:`String<class_String>` **get_locale_override**\ (\ ) |const| :ref:`🔗<class_TranslationDomain_method_get_locale_override>`
 
-Devuelve la configuración regional del dominio. Si la configuración regional está deshabilitada, devuelve un string vacío.
+Devuelve la configuración regional del dominio. Si la configuración regional está deshabilitada, devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -356,9 +356,9 @@ Elimina la traducción dada.
 
 |void| **set_locale_override**\ (\ locale\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TranslationDomain_method_set_locale_override>`
 
-Establece la anulación de la configuración regional del dominio.
+Establece la sobrescritura de la configuración regional del dominio.
 
-Si ``locale`` es una cadena vacía, la anulación de la configuración regional está desactivada. De lo contrario, ``locale`` se estandarizará para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``).
+Si ``locale`` es una string vacía, la sobrescritura de la configuración regional está desactivada. De lo contrario, ``locale`` se estandarizará para que coincida con las configuraciones regionales conocidas (por ejemplo, ``en-US`` se correspondería con ``en_US``).
 
 \ **Nota:** Llamar a este método no actualiza automáticamente los textos en el árbol de escenas. Por favor, propaga la señal :ref:`MainLoop.NOTIFICATION_TRANSLATION_CHANGED<class_MainLoop_constant_NOTIFICATION_TRANSLATION_CHANGED>` manualmente.
 

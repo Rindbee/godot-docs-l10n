@@ -5,7 +5,7 @@
 Callable
 ========
 
-A built-in type representing a method or a standalone function.
+Un tipo incorporado que representa un método o una función independiente.
 
 .. rst-class:: classref-introduction-group
 
@@ -182,7 +182,7 @@ Descripciones de Constructores
 
 :ref:`Callable<class_Callable>` **Callable**\ (\ ) :ref:`🔗<class_Callable_constructor_Callable>`
 
-Constructs an empty **Callable**, with no object nor method bound.
+Construye un **Callable** vacío, sin ningún objeto ni método vinculado.
 
 .. rst-class:: classref-item-separator
 
@@ -202,9 +202,9 @@ Construye un **Callable** como una copia del **Callable** dado.
 
 :ref:`Callable<class_Callable>` **Callable**\ (\ object\: :ref:`Object<class_Object>`, method\: :ref:`StringName<class_StringName>`\ )
 
-Creates a new **Callable** for the method named ``method`` in the specified ``object``.
+Crea un nuevo **Callable** para el método llamado ``method`` en el ``object`` especificado.
 
-\ **Note:** For methods of built-in :ref:`Variant<class_Variant>` types, use :ref:`create()<class_Callable_method_create>` instead.
+\ **Nota:** Para métodos de tipos :ref:`Variant<class_Variant>` incorporados, usa :ref:`create()<class_Callable_method_create>` en su lugar.
 
 .. rst-class:: classref-section-separator
 
@@ -221,9 +221,9 @@ Descripciones de Métodos
 
 :ref:`Callable<class_Callable>` **bind**\ (\ ...\ ) |vararg| |const| :ref:`🔗<class_Callable_method_bind>`
 
-Returns a copy of this **Callable** with one or more arguments bound. When called, the bound arguments are passed *after* the arguments supplied by :ref:`call()<class_Callable_method_call>`. See also :ref:`unbind()<class_Callable_method_unbind>`.
+Devuelve una copia de este **Callable** con uno o más argumentos vinculados. Cuando se llama, los argumentos vinculados se pasan *después* de los argumentos proporcionados por :ref:`call()<class_Callable_method_call>`. Véase también :ref:`unbind()<class_Callable_method_unbind>`.
 
-\ **Note:** When this method is chained with other similar methods, the order in which the argument list is modified is read from right to left.
+\ **Nota:** Cuando este método se encadena con otros métodos similares, el orden en que se modifica la lista de argumentos se lee de derecha a izquierda.
 
 .. rst-class:: classref-item-separator
 
@@ -235,9 +235,9 @@ Returns a copy of this **Callable** with one or more arguments bound. When calle
 
 :ref:`Callable<class_Callable>` **bindv**\ (\ arguments\: :ref:`Array<class_Array>`\ ) :ref:`🔗<class_Callable_method_bindv>`
 
-Returns a copy of this **Callable** with one or more arguments bound, reading them from an array. When called, the bound arguments are passed *after* the arguments supplied by :ref:`call()<class_Callable_method_call>`. See also :ref:`unbind()<class_Callable_method_unbind>`.
+Devuelve una copia de este **Callable** con uno o más argumentos vinculados, leyéndolos desde un array. Cuando se llama, los argumentos vinculados se pasan *después* de los argumentos proporcionados por :ref:`call()<class_Callable_method_call>`. Véase también :ref:`unbind()<class_Callable_method_unbind>`.
 
-\ **Note:** When this method is chained with other similar methods, the order in which the argument list is modified is read from right to left.
+\ **Nota:** Cuando este método se encadena con otros métodos similares, el orden en que se modifica la lista de argumentos se lee de derecha a izquierda.
 
 .. rst-class:: classref-item-separator
 
@@ -249,7 +249,7 @@ Returns a copy of this **Callable** with one or more arguments bound, reading th
 
 :ref:`Variant<class_Variant>` **call**\ (\ ...\ ) |vararg| |const| :ref:`🔗<class_Callable_method_call>`
 
-Calls the method represented by this **Callable**. Arguments can be passed and should match the method's signature.
+Llama al método representado por este **Callable**. Se pueden pasar argumentos y deben coincidir con la firma del método.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ See also :ref:`Object.call_deferred()<class_Object_method_call_deferred>`.
 
 :ref:`Variant<class_Variant>` **callv**\ (\ arguments\: :ref:`Array<class_Array>`\ ) |const| :ref:`🔗<class_Callable_method_callv>`
 
-Calls the method represented by this **Callable**. Unlike :ref:`call()<class_Callable_method_call>`, this method expects all arguments to be contained inside the ``arguments`` :ref:`Array<class_Array>`.
+Llama al método representado por este **Callable**. A diferencia de :ref:`call()<class_Callable_method_call>`, este método espera que todos los argumentos estén contenidos dentro del ``arguments`` :ref:`Array<class_Array>`.
 
 .. rst-class:: classref-item-separator
 
@@ -306,9 +306,9 @@ Calls the method represented by this **Callable**. Unlike :ref:`call()<class_Cal
 
 :ref:`Callable<class_Callable>` **create**\ (\ variant\: :ref:`Variant<class_Variant>`, method\: :ref:`StringName<class_StringName>`\ ) |static| :ref:`🔗<class_Callable_method_create>`
 
-Creates a new **Callable** for the method named ``method`` in the specified ``variant``. To represent a method of a built-in :ref:`Variant<class_Variant>` type, a custom callable is used (see :ref:`is_custom()<class_Callable_method_is_custom>`). If ``variant`` is :ref:`Object<class_Object>`, then a standard callable will be created instead.
+Crea un nuevo **Callable** para el método llamado ``method`` en el ``variant`` especificado. Para representar un método de un tipo :ref:`Variant<class_Variant>` incorporado, se utiliza un objeto invocable personalizado (véase :ref:`is_custom()<class_Callable_method_is_custom>`). Si ``variant`` es :ref:`Object<class_Object>`, se creará un objeto invocable estándar en su lugar.
 
-\ **Note:** This method is always necessary for the :ref:`Dictionary<class_Dictionary>` type, as property syntax is used to access its entries. You may also use this method when ``variant``'s type is not known in advance (for polymorphism).
+\ **Nota:** Este método es siempre necesario para el tipo :ref:`Dictionary<class_Dictionary>`, ya que la sintaxis de propiedad se utiliza para acceder a sus entradas. También puedes utilizar este método cuando el tipo de ``variant`` no se conoce de antemano (para el polimorfismo).
 
 .. rst-class:: classref-item-separator
 
@@ -320,7 +320,7 @@ Creates a new **Callable** for the method named ``method`` in the specified ``va
 
 :ref:`int<class_int>` **get_argument_count**\ (\ ) |const| :ref:`🔗<class_Callable_method_get_argument_count>`
 
-Returns the total number of arguments this **Callable** should take, including optional arguments. This means that any arguments bound with :ref:`bind()<class_Callable_method_bind>` are *subtracted* from the result, and any arguments unbound with :ref:`unbind()<class_Callable_method_unbind>` are *added* to the result.
+Devuelve el número total de argumentos que debe tomar este **Callable**, incluidos los argumentos opcionales. Esto significa que cualquier argumento vinculado con :ref:`bind()<class_Callable_method_bind>` se *resta* del resultado, y cualquier argumento desvinculado con :ref:`unbind()<class_Callable_method_unbind>` se *suma* al resultado.
 
 .. rst-class:: classref-item-separator
 
@@ -352,9 +352,9 @@ Returns the array of arguments bound via successive :ref:`bind()<class_Callable_
 
 :ref:`int<class_int>` **get_bound_arguments_count**\ (\ ) |const| :ref:`🔗<class_Callable_method_get_bound_arguments_count>`
 
-Returns the total amount of arguments bound via successive :ref:`bind()<class_Callable_method_bind>` or :ref:`unbind()<class_Callable_method_unbind>` calls. This is the same as the size of the array returned by :ref:`get_bound_arguments()<class_Callable_method_get_bound_arguments>`. See :ref:`get_bound_arguments()<class_Callable_method_get_bound_arguments>` for details.
+Devuelve la cantidad total de argumentos vinculados a través de sucesivas llamadas a :ref:`bind()<class_Callable_method_bind>` o :ref:`unbind()<class_Callable_method_unbind>`. Esto es lo mismo que el tamaño del array devuelto por :ref:`get_bound_arguments()<class_Callable_method_get_bound_arguments>`. Véase :ref:`get_bound_arguments()<class_Callable_method_get_bound_arguments>` para más detalles.
 
-\ **Note:** The :ref:`get_bound_arguments_count()<class_Callable_method_get_bound_arguments_count>` and :ref:`get_unbound_arguments_count()<class_Callable_method_get_unbound_arguments_count>` methods can both return positive values.
+\ **Nota:** Los métodos :ref:`get_bound_arguments_count()<class_Callable_method_get_bound_arguments_count>` y :ref:`get_unbound_arguments_count()<class_Callable_method_get_unbound_arguments_count>` pueden devolver valores positivos.
 
 .. rst-class:: classref-item-separator
 
@@ -366,7 +366,7 @@ Returns the total amount of arguments bound via successive :ref:`bind()<class_Ca
 
 :ref:`StringName<class_StringName>` **get_method**\ (\ ) |const| :ref:`🔗<class_Callable_method_get_method>`
 
-Returns the name of the method represented by this **Callable**. If the callable is a GDScript lambda function, returns the function's name or ``"<anonymous lambda>"``.
+Devuelve el nombre del método representado por este **Callable**. Si el objeto invocable es una función lambda de GDScript, devuelve el nombre de la función o ``"<anonymous lambda>"``.
 
 .. rst-class:: classref-item-separator
 
@@ -390,7 +390,7 @@ Devuelve el objeto en el que se llama a este **Callable**.
 
 :ref:`int<class_int>` **get_object_id**\ (\ ) |const| :ref:`🔗<class_Callable_method_get_object_id>`
 
-Returns the ID of this **Callable**'s object (see :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`).
+Devuelve el ID del objeto de este **Callable** (véase :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`).
 
 .. rst-class:: classref-item-separator
 
@@ -402,9 +402,9 @@ Returns the ID of this **Callable**'s object (see :ref:`Object.get_instance_id()
 
 :ref:`int<class_int>` **get_unbound_arguments_count**\ (\ ) |const| :ref:`🔗<class_Callable_method_get_unbound_arguments_count>`
 
-Returns the total amount of arguments unbound via successive :ref:`bind()<class_Callable_method_bind>` or :ref:`unbind()<class_Callable_method_unbind>` calls. See :ref:`get_bound_arguments()<class_Callable_method_get_bound_arguments>` for details.
+Devuelve la cantidad total de argumentos desvinculados a través de sucesivas llamadas a :ref:`bind()<class_Callable_method_bind>` o :ref:`unbind()<class_Callable_method_unbind>`. Véase :ref:`get_bound_arguments()<class_Callable_method_get_bound_arguments>` para más detalles.
 
-\ **Note:** The :ref:`get_bound_arguments_count()<class_Callable_method_get_bound_arguments_count>` and :ref:`get_unbound_arguments_count()<class_Callable_method_get_unbound_arguments_count>` methods can both return positive values.
+\ **Nota:** Los métodos :ref:`get_bound_arguments_count()<class_Callable_method_get_bound_arguments_count>` y :ref:`get_unbound_arguments_count()<class_Callable_method_get_unbound_arguments_count>` pueden devolver valores positivos.
 
 .. rst-class:: classref-item-separator
 
@@ -416,9 +416,9 @@ Returns the total amount of arguments unbound via successive :ref:`bind()<class_
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Callable_method_hash>`
 
-Returns the 32-bit hash value of this **Callable**'s object.
+Devuelve el valor hash de 32 bits del objeto de este **Callable**.
 
-\ **Note:** **Callable**\ s with equal content will always produce identical hash values. However, the reverse is not true. Returning identical hash values does *not* imply the callables are equal, because different callables can have identical hash values due to hash collisions. The engine uses a 32-bit hash algorithm for :ref:`hash()<class_Callable_method_hash>`.
+\ **Nota:** Los **Callable**\ s con contenido igual siempre producirán valores hash idénticos. Sin embargo, lo contrario no es cierto. Devolver valores hash idénticos *no* implica que los invocables sean iguales, porque diferentes invocables pueden tener valores hash idénticos debido a colisiones de hash. El motor utiliza un algoritmo hash de 32 bits para :ref:`hash()<class_Callable_method_hash>`.
 
 .. rst-class:: classref-item-separator
 
@@ -430,15 +430,15 @@ Returns the 32-bit hash value of this **Callable**'s object.
 
 :ref:`bool<class_bool>` **is_custom**\ (\ ) |const| :ref:`🔗<class_Callable_method_is_custom>`
 
-Returns ``true`` if this **Callable** is a custom callable. Custom callables are used:
+Devuelve ``true`` si este **Callable** es un objeto invocable personalizado. Los objetos invocables personalizados se utilizan:
 
-- for binding/unbinding arguments (see :ref:`bind()<class_Callable_method_bind>` and :ref:`unbind()<class_Callable_method_unbind>`);
+- para vincular/desvincular argumentos (véase :ref:`bind()<class_Callable_method_bind>` y :ref:`unbind()<class_Callable_method_unbind>`);
 
-- for representing methods of built-in :ref:`Variant<class_Variant>` types (see :ref:`create()<class_Callable_method_create>`);
+- para representar métodos de tipos :ref:`Variant<class_Variant>` incorporados (véase :ref:`create()<class_Callable_method_create>`);
 
-- for representing global, lambda, and RPC functions in GDScript;
+- para representar funciones globales, lambda y RPC en GDScript;
 
-- for other purposes in the core, GDExtension, and C#.
+- para otros propósitos en el núcleo, GDExtension y C#.
 
 .. rst-class:: classref-item-separator
 
@@ -450,9 +450,9 @@ Returns ``true`` if this **Callable** is a custom callable. Custom callables are
 
 :ref:`bool<class_bool>` **is_null**\ (\ ) |const| :ref:`🔗<class_Callable_method_is_null>`
 
-Returns ``true`` if this **Callable** has no target to call the method on. Equivalent to ``callable == Callable()``.
+Devuelve ``true`` si este **Callable** no tiene un objetivo al que llamar al método. Equivalente a ``callable == Callable()``.
 
-\ **Note:** This is *not* the same as ``not is_valid()`` and using ``not is_null()`` will *not* guarantee that this callable can be called. Use :ref:`is_valid()<class_Callable_method_is_valid>` instead.
+\ **Nota:** Esto *no* es lo mismo que ``not is_valid()`` y usar ``not is_null()`` *no* garantiza que se pueda llamar a este objeto invocable. Utiliza :ref:`is_valid()<class_Callable_method_is_valid>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -464,7 +464,7 @@ Returns ``true`` if this **Callable** has no target to call the method on. Equiv
 
 :ref:`bool<class_bool>` **is_standard**\ (\ ) |const| :ref:`🔗<class_Callable_method_is_standard>`
 
-Returns ``true`` if this **Callable** is a standard callable. This method is the opposite of :ref:`is_custom()<class_Callable_method_is_custom>`. Returns ``false`` if this callable is a lambda function.
+Devuelve ``true`` si este **Callable** es un objeto invocable estándar. Este método es lo opuesto a :ref:`is_custom()<class_Callable_method_is_custom>`. Devuelve ``false`` si este objeto invocable es una función lambda.
 
 .. rst-class:: classref-item-separator
 
@@ -476,7 +476,7 @@ Returns ``true`` if this **Callable** is a standard callable. This method is the
 
 :ref:`bool<class_bool>` **is_valid**\ (\ ) |const| :ref:`🔗<class_Callable_method_is_valid>`
 
-Returns ``true`` if the callable's object exists and has a valid method name assigned, or is a custom callable.
+Devuelve ``true`` si el objeto invocable existe y tiene un nombre de método válido asignado, o es un objeto invocable personalizado.
 
 .. rst-class:: classref-item-separator
 
@@ -488,7 +488,7 @@ Returns ``true`` if the callable's object exists and has a valid method name ass
 
 |void| **rpc**\ (\ ...\ ) |vararg| |const| :ref:`🔗<class_Callable_method_rpc>`
 
-Perform an RPC (Remote Procedure Call) on all connected peers. This is used for multiplayer and is normally not available, unless the function being called has been marked as *RPC* (using :ref:`@GDScript.@rpc<class_@GDScript_annotation_@rpc>` or :ref:`Node.rpc_config()<class_Node_method_rpc_config>`). Calling this method on unsupported functions will result in an error. See :ref:`Node.rpc()<class_Node_method_rpc>`.
+Realiza una RPC (Remote Procedure Call) en todos los pares conectados. Esto se utiliza para el multijugador y normalmente no está disponible, a menos que la función a la que se llame se haya marcado como *RPC* (usando :ref:`@GDScript.@rpc<class_@GDScript_annotation_@rpc>` o :ref:`Node.rpc_config()<class_Node_method_rpc_config>`). Llamar a este método en funciones no soportadas resultará en un error. Véase :ref:`Node.rpc()<class_Node_method_rpc>`.
 
 .. rst-class:: classref-item-separator
 
@@ -537,7 +537,7 @@ Descripciones de Operadores
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_Callable_operator_neq_Callable>`
 
-Returns ``true`` if both **Callable**\ s invoke different targets.
+Devuelve ``true`` si ambos **Callable** invocan diferentes destinos.
 
 .. rst-class:: classref-item-separator
 
@@ -549,7 +549,7 @@ Returns ``true`` if both **Callable**\ s invoke different targets.
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_Callable_operator_eq_Callable>`
 
-Returns ``true`` if both **Callable**\ s invoke the same custom target.
+Devuelve ``true`` si ambos **Callable** invocan el mismo destino personalizado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

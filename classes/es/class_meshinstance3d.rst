@@ -16,7 +16,7 @@ Nodo que instancia mallas en un escenario.
 Descripción
 ----------------------
 
-MeshInstance3D is a node that takes a :ref:`Mesh<class_Mesh>` resource and adds it to the current scenario by creating an instance of it. This is the class most often used to render 3D geometry and can be used to instance a single :ref:`Mesh<class_Mesh>` in many places. This allows reusing geometry, which can save on resources. When a :ref:`Mesh<class_Mesh>` has to be instantiated more than thousands of times at close proximity, consider using a :ref:`MultiMesh<class_MultiMesh>` in a :ref:`MultiMeshInstance3D<class_MultiMeshInstance3D>` instead.
+MeshInstance3D es un nodo que toma un recurso :ref:`Mesh<class_Mesh>` y lo añade al escenario actual creando una instancia del mismo. Esta es la clase más utilizada para renderizar geometría 3D y se puede usar para crear instancias de un único :ref:`Mesh<class_Mesh>` en muchos lugares. Esto permite reutilizar geometría, lo que puede ahorrar recursos. Cuando una :ref:`Mesh<class_Mesh>` tenga que instanciarse más de miles de veces en proximidad cercana, considera usar una :ref:`MultiMesh<class_MultiMesh>` en una :ref:`MultiMeshInstance3D<class_MultiMeshInstance3D>` en su lugar.
 
 .. rst-class:: classref-introduction-group
 
@@ -124,7 +124,7 @@ El recurso :ref:`Mesh<class_Mesh>` para la instancia.
 - |void| **set_skeleton_path**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_skeleton_path**\ (\ )
 
-:ref:`NodePath<class_NodePath>` to the :ref:`Skeleton3D<class_Skeleton3D>` associated with the instance.
+:ref:`NodePath<class_NodePath>` al :ref:`Skeleton3D<class_Skeleton3D>` asociado con la instancia.
 
 .. rst-class:: classref-item-separator
 
@@ -158,9 +158,9 @@ Descripciones de Métodos
 
 :ref:`ArrayMesh<class_ArrayMesh>` **bake_mesh_from_current_blend_shape_mix**\ (\ existing\: :ref:`ArrayMesh<class_ArrayMesh>` = null\ ) :ref:`🔗<class_MeshInstance3D_method_bake_mesh_from_current_blend_shape_mix>`
 
-Takes a snapshot from the current :ref:`ArrayMesh<class_ArrayMesh>` with all blend shapes applied according to their current weights and bakes it to the provided ``existing`` mesh. If no ``existing`` mesh is provided a new :ref:`ArrayMesh<class_ArrayMesh>` is created, baked and returned. Mesh surface materials are not copied.
+Toma una instantánea del :ref:`ArrayMesh<class_ArrayMesh>` actual con todas las "blend shapes" aplicadas de acuerdo con sus pesos actuales y las guarda en la malla ``existing`` proporcionada. Si no se proporciona ninguna malla ``existing``, se crea, se procesa y se devuelve un nuevo :ref:`ArrayMesh<class_ArrayMesh>`. Los materiales de la superficie de la malla no se copian.
 
-\ **Performance:** :ref:`Mesh<class_Mesh>` data needs to be received from the GPU, stalling the :ref:`RenderingServer<class_RenderingServer>` in the process.
+\ **Rendimiento:** Los datos de :ref:`Mesh<class_Mesh>` deben recibirse de la GPU, deteniendo el :ref:`RenderingServer<class_RenderingServer>` en el proceso.
 
 .. rst-class:: classref-item-separator
 

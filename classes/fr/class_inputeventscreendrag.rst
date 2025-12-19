@@ -7,14 +7,14 @@ InputEventScreenDrag
 
 **Hérite de :** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a screen drag event.
+Représente un événement de glissement sur un écran.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Stores information about screen drag events. See :ref:`Node._input()<class_Node_private_method__input>`.
+Contient des informations sur des événements de glissement sur un écran. Voir :ref:`Node._input()<class_Node_private_method__input>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -88,7 +88,7 @@ L'index de l'événement de glissage dans le cas d'un événement de plusieurs g
 - |void| **set_pen_inverted**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_pen_inverted**\ (\ )
 
-Returns ``true`` when using the eraser end of a stylus pen.
+Renvoie ``true`` lors de l'utilisation de l'extrémité gomme d'un stylet.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Returns ``true`` when using the eraser end of a stylus pen.
 - |void| **set_position**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_position**\ (\ )
 
-The drag position in the viewport the node is in, using the coordinate system of this viewport.
+La position de glissement dans le viewport dans lequel se trouve le nœud, en utilisant le système de coordonnées de ce viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -139,9 +139,9 @@ Représente la pression que l'utilisateur applique sur le stylo. Va de ``0.0`` �
 - |void| **set_relative**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_relative**\ (\ )
 
-The drag position relative to the previous position (position at the last frame).
+La position de glissement relative à la position précédente (position à la dernière trame).
 
-\ **Note:** :ref:`relative<class_InputEventScreenDrag_property_relative>` is automatically scaled according to the content scale factor, which is defined by the project's stretch mode settings. This means touch sensitivity will appear different depending on resolution when using :ref:`relative<class_InputEventScreenDrag_property_relative>` in a script that handles touch aiming. To avoid this, use :ref:`screen_relative<class_InputEventScreenDrag_property_screen_relative>` instead.
+\ **Note :** :ref:`relative<class_InputEventScreenDrag_property_relative>` est automatiquement échelonnée selon le facteur d'échelle de contenu, défini par les réglages de mode d'étirement du projet. Cela signifie que la sensibilité du toucher apparaîtra différemment en fonction de la résolution lors de l'utilisation de :ref:`relative<class_InputEventScreenDrag_property_relative>` dans un script qui gère la visée tactile. Pour éviter cela, utilisez plutôt :ref:`screen_relative<class_InputEventScreenDrag_property_screen_relative>`.
 
 .. rst-class:: classref-item-separator
 
@@ -158,7 +158,7 @@ The drag position relative to the previous position (position at the last frame)
 - |void| **set_screen_relative**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_screen_relative**\ (\ )
 
-The unscaled drag position relative to the previous position in screen coordinates (position at the last frame). This position is *not* scaled according to the content scale factor or calls to :ref:`InputEvent.xformed_by()<class_InputEvent_method_xformed_by>`. This should be preferred over :ref:`relative<class_InputEventScreenDrag_property_relative>` for touch aiming regardless of the project's stretch mode.
+La position de glissement non redimensionnée relative à la position précédente dans les coordonnées de l'écran (position à la dernière trame). Cette position n'est *pas* mise à échelle selon le facteur d'échelle du contenu ou les appels à :ref:`InputEvent.xformed_by()<class_InputEvent_method_xformed_by>`. Cela devrait être préféré par rapport à :ref:`relative<class_InputEventScreenDrag_property_relative>` pour la visée tactile indépendamment du mode d'étirement du projet.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ The unscaled drag position relative to the previous position in screen coordinat
 - |void| **set_screen_velocity**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_screen_velocity**\ (\ )
 
-The unscaled drag velocity in pixels per second in screen coordinates. This velocity is *not* scaled according to the content scale factor or calls to :ref:`InputEvent.xformed_by()<class_InputEvent_method_xformed_by>`. This should be preferred over :ref:`velocity<class_InputEventScreenDrag_property_velocity>` for touch aiming regardless of the project's stretch mode.
+La vitesse de glissement non redimensionnée en pixels par seconde dans les coordonnées de l'écran. Cette vitesse n'est *pas* mise à échelle selon le facteur d'échelle du contenu ou les appels à :ref:`InputEvent.xformed_by()<class_InputEvent_method_xformed_by>`. Cela devrait être préféré par rapport à :ref:`velocity<class_InputEventScreenDrag_property_velocity>` pour la visée tactile indépendamment du mode d'étirement du projet.
 
 .. rst-class:: classref-item-separator
 
@@ -192,7 +192,7 @@ The unscaled drag velocity in pixels per second in screen coordinates. This velo
 - |void| **set_tilt**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_tilt**\ (\ )
 
-Représente les angles d'inclinaison du stylo. Une valeur en X positive indique une inclinaison à droite. Une valeur en Y positive indique une inclinaison vers l'utilisateur. Va de ``-1.0`` à ``1.0`` pour les deux axes.
+Représente les angles d'inclinaison du stylet. Une valeur en X positive indique une inclinaison à droite. Une valeur en Y positive indique une inclinaison vers l'utilisateur. Va de ``-1.0`` à ``1.0`` pour les deux axes.
 
 .. rst-class:: classref-item-separator
 
@@ -209,9 +209,9 @@ Représente les angles d'inclinaison du stylo. Une valeur en X positive indique 
 - |void| **set_velocity**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_velocity**\ (\ )
 
-The drag velocity.
+La vitesse de glissement.
 
-\ **Note:** :ref:`velocity<class_InputEventScreenDrag_property_velocity>` is automatically scaled according to the content scale factor, which is defined by the project's stretch mode settings. This means touch sensitivity will appear different depending on resolution when using :ref:`velocity<class_InputEventScreenDrag_property_velocity>` in a script that handles touch aiming. To avoid this, use :ref:`screen_velocity<class_InputEventScreenDrag_property_screen_velocity>` instead.
+\ **Note :** :ref:`velocity<class_InputEventScreenDrag_property_velocity>` est automatiquement échelonnée selon le facteur d'échelle de contenu, défini par les réglages de mode d'étirement du projet. Cela signifie que la sensibilité du toucher apparaîtra différemment en fonction de la résolution lors de l'utilisation de :ref:`velocity<class_InputEventScreenDrag_property_velocity>` dans un script qui gère la visée tactile. Pour éviter cela, utilisez plutôt :ref:`screen_velocity<class_InputEventScreenDrag_property_screen_velocity>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

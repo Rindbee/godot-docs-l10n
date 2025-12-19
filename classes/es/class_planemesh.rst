@@ -16,9 +16,9 @@ Clase que representa un plano :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
 Descripción
 ----------------------
 
-Class representing a planar :ref:`PrimitiveMesh<class_PrimitiveMesh>`. This flat mesh does not have a thickness. By default, this mesh is aligned on the X and Z axes; this default rotation isn't suited for use with billboarded materials. For billboarded materials, change :ref:`orientation<class_PlaneMesh_property_orientation>` to :ref:`FACE_Z<class_PlaneMesh_constant_FACE_Z>`.
+Clase que representa un :ref:`PrimitiveMesh<class_PrimitiveMesh>` plano. Esta malla plana no tiene grosor. Por defecto, esta malla está alineada en los ejes X y Z; esta rotación por defecto no es adecuada para su uso con materiales de publicidad. Para materiales de publicidad, cambia :ref:`orientation<class_PlaneMesh_property_orientation>` a :ref:`FACE_Z<class_PlaneMesh_constant_FACE_Z>`.
 
-\ **Note:** When using a large textured **PlaneMesh** (e.g. as a floor), you may stumble upon UV jittering issues depending on the camera angle. To solve this, increase :ref:`subdivide_depth<class_PlaneMesh_property_subdivide_depth>` and :ref:`subdivide_width<class_PlaneMesh_property_subdivide_width>` until you no longer notice UV jittering.
+\ **Nota:** Cuando utilices un **PlaneMesh** texturizado grande (por ejemplo, como suelo), puedes toparte con problemas de fluctuación de las UV dependiendo del ángulo de la cámara. Para solucionar esto, aumenta :ref:`subdivide_depth<class_PlaneMesh_property_subdivide_depth>` y :ref:`subdivide_width<class_PlaneMesh_property_subdivide_width>` hasta que ya no notes la fluctuación de las UV.
 
 .. rst-class:: classref-reftable-group
 

@@ -538,7 +538,7 @@ Transforma (multiplica) el :ref:`AABB<class_AABB>` por esta matriz de transforma
 
 Transforma (multiplica) cada elemento :ref:`Vector3<class_Vector3>` del :ref:`PackedVector3Array<class_PackedVector3Array>` dado por esta matriz de transformación.
 
-En arreglos más grandes, esta operación es mucho más rápida que transformar cada :ref:`Vector3<class_Vector3>` individualmente.
+En arrays más grandes, esta operación es mucho más rápida que transformar cada :ref:`Vector3<class_Vector3>` individualmente.
 
 .. rst-class:: classref-item-separator
 

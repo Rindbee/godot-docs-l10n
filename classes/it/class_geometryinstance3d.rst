@@ -432,7 +432,7 @@ Utile per testare le transizioni del livello di dettaglio nell'editor.
 - |void| **set_material_overlay**\ (\ value\: :ref:`Material<class_Material>`\ )
 - :ref:`Material<class_Material>` **get_material_overlay**\ (\ )
 
-La sovrapposizione del materiale per l'intera geometria.
+Il materiale sovrapposto per l'intera geometria.
 
 Se a questa proprietà è assegnato un materiale, sarà renderizzato sopra qualsiasi altro materiale attivo per tutte le superfici.
 

@@ -10,7 +10,7 @@ AudioStreamPlayer2D
 
 **Hereda:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Plays positional sound in 2D space.
+Reproduce sonido posicional en el espacio 2D.
 
 .. rst-class:: classref-introduction-group
 

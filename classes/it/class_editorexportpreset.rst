@@ -270,7 +270,7 @@ Descrizioni dei metodi
 
 :ref:`bool<class_bool>` **are_advanced_options_enabled**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_are_advanced_options_enabled>`
 
-Returns ``true`` if the "Advanced" toggle is enabled in the export dialog.
+Restituisce ``true`` se l'opzione "Avanzate" è abilitata nella finestra di dialogo d'esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ Restituisce una lista separata da virgole di funzionalità personalizzate aggiun
 
 :ref:`Dictionary<class_Dictionary>` **get_customized_files**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_customized_files>`
 
-Returns a dictionary of files selected in the "Resources" tab of the export dialog. The dictionary's keys are file paths, and its values are the corresponding export modes: ``"strip"``, ``"keep"``, or ``"remove"``. See also :ref:`get_file_export_mode()<class_EditorExportPreset_method_get_file_export_mode>`.
+Restituisce un dizionario dei file selezionati nella scheda "Risorse" della finestra di dialogo di esportazione. Le chiavi del dizionario sono percorsi di file e i suoi valori sono la modalità di esportazione: ``"strip"``, ``"keep"`` o ``"remove"``. Vedi anche :ref:`get_file_export_mode()<class_EditorExportPreset_method_get_file_export_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -306,7 +306,7 @@ Returns a dictionary of files selected in the "Resources" tab of the export dial
 
 :ref:`int<class_int>` **get_customized_files_count**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_get_customized_files_count>`
 
-Returns the number of files selected in the "Resources" tab of the export dialog.
+Restituisce il numero di file selezionati nella scheda "Risorse" della finestra di dialogo d'esportazione.
 
 .. rst-class:: classref-item-separator
 
@@ -560,7 +560,7 @@ Restituisce ``true`` se la modalità d'esportazione "server dedicato" è selezio
 
 :ref:`bool<class_bool>` **is_runnable**\ (\ ) |const| :ref:`🔗<class_EditorExportPreset_method_is_runnable>`
 
-Returns ``true`` if the "Runnable" toggle is enabled in the export dialog.
+Restituisce ``true`` se l'opzione "Eseguibile" è abilitata nella finestra di dialogo d'esportazione.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,14 +7,14 @@ FileDialog
 
 **Hérite de :** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A dialog for selecting files or directories in the filesystem.
+Une boîte de dialogue pour sélectionner des fichiers ou des répertoires dans le système de fichiers.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**FileDialog** is a preset dialog used to choose files and directories in the filesystem. It supports filter masks. **FileDialog** automatically sets its window title according to the :ref:`file_mode<class_FileDialog_property_file_mode>`. If you want to use a custom title, disable this by setting :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` to ``false``.
+**FileDialog** est une boîte de dialogue prédéfinie utilisée pour choisir des fichiers et des répertoires dans le système de fichiers. Il supporte les masques de filtre. **FileDialog** définit automatiquement son titre de fenêtre en fonction de :ref:`file_mode<class_FileDialog_property_file_mode>`. Si vous voulez utiliser un titre personnalisé, désactivez ceci en définissant :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` à ``false``.
 
 .. rst-class:: classref-reftable-group
 
@@ -326,7 +326,7 @@ enum **DisplayMode**: :ref:`🔗<enum_FileDialog_DisplayMode>`
 
 :ref:`DisplayMode<enum_FileDialog_DisplayMode>` **DISPLAY_THUMBNAILS** = ``0``
 
-The dialog displays files as a grid of thumbnails. Use :ref:`thumbnail_size<class_FileDialog_theme_constant_thumbnail_size>` to adjust their size.
+Le dialogue affiche les fichiers en tant que grille de miniatures. Utilisez :ref:`thumbnail_size<class_FileDialog_theme_constant_thumbnail_size>` pour ajuster leur taille.
 
 .. _class_FileDialog_constant_DISPLAY_LIST:
 
@@ -334,7 +334,7 @@ The dialog displays files as a grid of thumbnails. Use :ref:`thumbnail_size<clas
 
 :ref:`DisplayMode<enum_FileDialog_DisplayMode>` **DISPLAY_LIST** = ``1``
 
-The dialog displays files as a list of filenames.
+La fenêtre affiche les fichier en tant que liste de noms de fichier.
 
 .. rst-class:: classref-item-separator
 
@@ -508,7 +508,7 @@ L'actuel chemin de fichier sélectionné dans le dialogue de fichier.
 - |void| **set_display_mode**\ (\ value\: :ref:`DisplayMode<enum_FileDialog_DisplayMode>`\ )
 - :ref:`DisplayMode<enum_FileDialog_DisplayMode>` **get_display_mode**\ (\ )
 
-Display mode of the dialog's file list.
+Mode d'affichage de la liste des fichiers de la boîte de dialogue.
 
 .. rst-class:: classref-item-separator
 
@@ -559,7 +559,7 @@ If ``true``, shows the toggle file filter button.
 - |void| **set_file_mode**\ (\ value\: :ref:`FileMode<enum_FileDialog_FileMode>`\ )
 - :ref:`FileMode<enum_FileDialog_FileMode>` **get_file_mode**\ (\ )
 
-The dialog's open or save mode, which affects the selection behavior.
+Le mode d'ouverture ou de sauvegarde de la fenêtre, qui affecte le comportement de la sélection.
 
 .. rst-class:: classref-item-separator
 
@@ -650,7 +650,7 @@ If ``true``, shows the button for creating new directories (when using :ref:`FIL
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the toggle hidden files button.
+Si ``true``, affiche le bouton pour activer/désactiver les fichiers cachés.
 
 .. rst-class:: classref-item-separator
 
@@ -667,7 +667,7 @@ If ``true``, shows the toggle hidden files button.
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the layout switch buttons (list/thumbnails).
+Si ``true``, affiche les boutons pour changer de disposition (liste/aperçus).
 
 .. rst-class:: classref-item-separator
 
@@ -684,7 +684,7 @@ If ``true``, shows the layout switch buttons (list/thumbnails).
 - |void| **set_mode_overrides_title**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_mode_overriding_title**\ (\ )
 
-If ``true``, changing the :ref:`file_mode<class_FileDialog_property_file_mode>` property will set the window title accordingly (e.g. setting :ref:`file_mode<class_FileDialog_property_file_mode>` to :ref:`FILE_MODE_OPEN_FILE<class_FileDialog_constant_FILE_MODE_OPEN_FILE>` will change the window title to "Open a File").
+Si ``true``, changer la propriété :ref:`file_mode<class_FileDialog_property_file_mode>` définira le titre de la fenêtre en conséquence (par exemple, définir :ref:`file_mode<class_FileDialog_property_file_mode>` à :ref:`FILE_MODE_OPEN_FILE<class_FileDialog_constant_FILE_MODE_OPEN_FILE>` modifiera le titre de la fenêtre en "Ouvrir un fichier").
 
 .. rst-class:: classref-item-separator
 
@@ -701,7 +701,7 @@ If ``true``, changing the :ref:`file_mode<class_FileDialog_property_file_mode>` 
 - |void| **set_option_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_option_count**\ (\ )
 
-The number of additional :ref:`OptionButton<class_OptionButton>`\ s and :ref:`CheckBox<class_CheckBox>`\ es in the dialog.
+Le nombre d':ref:`OptionButton<class_OptionButton>`\ s et de :ref:`CheckBox<class_CheckBox>`\ s supplémentaires dans la fenêtre.
 
 .. rst-class:: classref-item-separator
 
@@ -718,7 +718,7 @@ The number of additional :ref:`OptionButton<class_OptionButton>`\ s and :ref:`Ch
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the recent directories list on the left side of the dialog.
+Si ``true``, affiche la liste des répertoires récents sur le côté gauche de la fenêtre.
 
 .. rst-class:: classref-item-separator
 
@@ -735,9 +735,9 @@ If ``true``, shows the recent directories list on the left side of the dialog.
 - |void| **set_root_subfolder**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_root_subfolder**\ (\ )
 
-If non-empty, the given sub-folder will be "root" of this **FileDialog**, i.e. user won't be able to go to its parent directory.
+Si non vide, le sous-dossier donné sera la "racine" de ce **FileDialog**, c'est-à-dire que l'utilisateur ne pourra pas accéder à son répertoire parent.
 
-\ **Note:** This property is ignored by native file dialogs.
+\ **Note :** Cette propriété est ignorée par les boîtes de dialogue de fichier natives.
 
 .. rst-class:: classref-item-separator
 
@@ -754,9 +754,9 @@ If non-empty, the given sub-folder will be "root" of this **FileDialog**, i.e. u
 - |void| **set_show_hidden_files**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_showing_hidden_files**\ (\ )
 
-If ``true``, the dialog will show hidden files.
+Si ``true``, la fenêtre affichera les fichiers cachés.
 
-\ **Note:** This property is ignored by native file dialogs on Android and Linux.
+\ **Note :** Cette propriété est ignorée par les boîtes de dialogue de fichier natives sur Android et Linux.
 
 .. rst-class:: classref-item-separator
 
@@ -814,9 +814,9 @@ For example, a ``filter`` of ``"*.png, *.jpg"`` and a ``description`` of ``"Imag
 
 |void| **add_option**\ (\ name\: :ref:`String<class_String>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`, default_value_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileDialog_method_add_option>`
 
-Adds an additional :ref:`OptionButton<class_OptionButton>` to the file dialog. If ``values`` is empty, a :ref:`CheckBox<class_CheckBox>` is added instead.
+Ajoute un :ref:`OptionButton<class_OptionButton>` supplémentaire au dialogue de fichier. Si ``values`` est vide, une :ref:`CheckBox<class_CheckBox>` est ajoutée à la place.
 
-\ ``default_value_index`` should be an index of the value in the ``values``. If ``values`` is empty it should be either ``1`` (checked), or ``0`` (unchecked).
+\ ``default_value_index`` devrait être un index de la valeur dans les ``values``. Si ``values`` est vide, il doit valoir soit ``1`` (coché), soit ``0`` (non coché).
 
 .. rst-class:: classref-item-separator
 
@@ -878,7 +878,7 @@ Renvoie le LineEdit pour le fichier sélectionné.
 
 :ref:`int<class_int>` **get_option_default**\ (\ option\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FileDialog_method_get_option_default>`
 
-Returns the default value index of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Renvoie l'index de valeur par défaut de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -890,7 +890,7 @@ Returns the default value index of the :ref:`OptionButton<class_OptionButton>` o
 
 :ref:`String<class_String>` **get_option_name**\ (\ option\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FileDialog_method_get_option_name>`
 
-Returns the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Renvoie le nom de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -902,7 +902,7 @@ Returns the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBo
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_option_values**\ (\ option\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FileDialog_method_get_option_values>`
 
-Returns an array of values of the :ref:`OptionButton<class_OptionButton>` with index ``option``.
+Renvoie un tableau des valeurs de l':ref:`OptionButton<class_OptionButton>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -914,7 +914,7 @@ Returns an array of values of the :ref:`OptionButton<class_OptionButton>` with i
 
 :ref:`Dictionary<class_Dictionary>` **get_selected_options**\ (\ ) |const| :ref:`🔗<class_FileDialog_method_get_selected_options>`
 
-Returns a :ref:`Dictionary<class_Dictionary>` with the selected values of the additional :ref:`OptionButton<class_OptionButton>`\ s and/or :ref:`CheckBox<class_CheckBox>`\ es. :ref:`Dictionary<class_Dictionary>` keys are names and values are selected value indices.
+Renvoie un :ref:`Dictionary<class_Dictionary>` avec les valeurs sélectionnées des :ref:`OptionButton<class_OptionButton>`\ s et/ou des :ref:`CheckBox<class_CheckBox>`\ s supplémentaires. Les clés du :ref:`Dictionary<class_Dictionary>` sont des noms et les valeurs sont les indices des valeur sélectionnées.
 
 .. rst-class:: classref-item-separator
 
@@ -980,7 +980,7 @@ Toggles the specified customization ``flag``, allowing to customize features ava
 
 |void| **set_option_default**\ (\ option\: :ref:`int<class_int>`, default_value_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileDialog_method_set_option_default>`
 
-Sets the default value index of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Définit l'index de valeur par défaut de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -992,7 +992,7 @@ Sets the default value index of the :ref:`OptionButton<class_OptionButton>` or :
 
 |void| **set_option_name**\ (\ option\: :ref:`int<class_int>`, name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FileDialog_method_set_option_name>`
 
-Sets the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<class_CheckBox>` with index ``option``.
+Définit le nom de l':ref:`OptionButton<class_OptionButton>` ou de la :ref:`CheckBox<class_CheckBox>` avec l'index ``option``.
 
 .. rst-class:: classref-item-separator
 
@@ -1004,7 +1004,7 @@ Sets the name of the :ref:`OptionButton<class_OptionButton>` or :ref:`CheckBox<c
 
 |void| **set_option_values**\ (\ option\: :ref:`int<class_int>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_FileDialog_method_set_option_values>`
 
-Sets the option values of the :ref:`OptionButton<class_OptionButton>` with index ``option``.
+Définit les valeurs des options de l':ref:`OptionButton<class_OptionButton>` avec l'index ``option``.
 
 .. rst-class:: classref-section-separator
 
@@ -1069,7 +1069,7 @@ The size of thumbnail icons when :ref:`DISPLAY_THUMBNAILS<class_FileDialog_const
 
 :ref:`Texture2D<class_Texture2D>` **back_folder** :ref:`🔗<class_FileDialog_theme_icon_back_folder>`
 
-Custom icon for the back arrow.
+Icône personnalisée pour la flèche arrière.
 
 .. rst-class:: classref-item-separator
 
@@ -1081,7 +1081,7 @@ Custom icon for the back arrow.
 
 :ref:`Texture2D<class_Texture2D>` **create_folder** :ref:`🔗<class_FileDialog_theme_icon_create_folder>`
 
-Custom icon for the create folder button.
+Icône personnalisée pour le bouton de création de dossier.
 
 .. rst-class:: classref-item-separator
 
@@ -1093,7 +1093,7 @@ Custom icon for the create folder button.
 
 :ref:`Texture2D<class_Texture2D>` **favorite** :ref:`🔗<class_FileDialog_theme_icon_favorite>`
 
-Custom icon for favorite folder button.
+Icône personnalisée pour le bouton de dossier favori.
 
 .. rst-class:: classref-item-separator
 
@@ -1141,7 +1141,7 @@ Icône personnalisée pour les fichiers.
 
 :ref:`Texture2D<class_Texture2D>` **file_thumbnail** :ref:`🔗<class_FileDialog_theme_icon_file_thumbnail>`
 
-Icon for files when in thumbnail mode.
+Icône pour les fichiers en mode miniatures.
 
 .. rst-class:: classref-item-separator
 
@@ -1165,7 +1165,7 @@ Icône personnalisée pour les dossiers.
 
 :ref:`Texture2D<class_Texture2D>` **folder_thumbnail** :ref:`🔗<class_FileDialog_theme_icon_folder_thumbnail>`
 
-Icon for folders when in thumbnail mode.
+Icône pour les dossiers en mode miniatures.
 
 .. rst-class:: classref-item-separator
 
@@ -1177,7 +1177,7 @@ Icon for folders when in thumbnail mode.
 
 :ref:`Texture2D<class_Texture2D>` **forward_folder** :ref:`🔗<class_FileDialog_theme_icon_forward_folder>`
 
-Custom icon for the forward arrow.
+Icône personnalisée pour la flèche avant.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ EditorSyntaxHighlighter
 
 **Hérite de :** :ref:`SyntaxHighlighter<class_SyntaxHighlighter>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`GDScriptSyntaxHighlighter<class_GDScriptSyntaxHighlighter>`
+**Hérité par :** :ref:`GDScriptSyntaxHighlighter<class_GDScriptSyntaxHighlighter>`
 
 Classe de base pour :ref:`SyntaxHighlighter<class_SyntaxHighlighter>` utilisé par le :ref:`ScriptEditor<class_ScriptEditor>`.
 

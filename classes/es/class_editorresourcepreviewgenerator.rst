@@ -14,7 +14,7 @@ Generador personalizado de vistas previas.
 Descripción
 ----------------------
 
-Custom code to generate previews. Check :ref:`EditorSettings.filesystem/file_dialog/thumbnail_size<class_EditorSettings_property_filesystem/file_dialog/thumbnail_size>` to find a proper size to generate previews at.
+Código personalizado para generar vistas previas. Comprueba :ref:`EditorSettings.filesystem/file_dialog/thumbnail_size<class_EditorSettings_property_filesystem/file_dialog/thumbnail_size>` para encontrar un tamaño adecuado para generar las vistas previas.
 
 .. rst-class:: classref-reftable-group
 

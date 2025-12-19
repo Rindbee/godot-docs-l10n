@@ -65,7 +65,7 @@ Convertit une couleur en niveau de gris à partir de la formule suivante :
 
 :ref:`Function<enum_VisualShaderNodeColorFunc_Function>` **FUNC_HSV2RGB** = ``1``
 
-Convertit le vecteur HSV en équivalent RGB.
+Convertit le vecteur TSV en équivalent RGB.
 
 .. _class_VisualShaderNodeColorFunc_constant_FUNC_RGB2HSV:
 
@@ -73,7 +73,7 @@ Convertit le vecteur HSV en équivalent RGB.
 
 :ref:`Function<enum_VisualShaderNodeColorFunc_Function>` **FUNC_RGB2HSV** = ``2``
 
-Convertit le vecteur RGB en équivalent HSV.
+Convertit le vecteur RGB en équivalent TSV.
 
 .. _class_VisualShaderNodeColorFunc_constant_FUNC_SEPIA:
 

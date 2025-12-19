@@ -366,13 +366,13 @@ Basis
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Basis_method_determinant>`
 
-Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this basis's matrix. For advanced math, this number can be used to determine a few attributes:
+Повертає `визначник <https://en.wikipedia.org/wiki/Determinant>`__ матриці цієї бази. Для просунутої математики це число може бути використане для визначення декількох атрибутів:
 
-- If the determinant is exactly ``0.0``, the basis is not invertible (see :ref:`inverse()<class_Basis_method_inverse>`).
+- Якщо визначник дорівнює точно ``0.0``, база не є оберненою (див. :ref:`inverse()<class_Basis_method_inverse>`).
 
-- If the determinant is a negative number, the basis represents a negative scale.
+- Якщо визначник є від'ємним числом, основа представляє від'ємну шкалу.
 
-\ **Note:** If the basis's scale is the same for every axis, its determinant is always that scale by the power of 3.
+\ **Примітка:** Якщо шкала основи однакова для кожної осі, її визначник завжди дорівнює цій шкалі, піднесеної до степеня 3.
 
 .. rst-class:: classref-item-separator
 

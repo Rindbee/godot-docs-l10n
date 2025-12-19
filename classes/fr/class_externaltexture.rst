@@ -7,18 +7,18 @@ ExternalTexture
 
 **Hérite de :** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Texture which displays the content of an external buffer.
+Texture qui affiche le contenu d'un buffer externe.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Displays the content of an external buffer provided by the platform.
+Affiche le contenu d'un buffer externe fourni par la plateforme.
 
-Requires the `OES_EGL_image_external <https://registry.khronos.org/OpenGL/extensions/OES/OES_EGL_image_external.txt>`__ extension (OpenGL) or `VK_ANDROID_external_memory_android_hardware_buffer <https://registry.khronos.org/vulkan/specs/1.1-extensions/html/vkspec.html#VK_ANDROID_external_memory_android_hardware_buffer>`__ extension (Vulkan).
+Nécessite l'extension `OES_EGL_image_external <https://registry.khronos.org/OpenGL/extensions/OES/OES_EGL_image_external.txt>`__ (OpenGL) ou l'extension `VK_ANDROID_external_memory_android_hardware_buffer <https://registry.khronos.org/vulkan/specs/1.1-extensions/html/vkspec.html#VK_ANDROID_external_memory_android_hardware_buffer>`__ (Vulkan).
 
-\ **Note:** This is currently only supported in Android builds.
+\ **Note :** Ceci n'est actuellement supporté que dans les compilations Android.
 
 .. rst-class:: classref-reftable-group
 
@@ -85,9 +85,9 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **get_external_texture_id**\ (\ ) |const| :ref:`🔗<class_ExternalTexture_method_get_external_texture_id>`
 
-Returns the external texture ID.
+Renvoie l'ID de la texture externe.
 
-Depending on your use case, you may need to pass this to platform APIs, for example, when creating an ``android.graphics.SurfaceTexture`` on Android.
+Selon votre cas d'utilisation, vous pourriez avoir besoin de passer cela aux APIs de la plateforme, par exemple, lors de la création d'un ``android.graphics.SurfaceTexture`` sur Android.
 
 .. rst-class:: classref-item-separator
 
@@ -99,9 +99,9 @@ Depending on your use case, you may need to pass this to platform APIs, for exam
 
 |void| **set_external_buffer_id**\ (\ external_buffer_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_ExternalTexture_method_set_external_buffer_id>`
 
-Sets the external buffer ID.
+Renvoie l'ID du buffer externe.
 
-Depending on your use case, you may need to call this with data received from a platform API, for example, ``SurfaceTexture.getHardwareBuffer()`` on Android.
+Selon votre cas d'utilisation, vous pourriez avoir besoin d'appeler ceci avec les données reçues d'une API de plateforme, par exemple, ``SurfaceTexture.getHardwareBuffer()`` sur Android.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

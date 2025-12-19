@@ -308,7 +308,7 @@ Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``fa
 
 :ref:`String<class_String>` **get_date_string_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_date_string_from_unix_time>`
 
-Convierte la marca de tiempo de Unix dada en una cadena de fecha ISO 8601 (AAAA-MM-DD).
+Convierte la marca de tiempo de Unix dada en una string de fecha ISO 8601 (AAAA-MM-DD).
 
 .. rst-class:: classref-item-separator
 
@@ -362,7 +362,7 @@ Los valores del diccionario devuelto serán los mismos que los de :ref:`get_date
 
 :ref:`String<class_String>` **get_datetime_string_from_datetime_dict**\ (\ datetime\: :ref:`Dictionary<class_Dictionary>`, use_space\: :ref:`bool<class_bool>`\ ) |const| :ref:`🔗<class_Time_method_get_datetime_string_from_datetime_dict>`
 
-Convierte el diccionario de claves dado en una cadena de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
+Convierte el diccionario de claves dado en una string de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
 
 El diccionario dado se puede rellenar con las siguientes claves: ``year``, ``month``, ``day``, ``hour``, ``minute`` y ``second``. Cualquier otra entrada (incluyendo ``dst``) se ignora.
 
@@ -380,7 +380,7 @@ Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un caráct
 
 :ref:`String<class_String>` **get_datetime_string_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false, use_space\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_datetime_string_from_system>`
 
-Devuelve la fecha y hora actuales como una cadena de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
+Devuelve la fecha y hora actuales como una string de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
 
 Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``; de lo contrario, están en UTC.
 
@@ -396,7 +396,7 @@ Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un caráct
 
 :ref:`String<class_String>` **get_datetime_string_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`, use_space\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_datetime_string_from_unix_time>`
 
-Convierte la marca de tiempo de Unix dada en una cadena de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
+Convierte la marca de tiempo de Unix dada en una string de fecha y hora ISO 8601 (AAAA-MM-DDTHH:MM:SS).
 
 Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un carácter de espacio vacío en lugar de la letra T.
 
@@ -410,7 +410,7 @@ Si ``use_space`` es ``true``, los bits de fecha y hora se separan con un caráct
 
 :ref:`String<class_String>` **get_offset_string_from_offset_minutes**\ (\ offset_minutes\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_offset_string_from_offset_minutes>`
 
-Convierte el desplazamiento de la zona horaria dado en minutos en una cadena de desplazamiento de la zona horaria. Por ejemplo, -480 devuelve "-08:00", 345 devuelve "+05:45" y 0 devuelve "+00:00".
+Convierte el desplazamiento de la zona horaria dado en minutos en una string de desplazamiento de la zona horaria. Por ejemplo, -480 devuelve "-08:00", 345 devuelve "+05:45" y 0 devuelve "+00:00".
 
 .. rst-class:: classref-item-separator
 
@@ -476,7 +476,7 @@ Convierte la hora dada en un diccionario de claves: ``hour``, ``minute`` y ``sec
 
 :ref:`String<class_String>` **get_time_string_from_system**\ (\ utc\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Time_method_get_time_string_from_system>`
 
-Devuelve la hora actual como una cadena de hora ISO 8601 (HH:MM:SS).
+Devuelve la hora actual como una string de hora ISO 8601 (HH:MM:SS).
 
 Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``false``; de lo contrario, están en UTC.
 
@@ -490,7 +490,7 @@ Los valores devueltos están en la hora local del sistema cuando ``utc`` es ``fa
 
 :ref:`String<class_String>` **get_time_string_from_unix_time**\ (\ unix_time_val\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Time_method_get_time_string_from_unix_time>`
 
-Convierte la marca de tiempo de Unix dada en una cadena de hora ISO 8601 (HH:MM:SS).
+Convierte la marca de tiempo de Unix dada en una string de hora ISO 8601 (HH:MM:SS).
 
 .. rst-class:: classref-item-separator
 
@@ -538,11 +538,11 @@ Puedes pasar la salida de :ref:`get_datetime_dict_from_unix_time()<class_Time_me
 
 :ref:`int<class_int>` **get_unix_time_from_datetime_string**\ (\ datetime\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Time_method_get_unix_time_from_datetime_string>`
 
-Convierte la cadena de fecha y/u hora ISO 8601 dada a un timestamp de Unix. La cadena puede contener solo una fecha, solo una hora o ambas.
+Convierte la string de fecha y/u hora ISO 8601 dada a un timestamp de Unix. La string puede contener solo una fecha, solo una hora o ambas.
 
-\ **Nota:** Los timestamps de Unix suelen estar en UTC. Este método no realiza ninguna conversión de zona horaria, por lo que el timestamp estará en la misma zona horaria que la cadena de fecha y hora dada.
+\ **Nota:** Los timestamps de Unix suelen estar en UTC. Este método no realiza ninguna conversión de zona horaria, por lo que el timestamp estará en la misma zona horaria que la string de fecha y hora dada.
 
-\ **Nota:** Cualquier fracción decimal en la cadena de tiempo se ignorará silenciosamente.
+\ **Nota:** Cualquier fracción decimal en la string de tiempo se ignorará silenciosamente.
 
 .. rst-class:: classref-item-separator
 

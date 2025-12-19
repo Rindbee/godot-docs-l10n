@@ -439,9 +439,9 @@ Vettore che punta verso l'alto, utilizzato per determinare cosa è un muro e cos
 - |void| **set_velocity**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_velocity**\ (\ )
 
-Current velocity vector in pixels per second, used and modified during calls to :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
+Vettore di velocità attuale in pixel al secondo, utilizzato e modificato durante le chiamate a :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
 
-This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
+Questa proprietà non si deve impostare su un valore moltiplicato per ``delta``, perché ciò avviene all'interno di :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`. Altrimenti, la simulazione sarà eseguita a una velocità errata.
 
 .. rst-class:: classref-item-separator
 
@@ -704,17 +704,17 @@ Restituisce ``true`` se il corpo è entrato in collisione soltanto con un muro d
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody2D_method_move_and_slide>`
 
-Moves the body based on :ref:`velocity<class_CharacterBody2D_property_velocity>`. If the body collides with another, it will slide along the other body (by default only on floor) rather than stop immediately. If the other body is a **CharacterBody2D** or :ref:`RigidBody2D<class_RigidBody2D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
+Sposta il corpo in base a :ref:`velocity<class_CharacterBody2D_property_velocity>`. Se il corpo entra in collisione con un altro, scivolerà lungo l'altro corpo (per impostazione predefinita solo sul pavimento) invece di fermarsi immediatamente. Se l'altro corpo è un **CharacterBody2D** o :ref:`RigidBody2D<class_RigidBody2D>`, sarà anche influenzato dal movimento dell'altro corpo. È possibile usarlo per creare piattaforme mobili e rotanti o per far in modo che i nodi spingano altri nodi.
 
-This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
+Questo metodo si dovrebbe utilizzare in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (o in un metodo chiamato da :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), poiché utilizza automaticamente il valore ``delta`` del passaggio di fisica nei calcoli. Altrimenti, la simulazione sarà eseguita a una velocità errata.
 
-Modifies :ref:`velocity<class_CharacterBody2D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, for detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
+Modifica :ref:`velocity<class_CharacterBody2D_property_velocity>` se si è verificata una collisione con scorrimento. Per ottenere l'ultima chiamata di collisione :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, per informazioni dettagliate sulle collisioni che si sono verificate, usa :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
 
-When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+Quando il corpo tocca una piattaforma in movimento, la velocità della piattaforma viene automaticamente aggiunta al movimento del corpo. Se si verifica una collisione a causa del movimento della piattaforma, sarà sempre la prima nelle collisioni con scorrimento.
 
-The general behavior and available properties change according to the :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
+Il comportamento generale e le proprietà disponibili cambiano in base a :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
 
-Returns ``true`` if the body collided, otherwise, returns ``false``.
+Restituisce ``true`` se il corpo è entrato in collisione, altrimenti restituisce ``false``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

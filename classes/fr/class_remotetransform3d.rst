@@ -7,16 +7,16 @@ RemoteTransform3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-RemoteTransform3D pushes its own :ref:`Transform3D<class_Transform3D>` to another :ref:`Node3D<class_Node3D>` derived Node in the scene.
+RemoteTransform3D pousse sa propre :ref:`Transform3D<class_Transform3D>` à un autre nœud dérivé de :ref:`Node3D<class_Node3D>` dans la scène.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-RemoteTransform3D pushes its own :ref:`Transform3D<class_Transform3D>` to another :ref:`Node3D<class_Node3D>` derived Node (called the remote node) in the scene.
+RemoteTransform3D pousse sa propre :ref:`Transform3D<class_Transform3D>` à un autre nœud dérivé de :ref:`Node3D<class_Node3D>` (appelé le nœud distant) dans la scène.
 
-It can be set to update another Node's position, rotation and/or scale. It can use either global or local coordinates.
+Il peut être défini pour mettre à jour la position, la rotation et/ou l'échelle d'un autre nœud. Il peut utiliser des coordonnées globales ou locales.
 
 .. rst-class:: classref-reftable-group
 
@@ -70,7 +70,7 @@ Descriptions des propriétés
 - |void| **set_remote_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_remote_node**\ (\ )
 
-The :ref:`NodePath<class_NodePath>` to the remote node, relative to the RemoteTransform3D's position in the scene.
+Le :ref:`NodePath<class_NodePath>` vers le nœud distant, relatif à la position du RemoteTransform3D dans la scène.
 
 .. rst-class:: classref-item-separator
 

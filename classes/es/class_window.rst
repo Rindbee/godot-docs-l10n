@@ -1022,7 +1022,7 @@ La descripción del nodo legible por humanos que se reporta a las aplicaciones d
 - |void| **set_accessibility_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_accessibility_name**\ (\ )
 
-The human-readable node name that is reported to assistive apps.
+El nombre del nodo legible por humanos que se informa a las apps de asistencia.
 
 .. rst-class:: classref-item-separator
 
@@ -1058,7 +1058,7 @@ Si es ``true``, la ventana estará encima de todas las demás ventanas. No funci
 
 **Obsoleto:** Use :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>` and :ref:`Node.can_auto_translate()<class_Node_method_can_auto_translate>` instead.
 
-Toggles if any text should automatically change to its translated version depending on the current locale.
+Activa o desactiva si algún texto debe cambiar automáticamente a su versión traducida dependiendo de la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -1575,9 +1575,9 @@ El tamaño de la ventana en píxeles.
 - |void| **set_theme**\ (\ value\: :ref:`Theme<class_Theme>`\ )
 - :ref:`Theme<class_Theme>` **get_theme**\ (\ )
 
-The :ref:`Theme<class_Theme>` resource this node and all its :ref:`Control<class_Control>` and **Window** children use. If a child node has its own :ref:`Theme<class_Theme>` resource set, theme items are merged with child's definitions having higher priority.
+El recurso :ref:`Theme<class_Theme>` que este nodo y todos sus hijos :ref:`Control<class_Control>` y **Window** usan. Si un nodo hijo tiene su propio recurso :ref:`Theme<class_Theme>` establecido, los elementos del tema se fusionan con las definiciones del hijo, teniendo este mayor prioridad.
 
-\ **Note:** **Window** styles will have no effect unless the window is embedded.
+\ **Nota:** Los estilos de **Window** no tendrán efecto a menos que la ventana esté integrada.
 
 .. rst-class:: classref-item-separator
 
@@ -1767,7 +1767,7 @@ Método virtual que implementará el usuario. Sobrescribe el valor devuelto por 
 
 |void| **add_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Window_method_add_theme_color_override>`
 
-Crea una anulación local para un tema :ref:`Color<class_Color>` con el ``name`` especificado. Las anulaciones locales siempre tienen prioridad al obtener elementos del tema para el control. Una anulación se puede eliminar con :ref:`remove_theme_color_override()<class_Window_method_remove_theme_color_override>`.
+Crea una sobrescritura local para un tema :ref:`Color<class_Color>` con el ``name`` especificado. Las anulaciones locales siempre tienen prioridad al obtener elementos del tema para el control. Una sobrescritura se puede eliminar con :ref:`remove_theme_color_override()<class_Window_method_remove_theme_color_override>`.
 
 Véase también :ref:`get_theme_color()<class_Window_method_get_theme_color>` y :ref:`Control.add_theme_color_override()<class_Control_method_add_theme_color_override>` para obtener más información.
 
@@ -1837,7 +1837,7 @@ See also :ref:`get_theme_icon()<class_Window_method_get_theme_icon>`.
 
 |void| **add_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`, stylebox\: :ref:`StyleBox<class_StyleBox>`\ ) :ref:`🔗<class_Window_method_add_theme_stylebox_override>`
 
-Crea una anulación local para un :ref:`StyleBox<class_StyleBox>` de tema con el ``name`` especificado. Las anulaciones locales siempre tienen prioridad al obtener elementos de tema para el control. Una anulación se puede eliminar con :ref:`remove_theme_stylebox_override()<class_Window_method_remove_theme_stylebox_override>`.
+Crea una sobrescritura local para un :ref:`StyleBox<class_StyleBox>` de tema con el ``name`` especificado. Las anulaciones locales siempre tienen prioridad al obtener elementos de tema para el control. Una sobrescritura se puede eliminar con :ref:`remove_theme_stylebox_override()<class_Window_method_remove_theme_stylebox_override>`.
 
 Véase también :ref:`get_theme_stylebox()<class_Window_method_get_theme_stylebox>` y :ref:`Control.add_theme_stylebox_override()<class_Control_method_add_theme_stylebox_override>` para más detalles.
 
@@ -2153,7 +2153,7 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_color_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_color_override>`
 
-Devuelve ``true`` si hay una sobreescritura local para un :ref:`Color<class_Color>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
+Devuelve ``true`` si hay una sobrescritura local para un :ref:`Color<class_Color>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
 Véase :ref:`add_theme_color_override()<class_Window_method_add_theme_color_override>`.
 
@@ -2181,7 +2181,7 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_constant_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_constant_override>`
 
-Devuelve ``true`` si existe una sobreescritura local para una constante de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
+Devuelve ``true`` si existe una sobrescritura local para una constante de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
 Véase :ref:`add_theme_constant_override()<class_Window_method_add_theme_constant_override>`.
 
@@ -2209,7 +2209,7 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_font_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_override>`
 
-Devuelve ``true`` si hay una sobreescritura local para una :ref:`Font<class_Font>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
+Devuelve ``true`` si hay una sobrescritura local para una :ref:`Font<class_Font>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
 Véase :ref:`add_theme_font_override()<class_Window_method_add_theme_font_override>`.
 
@@ -2237,7 +2237,7 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_font_size_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_font_size_override>`
 
-Devuelve ``true`` si hay una sobreescritura local para un tamaño de fuente de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
+Devuelve ``true`` si hay una sobrescritura local para un tamaño de fuente de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
 Véase :ref:`add_theme_font_size_override()<class_Window_method_add_theme_font_size_override>`.
 
@@ -2265,7 +2265,7 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_icon_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_icon_override>`
 
-Devuelve ``true`` si hay una sobreescritura local para un icono de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
+Devuelve ``true`` si hay una sobrescritura local para un icono de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
 Véase :ref:`add_theme_icon_override()<class_Window_method_add_theme_icon_override>`.
 
@@ -2293,7 +2293,7 @@ Véase :ref:`Control.get_theme_color()<class_Control_method_get_theme_color>` pa
 
 :ref:`bool<class_bool>` **has_theme_stylebox_override**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Window_method_has_theme_stylebox_override>`
 
-Devuelve ``true`` si hay una sobreescritura local para un :ref:`StyleBox<class_StyleBox>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
+Devuelve ``true`` si hay una sobrescritura local para un :ref:`StyleBox<class_StyleBox>` de tema con el ``name`` especificado en este nodo :ref:`Control<class_Control>`.
 
 Véase :ref:`add_theme_stylebox_override()<class_Window_method_add_theme_stylebox_override>`.
 

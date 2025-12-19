@@ -5203,11 +5203,11 @@ FreeType 的字体抗锯齿模式，用于渲染编辑器字体。大多数字�
 
 :ref:`bool<class_bool>` **text_editor/behavior/files/auto_reload_scripts_on_external_change** :ref:`🔗<class_EditorSettings_property_text_editor/behavior/files/auto_reload_scripts_on_external_change>`
 
-如果为 ``true``\ ，则当脚本和基于文本的着色器被外部编辑器或工具修改并保存时，会在编辑器中自动重新加载，并且编辑器会重新获得焦点。在编辑器中加载外部更改后，可以使用“撤销”功能放弃外部更改。
+如果为 ``true``\ ，当脚本和基于文本的着色器被外部编辑器或工具修改并保存后，编辑器重新获得焦点时会自动重新加载这些文件。外部修改加载到编辑器后，可以使用“撤销”功能放弃外部更改。
 
 如果为 ``false``\ ，则当编辑器重新获得焦点时，将始终显示文件冲突对话框。你可以使用该对话框选择是保留本地更改还是放弃。
 
-\ **注意：**\ 即使该设置为 ``true``\ ，在某些情况下仍会显示文件冲突对话框。例如，当脚本编辑器有外部编辑器未考虑的未保存更改时就会显示。
+\ **注意：**\ 即使设置为 ``true``\ ，在某些情况下仍会显示文件冲突对话框。例如，当脚本编辑器有外部编辑器未考虑的未保存更改时就会显示。
 
 .. rst-class:: classref-item-separator
 

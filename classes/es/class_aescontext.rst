@@ -130,7 +130,7 @@ enum **Mode**: :ref:`🔗<enum_AESContext_Mode>`
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_ECB_ENCRYPT** = ``0``
 
-AES electronic codebook encryption mode.
+Modo de cifrado ECB (Electronic Codebook) de AES.
 
 .. _class_AESContext_constant_MODE_ECB_DECRYPT:
 

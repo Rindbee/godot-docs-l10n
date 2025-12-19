@@ -586,9 +586,9 @@ Si può sovrascrivere con la variabile di ambiente ``GODOT_APPLE_PLATFORM_PROFIL
 
 :ref:`String<class_String>` **application/provisioning_profile_uuid_debug** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/provisioning_profile_uuid_debug>`
 
-UUID of the provisioning profile. If left empty, Xcode will download or create a provisioning profile automatically. See `Edit, download, or delete provisioning profiles <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
+UUID del profilo di provisioning. Se lasciato vuoto, Xcode scaricherà o creerà automaticamente un profilo di provisioning. Consulta `Modifica, scarica o elimina profili di provisioning <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
 
-Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_DEBUG``.
+Si può sovrascrivere con la variabile di ambiente ``GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_DEBUG``.
 
 .. rst-class:: classref-item-separator
 
@@ -600,9 +600,9 @@ Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISION
 
 :ref:`String<class_String>` **application/provisioning_profile_uuid_release** :ref:`🔗<class_EditorExportPlatformVisionOS_property_application/provisioning_profile_uuid_release>`
 
-UUID of the provisioning profile. If left empty, Xcode will download or create a provisioning profile automatically. See `Edit, download, or delete provisioning profiles <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
+UUID del profilo di provisioning. Se lasciato vuoto, Xcode scaricherà o creerà automaticamente un profilo di provisioning. Consulta `Modifica, scarica o elimina profili di provisioning <https://developer.apple.com/help/account/manage-profiles/edit-download-or-delete-profiles>`__.
 
-Can be overridden with the environment variable ``GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_RELEASE``.
+Si può sovrascrivere con la variabile di ambiente ``GODOT_APPLE_PLATFORM_PROVISIONING_PROFILE_UUID_RELEASE``.
 
 .. rst-class:: classref-item-separator
 

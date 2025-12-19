@@ -71,11 +71,11 @@ Descripciones de Propiedades
 
 :ref:`String<class_String>` **binary_format/architecture** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_binary_format/architecture>`
 
-Application executable architecture.
+Arquitectura del ejecutable de la aplicación.
 
-Supported architectures: ``x86_32``, ``x86_64``, ``arm64``, ``arm32``, ``rv64``, ``ppc64``, and ``loongarch64``.
+Arquitecturas admitidas: ``x86_32``, ``x86_64``, ``arm64``, ``arm32``, ``rv64``, ``ppc64`` y ``loongarch64``.
 
-Official export templates include ``x86_32``, ``x86_64``, ``arm32``, and ``arm64`` binaries only.
+Las plantillas de exportación oficiales incluyen solo binarios ``x86_32``, ``x86_64``, ``arm32`` y ``arm64``.
 
 .. rst-class:: classref-item-separator
 
@@ -87,7 +87,7 @@ Official export templates include ``x86_32``, ``x86_64``, ``arm32``, and ``arm64
 
 :ref:`bool<class_bool>` **binary_format/embed_pck** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_binary_format/embed_pck>`
 
-If ``true``, project resources are embedded into the executable.
+Si es ``true``, los recursos del proyecto se incrustan en el ejecutable.
 
 .. rst-class:: classref-item-separator
 
@@ -123,7 +123,7 @@ Ruta a la plantilla de exportación personalizada. Si se deja vacío, se utiliza
 
 :ref:`int<class_int>` **debug/export_console_wrapper** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_debug/export_console_wrapper>`
 
-If ``true``, a console wrapper is exported alongside the main executable, which allows running the project with enabled console output.
+Si es ``true``, se exporta un envoltorio de consola junto con el ejecutable principal, lo que permite ejecutar el proyecto con la salida de la consola habilitada.
 
 .. rst-class:: classref-item-separator
 

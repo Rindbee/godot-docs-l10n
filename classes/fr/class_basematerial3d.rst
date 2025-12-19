@@ -7,7 +7,7 @@ BaseMaterial3D
 
 **Hérite de :** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`ORMMaterial3D<class_ORMMaterial3D>`, :ref:`StandardMaterial3D<class_StandardMaterial3D>`
+**Hérité par :** :ref:`ORMMaterial3D<class_ORMMaterial3D>`, :ref:`StandardMaterial3D<class_StandardMaterial3D>`
 
 Classe de base abstraite pour définir les propriétés de rendu 3D de maillages.
 
@@ -526,7 +526,7 @@ Le filtrage de texture mélange les 4 pixels les plus proches. Cela rend la text
 
 :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = ``2``
 
-The texture filter reads from the nearest pixel and blends between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look pixelated from up close, and smooth from a distance.
+Le filtre de texture lit le pixel le plus proche et mélange entre les 2 mipmaps les plus proches. (ou utilise la mipmap la plus proche si :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` vaut ``true``). Cela rend la texture pixelisée de près, et lisse à une certaine distance.
 
 .. _class_BaseMaterial3D_constant_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS:
 
@@ -534,7 +534,7 @@ The texture filter reads from the nearest pixel and blends between the nearest 2
 
 :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = ``3``
 
-The texture filter blends between the nearest 4 pixels and between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look smooth from up close, and smooth from a distance.
+Le filtre de texture mélange les 4 pixels les plus proches et les 2 mipmaps les plus proches. (ou utilise la mipmap la plus proche si :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` vaut ``true``). Cela rend la texture lisse de près, et lisse à une certaine distance.
 
 .. _class_BaseMaterial3D_constant_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC:
 
@@ -542,7 +542,7 @@ The texture filter blends between the nearest 4 pixels and between the nearest 2
 
 :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC** = ``4``
 
-The texture filter reads from the nearest pixel and blends between 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``) based on the angle between the surface and the camera view. This makes the texture look pixelated from up close, and smooth from a distance. Anisotropic filtering improves texture quality on surfaces that are almost in line with the camera, but is slightly slower. The anisotropic filtering level can be changed by adjusting :ref:`ProjectSettings.rendering/textures/default_filters/anisotropic_filtering_level<class_ProjectSettings_property_rendering/textures/default_filters/anisotropic_filtering_level>`.
+Le filtre de texture lit le pixel le plus proche et mélange entre 2 mipmaps (ou utilise la mipmap la plus proche si :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` vaut ``true``) selon l'angle entre la surface et la vue de la caméra. Cela rend la texture pixelisée de près, et lisse à une certaine distance. Le filtrage anisotropique améliore la qualité de la texture sur les surfaces qui sont quasiment alignées avec la caméra, mais est légèrement plus lent. Le niveau du filtrage anisotropique peut être changé en ajustant :ref:`ProjectSettings.rendering/textures/default_filters/anisotropic_filtering_level<class_ProjectSettings_property_rendering/textures/default_filters/anisotropic_filtering_level>`.
 
 .. _class_BaseMaterial3D_constant_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC:
 
@@ -550,7 +550,7 @@ The texture filter reads from the nearest pixel and blends between 2 mipmaps (or
 
 :ref:`TextureFilter<enum_BaseMaterial3D_TextureFilter>` **TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC** = ``5``
 
-The texture filter blends between the nearest 4 pixels and blends between 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``) based on the angle between the surface and the camera view. This makes the texture look smooth from up close, and smooth from a distance. Anisotropic filtering improves texture quality on surfaces that are almost in line with the camera, but is slightly slower. The anisotropic filtering level can be changed by adjusting :ref:`ProjectSettings.rendering/textures/default_filters/anisotropic_filtering_level<class_ProjectSettings_property_rendering/textures/default_filters/anisotropic_filtering_level>`.
+Le filtre de texture lit les 4 pixels les plus proches et mélange entre 2 mipmaps (ou utilise la mipmap la plus proche si :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` vaut ``true``) selon l'angle entre la surface et la vue de la caméra. Cela rend la texture lisse de près, et lisse à une certaine distance. Le filtrage anisotropique améliore la qualité de la texture sur les surfaces qui sont quasiment alignées avec la caméra, mais est légèrement plus lent. Le niveau du filtrage anisotropique peut être changé en ajustant :ref:`ProjectSettings.rendering/textures/default_filters/anisotropic_filtering_level<class_ProjectSettings_property_rendering/textures/default_filters/anisotropic_filtering_level>`.
 
 .. _class_BaseMaterial3D_constant_TEXTURE_FILTER_MAX:
 
@@ -626,7 +626,7 @@ Le matériau coupera toutes les valeurs en dessous d'un seuil, le reste restera 
 
 :ref:`Transparency<enum_BaseMaterial3D_Transparency>` **TRANSPARENCY_ALPHA_HASH** = ``3``
 
-The material will cut off all values below a spatially-deterministic threshold, the rest will remain opaque. This is faster to render than alpha blending, but slower than opaque rendering. This also supports casting shadows. Alpha hashing is suited for hair rendering.
+Le matériau coupera toutes les valeurs en dessous d'un seuil déterminé spatialement, le reste restera opaque. Ceci est plus rapide à rendre que le mélange alpha, mais plus lent que le rendu opaque. Cela prend également en charge la projection d'ombres. Le hachage Alpha est adapté pour le rendu des cheveux.
 
 .. _class_BaseMaterial3D_constant_TRANSPARENCY_ALPHA_DEPTH_PRE_PASS:
 
@@ -634,7 +634,7 @@ The material will cut off all values below a spatially-deterministic threshold, 
 
 :ref:`Transparency<enum_BaseMaterial3D_Transparency>` **TRANSPARENCY_ALPHA_DEPTH_PRE_PASS** = ``4``
 
-The material will use the texture's alpha value for transparency, but will discard fragments with an alpha of less than 0.99 during the depth prepass and fragments with an alpha less than 0.1 during the shadow pass. This also supports casting shadows.
+Le matériau utilisera la valeur alpha de la texture pour la transparence, mais rejettera les fragments avec un alpha inférieur à 0,99 lors de la pré-passe de profondeur et les fragments avec un alpha inférieur à 0,1 pendant la passe d'ombre. Cela prend également en charge les projections d'ombres.
 
 .. _class_BaseMaterial3D_constant_TRANSPARENCY_MAX:
 
@@ -952,7 +952,7 @@ Le test de profondeur va défausser le pixel s'il est derrière d'autres pixels.
 
 :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>` **DEPTH_TEST_INVERTED** = ``1``
 
-Depth test will discard the pixel if it is in front of other pixels. Useful for stencil effects.
+Le test de profondeur va défausser le pixel s'il est devant d'autres pixels. Utile pour les effets de pochoir.
 
 .. rst-class:: classref-item-separator
 
@@ -1126,7 +1126,7 @@ Désactive la réception de la lumière ambiante.
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_USE_SHADOW_TO_OPACITY** = ``15``
 
-Enables the shadow to opacity feature.
+Active la fonctionnalité de l'ombre vers opacité.
 
 .. _class_BaseMaterial3D_constant_FLAG_USE_TEXTURE_REPEAT:
 
@@ -1466,7 +1466,7 @@ enum **StencilMode**: :ref:`🔗<enum_BaseMaterial3D_StencilMode>`
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_DISABLED** = ``0``
 
-Disables stencil operations.
+Désactive les opérations de pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_MODE_OUTLINE:
 
@@ -1474,9 +1474,9 @@ Disables stencil operations.
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_OUTLINE** = ``1``
 
-Stencil preset which applies an outline to the object.
+Pré-réglage de pochoir qui applique un contour à l'objet.
 
-\ **Note:** Requires a :ref:`Material.next_pass<class_Material_property_next_pass>` material which will be automatically applied. Any manual changes made to :ref:`Material.next_pass<class_Material_property_next_pass>` will be lost when the stencil properties are modified or the scene is reloaded. To safely apply a :ref:`Material.next_pass<class_Material_property_next_pass>` material on a material that uses stencil presets, use :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>` instead.
+\ **Note :** Nécessite un matériau :ref:`Material.next_pass<class_Material_property_next_pass>` qui sera automatiquement appliqué. Tout changement manuel apporté à :ref:`Material.next_pass<class_Material_property_next_pass>` sera perdu lorsque les propriétés du pochoir sont modifiées ou que la scène est rechargée. Pour appliquer en toute sécurité un matériau :ref:`Material.next_pass<class_Material_property_next_pass>` sur un matériau qui utilise des pré-réglages de pochoir, utilisez :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>` à la place.
 
 .. _class_BaseMaterial3D_constant_STENCIL_MODE_XRAY:
 
@@ -1484,9 +1484,9 @@ Stencil preset which applies an outline to the object.
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_XRAY** = ``2``
 
-Stencil preset which shows a silhouette of the object behind walls.
+Pré-réglage de pochoir qui affiche une silhouette de l'objet derrière les murs.
 
-\ **Note:** Requires a :ref:`Material.next_pass<class_Material_property_next_pass>` material which will be automatically applied. Any manual changes made to :ref:`Material.next_pass<class_Material_property_next_pass>` will be lost when the stencil properties are modified or the scene is reloaded. To safely apply a :ref:`Material.next_pass<class_Material_property_next_pass>` material on a material that uses stencil presets, use :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>` instead.
+\ **Note :** Nécessite un matériau :ref:`Material.next_pass<class_Material_property_next_pass>` qui sera automatiquement appliqué. Tout changement manuel apporté à :ref:`Material.next_pass<class_Material_property_next_pass>` sera perdu lorsque les propriétés du pochoir sont modifiées ou que la scène est rechargée. Pour appliquer en toute sécurité un matériau :ref:`Material.next_pass<class_Material_property_next_pass>` sur un matériau qui utilise des pré-réglages de pochoir, utilisez :ref:`GeometryInstance3D.material_overlay<class_GeometryInstance3D_property_material_overlay>` à la place.
 
 .. _class_BaseMaterial3D_constant_STENCIL_MODE_CUSTOM:
 
@@ -1494,7 +1494,7 @@ Stencil preset which shows a silhouette of the object behind walls.
 
 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>` **STENCIL_MODE_CUSTOM** = ``3``
 
-Enables stencil operations without a preset.
+Active les opérations de pochoir sans un pré-réglage.
 
 .. rst-class:: classref-item-separator
 
@@ -1512,7 +1512,7 @@ enum **StencilFlags**: :ref:`🔗<enum_BaseMaterial3D_StencilFlags>`
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_READ** = ``1``
 
-The material will only be rendered where it passes a stencil comparison with existing stencil buffer values. See :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+Le matériau ne sera rendu que lorsqu'il passe une comparaison de pochoirs avec les valeurs du buffeur de pochoir existantes. Voir :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE:
 
@@ -1520,7 +1520,7 @@ The material will only be rendered where it passes a stencil comparison with exi
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_WRITE** = ``2``
 
-The material will write the reference value to the stencil buffer where it passes the depth test.
+Le matériau écrira la valeur de référence dans le buffer de pochoir la où il passe le test de profondeur.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE_DEPTH_FAIL:
 
@@ -1528,7 +1528,7 @@ The material will write the reference value to the stencil buffer where it passe
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_WRITE_DEPTH_FAIL** = ``4``
 
-The material will write the reference value to the stencil buffer where it fails the depth test.
+Le matériau écrira la valeur de référence dans le buffer de pochoir la où il échoue au test de profondeur.
 
 .. rst-class:: classref-item-separator
 
@@ -1546,7 +1546,7 @@ enum **StencilCompare**: :ref:`🔗<enum_BaseMaterial3D_StencilCompare>`
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_ALWAYS** = ``0``
 
-Always passes the stencil test.
+Passe toujours le test de pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_LESS:
 
@@ -1554,7 +1554,7 @@ Always passes the stencil test.
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_LESS** = ``1``
 
-Passes the stencil test when the reference value is less than the existing stencil value.
+Passe le test du pochoir lorsque la valeur de référence est inférieure à la valeur existante du pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_EQUAL:
 
@@ -1562,7 +1562,7 @@ Passes the stencil test when the reference value is less than the existing stenc
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_EQUAL** = ``2``
 
-Passes the stencil test when the reference value is equal to the existing stencil value.
+Passe le test du pochoir lorsque la valeur de référence est égale à la valeur existante du pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_LESS_OR_EQUAL:
 
@@ -1570,7 +1570,7 @@ Passes the stencil test when the reference value is equal to the existing stenci
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_LESS_OR_EQUAL** = ``3``
 
-Passes the stencil test when the reference value is less than or equal to the existing stencil value.
+Passe le test du pochoir lorsque la valeur de référence est inférieure ou égale à la valeur existante du pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_GREATER:
 
@@ -1578,7 +1578,7 @@ Passes the stencil test when the reference value is less than or equal to the ex
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_GREATER** = ``4``
 
-Passes the stencil test when the reference value is greater than the existing stencil value.
+Passe le test du pochoir lorsque la valeur de référence est supérieure à la valeur existante du pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_NOT_EQUAL:
 
@@ -1586,7 +1586,7 @@ Passes the stencil test when the reference value is greater than the existing st
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_NOT_EQUAL** = ``5``
 
-Passes the stencil test when the reference value is not equal to the existing stencil value.
+Passe le test du pochoir lorsque la valeur de référence n'est pas égale à la valeur existante du pochoir.
 
 .. _class_BaseMaterial3D_constant_STENCIL_COMPARE_GREATER_OR_EQUAL:
 
@@ -1594,7 +1594,7 @@ Passes the stencil test when the reference value is not equal to the existing st
 
 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>` **STENCIL_COMPARE_GREATER_OR_EQUAL** = ``6``
 
-Passes the stencil test when the reference value is greater than or equal to the existing stencil value.
+Passe le test du pochoir lorsque la valeur de référence est supérieure ou égale à la valeur existante du pochoir.
 
 .. rst-class:: classref-section-separator
 
@@ -2277,7 +2277,7 @@ Spécifie s'il faut utiliser ``UV`` ou ``UV2`` pour la couche de détail.
 - |void| **set_diffuse_mode**\ (\ value\: :ref:`DiffuseMode<enum_BaseMaterial3D_DiffuseMode>`\ )
 - :ref:`DiffuseMode<enum_BaseMaterial3D_DiffuseMode>` **get_diffuse_mode**\ (\ )
 
-The algorithm used for diffuse light scattering.
+L'algorithme utilisé pour la diffusion de la lumière diffuse.
 
 .. rst-class:: classref-item-separator
 
@@ -2572,9 +2572,9 @@ Redéfinit l'angle du champ de vision de la :ref:`Camera3D<class_Camera3D>` (en 
 - |void| **set_grow_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_grow_enabled**\ (\ )
 
-If ``true``, enables the vertex grow setting. This can be used to create mesh-based outlines using a second material pass and its :ref:`cull_mode<class_BaseMaterial3D_property_cull_mode>` set to :ref:`CULL_FRONT<class_BaseMaterial3D_constant_CULL_FRONT>`. See also :ref:`grow_amount<class_BaseMaterial3D_property_grow_amount>`.
+Si ``true``, permet le réglage de l'agrandissement des sommets. Cela peut être utilisé pour créer des contours basés sur le maillage à l'aide d'un deuxième passe du matériau et son :ref:`cull_mode<class_BaseMaterial3D_property_cull_mode>` défini à :ref:`CULL_FRONT<class_BaseMaterial3D_constant_CULL_FRONT>`. Voir aussi :ref:`grow_amount<class_BaseMaterial3D_property_grow_amount>`.
 
-\ **Note:** Vertex growth cannot create new vertices, which means that visible gaps may occur in sharp corners. This can be alleviated by designing the mesh to use smooth normals exclusively using `face weighted normals <http://wiki.polycount.com/wiki/Face_weighted_normals>`__ in the 3D authoring software. In this case, grow will be able to join every outline together, just like in the original mesh.
+\ **Note :** L'agrandissement des sommets ne peut pas créer de nouveaux sommets, ce qui signifie que des écarts visibles peuvent se produire dans les coins tranchants. Cela peut être atténué en concevant le maillage pour qu'il utilise des normales lisses exclusivement en utilisant `normales pondérées par les faces <http://wiki.polycount.com/wiki/Face_weighted_normals>`__ dans le logiciel de développent 3D. Dans ce cas, l'agrandissement sera en mesure de faire rejoindre tous les contours, comme dans le maillage original.
 
 .. rst-class:: classref-item-separator
 
@@ -2608,7 +2608,7 @@ Agrandit les sommets des objets dans la direction de leurs normales. Effectif se
 - |void| **set_heightmap_deep_parallax**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_heightmap_deep_parallax_enabled**\ (\ )
 
-If ``true``, uses parallax occlusion mapping to represent depth in the material instead of simple offset mapping (see :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>`). This results in a more convincing depth effect, but is much more expensive on the GPU. Only enable this on materials where it makes a significant visual difference.
+Si ``true``, utilise le parallax occlusion mapping pour représenter la profondeur dans le matériau au lieu d'un simple mapping de décalage (voir :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>`). Cela résulte en un effet de profondeur plus convaincant, mais est beaucoup plus cher sur le GPU. N'activez ceci que sur les matériaux où cela fait une différence visuelle significative.
 
 .. rst-class:: classref-item-separator
 
@@ -2625,9 +2625,9 @@ If ``true``, uses parallax occlusion mapping to represent depth in the material 
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-If ``true``, height mapping is enabled (also called "parallax mapping" or "depth mapping"). See also :ref:`normal_enabled<class_BaseMaterial3D_property_normal_enabled>`. Height mapping is a demanding feature on the GPU, so it should only be used on materials where it makes a significant visual difference.
+Si ``true``, le height mapping est actif (également appelé « parallax mapping » ou « depth mapping »). Voir aussi :ref:`normal_enabled<class_BaseMaterial3D_property_normal_enabled>`. Le height mapping est une fonctionnalité exigeante sur le GPU, donc il ne devrait être utilisé que sur les matériaux où cela fait une différence visuelle significative.
 
-\ **Note:** Height mapping is not supported if triplanar mapping is used on the same material. The value of :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>` will be ignored if :ref:`uv1_triplanar<class_BaseMaterial3D_property_uv1_triplanar>` is enabled.
+\ **Note :** Le height mapping n'est pas supporté si le triplanar mapping est utilisé sur le même matériau. La valeur de :ref:`heightmap_enabled<class_BaseMaterial3D_property_heightmap_enabled>` sera ignorée si :ref:`uv1_triplanar<class_BaseMaterial3D_property_uv1_triplanar>` est actif.
 
 .. rst-class:: classref-item-separator
 
@@ -2697,9 +2697,9 @@ Ceci peut être activé pour la compatibilité avec certains matériaux faits po
 - |void| **set_heightmap_deep_parallax_max_layers**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_heightmap_deep_parallax_max_layers**\ (\ )
 
-The number of layers to use for parallax occlusion mapping when the camera is up close to the material. Higher values result in a more convincing depth effect, especially in materials that have steep height changes. Higher values have a significant cost on the GPU, so it should only be increased on materials where it makes a significant visual difference.
+Le nombre de couches à utiliser pour le parallax occlusion mapping lorsque la caméra est à proximité du matériau. Les valeurs plus élevées entraînent un effet de profondeur plus convaincant, surtout dans les matériaux qui ont des changements de hauteur raides. Les valeurs plus élevées ont un coût important sur le GPU, donc il ne devrait être augmenté que sur les matériaux où cela fait une différence visuelle significative.
 
-\ **Note:** Only effective if :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` is ``true``.
+\ **Note :** Seulement effectif si :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2716,9 +2716,9 @@ The number of layers to use for parallax occlusion mapping when the camera is up
 - |void| **set_heightmap_deep_parallax_min_layers**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_heightmap_deep_parallax_min_layers**\ (\ )
 
-The number of layers to use for parallax occlusion mapping when the camera is far away from the material. Higher values result in a more convincing depth effect, especially in materials that have steep height changes. Higher values have a significant cost on the GPU, so it should only be increased on materials where it makes a significant visual difference.
+Le nombre de couches à utiliser pour le parallax occlusion mapping lorsque la caméra est loin du matériau. Les valeurs plus élevées entraînent un effet de profondeur plus convaincant, surtout dans les matériaux qui ont des changements de hauteur raides. Les valeurs plus élevées ont un coût important sur le GPU, donc il ne devrait être augmenté que sur les matériaux où cela fait une différence visuelle significative.
 
-\ **Note:** Only effective if :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` is ``true``.
+\ **Note :** Seulement effectif si :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2792,9 +2792,9 @@ Une valeur élevée fait apparaître le matériau plus comme un métal. Les non-
 - |void| **set_specular**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_specular**\ (\ )
 
-Adjusts the strength of specular reflections. Specular reflections are composed of scene reflections and the specular lobe which is the bright spot that is reflected from light sources. When set to ``0.0``, no specular reflections will be visible. This differs from the :ref:`SPECULAR_DISABLED<class_BaseMaterial3D_constant_SPECULAR_DISABLED>` :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` as :ref:`SPECULAR_DISABLED<class_BaseMaterial3D_constant_SPECULAR_DISABLED>` only applies to the specular lobe from the light source.
+Ajuste la force des réflexions spéculaires. Les réflexions spéculaires sont composés des réflexions de la scène et du lobe spéculaire qui est le point lumineux qui est reflété de sources lumineuses. Lorsqu'elle est définie à ``0.0``, aucune réflexion spéculaire ne sera visible. Cela diffère du mode :ref:`SpecularMode<enum_BaseMaterial3D_SpecularMode>` :ref:`SPECULAR_DISABLED<class_BaseMaterial3D_constant_SPECULAR_DISABLED>` car :ref:`SPECULAR_DISABLED<class_BaseMaterial3D_constant_SPECULAR_DISABLED>` s'applique seulement au lobe spéculaire de la source lumineuse.
 
-\ **Note:** Unlike :ref:`metallic<class_BaseMaterial3D_property_metallic>`, this is not energy-conserving, so it should be left at ``0.5`` in most cases. See also :ref:`roughness<class_BaseMaterial3D_property_roughness>`.
+\ **Note :** Contrairement à :ref:`metallic<class_BaseMaterial3D_property_metallic>`, cela ne conserve pas l'énergie, donc elle devrait être laissée à ``0.5`` dans la plupart des cas. Voir aussi :ref:`roughness<class_BaseMaterial3D_property_roughness>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2953,7 +2953,7 @@ Texture utilisée pour spécifier la normale en un pixel donné. La :ref:`normal
 - |void| **set_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const|
 
-The Occlusion/Roughness/Metallic texture to use. This is a more efficient replacement of :ref:`ao_texture<class_BaseMaterial3D_property_ao_texture>`, :ref:`roughness_texture<class_BaseMaterial3D_property_roughness_texture>` and :ref:`metallic_texture<class_BaseMaterial3D_property_metallic_texture>` in :ref:`ORMMaterial3D<class_ORMMaterial3D>`. Ambient occlusion is stored in the red channel. Roughness map is stored in the green channel. Metallic map is stored in the blue channel. The alpha channel is ignored.
+La texture Occlusion/Rugosité/Metallique à utiliser. Il s'agit d'un remplacement plus efficace de :ref:`ao_texture<class_BaseMaterial3D_property_ao_texture>`, :ref:`roughness_texture<class_BaseMaterial3D_property_roughness_texture>` et :ref:`metallic_texture<class_BaseMaterial3D_property_metallic_texture>` dans :ref:`ORMMaterial3D<class_ORMMaterial3D>`. L'occlusion ambiante est stockée dans le canal rouge. La rugosité est stockée dans le canal vert. Le métallique est stockée dans le canal bleu. Le canal alpha est ignoré.
 
 .. rst-class:: classref-item-separator
 
@@ -3280,7 +3280,7 @@ Définit si l'ombrage a lieu, par pixel, par sommet ou pas du tout. L'éclairage
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, enables the "shadow to opacity" render mode where lighting modifies the alpha so shadowed areas are opaque and non-shadowed areas are transparent. Useful for overlaying shadows onto a camera feed in AR.
+Si ``true``, permet le mode de rendu « ombre vers opacité » où l'éclairage modifie l'alpha de sorte que les zones ombragées sont opaques et les zones non ombragées sont transparentes. Utilise pour superposer des ombres sur un flux de caméra en RA.
 
 .. rst-class:: classref-item-separator
 
@@ -3318,7 +3318,7 @@ La méthode pour rendre le blob spéculaire.
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-The primary color of the stencil effect.
+La couleur primaire de l'effet de pochoir.
 
 .. rst-class:: classref-item-separator
 
@@ -3337,7 +3337,7 @@ The primary color of the stencil effect.
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-The comparison operator to use for stencil masking operations. See :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+L'opérateur de comparaison à utiliser pour les opérations de masque de pochoir. Voir :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3356,7 +3356,7 @@ The comparison operator to use for stencil masking operations. See :ref:`Stencil
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-The flags dictating how the stencil operation behaves. See :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
+Les drapeaux dictant comment l'opération de pochoir se comporte. Voir :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3375,7 +3375,7 @@ The flags dictating how the stencil operation behaves. See :ref:`StencilFlags<en
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-The stencil effect mode. See :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
+Le mode d'effet de pochoir. Voir :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3413,7 +3413,7 @@ L'épaisseur du contour pour :ref:`STENCIL_MODE_OUTLINE<class_BaseMaterial3D_con
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-The stencil reference value (0-255). Typically a power of 2.
+La valeur de référence du pochoir (0-255). Typiquement une puissance de 2.
 
 .. rst-class:: classref-item-separator
 
@@ -3430,7 +3430,9 @@ The stencil reference value (0-255). Typically a power of 2.
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-Si ``true``, la transluminescence est activée. Émule la lumière qui pénètre la surface d'un objet, est dispersée, puis émerge. La qualité de la transluminescence est contrôlée par :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+If ``true``, subsurface scattering is enabled. Emulates light that penetrates an object's surface, is scattered, and then emerges. Subsurface scattering quality is controlled by :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+
+\ **Note:** Subsurface scattering is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 
@@ -3566,7 +3568,7 @@ Si ``true``, active la transmittance de la transluminescence. Seulement effectif
 - |void| **set_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const|
 
-The texture to use for multiplying the intensity of the subsurface scattering transmittance intensity. See also :ref:`subsurf_scatter_texture<class_BaseMaterial3D_property_subsurf_scatter_texture>`. Ignored if :ref:`subsurf_scatter_skin_mode<class_BaseMaterial3D_property_subsurf_scatter_skin_mode>` is ``true``.
+La texture à utiliser pour multiplier l'intensité de l'intensité de la transluminescence. Voir aussi :ref:`subsurf_scatter_texture<class_BaseMaterial3D_property_subsurf_scatter_texture>`. Ignoré si :ref:`subsurf_scatter_skin_mode<class_BaseMaterial3D_property_subsurf_scatter_skin_mode>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -3689,7 +3691,7 @@ Si ``true``, la taille du point de rendu peut être modifiée.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true`` use :ref:`z_clip_scale<class_BaseMaterial3D_property_z_clip_scale>` to scale the object being rendered towards the camera to avoid clipping into things like walls.
+Si ``true``, utilise :ref:`z_clip_scale<class_BaseMaterial3D_property_z_clip_scale>` pour redimensionner l'objet rendu vers la caméra pour éviter le clipping dans des objets comme des murs.
 
 .. rst-class:: classref-item-separator
 
@@ -3740,7 +3742,7 @@ De combien redimensionner les coordonnées ``UV``. Ceci est multiplié par ``UV`
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, instead of using ``UV`` textures will use a triplanar texture lookup to determine how to apply textures. Triplanar uses the orientation of the object's surface to blend between texture coordinates. It reads from the source texture 3 times, once for each axis and then blends between the results based on how closely the pixel aligns with each axis. This is often used for natural features to get a realistic blend of materials. Because triplanar texturing requires many more texture reads per-pixel it is much slower than normal UV texturing. Additionally, because it is blending the texture between the three axes, it is unsuitable when you are trying to achieve crisp texturing.
+Si ``true``, au lieu d'utiliser les textures ``UV``, utilisera une recherche de texture tri-planaire pour déterminer comment appliquer les textures. Le tri-planaire utilise l'orientation de la surface de l'objet pour mélanger les coordonnées de texture. Il lit à partir de la texture source 3 fois, une fois pour chaque axe et puis mélange les résultats en fonction de la proximité du pixel avec chaque axe. Cela est souvent utilisé pour les caractéristiques naturelles pour obtenir un mélange réaliste des matériaux. Comme le texturage tri-planaire nécessite beaucoup plus de lectures de texture par-pixel, il est beaucoup plus lent que le texturage UV normal. De plus, comme il mélange la texture entre les trois axes, il est inapproprié lorsque vous essayez d'obtenir du texturage net.
 
 .. rst-class:: classref-item-separator
 
@@ -3916,7 +3918,7 @@ Si ``true``, la couleur du sommet est utilisé pour la couleur de l'albedo.
 - |void| **set_z_clip_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_z_clip_scale**\ (\ )
 
-Scales the object being rendered towards the camera to avoid clipping into things like walls. This is intended to be used for objects that are fixed with respect to the camera like player arms, tools, etc. Lighting and shadows will continue to work correctly when this setting is adjusted, but screen-space effects like SSAO and SSR may break with lower scales. Therefore, try to keep this setting as close to ``1.0`` as possible.
+Redimensionne l'objet rendu vers la caméra pour éviter le clipping dans des objets comme des murs. Ceci est destiné à être utilisé pour les objets qui sont fixés par rapport à la caméra comme les bras du joueur, les outils, etc. L'éclairage et les ombres continueront de fonctionner correctement lorsque ce paramètre est ajusté, mais les effets de l'espace-écran comme le SSAO et le SSR peuvent casser pour les échelles inférieures. Par conséquent, essayez de garder ce paramètre aussi près que possible de ``1.0``.
 
 .. rst-class:: classref-section-separator
 

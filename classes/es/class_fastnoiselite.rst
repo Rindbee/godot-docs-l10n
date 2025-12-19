@@ -7,16 +7,16 @@ FastNoiseLite
 
 **Hereda:** :ref:`Noise<class_Noise>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Generates noise using the FastNoiseLite library.
+Genera ruido utilizando la librería FastNoiseLite.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This class generates noise using the FastNoiseLite library, which is a collection of several noise algorithms including Cellular, Perlin, Value, and more.
+Esta clase genera ruido utilizando la librería FastNoiseLite, que es una colección de varios algoritmos de ruido incluyendo Celular, Perlin, Valor y más.
 
-Most generated noise values are in the range of ``[-1, 1]``, but not always. Some of the cellular noise algorithms return results above ``1``.
+La mayoría de los valores de ruido generados están en el rango de ``[-1, 1]``, pero no siempre. Algunos de los algoritmos de ruido celular devuelven resultados por encima de ``1``.
 
 .. rst-class:: classref-reftable-group
 
@@ -99,9 +99,9 @@ A una red de puntos se les asignan valores aleatorios y luego se interpolan en f
 
 :ref:`NoiseType<enum_FastNoiseLite_NoiseType>` **TYPE_VALUE_CUBIC** = ``4``
 
-Similar to value noise (:ref:`TYPE_VALUE<class_FastNoiseLite_constant_TYPE_VALUE>`), but slower. Has more variance in peaks and valleys.
+Similar al ruido de valor (:ref:`TYPE_VALUE<class_FastNoiseLite_constant_TYPE_VALUE>`), pero más lento. Tiene más varianza en los picos y valles.
 
-Cubic noise can be used to avoid certain artifacts when using value noise to create a bumpmap. In general, you should always use this mode if the value noise is being used for a heightmap or bumpmap.
+El ruido cúbico se puede usar para evitar ciertos artefactos al usar el ruido de valor para crear un mapa de relieve. En general, siempre debes usar este modo si el ruido de valor se está utilizando para un mapa de altura o un mapa de relieve.
 
 .. _class_FastNoiseLite_constant_TYPE_PERLIN:
 
@@ -373,7 +373,7 @@ Descripciones de Propiedades
 - |void| **set_cellular_distance_function**\ (\ value\: :ref:`CellularDistanceFunction<enum_FastNoiseLite_CellularDistanceFunction>`\ )
 - :ref:`CellularDistanceFunction<enum_FastNoiseLite_CellularDistanceFunction>` **get_cellular_distance_function**\ (\ )
 
-Determines how the distance to the nearest/second-nearest point is computed.
+Determina cómo se calcula la distancia al punto más cercano/segundo más cercano.
 
 .. rst-class:: classref-item-separator
 
@@ -390,7 +390,7 @@ Determines how the distance to the nearest/second-nearest point is computed.
 - |void| **set_cellular_jitter**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_cellular_jitter**\ (\ )
 
-Maximum distance a point can move off of its grid position. Set to ``0`` for an even grid.
+Distancia máxima que un punto puede moverse fuera de su posición en la cuadrícula. Establecer en ``0`` para una cuadrícula uniforme.
 
 .. rst-class:: classref-item-separator
 
@@ -407,7 +407,7 @@ Maximum distance a point can move off of its grid position. Set to ``0`` for an 
 - |void| **set_cellular_return_type**\ (\ value\: :ref:`CellularReturnType<enum_FastNoiseLite_CellularReturnType>`\ )
 - :ref:`CellularReturnType<enum_FastNoiseLite_CellularReturnType>` **get_cellular_return_type**\ (\ )
 
-Return type from cellular noise calculations.
+Tipo de retorno de los cálculos de ruido celular.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ Return type from cellular noise calculations.
 - |void| **set_domain_warp_amplitude**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_domain_warp_amplitude**\ (\ )
 
-Sets the maximum warp distance from the origin.
+Establece la distancia máxima de deformación desde el origen.
 
 .. rst-class:: classref-item-separator
 
@@ -441,7 +441,7 @@ Sets the maximum warp distance from the origin.
 - |void| **set_domain_warp_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_domain_warp_enabled**\ (\ )
 
-If enabled, another FastNoiseLite instance is used to warp the space, resulting in a distortion of the noise.
+Si está habilitado, se utiliza otra instancia de FastNoiseLite para deformar el espacio, lo que resulta en una distorsión del ruido.
 
 .. rst-class:: classref-item-separator
 
@@ -458,9 +458,9 @@ If enabled, another FastNoiseLite instance is used to warp the space, resulting 
 - |void| **set_domain_warp_fractal_gain**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_domain_warp_fractal_gain**\ (\ )
 
-Determines the strength of each subsequent layer of the noise which is used to warp the space.
+Determina la fuerza de cada capa subsiguiente del ruido que se utiliza para deformar el espacio.
 
-A low value places more emphasis on the lower frequency base layers, while a high value puts more emphasis on the higher frequency layers.
+Un valor bajo pone más énfasis en las capas base de baja frecuencia, mientras que un valor alto pone más énfasis en las capas de alta frecuencia.
 
 .. rst-class:: classref-item-separator
 
@@ -477,7 +477,7 @@ A low value places more emphasis on the lower frequency base layers, while a hig
 - |void| **set_domain_warp_fractal_lacunarity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_domain_warp_fractal_lacunarity**\ (\ )
 
-The change in frequency between octaves, also known as "lacunarity", of the fractal noise which warps the space. Increasing this value results in higher octaves, producing noise with finer details and a rougher appearance.
+El cambio en la frecuencia entre octavas, también conocido como "lacunaridad", del ruido fractal que deforma el espacio. Aumentar este valor resulta en octavas más altas, produciendo ruido con detalles más finos y una apariencia más áspera.
 
 .. rst-class:: classref-item-separator
 
@@ -494,7 +494,7 @@ The change in frequency between octaves, also known as "lacunarity", of the frac
 - |void| **set_domain_warp_fractal_octaves**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_domain_warp_fractal_octaves**\ (\ )
 
-The number of noise layers that are sampled to get the final value for the fractal noise which warps the space.
+El número de capas de ruido que se muestrean para obtener el valor final para el ruido fractal que deforma el espacio.
 
 .. rst-class:: classref-item-separator
 
@@ -511,7 +511,7 @@ The number of noise layers that are sampled to get the final value for the fract
 - |void| **set_domain_warp_fractal_type**\ (\ value\: :ref:`DomainWarpFractalType<enum_FastNoiseLite_DomainWarpFractalType>`\ )
 - :ref:`DomainWarpFractalType<enum_FastNoiseLite_DomainWarpFractalType>` **get_domain_warp_fractal_type**\ (\ )
 
-The method for combining octaves into a fractal which is used to warp the space.
+El método para combinar octavas en un fractal que se utiliza para deformar el espacio.
 
 .. rst-class:: classref-item-separator
 
@@ -528,7 +528,7 @@ The method for combining octaves into a fractal which is used to warp the space.
 - |void| **set_domain_warp_frequency**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_domain_warp_frequency**\ (\ )
 
-Frequency of the noise which warps the space. Low frequency results in smooth noise while high frequency results in rougher, more granular noise.
+Frecuencia del ruido que deforma el espacio. La baja frecuencia resulta en un ruido suave, mientras que la alta frecuencia resulta en un ruido más áspero y granular.
 
 .. rst-class:: classref-item-separator
 
@@ -562,9 +562,9 @@ El algoritmo de deformación.
 - |void| **set_fractal_gain**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_fractal_gain**\ (\ )
 
-Determines the strength of each subsequent layer of noise in fractal noise.
+Determina la fuerza de cada capa subsiguiente de ruido en el ruido fractal.
 
-A low value places more emphasis on the lower frequency base layers, while a high value puts more emphasis on the higher frequency layers.
+Un valor bajo da más importancia a las capas base de baja frecuencia, mientras que un valor alto da más importancia a las capas de alta frecuencia.
 
 .. rst-class:: classref-item-separator
 
@@ -581,7 +581,7 @@ A low value places more emphasis on the lower frequency base layers, while a hig
 - |void| **set_fractal_lacunarity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_fractal_lacunarity**\ (\ )
 
-Frequency multiplier between subsequent octaves. Increasing this value results in higher octaves producing noise with finer details and a rougher appearance.
+Multiplicador de frecuencia entre octavas subsiguientes. Aumentar este valor resulta en octavas más altas que producen ruido con detalles más finos y una apariencia más áspera.
 
 .. rst-class:: classref-item-separator
 
@@ -598,7 +598,7 @@ Frequency multiplier between subsequent octaves. Increasing this value results i
 - |void| **set_fractal_octaves**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_fractal_octaves**\ (\ )
 
-The number of noise layers that are sampled to get the final value for fractal noise types.
+El número de capas de ruido que se muestrean para obtener el valor final para los tipos de ruido fractal.
 
 .. rst-class:: classref-item-separator
 
@@ -615,7 +615,7 @@ The number of noise layers that are sampled to get the final value for fractal n
 - |void| **set_fractal_ping_pong_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_fractal_ping_pong_strength**\ (\ )
 
-Sets the strength of the fractal ping pong type.
+Establece la fuerza del tipo fractal ping pong.
 
 .. rst-class:: classref-item-separator
 

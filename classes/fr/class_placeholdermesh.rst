@@ -7,18 +7,18 @@ PlaceholderMesh
 
 **Hérite de :** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Placeholder class for a mesh.
+Classe placeholder pour un maillage.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This class is used when loading a project that uses a :ref:`Mesh<class_Mesh>` subclass in 2 conditions:
+Cette classe est utilisée lors du chargement d'un projet qui utilise une sous-classe de :ref:`Mesh<class_Mesh>` dans deux cas :
 
-- When running the project exported in dedicated server mode, only the texture's dimensions are kept (as they may be relied upon for gameplay purposes or positioning of other elements). This allows reducing the exported PCK's size significantly.
+- Lors de l'exécution du projet exporté en mode serveur dédié, seules les dimensions de la texture sont conservées (comme elles peuvent être utilisées à des fins de gameplay ou de positionnement d'autres éléments). Cela permet de réduire considérablement la taille du PCK exporté.
 
-- When this subclass is missing due to using a different engine version or build (e.g. modules disabled).
+- Lorsque cette sous-classe est manquante en raison de l'utilisation d'une autre version du moteur ou d'une autre compilation (par ex. avec des modules désactivés).
 
 .. rst-class:: classref-reftable-group
 
@@ -52,7 +52,7 @@ Descriptions des propriétés
 - |void| **set_aabb**\ (\ value\: :ref:`AABB<class_AABB>`\ )
 - :ref:`AABB<class_AABB>` **get_aabb**\ (\ )
 
-The smallest :ref:`AABB<class_AABB>` enclosing this mesh in local space.
+La plus petite :ref:`AABB<class_AABB>` englobant ce maillage dans l'espace local.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

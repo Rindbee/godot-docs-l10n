@@ -14,7 +14,7 @@ Gizmo per modificare gli oggetti :ref:`Node3D<class_Node3D>`.
 Descrizione
 ----------------------
 
-Gizmo that is used for providing custom visualization and editing (handles and subgizmos) for :ref:`Node3D<class_Node3D>` objects. Can be overridden to create custom gizmos, but for simple gizmos creating an :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>` is usually recommended.
+Gizmo che serve per fornire visualizzazione e modifica personalizzate (maniglie e gizmo secondari) per gli oggetti :ref:`Node3D<class_Node3D>`. Si può sovrascrivere per creare gizmo personalizzati, ma per i gizmo semplici solitamente si consiglia di creare un :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>`.
 
 .. rst-class:: classref-reftable-group
 

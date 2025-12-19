@@ -7,18 +7,18 @@ InputEventKey
 
 **Hérite de :** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a key on a keyboard being pressed or released.
+Représente une touche sur un clavier appuyée ou relâchée.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-An input event for keys on a keyboard. Supports key presses, key releases and :ref:`echo<class_InputEventKey_property_echo>` events. It can also be received in :ref:`Node._unhandled_key_input()<class_Node_private_method__unhandled_key_input>`.
+Un événement d'entrée pour des touches sur un clavier. Supporte les appuis de touche, les relâchement de touche et les événements d':ref:`echo<class_InputEventKey_property_echo>`. Il peut également être reçu dans :ref:`Node._unhandled_key_input()<class_Node_private_method__unhandled_key_input>`.
 
-\ **Note:** Events received from the keyboard usually have all properties set. Event mappings should have only one of the :ref:`keycode<class_InputEventKey_property_keycode>`, :ref:`physical_keycode<class_InputEventKey_property_physical_keycode>` or :ref:`unicode<class_InputEventKey_property_unicode>` set.
+\ **Note :** Les événements reçus du clavier ont généralement toutes leurs propriétés définies. Les associations d'événements ne devraient avoir qu'une seule propriété définie entre :ref:`keycode<class_InputEventKey_property_keycode>`, :ref:`physical_keycode<class_InputEventKey_property_physical_keycode>` ou :ref:`unicode<class_InputEventKey_property_unicode>`.
 
-When events are compared, properties are checked in the following priority - :ref:`keycode<class_InputEventKey_property_keycode>`, :ref:`physical_keycode<class_InputEventKey_property_physical_keycode>` and :ref:`unicode<class_InputEventKey_property_unicode>`. Events with the first matching value will be considered equal.
+Lorsque des événements sont comparés, les propriétés sont contrôlées selon la priorité suivante - :ref:`keycode<class_InputEventKey_property_keycode>`, :ref:`physical_keycode<class_InputEventKey_property_physical_keycode>` et :ref:`unicode<class_InputEventKey_property_unicode>`. Des événements avec la première valeur correspondante seront considérés comme égaux.
 
 .. rst-class:: classref-introduction-group
 
@@ -95,9 +95,9 @@ Descriptions des propriétés
 - |void| **set_echo**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_echo**\ (\ )
 
-If ``true``, the key was already pressed before this event. An echo event is a repeated key event sent when the user is holding down the key.
+Si ``true``, la touche était déjà appuyée avant cet événement. Un événement d'écho est un événement de touche répété envoyé lorsque l'utilisateur maintient la touche.
 
-\ **Note:** The rate at which echo events are sent is typically around 20 events per second (after holding down the key for roughly half a second). However, the key repeat delay/speed can be changed by the user or disabled entirely in the operating system settings. To ensure your project works correctly on all configurations, do not assume the user has a specific key repeat configuration in your project's behavior.
+\ **Note :** Le taux auquel les évènement d'écho sont envoyés est généralement d'environ 20 événements par seconde (après avoir maintenu la touche pendant environ une demi-seconde). Cependant, le délai/vitesse de répétition de la touche peut être changé par l'utilisateur ou désactivé entièrement dans les paramètres du système d'exploitation. Pour vous assurer que votre projet fonctionne correctement sur toutes les configurations, ne supposez pas dans le comportement de votre projet que l'utilisateur a une configuration de répétition de touche spécifique.
 
 .. rst-class:: classref-item-separator
 
@@ -114,17 +114,17 @@ If ``true``, the key was already pressed before this event. An echo event is a r
 - |void| **set_key_label**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_key_label**\ (\ )
 
-Represents the localized label printed on the key in the current keyboard layout, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants or any valid Unicode character.
+Représente le libellé traduit imprimé sur la touche dans la disposition de clavier actuel, qui correspond à l'une des constantes :ref:`Key<enum_@GlobalScope_Key>` ou à tout caractère Unicode valide.
 
-For keyboard layouts with a single label on the key, it is equivalent to :ref:`keycode<class_InputEventKey_property_keycode>`.
+Pour les dispositions de clavier avec un seul libellé sur la touche, cela est équivalent à :ref:`keycode<class_InputEventKey_property_keycode>`.
 
-To get a human-readable representation of the **InputEventKey**, use ``OS.get_keycode_string(event.key_label)`` where ``event`` is the **InputEventKey**.
+Pour obtenir une représentation lisible de l'**InputEventKey**, utilisez ``OS.get_keycode_string(event.key_label)`` où ``event`` est l'**InputEventKey**.
 
 .. code:: text
 
     +-----+ +-----+
     | Q   | | Q   | - "Q" - keycode
-    |   Й | |  ض | - "Й" and "ض" - key_label
+    |   Й | |  ض  | - "Й" et "ض" - key_label
     +-----+ +-----+
 
 .. rst-class:: classref-item-separator
@@ -142,15 +142,15 @@ To get a human-readable representation of the **InputEventKey**, use ``OS.get_ke
 - |void| **set_keycode**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_keycode**\ (\ )
 
-Latin label printed on the key in the current keyboard layout, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants.
+Libellé Latin imprimé sur la touche dans la disposition de clavier actuel, qui correspond à l'une des constantes :ref:`Key<enum_@GlobalScope_Key>`.
 
-To get a human-readable representation of the **InputEventKey**, use ``OS.get_keycode_string(event.keycode)`` where ``event`` is the **InputEventKey**.
+Pour obtenir une représentation lisible de l'**InputEventKey**, utilisez ``OS.get_keycode_string(event.keycode)`` où ``event`` est l'**InputEventKey**.
 
 .. code:: text
 
     +-----+ +-----+
     | Q   | | Q   | - "Q" - keycode
-    |   Й | |  ض | - "Й" and "ض" - key_label
+    |   Й | |  ض  | - "Й" et "ض" - key_label
     +-----+ +-----+
 
 .. rst-class:: classref-item-separator
@@ -168,7 +168,7 @@ To get a human-readable representation of the **InputEventKey**, use ``OS.get_ke
 - |void| **set_location**\ (\ value\: :ref:`KeyLocation<enum_@GlobalScope_KeyLocation>`\ )
 - :ref:`KeyLocation<enum_@GlobalScope_KeyLocation>` **get_location**\ (\ )
 
-Represents the location of a key which has both left and right versions, such as :kbd:`Shift` or :kbd:`Alt`.
+Représente l'emplacement d'une touche qui a à la fois une version gauche et droite, comme :kbd:`Maj` ou :kbd:`Alt`.
 
 .. rst-class:: classref-item-separator
 
@@ -185,9 +185,9 @@ Represents the location of a key which has both left and right versions, such as
 - |void| **set_physical_keycode**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_physical_keycode**\ (\ )
 
-Represents the physical location of a key on the 101/102-key US QWERTY keyboard, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants.
+Représente l'emplacement physique d'une touche sur un clavier QWERTY US à 101/102 touches, ce qui correspond à l'une des constantes :ref:`Key<enum_@GlobalScope_Key>`.
 
-To get a human-readable representation of the **InputEventKey**, use :ref:`OS.get_keycode_string()<class_OS_method_get_keycode_string>` in combination with :ref:`DisplayServer.keyboard_get_keycode_from_physical()<class_DisplayServer_method_keyboard_get_keycode_from_physical>`:
+Pour obtenir une représentation lisible de l'**InputEventKey**, utilisez :ref:`OS.get_keycode_string()<class_OS_method_get_keycode_string>` en combinaison avec :ref:`DisplayServer.keyboard_get_keycode_from_physical()<class_DisplayServer_method_keyboard_get_keycode_from_physical>`\  :
 
 
 .. tabs::
@@ -261,7 +261,7 @@ Descriptions des méthodes
 
 :ref:`String<class_String>` **as_text_key_label**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_as_text_key_label>`
 
-Returns a :ref:`String<class_String>` representation of the event's :ref:`key_label<class_InputEventKey_property_key_label>` and modifiers.
+Renvoie une représentation en :ref:`String<class_String>` du :ref:`key_label<class_InputEventKey_property_key_label>` de l'évènement et de ses modificateurs.
 
 .. rst-class:: classref-item-separator
 
@@ -273,7 +273,7 @@ Returns a :ref:`String<class_String>` representation of the event's :ref:`key_la
 
 :ref:`String<class_String>` **as_text_keycode**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_as_text_keycode>`
 
-Returns a :ref:`String<class_String>` representation of the event's :ref:`keycode<class_InputEventKey_property_keycode>` and modifiers.
+Renvoie une représentation en :ref:`String<class_String>` du :ref:`keycode<class_InputEventKey_property_keycode>` de l'évènement et de ses modificateurs.
 
 .. rst-class:: classref-item-separator
 
@@ -285,7 +285,7 @@ Returns a :ref:`String<class_String>` representation of the event's :ref:`keycod
 
 :ref:`String<class_String>` **as_text_location**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_as_text_location>`
 
-Returns a :ref:`String<class_String>` representation of the event's :ref:`location<class_InputEventKey_property_location>`. This will be a blank string if the event is not specific to a location.
+Renvoie une représentation en :ref:`String<class_String>` de la :ref:`location<class_InputEventKey_property_location>` de l'évènement. Cela sera une chaîne vide si l'évènement n'est pas spécifique à un emplacement.
 
 .. rst-class:: classref-item-separator
 
@@ -297,7 +297,7 @@ Returns a :ref:`String<class_String>` representation of the event's :ref:`locati
 
 :ref:`String<class_String>` **as_text_physical_keycode**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_as_text_physical_keycode>`
 
-Returns a :ref:`String<class_String>` representation of the event's :ref:`physical_keycode<class_InputEventKey_property_physical_keycode>` and modifiers.
+Renvoie une représentation en :ref:`String<class_String>` du :ref:`physical_keycode<class_InputEventKey_property_physical_keycode>` de l'évènement et de ses modificateurs.
 
 .. rst-class:: classref-item-separator
 
@@ -309,9 +309,9 @@ Returns a :ref:`String<class_String>` representation of the event's :ref:`physic
 
 :ref:`Key<enum_@GlobalScope_Key>` **get_key_label_with_modifiers**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_get_key_label_with_modifiers>`
 
-Returns the localized key label combined with modifier keys such as :kbd:`Shift` or :kbd:`Alt`. See also :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`.
+Renvoie le libellé traduit de la touche combinée avec des touches modificatrices telles que :kbd:`Maj` ou :kbd:`Alt`. Voir aussi :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`.
 
-To get a human-readable representation of the **InputEventKey** with modifiers, use ``OS.get_keycode_string(event.get_key_label_with_modifiers())`` where ``event`` is the **InputEventKey**.
+Pour obtenir une représentation lisible de l'**InputEventKey** avec des modificateurs, utilisez ``OS.get_keycode_string(event.get_key_label_with_modifiers())`` où ``event`` est l'**InputEventKey**.
 
 .. rst-class:: classref-item-separator
 
@@ -323,9 +323,9 @@ To get a human-readable representation of the **InputEventKey** with modifiers, 
 
 :ref:`Key<enum_@GlobalScope_Key>` **get_keycode_with_modifiers**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_get_keycode_with_modifiers>`
 
-Returns the Latin keycode combined with modifier keys such as :kbd:`Shift` or :kbd:`Alt`. See also :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`.
+Renvoie le code de touche Latin combiné avec des touches modificatrices telles que :kbd:`Maj` ou :kbd:`Alt`. Voir aussi :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`.
 
-To get a human-readable representation of the **InputEventKey** with modifiers, use ``OS.get_keycode_string(event.get_keycode_with_modifiers())`` where ``event`` is the **InputEventKey**.
+Pour obtenir une représentation lisible de l'**InputEventKey** avec des modificateurs, utilisez ``OS.get_keycode_string(event.get_keycode_with_modifiers())`` où ``event`` est l'**InputEventKey**.
 
 .. rst-class:: classref-item-separator
 
@@ -337,9 +337,9 @@ To get a human-readable representation of the **InputEventKey** with modifiers, 
 
 :ref:`Key<enum_@GlobalScope_Key>` **get_physical_keycode_with_modifiers**\ (\ ) |const| :ref:`🔗<class_InputEventKey_method_get_physical_keycode_with_modifiers>`
 
-Returns the physical keycode combined with modifier keys such as :kbd:`Shift` or :kbd:`Alt`. See also :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`.
+Renvoie le code de touche physique combiné avec des touches modificatrices telles que :kbd:`Maj` ou :kbd:`Alt`. Voir aussi :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`.
 
-To get a human-readable representation of the **InputEventKey** with modifiers, use ``OS.get_keycode_string(event.get_physical_keycode_with_modifiers())`` where ``event`` is the **InputEventKey**.
+Pour obtenir une représentation lisible de l'**InputEventKey** avec des modificateurs, utilisez ``OS.get_keycode_string(event.get_physical_keycode_with_modifiers())`` où ``event`` est l'**InputEventKey**.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

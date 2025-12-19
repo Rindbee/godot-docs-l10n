@@ -116,7 +116,7 @@ Definir este método es **opcional**. Si no se sobrescribe, el nodo se archivar�
 
 Sobrescribe este método para definir el código shader real del nodo personalizado asociado. El código shader debe devolverse como una string, que puede tener varias líneas (la construcción de string multilínea ``"""`` se puede usar para mayor comodidad).
 
-Las matrices ``input_vars`` y ``output_vars`` contienen los nombres de string de las diversas variables de entrada y salida, tal como se definen en los métodos virtuales ``_get_input_*`` y ``_get_output_*`` de esta clase.
+Los arrays ``input_vars`` y ``output_vars`` contienen los nombres de string de las diversas variables de entrada y salida, tal como se definen en los métodos virtuales ``_get_input_*`` y ``_get_output_*`` de esta clase.
 
 A los puertos de salida se les pueden asignar valores en el código shader. Por ejemplo, ``return output_vars[0] + " = " + input_vars[0] + ";"``.
 

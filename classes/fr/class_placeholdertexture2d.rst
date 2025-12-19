@@ -7,20 +7,20 @@ PlaceholderTexture2D
 
 **Hérite de :** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Placeholder class for a 2-dimensional texture.
+Classe placeholder pour une texture 2D.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This class is used when loading a project that uses a :ref:`Texture2D<class_Texture2D>` subclass in 2 conditions:
+Cette classe est utilisée lors du chargement d'un projet qui utilise une sous-classe de :ref:`Texture2D<class_Texture2D>` dans deux cas :
 
-- When running the project exported in dedicated server mode, only the texture's dimensions are kept (as they may be relied upon for gameplay purposes or positioning of other elements). This allows reducing the exported PCK's size significantly.
+- Lors de l'exécution du projet exporté en mode serveur dédié, seules les dimensions de la texture sont conservées (comme elles peuvent être utilisées à des fins de gameplay ou de positionnement d'autres éléments). Cela permet de réduire considérablement la taille du PCK exporté.
 
-- When this subclass is missing due to using a different engine version or build (e.g. modules disabled).
+- Lorsque cette sous-classe est manquante en raison de l'utilisation d'une autre version du moteur ou d'une autre compilation (par ex. avec des modules désactivés).
 
-\ **Note:** This is not intended to be used as an actual texture for rendering. It is not guaranteed to work like one in shaders or materials (for example when calculating UV).
+\ **Note :** Cette classe n'est pas destinée à être utilisée comme une vraie texture pour du rendu. Elle n'est pas garantie de fonctionner comme une texture pour des shaders ou des matériaux (par ex. lors du calcul des UV).
 
 .. rst-class:: classref-reftable-group
 
@@ -56,7 +56,7 @@ Descriptions des propriétés
 - |void| **set_size**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_size**\ (\ )
 
-The texture's size (in pixels).
+La taille de la texture (en pixels).
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

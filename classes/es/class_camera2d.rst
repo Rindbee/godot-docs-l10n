@@ -242,7 +242,7 @@ El nodo personalizado de :ref:`Viewport<class_Viewport>` unido a **Camera2D**. S
 - |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Bottom margin needed to drag the camera. A value of ``1`` makes the camera move only when reaching the bottom edge of the screen.
+Margen inferior necesario para arrastrar la cámara. Un valor de ``1`` hace que la cámara se mueva solo cuando alcance el borde inferior de la pantalla.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Bottom margin needed to drag the camera. A value of ``1`` makes the camera move 
 - |void| **set_drag_horizontal_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_drag_horizontal_enabled**\ (\ )
 
-If ``true``, the camera only moves when reaching the horizontal (left and right) drag margins. If ``false``, the camera moves horizontally regardless of margins.
+Si es ``true``, la cámara solo se mueve cuando alcanza los márgenes de arrastre horizontal (izquierdo y derecho). Si es ``false``, la cámara se mueve horizontalmente independientemente de los márgenes.
 
 .. rst-class:: classref-item-separator
 
@@ -276,9 +276,9 @@ If ``true``, the camera only moves when reaching the horizontal (left and right)
 - |void| **set_drag_horizontal_offset**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_horizontal_offset**\ (\ )
 
-The relative horizontal drag offset of the camera between the right (``-1``) and left (``1``) drag margins.
+El desplazamiento de arrastre horizontal relativo de la cámara entre los márgenes de arrastre derecho (``-1``) e izquierdo (``1``).
 
-\ **Note:** Used to set the initial horizontal drag offset; determine the current offset; or force the current offset. It's not automatically updated when :ref:`drag_horizontal_enabled<class_Camera2D_property_drag_horizontal_enabled>` is ``true`` or the drag margins are changed.
+\ **Nota:** Se utiliza para establecer el desplazamiento de arrastre horizontal inicial, determinar el desplazamiento actual u forzar el desplazamiento actual. No se actualiza automáticamente cuando :ref:`drag_horizontal_enabled<class_Camera2D_property_drag_horizontal_enabled>` es ``true`` o se modifican los márgenes de arrastre.
 
 .. rst-class:: classref-item-separator
 
@@ -295,7 +295,7 @@ The relative horizontal drag offset of the camera between the right (``-1``) and
 - |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Left margin needed to drag the camera. A value of ``1`` makes the camera move only when reaching the left edge of the screen.
+Margen izquierdo necesario para arrastrar la cámara. Un valor de ``1`` hace que la cámara se mueva solo cuando alcance el borde izquierdo de la pantalla.
 
 .. rst-class:: classref-item-separator
 
@@ -722,7 +722,7 @@ Obliga a la cámara a actualizar el scroll inmediatamente.
 
 :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_Camera2D_method_get_drag_margin>`
 
-Returns the specified :ref:`Side<enum_@GlobalScope_Side>`'s margin. See also :ref:`drag_bottom_margin<class_Camera2D_property_drag_bottom_margin>`, :ref:`drag_top_margin<class_Camera2D_property_drag_top_margin>`, :ref:`drag_left_margin<class_Camera2D_property_drag_left_margin>`, and :ref:`drag_right_margin<class_Camera2D_property_drag_right_margin>`.
+Devuelve el margen del :ref:`Side<enum_@GlobalScope_Side>` especificado. Véase también :ref:`drag_bottom_margin<class_Camera2D_property_drag_bottom_margin>`, :ref:`drag_top_margin<class_Camera2D_property_drag_top_margin>`, :ref:`drag_left_margin<class_Camera2D_property_drag_left_margin>` y :ref:`drag_right_margin<class_Camera2D_property_drag_right_margin>`.
 
 .. rst-class:: classref-item-separator
 
@@ -734,7 +734,7 @@ Returns the specified :ref:`Side<enum_@GlobalScope_Side>`'s margin. See also :re
 
 :ref:`int<class_int>` **get_limit**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_Camera2D_method_get_limit>`
 
-Returns the camera limit for the specified :ref:`Side<enum_@GlobalScope_Side>`. See also :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`, :ref:`limit_top<class_Camera2D_property_limit_top>`, :ref:`limit_left<class_Camera2D_property_limit_left>`, and :ref:`limit_right<class_Camera2D_property_limit_right>`.
+Devuelve el límite de la cámara para el :ref:`Side<enum_@GlobalScope_Side>` especificado. Véase también :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`, :ref:`limit_top<class_Camera2D_property_limit_top>`, :ref:`limit_left<class_Camera2D_property_limit_left>` y :ref:`limit_right<class_Camera2D_property_limit_right>`.
 
 .. rst-class:: classref-item-separator
 
@@ -746,9 +746,9 @@ Returns the camera limit for the specified :ref:`Side<enum_@GlobalScope_Side>`. 
 
 :ref:`Vector2<class_Vector2>` **get_screen_center_position**\ (\ ) |const| :ref:`🔗<class_Camera2D_method_get_screen_center_position>`
 
-Returns the center of the screen from this camera's point of view, in global coordinates.
+Devuelve el centro de la pantalla desde el punto de vista de esta cámara, en coordenadas globales.
 
-\ **Note:** The exact targeted position of the camera may be different. See :ref:`get_target_position()<class_Camera2D_method_get_target_position>`.
+\ **Nota:** La posición exacta a la que se dirige la cámara puede ser diferente. Véase :ref:`get_target_position()<class_Camera2D_method_get_target_position>`.
 
 .. rst-class:: classref-item-separator
 
@@ -760,9 +760,9 @@ Returns the center of the screen from this camera's point of view, in global coo
 
 :ref:`float<class_float>` **get_screen_rotation**\ (\ ) |const| :ref:`🔗<class_Camera2D_method_get_screen_rotation>`
 
-Returns the current screen rotation from this camera's point of view.
+Devuelve la rotación actual de la pantalla desde el punto de vista de esta cámara.
 
-\ **Note:** The screen rotation can be different from :ref:`Node2D.global_rotation<class_Node2D_property_global_rotation>` if the camera is rotating smoothly due to :ref:`rotation_smoothing_enabled<class_Camera2D_property_rotation_smoothing_enabled>`.
+\ **Nota:** La rotación de la pantalla puede ser diferente de :ref:`Node2D.global_rotation<class_Node2D_property_global_rotation>` si la cámara está rotando suavemente debido a :ref:`rotation_smoothing_enabled<class_Camera2D_property_rotation_smoothing_enabled>`.
 
 .. rst-class:: classref-item-separator
 
@@ -788,7 +788,7 @@ Returns this camera's target position, in global coordinates.
 
 :ref:`bool<class_bool>` **is_current**\ (\ ) |const| :ref:`🔗<class_Camera2D_method_is_current>`
 
-Returns ``true`` if this **Camera2D** is the active camera (see :ref:`Viewport.get_camera_2d()<class_Viewport_method_get_camera_2d>`).
+Devuelve ``true`` si esta **Camera2D** es la cámara activa (véase :ref:`Viewport.get_camera_2d()<class_Viewport_method_get_camera_2d>`).
 
 .. rst-class:: classref-item-separator
 
@@ -800,7 +800,7 @@ Returns ``true`` if this **Camera2D** is the active camera (see :ref:`Viewport.g
 
 |void| **make_current**\ (\ ) :ref:`🔗<class_Camera2D_method_make_current>`
 
-Forces this **Camera2D** to become the current active one. :ref:`enabled<class_Camera2D_property_enabled>` must be ``true``.
+Fuerza a esta **Camera2D** a convertirse en la activa. :ref:`enabled<class_Camera2D_property_enabled>` debe ser ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -812,9 +812,9 @@ Forces this **Camera2D** to become the current active one. :ref:`enabled<class_C
 
 |void| **reset_smoothing**\ (\ ) :ref:`🔗<class_Camera2D_method_reset_smoothing>`
 
-Sets the camera's position immediately to its current smoothing destination.
+Establece la posición de la cámara inmediatamente a su destino de suavizado actual.
 
-This method has no effect if :ref:`position_smoothing_enabled<class_Camera2D_property_position_smoothing_enabled>` is ``false``.
+Este método no tiene ningún efecto si :ref:`position_smoothing_enabled<class_Camera2D_property_position_smoothing_enabled>` es ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -826,7 +826,7 @@ This method has no effect if :ref:`position_smoothing_enabled<class_Camera2D_pro
 
 |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Camera2D_method_set_drag_margin>`
 
-Sets the specified :ref:`Side<enum_@GlobalScope_Side>`'s margin. See also :ref:`drag_bottom_margin<class_Camera2D_property_drag_bottom_margin>`, :ref:`drag_top_margin<class_Camera2D_property_drag_top_margin>`, :ref:`drag_left_margin<class_Camera2D_property_drag_left_margin>`, and :ref:`drag_right_margin<class_Camera2D_property_drag_right_margin>`.
+Establece el margen del :ref:`Side<enum_@GlobalScope_Side>` especificado. Véase también :ref:`drag_bottom_margin<class_Camera2D_property_drag_bottom_margin>`, :ref:`drag_top_margin<class_Camera2D_property_drag_top_margin>`, :ref:`drag_left_margin<class_Camera2D_property_drag_left_margin>` y :ref:`drag_right_margin<class_Camera2D_property_drag_right_margin>`.
 
 .. rst-class:: classref-item-separator
 
@@ -838,7 +838,7 @@ Sets the specified :ref:`Side<enum_@GlobalScope_Side>`'s margin. See also :ref:`
 
 |void| **set_limit**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, limit\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Camera2D_method_set_limit>`
 
-Sets the camera limit for the specified :ref:`Side<enum_@GlobalScope_Side>`. See also :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`, :ref:`limit_top<class_Camera2D_property_limit_top>`, :ref:`limit_left<class_Camera2D_property_limit_left>`, and :ref:`limit_right<class_Camera2D_property_limit_right>`.
+Establece el límite de la cámara para el :ref:`Side<enum_@GlobalScope_Side>` especificado. Véase también :ref:`limit_bottom<class_Camera2D_property_limit_bottom>`, :ref:`limit_top<class_Camera2D_property_limit_top>`, :ref:`limit_left<class_Camera2D_property_limit_left>` y :ref:`limit_right<class_Camera2D_property_limit_right>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

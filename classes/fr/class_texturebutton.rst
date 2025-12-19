@@ -14,11 +14,11 @@ Un bouton affiché avec une Texture. Supporte les états appuyé, survolé, dés
 Description
 -----------
 
-**TextureButton** has the same functionality as :ref:`Button<class_Button>`, except it uses sprites instead of Godot's :ref:`Theme<class_Theme>` resource. It is faster to create, but it doesn't support localization like more complex :ref:`Control<class_Control>`\ s.
+**TextureButton** a les même fonctionnalités que :ref:`Button<class_Button>`, sauf qu'il utilise des sprites plutôt que la ressource :ref:`Theme<class_Theme>` de Godot. Il est plus rapide à créer, mais ne supporte pas la localisation comme certains :ref:`Control<class_Control>` plus complexes.
 
-See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node.
+Voir aussi :ref:`BaseButton<class_BaseButton>` qui contient les propriétés et méthodes communes associées avec ce nœud.
 
-\ **Note:** Setting a texture for the "normal" state (:ref:`texture_normal<class_TextureButton_property_texture_normal>`) is recommended. If :ref:`texture_normal<class_TextureButton_property_texture_normal>` is not set, the **TextureButton** will still receive input events and be clickable, but the user will not be able to see it unless they activate another one of its states with a texture assigned (e.g., hover over it to show :ref:`texture_hover<class_TextureButton_property_texture_hover>`).
+\ **Note :** Il est recommandé de définir une texture pour l'état "normal" (:ref:`texture_normal<class_TextureButton_property_texture_normal>`). Si :ref:`texture_normal<class_TextureButton_property_texture_normal>` n'est pas définie, le **TextureButton** recevra encore des événements d'entrée et sera cliquable, mais l'utilisateur ne pourra pas le voir à moins qu'ils activent un autre de ses états avec une texture assignée (par exemple, le survoler pour afficher :ref:`texture_hover<class_TextureButton_property_texture_hover>`).
 
 .. rst-class:: classref-introduction-group
 
@@ -118,7 +118,7 @@ La texture conserve sa taille d’origine et reste centrée dans le rectangle d�
 
 :ref:`StretchMode<enum_TextureButton_StretchMode>` **STRETCH_KEEP_ASPECT_CENTERED** = ``5``
 
-Scale the texture to fit the node's bounding rectangle, center it, and maintain its aspect ratio.
+Échelonne la texture pour s'adapter au rectangle délimitant du nœud, la centre, et maintient son rapport d'aspect.
 
 .. _class_TextureButton_constant_STRETCH_KEEP_ASPECT_COVERED:
 
@@ -182,7 +182,7 @@ Si ``true``, la texture est inversée verticalement.
 - |void| **set_ignore_texture_size**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_ignore_texture_size**\ (\ )
 
-If ``true``, the size of the texture won't be considered for minimum size calculation, so the **TextureButton** can be shrunk down past the texture size.
+Si ``true``, la taille de la texture ne sera pas considérée pour le calcul de la taille minimale, de sorte que le **TextureButton** puisse être rétréci au delà de la taille de la texture.
 
 .. rst-class:: classref-item-separator
 
@@ -199,7 +199,7 @@ If ``true``, the size of the texture won't be considered for minimum size calcul
 - |void| **set_stretch_mode**\ (\ value\: :ref:`StretchMode<enum_TextureButton_StretchMode>`\ )
 - :ref:`StretchMode<enum_TextureButton_StretchMode>` **get_stretch_mode**\ (\ )
 
-Controls the texture's behavior when you resize the node's bounding rectangle. See the :ref:`StretchMode<enum_TextureButton_StretchMode>` constants for available options.
+Contrôle le comportement de la texture lorsque vous redimensionnez le rectangle délimitant du nœud. Voir les constantes :ref:`StretchMode<enum_TextureButton_StretchMode>` pour les options disponibles.
 
 .. rst-class:: classref-item-separator
 
@@ -233,7 +233,7 @@ Image :ref:`BitMap<class_BitMap>` en pur noir et blanc à utiliser pour la déte
 - |void| **set_texture_disabled**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture_disabled**\ (\ )
 
-Texture to display when the node is disabled. See :ref:`BaseButton.disabled<class_BaseButton_property_disabled>`. If not assigned, the **TextureButton** displays :ref:`texture_normal<class_TextureButton_property_texture_normal>` instead.
+Texture à afficher lorsque le nœud est désactivé. Voir :ref:`BaseButton.disabled<class_BaseButton_property_disabled>`. Si non assignée, le **TextureButton** affiche :ref:`texture_normal<class_TextureButton_property_texture_normal>` à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -250,7 +250,7 @@ Texture to display when the node is disabled. See :ref:`BaseButton.disabled<clas
 - |void| **set_texture_focused**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture_focused**\ (\ )
 
-Texture to *overlay on the base texture* when the node has mouse or keyboard focus. Because :ref:`texture_focused<class_TextureButton_property_texture_focused>` is displayed on top of the base texture, a partially transparent texture should be used to ensure the base texture remains visible. A texture that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a fully transparent texture of any size. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+Texture à *superposer sur la texture de base* lorsque le nœud a le focus de la souris ou du clavier. Comme :ref:`texture_focused<class_TextureButton_property_texture_focused>` est affiché au-dessus de la texture de base, une texture partiellement transparente devrait être utilisée pour s'assurer que la texture de base reste visible. Une texture qui représente un contour ou une soulignage fonctionne bien à cette fin. Pour désactiver l'effet visuel du focus, assignez une texture entièrement transparente de n'importe quelle taille. Notez que la désactivation de l'effet visuel du focus va nuire à l'utilisabilité de navigation clavier/contrôleur, ce qui n'est donc pas recommandé pour des raisons d'accessibilité.
 
 .. rst-class:: classref-item-separator
 
@@ -267,7 +267,7 @@ Texture to *overlay on the base texture* when the node has mouse or keyboard foc
 - |void| **set_texture_hover**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture_hover**\ (\ )
 
-Texture to display when the mouse hovers over the node. If not assigned, the **TextureButton** displays :ref:`texture_normal<class_TextureButton_property_texture_normal>` instead when hovered over.
+Texture à afficher lorsque la souris survole le nœud. Si non assignée, le **TextureButton** affiche :ref:`texture_normal<class_TextureButton_property_texture_normal>` à la place lorsqu'il est survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -284,7 +284,7 @@ Texture to display when the mouse hovers over the node. If not assigned, the **T
 - |void| **set_texture_normal**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture_normal**\ (\ )
 
-Texture to display by default, when the node is **not** in the disabled, hover or pressed state. This texture is still displayed in the focused state, with :ref:`texture_focused<class_TextureButton_property_texture_focused>` drawn on top.
+Texture à afficher par défaut, quand le nœud n'est **pas** dans l'état désactivé, survolé or appuyé. Cette texture sera toujours affichée dans l'état avec le focus, avec :ref:`texture_focused<class_TextureButton_property_texture_focused>` dessiné par dessus.
 
 .. rst-class:: classref-item-separator
 
@@ -301,7 +301,7 @@ Texture to display by default, when the node is **not** in the disabled, hover o
 - |void| **set_texture_pressed**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture_pressed**\ (\ )
 
-Texture to display on mouse down over the node, if the node has keyboard focus and the player presses the Enter key or if the player presses the :ref:`BaseButton.shortcut<class_BaseButton_property_shortcut>` key. If not assigned, the **TextureButton** displays :ref:`texture_hover<class_TextureButton_property_texture_hover>` instead when pressed.
+Texture à afficher quand la souris appuie sur le nœud, si le nœud a le focus du clavier et que l'utilisateur appuie sur la touche Entrée, ou quand l'utilisateur appuie sur la touche :ref:`BaseButton.shortcut<class_BaseButton_property_shortcut>`. Si non assignée, le **TextureButton** affiche :ref:`texture_hover<class_TextureButton_property_texture_hover>` à la place lors qu’appuyé.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -51,7 +51,7 @@ enum **ErrorType**: :ref:`🔗<enum_Logger_ErrorType>`
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_ERROR** = ``0``
 
-The message received is an error.
+El mensaje recibido es un error.
 
 .. _class_Logger_constant_ERROR_TYPE_WARNING:
 
@@ -59,7 +59,7 @@ The message received is an error.
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_WARNING** = ``1``
 
-The message received is a warning.
+El mensaje recibido es una advertencia.
 
 .. _class_Logger_constant_ERROR_TYPE_SCRIPT:
 
@@ -67,7 +67,7 @@ The message received is a warning.
 
 :ref:`ErrorType<enum_Logger_ErrorType>` **ERROR_TYPE_SCRIPT** = ``2``
 
-The message received is a script error.
+El mensaje recibido es un error de script.
 
 .. _class_Logger_constant_ERROR_TYPE_SHADER:
 

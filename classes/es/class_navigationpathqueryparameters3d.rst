@@ -194,7 +194,7 @@ Descripciones de Propiedades
 
 La lista de :ref:`RID<class_RID>` de región que se excluirán de la consulta de ruta. Utiliza :ref:`NavigationRegion3D.get_rid()<class_NavigationRegion3D_method_get_rid>` para obtener el :ref:`RID<class_RID>` asociado con un nodo :ref:`NavigationRegion3D<class_NavigationRegion3D>`.
 
-\ **Nota:** La matriz devuelta se copia y cualquier cambio en ella no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar la matriz devuelta y, a continuación, volver a establecerla en la propiedad.
+\ **Nota:** El array devuelto se copia y cualquier cambio en él no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar el array devuelto y, a continuación, volver a establecerlo en la propiedad.
 
 .. rst-class:: classref-item-separator
 
@@ -213,7 +213,7 @@ La lista de :ref:`RID<class_RID>` de región que se excluirán de la consulta de
 
 La lista de :ref:`RID<class_RID>` de región que se incluirán en la consulta de ruta. Utiliza :ref:`NavigationRegion3D.get_rid()<class_NavigationRegion3D_method_get_rid>` para obtener el :ref:`RID<class_RID>` asociado con un nodo :ref:`NavigationRegion3D<class_NavigationRegion3D>`. Si se deja vacío, se incluyen todas las regiones. Si una región termina siendo incluida y excluida al mismo tiempo, se excluirá.
 
-\ **Nota:** La matriz devuelta se copia y cualquier cambio en ella no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar la matriz devuelta y, a continuación, volver a establecerla en la propiedad.
+\ **Nota:** El array devuelto se copia y cualquier cambio en él no actualizará el valor de la propiedad original. Para actualizar el valor, debes modificar el array devuelto y, a continuación, volver a establecerlo en la propiedad.
 
 .. rst-class:: classref-item-separator
 

@@ -1074,8 +1074,8 @@
     print(a is Array) # Выводит true
 
     var b = convert(a, TYPE_PACKED_BYTE_ARRAY)
-    print(b)                 # Prints [4, 2, 1]
-    print(b is Array) # Prints false
+    print(b)                 # Выводит [4, 2, 1]
+    print(b is Array) # Выводит false
 
 .. rst-class:: classref-item-separator
 
@@ -1348,10 +1348,10 @@
 
 ::
 
-    print(range(4))        # Prints [0, 1, 2, 3]
-    print(range(2, 5))     # Prints [2, 3, 4]
-    print(range(0, 6, 2))  # Prints [0, 2, 4]
-    print(range(4, 1, -1)) # Prints [4, 3, 2]
+    print(range(4))        # Выводит [0, 1, 2, 3]
+    print(range(2, 5))     # Выводит [2, 3, 4]
+    print(range(0, 6, 2))  # Выводит [0, 2, 4]
+    print(range(4, 1, -1)) # Выводит [4, 3, 2]
 
 Чтобы выполнить итерацию по :ref:`Array<class_Array>` в обратном направлении, используйте:
 

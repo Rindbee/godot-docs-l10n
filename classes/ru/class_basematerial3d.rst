@@ -3430,7 +3430,9 @@ enum **StencilCompare**: :ref:`🔗<enum_BaseMaterial3D_StencilCompare>`
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-Если ``true``, включено подповерхностное рассеивание. Эмулирует свет, который проникает сквозь поверхность объекта, рассеивается и затем выходит наружу. Качество подповерхностного рассеивания контролируется :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+Если ``true``, включено подповерхностное рассеивание. Имитирует свет, который проникает сквозь поверхность объекта, рассеивается и затем выходит наружу. Качество подповерхностного рассеивания контролируется :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+
+\ **Примечание:** Подповерхностное рассеивание не поддерживается на окнах просмотра с прозрачным фоном (где :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` имеет значение ``true``).
 
 .. rst-class:: classref-item-separator
 

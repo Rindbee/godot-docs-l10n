@@ -7,7 +7,7 @@ EditorExportPlatformAppleEmbedded
 
 **Hérite de :** :ref:`EditorExportPlatform<class_EditorExportPlatform>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorExportPlatformIOS<class_EditorExportPlatformIOS>`, :ref:`EditorExportPlatformVisionOS<class_EditorExportPlatformVisionOS>`
+**Hérité par :** :ref:`EditorExportPlatformIOS<class_EditorExportPlatformIOS>`, :ref:`EditorExportPlatformVisionOS<class_EditorExportPlatformVisionOS>`
 
 Base class for the Apple embedded platform exporters (iOS and visionOS).
 

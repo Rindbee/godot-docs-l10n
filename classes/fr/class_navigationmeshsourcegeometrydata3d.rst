@@ -9,14 +9,14 @@ NavigationMeshSourceGeometryData3D
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Container for parsed source geometry data used in navigation mesh baking.
+Conteneur pour des données de géométrie source parsées utilisé dans le pré-calcul de maillage de navigation.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Container for parsed source geometry data used in navigation mesh baking.
+Conteneur pour des données de géométrie source parsées utilisé dans le pré-calcul de maillage de navigation.
 
 .. rst-class:: classref-reftable-group
 

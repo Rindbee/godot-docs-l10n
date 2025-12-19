@@ -16,13 +16,13 @@ Una clase base de la colisión que interactúa con :ref:`SpringBoneSimulator3D<c
 Descripción
 ----------------------
 
-A collision can be a child of :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`. If it is not a child of :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, it has no effect.
+Una colisión puede ser hijo de :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`. Si no es hijo de :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, no tiene ningún efecto.
 
-The colliding and sliding are done in the :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`'s modification process in order of its collision list which is set by :ref:`SpringBoneSimulator3D.set_collision_path()<class_SpringBoneSimulator3D_method_set_collision_path>`. If :ref:`SpringBoneSimulator3D.are_all_child_collisions_enabled()<class_SpringBoneSimulator3D_method_are_all_child_collisions_enabled>` is ``true``, the order matches :ref:`SceneTree<class_SceneTree>`.
+La colisión y el deslizamiento se realizan en el proceso de modificación de :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>` en el orden de su lista de colisiones que se establece mediante :ref:`SpringBoneSimulator3D.set_collision_path()<class_SpringBoneSimulator3D_method_set_collision_path>`. Si :ref:`SpringBoneSimulator3D.are_all_child_collisions_enabled()<class_SpringBoneSimulator3D_method_are_all_child_collisions_enabled>` es ``true``, el orden coincide con :ref:`SceneTree<class_SceneTree>`.
 
-If :ref:`bone<class_SpringBoneCollision3D_property_bone>` is set, it synchronizes with the bone pose of the ancestor :ref:`Skeleton3D<class_Skeleton3D>`, which is done in before the :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`'s modification process as the pre-process.
+Si :ref:`bone<class_SpringBoneCollision3D_property_bone>` está establecido, se sincroniza con la pose del hueso del :ref:`Skeleton3D<class_Skeleton3D>` ancestro, lo que se realiza antes del proceso de modificación de :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>` como el pre-proceso.
 
-\ **Warning:** A scaled **SpringBoneCollision3D** will likely not behave as expected. Make sure that the parent :ref:`Skeleton3D<class_Skeleton3D>` and its bones are not scaled.
+\ **Advertencia:** Un **SpringBoneCollision3D** escalado probablemente no se comportará como se espera. Asegúrate de que el :ref:`Skeleton3D<class_Skeleton3D>` padre y sus huesos no estén escalados.
 
 .. rst-class:: classref-reftable-group
 
@@ -74,7 +74,7 @@ Descripciones de Propiedades
 - |void| **set_bone**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bone**\ (\ )
 
-The index of the attached bone.
+El índice del hueso adjunto.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ AudioStreamPlayback
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`AudioStreamPlaybackInteractive<class_AudioStreamPlaybackInteractive>`, :ref:`AudioStreamPlaybackPlaylist<class_AudioStreamPlaybackPlaylist>`, :ref:`AudioStreamPlaybackPolyphonic<class_AudioStreamPlaybackPolyphonic>`, :ref:`AudioStreamPlaybackResampled<class_AudioStreamPlaybackResampled>`, :ref:`AudioStreamPlaybackSynchronized<class_AudioStreamPlaybackSynchronized>`
+**Hérité par :** :ref:`AudioStreamPlaybackInteractive<class_AudioStreamPlaybackInteractive>`, :ref:`AudioStreamPlaybackPlaylist<class_AudioStreamPlaybackPlaylist>`, :ref:`AudioStreamPlaybackPolyphonic<class_AudioStreamPlaybackPolyphonic>`, :ref:`AudioStreamPlaybackResampled<class_AudioStreamPlaybackResampled>`, :ref:`AudioStreamPlaybackSynchronized<class_AudioStreamPlaybackSynchronized>`
 
 Classe méta pour la lecture audio.
 
@@ -260,11 +260,11 @@ Renvoie ``true`` si le flux joue.
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **mix_audio**\ (\ rate_scale\: :ref:`float<class_float>`, frames\: :ref:`int<class_int>`\ ) :ref:`🔗<class_AudioStreamPlayback_method_mix_audio>`
 
-Mixes up to ``frames`` of audio from the stream from the current position, at a rate of ``rate_scale``, advancing the stream.
+Mixe jusqu'à ``frames`` trames d'audio à partir du flux de la position actuelle, à une vitesse de ``rate_scale``, en avançant le flux.
 
-Returns a :ref:`PackedVector2Array<class_PackedVector2Array>` where each element holds the left and right channel volume levels of each frame.
+Renvoie un :ref:`PackedVector2Array<class_PackedVector2Array>` où chaque élément contient les niveaux de volume du canal gauche et droit de chaque trame.
 
-\ **Note:** Can return fewer frames than requested, make sure to use the size of the return value.
+\ **Note :** Peut renvoyer moins de trames que demandé, assurez-vous s'utilise la taille de la valeur renvoyée.
 
 .. rst-class:: classref-item-separator
 

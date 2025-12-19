@@ -479,7 +479,7 @@ If ``true``, project resources are stored in the separate APK expansion file, in
 
 :ref:`String<class_String>` **apk_expansion/public_key** :ref:`🔗<class_EditorExportPlatformAndroid_property_apk_expansion/public_key>`
 
-Base64 encoded RSA public key for your publisher account, available from the profile page on the "Google Play Console".
+Clave pública RSA codificada en Base64 para tu cuenta de editor, disponible en la página de perfil en la "Google Play Console".
 
 .. rst-class:: classref-item-separator
 
@@ -491,7 +491,7 @@ Base64 encoded RSA public key for your publisher account, available from the pro
 
 :ref:`bool<class_bool>` **architectures/arm64-v8a** :ref:`🔗<class_EditorExportPlatformAndroid_property_architectures/arm64-v8a>`
 
-If ``true``, ``arm64`` binaries are included into exported project.
+Si es ``true``, los binarios ``arm64`` se incluirán en el proyecto exportado.
 
 .. rst-class:: classref-item-separator
 
@@ -503,7 +503,7 @@ If ``true``, ``arm64`` binaries are included into exported project.
 
 :ref:`bool<class_bool>` **architectures/armeabi-v7a** :ref:`🔗<class_EditorExportPlatformAndroid_property_architectures/armeabi-v7a>`
 
-If ``true``, ``arm32`` binaries are included into exported project.
+Si es ``true``, los binarios ``arm32`` se incluirán en el proyecto exportado.
 
 .. rst-class:: classref-item-separator
 
@@ -715,7 +715,7 @@ Si es ``true``, se creará un contexto de depuración OpenGL ES (verificación, 
 
 Ruta del archivo keystore de depuración.
 
-Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``.
+Se puede sobrescribir con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``.
 
 Si está vacío, recurre a ``EditorSettings.export/android/debug_keystore``.
 
@@ -731,7 +731,7 @@ Si está vacío, recurre a ``EditorSettings.export/android/debug_keystore``.
 
 Contraseña para el archivo keystore de depuración.
 
-Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``.
+Se puede sobrescribir con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``.
 
 Si tanto esta como :ref:`keystore/debug<class_EditorExportPlatformAndroid_property_keystore/debug>` están vacías, recurre a ``EditorSettings.export/android/debug_keystore_pass``.
 
@@ -747,7 +747,7 @@ Si tanto esta como :ref:`keystore/debug<class_EditorExportPlatformAndroid_proper
 
 Nombre de usuario para el archivo keystore de depuración.
 
-Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_USER``.
+Se puede sobrescribir con la variable de entorno ``GODOT_ANDROID_KEYSTORE_DEBUG_USER``.
 
 Si tanto esta como :ref:`keystore/debug<class_EditorExportPlatformAndroid_property_keystore/debug>` están vacías, recurre a ``EditorSettings.export/android/debug_keystore_user``.
 
@@ -763,7 +763,7 @@ Si tanto esta como :ref:`keystore/debug<class_EditorExportPlatformAndroid_proper
 
 Ruta del archivo keystore de lanzamiento.
 
-Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``.
+Se puede sobrescribir con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``.
 
 .. rst-class:: classref-item-separator
 
@@ -777,7 +777,7 @@ Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PATH
 
 Contraseña para el archivo keystore de lanzamiento.
 
-Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``.
+Se puede sobrescribir con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``.
 
 .. rst-class:: classref-item-separator
 
@@ -791,7 +791,7 @@ Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_PASS
 
 Nombre de usuario para el archivo keystore de lanzamiento.
 
-Se puede anular con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_USER``.
+Se puede sobrescribir con la variable de entorno ``GODOT_ANDROID_KEYSTORE_RELEASE_USER``.
 
 .. rst-class:: classref-item-separator
 

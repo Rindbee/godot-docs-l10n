@@ -966,7 +966,7 @@ Un profilo di funzionalità può essere creato in codice usando la classe :ref:`
 
 |void| **set_main_screen_editor**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorInterface_method_set_main_screen_editor>`
 
-Imposta la schermata principale attuale dell'editor su quella specificata in ``name``. ``name`` deve corrispondere esattamente al titolo della scheda in questione (ad esempio ``2D``, ``3D``, ``Script``, ``Game`` o ``AssetLib`` per le schede predefinite).
+Imposta la schermata principale attuale dell'editor su quella specificata in ``name``. ``name`` deve corrispondere esattamente al titolo della scheda in questione (ad esempio ``2D``, ``3D``, ``Script``, ``Gioco`` o ``AssetLib`` per le schede predefinite).
 
 .. rst-class:: classref-item-separator
 

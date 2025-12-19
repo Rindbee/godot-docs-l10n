@@ -199,7 +199,7 @@ Set the offset rect relative to the area being rendered. A length of 1 represent
 - |void| **set_oversample**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_oversample**\ (\ )
 
-El ajuste de sobremuestreo. Debido a la distorsión de la lente, tenemos que renderizar nuestros búfers a una resolución más alta de la que la pantalla puede manejar nativamente. Un valor entre 1,5 y 2,0 a menudo proporciona buenos resultados pero a costa del rendimiento.
+El ajuste de sobremuestreo. Debido a la distorsión de la lente, tenemos que renderizar nuestros búferes a una resolución más alta de la que la pantalla puede manejar nativamente. Un valor entre 1,5 y 2,0 a menudo proporciona buenos resultados pero a costa del rendimiento.
 
 .. rst-class:: classref-item-separator
 

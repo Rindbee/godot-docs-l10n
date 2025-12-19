@@ -439,9 +439,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody2D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_velocity**\ (\ )
 
-Current velocity vector in pixels per second, used and modified during calls to :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`.
+当前的速度向量，单位为像素每秒，会在调用 :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>` 时使用和修改。
 
-This property should not be set to a value multiplied by ``delta``, because this happens internally in :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>`. Otherwise, the simulation will run at an incorrect speed.
+不应将该属性设置为乘以 ``delta`` 的值，因为 :ref:`move_and_slide()<class_CharacterBody2D_method_move_and_slide>` 内部会乘。否则运行仿真会使用错误的速度。
 
 .. rst-class:: classref-item-separator
 
@@ -704,17 +704,17 @@ This property should not be set to a value multiplied by ``delta``, because this
 
 :ref:`bool<class_bool>` **move_and_slide**\ (\ ) :ref:`🔗<class_CharacterBody2D_method_move_and_slide>`
 
-Moves the body based on :ref:`velocity<class_CharacterBody2D_property_velocity>`. If the body collides with another, it will slide along the other body (by default only on floor) rather than stop immediately. If the other body is a **CharacterBody2D** or :ref:`RigidBody2D<class_RigidBody2D>`, it will also be affected by the motion of the other body. You can use this to make moving and rotating platforms, or to make nodes push other nodes.
+根据 :ref:`velocity<class_CharacterBody2D_property_velocity>` 移动该物体。该物体如果与其他物体发生碰撞，则会沿着对方滑动（默认只在地板上滑动），不会立即停止移动。如果对方是 **CharacterBody2D** 或 :ref:`RigidBody2D<class_RigidBody2D>`\ ，还会受到对方运动的影响。可以用于制作移动、旋转的平台，也可用于推动其他节点。
 
-This method should be used in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (or in a method called by :ref:`Node._physics_process()<class_Node_private_method__physics_process>`), as it uses the physics step's ``delta`` value automatically in calculations. Otherwise, the simulation will run at an incorrect speed.
+该方法在计算时会自动使用物理步骤的 ``delta``\ ，所以应当在 :ref:`Node._physics_process()<class_Node_private_method__physics_process>`\ （或 :ref:`Node._physics_process()<class_Node_private_method__physics_process>` 中调用的方法）中使用。否则运行仿真会使用错误的速度。
 
-Modifies :ref:`velocity<class_CharacterBody2D_property_velocity>` if a slide collision occurred. To get the latest collision call :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`, for detailed information about collisions that occurred, use :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`.
+发生滑动碰撞时会改变 :ref:`velocity<class_CharacterBody2D_property_velocity>`\ 。要获取最后一次碰撞，请调用 :ref:`get_last_slide_collision()<class_CharacterBody2D_method_get_last_slide_collision>`\ ，要获取碰撞的更多信息，请使用 :ref:`get_slide_collision()<class_CharacterBody2D_method_get_slide_collision>`\ 。
 
-When the body touches a moving platform, the platform's velocity is automatically added to the body motion. If a collision occurs due to the platform's motion, it will always be first in the slide collisions.
+该物体接触到移动平台时，平台的速度会自动加入到该物体的运动中。平台运动所造成的碰撞始终为所有滑动碰撞中的第一个。
 
-The general behavior and available properties change according to the :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>`.
+通用行为和可用属性会根据 :ref:`motion_mode<class_CharacterBody2D_property_motion_mode>` 发生改变。
 
-Returns ``true`` if the body collided, otherwise, returns ``false``.
+如果该物体发生了碰撞，则返回 ``true``\ ，否则返回 ``false``\ 。
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

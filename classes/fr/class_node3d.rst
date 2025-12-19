@@ -10,7 +10,7 @@ Node3D
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`AudioListener3D<class_AudioListener3D>`, :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`, :ref:`BoneAttachment3D<class_BoneAttachment3D>`, :ref:`Camera3D<class_Camera3D>`, :ref:`CollisionObject3D<class_CollisionObject3D>`, :ref:`CollisionPolygon3D<class_CollisionPolygon3D>`, :ref:`CollisionShape3D<class_CollisionShape3D>`, :ref:`GridMap<class_GridMap>`, :ref:`ImporterMeshInstance3D<class_ImporterMeshInstance3D>`, :ref:`Joint3D<class_Joint3D>`, :ref:`LightmapProbe<class_LightmapProbe>`, :ref:`Marker3D<class_Marker3D>`, :ref:`NavigationLink3D<class_NavigationLink3D>`, :ref:`NavigationObstacle3D<class_NavigationObstacle3D>`, :ref:`NavigationRegion3D<class_NavigationRegion3D>`, :ref:`OpenXRCompositionLayer<class_OpenXRCompositionLayer>`, :ref:`OpenXRHand<class_OpenXRHand>`, :ref:`OpenXRRenderModel<class_OpenXRRenderModel>`, :ref:`OpenXRRenderModelManager<class_OpenXRRenderModelManager>`, :ref:`Path3D<class_Path3D>`, :ref:`PathFollow3D<class_PathFollow3D>`, :ref:`RayCast3D<class_RayCast3D>`, :ref:`RemoteTransform3D<class_RemoteTransform3D>`, :ref:`ShapeCast3D<class_ShapeCast3D>`, :ref:`Skeleton3D<class_Skeleton3D>`, :ref:`SkeletonModifier3D<class_SkeletonModifier3D>`, :ref:`SpringArm3D<class_SpringArm3D>`, :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>`, :ref:`VehicleWheel3D<class_VehicleWheel3D>`, :ref:`VisualInstance3D<class_VisualInstance3D>`, :ref:`XRFaceModifier3D<class_XRFaceModifier3D>`, :ref:`XRNode3D<class_XRNode3D>`, :ref:`XROrigin3D<class_XROrigin3D>`
+**Hérité par :** :ref:`AudioListener3D<class_AudioListener3D>`, :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`, :ref:`BoneAttachment3D<class_BoneAttachment3D>`, :ref:`Camera3D<class_Camera3D>`, :ref:`CollisionObject3D<class_CollisionObject3D>`, :ref:`CollisionPolygon3D<class_CollisionPolygon3D>`, :ref:`CollisionShape3D<class_CollisionShape3D>`, :ref:`GridMap<class_GridMap>`, :ref:`ImporterMeshInstance3D<class_ImporterMeshInstance3D>`, :ref:`Joint3D<class_Joint3D>`, :ref:`LightmapProbe<class_LightmapProbe>`, :ref:`Marker3D<class_Marker3D>`, :ref:`NavigationLink3D<class_NavigationLink3D>`, :ref:`NavigationObstacle3D<class_NavigationObstacle3D>`, :ref:`NavigationRegion3D<class_NavigationRegion3D>`, :ref:`OpenXRCompositionLayer<class_OpenXRCompositionLayer>`, :ref:`OpenXRHand<class_OpenXRHand>`, :ref:`OpenXRRenderModel<class_OpenXRRenderModel>`, :ref:`OpenXRRenderModelManager<class_OpenXRRenderModelManager>`, :ref:`Path3D<class_Path3D>`, :ref:`PathFollow3D<class_PathFollow3D>`, :ref:`RayCast3D<class_RayCast3D>`, :ref:`RemoteTransform3D<class_RemoteTransform3D>`, :ref:`ShapeCast3D<class_ShapeCast3D>`, :ref:`Skeleton3D<class_Skeleton3D>`, :ref:`SkeletonModifier3D<class_SkeletonModifier3D>`, :ref:`SpringArm3D<class_SpringArm3D>`, :ref:`SpringBoneCollision3D<class_SpringBoneCollision3D>`, :ref:`VehicleWheel3D<class_VehicleWheel3D>`, :ref:`VisualInstance3D<class_VisualInstance3D>`, :ref:`XRFaceModifier3D<class_XRFaceModifier3D>`, :ref:`XRNode3D<class_XRNode3D>`, :ref:`XROrigin3D<class_XROrigin3D>`
 
 Objet de base dans l'espace 3D, hérité par tous les nœuds 3D.
 
@@ -265,7 +265,7 @@ Notification reçue lorsque ce nœud est dés-enregistré du :ref:`World3D<class
 
 **NOTIFICATION_VISIBILITY_CHANGED** = ``43`` :ref:`🔗<class_Node3D_constant_NOTIFICATION_VISIBILITY_CHANGED>`
 
-Notification reçue lorsque la visibilité de ce noeud change (voir :ref:`visible<class_Node3D_property_visible>` et :ref:`is_visible_in_tree()<class_Node3D_method_is_visible_in_tree>`).
+Notification reçue lorsque la visibilité de ce nœud change (voir :ref:`visible<class_Node3D_property_visible>` et :ref:`is_visible_in_tree()<class_Node3D_method_is_visible_in_tree>`).
 
 Cette notification est reçue *avant* le signal :ref:`visibility_changed<class_Node3D_signal_visibility_changed>` correspondant.
 
@@ -436,7 +436,7 @@ Position (translation) de ce nœud dans l'espace parent (relatif au nœud parent
 - |void| **set_quaternion**\ (\ value\: :ref:`Quaternion<class_Quaternion>`\ )
 - :ref:`Quaternion<class_Quaternion>` **get_quaternion**\ (\ )
 
-Rotation de ce noeud représentée en tant que :ref:`Quaternion<class_Quaternion>` dans l'espace parent (relatif au nœud parent). Cette valeur est obtenue à partir de la rotation de :ref:`basis<class_Node3D_property_basis>`.
+Rotation de ce nœud représentée en tant que :ref:`Quaternion<class_Quaternion>` dans l'espace parent (relatif au nœud parent). Cette valeur est obtenue à partir de la rotation de :ref:`basis<class_Node3D_property_basis>`.
 
 \ **Note :** Les quaternions sont beaucoup plus adaptés aux maths 3D mais sont moins intuitifs. Définir cette propriété peut être utile pour interpoler (voir :ref:`Quaternion.slerp()<class_Quaternion_method_slerp>`).
 
@@ -664,7 +664,7 @@ Désélectionne tous les sous-manipulateurs pour ce nœuds. Utile à appeler lor
 
 |void| **force_update_transform**\ (\ ) :ref:`🔗<class_Node3D_method_force_update_transform>`
 
-Force la transformation globale :ref:`global_transform<class_Node3D_property_global_transform>` du nœud à se mettre à jour, en envoyant :ref:`NOTIFICATION_TRANSFORM_CHANGED<class_Node3D_constant_NOTIFICATION_TRANSFORM_CHANGED>`. Échoue si le noeud n'est pas à l'intérieur de l'arboresence.
+Force la transformation globale :ref:`global_transform<class_Node3D_property_global_transform>` du nœud à se mettre à jour, en envoyant :ref:`NOTIFICATION_TRANSFORM_CHANGED<class_Node3D_constant_NOTIFICATION_TRANSFORM_CHANGED>`. Échoue si le nœud n'est pas à l'intérieur de l'arboresence.
 
 \ **Note :** Pour des raisons de performance, les changements de transformation sont généralement accumulés et appliqués *en une fois* à la fin de la trame. La mise à jour se propage aussi vers les enfants **Node3D**. Par conséquent, utilisez cette méthode seulement lorsque vous avez besoin d'une transformation à jour (comme pendant les opérations de physique).
 
@@ -1036,7 +1036,7 @@ Sélectionne le sous-manipulateur ``gizmo`` avec l'``id`` donné et définit sa 
 
 |void| **show**\ (\ ) :ref:`🔗<class_Node3D_method_show>`
 
-Autorise à ce noeud d'être rendu. Équivalent à définir :ref:`visible<class_Node3D_property_visible>` à ``true``. Il s'agit du contraire de :ref:`hide()<class_Node3D_method_hide>`.
+Autorise à ce nœud d'être rendu. Équivalent à définir :ref:`visible<class_Node3D_property_visible>` à ``true``. Il s'agit du contraire de :ref:`hide()<class_Node3D_method_hide>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1072,7 +1072,7 @@ Renvoie le point global ``global_point`` converti de l'espace global vers l'espa
 
 |void| **translate**\ (\ offset\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Node3D_method_translate>`
 
-Ajoute la translation ``offset`` donnée à la position du nœud, dans l'espace local (relatif à ce noeud).
+Ajoute la translation ``offset`` donnée à la position du nœud, dans l'espace local (relatif à ce nœud).
 
 \ **Note :** Préférez utiliser :ref:`translate_object_local()<class_Node3D_method_translate_object_local>`, car cette méthode peut être changée dans une version future.
 

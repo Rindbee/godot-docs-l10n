@@ -9,7 +9,7 @@ TextServer
 
 **Heredado por:** :ref:`TextServerExtension<class_TextServerExtension>`
 
-A server interface for font management and text rendering.
+Una interfaz de servidor para la gestión de fuentes y el renderizado de texto.
 
 .. rst-class:: classref-introduction-group
 
@@ -652,7 +652,7 @@ El texto se escribe de derecha a izquierda.
 
 :ref:`Direction<enum_TextServer_Direction>` **DIRECTION_INHERITED** = ``3``
 
-La dirección de escritura del texto es la misma que la dirección de escritura de la string base. Se utiliza solo para la anulación BiDi.
+La dirección de escritura del texto es la misma que la dirección de escritura de la string base. Se utiliza solo para la sobrescritura BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -1564,7 +1564,7 @@ Utiliza el algoritmo Unicode BiDi predeterminado.
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **STRUCTURED_TEXT_URI** = ``1``
 
-Anulación BiDi para URI.
+Sobrescritura BiDi para URI.
 
 .. _class_TextServer_constant_STRUCTURED_TEXT_FILE:
 
@@ -1572,7 +1572,7 @@ Anulación BiDi para URI.
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **STRUCTURED_TEXT_FILE** = ``2``
 
-Anulación BiDi para la ruta del archivo.
+Sobrescritura BiDi para la ruta del archivo.
 
 .. _class_TextServer_constant_STRUCTURED_TEXT_EMAIL:
 
@@ -1580,7 +1580,7 @@ Anulación BiDi para la ruta del archivo.
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **STRUCTURED_TEXT_EMAIL** = ``3``
 
-Anulación BiDi para el correo electrónico.
+Sobrescritura BiDi para el correo electrónico.
 
 .. _class_TextServer_constant_STRUCTURED_TEXT_LIST:
 
@@ -1588,7 +1588,7 @@ Anulación BiDi para el correo electrónico.
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **STRUCTURED_TEXT_LIST** = ``4``
 
-Anulación BiDi para listas. Opciones de texto estructurado: separador de lista :ref:`String<class_String>`.
+Sobrescritura BiDi para listas. Opciones de texto estructurado: separador de lista :ref:`String<class_String>`.
 
 .. _class_TextServer_constant_STRUCTURED_TEXT_GDSCRIPT:
 
@@ -1596,7 +1596,7 @@ Anulación BiDi para listas. Opciones de texto estructurado: separador de lista 
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **STRUCTURED_TEXT_GDSCRIPT** = ``5``
 
-Anulación BiDi para GDScript.
+Sobrescritura BiDi para GDScript.
 
 .. _class_TextServer_constant_STRUCTURED_TEXT_CUSTOM:
 
@@ -1604,7 +1604,7 @@ Anulación BiDi para GDScript.
 
 :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **STRUCTURED_TEXT_CUSTOM** = ``6``
 
-Función de anulación BiDi de texto estructurado definida por el usuario.
+Función de sobrescritura BiDi de texto estructurado definida por el usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -1827,7 +1827,7 @@ Devuelve el ascenso de la fuente (número de píxeles por encima de la línea de
 
 :ref:`float<class_float>` **font_get_baseline_offset**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_baseline_offset>`
 
-Returns extra baseline offset (as a fraction of font height).
+Devuelve el desplazamiento adicional de la línea base (como una fracción de la altura de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -1887,7 +1887,7 @@ Devuelve la intensidad del resaltado de la fuente.
 
 :ref:`int<class_int>` **font_get_face_count**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_face_count>`
 
-Returns number of faces in the TrueType / OpenType collection.
+Devuelve el número de caras en la colección TrueType/OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -1961,9 +1961,9 @@ Obsoleto. Este método siempre devuelve ``1.0``.
 
 :ref:`Vector2<class_Vector2>` **font_get_glyph_advance**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, glyph\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_glyph_advance>`
 
-Returns glyph advance (offset of the next glyph).
+Devuelve el avance del glifo (desplazamiento del siguiente glifo).
 
-\ **Note:** Advance for glyphs outlines is the same as the base glyph advance and is not saved.
+\ **Nota:** El avance de los contornos de los glifos es el mismo que el avance del glifo base y no se guarda.
 
 .. rst-class:: classref-item-separator
 
@@ -2003,7 +2003,7 @@ Returns outline contours of the glyph as a :ref:`Dictionary<class_Dictionary>` w
 
 :ref:`int<class_int>` **font_get_glyph_index**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, char\: :ref:`int<class_int>`, variation_selector\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_glyph_index>`
 
-Returns the glyph index of a ``char``, optionally modified by the ``variation_selector``. See :ref:`font_get_char_from_glyph_index()<class_TextServer_method_font_get_char_from_glyph_index>`.
+Devuelve el índice del glifo de un ``char``, modificado opcionalmente por el ``variation_selector``. Véase :ref:`font_get_char_from_glyph_index()<class_TextServer_method_font_get_char_from_glyph_index>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2063,9 +2063,9 @@ Devuelve el índice de la textura de caché que contiene el glifo.
 
 :ref:`RID<class_RID>` **font_get_glyph_texture_rid**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_glyph_texture_rid>`
 
-Returns resource ID of the cache texture containing the glyph.
+Devuelve el ID del recurso de la textura caché que contiene el glifo.
 
-\ **Note:** If there are pending glyphs to render, calling this function might trigger the texture cache update.
+\ **Nota:** Si hay glifos pendientes de renderizar, llamar a esta función podría activar la actualización de la caché de texturas.
 
 .. rst-class:: classref-item-separator
 
@@ -2077,9 +2077,9 @@ Returns resource ID of the cache texture containing the glyph.
 
 :ref:`Vector2<class_Vector2>` **font_get_glyph_texture_size**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_glyph_texture_size>`
 
-Returns size of the cache texture containing the glyph.
+Devuelve el tamaño de la textura caché que contiene el glifo.
 
-\ **Note:** If there are pending glyphs to render, calling this function might trigger the texture cache update.
+\ **Nota:** Si hay glifos pendientes de renderizar, llamar a esta función podría activar la actualización de la caché de texturas.
 
 .. rst-class:: classref-item-separator
 
@@ -2115,7 +2115,7 @@ Devuelve el modo de sugerencia de fuente. Solo se utiliza con fuentes dinámicas
 
 :ref:`bool<class_bool>` **font_get_keep_rounding_remainders**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_keep_rounding_remainders>`
 
-Returns glyph position rounding behavior. If set to ``true``, when aligning glyphs to the pixel boundaries rounding remainders are accumulated to ensure more uniform glyph distribution. This setting has no effect if subpixel positioning is enabled.
+Devuelve el comportamiento de redondeo de la posición del glifo. Si se establece en ``true``, al alinear los glifos con los límites de los píxeles, los restos del redondeo se acumulan para asegurar una distribución más uniforme de los glifos. Este ajuste no tiene efecto si el posicionamiento subpíxel está habilitado.
 
 .. rst-class:: classref-item-separator
 
@@ -2151,7 +2151,7 @@ Devuelve una lista de anulaciones de kerning.
 
 :ref:`bool<class_bool>` **font_get_language_support_override**\ (\ font_rid\: :ref:`RID<class_RID>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TextServer_method_font_get_language_support_override>`
 
-Devuelve ``true`` si la anulación de soporte está habilitada para el ``language``.
+Devuelve ``true`` si la sobrescritura de soporte está habilitada para el ``language``.
 
 .. rst-class:: classref-item-separator
 
@@ -2175,7 +2175,7 @@ Devuelve una lista de anulaciones de soporte de idiomas.
 
 :ref:`int<class_int>` **font_get_msdf_pixel_range**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_msdf_pixel_range>`
 
-Returns the width of the range around the shape between the minimum and maximum representable signed distance.
+Devuelve el ancho del rango alrededor de la forma entre la distancia con signo mínima y máxima representable.
 
 .. rst-class:: classref-item-separator
 
@@ -2187,7 +2187,7 @@ Returns the width of the range around the shape between the minimum and maximum 
 
 :ref:`int<class_int>` **font_get_msdf_size**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_msdf_size>`
 
-Returns source font size used to generate MSDF textures.
+Devuelve el tamaño de la fuente original utilizada para generar texturas MSDF.
 
 .. rst-class:: classref-item-separator
 
@@ -2211,7 +2211,7 @@ Devuelve el nombre de la familia de fuentes.
 
 :ref:`Dictionary<class_Dictionary>` **font_get_opentype_feature_overrides**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_opentype_feature_overrides>`
 
-Devuelve la anulación del conjunto de características de la fuente OpenType.
+Devuelve la sobrescritura del conjunto de características de la fuente OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -2223,7 +2223,7 @@ Devuelve la anulación del conjunto de características de la fuente OpenType.
 
 :ref:`Dictionary<class_Dictionary>` **font_get_ot_name_strings**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_ot_name_strings>`
 
-Returns :ref:`Dictionary<class_Dictionary>` with OpenType font name strings (localized font names, version, description, license information, sample text, etc.).
+Devuelve un :ref:`Dictionary<class_Dictionary>` con cadenas de nombre de fuente OpenType (nombres de fuente localizados, versión, descripción, información de licencia, texto de ejemplo, etc.).
 
 .. rst-class:: classref-item-separator
 
@@ -2235,7 +2235,7 @@ Returns :ref:`Dictionary<class_Dictionary>` with OpenType font name strings (loc
 
 :ref:`float<class_float>` **font_get_oversampling**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_oversampling>`
 
-Returns oversampling factor override. If set to a positive value, overrides the oversampling factor of the viewport this font is used in. See :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. This value doesn't override the ``oversampling`` parameter of ``draw_*`` methods. Used by dynamic fonts only.
+Devuelve la sobrescritura del factor de sobremuestreo. Si se establece en un valor positivo, sobrescribe el factor de sobremuestreo del viewport en el que se utiliza esta fuente. Véase :ref:`Viewport.oversampling<class_Viewport_property_oversampling>`. Este valor no sobrescribe el parámetro ``oversampling`` de los métodos ``draw_*``. Se utiliza solo en fuentes dinámicas.
 
 .. rst-class:: classref-item-separator
 
@@ -2259,7 +2259,7 @@ Devuelve el factor de escala de la fuente de mapa de bits de color.
 
 :ref:`bool<class_bool>` **font_get_script_support_override**\ (\ font_rid\: :ref:`RID<class_RID>`, script\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TextServer_method_font_get_script_support_override>`
 
-Devuelve ``true`` si la anulación de soporte está habilitada para el ``script``.
+Devuelve ``true`` si la sobrescritura de soporte está habilitada para el ``script``.
 
 .. rst-class:: classref-item-separator
 
@@ -2283,7 +2283,7 @@ Devuelve una lista de anulaciones de compatibilidad de scripts.
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **font_get_size_cache_info**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_size_cache_info>`
 
-Returns font cache information, each entry contains the following fields: ``Vector2i size_px`` - font size in pixels, ``float viewport_oversampling`` - viewport oversampling factor, ``int glyphs`` - number of rendered glyphs, ``int textures`` - number of used textures, ``int textures_size`` - size of texture data in bytes.
+Devuelve información sobre la caché de fuentes, cada entrada contiene los siguientes campos: ``Vector2i size_px`` - tamaño de la fuente en píxeles, ``float viewport_oversampling`` - factor de sobremuestreo del viewport, ``int glyphs`` - número de glifos renderizados, ``int textures`` - número de texturas utilizadas, ``int textures_size`` - tamaño de los datos de la textura en bytes.
 
 .. rst-class:: classref-item-separator
 
@@ -2295,7 +2295,7 @@ Returns font cache information, each entry contains the following fields: ``Vect
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **font_get_size_cache_list**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_size_cache_list>`
 
-Returns list of the font sizes in the cache. Each size is :ref:`Vector2i<class_Vector2i>` with font size and outline size.
+Devuelve una lista de los tamaños de fuente en la caché. Cada tamaño es :ref:`Vector2i<class_Vector2i>` con el tamaño de la fuente y el tamaño del contorno.
 
 .. rst-class:: classref-item-separator
 
@@ -2307,7 +2307,7 @@ Returns list of the font sizes in the cache. Each size is :ref:`Vector2i<class_V
 
 :ref:`int<class_int>` **font_get_spacing**\ (\ font_rid\: :ref:`RID<class_RID>`, spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_spacing>`
 
-Returns the spacing for ``spacing`` in pixels (not relative to the font size).
+Devuelve el espaciado para ``spacing`` en píxeles (no relativo al tamaño de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -2367,7 +2367,7 @@ Devuelve el modo de posicionamiento de glifo de subpíxeles de fuente.
 
 :ref:`String<class_String>` **font_get_supported_chars**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_supported_chars>`
 
-Returns a string containing all the characters available in the font.
+Devuelve una string que contiene todos los caracteres disponibles en la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -2415,7 +2415,7 @@ Devuelve datos de imagen de textura de caché de fuente.
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **font_get_texture_offsets**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, texture_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_texture_offsets>`
 
-Returns array containing glyph packing data.
+Devuelve un array que contiene los datos de empaquetado de glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -2463,7 +2463,7 @@ Devuelve el grosor del subrayado en píxeles.
 
 :ref:`Dictionary<class_Dictionary>` **font_get_variation_coordinates**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_variation_coordinates>`
 
-Returns variation coordinates for the specified font cache entry. See :ref:`font_supported_variation_list()<class_TextServer_method_font_supported_variation_list>` for more info.
+Devuelve las coordenadas de variación para la entrada de caché de fuente especificada. Véase :ref:`font_supported_variation_list()<class_TextServer_method_font_supported_variation_list>` para más información.
 
 .. rst-class:: classref-item-separator
 
@@ -2475,7 +2475,7 @@ Returns variation coordinates for the specified font cache entry. See :ref:`font
 
 :ref:`int<class_int>` **font_get_weight**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_get_weight>`
 
-Returns weight (boldness) of the font. A value in the ``100...999`` range, normal font weight is ``400``, bold font weight is ``700``.
+Devuelve el peso (grosor) de la fuente. Un valor en el rango ``100...999``, el peso normal de la fuente es ``400``, el peso de la fuente en negrita es ``700``.
 
 .. rst-class:: classref-item-separator
 
@@ -2499,7 +2499,7 @@ Devuelve ``true`` si un ``char`` Unicode está disponible en la fuente.
 
 :ref:`bool<class_bool>` **font_is_allow_system_fallback**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_allow_system_fallback>`
 
-Returns ``true`` if system fonts can be automatically used as fallbacks.
+Devuelve ``true`` si las fuentes del sistema pueden utilizarse automáticamente como alternativas.
 
 .. rst-class:: classref-item-separator
 
@@ -2511,7 +2511,7 @@ Returns ``true`` if system fonts can be automatically used as fallbacks.
 
 :ref:`bool<class_bool>` **font_is_force_autohinter**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_force_autohinter>`
 
-Returns ``true`` if auto-hinting is supported and preferred over font built-in hinting. Used by dynamic fonts only.
+Devuelve ``true`` si el hinting automático es compatible y preferible al hinting incorporado en la fuente. Se utiliza solo en fuentes dinámicas.
 
 .. rst-class:: classref-item-separator
 
@@ -2523,7 +2523,7 @@ Returns ``true`` if auto-hinting is supported and preferred over font built-in h
 
 :ref:`bool<class_bool>` **font_is_language_supported**\ (\ font_rid\: :ref:`RID<class_RID>`, language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_language_supported>`
 
-Returns ``true``, if font supports given language (`ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ code).
+Devuelve ``true`` si la fuente soporta el idioma dado (código `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__).
 
 .. rst-class:: classref-item-separator
 
@@ -2535,7 +2535,7 @@ Returns ``true``, if font supports given language (`ISO 639 <https://en.wikipedi
 
 :ref:`bool<class_bool>` **font_is_modulate_color_glyphs**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_modulate_color_glyphs>`
 
-Returns ``true``, if color modulation is applied when drawing colored glyphs.
+Devuelve ``true`` si la modulación de color se aplica al dibujar glifos coloreados.
 
 .. rst-class:: classref-item-separator
 
@@ -2547,7 +2547,7 @@ Returns ``true``, if color modulation is applied when drawing colored glyphs.
 
 :ref:`bool<class_bool>` **font_is_multichannel_signed_distance_field**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_multichannel_signed_distance_field>`
 
-Returns ``true`` if glyphs of all sizes are rendered using single multichannel signed distance field generated from the dynamic font vector data.
+Devuelve ``true`` si los glifos de todos los tamaños se renderizan utilizando un único campo de distancia firmado multicanal generado a partir de los datos vectoriales de la fuente dinámica.
 
 .. rst-class:: classref-item-separator
 
@@ -2559,7 +2559,7 @@ Returns ``true`` if glyphs of all sizes are rendered using single multichannel s
 
 :ref:`bool<class_bool>` **font_is_script_supported**\ (\ font_rid\: :ref:`RID<class_RID>`, script\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_script_supported>`
 
-Returns ``true``, if font supports given script (ISO 15924 code).
+Devuelve ``true`` si la fuente admite el script dado (código ISO 15924).
 
 .. rst-class:: classref-item-separator
 
@@ -2571,9 +2571,9 @@ Returns ``true``, if font supports given script (ISO 15924 code).
 
 |void| **font_remove_glyph**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_remove_glyph>`
 
-Removes specified rendered glyph information from the cache entry.
+Elimina la información del glifo renderizado especificado de la entrada de caché.
 
-\ **Note:** This function will not remove textures associated with the glyphs, use :ref:`font_remove_texture()<class_TextServer_method_font_remove_texture>` to remove them manually.
+\ **Nota:** Esta función no eliminará las texturas asociadas con los glifos, usa :ref:`font_remove_texture()<class_TextServer_method_font_remove_texture>` para eliminarlas manualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -2585,7 +2585,7 @@ Removes specified rendered glyph information from the cache entry.
 
 |void| **font_remove_kerning**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, glyph_pair\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_TextServer_method_font_remove_kerning>`
 
-Removes kerning override for the pair of glyphs.
+Elimina la sobrescritura de kerning para el par de glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -2597,7 +2597,7 @@ Removes kerning override for the pair of glyphs.
 
 |void| **font_remove_language_support_override**\ (\ font_rid\: :ref:`RID<class_RID>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TextServer_method_font_remove_language_support_override>`
 
-Remove language support override.
+Elimina la sobrescritura de soporte de idioma.
 
 .. rst-class:: classref-item-separator
 
@@ -2609,7 +2609,7 @@ Remove language support override.
 
 |void| **font_remove_script_support_override**\ (\ font_rid\: :ref:`RID<class_RID>`, script\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TextServer_method_font_remove_script_support_override>`
 
-Removes script support override.
+Elimina la sobrescritura de soporte de script.
 
 .. rst-class:: classref-item-separator
 
@@ -2633,9 +2633,9 @@ Elimina el tamaño de fuente especificado de la entrada de caché.
 
 |void| **font_remove_texture**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, texture_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_remove_texture>`
 
-Removes specified texture from the cache entry.
+Elimina la textura especificada de la entrada de caché.
 
-\ **Note:** This function will not remove glyphs associated with the texture, remove them manually, using :ref:`font_remove_glyph()<class_TextServer_method_font_remove_glyph>`.
+\ **Nota:** Esta función no eliminará los glifos asociados con la textura, elimínalos manualmente, usando :ref:`font_remove_glyph()<class_TextServer_method_font_remove_glyph>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2647,7 +2647,7 @@ Removes specified texture from the cache entry.
 
 |void| **font_render_glyph**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_render_glyph>`
 
-Renders specified glyph to the font cache texture.
+Renderiza el glifo especificado en la textura de caché de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -2671,7 +2671,7 @@ Representa el rango de caracteres en la textura de caché de fuentes.
 
 |void| **font_set_allow_system_fallback**\ (\ font_rid\: :ref:`RID<class_RID>`, allow_system_fallback\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TextServer_method_font_set_allow_system_fallback>`
 
-If set to ``true``, system fonts can be automatically used as fallbacks.
+Si se establece en ``true``, las fuentes del sistema se pueden utilizar automáticamente como alternativas.
 
 .. rst-class:: classref-item-separator
 
@@ -2683,7 +2683,7 @@ If set to ``true``, system fonts can be automatically used as fallbacks.
 
 |void| **font_set_antialiasing**\ (\ font_rid\: :ref:`RID<class_RID>`, antialiasing\: :ref:`FontAntialiasing<enum_TextServer_FontAntialiasing>`\ ) :ref:`🔗<class_TextServer_method_font_set_antialiasing>`
 
-Sets font anti-aliasing mode.
+Establece el modo de antialiasing de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -2707,7 +2707,7 @@ Establece el ascenso de la fuente (número de píxeles por encima de la línea b
 
 |void| **font_set_baseline_offset**\ (\ font_rid\: :ref:`RID<class_RID>`, baseline_offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_baseline_offset>`
 
-Sets extra baseline offset (as a fraction of font height).
+Establece el desplazamiento extra de la línea de base (como una fracción de la altura de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -2719,7 +2719,7 @@ Sets extra baseline offset (as a fraction of font height).
 
 |void| **font_set_data**\ (\ font_rid\: :ref:`RID<class_RID>`, data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_TextServer_method_font_set_data>`
 
-Sets font source data, e.g contents of the dynamic font source file.
+Establece los datos de origen de la fuente, por ejemplo, el contenido del archivo de origen de la fuente dinámica.
 
 .. rst-class:: classref-item-separator
 
@@ -2731,7 +2731,7 @@ Sets font source data, e.g contents of the dynamic font source file.
 
 |void| **font_set_descent**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, descent\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_descent>`
 
-Sets the font descent (number of pixels below the baseline).
+Establece el descenso de la fuente (número de píxeles por debajo de la línea de base).
 
 .. rst-class:: classref-item-separator
 
@@ -2755,7 +2755,7 @@ If set to ``true``, embedded font bitmap loading is disabled (bitmap-only and co
 
 |void| **font_set_embolden**\ (\ font_rid\: :ref:`RID<class_RID>`, strength\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_embolden>`
 
-Sets font embolden strength. If ``strength`` is not equal to zero, emboldens the font outlines. Negative values reduce the outline thickness.
+Establece la fuerza de realce de la fuente. Si ``strength`` no es igual a cero, realza los contornos de la fuente. Los valores negativos reducen el grosor del contorno.
 
 .. rst-class:: classref-item-separator
 
@@ -2767,7 +2767,7 @@ Sets font embolden strength. If ``strength`` is not equal to zero, emboldens the
 
 |void| **font_set_face_index**\ (\ font_rid\: :ref:`RID<class_RID>`, face_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_set_face_index>`
 
-Sets an active face index in the TrueType / OpenType collection.
+Establece un índice de cara activo en la colección TrueType/OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -2779,7 +2779,7 @@ Sets an active face index in the TrueType / OpenType collection.
 
 |void| **font_set_fixed_size**\ (\ font_rid\: :ref:`RID<class_RID>`, fixed_size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_set_fixed_size>`
 
-Sets bitmap font fixed size. If set to value greater than zero, same cache entry will be used for all font sizes.
+Establece el tamaño fijo de la fuente de mapa de bits. Si se establece en un valor mayor que cero, se utilizará la misma entrada de caché para todos los tamaños de fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -2791,7 +2791,7 @@ Sets bitmap font fixed size. If set to value greater than zero, same cache entry
 
 |void| **font_set_fixed_size_scale_mode**\ (\ font_rid\: :ref:`RID<class_RID>`, fixed_size_scale_mode\: :ref:`FixedSizeScaleMode<enum_TextServer_FixedSizeScaleMode>`\ ) :ref:`🔗<class_TextServer_method_font_set_fixed_size_scale_mode>`
 
-Sets bitmap font scaling mode. This property is used only if ``fixed_size`` is greater than zero.
+Establece el modo de escalado de la fuente de mapa de bits. Esta propiedad sólo se utiliza si ``fixed_size`` es mayor que cero.
 
 .. rst-class:: classref-item-separator
 
@@ -2803,7 +2803,7 @@ Sets bitmap font scaling mode. This property is used only if ``fixed_size`` is g
 
 |void| **font_set_force_autohinter**\ (\ font_rid\: :ref:`RID<class_RID>`, force_autohinter\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TextServer_method_font_set_force_autohinter>`
 
-If set to ``true`` auto-hinting is preferred over font built-in hinting.
+Si se establece en ``true``, se prefiere el hinting automático al hinting incorporado en la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -2815,7 +2815,7 @@ If set to ``true`` auto-hinting is preferred over font built-in hinting.
 
 |void| **font_set_generate_mipmaps**\ (\ font_rid\: :ref:`RID<class_RID>`, generate_mipmaps\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TextServer_method_font_set_generate_mipmaps>`
 
-If set to ``true`` font texture mipmap generation is enabled.
+Si se establece en ``true``, la generación de mipmap de textura de fuente está habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -2841,9 +2841,9 @@ Obsoleto. Este método no hace nada.
 
 |void| **font_set_glyph_advance**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, glyph\: :ref:`int<class_int>`, advance\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_TextServer_method_font_set_glyph_advance>`
 
-Sets glyph advance (offset of the next glyph).
+Establece el avance del glifo (desplazamiento del siguiente glifo).
 
-\ **Note:** Advance for glyphs outlines is the same as the base glyph advance and is not saved.
+\ **Nota:** El avance de los contornos de los glifos es el mismo que el avance del glifo base y no se guarda.
 
 .. rst-class:: classref-item-separator
 
@@ -2855,7 +2855,7 @@ Sets glyph advance (offset of the next glyph).
 
 |void| **font_set_glyph_offset**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`, offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_TextServer_method_font_set_glyph_offset>`
 
-Sets glyph offset from the baseline.
+Establece el desplazamiento del glifo desde la línea de base.
 
 .. rst-class:: classref-item-separator
 
@@ -2879,7 +2879,7 @@ Establece el tamaño del glifo.
 
 |void| **font_set_glyph_texture_idx**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`, texture_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_set_glyph_texture_idx>`
 
-Sets index of the cache texture containing the glyph.
+Establece el índice de la textura de caché que contiene el glifo.
 
 .. rst-class:: classref-item-separator
 
@@ -2891,7 +2891,7 @@ Sets index of the cache texture containing the glyph.
 
 |void| **font_set_glyph_uv_rect**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`, uv_rect\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_TextServer_method_font_set_glyph_uv_rect>`
 
-Sets rectangle in the cache texture containing the glyph.
+Establece el rectángulo en la textura de caché que contiene el glifo.
 
 .. rst-class:: classref-item-separator
 
@@ -2903,7 +2903,7 @@ Sets rectangle in the cache texture containing the glyph.
 
 |void| **font_set_hinting**\ (\ font_rid\: :ref:`RID<class_RID>`, hinting\: :ref:`Hinting<enum_TextServer_Hinting>`\ ) :ref:`🔗<class_TextServer_method_font_set_hinting>`
 
-Sets font hinting mode. Used by dynamic fonts only.
+Establece el modo de hinting de la fuente. Solo se usa en fuentes dinámicas.
 
 .. rst-class:: classref-item-separator
 
@@ -2927,7 +2927,7 @@ Sets glyph position rounding behavior. If set to ``true``, when aligning glyphs 
 
 |void| **font_set_kerning**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, glyph_pair\: :ref:`Vector2i<class_Vector2i>`, kerning\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_TextServer_method_font_set_kerning>`
 
-Sets kerning for the pair of glyphs.
+Establece el kerning para el par de glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -2939,7 +2939,7 @@ Sets kerning for the pair of glyphs.
 
 |void| **font_set_language_support_override**\ (\ font_rid\: :ref:`RID<class_RID>`, language\: :ref:`String<class_String>`, supported\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TextServer_method_font_set_language_support_override>`
 
-Adds override for :ref:`font_is_language_supported()<class_TextServer_method_font_is_language_supported>`.
+Añade una sobrescritura para :ref:`font_is_language_supported()<class_TextServer_method_font_is_language_supported>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3013,7 +3013,7 @@ Establece el nombre de la familia de fuentes.
 
 |void| **font_set_opentype_feature_overrides**\ (\ font_rid\: :ref:`RID<class_RID>`, overrides\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_TextServer_method_font_set_opentype_feature_overrides>`
 
-Establece la sobreescritura del conjunto de características OpenType de la fuente.
+Establece la sobrescritura del conjunto de características OpenType de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -3037,7 +3037,7 @@ Si se establece en un valor positivo, sobrescribe el factor de sobremuestreo del
 
 |void| **font_set_scale**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, scale\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_scale>`
 
-Sets scaling factor of the color bitmap font.
+Establece el factor de escala de la fuente de mapa de bits de color.
 
 .. rst-class:: classref-item-separator
 
@@ -3049,7 +3049,7 @@ Sets scaling factor of the color bitmap font.
 
 |void| **font_set_script_support_override**\ (\ font_rid\: :ref:`RID<class_RID>`, script\: :ref:`String<class_String>`, supported\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_TextServer_method_font_set_script_support_override>`
 
-Añade una sobreescritura para :ref:`font_is_script_supported()<class_TextServer_method_font_is_script_supported>`.
+Añade una sobrescritura para :ref:`font_is_script_supported()<class_TextServer_method_font_is_script_supported>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3061,7 +3061,7 @@ Añade una sobreescritura para :ref:`font_is_script_supported()<class_TextServer
 
 |void| **font_set_spacing**\ (\ font_rid\: :ref:`RID<class_RID>`, spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TextServer_method_font_set_spacing>`
 
-Sets the spacing for ``spacing`` to ``value`` in pixels (not relative to the font size).
+Establece el espaciado para ``spacing`` a ``value`` en píxeles (no en relación con el tamaño de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -3163,7 +3163,7 @@ Por ejemplo, para simular un tipo de letra en cursiva inclinando, aplica la sigu
 
 |void| **font_set_underline_position**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, underline_position\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_underline_position>`
 
-Sets pixel offset of the underline below the baseline.
+Establece el desplazamiento en píxeles del subrayado por debajo de la línea de base.
 
 .. rst-class:: classref-item-separator
 
@@ -3175,7 +3175,7 @@ Sets pixel offset of the underline below the baseline.
 
 |void| **font_set_underline_thickness**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`, underline_thickness\: :ref:`float<class_float>`\ ) :ref:`🔗<class_TextServer_method_font_set_underline_thickness>`
 
-Sets thickness of the underline in pixels.
+Establece el grosor del subrayado en píxeles.
 
 .. rst-class:: classref-item-separator
 
@@ -3359,7 +3359,7 @@ Devuelve ``true`` si el servidor soporta una característica.
 
 :ref:`int<class_int>` **is_confusable**\ (\ string\: :ref:`String<class_String>`, dict\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |const| :ref:`🔗<class_TextServer_method_is_confusable>`
 
-Devuelve el índice de la primera cadena en ``dict`` que es visualmente confusa con la ``string``, o ``-1`` si no se encuentra ninguna.
+Devuelve el índice de la primera string en ``dict`` que es visualmente confusa con la ``string``, o ``-1`` si no se encuentra ninguna.
 
 \ **Nota:** Este método no detecta caracteres invisibles, para la detección de spoof, utilícelo en combinación con :ref:`spoof_check()<class_TextServer_method_spoof_check>`.
 
@@ -3465,7 +3465,7 @@ Convierte ``number`` del sistema numeral usado en ``language`` a árabe occident
 
 :ref:`Array<class_Array>`\[:ref:`Vector3i<class_Vector3i>`\] **parse_structured_text**\ (\ parser_type\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`, args\: :ref:`Array<class_Array>`, text\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_parse_structured_text>`
 
-Default implementation of the BiDi algorithm override function.
+Implementación predeterminada de la función de sobrescritura del algoritmo BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -3683,7 +3683,7 @@ Cambia la fuente, el tamaño de la fuente y las características OpenType del tr
 
 :ref:`bool<class_bool>` **shaped_text_add_object**\ (\ shaped\: :ref:`RID<class_RID>`, key\: :ref:`Variant<class_Variant>`, size\: :ref:`Vector2<class_Vector2>`, inline_align\: :ref:`InlineAlignment<enum_@GlobalScope_InlineAlignment>` = 5, length\: :ref:`int<class_int>` = 1, baseline\: :ref:`float<class_float>` = 0.0\ ) :ref:`🔗<class_TextServer_method_shaped_text_add_object>`
 
-Adds inline object to the text buffer, ``key`` must be unique. In the text, object is represented as ``length`` object replacement characters.
+Añade un objeto en línea al buffer de texto, ``key`` debe ser único. En el texto, el objeto se representa como ``length`` caracteres de reemplazo de objeto.
 
 .. rst-class:: classref-item-separator
 

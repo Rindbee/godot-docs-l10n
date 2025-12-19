@@ -99,9 +99,9 @@ Depending on your use case, you may need to pass this to platform APIs, for exam
 
 |void| **set_external_buffer_id**\ (\ external_buffer_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_ExternalTexture_method_set_external_buffer_id>`
 
-Sets the external buffer ID.
+Establece el ID del búfer externo.
 
-Depending on your use case, you may need to call this with data received from a platform API, for example, ``SurfaceTexture.getHardwareBuffer()`` on Android.
+Dependiendo de tu caso de uso, es posible que debas llamar a esto con datos recibidos desde una API de la plataforma, por ejemplo, ``SurfaceTexture.getHardwareBuffer()`` en Android.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

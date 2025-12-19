@@ -755,7 +755,7 @@ Devuelve una lista de todos los nombres de tipo de tema únicos. Utiliza el mét
 
 :ref:`StringName<class_StringName>` **get_type_variation_base**\ (\ theme_type\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Theme_method_get_type_variation_base>`
 
-Devuelve el nombre del tipo de tema base si ``theme_type`` es un tipo de variación válido. En caso contrario, devuelve una cadena vacía.
+Devuelve el nombre del tipo de tema base si ``theme_type`` es un tipo de variación válido. En caso contrario, devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 

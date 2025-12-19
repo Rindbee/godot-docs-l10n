@@ -503,8 +503,8 @@ Voir aussi :ref:`@GlobalScope.PROPERTY_HINT_LAYERS_3D_PHYSICS<class_@GlobalScope
 
 ::
 
-    @export_flags_3d_physics var physics_layers: int
-    @export_flags_3d_physics var physics_layers_array: Array[int]
+    @export_flags_3d_physics var physics_layers : int
+    @export_flags_3d_physics var physics_layers_array : Array[int]
 
 .. rst-class:: classref-item-separator
 

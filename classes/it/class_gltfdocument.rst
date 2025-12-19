@@ -180,9 +180,9 @@ Descrizioni delle proprietà
 - |void| **set_fallback_image_format**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_fallback_image_format**\ (\ )
 
-The user-friendly name of the fallback image format. This is used when exporting the glTF file, including writing to a file and writing to a byte array.
+Il nome leggibile in chiaro del formato di immagine di riserva. Viene utilizzato quando si esporta il file glTF, incluso durante la scrittura su un file o su un array di byte.
 
-This property may only be one of "None", "PNG", or "JPEG", and is only used when the :ref:`image_format<class_GLTFDocument_property_image_format>` is not one of "None", "PNG", or "JPEG". If having multiple extension image formats is desired, that can be done using a :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` class - this property only covers the use case of providing a base glTF fallback image when using a custom image format.
+Questa proprietà può essere solo "None", "PNG" o "JPEG" ed è utilizzata solo quando :ref:`image_format<class_GLTFDocument_property_image_format>` non è "None", "PNG" o "JPEG". Se si desidera avere più estensioni di formato di immagine, è possibile farlo tramite una classe :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`: questa proprietà copre solo il caso d'uso di fornire un'immagine base glTF di riserva quando si utilizza un formato immagine personalizzato.
 
 .. rst-class:: classref-item-separator
 
@@ -216,9 +216,9 @@ La qualità dell'immagine di riserva, se presente. Per i file PNG, questa opzion
 - |void| **set_image_format**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_image_format**\ (\ )
 
-The user-friendly name of the export image format. This is used when exporting the glTF file, including writing to a file and writing to a byte array.
+Il nome leggibile in chiaro del formato di immagine d'esportazione. Viene utilizzato quando si esporta il file glTF, incluso durante la scrittura su un file o su un array di byte.
 
-By default, Godot allows the following options: "None", "PNG", "JPEG", "Lossless WebP", and "Lossy WebP". Support for more image formats can be added in :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` classes. A single extension class can provide multiple options for the specific format to use, or even an option that uses multiple formats at once.
+Per impostazione predefinita, Godot consente le seguenti opzioni: "None", "PNG", "JPEG", "Lossless WebP" e "Lossy WebP". È possibile aggiungere supporto per altri formati di immagine nelle classi :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`. Una singola classe di estensione può fornire più opzioni per il formato specifico da utilizzare o persino un'opzione che utilizza più formati alla volta.
 
 .. rst-class:: classref-item-separator
 

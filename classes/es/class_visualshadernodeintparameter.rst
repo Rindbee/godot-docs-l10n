@@ -85,7 +85,7 @@ El valor del parámetro debe estar dentro del rango especificado, con el :ref:`s
 
 :ref:`Hint<enum_VisualShaderNodeIntParameter_Hint>` **HINT_ENUM** = ``3``
 
-El parámetro utiliza una enumeración para asociar valores preestablecidos a nombres en el editor.
+El parámetro utiliza un enum para asociar valores preestablecidos a nombres en el editor.
 
 .. _class_VisualShaderNodeIntParameter_constant_HINT_MAX:
 

@@ -165,9 +165,9 @@ Descripciones de Propiedades
 
 :ref:`float<class_float>` **d** = ``0.0`` :ref:`🔗<class_Plane_property_d>`
 
-The distance from the origin to the plane, expressed in terms of :ref:`normal<class_Plane_property_normal>` (according to its direction and magnitude). Actual absolute distance from the origin to the plane can be calculated as ``abs(d) / normal.length()`` (if :ref:`normal<class_Plane_property_normal>` has zero length then this **Plane** does not represent a valid plane).
+La distancia desde el origen hasta el plano, expresada en términos de :ref:`normal<class_Plane_property_normal>` (según su dirección y magnitud). La distancia absoluta real desde el origen al plano se puede calcular como ``abs(d) / normal.length()`` (si :ref:`normal<class_Plane_property_normal>` tiene longitud cero, entonces este **Plane** no representa un plano válido).
 
-In the scalar equation of the plane ``ax + by + cz = d``, this is ``d``, while the ``(a, b, c)`` coordinates are represented by the :ref:`normal<class_Plane_property_normal>` property.
+En la ecuación escalar del plano ``ax + by + cz = d``, esto es ``d``, mientras que las coordenadas ``(a, b, c)`` están representadas por la propiedad :ref:`normal<class_Plane_property_normal>`.
 
 .. rst-class:: classref-item-separator
 
@@ -179,9 +179,9 @@ In the scalar equation of the plane ``ax + by + cz = d``, this is ``d``, while t
 
 :ref:`Vector3<class_Vector3>` **normal** = ``Vector3(0, 0, 0)`` :ref:`🔗<class_Plane_property_normal>`
 
-The normal of the plane, typically a unit vector. Shouldn't be a zero vector as **Plane** with such :ref:`normal<class_Plane_property_normal>` does not represent a valid plane.
+La normal del plano, típicamente un vector unitario. No debería ser un vector cero, ya que un **Plane** con tal :ref:`normal<class_Plane_property_normal>` no representa un plano válido.
 
-In the scalar equation of the plane ``ax + by + cz = d``, this is the vector ``(a, b, c)``, where ``d`` is the :ref:`d<class_Plane_property_d>` property.
+En la ecuación escalar del plano ``ax + by + cz = d``, este es el vector ``(a, b, c)``, donde ``d`` es la propiedad :ref:`d<class_Plane_property_d>`.
 
 .. rst-class:: classref-item-separator
 
@@ -468,9 +468,9 @@ Returns ``true`` if the planes are not equal.
 
 :ref:`Plane<class_Plane>` **operator ***\ (\ right\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_Plane_operator_mul_Transform3D>`
 
-Inversely transforms (multiplies) the **Plane** by the given :ref:`Transform3D<class_Transform3D>` transformation matrix.
+Transforma inversamente (multiplica) el **Plane** por la matriz de transformación :ref:`Transform3D<class_Transform3D>` dada.
 
-\ ``plane * transform`` is equivalent to ``transform.affine_inverse() * plane``. See :ref:`Transform3D.affine_inverse()<class_Transform3D_method_affine_inverse>`.
+\ ``plane * transform`` es equivalente a ``transform.affine_inverse() * plane``. Véase :ref:`Transform3D.affine_inverse()<class_Transform3D_method_affine_inverse>`.
 
 .. rst-class:: classref-item-separator
 
@@ -496,7 +496,7 @@ Returns ``true`` if the planes are exactly equal.
 
 :ref:`Plane<class_Plane>` **operator unary+**\ (\ ) :ref:`🔗<class_Plane_operator_unplus>`
 
-Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, but sometimes it can make your code more readable.
+Devuelve el mismo valor como si el ``+`` no estuviera ahí. El ``+`` unario no hace nada, pero a veces puede hacer que tu código sea más legible.
 
 .. rst-class:: classref-item-separator
 
@@ -508,7 +508,7 @@ Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, 
 
 :ref:`Plane<class_Plane>` **operator unary-**\ (\ ) :ref:`🔗<class_Plane_operator_unminus>`
 
-Returns the negative value of the **Plane**. This is the same as writing ``Plane(-p.normal, -p.d)``. This operation flips the direction of the normal vector and also flips the distance value, resulting in a Plane that is in the same place, but facing the opposite direction.
+Devuelve el valor negativo del **Plane**. Esto es lo mismo que escribir ``Plane(-p.normal, -p.d)``. Esta operación invierte la dirección del vector normal y también invierte el valor de la distancia, lo que da como resultado un Plano que está en el mismo lugar, pero mirando en la dirección opuesta.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

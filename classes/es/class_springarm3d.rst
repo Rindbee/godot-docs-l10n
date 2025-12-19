@@ -7,14 +7,14 @@ SpringArm3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A 3D raycast that dynamically moves its children near the collision point.
+Un raycast 3D que mueve dinámicamente a sus hijos cerca del punto de colisión.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**SpringArm3D** casts a ray or a shape along its Z axis and moves all its direct children to the collision point, with an optional margin. This is useful for 3rd person cameras that move closer to the player when inside a tight space (you may need to exclude the player's collider from the **SpringArm3D**'s collision check).
+**SpringArm3D** lanza un rayo o una forma a lo largo de su eje Z y mueve a todos sus hijos directos al punto de colisión, con un margen opcional. Esto es útil para cámaras en tercera persona que se acercan al jugador cuando están en un espacio reducido (es posible que debas excluir el colisionador del jugador de la comprobación de colisión de **SpringArm3D**).
 
 .. rst-class:: classref-introduction-group
 
@@ -79,7 +79,7 @@ Descripciones de Propiedades
 - |void| **set_collision_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_mask**\ (\ )
 
-The layers against which the collision check shall be done. See `Collision layers and masks <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ in the documentation for more information.
+Las capas contra las que se realizará la comprobación de colisiones. Véase `Capas y máscaras de colisión <../tutorials/physics/physics_introduction.html#collision-layers-and-masks>`__ en la documentación para obtener más información.
 
 .. rst-class:: classref-item-separator
 
@@ -96,11 +96,11 @@ The layers against which the collision check shall be done. See `Collision layer
 - |void| **set_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_margin**\ (\ )
 
-When the collision check is made, a candidate length for the SpringArm3D is given.
+Cuando se realiza la comprobación de colisión, se proporciona una longitud candidata para el SpringArm3D.
 
-The margin is then subtracted to this length and the translation is applied to the child objects of the SpringArm3D.
+El margen se resta a esta longitud y la traslación se aplica a los objetos secundarios del SpringArm3D.
 
-This margin is useful for when the SpringArm3D has a :ref:`Camera3D<class_Camera3D>` as a child node: without the margin, the :ref:`Camera3D<class_Camera3D>` would be placed on the exact point of collision, while with the margin the :ref:`Camera3D<class_Camera3D>` would be placed close to the point of collision.
+Este margen es útil cuando el SpringArm3D tiene una :ref:`Camera3D<class_Camera3D>` como nodo hijo: sin el margen, la :ref:`Camera3D<class_Camera3D>` se colocaría en el punto exacto de la colisión, mientras que con el margen la :ref:`Camera3D<class_Camera3D>` se colocaría cerca del punto de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -117,9 +117,9 @@ This margin is useful for when the SpringArm3D has a :ref:`Camera3D<class_Camera
 - |void| **set_shape**\ (\ value\: :ref:`Shape3D<class_Shape3D>`\ )
 - :ref:`Shape3D<class_Shape3D>` **get_shape**\ (\ )
 
-The :ref:`Shape3D<class_Shape3D>` to use for the SpringArm3D.
+La :ref:`Shape3D<class_Shape3D>` que se utilizará para el SpringArm3D.
 
-When the shape is set, the SpringArm3D will cast the :ref:`Shape3D<class_Shape3D>` on its z axis instead of performing a ray cast.
+Cuando se establece la forma, el SpringArm3D lanzará la :ref:`Shape3D<class_Shape3D>` en su eje z en lugar de realizar un rayo.
 
 .. rst-class:: classref-item-separator
 
@@ -155,7 +155,7 @@ Descripciones de Métodos
 
 |void| **add_excluded_object**\ (\ RID\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_SpringArm3D_method_add_excluded_object>`
 
-Adds the :ref:`PhysicsBody3D<class_PhysicsBody3D>` object with the given :ref:`RID<class_RID>` to the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded from the collision check.
+Añade el objeto :ref:`PhysicsBody3D<class_PhysicsBody3D>` con el :ref:`RID<class_RID>` dado a la lista de objetos :ref:`PhysicsBody3D<class_PhysicsBody3D>` excluidos de la comprobación de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -167,7 +167,7 @@ Adds the :ref:`PhysicsBody3D<class_PhysicsBody3D>` object with the given :ref:`R
 
 |void| **clear_excluded_objects**\ (\ ) :ref:`🔗<class_SpringArm3D_method_clear_excluded_objects>`
 
-Clears the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded from the collision check.
+Borra la lista de objetos :ref:`PhysicsBody3D<class_PhysicsBody3D>` excluidos de la comprobación de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -191,7 +191,7 @@ Devuelve la longitud actual del brazo de resorte.
 
 :ref:`bool<class_bool>` **remove_excluded_object**\ (\ RID\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_SpringArm3D_method_remove_excluded_object>`
 
-Removes the given :ref:`RID<class_RID>` from the list of :ref:`PhysicsBody3D<class_PhysicsBody3D>` objects excluded from the collision check.
+Elimina el :ref:`RID<class_RID>` dado de la lista de objetos :ref:`PhysicsBody3D<class_PhysicsBody3D>` excluidos de la comprobación de colisión.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

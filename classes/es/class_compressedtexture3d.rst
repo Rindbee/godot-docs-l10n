@@ -14,11 +14,11 @@ Textura con 3 dimensiones, opcionalmente comprimida.
 Descripción
 ----------------------
 
-**CompressedTexture3D** is the VRAM-compressed counterpart of :ref:`ImageTexture3D<class_ImageTexture3D>`. The file extension for **CompressedTexture3D** files is ``.ctex3d``. This file format is internal to Godot; it is created by importing other image formats with the import system.
+**CompressedTexture3D** es la contraparte comprimida en VRAM de :ref:`ImageTexture3D<class_ImageTexture3D>`. La extensión de archivo para los archivos **CompressedTexture3D** es ``.ctex3d``. Este formato de archivo es interno de Godot; se crea importando otros formatos de imagen con el sistema de importación.
 
-\ **CompressedTexture3D** uses VRAM compression, which allows to reduce memory usage on the GPU when rendering the texture. This also improves loading times, as VRAM-compressed textures are faster to load compared to textures using lossless compression. VRAM compression can exhibit noticeable artifacts and is intended to be used for 3D rendering, not 2D.
+\ **CompressedTexture3D** utiliza la compresión VRAM, lo que permite reducir el uso de memoria en la GPU al renderizar la textura. Esto también mejora los tiempos de carga, ya que las texturas comprimidas en VRAM se cargan más rápido en comparación con las texturas que utilizan compresión sin pérdida. La compresión VRAM puede mostrar artefactos notables y está destinada a ser utilizada para el renderizado 3D, no 2D.
 
-See :ref:`Texture3D<class_Texture3D>` for a general description of 3D textures.
+Véase :ref:`Texture3D<class_Texture3D>` para obtener una descripción general de las texturas 3D.
 
 .. rst-class:: classref-reftable-group
 
@@ -64,7 +64,7 @@ Descripciones de Propiedades
 - :ref:`Error<enum_@GlobalScope_Error>` **load**\ (\ path\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_load_path**\ (\ )
 
-The **CompressedTexture3D**'s file path to a ``.ctex3d`` file.
+La ruta del archivo **CompressedTexture3D** a un archivo ``.ctex3d``.
 
 .. rst-class:: classref-section-separator
 

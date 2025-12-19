@@ -10,7 +10,7 @@ Area2D
 
 **Hereda:** :ref:`CollisionObject2D<class_CollisionObject2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A region of 2D space that detects other :ref:`CollisionObject2D<class_CollisionObject2D>`\ s entering or exiting it.
+Una región de espacio 2D que detecta otros :ref:`CollisionObject2D<class_CollisionObject2D>`\ s entrando o saliendo de él.
 
 .. rst-class:: classref-introduction-group
 
@@ -180,7 +180,7 @@ See also :ref:`area_shape_entered<class_Area2D_signal_area_shape_entered>`.
 
 **body_entered**\ (\ body\: :ref:`Node2D<class_Node2D>`\ ) :ref:`🔗<class_Area2D_signal_body_entered>`
 
-Emitted when the received ``body`` enters this area. ``body`` can be a :ref:`PhysicsBody2D<class_PhysicsBody2D>` or a :ref:`TileMap<class_TileMap>`. :ref:`TileMap<class_TileMap>`\ s are detected if their :ref:`TileSet<class_TileSet>` has collision shapes configured. Requires :ref:`monitoring<class_Area2D_property_monitoring>` to be set to ``true``.
+Emitido cuando el ``body`` recibido entra a este área. ``body`` puede ser un :ref:`PhysicsBody2D<class_PhysicsBody2D>` o un :ref:`TileMap<class_TileMap>`. Los :ref:`TileMap<class_TileMap>`\ s son detectados si su :ref:`TileSet<class_TileSet>` tiene formas de colisión configuradas. Requiere que :ref:`monitoring<class_Area2D_property_monitoring>` se establezca a ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -192,7 +192,7 @@ Emitted when the received ``body`` enters this area. ``body`` can be a :ref:`Phy
 
 **body_exited**\ (\ body\: :ref:`Node2D<class_Node2D>`\ ) :ref:`🔗<class_Area2D_signal_body_exited>`
 
-Emitted when the received ``body`` exits this area. ``body`` can be a :ref:`PhysicsBody2D<class_PhysicsBody2D>` or a :ref:`TileMap<class_TileMap>`. :ref:`TileMap<class_TileMap>`\ s are detected if their :ref:`TileSet<class_TileSet>` has collision shapes configured. Requires :ref:`monitoring<class_Area2D_property_monitoring>` to be set to ``true``.
+Emitido cuando el ``body`` recibido sale de este área. ``body`` puede ser un :ref:`PhysicsBody2D<class_PhysicsBody2D>` o un :ref:`TileMap<class_TileMap>`. Los :ref:`TileMap<class_TileMap>`\ s son detectados si su :ref:`TileSet<class_TileSet>` tiene formas de colisión configuradas. Requiere que :ref:`monitoring<class_Area2D_property_monitoring>` se establezca a ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -233,9 +233,9 @@ Emitted when a :ref:`Shape2D<class_Shape2D>` of the received ``body`` enters a s
 
 **body_shape_exited**\ (\ body_rid\: :ref:`RID<class_RID>`, body\: :ref:`Node2D<class_Node2D>`, body_shape_index\: :ref:`int<class_int>`, local_shape_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Area2D_signal_body_shape_exited>`
 
-Emitted when a :ref:`Shape2D<class_Shape2D>` of the received ``body`` exits a shape of this area. ``body`` can be a :ref:`PhysicsBody2D<class_PhysicsBody2D>` or a :ref:`TileMap<class_TileMap>`. :ref:`TileMap<class_TileMap>`\ s are detected if their :ref:`TileSet<class_TileSet>` has collision shapes configured. Requires :ref:`monitoring<class_Area2D_property_monitoring>` to be set to ``true``.
+Emitido cuando un :ref:`Shape2D<class_Shape2D>` del ``body`` recibido sale de una forma de este área. ``body`` puede ser un :ref:`PhysicsBody2D<class_PhysicsBody2D>` o un :ref:`TileMap<class_TileMap>`. Los :ref:`TileMap<class_TileMap>`\ s son detectados si su :ref:`TileSet<class_TileSet>` tiene formas de colisión configuradas. Requiere que :ref:`monitoring<class_Area2D_property_monitoring>` se establezca a ``true``.
 
-See also :ref:`body_shape_entered<class_Area2D_signal_body_shape_entered>`.
+Véase también :ref:`body_shape_entered<class_Area2D_signal_body_shape_entered>`.
 
 .. rst-class:: classref-section-separator
 
@@ -450,9 +450,9 @@ If gravity is a point (see :ref:`gravity_point<class_Area2D_property_gravity_poi
 - |void| **set_gravity_point_unit_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_gravity_point_unit_distance**\ (\ )
 
-The distance at which the gravity strength is equal to :ref:`gravity<class_Area2D_property_gravity>`. For example, on a planet 100 pixels in radius with a surface gravity of 4.0 px/s², set the :ref:`gravity<class_Area2D_property_gravity>` to 4.0 and the unit distance to 100.0. The gravity will have falloff according to the inverse square law, so in the example, at 200 pixels from the center the gravity will be 1.0 px/s² (twice the distance, 1/4th the gravity), at 50 pixels it will be 16.0 px/s² (half the distance, 4x the gravity), and so on.
+La distancia a la que la fuerza de gravedad es igual a :ref:`gravity<class_Area2D_property_gravity>`. Por ejemplo, en un planeta de 100 píxeles de radio con una gravedad superficial de 4.0 px/s², establezca la :ref:`gravity<class_Area2D_property_gravity>` a 4.0 y la unidad de distancia a 100.0. La gravedad disminuirá según la ley del cuadrado inverso, entonces en este ejemplo, a 200 pixeles del centro la gravedad será 1.0 px/s² (doble de distancia, 1/4 más gravedad), a 50 píxeles será 16.0 px/s² (mitad de distancia, 4 veces más gravedad), y así sucesivamente.
 
-The above is true only when the unit distance is a positive number. When this is set to 0.0, the gravity will be constant regardless of distance.
+Lo anterior es cierto solo cuando la unidad de distancia es un número positivo. Cuando está establecido a 0.0, la gravedad será constante independientemente de la distancia.
 
 .. rst-class:: classref-item-separator
 
@@ -469,7 +469,7 @@ The above is true only when the unit distance is a positive number. When this is
 - |void| **set_gravity_space_override_mode**\ (\ value\: :ref:`SpaceOverride<enum_Area2D_SpaceOverride>`\ )
 - :ref:`SpaceOverride<enum_Area2D_SpaceOverride>` **get_gravity_space_override_mode**\ (\ )
 
-Modo de anulación para los cálculos de gravedad dentro de esta área.
+Modo de sobrescritura para los cálculos de gravedad dentro de esta área.
 
 .. rst-class:: classref-item-separator
 

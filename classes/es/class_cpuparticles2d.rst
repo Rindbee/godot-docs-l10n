@@ -994,7 +994,7 @@ La rapidez con la que se emiten las partículas en un ciclo de emisión. Si es m
 - |void| **set_fixed_fps**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_fixed_fps**\ (\ )
 
-The particle system's frame rate is fixed to a value. For example, changing the value to 2 will make the particles render at 2 frames per second. Note this does not slow down the simulation of the particle system itself.
+La velocidad de fotogramas del sistema de partículas se fija a un valor. Por ejemplo, cambiar el valor a 2 hará que las partículas se rendericen a 2 fotogramas por segundo. Ten en cuenta que esto no ralentiza la simulación del sistema de partículas en sí.
 
 .. rst-class:: classref-item-separator
 
@@ -1045,7 +1045,7 @@ La gravedad aplicada a cada partícula.
 - |void| **set_param_curve**\ (\ param\: :ref:`Parameter<enum_CPUParticles2D_Parameter>`, curve\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_param_curve**\ (\ param\: :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ ) |const|
 
-Each particle's hue will vary along this :ref:`Curve<class_Curve>`. Should be a unit :ref:`Curve<class_Curve>`.
+El tono de cada partícula variará a lo largo de esta :ref:`Curve<class_Curve>`. Debe ser una :ref:`Curve<class_Curve>` unitaria.
 
 .. rst-class:: classref-item-separator
 
@@ -1062,7 +1062,7 @@ Each particle's hue will vary along this :ref:`Curve<class_Curve>`. Should be a 
 - |void| **set_param_max**\ (\ param\: :ref:`Parameter<enum_CPUParticles2D_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_max**\ (\ param\: :ref:`Parameter<enum_CPUParticles2D_Parameter>`\ ) |const|
 
-Maximum initial hue variation applied to each particle. It will shift the particle color's hue.
+Variación máxima inicial de tono aplicada a cada partícula. Desplazará el tono del color de la partícula.
 
 .. rst-class:: classref-item-separator
 

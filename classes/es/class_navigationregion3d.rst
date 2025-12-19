@@ -262,7 +262,7 @@ Devuelve el cuadro delimitador alineado con el eje para la malla de navegación 
 
 :ref:`bool<class_bool>` **get_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationRegion3D_method_get_navigation_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`navigation_layers<class_NavigationRegion3D_property_navigation_layers>` bitmask is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de la máscara de bits :ref:`navigation_layers<class_NavigationRegion3D_property_navigation_layers>` está habilitada, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -336,7 +336,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`navigat
 
 |void| **set_navigation_map**\ (\ navigation_map\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_NavigationRegion3D_method_set_navigation_map>`
 
-Establece el :ref:`RID<class_RID>` del mapa de navegación que debe usar esta región. De forma predeterminada, la región se unirá automáticamente al mapa de navegación predeterminado de :ref:`World3D<class_World3D>`, por lo que esta función solo es necesaria para anular el mapa predeterminado.
+Establece el :ref:`RID<class_RID>` del mapa de navegación que debe usar esta región. De forma predeterminada, la región se unirá automáticamente al mapa de navegación predeterminado de :ref:`World3D<class_World3D>`, por lo que esta función solo es necesaria para sobrescribir el mapa predeterminado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

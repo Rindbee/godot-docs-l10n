@@ -9,14 +9,14 @@ SkeletonModification2DLookAt
 
 **Hereda:** :ref:`SkeletonModification2D<class_SkeletonModification2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A modification that rotates a :ref:`Bone2D<class_Bone2D>` node to look at a target.
+Una modificación que rota un nodo :ref:`Bone2D<class_Bone2D>` para mirar a un objetivo.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This :ref:`SkeletonModification2D<class_SkeletonModification2D>` rotates a bone to look a target. This is extremely helpful for moving character's head to look at the player, rotating a turret to look at a target, or any other case where you want to make a bone rotate towards something quickly and easily.
+Este :ref:`SkeletonModification2D<class_SkeletonModification2D>` rota un hueso para mirar a un objetivo. Esto es extremadamente útil para mover la cabeza del personaje para mirar al jugador, rotar una torreta para mirar a un objetivo, o cualquier otro caso en el que quieras hacer que un hueso rote hacia algo rápida y fácilmente.
 
 .. rst-class:: classref-reftable-group
 
@@ -135,7 +135,7 @@ Descripciones de Métodos
 
 :ref:`float<class_float>` **get_additional_rotation**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DLookAt_method_get_additional_rotation>`
 
-Returns the amount of additional rotation that is applied after the LookAt modification executes.
+Devuelve la cantidad de rotación adicional que se aplica después de que la modificación LookAt se ejecuta.
 
 .. rst-class:: classref-item-separator
 
@@ -183,7 +183,7 @@ Devuelve el ángulo mínimo permitido de la restricción.
 
 :ref:`bool<class_bool>` **get_enable_constraint**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DLookAt_method_get_enable_constraint>`
 
-Returns ``true`` if the LookAt modification is using constraints.
+Devuelve ``true`` si la modificación LookAt está usando restricciones.
 
 .. rst-class:: classref-item-separator
 

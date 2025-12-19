@@ -142,7 +142,7 @@ Calling this method connects this UDP peer to the given ``host``/``port`` pair. 
 
 :ref:`int<class_int>` **get_local_port**\ (\ ) |const| :ref:`🔗<class_PacketPeerUDP_method_get_local_port>`
 
-Returns the local port to which this peer is bound.
+Renvoie le port local auquel ce pair est lié.
 
 .. rst-class:: classref-item-separator
 

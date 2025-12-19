@@ -124,7 +124,7 @@ Vous pouvez obtenir un identifiant inutilisé via :ref:`get_last_unused_item_id(
 
 :ref:`int<class_int>` **find_item_by_name**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_find_item_by_name>`
 
-Returns the first item with the given name, or ``-1`` if no item is found.
+Renvoie le premier élément avec le nom donné, ou ``-1`` si aucun élément n'est trouvé.
 
 .. rst-class:: classref-item-separator
 
@@ -160,7 +160,7 @@ Renvoie le maillage de l'élément.
 
 :ref:`ShadowCastingSetting<enum_RenderingServer_ShadowCastingSetting>` **get_item_mesh_cast_shadow**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_mesh_cast_shadow>`
 
-Returns the item's shadow casting mode.
+Renvoie le mode de projection des ombres de l'élément.
 
 .. rst-class:: classref-item-separator
 
@@ -232,7 +232,7 @@ Renvoie la transformation appliquée au maillage de navigation de l'élément.
 
 :ref:`Texture2D<class_Texture2D>` **get_item_preview**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MeshLibrary_method_get_item_preview>`
 
-When running in the editor, returns a generated item preview (a 3D rendering in isometric perspective). When used in a running project, returns the manually-defined item preview which can be set using :ref:`set_item_preview()<class_MeshLibrary_method_set_item_preview>`. Returns an empty :ref:`Texture2D<class_Texture2D>` if no preview was manually set in a running project.
+Lors de l'exécution dans l'éditeur, renvoie l'aperçu généré d'un élément (un rendu 3D en perspective isométrique). Lorsqu'utilisée dans un projet en cours d'exécution, renvoie l'aperçu défini manuellement de l'élément qui peut être défini en utilisant :ref:`set_item_preview()<class_MeshLibrary_method_set_item_preview>`. Renvoie une :ref:`Texture2D<class_Texture2D>` vide si aucun aperçu n'a été défini manuellement dans un projet en cours d'exécution.
 
 .. rst-class:: classref-item-separator
 
@@ -294,7 +294,7 @@ Définit le maillage de l'élément.
 
 |void| **set_item_mesh_cast_shadow**\ (\ id\: :ref:`int<class_int>`, shadow_casting_setting\: :ref:`ShadowCastingSetting<enum_RenderingServer_ShadowCastingSetting>`\ ) :ref:`🔗<class_MeshLibrary_method_set_item_mesh_cast_shadow>`
 
-Sets the item's shadow casting mode to ``shadow_casting_setting``.
+Définit le mode de projection des ombres de l'élément à ``shadow_casting_setting``.
 
 .. rst-class:: classref-item-separator
 

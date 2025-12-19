@@ -7,7 +7,7 @@ Translation
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OptimizedTranslation<class_OptimizedTranslation>`
+**Hérité par :** :ref:`OptimizedTranslation<class_OptimizedTranslation>`
 
 Une traduction de langue qui associe une collection de chaînes à leurs traductions individuelles.
 
@@ -23,9 +23,9 @@ Les **Translation**\ s sont des ressources qui peuvent être chargées et décha
 Tutoriels
 ------------------
 
-- :doc:`Internationalisation des jeux <../tutorials/i18n/internationalizing_games>`
+- :doc:`Internationaliser des jeux <../tutorials/i18n/internationalizing_games>`
 
-- :doc:`Localisation en utilisant gettext <../tutorials/i18n/localization_using_gettext>`
+- :doc:`Localisation à l'aide de gettext <../tutorials/i18n/localization_using_gettext>`
 
 - :doc:`Locales <../tutorials/i18n/locales>`
 

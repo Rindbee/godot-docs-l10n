@@ -1201,7 +1201,7 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 - |void| **set_editor_description**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_editor_description**\ (\ )
 
-节点的可选描述。当将悬停在编辑器场景面板中的节点上时，它将显示为工具提示。
+节点的可选描述。在编辑器“场景”面板中的该节点上悬停时，会作为工具提示显示。
 
 .. rst-class:: classref-item-separator
 
@@ -1255,9 +1255,9 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 - |void| **set_owner**\ (\ value\: :ref:`Node<class_Node>`\ )
 - :ref:`Node<class_Node>` **get_owner**\ (\ )
 
-该节点的所有者。所有者必须是该节点的祖先节点。当将所有者节点打包到 :ref:`PackedScene<class_PackedScene>` 中时，它拥有的所有节点也会随之保存。另见 :ref:`unique_name_in_owner<class_Node_property_unique_name_in_owner>`\ 。
+该节点的所有者。所有者必须是该节点的祖先节点。将所有者节点打包到 :ref:`PackedScene<class_PackedScene>` 中时，它所拥有的节点也都会随之保存。另见 :ref:`unique_name_in_owner<class_Node_property_unique_name_in_owner>`\ 。
 
-\ **注意：**\ 在编辑器中，不属于场景根的节点通常不会显示在场景面板中，并且\ **不**\ 会被保存。为了防止这种情况，请记住在调用 :ref:`add_child()<class_Node_method_add_child>` 后设置所有者。
+\ **注意：**\ 在编辑器中，未被场景根节点拥有的节点通常不会显示在场景面板中，并且\ **不会**\ 被保存。为了防止这种情况，请记得在调用 :ref:`add_child()<class_Node_method_add_child>` 后设置所有者。
 
 .. rst-class:: classref-item-separator
 
@@ -2820,9 +2820,9 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 |void| **remove_child**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_Node_method_remove_child>`
 
-移除一个子 ``node``\ 。该 ``node`` 及其子节点\ **不会**\ 被删除。要删除节点，见 :ref:`queue_free()<class_Node_method_queue_free>`\ 。
+移除子节点 ``node``\ 。\ **不会**\ 删除 ``node`` 及其子节点。删除节点见 :ref:`queue_free()<class_Node_method_queue_free>`\ 。
 
-\ **注意：**\ 当该节点位于场景树中时，如果被移除的 ``node``\ （或其后代）的 :ref:`owner<class_Node_property_owner>` 不再是祖先（参见 :ref:`is_ancestor_of()<class_Node_method_is_ancestor_of>`\ ），则该方法将它们的 :ref:`owner<class_Node_property_owner>` 设置为 ``null``\ 。
+\ **注意：**\ 当本节点位于场景树中时，如果移除节点 ``node``\ （或其后代节点）导致该节点的 :ref:`owner<class_Node_property_owner>` 不再是其祖先（见 :ref:`is_ancestor_of()<class_Node_method_is_ancestor_of>`\ ），则本方法会将其 :ref:`owner<class_Node_property_owner>` 设置为 ``null``\ 。
 
 .. rst-class:: classref-item-separator
 

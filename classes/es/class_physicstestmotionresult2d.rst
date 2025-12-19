@@ -7,14 +7,14 @@ PhysicsTestMotionResult2D
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Describes the motion and collision result from :ref:`PhysicsServer2D.body_test_motion()<class_PhysicsServer2D_method_body_test_motion>`.
+Describe el movimiento y el resultado de la colisión de :ref:`PhysicsServer2D.body_test_motion()<class_PhysicsServer2D_method_body_test_motion>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Describes the motion and collision result from :ref:`PhysicsServer2D.body_test_motion()<class_PhysicsServer2D_method_body_test_motion>`.
+Describe el movimiento y el resultado de la colisión de :ref:`PhysicsServer2D.body_test_motion()<class_PhysicsServer2D_method_body_test_motion>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -67,7 +67,7 @@ Descripciones de Métodos
 
 :ref:`Object<class_Object>` **get_collider**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collider>`
 
-Returns the colliding body's attached :ref:`Object<class_Object>`, if a collision occurred.
+Devuelve el :ref:`Object<class_Object>` adjunto al cuerpo que colisiona, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -91,7 +91,7 @@ Returns the unique instance ID of the colliding body's attached :ref:`Object<cla
 
 :ref:`RID<class_RID>` **get_collider_rid**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collider_rid>`
 
-Returns the colliding body's :ref:`RID<class_RID>` used by the :ref:`PhysicsServer2D<class_PhysicsServer2D>`, if a collision occurred.
+Devuelve el :ref:`RID<class_RID>` del cuerpo que colisiona usado por :ref:`PhysicsServer2D<class_PhysicsServer2D>`, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -103,7 +103,7 @@ Returns the colliding body's :ref:`RID<class_RID>` used by the :ref:`PhysicsServ
 
 :ref:`int<class_int>` **get_collider_shape**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collider_shape>`
 
-Returns the colliding body's shape index, if a collision occurred. See :ref:`CollisionObject2D<class_CollisionObject2D>`.
+Devuelve el índice de la forma del cuerpo que colisiona, si se produjo una colisión. Véase :ref:`CollisionObject2D<class_CollisionObject2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -115,7 +115,7 @@ Returns the colliding body's shape index, if a collision occurred. See :ref:`Col
 
 :ref:`Vector2<class_Vector2>` **get_collider_velocity**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collider_velocity>`
 
-Returns the colliding body's velocity, if a collision occurred.
+Devuelve la velocidad del cuerpo que colisiona, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ Returns the colliding body's velocity, if a collision occurred.
 
 :ref:`float<class_float>` **get_collision_depth**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collision_depth>`
 
-Returns the length of overlap along the collision normal, if a collision occurred.
+Devuelve la longitud de la superposición a lo largo de la normal de colisión, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ Returns the length of overlap along the collision normal, if a collision occurre
 
 :ref:`int<class_int>` **get_collision_local_shape**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collision_local_shape>`
 
-Returns the moving object's colliding shape, if a collision occurred.
+Devuelve la forma de colisión del objeto en movimiento, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ Returns the moving object's colliding shape, if a collision occurred.
 
 :ref:`Vector2<class_Vector2>` **get_collision_normal**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collision_normal>`
 
-Returns the colliding body's shape's normal at the point of collision, if a collision occurred.
+Devuelve la normal de la forma del cuerpo que colisiona en el punto de colisión, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -163,7 +163,7 @@ Returns the colliding body's shape's normal at the point of collision, if a coll
 
 :ref:`Vector2<class_Vector2>` **get_collision_point**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collision_point>`
 
-Returns the point of collision in global coordinates, if a collision occurred.
+Devuelve el punto de colisión en coordenadas globales, si se produjo una colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ Returns the point of collision in global coordinates, if a collision occurred.
 
 :ref:`float<class_float>` **get_collision_safe_fraction**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collision_safe_fraction>`
 
-Returns the maximum fraction of the motion that can occur without a collision, between ``0`` and ``1``.
+Devuelve la fracción máxima del movimiento que puede ocurrir sin una colisión, entre ``0`` y ``1``.
 
 .. rst-class:: classref-item-separator
 
@@ -187,7 +187,7 @@ Returns the maximum fraction of the motion that can occur without a collision, b
 
 :ref:`float<class_float>` **get_collision_unsafe_fraction**\ (\ ) |const| :ref:`🔗<class_PhysicsTestMotionResult2D_method_get_collision_unsafe_fraction>`
 
-Returns the minimum fraction of the motion needed to collide, if a collision occurred, between ``0`` and ``1``.
+Devuelve la fracción mínima del movimiento necesaria para colisionar, si se produjo una colisión, entre ``0`` y ``1``.
 
 .. rst-class:: classref-item-separator
 

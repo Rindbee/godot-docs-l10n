@@ -201,7 +201,7 @@ Hide the collisions or navigation debug shapes in the editor, and use the debug 
 
 :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **DEBUG_VISIBILITY_MODE_FORCE_HIDE** = ``2``
 
-Always hide the collisions or navigation debug shapes.
+Toujours cacher les formes de débogage de collision ou de navigation.
 
 .. _class_TileMapLayer_constant_DEBUG_VISIBILITY_MODE_FORCE_SHOW:
 
@@ -209,7 +209,7 @@ Always hide the collisions or navigation debug shapes.
 
 :ref:`DebugVisibilityMode<enum_TileMapLayer_DebugVisibilityMode>` **DEBUG_VISIBILITY_MODE_FORCE_SHOW** = ``1``
 
-Always show the collisions or navigation debug shapes.
+Toujours afficher les formes de débogage de collision ou de navigation.
 
 .. rst-class:: classref-section-separator
 
@@ -462,13 +462,13 @@ Descriptions des méthodes
 
 |void| **_tile_data_runtime_update**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, tile_data\: :ref:`TileData<class_TileData>`\ ) |virtual| :ref:`🔗<class_TileMapLayer_private_method__tile_data_runtime_update>`
 
-Called with a :ref:`TileData<class_TileData>` object about to be used internally by the **TileMapLayer**, allowing its modification at runtime.
+Appelée avec un objet :ref:`TileData<class_TileData>` sur le point d'être utilisé en interne par le **TileMapLayer**, permettant sa modification durant l'exécution.
 
-This method is only called if :ref:`_use_tile_data_runtime_update()<class_TileMapLayer_private_method__use_tile_data_runtime_update>` is implemented and returns ``true`` for the given tile ``coords``.
+Cette méthode n'est appelée que si :ref:`_use_tile_data_runtime_update()<class_TileMapLayer_private_method__use_tile_data_runtime_update>` est implémentée et renvoie ``true`` pour les coordonnées de tuile ``coords`` données.
 
-\ **Warning:** The ``tile_data`` object's sub-resources are the same as the one in the TileSet. Modifying them might impact the whole TileSet. Instead, make sure to duplicate those resources.
+\ **Avertissement :** Les sous-ressources de l'objet ``tile_data`` sont les mêmes que celui dans le TileSet. Les modifier pourrait avoir un impact sur le TileSet entier. Assurez-vous de dupliquer ces ressources.
 
-\ **Note:** If the properties of ``tile_data`` object should change over time, use :ref:`notify_runtime_tile_data_update()<class_TileMapLayer_method_notify_runtime_tile_data_update>` to notify the **TileMapLayer** it needs an update.
+\ **Note: ** Si les propriétés de l'objet ``tile_data`` devraient changer au fil du temps, utilisez :ref:`notify_runtime_tile_data_update()<class_TileMapLayer_method_notify_runtime_tile_data_update>` pour notifier au **TileMapLayer** qu'il doit se mettre à jour.
 
 .. rst-class:: classref-item-separator
 
@@ -594,15 +594,15 @@ Returns the tile source ID of the cell at coordinates ``coords``. Returns ``-1``
 
 :ref:`TileData<class_TileData>` **get_cell_tile_data**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_cell_tile_data>`
 
-Returns the :ref:`TileData<class_TileData>` object associated with the given cell, or ``null`` if the cell does not exist or is not a :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`.
+Renvoie l'objet :ref:`TileData<class_TileData>` associé à la cellule donnée, ou ``null`` si la cellule n'existe pas ou n'est pas une :ref:`TileSetAtlasSource<class_TileSetAtlasSource>`.
 
 ::
 
     func get_clicked_tile_power():
-        var clicked_cell = tile_map_layer.local_to_map(tile_map_layer.get_local_mouse_position())
-        var data = tile_map_layer.get_cell_tile_data(clicked_cell)
-        if data:
-            return data.get_custom_data("power")
+        var cellule_cliquee = tile_map_layer.local_to_map(tile_map_layer.get_local_mouse_position())
+        var donnees = tile_map_layer.get_cell_tile_data(cellule_cliquee)
+        if donnees:
+            return donnees.get_custom_data("puissance")
         else:
             return 0
 
@@ -642,7 +642,7 @@ By default this returns the default :ref:`World2D<class_World2D>` navigation map
 
 :ref:`Vector2i<class_Vector2i>` **get_neighbor_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, neighbor\: :ref:`CellNeighbor<enum_TileSet_CellNeighbor>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_get_neighbor_cell>`
 
-Returns the neighboring cell to the one at coordinates ``coords``, identified by the ``neighbor`` direction. This method takes into account the different layouts a TileMap can take.
+Renvoie la cellule voisine à celle aux coordonnées ``coords``, identifiée par la direction ``neighbor``. Cette méthode prend en compte les différentes dispositions qu'une TileMap peut prendre.
 
 .. rst-class:: classref-item-separator
 
@@ -766,7 +766,7 @@ Returns ``true`` if the cell at coordinates ``coords`` is transposed. The result
 
 :ref:`Vector2i<class_Vector2i>` **local_to_map**\ (\ local_position\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_TileMapLayer_method_local_to_map>`
 
-Returns the map coordinates of the cell containing the given ``local_position``. If ``local_position`` is in global coordinates, consider using :ref:`Node2D.to_local()<class_Node2D_method_to_local>` before passing it to this method. See also :ref:`map_to_local()<class_TileMapLayer_method_map_to_local>`.
+Renvoie les coordonnées de grille de la cellule contenant la ``local_position`` donnée. Si ``local_position`` est dans les coordonnées globales, envisagez d'utiliser :ref:`Node2D.to_local()<class_Node2D_method_to_local>` avant de les transmettre à cette méthode. Voir aussi :ref:`map_to_local()<class_TileMapLayer_method_map_to_local>`.
 
 .. rst-class:: classref-item-separator
 
@@ -872,7 +872,7 @@ If ``ignore_empty_terrains`` is ``true``, empty terrains will be ignored when tr
 
 |void| **set_navigation_map**\ (\ map\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_TileMapLayer_method_set_navigation_map>`
 
-Sets a custom ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` navigation map. If not set, uses the default :ref:`World2D<class_World2D>` navigation map instead.
+Définit une carte de navigation personnalisée ``map`` comme carte de navigation du :ref:`NavigationServer2D<class_NavigationServer2D>`. Si non définie, utilise à la place la carte de navigation par défaut du :ref:`World2D<class_World2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -884,7 +884,7 @@ Sets a custom ``map`` as a :ref:`NavigationServer2D<class_NavigationServer2D>` n
 
 |void| **set_pattern**\ (\ position\: :ref:`Vector2i<class_Vector2i>`, pattern\: :ref:`TileMapPattern<class_TileMapPattern>`\ ) :ref:`🔗<class_TileMapLayer_method_set_pattern>`
 
-Pastes the :ref:`TileMapPattern<class_TileMapPattern>` at the given ``position`` in the tile map. See also :ref:`get_pattern()<class_TileMapLayer_method_get_pattern>`.
+Colle le :ref:`TileMapPattern<class_TileMapPattern>` à la ``position`` donnée dans la tile map. Voir aussi :ref:`get_pattern()<class_TileMapLayer_method_get_pattern>`.
 
 .. rst-class:: classref-item-separator
 

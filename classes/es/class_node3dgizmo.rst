@@ -9,7 +9,7 @@ Node3DGizmo
 
 **Heredado por:** :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>`
 
-Abstract class to expose editor gizmos for :ref:`Node3D<class_Node3D>`.
+Clase abstracta para exponer gizmos de editor para :ref:`Node3D<class_Node3D>`.
 
 .. rst-class:: classref-introduction-group
 

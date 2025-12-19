@@ -7,18 +7,18 @@ PointMesh
 
 **Hérite de :** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Mesh with a single point primitive.
+Maillage avec une primitive de type point unique.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A **PointMesh** is a primitive mesh composed of a single point. Instead of relying on triangles, points are rendered as a single rectangle on the screen with a constant size. They are intended to be used with particle systems, but can also be used as a cheap way to render billboarded sprites (for example in a point cloud).
+Un **PointMesh** est un maillage primitif composé d'un seul point. Au lieu de se baser sur des triangles, les points sont rendus en tant que rectangle unique sur l'écran avec une taille constante. Ils sont destinés à être utilisés avec des systèmes de particules, mais peuvent également être utilisés comme moyen bon marché pour rendre des sprites de billboard (par exemple dans un nuage de points).
 
-In order to be displayed, point meshes must be used with a material that has a point size. The point size can be accessed in a shader with the ``POINT_SIZE`` built-in, or in a :ref:`BaseMaterial3D<class_BaseMaterial3D>` by setting the :ref:`BaseMaterial3D.use_point_size<class_BaseMaterial3D_property_use_point_size>` and :ref:`BaseMaterial3D.point_size<class_BaseMaterial3D_property_point_size>` properties.
+Pour être affiché, les maillages de point doivent être utilisés avec un matériau qui a une taille de point. La taille du point peut être accédée dans un shader avec la propriété intégrée ``POINT_SIZE``, ou dans un :ref:`BaseMaterial3D<class_BaseMaterial3D>` en définissant les propriétés :ref:`BaseMaterial3D.use_point_size<class_BaseMaterial3D_property_use_point_size>` et :ref:`BaseMaterial3D.point_size<class_BaseMaterial3D_property_point_size>`.
 
-\ **Note:** When using point meshes, properties that normally affect vertices will be ignored, including :ref:`BaseMaterial3D.billboard_mode<class_BaseMaterial3D_property_billboard_mode>`, :ref:`BaseMaterial3D.grow<class_BaseMaterial3D_property_grow>`, and :ref:`BaseMaterial3D.cull_mode<class_BaseMaterial3D_property_cull_mode>`.
+\ **Note :** Lors de l'utilisation de maillages de point, les propriétés qui affectent normalement les sommets seront ignorées, y compris :ref:`BaseMaterial3D.billboard_mode<class_BaseMaterial3D_property_billboard_mode>`, :ref:`BaseMaterial3D.grow<class_BaseMaterial3D_property_grow>`, et :ref:`BaseMaterial3D.cull_mode<class_BaseMaterial3D_property_cull_mode>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

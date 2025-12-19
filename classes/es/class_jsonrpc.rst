@@ -7,14 +7,14 @@ JSONRPC
 
 **Hereda:** :ref:`Object<class_Object>`
 
-A helper to handle dictionaries which look like JSONRPC documents.
+Un asistente para manejar diccionarios que parecen documentos JSONRPC.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-`JSON-RPC <https://www.jsonrpc.org/>`__ is a standard which wraps a method call in a :ref:`JSON<class_JSON>` object. The object has a particular structure and identifies which method is called, the parameters to that function, and carries an ID to keep track of responses. This class implements that standard on top of :ref:`Dictionary<class_Dictionary>`; you will have to convert between a :ref:`Dictionary<class_Dictionary>` and :ref:`JSON<class_JSON>` with other functions.
+`JSON-RPC <https://www.jsonrpc.org/>`__ es un estándar que envuelve una llamada a un método en un objeto :ref:`JSON<class_JSON>`. El objeto tiene una estructura particular e identifica qué método se llama, los parámetros de esa función, y lleva un ID para realizar un seguimiento de las respuestas. Esta clase implementa ese estándar sobre :ref:`Dictionary<class_Dictionary>`; tendrás que convertir entre un :ref:`Dictionary<class_Dictionary>` y :ref:`JSON<class_JSON>` con otras funciones.
 
 .. rst-class:: classref-reftable-group
 
@@ -110,11 +110,11 @@ Descripciones de Métodos
 
 :ref:`Dictionary<class_Dictionary>` **make_notification**\ (\ method\: :ref:`String<class_String>`, params\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_JSONRPC_method_make_notification>`
 
-Returns a dictionary in the form of a JSON-RPC notification. Notifications are one-shot messages which do not expect a response.
+Devuelve un diccionario en forma de notificación JSON-RPC. Las notificaciones son mensajes de una sola vez que no esperan una respuesta.
 
-- ``method``: Name of the method being called.
+- ``method``: Nombre del método que se está llamando.
 
-- ``params``: An array or dictionary of parameters being passed to the method.
+- ``params``: Un array o diccionario de parámetros que se pasan al método.
 
 .. rst-class:: classref-item-separator
 
@@ -126,13 +126,13 @@ Returns a dictionary in the form of a JSON-RPC notification. Notifications are o
 
 :ref:`Dictionary<class_Dictionary>` **make_request**\ (\ method\: :ref:`String<class_String>`, params\: :ref:`Variant<class_Variant>`, id\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_JSONRPC_method_make_request>`
 
-Returns a dictionary in the form of a JSON-RPC request. Requests are sent to a server with the expectation of a response. The ID field is used for the server to specify which exact request it is responding to.
+Devuelve un diccionario en forma de solicitud JSON-RPC. Las solicitudes se envían a un servidor con la expectativa de una respuesta. El campo ID se utiliza para que el servidor especifique a qué solicitud exacta está respondiendo.
 
-- ``method``: Name of the method being called.
+- ``method``: Nombre del método que se está llamando.
 
-- ``params``: An array or dictionary of parameters being passed to the method.
+- ``params``: Un array o diccionario de parámetros que se pasan al método.
 
-- ``id``: Uniquely identifies this request. The server is expected to send a response with the same ID.
+- ``id``: Identifica de forma única esta solicitud. Se espera que el servidor envíe una respuesta con el mismo ID.
 
 .. rst-class:: classref-item-separator
 
@@ -144,11 +144,11 @@ Returns a dictionary in the form of a JSON-RPC request. Requests are sent to a s
 
 :ref:`Dictionary<class_Dictionary>` **make_response**\ (\ result\: :ref:`Variant<class_Variant>`, id\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_JSONRPC_method_make_response>`
 
-When a server has received and processed a request, it is expected to send a response. If you did not want a response then you need to have sent a Notification instead.
+Cuando un servidor ha recibido y procesado una solicitud, se espera que envíe una respuesta. Si no querías una respuesta, entonces necesitas haber enviado una Notificación en su lugar.
 
-- ``result``: The return value of the function which was called.
+- ``result``: El valor de retorno de la función que fue llamada.
 
-- ``id``: The ID of the request this response is targeted to.
+- ``id``: El ID de la solicitud a la que se dirige esta respuesta.
 
 .. rst-class:: classref-item-separator
 

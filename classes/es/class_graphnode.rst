@@ -542,7 +542,7 @@ Si ``enable_left_port``/``enable_right_port`` es ``true``, aparecerá un puerto 
 
 Con ``type_left``/``type_right`` se puede asignar un tipo arbitrario a cada puerto. Dos puertos se pueden conectar si comparten el mismo tipo, o si la conexión entre sus tipos está permitida en el :ref:`GraphEdit<class_GraphEdit>` padre (véase :ref:`GraphEdit.add_valid_connection_type()<class_GraphEdit_method_add_valid_connection_type>`). Ten en cuenta que el :ref:`GraphEdit<class_GraphEdit>` tiene la última palabra para aceptar la conexión. La compatibilidad de tipos simplemente permite que se emita la señal :ref:`GraphEdit.connection_request<class_GraphEdit_signal_connection_request>`.
 
-Los puertos se pueden personalizar aún más utilizando ``color_left``/``color_right`` y ``custom_icon_left``/``custom_icon_right``. El parámetro de color añade un tinte al icono. El icono personalizado se puede utilizar para anular el punto del puerto predeterminado.
+Los puertos se pueden personalizar aún más utilizando ``color_left``/``color_right`` y ``custom_icon_left``/``custom_icon_right``. El parámetro de color añade un tinte al icono. El icono personalizado se puede utilizar para sobrescribir el punto del puerto predeterminado.
 
 Además, ``draw_stylebox`` se puede utilizar para activar o desactivar el dibujo del stylebox de fondo para cada ranura. Véase :ref:`slot<class_GraphNode_theme_style_slot>`.
 

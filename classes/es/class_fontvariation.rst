@@ -112,7 +112,7 @@ Descripciones de Propiedades
 - |void| **set_base_font**\ (\ value\: :ref:`Font<class_Font>`\ )
 - :ref:`Font<class_Font>` **get_base_font**\ (\ )
 
-Base font used to create a variation. If not set, default :ref:`Theme<class_Theme>` font is used.
+Fuente base utilizada para crear una variación. Si no se establece, se utiliza la fuente :ref:`Theme<class_Theme>` predeterminada.
 
 .. rst-class:: classref-item-separator
 
@@ -129,7 +129,7 @@ Base font used to create a variation. If not set, default :ref:`Theme<class_Them
 - |void| **set_baseline_offset**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_baseline_offset**\ (\ )
 
-Extra baseline offset (as a fraction of font height).
+Desplazamiento adicional de la línea de base (como una fracción de la altura de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -146,7 +146,7 @@ Extra baseline offset (as a fraction of font height).
 - |void| **set_opentype_features**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_opentype_features**\ (\ )
 
-A set of OpenType feature tags. More info: `OpenType feature tags <https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags>`__.
+Un conjunto de etiquetas de características OpenType. Más información: `Etiquetas de características OpenType <https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -163,7 +163,7 @@ A set of OpenType feature tags. More info: `OpenType feature tags <https://docs.
 - |void| **set_spacing**\ (\ spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_spacing**\ (\ )
 
-Extra spacing at the bottom of the line in pixels.
+Espacio adicional en la parte inferior de la línea en píxeles.
 
 .. rst-class:: classref-item-separator
 
@@ -180,7 +180,7 @@ Extra spacing at the bottom of the line in pixels.
 - |void| **set_spacing**\ (\ spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_spacing**\ (\ )
 
-Extra spacing between graphical glyphs.
+Espacio adicional entre glifos gráficos.
 
 .. rst-class:: classref-item-separator
 
@@ -197,7 +197,7 @@ Extra spacing between graphical glyphs.
 - |void| **set_spacing**\ (\ spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_spacing**\ (\ )
 
-Extra width of the space glyphs.
+Ancho adicional de los glifos de espacio.
 
 .. rst-class:: classref-item-separator
 
@@ -214,7 +214,7 @@ Extra width of the space glyphs.
 - |void| **set_spacing**\ (\ spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_spacing**\ (\ )
 
-Extra spacing at the top of the line in pixels.
+Espacio adicional en la parte superior de la línea en píxeles.
 
 .. rst-class:: classref-item-separator
 
@@ -231,9 +231,9 @@ Extra spacing at the top of the line in pixels.
 - |void| **set_variation_embolden**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_variation_embolden**\ (\ )
 
-If is not equal to zero, emboldens the font outlines. Negative values reduce the outline thickness.
+Si no es igual a cero, engrosa los contornos de la fuente. Los valores negativos reducen el grosor del contorno.
 
-\ **Note:** Emboldened fonts might have self-intersecting outlines, which will prevent MSDF fonts and :ref:`TextMesh<class_TextMesh>` from working correctly.
+\ **Nota:** Las fuentes engrosadas pueden tener contornos que se auto-intersectan, lo que impedirá que las fuentes MSDF y :ref:`TextMesh<class_TextMesh>` funcionen correctamente.
 
 .. rst-class:: classref-item-separator
 
@@ -250,7 +250,7 @@ If is not equal to zero, emboldens the font outlines. Negative values reduce the
 - |void| **set_variation_face_index**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_variation_face_index**\ (\ )
 
-Active face index in the TrueType / OpenType collection file.
+Índice de cara activa en el archivo de colección TrueType/OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -267,11 +267,11 @@ Active face index in the TrueType / OpenType collection file.
 - |void| **set_variation_opentype**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_variation_opentype**\ (\ )
 
-Font OpenType variation coordinates. More info: `OpenType variation tags <https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg>`__.
+Coordenadas de variación OpenType de la fuente. Más información: `Etiquetas de variación OpenType <https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg>`__.
 
-\ **Note:** This :ref:`Dictionary<class_Dictionary>` uses OpenType tags as keys. Variation axes can be identified both by tags (:ref:`int<class_int>`, e.g. ``0x77678674``) and names (:ref:`String<class_String>`, e.g. ``wght``). Some axes might be accessible by multiple names. For example, ``wght`` refers to the same axis as ``weight``. Tags on the other hand are unique. To convert between names and tags, use :ref:`TextServer.name_to_tag()<class_TextServer_method_name_to_tag>` and :ref:`TextServer.tag_to_name()<class_TextServer_method_tag_to_name>`.
+\ **Nota:** Este :ref:`Dictionary<class_Dictionary>` utiliza etiquetas OpenType como claves. Los ejes de variación pueden identificarse tanto por etiquetas (:ref:`int<class_int>`, p. ej., ``0x77678674``) como por nombres (:ref:`String<class_String>`, p. ej., ``wght``). Algunos ejes pueden ser accesibles por múltiples nombres. Por ejemplo, ``wght`` se refiere al mismo eje que ``weight``. Las etiquetas, por otro lado, son únicas. Para convertir entre nombres y etiquetas, utiliza :ref:`TextServer.name_to_tag()<class_TextServer_method_name_to_tag>` y :ref:`TextServer.tag_to_name()<class_TextServer_method_tag_to_name>`.
 
-\ **Note:** To get available variation axes of a font, use :ref:`Font.get_supported_variation_list()<class_Font_method_get_supported_variation_list>`.
+\ **Nota:** Para obtener los ejes de variación disponibles de una fuente, utiliza :ref:`Font.get_supported_variation_list()<class_Font_method_get_supported_variation_list>`.
 
 .. rst-class:: classref-item-separator
 
@@ -288,9 +288,9 @@ Font OpenType variation coordinates. More info: `OpenType variation tags <https:
 - |void| **set_variation_transform**\ (\ value\: :ref:`Transform2D<class_Transform2D>`\ )
 - :ref:`Transform2D<class_Transform2D>` **get_variation_transform**\ (\ )
 
-2D transform, applied to the font outlines, can be used for slanting, flipping and rotating glyphs.
+Transformación 2D, aplicada a los contornos de la fuente, que puede utilizarse para inclinar, voltear y rotar glifos.
 
-For example, to simulate italic typeface by slanting, apply the following transform ``Transform2D(1.0, slant, 0.0, 1.0, 0.0, 0.0)``.
+Por ejemplo, para simular un tipo de letra cursiva mediante la inclinación, aplica la siguiente transformación ``Transform2D(1.0, inclinación, 0.0, 1.0, 0.0, 0.0)``.
 
 .. rst-class:: classref-section-separator
 
@@ -307,7 +307,7 @@ Descripciones de Métodos
 
 |void| **set_spacing**\ (\ spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontVariation_method_set_spacing>`
 
-Sets the spacing for ``spacing`` to ``value`` in pixels (not relative to the font size).
+Establece el espaciado para ``spacing`` a ``value`` en píxeles (no en relación con el tamaño de la fuente).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

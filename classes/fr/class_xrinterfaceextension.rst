@@ -364,7 +364,7 @@ Returns the number of views this interface requires, 1 for mono, 2 for stereosco
 
 :ref:`VRSTextureFormat<enum_XRInterface_VRSTextureFormat>` **_get_vrs_texture_format**\ (\ ) |virtual| :ref:`🔗<class_XRInterfaceExtension_private_method__get_vrs_texture_format>`
 
-Returns the format of the texture returned by :ref:`_get_vrs_texture()<class_XRInterfaceExtension_private_method__get_vrs_texture>`.
+Retourne le format de la texture retournée par :ref:`_get_vrs_texture()<class_XRInterfaceExtension_private_method__get_vrs_texture>`.
 
 .. rst-class:: classref-item-separator
 

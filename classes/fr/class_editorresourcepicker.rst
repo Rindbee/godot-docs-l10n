@@ -7,7 +7,7 @@ EditorResourcePicker
 
 **Hérite de :** :ref:`HBoxContainer<class_HBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorScriptPicker<class_EditorScriptPicker>`
+**Hérité par :** :ref:`EditorScriptPicker<class_EditorScriptPicker>`
 
 Le contrôle de l'éditeur de Godot pour la sélection des propriétés de type :ref:`Resource<class_Resource>`.
 

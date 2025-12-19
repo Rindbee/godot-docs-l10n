@@ -83,7 +83,7 @@ Emitida cuando se cambia el valor del recurso editado.
 
 **resource_selected**\ (\ resource\: :ref:`Resource<class_Resource>`, inspect\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorResourcePicker_signal_resource_selected>`
 
-Emitted when the resource value was set and user clicked to edit it. When ``inspect`` is ``true``, the signal was caused by the context menu "Edit" or "Inspect" option.
+Emitida cuando se establece el valor del recurso y el usuario hace clic para editarlo. Cuando ``inspect`` es ``true``, la señal fue causada por la opción del menú contextual "Editar" o "Inspeccionar".
 
 .. rst-class:: classref-section-separator
 
@@ -105,7 +105,7 @@ Descripciones de Propiedades
 - |void| **set_base_type**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_base_type**\ (\ )
 
-The base type of allowed resource types. Can be a comma-separated list of several options.
+El tipo base de los tipos de recursos permitidos. Puede ser una lista separada por comas de varias opciones.
 
 .. rst-class:: classref-item-separator
 
@@ -122,7 +122,7 @@ The base type of allowed resource types. Can be a comma-separated list of severa
 - |void| **set_editable**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editable**\ (\ )
 
-If ``true``, the value can be selected and edited.
+Si es ``true``, el valor puede ser seleccionado y editado.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ El valor del recurso editado.
 - |void| **set_toggle_mode**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_toggle_mode**\ (\ )
 
-If ``true``, the main button with the resource preview works in the toggle mode. Use :ref:`set_toggle_pressed()<class_EditorResourcePicker_method_set_toggle_pressed>` to manually set the state.
+Si es ``true``, el botón principal con la vista previa del recurso funciona en el modo de alternancia. Utiliza :ref:`set_toggle_pressed()<class_EditorResourcePicker_method_set_toggle_pressed>` para establecer manualmente el estado.
 
 .. rst-class:: classref-section-separator
 

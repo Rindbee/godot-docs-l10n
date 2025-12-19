@@ -373,7 +373,7 @@ Construye un **Dictionary** vacío.
 
 :ref:`Dictionary<class_Dictionary>` **Dictionary**\ (\ base\: :ref:`Dictionary<class_Dictionary>`, key_type\: :ref:`int<class_int>`, key_class_name\: :ref:`StringName<class_StringName>`, key_script\: :ref:`Variant<class_Variant>`, value_type\: :ref:`int<class_int>`, value_class_name\: :ref:`StringName<class_StringName>`, value_script\: :ref:`Variant<class_Variant>`\ )
 
-Creates a typed dictionary from the ``base`` dictionary. A typed dictionary can only contain keys and values of the given types, or that inherit from the given classes, as described by this constructor's parameters.
+Crea un diccionario tipado desde el diccionario ``base``. Un diccionario tipado solo puede contener claves y valores de los tipos dados, o que hereden de las clases dadas, como se describe en los parámetros de este constructor.
 
 .. rst-class:: classref-item-separator
 
@@ -383,7 +383,7 @@ Creates a typed dictionary from the ``base`` dictionary. A typed dictionary can 
 
 :ref:`Dictionary<class_Dictionary>` **Dictionary**\ (\ from\: :ref:`Dictionary<class_Dictionary>`\ )
 
-Returns the same dictionary as ``from``. If you need a copy of the dictionary, use :ref:`duplicate()<class_Dictionary_method_duplicate>`.
+Devuelve el mismo diccionario que ``from``. Si necesitas una copia del diccionario, usa :ref:`duplicate()<class_Dictionary_method_duplicate>`.
 
 .. rst-class:: classref-section-separator
 
@@ -400,7 +400,7 @@ Descripciones de Métodos
 
 |void| **assign**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_Dictionary_method_assign>`
 
-Assigns elements of another ``dictionary`` into the dictionary. Resizes the dictionary to match ``dictionary``. Performs type conversions if the dictionary is typed.
+Asigna elementos de otro ``dictionary`` al diccionario. Cambia el tamaño del diccionario para que coincida con ``dictionary``. Realiza conversiones de tipo si el diccionario está tipado.
 
 .. rst-class:: classref-item-separator
 
@@ -424,11 +424,11 @@ Limpia el diccionario, eliminando todas las entradas del mismo.
 
 :ref:`Dictionary<class_Dictionary>` **duplicate**\ (\ deep\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Dictionary_method_duplicate>`
 
-Returns a new copy of the dictionary.
+Devuelve una nueva copia del diccionario.
 
-By default, a **shallow** copy is returned: all nested :ref:`Array<class_Array>`, **Dictionary**, and :ref:`Resource<class_Resource>` keys and values are shared with the original dictionary. Modifying any of those in one dictionary will also affect them in the other.
+De forma predeterminada, se devuelve una copia **superficial**: todas las claves y valores anidados de :ref:`Array<class_Array>`, **Dictionary** y :ref:`Resource<class_Resource>` se comparten con el diccionario original. Modificar cualquiera de ellos en un diccionario también los afectará en el otro.
 
-If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dictionaries are also duplicated (recursively). Any :ref:`Resource<class_Resource>` is still shared with the original dictionary, though.
+Si ``deep`` es ``true``, se devuelve una copia **profunda**: todos los arrays y diccionarios anidados también se duplican (recursivamente). Sin embargo, cualquier :ref:`Resource<class_Resource>` se sigue compartiendo con el diccionario original.
 
 .. rst-class:: classref-item-separator
 
@@ -440,9 +440,9 @@ If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays and dict
 
 :ref:`Dictionary<class_Dictionary>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Dictionary_method_duplicate_deep>`
 
-Duplicates this dictionary, deeply, like :ref:`duplicate()<class_Dictionary_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplica este diccionario, profundamente, como :ref:`duplicate()<class_Dictionary_method_duplicate>`\ ``(true)``, con control adicional sobre cómo se manejan los subrecursos.
 
-\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
+\ ``deep_subresources_mode`` debe ser uno de los valores de :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. De forma predeterminada, solo los recursos internos se duplicarán (recursivamente).
 
 .. rst-class:: classref-item-separator
 
@@ -454,9 +454,9 @@ Duplicates this dictionary, deeply, like :ref:`duplicate()<class_Dictionary_meth
 
 :ref:`bool<class_bool>` **erase**\ (\ key\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Dictionary_method_erase>`
 
-Removes the dictionary entry by key, if it exists. Returns ``true`` if the given ``key`` existed in the dictionary, otherwise ``false``.
+Elimina la entrada del diccionario por clave, si existe. Devuelve ``true`` si la ``key`` dada existía en el diccionario, de lo contrario ``false``.
 
-\ **Note:** Do not erase entries while iterating over the dictionary. You can iterate over the :ref:`keys()<class_Dictionary_method_keys>` array instead.
+\ **Nota:** No borres entradas mientras iteras sobre el diccionario. En su lugar, puedes iterar sobre el array :ref:`keys()<class_Dictionary_method_keys>`.
 
 .. rst-class:: classref-item-separator
 
@@ -468,9 +468,9 @@ Removes the dictionary entry by key, if it exists. Returns ``true`` if the given
 
 :ref:`Variant<class_Variant>` **find_key**\ (\ value\: :ref:`Variant<class_Variant>`\ ) |const| :ref:`🔗<class_Dictionary_method_find_key>`
 
-Finds and returns the first key whose associated value is equal to ``value``, or ``null`` if it is not found.
+Encuentra y devuelve la primera clave cuyo valor asociado es igual a ``value``, o ``null`` si no se encuentra.
 
-\ **Note:** ``null`` is also a valid key. If inside the dictionary, :ref:`find_key()<class_Dictionary_method_find_key>` may give misleading results.
+\ **Nota:** ``null`` también es una clave válida. Si está dentro del diccionario, :ref:`find_key()<class_Dictionary_method_find_key>` puede dar resultados engañosos.
 
 .. rst-class:: classref-item-separator
 
@@ -494,7 +494,7 @@ Returns the corresponding value for the given ``key`` in the dictionary. If the 
 
 :ref:`Variant<class_Variant>` **get_or_add**\ (\ key\: :ref:`Variant<class_Variant>`, default\: :ref:`Variant<class_Variant>` = null\ ) :ref:`🔗<class_Dictionary_method_get_or_add>`
 
-Gets a value and ensures the key is set. If the ``key`` exists in the dictionary, this behaves like :ref:`get()<class_Dictionary_method_get>`. Otherwise, the ``default`` value is inserted into the dictionary and returned.
+Obtiene un valor y se asegura de que la clave está establecida. Si la ``key`` existe en el diccionario, esto se comporta como :ref:`get()<class_Dictionary_method_get>`. De lo contrario, el valor ``default`` se inserta en el diccionario y se devuelve.
 
 .. rst-class:: classref-item-separator
 
@@ -506,7 +506,7 @@ Gets a value and ensures the key is set. If the ``key`` exists in the dictionary
 
 :ref:`int<class_int>` **get_typed_key_builtin**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_get_typed_key_builtin>`
 
-Returns the built-in :ref:`Variant<class_Variant>` type of the typed dictionary's keys as a :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` constant. If the keys are not typed, returns :ref:`@GlobalScope.TYPE_NIL<class_@GlobalScope_constant_TYPE_NIL>`. See also :ref:`is_typed_key()<class_Dictionary_method_is_typed_key>`.
+Devuelve el tipo :ref:`Variant<class_Variant>` incorporado de las claves del diccionario tipado como una constante :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`. Si las claves no están tipadas, devuelve :ref:`@GlobalScope.TYPE_NIL<class_@GlobalScope_constant_TYPE_NIL>`. Véase también :ref:`is_typed_key()<class_Dictionary_method_is_typed_key>`.
 
 .. rst-class:: classref-item-separator
 
@@ -518,7 +518,7 @@ Returns the built-in :ref:`Variant<class_Variant>` type of the typed dictionary'
 
 :ref:`StringName<class_StringName>` **get_typed_key_class_name**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_get_typed_key_class_name>`
 
-Returns the **built-in** class name of the typed dictionary's keys, if the built-in :ref:`Variant<class_Variant>` type is :ref:`@GlobalScope.TYPE_OBJECT<class_@GlobalScope_constant_TYPE_OBJECT>`. Otherwise, returns an empty :ref:`StringName<class_StringName>`. See also :ref:`is_typed_key()<class_Dictionary_method_is_typed_key>` and :ref:`Object.get_class()<class_Object_method_get_class>`.
+Devuelve el nombre de la clase **incorporada** de las claves del diccionario tipado, si el tipo :ref:`Variant<class_Variant>` incorporado es :ref:`@GlobalScope.TYPE_OBJECT<class_@GlobalScope_constant_TYPE_OBJECT>`. De lo contrario, devuelve un :ref:`StringName<class_StringName>` vacío. Véase también :ref:`is_typed_key()<class_Dictionary_method_is_typed_key>` y :ref:`Object.get_class()<class_Object_method_get_class>`.
 
 .. rst-class:: classref-item-separator
 
@@ -530,7 +530,7 @@ Returns the **built-in** class name of the typed dictionary's keys, if the built
 
 :ref:`Variant<class_Variant>` **get_typed_key_script**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_get_typed_key_script>`
 
-Returns the :ref:`Script<class_Script>` instance associated with this typed dictionary's keys, or ``null`` if it does not exist. See also :ref:`is_typed_key()<class_Dictionary_method_is_typed_key>`.
+Devuelve la instancia de :ref:`Script<class_Script>` asociada con las claves de este diccionario tipado, o ``null`` si no existe. Véase también :ref:`is_typed_key()<class_Dictionary_method_is_typed_key>`.
 
 .. rst-class:: classref-item-separator
 
@@ -542,7 +542,7 @@ Returns the :ref:`Script<class_Script>` instance associated with this typed dict
 
 :ref:`int<class_int>` **get_typed_value_builtin**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_get_typed_value_builtin>`
 
-Returns the built-in :ref:`Variant<class_Variant>` type of the typed dictionary's values as a :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` constant. If the values are not typed, returns :ref:`@GlobalScope.TYPE_NIL<class_@GlobalScope_constant_TYPE_NIL>`. See also :ref:`is_typed_value()<class_Dictionary_method_is_typed_value>`.
+Devuelve el tipo :ref:`Variant<class_Variant>` incorporado de los valores del diccionario tipado como una constante :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`. Si los valores no están tipados, devuelve :ref:`@GlobalScope.TYPE_NIL<class_@GlobalScope_constant_TYPE_NIL>`. Véase también :ref:`is_typed_value()<class_Dictionary_method_is_typed_value>`.
 
 .. rst-class:: classref-item-separator
 
@@ -554,7 +554,7 @@ Returns the built-in :ref:`Variant<class_Variant>` type of the typed dictionary'
 
 :ref:`StringName<class_StringName>` **get_typed_value_class_name**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_get_typed_value_class_name>`
 
-Returns the **built-in** class name of the typed dictionary's values, if the built-in :ref:`Variant<class_Variant>` type is :ref:`@GlobalScope.TYPE_OBJECT<class_@GlobalScope_constant_TYPE_OBJECT>`. Otherwise, returns an empty :ref:`StringName<class_StringName>`. See also :ref:`is_typed_value()<class_Dictionary_method_is_typed_value>` and :ref:`Object.get_class()<class_Object_method_get_class>`.
+Devuelve el nombre de la clase **incorporada** de los valores del diccionario tipado, si el tipo :ref:`Variant<class_Variant>` incorporado es :ref:`@GlobalScope.TYPE_OBJECT<class_@GlobalScope_constant_TYPE_OBJECT>`. De lo contrario, devuelve un :ref:`StringName<class_StringName>` vacío. Véase también :ref:`is_typed_value()<class_Dictionary_method_is_typed_value>` y :ref:`Object.get_class()<class_Object_method_get_class>`.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Returns the **built-in** class name of the typed dictionary's values, if the bui
 
 :ref:`Variant<class_Variant>` **get_typed_value_script**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_get_typed_value_script>`
 
-Returns the :ref:`Script<class_Script>` instance associated with this typed dictionary's values, or ``null`` if it does not exist. See also :ref:`is_typed_value()<class_Dictionary_method_is_typed_value>`.
+Devuelve la instancia de :ref:`Script<class_Script>` asociada con los valores de este diccionario tipado, o ``null`` si no existe. Véase también :ref:`is_typed_value()<class_Dictionary_method_is_typed_value>`.
 
 .. rst-class:: classref-item-separator
 
@@ -680,7 +680,7 @@ Returns a hashed 32-bit integer value representing the dictionary contents.
 
 :ref:`bool<class_bool>` **is_empty**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_is_empty>`
 
-Returns ``true`` if the dictionary is empty (its size is ``0``). See also :ref:`size()<class_Dictionary_method_size>`.
+Devuelve ``true`` si el diccionario está vacío (su tamaño es ``0``). Véase también :ref:`size()<class_Dictionary_method_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -692,7 +692,7 @@ Returns ``true`` if the dictionary is empty (its size is ``0``). See also :ref:`
 
 :ref:`bool<class_bool>` **is_read_only**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_is_read_only>`
 
-Returns ``true`` if the dictionary is read-only. See :ref:`make_read_only()<class_Dictionary_method_make_read_only>`. Dictionaries are automatically read-only if declared with ``const`` keyword.
+Devuelve ``true`` si el diccionario es de solo lectura. Véase :ref:`make_read_only()<class_Dictionary_method_make_read_only>`. Los diccionarios son automáticamente de solo lectura si se declaran con la palabra clave ``const``.
 
 .. rst-class:: classref-item-separator
 
@@ -704,7 +704,7 @@ Returns ``true`` if the dictionary is read-only. See :ref:`make_read_only()<clas
 
 :ref:`bool<class_bool>` **is_same_typed**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |const| :ref:`🔗<class_Dictionary_method_is_same_typed>`
 
-Returns ``true`` if the dictionary is typed the same as ``dictionary``.
+Devuelve ``true`` si el diccionario tiene el mismo tipo que ``dictionary``.
 
 .. rst-class:: classref-item-separator
 
@@ -716,7 +716,7 @@ Returns ``true`` if the dictionary is typed the same as ``dictionary``.
 
 :ref:`bool<class_bool>` **is_same_typed_key**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |const| :ref:`🔗<class_Dictionary_method_is_same_typed_key>`
 
-Returns ``true`` if the dictionary's keys are typed the same as ``dictionary``'s keys.
+Devuelve ``true`` si los tipos de las claves del diccionario son los mismos que los tipos de las claves de ``dictionary``.
 
 .. rst-class:: classref-item-separator
 
@@ -728,7 +728,7 @@ Returns ``true`` if the dictionary's keys are typed the same as ``dictionary``'s
 
 :ref:`bool<class_bool>` **is_same_typed_value**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |const| :ref:`🔗<class_Dictionary_method_is_same_typed_value>`
 
-Returns ``true`` if the dictionary's values are typed the same as ``dictionary``'s values.
+Devuelve ``true`` si los tipos de los valores del diccionario son los mismos que los tipos de los valores de ``dictionary``.
 
 .. rst-class:: classref-item-separator
 
@@ -740,7 +740,7 @@ Returns ``true`` if the dictionary's values are typed the same as ``dictionary``
 
 :ref:`bool<class_bool>` **is_typed**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_is_typed>`
 
-Returns ``true`` if the dictionary is typed. Typed dictionaries can only store keys/values of their associated type and provide type safety for the ``[]`` operator. Methods of typed dictionary still return :ref:`Variant<class_Variant>`.
+Devuelve ``true`` si el diccionario está tipado. Los diccionarios tipados solo pueden almacenar claves/valores de su tipo asociado y proporcionan seguridad de tipo para el operador ``[]``. Los métodos del diccionario tipado aún devuelven :ref:`Variant<class_Variant>`.
 
 .. rst-class:: classref-item-separator
 
@@ -752,7 +752,7 @@ Returns ``true`` if the dictionary is typed. Typed dictionaries can only store k
 
 :ref:`bool<class_bool>` **is_typed_key**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_is_typed_key>`
 
-Returns ``true`` if the dictionary's keys are typed.
+Devuelve ``true`` si las claves del diccionario están tipadas.
 
 .. rst-class:: classref-item-separator
 
@@ -764,7 +764,7 @@ Returns ``true`` if the dictionary's keys are typed.
 
 :ref:`bool<class_bool>` **is_typed_value**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_is_typed_value>`
 
-Returns ``true`` if the dictionary's values are typed.
+Devuelve ``true`` si los valores del diccionario están tipados.
 
 .. rst-class:: classref-item-separator
 
@@ -788,7 +788,7 @@ Devuelve la lista de claves del diccionario.
 
 |void| **make_read_only**\ (\ ) :ref:`🔗<class_Dictionary_method_make_read_only>`
 
-Makes the dictionary read-only, i.e. disables modification of the dictionary's contents. Does not apply to nested content, e.g. content of nested dictionaries.
+Hace que el diccionario sea de solo lectura, es decir, deshabilita la modificación del contenido del diccionario. No se aplica al contenido anidado, por ejemplo, al contenido de los diccionarios anidados.
 
 .. rst-class:: classref-item-separator
 
@@ -889,7 +889,7 @@ Returns ``true`` if the two dictionaries contain the same keys and values, inner
 
 :ref:`bool<class_bool>` **set**\ (\ key\: :ref:`Variant<class_Variant>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Dictionary_method_set>`
 
-Sets the value of the element at the given ``key`` to the given ``value``. This is the same as using the ``[]`` operator (``array[index] = value``).
+Establece el valor del elemento en la ``key`` dada al ``value`` dado. Esto es lo mismo que usar el operador ``[]`` (``array[index] = value``).
 
 .. rst-class:: classref-item-separator
 
@@ -901,7 +901,7 @@ Sets the value of the element at the given ``key`` to the given ``value``. This 
 
 :ref:`int<class_int>` **size**\ (\ ) |const| :ref:`🔗<class_Dictionary_method_size>`
 
-Returns the number of entries in the dictionary. Empty dictionaries (``{ }``) always return ``0``. See also :ref:`is_empty()<class_Dictionary_method_is_empty>`.
+Devuelve el número de entradas en el diccionario. Los diccionarios vacíos (``{ }``) siempre devuelven ``0``. Véase también :ref:`is_empty()<class_Dictionary_method_is_empty>`.
 
 .. rst-class:: classref-item-separator
 
@@ -967,9 +967,9 @@ Returns ``true`` if the two dictionaries do not contain the same keys and values
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_Dictionary_operator_eq_Dictionary>`
 
-Returns ``true`` if the two dictionaries contain the same keys and values. The order of the entries does not matter.
+Devuelve ``true`` si los dos diccionarios contienen las mismas claves y valores. El orden de las entradas no importa.
 
-\ **Note:** In C#, by convention, this operator compares by **reference**. If you need to compare by value, iterate over both dictionaries.
+\ **Nota:** En C#, por convención, este operador compara por **referencia**. Si necesitas comparar por valor, itera sobre ambos diccionarios.
 
 .. rst-class:: classref-item-separator
 
@@ -981,7 +981,7 @@ Returns ``true`` if the two dictionaries contain the same keys and values. The o
 
 :ref:`Variant<class_Variant>` **operator []**\ (\ key\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Dictionary_operator_idx_Variant>`
 
-Returns the corresponding value for the given ``key`` in the dictionary. If the entry does not exist, fails and returns ``null``. For safe access, use :ref:`get()<class_Dictionary_method_get>` or :ref:`has()<class_Dictionary_method_has>`.
+Devuelve el valor correspondiente para la ``key`` dada en el diccionario. Si la entrada no existe, falla y devuelve ``null``. Para un acceso seguro, usa :ref:`get()<class_Dictionary_method_get>` o :ref:`has()<class_Dictionary_method_has>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

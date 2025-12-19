@@ -14,11 +14,11 @@ Un script implémenté dans le langage de programmation GDScript.
 Description
 -----------
 
-A script implemented in the GDScript programming language, saved with the ``.gd`` extension. The script extends the functionality of all objects that instantiate it.
+Un script implémenté dans le langage de programmation GDScript, enregistré avec l'extension ``.gd``. Le script étend la fonctionnalité de tous les objets qui l'instancient.
 
-Calling :ref:`new()<class_GDScript_method_new>` creates a new instance of the script. :ref:`Object.set_script()<class_Object_method_set_script>` extends an existing object, if that object's class matches one of the script's base classes.
+Appeler :ref:`new()<class_GDScript_method_new>` crée une nouvelle instance du script. :ref:`Object.set_script()<class_Object_method_set_script>` étend un objet existant, si la classe de cet objet correspond à l'une des classes de base du script.
 
-If you are looking for GDScript's built-in functions, see :ref:`@GDScript<class_@GDScript>` instead.
+Si vous cherchez les fonctions intégrées de GDScript, voir :ref:`@GDScript<class_@GDScript>` à la place.
 
 .. rst-class:: classref-introduction-group
 
@@ -54,13 +54,13 @@ Descriptions des méthodes
 
 :ref:`Variant<class_Variant>` **new**\ (\ ...\ ) |vararg| :ref:`🔗<class_GDScript_method_new>`
 
-Returns a new instance of the script.
+Renvoie une nouvelle instance du script.
 
 ::
 
-    var MyClass = load("myclass.gd")
-    var instance = MyClass.new()
-    print(instance.get_script() == MyClass) # Prints true
+    var MaClasse = load("maclasse.gd")
+    var instance = MaClasse.new()
+    print(instance.get_script() == MaClasse) # Affiche true
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

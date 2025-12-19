@@ -7,16 +7,16 @@ Generic6DOFJoint3D
 
 **Hereda:** :ref:`Joint3D<class_Joint3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A physics joint that allows for complex movement and rotation between two 3D physics bodies.
+Una articulación física que permite un movimiento y rotación complejos entre dos cuerpos físicos 3D.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The **Generic6DOFJoint3D** (6 Degrees Of Freedom) joint allows for implementing custom types of joints by locking the rotation and translation of certain axes.
+La articulación **Generic6DOFJoint3D** (6 grados de libertad) permite implementar tipos de articulaciones personalizados bloqueando la rotación y traslación de ciertos ejes.
 
-The first 3 DOF represent the linear motion of the physics bodies and the last 3 DOF represent the angular motion of the physics bodies. Each axis can be either locked, or limited.
+Los primeros 3 grados de libertad representan el movimiento lineal de los cuerpos físicos y los últimos 3 grados de libertad representan el movimiento angular de los cuerpos físicos. Cada eje puede estar bloqueado o limitado.
 
 .. rst-class:: classref-reftable-group
 

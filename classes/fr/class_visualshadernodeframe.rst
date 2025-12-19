@@ -7,7 +7,7 @@ VisualShaderNodeFrame
 
 **Hérite de :** :ref:`VisualShaderNodeResizableBase<class_VisualShaderNodeResizableBase>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisualShaderNodeComment<class_VisualShaderNodeComment>`
+**Hérité par :** :ref:`VisualShaderNodeComment<class_VisualShaderNodeComment>`
 
 A frame other visual shader nodes can be attached to for better organization.
 

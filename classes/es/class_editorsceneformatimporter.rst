@@ -190,7 +190,7 @@ Should return ``true`` to show the given option, ``false`` to hide the given opt
 
 :ref:`Object<class_Object>` **_import_scene**\ (\ path\: :ref:`String<class_String>`, flags\: :ref:`int<class_int>`, options\: :ref:`Dictionary<class_Dictionary>`\ ) |virtual| :ref:`🔗<class_EditorSceneFormatImporter_private_method__import_scene>`
 
-Perform the bulk of the scene import logic here, for example using :ref:`GLTFDocument<class_GLTFDocument>` or :ref:`FBXDocument<class_FBXDocument>`.
+Realiza la mayor parte de la lógica de importación de la escena aquí, por ejemplo, usando :ref:`GLTFDocument<class_GLTFDocument>` o :ref:`FBXDocument<class_FBXDocument>`.
 
 .. rst-class:: classref-item-separator
 
@@ -202,7 +202,7 @@ Perform the bulk of the scene import logic here, for example using :ref:`GLTFDoc
 
 |void| **add_import_option**\ (\ name\: :ref:`String<class_String>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_EditorSceneFormatImporter_method_add_import_option>`
 
-Add a specific import option (name and default value only). This function can only be called from :ref:`_get_import_options()<class_EditorSceneFormatImporter_private_method__get_import_options>`.
+Añade una opción de importación específica (solo nombre y valor predeterminado). Esta función solo puede ser llamada desde :ref:`_get_import_options()<class_EditorSceneFormatImporter_private_method__get_import_options>`.
 
 .. rst-class:: classref-item-separator
 
@@ -214,7 +214,7 @@ Add a specific import option (name and default value only). This function can on
 
 |void| **add_import_option_advanced**\ (\ type\: :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`, name\: :ref:`String<class_String>`, default_value\: :ref:`Variant<class_Variant>`, hint\: :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` = 0, hint_string\: :ref:`String<class_String>` = "", usage_flags\: :ref:`int<class_int>` = 6\ ) :ref:`🔗<class_EditorSceneFormatImporter_method_add_import_option_advanced>`
 
-Add a specific import option. This function can only be called from :ref:`_get_import_options()<class_EditorSceneFormatImporter_private_method__get_import_options>`.
+Añade una opción de importación específica. Esta función solo puede ser llamada desde :ref:`_get_import_options()<class_EditorSceneFormatImporter_private_method__get_import_options>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

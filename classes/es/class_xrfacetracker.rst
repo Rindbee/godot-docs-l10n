@@ -16,7 +16,7 @@ Un rostro rastreado.
 Descripción
 ----------------------
 
-Una instancia de este objeto representa una cara rastreada y sus blend shapes correspondientes. Las blend shapes provienen del estándar `Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes>`__ y contienen detalles extendidos y elementos visuales para cada blend shape. Además, la página `Comparación de estándares de seguimiento <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview>`__ documenta la relación entre Unified Expressions y otros estándares.
+Una instancia de este objeto representa una cara rastreada y sus blend shapes correspondientes. Las blendshapes provienen del estándar `Unified Expressions <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/unified-blendshapes>`__ y contienen detalles extendidos y elementos visuales para cada blend shape. Además, la página `Comparación de estándares de seguimiento <https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview>`__ documenta la relación entre Unified Expressions y otros estándares.
 
 A medida que se activan los rastreadores faciales, se registran en el :ref:`XRServer<class_XRServer>`.
 
@@ -1242,7 +1242,7 @@ Descripciones de Propiedades
 - |void| **set_blend_shapes**\ (\ value\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ )
 - :ref:`PackedFloat32Array<class_PackedFloat32Array>` **get_blend_shapes**\ (\ )
 
-La matriz de pesos de las blend shapes faciales con índices correspondientes a la enumeración :ref:`BlendShapeEntry<enum_XRFaceTracker_BlendShapeEntry>`.
+El array de pesos de las blendshapes faciales con índices correspondientes a la enumeración :ref:`BlendShapeEntry<enum_XRFaceTracker_BlendShapeEntry>`.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedFloat32Array<class_PackedFloat32Array>` for more details.
 

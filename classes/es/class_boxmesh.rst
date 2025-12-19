@@ -7,7 +7,7 @@ BoxMesh
 
 **Hereda:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Generate an axis-aligned box :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
+Genera una caja alineada con los ejes :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -58,7 +58,7 @@ Descripciones de Propiedades
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The box's width, height and depth.
+El ancho, la altura y la profundidad de la caja.
 
 .. rst-class:: classref-item-separator
 

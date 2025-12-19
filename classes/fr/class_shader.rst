@@ -7,7 +7,7 @@ Shader
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisualShader<class_VisualShader>`
+**Hérité par :** :ref:`VisualShader<class_VisualShader>`
 
 Un shader implémenté dans le langage de shader de Godot.
 

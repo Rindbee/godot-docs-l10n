@@ -7,7 +7,7 @@ FontFile
 
 **Hereda:** :ref:`Font<class_Font>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Holds font source data and prerendered glyph cache, imported from a dynamic or a bitmap font.
+Contiene los datos de origen de la fuente y la caché de glifos pre-renderizados, importados de una fuente dinámica o de mapa de bits.
 
 .. rst-class:: classref-introduction-group
 
@@ -276,7 +276,7 @@ Descripciones de Propiedades
 - |void| **set_allow_system_fallback**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_allow_system_fallback**\ (\ )
 
-If set to ``true``, system fonts can be automatically used as fallbacks.
+Si se establece en ``true``, las fuentes del sistema se pueden utilizar automáticamente como alternativas.
 
 .. rst-class:: classref-item-separator
 
@@ -293,7 +293,7 @@ If set to ``true``, system fonts can be automatically used as fallbacks.
 - |void| **set_antialiasing**\ (\ value\: :ref:`FontAntialiasing<enum_TextServer_FontAntialiasing>`\ )
 - :ref:`FontAntialiasing<enum_TextServer_FontAntialiasing>` **get_antialiasing**\ (\ )
 
-Font anti-aliasing mode.
+Modo de antialiasing de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -310,7 +310,7 @@ Font anti-aliasing mode.
 - |void| **set_data**\ (\ value\: :ref:`PackedByteArray<class_PackedByteArray>`\ )
 - :ref:`PackedByteArray<class_PackedByteArray>` **get_data**\ (\ )
 
-Contents of the dynamic font source file.
+Contenido del archivo fuente de la fuente dinámica.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
 
@@ -346,7 +346,7 @@ If set to ``true``, embedded font bitmap loading is disabled (bitmap-only and co
 - |void| **set_fixed_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_fixed_size**\ (\ )
 
-Font size, used only for the bitmap fonts.
+Tamaño de la fuente, usado solo para las fuentes de mapa de bits.
 
 .. rst-class:: classref-item-separator
 
@@ -363,7 +363,7 @@ Font size, used only for the bitmap fonts.
 - |void| **set_fixed_size_scale_mode**\ (\ value\: :ref:`FixedSizeScaleMode<enum_TextServer_FixedSizeScaleMode>`\ )
 - :ref:`FixedSizeScaleMode<enum_TextServer_FixedSizeScaleMode>` **get_fixed_size_scale_mode**\ (\ )
 
-Scaling mode, used only for the bitmap fonts with :ref:`fixed_size<class_FontFile_property_fixed_size>` greater than zero.
+Modo de escalado, usado solo para las fuentes de mapa de bits con :ref:`fixed_size<class_FontFile_property_fixed_size>` mayor que cero.
 
 .. rst-class:: classref-item-separator
 
@@ -380,7 +380,7 @@ Scaling mode, used only for the bitmap fonts with :ref:`fixed_size<class_FontFil
 - |void| **set_font_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_font_name**\ (\ )
 
-Font family name.
+Nombre de la familia de fuentes.
 
 .. rst-class:: classref-item-separator
 
@@ -397,7 +397,7 @@ Font family name.
 - |void| **set_font_stretch**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_font_stretch**\ (\ )
 
-Font stretch amount, compared to a normal width. A percentage value between ``50%`` and ``200%``.
+Cantidad de estiramiento de la fuente, comparado con un ancho normal. Un valor porcentual entre ``50%`` y ``200%``.
 
 .. rst-class:: classref-item-separator
 
@@ -414,7 +414,7 @@ Font stretch amount, compared to a normal width. A percentage value between ``50
 - |void| **set_font_style**\ (\ value\: |bitfield|\[:ref:`FontStyle<enum_TextServer_FontStyle>`\]\ )
 - |bitfield|\[:ref:`FontStyle<enum_TextServer_FontStyle>`\] **get_font_style**\ (\ )
 
-Font style flags.
+Banderas de estilo de fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -431,7 +431,7 @@ Font style flags.
 - |void| **set_font_weight**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_font_weight**\ (\ )
 
-Weight (boldness) of the font. A value in the ``100...999`` range, normal font weight is ``400``, bold font weight is ``700``.
+Peso (grosor) de la fuente. Un valor en el rango ``100...999``. El peso normal de la fuente es ``400`` y el peso de la fuente en negrita es ``700``.
 
 .. rst-class:: classref-item-separator
 
@@ -448,7 +448,7 @@ Weight (boldness) of the font. A value in the ``100...999`` range, normal font w
 - |void| **set_force_autohinter**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_force_autohinter**\ (\ )
 
-If set to ``true``, auto-hinting is supported and preferred over font built-in hinting. Used by dynamic fonts only (MSDF fonts don't support hinting).
+Si se establece en ``true``, el hinting automático es compatible y preferido sobre el hinting incorporado de la fuente. Se utiliza solo en fuentes dinámicas (las fuentes MSDF no admiten hinting).
 
 .. rst-class:: classref-item-separator
 
@@ -465,7 +465,7 @@ If set to ``true``, auto-hinting is supported and preferred over font built-in h
 - |void| **set_generate_mipmaps**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_generate_mipmaps**\ (\ )
 
-If set to ``true``, generate mipmaps for the font textures.
+Si se establece en ``true``, se generan mipmaps para las texturas de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -482,7 +482,7 @@ If set to ``true``, generate mipmaps for the font textures.
 - |void| **set_hinting**\ (\ value\: :ref:`Hinting<enum_TextServer_Hinting>`\ )
 - :ref:`Hinting<enum_TextServer_Hinting>` **get_hinting**\ (\ )
 
-Font hinting mode. Used by dynamic fonts only.
+Modo de hinting de la fuente. Se utiliza solo en fuentes dinámicas.
 
 .. rst-class:: classref-item-separator
 
@@ -499,7 +499,7 @@ Font hinting mode. Used by dynamic fonts only.
 - |void| **set_keep_rounding_remainders**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_keep_rounding_remainders**\ (\ )
 
-If set to ``true``, when aligning glyphs to the pixel boundaries rounding remainders are accumulated to ensure more uniform glyph distribution. This setting has no effect if subpixel positioning is enabled.
+Si se establece en ``true``, al alinear los glifos a los límites de los píxeles, los restos de redondeo se acumulan para asegurar una distribución de glifos más uniforme. Este ajuste no tiene efecto si el posicionamiento subpíxel está habilitado.
 
 .. rst-class:: classref-item-separator
 
@@ -588,7 +588,7 @@ If set to ``true``, glyphs of all sizes are rendered using single multichannel s
 - |void| **set_opentype_feature_overrides**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_opentype_feature_overrides**\ (\ )
 
-Anulación del conjunto de características de fuentes OpenType.
+Sobrescritura del conjunto de características de fuentes OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -816,7 +816,7 @@ Returns embolden strength, if is not equal to zero, emboldens the font outlines.
 
 :ref:`float<class_float>` **get_extra_baseline_offset**\ (\ cache_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_extra_baseline_offset>`
 
-Returns extra baseline offset (as a fraction of font height).
+Devuelve el desplazamiento adicional de la línea base (como una fracción de la altura de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -852,9 +852,9 @@ Devuelve un índice de cara activo en la colección TrueType/OpenType.
 
 :ref:`Vector2<class_Vector2>` **get_glyph_advance**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, glyph\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_glyph_advance>`
 
-Returns glyph advance (offset of the next glyph).
+Devuelve el avance del glifo (desplazamiento del siguiente glifo).
 
-\ **Note:** Advance for glyphs outlines is the same as the base glyph advance and is not saved.
+\ **Nota:** El avance de los contornos de los glifos es el mismo que el avance del glifo base y no se guarda.
 
 .. rst-class:: classref-item-separator
 
@@ -866,7 +866,7 @@ Returns glyph advance (offset of the next glyph).
 
 :ref:`int<class_int>` **get_glyph_index**\ (\ size\: :ref:`int<class_int>`, char\: :ref:`int<class_int>`, variation_selector\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_glyph_index>`
 
-Returns the glyph index of a ``char``, optionally modified by the ``variation_selector``.
+Devuelve el índice del glifo de un ``char``, opcionalmente modificado por el ``variation_selector``.
 
 .. rst-class:: classref-item-separator
 
@@ -962,7 +962,7 @@ Devuelve una lista de anulaciones de kerning.
 
 :ref:`bool<class_bool>` **get_language_support_override**\ (\ language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_FontFile_method_get_language_support_override>`
 
-Devuelve ``true`` si la anulación de soporte está habilitada para el ``language``.
+Devuelve ``true`` si la sobrescritura de soporte está habilitada para el ``language``.
 
 .. rst-class:: classref-item-separator
 
@@ -986,7 +986,7 @@ Devuelve una lista de anulaciones de soporte de idiomas.
 
 :ref:`bool<class_bool>` **get_script_support_override**\ (\ script\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_FontFile_method_get_script_support_override>`
 
-Devuelve ``true`` si la anulación de soporte está habilitada para el ``script``.
+Devuelve ``true`` si la sobrescritura de soporte está habilitada para el ``script``.
 
 .. rst-class:: classref-item-separator
 
@@ -1010,7 +1010,7 @@ Devuelve una lista de anulaciones de compatibilidad de scripts.
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **get_size_cache_list**\ (\ cache_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_size_cache_list>`
 
-Returns list of the font sizes in the cache. Each size is :ref:`Vector2i<class_Vector2i>` with font size and outline size.
+Devuelve una lista de los tamaños de fuente en la caché. Cada tamaño es :ref:`Vector2i<class_Vector2i>` con el tamaño de la fuente y el tamaño del contorno.
 
 .. rst-class:: classref-item-separator
 
@@ -1058,7 +1058,7 @@ Devuelve una copia del array que contiene datos de empaquetado de glifos.
 
 :ref:`Transform2D<class_Transform2D>` **get_transform**\ (\ cache_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_transform>`
 
-Returns 2D transform, applied to the font outlines, can be used for slanting, flipping and rotating glyphs.
+Devuelve la transformación 2D, aplicada a los contornos de la fuente, que puede utilizarse para inclinar, voltear y rotar los glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -1070,7 +1070,7 @@ Returns 2D transform, applied to the font outlines, can be used for slanting, fl
 
 :ref:`Dictionary<class_Dictionary>` **get_variation_coordinates**\ (\ cache_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_FontFile_method_get_variation_coordinates>`
 
-Returns variation coordinates for the specified font cache entry. See :ref:`Font.get_supported_variation_list()<class_Font_method_get_supported_variation_list>` for more info.
+Devuelve las coordenadas de variación para la entrada de caché de fuente especificada. Véase :ref:`Font.get_supported_variation_list()<class_Font_method_get_supported_variation_list>` para más información.
 
 .. rst-class:: classref-item-separator
 
@@ -1082,9 +1082,9 @@ Returns variation coordinates for the specified font cache entry. See :ref:`Font
 
 :ref:`Error<enum_@GlobalScope_Error>` **load_bitmap_font**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FontFile_method_load_bitmap_font>`
 
-Loads an AngelCode BMFont (.fnt, .font) bitmap font from file ``path``.
+Carga una fuente de mapa de bits AngelCode BMFont (.fnt, .font) desde el archivo ``path``.
 
-\ **Warning:** This method should only be used in the editor or in cases when you need to load external fonts at run-time, such as fonts located at the ``user://`` directory.
+\ **Advertencia:** Este método solo debe usarse en el editor o en los casos en que necesites cargar fuentes externas en tiempo de ejecución, como las fuentes ubicadas en el directorio ``user://``.
 
 .. rst-class:: classref-item-separator
 
@@ -1096,9 +1096,9 @@ Loads an AngelCode BMFont (.fnt, .font) bitmap font from file ``path``.
 
 :ref:`Error<enum_@GlobalScope_Error>` **load_dynamic_font**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FontFile_method_load_dynamic_font>`
 
-Loads a TrueType (.ttf), OpenType (.otf), WOFF (.woff), WOFF2 (.woff2) or Type 1 (.pfb, .pfm) dynamic font from file ``path``.
+Carga una fuente dinámica TrueType (.ttf), OpenType (.otf), WOFF (.woff), WOFF2 (.woff2) o Type 1 (.pfb, .pfm) desde el archivo ``path``.
 
-\ **Warning:** This method should only be used in the editor or in cases when you need to load external fonts at run-time, such as fonts located at the ``user://`` directory.
+\ **Advertencia:** Este método solo debe usarse en el editor o en los casos en que necesites cargar fuentes externas en tiempo de ejecución, como las fuentes ubicadas en el directorio ``user://``.
 
 .. rst-class:: classref-item-separator
 
@@ -1122,9 +1122,9 @@ Elimina la entrada de caché de fuente especificada.
 
 |void| **remove_glyph**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontFile_method_remove_glyph>`
 
-Removes specified rendered glyph information from the cache entry.
+Elimina la información del glifo renderizado especificado de la entrada de caché.
 
-\ **Note:** This function will not remove textures associated with the glyphs, use :ref:`remove_texture()<class_FontFile_method_remove_texture>` to remove them manually.
+\ **Nota:** Esta función no eliminará las texturas asociadas con los glifos, usa :ref:`remove_texture()<class_FontFile_method_remove_texture>` para eliminarlos manualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -1136,7 +1136,7 @@ Removes specified rendered glyph information from the cache entry.
 
 |void| **remove_kerning**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, glyph_pair\: :ref:`Vector2i<class_Vector2i>`\ ) :ref:`🔗<class_FontFile_method_remove_kerning>`
 
-Removes kerning override for the pair of glyphs.
+Elimina la sobrescritura de kerning para el par de glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -1148,7 +1148,7 @@ Removes kerning override for the pair of glyphs.
 
 |void| **remove_language_support_override**\ (\ language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FontFile_method_remove_language_support_override>`
 
-Remove language support override.
+Elimina la sobrescritura de soporte de idioma.
 
 .. rst-class:: classref-item-separator
 
@@ -1160,7 +1160,7 @@ Remove language support override.
 
 |void| **remove_script_support_override**\ (\ script\: :ref:`String<class_String>`\ ) :ref:`🔗<class_FontFile_method_remove_script_support_override>`
 
-Removes script support override.
+Elimina la sobrescritura de soporte de script.
 
 .. rst-class:: classref-item-separator
 
@@ -1184,9 +1184,9 @@ Elimina el tamaño de fuente especificado de la entrada de caché.
 
 |void| **remove_texture**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`Vector2i<class_Vector2i>`, texture_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontFile_method_remove_texture>`
 
-Removes specified texture from the cache entry.
+Elimina la textura especificada de la entrada de caché.
 
-\ **Note:** This function will not remove glyphs associated with the texture. Remove them manually using :ref:`remove_glyph()<class_FontFile_method_remove_glyph>`.
+\ **Nota:** Esta función no eliminará los glifos asociados con la textura. Elimínalos manualmente usando :ref:`remove_glyph()<class_FontFile_method_remove_glyph>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1198,7 +1198,7 @@ Removes specified texture from the cache entry.
 
 |void| **render_glyph**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`Vector2i<class_Vector2i>`, index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontFile_method_render_glyph>`
 
-Renders specified glyph to the font cache texture.
+Renderiza el glifo especificado en la textura de caché de la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -1234,7 +1234,7 @@ Establece el ascenso de la fuente (número de píxeles por encima de la línea b
 
 |void| **set_cache_descent**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, descent\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FontFile_method_set_cache_descent>`
 
-Sets the font descent (number of pixels below the baseline).
+Establece el descenso de la fuente (número de píxeles por debajo de la línea de base).
 
 .. rst-class:: classref-item-separator
 
@@ -1246,7 +1246,7 @@ Sets the font descent (number of pixels below the baseline).
 
 |void| **set_cache_scale**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, scale\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FontFile_method_set_cache_scale>`
 
-Sets scaling factor of the color bitmap font.
+Establece el factor de escala de la fuente de mapa de bits de color.
 
 .. rst-class:: classref-item-separator
 
@@ -1258,7 +1258,7 @@ Sets scaling factor of the color bitmap font.
 
 |void| **set_cache_underline_position**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, underline_position\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FontFile_method_set_cache_underline_position>`
 
-Sets pixel offset of the underline below the baseline.
+Establece el desplazamiento en píxeles del subrayado por debajo de la línea de base.
 
 .. rst-class:: classref-item-separator
 
@@ -1270,7 +1270,7 @@ Sets pixel offset of the underline below the baseline.
 
 |void| **set_cache_underline_thickness**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, underline_thickness\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FontFile_method_set_cache_underline_thickness>`
 
-Sets thickness of the underline in pixels.
+Establece el grosor del subrayado en píxeles.
 
 .. rst-class:: classref-item-separator
 
@@ -1282,7 +1282,7 @@ Sets thickness of the underline in pixels.
 
 |void| **set_embolden**\ (\ cache_index\: :ref:`int<class_int>`, strength\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FontFile_method_set_embolden>`
 
-Sets embolden strength, if is not equal to zero, emboldens the font outlines. Negative values reduce the outline thickness.
+Establece la fuerza del realce. Si no es igual a cero, realza los contornos de la fuente. Los valores negativos reducen el grosor del contorno.
 
 .. rst-class:: classref-item-separator
 
@@ -1294,7 +1294,7 @@ Sets embolden strength, if is not equal to zero, emboldens the font outlines. Ne
 
 |void| **set_extra_baseline_offset**\ (\ cache_index\: :ref:`int<class_int>`, baseline_offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_FontFile_method_set_extra_baseline_offset>`
 
-Sets extra baseline offset (as a fraction of font height).
+Establece el desplazamiento extra de la línea de base (como una fracción de la altura de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -1306,7 +1306,7 @@ Sets extra baseline offset (as a fraction of font height).
 
 |void| **set_extra_spacing**\ (\ cache_index\: :ref:`int<class_int>`, spacing\: :ref:`SpacingType<enum_TextServer_SpacingType>`, value\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontFile_method_set_extra_spacing>`
 
-Sets the spacing for ``spacing`` to ``value`` in pixels (not relative to the font size).
+Establece el espaciado para ``spacing`` a ``value`` en píxeles (no en relación con el tamaño de la fuente).
 
 .. rst-class:: classref-item-separator
 
@@ -1318,7 +1318,7 @@ Sets the spacing for ``spacing`` to ``value`` in pixels (not relative to the fon
 
 |void| **set_face_index**\ (\ cache_index\: :ref:`int<class_int>`, face_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontFile_method_set_face_index>`
 
-Sets an active face index in the TrueType / OpenType collection.
+Establece un índice de cara activo en la colección TrueType/OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -1330,9 +1330,9 @@ Sets an active face index in the TrueType / OpenType collection.
 
 |void| **set_glyph_advance**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, glyph\: :ref:`int<class_int>`, advance\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_FontFile_method_set_glyph_advance>`
 
-Sets glyph advance (offset of the next glyph).
+Establece el avance del glifo (desplazamiento del siguiente glifo).
 
-\ **Note:** Advance for glyphs outlines is the same as the base glyph advance and is not saved.
+\ **Nota:** El avance de los contornos de los glifos es el mismo que el avance del glifo base y no se guarda.
 
 .. rst-class:: classref-item-separator
 
@@ -1344,7 +1344,7 @@ Sets glyph advance (offset of the next glyph).
 
 |void| **set_glyph_offset**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`, offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_FontFile_method_set_glyph_offset>`
 
-Sets glyph offset from the baseline.
+Establece el desplazamiento del glifo desde la línea de base.
 
 .. rst-class:: classref-item-separator
 
@@ -1368,7 +1368,7 @@ Establece el tamaño del glifo.
 
 |void| **set_glyph_texture_idx**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`, texture_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FontFile_method_set_glyph_texture_idx>`
 
-Sets index of the cache texture containing the glyph.
+Establece el índice de la textura de caché que contiene el glifo.
 
 .. rst-class:: classref-item-separator
 
@@ -1380,7 +1380,7 @@ Sets index of the cache texture containing the glyph.
 
 |void| **set_glyph_uv_rect**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`Vector2i<class_Vector2i>`, glyph\: :ref:`int<class_int>`, uv_rect\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_FontFile_method_set_glyph_uv_rect>`
 
-Sets rectangle in the cache texture containing the glyph.
+Establece el rectángulo en la textura de caché que contiene el glifo.
 
 .. rst-class:: classref-item-separator
 
@@ -1392,7 +1392,7 @@ Sets rectangle in the cache texture containing the glyph.
 
 |void| **set_kerning**\ (\ cache_index\: :ref:`int<class_int>`, size\: :ref:`int<class_int>`, glyph_pair\: :ref:`Vector2i<class_Vector2i>`, kerning\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_FontFile_method_set_kerning>`
 
-Sets kerning for the pair of glyphs.
+Establece el kerning para el par de glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -1404,7 +1404,7 @@ Sets kerning for the pair of glyphs.
 
 |void| **set_language_support_override**\ (\ language\: :ref:`String<class_String>`, supported\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_FontFile_method_set_language_support_override>`
 
-Adds override for :ref:`Font.is_language_supported()<class_Font_method_is_language_supported>`.
+Añade una sobrescritura para :ref:`Font.is_language_supported()<class_Font_method_is_language_supported>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1416,7 +1416,7 @@ Adds override for :ref:`Font.is_language_supported()<class_Font_method_is_langua
 
 |void| **set_script_support_override**\ (\ script\: :ref:`String<class_String>`, supported\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_FontFile_method_set_script_support_override>`
 
-Adds override for :ref:`Font.is_script_supported()<class_Font_method_is_script_supported>`.
+Añade una sobrescritura para :ref:`Font.is_script_supported()<class_Font_method_is_script_supported>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1452,7 +1452,7 @@ Establece un array que contiene datos de empaquetado de glifos.
 
 |void| **set_transform**\ (\ cache_index\: :ref:`int<class_int>`, transform\: :ref:`Transform2D<class_Transform2D>`\ ) :ref:`🔗<class_FontFile_method_set_transform>`
 
-Sets 2D transform, applied to the font outlines, can be used for slanting, flipping, and rotating glyphs.
+Establece la transformación 2D, aplicada a los contornos de la fuente, que puede utilizarse para inclinar, voltear y rotar los glifos.
 
 .. rst-class:: classref-item-separator
 
@@ -1464,7 +1464,7 @@ Sets 2D transform, applied to the font outlines, can be used for slanting, flipp
 
 |void| **set_variation_coordinates**\ (\ cache_index\: :ref:`int<class_int>`, variation_coordinates\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_FontFile_method_set_variation_coordinates>`
 
-Sets variation coordinates for the specified font cache entry. See :ref:`Font.get_supported_variation_list()<class_Font_method_get_supported_variation_list>` for more info.
+Establece las coordenadas de variación para la entrada de caché de fuente especificada. Véase :ref:`Font.get_supported_variation_list()<class_Font_method_get_supported_variation_list>` para más información.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -16,7 +16,7 @@ Descripción
 
 Los UID (Identificadores Únicos) de los recursos permiten que el motor mantenga las referencias entre los recursos intactos, incluso si los archivos se renombran o se mueven. Se puede acceder a ellos con ``uid://``.
 
-\ **ResourceUID** realiza un seguimiento de todos los UID de recursos registrados en un proyecto, genera nuevos UID y convierte entre sus representaciones de cadena y enteras.
+\ **ResourceUID** realiza un seguimiento de todos los UID de recursos registrados en un proyecto, genera nuevos UID y convierte entre sus representaciones de string y enteras.
 
 .. rst-class:: classref-reftable-group
 
@@ -164,7 +164,7 @@ Devuelve si el valor de UID dado es conocido por la caché.
 
 :ref:`String<class_String>` **id_to_text**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_ResourceUID_method_id_to_text>`
 
-Convierte el UID dado en un valor de cadena ``uid://``.
+Convierte el UID dado en un valor de string ``uid://``.
 
 .. rst-class:: classref-item-separator
 
@@ -216,7 +216,7 @@ Falla con un error si el UID no existe, así que asegúrate de comprobar :ref:`h
 
 :ref:`int<class_int>` **text_to_id**\ (\ text_id\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_ResourceUID_method_text_to_id>`
 
-Extrae el valor UID de la ``uid://`` cadena dada.
+Extrae el valor UID de la ``uid://`` string dada.
 
 .. rst-class:: classref-item-separator
 

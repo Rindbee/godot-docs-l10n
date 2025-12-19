@@ -16,9 +16,9 @@ Descripción
 
 El modificador de enlace DPad convierte una entrada de eje en una salida de dpad, emulando un DPad. Se añadirán nuevas rutas de entrada para cada dirección del dpad al perfil de interacción. Cuando se vincula a acciones, la emulación del DPad se activará. **No** debe combinar entradas de dpad con entradas normales en el mismo conjunto de acciones para el mismo control, esto resultará en un error que se devolverá cuando se envíen los enlaces sugeridos a OpenXR.
 
-Consulta `XR_EXT_dpad_binding <https://registry.khronos.org/OpenXR/specs/1.1/html/xrspec.html#XR_EXT_dpad_binding>`__ para obtener detalles en profundidad.
+Véase `XR_EXT_dpad_binding <https://registry.khronos.org/OpenXR/specs/1.1/html/xrspec.html#XR_EXT_dpad_binding>`__ para obtener detalles en profundidad.
 
-\ **Nota:** Si la extensión del modificador de enlace DPad está habilitada, todas las rutas de enlace de dpad estarán disponibles en el mapa de acciones. Añadir el modificador a un perfil de interacción le permite personalizar aún más el comportamiento.
+\ **Nota:** Si la extensión del modificador de enlace DPad está habilitada, todas las rutas de enlace de dpad estarán disponibles en el mapa de acciones. Añadir el modificador a un perfil de interacción te permite personalizar aún más el comportamiento.
 
 .. rst-class:: classref-reftable-group
 

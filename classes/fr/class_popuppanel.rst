@@ -7,14 +7,14 @@ PopupPanel
 
 **Hérite de :** :ref:`Popup<class_Popup>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A popup with a panel background.
+Une popup avec un panneau en arrière-plan.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A popup with a configurable panel background. Any child controls added to this node will be stretched to fit the panel's size (similar to how :ref:`PanelContainer<class_PanelContainer>` works). If you are making windows, see :ref:`Window<class_Window>`.
+Une popup avec un panneau en arrière-plan. Tout contrôle enfant ajouté à ce nœud sera étiré pour correspondre à la taille du panneau (similaire à comment :ref:`PanelContainer<class_PanelContainer>` fonctionne). Si vous faites des fenêtres, regardez :ref:`Window<class_Window>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -57,7 +57,7 @@ Descriptions des propriétés du thème
 
 :ref:`StyleBox<class_StyleBox>` **panel** :ref:`🔗<class_PopupPanel_theme_style_panel>`
 
-:ref:`StyleBox<class_StyleBox>` for the background panel.
+:ref:`StyleBox<class_StyleBox>` pour le panneau de l'arrière-plan.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

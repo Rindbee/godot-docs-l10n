@@ -14,16 +14,16 @@ Fusionne plusieurs nœuds 2D en une seule opération de dessin.
 Description
 -----------
 
-Child :ref:`CanvasItem<class_CanvasItem>` nodes of a **CanvasGroup** are drawn as a single object. It allows to e.g. draw overlapping translucent 2D nodes without blending (set :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` property of **CanvasGroup** to achieve this effect).
+Les nœuds enfants :ref:`CanvasItem<class_CanvasItem>` d'un **CanvasGroup** sont dessinés comme un seul object. Cela permet par exemple de dessiner des nœuds 2D enchevêtrés sans mélange (activer la propriété :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` de **CanvasGroup** pour aboutir à cet effet).
 
-\ **Note:** The **CanvasGroup** uses a custom shader to read from the backbuffer to draw its children. Assigning a :ref:`Material<class_Material>` to the **CanvasGroup** overrides the builtin shader. To duplicate the behavior of the builtin shader in a custom :ref:`Shader<class_Shader>` use the following:
+\ **Remarque :** Le **CanvasGroup** utilise un shader pour lire depuis le tampon arrière pour dessiner ses enfants. Affecter un :ref:`Material<class_Material>` au **CanvasGroup** remplacera le shader de base. Pour dupliquer le comportement du shader de base dans un :ref:`Shader<class_Shader>` personnalisé, le code suivant peut être utilisé :
 
 ::
 
     shader_type canvas_item;
     render_mode unshaded;
 
-    uniform sampler2D screen_texture : hint_screen_texture, repeat_disable, filter_nearest;
+    uniform sampler2D screen_texture : hint_screen_texture, repeat_disable, filter_nearest;
 
     void fragment() {
         vec4 c = textureLod(screen_texture, SCREEN_UV, 0.0);
@@ -35,7 +35,7 @@ Child :ref:`CanvasItem<class_CanvasItem>` nodes of a **CanvasGroup** are drawn a
         COLOR *= c;
     }
 
-\ **Note:** Since **CanvasGroup** and :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` both utilize the backbuffer, children of a **CanvasGroup** who have their :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` set to anything other than :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` will not function correctly.
+\ **Remarque :** Vu que **CanvasGroup** et :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` utilisent tous deux le tampon arrière, les enfants d'un **CanvasGroup** qui ont leur propriété :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` définie à toute valeur exceptée :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` ne fonctionneront pas correctement.
 
 .. rst-class:: classref-reftable-group
 
@@ -73,7 +73,7 @@ Descriptions des propriétés
 - |void| **set_clear_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_clear_margin**\ (\ )
 
-Sets the size of the margin used to expand the clearing rect of this **CanvasGroup**. This expands the area of the backbuffer that will be used by the **CanvasGroup**. A smaller margin will reduce the area of the backbuffer used which can increase performance, however if :ref:`use_mipmaps<class_CanvasGroup_property_use_mipmaps>` is enabled, a small margin may result in mipmap errors at the edge of the **CanvasGroup**. Accordingly, this should be left as small as possible, but should be increased if artifacts appear along the edges of the canvas group.
+Définit la taille de la marge utilisée pour élargir le rectangle d’effacement de ce **CanvasGroup**. Cela étend l'aire du tampon arrière qui sera utilisée par le **CanvasGroup**. Une marge plus basse réduira l'aire du tampon arrière utilisée qui peut améliorer la performance, cependant si :ref:`use_mipmaps<class_CanvasGroup_property_use_mipmaps>` est activé, une marge basse causera des erreurs de mipmap aux extrémités du **CanvasGroup**. De ce fait, la valeur doit rester aussi basse que possible, mais peut être rehaussée si des artefacts sont visibles aux extrémités du groupe.
 
 .. rst-class:: classref-item-separator
 

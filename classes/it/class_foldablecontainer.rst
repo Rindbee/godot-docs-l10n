@@ -257,7 +257,7 @@ Il testo del titolo del contenitore.
 - |void| **set_title_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_title_alignment**\ (\ )
 
-Title's horizontal text alignment.
+L'allineamento orizzontale del testo del titolo.
 
 .. rst-class:: classref-item-separator
 
@@ -274,7 +274,7 @@ Title's horizontal text alignment.
 - |void| **set_title_position**\ (\ value\: :ref:`TitlePosition<enum_FoldableContainer_TitlePosition>`\ )
 - :ref:`TitlePosition<enum_FoldableContainer_TitlePosition>` **get_title_position**\ (\ )
 
-Title's position.
+La posizione del titolo.
 
 .. rst-class:: classref-item-separator
 

@@ -618,7 +618,7 @@ The material will use the texture's alpha values for transparency. This is the s
 
 :ref:`Transparency<enum_BaseMaterial3D_Transparency>` **TRANSPARENCY_ALPHA_SCISSOR** = ``2``
 
-The material will cut off all values below a threshold, the rest will remain opaque. The opaque portions will be rendered in the depth prepass. This is faster to render than alpha blending, but slower than opaque rendering. This also supports casting shadows.
+El material cortará todos los valores por debajo de un umbral, el resto permanecerá opaco. Las porciones opacas se renderizarán en el pre-paso de profundidad. Esto es más rápido de renderizar que la mezcla alfa, pero más lento que el renderizado opaco. Esto también admite la proyección de sombras.
 
 .. _class_BaseMaterial3D_constant_TRANSPARENCY_ALPHA_HASH:
 
@@ -634,7 +634,7 @@ The material will cut off all values below a spatially-deterministic threshold, 
 
 :ref:`Transparency<enum_BaseMaterial3D_Transparency>` **TRANSPARENCY_ALPHA_DEPTH_PRE_PASS** = ``4``
 
-The material will use the texture's alpha value for transparency, but will discard fragments with an alpha of less than 0.99 during the depth prepass and fragments with an alpha less than 0.1 during the shadow pass. This also supports casting shadows.
+El material utilizará el valor alfa de la textura para la transparencia, pero descartará los fragmentos con un alfa inferior a 0,99 durante el pre-paso de profundidad y los fragmentos con un alfa inferior a 0,1 durante el paso de sombra. Esto también admite la proyección de sombras.
 
 .. _class_BaseMaterial3D_constant_TRANSPARENCY_MAX:
 
@@ -660,7 +660,7 @@ enum **ShadingMode**: :ref:`🔗<enum_BaseMaterial3D_ShadingMode>`
 
 :ref:`ShadingMode<enum_BaseMaterial3D_ShadingMode>` **SHADING_MODE_UNSHADED** = ``0``
 
-The object will not receive shadows. This is the fastest to render, but it disables all interactions with lights.
+El objeto no recibirá sombras. Es la forma más rápida de renderizar, pero desactiva todas las interacciones con las luces.
 
 .. _class_BaseMaterial3D_constant_SHADING_MODE_PER_PIXEL:
 
@@ -668,7 +668,7 @@ The object will not receive shadows. This is the fastest to render, but it disab
 
 :ref:`ShadingMode<enum_BaseMaterial3D_ShadingMode>` **SHADING_MODE_PER_PIXEL** = ``1``
 
-The object will be shaded per pixel. Useful for realistic shading effects.
+El objeto se sombreará por píxel. Útil para efectos de sombreado realistas.
 
 .. _class_BaseMaterial3D_constant_SHADING_MODE_PER_VERTEX:
 
@@ -676,7 +676,7 @@ The object will be shaded per pixel. Useful for realistic shading effects.
 
 :ref:`ShadingMode<enum_BaseMaterial3D_ShadingMode>` **SHADING_MODE_PER_VERTEX** = ``2``
 
-The object will be shaded per vertex. Useful when you want cheaper shaders and do not care about visual quality.
+El objeto se sombreará por vértice. Útil cuando se quieren shaders más económicos y no importa la calidad visual.
 
 .. _class_BaseMaterial3D_constant_SHADING_MODE_MAX:
 
@@ -2260,7 +2260,7 @@ Texture that specifies the per-pixel normal of the detail overlay. The :ref:`det
 - |void| **set_detail_uv**\ (\ value\: :ref:`DetailUV<enum_BaseMaterial3D_DetailUV>`\ )
 - :ref:`DetailUV<enum_BaseMaterial3D_DetailUV>` **get_detail_uv**\ (\ )
 
-Specifies whether to use ``UV`` or ``UV2`` for the detail layer.
+Especifica si se utiliza ``UV`` o ``UV2`` para la capa de detalle.
 
 .. rst-class:: classref-item-separator
 
@@ -2644,7 +2644,7 @@ If ``true``, height mapping is enabled (also called "parallax mapping" or "depth
 - |void| **set_heightmap_deep_parallax_flip_binormal**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_heightmap_deep_parallax_flip_binormal**\ (\ )
 
-If ``true``, flips the mesh's binormal vectors when interpreting the height map. If the heightmap effect looks strange when the camera moves (even with a reasonable :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>`), try setting this to ``true``.
+Si es ``true``, invierte los vectores binormales de la malla al interpretar el mapa de altura. Si el efecto del mapa de altura se ve raro cuando la cámara se mueve (incluso con una :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` razonable), intenta establecer esto a ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2661,7 +2661,7 @@ If ``true``, flips the mesh's binormal vectors when interpreting the height map.
 - |void| **set_heightmap_deep_parallax_flip_tangent**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_heightmap_deep_parallax_flip_tangent**\ (\ )
 
-If ``true``, flips the mesh's tangent vectors when interpreting the height map. If the heightmap effect looks strange when the camera moves (even with a reasonable :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>`), try setting this to ``true``.
+Si es ``true``, invierte los vectores tangentes de la malla al interpretar el mapa de altura. Si el efecto del mapa de altura se ve raro cuando la cámara se mueve (incluso con una :ref:`heightmap_scale<class_BaseMaterial3D_property_heightmap_scale>` razonable), intenta establecer esto a ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2678,9 +2678,9 @@ If ``true``, flips the mesh's tangent vectors when interpreting the height map. 
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-If ``true``, interprets the height map texture as a depth map, with brighter values appearing to be "lower" in altitude compared to darker values.
+Si es ``true``, interpreta la textura del mapa de altura como un mapa de profundidad, donde los valores más brillantes parecen estar "más bajos" en altitud en comparación con los valores más oscuros.
 
-This can be enabled for compatibility with some materials authored for Godot 3.x. This is not necessary if the Invert import option was used to invert the depth map in Godot 3.x, in which case :ref:`heightmap_flip_texture<class_BaseMaterial3D_property_heightmap_flip_texture>` should remain ``false``.
+Esto se puede habilitar para la compatibilidad con algunos materiales creados para Godot 3.x. Esto no es necesario si la opción de importación Invertir se usó para invertir el mapa de profundidad en Godot 3.x, en cuyo caso :ref:`heightmap_flip_texture<class_BaseMaterial3D_property_heightmap_flip_texture>` debería permanecer en ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -2697,9 +2697,9 @@ This can be enabled for compatibility with some materials authored for Godot 3.x
 - |void| **set_heightmap_deep_parallax_max_layers**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_heightmap_deep_parallax_max_layers**\ (\ )
 
-The number of layers to use for parallax occlusion mapping when the camera is up close to the material. Higher values result in a more convincing depth effect, especially in materials that have steep height changes. Higher values have a significant cost on the GPU, so it should only be increased on materials where it makes a significant visual difference.
+El número de capas que se utilizarán para el mapeo de oclusión de paralaje cuando la cámara esté cerca del material. Los valores más altos resultan en un efecto de profundidad más convincente, especialmente en los materiales que tienen cambios de altura pronunciados. Los valores más altos tienen un coste significativo en la GPU, por lo que solo debe aumentarse en los materiales donde produce una diferencia visual significativa.
 
-\ **Note:** Only effective if :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` is ``true``.
+\ **Nota:** Solo es efectivo si :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2716,9 +2716,9 @@ The number of layers to use for parallax occlusion mapping when the camera is up
 - |void| **set_heightmap_deep_parallax_min_layers**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_heightmap_deep_parallax_min_layers**\ (\ )
 
-The number of layers to use for parallax occlusion mapping when the camera is far away from the material. Higher values result in a more convincing depth effect, especially in materials that have steep height changes. Higher values have a significant cost on the GPU, so it should only be increased on materials where it makes a significant visual difference.
+El número de capas que se utilizarán para el mapeo de oclusión de paralaje cuando la cámara esté lejos del material. Los valores más altos resultan en un efecto de profundidad más convincente, especialmente en los materiales que tienen cambios de altura pronunciados. Los valores más altos tienen un coste significativo en la GPU, por lo que solo debe aumentarse en los materiales donde produce una diferencia visual significativa.
 
-\ **Note:** Only effective if :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` is ``true``.
+\ **Nota:** Solo es efectivo si :ref:`heightmap_deep_parallax<class_BaseMaterial3D_property_heightmap_deep_parallax>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -3431,6 +3431,8 @@ The stencil reference value (0-255). Typically a power of 2.
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
 If ``true``, subsurface scattering is enabled. Emulates light that penetrates an object's surface, is scattered, and then emerges. Subsurface scattering quality is controlled by :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>`.
+
+\ **Note:** Subsurface scattering is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 

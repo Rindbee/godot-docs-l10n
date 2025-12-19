@@ -113,7 +113,7 @@ El número de elementos que hay actualmente en la lista.
 - |void| **set_switch_on_hover**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_switch_on_hover**\ (\ )
 
-If ``true``, when the cursor hovers above another **MenuButton** within the same parent which also has :ref:`switch_on_hover<class_MenuButton_property_switch_on_hover>` enabled, it will close the current **MenuButton** and open the other one.
+Si es ``true``, cuando el cursor se sitúa sobre otro **MenuButton** dentro del mismo padre que también tenga :ref:`switch_on_hover<class_MenuButton_property_switch_on_hover>` activado, cerrará el **MenuButton** actual y abrirá el otro.
 
 .. rst-class:: classref-section-separator
 
@@ -130,9 +130,9 @@ Descripciones de Métodos
 
 :ref:`PopupMenu<class_PopupMenu>` **get_popup**\ (\ ) |const| :ref:`🔗<class_MenuButton_method_get_popup>`
 
-Returns the :ref:`PopupMenu<class_PopupMenu>` contained in this button.
+Devuelve el :ref:`PopupMenu<class_PopupMenu>` contenido en este botón.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`Window.visible<class_Window_property_visible>` property.
+\ **Advertencia:** Este es un nodo interno requerido, eliminarlo y liberarlo puede causar un fallo. Si deseas ocultarlo o alguno de sus hijos, usa su propiedad :ref:`Window.visible<class_Window_property_visible>`.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ Si es ``true``, los atajos están desactivados y no se pueden utilizar para acti
 
 |void| **show_popup**\ (\ ) :ref:`🔗<class_MenuButton_method_show_popup>`
 
-Adjusts popup position and sizing for the **MenuButton**, then shows the :ref:`PopupMenu<class_PopupMenu>`. Prefer this over using ``get_popup().popup()``.
+Ajusta la posición y el tamaño del popup para el **MenuButton**, luego muestra el :ref:`PopupMenu<class_PopupMenu>`. Es preferible usar esto en lugar de ``get_popup().popup()``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

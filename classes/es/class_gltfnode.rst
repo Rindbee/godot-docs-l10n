@@ -7,16 +7,16 @@ GLTFNode
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-glTF node class.
+Clase de nodo glTF.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Represents a glTF node. glTF nodes may have names, transforms, children (other glTF nodes), and more specialized properties (represented by their own classes).
+Representa un nodo glTF. Los nodos glTF pueden tener nombres, transformaciones, hijos (otros nodos glTF) y propiedades más especializadas (representadas por sus propias clases).
 
-glTF nodes generally exist inside of :ref:`GLTFState<class_GLTFState>` which represents all data of a glTF file. Most of GLTFNode's properties are indices of other data in the glTF file. You can extend a glTF node with additional properties by using :ref:`get_additional_data()<class_GLTFNode_method_get_additional_data>` and :ref:`set_additional_data()<class_GLTFNode_method_set_additional_data>`.
+Los nodos glTF generalmente existen dentro de :ref:`GLTFState<class_GLTFState>`, que representa todos los datos de un archivo glTF. La mayoría de las propiedades de GLTFNode son índices de otros datos en el archivo glTF. Puedes extender un nodo glTF con propiedades adicionales utilizando :ref:`get_additional_data()<class_GLTFNode_method_get_additional_data>` y :ref:`set_additional_data()<class_GLTFNode_method_set_additional_data>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -25,7 +25,7 @@ Tutoriales
 
 - :doc:`Carga y guardado de archivos en tiempo de ejecución <../tutorials/io/runtime_file_loading_and_saving>`
 
-- `glTF scene and node spec <https://github.com/KhronosGroup/glTF-Tutorials/blob/master/gltfTutorial/gltfTutorial_004_ScenesNodes.md">`__
+- `Especificación de escena y nodo glTF <https://github.com/KhronosGroup/glTF-Tutorials/blob/master/gltfTutorial/gltfTutorial_004_ScenesNodes.md">`__
 
 .. rst-class:: classref-reftable-group
 
@@ -103,7 +103,7 @@ Descripciones de Propiedades
 - |void| **set_camera**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_camera**\ (\ )
 
-If this glTF node is a camera, the index of the :ref:`GLTFCamera<class_GLTFCamera>` in the :ref:`GLTFState<class_GLTFState>` that describes the camera's properties. If ``-1``, this node is not a camera.
+Si este nodo glTF es una cámara, el índice de la :ref:`GLTFCamera<class_GLTFCamera>` en el :ref:`GLTFState<class_GLTFState>` que describe las propiedades de la cámara. Si ``-1``, este nodo no es una cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -120,7 +120,7 @@ If this glTF node is a camera, the index of the :ref:`GLTFCamera<class_GLTFCamer
 - |void| **set_children**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_children**\ (\ )
 
-The indices of the child nodes in the :ref:`GLTFState<class_GLTFState>`. If this glTF node has no children, this will be an empty array.
+Los índices de los nodos hijo en el :ref:`GLTFState<class_GLTFState>`. Si este nodo glTF no tiene hijos, esto será un array vacío.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 
@@ -139,7 +139,7 @@ The indices of the child nodes in the :ref:`GLTFState<class_GLTFState>`. If this
 - |void| **set_height**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_height**\ (\ )
 
-How deep into the node hierarchy this node is. A root node will have a height of 0, its children will have a height of 1, and so on. If -1, the height has not been calculated.
+La profundidad en la jerarquía de nodos en la que se encuentra este nodo. Un nodo raíz tendrá una altura de 0, sus hijos tendrán una altura de 1, y así sucesivamente. Si es -1, la altura no se ha calculado.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ How deep into the node hierarchy this node is. A root node will have a height of
 - |void| **set_light**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_light**\ (\ )
 
-If this glTF node is a light, the index of the :ref:`GLTFLight<class_GLTFLight>` in the :ref:`GLTFState<class_GLTFState>` that describes the light's properties. If -1, this node is not a light.
+Si este nodo glTF es una luz, el índice de la :ref:`GLTFLight<class_GLTFLight>` en el :ref:`GLTFState<class_GLTFState>` que describe las propiedades de la luz. Si es -1, este nodo no es una luz.
 
 .. rst-class:: classref-item-separator
 
@@ -173,7 +173,7 @@ If this glTF node is a light, the index of the :ref:`GLTFLight<class_GLTFLight>`
 - |void| **set_mesh**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_mesh**\ (\ )
 
-If this glTF node is a mesh, the index of the :ref:`GLTFMesh<class_GLTFMesh>` in the :ref:`GLTFState<class_GLTFState>` that describes the mesh's properties. If -1, this node is not a mesh.
+Si este nodo glTF es una malla, el índice de la :ref:`GLTFMesh<class_GLTFMesh>` en el :ref:`GLTFState<class_GLTFState>` que describe las propiedades de la malla. Si es -1, este nodo no es una malla.
 
 .. rst-class:: classref-item-separator
 
@@ -207,7 +207,7 @@ El nombre original del nodo.
 - |void| **set_parent**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_parent**\ (\ )
 
-The index of the parent node in the :ref:`GLTFState<class_GLTFState>`. If -1, this node is a root node.
+El índice del nodo padre en el :ref:`GLTFState<class_GLTFState>`. Si es -1, este nodo es un nodo raíz.
 
 .. rst-class:: classref-item-separator
 
@@ -275,7 +275,7 @@ La escala del nodo glTF en relación con su padre.
 - |void| **set_skeleton**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_skeleton**\ (\ )
 
-If this glTF node has a skeleton, the index of the :ref:`GLTFSkeleton<class_GLTFSkeleton>` in the :ref:`GLTFState<class_GLTFState>` that describes the skeleton's properties. If -1, this node does not have a skeleton.
+Si este nodo glTF tiene un esqueleto, el índice del :ref:`GLTFSkeleton<class_GLTFSkeleton>` en el :ref:`GLTFState<class_GLTFState>` que describe las propiedades del esqueleto. Si es -1, este nodo no tiene un esqueleto.
 
 .. rst-class:: classref-item-separator
 
@@ -292,7 +292,7 @@ If this glTF node has a skeleton, the index of the :ref:`GLTFSkeleton<class_GLTF
 - |void| **set_skin**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_skin**\ (\ )
 
-If this glTF node has a skin, the index of the :ref:`GLTFSkin<class_GLTFSkin>` in the :ref:`GLTFState<class_GLTFState>` that describes the skin's properties. If -1, this node does not have a skin.
+Si este nodo glTF tiene una piel, el índice de la :ref:`GLTFSkin<class_GLTFSkin>` en el :ref:`GLTFState<class_GLTFState>` que describe las propiedades de la piel. Si es -1, este nodo no tiene una piel.
 
 .. rst-class:: classref-item-separator
 
@@ -309,7 +309,7 @@ If this glTF node has a skin, the index of the :ref:`GLTFSkin<class_GLTFSkin>` i
 - |void| **set_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_visible**\ (\ )
 
-If ``true``, the GLTF node is visible. If ``false``, the GLTF node is not visible. This is translated to the :ref:`Node3D.visible<class_Node3D_property_visible>` property in the Godot scene, and is exported to ``KHR_node_visibility`` when ``false``.
+Si es ``true``, el nodo GLTF es visible. Si es ``false``, el nodo GLTF no es visible. Esto se traduce a la propiedad :ref:`Node3D.visible<class_Node3D_property_visible>` en la escena de Godot, y se exporta a ``KHR_node_visibility`` cuando ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -326,7 +326,7 @@ If ``true``, the GLTF node is visible. If ``false``, the GLTF node is not visibl
 - |void| **set_xform**\ (\ value\: :ref:`Transform3D<class_Transform3D>`\ )
 - :ref:`Transform3D<class_Transform3D>` **get_xform**\ (\ )
 
-The transform of the glTF node relative to its parent. This property is usually unused since the position, rotation, and scale properties are preferred.
+La transformación del nodo glTF relativa a su padre. Esta propiedad generalmente no se utiliza ya que se prefieren las propiedades de posición, rotación y escala.
 
 .. rst-class:: classref-section-separator
 
@@ -355,9 +355,9 @@ Appends the given child node index to the :ref:`children<class_GLTFNode_property
 
 :ref:`Variant<class_Variant>` **get_additional_data**\ (\ extension_name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_GLTFNode_method_get_additional_data>`
 
-Gets additional arbitrary data in this **GLTFNode** instance. This can be used to keep per-node state data in :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` classes, which is important because they are stateless.
+Obtiene datos arbitrarios adicionales en esta instancia de **GLTFNode**. Esto se puede utilizar para mantener los datos de estado por nodo en las clases :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, lo cual es importante porque no tienen estado.
 
-The argument should be the :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` name (does not have to match the extension name in the glTF file), and the return value can be anything you set. If nothing was set, the return value is ``null``.
+El argumento debe ser el nombre de :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` (no tiene que coincidir con el nombre de la extensión en el archivo glTF), y el valor de retorno puede ser cualquier cosa que establezcas. Si no se estableció nada, el valor de retorno es ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -369,9 +369,9 @@ The argument should be the :ref:`GLTFDocumentExtension<class_GLTFDocumentExtensi
 
 :ref:`NodePath<class_NodePath>` **get_scene_node_path**\ (\ gltf_state\: :ref:`GLTFState<class_GLTFState>`, handle_skeletons\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_GLTFNode_method_get_scene_node_path>`
 
-Returns the :ref:`NodePath<class_NodePath>` that this GLTF node will have in the Godot scene tree after being imported. This is useful when importing glTF object model pointers with :ref:`GLTFObjectModelProperty<class_GLTFObjectModelProperty>`, for handling extensions such as ``KHR_animation_pointer`` or ``KHR_interactivity``.
+Devuelve el :ref:`NodePath<class_NodePath>` que este nodo GLTF tendrá en el árbol de la escena de Godot después de ser importado. Esto es útil cuando se importan punteros de modelo de objeto glTF con :ref:`GLTFObjectModelProperty<class_GLTFObjectModelProperty>`, para manejar extensiones como ``KHR_animation_pointer`` o ``KHR_interactivity``.
 
-If ``handle_skeletons`` is ``true``, paths to skeleton bone glTF nodes will be resolved properly. For example, a path that would be ``^"A/B/C/Bone1/Bone2/Bone3"`` if ``false`` will become ``^"A/B/C/Skeleton3D:Bone3"``.
+Si ``handle_skeletons`` es ``true``, las rutas a los nodos glTF de hueso de esqueleto se resolverán correctamente. Por ejemplo, una ruta que sería ``^"A/B/C/Bone1/Bone2/Bone3"`` si es ``false`` se convertirá en ``^"A/B/C/Skeleton3D:Bone3"``.
 
 .. rst-class:: classref-item-separator
 
@@ -383,9 +383,9 @@ If ``handle_skeletons`` is ``true``, paths to skeleton bone glTF nodes will be r
 
 |void| **set_additional_data**\ (\ extension_name\: :ref:`StringName<class_StringName>`, additional_data\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_GLTFNode_method_set_additional_data>`
 
-Sets additional arbitrary data in this **GLTFNode** instance. This can be used to keep per-node state data in :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` classes, which is important because they are stateless.
+Establece datos arbitrarios adicionales en esta instancia de **GLTFNode**. Esto se puede utilizar para mantener los datos de estado por nodo en las clases :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, lo cual es importante porque no tienen estado.
 
-The first argument should be the :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` name (does not have to match the extension name in the glTF file), and the second argument can be anything you want.
+El primer argumento debe ser el nombre de :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` (no tiene que coincidir con el nombre de la extensión en el archivo glTF), y el segundo argumento puede ser cualquier cosa que quieras.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

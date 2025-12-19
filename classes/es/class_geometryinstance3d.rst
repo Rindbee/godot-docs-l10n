@@ -102,7 +102,7 @@ enum **ShadowCastingSetting**: :ref:`🔗<enum_GeometryInstance3D_ShadowCastingS
 
 :ref:`ShadowCastingSetting<enum_GeometryInstance3D_ShadowCastingSetting>` **SHADOW_CASTING_SETTING_OFF** = ``0``
 
-Will not cast any shadows. Use this to improve performance for small geometry that is unlikely to cast noticeable shadows (such as debris).
+No proyectará ninguna sombra. Utiliza esto para mejorar el rendimiento de geometrías pequeñas que es poco probable que proyecten sombras notables (como escombros).
 
 .. _class_GeometryInstance3D_constant_SHADOW_CASTING_SETTING_ON:
 
@@ -150,7 +150,7 @@ enum **GIMode**: :ref:`🔗<enum_GeometryInstance3D_GIMode>`
 
 :ref:`GIMode<enum_GeometryInstance3D_GIMode>` **GI_MODE_DISABLED** = ``0``
 
-Disabled global illumination mode. Use for dynamic objects that do not contribute to global illumination (such as characters). When using :ref:`VoxelGI<class_VoxelGI>` and SDFGI, the geometry will *receive* indirect lighting and reflections but the geometry will not be considered in GI baking.
+Modo de iluminación global deshabilitado. Usar para objetos dinámicos que no contribuyen a la iluminación global (como personajes). Cuando se usa :ref:`VoxelGI<class_VoxelGI>` y SDFGI, la geometría *recibirá* iluminación indirecta y reflejos, pero la geometría no se considerará en el procesado de la IG.
 
 .. _class_GeometryInstance3D_constant_GI_MODE_STATIC:
 
@@ -158,7 +158,7 @@ Disabled global illumination mode. Use for dynamic objects that do not contribut
 
 :ref:`GIMode<enum_GeometryInstance3D_GIMode>` **GI_MODE_STATIC** = ``1``
 
-Baked global illumination mode. Use for static objects that contribute to global illumination (such as level geometry). This GI mode is effective when using :ref:`VoxelGI<class_VoxelGI>`, SDFGI and :ref:`LightmapGI<class_LightmapGI>`.
+Modo de iluminación global procesada. Usar para objetos estáticos que contribuyen a la iluminación global (como la geometría del nivel). Este modo de IG es efectivo cuando se usa :ref:`VoxelGI<class_VoxelGI>`, SDFGI y :ref:`LightmapGI<class_LightmapGI>`.
 
 .. _class_GeometryInstance3D_constant_GI_MODE_DYNAMIC:
 
@@ -451,7 +451,7 @@ If a material is assigned to this property, it will be rendered on top of any ot
 - |void| **set_material_override**\ (\ value\: :ref:`Material<class_Material>`\ )
 - :ref:`Material<class_Material>` **get_material_override**\ (\ )
 
-La sobreescritura del material para toda la geometría.
+La sobrescritura del material para toda la geometría.
 
 Si se asigna un material a esta propiedad, se utilizará en lugar de cualquier material establecido en cualquier ranura de material de la malla.
 

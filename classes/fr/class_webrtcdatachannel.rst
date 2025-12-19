@@ -7,7 +7,7 @@ WebRTCDataChannel
 
 **Hérite de :** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`WebRTCDataChannelExtension<class_WebRTCDataChannelExtension>`
+**Hérité par :** :ref:`WebRTCDataChannelExtension<class_WebRTCDataChannelExtension>`
 
 .. container:: contribute
 
@@ -193,9 +193,9 @@ Renvoie le nombre d'octets actuellement en queue pour être envoyés sur ce cana
 
 :ref:`int<class_int>` **get_id**\ (\ ) |const| :ref:`🔗<class_WebRTCDataChannel_method_get_id>`
 
-Returns the ID assigned to this channel during creation (or auto-assigned during negotiation).
+Renvoie l'identifiant assigné à ce canal pendant la création (ou auto-assigné pendant la négociation).
 
-If the channel is not negotiated out-of-band the ID will only be available after the connection is established (will return ``65535`` until then).
+Si le canal n'est pas négocié hors bande, l'ID ne sera disponible qu'après la mise en place de la connexion (renverra ``65535`` jusqu'alors).
 
 .. rst-class:: classref-item-separator
 
@@ -219,9 +219,9 @@ Renvoie l'étiquette attribuée à cette chaîne lors de sa création.
 
 :ref:`int<class_int>` **get_max_packet_life_time**\ (\ ) |const| :ref:`🔗<class_WebRTCDataChannel_method_get_max_packet_life_time>`
 
-Returns the ``maxPacketLifeTime`` value assigned to this channel during creation.
+Renvoie la valeur ``maxPacketLifeTime`` attribuée à ce canal durant la création.
 
-Will be ``65535`` if not specified.
+Vaudra ``65535`` si non spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -233,9 +233,9 @@ Will be ``65535`` if not specified.
 
 :ref:`int<class_int>` **get_max_retransmits**\ (\ ) |const| :ref:`🔗<class_WebRTCDataChannel_method_get_max_retransmits>`
 
-Returns the ``maxRetransmits`` value assigned to this channel during creation.
+Renvoie la valeur ``maxRetransmits`` attribuée à ce canal durant la création.
 
-Will be ``65535`` if not specified.
+Vaudra ``65535`` si non spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Renvoie le sous-protocole assigné à ce canal lors de la création. Une chaîne
 
 :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>` **get_ready_state**\ (\ ) |const| :ref:`🔗<class_WebRTCDataChannel_method_get_ready_state>`
 
-Returns the current state of this channel.
+Renvoie l'état actuel de ce canal.
 
 .. rst-class:: classref-item-separator
 
@@ -271,7 +271,7 @@ Returns the current state of this channel.
 
 :ref:`bool<class_bool>` **is_negotiated**\ (\ ) |const| :ref:`🔗<class_WebRTCDataChannel_method_is_negotiated>`
 
-Returns ``true`` if this channel was created with out-of-band configuration.
+Renvoie ``true`` si ce canal a été créé avec une configuration hors bande.
 
 .. rst-class:: classref-item-separator
 
@@ -283,7 +283,7 @@ Returns ``true`` if this channel was created with out-of-band configuration.
 
 :ref:`bool<class_bool>` **is_ordered**\ (\ ) |const| :ref:`🔗<class_WebRTCDataChannel_method_is_ordered>`
 
-Returns ``true`` if this channel was created with ordering enabled (default).
+Renvoie ``true`` si ce canal a été créé avec le tri activé (par défaut).
 
 .. rst-class:: classref-item-separator
 

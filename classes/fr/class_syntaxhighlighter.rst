@@ -7,7 +7,7 @@ SyntaxHighlighter
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`CodeHighlighter<class_CodeHighlighter>`, :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>`
+**Hérité par :** :ref:`CodeHighlighter<class_CodeHighlighter>`, :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>`
 
 Base class for syntax highlighters. Provides syntax highlighting data to a :ref:`TextEdit<class_TextEdit>`.
 

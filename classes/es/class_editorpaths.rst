@@ -25,7 +25,7 @@ This editor-only singleton returns OS-specific paths to various data folders and
 Tutoriales
 --------------------
 
-- :doc:`File paths in Godot projects <../tutorials/io/data_paths>`
+- :doc:`Ruta de archivos de los proyectos de Godot <../tutorials/io/data_paths>`
 
 .. rst-class:: classref-reftable-group
 

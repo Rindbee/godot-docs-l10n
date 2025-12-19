@@ -64,7 +64,7 @@ Descriptions des propriétés
 - :ref:`Error<enum_@GlobalScope_Error>` **load**\ (\ path\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_load_path**\ (\ )
 
-The **CompressedTexture3D**'s file path to a ``.ctex3d`` file.
+Le chemin du fichier de la **CompressedTexture3D** vers un fichier ``.ctex3d``.
 
 .. rst-class:: classref-section-separator
 
@@ -81,7 +81,7 @@ Descriptions des méthodes
 
 :ref:`Error<enum_@GlobalScope_Error>` **load**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_CompressedTexture3D_method_load>`
 
-Loads the texture from the specified ``path``.
+Charge la texture au chemin ``path`` spécifié.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

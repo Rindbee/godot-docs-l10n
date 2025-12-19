@@ -248,7 +248,7 @@ Returns the :ref:`start_position<class_NavigationLink3D_property_start_position>
 
 :ref:`bool<class_bool>` **get_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationLink3D_method_get_navigation_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`navigation_layers<class_NavigationLink3D_property_navigation_layers>` bitmask is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de la máscara de bits :ref:`navigation_layers<class_NavigationLink3D_property_navigation_layers>` está habilitada, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ XRNode3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`XRAnchor3D<class_XRAnchor3D>`, :ref:`XRController3D<class_XRController3D>`
+**Hérité par :** :ref:`XRAnchor3D<class_XRAnchor3D>`, :ref:`XRController3D<class_XRController3D>`
 
 Un nœud 3D qui a sa position automatiquement mise à jour par le :ref:`XRServer<class_XRServer>`.
 

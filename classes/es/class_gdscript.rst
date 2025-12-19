@@ -54,13 +54,13 @@ Descripciones de Métodos
 
 :ref:`Variant<class_Variant>` **new**\ (\ ...\ ) |vararg| :ref:`🔗<class_GDScript_method_new>`
 
-Returns a new instance of the script.
+Devuelve una nueva instancia del script.
 
 ::
 
-    var MyClass = load("myclass.gd")
-    var instance = MyClass.new()
-    print(instance.get_script() == MyClass) # Prints true
+    var MiClase = load("miclase.gd")
+    var instancia = MiClase.new()
+    print(instancia.get_script() == MiClase) # Imprime true
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

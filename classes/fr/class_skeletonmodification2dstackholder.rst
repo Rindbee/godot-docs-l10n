@@ -61,7 +61,7 @@ Renvoie la :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`
 
 |void| **set_held_modification_stack**\ (\ held_modification_stack\: :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`\ ) :ref:`🔗<class_SkeletonModification2DStackHolder_method_set_held_modification_stack>`
 
-Sets the :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` that this modification is holding. This modification stack will then be executed when this modification is executed.
+Définit le :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` que cette modification contient. Cette pile de modification sera ensuite exécutée lorsque cette modification est exécutée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

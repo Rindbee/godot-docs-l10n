@@ -54,7 +54,7 @@ Descriptions des propriétés
 
 La source de données à utiliser pour générer la bitmap.
 
-\ **Noir & Blanc :** Les pixels dont la valeur HSV est supérieure au seuil :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` seront considérés comme "activés" (le bit vaut ``true``). Si le pixel est inférieur ou égal au seuil, il sera considéré comme "désactivé" (le bit vaut ``false``).
+\ **Noir & Blanc :** Les pixels dont la valeur TSV est supérieure au seuil :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` seront considérés comme "activés" (le bit vaut ``true``). Si le pixel est inférieur ou égal au seuil, il sera considéré comme "désactivé" (le bit vaut ``false``).
 
 \ **Alpha :** Les pixels dont la valeur alpha est supérieure au seuil :ref:`threshold<class_ResourceImporterBitMap_property_threshold>` seront considérés comme "activés" (le bit vaut ``true``). Si le pixel est inférieur ou égal au seuil, il sera considéré comme "désactivé" (le bit vaut ``false``).
 

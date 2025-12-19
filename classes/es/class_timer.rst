@@ -165,7 +165,7 @@ If ``true``, the timer will start immediately when it enters the scene tree.
 - |void| **set_ignore_time_scale**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ignoring_time_scale**\ (\ )
 
-If ``true``, the timer will ignore :ref:`Engine.time_scale<class_Engine_property_time_scale>` and update with the real, elapsed time.
+Si es ``true``, el temporizador ignorará :ref:`Engine.time_scale<class_Engine_property_time_scale>` y se actualizará con el tiempo real transcurrido.
 
 .. rst-class:: classref-item-separator
 
@@ -182,7 +182,7 @@ If ``true``, the timer will ignore :ref:`Engine.time_scale<class_Engine_property
 - |void| **set_one_shot**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_one_shot**\ (\ )
 
-If ``true``, the timer will stop after reaching the end. Otherwise, as by default, the timer will automatically restart.
+Si es ``true``, el temporizador se detendrá después de alcanzar el final. De lo contrario, como por defecto, el temporizador se reiniciará automáticamente.
 
 .. rst-class:: classref-item-separator
 

@@ -1980,9 +1980,11 @@ La tolleranza di profondità per i riflessi sullo spazio dello schermo.
 - |void| **set_ssr_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ssr_enabled**\ (\ )
 
-Se ``true``, i riflessi sullo spazio dello schermo sono abilitati. I riflessi sullo spazio dello schermo sono più precisi dei riflessi di :ref:`VoxelGI<class_VoxelGI>` o :ref:`ReflectionProbe<class_ReflectionProbe>`, ma sono più lenti e non possono riflettere le superfici occluse da altre.
+If ``true``, screen-space reflections are enabled. Screen-space reflections are more accurate than reflections from :ref:`VoxelGI<class_VoxelGI>`\ s or :ref:`ReflectionProbe<class_ReflectionProbe>`\ s, but are slower and can't reflect surfaces occluded by others.
 
-\ **Nota:** SSR è supportato solo nel metodo di rendering Forward+, non Mobile o Compatibilità.
+\ **Note:** SSR is only supported in the Forward+ rendering method, not Mobile or Compatibility.
+
+\ **Note:** SSR is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 

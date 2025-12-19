@@ -9,7 +9,7 @@ NavigationObstacle2D
 
 **Hérite de :** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-2D obstacle used to affect navigation mesh baking or constrain velocities of avoidance controlled agents.
+Obstacle 2D utilisé pour affecter le pré-calcul d'un maillage de navigation ou limiter les vitesses des agents utilisant de l'évitement.
 
 .. rst-class:: classref-introduction-group
 
@@ -93,7 +93,7 @@ Descriptions des propriétés
 - |void| **set_affect_navigation_mesh**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_affect_navigation_mesh**\ (\ )
 
-If enabled and parsed in a navigation mesh baking process the obstacle will discard source geometry inside its :ref:`vertices<class_NavigationObstacle2D_property_vertices>` defined shape.
+Si activé et parsé dans un pré-calcul de maillage de navigation, l'obstacle supprimera la géométrie source à l'intérieur de sa forme définie par :ref:`vertices<class_NavigationObstacle2D_property_vertices>`.
 
 .. rst-class:: classref-item-separator
 
@@ -110,7 +110,7 @@ If enabled and parsed in a navigation mesh baking process the obstacle will disc
 - |void| **set_avoidance_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_avoidance_enabled**\ (\ )
 
-If ``true`` the obstacle affects avoidance using agents.
+Si ``true``, l'obstacle affecte les agents utilisant de l'évitement.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ If ``true`` the obstacle affects avoidance using agents.
 - |void| **set_avoidance_layers**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_avoidance_layers**\ (\ )
 
-A bitfield determining the avoidance layers for this obstacle. Agents with a matching bit on the their avoidance mask will avoid this obstacle.
+Un bitfield déterminant les couches d'évitement pour cet obstacle. Les agents avec un bit correspondant sur leur masque d'évitement éviteront cet obstacle.
 
 .. rst-class:: classref-item-separator
 
@@ -165,7 +165,7 @@ Requires :ref:`affect_navigation_mesh<class_NavigationObstacle2D_property_affect
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-Sets the avoidance radius for the obstacle.
+Définit le rayon d'évitement pour l'obstacle.
 
 .. rst-class:: classref-item-separator
 
@@ -218,7 +218,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **get_avoidance_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationObstacle2D_method_get_avoidance_layer_value>`
 
-Renvoie si la couche spécifiée du masque de bits :ref:`avoidance_layers<class_NavigationObstacle2D_property_avoidance_layers>` est activée, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Renvoie si la couche spécifiée du masque de bits :ref:`avoidance_layers<class_NavigationObstacle2D_property_avoidance_layers>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -230,7 +230,7 @@ Renvoie si la couche spécifiée du masque de bits :ref:`avoidance_layers<class_
 
 :ref:`RID<class_RID>` **get_navigation_map**\ (\ ) |const| :ref:`🔗<class_NavigationObstacle2D_method_get_navigation_map>`
 
-Returns the :ref:`RID<class_RID>` of the navigation map for this NavigationObstacle node. This function returns always the map set on the NavigationObstacle node and not the map of the abstract obstacle on the NavigationServer. If the obstacle map is changed directly with the NavigationServer API the NavigationObstacle node will not be aware of the map change. Use :ref:`set_navigation_map()<class_NavigationObstacle2D_method_set_navigation_map>` to change the navigation map for the NavigationObstacle and also update the obstacle on the NavigationServer.
+Renvoie le :ref:`RID<class_RID>` de la carte de navigation pour ce nœud NavigationObstacle. Cette fonction renvoie toujours la carte définie sur le nœud NavigationObstacle et non la carte de l'obstacle abstrait sur le NavigationServer. Si la carte de l'obstacle est changée directement avec l'API de NavigationServer, le nœud NavigationObstacle ne sera pas au courant du changement de carte. Utilisez :ref:`set_navigation_map()<class_NavigationObstacle2D_method_set_navigation_map>` pour changer la carte de navigation pour le NavigationObstacle et mettre aussi à jour l'obstacle sur le NavigationServer.
 
 .. rst-class:: classref-item-separator
 
@@ -242,7 +242,7 @@ Returns the :ref:`RID<class_RID>` of the navigation map for this NavigationObsta
 
 :ref:`RID<class_RID>` **get_rid**\ (\ ) |const| :ref:`🔗<class_NavigationObstacle2D_method_get_rid>`
 
-Returns the :ref:`RID<class_RID>` of this obstacle on the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Renvoie le :ref:`RID<class_RID>` de cet obstacle sur le :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -254,7 +254,7 @@ Returns the :ref:`RID<class_RID>` of this obstacle on the :ref:`NavigationServer
 
 |void| **set_avoidance_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationObstacle2D_method_set_avoidance_layer_value>`
 
-Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`avoidance_layers<class_NavigationObstacle2D_property_avoidance_layers>`, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`avoidance_layers<class_NavigationObstacle2D_property_avoidance_layers>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -266,7 +266,7 @@ Selon ``value``, active ou désactive la couche spécifiée dans le masque de bi
 
 |void| **set_navigation_map**\ (\ navigation_map\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_NavigationObstacle2D_method_set_navigation_map>`
 
-Sets the :ref:`RID<class_RID>` of the navigation map this NavigationObstacle node should use and also updates the ``obstacle`` on the NavigationServer.
+Définit le :ref:`RID<class_RID>` de la carte de navigation que ce nœud NavigationObstacle devrait utiliser et met à jour l'``agent`` sur le NavigationServer.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

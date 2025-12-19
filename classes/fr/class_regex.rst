@@ -7,68 +7,68 @@ RegEx
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Class for searching text for patterns using regular expressions.
+Classe pour chercher du texte avec des motifs en utilisant des expressions régulières.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A regular expression (or regex) is a compact language that can be used to recognize strings that follow a specific pattern, such as URLs, email addresses, complete sentences, etc. For example, a regex of ``ab[0-9]`` would find any string that is ``ab`` followed by any number from ``0`` to ``9``. For a more in-depth look, you can easily find various tutorials and detailed explanations on the Internet.
+Une expression régulière (ou regex) est un langage compact qui peut être utilisé pour reconnaître des chaînes qui suivent un motif spécifique, comme des URLs, des adresses mail, des phrases complètes, etc... Par exemple, un regex ``ab[0-9]`` trouverait toute chaîne valant ``ab`` suivi de n'importe quel chiffre entre ``0`` et ``9``. Pour une explication plus détaillée, vous pouvez facilement trouver divers tutoriels et explications détaillées sur Internet.
 
-To begin, the RegEx object needs to be compiled with the search pattern using :ref:`compile()<class_RegEx_method_compile>` before it can be used.
-
-::
-
-    var regex = RegEx.new()
-    regex.compile("\\w-(\\d+)")
-
-The search pattern must be escaped first for GDScript before it is escaped for the expression. For example, ``compile("\\d+")`` would be read by RegEx as ``\d+``. Similarly, ``compile("\"(?:\\\\.|[^\"])*\"")`` would be read as ``"(?:\\.|[^"])*"``. In GDScript, you can also use raw string literals (r-strings). For example, ``compile(r'"(?:\\.|[^"])*"')`` would be read the same.
-
-Using :ref:`search()<class_RegEx_method_search>`, you can find the pattern within the given text. If a pattern is found, :ref:`RegExMatch<class_RegExMatch>` is returned and you can retrieve details of the results using methods such as :ref:`RegExMatch.get_string()<class_RegExMatch_method_get_string>` and :ref:`RegExMatch.get_start()<class_RegExMatch_method_get_start>`.
+Pour commencer, l'objet RegEx doit être compilé avec le motif de recherche en utilisant :ref:`compile()<class_RegEx_method_compile>` avant qu'il puisse être utilisé.
 
 ::
 
     var regex = RegEx.new()
     regex.compile("\\w-(\\d+)")
-    var result = regex.search("abc n-0123")
-    if result:
-        print(result.get_string()) # Prints "n-0123"
 
-The results of capturing groups ``()`` can be retrieved by passing the group number to the various methods in :ref:`RegExMatch<class_RegExMatch>`. Group 0 is the default and will always refer to the entire pattern. In the above example, calling ``result.get_string(1)`` would give you ``0123``.
+Le motif de recherche doit être échappé d'abord en GDScript avant qu'il soit échappé pour l'expression. Par exemple, ``compile("\\d+")`` serait lu par RegEx comme ``\d+``. De la même façon, ``compile(("\"(?:\\\\.|[^\"])*\"")`` serait lu comme ``"(?:\\.|[^"])*"``. En GDScript, vous pouvez aussi utiliser des littéraux de chaîne brutes (r-strings). Par exemple, ``compile(r'"(?:\\.|[^"])*"')`` serait lu de la même manière.
 
-This version of RegEx also supports named capturing groups, and the names can be used to retrieve the results. If two or more groups have the same name, the name would only refer to the first one with a match.
+En utilisant :ref:`search()<class_RegEx_method_search>`, vous pouvez trouver le motif dans le texte donné. Si un motif est trouvé, :ref:`RegExMatch<class_RegExMatch>` est renvoyé et vous pouvez récupérer les détails du résultat en utilisant des méthodes telles que :ref:`RegExMatch.get_string()<class_RegExMatch_method_get_string>` et :ref:`RegExMatch.get_start()<class_RegExMatch_method_get_start>`.
 
 ::
 
     var regex = RegEx.new()
-    regex.compile("d(?<digit>[0-9]+)|x(?<digit>[0-9a-f]+)")
-    var result = regex.search("the number is x2f")
-    if result:
-        print(result.get_string("digit")) # Prints "2f"
+    regex.compile("\\w-(\\d+)")
+    var resultat = regex.search("abc n-0123")
+    if resultat:
+        print(resultat.get_string()) # Affiche "n-0123"
 
-If you need to process multiple results, :ref:`search_all()<class_RegEx_method_search_all>` generates a list of all non-overlapping results. This can be combined with a ``for`` loop for convenience.
+Les résultats des groupes de capture ``()`` peuvent être récupérés en passant le numéro du groupe aux diverses méthodes dans :ref:`RegExMatch<class_RegExMatch>`. Le groupe 0 est le défaut et se référera toujours au motif entier. Dans l'exemple ci-dessus, appeler ``resultat.get_string(1)`` vous donnerait ``0123``.
 
-::
-
-    # Prints "01 03 0 3f 42"
-    for result in regex.search_all("d01, d03, d0c, x3f and x42"):
-        print(result.get_string("digit"))
-
-\ **Example:** Split a string using a RegEx:
+Cette version de RegEx supporte aussi les groupes de capture nommés, et les noms peuvent être utilisés pour récupérer les résultats. Si deux groupes ou plus ont le même nom, le nom se référerait seulement au premier avec une correspondance.
 
 ::
 
     var regex = RegEx.new()
-    regex.compile("\\S+") # Negated whitespace character class.
-    var results = []
-    for result in regex.search_all("One  Two \n\tThree"):
-        results.push_back(result.get_string())
-    print(results) # Prints ["One", "Two", "Three"]
+    regex.compile("d(?<chiffre>[0-9]+)|x(?<chiffre>[0-9a-f]+)")
+    var resultat = regex.search("le nombre est x2f")
+    if resultat:
+        print(resultat.get_string("chiffre")) # Affiche "2f"
 
-\ **Note:** Godot's regex implementation is based on the `PCRE2 <https://www.pcre.org/>`__ library. You can view the full pattern reference `here <https://www.pcre.org/current/doc/html/pcre2pattern.html>`__.
+Si vous avez besoin de traiter plusieurs résultats, :ref:`search_all()<class_RegEx_method_search_all>` génère une liste de tous les résultats ne se chevauchant pas. Cela peut-être combiné avec une boucle ``for`` pour plus de facilité.
 
-\ **Tip:** You can use `Regexr <https://regexr.com/>`__ to test regular expressions online.
+::
+
+    # Affiche "01 03 0 3f 42"
+    for resultat in regex.search_all("d01, d03, d0c, x3f et x42"):
+        print(resultat.get_string("chiffre"))
+
+\ **Exemple :** Diviser une chaîne en utilisant une RegEx :
+
+::
+
+    var regex = RegEx.new()
+    regex.compile("\\S+") # Classe de caractères non-espace
+    var resultats = []
+    for resultat in regex.search_all("Un  Deux \n\tTrois"):
+        resultats.push_back(result.get_string())
+    print(resultats) # Affiche ["Un", "Deux", "Trois"]
+
+\ **Note :** L'implémentation regex de Godot est basée sur la bibliothèque `PCRE2 <https://www.pcre.org/>`__. Vous pouvez voir la référence des motifs complète `ici <https://www.pcre.org/current/doc/html/pcre2pattern.html>`__.
+
+\ **Astuce :** Vous pouvez utiliser `Regexr <https://regexr.com/>`__ pour vérifier des expressions régulières en ligne.
 
 .. rst-class:: classref-reftable-group
 
@@ -127,7 +127,7 @@ Cette méthode réinitialise l'état de l'objet, comme si il était fraîchement
 
 :ref:`Error<enum_@GlobalScope_Error>` **compile**\ (\ pattern\: :ref:`String<class_String>`, show_error\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_RegEx_method_compile>`
 
-Compiles and assign the search pattern to use. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` if the compilation is successful. If compilation fails, returns :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>` and when ``show_error`` is ``true``, details are printed to standard output.
+Compile et assigne le motif de recherche à utiliser. Renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` si la compilation est réussie. Si la compilation échoue, renvoie :ref:`@GlobalScope.FAILED<class_@GlobalScope_constant_FAILED>` et lorsque ``show_error`` vaut ``true``, les détails sont affichés à la sortie standard.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ Compiles and assign the search pattern to use. Returns :ref:`@GlobalScope.OK<cla
 
 :ref:`RegEx<class_RegEx>` **create_from_string**\ (\ pattern\: :ref:`String<class_String>`, show_error\: :ref:`bool<class_bool>` = true\ ) |static| :ref:`🔗<class_RegEx_method_create_from_string>`
 
-Creates and compiles a new **RegEx** object. See also :ref:`compile()<class_RegEx_method_compile>`.
+Crée et compile un nouvel objet **RegEx**. Voir aussi :ref:`compile()<class_RegEx_method_compile>`.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ Creates and compiles a new **RegEx** object. See also :ref:`compile()<class_RegE
 
 :ref:`int<class_int>` **get_group_count**\ (\ ) |const| :ref:`🔗<class_RegEx_method_get_group_count>`
 
-Returns the number of capturing groups in compiled pattern.
+Renvoie le nombre de groupes de capture dans le motif compilé.
 
 .. rst-class:: classref-item-separator
 
@@ -163,7 +163,7 @@ Returns the number of capturing groups in compiled pattern.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_names**\ (\ ) |const| :ref:`🔗<class_RegEx_method_get_names>`
 
-Returns an array of names of named capturing groups in the compiled pattern. They are ordered by appearance.
+Renvoie un tableau de noms de groupes de capture nommés dans le motif compilé. Ils sont ordonnés par ordre d'apparition.
 
 .. rst-class:: classref-item-separator
 
@@ -187,7 +187,7 @@ Renvoie le motif de recherche original qui a été compilé.
 
 :ref:`bool<class_bool>` **is_valid**\ (\ ) |const| :ref:`🔗<class_RegEx_method_is_valid>`
 
-Renvoie si cet objet à un motif de recherche valide qui lui est assigné.
+Renvoie si cet objet a un motif de recherche valide assigné.
 
 .. rst-class:: classref-item-separator
 
@@ -199,9 +199,9 @@ Renvoie si cet objet à un motif de recherche valide qui lui est assigné.
 
 :ref:`RegExMatch<class_RegExMatch>` **search**\ (\ subject\: :ref:`String<class_String>`, offset\: :ref:`int<class_int>` = 0, end\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_RegEx_method_search>`
 
-Searches the text for the compiled pattern. Returns a :ref:`RegExMatch<class_RegExMatch>` container of the first matching result if found, otherwise ``null``.
+Cherche le texte pour le motif compilé. Renvoie un conteneur :ref:`RegExMatch<class_RegExMatch>` du premier résultat correspondant si trouvé, sinon ``null``.
 
-The region to search within can be specified with ``offset`` and ``end``. This is useful when searching for another match in the same ``subject`` by calling this method again after a previous success. Note that setting these parameters differs from passing over a shortened string. For example, the start anchor ``^`` is not affected by ``offset``, and the character before ``offset`` will be checked for the word boundary ``\b``.
+La région dans laquelle rechercher peut être spécifiée avec ``offset`` et ``end``. Ceci est utile lors d'une recherche d'un autre correspondance dans le même objet ``subject`` en appelant cette méthode à nouveau après un succès précédent. Notez que définir ces paramètres diffère du passage d'une chaîne raccourcie. Par exemple, l'ancre de démarrage ``^`` n'est pas affectée par ``offset``, et le caractère avant ``offset`` sera vérifié pour la limite de mot ``\b``.
 
 .. rst-class:: classref-item-separator
 
@@ -213,9 +213,9 @@ The region to search within can be specified with ``offset`` and ``end``. This i
 
 :ref:`Array<class_Array>`\[:ref:`RegExMatch<class_RegExMatch>`\] **search_all**\ (\ subject\: :ref:`String<class_String>`, offset\: :ref:`int<class_int>` = 0, end\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_RegEx_method_search_all>`
 
-Searches the text for the compiled pattern. Returns an array of :ref:`RegExMatch<class_RegExMatch>` containers for each non-overlapping result. If no results were found, an empty array is returned instead.
+Cherche le texte pour le motif compilé. Renvoie un tableau de conteneurs :ref:`RegExMatch<class_RegExMatch>` pour chaque résultat ne se superposant pas. Si aucun résultat n'est trouvé, un tableau vide est renvoyé à la place.
 
-The region to search within can be specified with ``offset`` and ``end``. This is useful when searching for another match in the same ``subject`` by calling this method again after a previous success. Note that setting these parameters differs from passing over a shortened string. For example, the start anchor ``^`` is not affected by ``offset``, and the character before ``offset`` will be checked for the word boundary ``\b``.
+La région dans laquelle rechercher peut être spécifiée avec ``offset`` et ``end``. Ceci est utile lors d'une recherche d'un autre correspondance dans le même objet ``subject`` en appelant cette méthode à nouveau après un succès précédent. Notez que définir ces paramètres diffère du passage d'une chaîne raccourcie. Par exemple, l'ancre de démarrage ``^`` n'est pas affectée par ``offset``, et le caractère avant ``offset`` sera vérifié pour la limite de mot ``\b``.
 
 .. rst-class:: classref-item-separator
 
@@ -227,9 +227,9 @@ The region to search within can be specified with ``offset`` and ``end``. This i
 
 :ref:`String<class_String>` **sub**\ (\ subject\: :ref:`String<class_String>`, replacement\: :ref:`String<class_String>`, all\: :ref:`bool<class_bool>` = false, offset\: :ref:`int<class_int>` = 0, end\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_RegEx_method_sub>`
 
-Searches the text for the compiled pattern and replaces it with the specified string. Escapes and backreferences such as ``$1`` and ``$name`` are expanded and resolved. By default, only the first instance is replaced, but it can be changed for all instances (global replacement).
+Cherche le texte pour le motif compilé et le remplace par la chaîne spécifiée. les séquences d'échappement et les références arrières telles que ``$1`` et ``$name`` sont étendues et résolues. Par défaut, seule la première instance est remplacée, mais cela peut être changé pour toutes les instances (remplacement global).
 
-The region to search within can be specified with ``offset`` and ``end``. This is useful when searching for another match in the same ``subject`` by calling this method again after a previous success. Note that setting these parameters differs from passing over a shortened string. For example, the start anchor ``^`` is not affected by ``offset``, and the character before ``offset`` will be checked for the word boundary ``\b``.
+La région dans laquelle rechercher peut être spécifiée avec ``offset`` et ``end``. Ceci est utile lors d'une recherche d'un autre correspondance dans le même objet ``subject`` en appelant cette méthode à nouveau après un succès précédent. Notez que définir ces paramètres diffère du passage d'une chaîne raccourcie. Par exemple, l'ancre de démarrage ``^`` n'est pas affectée par ``offset``, et le caractère avant ``offset`` sera vérifié pour la limite de mot ``\b``.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

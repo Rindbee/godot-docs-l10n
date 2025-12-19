@@ -1880,7 +1880,7 @@ This method can be used to apply setting changes that require a restart. See als
 
 :ref:`Error<enum_@GlobalScope_Error>` **set_thread_name**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OS_method_set_thread_name>`
 
-Assigns the given name to the current thread. Returns :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if unavailable on the current platform.
+Attribue le nom donné au thread courant. Renvoie :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` si non disponible sur la plateforme actuelle.
 
 .. rst-class:: classref-item-separator
 

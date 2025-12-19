@@ -7,7 +7,7 @@ Resource
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Animation<class_Animation>`, :ref:`AnimationLibrary<class_AnimationLibrary>`, :ref:`AnimationNode<class_AnimationNode>`, :ref:`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>`, :ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>`, :ref:`AudioBusLayout<class_AudioBusLayout>`, :ref:`AudioEffect<class_AudioEffect>`, :ref:`AudioStream<class_AudioStream>`, :ref:`BitMap<class_BitMap>`, :ref:`BoneMap<class_BoneMap>`, :ref:`ButtonGroup<class_ButtonGroup>`, :ref:`CameraAttributes<class_CameraAttributes>`, :ref:`ColorPalette<class_ColorPalette>`, :ref:`Compositor<class_Compositor>`, :ref:`CompositorEffect<class_CompositorEffect>`, :ref:`CryptoKey<class_CryptoKey>`, :ref:`Curve<class_Curve>`, :ref:`Curve2D<class_Curve2D>`, :ref:`Curve3D<class_Curve3D>`, :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>`, :ref:`EditorSettings<class_EditorSettings>`, :ref:`Environment<class_Environment>`, :ref:`FoldableGroup<class_FoldableGroup>`, :ref:`Font<class_Font>`, :ref:`GDExtension<class_GDExtension>`, :ref:`GLTFAccessor<class_GLTFAccessor>`, :ref:`GLTFAnimation<class_GLTFAnimation>`, :ref:`GLTFBufferView<class_GLTFBufferView>`, :ref:`GLTFCamera<class_GLTFCamera>`, :ref:`GLTFDocument<class_GLTFDocument>`, :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, :ref:`GLTFLight<class_GLTFLight>`, :ref:`GLTFMesh<class_GLTFMesh>`, :ref:`GLTFNode<class_GLTFNode>`, :ref:`GLTFPhysicsBody<class_GLTFPhysicsBody>`, :ref:`GLTFPhysicsShape<class_GLTFPhysicsShape>`, :ref:`GLTFSkeleton<class_GLTFSkeleton>`, :ref:`GLTFSkin<class_GLTFSkin>`, :ref:`GLTFSpecGloss<class_GLTFSpecGloss>`, :ref:`GLTFState<class_GLTFState>`, :ref:`GLTFTexture<class_GLTFTexture>`, :ref:`GLTFTextureSampler<class_GLTFTextureSampler>`, :ref:`Gradient<class_Gradient>`, :ref:`Image<class_Image>`, :ref:`ImporterMesh<class_ImporterMesh>`, :ref:`InputEvent<class_InputEvent>`, :ref:`JSON<class_JSON>`, :ref:`LabelSettings<class_LabelSettings>`, :ref:`LightmapGIData<class_LightmapGIData>`, :ref:`Material<class_Material>`, :ref:`Mesh<class_Mesh>`, :ref:`MeshLibrary<class_MeshLibrary>`, :ref:`MissingResource<class_MissingResource>`, :ref:`MultiMesh<class_MultiMesh>`, :ref:`NavigationMesh<class_NavigationMesh>`, :ref:`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>`, :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`, :ref:`NavigationPolygon<class_NavigationPolygon>`, :ref:`Noise<class_Noise>`, :ref:`Occluder3D<class_Occluder3D>`, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>`, :ref:`OggPacketSequence<class_OggPacketSequence>`, :ref:`OpenXRAction<class_OpenXRAction>`, :ref:`OpenXRActionMap<class_OpenXRActionMap>`, :ref:`OpenXRActionSet<class_OpenXRActionSet>`, :ref:`OpenXRBindingModifier<class_OpenXRBindingModifier>`, :ref:`OpenXRHapticBase<class_OpenXRHapticBase>`, :ref:`OpenXRInteractionProfile<class_OpenXRInteractionProfile>`, :ref:`OpenXRIPBinding<class_OpenXRIPBinding>`, :ref:`PackedDataContainer<class_PackedDataContainer>`, :ref:`PackedScene<class_PackedScene>`, :ref:`PhysicsMaterial<class_PhysicsMaterial>`, :ref:`PolygonPathFinder<class_PolygonPathFinder>`, :ref:`RDShaderFile<class_RDShaderFile>`, :ref:`RDShaderSPIRV<class_RDShaderSPIRV>`, :ref:`RichTextEffect<class_RichTextEffect>`, :ref:`SceneReplicationConfig<class_SceneReplicationConfig>`, :ref:`Script<class_Script>`, :ref:`Shader<class_Shader>`, :ref:`ShaderInclude<class_ShaderInclude>`, :ref:`Shape2D<class_Shape2D>`, :ref:`Shape3D<class_Shape3D>`, :ref:`Shortcut<class_Shortcut>`, :ref:`SkeletonModification2D<class_SkeletonModification2D>`, :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`, :ref:`SkeletonProfile<class_SkeletonProfile>`, :ref:`Skin<class_Skin>`, :ref:`Sky<class_Sky>`, :ref:`SpriteFrames<class_SpriteFrames>`, :ref:`StyleBox<class_StyleBox>`, :ref:`SyntaxHighlighter<class_SyntaxHighlighter>`, :ref:`Texture<class_Texture>`, :ref:`Theme<class_Theme>`, :ref:`TileMapPattern<class_TileMapPattern>`, :ref:`TileSet<class_TileSet>`, :ref:`TileSetSource<class_TileSetSource>`, :ref:`Translation<class_Translation>`, :ref:`VideoStream<class_VideoStream>`, :ref:`VideoStreamPlayback<class_VideoStreamPlayback>`, :ref:`VisualShaderNode<class_VisualShaderNode>`, :ref:`VoxelGIData<class_VoxelGIData>`, :ref:`World2D<class_World2D>`, :ref:`World3D<class_World3D>`, :ref:`X509Certificate<class_X509Certificate>`
+**Hérité par :** :ref:`Animation<class_Animation>`, :ref:`AnimationLibrary<class_AnimationLibrary>`, :ref:`AnimationNode<class_AnimationNode>`, :ref:`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>`, :ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>`, :ref:`AudioBusLayout<class_AudioBusLayout>`, :ref:`AudioEffect<class_AudioEffect>`, :ref:`AudioStream<class_AudioStream>`, :ref:`BitMap<class_BitMap>`, :ref:`BoneMap<class_BoneMap>`, :ref:`ButtonGroup<class_ButtonGroup>`, :ref:`CameraAttributes<class_CameraAttributes>`, :ref:`ColorPalette<class_ColorPalette>`, :ref:`Compositor<class_Compositor>`, :ref:`CompositorEffect<class_CompositorEffect>`, :ref:`CryptoKey<class_CryptoKey>`, :ref:`Curve<class_Curve>`, :ref:`Curve2D<class_Curve2D>`, :ref:`Curve3D<class_Curve3D>`, :ref:`EditorNode3DGizmoPlugin<class_EditorNode3DGizmoPlugin>`, :ref:`EditorSettings<class_EditorSettings>`, :ref:`Environment<class_Environment>`, :ref:`FoldableGroup<class_FoldableGroup>`, :ref:`Font<class_Font>`, :ref:`GDExtension<class_GDExtension>`, :ref:`GLTFAccessor<class_GLTFAccessor>`, :ref:`GLTFAnimation<class_GLTFAnimation>`, :ref:`GLTFBufferView<class_GLTFBufferView>`, :ref:`GLTFCamera<class_GLTFCamera>`, :ref:`GLTFDocument<class_GLTFDocument>`, :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, :ref:`GLTFLight<class_GLTFLight>`, :ref:`GLTFMesh<class_GLTFMesh>`, :ref:`GLTFNode<class_GLTFNode>`, :ref:`GLTFPhysicsBody<class_GLTFPhysicsBody>`, :ref:`GLTFPhysicsShape<class_GLTFPhysicsShape>`, :ref:`GLTFSkeleton<class_GLTFSkeleton>`, :ref:`GLTFSkin<class_GLTFSkin>`, :ref:`GLTFSpecGloss<class_GLTFSpecGloss>`, :ref:`GLTFState<class_GLTFState>`, :ref:`GLTFTexture<class_GLTFTexture>`, :ref:`GLTFTextureSampler<class_GLTFTextureSampler>`, :ref:`Gradient<class_Gradient>`, :ref:`Image<class_Image>`, :ref:`ImporterMesh<class_ImporterMesh>`, :ref:`InputEvent<class_InputEvent>`, :ref:`JSON<class_JSON>`, :ref:`LabelSettings<class_LabelSettings>`, :ref:`LightmapGIData<class_LightmapGIData>`, :ref:`Material<class_Material>`, :ref:`Mesh<class_Mesh>`, :ref:`MeshLibrary<class_MeshLibrary>`, :ref:`MissingResource<class_MissingResource>`, :ref:`MultiMesh<class_MultiMesh>`, :ref:`NavigationMesh<class_NavigationMesh>`, :ref:`NavigationMeshSourceGeometryData2D<class_NavigationMeshSourceGeometryData2D>`, :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`, :ref:`NavigationPolygon<class_NavigationPolygon>`, :ref:`Noise<class_Noise>`, :ref:`Occluder3D<class_Occluder3D>`, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>`, :ref:`OggPacketSequence<class_OggPacketSequence>`, :ref:`OpenXRAction<class_OpenXRAction>`, :ref:`OpenXRActionMap<class_OpenXRActionMap>`, :ref:`OpenXRActionSet<class_OpenXRActionSet>`, :ref:`OpenXRBindingModifier<class_OpenXRBindingModifier>`, :ref:`OpenXRHapticBase<class_OpenXRHapticBase>`, :ref:`OpenXRInteractionProfile<class_OpenXRInteractionProfile>`, :ref:`OpenXRIPBinding<class_OpenXRIPBinding>`, :ref:`PackedDataContainer<class_PackedDataContainer>`, :ref:`PackedScene<class_PackedScene>`, :ref:`PhysicsMaterial<class_PhysicsMaterial>`, :ref:`PolygonPathFinder<class_PolygonPathFinder>`, :ref:`RDShaderFile<class_RDShaderFile>`, :ref:`RDShaderSPIRV<class_RDShaderSPIRV>`, :ref:`RichTextEffect<class_RichTextEffect>`, :ref:`SceneReplicationConfig<class_SceneReplicationConfig>`, :ref:`Script<class_Script>`, :ref:`Shader<class_Shader>`, :ref:`ShaderInclude<class_ShaderInclude>`, :ref:`Shape2D<class_Shape2D>`, :ref:`Shape3D<class_Shape3D>`, :ref:`Shortcut<class_Shortcut>`, :ref:`SkeletonModification2D<class_SkeletonModification2D>`, :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`, :ref:`SkeletonProfile<class_SkeletonProfile>`, :ref:`Skin<class_Skin>`, :ref:`Sky<class_Sky>`, :ref:`SpriteFrames<class_SpriteFrames>`, :ref:`StyleBox<class_StyleBox>`, :ref:`SyntaxHighlighter<class_SyntaxHighlighter>`, :ref:`Texture<class_Texture>`, :ref:`Theme<class_Theme>`, :ref:`TileMapPattern<class_TileMapPattern>`, :ref:`TileSet<class_TileSet>`, :ref:`TileSetSource<class_TileSetSource>`, :ref:`Translation<class_Translation>`, :ref:`VideoStream<class_VideoStream>`, :ref:`VideoStreamPlayback<class_VideoStreamPlayback>`, :ref:`VisualShaderNode<class_VisualShaderNode>`, :ref:`VoxelGIData<class_VoxelGIData>`, :ref:`World2D<class_World2D>`, :ref:`World3D<class_World3D>`, :ref:`X509Certificate<class_X509Certificate>`
 
 Classe de base pour les objets sérialisables.
 
@@ -16,13 +16,13 @@ Classe de base pour les objets sérialisables.
 Description
 -----------
 
-Resource is the base class for all Godot-specific resource types, serving primarily as data containers. Since they inherit from :ref:`RefCounted<class_RefCounted>`, resources are reference-counted and freed when no longer in use. They can also be nested within other resources, and saved on disk. :ref:`PackedScene<class_PackedScene>`, one of the most common :ref:`Object<class_Object>`\ s in a Godot project, is also a resource, uniquely capable of storing and instantiating the :ref:`Node<class_Node>`\ s it contains as many times as desired.
+Les ressources sont la classe de base pour tous les types de ressources propres à Godot, servant principalement comme conteneurs de données. Comme ils héritent de :ref:`RefCounted<class_RefCounted>`, les ressources ont un compteur de références et sont libérées lorsqu'elles ne sont plus utilisées. Elles peuvent également être imbriquées dans d'autres ressources, et sauvegardées sur le disque. :ref:`PackedScene<class_PackedScene>`, l'un des :ref:`Object<class_Object>` le plus courant dans un projet Godot, est également une ressource, uniquement capable de stocker et d'instancier les :ref:`Node<class_Node>`\ s qu'elle contient autant de fois que désiré.
 
-In GDScript, resources can loaded from disk by their :ref:`resource_path<class_Resource_property_resource_path>` using :ref:`@GDScript.load()<class_@GDScript_method_load>` or :ref:`@GDScript.preload()<class_@GDScript_method_preload>`.
+En GDScript, les ressources peuvent être chargées à partir du disque par leur chemin :ref:`resource_path<class_Resource_property_resource_path>` en utilisant :ref:`@GDScript.load()<class_@GDScript_method_load>` ou :ref:`@GDScript.preload()<class_@GDScript_method_preload>`.
 
-The engine keeps a global cache of all loaded resources, referenced by paths (see :ref:`ResourceLoader.has_cached()<class_ResourceLoader_method_has_cached>`). A resource will be cached when loaded for the first time and removed from cache once all references are released. When a resource is cached, subsequent loads using its path will return the cached reference.
+Le moteur conserve un cache globale de toutes les ressources chargées, référencées par des chemins (voir :ref:`ResourceLoader.has_cached()<class_ResourceLoader_method_has_cached>`). Une ressource sera mise en cache lorsqu'elle est chargée pour la première fois et retirée du cache une fois toutes les références libérées. Lorsqu'une ressource est mise en cache, les chargements subséquents utilisant son chemin renverront la référence en cache.
 
-\ **Note:** In C#, resources will not be freed instantly after they are no longer in use. Instead, garbage collection will run periodically and will free resources that are no longer in use. This means that unused resources will remain in memory for a while before being removed.
+\ **Note :** En C#, les ressources ne seront pas libérées instantanément après qu'elles ne soient plus utilisées. Au lieu de cela, le ramasse-miette s'exécutera périodiquement et libérera les ressources qui ne sont plus utilisées. Cela signifie que les objets ressources utilisées resteront en mémoire pendant un certain temps avant d'être supprimées.
 
 .. rst-class:: classref-introduction-group
 
@@ -110,9 +110,9 @@ Signaux
 
 **changed**\ (\ ) :ref:`🔗<class_Resource_signal_changed>`
 
-Emitted when the resource changes, usually when one of its properties is modified. See also :ref:`emit_changed()<class_Resource_method_emit_changed>`.
+Émis lorsque la ressource change, habituellement lorsque l'une de ses propriétés est modifiée. Voir aussi :ref:`emit_changed()<class_Resource_method_emit_changed>`.
 
-\ **Note:** This signal is not emitted automatically for properties of custom resources. If necessary, a setter needs to be created to emit the signal.
+\ **Note :** Ce signal n'est pas émis automatiquement pour les propriétés de ressources personnalisées. Si nécessaire, un setter doit être créé pour émettre le signal.
 
 .. rst-class:: classref-item-separator
 
@@ -126,7 +126,7 @@ Emitted when the resource changes, usually when one of its properties is modifie
 
 **Obsolète :** This signal is only emitted when the resource is created. Override :ref:`_setup_local_to_scene()<class_Resource_private_method__setup_local_to_scene>` instead.
 
-Emitted by a newly duplicated resource with :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` set to ``true``.
+Émis par une ressource nouvellement dupliquée avec :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` défini à ``true``.
 
 .. rst-class:: classref-section-separator
 
@@ -149,7 +149,7 @@ enum **DeepDuplicateMode**: :ref:`🔗<enum_Resource_DeepDuplicateMode>`
 
 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` **DEEP_DUPLICATE_NONE** = ``0``
 
-No subresorces at all are duplicated. This is useful even in a deep duplication to have all the arrays and dictionaries duplicated but still pointing to the original resources.
+Aucun sous-ressource n'est dupliquée. Ceci est utile même dans une duplication profonde pour que tous les tableaux et les dictionnaires soient dupliqués, mais pointent toujours vers les ressources originales.
 
 .. _class_Resource_constant_DEEP_DUPLICATE_INTERNAL:
 
@@ -157,7 +157,7 @@ No subresorces at all are duplicated. This is useful even in a deep duplication 
 
 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` **DEEP_DUPLICATE_INTERNAL** = ``1``
 
-Only subresources without a path or with a scene-local path will be duplicated.
+Seules les sous-ressources sans chemin ou avec un chemin local à la scène seront dupliquées.
 
 .. _class_Resource_constant_DEEP_DUPLICATE_ALL:
 
@@ -165,7 +165,7 @@ Only subresources without a path or with a scene-local path will be duplicated.
 
 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` **DEEP_DUPLICATE_ALL** = ``2``
 
-Every subresource found will be duplicated, even if it has a non-local path. In other words, even potentially big resources stored separately will be duplicated.
+Chaque sous-ressource trouvée sera dupliquée, même si elle a un chemin non local. En d'autres termes, même les potentiellement grandes ressources stockées séparément seront dupliquées.
 
 .. rst-class:: classref-section-separator
 
@@ -187,9 +187,9 @@ Descriptions des propriétés
 - |void| **set_local_to_scene**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_local_to_scene**\ (\ )
 
-If ``true``, the resource is duplicated for each instance of all scenes using it. At run-time, the resource can be modified in one scene without affecting other instances (see :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>`).
+Si ``true``, la ressource est dupliquée pour chaque instance de toutes les scènes qui l'utilisent. Durant l'exécution, la ressource peut être modifiée dans une scène sans affecter d'autres instances (voir :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>`).
 
-\ **Note:** Changing this property at run-time has no effect on already created duplicate resources.
+\ **Note :** Modifier cette propriété durant l'exécution n'a aucun effet sur les ressources dupliquées déjà créées.
 
 .. rst-class:: classref-item-separator
 
@@ -206,9 +206,9 @@ If ``true``, the resource is duplicated for each instance of all scenes using it
 - |void| **set_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_name**\ (\ )
 
-An optional name for this resource. When defined, its value is displayed to represent the resource in the Inspector dock. For built-in scripts, the name is displayed as part of the tab name in the script editor.
+Un nom optionnel pour cette ressource. Lorsque définie, sa valeur est affichée pour représenter la ressource dans le dock de l'Inspecteur. Pour les scripts intégrés, le nom est affiché dans le nom de l'onglet dans l'éditeur de script.
 
-\ **Note:** Some resource formats do not support resource names. You can still set the name in the editor or via code, but it will be lost when the resource is reloaded. For example, only built-in scripts can have a resource name, while scripts stored in separate files cannot.
+\ **Note :** Certains formats de ressources ne supportent pas de nom de ressource. Vous pouvez toujours définir le nom dans l'éditeur ou via le code, mais il sera perdu lorsque la ressource est rechargée. Par exemple, seuls les scripts intégrés peuvent avoir un nom de ressource, tandis que les scripts stockés dans des fichiers séparés ne le peuvent pas.
 
 .. rst-class:: classref-item-separator
 
@@ -225,9 +225,9 @@ An optional name for this resource. When defined, its value is displayed to repr
 - |void| **set_path**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_path**\ (\ )
 
-The unique path to this resource. If it has been saved to disk, the value will be its filepath. If the resource is exclusively contained within a scene, the value will be the :ref:`PackedScene<class_PackedScene>`'s filepath, followed by a unique identifier.
+Le chemin unique vers cette ressource. Si elle a été sauvegardée sur le disque, la valeur sera son chemin de fichier. Si la ressource est exclusivement contenue dans une scène, la valeur sera le chemin de fichier de la :ref:`PackedScene<class_PackedScene>`, suivi d'un identifiant unique.
 
-\ **Note:** Setting this property manually may fail if a resource with the same path has already been previously loaded. If necessary, use :ref:`take_over_path()<class_Resource_method_take_over_path>`.
+\ **Note :** Définir manuellement cette propriété peut échouer si une ressource avec le même chemin a déjà été chargée précédemment. Si nécessaire, utilisez :ref:`take_over_path()<class_Resource_method_take_over_path>`.
 
 .. rst-class:: classref-item-separator
 
@@ -267,7 +267,7 @@ Descriptions des méthodes
 
 :ref:`RID<class_RID>` **_get_rid**\ (\ ) |virtual| |const| :ref:`🔗<class_Resource_private_method__get_rid>`
 
-Override this method to return a custom :ref:`RID<class_RID>` when :ref:`get_rid()<class_Resource_method_get_rid>` is called.
+Redéfinissez cette méthode pour renvoyer un :ref:`RID<class_RID>` personnalisé lorsque :ref:`get_rid()<class_Resource_method_get_rid>` est appelée.
 
 .. rst-class:: classref-item-separator
 
@@ -291,7 +291,7 @@ For resources that store state in non-exported properties, such as via :ref:`Obj
 
 |void| **_set_path_cache**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_Resource_private_method__set_path_cache>`
 
-Override this method to execute additional logic after :ref:`set_path_cache()<class_Resource_method_set_path_cache>` is called on this object.
+Redéfinissez cette méthode pour exécuter de la logique supplémentaire après que :ref:`set_path_cache()<class_Resource_method_set_path_cache>` soit appelée sur cet objet.
 
 .. rst-class:: classref-item-separator
 
@@ -303,18 +303,18 @@ Override this method to execute additional logic after :ref:`set_path_cache()<cl
 
 |void| **_setup_local_to_scene**\ (\ ) |virtual| :ref:`🔗<class_Resource_private_method__setup_local_to_scene>`
 
-Override this method to customize the newly duplicated resource created from :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>`, if the original's :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` is set to ``true``.
+Redéfinissez cette méthode pour personnaliser la ressource nouvellement dupliquée créée à partir de :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>`, si le :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` de l'original est défini à ``true``.
 
-\ **Example:** Set a random ``damage`` value to every local resource from an instantiated scene:
+\ **Exemple :** Définir une valeur aléatoire ``degats`` à chaque ressource locale depuis une scène instanciée :
 
 ::
 
     extends Resource
 
-    var damage = 0
+    var degats = 0
 
     func _setup_local_to_scene():
-        damage = randi_range(10, 40)
+        degats = randi_range(10, 40)
 
 .. rst-class:: classref-item-separator
 
@@ -326,21 +326,21 @@ Override this method to customize the newly duplicated resource created from :re
 
 :ref:`Resource<class_Resource>` **duplicate**\ (\ deep\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Resource_method_duplicate>`
 
-Duplicates this resource, returning a new resource with its ``export``\ ed or :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` properties copied from the original.
+Doublons cette ressource, renvoyant une nouvelle ressource avec ses propriétés ``export``\ ées ou :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>` copiées de l'original.
 
-If ``deep`` is ``false``, a **shallow** copy is returned: nested :ref:`Array<class_Array>`, :ref:`Dictionary<class_Dictionary>`, and **Resource** properties are not duplicated and are shared with the original resource.
+Si ``deep`` vaut ``false``, une copie **superficielle** est renvoyée : les propriétés :ref:`Array<class_Array>`, :ref:`Dictionary<class_Dictionary>` et **Resource** imbriquées ne sont pas dupliquées et sont partagées avec la ressource originale.
 
-If ``deep`` is ``true``, a **deep** copy is returned: all nested arrays, dictionaries, and packed arrays are also duplicated (recursively). Any **Resource** found inside will only be duplicated if it's local, like :ref:`DEEP_DUPLICATE_INTERNAL<class_Resource_constant_DEEP_DUPLICATE_INTERNAL>` used with :ref:`duplicate_deep()<class_Resource_method_duplicate_deep>`.
+Si ``deep`` vaut ``true``, une copie **profonde** est renvoyée : tous les tableaux, dictionnaires et tableaux imbriquées sont également dupliqués (récursivement). Toute **Resource** trouvée à l'intérieur ne sera dupliquée que si elle est locale, comme pour :ref:`DEEP_DUPLICATE_INTERNAL<class_Resource_constant_DEEP_DUPLICATE_INTERNAL>` utilisé avec :ref:`duplicate_deep()<class_Resource_method_duplicate_deep>`.
 
-The following exceptions apply:
+Les exceptions suivantes s'appliquent :
 
-- Subresource properties with the :ref:`@GlobalScope.PROPERTY_USAGE_ALWAYS_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_ALWAYS_DUPLICATE>` flag are always duplicated (recursively or not, depending on ``deep``).
+- Les propriétés de sous-ressources avec le drapeau :ref:`@GlobalScope.PROPERTY_USAGE_ALWAYS_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_ALWAYS_DUPLICATE>` sont toujours dupliquées (récursivement ou non, selon ``deep``).
 
-- Subresource properties with the :ref:`@GlobalScope.PROPERTY_USAGE_NEVER_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_NEVER_DUPLICATE>` flag are never duplicated.
+- Les propriétés de sous-ressources avec le drapeau :ref:`@GlobalScope.PROPERTY_USAGE_NEVER_DUPLICATE<class_@GlobalScope_constant_PROPERTY_USAGE_NEVER_DUPLICATE>` ne sont jamais dupliquées.
 
-\ **Note:** For custom resources, this method will fail if :ref:`Object._init()<class_Object_private_method__init>` has been defined with required parameters.
+\ **Note :** Pour les ressources personnalisées, cette méthode échouera si :ref:`Object._init()<class_Object_private_method__init>` a été défini avec les paramètres requis.
 
-\ **Note:** When duplicating with ``deep`` set to ``true``, each resource found, including the one on which this method is called, will be only duplicated once and referenced as many times as needed in the duplicate. For instance, if you are duplicating resource A that happens to have resource B referenced twice, you'll get a new resource A' referencing a new resource B' twice.
+\ **Note :** Lors de la duplication avec ``deep`` défini à ``true``, chaque ressource trouvée, y compris celle sur laquelle cette méthode est appelée, ne sera dupliquée qu'une fois et référencée autant de fois que nécessaire dans le duplicata. Par exemple, si vous dupliquez la ressource A qui se trouve avoir la ressource B référencée deux fois, vous obtiendrez une nouvelle ressource A' référençant une nouvelle ressource B' deux fois.
 
 .. rst-class:: classref-item-separator
 
@@ -352,9 +352,9 @@ The following exceptions apply:
 
 :ref:`Resource<class_Resource>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` = 1\ ) |const| :ref:`🔗<class_Resource_method_duplicate_deep>`
 
-Duplicates this resource, deeply, like :ref:`duplicate()<class_Resource_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplique cette ressource, profondément, comme :ref:`duplicate()<class_Resource_method_duplicate>`\ ``(true)``, avec du contrôle supplémentaire sur la façon dont les sous-ressources sont gérées.
 
-\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`.
+\ ``deep_subresources_mode`` doit être l'une des valeurs de :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -366,16 +366,16 @@ Duplicates this resource, deeply, like :ref:`duplicate()<class_Resource_method_d
 
 |void| **emit_changed**\ (\ ) :ref:`🔗<class_Resource_method_emit_changed>`
 
-Emits the :ref:`changed<class_Resource_signal_changed>` signal. This method is called automatically for some built-in resources.
+Émet le signal :ref:`changed<class_Resource_signal_changed>`. Cette méthode est appelée automatiquement pour certaines ressources intégrées.
 
-\ **Note:** For custom resources, it's recommended to call this method whenever a meaningful change occurs, such as a modified property. This ensures that custom :ref:`Object<class_Object>`\ s depending on the resource are properly updated.
+\ **Note :** Pour les ressources personnalisées, il est recommandé d'appeler cette méthode lorsqu'un changement significatif se produit, comme une propriété modifiée. Cela garantit que les :ref:`Object<class_Object>`\ s personnalisés dépendant de la ressource sont correctement mis à jour.
 
 ::
 
-    var damage:
-        set(new_value):
-            if damage != new_value:
-                damage = new_value
+    var degats:
+        set(nouvelle_valeur):
+            if degats != nouvelle_valeur:
+                degats = nouvelle_valeur
                 emit_changed()
 
 .. rst-class:: classref-item-separator
@@ -388,7 +388,7 @@ Emits the :ref:`changed<class_Resource_signal_changed>` signal. This method is c
 
 :ref:`String<class_String>` **generate_scene_unique_id**\ (\ ) |static| :ref:`🔗<class_Resource_method_generate_scene_unique_id>`
 
-Generates a unique identifier for a resource to be contained inside a :ref:`PackedScene<class_PackedScene>`, based on the current date, time, and a random value. The returned string is only composed of letters (``a`` to ``y``) and numbers (``0`` to ``8``). See also :ref:`resource_scene_unique_id<class_Resource_property_resource_scene_unique_id>`.
+Génère un identifiant unique pour une ressource qui doit être contenue dans une :ref:`PackedScene<class_PackedScene>`, en fonction de la date, de l'heure et d'une valeur aléatoire. La chaîne renvoyée n'est composée que de lettres (``a`` à ``y``) et de nombres (``0`` à ``8``). Voir aussi :ref:`resource_scene_unique_id<class_Resource_property_resource_scene_unique_id>`.
 
 .. rst-class:: classref-item-separator
 
@@ -414,7 +414,7 @@ From the internal cache for scene-unique IDs, returns the ID of this resource fo
 
 :ref:`Node<class_Node>` **get_local_scene**\ (\ ) |const| :ref:`🔗<class_Resource_method_get_local_scene>`
 
-If :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` is set to ``true`` and the resource has been loaded from a :ref:`PackedScene<class_PackedScene>` instantiation, returns the root :ref:`Node<class_Node>` of the scene where this resource is used. Otherwise, returns ``null``.
+Si :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` est défini à ``true`` et que la ressource a été chargée à partir d'un instanciation de :ref:`PackedScene<class_PackedScene>`, renvoie le :ref:`Node<class_Node>` racine de la scène où cette ressource est utilisée. Sinon, renvoie ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -476,7 +476,7 @@ In the internal cache for scene-unique IDs, sets the ID of this resource to ``id
 
 |void| **set_path_cache**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Resource_method_set_path_cache>`
 
-Sets the resource's path to ``path`` without involving the resource cache. Useful for handling :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` values when implementing a custom resource format by extending :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` and :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
+Définit le chemin de la ressource à ``path`` sans impliquer le cache des ressources. Utile pour gérer les valeurs de :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` lors de l'implémentation d'un format de ressource personnalisée en étendant :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` et :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -490,7 +490,7 @@ Sets the resource's path to ``path`` without involving the resource cache. Usefu
 
 **Obsolète :** This method should only be called internally.
 
-Calls :ref:`_setup_local_to_scene()<class_Resource_private_method__setup_local_to_scene>`. If :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` is set to ``true``, this method is automatically called from :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>` by the newly duplicated resource within the scene instance.
+Appelle :ref:`_setup_local_to_scene()<class_Resource_private_method__setup_local_to_scene>`. Si :ref:`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` est défini à ``true``, cette méthode est automatiquement appelée depuis :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>` par la ressource nouvellement dupliquée dans l'instance de la scène.
 
 .. rst-class:: classref-item-separator
 
@@ -502,7 +502,7 @@ Calls :ref:`_setup_local_to_scene()<class_Resource_private_method__setup_local_t
 
 |void| **take_over_path**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Resource_method_take_over_path>`
 
-Sets the :ref:`resource_path<class_Resource_property_resource_path>` to ``path``, potentially overriding an existing cache entry for this path. Further attempts to load an overridden resource by path will instead return this resource.
+Définit :ref:`resource_path<class_Resource_property_resource_path>` à ``path``, redéfinissant potentiellement une entrée existante du cache pour ce chemin. Les prochaines tentatives pour charger une ressource redéfinie par chemin renverront à la place cette ressource.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

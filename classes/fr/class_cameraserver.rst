@@ -160,11 +160,11 @@ Descriptions des propriétés
 - |void| **set_monitoring_feeds**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_monitoring_feeds**\ (\ )
 
-If ``true``, the server is actively monitoring available camera feeds.
+Si défini à ``true``, le serveur surveillera les flux de caméra disponibles.
 
-This has a performance cost, so only set it to ``true`` when you're actively accessing the camera.
+Cela vient avec un coût en performance, alors à définir à ``true`` si vous vous assurez d'accéder activement à la caméra.
 
-\ **Note:** After setting it to ``true``, you can receive updated camera feeds through the :ref:`camera_feeds_updated<class_CameraServer_signal_camera_feeds_updated>` signal.
+\ **Remarque :** Après définition à ``true``, vous pouvez recevoir les flux de caméra mis à jour depuis le signal :ref:`camera_feeds_updated<class_CameraServer_signal_camera_feeds_updated>`.
 
 
 .. tabs::

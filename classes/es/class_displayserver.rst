@@ -795,7 +795,7 @@ The display server supports all features of :ref:`FEATURE_NATIVE_DIALOG_FILE<cla
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_WINDOW_DRAG** = ``27``
 
-The display server supports initiating window drag and resize operations on demand. See :ref:`window_start_drag()<class_DisplayServer_method_window_start_drag>` and :ref:`window_start_resize()<class_DisplayServer_method_window_start_resize>`.
+El servidor de visualización admite el inicio de operaciones de arrastre y redimensionamiento de ventanas bajo demanda. Véase :ref:`window_start_drag()<class_DisplayServer_method_window_start_drag>` y :ref:`window_start_resize()<class_DisplayServer_method_window_start_resize>`.
 
 .. _class_DisplayServer_constant_FEATURE_SCREEN_EXCLUDE_FROM_CAPTURE:
 
@@ -803,7 +803,7 @@ The display server supports initiating window drag and resize operations on dema
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_SCREEN_EXCLUDE_FROM_CAPTURE** = ``28``
 
-Display server supports :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServer_constant_WINDOW_FLAG_EXCLUDE_FROM_CAPTURE>` window flag. **Windows, macOS**
+El servidor de visualización admite la bandera de ventana :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServer_constant_WINDOW_FLAG_EXCLUDE_FROM_CAPTURE>`. **Windows, macOS**
 
 .. _class_DisplayServer_constant_FEATURE_WINDOW_EMBEDDING:
 
@@ -811,7 +811,7 @@ Display server supports :ref:`WINDOW_FLAG_EXCLUDE_FROM_CAPTURE<class_DisplayServ
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_WINDOW_EMBEDDING** = ``29``
 
-Display server supports embedding a window from another process. **Windows, Linux (X11), macOS**
+El servidor de visualización permite incrustar una ventana de otro proceso. **Windows, Linux (X11), macOS**
 
 .. _class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE_MIME:
 
@@ -819,7 +819,7 @@ Display server supports embedding a window from another process. **Windows, Linu
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_NATIVE_DIALOG_FILE_MIME** = ``30``
 
-Native file selection dialog supports MIME types as filters.
+El diálogo nativo de selección de archivos admite tipos MIME como filtros.
 
 .. _class_DisplayServer_constant_FEATURE_EMOJI_AND_SYMBOL_PICKER:
 
@@ -827,7 +827,7 @@ Native file selection dialog supports MIME types as filters.
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_EMOJI_AND_SYMBOL_PICKER** = ``31``
 
-Display server supports system emoji and symbol picker. **Windows, macOS**
+El servidor de visualización es compatible con el selector de emojis y símbolos del sistema. **Windows, macOS**
 
 .. _class_DisplayServer_constant_FEATURE_NATIVE_COLOR_PICKER:
 
@@ -835,7 +835,7 @@ Display server supports system emoji and symbol picker. **Windows, macOS**
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_NATIVE_COLOR_PICKER** = ``32``
 
-Display server supports native color picker. **Linux (X11/Wayland)**
+El servidor de visualización es compatible con el selector de color nativo. **Linux (X11/Wayland)**
 
 .. _class_DisplayServer_constant_FEATURE_SELF_FITTING_WINDOWS:
 
@@ -843,7 +843,7 @@ Display server supports native color picker. **Linux (X11/Wayland)**
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_SELF_FITTING_WINDOWS** = ``33``
 
-Display server automatically fits popups according to the screen boundaries. Window nodes should not attempt to do that themselves.
+El servidor de visualización ajusta automáticamente las ventanas emergentes de acuerdo con los límites de la pantalla. Los nodos de la ventana no deben intentar hacerlo ellos mismos.
 
 .. _class_DisplayServer_constant_FEATURE_ACCESSIBILITY_SCREEN_READER:
 
@@ -851,7 +851,7 @@ Display server automatically fits popups according to the screen boundaries. Win
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_ACCESSIBILITY_SCREEN_READER** = ``34``
 
-Display server supports interaction with screen reader or Braille display. **Linux (X11/Wayland), macOS, Windows**
+El servidor de visualización admite la interacción con el lector de pantalla o la pantalla Braille. **Linux (X11/Wayland), macOS, Windows**
 
 .. rst-class:: classref-item-separator
 
@@ -1901,7 +1901,7 @@ enum **CursorShape**: :ref:`🔗<enum_DisplayServer_CursorShape>`
 
 :ref:`CursorShape<enum_DisplayServer_CursorShape>` **CURSOR_ARROW** = ``0``
 
-Forma de cursor de flecha. Este es el predeterminado cuando no se apunta a nada que anule el cursor del ratón, como un :ref:`LineEdit<class_LineEdit>` o :ref:`TextEdit<class_TextEdit>`.
+Forma de cursor de flecha. Este es el predeterminado cuando no se apunta a nada que sobrescriba el cursor del ratón, como un :ref:`LineEdit<class_LineEdit>` o :ref:`TextEdit<class_TextEdit>`.
 
 .. _class_DisplayServer_constant_CURSOR_IBEAM:
 
@@ -3241,7 +3241,7 @@ Establece el número de elementos en la lista.
 
 |void| **accessibility_update_set_list_item_expanded**\ (\ id\: :ref:`RID<class_RID>`, expanded\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_list_item_expanded>`
 
-Sets list/tree item expanded status.
+Establece el estado de expandido de un elemento de lista/árbol.
 
 .. rst-class:: classref-item-separator
 
@@ -3349,7 +3349,7 @@ Establece el siguiente elemento en la línea.
 
 |void| **accessibility_update_set_num_jump**\ (\ id\: :ref:`RID<class_RID>`, jump\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_num_jump>`
 
-Sets numeric value jump.
+Establece el salto del valor numérico.
 
 .. rst-class:: classref-item-separator
 
@@ -3373,7 +3373,7 @@ Establece un rango de valores numéricos.
 
 |void| **accessibility_update_set_num_step**\ (\ id\: :ref:`RID<class_RID>`, step\: :ref:`float<class_float>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_num_step>`
 
-Sets numeric value step.
+Establece el paso del valor numérico.
 
 .. rst-class:: classref-item-separator
 
@@ -3397,7 +3397,7 @@ Establece el valor numérico.
 
 |void| **accessibility_update_set_placeholder**\ (\ id\: :ref:`RID<class_RID>`, placeholder\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_placeholder>`
 
-Sets placeholder text.
+Establece el texto de marcador de posición.
 
 .. rst-class:: classref-item-separator
 
@@ -3409,7 +3409,7 @@ Sets placeholder text.
 
 |void| **accessibility_update_set_popup_type**\ (\ id\: :ref:`RID<class_RID>`, popup\: :ref:`AccessibilityPopupType<enum_DisplayServer_AccessibilityPopupType>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_popup_type>`
 
-Sets popup type for popup buttons.
+Establece el tipo de popup para los botones emergentes.
 
 .. rst-class:: classref-item-separator
 
@@ -3433,7 +3433,7 @@ Establece el elemento anterior en la línea.
 
 |void| **accessibility_update_set_role**\ (\ id\: :ref:`RID<class_RID>`, role\: :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_role>`
 
-Sets element accessibility role.
+Modifica el rol de accesibilidad del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3445,7 +3445,7 @@ Sets element accessibility role.
 
 |void| **accessibility_update_set_role_description**\ (\ id\: :ref:`RID<class_RID>`, description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_role_description>`
 
-Sets element accessibility role description text.
+Establece el texto de descripción del rol de accesibilidad del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -3613,7 +3613,7 @@ Establece la alineación del texto del elemento.
 
 |void| **accessibility_update_set_text_decorations**\ (\ id\: :ref:`RID<class_RID>`, underline\: :ref:`bool<class_bool>`, strikethrough\: :ref:`bool<class_bool>`, overline\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_text_decorations>`
 
-Sets text underline/overline/strikethrough.
+Establece el subrayado/sobrelineado/tachado del texto.
 
 .. rst-class:: classref-item-separator
 
@@ -3637,7 +3637,7 @@ Establece la orientación del texto.
 
 |void| **accessibility_update_set_text_selection**\ (\ id\: :ref:`RID<class_RID>`, text_start_id\: :ref:`RID<class_RID>`, start_char\: :ref:`int<class_int>`, text_end_id\: :ref:`RID<class_RID>`, end_char\: :ref:`int<class_int>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_update_set_text_selection>`
 
-Sets text selection to the text field. ``text_start_id`` and ``text_end_id`` should be elements created by :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`. Character offsets are relative to the corresponding element.
+Establece la selección de texto en el campo de texto. ``text_start_id`` y ``text_end_id`` deberían ser elementos creados por :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`. Los desplazamientos de caracteres son relativos al elemento correspondiente.
 
 .. rst-class:: classref-item-separator
 
@@ -3697,9 +3697,9 @@ Establece el valor del texto del elemento.
 
 |void| **beep**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_beep>`
 
-Plays the beep sound from the operative system, if possible. Because it comes from the OS, the beep sound will be audible even if the application is muted. It may also be disabled for the entire OS by the user.
+Reproduce el sonido de pitido del sistema operativo, si es posible. Debido a que proviene del sistema operativo, el sonido de pitido será audible incluso si la aplicación está silenciada. También puede ser deshabilitado para todo el sistema operativo por el usuario.
 
-\ **Note:** This method is implemented on macOS, Linux (X11/Wayland), and Windows.
+\ **Nota:** Este método está implementado en macOS, Linux (X11/Wayland) y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -3711,7 +3711,7 @@ Plays the beep sound from the operative system, if possible. Because it comes fr
 
 :ref:`String<class_String>` **clipboard_get**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_clipboard_get>`
 
-Devuelve el portapapeles del usuario como una cadena si es posible.
+Devuelve el portapapeles del usuario como una string si es posible.
 
 .. rst-class:: classref-item-separator
 
@@ -3723,9 +3723,9 @@ Devuelve el portapapeles del usuario como una cadena si es posible.
 
 :ref:`Image<class_Image>` **clipboard_get_image**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_clipboard_get_image>`
 
-Returns the user's clipboard as an image if possible.
+Devuelve el portapapeles del usuario como una imagen si es posible.
 
-\ **Note:** This method uses the copied pixel data, e.g. from an image editing software or a web browser, not an image file copied from file explorer.
+\ **Nota:** Este método utiliza los datos de píxeles copiados, p. ej. de un software de edición de imágenes o un navegador web, no un archivo de imagen copiado desde el explorador de archivos.
 
 .. rst-class:: classref-item-separator
 
@@ -3737,9 +3737,9 @@ Returns the user's clipboard as an image if possible.
 
 :ref:`String<class_String>` **clipboard_get_primary**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_clipboard_get_primary>`
 
-Returns the user's `primary <https://unix.stackexchange.com/questions/139191/whats-the-difference-between-primary-selection-and-clipboard-buffer>`__ clipboard as a string if possible. This is the clipboard that is set when the user selects text in any application, rather than when pressing :kbd:`Ctrl + C`. The clipboard data can then be pasted by clicking the middle mouse button in any application that supports the primary clipboard mechanism.
+Devuelve el portapapeles `primario <https://unix.stackexchange.com/questions/139191/whats-the-difference-between-primary-selection-and-clipboard-buffer>`__ del usuario como una string, si es posible. Este es el portapapeles que se establece cuando el usuario selecciona texto en cualquier aplicación, en lugar de cuando presiona :kbd:`Ctrl + C`. Los datos del portapapeles se pueden pegar haciendo clic con el botón central del ratón en cualquier aplicación que admita el mecanismo del portapapeles primario.
 
-\ **Note:** This method is only implemented on Linux (X11/Wayland).
+\ **Nota:** Este método sólo está implementado en Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -3787,9 +3787,9 @@ Establece el contenido del portapapeles del usuario en la string dada.
 
 |void| **clipboard_set_primary**\ (\ clipboard_primary\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DisplayServer_method_clipboard_set_primary>`
 
-Sets the user's `primary <https://unix.stackexchange.com/questions/139191/whats-the-difference-between-primary-selection-and-clipboard-buffer>`__ clipboard content to the given string. This is the clipboard that is set when the user selects text in any application, rather than when pressing :kbd:`Ctrl + C`. The clipboard data can then be pasted by clicking the middle mouse button in any application that supports the primary clipboard mechanism.
+Establece el contenido del portapapeles `primario <https://unix.stackexchange.com/questions/139191/whats-the-difference-between-primary-selection-and-clipboard-buffer>`__ del usuario a la string dada. Este es el portapapeles que se establece cuando el usuario selecciona texto en cualquier aplicación, en lugar de cuando presiona :kbd:`Ctrl + C`. Los datos del portapapeles se pueden pegar haciendo clic con el botón central del ratón en cualquier aplicación que admita el mecanismo del portapapeles primario.
 
-\ **Note:** This method is only implemented on Linux (X11/Wayland).
+\ **Nota:** Este método sólo está implementado en Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -3801,13 +3801,13 @@ Sets the user's `primary <https://unix.stackexchange.com/questions/139191/whats-
 
 :ref:`bool<class_bool>` **color_picker**\ (\ callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_color_picker>`
 
-Displays OS native color picker.
+Muestra el selector de color nativo del sistema operativo.
 
-Callbacks have the following arguments: ``status: bool, color: Color``.
+Las retrollamadas tienen los siguientes argumentos: ``status: bool, color: Color``.
 
-\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_COLOR_PICKER<class_DisplayServer_constant_FEATURE_NATIVE_COLOR_PICKER>` feature.
+\ **Nota:** Este método se implementa si el servidor de visualización tiene la función :ref:`FEATURE_NATIVE_COLOR_PICKER<class_DisplayServer_constant_FEATURE_NATIVE_COLOR_PICKER>`.
 
-\ **Note:** This method is only implemented on Linux (X11/Wayland).
+\ **Nota:** Este método sólo está implementado en Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -3845,9 +3845,9 @@ Devuelve la forma predeterminada del cursor del mouse establecida por :ref:`curs
 
 |void| **cursor_set_custom_image**\ (\ cursor\: :ref:`Resource<class_Resource>`, shape\: :ref:`CursorShape<enum_DisplayServer_CursorShape>` = 0, hotspot\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_DisplayServer_method_cursor_set_custom_image>`
 
-Sets a custom mouse cursor image for the given ``shape``. This means the user's operating system and mouse cursor theme will no longer influence the mouse cursor's appearance.
+Establece una imagen de cursor de ratón personalizada para la ``shape`` dada. Esto significa que el sistema operativo del usuario y el tema del cursor del ratón ya no influirán en la apariencia del cursor del ratón.
 
-\ ``cursor`` can be either a :ref:`Texture2D<class_Texture2D>` or an :ref:`Image<class_Image>`, and it should not be larger than 256×256 to display correctly. Optionally, ``hotspot`` can be set to offset the image's position relative to the click point. By default, ``hotspot`` is set to the top-left corner of the image. See also :ref:`cursor_set_shape()<class_DisplayServer_method_cursor_set_shape>`.
+\ ``cursor`` puede ser un :ref:`Texture2D<class_Texture2D>` o una :ref:`Image<class_Image>`, y no debe ser mayor de 256×256 para que se muestre correctamente. Opcionalmente, ``hotspot`` se puede establecer para desplazar la posición de la imagen con respecto al punto de clic. Por defecto, ``hotspot`` se establece en la esquina superior izquierda de la imagen. Véase también :ref:`cursor_set_shape()<class_DisplayServer_method_cursor_set_shape>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3859,7 +3859,7 @@ Sets a custom mouse cursor image for the given ``shape``. This means the user's 
 
 |void| **cursor_set_shape**\ (\ shape\: :ref:`CursorShape<enum_DisplayServer_CursorShape>`\ ) :ref:`🔗<class_DisplayServer_method_cursor_set_shape>`
 
-Sets the default mouse cursor shape. The cursor's appearance will vary depending on the user's operating system and mouse cursor theme. See also :ref:`cursor_get_shape()<class_DisplayServer_method_cursor_get_shape>` and :ref:`cursor_set_custom_image()<class_DisplayServer_method_cursor_set_custom_image>`.
+Establece la forma predeterminada del cursor del ratón. La apariencia del cursor variará dependiendo del sistema operativo del usuario y del tema del cursor del ratón. Véase también :ref:`cursor_get_shape()<class_DisplayServer_method_cursor_get_shape>` y :ref:`cursor_set_custom_image()<class_DisplayServer_method_cursor_set_custom_image>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3883,9 +3883,9 @@ Elimina el indicador de estado de la aplicación.
 
 :ref:`Error<enum_@GlobalScope_Error>` **dialog_input_text**\ (\ title\: :ref:`String<class_String>`, description\: :ref:`String<class_String>`, existing_text\: :ref:`String<class_String>`, callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_dialog_input_text>`
 
-Shows a text input dialog which uses the operating system's native look-and-feel. ``callback`` should accept a single :ref:`String<class_String>` parameter which contains the text field's contents.
+Muestra un diálogo de entrada de texto que utiliza la apariencia nativa del sistema operativo. ``callback`` debería aceptar un único parámetro :ref:`String<class_String>` que contenga el contenido del campo de texto.
 
-\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_DIALOG_INPUT<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_INPUT>` feature. Supported platforms include macOS, Windows, and Android.
+\ **Nota:** Este método se implementa si el servidor de visualización tiene la función :ref:`FEATURE_NATIVE_DIALOG_INPUT<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_INPUT>`. Las plataformas soportadas incluyen macOS, Windows y Android.
 
 .. rst-class:: classref-item-separator
 
@@ -3897,9 +3897,9 @@ Shows a text input dialog which uses the operating system's native look-and-feel
 
 :ref:`Error<enum_@GlobalScope_Error>` **dialog_show**\ (\ title\: :ref:`String<class_String>`, description\: :ref:`String<class_String>`, buttons\: :ref:`PackedStringArray<class_PackedStringArray>`, callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_dialog_show>`
 
-Shows a text dialog which uses the operating system's native look-and-feel. ``callback`` should accept a single :ref:`int<class_int>` parameter which corresponds to the index of the pressed button.
+Muestra un diálogo de texto que utiliza la apariencia nativa del sistema operativo. ``callback`` debería aceptar un único parámetro :ref:`int<class_int>` que corresponda al índice del botón pulsado.
 
-\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_DIALOG<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG>` feature. Supported platforms include macOS, Windows, and Android.
+\ **Nota:** Este método se implementa si el servidor de visualización tiene la función :ref:`FEATURE_NATIVE_DIALOG<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG>`. Las plataformas soportadas incluyen macOS, Windows y Android.
 
 .. rst-class:: classref-item-separator
 
@@ -3911,9 +3911,9 @@ Shows a text dialog which uses the operating system's native look-and-feel. ``ca
 
 |void| **enable_for_stealing_focus**\ (\ process_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_DisplayServer_method_enable_for_stealing_focus>`
 
-Allows the ``process_id`` PID to steal focus from this window. In other words, this disables the operating system's focus stealing protection for the specified PID.
+Permite que el PID ``process_id`` robe el foco de esta ventana. En otras palabras, esto desactiva la protección contra el robo de foco del sistema operativo para el PID especificado.
 
-\ **Note:** This method is implemented only on Windows.
+\ **Nota:** Este método sólo se implementa en Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -4162,9 +4162,9 @@ Returns the ID of the window at the specified screen ``position`` (in pixels). O
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_window_list**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_get_window_list>`
 
-Returns the list of Godot window IDs belonging to this process.
+Devuelve la lista de IDs de ventana de Godot que pertenecen a este proceso.
 
-\ **Note:** Native dialogs are not included in this list.
+\ **Nota:** Los diálogos nativos no se incluyen en esta lista.
 
 .. rst-class:: classref-item-separator
 
@@ -5038,9 +5038,9 @@ Sets the type of the item at the specified index ``idx`` to radio button. If ``f
 
 **Obsoleto:** Use :ref:`NativeMenu<class_NativeMenu>` or :ref:`PopupMenu<class_PopupMenu>` instead.
 
-Sets the state of a multistate item. See :ref:`global_menu_add_multistate_item()<class_DisplayServer_method_global_menu_add_multistate_item>` for details.
+Establece el estado de un elemento multiestado. Véase :ref:`global_menu_add_multistate_item()<class_DisplayServer_method_global_menu_add_multistate_item>` para obtener más detalles.
 
-\ **Note:** This method is implemented only on macOS.
+\ **Nota:** Este método solo está implementado en macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -5054,9 +5054,9 @@ Sets the state of a multistate item. See :ref:`global_menu_add_multistate_item()
 
 **Obsoleto:** Use :ref:`NativeMenu<class_NativeMenu>` or :ref:`PopupMenu<class_PopupMenu>` instead.
 
-Sets the submenu of the item at index ``idx``. The submenu is the ID of a global menu root that would be shown when the item is clicked.
+Establece el submenú del elemento en el índice ``idx``. El submenú es el ID de una raíz de menú global que se mostraría cuando se hace clic en el elemento.
 
-\ **Note:** This method is implemented only on macOS.
+\ **Nota:** Este método solo está implementado en macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -5070,9 +5070,9 @@ Sets the submenu of the item at index ``idx``. The submenu is the ID of a global
 
 **Obsoleto:** Use :ref:`NativeMenu<class_NativeMenu>` or :ref:`PopupMenu<class_PopupMenu>` instead.
 
-Sets the metadata of an item, which may be of any type. You can later get it with :ref:`global_menu_get_item_tag()<class_DisplayServer_method_global_menu_get_item_tag>`, which provides a simple way of assigning context data to items.
+Establece los metadatos de un elemento, que pueden ser de cualquier tipo. Puedes obtenerlo más tarde con :ref:`global_menu_get_item_tag()<class_DisplayServer_method_global_menu_get_item_tag>`, que proporciona una forma sencilla de asignar datos de contexto a los elementos.
 
-\ **Note:** This method is implemented only on macOS.
+\ **Nota:** Este método solo está implementado en macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -5086,9 +5086,9 @@ Sets the metadata of an item, which may be of any type. You can later get it wit
 
 **Obsoleto:** Use :ref:`NativeMenu<class_NativeMenu>` or :ref:`PopupMenu<class_PopupMenu>` instead.
 
-Sets the text of the item at index ``idx``.
+Establece el texto del elemento en el índice ``idx``.
 
-\ **Note:** This method is implemented only on macOS.
+\ **Nota:** Este método solo está implementado en macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -5118,7 +5118,7 @@ Sets the :ref:`String<class_String>` tooltip of the item at the specified index 
 
 **Obsoleto:** Use :ref:`NativeMenu<class_NativeMenu>` or :ref:`PopupMenu<class_PopupMenu>` instead.
 
-Registers callables to emit when the menu is respectively about to show or closed. Callback methods should have zero arguments.
+Registra callables para emitir cuando el menú está a punto de mostrarse o cerrarse, respectivamente. Los métodos de callback no deben tener argumentos.
 
 .. rst-class:: classref-item-separator
 
@@ -5130,7 +5130,7 @@ Registers callables to emit when the menu is respectively about to show or close
 
 :ref:`bool<class_bool>` **has_additional_outputs**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_has_additional_outputs>`
 
-Returns ``true`` if any additional outputs have been registered via :ref:`register_additional_output()<class_DisplayServer_method_register_additional_output>`.
+Devuelve ``true`` si se han registrado salidas adicionales a través de :ref:`register_additional_output()<class_DisplayServer_method_register_additional_output>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5142,7 +5142,7 @@ Returns ``true`` if any additional outputs have been registered via :ref:`regist
 
 :ref:`bool<class_bool>` **has_feature**\ (\ feature\: :ref:`Feature<enum_DisplayServer_Feature>`\ ) |const| :ref:`🔗<class_DisplayServer_method_has_feature>`
 
-Returns ``true`` if the specified ``feature`` is supported by the current **DisplayServer**, ``false`` otherwise.
+Devuelve ``true`` si la ``feature`` especificada es compatible con el **DisplayServer** actual, ``false`` en caso contrario.
 
 .. rst-class:: classref-item-separator
 
@@ -5154,9 +5154,9 @@ Returns ``true`` if the specified ``feature`` is supported by the current **Disp
 
 :ref:`bool<class_bool>` **has_hardware_keyboard**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_has_hardware_keyboard>`
 
-Returns ``true`` if a hardware keyboard is connected.
+Devuelve ``true`` si un teclado físico está conectado.
 
-\ **Note:** This method is implemented on Android and iOS. On other platforms, this method always returns ``true``.
+\ **Nota:** Este método está implementado en Android e iOS. En otras plataformas, este método siempre devuelve ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -5214,9 +5214,9 @@ Returns the composition string contained within the `Input Method Editor <https:
 
 :ref:`bool<class_bool>` **is_dark_mode**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_is_dark_mode>`
 
-Returns ``true`` if OS is using dark mode.
+Devuelve ``true`` si el sistema operativo está usando el modo oscuro.
 
-\ **Note:** This method is implemented on Android, iOS, macOS, Windows, and Linux (X11/Wayland).
+\ **Nota:** Este método solo está implementado en Android, iOS, macOS, Windows y Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -5228,9 +5228,9 @@ Returns ``true`` if OS is using dark mode.
 
 :ref:`bool<class_bool>` **is_dark_mode_supported**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_is_dark_mode_supported>`
 
-Returns ``true`` if OS supports dark mode.
+Devuelve ``true`` si el sistema operativo usa el modo oscuro.
 
-\ **Note:** This method is implemented on Android, iOS, macOS, Windows, and Linux (X11/Wayland).
+\ **Nota:** Este método está implementado en Android, iOS, macOS, Windows y Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -5242,7 +5242,7 @@ Returns ``true`` if OS supports dark mode.
 
 :ref:`bool<class_bool>` **is_touchscreen_available**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_is_touchscreen_available>`
 
-Returns ``true`` if touch events are available (Android or iOS), the capability is detected on the Web platform or if :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` is ``true``.
+Devuelve ``true`` si los eventos táctiles están disponibles (Android o iOS), la capacidad se detecta en la plataforma web o si :ref:`ProjectSettings.input_devices/pointing/emulate_touch_from_mouse<class_ProjectSettings_property_input_devices/pointing/emulate_touch_from_mouse>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -5254,7 +5254,7 @@ Returns ``true`` if touch events are available (Android or iOS), the capability 
 
 :ref:`bool<class_bool>` **is_window_transparency_available**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_is_window_transparency_available>`
 
-Returns ``true`` if the window background can be made transparent. This method returns ``false`` if :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` is set to ``false``, or if transparency is not supported by the renderer or OS compositor.
+Devuelve ``true`` si el fondo de la ventana puede ser transparente. Este método devuelve ``false`` si :ref:`ProjectSettings.display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` está establecido a ``false``, o si la transparencia no es compatible con el renderizador o el compositor del sistema operativo.
 
 .. rst-class:: classref-item-separator
 
@@ -5266,9 +5266,9 @@ Returns ``true`` if the window background can be made transparent. This method r
 
 :ref:`int<class_int>` **keyboard_get_current_layout**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_keyboard_get_current_layout>`
 
-Returns active keyboard layout index.
+Devuelve el índice de la disposición del teclado activa.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS, and Windows.
+\ **Nota:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5280,9 +5280,9 @@ Returns active keyboard layout index.
 
 :ref:`Key<enum_@GlobalScope_Key>` **keyboard_get_keycode_from_physical**\ (\ keycode\: :ref:`Key<enum_@GlobalScope_Key>`\ ) |const| :ref:`🔗<class_DisplayServer_method_keyboard_get_keycode_from_physical>`
 
-Converts a physical (US QWERTY) ``keycode`` to one in the active keyboard layout.
+Convierte un ``keycode`` físico (US QWERTY) a uno en la disposición del teclado activa.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS and Windows.
+\ **Nota:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5294,9 +5294,9 @@ Converts a physical (US QWERTY) ``keycode`` to one in the active keyboard layout
 
 :ref:`Key<enum_@GlobalScope_Key>` **keyboard_get_label_from_physical**\ (\ keycode\: :ref:`Key<enum_@GlobalScope_Key>`\ ) |const| :ref:`🔗<class_DisplayServer_method_keyboard_get_label_from_physical>`
 
-Converts a physical (US QWERTY) ``keycode`` to localized label printed on the key in the active keyboard layout.
+Convierte un ``keycode`` físico (US QWERTY) a la etiqueta localizada impresa en la tecla en la disposición del teclado activa.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS and Windows.
+\ **Nota:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5308,9 +5308,9 @@ Converts a physical (US QWERTY) ``keycode`` to localized label printed on the ke
 
 :ref:`int<class_int>` **keyboard_get_layout_count**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_keyboard_get_layout_count>`
 
-Returns the number of keyboard layouts.
+Devuelve el número de distribuciones de teclado.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS and Windows.
+\ **Nota:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5322,9 +5322,9 @@ Returns the number of keyboard layouts.
 
 :ref:`String<class_String>` **keyboard_get_layout_language**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_DisplayServer_method_keyboard_get_layout_language>`
 
-Returns the ISO-639/BCP-47 language code of the keyboard layout at position ``index``.
+Devuelve el código de idioma ISO-639/BCP-47 de la distribución de teclado en la posición ``index``.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS and Windows.
+\ **Nota:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5336,9 +5336,9 @@ Returns the ISO-639/BCP-47 language code of the keyboard layout at position ``in
 
 :ref:`String<class_String>` **keyboard_get_layout_name**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_DisplayServer_method_keyboard_get_layout_name>`
 
-Returns the localized name of the keyboard layout at position ``index``.
+Devuelve el nombre localizado de la distribución de teclado en la posición ``index``.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS and Windows.
+\ **Note:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5350,9 +5350,9 @@ Returns the localized name of the keyboard layout at position ``index``.
 
 |void| **keyboard_set_current_layout**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_DisplayServer_method_keyboard_set_current_layout>`
 
-Sets the active keyboard layout.
+Establece la distribución de teclado activa.
 
-\ **Note:** This method is implemented on Linux (X11/Wayland), macOS and Windows.
+\ **Nota:** Este método está implementado en Linux (X11/Wayland), macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -5364,7 +5364,7 @@ Sets the active keyboard layout.
 
 |bitfield|\[:ref:`MouseButtonMask<enum_@GlobalScope_MouseButtonMask>`\] **mouse_get_button_state**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_mouse_get_button_state>`
 
-Returns the current state of mouse buttons (whether each button is pressed) as a bitmask. If multiple mouse buttons are pressed at the same time, the bits are added together. Equivalent to :ref:`Input.get_mouse_button_mask()<class_Input_method_get_mouse_button_mask>`.
+Devuelve el estado actual de los botones del ratón (si cada botón está presionado) como una máscara de bits. Si se presionan varios botones del ratón al mismo tiempo, los bits se suman. Equivalente a :ref:`Input.get_mouse_button_mask()<class_Input_method_get_mouse_button_mask>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5388,7 +5388,7 @@ Devuelve el modo actual del ratón. Véase también :ref:`mouse_set_mode()<class
 
 :ref:`Vector2i<class_Vector2i>` **mouse_get_position**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_mouse_get_position>`
 
-Returns the mouse cursor's current position in screen coordinates.
+Devuelve la posición actual del cursor del ratón en coordenadas de pantalla.
 
 .. rst-class:: classref-item-separator
 
@@ -5412,7 +5412,7 @@ Establece el modo actual del ratón. Véase también :ref:`mouse_get_mode()<clas
 
 |void| **process_events**\ (\ ) :ref:`🔗<class_DisplayServer_method_process_events>`
 
-Perform window manager processing, including input flushing. See also :ref:`force_process_and_drop_events()<class_DisplayServer_method_force_process_and_drop_events>`, :ref:`Input.flush_buffered_events()<class_Input_method_flush_buffered_events>` and :ref:`Input.use_accumulated_input<class_Input_property_use_accumulated_input>`.
+Realiza el procesamiento del administrador de ventanas, incluyendo el vaciado de entrada. Véase también :ref:`force_process_and_drop_events()<class_DisplayServer_method_force_process_and_drop_events>`, :ref:`Input.flush_buffered_events()<class_Input_method_flush_buffered_events>` y :ref:`Input.use_accumulated_input<class_Input_property_use_accumulated_input>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5424,9 +5424,9 @@ Perform window manager processing, including input flushing. See also :ref:`forc
 
 |void| **register_additional_output**\ (\ object\: :ref:`Object<class_Object>`\ ) :ref:`🔗<class_DisplayServer_method_register_additional_output>`
 
-Registers an :ref:`Object<class_Object>` which represents an additional output that will be rendered too, beyond normal windows. The :ref:`Object<class_Object>` is only used as an identifier, which can be later passed to :ref:`unregister_additional_output()<class_DisplayServer_method_unregister_additional_output>`.
+Registra un :ref:`Object<class_Object>` que representa una salida adicional que también se renderizará, más allá de las ventanas normales. El :ref:`Object<class_Object>` solo se utiliza como un identificador, que puede ser pasado más tarde a :ref:`unregister_additional_output()<class_DisplayServer_method_unregister_additional_output>`.
 
-This can be used to prevent Godot from skipping rendering when no normal windows are visible.
+Esto se puede usar para evitar que Godot omita el renderizado cuando no hay ventanas normales visibles.
 
 .. rst-class:: classref-item-separator
 
@@ -6156,7 +6156,7 @@ Devuelve el ID de la ventana emergente activa, o :ref:`INVALID_WINDOW_ID<class_D
 
 :ref:`int<class_int>` **window_get_attached_instance_id**\ (\ window_id\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_DisplayServer_method_window_get_attached_instance_id>`
 
-Returns the :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>` of the :ref:`Window<class_Window>` the ``window_id`` is attached to.
+Devuelve el :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>` de la :ref:`Window<class_Window>` al que está adjunto ``window_id``.
 
 .. rst-class:: classref-item-separator
 
@@ -6194,7 +6194,7 @@ Devuelve el valor actual del ``flag`` de la ventana dada.
 
 :ref:`Vector2i<class_Vector2i>` **window_get_max_size**\ (\ window_id\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_DisplayServer_method_window_get_max_size>`
 
-Returns the window's maximum size (in pixels). See also :ref:`window_set_max_size()<class_DisplayServer_method_window_set_max_size>`.
+Devuelve el tamaño máximo de la ventana (en píxeles). Véase también :ref:`window_set_max_size()<class_DisplayServer_method_window_set_max_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6206,7 +6206,7 @@ Returns the window's maximum size (in pixels). See also :ref:`window_set_max_siz
 
 :ref:`Vector2i<class_Vector2i>` **window_get_min_size**\ (\ window_id\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_DisplayServer_method_window_get_min_size>`
 
-Returns the window's minimum size (in pixels). See also :ref:`window_set_min_size()<class_DisplayServer_method_window_set_min_size>`.
+Devuelve el tamaño mínimo de la ventana (en píxeles). Véase también :ref:`window_set_min_size()<class_DisplayServer_method_window_set_min_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -6244,7 +6244,7 @@ Devuelve punteros a la estructura interna para su uso en plugins.
 
 :ref:`Rect2i<class_Rect2i>` **window_get_popup_safe_rect**\ (\ window\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_DisplayServer_method_window_get_popup_safe_rect>`
 
-Returns the bounding box of control, or menu item that was used to open the popup window, in the screen coordinate system.
+Devuelve el cuadro delimitador del control, o el elemento del menú que se utilizó para abrir la ventana emergente, en el sistema de coordenadas de la pantalla.
 
 .. rst-class:: classref-item-separator
 
@@ -6678,9 +6678,9 @@ Sets the ``callback`` that will be called when the window specified by ``window_
 
 |void| **window_set_size**\ (\ size\: :ref:`Vector2i<class_Vector2i>`, window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_set_size>`
 
-Sets the size of the given window to ``size`` (in pixels). See also :ref:`window_get_size()<class_DisplayServer_method_window_get_size>` and :ref:`window_get_position()<class_DisplayServer_method_window_get_position>`.
+Establece el tamaño de la ventana dada a ``size`` (en píxeles). Véase también :ref:`window_get_size()<class_DisplayServer_method_window_get_size>` y :ref:`window_get_position()<class_DisplayServer_method_window_get_position>`.
 
-\ **Note:** It's recommended to change this value using :ref:`Window.size<class_Window_property_size>` instead.
+\ **Nota:** Se recomienda cambiar este valor usando :ref:`Window.size<class_Window_property_size>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -6692,11 +6692,11 @@ Sets the size of the given window to ``size`` (in pixels). See also :ref:`window
 
 |void| **window_set_title**\ (\ title\: :ref:`String<class_String>`, window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_set_title>`
 
-Sets the title of the given window to ``title``.
+Establece el título de la ventana dada a ``title``.
 
-\ **Note:** It's recommended to change this value using :ref:`Window.title<class_Window_property_title>` instead.
+\ **Nota:** Se recomienda cambiar este valor usando :ref:`Window.title<class_Window_property_title>` en su lugar.
 
-\ **Note:** Avoid changing the window title every frame, as this can cause performance issues on certain window managers. Try to change the window title only a few times per second at most.
+\ **Nota:** Evita cambiar el título de la ventana cada fotograma, ya que esto puede causar problemas de rendimiento en ciertos administradores de ventanas. Intenta cambiar el título de la ventana solo unas pocas veces por segundo como máximo.
 
 .. rst-class:: classref-item-separator
 

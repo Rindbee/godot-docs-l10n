@@ -9,7 +9,7 @@ GraphNode
 
 **Hérite de :** :ref:`GraphElement<class_GraphElement>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container with connection ports, representing a node in a :ref:`GraphEdit<class_GraphEdit>`.
+Un conteneur avec des ports de connexion, représentant un nœud dans un :ref:`GraphEdit<class_GraphEdit>`.
 
 .. rst-class:: classref-introduction-group
 

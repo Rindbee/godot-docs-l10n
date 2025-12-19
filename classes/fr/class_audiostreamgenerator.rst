@@ -188,15 +188,15 @@ La longueur de la mémoire tampon à générer (en secondes). Les valeurs infér
 - |void| **set_mix_rate**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_mix_rate**\ (\ )
 
-The sample rate to use (in Hz). Higher values are more demanding for the CPU to generate, but result in better quality.
+Le taux d'échantillonnage à utiliser (en Hz). Les valeurs plus élevées demandent plus de puissance de CPU, mais cela résulte en une meilleure qualité.
 
-In games, common sample rates in use are ``11025``, ``16000``, ``22050``, ``32000``, ``44100``, and ``48000``.
+Dans les jeux, les taux d'échantillonnage courants sont ``11025``, ``16000``, ``22050``, ``32000``, ``44100``, et ``48000``.
 
-According to the `Nyquist-Shannon sampling theorem <https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem>`__, there is no quality difference to human hearing when going past 40,000 Hz (since most humans can only hear up to ~20,000 Hz, often less). If you are generating lower-pitched sounds such as voices, lower sample rates such as ``32000`` or ``22050`` may be usable with no loss in quality.
+D'après le `Théorème d'échantillonnage <https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_d'%C3%A9chantillonnage>`__, il n'y a aucune différence de qualité pour l'audition humaine au-delà de 40 000 Hz (puisque la plupart des humains ne peuvent entendre que jusqu'à 20 000 Hz, et souvent bien moins). Si vous générez des sons inférieurs tels que les voix, des taux d'échantillonnage inférieurs tels que ``32000`` ou ``22050`` peuvent être utilisables sans perte de qualité.
 
-\ **Note:** **AudioStreamGenerator** is not automatically resampling input data, to produce expected result :ref:`mix_rate_mode<class_AudioStreamGenerator_property_mix_rate_mode>` should match the sampling rate of input data.
+\ **Note :** **AudioStreamGenerator** ne ré-échantillonne pas les données d'entrée, pour produire le résultat attendu :ref:`mix_rate_mode<class_AudioStreamGenerator_property_mix_rate_mode>` devrait correspondre au taux d'échantillonnage des données d'entrée.
 
-\ **Note:** If you are using :ref:`AudioEffectCapture<class_AudioEffectCapture>` as the source of your data, set :ref:`mix_rate_mode<class_AudioStreamGenerator_property_mix_rate_mode>` to :ref:`MIX_RATE_INPUT<class_AudioStreamGenerator_constant_MIX_RATE_INPUT>` or :ref:`MIX_RATE_OUTPUT<class_AudioStreamGenerator_constant_MIX_RATE_OUTPUT>` to automatically match current :ref:`AudioServer<class_AudioServer>` mixing rate.
+\ **Note :** Si vous utilisez :ref:`AudioEffectCapture<class_AudioEffectCapture>` comme source de vos données, définissez :ref:`mix_rate_mode<class_AudioStreamGenerator_property_mix_rate_mode>` à :ref:`MIX_RATE_INPUT<class_AudioStreamGenerator_constant_MIX_RATE_INPUT>` ou :ref:`MIX_RATE_OUTPUT<class_AudioStreamGenerator_constant_MIX_RATE_OUTPUT>` pour correspondre automatiquement au taux de mixage de l':ref:`AudioServer<class_AudioServer>` courant.
 
 .. rst-class:: classref-item-separator
 

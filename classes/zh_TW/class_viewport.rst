@@ -1921,7 +1921,9 @@ If ``true``, vertices of :ref:`CanvasItem<class_CanvasItem>` nodes will snap to 
 - |void| **set_transparent_background**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **has_transparent_background**\ (\ )
 
-如果為 ``true``\ ，該視口應使其背景算繪為透明。
+如果為\ ``真``\ ，則視口背景應渲染為透明。
+
+\ **注意：** 由於技術限制，當視口背景透明時，某些渲染功能將被停用。目前，螢幕空間反射、次表面散射和景深效果均會受到影響。
 
 .. rst-class:: classref-item-separator
 

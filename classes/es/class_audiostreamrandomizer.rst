@@ -117,7 +117,7 @@ Descripciones de Propiedades
 - |void| **set_playback_mode**\ (\ value\: :ref:`PlaybackMode<enum_AudioStreamRandomizer_PlaybackMode>`\ )
 - :ref:`PlaybackMode<enum_AudioStreamRandomizer_PlaybackMode>` **get_playback_mode**\ (\ )
 
-Controls how this AudioStreamRandomizer picks which AudioStream to play next.
+Controla cómo este AudioStreamRandomizer elige qué AudioStream reproducir a continuación.
 
 .. rst-class:: classref-item-separator
 
@@ -134,7 +134,7 @@ Controls how this AudioStreamRandomizer picks which AudioStream to play next.
 - |void| **set_random_pitch**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_random_pitch**\ (\ )
 
-The intensity of random pitch variation. A value of 1 means no variation.
+La intensidad de la variación de tono aleatoria. Un valor de 1 significa que no hay variación.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ The intensity of random pitch variation. A value of 1 means no variation.
 - |void| **set_random_volume_offset_db**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_random_volume_offset_db**\ (\ )
 
-The intensity of random volume variation. A value of 0 means no variation.
+La intensidad de la variación de volumen aleatoria. Un valor de 0 significa que no hay variación.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Elimina la transmisión en el índice especificado.
 
 |void| **set_stream**\ (\ index\: :ref:`int<class_int>`, stream\: :ref:`AudioStream<class_AudioStream>`\ ) :ref:`🔗<class_AudioStreamRandomizer_method_set_stream>`
 
-Set the AudioStream at the specified index.
+Establece el AudioStream en el índice especificado.
 
 .. rst-class:: classref-item-separator
 

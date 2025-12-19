@@ -14,7 +14,7 @@ Sonda de iluminación global (GI) en tiempo real.
 Descripción
 ----------------------
 
-Los **VoxelGI** se utilizan para proporcionar luz indirecta y reflejos en tiempo real de alta calidad a las escenas. Precálculan el efecto de los objetos que emiten luz y el efecto de la geometría estática para simular el comportamiento de la luz compleja en tiempo real. Los **VoxelGI** necesitan ser procesados antes de tener un efecto visible. Sin embargo, una vez procesados, los objetos dinámicos recibirán luz de ellos. Además, las luces pueden ser totalmente dinámicas u horneadas.
+Los **VoxelGI** se utilizan para proporcionar luz indirecta y reflejos en tiempo real de alta calidad a las escenas. Precálculan el efecto de los objetos que emiten luz y el efecto de la geometría estática para simular el comportamiento de la luz compleja en tiempo real. Los **VoxelGI** necesitan ser procesados antes de tener un efecto visible. Sin embargo, una vez procesados, los objetos dinámicos recibirán luz de ellos. Además, las luces pueden ser totalmente dinámicas u procesadas.
 
 \ **Nota:** **VoxelGI** solo se admite en el método de renderizado Forward+, no en Mobile o Compatibility.
 
@@ -210,9 +210,9 @@ Descripciones de Métodos
 
 |void| **bake**\ (\ from_node\: :ref:`Node<class_Node>` = null, create_visual_debug\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_VoxelGI_method_bake>`
 
-Hornea el efecto de todos los :ref:`GeometryInstance3D<class_GeometryInstance3D>` marcados con :ref:`GeometryInstance3D.GI_MODE_STATIC<class_GeometryInstance3D_constant_GI_MODE_STATIC>` y los :ref:`Light3D<class_Light3D>` marcados con :ref:`Light3D.BAKE_STATIC<class_Light3D_constant_BAKE_STATIC>` o :ref:`Light3D.BAKE_DYNAMIC<class_Light3D_constant_BAKE_DYNAMIC>`. Si ``create_visual_debug`` es ``true``, después de procesar la luz, esto generará un :ref:`MultiMesh<class_MultiMesh>` que tiene un cubo que representa cada celda sólida con cada cubo coloreado al color albedo de la celda. Esto puede usarse para visualizar los datos del **VoxelGI** y depurar cualquier problema que pueda estar ocurriendo.
+Procesa el efecto de todos los :ref:`GeometryInstance3D<class_GeometryInstance3D>` marcados con :ref:`GeometryInstance3D.GI_MODE_STATIC<class_GeometryInstance3D_constant_GI_MODE_STATIC>` y los :ref:`Light3D<class_Light3D>` marcados con :ref:`Light3D.BAKE_STATIC<class_Light3D_constant_BAKE_STATIC>` o :ref:`Light3D.BAKE_DYNAMIC<class_Light3D_constant_BAKE_DYNAMIC>`. Si ``create_visual_debug`` es ``true``, después de procesar la luz, esto generará un :ref:`MultiMesh<class_MultiMesh>` que tiene un cubo que representa cada celda sólida con cada cubo coloreado al color albedo de la celda. Esto puede usarse para visualizar los datos del **VoxelGI** y depurar cualquier problema que pueda estar ocurriendo.
 
-\ **Nota:** :ref:`bake()<class_VoxelGI_method_bake>` funciona desde el editor y en proyectos exportados. Esto lo hace adecuado para niveles generados proceduralmente o construidos por el usuario. Hornear un nodo **VoxelGI** generalmente toma de 5 a 20 segundos en la mayoría de las escenas. Reducir :ref:`subdiv<class_VoxelGI_property_subdiv>` puede acelerar el procesado.
+\ **Nota:** :ref:`bake()<class_VoxelGI_method_bake>` funciona desde el editor y en proyectos exportados. Esto lo hace adecuado para niveles generados proceduralmente o construidos por el usuario. Procesar un nodo **VoxelGI** generalmente toma de 5 a 20 segundos en la mayoría de las escenas. Reducir :ref:`subdiv<class_VoxelGI_property_subdiv>` puede acelerar el procesado.
 
 \ **Nota:** Los :ref:`GeometryInstance3D<class_GeometryInstance3D>` y :ref:`Light3D<class_Light3D>` deben estar completamente listos antes de llamar a :ref:`bake()<class_VoxelGI_method_bake>`. Si los está creando proceduralmente y faltan algunas mallas o luces en su **VoxelGI** procesado, use ``call_deferred("bake")`` en lugar de llamar a :ref:`bake()<class_VoxelGI_method_bake>` directamente.
 

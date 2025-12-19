@@ -7,16 +7,16 @@ OfflineMultiplayerPeer
 
 **Hérite de :** :ref:`MultiplayerPeer<class_MultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A :ref:`MultiplayerPeer<class_MultiplayerPeer>` which is always connected and acts as a server.
+Un :ref:`MultiplayerPeer<class_MultiplayerPeer>` qui est toujours connecté et agit comme un serveur.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This is the default :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` for the :ref:`Node.multiplayer<class_Node_property_multiplayer>`. It mimics the behavior of a server with no peers connected.
+Il s'agit du :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` par défaut pour :ref:`Node.multiplayer<class_Node_property_multiplayer>`. Il imite le comportement d'un serveur sans pairs connectés.
 
-This means that the :ref:`SceneTree<class_SceneTree>` will act as the multiplayer authority by default. Calls to :ref:`MultiplayerAPI.is_server()<class_MultiplayerAPI_method_is_server>` will return ``true``, and calls to :ref:`MultiplayerAPI.get_unique_id()<class_MultiplayerAPI_method_get_unique_id>` will return :ref:`MultiplayerPeer.TARGET_PEER_SERVER<class_MultiplayerPeer_constant_TARGET_PEER_SERVER>`.
+Cela signifie que le :ref:`SceneTree<class_SceneTree>` agira en tant qu'autorité multijoueur par défaut. Les appels à :ref:`MultiplayerAPI.is_server()<class_MultiplayerAPI_method_is_server>` renverront ``true``, et les appels à :ref:`MultiplayerAPI.get_unique_id()<class_MultiplayerAPI_method_get_unique_id>` renverront :ref:`MultiplayerPeer.TARGET_PEER_SERVER<class_MultiplayerPeer_constant_TARGET_PEER_SERVER>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

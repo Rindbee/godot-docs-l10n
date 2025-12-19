@@ -809,7 +809,7 @@ Renvoie la même valeur comme si ``+`` n'était pas là. Le ``+`` unaire ne fait
 
 :ref:`Vector2i<class_Vector2i>` **operator unary-**\ (\ ) :ref:`🔗<class_Vector2i_operator_unminus>`
 
-Renvoie la valeur négative du **Vector2i**. C'est la même chose qu'écrire ``Vector2i(-v.x, -v.y)``. Cette opération retourne la direction du vecteur tout en gardant la même magnitude.
+Renvoie la valeur négative du **Vector2i**. Revient à écrire ``Vector2i(-v.x, -v.y)``. Cette opération retourne la direction du vecteur tout en gardant la même magnitude.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

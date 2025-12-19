@@ -14,13 +14,13 @@ Un :ref:`Cubemap<class_Cubemap>` sans données d'image.
 Description
 -----------
 
-This class replaces a :ref:`Cubemap<class_Cubemap>` or a :ref:`Cubemap<class_Cubemap>`-derived class in 2 conditions:
+Cette classe remplace une classe :ref:`Cubemap<class_Cubemap>` ou une classe dérivée de :ref:`Cubemap<class_Cubemap>` dans 2 cas :
 
-- In dedicated server mode, where the image data shouldn't affect game logic. This allows reducing the exported PCK's size significantly.
+- En mode serveur dédié, où les données d'image ne devraient pas affecter la logique du jeu. Cela permet de réduire considérablement la taille du PCK exporté.
 
-- When the :ref:`Cubemap<class_Cubemap>`-derived class is missing, for example when using a different engine version.
+- Lorsque la classe dérivée de :ref:`Cubemap<class_Cubemap>` est manquante, par exemple en utilisant une autre version du moteur.
 
-\ **Note:** This class is not intended for rendering or for use in shaders. Operations like calculating UV are not guaranteed to work.
+\ **Note :** Cette classe n'est pas destinée au rendu ou à l'utilisation dans les shaders. Les opérations comme le calcul des UV ne sont pas garanties de fonctionner.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

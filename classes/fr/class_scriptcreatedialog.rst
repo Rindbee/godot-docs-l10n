@@ -7,14 +7,14 @@ ScriptCreateDialog
 
 **Hérite de :** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Godot editor's popup dialog for creating new :ref:`Script<class_Script>` files.
+La fenêtre contextuelle de l'éditeur Godot pour créer de nouveaux fichiers :ref:`Script<class_Script>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-The **ScriptCreateDialog** creates script files according to a given template for a given scripting language. The standard use is to configure its fields prior to calling one of the :ref:`Window.popup()<class_Window_method_popup>` methods.
+Le **ScriptCreateDialog** crée des fichiers de script selon un modèle donné pour un langage de script donné. L'utilisation standard est de configurer ses champs avant d'appeler l'une des méthodes :ref:`Window.popup()<class_Window_method_popup>`.
 
 
 .. tabs::
@@ -23,8 +23,8 @@ The **ScriptCreateDialog** creates script files according to a given template fo
 
     func _ready():
         var dialog = ScriptCreateDialog.new();
-        dialog.config("Node", "res://new_node.gd") # For in-engine types.
-        dialog.config("\"res://base_node.gd\"", "res://derived_node.gd") # For script types.
+        dialog.config("Node", "res://nouveau_noeud.gd") # Pour les types du moteur.
+        dialog.config("\"res://noeud_de_base.gd\"", "res://noeud_derive.gd") # Pour les types de scripts.
         dialog.popup_centered()
 
  .. code-tab:: csharp
@@ -32,8 +32,8 @@ The **ScriptCreateDialog** creates script files according to a given template fo
     public override void _Ready()
     {
         var dialog = new ScriptCreateDialog();
-        dialog.Config("Node", "res://NewNode.cs"); // For in-engine types.
-        dialog.Config("\"res://BaseNode.cs\"", "res://DerivedNode.cs"); // For script types.
+        dialog.Config("Node", "res://NouveauNoeud.cs"); // Pour les types du moteur.
+        dialog.Config("\"res://NoeudDeBase.cs\"", "res://NoeudDerive.cs"); // Pour les types de scripts.
         dialog.PopupCentered();
     }
 

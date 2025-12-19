@@ -7,7 +7,7 @@ ScriptLanguage
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`ScriptLanguageExtension<class_ScriptLanguageExtension>`
+**Hérité par :** :ref:`ScriptLanguageExtension<class_ScriptLanguageExtension>`
 
 .. container:: contribute
 

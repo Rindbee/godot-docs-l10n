@@ -89,7 +89,7 @@ Descriptions des méthodes
 
 |void| **add_blend_shape**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ImporterMesh_method_add_blend_shape>`
 
-Ajoute le nom d'une blendshape qui sera ajoutée avec :ref:`add_surface()<class_ImporterMesh_method_add_surface>`. Doit être appelée avant l'ajout de la surface.
+Ajoute le nom d'une blend shape qui sera ajoutée avec :ref:`add_surface()<class_ImporterMesh_method_add_surface>`. Doit être appelée avant l'ajout de la surface.
 
 .. rst-class:: classref-item-separator
 
@@ -341,7 +341,7 @@ Renvoie le type de primitive de la surface demandée (voir :ref:`add_surface()<c
 
 |void| **set_blend_shape_mode**\ (\ mode\: :ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>`\ ) :ref:`🔗<class_ImporterMesh_method_set_blend_shape_mode>`
 
-Définit le mode de blendshape.
+Définit le mode de blend shape.
 
 .. rst-class:: classref-item-separator
 

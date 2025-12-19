@@ -7,14 +7,14 @@ FramebufferCacheRD
 
 **Hereda:** :ref:`Object<class_Object>`
 
-Framebuffer cache manager for Rendering Device based renderers.
+Administrador de caché de framebuffer para renderizadores basados en el Dispositivo de Renderizado.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Framebuffer cache manager for Rendering Device based renderers. Provides a way to create a framebuffer and reuse it in subsequent calls for as long as the used textures exists. Framebuffers will automatically be cleaned up when dependent objects are freed.
+Administrador de caché de framebuffer para renderizadores basados en el Dispositivo de Renderizado. Proporciona una forma de crear un framebuffer y reutilizarlo en llamadas posteriores mientras existan las texturas utilizadas. Los framebuffers se limpiarán automáticamente cuando se liberen los objetos dependientes.
 
 .. rst-class:: classref-reftable-group
 
@@ -43,7 +43,7 @@ Descripciones de Métodos
 
 :ref:`RID<class_RID>` **get_cache_multipass**\ (\ textures\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], passes\: :ref:`Array<class_Array>`\[:ref:`RDFramebufferPass<class_RDFramebufferPass>`\], views\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_FramebufferCacheRD_method_get_cache_multipass>`
 
-Creates, or obtains a cached, framebuffer. ``textures`` lists textures accessed. ``passes`` defines the subpasses and texture allocation, if left empty a single pass is created and textures are allocated depending on their usage flags. ``views`` defines the number of views used when rendering.
+Crea u obtiene un framebuffer en caché. ``textures`` enumera las texturas a las que se accede. ``passes`` define los subpases y la asignación de texturas; si se deja vacío, se crea un solo pase y las texturas se asignan según sus flags de uso. ``views`` define el número de vistas utilizadas al renderizar.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

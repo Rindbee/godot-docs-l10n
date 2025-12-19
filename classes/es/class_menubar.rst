@@ -7,14 +7,14 @@ MenuBar
 
 **Hereda:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A horizontal menu bar that creates a menu for each :ref:`PopupMenu<class_PopupMenu>` child.
+Una barra de menú horizontal que crea un menú para cada hijo :ref:`PopupMenu<class_PopupMenu>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A horizontal menu bar that creates a menu for each :ref:`PopupMenu<class_PopupMenu>` child. New items are created by adding :ref:`PopupMenu<class_PopupMenu>`\ s to this node. Item title is determined by :ref:`Window.title<class_Window_property_title>`, or node name if :ref:`Window.title<class_Window_property_title>` is empty. Item title can be overridden using :ref:`set_menu_title()<class_MenuBar_method_set_menu_title>`.
+Una barra de menú horizontal que crea un menú para cada hijo :ref:`PopupMenu<class_PopupMenu>`. Se crean nuevos elementos añadiendo :ref:`PopupMenu<class_PopupMenu>`\ s a este nodo. El título del elemento está determinado por :ref:`Window.title<class_Window_property_title>`, o el nombre del nodo si :ref:`Window.title<class_Window_property_title>` está vacío. El título del elemento se puede sobrescribir usando :ref:`set_menu_title()<class_MenuBar_method_set_menu_title>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -146,7 +146,7 @@ Descripciones de Propiedades
 - |void| **set_flat**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_flat**\ (\ )
 
-Flat **MenuBar** don't display item decoration.
+Los **MenuBar** planos no muestran la decoración del elemento.
 
 .. rst-class:: classref-item-separator
 
@@ -163,7 +163,7 @@ Flat **MenuBar** don't display item decoration.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for line-breaking and text shaping algorithms, if left empty current locale is used instead.
+Código de idioma utilizado para los algoritmos de salto de línea y forma del texto, si se deja vacío se utiliza la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -180,11 +180,11 @@ Language code used for line-breaking and text shaping algorithms, if left empty 
 - |void| **set_prefer_global_menu**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_prefer_global_menu**\ (\ )
 
-If ``true``, **MenuBar** will use system global menu when supported.
+Si es ``true``, **MenuBar** usará el menú global del sistema cuando sea compatible.
 
-\ **Note:** If ``true`` and global menu is supported, this node is not displayed, has zero size, and all its child nodes except :ref:`PopupMenu<class_PopupMenu>`\ s are inaccessible.
+\ **Nota:** Si es ``true`` y el menú global es compatible, este nodo no se muestra, tiene tamaño cero y todos sus nodos hijo, excepto los :ref:`PopupMenu<class_PopupMenu>`\ s, son inaccesibles.
 
-\ **Note:** This property overrides the value of the :ref:`PopupMenu.prefer_native_menu<class_PopupMenu_property_prefer_native_menu>` property of the child nodes.
+\ **Nota:** Esta propiedad anula el valor de la propiedad :ref:`PopupMenu.prefer_native_menu<class_PopupMenu_property_prefer_native_menu>` de los nodos hijo.
 
 .. rst-class:: classref-item-separator
 
@@ -201,7 +201,7 @@ If ``true``, **MenuBar** will use system global menu when supported.
 - |void| **set_start_index**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_start_index**\ (\ )
 
-Position order in the global menu to insert **MenuBar** items at. All menu items in the **MenuBar** are always inserted as a continuous range. Menus with lower :ref:`start_index<class_MenuBar_property_start_index>` are inserted first. Menus with :ref:`start_index<class_MenuBar_property_start_index>` equal to ``-1`` are inserted last.
+Orden de posición en el menú global para insertar los elementos **MenuBar**. Todos los elementos del menú en la **MenuBar** siempre se insertan como un rango continuo. Los menús con :ref:`start_index<class_MenuBar_property_start_index>` más bajo se insertan primero. Los menús con :ref:`start_index<class_MenuBar_property_start_index>` igual a ``-1`` se insertan al final.
 
 .. rst-class:: classref-item-separator
 
@@ -218,7 +218,7 @@ Position order in the global menu to insert **MenuBar** items at. All menu items
 - |void| **set_switch_on_hover**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_switch_on_hover**\ (\ )
 
-If ``true``, when the cursor hovers above menu item, it will close the current :ref:`PopupMenu<class_PopupMenu>` and open the other one.
+Si es ``true``, cuando el cursor se sitúa sobre un elemento del menú, cerrará el :ref:`PopupMenu<class_PopupMenu>` actual y abrirá el otro.
 
 .. rst-class:: classref-item-separator
 
@@ -235,7 +235,7 @@ If ``true``, when the cursor hovers above menu item, it will close the current :
 - |void| **set_text_direction**\ (\ value\: :ref:`TextDirection<enum_Control_TextDirection>`\ )
 - :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ )
 
-Base text writing direction.
+Dirección base de escritura del texto.
 
 .. rst-class:: classref-section-separator
 
@@ -252,7 +252,7 @@ Descripciones de Métodos
 
 :ref:`int<class_int>` **get_menu_count**\ (\ ) |const| :ref:`🔗<class_MenuBar_method_get_menu_count>`
 
-Returns number of menu items.
+Devuelve el número de elementos del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -264,7 +264,7 @@ Returns number of menu items.
 
 :ref:`PopupMenu<class_PopupMenu>` **get_menu_popup**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_get_menu_popup>`
 
-Returns :ref:`PopupMenu<class_PopupMenu>` associated with menu item.
+Devuelve el :ref:`PopupMenu<class_PopupMenu>` asociado con el elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -288,7 +288,7 @@ Devuelve el título del elemento del menú.
 
 :ref:`String<class_String>` **get_menu_tooltip**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_get_menu_tooltip>`
 
-Returns menu item tooltip.
+Devuelve la información sobre herramientas del elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Returns menu item tooltip.
 
 :ref:`bool<class_bool>` **is_menu_disabled**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_disabled>`
 
-Returns ``true``, if menu item is disabled.
+Devuelve ``true`` si el elemento del menú está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -312,7 +312,7 @@ Returns ``true``, if menu item is disabled.
 
 :ref:`bool<class_bool>` **is_menu_hidden**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_hidden>`
 
-Returns ``true``, if menu item is hidden.
+Devuelve ``true`` si el elemento del menú está oculto.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Returns ``true``, if menu item is hidden.
 
 :ref:`bool<class_bool>` **is_native_menu**\ (\ ) |const| :ref:`🔗<class_MenuBar_method_is_native_menu>`
 
-Returns ``true``, if system global menu is supported and used by this **MenuBar**.
+Devuelve ``true`` si el menú global del sistema es soportado y usado por esta **MenuBar**.
 
 .. rst-class:: classref-item-separator
 
@@ -401,7 +401,7 @@ Descripciones de las propiedades del tema
 
 :ref:`Color<class_Color>` **font_color** = ``Color(0.875, 0.875, 0.875, 1)`` :ref:`🔗<class_MenuBar_theme_color_font_color>`
 
-Default text :ref:`Color<class_Color>` of the menu item.
+:ref:`Color<class_Color>` de texto predeterminado del elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -413,7 +413,7 @@ Default text :ref:`Color<class_Color>` of the menu item.
 
 :ref:`Color<class_Color>` **font_disabled_color** = ``Color(0.875, 0.875, 0.875, 0.5)`` :ref:`🔗<class_MenuBar_theme_color_font_disabled_color>`
 
-Text :ref:`Color<class_Color>` used when the menu item is disabled.
+:ref:`Color<class_Color>` de texto utilizado cuando el elemento del menú está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -437,7 +437,7 @@ Text :ref:`Color<class_Color>` used when the menu item is focused. Only replaces
 
 :ref:`Color<class_Color>` **font_hover_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_MenuBar_theme_color_font_hover_color>`
 
-Text :ref:`Color<class_Color>` used when the menu item is being hovered.
+:ref:`Color<class_Color>` del texto utilizado cuando el puntero está sobre el elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -449,7 +449,7 @@ Text :ref:`Color<class_Color>` used when the menu item is being hovered.
 
 :ref:`Color<class_Color>` **font_hover_pressed_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_MenuBar_theme_color_font_hover_pressed_color>`
 
-Text :ref:`Color<class_Color>` used when the menu item is being hovered and pressed.
+:ref:`Color<class_Color>` del texto utilizado cuando el puntero está sobre y presionando el elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -535,7 +535,7 @@ Tamaño de fuente del texto del elemento del menú.
 
 :ref:`StyleBox<class_StyleBox>` **disabled** :ref:`🔗<class_MenuBar_theme_style_disabled>`
 
-:ref:`StyleBox<class_StyleBox>` used when the menu item is disabled.
+:ref:`StyleBox<class_StyleBox>` utilizado cuando el elemento del menú está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -547,7 +547,7 @@ Tamaño de fuente del texto del elemento del menú.
 
 :ref:`StyleBox<class_StyleBox>` **disabled_mirrored** :ref:`🔗<class_MenuBar_theme_style_disabled_mirrored>`
 
-:ref:`StyleBox<class_StyleBox>` used when the menu item is disabled (for right-to-left layouts).
+:ref:`StyleBox<class_StyleBox>` utilizado cuando el elemento del menú está desactivado (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 
@@ -559,7 +559,7 @@ Tamaño de fuente del texto del elemento del menú.
 
 :ref:`StyleBox<class_StyleBox>` **hover** :ref:`🔗<class_MenuBar_theme_style_hover>`
 
-:ref:`StyleBox<class_StyleBox>` used when the menu item is being hovered.
+:ref:`StyleBox<class_StyleBox>` utilizado cuando el puntero está sobre el elemento del menú.
 
 .. rst-class:: classref-item-separator
 
@@ -571,7 +571,7 @@ Tamaño de fuente del texto del elemento del menú.
 
 :ref:`StyleBox<class_StyleBox>` **hover_mirrored** :ref:`🔗<class_MenuBar_theme_style_hover_mirrored>`
 
-:ref:`StyleBox<class_StyleBox>` used when the menu item is being hovered (for right-to-left layouts).
+:ref:`StyleBox<class_StyleBox>` utilizado cuando el puntero está sobre el elemento del menú (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 
@@ -583,7 +583,7 @@ Tamaño de fuente del texto del elemento del menú.
 
 :ref:`StyleBox<class_StyleBox>` **hover_pressed** :ref:`🔗<class_MenuBar_theme_style_hover_pressed>`
 
-:ref:`StyleBox<class_StyleBox>` used when the menu item is being pressed and hovered at the same time.
+:ref:`StyleBox<class_StyleBox>` utilizado cuando se está presionando el elemento del menú y el puntero está sobre él al mismo tiempo.
 
 .. rst-class:: classref-item-separator
 
@@ -595,7 +595,7 @@ Tamaño de fuente del texto del elemento del menú.
 
 :ref:`StyleBox<class_StyleBox>` **hover_pressed_mirrored** :ref:`🔗<class_MenuBar_theme_style_hover_pressed_mirrored>`
 
-:ref:`StyleBox<class_StyleBox>` used when the menu item is being pressed and hovered at the same time (for right-to-left layouts).
+:ref:`StyleBox<class_StyleBox>` utilizado cuando se está presionando el elemento del menú y el puntero está sobre él al mismo tiempo (para diseños de derecha a izquierda).
 
 .. rst-class:: classref-item-separator
 

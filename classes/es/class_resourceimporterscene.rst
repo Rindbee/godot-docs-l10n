@@ -296,9 +296,9 @@ Configura :ref:`GeometryInstance3D.gi_mode<class_GeometryInstance3D_property_gi_
 
 :ref:`float<class_float>` **meshes/lightmap_texel_size** = ``0.2`` :ref:`🔗<class_ResourceImporterScene_property_meshes/lightmap_texel_size>`
 
-Controla el tamaño de cada texel en el mapa de luces procesado. Un valor más pequeño da como resultado mapas de luces más precisos, a costa de tamaños de mapas de luces más grandes y tiempos de procesado más largos.
+Controla el tamaño de cada texel en el lightmap procesado. Un valor más pequeño da como resultado lightmaps más precisos, a costa de tamaños de lightmaps más grandes y tiempos de procesado más largos.
 
-\ **Nota:** Solo es efectivo si :ref:`meshes/light_baking<class_ResourceImporterScene_property_meshes/light_baking>` está establecido en **Mapas de luces estáticos**.
+\ **Nota:** Solo es efectivo si :ref:`meshes/light_baking<class_ResourceImporterScene_property_meshes/light_baking>` está establecido en **Lightmaps estáticos**.
 
 .. rst-class:: classref-item-separator
 

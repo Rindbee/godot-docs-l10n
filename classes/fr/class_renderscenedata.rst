@@ -7,7 +7,7 @@ RenderSceneData
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`RenderSceneDataExtension<class_RenderSceneDataExtension>`, :ref:`RenderSceneDataRD<class_RenderSceneDataRD>`
+**Hérité par :** :ref:`RenderSceneDataExtension<class_RenderSceneDataExtension>`, :ref:`RenderSceneDataRD<class_RenderSceneDataRD>`
 
 Objet de données de rendu abstrait, détient des données de scène relatives au rendu d'une unique trame d'un viewport.
 

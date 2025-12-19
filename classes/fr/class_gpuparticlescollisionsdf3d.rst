@@ -236,7 +236,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **get_bake_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GPUParticlesCollisionSDF3D_method_get_bake_mask_value>`
 
-Renvoie si la couche spécifiée de :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>` est activée, selon un ``layer_number`` entre 1 et 32.
+Renvoie si la couche spécifiée de :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -248,7 +248,7 @@ Renvoie si la couche spécifiée de :ref:`bake_mask<class_GPUParticlesCollisionS
 
 |void| **set_bake_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_GPUParticlesCollisionSDF3D_method_set_bake_mask_value>`
 
-Selon ``value``, active ou désactive la couche spécifiée dans le :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>`, selon un ``layer_number`` entre 1 et 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le :ref:`bake_mask<class_GPUParticlesCollisionSDF3D_property_bake_mask>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

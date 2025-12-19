@@ -137,7 +137,7 @@ enum **PolyJoinType**: :ref:`🔗<enum_Geometry2D_PolyJoinType>`
 
 :ref:`PolyJoinType<enum_Geometry2D_PolyJoinType>` **JOIN_SQUARE** = ``0``
 
-Squaring is applied uniformally at all convex edge joins at ``1 * delta``.
+La quadratura si applica uniformemente a tutte le unioni di spigoli convessi in ``1 * delta``.
 
 .. _class_Geometry2D_constant_JOIN_ROUND:
 
@@ -153,7 +153,7 @@ Sebbene i percorsi appiattiti non possano mai tracciare perfettamente un arco, s
 
 :ref:`PolyJoinType<enum_Geometry2D_PolyJoinType>` **JOIN_MITER** = ``2``
 
-There's a necessary limit to mitered joins since offsetting edges that join at very acute angles will produce excessively long and narrow "spikes". For any given edge join, when miter offsetting would exceed that maximum distance, "square" joining is applied.
+Esiste un limite necessario alle unioni squadrate, in quanto lo scostamento degli spigoli che si uniscono ad angoli molto acuti produrrà "punte" eccessivamente lunghe e strette. Per qualsiasi unione di spigoli, quando lo scostamento squadrato supererebbe quella distanza massima, si applica l'unione "quadrata".
 
 .. rst-class:: classref-item-separator
 

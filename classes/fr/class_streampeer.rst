@@ -7,18 +7,18 @@ StreamPeer
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`StreamPeerBuffer<class_StreamPeerBuffer>`, :ref:`StreamPeerExtension<class_StreamPeerExtension>`, :ref:`StreamPeerGZIP<class_StreamPeerGZIP>`, :ref:`StreamPeerTCP<class_StreamPeerTCP>`, :ref:`StreamPeerTLS<class_StreamPeerTLS>`
+**Hérité par :** :ref:`StreamPeerBuffer<class_StreamPeerBuffer>`, :ref:`StreamPeerExtension<class_StreamPeerExtension>`, :ref:`StreamPeerGZIP<class_StreamPeerGZIP>`, :ref:`StreamPeerTCP<class_StreamPeerTCP>`, :ref:`StreamPeerTLS<class_StreamPeerTLS>`
 
-Abstract base class for interacting with streams.
+Classe de base abstraite pour interagir avec des flux.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-StreamPeer is an abstract base class mostly used for stream-based protocols (such as TCP). It provides an API for sending and receiving data through streams as raw data or strings.
+StreamPeer est une classe de base abstraite principalement utilisée pour les protocoles orientés flux (comme le TCP). Elle fournit une API pour l'envoi et la réception de données à travers des flux comme des données brutes ou des chaînes de caractères.
 
-\ **Note:** When exporting to Android, make sure to enable the ``INTERNET`` permission in the Android export preset before exporting the project or using one-click deploy. Otherwise, network communication of any kind will be blocked by Android.
+\ **Note :** Lors de l'export vers Android, assurez-vous d'activer la permission ``INTERNET`` dans le préréglage d'export Android avant d'exporter le projet ou d'utiliser un déploiement en un clic. Sinon, la communication réseau de tout type sera bloquée par Android.
 
 .. rst-class:: classref-reftable-group
 
@@ -193,7 +193,7 @@ Obtient une valeur 64 bits signée depuis le flux.
 
 :ref:`int<class_int>` **get_available_bytes**\ (\ ) |const| :ref:`🔗<class_StreamPeer_method_get_available_bytes>`
 
-Returns the number of bytes this **StreamPeer** has available.
+Renvoie le nombre d'octets que ce **StreamPeer** a de disponible.
 
 .. rst-class:: classref-item-separator
 
@@ -205,7 +205,7 @@ Returns the number of bytes this **StreamPeer** has available.
 
 :ref:`Array<class_Array>` **get_data**\ (\ bytes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeer_method_get_data>`
 
-Returns a chunk data with the received bytes. The number of bytes to be received can be requested in the ``bytes`` argument. If not enough bytes are available, the function will block until the desired amount is received. This function returns two values, an :ref:`Error<enum_@GlobalScope_Error>` code and a data array.
+Renvoie un morceau de données avec les octets reçus. Le nombre d'octets à recevoir peut être spécifié dans l'argument ``bytes``. S'il n'y a pas assez d'octets disponibles, la fonction bloquera jusqu'à ce que la quantité demandée soit reçue. Cette fonction renvoie deux valeurs : un code :ref:`Error<enum_@GlobalScope_Error>` et un tableau de données.
 
 .. rst-class:: classref-item-separator
 
@@ -241,7 +241,7 @@ Obtient un flottant à simple précision depuis le flux.
 
 :ref:`float<class_float>` **get_half**\ (\ ) :ref:`🔗<class_StreamPeer_method_get_half>`
 
-Gets a half-precision float from the stream.
+Obtient un flottant en demi-précision depuis le flux.
 
 .. rst-class:: classref-item-separator
 
@@ -253,7 +253,7 @@ Gets a half-precision float from the stream.
 
 :ref:`Array<class_Array>` **get_partial_data**\ (\ bytes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeer_method_get_partial_data>`
 
-Returns a chunk data with the received bytes. The number of bytes to be received can be requested in the ``bytes`` argument. If not enough bytes are available, the function will return how many were actually received. This function returns two values: an :ref:`Error<enum_@GlobalScope_Error>` code and a data array.
+Renvoie un morceau de données avec les octets reçus. Le nombre d'octets à recevoir peut être spécifié dans l'argument ``bytes``. S'il n'y a pas assez d'octets disponibles, la fonction renverra combien d'octets ont effectivement étés reçus. Cette fonction renvoie deux valeurs : un code :ref:`Error<enum_@GlobalScope_Error>` et un tableau de données.
 
 .. rst-class:: classref-item-separator
 
@@ -265,7 +265,7 @@ Returns a chunk data with the received bytes. The number of bytes to be received
 
 :ref:`String<class_String>` **get_string**\ (\ bytes\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_StreamPeer_method_get_string>`
 
-Gets an ASCII string with byte-length ``bytes`` from the stream. If ``bytes`` is negative (default) the length will be read from the stream using the reverse process of :ref:`put_string()<class_StreamPeer_method_put_string>`.
+Obtient une chaîne ASCII d'une longueur de ``bytes`` octets du flux. Si ``bytes`` est négatif (par défaut), la longueur sera lue depuis le flux en utilisant le processus inverse de :ref:`put_string()<class_StreamPeer_method_put_string>`.
 
 .. rst-class:: classref-item-separator
 
@@ -325,7 +325,7 @@ Obtient une valeur 64 bits non signée depuis le flux.
 
 :ref:`String<class_String>` **get_utf8_string**\ (\ bytes\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_StreamPeer_method_get_utf8_string>`
 
-Gets a UTF-8 string with byte-length ``bytes`` from the stream (this decodes the string sent as UTF-8). If ``bytes`` is negative (default) the length will be read from the stream using the reverse process of :ref:`put_utf8_string()<class_StreamPeer_method_put_utf8_string>`.
+Obtient une chaîne UTF-8 d'une longueur de ``bytes`` octets du flux (ceci décode la chaîne envoyée en UTF-8). Si ``bytes`` est négatif (par défaut), la longueur sera lue depuis le flux en utilisant le processus inverse de :ref:`put_utf8_string()<class_StreamPeer_method_put_utf8_string>`.
 
 .. rst-class:: classref-item-separator
 
@@ -337,11 +337,11 @@ Gets a UTF-8 string with byte-length ``bytes`` from the stream (this decodes the
 
 :ref:`Variant<class_Variant>` **get_var**\ (\ allow_objects\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_StreamPeer_method_get_var>`
 
-Gets a Variant from the stream. If ``allow_objects`` is ``true``, decoding objects is allowed.
+Obtient un Variant du flux. Si ``allow_objects`` vaut ``true``, le décodage des objets est autorisé.
 
-Internally, this uses the same decoding mechanism as the :ref:`@GlobalScope.bytes_to_var()<class_@GlobalScope_method_bytes_to_var>` method.
+En interne, cela utilise le même mécanisme de décodage que la méthode :ref:`@GlobalScope.bytes_to_var()<class_@GlobalScope_method_bytes_to_var>`.
 
-\ **Warning:** Deserialized objects can contain code which gets executed. Do not use this option if the serialized object comes from untrusted sources to avoid potential security threats such as remote code execution.
+\ **Avertissement :** Les objets désérialisés peuvent contenir du code qui sera exécuté. N'utilisez pas cette option si l'objet sérialisé provient de sources non sûres pour éviter des risques de sécurité telles que de l'exécution de code à distance.
 
 .. rst-class:: classref-item-separator
 
@@ -401,7 +401,7 @@ Ajoute une valeur de 64 bits dans le flux.
 
 :ref:`Error<enum_@GlobalScope_Error>` **put_data**\ (\ data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_StreamPeer_method_put_data>`
 
-Sends a chunk of data through the connection, blocking if necessary until the data is done sending. This function returns an :ref:`Error<enum_@GlobalScope_Error>` code.
+Envoie un morceau de données à travers la connexion, en bloquant si nécessaire jusqu'à ce que les données soient finies d'être envoyées. Cette fonction renvoie un code :ref:`Error<enum_@GlobalScope_Error>`.
 
 .. rst-class:: classref-item-separator
 
@@ -413,7 +413,7 @@ Sends a chunk of data through the connection, blocking if necessary until the da
 
 |void| **put_double**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StreamPeer_method_put_double>`
 
-Ajouter un flottant double précision dans le flux.
+Ajoute un flottant en double-précision dans le flux.
 
 .. rst-class:: classref-item-separator
 
@@ -425,7 +425,7 @@ Ajouter un flottant double précision dans le flux.
 
 |void| **put_float**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StreamPeer_method_put_float>`
 
-Ajouter un flottant single précision dans le flux.
+Ajoute un flottant en simple-précision dans le flux.
 
 .. rst-class:: classref-item-separator
 
@@ -437,7 +437,7 @@ Ajouter un flottant single précision dans le flux.
 
 |void| **put_half**\ (\ value\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StreamPeer_method_put_half>`
 
-Puts a half-precision float into the stream.
+Ajoute un flottant en demi-précision dans le flux.
 
 .. rst-class:: classref-item-separator
 
@@ -449,7 +449,7 @@ Puts a half-precision float into the stream.
 
 :ref:`Array<class_Array>` **put_partial_data**\ (\ data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_StreamPeer_method_put_partial_data>`
 
-Sends a chunk of data through the connection. If all the data could not be sent at once, only part of it will. This function returns two values, an :ref:`Error<enum_@GlobalScope_Error>` code and an integer, describing how much data was actually sent.
+Envoie un morceau de données par la connexion. Si toutes les données ne peuvent pas être envoyées à la fois, seule une partie de celles-ci le seront. Cette fonction renvoie deux valeurs : un code :ref:`Error<enum_@GlobalScope_Error>`, et un entier, décrivant combien de données ont effectivement été envoyées.
 
 .. rst-class:: classref-item-separator
 
@@ -461,20 +461,20 @@ Sends a chunk of data through the connection. If all the data could not be sent 
 
 |void| **put_string**\ (\ value\: :ref:`String<class_String>`\ ) :ref:`🔗<class_StreamPeer_method_put_string>`
 
-Puts a zero-terminated ASCII string into the stream prepended by a 32-bit unsigned integer representing its size.
+Ajoute une chaîne ASCII se terminant par le caractère nul dans le flux, précédée par un entier 32 bits non signé représentant sa taille.
 
-\ **Note:** To put an ASCII string without prepending its size, you can use :ref:`put_data()<class_StreamPeer_method_put_data>`:
+\ **Note :** Pour ajouter une chaîne ASCII sans la faire précéder par sa taille, vous pouvez utiliser :ref:`put_data()<class_StreamPeer_method_put_data>`\  :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    put_data("Hello world".to_ascii_buffer())
+    put_data("Salut le monde".to_ascii_buffer())
 
  .. code-tab:: csharp
 
-    PutData("Hello World".ToAsciiBuffer());
+    PutData("Salut le monde".ToAsciiBuffer());
 
 
 
@@ -536,20 +536,20 @@ Ajoute une valeur de 64 bits non signée dans le flux.
 
 |void| **put_utf8_string**\ (\ value\: :ref:`String<class_String>`\ ) :ref:`🔗<class_StreamPeer_method_put_utf8_string>`
 
-Puts a zero-terminated UTF-8 string into the stream prepended by a 32 bits unsigned integer representing its size.
+Ajoute une chaîne UTF-8 se terminant par le caractère nul dans le flux, précédée par un entier 32 bits non signé représentant sa taille.
 
-\ **Note:** To put a UTF-8 string without prepending its size, you can use :ref:`put_data()<class_StreamPeer_method_put_data>`:
+\ **Note :** Pour ajouter une chaîne UTF-8 sans la faire précéder par sa taille, vous pouvez utiliser :ref:`put_data()<class_StreamPeer_method_put_data>`\  :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    put_data("Hello world".to_utf8_buffer())
+    put_data("Salut le monde".to_utf8_buffer())
 
  .. code-tab:: csharp
 
-    PutData("Hello World".ToUtf8Buffer());
+    PutData("Salut le monde".ToUtf8Buffer());
 
 
 
@@ -563,9 +563,9 @@ Puts a zero-terminated UTF-8 string into the stream prepended by a 32 bits unsig
 
 |void| **put_var**\ (\ value\: :ref:`Variant<class_Variant>`, full_objects\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_StreamPeer_method_put_var>`
 
-Puts a Variant into the stream. If ``full_objects`` is ``true`` encoding objects is allowed (and can potentially include code).
+Ajoute un Variant dans le flux. Si ``full_objects`` vaut ``true``, l'encodage d'objets est autorisé (et ceux-ci peuvent potentiellement contenir du code).
 
-Internally, this uses the same encoding mechanism as the :ref:`@GlobalScope.var_to_bytes()<class_@GlobalScope_method_var_to_bytes>` method.
+En interne, cela utilise le même mécanisme d'encodage que la méthode :ref:`@GlobalScope.var_to_bytes()<class_@GlobalScope_method_var_to_bytes>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

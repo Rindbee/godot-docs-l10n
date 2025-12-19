@@ -1980,9 +1980,11 @@ SDFGI 可见的最大距离。超出该距离，环境照明或其他 GI 来源�
 - |void| **set_ssr_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ssr_enabled**\ (\ )
 
-如果为 ``true``\ ，则启用屏幕空间反射。屏幕空间反射比来自 :ref:`VoxelGI<class_VoxelGI>` 或 :ref:`ReflectionProbe<class_ReflectionProbe>` 的反射更准确，但更慢并且不能反射被其他物体遮挡的表面。
+If ``true``, screen-space reflections are enabled. Screen-space reflections are more accurate than reflections from :ref:`VoxelGI<class_VoxelGI>`\ s or :ref:`ReflectionProbe<class_ReflectionProbe>`\ s, but are slower and can't reflect surfaces occluded by others.
 
-\ **注意：**\ SSR 只支持 Forward+ 渲染方式，不支持 Mobile 或 Compatibility。
+\ **Note:** SSR is only supported in the Forward+ rendering method, not Mobile or Compatibility.
+
+\ **Note:** SSR is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
 
 .. rst-class:: classref-item-separator
 

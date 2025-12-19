@@ -7,7 +7,7 @@ Slider
 
 **Hérite de :** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`HSlider<class_HSlider>`, :ref:`VSlider<class_VSlider>`
+**Hérité par :** :ref:`HSlider<class_HSlider>`, :ref:`VSlider<class_VSlider>`
 
 Classe de base abstraite pour les sliders.
 
@@ -361,7 +361,7 @@ The background of the area to the left or bottom of the grabber that displays wh
 
 :ref:`StyleBox<class_StyleBox>` **slider** :ref:`🔗<class_Slider_theme_style_slider>`
 
-The background for the whole slider. Affects the height or width of the :ref:`grabber_area<class_Slider_theme_style_grabber_area>`.
+L'arrière-plan pour tout le slider. Affecte la hauteur ou la largeur du :ref:`grabber_area<class_Slider_theme_style_grabber_area>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

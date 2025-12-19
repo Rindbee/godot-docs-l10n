@@ -508,9 +508,9 @@ enum **BakeMode**: :ref:`🔗<enum_Light3D_BakeMode>`
 - |void| **set_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_cull_mask**\ (\ )
 
-The light will affect objects in the selected layers.
+灯光会影响位于所选层中的对象。
 
-\ **Note:** The light cull mask is ignored by :ref:`VoxelGI<class_VoxelGI>`, SDFGI, :ref:`LightmapGI<class_LightmapGI>`, and volumetric fog. These will always render lights in a way that ignores the cull mask. See also :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`.
+\ **注意：**\ :ref:`VoxelGI<class_VoxelGI>`\ 、SDFGI、\ :ref:`LightmapGI<class_LightmapGI>`\ 、体积雾会忽略灯光剔除遮罩。这些效果时始终使用灯光渲染，忽略剔除遮罩。另见 :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`\ 。
 
 .. rst-class:: classref-item-separator
 

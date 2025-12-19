@@ -7,16 +7,16 @@ PhysicalSkyMaterial
 
 **Hereda:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A material that defines a sky for a :ref:`Sky<class_Sky>` resource by a set of physical properties.
+Un material que define un cielo para un recurso :ref:`Sky<class_Sky>` mediante un conjunto de propiedades físicas.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The **PhysicalSkyMaterial** uses the Preetham analytic daylight model to draw a sky based on physical properties. This results in a substantially more realistic sky than the :ref:`ProceduralSkyMaterial<class_ProceduralSkyMaterial>`, but it is slightly slower and less flexible.
+El **PhysicalSkyMaterial** utiliza el modelo analítico de luz diurna de Preetham para dibujar un cielo basado en propiedades físicas. Esto da como resultado un cielo sustancialmente más realista que el :ref:`ProceduralSkyMaterial<class_ProceduralSkyMaterial>`, pero es ligeramente más lento y menos flexible.
 
-The **PhysicalSkyMaterial** only supports one sun. The color, energy, and direction of the sun are taken from the first :ref:`DirectionalLight3D<class_DirectionalLight3D>` in the scene tree.
+El **PhysicalSkyMaterial** sólo admite un sol. El color, la energía y la dirección del sol se toman de la primera :ref:`DirectionalLight3D<class_DirectionalLight3D>` en el árbol de la escena.
 
 .. rst-class:: classref-reftable-group
 
@@ -87,7 +87,7 @@ The sky's overall brightness multiplier. Higher values result in a brighter sky.
 - |void| **set_ground_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_ground_color**\ (\ )
 
-Modulates the :ref:`Color<class_Color>` on the bottom half of the sky to represent the ground.
+Modula el :ref:`Color<class_Color>` en la mitad inferior del cielo para representar el suelo.
 
 .. rst-class:: classref-item-separator
 
@@ -104,7 +104,7 @@ Modulates the :ref:`Color<class_Color>` on the bottom half of the sky to represe
 - |void| **set_mie_coefficient**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_mie_coefficient**\ (\ )
 
-Controls the strength of `Mie scattering <https://en.wikipedia.org/wiki/Mie_scattering>`__ for the sky. Mie scattering results from light colliding with larger particles (like water). On earth, Mie scattering results in a whitish color around the sun and horizon.
+Controla la fuerza de la `dispersión de Mie <https://es.wikipedia.org/wiki/Dispersi%C3%B3n_de_Mie>`__ en el cielo. La dispersión de Mie es el resultado de la luz que colisiona con partículas más grandes (como el agua). En la tierra, la dispersión de Mie da como resultado un color blanquecino alrededor del sol y el horizonte.
 
 .. rst-class:: classref-item-separator
 
@@ -121,7 +121,7 @@ Controls the strength of `Mie scattering <https://en.wikipedia.org/wiki/Mie_scat
 - |void| **set_mie_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_mie_color**\ (\ )
 
-Controls the :ref:`Color<class_Color>` of the `Mie scattering <https://en.wikipedia.org/wiki/Mie_scattering>`__ effect. While not physically accurate, this allows for the creation of alien-looking planets.
+Controla el :ref:`Color<class_Color>` del efecto de la `Dispersión de Mie <https://en.wikipedia.org/wiki/Mie_scattering>`__. Aunque no es físicamente preciso, esto permite la creación de planetas con aspecto alienígena.
 
 .. rst-class:: classref-item-separator
 
@@ -138,7 +138,7 @@ Controls the :ref:`Color<class_Color>` of the `Mie scattering <https://en.wikipe
 - |void| **set_mie_eccentricity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_mie_eccentricity**\ (\ )
 
-Controls the direction of the `Mie scattering <https://en.wikipedia.org/wiki/Mie_scattering>`__. A value of ``1`` means that when light hits a particle it's passing through straight forward. A value of ``-1`` means that all light is scatter backwards.
+Controla la dirección de la `Dispersión de Mie <https://en.wikipedia.org/wiki/Mie_scattering>`__. Un valor de ``1`` significa que cuando la luz golpea una partícula, esta pasa directamente hacia adelante. Un valor de ``-1`` significa que toda la luz se dispersa hacia atrás.
 
 .. rst-class:: classref-item-separator
 
@@ -155,7 +155,7 @@ Controls the direction of the `Mie scattering <https://en.wikipedia.org/wiki/Mie
 - |void| **set_night_sky**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_night_sky**\ (\ )
 
-:ref:`Texture2D<class_Texture2D>` for the night sky. This is added to the sky, so if it is bright enough, it may be visible during the day.
+:ref:`Texture2D<class_Texture2D>` para el cielo nocturno. Esto se añade al cielo, así que si es lo suficientemente brillante, puede ser visible durante el día.
 
 .. rst-class:: classref-item-separator
 
@@ -172,7 +172,7 @@ Controls the direction of the `Mie scattering <https://en.wikipedia.org/wiki/Mie
 - |void| **set_rayleigh_coefficient**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_rayleigh_coefficient**\ (\ )
 
-Controls the strength of the `Rayleigh scattering <https://en.wikipedia.org/wiki/Rayleigh_scattering>`__. Rayleigh scattering results from light colliding with small particles. It is responsible for the blue color of the sky.
+Controla la fuerza de la `Dispersión de Rayleigh <https://en.wikipedia.org/wiki/Rayleigh_scattering>`__. La dispersión de Rayleigh es el resultado de la luz que colisiona con pequeñas partículas. Es responsable del color azul del cielo.
 
 .. rst-class:: classref-item-separator
 
@@ -189,7 +189,7 @@ Controls the strength of the `Rayleigh scattering <https://en.wikipedia.org/wiki
 - |void| **set_rayleigh_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_rayleigh_color**\ (\ )
 
-Controls the :ref:`Color<class_Color>` of the `Rayleigh scattering <https://en.wikipedia.org/wiki/Rayleigh_scattering>`__. While not physically accurate, this allows for the creation of alien-looking planets. For example, setting this to a red :ref:`Color<class_Color>` results in a Mars-looking atmosphere with a corresponding blue sunset.
+Controla el :ref:`Color<class_Color>` de la `Dispersión de Rayleigh <https://en.wikipedia.org/wiki/Rayleigh_scattering>`__. Aunque no es físicamente preciso, esto permite la creación de planetas con aspecto alienígena. Por ejemplo, si se establece en un :ref:`Color<class_Color>` rojo, se obtiene una atmósfera similar a la de Marte, con una puesta de sol azul correspondiente.
 
 .. rst-class:: classref-item-separator
 
@@ -206,7 +206,7 @@ Controls the :ref:`Color<class_Color>` of the `Rayleigh scattering <https://en.w
 - |void| **set_sun_disk_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sun_disk_scale**\ (\ )
 
-Sets the size of the sun disk. Default value is based on Sol's perceived size from Earth.
+Establece el tamaño del disco solar. El valor predeterminado se basa en el tamaño percibido de Sol desde la Tierra.
 
 .. rst-class:: classref-item-separator
 
@@ -223,7 +223,7 @@ Sets the size of the sun disk. Default value is based on Sol's perceived size fr
 - |void| **set_turbidity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_turbidity**\ (\ )
 
-Sets the thickness of the atmosphere. High turbidity creates a foggy-looking atmosphere, while a low turbidity results in a clearer atmosphere.
+Establece el grosor de la atmósfera. Una alta turbidez crea una atmósfera de aspecto brumoso, mientras que una baja turbidez da como resultado una atmósfera más clara.
 
 .. rst-class:: classref-item-separator
 
@@ -240,7 +240,7 @@ Sets the thickness of the atmosphere. High turbidity creates a foggy-looking atm
 - |void| **set_use_debanding**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_debanding**\ (\ )
 
-If ``true``, enables debanding. Debanding adds a small amount of noise which helps reduce banding that appears from the smooth changes in color in the sky.
+Si es ``true``, activa la reducción de bandas. La reducción de bandas añade una pequeña cantidad de ruido que ayuda a reducir las bandas que aparecen por los cambios suaves de color en el cielo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -122,9 +122,9 @@ Descriptions des propriétés
 - |void| **set_events**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_events**\ (\ )
 
-The shortcut's :ref:`InputEvent<class_InputEvent>` array.
+Le tableau d':ref:`InputEvent<class_InputEvent>`\ s du raccourci.
 
-Generally the :ref:`InputEvent<class_InputEvent>` used is an :ref:`InputEventKey<class_InputEventKey>`, though it can be any :ref:`InputEvent<class_InputEvent>`, including an :ref:`InputEventAction<class_InputEventAction>`.
+En général, :ref:`InputEvent<class_InputEvent>` utilisé est un :ref:`InputEventKey<class_InputEventKey>`, bien qu'il puisse être n'importe quel :ref:`InputEvent<class_InputEvent>`, y compris un :ref:`InputEventAction<class_InputEventAction>`.
 
 .. rst-class:: classref-section-separator
 
@@ -141,7 +141,7 @@ Descriptions des méthodes
 
 :ref:`String<class_String>` **get_as_text**\ (\ ) |const| :ref:`🔗<class_Shortcut_method_get_as_text>`
 
-Returns the shortcut's first valid :ref:`InputEvent<class_InputEvent>` as a :ref:`String<class_String>`.
+Renvoie le premier :ref:`InputEvent<class_InputEvent>` valide du raccourci en tant que :ref:`String<class_String>`.
 
 .. rst-class:: classref-item-separator
 
@@ -153,7 +153,7 @@ Returns the shortcut's first valid :ref:`InputEvent<class_InputEvent>` as a :ref
 
 :ref:`bool<class_bool>` **has_valid_event**\ (\ ) |const| :ref:`🔗<class_Shortcut_method_has_valid_event>`
 
-Returns whether :ref:`events<class_Shortcut_property_events>` contains an :ref:`InputEvent<class_InputEvent>` which is valid.
+Renvoie si :ref:`events<class_Shortcut_property_events>` contient un :ref:`InputEvent<class_InputEvent>` qui est valide.
 
 .. rst-class:: classref-item-separator
 
@@ -165,7 +165,7 @@ Returns whether :ref:`events<class_Shortcut_property_events>` contains an :ref:`
 
 :ref:`bool<class_bool>` **matches_event**\ (\ event\: :ref:`InputEvent<class_InputEvent>`\ ) |const| :ref:`🔗<class_Shortcut_method_matches_event>`
 
-Returns whether any :ref:`InputEvent<class_InputEvent>` in :ref:`events<class_Shortcut_property_events>` equals ``event``. This uses :ref:`InputEvent.is_match()<class_InputEvent_method_is_match>` to compare events.
+Renvoie si au moins un :ref:`InputEvent<class_InputEvent>` dans :ref:`events<class_Shortcut_property_events>` est égal à ``event``. Cela utilise :ref:`InputEvent.is_match()<class_InputEvent_method_is_match>` pour comparer les événements.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

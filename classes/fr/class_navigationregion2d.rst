@@ -9,7 +9,7 @@ NavigationRegion2D
 
 **Hérite de :** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A traversable 2D region that :ref:`NavigationAgent2D<class_NavigationAgent2D>`\ s can use for pathfinding.
+Une région 2D traversable que des :ref:`NavigationAgent2D<class_NavigationAgent2D>`\ s peuvent utiliser pour leur recherche de chemin.
 
 .. rst-class:: classref-introduction-group
 
@@ -102,7 +102,7 @@ Signaux
 
 **bake_finished**\ (\ ) :ref:`🔗<class_NavigationRegion2D_signal_bake_finished>`
 
-Emitted when a navigation polygon bake operation is completed.
+Émis lorsqu'une opération de pré-calcul de polygone de navigation est terminée.
 
 .. rst-class:: classref-item-separator
 
@@ -114,7 +114,7 @@ Emitted when a navigation polygon bake operation is completed.
 
 **navigation_polygon_changed**\ (\ ) :ref:`🔗<class_NavigationRegion2D_signal_navigation_polygon_changed>`
 
-Emitted when the used navigation polygon is replaced or changes to the internals of the current navigation polygon are committed.
+Émis lorsque le polygone de navigation utilisé est remplacé ou que des modifications aux variables internes du polygone de navigation actuel sont commises.
 
 .. rst-class:: classref-section-separator
 
@@ -136,7 +136,7 @@ Descriptions des propriétés
 - |void| **set_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_enabled**\ (\ )
 
-Determines if the **NavigationRegion2D** is enabled or disabled.
+Détermine si la **NavigationRegion2D** est activée ou désactivée.
 
 .. rst-class:: classref-item-separator
 
@@ -153,7 +153,7 @@ Determines if the **NavigationRegion2D** is enabled or disabled.
 - |void| **set_enter_cost**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_enter_cost**\ (\ )
 
-When pathfinding enters this region's navigation mesh from another regions navigation mesh the :ref:`enter_cost<class_NavigationRegion2D_property_enter_cost>` value is added to the path distance for determining the shortest path.
+Lorsque la recherche de chemin entre dans le maillage de navigation de cette région depuis le maillage de navigation d'une autre région, la valeur :ref:`enter_cost<class_NavigationRegion2D_property_enter_cost>` est ajoutée à la distance du chemin pour déterminer le chemin le plus court.
 
 .. rst-class:: classref-item-separator
 
@@ -204,7 +204,7 @@ La ressource :ref:`NavigationPolygon<class_NavigationPolygon>` à utiliser.
 - |void| **set_travel_cost**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_travel_cost**\ (\ )
 
-When pathfinding moves inside this region's navigation mesh the traveled distances are multiplied with :ref:`travel_cost<class_NavigationRegion2D_property_travel_cost>` for determining the shortest path.
+Lorsque la recherche de chemin se déplace dans le maillage de navigation de cette région, les distances parcourues sont multipliées par :ref:`travel_cost<class_NavigationRegion2D_property_travel_cost>` pour déterminer le chemin le plus court.
 
 .. rst-class:: classref-item-separator
 
@@ -238,7 +238,7 @@ Descriptions des méthodes
 
 |void| **bake_navigation_polygon**\ (\ on_thread\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_NavigationRegion2D_method_bake_navigation_polygon>`
 
-Bakes the :ref:`NavigationPolygon<class_NavigationPolygon>`. If ``on_thread`` is set to ``true`` (default), the baking is done on a separate thread.
+Pré-calcule le :ref:`NavigationPolygon<class_NavigationPolygon>`. Si ``on_thread`` est défini à ``true`` (par défaut), le pré-calcul est fait sur un thread séparé.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Returns the axis-aligned rectangle for the region's transformed navigation mesh.
 
 :ref:`bool<class_bool>` **get_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationRegion2D_method_get_navigation_layer_value>`
 
-Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class_NavigationRegion2D_property_navigation_layers>` est activée, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class_NavigationRegion2D_property_navigation_layers>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -274,7 +274,7 @@ Renvoie si la couche spécifiée du masque de bits :ref:`navigation_layers<class
 
 :ref:`RID<class_RID>` **get_navigation_map**\ (\ ) |const| :ref:`🔗<class_NavigationRegion2D_method_get_navigation_map>`
 
-Returns the current navigation map :ref:`RID<class_RID>` used by this region.
+Renvoie le :ref:`RID<class_RID>` de la carte de navigation actuelle utilisée par cette région.
 
 .. rst-class:: classref-item-separator
 
@@ -288,7 +288,7 @@ Returns the current navigation map :ref:`RID<class_RID>` used by this region.
 
 **Obsolète :** Use :ref:`get_rid()<class_NavigationRegion2D_method_get_rid>` instead.
 
-Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Renvoie le :ref:`RID<class_RID>` de cette région sur le :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer2D
 
 :ref:`RID<class_RID>` **get_rid**\ (\ ) |const| :ref:`🔗<class_NavigationRegion2D_method_get_rid>`
 
-Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer2D<class_NavigationServer2D>`. Combined with :ref:`NavigationServer2D.map_get_closest_point_owner()<class_NavigationServer2D_method_map_get_closest_point_owner>` can be used to identify the **NavigationRegion2D** closest to a point on the merged navigation map.
+Renvoie le :ref:`RID<class_RID>` de cette région sur le :ref:`NavigationServer2D<class_NavigationServer2D>`. Combiné avec :ref:`NavigationServer2D.map_get_closest_point_owner()<class_NavigationServer2D_method_map_get_closest_point_owner>`, cela peut être utilisé pour identifier la **NavigationRegion2D** la plus proche d'un point sur la carte de navigation fusionnée.
 
 .. rst-class:: classref-item-separator
 
@@ -312,7 +312,7 @@ Returns the :ref:`RID<class_RID>` of this region on the :ref:`NavigationServer2D
 
 :ref:`bool<class_bool>` **is_baking**\ (\ ) |const| :ref:`🔗<class_NavigationRegion2D_method_is_baking>`
 
-Returns ``true`` when the :ref:`NavigationPolygon<class_NavigationPolygon>` is being baked on a background thread.
+Renvoie ``true`` lorsque le :ref:`NavigationPolygon<class_NavigationPolygon>` est en cours de calcul sur un thread d'arrière-plan.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Returns ``true`` when the :ref:`NavigationPolygon<class_NavigationPolygon>` is b
 
 |void| **set_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationRegion2D_method_set_navigation_layer_value>`
 
-Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`navigation_layers<class_NavigationRegion2D_property_navigation_layers>`, selon un numéro de couche ``layer_number`` donné entre 1 et 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le masque de bits :ref:`navigation_layers<class_NavigationRegion2D_property_navigation_layers>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -336,7 +336,7 @@ Selon ``value``, active ou désactive la couche spécifiée dans le masque de bi
 
 |void| **set_navigation_map**\ (\ navigation_map\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_NavigationRegion2D_method_set_navigation_map>`
 
-Sets the :ref:`RID<class_RID>` of the navigation map this region should use. By default the region will automatically join the :ref:`World2D<class_World2D>` default navigation map so this function is only required to override the default map.
+Définit le :ref:`RID<class_RID>` de la carte de navigation que cette région devrait utiliser. Par défaut, la région se joindra automatiquement à la carte de navigation par défaut du :ref:`World2D<class_World2D>` de sorte à ce que cette fonction ne soit nécessaire que pour remplacer la carte par défaut.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

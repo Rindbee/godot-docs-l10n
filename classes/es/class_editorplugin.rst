@@ -506,7 +506,7 @@ Descripciones de Métodos
 
 Este método se llama cuando el editor está a punto de guardar el proyecto, cambiar a otra pestaña, etc. Le pide al plugin que aplique cualquier cambio de estado pendiente para asegurar la consistencia.
 
-Se utiliza, por ejemplo, en los editores de sombreadores para que el plugin sepa que debe aplicar el código de sombreado que está escribiendo el usuario al objeto.
+Se utiliza, por ejemplo, en los editores de shaders para que el plugin sepa que debe aplicar el código de sombreado que está escribiendo el usuario al objeto.
 
 .. rst-class:: classref-item-separator
 

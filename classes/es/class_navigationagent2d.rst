@@ -852,7 +852,7 @@ Returns this agent's current path from start to finish in global coordinates. Th
 
 :ref:`int<class_int>` **get_current_navigation_path_index**\ (\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_current_navigation_path_index>`
 
-Returns which index the agent is currently on in the navigation path's :ref:`PackedVector2Array<class_PackedVector2Array>`.
+Devuelve el índice en el que se encuentra actualmente el agente en el :ref:`PackedVector2Array<class_PackedVector2Array>` de la ruta de navegación.
 
 .. rst-class:: classref-item-separator
 
@@ -864,7 +864,7 @@ Returns which index the agent is currently on in the navigation path's :ref:`Pac
 
 :ref:`NavigationPathQueryResult2D<class_NavigationPathQueryResult2D>` **get_current_navigation_result**\ (\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_current_navigation_result>`
 
-Returns the path query result for the path the agent is currently following.
+Devuelve el resultado de la consulta de la ruta que el agente está siguiendo actualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -876,7 +876,7 @@ Returns the path query result for the path the agent is currently following.
 
 :ref:`Vector2<class_Vector2>` **get_final_position**\ (\ ) :ref:`🔗<class_NavigationAgent2D_method_get_final_position>`
 
-Returns the reachable final position of the current navigation path in global coordinates. This position can change if the agent needs to update the navigation path which makes the agent emit the :ref:`path_changed<class_NavigationAgent2D_signal_path_changed>` signal.
+Devuelve la posición final alcanzable de la ruta de navegación actual en coordenadas globales. Esta posición puede cambiar si el agente necesita actualizar la ruta de navegación, lo que hace que el agente emita la señal :ref:`path_changed<class_NavigationAgent2D_signal_path_changed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -888,7 +888,7 @@ Returns the reachable final position of the current navigation path in global co
 
 :ref:`bool<class_bool>` **get_navigation_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_navigation_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`navigation_layers<class_NavigationAgent2D_property_navigation_layers>` bitmask is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de la máscara de bits :ref:`navigation_layers<class_NavigationAgent2D_property_navigation_layers>` está habilitada, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -900,7 +900,7 @@ Returns whether or not the specified layer of the :ref:`navigation_layers<class_
 
 :ref:`RID<class_RID>` **get_navigation_map**\ (\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_navigation_map>`
 
-Returns the :ref:`RID<class_RID>` of the navigation map for this NavigationAgent node. This function returns always the map set on the NavigationAgent node and not the map of the abstract agent on the NavigationServer. If the agent map is changed directly with the NavigationServer API the NavigationAgent node will not be aware of the map change. Use :ref:`set_navigation_map()<class_NavigationAgent2D_method_set_navigation_map>` to change the navigation map for the NavigationAgent and also update the agent on the NavigationServer.
+Devuelve el :ref:`RID<class_RID>` del mapa de navegación para este nodo NavigationAgent. Esta función siempre devuelve el mapa establecido en el nodo NavigationAgent y no el mapa del agente abstracto en el NavigationServer. Si el mapa del agente se cambia directamente con la API de NavigationServer, el nodo NavigationAgent no estará al tanto del cambio de mapa. Utiliza :ref:`set_navigation_map()<class_NavigationAgent2D_method_set_navigation_map>` para cambiar el mapa de navegación para NavigationAgent y también actualizar el agente en el NavigationServer.
 
 .. rst-class:: classref-item-separator
 
@@ -912,7 +912,7 @@ Returns the :ref:`RID<class_RID>` of the navigation map for this NavigationAgent
 
 :ref:`Vector2<class_Vector2>` **get_next_path_position**\ (\ ) :ref:`🔗<class_NavigationAgent2D_method_get_next_path_position>`
 
-Returns the next position in global coordinates that can be moved to, making sure that there are no static objects in the way. If the agent does not have a navigation path, it will return the position of the agent's parent. The use of this function once every physics frame is required to update the internal path logic of the NavigationAgent.
+Devuelve la siguiente posición en coordenadas globales a la que se puede mover, asegurándose de que no haya objetos estáticos en el camino. Si el agente no tiene una ruta de navegación, devolverá la posición del nodo padre del agente. El uso de esta función una vez cada frame de física es necesario para actualizar la lógica interna de la ruta del NavigationAgent.
 
 .. rst-class:: classref-item-separator
 
@@ -924,7 +924,7 @@ Returns the next position in global coordinates that can be moved to, making sur
 
 :ref:`float<class_float>` **get_path_length**\ (\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_path_length>`
 
-Returns the length of the currently calculated path. The returned value is ``0.0``, if the path is still calculating or no calculation has been requested yet.
+Devuelve la longitud de la ruta calculada actualmente. El valor devuelto es ``0.0`` si la ruta aún se está calculando o aún no se ha solicitado ningún cálculo.
 
 .. rst-class:: classref-item-separator
 
@@ -936,7 +936,7 @@ Returns the length of the currently calculated path. The returned value is ``0.0
 
 :ref:`RID<class_RID>` **get_rid**\ (\ ) |const| :ref:`🔗<class_NavigationAgent2D_method_get_rid>`
 
-Returns the :ref:`RID<class_RID>` of this agent on the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Devuelve el :ref:`RID<class_RID>` de este agente en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. rst-class:: classref-item-separator
 

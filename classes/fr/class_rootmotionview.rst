@@ -7,23 +7,23 @@ RootMotionView
 
 **Hérite de :** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Editor-only helper for setting up root motion in :ref:`AnimationMixer<class_AnimationMixer>`.
+Assistant dans l'éditeur seulement pour la mise en place du mouvement racine dans :ref:`AnimationMixer<class_AnimationMixer>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-*Root motion* refers to an animation technique where a mesh's skeleton is used to give impulse to a character. When working with 3D animations, a popular technique is for animators to use the root skeleton bone to give motion to the rest of the skeleton. This allows animating characters in a way where steps actually match the floor below. It also allows precise interaction with objects during cinematics. See also :ref:`AnimationMixer<class_AnimationMixer>`.
+Le *mouvement racine* (en anglais, "root motion") se réfère à une technique d'animation où un squelette d'un maillage est utilisé pour donner une impulsion à un personnage. En travaillant avec des animations 3D, une technique populaire est pour les animateurs d'utiliser l'os racine du squelette pour donner du mouvement au reste du squelette. Cela permet d'animer des personnages d'une manière où les pas correspondent réellement au sol en-dessous. Cela permet également une interaction précise avec des objets pendant les cinématiques. Voir aussi :ref:`AnimationMixer<class_AnimationMixer>`.
 
-\ **Note:** **RootMotionView** is only visible in the editor. It will be hidden automatically in the running project.
+\ **Note :** **RootMotionView** n'est visible que dans l'éditeur. Il sera automatiquement caché dans le projet en exécution.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriels
 ------------------
 
-- `Using AnimationTree - Root motion <../tutorials/animation/animation_tree.html#root-motion>`__
+- `Utiliser AnimationTree - Mouvement racine <../tutorials/animation/animation_tree.html#root-motion>`__
 
 .. rst-class:: classref-reftable-group
 

@@ -7,7 +7,7 @@ MeshInstance3D
 
 **Hérite de :** :ref:`GeometryInstance3D<class_GeometryInstance3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`SoftBody3D<class_SoftBody3D>`
+**Hérité par :** :ref:`SoftBody3D<class_SoftBody3D>`
 
 Nœud qui instancie des meshes dans un scénario.
 

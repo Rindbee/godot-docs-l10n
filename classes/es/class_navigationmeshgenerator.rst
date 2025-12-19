@@ -68,7 +68,7 @@ Descripciones de Métodos
 
 **Obsoleto:** This method is deprecated due to core threading changes. To upgrade existing code, first create a :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>` resource. Use this resource with :ref:`parse_source_geometry_data()<class_NavigationMeshGenerator_method_parse_source_geometry_data>` to parse the :ref:`SceneTree<class_SceneTree>` for nodes that should contribute to the navigation mesh baking. The :ref:`SceneTree<class_SceneTree>` parsing needs to happen on the main thread. After the parsing is finished use the resource with :ref:`bake_from_source_geometry_data()<class_NavigationMeshGenerator_method_bake_from_source_geometry_data>` to bake a navigation mesh.
 
-Bakes the ``navigation_mesh`` with source geometry collected starting from the ``root_node``.
+Procesa la ``navigation_mesh`` con la geometría de origen recopilada comenzando desde el ``root_node``.
 
 .. rst-class:: classref-item-separator
 
@@ -80,7 +80,7 @@ Bakes the ``navigation_mesh`` with source geometry collected starting from the `
 
 |void| **bake_from_source_geometry_data**\ (\ navigation_mesh\: :ref:`NavigationMesh<class_NavigationMesh>`, source_geometry_data\: :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`, callback\: :ref:`Callable<class_Callable>` = Callable()\ ) :ref:`🔗<class_NavigationMeshGenerator_method_bake_from_source_geometry_data>`
 
-Bakes the provided ``navigation_mesh`` with the data from the provided ``source_geometry_data``. After the process is finished the optional ``callback`` will be called.
+Procesa la ``navigation_mesh`` proporcionada con los datos del ``source_geometry_data`` proporcionado. Una vez que finalice el proceso, se llamará al ``callback`` opcional.
 
 .. rst-class:: classref-item-separator
 
@@ -92,7 +92,7 @@ Bakes the provided ``navigation_mesh`` with the data from the provided ``source_
 
 |void| **clear**\ (\ navigation_mesh\: :ref:`NavigationMesh<class_NavigationMesh>`\ ) :ref:`🔗<class_NavigationMeshGenerator_method_clear>`
 
-Removes all polygons and vertices from the provided ``navigation_mesh`` resource.
+Elimina todos los polígonos y vértices del recurso ``navigation_mesh`` proporcionado.
 
 .. rst-class:: classref-item-separator
 

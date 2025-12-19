@@ -261,7 +261,7 @@ Valida ``option`` y devuelve la visibilidad para el ``preset`` especificado. La 
 
 :ref:`String<class_String>` **_get_export_option_warning**\ (\ preset\: :ref:`EditorExportPreset<class_EditorExportPreset>`, option\: :ref:`StringName<class_StringName>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlatformExtension_private_method__get_export_option_warning>`
 
-Valida ``option`` y devuelve un mensaje de advertencia para el ``preset`` especificado. La implementación predeterminada devuelve una cadena vacía para todas las opciones.
+Valida ``option`` y devuelve un mensaje de advertencia para el ``preset`` especificado. La implementación predeterminada devuelve una string vacía para todas las opciones.
 
 .. rst-class:: classref-item-separator
 

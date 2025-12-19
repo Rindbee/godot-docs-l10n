@@ -73,7 +73,7 @@ enum **CacheMode**: :ref:`🔗<enum_ResourceFormatLoader_CacheMode>`
 
 :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` **CACHE_MODE_IGNORE** = ``0``
 
-Neither the main resource (the one requested to be loaded) nor any of its subresources are retrieved from cache nor stored into it. Dependencies (external resources) are loaded with :ref:`CACHE_MODE_REUSE<class_ResourceFormatLoader_constant_CACHE_MODE_REUSE>`.
+Ni la ressource principale (celle dont le chargement est demandé) ni ses sous-ressources ne sont récupérées depuis le cache ni y sont stockées. Les dépendances (ressources externes) sont chargées avec :ref:`CACHE_MODE_REUSE<class_ResourceFormatLoader_constant_CACHE_MODE_REUSE>`.
 
 .. _class_ResourceFormatLoader_constant_CACHE_MODE_REUSE:
 
@@ -81,7 +81,7 @@ Neither the main resource (the one requested to be loaded) nor any of its subres
 
 :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` **CACHE_MODE_REUSE** = ``1``
 
-The main resource (the one requested to be loaded), its subresources, and its dependencies (external resources) are retrieved from cache if present, instead of loaded. Those not cached are loaded and then stored into the cache. The same rules are propagated recursively down the tree of dependencies (external resources).
+La ressource principale (celle dont le chargement est demandé), ses sous-ressources et ses dépendances (ressources externes) sont récupérées depuis le cache si elles y sont présentes, plutôt que chargées. Celles qui ne sont pas en cache sont chargées puis stockées dans le cache. Ces mêmes règles s’appliquent récursivement à l’ensemble de l’arbre des dépendances (ressources externes).
 
 .. _class_ResourceFormatLoader_constant_CACHE_MODE_REPLACE:
 
@@ -89,7 +89,7 @@ The main resource (the one requested to be loaded), its subresources, and its de
 
 :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` **CACHE_MODE_REPLACE** = ``2``
 
-Like :ref:`CACHE_MODE_REUSE<class_ResourceFormatLoader_constant_CACHE_MODE_REUSE>`, but the cache is checked for the main resource (the one requested to be loaded) as well as for each of its subresources. Those already in the cache, as long as the loaded and cached types match, have their data refreshed from storage into the already existing instances. Otherwise, they are recreated as completely new objects.
+Comme :ref:`CACHE_MODE_REUSE<class_ResourceFormatLoader_constant_CACHE_MODE_REUSE>`, mais le cache est vérifié pour la ressource principale (celle dont le chargement est demandé) ainsi que pour chacune de ses sous-ressources. Celles déjà présentes dans le cache, à condition que les types chargés et mis en cache correspondent, voient leurs données rafraîchies depuis le stockage dans les instances déjà existantes. Sinon, elles sont recréées en tant qu’objets entièrement nouveaux.
 
 .. _class_ResourceFormatLoader_constant_CACHE_MODE_IGNORE_DEEP:
 
@@ -97,7 +97,7 @@ Like :ref:`CACHE_MODE_REUSE<class_ResourceFormatLoader_constant_CACHE_MODE_REUSE
 
 :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` **CACHE_MODE_IGNORE_DEEP** = ``3``
 
-Like :ref:`CACHE_MODE_IGNORE<class_ResourceFormatLoader_constant_CACHE_MODE_IGNORE>`, but propagated recursively down the tree of dependencies (external resources).
+Comme :ref:`CACHE_MODE_IGNORE<class_ResourceFormatLoader_constant_CACHE_MODE_IGNORE>`, mais propagé de façon récursive dans l'arbre des dépendances (ressources externes).
 
 .. _class_ResourceFormatLoader_constant_CACHE_MODE_REPLACE_DEEP:
 
@@ -105,7 +105,7 @@ Like :ref:`CACHE_MODE_IGNORE<class_ResourceFormatLoader_constant_CACHE_MODE_IGNO
 
 :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` **CACHE_MODE_REPLACE_DEEP** = ``4``
 
-Like :ref:`CACHE_MODE_REPLACE<class_ResourceFormatLoader_constant_CACHE_MODE_REPLACE>`, but propagated recursively down the tree of dependencies (external resources).
+Comme :ref:`CACHE_MODE_REPLACE<class_ResourceFormatLoader_constant_CACHE_MODE_REPLACE>`, mais propagé de façon récursive dans l'arbre des dépendances (ressources externes).
 
 .. rst-class:: classref-section-separator
 
@@ -204,7 +204,7 @@ Renvoie le nom de classe de script associé à la :ref:`Resource<class_Resource>
 
 :ref:`String<class_String>` **_get_resource_type**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__get_resource_type>`
 
-Obtient le nom de classe de la ressource associée au chemin donné. Si le chargeur ne peut pas la manipuler, il doit renvoyer ``""``.
+Obtient le nom de classe de la ressource associée au chemin donné. Si le chargeur ne peut pas la gérer, il devrait renvoyer ``""``.
 
 \ **Note :** Les types de ressources personnalisées définis par des scripts ne sont pas connus par la :ref:`ClassDB<class_ClassDB>`, donc vous pouvez simplement renvoyer ``"Resource"`` pour eux.
 
@@ -218,7 +218,7 @@ Obtient le nom de classe de la ressource associée au chemin donné. Si le charg
 
 :ref:`int<class_int>` **_get_resource_uid**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__get_resource_uid>`
 
-Should return the unique ID for the resource associated with the given path. If this method is not overridden, a ``.uid`` file is generated along with the resource file, containing the unique ID.
+Doit renvoyer l'identifiant unique pour la ressource associée au chemin donné. Si cette méthode n'est pas redéfinie, un fichier ``.uid`` est généré avec le fichier de ressources, contenant l'identifiant unique.
 
 .. rst-class:: classref-item-separator
 
@@ -230,9 +230,9 @@ Should return the unique ID for the resource associated with the given path. If 
 
 :ref:`bool<class_bool>` **_handles_type**\ (\ type\: :ref:`StringName<class_StringName>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__handles_type>`
 
-Indique quelle classe de ressources ce chargeur peut charger.
+Indique quelle classe de ressource ce chargeur peut charger.
 
-\ **Note :** Les types de ressources personnalisées définis par des scripts ne sont pas connus par la :ref:`ClassDB<class_ClassDB>`, donc vous pouvez simplement manipuler ``"Resource"`` pour eux.
+\ **Note :** Les types de ressources personnalisées définis par des scripts ne sont pas connus par la :ref:`ClassDB<class_ClassDB>`, donc vous pouvez simplement gérer ``"Resource"`` pour eux.
 
 .. rst-class:: classref-item-separator
 
@@ -244,9 +244,9 @@ Indique quelle classe de ressources ce chargeur peut charger.
 
 :ref:`Variant<class_Variant>` **_load**\ (\ path\: :ref:`String<class_String>`, original_path\: :ref:`String<class_String>`, use_sub_threads\: :ref:`bool<class_bool>`, cache_mode\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__load>`
 
-Loads a resource when the engine finds this loader to be compatible. If the loaded resource is the result of an import, ``original_path`` will target the source file. Returns a :ref:`Resource<class_Resource>` object on success, or an :ref:`Error<enum_@GlobalScope_Error>` constant in case of failure.
+Charge une ressource lorsque le moteur juge ce chargeur compatible. Si la ressource chargée est le résultat d'un import, ``original_path`` ciblera le fichier source. Renvoie un objet :ref:`Resource<class_Resource>` lors du succès, ou une constante :ref:`Error<enum_@GlobalScope_Error>` en cas d'échec.
 
-The ``cache_mode`` property defines whether and how the cache should be used or updated when loading the resource. See :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` for details.
+La propriété ``cache_mode`` définit si et comment le cache devrait être utilisé ou mis à jour lors du chargement de la ressource. Voir :ref:`CacheMode<enum_ResourceFormatLoader_CacheMode>` pour plus de détails.
 
 .. rst-class:: classref-item-separator
 
@@ -258,9 +258,9 @@ The ``cache_mode`` property defines whether and how the cache should be used or 
 
 :ref:`bool<class_bool>` **_recognize_path**\ (\ path\: :ref:`String<class_String>`, type\: :ref:`StringName<class_StringName>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__recognize_path>`
 
-Tells whether or not this loader should load a resource from its resource path for a given type.
+Indique si ce chargeur doit ou non charger une ressource depuis son chemin de ressource pour un type donné.
 
-If it is not implemented, the default behavior returns whether the path's extension is within the ones provided by :ref:`_get_recognized_extensions()<class_ResourceFormatLoader_private_method__get_recognized_extensions>`, and if the type is within the ones provided by :ref:`_get_resource_type()<class_ResourceFormatLoader_private_method__get_resource_type>`.
+Si cette méthode n’est pas implémentée, le comportement par défaut vérifie si l’extension du chemin fait partie de celles renvoyées par :ref:`_get_recognized_extensions()<class_ResourceFormatLoader_private_method__get_recognized_extensions>`, et si le type fait partie de ceux renvoyés par :ref:`_get_resource_type()<class_ResourceFormatLoader_private_method__get_resource_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -272,9 +272,9 @@ If it is not implemented, the default behavior returns whether the path's extens
 
 :ref:`Error<enum_@GlobalScope_Error>` **_rename_dependencies**\ (\ path\: :ref:`String<class_String>`, renames\: :ref:`Dictionary<class_Dictionary>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__rename_dependencies>`
 
-If implemented, renames dependencies within the given resource and saves it. ``renames`` is a dictionary ``{ String => String }`` mapping old dependency paths to new paths.
+Si elle implémentée, renomme les dépendances dans la ressource donnée et l'enregistre. ``renames`` est un dictionnaire ``{ String => String }`` qui associe les anciens chemins de dépendance avec les nouveaux chemins.
 
-Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or an :ref:`Error<enum_@GlobalScope_Error>` constant in case of failure.
+Renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` lors du succès, ou une constante :ref:`Error<enum_@GlobalScope_Error>` en cas d'échec.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

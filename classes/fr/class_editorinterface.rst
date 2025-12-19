@@ -382,9 +382,9 @@ Renvoie le singleton :ref:`EditorPaths<class_EditorPaths>`.
 
 :ref:`float<class_float>` **get_editor_scale**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_scale>`
 
-Returns the actual scale of the editor UI (``1.0`` being 100% scale). This can be used to adjust position and dimensions of the UI added by plugins.
+Renvoie l'échelle actuelle de l'interface de l'éditeur (``1.0`` étant une échelle à 100%). Cela peut être utilisé pour régler la position et les dimensions des interfaces utilisateurs ajoutées par des plugins.
 
-\ **Note:** This value is set via the :ref:`EditorSettings.interface/editor/display_scale<class_EditorSettings_property_interface/editor/display_scale>` and :ref:`EditorSettings.interface/editor/custom_display_scale<class_EditorSettings_property_interface/editor/custom_display_scale>` settings. The editor must be restarted for changes to be properly applied.
+\ **Note :** Cette valeur est définie via les paramètres :ref:`EditorSettings.interface/editor/display_scale<class_EditorSettings_property_interface/editor/display_scale>` et :ref:`EditorSettings.interface/editor/custom_display_scale<class_EditorSettings_property_interface/editor/custom_display_scale>`. L'éditeur doit être redémarré pour que les changements soient complètement appliqués.
 
 .. rst-class:: classref-item-separator
 

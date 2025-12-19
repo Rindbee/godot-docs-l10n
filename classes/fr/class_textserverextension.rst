@@ -7,7 +7,7 @@ TextServerExtension
 
 **Hérite de :** :ref:`TextServer<class_TextServer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`TextServerAdvanced<class_TextServerAdvanced>`, :ref:`TextServerDummy<class_TextServerDummy>`, :ref:`TextServerFallback<class_TextServerFallback>`
+**Hérité par :** :ref:`TextServerAdvanced<class_TextServerAdvanced>`, :ref:`TextServerDummy<class_TextServerDummy>`, :ref:`TextServerFallback<class_TextServerFallback>`
 
 Base class for custom :ref:`TextServer<class_TextServer>` implementations (plugins).
 
@@ -677,7 +677,7 @@ Renvoie le mode d'anticrénelage de la police.
 
 :ref:`float<class_float>` **_font_get_ascent**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_TextServerExtension_private_method__font_get_ascent>`
 
-Returns the font ascent (number of pixels above the baseline).
+Renvoie l’ascendant de la police (le nombre de pixels au dessus de la ligne de base).
 
 .. rst-class:: classref-item-separator
 
@@ -713,7 +713,7 @@ Returns character code associated with ``glyph_index``, or ``0`` if ``glyph_inde
 
 :ref:`float<class_float>` **_font_get_descent**\ (\ font_rid\: :ref:`RID<class_RID>`, size\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_TextServerExtension_private_method__font_get_descent>`
 
-Returns the font descent (number of pixels below the baseline).
+Renvoie le descendant de la police (le nombre de pixels en dessous de la ligne de base).
 
 .. rst-class:: classref-item-separator
 

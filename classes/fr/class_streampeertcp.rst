@@ -7,16 +7,16 @@ StreamPeerTCP
 
 **Hérite de :** :ref:`StreamPeer<class_StreamPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A stream peer that handles TCP connections.
+Un pair de flux qui gère des connexions TCP.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A stream peer that handles TCP connections. This object can be used to connect to TCP servers, or also is returned by a TCP server.
+Un pair de flux qui gère des connexions TCP. Cet objet peut être utilisé pour se connecter à des serveurs TCP, ou est également renvoyé par un serveur TCP.
 
-\ **Note:** When exporting to Android, make sure to enable the ``INTERNET`` permission in the Android export preset before exporting the project or using one-click deploy. Otherwise, network communication of any kind will be blocked by Android.
+\ **Note :** Lors de l'export vers Android, assurez-vous d'activer la permission ``INTERNET`` dans le préréglage d'export Android avant d'exporter le projet ou en utilisant le déploiement en un clic. Sinon, la communication réseau de tout type sera bloquée par Android.
 
 .. rst-class:: classref-reftable-group
 
@@ -122,7 +122,7 @@ This method is generally not needed, and only used to force the subsequent call 
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect_to_host**\ (\ host\: :ref:`String<class_String>`, port\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeerTCP_method_connect_to_host>`
 
-Connects to the specified ``host:port`` pair. A hostname will be resolved if valid. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success.
+Se connecte à la paire ``host:port`` spécifiée. Un nom d'hôte sera résolu si valide. Renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` lors du succès.
 
 .. rst-class:: classref-item-separator
 
@@ -170,7 +170,7 @@ Renvoie le port de ce pair.
 
 :ref:`int<class_int>` **get_local_port**\ (\ ) |const| :ref:`🔗<class_StreamPeerTCP_method_get_local_port>`
 
-Returns the local port to which this peer is bound.
+Renvoie le port local auquel ce pair est lié.
 
 .. rst-class:: classref-item-separator
 
@@ -194,7 +194,7 @@ Renvoie le statut de la connexion.
 
 :ref:`Error<enum_@GlobalScope_Error>` **poll**\ (\ ) :ref:`🔗<class_StreamPeerTCP_method_poll>`
 
-Poll the socket, updating its state. See :ref:`get_status()<class_StreamPeerTCP_method_get_status>`.
+Interroge la socket, mettant à jour son état. Voir :ref:`get_status()<class_StreamPeerTCP_method_get_status>`.
 
 .. rst-class:: classref-item-separator
 
@@ -206,9 +206,9 @@ Poll the socket, updating its state. See :ref:`get_status()<class_StreamPeerTCP_
 
 |void| **set_no_delay**\ (\ enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_StreamPeerTCP_method_set_no_delay>`
 
-If ``enabled`` is ``true``, packets will be sent immediately. If ``enabled`` is ``false`` (the default), packet transfers will be delayed and combined using `Nagle's algorithm <https://en.wikipedia.org/wiki/Nagle%27s_algorithm>`__.
+Si ``enabled`` vaut ``true``, les paquets seront envoyés immédiatement. Si ``enabled`` vaut ``false`` (par défaut), les transferts de paquets seront retardés et combinés en utilisant `l'algorithme de Nagle <https://fr.wikipedia.org/wiki/Algorithme_de_Nagle>`__.
 
-\ **Note:** It's recommended to leave this disabled for applications that send large packets or need to transfer a lot of data, as enabling this can decrease the total available bandwidth.
+\ **Note :** Il est recommandé de laisser ceci désactivé pour les applications qui envoient de larges paquets ou qui doivent transférer beaucoup de données, car activer ceci peut diminuer la bande passante totale disponible.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

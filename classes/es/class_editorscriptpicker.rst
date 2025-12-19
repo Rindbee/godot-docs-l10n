@@ -7,7 +7,7 @@ EditorScriptPicker
 
 **Hereda:** :ref:`EditorResourcePicker<class_EditorResourcePicker>` **<** :ref:`HBoxContainer<class_HBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Godot editor's control for selecting the ``script`` property of a :ref:`Node<class_Node>`.
+Control del editor de Godot para seleccionar la propiedad ``script`` de un :ref:`Node<class_Node>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -50,7 +50,7 @@ Descripciones de Propiedades
 - |void| **set_script_owner**\ (\ value\: :ref:`Node<class_Node>`\ )
 - :ref:`Node<class_Node>` **get_script_owner**\ (\ )
 
-The owner :ref:`Node<class_Node>` of the script property that holds the edited resource.
+El :ref:`Node<class_Node>` propietario de la propiedad de script que contiene el recurso editado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,7 +7,7 @@ OpenXRIPBindingModifier
 
 **Hérite de :** :ref:`OpenXRBindingModifier<class_OpenXRBindingModifier>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OpenXRDpadBindingModifier<class_OpenXRDpadBindingModifier>`
+**Hérité par :** :ref:`OpenXRDpadBindingModifier<class_OpenXRDpadBindingModifier>`
 
 Modificateur de liaison qui s'applique directement sur un profil d'interaction.
 

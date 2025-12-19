@@ -9,16 +9,16 @@ PhysicsBody3D
 
 **Heredado por:** :ref:`CharacterBody3D<class_CharacterBody3D>`, :ref:`PhysicalBone3D<class_PhysicalBone3D>`, :ref:`RigidBody3D<class_RigidBody3D>`, :ref:`StaticBody3D<class_StaticBody3D>`
 
-Abstract base class for 3D game objects affected by physics.
+Clase base abstracta para los objetos de juego 3D afectados por la física.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**PhysicsBody3D** is an abstract base class for 3D game objects affected by physics. All 3D physics bodies inherit from it.
+**PhysicsBody3D** es una clase base abstracta para los objetos de juego 3D afectados por la física. Todos los cuerpos físicos 3D heredan de ella.
 
-\ **Warning:** With a non-uniform scale, this node will likely not behave as expected. It is advised to keep its scale the same on all axes and adjust its collision shape(s) instead.
+\ **Advertencia:** Con una escala no uniforme, este nodo probablemente no se comportará como se espera. Se aconseja mantener su escala igual en todos los ejes y ajustar sus formas de colisión en su lugar.
 
 .. rst-class:: classref-introduction-group
 
@@ -211,7 +211,7 @@ Añade un cuerpo a la lista de cuerpos con los que este cuerpo no puede colision
 
 :ref:`bool<class_bool>` **get_axis_lock**\ (\ axis\: :ref:`BodyAxis<enum_PhysicsServer3D_BodyAxis>`\ ) |const| :ref:`🔗<class_PhysicsBody3D_method_get_axis_lock>`
 
-Returns ``true`` if the specified linear or rotational ``axis`` is locked.
+Devuelve ``true`` si el ``axis`` lineal o rotacional especificado está bloqueado.
 
 .. rst-class:: classref-item-separator
 
@@ -235,7 +235,7 @@ Devuelve un conjunto de nodos que se añadieron como excepciones de colisión pa
 
 :ref:`Vector3<class_Vector3>` **get_gravity**\ (\ ) |const| :ref:`🔗<class_PhysicsBody3D_method_get_gravity>`
 
-Returns the gravity vector computed from all sources that can affect the body, including all gravity overrides from :ref:`Area3D<class_Area3D>` nodes and the global world gravity.
+Devuelve el vector de gravedad calculado a partir de todas las fuentes que pueden afectar al cuerpo, incluyendo todas las anulaciones de gravedad de los nodos :ref:`Area3D<class_Area3D>` y la gravedad global del mundo.
 
 .. rst-class:: classref-item-separator
 
@@ -247,17 +247,17 @@ Returns the gravity vector computed from all sources that can affect the body, i
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **move_and_collide**\ (\ motion\: :ref:`Vector3<class_Vector3>`, test_only\: :ref:`bool<class_bool>` = false, safe_margin\: :ref:`float<class_float>` = 0.001, recovery_as_collision\: :ref:`bool<class_bool>` = false, max_collisions\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_PhysicsBody3D_method_move_and_collide>`
 
-Moves the body along the vector ``motion``. In order to be frame rate independent in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` or :ref:`Node._process()<class_Node_private_method__process>`, ``motion`` should be computed using ``delta``.
+Mueve el cuerpo a lo largo del vector ``motion``. Para que sea independiente de la velocidad de fotogramas en :ref:`Node._physics_process()<class_Node_private_method__physics_process>` o :ref:`Node._process()<class_Node_private_method__process>`, ``motion`` debe calcularse utilizando ``delta``.
 
-The body will stop if it collides. Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>`, which contains information about the collision when stopped, or when touching another body along the motion.
+El cuerpo se detendrá si colisiona. Devuelve un :ref:`KinematicCollision3D<class_KinematicCollision3D>`, que contiene información sobre la colisión cuando se detiene, o cuando toca otro cuerpo a lo largo del movimiento.
 
-If ``test_only`` is ``true``, the body does not move but the would-be collision information is given.
+Si ``test_only`` es ``true``, el cuerpo no se mueve pero se da la información de la posible colisión.
 
-\ ``safe_margin`` is the extra margin used for collision recovery (see :ref:`CharacterBody3D.safe_margin<class_CharacterBody3D_property_safe_margin>` for more details).
+\ ``safe_margin`` es el margen extra utilizado para la recuperación de la colisión (ver :ref:`CharacterBody3D.safe_margin<class_CharacterBody3D_property_safe_margin>` para más detalles).
 
-If ``recovery_as_collision`` is ``true``, any depenetration from the recovery phase is also reported as a collision; this is used e.g. by :ref:`CharacterBody3D<class_CharacterBody3D>` for improving floor detection during floor snapping.
+Si ``recovery_as_collision`` es ``true``, cualquier despenetración de la fase de recuperación también se notifica como una colisión; esto es utilizado por ejemplo por :ref:`CharacterBody3D<class_CharacterBody3D>` para mejorar la detección del suelo durante el ajuste al suelo.
 
-\ ``max_collisions`` allows to retrieve more than one collision result.
+\ ``max_collisions`` permite recuperar más de un resultado de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -293,17 +293,17 @@ Bloquea o desbloquea el ``axis`` lineal o rotacional especificado según el valo
 
 :ref:`bool<class_bool>` **test_move**\ (\ from\: :ref:`Transform3D<class_Transform3D>`, motion\: :ref:`Vector3<class_Vector3>`, collision\: :ref:`KinematicCollision3D<class_KinematicCollision3D>` = null, safe_margin\: :ref:`float<class_float>` = 0.001, recovery_as_collision\: :ref:`bool<class_bool>` = false, max_collisions\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_PhysicsBody3D_method_test_move>`
 
-Checks for collisions without moving the body. In order to be frame rate independent in :ref:`Node._physics_process()<class_Node_private_method__physics_process>` or :ref:`Node._process()<class_Node_private_method__process>`, ``motion`` should be computed using ``delta``.
+Comprueba las colisiones sin mover el cuerpo. Para que sea independiente de la velocidad de fotogramas en :ref:`Node._physics_process()<class_Node_private_method__physics_process>` o :ref:`Node._process()<class_Node_private_method__process>`, ``motion`` debe calcularse utilizando ``delta``.
 
-Virtually sets the node's position, scale and rotation to that of the given :ref:`Transform3D<class_Transform3D>`, then tries to move the body along the vector ``motion``. Returns ``true`` if a collision would stop the body from moving along the whole path.
+Establece virtualmente la posición, escala y rotación del nodo a la del :ref:`Transform3D<class_Transform3D>` dado, luego intenta mover el cuerpo a lo largo del vector ``motion``. Devuelve ``true`` si una colisión impediría que el cuerpo se moviera a lo largo de todo el trayecto.
 
-\ ``collision`` is an optional object of type :ref:`KinematicCollision3D<class_KinematicCollision3D>`, which contains additional information about the collision when stopped, or when touching another body along the motion.
+\ ``collision`` es un objeto opcional de tipo :ref:`KinematicCollision3D<class_KinematicCollision3D>`, que contiene información adicional sobre la colisión cuando se detiene, o cuando toca otro cuerpo a lo largo del movimiento.
 
-\ ``safe_margin`` is the extra margin used for collision recovery (see :ref:`CharacterBody3D.safe_margin<class_CharacterBody3D_property_safe_margin>` for more details).
+\ ``safe_margin`` es el margen extra utilizado para la recuperación de la colisión (ver :ref:`CharacterBody3D.safe_margin<class_CharacterBody3D_property_safe_margin>` para más detalles).
 
-If ``recovery_as_collision`` is ``true``, any depenetration from the recovery phase is also reported as a collision; this is useful for checking whether the body would *touch* any other bodies.
+Si ``recovery_as_collision`` es ``true``, cualquier despenetración de la fase de recuperación también se notifica como una colisión; esto es útil para comprobar si el cuerpo *tocaría* algún otro cuerpo.
 
-\ ``max_collisions`` allows to retrieve more than one collision result.
+\ ``max_collisions`` permite recuperar más de un resultado de colisión.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -17,30 +17,30 @@ Un conteneur qui garde une marge autour de ses contrôles enfants.
 Description
 -----------
 
-**MarginContainer** adds an adjustable margin on each side of its child controls. The margins are added around all children, not around each individual one. To control the **MarginContainer**'s margins, use the ``margin_*`` theme properties listed below.
+**MarginContainer** ajoute une marge réglable de chaque côté de ses contrôles enfants. Les marges sont ajoutées autour de tous les enfants, pas autour de chacun individuellement. Pour contrôler les marges du **MarginContainer**, utilisez les propriétés de thème ``margin_*`` énumérées ci-dessous.
 
-\ **Note:** The margin sizes are theme overrides, not normal properties. This is an example of how to change them in code:
+\ **Note :** Les tailles des marge sont des redéfinitions du thème, pas des propriétés normales. Voilà un exemple de comment les modifier dans le code :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # This code sample assumes the current script is extending MarginContainer.
-    var margin_value = 100
-    add_theme_constant_override("margin_top", margin_value)
-    add_theme_constant_override("margin_left", margin_value)
-    add_theme_constant_override("margin_bottom", margin_value)
-    add_theme_constant_override("margin_right", margin_value)
+    # Cet échantillon de code suppose que le script actuel étend MarginContainer.
+    var valeur_marge = 100
+    add_theme_constant_override("margin_top", valeur_marge)
+    add_theme_constant_override("margin_left", valeur_marge)
+    add_theme_constant_override("margin_bottom", valeur_marge)
+    add_theme_constant_override("margin_right", valeur_marge)
 
  .. code-tab:: csharp
 
-    // This code sample assumes the current script is extending MarginContainer.
-    int marginValue = 100;
-    AddThemeConstantOverride("margin_top", marginValue);
-    AddThemeConstantOverride("margin_left", marginValue);
-    AddThemeConstantOverride("margin_bottom", marginValue);
-    AddThemeConstantOverride("margin_right", marginValue);
+    // Cet échantillon de code suppose que le script actuel étend MarginContainer.
+    int valeurMarge = 100;
+    AddThemeConstantOverride("margin_top", valeurMarge);
+    AddThemeConstantOverride("margin_left", valeurMarge);
+    AddThemeConstantOverride("margin_bottom", valeurMarge);
+    AddThemeConstantOverride("margin_right", valeurMarge);
 
 
 
@@ -84,7 +84,7 @@ Descriptions des propriétés du thème
 
 :ref:`int<class_int>` **margin_bottom** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_bottom>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the bottom.
+Décale vers l'intérieur les enfants directs du conteneur par cette quantité de pixels depuis le bas.
 
 .. rst-class:: classref-item-separator
 
@@ -96,7 +96,7 @@ Offsets towards the inside direct children of the container by this amount of pi
 
 :ref:`int<class_int>` **margin_left** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_left>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the left.
+Décale vers l'intérieur les enfants directs du conteneur par cette quantité de pixels depuis la gauche.
 
 .. rst-class:: classref-item-separator
 
@@ -108,7 +108,7 @@ Offsets towards the inside direct children of the container by this amount of pi
 
 :ref:`int<class_int>` **margin_right** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_right>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the right.
+Décale vers l'intérieur les enfants directs du conteneur par cette quantité de pixels depuis la droite.
 
 .. rst-class:: classref-item-separator
 
@@ -120,7 +120,7 @@ Offsets towards the inside direct children of the container by this amount of pi
 
 :ref:`int<class_int>` **margin_top** = ``0`` :ref:`🔗<class_MarginContainer_theme_constant_margin_top>`
 
-Offsets towards the inside direct children of the container by this amount of pixels from the top.
+Décale vers l'intérieur les enfants directs du conteneur par cette quantité de pixels depuis le haut.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

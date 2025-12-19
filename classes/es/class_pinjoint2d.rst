@@ -58,7 +58,7 @@ Descripciones de Propiedades
 - |void| **set_angular_limit_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_angular_limit_enabled**\ (\ )
 
-If ``true``, the pin maximum and minimum rotation, defined by :ref:`angular_limit_lower<class_PinJoint2D_property_angular_limit_lower>` and :ref:`angular_limit_upper<class_PinJoint2D_property_angular_limit_upper>` are applied.
+Si es ``true``, se aplican la rotación máxima y mínima del pivote, definidas por :ref:`angular_limit_lower<class_PinJoint2D_property_angular_limit_lower>` y :ref:`angular_limit_upper<class_PinJoint2D_property_angular_limit_upper>`.
 
 .. rst-class:: classref-item-separator
 

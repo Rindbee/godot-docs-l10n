@@ -9,7 +9,7 @@ PackedDataContainerRef
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-An internal class used by :ref:`PackedDataContainer<class_PackedDataContainer>` to pack nested arrays and dictionaries.
+Una clase interna utilizada por :ref:`PackedDataContainer<class_PackedDataContainer>` para empaquetar arrays y diccionarios anidados.
 
 .. rst-class:: classref-introduction-group
 
@@ -70,7 +70,7 @@ Descripciones de Métodos
 
 :ref:`int<class_int>` **size**\ (\ ) |const| :ref:`🔗<class_PackedDataContainerRef_method_size>`
 
-Returns the size of the packed container (see :ref:`Array.size()<class_Array_method_size>` and :ref:`Dictionary.size()<class_Dictionary_method_size>`).
+Devuelve el tamaño del contenedor empaquetado (véase :ref:`Array.size()<class_Array_method_size>` y :ref:`Dictionary.size()<class_Dictionary_method_size>`).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

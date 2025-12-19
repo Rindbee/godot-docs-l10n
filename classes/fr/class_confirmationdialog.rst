@@ -7,7 +7,7 @@ ConfirmationDialog
 
 **Hérite de :** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`EditorFileDialog<class_EditorFileDialog>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
+**Hérité par :** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`EditorFileDialog<class_EditorFileDialog>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
 
 Une boîte de dialogue pour la confirmation des actions.
 

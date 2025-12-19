@@ -14,7 +14,7 @@ Sugerencia de la posición 2D genérica para editar.
 Descripción
 ----------------------
 
-Generic 2D position hint for editing. It's just like a plain :ref:`Node2D<class_Node2D>`, but it displays as a cross in the 2D editor at all times. You can set the cross' visual size by using the gizmo in the 2D editor while the node is selected.
+Indicación de posición 2D genérica para la edición. Es como un :ref:`Node2D<class_Node2D>` normal, pero se muestra como una cruz en el editor 2D en todo momento. Puedes establecer el tamaño visual de la cruz utilizando el gizmo en el editor 2D mientras el nodo está seleccionado.
 
 .. rst-class:: classref-reftable-group
 
@@ -48,7 +48,7 @@ Descripciones de Propiedades
 - |void| **set_gizmo_extents**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_gizmo_extents**\ (\ )
 
-Size of the gizmo cross that appears in the editor.
+Tamaño de la cruz del gizmo que aparece en el editor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

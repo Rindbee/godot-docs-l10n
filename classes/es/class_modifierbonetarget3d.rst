@@ -52,7 +52,7 @@ Descripciones de Propiedades
 - |void| **set_bone**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bone**\ (\ )
 
-The index of the attached bone.
+El índice del hueso adjunto.
 
 .. rst-class:: classref-item-separator
 

@@ -9,14 +9,14 @@ Compositor
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Stores attributes used to customize how a Viewport is rendered.
+Stocke des attributs utilisés pour personnaliser la façon dont un Viewport est rendu.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-The compositor resource stores attributes used to customize how a :ref:`Viewport<class_Viewport>` is rendered.
+La ressource de compositeur stocke des attributs utilisés pour personnaliser la façon dont un :ref:`Viewport<class_Viewport>` est rendu.
 
 .. rst-class:: classref-introduction-group
 

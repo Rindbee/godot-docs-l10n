@@ -14,7 +14,7 @@ Contiene un párrafo de texto.
 Descripción
 ----------------------
 
-Abstraction over :ref:`TextServer<class_TextServer>` for handling a single paragraph of text.
+Abstracción sobre :ref:`TextServer<class_TextServer>` para manejar un único párrafo de texto.
 
 .. rst-class:: classref-reftable-group
 
@@ -167,7 +167,7 @@ Alineación horizontal del párrafo.
 - |void| **set_break_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_break_flags**\ (\ )
 
-Line breaking rules. For more info see :ref:`TextServer<class_TextServer>`.
+Reglas de salto de línea. Para más información, véase :ref:`TextServer<class_TextServer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -184,7 +184,7 @@ Line breaking rules. For more info see :ref:`TextServer<class_TextServer>`.
 - |void| **set_custom_punctuation**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_custom_punctuation**\ (\ )
 
-Custom punctuation character list, used for word breaking. If set to empty string, server defaults are used.
+Lista de caracteres de puntuación personalizados, utilizada para la división de palabras. Si se establece en una string vacía, se utilizan los valores predeterminados del servidor.
 
 .. rst-class:: classref-item-separator
 
@@ -303,7 +303,7 @@ Orientación del texto.
 - |void| **set_preserve_control**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_preserve_control**\ (\ )
 
-If set to ``true`` text will display control characters.
+Si se establece a ``true``, el texto mostrará caracteres de control.
 
 .. rst-class:: classref-item-separator
 
@@ -320,7 +320,7 @@ If set to ``true`` text will display control characters.
 - |void| **set_preserve_invalid**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_preserve_invalid**\ (\ )
 
-If set to ``true`` text will display invalid characters.
+Si se establece a ``true``, el texto mostrará caracteres inválidos.
 
 .. rst-class:: classref-item-separator
 
@@ -337,7 +337,7 @@ If set to ``true`` text will display invalid characters.
 - |void| **set_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_text_overrun_behavior**\ (\ )
 
-The clipping behavior when the text exceeds the paragraph's set width.
+El comportamiento de recorte cuando el texto excede el ancho establecido del párrafo.
 
 .. rst-class:: classref-item-separator
 
@@ -371,7 +371,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **add_object**\ (\ key\: :ref:`Variant<class_Variant>`, size\: :ref:`Vector2<class_Vector2>`, inline_align\: :ref:`InlineAlignment<enum_@GlobalScope_InlineAlignment>` = 5, length\: :ref:`int<class_int>` = 1, baseline\: :ref:`float<class_float>` = 0.0\ ) :ref:`🔗<class_TextParagraph_method_add_object>`
 
-Adds inline object to the text buffer, ``key`` must be unique. In the text, object is represented as ``length`` object replacement characters.
+Añade un objeto en línea al buffer de texto, ``key`` debe ser único. En el texto, el objeto se representa como ``length`` caracteres de reemplazo de objeto.
 
 .. rst-class:: classref-item-separator
 
@@ -395,7 +395,7 @@ Agrega espacio de texto y fuente para dibujarlo.
 
 |void| **clear**\ (\ ) :ref:`🔗<class_TextParagraph_method_clear>`
 
-Clears text paragraph (removes text and inline objects).
+Limpia el párrafo de texto (elimina el texto y los objetos en línea).
 
 .. rst-class:: classref-item-separator
 
@@ -479,7 +479,7 @@ Draw outline of the single line of text into a canvas item at a given position, 
 
 |void| **draw_outline**\ (\ canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, outline_size\: :ref:`int<class_int>` = 1, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), dc_color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| :ref:`🔗<class_TextParagraph_method_draw_outline>`
 
-Draw outlines of all lines of the text and drop cap into a canvas item at a given position, with ``color``. ``pos`` specifies the top left corner of the bounding box. If ``oversampling`` is greater than zero, it is used as font oversampling factor, otherwise viewport oversampling settings are used.
+Dibuja los contornos de todas las líneas del texto y la letra capital en un elemento del canvas en una posición dada, con ``color``. ``pos`` especifica la esquina superior izquierda del cuadro delimitador. Si ``oversampling`` es mayor que cero, se utiliza como factor de sobremuestreo de la fuente, de lo contrario, se utilizan los ajustes de sobremuestreo del viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -491,7 +491,7 @@ Draw outlines of all lines of the text and drop cap into a canvas item at a give
 
 :ref:`int<class_int>` **get_dropcap_lines**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_dropcap_lines>`
 
-Returns number of lines used by dropcap.
+Devuelve el número de líneas usadas por la letra capital.
 
 .. rst-class:: classref-item-separator
 
@@ -503,7 +503,7 @@ Returns number of lines used by dropcap.
 
 :ref:`RID<class_RID>` **get_dropcap_rid**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_dropcap_rid>`
 
-Returns drop cap text buffer RID.
+Devuelve el RID del búfer de texto de la letra capital.
 
 .. rst-class:: classref-item-separator
 
@@ -515,7 +515,7 @@ Returns drop cap text buffer RID.
 
 :ref:`Vector2<class_Vector2>` **get_dropcap_size**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_dropcap_size>`
 
-Returns drop cap bounding box size.
+Devuelve el tamaño del cuadro delimitador de la letra capital.
 
 .. rst-class:: classref-item-separator
 
@@ -551,7 +551,7 @@ Returns the text line ascent (number of pixels above the baseline for horizontal
 
 :ref:`int<class_int>` **get_line_count**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_count>`
 
-Returns number of lines in the paragraph.
+Devuelve el número de líneas en el párrafo.
 
 .. rst-class:: classref-item-separator
 
@@ -563,7 +563,7 @@ Returns number of lines in the paragraph.
 
 :ref:`float<class_float>` **get_line_descent**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_descent>`
 
-Returns the text line descent (number of pixels below the baseline for horizontal layout or to the right of baseline for vertical).
+Devuelve el descenso de la línea de texto (número de píxeles por debajo de la línea base para el diseño horizontal o a la derecha de la línea base para el diseño vertical).
 
 .. rst-class:: classref-item-separator
 
@@ -587,7 +587,7 @@ Returns bounding rectangle of the inline object.
 
 :ref:`Array<class_Array>` **get_line_objects**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_objects>`
 
-Returns array of inline objects in the line.
+Devuelve un array de objetos en línea en la línea.
 
 .. rst-class:: classref-item-separator
 
@@ -599,7 +599,7 @@ Returns array of inline objects in the line.
 
 :ref:`Vector2i<class_Vector2i>` **get_line_range**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_range>`
 
-Returns character range of the line.
+Devuelve el rango de caracteres de la línea.
 
 .. rst-class:: classref-item-separator
 
@@ -611,7 +611,7 @@ Returns character range of the line.
 
 :ref:`RID<class_RID>` **get_line_rid**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_rid>`
 
-Returns TextServer line buffer RID.
+Devuelve el RID del búfer de línea de TextServer.
 
 .. rst-class:: classref-item-separator
 
@@ -623,7 +623,7 @@ Returns TextServer line buffer RID.
 
 :ref:`Vector2<class_Vector2>` **get_line_size**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_size>`
 
-Returns size of the bounding box of the line of text. Returned size is rounded up.
+Devuelve el tamaño del cuadro delimitador de la línea de texto. El tamaño devuelto se redondea hacia arriba.
 
 .. rst-class:: classref-item-separator
 
@@ -659,7 +659,7 @@ Returns thickness of the underline.
 
 :ref:`float<class_float>` **get_line_width**\ (\ line\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextParagraph_method_get_line_width>`
 
-Returns width (for horizontal layout) or height (for vertical) of the line of text.
+Devuelve el ancho (para diseño horizontal) o la altura (para vertical) de la línea de texto.
 
 .. rst-class:: classref-item-separator
 
@@ -671,7 +671,7 @@ Returns width (for horizontal layout) or height (for vertical) of the line of te
 
 :ref:`Vector2<class_Vector2>` **get_non_wrapped_size**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_non_wrapped_size>`
 
-Returns the size of the bounding box of the paragraph, without line breaks.
+Devuelve el tamaño del cuadro delimitador del párrafo, sin saltos de línea.
 
 .. rst-class:: classref-item-separator
 
@@ -683,7 +683,7 @@ Returns the size of the bounding box of the paragraph, without line breaks.
 
 :ref:`Vector2i<class_Vector2i>` **get_range**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_range>`
 
-Returns the character range of the paragraph.
+Devuelve el rango de caracteres del párrafo.
 
 .. rst-class:: classref-item-separator
 
@@ -695,7 +695,7 @@ Returns the character range of the paragraph.
 
 :ref:`RID<class_RID>` **get_rid**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_rid>`
 
-Returns TextServer full string buffer RID.
+Devuelve el RID del búfer de string completo de TextServer.
 
 .. rst-class:: classref-item-separator
 
@@ -707,7 +707,7 @@ Returns TextServer full string buffer RID.
 
 :ref:`Vector2<class_Vector2>` **get_size**\ (\ ) |const| :ref:`🔗<class_TextParagraph_method_get_size>`
 
-Returns the size of the bounding box of the paragraph.
+Devuelve el tamaño del cuadro delimitador del párrafo.
 
 .. rst-class:: classref-item-separator
 
@@ -757,7 +757,7 @@ Override ranges should cover full source text without overlaps. BiDi algorithm w
 
 :ref:`bool<class_bool>` **set_dropcap**\ (\ text\: :ref:`String<class_String>`, font\: :ref:`Font<class_Font>`, font_size\: :ref:`int<class_int>`, dropcap_margins\: :ref:`Rect2<class_Rect2>` = Rect2(0, 0, 0, 0), language\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_TextParagraph_method_set_dropcap>`
 
-Sets drop cap, overrides previously set drop cap. Drop cap (dropped capital) is a decorative element at the beginning of a paragraph that is larger than the rest of the text.
+Establece la letra capital, sobreescribiendo la letra capital establecida previamente. La letra capital (letra capital caída) es un elemento decorativo al principio de un párrafo que es más grande que el resto del texto.
 
 .. rst-class:: classref-item-separator
 
@@ -769,7 +769,7 @@ Sets drop cap, overrides previously set drop cap. Drop cap (dropped capital) is 
 
 |void| **tab_align**\ (\ tab_stops\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) :ref:`🔗<class_TextParagraph_method_tab_align>`
 
-Aligns paragraph to the given tab-stops.
+Alinea un párrafo a las tabulaciones dadas.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

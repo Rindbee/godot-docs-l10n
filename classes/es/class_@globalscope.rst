@@ -804,7 +804,7 @@ Tecla Shift + Tab.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_BACKSPACE** = ``4194308``
 
-Backspace key.
+Tecla Retroceso.
 
 .. _class_@GlobalScope_constant_KEY_ENTER:
 
@@ -828,7 +828,7 @@ Pulsa la tecla en el teclado numerico.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_INSERT** = ``4194311``
 
-Insert key.
+Tecla Insertar.
 
 .. _class_@GlobalScope_constant_KEY_DELETE:
 
@@ -1476,7 +1476,7 @@ Tecla Subir Volumen.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIAPLAY** = ``4194388``
 
-Media play key.
+Tecla de reproducción multimedia.
 
 .. _class_@GlobalScope_constant_KEY_MEDIASTOP:
 
@@ -1492,7 +1492,7 @@ Tecla reproduccion parar.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIAPREVIOUS** = ``4194390``
 
-Previous song key.
+Tecla de Canción previa.
 
 .. _class_@GlobalScope_constant_KEY_MEDIANEXT:
 
@@ -1500,7 +1500,7 @@ Previous song key.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIANEXT** = ``4194391``
 
-Next song key.
+Tecla de Siguiente canción.
 
 .. _class_@GlobalScope_constant_KEY_MEDIARECORD:
 
@@ -1508,7 +1508,7 @@ Next song key.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_MEDIARECORD** = ``4194392``
 
-Media record key.
+Tecla grabar.
 
 .. _class_@GlobalScope_constant_KEY_HOMEPAGE:
 
@@ -1516,7 +1516,7 @@ Media record key.
 
 :ref:`Key<enum_@GlobalScope_Key>` **KEY_HOMEPAGE** = ``4194393``
 
-Home page key.
+Tecla Inicio.
 
 .. _class_@GlobalScope_constant_KEY_FAVORITES:
 
@@ -2318,7 +2318,7 @@ flags **KeyModifierMask**: :ref:`🔗<enum_@GlobalScope_KeyModifierMask>`
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_CODE_MASK** = ``8388607``
 
-Key Code mask.
+Máscara de código de tecla.
 
 .. _class_@GlobalScope_constant_KEY_MODIFIER_MASK:
 
@@ -2326,7 +2326,7 @@ Key Code mask.
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MODIFIER_MASK** = ``2130706432``
 
-Modifier key mask.
+Máscara modificadora de tecla.
 
 .. _class_@GlobalScope_constant_KEY_MASK_CMD_OR_CTRL:
 
@@ -2382,7 +2382,7 @@ Keypad key mask.
 
 :ref:`KeyModifierMask<enum_@GlobalScope_KeyModifierMask>` **KEY_MASK_GROUP_SWITCH** = ``1073741824``
 
-Group Switch key mask.
+Máscara de la tecla de cambio de grupo.
 
 .. rst-class:: classref-item-separator
 
@@ -3204,7 +3204,7 @@ Archivo: Error Fin de fichero (EOF).
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_OPEN** = ``19``
 
-Can't open error.
+Error: No se puede abrir.
 
 .. _class_@GlobalScope_constant_ERR_CANT_CREATE:
 
@@ -3212,7 +3212,7 @@ Can't open error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_CREATE** = ``20``
 
-Can't create error.
+Error: No se puede crear.
 
 .. _class_@GlobalScope_constant_ERR_QUERY_FAILED:
 
@@ -3220,7 +3220,7 @@ Can't create error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_QUERY_FAILED** = ``21``
 
-Query failed error.
+Error: Fallo en la consulta.
 
 .. _class_@GlobalScope_constant_ERR_ALREADY_IN_USE:
 
@@ -3228,7 +3228,7 @@ Query failed error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_ALREADY_IN_USE** = ``22``
 
-Already in use error.
+Error: Ya está en uso.
 
 .. _class_@GlobalScope_constant_ERR_LOCKED:
 
@@ -3244,7 +3244,7 @@ Error Bloqueado (Locked error).
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_TIMEOUT** = ``24``
 
-Timeout error.
+Error: Tiempo de espera excedido.
 
 .. _class_@GlobalScope_constant_ERR_CANT_CONNECT:
 
@@ -3252,7 +3252,7 @@ Timeout error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_CONNECT** = ``25``
 
-Can't connect error.
+Error: No se puede conectar.
 
 .. _class_@GlobalScope_constant_ERR_CANT_RESOLVE:
 
@@ -3260,7 +3260,7 @@ Can't connect error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_RESOLVE** = ``26``
 
-Can't resolve error.
+Error: No se puede resolver.
 
 .. _class_@GlobalScope_constant_ERR_CONNECTION_ERROR:
 
@@ -3276,7 +3276,7 @@ Error de conexión.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_ACQUIRE_RESOURCE** = ``28``
 
-Can't acquire resource error.
+Error: No se pudo adquirir el recurso.
 
 .. _class_@GlobalScope_constant_ERR_CANT_FORK:
 
@@ -3284,7 +3284,7 @@ Can't acquire resource error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_CANT_FORK** = ``29``
 
-Can't fork process error.
+Error: No se pudo bifurcar el proceso.
 
 .. _class_@GlobalScope_constant_ERR_INVALID_DATA:
 
@@ -3308,7 +3308,7 @@ Error de parámetro inválido.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_ALREADY_EXISTS** = ``32``
 
-Already exists error.
+Error: Ya existe.
 
 .. _class_@GlobalScope_constant_ERR_DOES_NOT_EXIST:
 
@@ -3316,7 +3316,7 @@ Already exists error.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_DOES_NOT_EXIST** = ``33``
 
-Does not exist error.
+Error: No existe.
 
 .. _class_@GlobalScope_constant_ERR_DATABASE_CANT_READ:
 
@@ -3348,7 +3348,7 @@ Error de compilación fallida.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_METHOD_NOT_FOUND** = ``37``
 
-Method not found error.
+Error: Método no encontrado.
 
 .. _class_@GlobalScope_constant_ERR_LINK_FAILED:
 
@@ -3396,7 +3396,7 @@ Error de símbolo duplicado.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_PARSE_ERROR** = ``43``
 
-Parse error.
+Error de análisis.
 
 .. _class_@GlobalScope_constant_ERR_BUSY:
 
@@ -3412,7 +3412,7 @@ Error recurso ocupado.
 
 :ref:`Error<enum_@GlobalScope_Error>` **ERR_SKIP** = ``45``
 
-Skip error.
+Error de omisión.
 
 .. _class_@GlobalScope_constant_ERR_HELP:
 
@@ -3476,9 +3476,9 @@ Además, se pueden incluir otras palabras clave: ``"exp"`` para la edición de r
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_ENUM** = ``2``
 
-Indica que una propiedad :ref:`int<class_int>` o :ref:`String<class_String>` es un valor enumerado que se selecciona en una lista especificada mediante una cadena de referencia.
+Indica que una propiedad :ref:`int<class_int>` o :ref:`String<class_String>` es un valor enumerado que se selecciona en una lista especificada mediante una string de referencia.
 
-La cadena de referencia es una lista de nombres separados por comas, como ``"Hola,Algo,Otro"``. Los espacios en blanco **no** se eliminan al final del nombre. Para las propiedades enteras, el primer nombre de la lista tiene el valor 0, el siguiente 1, y así sucesivamente. También se pueden especificar valores explícitos añadiendo ``:integer`` al nombre, por ejemplo, ``"Cero,Uno,Tres:3,Cuatro,Seis:6"``.
+La string de referencia es una lista de nombres separados por comas, como ``"Hola,Algo,Otro"``. Los espacios en blanco **no** se eliminan al final del nombre. Para las propiedades enteras, el primer nombre de la lista tiene el valor 0, el siguiente 1, y así sucesivamente. También se pueden especificar valores explícitos añadiendo ``:integer`` al nombre, por ejemplo, ``"Cero,Uno,Tres:3,Cuatro,Seis:6"``.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_ENUM_SUGGESTION:
 
@@ -3654,7 +3654,7 @@ Sugiere que una propiedad de tipo :ref:`Color<class_Color>` debe editarse sin af
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_OBJECT_ID** = ``22``
 
-Indica que el valor de la propiedad es un objeto codificado como ID de objeto, con su tipo especificado en la cadena de indicación. Usado por el depurador.
+Indica que el valor de la propiedad es un objeto codificado como ID de objeto, con su tipo especificado en la string de indicación. Usado por el depurador.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_TYPE_STRING:
 
@@ -3757,7 +3757,7 @@ Indica que un objeto es demasiado grande para ser enviado a través del depurado
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_NODE_PATH_VALID_TYPES** = ``26``
 
-Indica que la cadena de indicación especifica tipos de nodos válidos para una propiedad de tipo :ref:`NodePath<class_NodePath>`.
+Indica que la string de indicación especifica tipos de nodos válidos para una propiedad de tipo :ref:`NodePath<class_NodePath>`.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_SAVE_FILE:
 
@@ -3851,7 +3851,7 @@ Indica que una propiedad de tipo cuaternión debe desactivar el editor temporal 
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_PASSWORD** = ``36``
 
-Indica que una propiedad de tipo cadena es una contraseña, y cada carácter se reemplaza con un carácter secreto.
+Indica que una propiedad de tipo string es una contraseña, y cada carácter se reemplaza con un carácter secreto.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_TOOL_BUTTON:
 
@@ -4026,7 +4026,7 @@ Al editar la propiedad, el usuario debe reiniciar el editor para que el cambio t
 
 :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` **PROPERTY_USAGE_SCRIPT_VARIABLE** = ``4096``
 
-La propiedad es una variable de script. :ref:`PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` se puede utilizar para distinguir entre las variables de script exportadas y las variables incorporadas (que no tienen este flag de uso). Por defecto, :ref:`PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` **no** se aplica a las variables que se crean al anular :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>` en un script.
+La propiedad es una variable de script. :ref:`PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` se puede utilizar para distinguir entre las variables de script exportadas y las variables incorporadas (que no tienen este flag de uso). Por defecto, :ref:`PROPERTY_USAGE_SCRIPT_VARIABLE<class_@GlobalScope_constant_PROPERTY_USAGE_SCRIPT_VARIABLE>` **no** se aplica a las variables que se crean al sobrescribir :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>` en un script.
 
 .. _class_@GlobalScope_constant_PROPERTY_USAGE_STORE_IF_NULL:
 
@@ -5474,7 +5474,7 @@ Nota importante: La coordenada Y es la primera, por convención.
 
 :ref:`float<class_float>` **atanh**\ (\ x\: :ref:`float<class_float>`\ ) :ref:`🔗<class_@GlobalScope_method_atanh>`
 
-Devuelve la tangente del arco hiperbólico (tambien llamado inverso) de ``x``, devolviendo un valor en radianes. Úsalo para obtener el ángulo desde la tangente en un ángulo en espacio hiperbólico si ``x`` está entre -1 y 1 (no inclusivo).
+Devuelve la tangente del arco hiperbólico (también llamado inverso) de ``x``, devolviendo un valor en radianes. Úsalo para obtener el ángulo desde la tangente en un ángulo en espacio hiperbólico si ``x`` está entre -1 y 1 (no inclusivo).
 
 En matemáticas, la inversa de la tangente hiperbólica es solo definida por -1 < ``x`` <1 en el conjunto real, por lo que valores iguales o menores a -1 para ``x`` develven :ref:`@GDScript.INF<class_@GDScript_constant_INF>` negativos y valores iguales o mayores a 1 devuelven :ref:`@GDScript.INF<class_@GDScript_constant_INF>` positivo para prevenir que :ref:`atanh()<class_@GlobalScope_method_atanh>` devuelva :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>`.
 
@@ -5520,7 +5520,7 @@ Devuelve el punto en el ``t`` dado en una `curva de Bézier <https://en.wikipedi
 
 :ref:`Variant<class_Variant>` **bytes_to_var**\ (\ bytes\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_@GlobalScope_method_bytes_to_var>`
 
-Decodifica un arreglo de bytes devolviendo el valor :ref:`Variant<class_Variant>`,sin decodificar objetos.
+Decodifica un array de bytes devolviendo el valor :ref:`Variant<class_Variant>`,sin decodificar objetos.
 
 \ **Nota:** Si necesitas deserialización de objetos, Véase :ref:`bytes_to_var_with_objects()<class_@GlobalScope_method_bytes_to_var_with_objects>`.
 
@@ -6543,7 +6543,7 @@ Al imprimir en la salida estándar, el subconjunto compatible de BBCode se convi
 
 |void| **print_verbose**\ (\ ...\ ) |vararg| :ref:`🔗<class_@GlobalScope_method_print_verbose>`
 
-Si el modo detallado (verbose mode) está habilitado (:ref:`OS.is_stdout_verbose()<class_OS_method_is_stdout_verbose>` devolverá ``true``), convierte uno o más argumentos de cualquier tipo en una cadena de la mejor manera posible y los imprime en la consola.
+Si el modo detallado (verbose mode) está habilitado (:ref:`OS.is_stdout_verbose()<class_OS_method_is_stdout_verbose>` devolverá ``true``), convierte uno o más argumentos de cualquier tipo en una string de la mejor manera posible y los imprime en la consola.
 
 .. rst-class:: classref-item-separator
 

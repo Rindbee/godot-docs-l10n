@@ -50,7 +50,7 @@ Descripciones de Propiedades
 - |void| **set_inside**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_inside**\ (\ )
 
-If ``true``, the collision acts to trap the joint within the collision.
+Si es ``true``, la colisión actúa para atrapar la articulación dentro de la colisión.
 
 .. rst-class:: classref-item-separator
 

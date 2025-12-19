@@ -7,7 +7,7 @@ VisualShaderNodeExpression
 
 **Hérite de :** :ref:`VisualShaderNodeGroupBase<class_VisualShaderNodeGroupBase>` **<** :ref:`VisualShaderNodeResizableBase<class_VisualShaderNodeResizableBase>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisualShaderNodeGlobalExpression<class_VisualShaderNodeGlobalExpression>`
+**Hérité par :** :ref:`VisualShaderNodeGlobalExpression<class_VisualShaderNodeGlobalExpression>`
 
 A custom visual shader graph expression written in Godot Shading Language.
 

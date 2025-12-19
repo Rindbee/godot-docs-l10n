@@ -3430,7 +3430,9 @@ The stencil reference value (0-255). Typically a power of 2.
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-若設為 ``true``\ ，啟用次表面散射，模擬光線穿透、散射並離開物體表面。品質由 :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>` 控制。
+如果 ``true``\ ，則啟用次表面散射。模擬光線將穿透物體表面、發生散射並最終逸出的效果。次表面散射品質由 :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>` 控制。
+
+\ **注意：** 在具有透明背景的視口（\ :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` 為 ``true``\ ）上不支援次表面散射。
 
 .. rst-class:: classref-item-separator
 

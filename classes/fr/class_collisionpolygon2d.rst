@@ -67,7 +67,7 @@ Les collisions incluront le polygone et sa zone contenue. Dans ce mode, le nœud
 
 :ref:`BuildMode<enum_CollisionPolygon2D_BuildMode>` **BUILD_SEGMENTS** = ``1``
 
-Les collisions incluront seulement les arrêtes du polygone. Dans ce mode, le nœud a le même effet que plusieurs nœuds :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` faits de segments, avec la restriction que chaque segment (après le premier) commence la où le précédent se termine, et le dernier se termine là où le premier commence (formant un polygone fermé mais creux).
+Les collisions incluront seulement les arêtes du polygone. Dans ce mode, le nœud a le même effet que plusieurs nœuds :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` faits de segments, avec la restriction que chaque segment (après le premier) commence la où le précédent se termine, et le dernier se termine là où le premier commence (formant un polygone fermé mais creux).
 
 .. rst-class:: classref-section-separator
 

@@ -226,7 +226,7 @@ Descripciones de Métodos
 
 :ref:`Error<enum_@GlobalScope_Error>` **close_scene**\ (\ ) :ref:`🔗<class_EditorInterface_method_close_scene>`
 
-Closes the currently active scene, discarding any pending changes in the process. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success or :ref:`@GlobalScope.ERR_DOES_NOT_EXIST<class_@GlobalScope_constant_ERR_DOES_NOT_EXIST>` if there is no scene to close.
+Cierra la escena activa actualmente, descartando cualquier cambio pendiente en el proceso. Devuelve :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` si tiene éxito o :ref:`@GlobalScope.ERR_DOES_NOT_EXIST<class_@GlobalScope_constant_ERR_DOES_NOT_EXIST>` si no hay ninguna escena que cerrar.
 
 .. rst-class:: classref-item-separator
 
@@ -238,7 +238,7 @@ Closes the currently active scene, discarding any pending changes in the process
 
 |void| **edit_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorInterface_method_edit_node>`
 
-Edits the given :ref:`Node<class_Node>`. The node will be also selected if it's inside the scene tree.
+Edita el :ref:`Node<class_Node>` dado. El nodo también se seleccionará si está dentro del árbol de la escena.
 
 .. rst-class:: classref-item-separator
 
@@ -250,7 +250,7 @@ Edits the given :ref:`Node<class_Node>`. The node will be also selected if it's 
 
 |void| **edit_resource**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) :ref:`🔗<class_EditorInterface_method_edit_resource>`
 
-Edits the given :ref:`Resource<class_Resource>`. If the resource is a :ref:`Script<class_Script>` you can also edit it with :ref:`edit_script()<class_EditorInterface_method_edit_script>` to specify the line and column position.
+Edita el :ref:`Resource<class_Resource>` dado. Si el recurso es un :ref:`Script<class_Script>` también puedes editarlo con :ref:`edit_script()<class_EditorInterface_method_edit_script>` para especificar la posición de la línea y la columna.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Edits the given :ref:`Resource<class_Resource>`. If the resource is a :ref:`Scri
 
 |void| **edit_script**\ (\ script\: :ref:`Script<class_Script>`, line\: :ref:`int<class_int>` = -1, column\: :ref:`int<class_int>` = 0, grab_focus\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_EditorInterface_method_edit_script>`
 
-Edits the given :ref:`Script<class_Script>`. The line and column on which to open the script can also be specified. The script will be open with the user-configured editor for the script's language which may be an external editor.
+Edita el :ref:`Script<class_Script>` dado. También se puede especificar la línea y la columna en la que se abrirá el script. El script se abrirá con el editor configurado por el usuario para el lenguaje del script, que puede ser un editor externo.
 
 .. rst-class:: classref-item-separator
 
@@ -274,9 +274,9 @@ Edits the given :ref:`Script<class_Script>`. The line and column on which to ope
 
 :ref:`Control<class_Control>` **get_base_control**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_base_control>`
 
-Returns the main container of Godot editor's window. For example, you can use it to retrieve the size of the container and place your controls accordingly.
+Devuelve el contenedor principal de la ventana del editor de Godot. Por ejemplo, puedes usarlo para recuperar el tamaño del contenedor y colocar tus controles según corresponda.
 
-\ **Warning:** Removing and freeing this node will render the editor useless and may cause a crash.
+\ **Advertencia:** Eliminar y liberar este nodo hará que el editor sea inutilizable y puede provocar un fallo.
 
 .. rst-class:: classref-item-separator
 
@@ -288,9 +288,9 @@ Returns the main container of Godot editor's window. For example, you can use it
 
 :ref:`EditorCommandPalette<class_EditorCommandPalette>` **get_command_palette**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_command_palette>`
 
-Returns the editor's :ref:`EditorCommandPalette<class_EditorCommandPalette>` instance.
+Devuelve la instancia :ref:`EditorCommandPalette<class_EditorCommandPalette>` del editor.
 
-\ **Warning:** Removing and freeing this node will render a part of the editor useless and may cause a crash.
+\ **Advertencia:** Eliminar y liberar este nodo inutilizará una parte del editor y puede provocar un fallo.
 
 .. rst-class:: classref-item-separator
 
@@ -302,7 +302,7 @@ Returns the editor's :ref:`EditorCommandPalette<class_EditorCommandPalette>` ins
 
 :ref:`String<class_String>` **get_current_directory**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_current_directory>`
 
-Returns the current directory being viewed in the :ref:`FileSystemDock<class_FileSystemDock>`. If a file is selected, its base directory will be returned using :ref:`String.get_base_dir()<class_String_method_get_base_dir>` instead.
+Devuelve el directorio actual que se está viendo en :ref:`FileSystemDock<class_FileSystemDock>`. Si se selecciona un archivo, se devolverá su directorio base utilizando :ref:`String.get_base_dir()<class_String_method_get_base_dir>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -314,11 +314,11 @@ Returns the current directory being viewed in the :ref:`FileSystemDock<class_Fil
 
 :ref:`String<class_String>` **get_current_feature_profile**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_current_feature_profile>`
 
-Returns the name of the currently activated feature profile. If the default profile is currently active, an empty string is returned instead.
+Devuelve el nombre del perfil de características activado actualmente. Si el perfil predeterminado está activo, se devuelve una string vacía en su lugar.
 
-In order to get a reference to the :ref:`EditorFeatureProfile<class_EditorFeatureProfile>`, you must load the feature profile using :ref:`EditorFeatureProfile.load_from_file()<class_EditorFeatureProfile_method_load_from_file>`.
+Para obtener una referencia al :ref:`EditorFeatureProfile<class_EditorFeatureProfile>`, debes cargar el perfil de características usando :ref:`EditorFeatureProfile.load_from_file()<class_EditorFeatureProfile_method_load_from_file>`.
 
-\ **Note:** Feature profiles created via the user interface are loaded from the ``feature_profiles`` directory, as a file with the ``.profile`` extension. The editor configuration folder can be found by using :ref:`EditorPaths.get_config_dir()<class_EditorPaths_method_get_config_dir>`.
+\ **Nota:** Los perfiles de características creados a través de la interfaz de usuario se cargan desde el directorio ``feature_profiles``, como un archivo con la extensión ``.profile``. La carpeta de configuración del editor se puede encontrar usando :ref:`EditorPaths.get_config_dir()<class_EditorPaths_method_get_config_dir>`.
 
 .. rst-class:: classref-item-separator
 
@@ -354,11 +354,11 @@ Devuelve la raíz de la escena editada (actual) :ref:`Node<class_Node>`.
 
 :ref:`VBoxContainer<class_VBoxContainer>` **get_editor_main_screen**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_main_screen>`
 
-Returns the editor control responsible for main screen plugins and tools. Use it with plugins that implement :ref:`EditorPlugin._has_main_screen()<class_EditorPlugin_private_method__has_main_screen>`.
+Devuelve el control del editor responsable de los plugins y herramientas de la pantalla principal. Úsalo con plugins que implementen :ref:`EditorPlugin._has_main_screen()<class_EditorPlugin_private_method__has_main_screen>`.
 
-\ **Note:** This node is a :ref:`VBoxContainer<class_VBoxContainer>`, which means that if you add a :ref:`Control<class_Control>` child to it, you need to set the child's :ref:`Control.size_flags_vertical<class_Control_property_size_flags_vertical>` to :ref:`Control.SIZE_EXPAND_FILL<class_Control_constant_SIZE_EXPAND_FILL>` to make it use the full available space.
+\ **Nota:** Este nodo es un :ref:`VBoxContainer<class_VBoxContainer>`, lo que significa que si añades un hijo :ref:`Control<class_Control>` a él, necesitas establecer el :ref:`Control.size_flags_vertical<class_Control_property_size_flags_vertical>` del hijo a :ref:`Control.SIZE_EXPAND_FILL<class_Control_constant_SIZE_EXPAND_FILL>` para que use todo el espacio disponible.
 
-\ **Warning:** Removing and freeing this node will render a part of the editor useless and may cause a crash.
+\ **Advertencia:** Eliminar y liberar este nodo hará que una parte del editor sea inútil y puede provocar un fallo.
 
 .. rst-class:: classref-item-separator
 
@@ -382,9 +382,9 @@ Devuelve el singleton :ref:`EditorPaths<class_EditorPaths>`.
 
 :ref:`float<class_float>` **get_editor_scale**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_scale>`
 
-Returns the actual scale of the editor UI (``1.0`` being 100% scale). This can be used to adjust position and dimensions of the UI added by plugins.
+Devuelve la escala real de la UI del editor (``1.0`` siendo la escala al 100%). Esto se puede usar para ajustar la posición y las dimensiones de la UI añadida por los plugins.
 
-\ **Note:** This value is set via the :ref:`EditorSettings.interface/editor/display_scale<class_EditorSettings_property_interface/editor/display_scale>` and :ref:`EditorSettings.interface/editor/custom_display_scale<class_EditorSettings_property_interface/editor/custom_display_scale>` settings. The editor must be restarted for changes to be properly applied.
+\ **Nota:** Este valor se establece a través de los ajustes :ref:`EditorSettings.interface/editor/display_scale<class_EditorSettings_property_interface/editor/display_scale>` y :ref:`EditorSettings.interface/editor/custom_display_scale<class_EditorSettings_property_interface/editor/custom_display_scale>`. El editor debe reiniciarse para que los cambios se apliquen correctamente.
 
 .. rst-class:: classref-item-separator
 
@@ -408,9 +408,9 @@ Devuelve la instancia del editor :ref:`EditorSettings<class_EditorSettings>`.
 
 :ref:`Theme<class_Theme>` **get_editor_theme**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_theme>`
 
-Returns the editor's :ref:`Theme<class_Theme>`.
+Devuelve el :ref:`Theme<class_Theme>` del editor.
 
-\ **Note:** When creating custom editor UI, prefer accessing theme items directly from your GUI nodes using the ``get_theme_*`` methods.
+\ **Nota:** Al crear una interfaz de usuario de editor personalizada, prefiere acceder a los elementos del tema directamente desde tus nodos GUI usando los métodos ``get_theme_*``.
 
 .. rst-class:: classref-item-separator
 
@@ -446,7 +446,7 @@ Devuelve el :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>` del editor
 
 :ref:`SubViewport<class_SubViewport>` **get_editor_viewport_2d**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_viewport_2d>`
 
-Returns the 2D editor :ref:`SubViewport<class_SubViewport>`. It does not have a camera. Instead, the view transforms are done directly and can be accessed with :ref:`Viewport.global_canvas_transform<class_Viewport_property_global_canvas_transform>`.
+Devuelve el :ref:`SubViewport<class_SubViewport>` del editor 2D. No tiene una cámara. En su lugar, las transformaciones de la vista se hacen directamente y se puede acceder a ellas con :ref:`Viewport.global_canvas_transform<class_Viewport_property_global_canvas_transform>`.
 
 .. rst-class:: classref-item-separator
 
@@ -458,7 +458,7 @@ Returns the 2D editor :ref:`SubViewport<class_SubViewport>`. It does not have a 
 
 :ref:`SubViewport<class_SubViewport>` **get_editor_viewport_3d**\ (\ idx\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_viewport_3d>`
 
-Returns the specified 3D editor :ref:`SubViewport<class_SubViewport>`, from ``0`` to ``3``. The viewport can be used to access the active editor cameras with :ref:`Viewport.get_camera_3d()<class_Viewport_method_get_camera_3d>`.
+Devuelve el :ref:`SubViewport<class_SubViewport>` del editor 3D especificado, de ``0`` a ``3``. El viewport puede ser usado para acceder a las cámaras del editor activo con :ref:`Viewport.get_camera_3d()<class_Viewport_method_get_camera_3d>`.
 
 .. rst-class:: classref-item-separator
 
@@ -470,9 +470,9 @@ Returns the specified 3D editor :ref:`SubViewport<class_SubViewport>`, from ``0`
 
 :ref:`FileSystemDock<class_FileSystemDock>` **get_file_system_dock**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_file_system_dock>`
 
-Returns the editor's :ref:`FileSystemDock<class_FileSystemDock>` instance.
+Devuelve la instancia :ref:`FileSystemDock<class_FileSystemDock>` del editor.
 
-\ **Warning:** Removing and freeing this node will render a part of the editor useless and may cause a crash.
+\ **Advertencia:** Eliminar y liberar este nodo hará que una parte del editor sea inútil y puede provocar un fallo.
 
 .. rst-class:: classref-item-separator
 
@@ -484,9 +484,9 @@ Returns the editor's :ref:`FileSystemDock<class_FileSystemDock>` instance.
 
 :ref:`EditorInspector<class_EditorInspector>` **get_inspector**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_inspector>`
 
-Returns the editor's :ref:`EditorInspector<class_EditorInspector>` instance.
+Devuelve la instancia :ref:`EditorInspector<class_EditorInspector>` del editor.
 
-\ **Warning:** Removing and freeing this node will render a part of the editor useless and may cause a crash.
+\ **Advertencia:** Eliminar y liberar este nodo hará que una parte del editor sea inútil y puede provocar un fallo.
 
 .. rst-class:: classref-item-separator
 
@@ -510,7 +510,7 @@ Devuelve un array con referencias a los nodos raíz de las escenas abiertas actu
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_open_scenes**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_open_scenes>`
 
-Returns an array with the file paths of the currently opened scenes.
+Devuelve un array con las rutas de archivo de las escenas abiertas actualmente.
 
 .. rst-class:: classref-item-separator
 
@@ -558,9 +558,9 @@ Devuelve la instancia del editor :ref:`EditorResourcePreview<class_EditorResourc
 
 :ref:`ScriptEditor<class_ScriptEditor>` **get_script_editor**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_script_editor>`
 
-Returns the editor's :ref:`ScriptEditor<class_ScriptEditor>` instance.
+Devuelve la instancia :ref:`ScriptEditor<class_ScriptEditor>` del editor.
 
-\ **Warning:** Removing and freeing this node will render a part of the editor useless and may cause a crash.
+\ **Advertencia:** Eliminar y liberar este nodo hará que una parte del editor sea inútil y puede provocar un fallo.
 
 .. rst-class:: classref-item-separator
 
@@ -572,7 +572,7 @@ Returns the editor's :ref:`ScriptEditor<class_ScriptEditor>` instance.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_selected_paths**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_selected_paths>`
 
-Returns an array containing the paths of the currently selected files (and directories) in the :ref:`FileSystemDock<class_FileSystemDock>`.
+Devuelve un array que contiene las rutas de los archivos (y directorios) seleccionados actualmente en el :ref:`FileSystemDock<class_FileSystemDock>`.
 
 .. rst-class:: classref-item-separator
 
@@ -596,7 +596,7 @@ Devuelve la instancia del editor :ref:`EditorSelection<class_EditorSelection>`.
 
 |void| **inspect_object**\ (\ object\: :ref:`Object<class_Object>`, for_property\: :ref:`String<class_String>` = "", inspector_only\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorInterface_method_inspect_object>`
 
-Shows the given property on the given ``object`` in the editor's Inspector dock. If ``inspector_only`` is ``true``, plugins will not attempt to edit ``object``.
+Muestra la propiedad dada en el ``object`` dado en el dock Inspector del editor. Si ``inspector_only`` es ``true``, los plugins no intentarán editar ``object``.
 
 .. rst-class:: classref-item-separator
 
@@ -638,7 +638,7 @@ Devuelve ``true`` si se está reproduciendo una escena, ``false`` en caso contra
 
 :ref:`bool<class_bool>` **is_plugin_enabled**\ (\ plugin\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_EditorInterface_method_is_plugin_enabled>`
 
-Returns ``true`` if the specified ``plugin`` is enabled. The plugin name is the same as its directory name.
+Devuelve ``true`` si el ``plugin`` especificado está activado. El nombre del plugin es el mismo que el nombre de su directorio.
 
 .. rst-class:: classref-item-separator
 
@@ -650,7 +650,7 @@ Returns ``true`` if the specified ``plugin`` is enabled. The plugin name is the 
 
 :ref:`Array<class_Array>`\[:ref:`Texture2D<class_Texture2D>`\] **make_mesh_previews**\ (\ meshes\: :ref:`Array<class_Array>`\[:ref:`Mesh<class_Mesh>`\], preview_size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_EditorInterface_method_make_mesh_previews>`
 
-Returns mesh previews rendered at the given size as an :ref:`Array<class_Array>` of :ref:`Texture2D<class_Texture2D>`\ s.
+Devuelve las previsualizaciones de la malla renderizadas al tamaño dado como un :ref:`Array<class_Array>` de :ref:`Texture2D<class_Texture2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -674,7 +674,7 @@ Marca la pestaña de la escena actual como no guardada.
 
 |void| **open_scene_from_path**\ (\ scene_filepath\: :ref:`String<class_String>`, set_inherited\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_EditorInterface_method_open_scene_from_path>`
 
-Opens the scene at the given path. If ``set_inherited`` is ``true``, creates a new inherited scene.
+Abre la escena en la ruta dada. Si ``set_inherited`` es ``true``, crea una nueva escena heredada.
 
 .. rst-class:: classref-item-separator
 

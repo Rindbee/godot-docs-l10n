@@ -7,16 +7,16 @@ InputEventMagnifyGesture
 
 **Hérite de :** :ref:`InputEventGesture<class_InputEventGesture>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a magnifying touch gesture.
+Représente un geste tactile d'agrandissement.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Stores the factor of a magnifying touch gesture. This is usually performed when the user pinches the touch screen and used for zooming in/out.
+Stocke le facteur d'un geste tactile de zoom. Ceci est généralement effectué lorsque l'utilisateur pince l'écran tactile et est utilisé pour zoomer/dézoomer.
 
-\ **Note:** On Android, this requires the :ref:`ProjectSettings.input_devices/pointing/android/enable_pan_and_scale_gestures<class_ProjectSettings_property_input_devices/pointing/android/enable_pan_and_scale_gestures>` project setting to be enabled.
+\ **Note :** Sur Android, cela nécessite le paramètre de projet :ref:`ProjectSettings.input_devices/pointing/android/enable_pan_and_scale_gestures<class_ProjectSettings_property_input_devices/pointing/android/enable_pan_and_scale_gestures>` activé.
 
 .. rst-class:: classref-introduction-group
 
@@ -57,7 +57,7 @@ Descriptions des propriétés
 - |void| **set_factor**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_factor**\ (\ )
 
-The amount (or delta) of the event. This value is closer to ``1.0`` the slower the gesture is performed.
+Le montant (ou delta) de l'événement. Plus cette valeur est proche de ``1.0`` plus le geste est exécuté lentement.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

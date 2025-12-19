@@ -14,9 +14,9 @@ PathFollow3D
 Description
 -----------
 
-This node takes its parent :ref:`Path3D<class_Path3D>`, and returns the coordinates of a point within it, given a distance from the first vertex.
+Ce nœud prend son parent :ref:`Path3D<class_Path3D>`, et renvoie les coordonnées d'un point à l'intérieur, selon une distance par rapport au premier sommet.
 
-It is useful for making other nodes follow a path, without coding the movement pattern. For that, the nodes must be children of this node. The descendant nodes will then move accordingly when setting the :ref:`progress<class_PathFollow3D_property_progress>` in this node.
+Il est utile pour faire que d'autres nœuds suivent un chemin, sans coder le motif du mouvement. Pour cela, les nœuds doivent être des enfants de ce nœud. Les nœuds descendants se déplaceront alors en conséquence lorsque :ref:`progress<class_PathFollow3D_property_progress>` est défini.
 
 .. rst-class:: classref-reftable-group
 
@@ -87,7 +87,7 @@ Interdit au PathFollow3D de pivoter.
 
 :ref:`RotationMode<enum_PathFollow3D_RotationMode>` **ROTATION_Y** = ``1``
 
-Allows the PathFollow3D to rotate in the Y axis only.
+Autorise le PathFollow3D à ne pivoter que selon l'axe Y.
 
 .. _class_PathFollow3D_constant_ROTATION_XY:
 
@@ -95,7 +95,7 @@ Allows the PathFollow3D to rotate in the Y axis only.
 
 :ref:`RotationMode<enum_PathFollow3D_RotationMode>` **ROTATION_XY** = ``2``
 
-Allows the PathFollow3D to rotate in both the X, and Y axes.
+Autorise le PathFollow3D à pivoter selon les axes X et Y.
 
 .. _class_PathFollow3D_constant_ROTATION_XYZ:
 
@@ -103,7 +103,7 @@ Allows the PathFollow3D to rotate in both the X, and Y axes.
 
 :ref:`RotationMode<enum_PathFollow3D_RotationMode>` **ROTATION_XYZ** = ``3``
 
-Allows the PathFollow3D to rotate in any axis.
+Autorise le PathFollow3D à pivoter suivant n'importe quel axe.
 
 .. _class_PathFollow3D_constant_ROTATION_ORIENTED:
 
@@ -111,7 +111,7 @@ Allows the PathFollow3D to rotate in any axis.
 
 :ref:`RotationMode<enum_PathFollow3D_RotationMode>` **ROTATION_ORIENTED** = ``4``
 
-Uses the up vector information in a :ref:`Curve3D<class_Curve3D>` to enforce orientation. This rotation mode requires the :ref:`Path3D<class_Path3D>`'s :ref:`Curve3D.up_vector_enabled<class_Curve3D_property_up_vector_enabled>` property to be set to ``true``.
+Utilise l'information sur les vecteurs dans une :ref:`Curve3D<class_Curve3D>` pour faire respecter l'orientation. Ce mode de rotation exige que la propriété :ref:`Curve3D.up_vector_enabled<class_Curve3D_property_up_vector_enabled>` du :ref:`Path3D<class_Path3D>` soit définie à ``true``.
 
 .. rst-class:: classref-section-separator
 
@@ -133,11 +133,11 @@ Descriptions des propriétés
 - |void| **set_cubic_interpolation**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_cubic_interpolation**\ (\ )
 
-If ``true``, the position between two cached points is interpolated cubically, and linearly otherwise.
+Si ``true``, la position entre deux points mis en cache est interpolée de façon cubique, et linéairement sinon.
 
-The points along the :ref:`Curve3D<class_Curve3D>` of the :ref:`Path3D<class_Path3D>` are precomputed before use, for faster calculations. The point at the requested offset is then calculated interpolating between two adjacent cached points. This may present a problem if the curve makes sharp turns, as the cached points may not follow the curve closely enough.
+Les points le long de la :ref:`Curve3D<class_Curve3D>` du :ref:`Path3D<class_Path3D>` sont pré-calculés avant utilisation, pour des calculs plus rapides. Le point au décalage demandé est alors calculé en interpolant entre deux points du cache adjacents. Cela peut présenter un problème si la courbe fait des virages aigus, car les points mis en cache peuvent ne pas suivre la courbe d'assez près.
 
-There are two answers to this problem: either increase the number of cached points and increase memory consumption, or make a cubic interpolation between two points at the cost of (slightly) slower calculations.
+Il y a deux réponses à ce problème : soit augmenter le nombre de points mis en cache et augmenter la consommation de mémoire, soit faire une interpolation cubique entre deux points au coût de calculs (légèrement) plus lents.
 
 .. rst-class:: classref-item-separator
 
@@ -188,7 +188,7 @@ If ``true``, any offset outside the path's length will wrap around, instead of s
 - |void| **set_progress**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_progress**\ (\ )
 
-The distance from the first vertex, measured in 3D units along the path. Changing this value sets this node's position to a point within the path.
+La distance par rapport au premier sommet, mesurée en unités 3D le long du chemin. Changer cette valeur fixe la position de ce nœud à celle d'un point sur le chemin.
 
 .. rst-class:: classref-item-separator
 
@@ -205,9 +205,9 @@ The distance from the first vertex, measured in 3D units along the path. Changin
 - |void| **set_progress_ratio**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_progress_ratio**\ (\ )
 
-The distance from the first vertex, considering 0.0 as the first vertex and 1.0 as the last. This is just another way of expressing the progress within the path, as the progress supplied is multiplied internally by the path's length.
+La distance par rapport au premier sommet, en considérant 0.0 comme le premier sommet et 1.0 comme le dernier. Il s'agit juste d'une autre façon d'exprimer la progression sur le chemin, car la progression fournie est multipliée en interne par la longueur du chemin.
 
-It can be set or get only if the **PathFollow3D** is the child of a :ref:`Path3D<class_Path3D>` which is part of the scene tree, and that this :ref:`Path3D<class_Path3D>` has a :ref:`Curve3D<class_Curve3D>` with a non-zero length. Otherwise, trying to set this field will print an error, and getting this field will return ``0.0``.
+Elle peut être définie ou obtenue seulement si le **PathFollow3D** est l'enfant d'un :ref:`Path3D<class_Path3D>` qui fait partie de l'arborescence de scène, et que ce :ref:`Path3D<class_Path3D>` a une :ref:`Curve3D<class_Curve3D>` avec une longueur non nulle. Sinon, essayer de définir ce champ affichera une erreur, et obtenir ce champ renverra ``0.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -224,7 +224,7 @@ It can be set or get only if the **PathFollow3D** is the child of a :ref:`Path3D
 - |void| **set_rotation_mode**\ (\ value\: :ref:`RotationMode<enum_PathFollow3D_RotationMode>`\ )
 - :ref:`RotationMode<enum_PathFollow3D_RotationMode>` **get_rotation_mode**\ (\ )
 
-Allows or forbids rotation on one or more axes, depending on the :ref:`RotationMode<enum_PathFollow3D_RotationMode>` constants being used.
+Autorise ou interdit la rotation sur un ou plusieurs axes, selon les constantes :ref:`RotationMode<enum_PathFollow3D_RotationMode>` utilisées.
 
 .. rst-class:: classref-item-separator
 
@@ -241,7 +241,7 @@ Allows or forbids rotation on one or more axes, depending on the :ref:`RotationM
 - |void| **set_tilt_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_tilt_enabled**\ (\ )
 
-If ``true``, the tilt property of :ref:`Curve3D<class_Curve3D>` takes effect.
+Si ``true``, la propriété d'inclinaison de la :ref:`Curve3D<class_Curve3D>` prend effet.
 
 .. rst-class:: classref-item-separator
 
@@ -292,7 +292,7 @@ Descriptions des méthodes
 
 :ref:`Transform3D<class_Transform3D>` **correct_posture**\ (\ transform\: :ref:`Transform3D<class_Transform3D>`, rotation_mode\: :ref:`RotationMode<enum_PathFollow3D_RotationMode>`\ ) |static| :ref:`🔗<class_PathFollow3D_method_correct_posture>`
 
-Correct the ``transform``. ``rotation_mode`` implicitly specifies how posture (forward, up and sideway direction) is calculated.
+Corrige la transformation ``transform``. ``rotation_mode`` spécifie implicitement comment la posture (direction avant, haut et côté) est calculée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

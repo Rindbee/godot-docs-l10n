@@ -1719,7 +1719,7 @@ Un marqueur pour spécifier que ce tableau contient des sommets 2D.
 
 :ref:`ArrayFormat<enum_RenderingServer_ArrayFormat>` **ARRAY_FLAG_USE_DYNAMIC_UPDATE** = ``67108864``
 
-Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unused on Vulkan.
+Drapeau utilisé pour marquer que les données du maillage utiliseront ``GL_DYNAMIC_DRAW`` sur GLES. Inutilisé sur Vulkan.
 
 .. _class_RenderingServer_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS:
 
@@ -1867,7 +1867,7 @@ enum **BlendShapeMode**: :ref:`🔗<enum_RenderingServer_BlendShapeMode>`
 
 :ref:`BlendShapeMode<enum_RenderingServer_BlendShapeMode>` **BLEND_SHAPE_MODE_NORMALIZED** = ``0``
 
-Les formes de fusion sont normalisées.
+Les blend shapes sont normalisées.
 
 .. _class_RenderingServer_constant_BLEND_SHAPE_MODE_RELATIVE:
 
@@ -1875,7 +1875,7 @@ Les formes de fusion sont normalisées.
 
 :ref:`BlendShapeMode<enum_RenderingServer_BlendShapeMode>` **BLEND_SHAPE_MODE_RELATIVE** = ``1``
 
-Blend shapes are relative to base weight.
+Les blend shapes sont relatives au poids de base.
 
 .. rst-class:: classref-item-separator
 
@@ -2109,7 +2109,7 @@ L'atténuation du projecteur.
 
 :ref:`LightParam<enum_RenderingServer_LightParam>` **LIGHT_PARAM_SHADOW_MAX_DISTANCE** = ``9``
 
-La distance maximale pour les fractions des ombres. Augmenter cette valeur rendra visibles les ombres directionnelles de plus loin, mais affichera moins de détails des ombres et de moins bonnes performances (puisque plus d'objets doivent être inclus dans le rendu d'ombre directionnel).
+La distance maximale pour les divisions des ombres. Augmenter cette valeur rendra visible les ombres directionnelles de plus loin, mais affichera moins de détails des ombres et de moins bonnes performances (puisque plus d'objets doivent être inclus dans le rendu des ombres directionnelles).
 
 .. _class_RenderingServer_constant_LIGHT_PARAM_SHADOW_SPLIT_1_OFFSET:
 
@@ -2423,7 +2423,7 @@ enum **ReflectionProbeUpdateMode**: :ref:`🔗<enum_RenderingServer_ReflectionPr
 
 :ref:`ReflectionProbeUpdateMode<enum_RenderingServer_ReflectionProbeUpdateMode>` **REFLECTION_PROBE_UPDATE_ONCE** = ``0``
 
-La sonde de réflexion mettre à jour les réflexions une seule fois puis s'arrêtera.
+Reflection probe will update reflections once and then stop.
 
 .. _class_RenderingServer_constant_REFLECTION_PROBE_UPDATE_ALWAYS:
 
@@ -3001,7 +3001,7 @@ Use AMD FidelityFX Super Resolution 1.0 upscaling for the viewport's 3D buffer. 
 
 :ref:`ViewportScaling3DMode<enum_RenderingServer_ViewportScaling3DMode>` **VIEWPORT_SCALING_3D_MODE_FSR2** = ``2``
 
-Use AMD FidelityFX Super Resolution 2.2 upscaling for the viewport's 3D buffer. The amount of scaling can be set using :ref:`Viewport.scaling_3d_scale<class_Viewport_property_scaling_3d_scale>`. Values less than ``1.0`` will result in the viewport being upscaled using FSR2. Values greater than ``1.0`` are not supported and bilinear downsampling will be used instead. A value of ``1.0`` will use FSR2 at native resolution as a TAA solution.
+Utiliser la mise à l'échelle AMD Fidelity FX Super Resolution 2.2 pour le buffer 3D du viewport. L'échelle peut être définie en utilisant :ref:`Viewport.scaling_3d_scale<class_Viewport_property_scaling_3d_scale>`. Les valeurs inférieures à ``1.0`` résulteront en la mise à l'échelle du viewport en utilisant la FSR2. Les valeurs supérieures à ``1.0`` ne sont pas supportées et un échantillonnage bilinéaire sera utilisé à la place. Une valeur de ``1.0`` utilisera la FSR2 en résolution native comme solution TAA.
 
 .. _class_RenderingServer_constant_VIEWPORT_SCALING_3D_MODE_METALFX_SPATIAL:
 
@@ -3315,7 +3315,7 @@ enum **ViewportAnisotropicFiltering**: :ref:`🔗<enum_RenderingServer_ViewportA
 
 :ref:`ViewportAnisotropicFiltering<enum_RenderingServer_ViewportAnisotropicFiltering>` **VIEWPORT_ANISOTROPY_DISABLED** = ``0``
 
-Anisotropic filtering is disabled.
+Le filtrage anisotrope est désactivé.
 
 .. _class_RenderingServer_constant_VIEWPORT_ANISOTROPY_2X:
 
@@ -3373,7 +3373,7 @@ enum **ViewportScreenSpaceAA**: :ref:`🔗<enum_RenderingServer_ViewportScreenSp
 
 :ref:`ViewportScreenSpaceAA<enum_RenderingServer_ViewportScreenSpaceAA>` **VIEWPORT_SCREEN_SPACE_AA_DISABLED** = ``0``
 
-Do not perform any antialiasing in the full screen post-process.
+Ne pas effectuer d'anticrénelage dans le post-traitement du plein écran.
 
 .. _class_RenderingServer_constant_VIEWPORT_SCREEN_SPACE_AA_FXAA:
 
@@ -3381,7 +3381,7 @@ Do not perform any antialiasing in the full screen post-process.
 
 :ref:`ViewportScreenSpaceAA<enum_RenderingServer_ViewportScreenSpaceAA>` **VIEWPORT_SCREEN_SPACE_AA_FXAA** = ``1``
 
-Use fast approximate antialiasing. FXAA is a popular screen-space antialiasing method, which is fast but will make the image look blurry, especially at lower resolutions. It can still work relatively well at large resolutions such as 1440p and 4K.
+Utiliser un antialiasing approximatif rapide. La FXAA est une méthode populaire d'anti-crénelage de l'espace-écran, qui est rapide, mais rendra l'image floue, en particulier dans les basses résolutions. Elle peut toujours fonctionner relativement bien dans de grandes résolutions telles que 1440p et 4K.
 
 .. _class_RenderingServer_constant_VIEWPORT_SCREEN_SPACE_AA_SMAA:
 
@@ -3389,7 +3389,7 @@ Use fast approximate antialiasing. FXAA is a popular screen-space antialiasing m
 
 :ref:`ViewportScreenSpaceAA<enum_RenderingServer_ViewportScreenSpaceAA>` **VIEWPORT_SCREEN_SPACE_AA_SMAA** = ``2``
 
-Use subpixel morphological antialiasing. SMAA may produce clearer results than FXAA, but at a slightly higher performance cost.
+Utiliser l’anticrénelage morphologique sous-pixel. La SMAA peut produire des résultats plus clairs que la FXAA, mais à un coût de performance légèrement plus élevé.
 
 .. _class_RenderingServer_constant_VIEWPORT_SCREEN_SPACE_AA_MAX:
 
@@ -3499,7 +3499,7 @@ Passe de rendu du visible (hors ombres).
 
 :ref:`ViewportRenderInfoType<enum_RenderingServer_ViewportRenderInfoType>` **VIEWPORT_RENDER_INFO_TYPE_SHADOW** = ``1``
 
-Shadow render pass. Objects will be rendered several times depending on the number of amounts of lights with shadows and the number of directional shadow splits.
+Passe de rendu des ombres. Les objets seront rendus plusieurs fois en fonction du nombre de lumières avec des ombres et du nombre de divisions des ombres directionnelles.
 
 .. _class_RenderingServer_constant_VIEWPORT_RENDER_INFO_TYPE_CANVAS:
 
@@ -3507,7 +3507,7 @@ Shadow render pass. Objects will be rendered several times depending on the numb
 
 :ref:`ViewportRenderInfoType<enum_RenderingServer_ViewportRenderInfoType>` **VIEWPORT_RENDER_INFO_TYPE_CANVAS** = ``2``
 
-Canvas item rendering. This includes all 2D rendering.
+Rendu des éléments de canevas. Cela inclut tous les rendus 2D.
 
 .. _class_RenderingServer_constant_VIEWPORT_RENDER_INFO_TYPE_MAX:
 
@@ -3587,9 +3587,9 @@ Normal buffer is drawn instead of regular scene so you can see the per-pixel nor
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_ALBEDO** = ``6``
 
-Objects are displayed with only the albedo value from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Les objets sont affichés avec seulement la valeur albédo des :ref:`VoxelGI<class_VoxelGI>`\ s. Nécessite au moins un nœud :ref:`VoxelGI<class_VoxelGI>` visible qui a été pré-calculé pour avoir un effet visible.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Note :** Seulement supporté lors de l'utilisation de la méthode de rendu Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_VOXEL_GI_LIGHTING:
 
@@ -3597,9 +3597,9 @@ Objects are displayed with only the albedo value from :ref:`VoxelGI<class_VoxelG
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_LIGHTING** = ``7``
 
-Objects are displayed with only the lighting value from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Les objets sont affichés avec seulement la valeur d'éclairage des :ref:`VoxelGI<class_VoxelGI>`\ s. Nécessite au moins un nœud :ref:`VoxelGI<class_VoxelGI>` visible qui a été pré-calculé pour avoir un effet visible.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Note :** Seulement supporté lors de l'utilisation de la méthode de rendu Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_VOXEL_GI_EMISSION:
 
@@ -3607,9 +3607,9 @@ Objects are displayed with only the lighting value from :ref:`VoxelGI<class_Voxe
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_VOXEL_GI_EMISSION** = ``8``
 
-Objects are displayed with only the emission color from :ref:`VoxelGI<class_VoxelGI>`\ s. Requires at least one visible :ref:`VoxelGI<class_VoxelGI>` node that has been baked to have a visible effect.
+Les objets sont affichés avec seulement la couleur d'émission des :ref:`VoxelGI<class_VoxelGI>`\ s. Nécessite au moins un nœud :ref:`VoxelGI<class_VoxelGI>` visible qui a été pré-calculé pour avoir un effet visible.
 
-\ **Note:** Only supported when using the Forward+ rendering method.
+\ **Note :** Seulement supporté lors de l'utilisation de la méthode de rendu Forward+.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_SHADOW_ATLAS:
 
@@ -3617,7 +3617,7 @@ Objects are displayed with only the emission color from :ref:`VoxelGI<class_Voxe
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_SHADOW_ATLAS** = ``9``
 
-Draws the shadow atlas that stores shadows from :ref:`OmniLight3D<class_OmniLight3D>`\ s and :ref:`SpotLight3D<class_SpotLight3D>`\ s in the upper left quadrant of the :ref:`Viewport<class_Viewport>`.
+Dessine l'atlas d'ombres qui stocke les ombres des :ref:`OmniLight3D<class_OmniLight3D>`\ s et des :ref:`SpotLight3D<class_SpotLight3D>`\ s dans le quadrant supérieur gauche du :ref:`Viewport<class_Viewport>`.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_DIRECTIONAL_SHADOW_ATLAS:
 
@@ -3667,11 +3667,11 @@ Draws the screen space indirect lighting texture instead of the scene so that yo
 
 :ref:`ViewportDebugDraw<enum_RenderingServer_ViewportDebugDraw>` **VIEWPORT_DEBUG_DRAW_PSSM_SPLITS** = ``14``
 
-Colors each PSSM split for the :ref:`DirectionalLight3D<class_DirectionalLight3D>`\ s in the scene a different color so you can see where the splits are. In order (from closest to furthest from the camera), they are colored red, green, blue, and yellow.
+Colorise chaque division PSSM pour les :ref:`DirectionalLight3D<class_DirectionalLight3D>`\ s dans la scène avec une couleur différente afin que vous puissiez voir où sont les divisions. Dans l'ordre (de la plus proche à la plus éloignée de la caméra), elles sont coloriées en rouge, vert, bleu et jaune.
 
-\ **Note:** When using this debug draw mode, custom shaders are ignored since all materials in the scene temporarily use a debug material. This means the result from custom shader functions (such as vertex displacement) won't be visible anymore when using this debug draw mode.
+\ **Note :** Lors de l'utilisation de ce mode de dessin de débogage, les shaders personnalisées sont ignorés puisque tous les matériaux de la scène utilisent temporairement un matériau de débogage. Cela signifie que le résultat des fonctions de shaders personnalisées (comme le déplacement de sommets) ne sera plus visible lors de l'utilisation de ce mode de dessin de débogage.
 
-\ **Note:** Only supported when using the Forward+ or Mobile rendering methods.
+\ **Note :** Seulement supporté lors de l'utilisation des méthodes de rendu Forward+ ou Mobile.
 
 .. _class_RenderingServer_constant_VIEWPORT_DEBUG_DRAW_DECAL_ATLAS:
 
@@ -3849,7 +3849,7 @@ enum **ViewportVRSUpdateMode**: :ref:`🔗<enum_RenderingServer_ViewportVRSUpdat
 
 :ref:`ViewportVRSUpdateMode<enum_RenderingServer_ViewportVRSUpdateMode>` **VIEWPORT_VRS_UPDATE_DISABLED** = ``0``
 
-The input texture for variable rate shading will not be processed.
+La texture d'entrée pour le variable rate shading ne sera pas traitée.
 
 .. _class_RenderingServer_constant_VIEWPORT_VRS_UPDATE_ONCE:
 
@@ -3857,7 +3857,7 @@ The input texture for variable rate shading will not be processed.
 
 :ref:`ViewportVRSUpdateMode<enum_RenderingServer_ViewportVRSUpdateMode>` **VIEWPORT_VRS_UPDATE_ONCE** = ``1``
 
-The input texture for variable rate shading will be processed once.
+La texture d'entrée pour le variable rate shading sera traitée une fois.
 
 .. _class_RenderingServer_constant_VIEWPORT_VRS_UPDATE_ALWAYS:
 
@@ -3865,7 +3865,7 @@ The input texture for variable rate shading will be processed once.
 
 :ref:`ViewportVRSUpdateMode<enum_RenderingServer_ViewportVRSUpdateMode>` **VIEWPORT_VRS_UPDATE_ALWAYS** = ``2``
 
-The input texture for variable rate shading will be processed each frame.
+La texture d'entrée pour le variable rate shading sera traitée à chaque trame.
 
 .. _class_RenderingServer_constant_VIEWPORT_VRS_UPDATE_MAX:
 
@@ -3985,7 +3985,7 @@ enum **CompositorEffectCallbackType**: :ref:`🔗<enum_RenderingServer_Composito
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_PRE_OPAQUE** = ``0``
 
-The callback is called before our opaque rendering pass, but after depth prepass (if applicable).
+Le callback est appelé avant notre passe de rendu opaque, mais après la pré-passe de profondeur (le cas échéant).
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_OPAQUE:
 
@@ -3993,7 +3993,7 @@ The callback is called before our opaque rendering pass, but after depth prepass
 
 :ref:`CompositorEffectCallbackType<enum_RenderingServer_CompositorEffectCallbackType>` **COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_OPAQUE** = ``1``
 
-The callback is called after our opaque rendering pass, but before our sky is rendered.
+Le callback est appelé après notre passe de rendu opaque, mais avant que notre ciel soit rendu.
 
 .. _class_RenderingServer_constant_COMPOSITOR_EFFECT_CALLBACK_TYPE_POST_SKY:
 
@@ -4463,7 +4463,7 @@ enum **EnvironmentSDFGIYScale**: :ref:`🔗<enum_RenderingServer_EnvironmentSDFG
 
 :ref:`EnvironmentSDFGIYScale<enum_RenderingServer_EnvironmentSDFGIYScale>` **ENV_SDFGI_Y_SCALE_50_PERCENT** = ``0``
 
-Use 50% scale for SDFGI on the Y (vertical) axis. SDFGI cells will be twice as short as they are wide. This allows providing increased GI detail and reduced light leaking with thin floors and ceilings. This is usually the best choice for scenes that don't feature much verticality.
+Utiliser une échelle de 50% pour la SDFGI sur l'axe Y (vertical). Les cellules de la SDFGI seront deux fois plus courtes que larges. Cela permet d'augmenter les détails de la GI et de réduire les fuites de lumière avec des sols et des plafonds minces. Il s'agit généralement du meilleur choix pour les scènes qui ne présentent pas beaucoup de verticalité.
 
 .. _class_RenderingServer_constant_ENV_SDFGI_Y_SCALE_75_PERCENT:
 
@@ -4471,7 +4471,7 @@ Use 50% scale for SDFGI on the Y (vertical) axis. SDFGI cells will be twice as s
 
 :ref:`EnvironmentSDFGIYScale<enum_RenderingServer_EnvironmentSDFGIYScale>` **ENV_SDFGI_Y_SCALE_75_PERCENT** = ``1``
 
-Use 75% scale for SDFGI on the Y (vertical) axis. This is a balance between the 50% and 100% SDFGI Y scales.
+Utiliser une échelle de 75% pour la SDFGI sur l'axe Y (vertical). Il s'agit d'un équilibre entre les échelles en Y 50% et 100% de la SDFGI.
 
 .. _class_RenderingServer_constant_ENV_SDFGI_Y_SCALE_100_PERCENT:
 
@@ -4479,7 +4479,7 @@ Use 75% scale for SDFGI on the Y (vertical) axis. This is a balance between the 
 
 :ref:`EnvironmentSDFGIYScale<enum_RenderingServer_EnvironmentSDFGIYScale>` **ENV_SDFGI_Y_SCALE_100_PERCENT** = ``2``
 
-Use 100% scale for SDFGI on the Y (vertical) axis. SDFGI cells will be as tall as they are wide. This is usually the best choice for highly vertical scenes. The downside is that light leaking may become more noticeable with thin floors and ceilings.
+Utiliser une échelle de 100% pour la SDFGI sur l'axe Y (vertical). Les cellules de la SDFGI seront deux fois plus grandes que larges. Il s'agit généralement du meilleur choix pour les scènes très verticales. Le désavantage est que les fuites de lumières peuvent être plus visibles avec des sols et des plafonds minces.
 
 .. rst-class:: classref-item-separator
 
@@ -5203,9 +5203,9 @@ Le filtrage de texture mélange les 4 pixels les plus proches. Cela rend la text
 
 :ref:`CanvasItemTextureFilter<enum_RenderingServer_CanvasItemTextureFilter>` **CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS** = ``3``
 
-The texture filter reads from the nearest pixel and blends between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look pixelated from up close, and smooth from a distance.
+Le filtrage de texture lit à partir du pixel le plus proche et fusionne les deux mipmaps les plus proches (ou utilise la mipmap le plus proche si :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` vaut ``true``). Cela donne à la texture un aspect pixelisé de près et lisse de loin.
 
-Use this for non-pixel art textures that may be viewed at a low scale (e.g. due to :ref:`Camera2D<class_Camera2D>` zoom or sprite scaling), as mipmaps are important to smooth out pixels that are smaller than on-screen pixels.
+Utilisez ce filtre pour les textures non pixel art susceptibles d'être visualisées à petite échelle (par exemple, à cause du zoom d'une :ref:`Camera2D<class_Camera2D>` ou à la mise à l'échelle des sprites), car les mipmaps sont importantes pour lisser les pixels qui sont plus petits que les pixels à l'écran.
 
 .. _class_RenderingServer_constant_CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS:
 
@@ -5213,9 +5213,9 @@ Use this for non-pixel art textures that may be viewed at a low scale (e.g. due 
 
 :ref:`CanvasItemTextureFilter<enum_RenderingServer_CanvasItemTextureFilter>` **CANVAS_ITEM_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS** = ``4``
 
-The texture filter blends between the nearest 4 pixels and between the nearest 2 mipmaps (or uses the nearest mipmap if :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` is ``true``). This makes the texture look smooth from up close, and smooth from a distance.
+Le filtrage de texture fusionne les 4 pixels les plus proches et les 2 mipmaps les plus proches (ou utilise la mipmap le plus proche si :ref:`ProjectSettings.rendering/textures/default_filters/use_nearest_mipmap_filter<class_ProjectSettings_property_rendering/textures/default_filters/use_nearest_mipmap_filter>` est ``true``). Cela rend la texture lisse de près et lisse de loin.
 
-Use this for non-pixel art textures that may be viewed at a low scale (e.g. due to :ref:`Camera2D<class_Camera2D>` zoom or sprite scaling), as mipmaps are important to smooth out pixels that are smaller than on-screen pixels.
+Utilisez ce filtre pour les textures non pixel art susceptibles d'être visualisées à petite échelle (par exemple, grâce au zoom d'une :ref:`Camera2D<class_Camera2D>` ou à la mise à l'échelle du sprite), car les mipmaps sont importantes pour lisser les pixels plus petits que ceux à l'écran.
 
 .. _class_RenderingServer_constant_CANVAS_ITEM_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC:
 
@@ -5269,7 +5269,7 @@ Utilise le mode de répétition par défaut pour ce :ref:`Viewport<class_Viewpor
 
 :ref:`CanvasItemTextureRepeat<enum_RenderingServer_CanvasItemTextureRepeat>` **CANVAS_ITEM_TEXTURE_REPEAT_DISABLED** = ``1``
 
-Disables textures repeating. Instead, when reading UVs outside the 0-1 range, the value will be clamped to the edge of the texture, resulting in a stretched out look at the borders of the texture.
+Désactive la répétition des textures. À la place, lors de la lecture d'UVs en dehors de l'intervalle 0-1, la valeur sera bornée au bord de la texture, ce qui donne un aspect étiré sur les bordures de la texture.
 
 .. _class_RenderingServer_constant_CANVAS_ITEM_TEXTURE_REPEAT_ENABLED:
 
@@ -5285,7 +5285,7 @@ Permet à la texture de se répéter lorsque les coordonnées UV sont à l'exté
 
 :ref:`CanvasItemTextureRepeat<enum_RenderingServer_CanvasItemTextureRepeat>` **CANVAS_ITEM_TEXTURE_REPEAT_MIRROR** = ``3``
 
-Flip the texture when repeating so that the edge lines up instead of abruptly changing.
+Inverse la texture lors de la répétition de sorte que les bords correspondent au lieu de changer brusquement.
 
 .. _class_RenderingServer_constant_CANVAS_ITEM_TEXTURE_REPEAT_MAX:
 
@@ -6379,7 +6379,7 @@ Canvas has no :ref:`Resource<class_Resource>` or :ref:`Node<class_Node>` equival
 
 |void| **canvas_item_add_animation_slice**\ (\ item\: :ref:`RID<class_RID>`, animation_length\: :ref:`float<class_float>`, slice_begin\: :ref:`float<class_float>`, slice_end\: :ref:`float<class_float>`, offset\: :ref:`float<class_float>` = 0.0\ ) :ref:`🔗<class_RenderingServer_method_canvas_item_add_animation_slice>`
 
-Subsequent drawing commands will be ignored unless they fall within the specified animation slice. This is a faster way to implement animations that loop on background rather than redrawing constantly.
+Les commandes de dessin qui suivent seront ignorées sauf si elles tombent dans la tranche d'animation spécifiée. C'est une manière plus rapide d'implémenter des animations qui bouclent en arrière-plan au lieu de devoir constamment redessiner.
 
 .. rst-class:: classref-item-separator
 
@@ -8509,7 +8509,7 @@ Renvoie le type de l'adaptateur vidéo. Comme les cartes graphiques dédiées d'
 
 Renvoie le vendeur de l'adaptateur vidéo (par exemple "NVIDIA Corporation").
 
-\ **Note :** Lors de l'exécution d'une version sans graphique ou de serveur, cette fonction retourne une chaîne vide.
+\ **Note :** Lors de l'exécution d'une version sans graphique ou de serveur, cette fonction renvoie une chaîne vide.
 
 .. rst-class:: classref-item-separator
 
@@ -9813,7 +9813,7 @@ Returns the stride of the vertex positions for a mesh with given ``format``. Not
 
 :ref:`RID<class_RID>` **mesh_surface_get_material**\ (\ mesh\: :ref:`RID<class_RID>`, surface\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_RenderingServer_method_mesh_surface_get_material>`
 
-Retourne le matériau de la surface du maillage.
+Renvoie le matériau de la surface d'un maillage.
 
 .. rst-class:: classref-item-separator
 
@@ -12062,13 +12062,13 @@ Si ``true``, définit cette fenêtre d'affichage comme active, sinon comme inact
 
 |void| **viewport_set_anisotropic_filtering_level**\ (\ viewport\: :ref:`RID<class_RID>`, anisotropic_filtering_level\: :ref:`ViewportAnisotropicFiltering<enum_RenderingServer_ViewportAnisotropicFiltering>`\ ) :ref:`🔗<class_RenderingServer_method_viewport_set_anisotropic_filtering_level>`
 
-Sets the maximum number of samples to take when using anisotropic filtering on textures (as a power of two). A higher sample count will result in sharper textures at oblique angles, but is more expensive to compute. A value of ``0`` forcibly disables anisotropic filtering, even on materials where it is enabled.
+Définit le nombre maximal d'échantillons à prendre lors de l'utilisation du filtrage anisotrope sur des textures (en puissance de deux). Un nombre plus élevé d'échantillons résultera en des textures plus nettes à des angles obliques, mais est plus cher à calculer. Une valeur de ``0`` désactive de force le filtrage anisotrope, même sur les matériaux où il est activé.
 
-The anisotropic filtering level also affects decals and light projectors if they are configured to use anisotropic filtering. See :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>` and :ref:`ProjectSettings.rendering/textures/light_projectors/filter<class_ProjectSettings_property_rendering/textures/light_projectors/filter>`.
+Le niveau du filtrage anisotrope affecte aussi les décalques et les projecteurs de lumière s'ils sont configurés pour utiliser le filtrage anisotrope. Voir :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>` et :ref:`ProjectSettings.rendering/textures/light_projectors/filter<class_ProjectSettings_property_rendering/textures/light_projectors/filter>`.
 
-\ **Note:** In 3D, for this setting to have an effect, set :ref:`BaseMaterial3D.texture_filter<class_BaseMaterial3D_property_texture_filter>` to :ref:`BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC<class_BaseMaterial3D_constant_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC>` or :ref:`BaseMaterial3D.TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC<class_BaseMaterial3D_constant_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC>` on materials.
+\ **Note :** En 3D, pour que ce paramètre ait un effet, définissez :ref:`BaseMaterial3D.texture_filter<class_BaseMaterial3D_property_texture_filter>` à :ref:`BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC<class_BaseMaterial3D_constant_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC>` ou :ref:`BaseMaterial3D.TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC<class_BaseMaterial3D_constant_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC>` sur les matériaux.
 
-\ **Note:** In 2D, for this setting to have an effect, set :ref:`CanvasItem.texture_filter<class_CanvasItem_property_texture_filter>` to :ref:`CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC<class_CanvasItem_constant_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC>` or :ref:`CanvasItem.TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC<class_CanvasItem_constant_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC>` on the :ref:`CanvasItem<class_CanvasItem>` node displaying the texture (or in :ref:`CanvasTexture<class_CanvasTexture>`). However, anisotropic filtering is rarely useful in 2D, so only enable it for textures in 2D if it makes a meaningful visual difference.
+\ **Note :** En 2D, pour que ce paramètre ait un effet, définissez :ref:`CanvasItem.texture_filter<class_CanvasItem_property_texture_filter>` à :ref:`CanvasItem.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC<class_CanvasItem_constant_TEXTURE_FILTER_LINEAR_WITH_MIPMAPS_ANISOTROPIC>` ou :ref:`CanvasItem.TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC<class_CanvasItem_constant_TEXTURE_FILTER_NEAREST_WITH_MIPMAPS_ANISOTROPIC>` sur le nœud :ref:`CanvasItem<class_CanvasItem>` affichant la texture (ou dans :ref:`CanvasTexture<class_CanvasTexture>`). Cependant, le filtrage anisotrope est rarement utile en 2D, donc ne l'activez pour des textures 2D que si cela fait une différence visuelle significative.
 
 .. rst-class:: classref-item-separator
 

@@ -14,11 +14,11 @@ Interpole une valeur abstraite et la fournit à une méthode appelée dans le te
 Description
 -----------
 
-**MethodTweener** is similar to a combination of :ref:`CallbackTweener<class_CallbackTweener>` and :ref:`PropertyTweener<class_PropertyTweener>`. It calls a method providing an interpolated value as a parameter. See :ref:`Tween.tween_method()<class_Tween_method_tween_method>` for more usage information.
+**MethodTweener** est similaire à une combinaison de :ref:`CallbackTweener<class_CallbackTweener>` et de :ref:`PropertyTweener<class_PropertyTweener>`. Il appelle une méthode en fournissant une valeur interpolée comme paramètre. Voir :ref:`Tween.tween_method()<class_Tween_method_tween_method>` pour plus d'informations d'utilisation.
 
-The tweener will finish automatically if the callback's target object is freed.
+Le tweener se terminera automatiquement si l'objet cible du callback est libéré.
 
-\ **Note:** :ref:`Tween.tween_method()<class_Tween_method_tween_method>` is the only correct way to create **MethodTweener**. Any **MethodTweener** created manually will not function correctly.
+\ **Note :** :ref:`Tween.tween_method()<class_Tween_method_tween_method>` est le seul moyen correct de créer un **MethodTweener**. Tout **MethodTweener** créé manuellement ne fonctionnera pas correctement.
 
 .. rst-class:: classref-reftable-group
 
@@ -63,7 +63,7 @@ Définit le délai en secondes avant que le **MethodTweener** commence son inter
 
 :ref:`MethodTweener<class_MethodTweener>` **set_ease**\ (\ ease\: :ref:`EaseType<enum_Tween_EaseType>`\ ) :ref:`🔗<class_MethodTweener_method_set_ease>`
 
-Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not set, the default easing is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Définit le type de comportement utilisé pour :ref:`EaseType<enum_Tween_EaseType>`. Si non défini, le comportement par défaut sera celui utilisé dans le :ref:`Tween<class_Tween>` qui contient ce Tweener.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not s
 
 :ref:`MethodTweener<class_MethodTweener>` **set_trans**\ (\ trans\: :ref:`TransitionType<enum_Tween_TransitionType>`\ ) :ref:`🔗<class_MethodTweener_method_set_trans>`
 
-Sets the type of used transition from :ref:`TransitionType<enum_Tween_TransitionType>`. If not set, the default transition is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Définit le type de transition utilisée pour :ref:`TransitionType<enum_Tween_TransitionType>`. Si non défini, la transition par défaut sera celle utilisée dans le :ref:`Tween<class_Tween>` qui contient ce Tweener.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

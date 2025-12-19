@@ -95,7 +95,7 @@ Este método es ejecutado por el Editor cuando se utiliza **Archivo > Ejecutar**
 
 |void| **add_root_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorScript_method_add_root_node>`
 
-Makes ``node`` root of the currently opened scene. Only works if the scene is empty. If the ``node`` is a scene instance, an inheriting scene will be created.
+Convierte a ``node`` en la raíz de la escena actualmente abierta. Solo funciona si la escena está vacía. Si ``node`` es una instancia de escena, se creará una escena heredada.
 
 .. rst-class:: classref-item-separator
 

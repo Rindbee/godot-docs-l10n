@@ -451,11 +451,11 @@ Le nombre maximum de sons que ce nœud peut jouer en même temps. Jouer des sons
 - |void| **set_panning_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_panning_strength**\ (\ )
 
-Scales the panning strength for this node by multiplying the base :ref:`ProjectSettings.audio/general/3d_panning_strength<class_ProjectSettings_property_audio/general/3d_panning_strength>` by this factor. If the product is ``0.0`` then stereo panning is disabled and the volume is the same for all channels. If the product is ``1.0`` then one of the channels will be muted when the sound is located exactly to the left (or right) of the listener.
+Redimensionne la force de balance de ce nœud en multipliant la base :ref:`ProjectSettings.audio/general/3d_panning_strength<class_ProjectSettings_property_audio/general/3d_panning_strength>` par ce facteur. Si le produit vaut ``0.0``, la balance stéréo est désactivée et le volume est le même pour tous les canaux. Si le produit vaut ``1.0``, l'un des canaux sera muet lorsque le son est situé exactement à gauche (ou à droite) de l'auditeur.
 
-Two speaker stereo arrangements implement the `WebAudio standard for StereoPannerNode Panning <https://webaudio.github.io/web-audio-api/#stereopanner-algorithm>`__ where the volume is cosine of half the azimuth angle to the ear.
+Les arrangements stéréo à 2 haut-parleurs implémentent le `standard WebAudio pour la balance StereoPannerNode <https://webaudio.github.io/web-audio-api/#stereopanner-algorithm>`__ où le volume est le cosinus de la moitié de l'angle d'azimut à l'oreille.
 
-For other speaker arrangements such as the 5.1 and 7.1 the SPCAP (Speaker-Placement Correction Amplitude) algorithm is implemented.
+Pour d'autres arrangements des haut-parleurs tels que le 5.1 et 7.1, l'algorithme SPCAP (Speaker-Placement Correction Amplitude) est implémenté.
 
 .. rst-class:: classref-item-separator
 

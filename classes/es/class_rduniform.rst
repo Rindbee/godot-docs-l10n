@@ -14,7 +14,7 @@ Shader uniform (used by :ref:`RenderingDevice<class_RenderingDevice>`).
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -66,7 +66,7 @@ Descripciones de Propiedades
 - |void| **set_binding**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_binding**\ (\ )
 
-The uniform's binding.
+El enlace del uniforme.
 
 .. rst-class:: classref-item-separator
 

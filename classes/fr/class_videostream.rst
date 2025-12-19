@@ -7,7 +7,7 @@ VideoStream
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VideoStreamTheora<class_VideoStreamTheora>`
+**Hérité par :** :ref:`VideoStreamTheora<class_VideoStreamTheora>`
 
 Ressource de base pour les flux vidéo.
 

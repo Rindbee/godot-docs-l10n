@@ -1830,7 +1830,7 @@ Véase también :ref:`ProjectSettings.rendering/anti_aliasing/quality/screen_spa
 - |void| **set_sdf_oversize**\ (\ value\: :ref:`SDFOversize<enum_Viewport_SDFOversize>`\ )
 - :ref:`SDFOversize<enum_Viewport_SDFOversize>` **get_sdf_oversize**\ (\ )
 
-Controla qué parte del tamaño del viewport original debe ser cubierta por el campo de distancia firmado 2D. Este SDF puede ser muestreado en sombreadores :ref:`CanvasItem<class_CanvasItem>` y también se utiliza para la colisión de :ref:`GPUParticles2D<class_GPUParticles2D>`. Los valores más altos permiten que las porciones de los oclusores situados fuera del viewport se tengan en cuenta en el campo de distancia firmado generado, a costa del rendimiento. Si observas que las partículas caen a través de los :ref:`LightOccluder2D<class_LightOccluder2D>`\ s cuando los oclusores salen del viewport, aumenta este ajuste.
+Controla qué parte del tamaño del viewport original debe ser cubierta por el campo de distancia firmado 2D. Este SDF puede ser muestreado en shaders :ref:`CanvasItem<class_CanvasItem>` y también se utiliza para la colisión de :ref:`GPUParticles2D<class_GPUParticles2D>`. Los valores más altos permiten que las porciones de los oclusores situados fuera del viewport se tengan en cuenta en el campo de distancia firmado generado, a costa del rendimiento. Si observas que las partículas caen a través de los :ref:`LightOccluder2D<class_LightOccluder2D>`\ s cuando los oclusores salen del viewport, aumenta este ajuste.
 
 El porcentaje se añade en cada eje y en ambos lados. Por ejemplo, con el :ref:`SDF_OVERSIZE_120_PERCENT<class_Viewport_constant_SDF_OVERSIZE_120_PERCENT>` por defecto, el campo de distancia firmado cubrirá el 20% del tamaño del viewport fuera del viewport en cada lado (arriba, derecha, abajo, izquierda).
 
@@ -1923,7 +1923,9 @@ Para controlar esta propiedad en el viewport raíz, establece el ajuste del proy
 - |void| **set_transparent_background**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **has_transparent_background**\ (\ )
 
-Si es ``true``, el viewport debería hacer su fondo transparente.
+If ``true``, the viewport should render its background as transparent.
+
+\ **Note:** Due to technical limitations, certain rendering features are disabled when a viewport has a transparent background. This currently applies to screen-space reflections, subsurface scattering, and depth of field.
 
 .. rst-class:: classref-item-separator
 

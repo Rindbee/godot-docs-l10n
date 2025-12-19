@@ -316,9 +316,9 @@ enum **BakeMode**: :ref:`🔗<enum_Light3D_BakeMode>`
 
 :ref:`BakeMode<enum_Light3D_BakeMode>` **BAKE_DISABLED** = ``0``
 
-Light is ignored when baking. This is the fastest mode, but the light will not be taken into account when baking global illumination. This mode should generally be used for dynamic lights that change quickly, as the effect of global illumination is less noticeable on those lights.
+La luce è ignorata durante il precalcolo. Questa è la modalità più veloce, ma la luce sarà presa in considerazione durante il precalcolo dell'illuminazione globale. Questa modalità si dovrebbe generalmente utilizzare per luci dinamiche che cambiano rapidamente, poiché l'effetto dell'illuminazione globale è meno evidente su tali luci.
 
-\ **Note:** Hiding a light does *not* affect baking :ref:`LightmapGI<class_LightmapGI>`. Hiding a light will still affect baking :ref:`VoxelGI<class_VoxelGI>` and SDFGI (see :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`).
+\ **Nota:** Nascondere una luce *non* influisce sul precalcolo di :ref:`LightmapGI<class_LightmapGI>`. Nascondere una luce influenzerà comunque il precalcolo di :ref:`VoxelGI<class_VoxelGI>` e di SDFGI (vedi :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>`).
 
 .. _class_Light3D_constant_BAKE_STATIC:
 
@@ -508,9 +508,9 @@ Il colore della luce nello spazio colore sRGB non-lineare. Si può utilizzare un
 - |void| **set_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_cull_mask**\ (\ )
 
-The light will affect objects in the selected layers.
+La luce influenzerà gli oggetti negli strati selezionati.
 
-\ **Note:** The light cull mask is ignored by :ref:`VoxelGI<class_VoxelGI>`, SDFGI, :ref:`LightmapGI<class_LightmapGI>`, and volumetric fog. These will always render lights in a way that ignores the cull mask. See also :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`.
+\ **Nota:** La maschera di culling della luce è ignorata da :ref:`VoxelGI<class_VoxelGI>`, SDFGI, :ref:`LightmapGI<class_LightmapGI>` e la nebbia volumetrica. Questi renderizzeranno sempre le luci in modo da ignorare la maschera di culling. Vedi anche :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`.
 
 .. rst-class:: classref-item-separator
 

@@ -7,16 +7,16 @@ TubeTrailMesh
 
 **Hérite de :** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Represents a straight tube-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>` with variable width.
+Représente un :ref:`PrimitiveMesh<class_PrimitiveMesh>` en forme de tube droit avec une largeur variable.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**TubeTrailMesh** represents a straight tube-shaped mesh with variable width. The tube is composed of a number of cylindrical sections, each with the same :ref:`section_length<class_TubeTrailMesh_property_section_length>` and number of :ref:`section_rings<class_TubeTrailMesh_property_section_rings>`. A :ref:`curve<class_TubeTrailMesh_property_curve>` is sampled along the total length of the tube, meaning that the curve determines the radius of the tube along its length.
+**TubeTrailMesh** représente un maillage en forme en forme de tube droit avec une largeur variable. Le tube est composé d'un certain nombre de sections cylindriques, chacune avec la même longueur de section :ref:`section_length<class_TubeTrailMesh_property_section_length>` et le même nombre d'anneaux :ref:`section_rings<class_TubeTrailMesh_property_section_rings>`. Une courbe :ref:`curve<class_TubeTrailMesh_property_curve>` est échantillonnée le long de la longueur totale du tube, ce qui signifie que la courbe détermine le rayon du tube le long de sa longueur.
 
-This primitive mesh is usually used for particle trails.
+Ce maillage primitif est généralement utilisé pour les traînées de particules.
 
 .. rst-class:: classref-introduction-group
 
@@ -73,7 +73,7 @@ Descriptions des propriétés
 - |void| **set_cap_bottom**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_cap_bottom**\ (\ )
 
-If ``true``, generates a cap at the bottom of the tube. This can be set to ``false`` to speed up generation and rendering when the cap is never seen by the camera.
+Si ``true``, génère un bouchon en bas du tube. Cela peut être défini à ``false`` pour accélérer la génération et le rendu lorsque le bouchon n'est jamais vu par la caméra.
 
 .. rst-class:: classref-item-separator
 
@@ -90,7 +90,7 @@ If ``true``, generates a cap at the bottom of the tube. This can be set to ``fal
 - |void| **set_cap_top**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_cap_top**\ (\ )
 
-If ``true``, generates a cap at the top of the tube. This can be set to ``false`` to speed up generation and rendering when the cap is never seen by the camera.
+Si ``true``, génère un bouchon en haut du tube. Cela peut être défini à ``false`` pour accélérer la génération et le rendu lorsque le bouchon n'est jamais vu par la caméra.
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +124,7 @@ Détermine le rayon du tube le long de sa longueur. Le rayon d'un anneau de sect
 - |void| **set_radial_steps**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_radial_steps**\ (\ )
 
-The number of sides on the tube. For example, a value of ``5`` means the tube will be pentagonal. Higher values result in a more detailed tube at the cost of performance.
+Le nombre de côtés sur le tube. Par exemple, une valeur de ``5`` signifie que le tube sera pentagonal. Des valeurs plus élevées résultent en un tube plus détaillé au détriment de la performance.
 
 .. rst-class:: classref-item-separator
 
@@ -141,7 +141,7 @@ The number of sides on the tube. For example, a value of ``5`` means the tube wi
 - |void| **set_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_radius**\ (\ )
 
-The baseline radius of the tube. The radius of a particular section ring is obtained by multiplying this radius by the value of the :ref:`curve<class_TubeTrailMesh_property_curve>` at the given distance.
+Le rayon de base du tube. Le rayon d'un anneau de section particulier est obtenu en multipliant ce rayon par la valeur de :ref:`curve<class_TubeTrailMesh_property_curve>` à la distance donnée.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ La longueur d'une section du tube.
 - |void| **set_section_rings**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_section_rings**\ (\ )
 
-The number of rings in a section. The :ref:`curve<class_TubeTrailMesh_property_curve>` is sampled on each ring to determine its radius. Higher values result in a more detailed tube at the cost of performance.
+Le nombre d'anneaux dans une section. La courbe :ref:`curve<class_TubeTrailMesh_property_curve>` est échantillonnée sur chaque anneau pour déterminer son rayon. Des valeurs plus élevées résultent en un tube plus détaillé au détriment de la performance.
 
 .. rst-class:: classref-item-separator
 

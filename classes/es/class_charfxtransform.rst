@@ -248,7 +248,7 @@ Si es ``true``, la transformación FX es llamada para el dibujo del contorno.
 - |void| **set_range**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_range**\ (\ )
 
-Rango de caracteres absoluto en la cadena, correspondiente al glifo.
+Rango de caracteres absoluto en la string, correspondiente al glifo.
 
 \ **Nota:** Solo lectura. Establecer esta propiedad no afectará el dibujo.
 

@@ -7,7 +7,7 @@ StyleBoxFlat
 
 **Hérite de :** :ref:`StyleBox<class_StyleBox>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A customizable :ref:`StyleBox<class_StyleBox>` that doesn't use a texture.
+Une :ref:`StyleBox<class_StyleBox>` personnalisable qui n'utilise pas de texture.
 
 .. rst-class:: classref-introduction-group
 
@@ -137,9 +137,9 @@ Descriptions des propriétés
 - |void| **set_anti_aliased**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_anti_aliased**\ (\ )
 
-Antialiasing draws a small ring around the edges, which fades to transparency. As a result, edges look much smoother. This is only noticeable when using rounded corners or :ref:`skew<class_StyleBoxFlat_property_skew>`.
+L'anticrénelage dessine un petit anneau autour des bords, qui disparaît vers de la transparence. En conséquence, les bords sont beaucoup plus doux. Ceci n'est visible que lorsque vous utilisez des coins arrondis ou :ref:`skew<class_StyleBoxFlat_property_skew>`.
 
-\ **Note:** When using beveled corners with 45-degree angles (:ref:`corner_detail<class_StyleBoxFlat_property_corner_detail>` = 1), it is recommended to set :ref:`anti_aliasing<class_StyleBoxFlat_property_anti_aliasing>` to ``false`` to ensure crisp visuals and avoid possible visual glitches.
+\ **Note :** Lors de l'utilisation d'angles biseautés avec des angles de 45 degrés (:ref:`corner_detail<class_StyleBoxFlat_property_corner_detail>` = 1), il est recommandé de définir :ref:`anti_aliasing<class_StyleBoxFlat_property_anti_aliasing>` à ``false`` afin d'assurer des visuels nets et d'éviter des glitchs visuels possibles.
 
 .. rst-class:: classref-item-separator
 
@@ -156,9 +156,9 @@ Antialiasing draws a small ring around the edges, which fades to transparency. A
 - |void| **set_aa_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_aa_size**\ (\ )
 
-This changes the size of the antialiasing effect. ``1.0`` is recommended for an optimal result at 100% scale, identical to how rounded rectangles are rendered in web browsers and most vector drawing software.
+Cela modifie la taille de l'effet d'anticrénelage. ``1.0`` est recommandé pour un résultat optimal à l'échelle 100%, identique à la façon dont les rectangles arrondis sont rendus dans les navigateurs Web et la plupart des logiciels de dessin vectoriel.
 
-\ **Note:** Higher values may produce a blur effect but can also create undesired artifacts on small boxes with large-radius corners.
+\ **Note :** Des valeurs plus élevées peuvent produire un effet de flou, mais peuvent également créer des artéfacts indésirables sur les petites boîtes avec des angles à grand rayon.
 
 .. rst-class:: classref-item-separator
 
@@ -294,11 +294,11 @@ L'épaisseur de la bordure du haut.
 - |void| **set_corner_detail**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_corner_detail**\ (\ )
 
-This sets the number of vertices used for each corner. Higher values result in rounder corners but take more processing power to compute. When choosing a value, you should take the corner radius (:ref:`set_corner_radius_all()<class_StyleBoxFlat_method_set_corner_radius_all>`) into account.
+Cela définit le nombre de sommets utilisés pour chaque coin. Les valeurs plus élevées résultent en des angles plus ronds mais prennent plus de puissance de traitement pour calculer. Lors du choix d'une valeur, vous devriez prendre en compte le rayon du coin (:ref:`set_corner_radius_all()<class_StyleBoxFlat_method_set_corner_radius_all>`).
 
-For corner radii less than 10, ``4`` or ``5`` should be enough. For corner radii less than 30, values between ``8`` and ``12`` should be enough.
+Pour des rayons de coin inférieurs à 10, ``4`` ou ``5`` devrait suffire. Pour des rayons de coin inférieurs à 30, des valeurs entre ``8`` et ``12`` devraient suffire.
 
-A corner detail of ``1`` will result in chamfered corners instead of rounded corners, which is useful for some artistic effects.
+Un détail d'angle de ``1`` résultera en des angles chanfreinés au lieu d'angles arrondis, ce qui est utile pour certains effets artistiques.
 
 .. rst-class:: classref-item-separator
 
@@ -527,9 +527,9 @@ La taille de l'ombre en pixels.
 - |void| **set_skew**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_skew**\ (\ )
 
-If set to a non-zero value on either axis, :ref:`skew<class_StyleBoxFlat_property_skew>` distorts the StyleBox horizontally and/or vertically. This can be used for "futuristic"-style UIs. Positive values skew the StyleBox towards the right (X axis) and upwards (Y axis), while negative values skew the StyleBox towards the left (X axis) and downwards (Y axis).
+Si défini à une valeur non nulle sur l'un des axes, :ref:`skew<class_StyleBoxFlat_property_skew>` déforme la StyleBox horizontalement et/ou verticalement. Cela peut être utilisé pour les UIs de style "futuriste". Les valeurs positives cisaillent la StyleBox vers la droite (axe X) et vers le haut (axe Y), tandis que les valeurs négatives cisaillent la StyleBox vers la gauche (axe X) et vers le bas (axe Y).
 
-\ **Note:** To ensure text does not touch the StyleBox's edges, consider increasing the :ref:`StyleBox<class_StyleBox>`'s content margin (see :ref:`StyleBox.content_margin_bottom<class_StyleBox_property_content_margin_bottom>`). It is preferable to increase the content margin instead of the expand margin (see :ref:`expand_margin_bottom<class_StyleBoxFlat_property_expand_margin_bottom>`), as increasing the expand margin does not increase the size of the clickable area for :ref:`Control<class_Control>`\ s.
+\ **Note :** Pour garantir que le texte ne touche pas les bords de la StyleBox, envisagez d'augmenter la marge du contenu de la :ref:`StyleBox<class_StyleBox>` (voir :ref:`StyleBox.content_margin_bottom<class_StyleBox_property_content_margin_bottom>`). Il est préférable d'augmenter la marge du contenu au lieu de la marge d'extension (voir :ref:`expand_margin_bottom<class_StyleBoxFlat_property_expand_margin_bottom>`), car augmenter la marge d'extension n'augmente pas la taille de la zone cliquable pour les :ref:`Control<class_Control>`\ s.
 
 .. rst-class:: classref-section-separator
 
@@ -546,7 +546,7 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **get_border_width**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBoxFlat_method_get_border_width>`
 
-Returns the specified :ref:`Side<enum_@GlobalScope_Side>`'s border width.
+Renvoie la largeur de la bordure du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -570,7 +570,7 @@ Renvoie la plus fine bordure parmi les quatre bordures.
 
 :ref:`int<class_int>` **get_corner_radius**\ (\ corner\: :ref:`Corner<enum_@GlobalScope_Corner>`\ ) |const| :ref:`🔗<class_StyleBoxFlat_method_get_corner_radius>`
 
-Returns the given ``corner``'s radius.
+Renvoie le rayon du coin ``corner`` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -582,7 +582,7 @@ Returns the given ``corner``'s radius.
 
 :ref:`float<class_float>` **get_expand_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBoxFlat_method_get_expand_margin>`
 
-Returns the size of the specified :ref:`Side<enum_@GlobalScope_Side>`'s expand margin.
+Renvoie la taille de la marge d'extension du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -594,7 +594,7 @@ Returns the size of the specified :ref:`Side<enum_@GlobalScope_Side>`'s expand m
 
 |void| **set_border_width**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_border_width>`
 
-Sets the specified :ref:`Side<enum_@GlobalScope_Side>`'s border width to ``width`` pixels.
+Définit la largeur de la bordure du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié à ``width`` pixels.
 
 .. rst-class:: classref-item-separator
 
@@ -606,7 +606,7 @@ Sets the specified :ref:`Side<enum_@GlobalScope_Side>`'s border width to ``width
 
 |void| **set_border_width_all**\ (\ width\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_border_width_all>`
 
-Sets the border width to ``width`` pixels for all sides.
+Définit la largeur de la bordure à ``width`` pixels pour tous les côtés.
 
 .. rst-class:: classref-item-separator
 
@@ -618,7 +618,7 @@ Sets the border width to ``width`` pixels for all sides.
 
 |void| **set_corner_radius**\ (\ corner\: :ref:`Corner<enum_@GlobalScope_Corner>`, radius\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_corner_radius>`
 
-Sets the corner radius to ``radius`` pixels for the given ``corner``.
+Définit le rayon de coin à ``radius`` pixels pour le coin ``corner`` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -630,7 +630,7 @@ Sets the corner radius to ``radius`` pixels for the given ``corner``.
 
 |void| **set_corner_radius_all**\ (\ radius\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_corner_radius_all>`
 
-Sets the corner radius to ``radius`` pixels for all corners.
+Définit le rayon de coin à ``radius`` pixels pour tous les coins.
 
 .. rst-class:: classref-item-separator
 
@@ -642,7 +642,7 @@ Sets the corner radius to ``radius`` pixels for all corners.
 
 |void| **set_expand_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_expand_margin>`
 
-Sets the expand margin to ``size`` pixels for the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Définit la marge d'élargissement à ``size`` pixels pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -654,7 +654,7 @@ Sets the expand margin to ``size`` pixels for the specified :ref:`Side<enum_@Glo
 
 |void| **set_expand_margin_all**\ (\ size\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBoxFlat_method_set_expand_margin_all>`
 
-Sets the expand margin to ``size`` pixels for all sides.
+Définit la marge d'élargissement à ``size`` pixels pour tous les côtés.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

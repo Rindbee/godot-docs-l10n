@@ -10,16 +10,16 @@ PhysicalBone3D
 
 **Hereda:** :ref:`PhysicsBody3D<class_PhysicsBody3D>` **<** :ref:`CollisionObject3D<class_CollisionObject3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A physics body used to make bones in a :ref:`Skeleton3D<class_Skeleton3D>` react to physics.
+Un cuerpo físico utilizado para hacer que los huesos de un :ref:`Skeleton3D<class_Skeleton3D>` reaccionen a la física.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The **PhysicalBone3D** node is a physics body that can be used to make bones in a :ref:`Skeleton3D<class_Skeleton3D>` react to physics.
+El nodo **PhysicalBone3D** es un cuerpo físico que se puede utilizar para hacer que los huesos de un :ref:`Skeleton3D<class_Skeleton3D>` reaccionen a la física.
 
-\ **Note:** In order to detect physical bones with raycasts, the :ref:`SkeletonModifier3D.active<class_SkeletonModifier3D_property_active>` property of the parent :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` must be ``true`` and the :ref:`Skeleton3D<class_Skeleton3D>`'s bone must be assigned to **PhysicalBone3D** correctly; it means that :ref:`get_bone_id()<class_PhysicalBone3D_method_get_bone_id>` should return a valid id (``>= 0``).
+\ **Nota:** Para detectar huesos físicos con raycasts, la propiedad :ref:`SkeletonModifier3D.active<class_SkeletonModifier3D_property_active>` del padre :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` debe ser ``true`` y el hueso del :ref:`Skeleton3D<class_Skeleton3D>` debe ser asignado al **PhysicalBone3D** correctamente; esto significa que :ref:`get_bone_id()<class_PhysicalBone3D_method_get_bone_id>` debe devolver un ID válido (``>= 0``).
 
 .. rst-class:: classref-reftable-group
 
@@ -106,7 +106,7 @@ enum **DampMode**: :ref:`🔗<enum_PhysicalBone3D_DampMode>`
 
 :ref:`DampMode<enum_PhysicalBone3D_DampMode>` **DAMP_MODE_COMBINE** = ``0``
 
-In this mode, the body's damping value is added to any value set in areas or the default value.
+En este modo, el valor de amortiguación del cuerpo se añade a cualquier valor establecido en las áreas o al valor predeterminado.
 
 .. _class_PhysicalBone3D_constant_DAMP_MODE_REPLACE:
 
@@ -114,7 +114,7 @@ In this mode, the body's damping value is added to any value set in areas or the
 
 :ref:`DampMode<enum_PhysicalBone3D_DampMode>` **DAMP_MODE_REPLACE** = ``1``
 
-In this mode, the body's damping value replaces any value set in areas or the default value.
+En este modo, el valor de amortiguación del cuerpo reemplaza cualquier valor establecido en las áreas o al valor predeterminado.
 
 .. rst-class:: classref-item-separator
 
@@ -132,7 +132,7 @@ enum **JointType**: :ref:`🔗<enum_PhysicalBone3D_JointType>`
 
 :ref:`JointType<enum_PhysicalBone3D_JointType>` **JOINT_TYPE_NONE** = ``0``
 
-No joint is applied to the PhysicsBone3D.
+No se aplica ninguna articulación al PhysicsBone3D.
 
 .. _class_PhysicalBone3D_constant_JOINT_TYPE_PIN:
 
@@ -140,7 +140,7 @@ No joint is applied to the PhysicsBone3D.
 
 :ref:`JointType<enum_PhysicalBone3D_JointType>` **JOINT_TYPE_PIN** = ``1``
 
-A pin joint is applied to the PhysicsBone3D.
+Se aplica una articulación de pasador al PhysicsBone3D.
 
 .. _class_PhysicalBone3D_constant_JOINT_TYPE_CONE:
 
@@ -148,7 +148,7 @@ A pin joint is applied to the PhysicsBone3D.
 
 :ref:`JointType<enum_PhysicalBone3D_JointType>` **JOINT_TYPE_CONE** = ``2``
 
-A cone joint is applied to the PhysicsBone3D.
+Se aplica una articulación cónica al PhysicsBone3D.
 
 .. _class_PhysicalBone3D_constant_JOINT_TYPE_HINGE:
 
@@ -156,7 +156,7 @@ A cone joint is applied to the PhysicsBone3D.
 
 :ref:`JointType<enum_PhysicalBone3D_JointType>` **JOINT_TYPE_HINGE** = ``3``
 
-A hinge joint is applied to the PhysicsBone3D.
+Se aplica una articulación de bisagra al PhysicsBone3D.
 
 .. _class_PhysicalBone3D_constant_JOINT_TYPE_SLIDER:
 
@@ -164,7 +164,7 @@ A hinge joint is applied to the PhysicsBone3D.
 
 :ref:`JointType<enum_PhysicalBone3D_JointType>` **JOINT_TYPE_SLIDER** = ``4``
 
-A slider joint is applied to the PhysicsBone3D.
+Se aplica una articulación deslizante al PhysicsBone3D.
 
 .. _class_PhysicalBone3D_constant_JOINT_TYPE_6DOF:
 
@@ -172,7 +172,7 @@ A slider joint is applied to the PhysicsBone3D.
 
 :ref:`JointType<enum_PhysicalBone3D_JointType>` **JOINT_TYPE_6DOF** = ``5``
 
-A 6 degrees of freedom joint is applied to the PhysicsBone3D.
+Se aplica una articulación de 6 grados de libertad al PhysicsBone3D.
 
 .. rst-class:: classref-section-separator
 

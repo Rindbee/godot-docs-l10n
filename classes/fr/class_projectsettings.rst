@@ -1264,6 +1264,10 @@ Propriétés
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/use_edge_connections<class_ProjectSettings_property_navigation/2d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_height<class_ProjectSettings_property_navigation/3d/default_cell_height>`                                                                                                 | ``0.25``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_size<class_ProjectSettings_property_navigation/3d/default_cell_size>`                                                                                                     | ``0.25``                                                                                         |
@@ -1277,6 +1281,10 @@ Propriétés
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/merge_rasterizer_cell_scale<class_ProjectSettings_property_navigation/3d/merge_rasterizer_cell_scale>`                                                                                 | ``1.0``                                                                                          |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/use_edge_connections<class_ProjectSettings_property_navigation/3d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/avoidance/thread_model/avoidance_use_high_priority_threads<class_ProjectSettings_property_navigation/avoidance/thread_model/avoidance_use_high_priority_threads>`                         | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -3995,7 +4003,7 @@ Si activé, affiche les chemins d'agent de navigation lorsqu'un agent a le débo
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_edge_connections>`
 
-Si activé, affiche les arrêtes des connexions entre les régions de navigation lorsque « Navigation visible » est activé dans le menu Débogage.
+If enabled, displays edge connections between navigation regions when "Visible Navigation" is enabled in the Debug menu.
 
 .. rst-class:: classref-item-separator
 
@@ -4007,7 +4015,7 @@ Si activé, affiche les arrêtes des connexions entre les régions de navigation
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_edge_lines** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_edge_lines>`
 
-Si activé, affiche les arrêtes des polygones de maillage de navigation lorsque « Navigation visible » est activé dans le menu Débogage.
+If enabled, displays navigation mesh polygon edges when "Visible Navigation" is enabled in the Debug menu.
 
 .. rst-class:: classref-item-separator
 
@@ -4043,7 +4051,7 @@ Si activé, affiche les connexions de lien de navigation lorsque « Navigation v
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/geometry_edge_color** = ``Color(0.5, 1, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/geometry_edge_color>`
 
-Couleur pour afficher les arrêtes de polygones de maillage de navigation activés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
+Couleur pour afficher les arêtes de polygones de maillage de navigation activés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
 
 .. rst-class:: classref-item-separator
 
@@ -4055,7 +4063,7 @@ Couleur pour afficher les arrêtes de polygones de maillage de navigation activ�
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/geometry_edge_disabled_color** = ``Color(0.5, 0.5, 0.5, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/geometry_edge_disabled_color>`
 
-Couleur pour afficher les arrêtes de polygones de maillage de navigation désactivés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
+Couleur pour afficher les arêtes de polygones de maillage de navigation désactivés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
 
 .. rst-class:: classref-item-separator
 
@@ -4175,7 +4183,7 @@ Si activé, affiche les chemins d'agent de navigation à travers la géométrie 
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_connections>`
 
-Si activé, affiche les arrêtes des connexions entre les régions de navigation lorsque « Navigation visible » est activé dans le menu Débogage.
+If enabled, displays edge connections between navigation regions when "Visible Navigation" is enabled in the Debug menu.
 
 .. rst-class:: classref-item-separator
 
@@ -4187,7 +4195,7 @@ Si activé, affiche les arrêtes des connexions entre les régions de navigation
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_connections_xray** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_connections_xray>`
 
-Si activé, affiche les arrêtes de connexion entre les régions de navigation à travers la géométrie lorsque « Navigation visible » est activé dans le menu Débogage.
+Si activé, affiche les arêtes de connexion entre les régions de navigation à travers la géométrie lorsque « Navigation visible » est activé dans le menu Débogage.
 
 .. rst-class:: classref-item-separator
 
@@ -4199,7 +4207,7 @@ Si activé, affiche les arrêtes de connexion entre les régions de navigation �
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_lines** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_lines>`
 
-Si activé, affiche les arrêtes des polygones de maillage de navigation lorsque « Navigation visible » est activé dans le menu Débogage.
+If enabled, displays navigation mesh polygon edges when "Visible Navigation" is enabled in the Debug menu.
 
 .. rst-class:: classref-item-separator
 
@@ -4211,7 +4219,7 @@ Si activé, affiche les arrêtes des polygones de maillage de navigation lorsque
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_lines_xray** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_lines_xray>`
 
-Si activé, affiche les arrêtes des polygones de maillage de navigation à travers la géométrie lorsque « Navigation visible » est activé dans le menu Débogage.
+Si activé, affiche les arêtes des polygones de maillage de navigation à travers la géométrie lorsque « Navigation visible » est activé dans le menu Débogage.
 
 .. rst-class:: classref-item-separator
 
@@ -4259,7 +4267,7 @@ Si activé, affiche les connexions de lien de navigation à travers la géométr
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/geometry_edge_color** = ``Color(0.5, 1, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/geometry_edge_color>`
 
-Couleur pour afficher les arrêtes de polygones de maillage de navigation activés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
+Couleur pour afficher les arêtes de polygones de maillage de navigation activés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
 
 .. rst-class:: classref-item-separator
 
@@ -4271,7 +4279,7 @@ Couleur pour afficher les arrêtes de polygones de maillage de navigation activ�
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/geometry_edge_disabled_color** = ``Color(0.5, 0.5, 0.5, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/geometry_edge_disabled_color>`
 
-Couleur pour afficher les arrêtes de polygones de maillage de navigation désactivés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
+Couleur pour afficher les arêtes de polygones de maillage de navigation désactivés, visibles lorsque "Navigation visible" est activé dans le menu Débogage.
 
 .. rst-class:: classref-item-separator
 
@@ -9707,6 +9715,30 @@ If enabled 2D navigation regions will use edge connections to connect with other
 
 ----
 
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`
+
+If ``true``, the navigation system will print warnings when a navigation mesh with a small cell size is used on a navigation map with a larger size as this commonly causes rasterization errors.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`
+
+If ``true``, the navigation system will print warnings about navigation mesh edge merge errors occurring in navigation regions or maps.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ProjectSettings_property_navigation/3d/default_cell_height:
 
 .. rst-class:: classref-property
@@ -9786,6 +9818,30 @@ Default merge rasterizer cell scale for 3D navigation maps. See :ref:`Navigation
 :ref:`bool<class_bool>` **navigation/3d/use_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/use_edge_connections>`
 
 If enabled 3D navigation regions will use edge connections to connect with other navigation regions within proximity of the navigation map edge connection margin. This setting only affects World3D default navigation maps.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`
+
+If ``true``, the navigation system will print warnings when a navigation mesh with a small cell size (or in 3D height) is used on a navigation map with a larger size as this commonly causes rasterization errors.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`
+
+If ``true``, the navigation system will print warnings about navigation mesh edge merge errors occurring in navigation regions or maps.
 
 .. rst-class:: classref-item-separator
 
@@ -10543,13 +10599,13 @@ Si ``true``, le moteur de rendu interpolera les transformations d'objets (objets
 
 :ref:`float<class_float>` **physics/common/physics_jitter_fix** = ``0.5`` :ref:`🔗<class_ProjectSettings_property_physics/common/physics_jitter_fix>`
 
-Controls how much physics ticks are synchronized with real time. For 0 or less, the ticks are synchronized. Such values are recommended for network games, where clock synchronization matters. Higher values cause higher deviation of in-game clock and real clock, but allows smoothing out framerate jitters. The default value of 0.5 should be good enough for most; values above 2 could cause the game to react to dropped frames with a noticeable delay and are not recommended.
+Contrôle la synchronisation de l'écoulement des trames de physique avec le temps réel. Pour 0 ou moins, les trames sont synchronisées. Ces valeurs sont recommandées pour les jeux en réseau, où la synchronisation d'horloge est importante. Les valeurs plus élevées provoquent une déviation plus élevée entre l'horloge du jeu et de l'horloge réelle, mais permet de lisser les sautillements du taux de rafraîchissement. La valeur par défaut de 0,5 devrait être suffisante la plupart du temps, les valeurs supérieures à 2 pourraient amener le jeu à réagir aux trames sautées avec un retard notable et ne sont pas recommandées.
 
-\ **Note:** Jitter fix is automatically disabled at runtime when :ref:`physics/common/physics_interpolation<class_ProjectSettings_property_physics/common/physics_interpolation>` is enabled.
+\ **Note :** La correction du sautillement est automatiquement désactivée durant l'exécution lorsque :ref:`physics/common/physics_interpolation<class_ProjectSettings_property_physics/common/physics_interpolation>` est activé.
 
-\ **Note:** When using a custom physics interpolation solution, the physics jitter fix should be disabled by setting :ref:`physics/common/physics_jitter_fix<class_ProjectSettings_property_physics/common/physics_jitter_fix>` to ``0.0``.
+\ **Note :** Lors de l'utilisation d'une solution d'interpolation de physique personnalisée, le correcteur des sautillements physiques devrait être désactivé en définissant :ref:`physics/common/physics_jitter_fix<class_ProjectSettings_property_physics/common/physics_jitter_fix>` à ``0.0``.
 
-\ **Note:** This property is only read when the project starts. To change the physics jitter fix at runtime, set :ref:`Engine.physics_jitter_fix<class_Engine_property_physics_jitter_fix>` instead.
+\ **Note :** Cette propriété est seulement lue au démarrage du projet. Pour changer le correcteur des sautillements physiques durant l'exécution, définissez :ref:`Engine.physics_jitter_fix<class_Engine_property_physics_jitter_fix>` à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -10561,11 +10617,11 @@ Controls how much physics ticks are synchronized with real time. For 0 or less, 
 
 :ref:`int<class_int>` **physics/common/physics_ticks_per_second** = ``60`` :ref:`🔗<class_ProjectSettings_property_physics/common/physics_ticks_per_second>`
 
-The number of fixed iterations per second. This controls how often physics simulation and :ref:`Node._physics_process()<class_Node_private_method__physics_process>` methods are run. See also :ref:`application/run/max_fps<class_ProjectSettings_property_application/run/max_fps>`.
+Le nombre d'itérations fixes par seconde. Cela contrôle combien de fois la simulation physique et les méthodes :ref:`Node._physics_process()<class_Node_private_method__physics_process>` sont exécutées. Voir aussi :ref:`application/run/max_fps<class_ProjectSettings_property_application/run/max_fps>`.
 
-\ **Note:** This property is only read when the project starts. To change the physics FPS at runtime, set :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>` instead.
+\ **Note :** Cette propriété n'est lue qu'au démarrage du projet. Pour changer les TPS de la physique durant l'exécution, définissez :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>` à la place.
 
-\ **Note:** Only :ref:`physics/common/max_physics_steps_per_frame<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>` physics ticks may be simulated per rendered frame at most. If more physics ticks have to be simulated per rendered frame to keep up with rendering, the project will appear to slow down (even if ``delta`` is used consistently in physics calculations). Therefore, it is recommended to also increase :ref:`physics/common/max_physics_steps_per_frame<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>` if increasing :ref:`physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>` significantly above its default value.
+\ **Note :** Seulement :ref:`physics/common/max_physics_steps_per_frame<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>` trames de physique peuvent être simulées par trame visuelle rendue au maximum. Si d'autres trames de physique doivent être simulées pour maintenir le rendu, le projet semblera ralentir (même si ``delta`` est utilisé systématiquement dans les calculs de physique). Par conséquent, il est recommandé d'augmenter :ref:`physics/common/max_physics_steps_per_frame<class_ProjectSettings_property_physics/common/max_physics_steps_per_frame>` si vous augmentez :ref:`physics/common/physics_ticks_per_second<class_ProjectSettings_property_physics/common/physics_ticks_per_second>` significativement au-dessus de sa valeur par défaut.
 
 .. rst-class:: classref-item-separator
 
@@ -10577,15 +10633,15 @@ The number of fixed iterations per second. This controls how often physics simul
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/collisions/active_edge_threshold** = ``0.87266463`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/collisions/active_edge_threshold>`
 
-L'angle maximal, en radians, entre deux triangles adjacents dans un :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` ou :ref:`HeightMapShape3D<class_HeightMapShape3D>` pour lesquels l'arrête entre ces triangles est considérée comme inactive.
+L'angle maximal, en radians, entre deux triangles adjacents dans un :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` ou :ref:`HeightMapShape3D<class_HeightMapShape3D>` pour lesquels l'arête entre ces triangles est considérée comme inactive.
 
-Les collisions contre une arrête inactive auront leur normale remplacée par la normale de la surface du triangle. Cela peut aider à atténuer les collisions fantômes.
+Les collisions contre une arête inactive auront leur normale remplacée par la normale de la surface du triangle. Cela peut aider à atténuer les collisions fantômes.
 
-\ **Note :** Définir ceci trop haut peut résulter en des objets qui ne se dépénètrent pas correctement.
+\ **Note :** Donner une valeur trop importante peut résulter en des objets qui ne se dépénètrent pas correctement.
 
-\ **Note :** Cela s'applique à toutes les requêtes de forme, ainsi qu'aux corps physiques dans la simulation.
+\ **Note :** Cela s'applique à toutes les requêtes sur des formes, ainsi qu'aux corps physiques dans la simulation.
 
-\ **Note :** Cela ne s'applique pas lors de l'activation de la suppression des arrêtes internes améliorée de Jolt, qui a la priorité sur ceci.
+\ **Note :** Cela ne s'applique pas lors de l'activation dans Jolt de la suppression améliorée des arêtes internes, qui a la priorité.
 
 .. rst-class:: classref-item-separator
 
@@ -10709,7 +10765,7 @@ La taille des limites du :ref:`WorldBoundaryShape3D<class_WorldBoundaryShape3D>`
 
 \ **Note :** Définir cette valeur trop haut peut rendre la détection de collision moins exacte.
 
-\ **Note :** Les collisions contre les arrêtes effectives d'un :ref:`WorldBoundaryShape3D<class_WorldBoundaryShape3D>` seront inconsistantes.
+\ **Note :** Les collisions contre les arêtes effectives d'un :ref:`WorldBoundaryShape3D<class_WorldBoundaryShape3D>` seront inconsistantes.
 
 .. rst-class:: classref-item-separator
 
@@ -10749,7 +10805,7 @@ Le nombre d'itérations à exécuter lors de la dé-pénétration lors des requ�
 
 :ref:`bool<class_bool>` **physics/jolt_physics_3d/motion_queries/use_enhanced_internal_edge_removal** = ``true`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/motion_queries/use_enhanced_internal_edge_removal>`
 
-Si ``true``, active la suppression des arrêtes internes améliorée de Jolt lors des requêtes de mouvement. Cela peut aider à atténuer les collisions fantômes, mais seulement avec des arrêtes dans un seul corps, ce qui signifie que les arrêtes entre des corps séparés peuvent encore causer des collisions fantômes.
+Si ``true``, active la suppression des arêtes internes améliorée de Jolt lors des requêtes de mouvement. Cela peut aider à atténuer les collisions fantômes, mais seulement avec des arrêtes dans un seul corps, ce qui signifie que les arêtes entre des corps séparés peuvent encore causer des collisions fantômes.
 
 \ **Note :** Cela affecte les méthodes :ref:`CharacterBody3D.move_and_slide()<class_CharacterBody3D_method_move_and_slide>`, :ref:`PhysicsBody3D.move_and_collide()<class_PhysicsBody3D_method_move_and_collide>`, :ref:`PhysicsBody3D.test_move()<class_PhysicsBody3D_method_test_move>` et :ref:`PhysicsServer3D.body_test_motion()<class_PhysicsServer3D_method_body_test_motion>`.
 
@@ -10777,7 +10833,7 @@ Si ``true``, peuple le champ ``face_index`` dans les résultats de :ref:`Physics
 
 :ref:`bool<class_bool>` **physics/jolt_physics_3d/queries/use_enhanced_internal_edge_removal** = ``false`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/queries/use_enhanced_internal_edge_removal>`
 
-Si ``true``, active la suppression des arrêtes internes améliorée de Jolt lors des requêtes de mouvement. Cela peut aider à atténuer les collisions fantômes lors de l'utilisation de requêtes de mouvement pour des choses comme les mouvements de personnage, mais seulement avec des arrêtes dans un seul corps, ce qui signifie que les arrêtes entre des corps séparés peuvent encore causer des collisions fantômes.
+Si ``true``, active la suppression des arêtes internes améliorée de Jolt lors des requêtes de mouvement. Cela peut aider à atténuer les collisions fantômes lors de l'utilisation de requêtes de mouvement pour des choses comme les mouvements de personnage, mais seulement avec des arêtes dans un seul corps, ce qui signifie que les arrêtes entre des corps séparés peuvent encore causer des collisions fantômes.
 
 \ **Note :** Cela affecte les méthodes :ref:`PhysicsDirectSpaceState3D.cast_motion()<class_PhysicsDirectSpaceState3D_method_cast_motion>`, :ref:`PhysicsDirectSpaceState3D.collide_shape()<class_PhysicsDirectSpaceState3D_method_collide_shape>`, :ref:`PhysicsDirectSpaceState3D.get_rest_info()<class_PhysicsDirectSpaceState3D_method_get_rest_info>` et :ref:`PhysicsDirectSpaceState3D.intersect_shape()<class_PhysicsDirectSpaceState3D_method_intersect_shape>`.
 
@@ -10979,7 +11035,7 @@ Rayon autour des corps physiques, à l'intérieur duquel des points de contact s
 
 :ref:`bool<class_bool>` **physics/jolt_physics_3d/simulation/use_enhanced_internal_edge_removal** = ``true`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/use_enhanced_internal_edge_removal>`
 
-Si ``true``, active la suppression des arrêtes internes améliorée de Jolt lors les :ref:`RigidBody3D<class_RigidBody3D>`. Cela peut aider à atténuer les collisions fantômes lorsque, par exemple, un :ref:`RigidBody3D<class_RigidBody3D>` se heurte aux arrêtes de deux :ref:`BoxShape3D<class_BoxShape3D>` parfaitement joints. La suppression ne s'applique qu'aux arrêtes internes à un seul corps, ce qui signifie que les arrêtes entre des corps séparés peuvent encore causer des collisions fantômes.
+Si ``true``, active la suppression des arêtes internes améliorée de Jolt lors les :ref:`RigidBody3D<class_RigidBody3D>`. Cela peut aider à atténuer les collisions fantômes lorsque, par exemple, un :ref:`RigidBody3D<class_RigidBody3D>` se heurte aux arêtes de deux :ref:`BoxShape3D<class_BoxShape3D>` parfaitement joints. La suppression ne s'applique qu'aux arêtes internes à un seul corps, ce qui signifie que les arêtes entre des corps séparés peuvent encore causer des collisions fantômes.
 
 .. rst-class:: classref-item-separator
 
@@ -12181,7 +12237,7 @@ Use 16 bits for the omni/spot shadow depth map. Enabling this results in shadows
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv>`
 
-La quantité de subdivision du premier quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
+La quantité de subdivision du premier quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -12193,7 +12249,7 @@ La quantité de subdivision du premier quadrant sur l'atlas des ombres. Voir la 
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv>`
 
-La quantité de subdivision du deuxième quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
+La quantité de subdivision du deuxième quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -12205,7 +12261,7 @@ La quantité de subdivision du deuxième quadrant sur l'atlas des ombres. Voir l
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv** = ``3`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv>`
 
-La quantité de subdivision du troisième quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
+La quantité de subdivision du troisième quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -12217,7 +12273,7 @@ La quantité de subdivision du troisième quadrant sur l'atlas des ombres. Voir 
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv** = ``4`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv>`
 
-La quantité de subdivision du quatrième quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
+La quantité de subdivision du quatrième quadrant sur l'atlas des ombres. Voir la `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -12229,7 +12285,7 @@ La quantité de subdivision du quatrième quadrant sur l'atlas des ombres. Voir 
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_size>`
 
-La taille de l'atlas des ombres utilisé pour les nœuds :ref:`OmniLight3D<class_OmniLight3D>` et :ref:`SpotLight3D<class_SpotLight3D>` . Voir la `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
+La taille de l'atlas des ombres utilisé pour les nœuds :ref:`OmniLight3D<class_OmniLight3D>` et :ref:`SpotLight3D<class_SpotLight3D>`. Voir la `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -13323,7 +13379,7 @@ If ``true``, uses nearest-neighbor mipmap filtering when using mipmaps (also cal
 
 :ref:`int<class_int>` **rendering/textures/light_projectors/filter** = ``3`` :ref:`🔗<class_ProjectSettings_property_rendering/textures/light_projectors/filter>`
 
-The filtering quality to use for :ref:`OmniLight3D<class_OmniLight3D>` and :ref:`SpotLight3D<class_SpotLight3D>` projectors. When using one of the anisotropic filtering modes, the anisotropic filtering level is controlled by :ref:`rendering/textures/default_filters/anisotropic_filtering_level<class_ProjectSettings_property_rendering/textures/default_filters/anisotropic_filtering_level>`.
+La qualité de filtrage pour les projecteurs d':ref:`OmniLight3D<class_OmniLight3D>` et de :ref:`SpotLight3D<class_SpotLight3D>`. Lors de l'utilisation de l'un des modes de filtrage anisotropes, le niveau de filtrage anisotrope est contrôlé par :ref:`rendering/textures/default_filters/anisotropic_filtering_level<class_ProjectSettings_property_rendering/textures/default_filters/anisotropic_filtering_level>`.
 
 .. rst-class:: classref-item-separator
 
@@ -13347,7 +13403,7 @@ Si ``true``, l'importateur de texture importera les textures sans perte en utili
 
 :ref:`bool<class_bool>` **rendering/textures/vram_compression/cache_gpu_compressor** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/textures/vram_compression/cache_gpu_compressor>`
 
-If ``true``, the GPU texture compressor will cache the local RenderingDevice and its resources (shaders and pipelines), allowing for faster subsequent imports at a memory cost.
+Si ``true``, le compresseur de texture GPU met en cache le RenderingDevice local et ses ressources (shaders et pipelines), permettant des importations ultérieures plus rapides avec un coût en mémoire.
 
 .. rst-class:: classref-item-separator
 
@@ -13572,7 +13628,7 @@ Si ``true``, Godot configurera et initialisera OpenXR au démarrage.
 
 :ref:`int<class_int>` **xr/openxr/environment_blend_mode** = ``"0"`` :ref:`🔗<class_ProjectSettings_property_xr/openxr/environment_blend_mode>`
 
-Specify how OpenXR should blend in the environment. This is specific to certain AR and passthrough devices where camera images are blended in by the XR compositor.
+Spécifie comment OpenXR devrait se mélanger avec l'environnement. Ceci est spécifique à certains appareils RA et passthrough où les images des caméras sont mélangées par le compositeur XR.
 
 .. rst-class:: classref-item-separator
 
@@ -13674,9 +13730,9 @@ If ``true``, support for the unobstructed data source is requested. If supported
 
 :ref:`bool<class_bool>` **xr/openxr/extensions/render_model** = ``false`` :ref:`🔗<class_ProjectSettings_property_xr/openxr/extensions/render_model>`
 
-If ``true`` we enable the render model extension if available.
+Si ``true``, nous activons l'extension de modèle de rendu si disponible.
 
-\ **Note:** This relates to the core OpenXR render model extension and has no relation to any vendor render model extensions.
+\ **Note :** Cela concerne l'extension de modèle de rendu OpenXR de base et n'a aucun rapport avec des extensions de modèle de rendu de fournisseur.
 
 .. rst-class:: classref-item-separator
 
@@ -13712,9 +13768,9 @@ Si ``true`` et que le fovéation est supportée, ajustera automatiquement le niv
 
 :ref:`int<class_int>` **xr/openxr/foveation_level** = ``"0"`` :ref:`🔗<class_ProjectSettings_property_xr/openxr/foveation_level>`
 
-Applied foveation level if supported: 0 = off, 1 = low, 2 = medium, 3 = high.
+Niveau de fovéation appliqué si supporté : 0 = désactivé, 1 = faible, 2 = moyen, 3 = élevé.
 
-\ **Note:** On platforms other than Android, if :ref:`rendering/anti_aliasing/quality/msaa_3d<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` is enabled, this feature will be disabled.
+\ **Note :** Sur les plates-formes autres qu'Android, si :ref:`rendering/anti_aliasing/quality/msaa_3d<class_ProjectSettings_property_rendering/anti_aliasing/quality/msaa_3d>` est activé, cette fonctionnalité sera désactivée.
 
 .. rst-class:: classref-item-separator
 
@@ -13750,7 +13806,7 @@ Si ``true``, Godot affichera une alerte exclusive lorsque l'initialisation OpenX
 
 :ref:`bool<class_bool>` **xr/openxr/submit_depth_buffer** = ``false`` :ref:`🔗<class_ProjectSettings_property_xr/openxr/submit_depth_buffer>`
 
-If ``true``, OpenXR will manage the depth buffer and use the depth buffer for advanced reprojection provided this is supported by the XR runtime. Note that some rendering features in Godot can't be used with this feature.
+Si ``true``, OpenXR gérera le buffer de profondeur et utilisera le buffer de profondeur pour une reprojection avancée à condition que cela soit supporté par le runtime XR. Notez que certaines fonctionnalités de rendu dans Godot ne peuvent pas être utilisées avec cette fonctionnalité.
 
 .. rst-class:: classref-item-separator
 
@@ -13791,13 +13847,13 @@ Descriptions des méthodes
 
 |void| **add_property_info**\ (\ hint\: :ref:`Dictionary<class_Dictionary>`\ ) :ref:`🔗<class_ProjectSettings_method_add_property_info>`
 
-Adds a custom property info to a property. The dictionary must contain:
+Ajoute une info de propriété personnalisée à une propriété. Le dictionnaire doit contenir :
 
-- ``"name"``: :ref:`String<class_String>` (the property's name)
+- ``"name"``\  : :ref:`String<class_String>` (le nom de la propriété)
 
-- ``"type"``: :ref:`int<class_int>` (see :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`)
+- ``"type"``\  : :ref:`int<class_int>` (voir :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`)
 
-- optionally ``"hint"``: :ref:`int<class_int>` (see :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`) and ``"hint_string"``: :ref:`String<class_String>`\ 
+- en option, ``"hint"``\  : :ref:`int<class_int>` (voir :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`) et ``hint_string``\  : :ref:`String<class_String>`\ 
 
 
 .. tabs::
@@ -13806,32 +13862,32 @@ Adds a custom property info to a property. The dictionary must contain:
 
     ProjectSettings.set("category/property_name", 0)
 
-    var property_info = {
+    var info_propriete = {
         "name": "category/property_name",
         "type": TYPE_INT,
         "hint": PROPERTY_HINT_ENUM,
-        "hint_string": "one,two,three"
+        "hint_string": "un, deux, trois"
     }
 
-    ProjectSettings.add_property_info(property_info)
+    ProjectSettings.add_property_info(info_propriete)
 
  .. code-tab:: csharp
 
     ProjectSettings.Singleton.Set("category/property_name", 0);
 
-    var propertyInfo = new Godot.Collections.Dictionary
+    var infoPropriete = new Godot.Collections.Dictionary
     {
-        { "name", "category/propertyName" },
-        { "type", (int)Variant.Type.Int },
-        { "hint", (int)PropertyHint.Enum },
-        { "hint_string", "one,two,three" },
+        {"name", "category/propertyName"},
+        {"type", (int)Variant.Type.Int},
+        {"hint", (int)PropertyHint.Enum},
+        {"hint_string", "un, deux, trois"},
     };
 
-    ProjectSettings.AddPropertyInfo(propertyInfo);
+    ProjectSettings.AddPropertyInfo(infoPropriete);
 
 
 
-\ **Note:** Setting ``"usage"`` for the property is not supported. Use :ref:`set_as_basic()<class_ProjectSettings_method_set_as_basic>`, :ref:`set_restart_if_changed()<class_ProjectSettings_method_set_restart_if_changed>`, and :ref:`set_as_internal()<class_ProjectSettings_method_set_as_internal>` to modify usage flags.
+\ **Note :** Définir ``"usage"`` pour la propriété n'est pas pris en charge. Utilisez :ref:`set_as_basic()<class_ProjectSettings_method_set_as_basic>`, :ref:`set_restart_if_changed()<class_ProjectSettings_method_set_restart_if_changed>`, et :ref:`set_as_internal()<class_ProjectSettings_method_set_as_internal>` pour modifier les drapeaux d'utilisation.
 
 .. rst-class:: classref-item-separator
 

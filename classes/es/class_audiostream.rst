@@ -117,7 +117,7 @@ Sobrescribe este método para devolver los compases de esta transmisión.
 
 :ref:`int<class_int>` **_get_beat_count**\ (\ ) |virtual| |const| :ref:`🔗<class_AudioStream_private_method__get_beat_count>`
 
-Método sobreescribible. Debe devolver el número total de pulsos de esta secuencia de audio. El motor lo utiliza para determinar la posición de cada pulso.
+Método sobrescribible. Debe devolver el número total de pulsos de esta secuencia de audio. El motor lo utiliza para determinar la posición de cada pulso.
 
 Idealmente, el valor devuelto debería basarse en la frecuencia de muestreo de la secuencia (por ejemplo, :ref:`AudioStreamWAV.mix_rate<class_AudioStreamWAV_property_mix_rate>`).
 

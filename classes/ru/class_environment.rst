@@ -1984,6 +1984,8 @@ enum **SDFGIYScale**: :ref:`🔗<enum_Environment_SDFGIYScale>`
 
 \ **Примечание:** SSR поддерживается только в методе рендеринга Forward+, а не в Mobile или Compatibility.
 
+\ **Примечание:** SSR не поддерживается на окнах просмотра с прозрачным фоном (где :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` имеет значение ``true``).
+
 .. rst-class:: classref-item-separator
 
 ----

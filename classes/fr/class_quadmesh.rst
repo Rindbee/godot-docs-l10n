@@ -7,14 +7,14 @@ QuadMesh
 
 **Hérite de :** :ref:`PlaneMesh<class_PlaneMesh>` **<** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Class representing a square mesh facing the camera.
+Classe représentant un maillage carré faisant face à la caméra.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Class representing a square :ref:`PrimitiveMesh<class_PrimitiveMesh>`. This flat mesh does not have a thickness. By default, this mesh is aligned on the X and Y axes; this rotation is more suited for use with billboarded materials. A **QuadMesh** is equivalent to a :ref:`PlaneMesh<class_PlaneMesh>` except its default :ref:`PlaneMesh.orientation<class_PlaneMesh_property_orientation>` is :ref:`PlaneMesh.FACE_Z<class_PlaneMesh_constant_FACE_Z>`.
+Classe représentant un :ref:`PrimitiveMesh<class_PrimitiveMesh>` carré. Ce maillage plat n'a pas d'épaisseur. Par défaut, ce maillage est aligné sur les axes X et Y, cette rotation est plus adaptée aux matériaux de billboard. Un **QuadMesh** équivaut à un :ref:`PlaneMesh<class_PlaneMesh>`, sauf que son :ref:`PlaneMesh.orientation<class_PlaneMesh_property_orientation>` par défaut vaut :ref:`PlaneMesh.FACE_Z<class_PlaneMesh_constant_FACE_Z>`.
 
 .. rst-class:: classref-introduction-group
 

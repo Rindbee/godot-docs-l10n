@@ -9,14 +9,14 @@ SkeletonModification2DLookAt
 
 **Hérite de :** :ref:`SkeletonModification2D<class_SkeletonModification2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A modification that rotates a :ref:`Bone2D<class_Bone2D>` node to look at a target.
+Une modification qui tourne un nœud :ref:`Bone2D<class_Bone2D>` pour qu'il regarde une cible.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This :ref:`SkeletonModification2D<class_SkeletonModification2D>` rotates a bone to look a target. This is extremely helpful for moving character's head to look at the player, rotating a turret to look at a target, or any other case where you want to make a bone rotate towards something quickly and easily.
+Ce :ref:`SkeletonModification2D<class_SkeletonModification2D>` tourne un os pour qu'il regarde une cible. Ceci est extrêmement utile pour déplacer la tête d'un personnage pour regarder le joueur, tourner une tourelle pour regarder une cible, ou tout autre cas où vous voulez faire qu'un os tourne vers quelque chose rapidement et facilement.
 
 .. rst-class:: classref-reftable-group
 
@@ -84,7 +84,7 @@ Descriptions des propriétés
 - |void| **set_bone2d_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_bone2d_node**\ (\ )
 
-The :ref:`Bone2D<class_Bone2D>` node that the modification will operate on.
+Le nœud :ref:`Bone2D<class_Bone2D>` sur lequel la modification s'opérera.
 
 .. rst-class:: classref-item-separator
 
@@ -101,7 +101,7 @@ The :ref:`Bone2D<class_Bone2D>` node that the modification will operate on.
 - |void| **set_bone_index**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bone_index**\ (\ )
 
-The index of the :ref:`Bone2D<class_Bone2D>` node that the modification will operate on.
+L'index du nœud :ref:`Bone2D<class_Bone2D>` sur lequel la modification s'opérera.
 
 .. rst-class:: classref-item-separator
 
@@ -118,7 +118,7 @@ The index of the :ref:`Bone2D<class_Bone2D>` node that the modification will ope
 - |void| **set_target_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_target_node**\ (\ )
 
-The NodePath to the node that is the target for the LookAt modification. This node is what the modification will rotate the :ref:`Bone2D<class_Bone2D>` to.
+Le NodePath vers le nœud qui est la cible pour la modification LookAt. Ce nœud est celui vers lequel la modification va tourner le :ref:`Bone2D<class_Bone2D>`.
 
 .. rst-class:: classref-section-separator
 
@@ -207,9 +207,9 @@ Sets the amount of additional rotation that is to be applied after executing the
 
 |void| **set_constraint_angle_invert**\ (\ invert\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SkeletonModification2DLookAt_method_set_constraint_angle_invert>`
 
-When ``true``, the modification will use an inverted joint constraint.
+Lorsque ``true``, la modification utilisera une contrainte d'articulation inversée.
 
-An inverted joint constraint only constraints the :ref:`Bone2D<class_Bone2D>` to the angles *outside of* the inputted minimum and maximum angles. For this reason, it is referred to as an inverted joint constraint, as it constraints the joint to the outside of the inputted values.
+Une contrainte d'articulation inversée limite le :ref:`Bone2D<class_Bone2D>` qu'aux angles *en dehors* des angles minimum et maximum saisis. Pour cette raison, elle est appelée contrainte d'articulation inversée, car elle limite l'articulation à l'extérieur des valeurs saisies.
 
 .. rst-class:: classref-item-separator
 
@@ -233,7 +233,7 @@ Définit l'angle maximal autorisé de la contrainte.
 
 |void| **set_constraint_angle_min**\ (\ angle_min\: :ref:`float<class_float>`\ ) :ref:`🔗<class_SkeletonModification2DLookAt_method_set_constraint_angle_min>`
 
-Définit l'angle minimum autorisé de la contrainte.
+Définit l'angle minimal autorisé de la contrainte.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Définit l'angle minimum autorisé de la contrainte.
 
 |void| **set_enable_constraint**\ (\ enable_constraint\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SkeletonModification2DLookAt_method_set_enable_constraint>`
 
-Sets whether this modification will use constraints or not. When ``true``, constraints will be applied when solving the LookAt modification.
+Définit si cette modification utilisera des contraintes ou non. Lorsque ``true``, des contraintes seront appliquées lors de la résolution de la modification LookAt.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

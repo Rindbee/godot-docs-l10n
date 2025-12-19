@@ -90,7 +90,7 @@ Si es ``true``, genera UV2 al importar para el procesado de :ref:`LightmapGI<cla
 
 :ref:`float<class_float>` **generate_lightmap_uv2_texel_size** = ``0.2`` :ref:`🔗<class_ResourceImporterOBJ_property_generate_lightmap_uv2_texel_size>`
 
-Controla el tamaño de cada texel en el mapa de luz procesado. Un valor más pequeño da como resultado mapas de luz más precisos, a costa de tamaños de mapas de luz más grandes y tiempos de procesado más largos.
+Controla el tamaño de cada texel en el lightmap procesado. Un valor más pequeño da como resultado lightmaps más precisos, a costa de tamaños de lightmaps más grandes y tiempos de procesado más largos.
 
 \ **Nota:** Solo es efectivo si :ref:`generate_lightmap_uv2<class_ResourceImporterOBJ_property_generate_lightmap_uv2>` es ``true``.
 

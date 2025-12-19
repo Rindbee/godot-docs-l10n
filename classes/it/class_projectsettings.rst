@@ -1264,6 +1264,10 @@ Proprietà
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/use_edge_connections<class_ProjectSettings_property_navigation/2d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_height<class_ProjectSettings_property_navigation/3d/default_cell_height>`                                                                                                 | ``0.25``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_size<class_ProjectSettings_property_navigation/3d/default_cell_size>`                                                                                                     | ``0.25``                                                                                         |
@@ -1277,6 +1281,10 @@ Proprietà
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/merge_rasterizer_cell_scale<class_ProjectSettings_property_navigation/3d/merge_rasterizer_cell_scale>`                                                                                 | ``1.0``                                                                                          |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/use_edge_connections<class_ProjectSettings_property_navigation/3d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/avoidance/thread_model/avoidance_use_high_priority_threads<class_ProjectSettings_property_navigation/avoidance/thread_model/avoidance_use_high_priority_threads>`                         | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -3453,7 +3461,7 @@ Abilitare questa impostazione comporta un costo di circa 50 byte di memoria per 
 
 :ref:`int<class_int>` **debug/settings/gdscript/max_call_stack** = ``1024`` :ref:`🔗<class_ProjectSettings_property_debug/settings/gdscript/max_call_stack>`
 
-Pila di chiamate massima consentita per il debug di GDScript.
+Stack di chiamate massima consentita per il debug di GDScript.
 
 .. rst-class:: classref-item-separator
 
@@ -9707,6 +9715,30 @@ Se abilitata, le regioni di navigazione 2D utilizzeranno connessioni ai bordi pe
 
 ----
 
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`
+
+If ``true``, the navigation system will print warnings when a navigation mesh with a small cell size is used on a navigation map with a larger size as this commonly causes rasterization errors.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`
+
+If ``true``, the navigation system will print warnings about navigation mesh edge merge errors occurring in navigation regions or maps.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ProjectSettings_property_navigation/3d/default_cell_height:
 
 .. rst-class:: classref-property
@@ -9786,6 +9818,30 @@ La scala predefinita del rasterizzatore di unione celle per le mappe di navigazi
 :ref:`bool<class_bool>` **navigation/3d/use_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/use_edge_connections>`
 
 Se abilitata, le regioni di navigazione 3D utilizzeranno connessioni ai bordi per connettersi ad altre regioni di navigazione in prossimità del margine di connessione ai bordi per la mappa di navigazione. Questa impostazione influisce solo sulle mappe di navigazione predefinite di un World3D.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`
+
+If ``true``, the navigation system will print warnings when a navigation mesh with a small cell size (or in 3D height) is used on a navigation map with a larger size as this commonly causes rasterization errors.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`
+
+If ``true``, the navigation system will print warnings about navigation mesh edge merge errors occurring in navigation regions or maps.
 
 .. rst-class:: classref-item-separator
 
@@ -11017,9 +11073,9 @@ Numero massimo di comandi di elementi canvas che si possono raggruppare in una s
 
 :ref:`int<class_int>` **rendering/2d/batching/uniform_set_cache_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/2d/batching/uniform_set_cache_size>`
 
-Maximum number of uniform sets that will be cached by the 2D renderer when batching draw calls.
+Numero massimo di set di uniformi che verranno memorizzati nella cache dal renderer 2D quando si raggruppano le chiamate di disegno.
 
-\ **Note:** Increasing this value can improve performance if the project renders many unique sprite textures every frame.
+\ **Nota:** Aumentare questo valore potrebbe migliorare le prestazioni se il progetto renderizzare numerose texture di sprite uniche a ogni frame.
 
 .. rst-class:: classref-item-separator
 
@@ -11735,9 +11791,9 @@ Sono supportate due opzioni:
 
 :ref:`bool<class_bool>` **rendering/gl_compatibility/fallback_to_angle** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_angle>`
 
-If ``true``, the Compatibility renderer will fall back to ANGLE if native OpenGL is not supported or the device is listed in :ref:`rendering/gl_compatibility/force_angle_on_devices<class_ProjectSettings_property_rendering/gl_compatibility/force_angle_on_devices>`.
+Se ``true``, il renderer Compatibilità tornerà ad ANGLE se OpenGL nativo non è supportato o se il dispositivo è elencato in :ref:`rendering/gl_compatibility/force_angle_on_devices<class_ProjectSettings_property_rendering/gl_compatibility/force_angle_on_devices>`.
 
-\ **Note:** This setting is implemented only on Windows.
+\ **Nota:** Questa impostazione è implementata solo su Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -11749,9 +11805,9 @@ If ``true``, the Compatibility renderer will fall back to ANGLE if native OpenGL
 
 :ref:`bool<class_bool>` **rendering/gl_compatibility/fallback_to_gles** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_gles>`
 
-If ``true``, the Compatibility renderer will fall back to OpenGLES if desktop OpenGL is not supported.
+Se ``true``, il renderer Compatibilità tornerà a OpenGLES se iOpenGL per desktop non è supportato.
 
-\ **Note:** This setting is implemented only on Linux/X11.
+\ **Nota:** Questa impostazione è implementata solo su Linux/X11.
 
 .. rst-class:: classref-item-separator
 
@@ -11763,9 +11819,9 @@ If ``true``, the Compatibility renderer will fall back to OpenGLES if desktop Op
 
 :ref:`bool<class_bool>` **rendering/gl_compatibility/fallback_to_native** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_native>`
 
-If ``true``, the Compatibility renderer will fall back to native OpenGL if ANGLE is not supported, or ANGLE dynamic libraries aren't found.
+Se ``true``, il renderer Compatibilità tornerà a OpenGL nativo se ANGLE non è supportato o se le librerie dinamiche Angle non sono disponibili
 
-\ **Note:** This setting is implemented on macOS and Windows.
+\ **Nota:** Questa impostazione è implementata su macOS e Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -12181,7 +12237,7 @@ Utilizza 16 bit per la mappa di profondità delle ombre omni/spot. Abilitando qu
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv>`
 
-La quantità di suddivisione del primo quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
+The subdivision amount of the first quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12193,7 +12249,7 @@ La quantità di suddivisione del primo quadrante sull'atlante delle ombre. Per u
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv>`
 
-La quantità di suddivisione del secondo quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
+The subdivision amount of the second quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12205,7 +12261,7 @@ La quantità di suddivisione del secondo quadrante sull'atlante delle ombre. Per
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv** = ``3`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv>`
 
-La quantità di suddivisione del terzo quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
+The subdivision amount of the third quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12217,7 +12273,7 @@ La quantità di suddivisione del terzo quadrante sull'atlante delle ombre. Per u
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv** = ``4`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv>`
 
-La quantità di suddivisione del quarto quadrante sull'atlante delle ombre. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
+The subdivision amount of the fourth quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12229,7 +12285,7 @@ La quantità di suddivisione del quarto quadrante sull'atlante delle ombre. Per 
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_size>`
 
-La dimensione dell'atlante delle ombre utilizzato per i nodi :ref:`OmniLight3D<class_OmniLight3D>` e :ref:`SpotLight3D<class_SpotLight3D>`. Per ulteriori informazioni, consultare la `documentazione <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__.
+The size of the shadow atlas used for :ref:`OmniLight3D<class_OmniLight3D>` and :ref:`SpotLight3D<class_SpotLight3D>` nodes. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 

@@ -9,14 +9,14 @@ NavigationPathQueryParameters2D
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides parameters for 2D navigation path queries.
+Fournit des paramètres pour des requêtes de chemin de navigation 2D.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-By changing various properties of this object, such as the start and target position, you can configure path queries to the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+En changeant diverses propriétés de cet objet, comme la position de démarrage et cible, vous pouvez configurer des requêtes de chemin au :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. rst-class:: classref-introduction-group
 

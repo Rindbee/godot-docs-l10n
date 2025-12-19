@@ -7,14 +7,14 @@ WeakRef
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Holds an :ref:`Object<class_Object>`. If the object is :ref:`RefCounted<class_RefCounted>`, it doesn't update the reference count.
+Contient un :ref:`Object<class_Object>`. Si l'objet est :ref:`RefCounted<class_RefCounted>`, il ne met pas à jour le compte des références.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A weakref can hold a :ref:`RefCounted<class_RefCounted>` without contributing to the reference counter. A weakref can be created from an :ref:`Object<class_Object>` using :ref:`@GlobalScope.weakref()<class_@GlobalScope_method_weakref>`. If this object is not a reference, weakref still works, however, it does not have any effect on the object. Weakrefs are useful in cases where multiple classes have variables that refer to each other. Without weakrefs, using these classes could lead to memory leaks, since both references keep each other from being released. Making part of the variables a weakref can prevent this cyclic dependency, and allows the references to be released.
+Un weakref (litt. "référence faible") peut tenir un :ref:`RefCounted<class_RefCounted>` sans contribuer au compteur de références. Un weakref peut être créé à partir d'un :ref:`Object<class_Object>` utilisant :ref:`@GlobalScope.weakref()<class_@GlobalScope_method_weakref>`. Si cet objet n'est pas une référence, weakref fonctionne toujours, cependant, il n'a aucun effet sur l'objet. Les weakrefs sont utiles dans les cas où plusieurs classes ont des variables qui se réfèrent l'une à l'autre. Sans weakrefs, l'utilisation de ces classes pourrait conduire à des fuites de mémoire, puisque les deux références s'entre-empêchent d'être libérées. Rendre une partie des variables une weakref peut prévenir cette dépendance cyclique, et permet de libérer les références.
 
 .. rst-class:: classref-reftable-group
 

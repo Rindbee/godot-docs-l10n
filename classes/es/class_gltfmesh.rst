@@ -14,7 +14,7 @@ GLTFMesh representa una malla glTF.
 Descripción
 ----------------------
 
-GLTFMesh handles 3D mesh data imported from glTF files. It includes properties for blend channels, blend weights, instance materials, and the mesh itself.
+GLTFMesh maneja datos de malla 3D importados de archivos glTF. Incluye propiedades para canales de mezcla, pesos de mezcla, materiales de instancia y la malla en sí.
 
 .. rst-class:: classref-introduction-group
 
@@ -75,7 +75,7 @@ Descripciones de Propiedades
 - |void| **set_blend_weights**\ (\ value\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ )
 - :ref:`PackedFloat32Array<class_PackedFloat32Array>` **get_blend_weights**\ (\ )
 
-An array of floats representing the blend weights of the mesh.
+Un array de floats que representan los pesos de mezcla de la malla.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedFloat32Array<class_PackedFloat32Array>` for more details.
 
@@ -145,9 +145,9 @@ Descripciones de Métodos
 
 :ref:`Variant<class_Variant>` **get_additional_data**\ (\ extension_name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_GLTFMesh_method_get_additional_data>`
 
-Gets additional arbitrary data in this **GLTFMesh** instance. This can be used to keep per-node state data in :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` classes, which is important because they are stateless.
+Obtiene datos arbitrarios adicionales en esta instancia de **GLTFMesh**. Esto se puede utilizar para mantener los datos de estado por nodo en las clases :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, lo cual es importante porque no tienen estado.
 
-The argument should be the :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` name (does not have to match the extension name in the glTF file), and the return value can be anything you set. If nothing was set, the return value is ``null``.
+El argumento debe ser el nombre de :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` (no tiene que coincidir con el nombre de la extensión en el archivo glTF), y el valor de retorno puede ser cualquier cosa que establezcas. Si no se estableció nada, el valor de retorno es ``null``.
 
 .. rst-class:: classref-item-separator
 
@@ -159,9 +159,9 @@ The argument should be the :ref:`GLTFDocumentExtension<class_GLTFDocumentExtensi
 
 |void| **set_additional_data**\ (\ extension_name\: :ref:`StringName<class_StringName>`, additional_data\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_GLTFMesh_method_set_additional_data>`
 
-Sets additional arbitrary data in this **GLTFMesh** instance. This can be used to keep per-node state data in :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` classes, which is important because they are stateless.
+Establece datos arbitrarios adicionales en esta instancia de **GLTFMesh**. Esto se puede utilizar para mantener los datos de estado por nodo en las clases :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, lo cual es importante porque no tienen estado.
 
-The first argument should be the :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` name (does not have to match the extension name in the glTF file), and the second argument can be anything you want.
+El primer argumento debe ser el nombre de :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` (no tiene que coincidir con el nombre de la extensión en el archivo glTF), y el segundo argumento puede ser cualquier cosa que quieras.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

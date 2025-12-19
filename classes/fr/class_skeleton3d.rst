@@ -166,7 +166,7 @@ Signaux
 
 **bone_enabled_changed**\ (\ bone_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Skeleton3D_signal_bone_enabled_changed>`
 
-Emitted when the bone at ``bone_idx`` is toggled with :ref:`set_bone_enabled()<class_Skeleton3D_method_set_bone_enabled>`. Use :ref:`is_bone_enabled()<class_Skeleton3D_method_is_bone_enabled>` to check the new value.
+Émis lorsque l'os à l'index ``bone_idx`` est activé/désactivé avec :ref:`set_bone_enabled()<class_Skeleton3D_method_set_bone_enabled>`. Utilisez :ref:`is_bone_enabled()<class_Skeleton3D_method_is_bone_enabled>` pour vérifier la nouvelle valeur.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +178,7 @@ Emitted when the bone at ``bone_idx`` is toggled with :ref:`set_bone_enabled()<c
 
 **bone_list_changed**\ (\ ) :ref:`🔗<class_Skeleton3D_signal_bone_list_changed>`
 
-Emitted when the list of bones changes, such as when calling :ref:`add_bone()<class_Skeleton3D_method_add_bone>`, :ref:`set_bone_parent()<class_Skeleton3D_method_set_bone_parent>`, :ref:`unparent_bone_and_rest()<class_Skeleton3D_method_unparent_bone_and_rest>`, or :ref:`clear_bones()<class_Skeleton3D_method_clear_bones>`.
+Émis lorsque la liste des os change, comme lors de l'appel à :ref:`add_bone()<class_Skeleton3D_method_add_bone>`, :ref:`set_bone_parent()<class_Skeleton3D_method_set_bone_parent>`, :ref:`unparent_bone_and_rest()<class_Skeleton3D_method_unparent_bone_and_rest>`, ou :ref:`clear_bones()<class_Skeleton3D_method_clear_bones>`.
 
 .. rst-class:: classref-item-separator
 
@@ -190,9 +190,9 @@ Emitted when the list of bones changes, such as when calling :ref:`add_bone()<cl
 
 **pose_updated**\ (\ ) :ref:`🔗<class_Skeleton3D_signal_pose_updated>`
 
-Emitted when the pose is updated.
+Émis lorsque la pose est mise à jour.
 
-\ **Note:** During the update process, this signal is not fired, so modification by :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` is not detected.
+\ **Note :** Lors du traitement de la mise à jour, le signal n'est pas émis, donc une modification par :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` n'est pas détectée.
 
 .. rst-class:: classref-item-separator
 
@@ -216,7 +216,7 @@ Emitted when the pose is updated.
 
 **show_rest_only_changed**\ (\ ) :ref:`🔗<class_Skeleton3D_signal_show_rest_only_changed>`
 
-Emitted when the value of :ref:`show_rest_only<class_Skeleton3D_property_show_rest_only>` changes.
+Émis lorsque la valeur de :ref:`show_rest_only<class_Skeleton3D_property_show_rest_only>` change.
 
 .. rst-class:: classref-item-separator
 
@@ -898,7 +898,7 @@ Sets the global pose transform, ``pose``, for the bone at ``bone_idx``.
 
 |void| **set_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_meta>`
 
-Sets the metadata for the bone at index ``bone_idx``, setting the ``key`` meta to ``value``.
+Définit les métadonnées pour l'os à l'index ``bone_idx``, en définissant le méta-paramètre ``key`` à ``value``.
 
 .. rst-class:: classref-item-separator
 
@@ -910,7 +910,7 @@ Sets the metadata for the bone at index ``bone_idx``, setting the ``key`` meta t
 
 |void| **set_bone_name**\ (\ bone_idx\: :ref:`int<class_int>`, name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_name>`
 
-Sets the bone name, ``name``, for the bone at ``bone_idx``.
+Définit le nom de l'os, ``name``, pour l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -922,9 +922,9 @@ Sets the bone name, ``name``, for the bone at ``bone_idx``.
 
 |void| **set_bone_parent**\ (\ bone_idx\: :ref:`int<class_int>`, parent_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_parent>`
 
-Sets the bone index ``parent_idx`` as the parent of the bone at ``bone_idx``. If -1, then bone has no parent.
+Définit l'os d'index ``parent_idx`` comme parent de l'os à l'index ``bone_idx``. Si -1, alors l'os n'a pas de parent.
 
-\ **Note:** ``parent_idx`` must be less than ``bone_idx``.
+\ **Note :** ``parent_idx`` doit être inférieur à ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -936,7 +936,7 @@ Sets the bone index ``parent_idx`` as the parent of the bone at ``bone_idx``. If
 
 |void| **set_bone_pose**\ (\ bone_idx\: :ref:`int<class_int>`, pose\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_pose>`
 
-Sets the pose transform, ``pose``, for the bone at ``bone_idx``.
+Définit la transformation de pose, ``pose``, pour l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -948,7 +948,7 @@ Sets the pose transform, ``pose``, for the bone at ``bone_idx``.
 
 |void| **set_bone_pose_position**\ (\ bone_idx\: :ref:`int<class_int>`, position\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_pose_position>`
 
-Sets the pose position of the bone at ``bone_idx`` to ``position``. ``position`` is a :ref:`Vector3<class_Vector3>` describing a position local to the **Skeleton3D** node.
+Définit la position de pose de l'os à l'index ``bone_idx`` à ``position``. ``position`` est un :ref:`Vector3<class_Vector3>` décrivant une position locale par rapport au nœud **Skeleton3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -960,7 +960,7 @@ Sets the pose position of the bone at ``bone_idx`` to ``position``. ``position``
 
 |void| **set_bone_pose_rotation**\ (\ bone_idx\: :ref:`int<class_int>`, rotation\: :ref:`Quaternion<class_Quaternion>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_pose_rotation>`
 
-Sets the pose rotation of the bone at ``bone_idx`` to ``rotation``. ``rotation`` is a :ref:`Quaternion<class_Quaternion>` describing a rotation in the bone's local coordinate space with respect to the rotation of any parent bones.
+Définit la rotation de pose de l'os à l'index ``bone_idx`` à ``rotation``. ``rotation`` est un :ref:`Quaternion<class_Quaternion>` décrivant une rotation dans l'espace de coordonnées local de l'os par rapport à la rotation des os parents.
 
 .. rst-class:: classref-item-separator
 
@@ -972,7 +972,7 @@ Sets the pose rotation of the bone at ``bone_idx`` to ``rotation``. ``rotation``
 
 |void| **set_bone_pose_scale**\ (\ bone_idx\: :ref:`int<class_int>`, scale\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_pose_scale>`
 
-Sets the pose scale of the bone at ``bone_idx`` to ``scale``.
+Définit l'échelle de pose de l'os à l'index ``bone_idx`` à ``scale``.
 
 .. rst-class:: classref-item-separator
 
@@ -996,7 +996,7 @@ Définit la transformation au repos pour l'os ``bone_idx``.
 
 |void| **unparent_bone_and_rest**\ (\ bone_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Skeleton3D_method_unparent_bone_and_rest>`
 
-Unparents the bone at ``bone_idx`` and sets its rest position to that of its parent prior to being reset.
+Déparente l'os à l'index ``bone_idx`` et fixe sa position de repos à celle de son parent avant d'être réinitialisé.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -10,16 +10,16 @@ ButtonGroup
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A group of buttons that doesn't allow more than one button to be pressed at a time.
+Un grupo de botones que no permite que se pulse más de un botón a la vez.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A group of :ref:`BaseButton<class_BaseButton>`-derived buttons. The buttons in a **ButtonGroup** are treated like radio buttons: No more than one button can be pressed at a time. Some types of buttons (such as :ref:`CheckBox<class_CheckBox>`) may have a special appearance in this state.
+Un grupo de botones derivados de :ref:`BaseButton<class_BaseButton>`. Los botones de un **ButtonGroup** se tratan como botones de radio: No se puede presionar más de un botón a la vez. Algunos tipos de botones (como :ref:`CheckBox<class_CheckBox>`) pueden tener una apariencia especial en este estado.
 
-Every member of a **ButtonGroup** should have :ref:`BaseButton.toggle_mode<class_BaseButton_property_toggle_mode>` set to ``true``.
+Cada miembro de un **ButtonGroup** debería tener :ref:`BaseButton.toggle_mode<class_BaseButton_property_toggle_mode>` establecido en ``true``.
 
 .. rst-class:: classref-reftable-group
 
@@ -86,7 +86,7 @@ Descripciones de Propiedades
 - |void| **set_allow_unpress**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_allow_unpress**\ (\ )
 
-If ``true``, it is possible to unpress all buttons in this **ButtonGroup**.
+Si es ``true``, es posible deseleccionar todos los botones de este **ButtonGroup**.
 
 .. rst-class:: classref-section-separator
 
@@ -103,7 +103,7 @@ Descripciones de Métodos
 
 :ref:`Array<class_Array>`\[:ref:`BaseButton<class_BaseButton>`\] **get_buttons**\ (\ ) :ref:`🔗<class_ButtonGroup_method_get_buttons>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`Button<class_Button>`\ s who have this as their **ButtonGroup** (see :ref:`BaseButton.button_group<class_BaseButton_property_button_group>`).
+Devuelve un :ref:`Array<class_Array>` de :ref:`Button<class_Button>`\ s que tienen esto como su **ButtonGroup** (véase :ref:`BaseButton.button_group<class_BaseButton_property_button_group>`).
 
 .. rst-class:: classref-item-separator
 

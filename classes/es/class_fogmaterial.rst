@@ -7,16 +7,16 @@ FogMaterial
 
 **Hereda:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A material that controls how volumetric fog is rendered, to be assigned to a :ref:`FogVolume<class_FogVolume>`.
+Un material que controla cómo se renderiza la niebla volumétrica, para ser asignado a un :ref:`FogVolume<class_FogVolume>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A :ref:`Material<class_Material>` resource that can be used by :ref:`FogVolume<class_FogVolume>`\ s to draw volumetric effects.
+Un recurso :ref:`Material<class_Material>` que puede ser utilizado por :ref:`FogVolume<class_FogVolume>`\ s para dibujar efectos volumétricos.
 
-If you need more advanced effects, use a custom :doc:`fog shader <../tutorials/shaders/shader_reference/fog_shader>`.
+Si necesitas efectos más avanzados, usa un :doc:`shader de niebla <../tutorials/shaders/shader_reference/fog_shader>` personalizado.
 
 .. rst-class:: classref-reftable-group
 
@@ -60,7 +60,7 @@ Descripciones de Propiedades
 - |void| **set_albedo**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_albedo**\ (\ )
 
-The single-scattering :ref:`Color<class_Color>` of the :ref:`FogVolume<class_FogVolume>`. Internally, :ref:`albedo<class_FogMaterial_property_albedo>` is converted into single-scattering, which is additively blended with other :ref:`FogVolume<class_FogVolume>`\ s and the :ref:`Environment.volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>`.
+El :ref:`Color<class_Color>` de dispersión simple del :ref:`FogVolume<class_FogVolume>`. Internamente, :ref:`albedo<class_FogMaterial_property_albedo>` se convierte en dispersión simple, que se mezcla aditivamente con otros :ref:`FogVolume<class_FogVolume>`\ s y el :ref:`Environment.volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>`.
 
 .. rst-class:: classref-item-separator
 
@@ -77,9 +77,9 @@ The single-scattering :ref:`Color<class_Color>` of the :ref:`FogVolume<class_Fog
 - |void| **set_density**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_density**\ (\ )
 
-The density of the :ref:`FogVolume<class_FogVolume>`. Denser objects are more opaque, but may suffer from under-sampling artifacts that look like stripes. Negative values can be used to subtract fog from other :ref:`FogVolume<class_FogVolume>`\ s or global volumetric fog.
+La densidad del :ref:`FogVolume<class_FogVolume>`. Los objetos más densos son más opacos, pero pueden sufrir artefactos de submuestreo que parecen rayas. Se pueden usar valores negativos para restar niebla de otros :ref:`FogVolume<class_FogVolume>`\ s o niebla volumétrica global.
 
-\ **Note:** Due to limited precision, :ref:`density<class_FogMaterial_property_density>` values between ``-0.001`` and ``0.001`` (exclusive) act like ``0.0``. This does not apply to :ref:`Environment.volumetric_fog_density<class_Environment_property_volumetric_fog_density>`.
+\ **Nota:** Debido a la precisión limitada, los valores de :ref:`density<class_FogMaterial_property_density>` entre ``-0.001`` y ``0.001`` (exclusivo) actúan como ``0.0``. Esto no se aplica a :ref:`Environment.volumetric_fog_density<class_Environment_property_volumetric_fog_density>`.
 
 .. rst-class:: classref-item-separator
 
@@ -96,7 +96,7 @@ The density of the :ref:`FogVolume<class_FogVolume>`. Denser objects are more op
 - |void| **set_density_texture**\ (\ value\: :ref:`Texture3D<class_Texture3D>`\ )
 - :ref:`Texture3D<class_Texture3D>` **get_density_texture**\ (\ )
 
-The 3D texture that is used to scale the :ref:`density<class_FogMaterial_property_density>` of the :ref:`FogVolume<class_FogVolume>`. This can be used to vary fog density within the :ref:`FogVolume<class_FogVolume>` with any kind of static pattern. For animated effects, consider using a custom :doc:`fog shader <../tutorials/shaders/shader_reference/fog_shader>`.
+La textura 3D que se utiliza para escalar la :ref:`density<class_FogMaterial_property_density>` del :ref:`FogVolume<class_FogVolume>`. Esto se puede utilizar para variar la densidad de la niebla dentro del :ref:`FogVolume<class_FogVolume>` con cualquier tipo de patrón estático. Para efectos animados, considera usar un :doc:`shader de niebla <../tutorials/shaders/shader_reference/fog_shader>` personalizado.
 
 .. rst-class:: classref-item-separator
 
@@ -130,7 +130,7 @@ Dureza de los bordes de :ref:`FogVolume<class_FogVolume>`. Un valor más alto re
 - |void| **set_emission**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_emission**\ (\ )
 
-The :ref:`Color<class_Color>` of the light emitted by the :ref:`FogVolume<class_FogVolume>`. Emitted light will not cast light or shadows on other objects, but can be useful for modulating the :ref:`Color<class_Color>` of the :ref:`FogVolume<class_FogVolume>` independently from light sources.
+El :ref:`Color<class_Color>` de la luz emitida por el :ref:`FogVolume<class_FogVolume>`. La luz emitida no proyectará luz ni sombras sobre otros objetos, pero puede ser útil para modular el :ref:`Color<class_Color>` del :ref:`FogVolume<class_FogVolume>` independientemente de las fuentes de luz.
 
 .. rst-class:: classref-item-separator
 
@@ -147,7 +147,7 @@ The :ref:`Color<class_Color>` of the light emitted by the :ref:`FogVolume<class_
 - |void| **set_height_falloff**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_height_falloff**\ (\ )
 
-The rate by which the height-based fog decreases in density as height increases in world space. A high falloff will result in a sharp transition, while a low falloff will result in a smoother transition. A value of ``0.0`` results in uniform-density fog. The height threshold is determined by the height of the associated :ref:`FogVolume<class_FogVolume>`.
+La velocidad a la que la niebla basada en la altura disminuye en densidad a medida que la altura aumenta en el espacio mundial. Una atenuación alta resultará en una transición brusca, mientras que una atenuación baja resultará en una transición más suave. Un valor de ``0.0`` resulta en una niebla de densidad uniforme. El umbral de altura está determinado por la altura del :ref:`FogVolume<class_FogVolume>` asociado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

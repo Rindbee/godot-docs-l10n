@@ -981,11 +981,11 @@ For ASTC compression, the ``astc_format`` parameter must be supplied.
 
 :ref:`Error<enum_@GlobalScope_Error>` **compress_from_channels**\ (\ mode\: :ref:`CompressMode<enum_Image_CompressMode>`, channels\: :ref:`UsedChannels<enum_Image_UsedChannels>`, astc_format\: :ref:`ASTCFormat<enum_Image_ASTCFormat>` = 0\ ) :ref:`🔗<class_Image_method_compress_from_channels>`
 
-Compresses the image to use less memory. Can not directly access pixel data while the image is compressed. Returns error if the chosen compression mode is not available.
+Comprime la imagen para usar menos memoria. No se puede acceder directamente a los datos de los píxeles mientras la imagen está comprimida. Devuelve un error si el modo de compresión elegido no está disponible.
 
-This is an alternative to :ref:`compress()<class_Image_method_compress>` that lets the user supply the channels used in order for the compressor to pick the best DXT and ETC2 formats. For other formats (non DXT or ETC2), this argument is ignored.
+Esta es una alternativa a :ref:`compress()<class_Image_method_compress>` que permite al usuario proporcionar los canales utilizados para que el compresor elija los mejores formatos DXT y ETC2. Para otros formatos (no DXT o ETC2), este argumento se ignora.
 
-For ASTC compression, the ``astc_format`` parameter must be supplied.
+Para la compresión ASTC, se debe proporcionar el parámetro ``astc_format``.
 
 .. rst-class:: classref-item-separator
 
@@ -997,9 +997,9 @@ For ASTC compression, the ``astc_format`` parameter must be supplied.
 
 :ref:`Dictionary<class_Dictionary>` **compute_image_metrics**\ (\ compared_image\: :ref:`Image<class_Image>`, use_luma\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Image_method_compute_image_metrics>`
 
-Compute image metrics on the current image and the compared image.
+Calcula las métricas de la imagen en la imagen actual y la imagen comparada.
 
-The dictionary contains ``max``, ``mean``, ``mean_squared``, ``root_mean_squared`` and ``peak_snr``.
+El diccionario contiene ``max``, ``mean``, ``mean_squared``, ``root_mean_squared`` y ``peak_snr``.
 
 .. rst-class:: classref-item-separator
 
@@ -1011,7 +1011,7 @@ The dictionary contains ``max``, ``mean``, ``mean_squared``, ``root_mean_squared
 
 |void| **convert**\ (\ format\: :ref:`Format<enum_Image_Format>`\ ) :ref:`🔗<class_Image_method_convert>`
 
-Converts this image's format to the given ``format``.
+Convierte el formato de esta imagen al ``format`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -1023,7 +1023,7 @@ Converts this image's format to the given ``format``.
 
 |void| **copy_from**\ (\ src\: :ref:`Image<class_Image>`\ ) :ref:`🔗<class_Image_method_copy_from>`
 
-Copies ``src`` image to this image.
+Copia la imagen ``src`` a esta imagen.
 
 .. rst-class:: classref-item-separator
 
@@ -1037,7 +1037,7 @@ Copies ``src`` image to this image.
 
 **Obsoleto:** Use :ref:`create_empty()<class_Image_method_create_empty>`.
 
-Creates an empty image of the given size and format. If ``use_mipmaps`` is ``true``, generates mipmaps for this image. See the :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`.
+Crea una imagen vacía con el tamaño y formato dados. Si ``use_mipmaps`` es ``true``, genera mipmaps para esta imagen. Véase :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1049,7 +1049,7 @@ Creates an empty image of the given size and format. If ``use_mipmaps`` is ``tru
 
 :ref:`Image<class_Image>` **create_empty**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, use_mipmaps\: :ref:`bool<class_bool>`, format\: :ref:`Format<enum_Image_Format>`\ ) |static| :ref:`🔗<class_Image_method_create_empty>`
 
-Creates an empty image of the given size and format. If ``use_mipmaps`` is ``true``, generates mipmaps for this image. See the :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`.
+Crea una imagen vacía con el tamaño y formato dados. Si ``use_mipmaps`` es ``true``, genera mipmaps para esta imagen. Véase :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1073,7 +1073,7 @@ Creates a new image of the given size and format. Fills the image with the given
 
 |void| **crop**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Image_method_crop>`
 
-Crops the image to the given ``width`` and ``height``. If the specified size is larger than the current size, the extra area is filled with black pixels.
+Recorta la imagen al ``width`` y ``height`` dados. Si el tamaño especificado es mayor que el actual, el área extra se rellena con píxeles negros.
 
 .. rst-class:: classref-item-separator
 
@@ -1085,9 +1085,9 @@ Crops the image to the given ``width`` and ``height``. If the specified size is 
 
 :ref:`Error<enum_@GlobalScope_Error>` **decompress**\ (\ ) :ref:`🔗<class_Image_method_decompress>`
 
-Decompresses the image if it is VRAM compressed in a supported format. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` if the format is supported, otherwise :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
+Descomprime la imagen si está comprimida en VRAM en un formato compatible. Devuelve :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` si el formato es compatible, de lo contrario :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
 
-\ **Note:** The following formats can be decompressed: DXT, RGTC, BPTC. The formats ETC1 and ETC2 are not supported.
+\ **Nota:** Los siguientes formatos se pueden descomprimir: DXT, RGTC, BPTC. Los formatos ETC1 y ETC2 no son compatibles.
 
 .. rst-class:: classref-item-separator
 
@@ -1123,7 +1123,7 @@ Returns the color channels used by this image. If the image is compressed, the o
 
 |void| **fill**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_fill>`
 
-Fills the image with ``color``.
+Rellena la imagen con ``color``.
 
 .. rst-class:: classref-item-separator
 
@@ -1135,7 +1135,7 @@ Fills the image with ``color``.
 
 |void| **fill_rect**\ (\ rect\: :ref:`Rect2i<class_Rect2i>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_fill_rect>`
 
-Fills ``rect`` with ``color``.
+Rellena ``rect`` con ``color``.
 
 .. rst-class:: classref-item-separator
 
@@ -1183,9 +1183,9 @@ Voltea la imagen verticalmente.
 
 :ref:`Error<enum_@GlobalScope_Error>` **generate_mipmaps**\ (\ renormalize\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Image_method_generate_mipmaps>`
 
-Generates mipmaps for the image. Mipmaps are precalculated lower-resolution copies of the image that are automatically used if the image needs to be scaled down when rendered. They help improve image quality and performance when rendering. This method returns an error if the image is compressed, in a custom format, or if the image's width/height is ``0``. Enabling ``renormalize`` when generating mipmaps for normal map textures will make sure all resulting vector values are normalized.
+Genera mipmaps para la imagen. Los mipmaps son copias precalculadas de menor resolución de la imagen que se utilizan automáticamente si la imagen necesita ser reducida cuando se renderiza. Esto ayuda a mejorar la calidad de la imagen y el rendimiento al renderizar. Este método devuelve un error si la imagen está comprimida, en un formato personalizado o si el ancho/alto de la imagen es ``0``. Habilitar ``renormalize`` al generar mipmaps para texturas de mapas normales asegurará que todos los valores vectoriales resultantes estén normalizados.
 
-It is possible to check if the image has mipmaps by calling :ref:`has_mipmaps()<class_Image_method_has_mipmaps>` or :ref:`get_mipmap_count()<class_Image_method_get_mipmap_count>`. Calling :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>` on an image that already has mipmaps will replace existing mipmaps in the image.
+Es posible verificar si la imagen tiene mipmaps llamando a :ref:`has_mipmaps()<class_Image_method_has_mipmaps>` o :ref:`get_mipmap_count()<class_Image_method_get_mipmap_count>`. Llamar a :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>` en una imagen que ya tiene mipmaps reemplazará los mipmaps existentes en la imagen.
 
 .. rst-class:: classref-item-separator
 
@@ -1197,7 +1197,7 @@ It is possible to check if the image has mipmaps by calling :ref:`has_mipmaps()<
 
 :ref:`PackedByteArray<class_PackedByteArray>` **get_data**\ (\ ) |const| :ref:`🔗<class_Image_method_get_data>`
 
-Returns a copy of the image's raw data.
+Devuelve una copia de los datos sin procesar de la imagen.
 
 .. rst-class:: classref-item-separator
 
@@ -1209,7 +1209,7 @@ Returns a copy of the image's raw data.
 
 :ref:`int<class_int>` **get_data_size**\ (\ ) |const| :ref:`🔗<class_Image_method_get_data_size>`
 
-Returns size (in bytes) of the image's raw data.
+Devuelve el tamaño (en bytes) de los datos sin procesar de la imagen.
 
 .. rst-class:: classref-item-separator
 
@@ -1221,7 +1221,7 @@ Returns size (in bytes) of the image's raw data.
 
 :ref:`Format<enum_Image_Format>` **get_format**\ (\ ) |const| :ref:`🔗<class_Image_method_get_format>`
 
-Returns this image's format.
+Devuelve el formato de esta imagen.
 
 .. rst-class:: classref-item-separator
 
@@ -1245,7 +1245,7 @@ Devuelve la altura de la imagen.
 
 :ref:`int<class_int>` **get_mipmap_count**\ (\ ) |const| :ref:`🔗<class_Image_method_get_mipmap_count>`
 
-Returns the number of mipmap levels or 0 if the image has no mipmaps. The largest main level image is not counted as a mipmap level by this method, so if you want to include it you can add 1 to this count.
+Devuelve el número de niveles de mipmap o 0 si la imagen no tiene mipmaps. La imagen principal más grande no se cuenta como un nivel de mipmap en este método, por lo que, si quieres incluirla, puedes añadir 1 a este conteo.
 
 .. rst-class:: classref-item-separator
 
@@ -1257,7 +1257,7 @@ Returns the number of mipmap levels or 0 if the image has no mipmaps. The larges
 
 :ref:`int<class_int>` **get_mipmap_offset**\ (\ mipmap\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Image_method_get_mipmap_offset>`
 
-Returns the offset where the image's mipmap with index ``mipmap`` is stored in the :ref:`data<class_Image_property_data>` dictionary.
+Devuelve el desplazamiento donde el mipmap de la imagen con el índice ``mipmap`` se almacena en el diccionario :ref:`data<class_Image_property_data>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1269,9 +1269,9 @@ Returns the offset where the image's mipmap with index ``mipmap`` is stored in t
 
 :ref:`Color<class_Color>` **get_pixel**\ (\ x\: :ref:`int<class_int>`, y\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Image_method_get_pixel>`
 
-Returns the color of the pixel at ``(x, y)``.
+Devuelve el color del píxel en ``(x, y)``.
 
-This is the same as :ref:`get_pixelv()<class_Image_method_get_pixelv>`, but with two integer arguments instead of a :ref:`Vector2i<class_Vector2i>` argument.
+Esto es lo mismo que :ref:`get_pixelv()<class_Image_method_get_pixelv>`, pero con dos argumentos enteros en lugar de un argumento :ref:`Vector2i<class_Vector2i>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1283,9 +1283,9 @@ This is the same as :ref:`get_pixelv()<class_Image_method_get_pixelv>`, but with
 
 :ref:`Color<class_Color>` **get_pixelv**\ (\ point\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_Image_method_get_pixelv>`
 
-Returns the color of the pixel at ``point``.
+Devuelve el color del píxel en ``point``.
 
-This is the same as :ref:`get_pixel()<class_Image_method_get_pixel>`, but with a :ref:`Vector2i<class_Vector2i>` argument instead of two integer arguments.
+Es lo mismo que :ref:`get_pixel()<class_Image_method_get_pixel>`, pero con un argumento :ref:`Vector2i<class_Vector2i>` en lugar de dos argumentos enteros.
 
 .. rst-class:: classref-item-separator
 
@@ -1297,7 +1297,7 @@ This is the same as :ref:`get_pixel()<class_Image_method_get_pixel>`, but with a
 
 :ref:`Image<class_Image>` **get_region**\ (\ region\: :ref:`Rect2i<class_Rect2i>`\ ) |const| :ref:`🔗<class_Image_method_get_region>`
 
-Returns a new **Image** that is a copy of this **Image**'s area specified with ``region``.
+Devuelve una nueva **Image** que es una copia del área de esta **Image** especificada con ``region``.
 
 .. rst-class:: classref-item-separator
 
@@ -1321,7 +1321,7 @@ Devuelve el tamaño de la imagen (anchura y altura).
 
 :ref:`Rect2i<class_Rect2i>` **get_used_rect**\ (\ ) |const| :ref:`🔗<class_Image_method_get_used_rect>`
 
-Returns a :ref:`Rect2i<class_Rect2i>` enclosing the visible portion of the image, considering each pixel with a non-zero alpha channel as visible.
+Devuelve un :ref:`Rect2i<class_Rect2i>` que encierra la porción visible de la imagen, considerando cada píxel con un canal alfa no nulo como visible.
 
 .. rst-class:: classref-item-separator
 
@@ -1393,7 +1393,7 @@ Devuelve ``true`` si todos los píxeles de la imagen tienen un valor alfa de 0. 
 
 |void| **linear_to_srgb**\ (\ ) :ref:`🔗<class_Image_method_linear_to_srgb>`
 
-Converts the entire image from the linear colorspace to the sRGB colorspace. Only works on images with :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` or :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` formats.
+Convierte toda la imagen del espacio de color lineal al espacio de color sRGB. Solo funciona en imágenes con formatos :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` o :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1437,9 +1437,9 @@ Loads an image from the binary contents of a BMP file.
 
 :ref:`Error<enum_@GlobalScope_Error>` **load_dds_from_buffer**\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_Image_method_load_dds_from_buffer>`
 
-Loads an image from the binary contents of a DDS file.
+Carga una imagen desde el contenido binario de un archivo DDS.
 
-\ **Note:** This method is only available in engine builds with the DDS module enabled. By default, the DDS module is enabled, but it can be disabled at build-time using the ``module_dds_enabled=no`` SCons option.
+\ **Nota:** Este método solo está disponible en las compilaciones del motor con el módulo DDS habilitado. Por defecto, el módulo DDS está habilitado, pero se puede deshabilitar en tiempo de compilación utilizando la opción SCons ``module_dds_enabled=no``.
 
 .. rst-class:: classref-item-separator
 
@@ -1477,7 +1477,7 @@ Carga una imagen del contenido binario de un archivo JPEG.
 
 Carga una imagen desde el contenido binario de un archivo `KTX <https://github.com/KhronosGroup/KTX-Software>`__. A diferencia de la mayoría de los formatos de imagen, KTX puede almacenar datos comprimidos en la VRAM e incrustar mipmaps.
 
-\ **Nota:** La implementación de libktx de Godot solo admite imágenes 2D. No se admiten mapas de entorno (cubemaps), matrices de texturas ni des-padding.
+\ **Nota:** La implementación de libktx de Godot solo admite imágenes 2D. No se admiten mapas de entorno (cubemaps), arrays de texturas ni des-padding.
 
 \ **Nota:** Este método solo está disponible en compilaciones del motor con el módulo KTX habilitado. De forma predeterminada, el módulo KTX está habilitado, pero se puede deshabilitar en tiempo de compilación utilizando la opción SCons ``module_ktx_enabled=no``.
 

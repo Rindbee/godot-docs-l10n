@@ -103,7 +103,7 @@ Descripciones de Propiedades
 - |void| **set_flags**\ (\ value\: :ref:`EmitFlags<enum_VisualShaderNodeParticleEmit_EmitFlags>`\ )
 - :ref:`EmitFlags<enum_VisualShaderNodeParticleEmit_EmitFlags>` **get_flags**\ (\ )
 
-Marcas utilizadas para anular las propiedades definidas en el material de proceso del subemisor.
+Marcas utilizadas para sobrescribir las propiedades definidas en el material de proceso del subemisor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

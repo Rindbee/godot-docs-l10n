@@ -48,7 +48,7 @@ Descripciones de Propiedades
 - |void| **set_gizmo_extents**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_gizmo_extents**\ (\ )
 
-Size of the gizmo cross that appears in the editor.
+Tamaño de la cruz del gizmo que aparece en el editor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

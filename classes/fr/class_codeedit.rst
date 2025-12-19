@@ -7,16 +7,16 @@ CodeEdit
 
 **Hérite de :** :ref:`TextEdit<class_TextEdit>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A multiline text editor designed for editing code.
+Un éditeur de texte multi-ligne conçu pour l'édition de code.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-CodeEdit is a specialized :ref:`TextEdit<class_TextEdit>` designed for editing plain text code files. It has many features commonly found in code editors such as line numbers, line folding, code completion, indent management, and string/comment management.
+CodeEdit est un :ref:`TextEdit<class_TextEdit>` spécialisé, conçu pour l'édition de fichiers de code bruts. Il a de nombreuses fonctionnalités communément trouvées dans les éditeurs de code tels que les numéros de ligne, le repliage de ligne, la complétion du code, la gestion de l'indentation et la gestion des chaînes/commentaires.
 
-\ **Note:** Regardless of locale, **CodeEdit** will by default always use left-to-right text direction to correctly display source code.
+\ **Note :** Peu importe la langue, **CodeEdit** utilisera par défaut toujours une direction du texte de gauche à droite pour afficher correctement le code source.
 
 .. rst-class:: classref-reftable-group
 
@@ -305,7 +305,7 @@ Signaux
 
 **breakpoint_toggled**\ (\ line\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CodeEdit_signal_breakpoint_toggled>`
 
-Emitted when a breakpoint is added or removed from a line. If the line is removed via backspace, a signal is emitted at the old line.
+Émis lorsqu'un point d'arrêt est ajouté ou retiré d'une ligne. Si la ligne est retirée via un retour arrière, un signal est émis à l'ancienne ligne.
 
 .. rst-class:: classref-item-separator
 
@@ -317,7 +317,7 @@ Emitted when a breakpoint is added or removed from a line. If the line is remove
 
 **code_completion_requested**\ (\ ) :ref:`🔗<class_CodeEdit_signal_code_completion_requested>`
 
-Emitted when the user requests code completion. This signal will not be sent if :ref:`_request_code_completion()<class_CodeEdit_private_method__request_code_completion>` is overridden or :ref:`code_completion_enabled<class_CodeEdit_property_code_completion_enabled>` is ``false``.
+Émis lorsque l'utilisateur demande la complétion du code. Ce signal ne sera pas envoyé si :ref:`_request_code_completion()<class_CodeEdit_private_method__request_code_completion>` est redéfini ou :ref:`code_completion_enabled<class_CodeEdit_property_code_completion_enabled>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -329,9 +329,9 @@ Emitted when the user requests code completion. This signal will not be sent if 
 
 **symbol_hovered**\ (\ symbol\: :ref:`String<class_String>`, line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CodeEdit_signal_symbol_hovered>`
 
-Emitted when the user hovers over a symbol. Unlike :ref:`Control.mouse_entered<class_Control_signal_mouse_entered>`, this signal is not emitted immediately, but when the cursor is over the symbol for :ref:`ProjectSettings.gui/timers/tooltip_delay_sec<class_ProjectSettings_property_gui/timers/tooltip_delay_sec>` seconds.
+Émis lorsque l'utilisateur survole un symbole. Contrairement à :ref:`Control.mouse_entered<class_Control_signal_mouse_entered>`, ce signal n'est pas émis immédiatement, mais lorsque le curseur est sur le symbole pendant :ref:`ProjectSettings.gui/timers/tooltip_delay_sec<class_ProjectSettings_property_gui/timers/tooltip_delay_sec>` secondes.
 
-\ **Note:** :ref:`symbol_tooltip_on_hover<class_CodeEdit_property_symbol_tooltip_on_hover>` must be ``true`` for this signal to be emitted.
+\ **Note :** :ref:`symbol_tooltip_on_hover<class_CodeEdit_property_symbol_tooltip_on_hover>` doit valoir ``true`` pour que ce signal soit émis.
 
 .. rst-class:: classref-item-separator
 
@@ -478,7 +478,7 @@ L'option est locale à l'emplacement de la requête de complétion de code - p.e
 
 :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` **LOCATION_PARENT_MASK** = ``256``
 
-The option is from the containing class or a parent class, relative to the location of the code completion query. Perform a bitwise OR with the class depth (e.g. ``0`` for the local class, ``1`` for the parent, ``2`` for the grandparent, etc.) to store the depth of an option in the class or a parent class.
+L'option provient de la classe contenante ou d'une classe parente, par rapport à l'emplacement de la requête de complétion du code. Effectue un bitwise OU avec la profondeur de la classe (par exemple ``0`` pour la classe locale, ``1`` pour le parent, ``2`` pour le grand-parent, etc.) pour stocker la profondeur d'une option dans la classe ou dans la classe parente.
 
 .. _class_CodeEdit_constant_LOCATION_OTHER_USER_CODE:
 
@@ -486,7 +486,7 @@ The option is from the containing class or a parent class, relative to the locat
 
 :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` **LOCATION_OTHER_USER_CODE** = ``512``
 
-The option is from user code which is not local and not in a derived class (e.g. Autoload Singletons).
+L'option provient du code de l'utilisateur qui n'est pas local et pas dans une classe dérivée (p. ex., Singletons à chargement automatique).
 
 .. _class_CodeEdit_constant_LOCATION_OTHER:
 
@@ -494,7 +494,7 @@ The option is from user code which is not local and not in a derived class (e.g.
 
 :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` **LOCATION_OTHER** = ``1024``
 
-The option is from other engine code, not covered by the other enum constants - e.g. built-in classes.
+L'option provient d'un autre code du moteur, non couvert par les autres constantes d'énumération - par ex. de classes intégrées.
 
 .. rst-class:: classref-section-separator
 
@@ -856,7 +856,7 @@ Set when a validated word from :ref:`symbol_validate<class_CodeEdit_signal_symbo
 - |void| **set_symbol_tooltip_on_hover_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_symbol_tooltip_on_hover_enabled**\ (\ )
 
-If ``true``, the :ref:`symbol_hovered<class_CodeEdit_signal_symbol_hovered>` signal is emitted when hovering over a word.
+Si ``true``, le signal :ref:`symbol_hovered<class_CodeEdit_signal_symbol_hovered>` est émis lors du sur-volage d'un mot.
 
 .. rst-class:: classref-section-separator
 
@@ -925,11 +925,11 @@ Les clés de démarrage et de fin doivent être des symboles. Seule la clé de d
 
 |void| **add_code_completion_option**\ (\ type\: :ref:`CodeCompletionKind<enum_CodeEdit_CodeCompletionKind>`, display_text\: :ref:`String<class_String>`, insert_text\: :ref:`String<class_String>`, text_color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), icon\: :ref:`Resource<class_Resource>` = null, value\: :ref:`Variant<class_Variant>` = null, location\: :ref:`int<class_int>` = 1024\ ) :ref:`🔗<class_CodeEdit_method_add_code_completion_option>`
 
-Submits an item to the queue of potential candidates for the autocomplete menu. Call :ref:`update_code_completion_options()<class_CodeEdit_method_update_code_completion_options>` to update the list.
+Soumet un élément à la liste des potentiels candidats pour le menu d'autocomplétion. Appelez :ref:`update_code_completion_options()<class_CodeEdit_method_update_code_completion_options>` pour mettre à jour cette liste.
 
-\ ``location`` indicates location of the option relative to the location of the code completion query. See :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` for how to set this value.
+\ ``location`` indique la position de l'option par rapport à la position de la requête de complétion du code. Voir :ref:`CodeCompletionLocation<enum_CodeEdit_CodeCompletionLocation>` pour des informations sur comment définir cette valeur.
 
-\ **Note:** This list will replace all current candidates.
+\ **Remarque :** Cette liste remplacera tous les candidats actuels.
 
 .. rst-class:: classref-item-separator
 
@@ -1313,7 +1313,7 @@ Obtient la clé de départ pour un index de chaîne ou de région de commentaire
 
 :ref:`Vector2<class_Vector2>` **get_delimiter_start_position**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_delimiter_start_position>`
 
-If ``line`` ``column`` is in a string or comment, returns the start position of the region. If not or no start could be found, both :ref:`Vector2<class_Vector2>` values will be ``-1``.
+Si ``line`` ``column`` est dans une chaîne ou un commentaire, renvoie la position de départ de la région. Sinon ou si aucun départ n'a été trouvé, les deux valeurs du :ref:`Vector2<class_Vector2>` vaudront ``-1``.
 
 .. rst-class:: classref-item-separator
 
@@ -1349,7 +1349,7 @@ Renvoie toutes les lignes qui sont actuellement repliées.
 
 :ref:`String<class_String>` **get_text_for_code_completion**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_text_for_code_completion>`
 
-Returns the full text with char ``0xFFFF`` at the caret location.
+Renvoie le texte complet avec le caractère ``0xFFFF`` à l'emplacement du caret.
 
 .. rst-class:: classref-item-separator
 
@@ -1361,7 +1361,7 @@ Returns the full text with char ``0xFFFF`` at the caret location.
 
 :ref:`String<class_String>` **get_text_for_symbol_lookup**\ (\ ) |const| :ref:`🔗<class_CodeEdit_method_get_text_for_symbol_lookup>`
 
-Returns the full text with char ``0xFFFF`` at the cursor location.
+Renvoie le texte complet avec le caractère ``0xFFFF`` à l'emplacement du curseur.
 
 .. rst-class:: classref-item-separator
 
@@ -1373,7 +1373,7 @@ Returns the full text with char ``0xFFFF`` at the cursor location.
 
 :ref:`String<class_String>` **get_text_with_cursor_char**\ (\ line\: :ref:`int<class_int>`, column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CodeEdit_method_get_text_with_cursor_char>`
 
-Returns the full text with char ``0xFFFF`` at the specified location.
+Renvoie le texte complet avec le caractère ``0xFFFF`` à l'emplacement spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -1385,7 +1385,7 @@ Returns the full text with char ``0xFFFF`` at the specified location.
 
 :ref:`bool<class_bool>` **has_auto_brace_completion_close_key**\ (\ close_key\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_CodeEdit_method_has_auto_brace_completion_close_key>`
 
-Returns ``true`` if close key ``close_key`` exists.
+Renvoie ``true`` si la clé de fermeture ``close_key`` existe.
 
 .. rst-class:: classref-item-separator
 
@@ -1433,7 +1433,7 @@ Renvoie ``true`` si la chaîne de caractères ``start_key`` existe.
 
 |void| **indent_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_indent_lines>`
 
-Indents all lines that are selected or have a caret on them. Uses spaces or a tab depending on :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>`. See :ref:`unindent_lines()<class_CodeEdit_method_unindent_lines>`.
+Indente toutes les lignes qui sont sélectionnées ou qui ont un curseur sur elles. Utilise des espaces ou une tabulation en fonction de :ref:`indent_use_spaces<class_CodeEdit_property_indent_use_spaces>`. Voir :ref:`unindent_lines()<class_CodeEdit_method_unindent_lines>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1721,7 +1721,7 @@ Toggle the folding of the code block on all lines with a caret on them.
 
 |void| **unfold_all_lines**\ (\ ) :ref:`🔗<class_CodeEdit_method_unfold_all_lines>`
 
-Unfolds all lines that are folded.
+Déplie toutes les lignes qui sont repliées.
 
 .. rst-class:: classref-item-separator
 
@@ -1733,7 +1733,7 @@ Unfolds all lines that are folded.
 
 |void| **unfold_line**\ (\ line\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CodeEdit_method_unfold_line>`
 
-Unfolds the given line if it is folded or if it is hidden under a folded line.
+Déplie la ligne donnée si elle est repliée ou si elle est cachée sous une ligne repliée.
 
 .. rst-class:: classref-item-separator
 

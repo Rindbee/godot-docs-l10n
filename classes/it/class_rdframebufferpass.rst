@@ -7,7 +7,7 @@ RDFramebufferPass
 
 **Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Framebuffer pass attachment description (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Descrizione dell'allegato del passaggio del framebuffer (utilizzato da :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
@@ -132,7 +132,7 @@ Utilizzato per i framebuffer multipassaggio (più di un passaggio di rendering).
 - |void| **set_preserve_attachments**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
 - :ref:`PackedInt32Array<class_PackedInt32Array>` **get_preserve_attachments**\ (\ )
 
-Attachments to preserve in this pass (otherwise they are erased).
+Allegati da conservare in questo passaggio (altrimenti saranno cancellati).
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 

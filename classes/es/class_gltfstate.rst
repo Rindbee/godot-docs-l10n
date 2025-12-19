@@ -273,7 +273,7 @@ La ruta de la carpeta asociada con estos datos glTF. Se utiliza para encontrar o
 - |void| **set_copyright**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_copyright**\ (\ )
 
-La cadena de copyright en la cabecera del activo del archivo glTF. Esto se establece durante la importación si está presente y en la exportación si no está vacío. Consulta la documentación de la cabecera de activos glTF para obtener más información.
+La string de copyright en la cabecera del activo del archivo glTF. Esto se establece durante la importación si está presente y en la exportación si no está vacío. Consulta la documentación de la cabecera de activos glTF para obtener más información.
 
 .. rst-class:: classref-item-separator
 
@@ -309,7 +309,7 @@ La cadena de copyright en la cabecera del activo del archivo glTF. Esto se estab
 - |void| **set_filename**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_filename**\ (\ )
 
-El nombre de archivo asociado a estos datos glTF. Si termina con ``.gltf``, se trata de un glTF basado en texto; de lo contrario, es un GLB binario. Esto se establecerá durante la importación al añadir desde un archivo, y se establecerá durante la exportación al escribir en un archivo. Si se escribe en un búfer, será una cadena vacía.
+El nombre de archivo asociado a estos datos glTF. Si termina con ``.gltf``, se trata de un glTF basado en texto; de lo contrario, es un GLB binario. Esto se establecerá durante la importación al añadir desde un archivo, y se establecerá durante la exportación al escribir en un archivo. Si se escribe en un búfer, será una string vacía.
 
 .. rst-class:: classref-item-separator
 
@@ -484,7 +484,7 @@ Appends an extension to the list of extensions used by this glTF file during ser
 
 :ref:`int<class_int>` **append_data_to_buffers**\ (\ data\: :ref:`PackedByteArray<class_PackedByteArray>`, deduplication\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_GLTFState_method_append_data_to_buffers>`
 
-Añade el array de bytes dado ``data`` a los búfers y crea una :ref:`GLTFBufferView<class_GLTFBufferView>` para él. Se devuelve el índice del destino :ref:`GLTFBufferView<class_GLTFBufferView>`. Si ``deduplication`` es ``true``, los búfers se buscan primero para datos duplicados, de lo contrario, siempre se añaden nuevos bytes.
+Añade el array de bytes dado ``data`` a los búferes y crea una :ref:`GLTFBufferView<class_GLTFBufferView>` para él. Se devuelve el índice del destino :ref:`GLTFBufferView<class_GLTFBufferView>`. Si ``deduplication`` es ``true``, los búferes se buscan primero para datos duplicados, de lo contrario, siempre se añaden nuevos bytes.
 
 .. rst-class:: classref-item-separator
 

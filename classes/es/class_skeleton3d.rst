@@ -269,7 +269,7 @@ Set a flag to process modification during process frames (see :ref:`Node.NOTIFIC
 
 :ref:`ModifierCallbackModeProcess<enum_Skeleton3D_ModifierCallbackModeProcess>` **MODIFIER_CALLBACK_MODE_PROCESS_MANUAL** = ``2``
 
-Do not process modification. Use :ref:`advance()<class_Skeleton3D_method_advance>` to process the modification manually.
+No procesar la modificación. Utiliza :ref:`advance()<class_Skeleton3D_method_advance>` para procesar la modificación manualmente.
 
 .. rst-class:: classref-section-separator
 
@@ -424,7 +424,7 @@ Limpia todos los huesos de este esqueleto.
 
 **Obsoleto:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Elimina la anulación de la pose global en todos los huesos del esqueleto.
+Elimina la sobrescritura de la pose global en todos los huesos del esqueleto.
 
 .. rst-class:: classref-item-separator
 
@@ -528,7 +528,7 @@ Devuelve la transformación general del hueso especificado, con respecto al esqu
 
 **Obsoleto:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Devuelve la transformación general del hueso especificado, con respecto al esqueleto, pero sin ninguna anulación de pose global. Al ser relativa al marco del esqueleto, esta no es la transformación "global" real del hueso.
+Devuelve la transformación general del hueso especificado, con respecto al esqueleto, pero sin ninguna sobrescritura de pose global. Al ser relativa al marco del esqueleto, esta no es la transformación "global" real del hueso.
 
 .. rst-class:: classref-item-separator
 
@@ -758,9 +758,9 @@ Returns all bones in the skeleton to their rest poses.
 
 **Obsoleto:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Adds a collision exception to the physical bone.
+Añade una excepción de colisión al hueso físico.
 
-Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
+Funciona igual que el nodo :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -774,9 +774,9 @@ Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
 
 **Obsoleto:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Removes a collision exception to the physical bone.
+Elimina una excepción de colisión al hueso físico.
 
-Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
+Funciona igual que el nodo :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -790,9 +790,9 @@ Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
 
 **Obsoleto:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Tells the :ref:`PhysicalBone3D<class_PhysicalBone3D>` nodes in the Skeleton to start simulating and reacting to the physics world.
+Indica a los nodos :ref:`PhysicalBone3D<class_PhysicalBone3D>` en el esqueleto que comiencen a simular y reaccionar al mundo de la física.
 
-Optionally, a list of bone names can be passed-in, allowing only the passed-in bones to be simulated.
+Opcionalmente, se puede pasar una lista de nombres de huesos, permitiendo que solo se simulen los huesos pasados.
 
 .. rst-class:: classref-item-separator
 
@@ -806,7 +806,7 @@ Optionally, a list of bone names can be passed-in, allowing only the passed-in b
 
 **Obsoleto:** Este método podría ser modificado o eliminado en versiones futuras.
 
-Tells the :ref:`PhysicalBone3D<class_PhysicalBone3D>` nodes in the Skeleton to stop simulating.
+Indica a los nodos :ref:`PhysicalBone3D<class_PhysicalBone3D>` en el esqueleto que dejen de simular.
 
 .. rst-class:: classref-item-separator
 

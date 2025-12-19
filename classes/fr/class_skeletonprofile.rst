@@ -7,7 +7,7 @@ SkeletonProfile
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`SkeletonProfileHumanoid<class_SkeletonProfileHumanoid>`
+**Hérité par :** :ref:`SkeletonProfileHumanoid<class_SkeletonProfileHumanoid>`
 
 Classe de base pour un profil d'un squelette virtuel utilisé comme cible pour le re-ciblage.
 
@@ -175,9 +175,9 @@ Descriptions des propriétés
 - |void| **set_bone_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bone_size**\ (\ )
 
-The amount of bones in retargeting section's :ref:`BoneMap<class_BoneMap>` editor. For example, :ref:`SkeletonProfileHumanoid<class_SkeletonProfileHumanoid>` has 56 bones.
+La quantité d'os dans la section re-ciblage de l'éditeur :ref:`BoneMap<class_BoneMap>`. Par exemple, :ref:`SkeletonProfileHumanoid<class_SkeletonProfileHumanoid>` a 56 os.
 
-The size of elements in :ref:`BoneMap<class_BoneMap>` updates when changing this property in it's assigned **SkeletonProfile**.
+La taille des éléments dans la :ref:`BoneMap<class_BoneMap>` set met à jour lors de la modification de cette propriété dans son **SkeletonProfile** assigné.
 
 .. rst-class:: classref-item-separator
 
@@ -213,7 +213,7 @@ This property exists to separate the bone list into several sections in the edit
 - |void| **set_root_bone**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_root_bone**\ (\ )
 
-A bone name that will be used as the root bone in :ref:`AnimationTree<class_AnimationTree>`. This should be the bone of the parent of hips that exists at the world origin.
+Un nom d'os qui sera utilisé comme os racine dans :ref:`AnimationTree<class_AnimationTree>`. Cela devrait être l'os du parent des hanches qui existe à l'origine du monde.
 
 .. rst-class:: classref-item-separator
 
@@ -230,7 +230,7 @@ A bone name that will be used as the root bone in :ref:`AnimationTree<class_Anim
 - |void| **set_scale_base_bone**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_scale_base_bone**\ (\ )
 
-A bone name which will use model's height as the coefficient for normalization. For example, :ref:`SkeletonProfileHumanoid<class_SkeletonProfileHumanoid>` defines it as ``Hips``.
+Un nom d'os qui utilisera la hauteur du modèle comme coefficient de normalisation. Par exemple, :ref:`SkeletonProfileHumanoid<class_SkeletonProfileHumanoid>` le définit comme ``Hips``.
 
 .. rst-class:: classref-section-separator
 
@@ -247,7 +247,7 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **find_bone**\ (\ bone_name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_find_bone>`
 
-Returns the bone index that matches ``bone_name`` as its name.
+Renvoie l'index de l'os dont le nom correspond à ``bone_name``.
 
 .. rst-class:: classref-item-separator
 
@@ -259,9 +259,9 @@ Returns the bone index that matches ``bone_name`` as its name.
 
 :ref:`StringName<class_StringName>` **get_bone_name**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_bone_name>`
 
-Returns the name of the bone at ``bone_idx`` that will be the key name in the :ref:`BoneMap<class_BoneMap>`.
+Renvoie le nom de l'os à l'index ``bone_idx`` qui sera le nom de la clé dans la :ref:`BoneMap<class_BoneMap>`.
 
-In the retargeting process, the returned bone name is the bone name of the target skeleton.
+Dans le processus de re-ciblage, le nom d'os renvoyé est le nom de l'os du squelette cible.
 
 .. rst-class:: classref-item-separator
 
@@ -273,7 +273,7 @@ In the retargeting process, the returned bone name is the bone name of the targe
 
 :ref:`StringName<class_StringName>` **get_bone_parent**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_bone_parent>`
 
-Returns the name of the bone which is the parent to the bone at ``bone_idx``. The result is empty if the bone has no parent.
+Renvoie le nom de l'os qui est le parent de l'os à l'index ``bone_idx``. Le résultat est vide si l'os n'a pas de parent.
 
 .. rst-class:: classref-item-separator
 
@@ -285,7 +285,7 @@ Returns the name of the bone which is the parent to the bone at ``bone_idx``. Th
 
 :ref:`StringName<class_StringName>` **get_bone_tail**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_bone_tail>`
 
-Returns the name of the bone which is the tail of the bone at ``bone_idx``.
+Renvoie le nom de l'os qui est la queue de l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -297,7 +297,7 @@ Returns the name of the bone which is the tail of the bone at ``bone_idx``.
 
 :ref:`StringName<class_StringName>` **get_group**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_group>`
 
-Returns the group of the bone at ``bone_idx``.
+Renvoie le groupe de l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -321,9 +321,9 @@ Renvoie le nom du groupe à l'index ``group_idx`` qui sera le groupe de dessin d
 
 :ref:`Vector2<class_Vector2>` **get_handle_offset**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_handle_offset>`
 
-Returns the offset of the bone at ``bone_idx`` that will be the button position in the :ref:`BoneMap<class_BoneMap>` editor.
+Renvoie le décalage de l'os à l'index ``bone_idx`` qui sera la position du bouton dans l'éditeur :ref:`BoneMap<class_BoneMap>`.
 
-This is the offset with origin at the top left corner of the square.
+Il s'agit du décalage avec l'origine du coin supérieur gauche du carré.
 
 .. rst-class:: classref-item-separator
 
@@ -335,7 +335,7 @@ This is the offset with origin at the top left corner of the square.
 
 :ref:`Transform3D<class_Transform3D>` **get_reference_pose**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_reference_pose>`
 
-Returns the reference pose transform for bone ``bone_idx``.
+Renvoie la transformation de la pose de référence pour l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -347,7 +347,7 @@ Returns the reference pose transform for bone ``bone_idx``.
 
 :ref:`TailDirection<enum_SkeletonProfile_TailDirection>` **get_tail_direction**\ (\ bone_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SkeletonProfile_method_get_tail_direction>`
 
-Returns the tail direction of the bone at ``bone_idx``.
+Renvoie la direction de queue de l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -385,9 +385,9 @@ This value is used by the bone map editor. If this method returns ``true``, and 
 
 |void| **set_bone_name**\ (\ bone_idx\: :ref:`int<class_int>`, bone_name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_bone_name>`
 
-Sets the name of the bone at ``bone_idx`` that will be the key name in the :ref:`BoneMap<class_BoneMap>`.
+Définit le nom de l'os à l'index ``bone_idx`` qui sera le nom de la clé dans la :ref:`BoneMap<class_BoneMap>`.
 
-In the retargeting process, the setting bone name is the bone name of the target skeleton.
+Dans le processus de re-ciblage, le nom d'os défini est le nom de l'os du squelette cible.
 
 .. rst-class:: classref-item-separator
 
@@ -399,7 +399,7 @@ In the retargeting process, the setting bone name is the bone name of the target
 
 |void| **set_bone_parent**\ (\ bone_idx\: :ref:`int<class_int>`, bone_parent\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_bone_parent>`
 
-Sets the bone with name ``bone_parent`` as the parent of the bone at ``bone_idx``. If an empty string is passed, then the bone has no parent.
+Définit l'os avec le nom ``bone_parent`` comme le parent de l'os à l'index ``bone_idx``. Si une chaîne vide est passée, l'os n'a pas de parent.
 
 .. rst-class:: classref-item-separator
 
@@ -411,7 +411,7 @@ Sets the bone with name ``bone_parent`` as the parent of the bone at ``bone_idx`
 
 |void| **set_bone_tail**\ (\ bone_idx\: :ref:`int<class_int>`, bone_tail\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_bone_tail>`
 
-Sets the bone with name ``bone_tail`` as the tail of the bone at ``bone_idx``.
+Définit l'os avec le nom ``bone_tail`` comme queue de l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -423,7 +423,7 @@ Sets the bone with name ``bone_tail`` as the tail of the bone at ``bone_idx``.
 
 |void| **set_group**\ (\ bone_idx\: :ref:`int<class_int>`, group\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_group>`
 
-Sets the group of the bone at ``bone_idx``.
+Définit le groupe de l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -435,7 +435,7 @@ Sets the group of the bone at ``bone_idx``.
 
 |void| **set_group_name**\ (\ group_idx\: :ref:`int<class_int>`, group_name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_group_name>`
 
-Sets the name of the group at ``group_idx`` that will be the drawing group in the :ref:`BoneMap<class_BoneMap>` editor.
+Définit le nom du groupe à l'index ``group_idx`` qui sera le groupe de dessin dans l'éditeur :ref:`BoneMap<class_BoneMap>`.
 
 .. rst-class:: classref-item-separator
 
@@ -447,9 +447,9 @@ Sets the name of the group at ``group_idx`` that will be the drawing group in th
 
 |void| **set_handle_offset**\ (\ bone_idx\: :ref:`int<class_int>`, handle_offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_handle_offset>`
 
-Sets the offset of the bone at ``bone_idx`` that will be the button position in the :ref:`BoneMap<class_BoneMap>` editor.
+Définit le décalage de l'os à l'index ``bone_idx`` qui sera la position du bouton dans l'éditeur :ref:`BoneMap<class_BoneMap>`.
 
-This is the offset with origin at the top left corner of the square.
+Il s'agit du décalage avec l'origine du coin supérieur gauche du carré.
 
 .. rst-class:: classref-item-separator
 
@@ -461,7 +461,7 @@ This is the offset with origin at the top left corner of the square.
 
 |void| **set_reference_pose**\ (\ bone_idx\: :ref:`int<class_int>`, bone_name\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_reference_pose>`
 
-Sets the reference pose transform for bone ``bone_idx``.
+Définit la transformation de la pose de référence pour l'os à l'index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -473,7 +473,7 @@ Sets the reference pose transform for bone ``bone_idx``.
 
 |void| **set_required**\ (\ bone_idx\: :ref:`int<class_int>`, required\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SkeletonProfile_method_set_required>`
 
-Sets the required status for bone ``bone_idx`` to ``required``.
+Définit le statut de nécessité pour l'os à l'index ``bone_idx`` à ``required``.
 
 .. rst-class:: classref-item-separator
 

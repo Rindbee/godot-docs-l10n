@@ -391,7 +391,7 @@ Ruota il nodo in modo che il suo asse +X locale punti verso il punto ``point``, 
 
 |void| **move_local_x**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_x>`
 
-Applica una traslazione locale sull'asse X del nodo in base al ``delta`` di :ref:`Node._process()<class_Node_private_method__process>`. Se ``scaled`` è ``false``, normalizza il movimento.
+Applies a local translation on the node's X axis with the amount specified in ``delta``. If ``scaled`` is ``false``, normalizes the movement to occur independently of the node's :ref:`scale<class_Node2D_property_scale>`.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Applica una traslazione locale sull'asse X del nodo in base al ``delta`` di :ref
 
 |void| **move_local_y**\ (\ delta\: :ref:`float<class_float>`, scaled\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node2D_method_move_local_y>`
 
-Applica una traslazione locale sull'asse Y del nodo in base al ``delta`` di :ref:`Node._process()<class_Node_private_method__process>`. Se ``scaled`` è ``false``, normalizza il movimento.
+Applies a local translation on the node's Y axis with the amount specified in ``delta``. If ``scaled`` is ``false``, normalizes the movement to occur independently of the node's :ref:`scale<class_Node2D_property_scale>`.
 
 .. rst-class:: classref-item-separator
 

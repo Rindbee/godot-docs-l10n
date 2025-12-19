@@ -7,7 +7,7 @@ RigidBody2D
 
 **Hérite de :** :ref:`PhysicsBody2D<class_PhysicsBody2D>` **<** :ref:`CollisionObject2D<class_CollisionObject2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`PhysicalBone2D<class_PhysicalBone2D>`
+**Hérité par :** :ref:`PhysicalBone2D<class_PhysicalBone2D>`
 
 Un corps physique 2D qui est déplacé par une simulation physique.
 

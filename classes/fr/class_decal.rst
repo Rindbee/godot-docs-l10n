@@ -175,7 +175,7 @@ Blends the albedo :ref:`Color<class_Color>` of the decal with albedo :ref:`Color
 - |void| **set_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_cull_mask**\ (\ )
 
-Specifies which :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>` this decal will project on. By default, Decals affect all layers. This is used so you can specify which types of objects receive the Decal and which do not. This is especially useful so you can ensure that dynamic objects don't accidentally receive a Decal intended for the terrain under them.
+Spécifie sur quels :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>` ce décalage se projettera. Par défaut, les Decals affectent toutes les couches. Ceci est utilisé pour que vous puissiez spécifier quels types d'objets reçoivent le Decal et lequels ne le reçoivent pas. Ceci est particulièrement utile pour vous assurer que des objets dynamiques ne reçoivent pas accidentellement un Decal destiné au terrain sous eux.
 
 .. rst-class:: classref-item-separator
 
@@ -192,7 +192,7 @@ Specifies which :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_la
 - |void| **set_distance_fade_begin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_distance_fade_begin**\ (\ )
 
-The distance from the camera at which the Decal begins to fade away (in 3D units).
+La distance à la caméra à laquelle le Decal commence à disparaître (en unités 3D).
 
 .. rst-class:: classref-item-separator
 
@@ -209,7 +209,7 @@ The distance from the camera at which the Decal begins to fade away (in 3D units
 - |void| **set_enable_distance_fade**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_distance_fade_enabled**\ (\ )
 
-If ``true``, decals will smoothly fade away when far from the active :ref:`Camera3D<class_Camera3D>` starting at :ref:`distance_fade_begin<class_Decal_property_distance_fade_begin>`. The Decal will fade out over :ref:`distance_fade_begin<class_Decal_property_distance_fade_begin>` + :ref:`distance_fade_length<class_Decal_property_distance_fade_length>`, after which it will be culled and not sent to the shader at all. Use this to reduce the number of active Decals in a scene and thus improve performance.
+Si ``true``, les décalques vont disparaître en douceur lorsqu'ils sont loin de la :ref:`Camera3D<class_Camera3D>` active à partir de :ref:`distance_fade_begin<class_Decal_property_distance_fade_begin>`. Le décalque disparaîtra sur :ref:`distance_fade_begin<class_Decal_property_distance_fade_begin>` + :ref:`distance_fade_length<class_Decal_property_distance_fade_length>`, après quoi il sera coupé et ne sera pas envoyé au shader du tout. Utilisez cela pour réduire le nombre de décalques actifs dans une scène et ainsi améliorer les performances.
 
 .. rst-class:: classref-item-separator
 
@@ -226,7 +226,7 @@ If ``true``, decals will smoothly fade away when far from the active :ref:`Camer
 - |void| **set_distance_fade_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_distance_fade_length**\ (\ )
 
-The distance over which the Decal fades (in 3D units). The Decal becomes slowly more transparent over this distance and is completely invisible at the end. Higher values result in a smoother fade-out transition, which is more suited when the camera moves fast.
+La distance sur laquelle le décalque disparaît (en unités 3D). Le décalque devient lentement plus transparent au cours de cette distance et est complètement invisible à la fin. Des valeurs plus élevées résultent en une transition plus fluide, plus adaptée lorsque la caméra se déplace rapidement.
 
 .. rst-class:: classref-item-separator
 
@@ -243,7 +243,7 @@ The distance over which the Decal fades (in 3D units). The Decal becomes slowly 
 - |void| **set_emission_energy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_emission_energy**\ (\ )
 
-Energy multiplier for the emission texture. This will make the decal emit light at a higher or lower intensity, independently of the albedo color. See also :ref:`modulate<class_Decal_property_modulate>`.
+Multiplicateur de l'énergie pour la texture d'émission. Cela fera que le décalque émet de la lumière à une intensité supérieure ou inférieure, indépendamment de l’albédo. Voir aussi :ref:`modulate<class_Decal_property_modulate>`.
 
 .. rst-class:: classref-item-separator
 
@@ -260,7 +260,7 @@ Energy multiplier for the emission texture. This will make the decal emit light 
 - |void| **set_lower_fade**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_lower_fade**\ (\ )
 
-Sets the curve over which the decal will fade as the surface gets further from the center of the :ref:`AABB<class_AABB>`. Only positive values are valid (negative values will be clamped to ``0.0``). See also :ref:`upper_fade<class_Decal_property_upper_fade>`.
+Définit la courbe sur laquelle le décalque va disparaître lorsque que la surface s'éloigne du centre de l':ref:`AABB<class_AABB>`. Seules les valeurs positives sont valides (les valeurs négatives seront bornées à ``0.0``). Voir aussi :ref:`upper_fade<class_Decal_property_upper_fade>`.
 
 .. rst-class:: classref-item-separator
 
@@ -277,7 +277,7 @@ Sets the curve over which the decal will fade as the surface gets further from t
 - |void| **set_modulate**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_modulate**\ (\ )
 
-Changes the :ref:`Color<class_Color>` of the Decal by multiplying the albedo and emission colors with this value. The alpha component is only taken into account when multiplying the albedo color, not the emission color. See also :ref:`emission_energy<class_Decal_property_emission_energy>` and :ref:`albedo_mix<class_Decal_property_albedo_mix>` to change the emission and albedo intensity independently of each other.
+Change la :ref:`Color<class_Color>` du Decal en multipliant la couleur de l'albédo et de l'émission avec cette valeur. La composante alpha est seulement prise en compte lors de la multiplication de la couleur de l'albédo, pas de la couleur de l'émission. Voir aussi :ref:`emission_energy<class_Decal_property_emission_energy>` et :ref:`albedo_mix<class_Decal_property_albedo_mix>` pour changer l'intensité de l'émission et de l'albédo indépendamment l'une de l'autre.
 
 .. rst-class:: classref-item-separator
 
@@ -294,9 +294,9 @@ Changes the :ref:`Color<class_Color>` of the Decal by multiplying the albedo and
 - |void| **set_normal_fade**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_normal_fade**\ (\ )
 
-Fades the Decal if the angle between the Decal's :ref:`AABB<class_AABB>` and the target surface becomes too large. A value of ``0`` projects the Decal regardless of angle, a value of ``1`` limits the Decal to surfaces that are nearly perpendicular.
+Fait disparaître le Decal si l'angle entre l':ref:`AABB<class_AABB>` du Decal et la surface cible devient trop grand. Une valeur de ``0`` projette le Decal indépendamment de l'angle, une valeur de ``1`` limite le Decal aux surfaces presque perpendiculaires.
 
-\ **Note:** Setting :ref:`normal_fade<class_Decal_property_normal_fade>` to a value greater than ``0.0`` has a small performance cost due to the added normal angle computations.
+\ **Note :** Définir :ref:`normal_fade<class_Decal_property_normal_fade>` à une valeur supérieure à ``0.0`` a un petit coût de performance en raison des calculs d'angle normaux ajoutés.
 
 .. rst-class:: classref-item-separator
 
@@ -332,9 +332,9 @@ Sets the size of the :ref:`AABB<class_AABB>` used by the decal. All dimensions m
 - |void| **set_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`\ ) |const|
 
-:ref:`Texture2D<class_Texture2D>` with the base :ref:`Color<class_Color>` of the Decal. Either this or the :ref:`texture_emission<class_Decal_property_texture_emission>` must be set for the Decal to be visible. Use the alpha channel like a mask to smoothly blend the edges of the decal with the underlying object.
+:ref:`Texture2D<class_Texture2D>` avec la :ref:`Color<class_Color>` de base du Decal. Soit cela soit la :ref:`texture_emission<class_Decal_property_texture_emission>` doit être définie pour que le Decal soit visible. Utilisez le canal alpha comme un masque pour mélanger en douceur les bords du décalque avec l'objet sous-jacent.
 
-\ **Note:** Unlike :ref:`BaseMaterial3D<class_BaseMaterial3D>` whose filter mode can be adjusted on a per-material basis, the filter mode for **Decal** textures is set globally with :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
+\ **Note :** Contrairement à :ref:`BaseMaterial3D<class_BaseMaterial3D>` dont le mode de filtrage peut être ajusté selon le matériau, le mode de filtrage pour les textures de **Decal** est défini globalement avec :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -351,9 +351,9 @@ Sets the size of the :ref:`AABB<class_AABB>` used by the decal. All dimensions m
 - |void| **set_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`\ ) |const|
 
-:ref:`Texture2D<class_Texture2D>` with the emission :ref:`Color<class_Color>` of the Decal. Either this or the :ref:`texture_albedo<class_Decal_property_texture_albedo>` must be set for the Decal to be visible. Use the alpha channel like a mask to smoothly blend the edges of the decal with the underlying object.
+:ref:`Texture2D<class_Texture2D>` avec la :ref:`Color<class_Color>` d'émission du Decal. Soit cela soit la :ref:`texture_albedo<class_Decal_property_texture_albedo>` doit être définie pour que le Decal soit visible. Utilisez le canal alpha comme un masque pour mélanger en douceur les bords du décalque avec l'objet sous-jacent.
 
-\ **Note:** Unlike :ref:`BaseMaterial3D<class_BaseMaterial3D>` whose filter mode can be adjusted on a per-material basis, the filter mode for **Decal** textures is set globally with :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
+\ **Note :** Contrairement à :ref:`BaseMaterial3D<class_BaseMaterial3D>` dont le mode de filtrage peut être ajusté selon le matériau, le mode de filtrage pour les textures de **Decal** est défini globalement avec :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -370,11 +370,11 @@ Sets the size of the :ref:`AABB<class_AABB>` used by the decal. All dimensions m
 - |void| **set_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`\ ) |const|
 
-:ref:`Texture2D<class_Texture2D>` with the per-pixel normal map for the decal. Use this to add extra detail to decals.
+:ref:`Texture2D<class_Texture2D>` avec la normal map par pixel du Decal. Utilisez cela pour ajouter des détails supplémentaires aux décalques.
 
-\ **Note:** Unlike :ref:`BaseMaterial3D<class_BaseMaterial3D>` whose filter mode can be adjusted on a per-material basis, the filter mode for **Decal** textures is set globally with :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
+\ **Note :** Contrairement à :ref:`BaseMaterial3D<class_BaseMaterial3D>` dont le mode de filtrage peut être ajusté selon le matériau, le mode de filtrage pour les textures de **Decal** est défini globalement avec :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
 
-\ **Note:** Setting this texture alone will not result in a visible decal, as :ref:`texture_albedo<class_Decal_property_texture_albedo>` must also be set. To create a normal-only decal, load an albedo texture into :ref:`texture_albedo<class_Decal_property_texture_albedo>` and set :ref:`albedo_mix<class_Decal_property_albedo_mix>` to ``0.0``. The albedo texture's alpha channel will be used to determine where the underlying surface's normal map should be overridden (and its intensity).
+\ **Note :** Définir seulement cette texture ne résultera pas en un décalque visible, car :ref:`texture_albedo<class_Decal_property_texture_albedo>` doit également être définie. Pour créer un décalque avec seulement des normales, chargez une texture d'albedo dans :ref:`texture_albedo<class_Decal_property_texture_albedo>` et définissez :ref:`albedo_mix<class_Decal_property_albedo_mix>` à ``0.0``. Le canal alpha de la texture de l'albédo sera utilisé pour déterminer où la normal map de la surface sous-jacente devrait être redéfinie (et son intensité).
 
 .. rst-class:: classref-item-separator
 
@@ -391,11 +391,11 @@ Sets the size of the :ref:`AABB<class_AABB>` used by the decal. All dimensions m
 - |void| **set_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`\ ) |const|
 
-:ref:`Texture2D<class_Texture2D>` storing ambient occlusion, roughness, and metallic for the decal. Use this to add extra detail to decals.
+:ref:`Texture2D<class_Texture2D>` stockant l'occlusion ambiante, la rugosité et le métallique pour le décalque. Utilisez cela pour ajouter des détails supplémentaires aux décalques.
 
-\ **Note:** Unlike :ref:`BaseMaterial3D<class_BaseMaterial3D>` whose filter mode can be adjusted on a per-material basis, the filter mode for **Decal** textures is set globally with :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
+\ **Note :** Contrairement à :ref:`BaseMaterial3D<class_BaseMaterial3D>` dont le mode de filtrage peut être ajusté selon le matériau, le mode de filtrage pour les textures de **Decal** est défini globalement avec :ref:`ProjectSettings.rendering/textures/decals/filter<class_ProjectSettings_property_rendering/textures/decals/filter>`.
 
-\ **Note:** Setting this texture alone will not result in a visible decal, as :ref:`texture_albedo<class_Decal_property_texture_albedo>` must also be set. To create an ORM-only decal, load an albedo texture into :ref:`texture_albedo<class_Decal_property_texture_albedo>` and set :ref:`albedo_mix<class_Decal_property_albedo_mix>` to ``0.0``. The albedo texture's alpha channel will be used to determine where the underlying surface's ORM map should be overridden (and its intensity).
+\ **Note :** Définir seulement cette texture ne résultera pas en un décalque visible, car :ref:`texture_albedo<class_Decal_property_texture_albedo>` doit également être définie. Pour créer un décalque avec seulement un ORM, chargez une texture d'albedo dans :ref:`texture_albedo<class_Decal_property_texture_albedo>` et définissez :ref:`albedo_mix<class_Decal_property_albedo_mix>` à ``0.0``. Le canal alpha de la texture de l'albédo sera utilisé pour déterminer où l'ORM map de la surface sous-jacente devrait être redéfinie (et son intensité).
 
 .. rst-class:: classref-item-separator
 
@@ -412,7 +412,7 @@ Sets the size of the :ref:`AABB<class_AABB>` used by the decal. All dimensions m
 - |void| **set_upper_fade**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_upper_fade**\ (\ )
 
-Sets the curve over which the decal will fade as the surface gets further from the center of the :ref:`AABB<class_AABB>`. Only positive values are valid (negative values will be clamped to ``0.0``). See also :ref:`lower_fade<class_Decal_property_lower_fade>`.
+Définit la courbe sur laquelle le décalque va disparaître lorsque que la surface s'éloigne du centre de l':ref:`AABB<class_AABB>`. Seules les valeurs positives sont valides (les valeurs négatives seront bornées à ``0.0``). Voir aussi :ref:`lower_fade<class_Decal_property_lower_fade>`.
 
 .. rst-class:: classref-section-separator
 
@@ -429,11 +429,11 @@ Descriptions des méthodes
 
 :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`\ ) |const| :ref:`🔗<class_Decal_method_get_texture>`
 
-Returns the :ref:`Texture2D<class_Texture2D>` associated with the specified :ref:`DecalTexture<enum_Decal_DecalTexture>`. This is a convenience method, in most cases you should access the texture directly.
+Renvoie la :ref:`Texture2D<class_Texture2D>` associée au :ref:`DecalTexture<enum_Decal_DecalTexture>` spécifié. Il s'agit d'une méthode de commodité, dans la plupart des cas, vous devriez accéder directement à la texture.
 
-For example, instead of ``albedo_tex = $Decal.get_texture(Decal.TEXTURE_ALBEDO)``, use ``albedo_tex = $Decal.texture_albedo``.
+Par exemple, au lieu de ``albedo_tex = $Decal.get_texture(Decal.TEXTURE_ALBEDO)``, utilisez ``albedo_tex = $Decal.texture_albedo``.
 
-One case where this is better than accessing the texture directly is when you want to copy one Decal's textures to another. For example:
+Un cas où cela vaut meilleur que d'accéder directement à la texture est quand vous voulez copier une texture d'un Decal vers un autre. Par exemple :
 
 
 .. tabs::
@@ -441,13 +441,13 @@ One case where this is better than accessing the texture directly is when you wa
  .. code-tab:: gdscript
 
     for i in Decal.TEXTURE_MAX:
-        $NewDecal.set_texture(i, $OldDecal.get_texture(i))
+        $NouveauDecal.set_texture(i, $AncienDecal.get_texture(i))
 
  .. code-tab:: csharp
 
     for (int i = 0; i < (int)Decal.DecalTexture.Max; i++)
     {
-        GetNode<Decal>("NewDecal").SetTexture(i, GetNode<Decal>("OldDecal").GetTexture(i));
+        GetNode<Decal>("NouveauDecal").SetTexture(i, GetNode<Decal>("AncienDecal").GetTexture(i));
     }
 
 
@@ -462,11 +462,11 @@ One case where this is better than accessing the texture directly is when you wa
 
 |void| **set_texture**\ (\ type\: :ref:`DecalTexture<enum_Decal_DecalTexture>`, texture\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_Decal_method_set_texture>`
 
-Sets the :ref:`Texture2D<class_Texture2D>` associated with the specified :ref:`DecalTexture<enum_Decal_DecalTexture>`. This is a convenience method, in most cases you should access the texture directly.
+Définit la :ref:`Texture2D<class_Texture2D>` associée au :ref:`DecalTexture<enum_Decal_DecalTexture>` spécifié. Il s'agit d'une méthode de commodité, dans la plupart des cas, vous devriez accéder directement à la texture.
 
-For example, instead of ``$Decal.set_texture(Decal.TEXTURE_ALBEDO, albedo_tex)``, use ``$Decal.texture_albedo = albedo_tex``.
+Par exemple, au lieu de ``$Decal.set_texture(Decal.TEXTURE_ALBEDO, albedo_tex)``, utiliser ``$Decal.texture_albedo = albedo_tex``.
 
-One case where this is better than accessing the texture directly is when you want to copy one Decal's textures to another. For example:
+Un cas où cela est meilleur que d'accéder directement à la texture est quand vous voulez copier une texture d'un Decal à un autre. Par exemple :
 
 
 .. tabs::
@@ -474,13 +474,13 @@ One case where this is better than accessing the texture directly is when you wa
  .. code-tab:: gdscript
 
     for i in Decal.TEXTURE_MAX:
-        $NewDecal.set_texture(i, $OldDecal.get_texture(i))
+        $NouveauDecal.set_texture(i, $AncienDecal.get_texture(i))
 
  .. code-tab:: csharp
 
     for (int i = 0; i < (int)Decal.DecalTexture.Max; i++)
     {
-        GetNode<Decal>("NewDecal").SetTexture(i, GetNode<Decal>("OldDecal").GetTexture(i));
+        GetNode<Decal>("NouveauDecal").SetTexture(i, GetNode<Decal>("AncienDecal").GetTexture(i));
     }
 
 

@@ -7,7 +7,7 @@ EditorPlugin
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`GridMapEditorPlugin<class_GridMapEditorPlugin>`
+**Hérité par :** :ref:`GridMapEditorPlugin<class_GridMapEditorPlugin>`
 
 Utiliser par l'éditeur pour augmenter ses fonctionnalités.
 
@@ -883,19 +883,19 @@ For main screen plugins, this appears at the top of the screen, to the right of 
 
 :ref:`Dictionary<class_Dictionary>` **_get_state**\ (\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__get_state>`
 
-Override this method to provide a state data you want to be saved, like view position, grid settings, folding, etc. This is used when saving the scene (so state is kept when opening it again) and for switching tabs (so state can be restored when the tab returns). This data is automatically saved for each scene in an ``editstate`` file in the editor metadata folder. If you want to store global (scene-independent) editor data for your plugin, you can use :ref:`_get_window_layout()<class_EditorPlugin_private_method__get_window_layout>` instead.
+Redéfinissez cette méthode pour fournir des données d'état que vous souhaitez enregistrer, comme la position de la vue, les paramètres de grille, les repliages, etc. Ceci est utilisé pour enregistrer la scène (pour que l'état soit maintenu lors de l'ouverture suivante) et pour changer d'onglet (pour que l'état soit restauré quand l'onglet est ouvert à nouveau). Ces données sont automatiquement sauvegardées pour chaque scène dans un fichier ``editstate`` dans le dossier de métadonnées de l'éditeur. Si vous souhaitez stocker des données globales de l'éditeur (indépendantes de la scène) pour votre plugin, utilisez :ref:`_get_window_layout()<class_EditorPlugin_private_method__get_window_layout>` à la place.
 
-Use :ref:`_set_state()<class_EditorPlugin_private_method__set_state>` to restore your saved state.
+Utilisez :ref:`_set_state()<class_EditorPlugin_private_method__set_state>` pour restaurer votre état sauvegardé.
 
-\ **Note:** This method should not be used to save important settings that should persist with the project.
+\ **Note :** Cette méthode ne devrait pas être utilisée pour sauvegarder des paramètres importants qui devraient persister dans le projet.
 
-\ **Note:** You must implement :ref:`_get_plugin_name()<class_EditorPlugin_private_method__get_plugin_name>` for the state to be stored and restored correctly.
+\ **Note :** Vous devez implémenter :ref:`_get_plugin_name()<class_EditorPlugin_private_method__get_plugin_name>` pour que l'état soit stocké et restauré correctement.
 
 ::
 
-    func _get_state():
-        var state = { "zoom": zoom, "preferred_color": my_color }
-        return state
+    func get_state():
+        var etat = {"zoom": zoom, "preferred_color": ma_couleur }
+        return etat
 
 .. rst-class:: classref-item-separator
 

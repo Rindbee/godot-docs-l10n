@@ -9,7 +9,7 @@ PhysicsServer3D
 
 **Heredado por:** :ref:`PhysicsServer3DExtension<class_PhysicsServer3DExtension>`
 
-A server interface for low-level 3D physics access.
+Una interfaz de servidor para el acceso de bajo nivel a la física 3D.
 
 .. rst-class:: classref-introduction-group
 
@@ -1299,7 +1299,7 @@ The above is true only when the unit distance is a positive number. When this is
 
 :ref:`AreaParameter<enum_PhysicsServer3D_AreaParameter>` **AREA_PARAM_LINEAR_DAMP_OVERRIDE_MODE** = ``5``
 
-Constante para establecer/obtener el modo de anulación de la amortiguación lineal en un área. Véase :ref:`AreaSpaceOverrideMode<enum_PhysicsServer3D_AreaSpaceOverrideMode>` para los valores posibles.
+Constante para establecer/obtener el modo de sobrescritura de la amortiguación lineal en un área. Véase :ref:`AreaSpaceOverrideMode<enum_PhysicsServer3D_AreaSpaceOverrideMode>` para los valores posibles.
 
 .. _class_PhysicsServer3D_constant_AREA_PARAM_LINEAR_DAMP:
 
@@ -1315,7 +1315,7 @@ Constante para establecer/obtener el factor de amortiguación lineal de un área
 
 :ref:`AreaParameter<enum_PhysicsServer3D_AreaParameter>` **AREA_PARAM_ANGULAR_DAMP_OVERRIDE_MODE** = ``7``
 
-Constante para establecer/obtener el modo de anulación de la amortiguación angular en un área. Véase :ref:`AreaSpaceOverrideMode<enum_PhysicsServer3D_AreaSpaceOverrideMode>` para los valores posibles.
+Constante para establecer/obtener el modo de sobrescritura de la amortiguación angular en un área. Véase :ref:`AreaSpaceOverrideMode<enum_PhysicsServer3D_AreaSpaceOverrideMode>` para los valores posibles.
 
 .. _class_PhysicsServer3D_constant_AREA_PARAM_ANGULAR_DAMP:
 
@@ -1537,7 +1537,7 @@ Constante para establecer/obtener el modo de amortiguación angular de un cuerpo
 
 :ref:`BodyParameter<enum_PhysicsServer3D_BodyParameter>` **BODY_PARAM_LINEAR_DAMP** = ``8``
 
-Constant to set/get a body's linear damping factor.
+Constante para establecer/obtener el factor de amortiguación lineal de un cuerpo.
 
 .. _class_PhysicsServer3D_constant_BODY_PARAM_ANGULAR_DAMP:
 
@@ -1545,7 +1545,7 @@ Constant to set/get a body's linear damping factor.
 
 :ref:`BodyParameter<enum_PhysicsServer3D_BodyParameter>` **BODY_PARAM_ANGULAR_DAMP** = ``9``
 
-Constant to set/get a body's angular damping factor.
+Constante para establecer/obtener el factor de amortiguación angular de un cuerpo.
 
 .. _class_PhysicsServer3D_constant_BODY_PARAM_MAX:
 
@@ -1715,7 +1715,7 @@ Constante para establecer/obtener la máxima distancia que un par de cuerpos tie
 
 :ref:`SpaceParameter<enum_PhysicsServer3D_SpaceParameter>` **SPACE_PARAM_CONTACT_MAX_SEPARATION** = ``1``
 
-Constant to set/get the maximum distance a shape can be from another before they are considered separated and the contact is discarded.
+Constante para establecer/obtener la distancia máxima a la que una forma puede estar de otra antes de que se consideren separadas y se descarte el contacto.
 
 .. _class_PhysicsServer3D_constant_SPACE_PARAM_CONTACT_MAX_ALLOWED_PENETRATION:
 
@@ -1731,7 +1731,7 @@ Constante para establecer/obtener la máxima distancia que una forma puede penet
 
 :ref:`SpaceParameter<enum_PhysicsServer3D_SpaceParameter>` **SPACE_PARAM_CONTACT_DEFAULT_BIAS** = ``3``
 
-Constant to set/get the default solver bias for all physics contacts. A solver bias is a factor controlling how much two objects "rebound", after overlapping, to avoid leaving them in that state because of numerical imprecision.
+Constante para establecer/obtener el sesgo del solucionador predeterminado para todos los contactos físicos. Un sesgo del solucionador es un factor que controla cuánto "rebotan" dos objetos, después de superponerse, para evitar dejarlos en ese estado debido a la imprecisión numérica.
 
 .. _class_PhysicsServer3D_constant_SPACE_PARAM_BODY_LINEAR_VELOCITY_SLEEP_THRESHOLD:
 
@@ -1763,7 +1763,7 @@ Constante para establecer/obtener el tiempo máximo de actividad. Un cuerpo marc
 
 :ref:`SpaceParameter<enum_PhysicsServer3D_SpaceParameter>` **SPACE_PARAM_SOLVER_ITERATIONS** = ``7``
 
-Constant to set/get the number of solver iterations for contacts and constraints. The greater the number of iterations, the more accurate the collisions and constraints will be. However, a greater number of iterations requires more CPU power, which can decrease performance.
+Constante para establecer/obtener el número de iteraciones del solucionador para contactos y restricciones. Cuanto mayor sea el número de iteraciones, más precisas serán las colisiones y las restricciones. Sin embargo, un mayor número de iteraciones requiere más potencia de la CPU, lo que puede disminuir el rendimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -1898,9 +1898,9 @@ Elimina todas las formas de un área. No elimina las formas, por lo que pueden s
 
 :ref:`RID<class_RID>` **area_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_area_create>`
 
-Creates a 3D area object in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. The default settings for the created area include a collision layer and mask set to ``1``, and ``monitorable`` set to ``false``.
+Crea un objeto de área 3D en el servidor de física y devuelve el :ref:`RID<class_RID>` que lo identifica. La configuración predeterminada para el área creada incluye una capa y máscara de colisión establecidas en ``1``, y ``monitorable`` establecido en ``false``.
 
-Use :ref:`area_add_shape()<class_PhysicsServer3D_method_area_add_shape>` to add shapes to it, use :ref:`area_set_transform()<class_PhysicsServer3D_method_area_set_transform>` to set its transform, and use :ref:`area_set_space()<class_PhysicsServer3D_method_area_set_space>` to add the area to a space. If you want the area to be detectable use :ref:`area_set_monitorable()<class_PhysicsServer3D_method_area_set_monitorable>`.
+Usa :ref:`area_add_shape()<class_PhysicsServer3D_method_area_add_shape>` para agregarle formas, usa :ref:`area_set_transform()<class_PhysicsServer3D_method_area_set_transform>` para establecer su transformación y usa :ref:`area_set_space()<class_PhysicsServer3D_method_area_set_space>` para agregar el área a un espacio. Si quieres que el área sea detectable, usa :ref:`area_set_monitorable()<class_PhysicsServer3D_method_area_set_monitorable>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1912,7 +1912,7 @@ Use :ref:`area_add_shape()<class_PhysicsServer3D_method_area_add_shape>` to add 
 
 :ref:`int<class_int>` **area_get_collision_layer**\ (\ area\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_area_get_collision_layer>`
 
-Returns the physics layer or layers an area belongs to.
+Devuelve la capa o capas físicas a las que pertenece un área.
 
 .. rst-class:: classref-item-separator
 
@@ -1924,7 +1924,7 @@ Returns the physics layer or layers an area belongs to.
 
 :ref:`int<class_int>` **area_get_collision_mask**\ (\ area\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_area_get_collision_mask>`
 
-Returns the physics layer or layers an area can contact with.
+Devuelve la capa o capas físicas con las que un área puede entrar en contacto.
 
 .. rst-class:: classref-item-separator
 
@@ -2216,9 +2216,9 @@ Añade un cuerpo a la lista de cuerpos exentos de colisiones.
 
 |void| **body_add_constant_central_force**\ (\ body\: :ref:`RID<class_RID>`, force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_body_add_constant_central_force>`
 
-Adds a constant directional force without affecting rotation that keeps being applied over time until cleared with ``body_set_constant_force(body, Vector3(0, 0, 0))``.
+Añade una fuerza direccional constante sin afectar la rotación que se sigue aplicando con el tiempo hasta que se borra con ``body_set_constant_force(body, Vector3(0, 0, 0))``.
 
-This is equivalent to using :ref:`body_add_constant_force()<class_PhysicsServer3D_method_body_add_constant_force>` at the body's center of mass.
+Esto es equivalente a usar :ref:`body_add_constant_force()<class_PhysicsServer3D_method_body_add_constant_force>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -2244,7 +2244,7 @@ Adds a constant positioned force to the body that keeps being applied over time 
 
 |void| **body_add_constant_torque**\ (\ body\: :ref:`RID<class_RID>`, torque\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_body_add_constant_torque>`
 
-Adds a constant rotational force without affecting position that keeps being applied over time until cleared with ``body_set_constant_torque(body, Vector3(0, 0, 0))``.
+Añade una fuerza rotacional constante sin afectar la posición que se aplica con el tiempo hasta que se borra con ``body_set_constant_torque(body, Vector3(0, 0, 0))``.
 
 .. rst-class:: classref-item-separator
 
@@ -2268,9 +2268,9 @@ Añade una forma al cuerpo, junto con una matriz de transformación. Las formas 
 
 |void| **body_apply_central_force**\ (\ body\: :ref:`RID<class_RID>`, force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_body_apply_central_force>`
 
-Applies a directional force without affecting rotation. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza direccional sin afectar la rotación. Una fuerza depende del tiempo y está destinada a aplicarse en cada actualización de la física.
 
-This is equivalent to using :ref:`body_apply_force()<class_PhysicsServer3D_method_body_apply_force>` at the body's center of mass.
+Esto es equivalente a usar :ref:`body_apply_force()<class_PhysicsServer3D_method_body_apply_force>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -2282,11 +2282,11 @@ This is equivalent to using :ref:`body_apply_force()<class_PhysicsServer3D_metho
 
 |void| **body_apply_central_impulse**\ (\ body\: :ref:`RID<class_RID>`, impulse\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_body_apply_central_impulse>`
 
-Applies a directional impulse without affecting rotation.
+Aplica un impulso direccional sin afectar la rotación.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada frame resultaría en una fuerza dependiente del framerate. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en caso contrario).
 
-This is equivalent to using :ref:`body_apply_impulse()<class_PhysicsServer3D_method_body_apply_impulse>` at the body's center of mass.
+Esto es equivalente a usar :ref:`body_apply_impulse()<class_PhysicsServer3D_method_body_apply_impulse>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -2298,9 +2298,9 @@ This is equivalent to using :ref:`body_apply_impulse()<class_PhysicsServer3D_met
 
 |void| **body_apply_force**\ (\ body\: :ref:`RID<class_RID>`, force\: :ref:`Vector3<class_Vector3>`, position\: :ref:`Vector3<class_Vector3>` = Vector3(0, 0, 0)\ ) :ref:`🔗<class_PhysicsServer3D_method_body_apply_force>`
 
-Applies a positioned force to the body. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza posicionada al cuerpo. Una fuerza depende del tiempo y está pensada para ser aplicada en cada actualización de la física.
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -2312,11 +2312,11 @@ Applies a positioned force to the body. A force is time dependent and meant to b
 
 |void| **body_apply_impulse**\ (\ body\: :ref:`RID<class_RID>`, impulse\: :ref:`Vector3<class_Vector3>`, position\: :ref:`Vector3<class_Vector3>` = Vector3(0, 0, 0)\ ) :ref:`🔗<class_PhysicsServer3D_method_body_apply_impulse>`
 
-Applies a positioned impulse to the body.
+Aplica un impulso posicionado al cuerpo.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada fotograma resultaría en una fuerza dependiente de la velocidad de fotogramas. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en su lugar).
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -2328,7 +2328,7 @@ An impulse is time-independent! Applying an impulse every frame would result in 
 
 |void| **body_apply_torque**\ (\ body\: :ref:`RID<class_RID>`, torque\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_body_apply_torque>`
 
-Applies a rotational force without affecting position. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza rotacional sin afectar la posición. Una fuerza depende del tiempo y está destinada a aplicarse en cada actualización de la física.
 
 .. rst-class:: classref-item-separator
 
@@ -2378,9 +2378,9 @@ Elimina todas las formas de un cuerpo.
 
 :ref:`RID<class_RID>` **body_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_body_create>`
 
-Creates a 3D body object in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. The default settings for the created area include a collision layer and mask set to ``1``, and body mode set to :ref:`BODY_MODE_RIGID<class_PhysicsServer3D_constant_BODY_MODE_RIGID>`.
+Crea un objeto cuerpo 3D en el servidor de física y devuelve el :ref:`RID<class_RID>` que lo identifica. La configuración predeterminada para el área creada incluye una capa de colisión y una máscara establecida en ``1``, y el modo de cuerpo establecido en :ref:`BODY_MODE_RIGID<class_PhysicsServer3D_constant_BODY_MODE_RIGID>`.
 
-Use :ref:`body_add_shape()<class_PhysicsServer3D_method_body_add_shape>` to add shapes to it, use :ref:`body_set_state()<class_PhysicsServer3D_method_body_set_state>` to set its transform, and use :ref:`body_set_space()<class_PhysicsServer3D_method_body_set_space>` to add the body to a space.
+Usa :ref:`body_add_shape()<class_PhysicsServer3D_method_body_add_shape>` para agregarle formas, usa :ref:`body_set_state()<class_PhysicsServer3D_method_body_set_state>` para establecer su transformación, y usa :ref:`body_set_space()<class_PhysicsServer3D_method_body_set_space>` para agregar el cuerpo a un espacio.
 
 .. rst-class:: classref-item-separator
 
@@ -2602,7 +2602,7 @@ Si es ``true``, se activa el modo de detección de colisión continua.
 
 :ref:`bool<class_bool>` **body_is_omitting_force_integration**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_body_is_omitting_force_integration>`
 
-Returns ``true`` if the body is omitting the standard force integration. See :ref:`body_set_omit_force_integration()<class_PhysicsServer3D_method_body_set_omit_force_integration>`.
+Devuelve ``true`` si el cuerpo está omitiendo la integración de fuerza estándar. Véase :ref:`body_set_omit_force_integration()<class_PhysicsServer3D_method_body_set_omit_force_integration>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3100,7 +3100,7 @@ Establece el valor de un parámetro dado de una articulación genérica de 6 gra
 
 :ref:`int<class_int>` **get_process_info**\ (\ process_info\: :ref:`ProcessInfo<enum_PhysicsServer3D_ProcessInfo>`\ ) :ref:`🔗<class_PhysicsServer3D_method_get_process_info>`
 
-Returns the value of a physics engine state specified by ``process_info``.
+Devuelve el valor de un estado del motor de física especificado por ``process_info``.
 
 .. rst-class:: classref-item-separator
 
@@ -3264,7 +3264,7 @@ Devuelve si los cuerpos unidos a la :ref:`Joint3D<class_Joint3D>` colisionarán 
 
 |void| **joint_make_generic_6dof**\ (\ joint\: :ref:`RID<class_RID>`, body_A\: :ref:`RID<class_RID>`, local_ref_A\: :ref:`Transform3D<class_Transform3D>`, body_B\: :ref:`RID<class_RID>`, local_ref_B\: :ref:`Transform3D<class_Transform3D>`\ ) :ref:`🔗<class_PhysicsServer3D_method_joint_make_generic_6dof>`
 
-Make the joint a generic six degrees of freedom (6DOF) joint. Use :ref:`generic_6dof_joint_set_flag()<class_PhysicsServer3D_method_generic_6dof_joint_set_flag>` and :ref:`generic_6dof_joint_set_param()<class_PhysicsServer3D_method_generic_6dof_joint_set_param>` to set the joint's flags and parameters respectively.
+Convierte la unión en una unión genérica de seis grados de libertad (6DOF). Usa :ref:`generic_6dof_joint_set_flag()<class_PhysicsServer3D_method_generic_6dof_joint_set_flag>` y :ref:`generic_6dof_joint_set_param()<class_PhysicsServer3D_method_generic_6dof_joint_set_param>` para establecer las banderas y parámetros de la unión respectivamente.
 
 .. rst-class:: classref-item-separator
 
@@ -3516,7 +3516,7 @@ Gets a slider joint parameter.
 
 |void| **soft_body_add_collision_exception**\ (\ body\: :ref:`RID<class_RID>`, body_b\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_PhysicsServer3D_method_soft_body_add_collision_exception>`
 
-Adds the given body to the list of bodies exempt from collisions.
+Añade el cuerpo dado a la lista de cuerpos exentos de colisiones.
 
 .. rst-class:: classref-item-separator
 
@@ -3528,7 +3528,7 @@ Adds the given body to the list of bodies exempt from collisions.
 
 |void| **soft_body_apply_central_force**\ (\ body\: :ref:`RID<class_RID>`, force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_soft_body_apply_central_force>`
 
-Distributes and applies a force to all points. A force is time dependent and meant to be applied every physics update.
+Distribuye y aplica una fuerza a todos los puntos. Una fuerza depende del tiempo y está pensada para aplicarse en cada actualización de la física.
 
 .. rst-class:: classref-item-separator
 
@@ -3540,9 +3540,9 @@ Distributes and applies a force to all points. A force is time dependent and mea
 
 |void| **soft_body_apply_central_impulse**\ (\ body\: :ref:`RID<class_RID>`, impulse\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_soft_body_apply_central_impulse>`
 
-Distributes and applies an impulse to all points.
+Distribuye y aplica un impulso a todos los puntos.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso cada frame resultaría en una fuerza dependiente del framerate. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en caso contrario).
 
 .. rst-class:: classref-item-separator
 
@@ -3554,7 +3554,7 @@ An impulse is time-independent! Applying an impulse every frame would result in 
 
 |void| **soft_body_apply_point_force**\ (\ body\: :ref:`RID<class_RID>`, point_index\: :ref:`int<class_int>`, force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_PhysicsServer3D_method_soft_body_apply_point_force>`
 
-Applies a force to a point. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza a un punto. Una fuerza depende del tiempo y está pensada para aplicarse en cada actualización de la física.
 
 .. rst-class:: classref-item-separator
 
@@ -3592,7 +3592,7 @@ Creates a new soft body and returns its internal :ref:`RID<class_RID>`.
 
 :ref:`AABB<class_AABB>` **soft_body_get_bounds**\ (\ body\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_soft_body_get_bounds>`
 
-Returns the bounds of the given soft body in global coordinates.
+Devuelve los límites del cuerpo blando dado en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 

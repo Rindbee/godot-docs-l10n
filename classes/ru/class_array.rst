@@ -12,7 +12,7 @@ Array
 Описание
 ----------------
 
-An array data structure that can contain a sequence of elements of any :ref:`Variant<class_Variant>` type by default. Values can optionally be constrained to a specific type by creating a *typed array*. Elements are accessed by a numerical index starting at ``0``. Negative indices are used to count from the back (``-1`` is the last element, ``-2`` is the second to last, etc.).
+Структура данных массива, которая по умолчанию может содержать последовательность элементов любого типа :ref:`Variant<class_Variant>`. При необходимости значения можно ограничить определённым типом, *создав массив с типом*. Доступ к элементам осуществляется по числовому индексу, начиная с ``0``. Отрицательные индексы используются для отсчёта от конца (``-1`` — последний элемент, ``-2`` — предпоследний и т. д.).
 
 
 .. tabs::
@@ -20,40 +20,40 @@ An array data structure that can contain a sequence of elements of any :ref:`Var
  .. code-tab:: gdscript
 
     var array = ["First", 2, 3, "Last"]
-    print(array[0])  # Prints "First"
-    print(array[2])  # Prints 3
-    print(array[-1]) # Prints "Last"
+    print(array[0])  # Выводит "First"
+    print(array[2])  # Выводит 3
+    print(array[-1]) # Выводит "Last"
 
     array[1] = "Second"
-    print(array[1])  # Prints "Second"
-    print(array[-3]) # Prints "Second"
+    print(array[1])  # Выводит "Second"
+    print(array[-3]) # Выводит "Second"
 
-    # This typed array can only contain integers.
-    # Attempting to add any other type will result in an error.
+    # Этот типизированный массив может содержать только целые числа.
+    # Попытка добавить любой другой тип приведет к ошибке.
     var typed_array: Array[int] = [1, 2, 3]
 
  .. code-tab:: csharp
 
     Godot.Collections.Array array = ["First", 2, 3, "Last"];
-    GD.Print(array[0]); // Prints "First"
-    GD.Print(array[2]); // Prints 3
-    GD.Print(array[^1]); // Prints "Last"
+    GD.Print(array[0]); // Выводит "First"
+    GD.Print(array[2]); // Выводит 3
+    GD.Print(array[^1]); // Выводит "Last"
 
     array[1] = "Second";
-    GD.Print(array[1]); // Prints "Second"
-    GD.Print(array[^3]); // Prints "Second"
+    GD.Print(array[1]); // Выводит "Second"
+    GD.Print(array[^3]); // Выводит "Second"
 
-    // This typed array can only contain integers.
-    // Attempting to add any other type will result in an error.
+    // Этот типизированный массив может содержать только целые числа.
+    // Попытка добавить любой другой тип приведет к ошибке.
     Godot.Collections.Array<int> typedArray = [1, 2, 3];
 
 
 
-\ **Note:** Arrays are always passed by **reference**. To get a copy of an array that can be modified independently of the original array, use :ref:`duplicate()<class_Array_method_duplicate>`.
+\ **Примечание:** Массивы всегда передаются по **ссылке**. Чтобы получить копию массива, которую можно изменять независимо от исходного, используйте :ref:`duplicate()<class_Array_method_duplicate>`.
 
-\ **Note:** Erasing elements while iterating over arrays is **not** supported and will result in unpredictable behavior.
+\ **Примечание:** Удаление элементов при итерации по массивам **не** поддерживается и приведёт к непредсказуемому поведению.
 
-\ **Differences between packed arrays, typed arrays, and untyped arrays:** Packed arrays are generally faster to iterate on and modify compared to a typed array of the same type (e.g. :ref:`PackedInt64Array<class_PackedInt64Array>` versus ``Array[int]``). Also, packed arrays consume less memory. As a downside, packed arrays are less flexible as they don't offer as many convenience methods such as :ref:`map()<class_Array_method_map>`. Typed arrays are in turn faster to iterate on and modify than untyped arrays.
+\ **Различия между упакованными, типизированными и нетипизированными массивами:** Упакованные массивы, как правило, быстрее итерируются и изменяются по сравнению с типизированными массивами того же типа (например, :ref:`PackedInt64Array<class_PackedInt64Array>` против ``Array[int]``). Кроме того, упакованные массивы потребляют меньше памяти. Недостатком упакованных массивов является их меньшая гибкость, поскольку они не предлагают столько удобных методов, как :ref:`map()<class_Array_method_map>`. Типизированные массивы, в свою очередь, быстрее итерируются и изменяются, чем нетипизированные массивы.
 
 .. note::
 
@@ -292,7 +292,7 @@ An array data structure that can contain a sequence of elements of any :ref:`Var
     var children: Array[Node] = [$Node, $Sprite2D, $RigidBody3D]
 
     var integers: Array[int] = [0.2, 4.5, -2.0]
-    print(integers) # Prints [0, 4, -2]
+    print(integers) # Выводит [0, 4, -2]
 
 .. rst-class:: classref-item-separator
 

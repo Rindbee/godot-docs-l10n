@@ -7,14 +7,14 @@ SliderJoint3D
 
 **Hereda:** :ref:`Joint3D<class_Joint3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A physics joint that restricts the movement of a 3D physics body along an axis relative to another physics body.
+Una unión física que restringe el movimiento de un cuerpo físico 3D a lo largo de un eje en relación con otro cuerpo físico.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A physics joint that restricts the movement of a 3D physics body along an axis relative to another physics body. For example, Body A could be a :ref:`StaticBody3D<class_StaticBody3D>` representing a piston base, while Body B could be a :ref:`RigidBody3D<class_RigidBody3D>` representing the piston head, moving up and down.
+Una unión física que restringe el movimiento de un cuerpo físico 3D a lo largo de un eje en relación con otro cuerpo físico. Por ejemplo, el Cuerpo A podría ser un :ref:`StaticBody3D<class_StaticBody3D>` que representa la base de un pistón, mientras que el Cuerpo B podría ser un :ref:`RigidBody3D<class_RigidBody3D>` que representa la cabeza del pistón, moviéndose arriba y abajo.
 
 .. rst-class:: classref-reftable-group
 
@@ -105,7 +105,7 @@ enum **Param**: :ref:`🔗<enum_SliderJoint3D_Param>`
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_LIMIT_UPPER** = ``0``
 
-Constant for accessing :ref:`linear_limit/upper_distance<class_SliderJoint3D_property_linear_limit/upper_distance>`. The maximum difference between the pivot points on their X axis before damping happens.
+Constante para acceder a :ref:`linear_limit/upper_distance<class_SliderJoint3D_property_linear_limit/upper_distance>`. La diferencia máxima entre los puntos de pivote en su eje X antes de que se produzca la amortiguación.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_LIMIT_LOWER:
 
@@ -113,7 +113,7 @@ Constant for accessing :ref:`linear_limit/upper_distance<class_SliderJoint3D_pro
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_LIMIT_LOWER** = ``1``
 
-Constant for accessing :ref:`linear_limit/lower_distance<class_SliderJoint3D_property_linear_limit/lower_distance>`. The minimum difference between the pivot points on their X axis before damping happens.
+Constante para acceder a :ref:`linear_limit/lower_distance<class_SliderJoint3D_property_linear_limit/lower_distance>`. La diferencia mínima entre los puntos de pivote en su eje X antes de que se produzca la amortiguación.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_LIMIT_SOFTNESS:
 
@@ -121,7 +121,7 @@ Constant for accessing :ref:`linear_limit/lower_distance<class_SliderJoint3D_pro
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_LIMIT_SOFTNESS** = ``2``
 
-Constant for accessing :ref:`linear_limit/softness<class_SliderJoint3D_property_linear_limit/softness>`. A factor applied to the movement across the slider axis once the limits get surpassed. The lower, the slower the movement.
+Constante para acceder a :ref:`linear_limit/softness<class_SliderJoint3D_property_linear_limit/softness>`. Un factor aplicado al movimiento a través del eje del deslizador una vez que se sobrepasan los límites. Cuanto menor sea, más lento será el movimiento.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_LIMIT_RESTITUTION:
 
@@ -129,7 +129,7 @@ Constant for accessing :ref:`linear_limit/softness<class_SliderJoint3D_property_
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_LIMIT_RESTITUTION** = ``3``
 
-Constant for accessing :ref:`linear_limit/restitution<class_SliderJoint3D_property_linear_limit/restitution>`. The amount of restitution once the limits are surpassed. The lower, the more velocity-energy gets lost.
+Constante para acceder a :ref:`linear_limit/restitution<class_SliderJoint3D_property_linear_limit/restitution>`. La cantidad de restitución una vez que se sobrepasan los límites. Cuanto menor sea, más energía de velocidad se pierde.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_LIMIT_DAMPING:
 
@@ -137,7 +137,7 @@ Constant for accessing :ref:`linear_limit/restitution<class_SliderJoint3D_proper
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_LIMIT_DAMPING** = ``4``
 
-Constant for accessing :ref:`linear_limit/damping<class_SliderJoint3D_property_linear_limit/damping>`. The amount of damping once the slider limits are surpassed.
+Constante para acceder a :ref:`linear_limit/damping<class_SliderJoint3D_property_linear_limit/damping>`. La cantidad de amortiguación una vez que se superan los límites del deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_MOTION_SOFTNESS:
 
@@ -145,7 +145,7 @@ Constant for accessing :ref:`linear_limit/damping<class_SliderJoint3D_property_l
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_MOTION_SOFTNESS** = ``5``
 
-Constant for accessing :ref:`linear_motion/softness<class_SliderJoint3D_property_linear_motion/softness>`. A factor applied to the movement across the slider axis as long as the slider is in the limits. The lower, the slower the movement.
+Constante para acceder a :ref:`linear_motion/softness<class_SliderJoint3D_property_linear_motion/softness>`. Un factor aplicado al movimiento a través del eje del deslizador mientras el deslizador esté en los límites. Cuanto más bajo, más lento es el movimiento.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_MOTION_RESTITUTION:
 
@@ -153,7 +153,7 @@ Constant for accessing :ref:`linear_motion/softness<class_SliderJoint3D_property
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_MOTION_RESTITUTION** = ``6``
 
-Constant for accessing :ref:`linear_motion/restitution<class_SliderJoint3D_property_linear_motion/restitution>`. The amount of restitution inside the slider limits.
+Constante para acceder a :ref:`linear_motion/restitution<class_SliderJoint3D_property_linear_motion/restitution>`. La cantidad de restitución dentro de los límites del deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_MOTION_DAMPING:
 
@@ -161,7 +161,7 @@ Constant for accessing :ref:`linear_motion/restitution<class_SliderJoint3D_prope
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_MOTION_DAMPING** = ``7``
 
-Constant for accessing :ref:`linear_motion/damping<class_SliderJoint3D_property_linear_motion/damping>`. The amount of damping inside the slider limits.
+Constante para acceder a :ref:`linear_motion/damping<class_SliderJoint3D_property_linear_motion/damping>`. La cantidad de amortiguación dentro de los límites del deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_ORTHOGONAL_SOFTNESS:
 
@@ -169,7 +169,7 @@ Constant for accessing :ref:`linear_motion/damping<class_SliderJoint3D_property_
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_ORTHOGONAL_SOFTNESS** = ``8``
 
-Constant for accessing :ref:`linear_ortho/softness<class_SliderJoint3D_property_linear_ortho/softness>`. A factor applied to the movement across axes orthogonal to the slider.
+Constante para acceder a :ref:`linear_ortho/softness<class_SliderJoint3D_property_linear_ortho/softness>`. Un factor aplicado al movimiento a través de los ejes ortogonales al deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_ORTHOGONAL_RESTITUTION:
 
@@ -177,7 +177,7 @@ Constant for accessing :ref:`linear_ortho/softness<class_SliderJoint3D_property_
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_ORTHOGONAL_RESTITUTION** = ``9``
 
-Constant for accessing :ref:`linear_motion/restitution<class_SliderJoint3D_property_linear_motion/restitution>`. The amount of restitution when movement is across axes orthogonal to the slider.
+Constante para acceder a :ref:`linear_motion/restitution<class_SliderJoint3D_property_linear_motion/restitution>`. La cantidad de restitución cuando el movimiento es a través de los ejes ortogonales al deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_LINEAR_ORTHOGONAL_DAMPING:
 
@@ -185,7 +185,7 @@ Constant for accessing :ref:`linear_motion/restitution<class_SliderJoint3D_prope
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_LINEAR_ORTHOGONAL_DAMPING** = ``10``
 
-Constant for accessing :ref:`linear_motion/damping<class_SliderJoint3D_property_linear_motion/damping>`. The amount of damping when movement is across axes orthogonal to the slider.
+Constante para acceder a :ref:`linear_motion/damping<class_SliderJoint3D_property_linear_motion/damping>`. La cantidad de amortiguación cuando el movimiento es a través de los ejes ortogonales al deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_LIMIT_UPPER:
 
@@ -193,7 +193,7 @@ Constant for accessing :ref:`linear_motion/damping<class_SliderJoint3D_property_
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_LIMIT_UPPER** = ``11``
 
-Constant for accessing :ref:`angular_limit/upper_angle<class_SliderJoint3D_property_angular_limit/upper_angle>`. The upper limit of rotation in the slider.
+Constante para acceder a :ref:`angular_limit/upper_angle<class_SliderJoint3D_property_angular_limit/upper_angle>`. El límite superior de rotación en el deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_LIMIT_LOWER:
 
@@ -201,7 +201,7 @@ Constant for accessing :ref:`angular_limit/upper_angle<class_SliderJoint3D_prope
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_LIMIT_LOWER** = ``12``
 
-Constant for accessing :ref:`angular_limit/lower_angle<class_SliderJoint3D_property_angular_limit/lower_angle>`. The lower limit of rotation in the slider.
+Constante para acceder a :ref:`angular_limit/lower_angle<class_SliderJoint3D_property_angular_limit/lower_angle>`. El límite inferior de rotación en el deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_LIMIT_SOFTNESS:
 
@@ -217,7 +217,7 @@ Constante para acceder a :ref:`angular_limit/softness<class_SliderJoint3D_proper
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_LIMIT_RESTITUTION** = ``14``
 
-Constant for accessing :ref:`angular_limit/restitution<class_SliderJoint3D_property_angular_limit/restitution>`. The amount of restitution of the rotation when the limit is surpassed.
+Constante para acceder a :ref:`angular_limit/restitution<class_SliderJoint3D_property_angular_limit/restitution>`. La cantidad de restitución de la rotación cuando se supera el límite.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_LIMIT_DAMPING:
 
@@ -225,7 +225,7 @@ Constant for accessing :ref:`angular_limit/restitution<class_SliderJoint3D_prope
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_LIMIT_DAMPING** = ``15``
 
-Constant for accessing :ref:`angular_limit/damping<class_SliderJoint3D_property_angular_limit/damping>`. The amount of damping of the rotation when the limit is surpassed.
+Constante para acceder a :ref:`angular_limit/damping<class_SliderJoint3D_property_angular_limit/damping>`. La cantidad de amortiguación de la rotación cuando se supera el límite.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_MOTION_SOFTNESS:
 
@@ -241,7 +241,7 @@ Constante para acceder a :ref:`angular_motion/softness<class_SliderJoint3D_prope
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_MOTION_RESTITUTION** = ``17``
 
-Constant for accessing :ref:`angular_motion/restitution<class_SliderJoint3D_property_angular_motion/restitution>`. The amount of restitution of the rotation in the limits.
+Constante para acceder a :ref:`angular_motion/restitution<class_SliderJoint3D_property_angular_motion/restitution>`. La cantidad de restitución de la rotación en los límites.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_MOTION_DAMPING:
 
@@ -249,7 +249,7 @@ Constant for accessing :ref:`angular_motion/restitution<class_SliderJoint3D_prop
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_MOTION_DAMPING** = ``18``
 
-Constant for accessing :ref:`angular_motion/damping<class_SliderJoint3D_property_angular_motion/damping>`. The amount of damping of the rotation in the limits.
+Constante para acceder a :ref:`angular_motion/damping<class_SliderJoint3D_property_angular_motion/damping>`. La cantidad de amortiguación de la rotación en los límites.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_ORTHOGONAL_SOFTNESS:
 
@@ -257,7 +257,7 @@ Constant for accessing :ref:`angular_motion/damping<class_SliderJoint3D_property
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_ORTHOGONAL_SOFTNESS** = ``19``
 
-Constant for accessing :ref:`angular_ortho/softness<class_SliderJoint3D_property_angular_ortho/softness>`. A factor applied to the all rotation across axes orthogonal to the slider.
+Constante para acceder a :ref:`angular_ortho/softness<class_SliderJoint3D_property_angular_ortho/softness>`. Un factor aplicado a toda la rotación a través de los ejes ortogonales al deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_ORTHOGONAL_RESTITUTION:
 
@@ -265,7 +265,7 @@ Constant for accessing :ref:`angular_ortho/softness<class_SliderJoint3D_property
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_ORTHOGONAL_RESTITUTION** = ``20``
 
-Constant for accessing :ref:`angular_ortho/restitution<class_SliderJoint3D_property_angular_ortho/restitution>`. The amount of restitution of the rotation across axes orthogonal to the slider.
+Constante para acceder a :ref:`angular_ortho/restitution<class_SliderJoint3D_property_angular_ortho/restitution>`. La cantidad de restitución de la rotación a través de los ejes ortogonales al deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_ANGULAR_ORTHOGONAL_DAMPING:
 
@@ -273,7 +273,7 @@ Constant for accessing :ref:`angular_ortho/restitution<class_SliderJoint3D_prope
 
 :ref:`Param<enum_SliderJoint3D_Param>` **PARAM_ANGULAR_ORTHOGONAL_DAMPING** = ``21``
 
-Constant for accessing :ref:`angular_ortho/damping<class_SliderJoint3D_property_angular_ortho/damping>`. The amount of damping of the rotation across axes orthogonal to the slider.
+Constante para acceder a :ref:`angular_ortho/damping<class_SliderJoint3D_property_angular_ortho/damping>`. La cantidad de amortiguación de la rotación a través de los ejes ortogonales al deslizador.
 
 .. _class_SliderJoint3D_constant_PARAM_MAX:
 

@@ -1102,9 +1102,9 @@ Implemented only on macOS.
 
 **NOTIFICATION_APPLICATION_RESUMED** = ``2014`` :ref:`🔗<class_Node_constant_NOTIFICATION_APPLICATION_RESUMED>`
 
-Notification received from the OS when the application is resumed.
+Notificación recibida del sistema operativo cuando se reanuda la aplicación.
 
-Specific to the Android and iOS platforms.
+Específica de las plataformas Android e iOS.
 
 .. _class_Node_constant_NOTIFICATION_APPLICATION_PAUSED:
 
@@ -1112,11 +1112,11 @@ Specific to the Android and iOS platforms.
 
 **NOTIFICATION_APPLICATION_PAUSED** = ``2015`` :ref:`🔗<class_Node_constant_NOTIFICATION_APPLICATION_PAUSED>`
 
-Notification received from the OS when the application is paused.
+Notificación recibida del sistema operativo cuando la aplicación se pausa.
 
-Specific to the Android and iOS platforms.
+Específica de las plataformas Android e iOS.
 
-\ **Note:** On iOS, you only have approximately 5 seconds to finish a task started by this signal. If you go over this allotment, iOS will kill the app instead of pausing it.
+\ **Nota:** En iOS, solo tienes aproximadamente 5 segundos para finalizar una tarea iniciada por esta señal. Si superas esta asignación, iOS cerrará la aplicación en lugar de pausarla.
 
 .. _class_Node_constant_NOTIFICATION_APPLICATION_FOCUS_IN:
 
@@ -1124,9 +1124,9 @@ Specific to the Android and iOS platforms.
 
 **NOTIFICATION_APPLICATION_FOCUS_IN** = ``2016`` :ref:`🔗<class_Node_constant_NOTIFICATION_APPLICATION_FOCUS_IN>`
 
-Notification received from the OS when the application is focused, i.e. when changing the focus from the OS desktop or a thirdparty application to any open window of the Godot instance.
+Notificación recibida del sistema operativo cuando la aplicación está enfocada, es decir, cuando se cambia el foco del escritorio del sistema operativo o de una aplicación de terceros a cualquier ventana abierta de la instancia de Godot.
 
-Implemented on desktop and mobile platforms.
+Implementado en plataformas de escritorio y móviles.
 
 .. _class_Node_constant_NOTIFICATION_APPLICATION_FOCUS_OUT:
 
@@ -1134,9 +1134,9 @@ Implemented on desktop and mobile platforms.
 
 **NOTIFICATION_APPLICATION_FOCUS_OUT** = ``2017`` :ref:`🔗<class_Node_constant_NOTIFICATION_APPLICATION_FOCUS_OUT>`
 
-Notification received from the OS when the application is defocused, i.e. when changing the focus from any open window of the Godot instance to the OS desktop or a thirdparty application.
+Notificación recibida del sistema operativo cuando la aplicación pierde el foco, es decir, cuando se cambia el foco de cualquier ventana abierta de la instancia de Godot al escritorio del sistema operativo o a una aplicación de terceros.
 
-Implemented on desktop and mobile platforms.
+Implementado en plataformas de escritorio y móviles.
 
 .. _class_Node_constant_NOTIFICATION_TEXT_SERVER_CHANGED:
 

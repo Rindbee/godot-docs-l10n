@@ -49,9 +49,9 @@ Descriptions des méthodes
 
 :ref:`Node<class_Node>` **create_instance**\ (\ replace\: :ref:`bool<class_bool>` = false, custom_scene\: :ref:`PackedScene<class_PackedScene>` = null\ ) :ref:`🔗<class_InstancePlaceholder_method_create_instance>`
 
-Call this method to actually load in the node. The created node will be placed as a sibling *above* the **InstancePlaceholder** in the scene tree. The :ref:`Node<class_Node>`'s reference is also returned for convenience.
+Appelez cette méthode pour réellement charger le nœud. Le nœudcréé sera placé comme un frère *au-dessus du* **InstancePlaceholder** dans l’arborescence de scène. La référence du :ref:`Node<class_Node>` est également renvoyée pour plus de commodité.
 
-\ **Note:** :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>` is not thread-safe. Use :ref:`Object.call_deferred()<class_Object_method_call_deferred>` if calling from a thread.
+\ **Note :** :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>` n'est pas thread-safe. Utilisez :ref:`Object.call_deferred()<class_Object_method_call_deferred>` si l'appelez à partir d'un thread.
 
 .. rst-class:: classref-item-separator
 
@@ -63,7 +63,7 @@ Call this method to actually load in the node. The created node will be placed a
 
 :ref:`String<class_String>` **get_instance_path**\ (\ ) |const| :ref:`🔗<class_InstancePlaceholder_method_get_instance_path>`
 
-Gets the path to the :ref:`PackedScene<class_PackedScene>` resource file that is loaded by default when calling :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>`. Not thread-safe. Use :ref:`Object.call_deferred()<class_Object_method_call_deferred>` if calling from a thread.
+Obtient le chemin vers le fichier de ressources :ref:`PackedScene<class_PackedScene>` qui est chargé par défaut lors de l'appel à :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>`. Non thread-safe. Utilisez :ref:`Object.call_deferred()<class_Object_method_call_deferred>` si vous l'appelez à partir d'un thread.
 
 .. rst-class:: classref-item-separator
 
@@ -75,9 +75,9 @@ Gets the path to the :ref:`PackedScene<class_PackedScene>` resource file that is
 
 :ref:`Dictionary<class_Dictionary>` **get_stored_values**\ (\ with_order\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_InstancePlaceholder_method_get_stored_values>`
 
-Returns the list of properties that will be applied to the node when :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>` is called.
+Renvoie la liste des propriétés qui seront appliquées au nœud lorsque :ref:`create_instance()<class_InstancePlaceholder_method_create_instance>` sera appelée.
 
-If ``with_order`` is ``true``, a key named ``.order`` (note the leading period) is added to the dictionary. This ``.order`` key is an :ref:`Array<class_Array>` of :ref:`String<class_String>` property names specifying the order in which properties will be applied (with index 0 being the first).
+Si ``with_order`` vaut ``true``, une clé nommée ``.order`` (remarquez le point du début) est ajoutée au dictionnaire. Cette clé ``.order`` est un :ref:`Array<class_Array>` de :ref:`String<class_String>` de noms de propriétés, spécifiant l'ordre dans lequel les propriétés seront appliquées (avec l'index 0 étant le premier).
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

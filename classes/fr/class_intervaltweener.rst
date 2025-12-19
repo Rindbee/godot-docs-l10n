@@ -7,16 +7,16 @@ IntervalTweener
 
 **Hérite de :** :ref:`Tweener<class_Tweener>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Creates an idle interval in a :ref:`Tween<class_Tween>` animation.
+Crée un intervalle d'inactivité dans une animation :ref:`Tween<class_Tween>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**IntervalTweener** is used to make delays in a tweening sequence. See :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` for more usage information.
+**IntervalTweener** est utilisé pour créer des délais dans une séquence de tweening. Voir :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` pour plus d'informations sur son utilisation.
 
-\ **Note:** :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` is the only correct way to create **IntervalTweener**. Any **IntervalTweener** created manually will not function correctly.
+\ **Note :** :ref:`Tween.tween_interval()<class_Tween_method_tween_interval>` est le seul moyen correct de créer un **IntervalTweener**. Tout **IntervalTweener** créé manuellement ne fonctionnera pas correctement.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

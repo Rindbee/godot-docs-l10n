@@ -16,7 +16,7 @@ Clase base abstracta para deslizadores.
 Descripción
 ----------------------
 
-Abstract base class for sliders, used to adjust a value by moving a grabber along a horizontal or vertical axis. Sliders are :ref:`Range<class_Range>`-based controls.
+Clase base abstracta para los deslizadores, utilizada para ajustar un valor moviendo un agarrador a lo largo de un eje horizontal o vertical. Los deslizadores son controles basados en :ref:`Range<class_Range>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -87,7 +87,7 @@ Señales
 
 **drag_ended**\ (\ value_changed\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Slider_signal_drag_ended>`
 
-Emitted when the grabber stops being dragged. If ``value_changed`` is ``true``, :ref:`Range.value<class_Range_property_value>` is different from the value when the dragging was started.
+Emitida cuando se deja de arrastrar el agarrador. Si ``value_changed`` es ``true``, :ref:`Range.value<class_Range_property_value>` es diferente del valor cuando se empezó a arrastrar.
 
 .. rst-class:: classref-item-separator
 
@@ -99,7 +99,7 @@ Emitted when the grabber stops being dragged. If ``value_changed`` is ``true``, 
 
 **drag_started**\ (\ ) :ref:`🔗<class_Slider_signal_drag_started>`
 
-Emitted when the grabber starts being dragged. This is emitted before the corresponding :ref:`Range.value_changed<class_Range_signal_value_changed>` signal.
+Emitida cuando se empieza a arrastrar el agarrador. Se emite antes de la señal :ref:`Range.value_changed<class_Range_signal_value_changed>` correspondiente.
 
 .. rst-class:: classref-section-separator
 
@@ -122,7 +122,7 @@ enum **TickPosition**: :ref:`🔗<enum_Slider_TickPosition>`
 
 :ref:`TickPosition<enum_Slider_TickPosition>` **TICK_POSITION_BOTTOM_RIGHT** = ``0``
 
-Places the ticks at the bottom of the :ref:`HSlider<class_HSlider>`, or right of the :ref:`VSlider<class_VSlider>`.
+Coloca las marcas en la parte inferior del :ref:`HSlider<class_HSlider>`, o a la derecha del :ref:`VSlider<class_VSlider>`.
 
 .. _class_Slider_constant_TICK_POSITION_TOP_LEFT:
 
@@ -130,7 +130,7 @@ Places the ticks at the bottom of the :ref:`HSlider<class_HSlider>`, or right of
 
 :ref:`TickPosition<enum_Slider_TickPosition>` **TICK_POSITION_TOP_LEFT** = ``1``
 
-Places the ticks at the top of the :ref:`HSlider<class_HSlider>`, or left of the :ref:`VSlider<class_VSlider>`.
+Coloca las marcas en la parte superior del :ref:`HSlider<class_HSlider>`, o a la izquierda del :ref:`VSlider<class_VSlider>`.
 
 .. _class_Slider_constant_TICK_POSITION_BOTH:
 
@@ -236,7 +236,7 @@ Si es ``true``, el deslizador mostrará las marcas de los valores mínimo y máx
 - |void| **set_ticks_position**\ (\ value\: :ref:`TickPosition<enum_Slider_TickPosition>`\ )
 - :ref:`TickPosition<enum_Slider_TickPosition>` **get_ticks_position**\ (\ )
 
-Sets the position of the ticks. See :ref:`TickPosition<enum_Slider_TickPosition>` for details.
+Establece la posición de las marcas. Véase :ref:`TickPosition<enum_Slider_TickPosition>` para más detalles.
 
 .. rst-class:: classref-section-separator
 
@@ -253,7 +253,7 @@ Descripciones de las propiedades del tema
 
 :ref:`int<class_int>` **center_grabber** = ``0`` :ref:`🔗<class_Slider_theme_constant_center_grabber>`
 
-Boolean constant. If ``1``, the grabber texture size will be ignored and it will fit within slider's bounds based only on its center position.
+Constante booleana. Si es ``1``, el tamaño de la textura del agarrador se ignorará y se ajustará a los límites del deslizador basándose únicamente en la posición de su centro.
 
 .. rst-class:: classref-item-separator
 
@@ -265,7 +265,7 @@ Boolean constant. If ``1``, the grabber texture size will be ignored and it will
 
 :ref:`int<class_int>` **grabber_offset** = ``0`` :ref:`🔗<class_Slider_theme_constant_grabber_offset>`
 
-Vertical or horizontal offset of the grabber.
+Desplazamiento vertical u horizontal del agarrador.
 
 .. rst-class:: classref-item-separator
 
@@ -277,7 +277,7 @@ Vertical or horizontal offset of the grabber.
 
 :ref:`int<class_int>` **tick_offset** = ``0`` :ref:`🔗<class_Slider_theme_constant_tick_offset>`
 
-Vertical or horizontal offset of the ticks. The offset is reversed for top or left ticks.
+Desplazamiento vertical u horizontal de las marcas. El desplazamiento se invierte para las marcas superiores o izquierdas.
 
 .. rst-class:: classref-item-separator
 
@@ -349,7 +349,7 @@ El fondo del área a la izquierda o debajo del agarrador.
 
 :ref:`StyleBox<class_StyleBox>` **grabber_area_highlight** :ref:`🔗<class_Slider_theme_style_grabber_area_highlight>`
 
-The background of the area to the left or bottom of the grabber that displays when it's being hovered or focused.
+El fondo del área a la izquierda o debajo del agarrador que se muestra cuando se está pasando el ratón por encima o está enfocado.
 
 .. rst-class:: classref-item-separator
 

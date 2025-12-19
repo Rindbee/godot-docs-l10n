@@ -7,9 +7,9 @@ CanvasLayer
 
 **Hérite de :** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`ParallaxBackground<class_ParallaxBackground>`
+**Hérité par :** :ref:`ParallaxBackground<class_ParallaxBackground>`
 
-A node used for independent rendering of objects within a 2D scene.
+Un nœud utilisé pour le rendu indépendant d'objets dans une scène 2D.
 
 .. rst-class:: classref-introduction-group
 
@@ -135,9 +135,9 @@ Le nœud :ref:`Viewport<class_Viewport>` personnalisé assigné au **CanvasLayer
 - |void| **set_follow_viewport**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_following_viewport**\ (\ )
 
-If enabled, the **CanvasLayer** maintains its position in world space. If disabled, the **CanvasLayer** stays in a fixed position on the screen.
+Si activé, le **CanvasLayer** garde sa position dans l'espace global. Si désactivé, le **CanvasLayer** reste à une position fixe sur l'écran.
 
-Together with :ref:`follow_viewport_scale<class_CanvasLayer_property_follow_viewport_scale>`, this can be used for a pseudo-3D effect.
+Avec :ref:`follow_viewport_scale<class_CanvasLayer_property_follow_viewport_scale>`, cela peut être utilisé pour un effet de pseudo-3D.
 
 .. rst-class:: classref-item-separator
 
@@ -171,11 +171,11 @@ Redimensionne la couche en utilisant :ref:`follow_viewport_enabled<class_CanvasL
 - |void| **set_layer**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_layer**\ (\ )
 
-Layer index for draw order. Lower values are drawn behind higher values.
+Index de couche pour l'ordre du dessin. Les valeurs inférieures sont dessinées derrière les valeurs supérieures.
 
-\ **Note:** If multiple CanvasLayers have the same layer index, :ref:`CanvasItem<class_CanvasItem>` children of one CanvasLayer are drawn behind the :ref:`CanvasItem<class_CanvasItem>` children of the other CanvasLayer. Which CanvasLayer is drawn in front is non-deterministic.
+\ **Note :** Si plusieurs CanvasLayers ont le même index de couche, les enfants :ref:`CanvasItem<class_CanvasItem>` d'un CanvasLayer sont dessinés derrière les enfants :ref:`CanvasItem<class_CanvasItem>` de l'autre CanvasLayer. Quel CanvasLayer est dessiné devant est non-déterministe.
 
-\ **Note:** The layer index should be between :ref:`RenderingServer.CANVAS_LAYER_MIN<class_RenderingServer_constant_CANVAS_LAYER_MIN>` and :ref:`RenderingServer.CANVAS_LAYER_MAX<class_RenderingServer_constant_CANVAS_LAYER_MAX>` (inclusive). Any other value will wrap around.
+\ **Note :** L'index de couche devrait être entre :ref:`RenderingServer.CANVAS_LAYER_MIN<class_RenderingServer_constant_CANVAS_LAYER_MIN>` et :ref:`RenderingServer.CANVAS_LAYER_MAX<class_RenderingServer_constant_CANVAS_LAYER_MAX>` (inclusifs). Toute autre valeur rebouclera.
 
 .. rst-class:: classref-item-separator
 

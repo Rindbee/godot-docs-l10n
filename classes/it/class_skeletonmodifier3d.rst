@@ -27,7 +27,7 @@ Questo nodo si dovrebbe utilizzare per implementare risolutori IK personalizzati
 Tutorial
 ----------------
 
-- `Design of the Skeleton Modifier 3D <https://godotengine.org/article/design-of-the-skeleton-modifier-3d/>`__
+- `Progettazione dello SkeletonModifier3D <https://godotengine.org/article/design-of-the-skeleton-modifier-3d/>`__
 
 .. rst-class:: classref-reftable-group
 

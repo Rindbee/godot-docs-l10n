@@ -67,7 +67,7 @@ Descripciones de Métodos
 
 :ref:`Image<class_Image>` **convert_to_image**\ (\ ) |const| :ref:`🔗<class_BitMap_method_convert_to_image>`
 
-Returns an image of the same size as the bitmap and with an :ref:`Format<enum_Image_Format>` of type :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`. ``true`` bits of the bitmap are being converted into white pixels, and ``false`` bits into black.
+Devuelve una imagen del mismo tamaño que el mapa de bits y con un :ref:`Format<enum_Image_Format>` de tipo :ref:`Image.FORMAT_L8<class_Image_constant_FORMAT_L8>`. Los bits ``true`` del mapa de bits se convierten en píxeles blancos, y los bits ``false`` en negros.
 
 .. rst-class:: classref-item-separator
 
@@ -91,7 +91,7 @@ Crea un mapa de bits con el tamaño especificado, lleno de ``false``.
 
 |void| **create_from_image_alpha**\ (\ image\: :ref:`Image<class_Image>`, threshold\: :ref:`float<class_float>` = 0.1\ ) :ref:`🔗<class_BitMap_method_create_from_image_alpha>`
 
-Creates a bitmap that matches the given image dimensions, every element of the bitmap is set to ``false`` if the alpha value of the image at that position is equal to ``threshold`` or less, and ``true`` in other case.
+Crea un mapa de bits que coincide con las dimensiones de la imagen dada, cada elemento del mapa de bits se establece en ``false`` si el valor alfa de la imagen en esa posición es igual o menor que ``threshold``, y ``true`` en caso contrario.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ Devuelve las dimensiones del mapa de bits.
 
 :ref:`int<class_int>` **get_true_bit_count**\ (\ ) |const| :ref:`🔗<class_BitMap_method_get_true_bit_count>`
 
-Returns the number of bitmap elements that are set to ``true``.
+Devuelve el número de elementos del mapa de bits que están configurados como ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ Returns the number of bitmap elements that are set to ``true``.
 
 |void| **grow_mask**\ (\ pixels\: :ref:`int<class_int>`, rect\: :ref:`Rect2i<class_Rect2i>`\ ) :ref:`🔗<class_BitMap_method_grow_mask>`
 
-Applies morphological dilation or erosion to the bitmap. If ``pixels`` is positive, dilation is applied to the bitmap. If ``pixels`` is negative, erosion is applied to the bitmap. ``rect`` defines the area where the morphological operation is applied. Pixels located outside the ``rect`` are unaffected by :ref:`grow_mask()<class_BitMap_method_grow_mask>`.
+Aplica la dilatación o erosión morfológica al mapa de bits. Si ``pixels`` es positivo, se aplica la dilatación al mapa de bits. Si ``pixels`` es negativo, se aplica la erosión al mapa de bits. ``rect`` define el área donde se aplica la operación morfológica. Los píxeles situados fuera de ``rect`` no se ven afectados por :ref:`grow_mask()<class_BitMap_method_grow_mask>`.
 
 .. rst-class:: classref-item-separator
 

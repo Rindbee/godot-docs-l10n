@@ -1093,7 +1093,7 @@ Icona personalizzata per il pulsante Crea cartella.
 
 :ref:`Texture2D<class_Texture2D>` **favorite** :ref:`🔗<class_FileDialog_theme_icon_favorite>`
 
-Custom icon for favorite folder button.
+Icona personalizzata per il pulsante Preferiti delle cartelle.
 
 .. rst-class:: classref-item-separator
 
@@ -1105,7 +1105,7 @@ Custom icon for favorite folder button.
 
 :ref:`Texture2D<class_Texture2D>` **favorite_down** :ref:`🔗<class_FileDialog_theme_icon_favorite_down>`
 
-Custom icon for button to move down a favorite entry.
+Icona personalizzata per il pulsante per spostare in basso una voce aggiunta ai preferiti.
 
 .. rst-class:: classref-item-separator
 
@@ -1117,7 +1117,7 @@ Custom icon for button to move down a favorite entry.
 
 :ref:`Texture2D<class_Texture2D>` **favorite_up** :ref:`🔗<class_FileDialog_theme_icon_favorite_up>`
 
-Custom icon for button to move up a favorite entry.
+Icona personalizzata per il pulsante per spostare in alto una voce aggiunta ai preferiti.
 
 .. rst-class:: classref-item-separator
 

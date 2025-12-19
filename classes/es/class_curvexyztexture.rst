@@ -7,16 +7,16 @@ CurveXYZTexture
 
 **Hereda:** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 1D texture where the red, green, and blue color channels correspond to points on 3 curves.
+Una textura 1D donde los canales de color rojo, verde y azul corresponden a puntos en 3 curvas.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A 1D texture where the red, green, and blue color channels correspond to points on 3 unit :ref:`Curve<class_Curve>` resources. Compared to using separate :ref:`CurveTexture<class_CurveTexture>`\ s, this further simplifies the task of saving curves as image files.
+Una textura 1D donde los canales de color rojo, verde y azul corresponden a puntos en 3 recursos :ref:`Curve<class_Curve>` unitarias. En comparación con el uso de :ref:`CurveTexture<class_CurveTexture>`\ s separadas, esto simplifica aún más la tarea de guardar curvas como archivos de imagen.
 
-If you only need to store one curve within a single texture, use :ref:`CurveTexture<class_CurveTexture>` instead. See also :ref:`GradientTexture1D<class_GradientTexture1D>` and :ref:`GradientTexture2D<class_GradientTexture2D>`.
+Si solo necesitas guardar una curva dentro de una sola textura, usa :ref:`CurveTexture<class_CurveTexture>` en su lugar. Véase también :ref:`GradientTexture1D<class_GradientTexture1D>` y :ref:`GradientTexture2D<class_GradientTexture2D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -58,7 +58,7 @@ Descripciones de Propiedades
 - |void| **set_curve_x**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_curve_x**\ (\ )
 
-The :ref:`Curve<class_Curve>` that is rendered onto the texture's red channel. Should be a unit :ref:`Curve<class_Curve>`.
+La :ref:`Curve<class_Curve>` que se renderiza en el canal rojo de la textura. Debe ser una :ref:`Curve<class_Curve>` unitaria.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ The :ref:`Curve<class_Curve>` that is rendered onto the texture's red channel. S
 - |void| **set_curve_y**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_curve_y**\ (\ )
 
-The :ref:`Curve<class_Curve>` that is rendered onto the texture's green channel. Should be a unit :ref:`Curve<class_Curve>`.
+La :ref:`Curve<class_Curve>` que se renderiza en el canal verde de la textura. Debe ser una :ref:`Curve<class_Curve>` unitaria.
 
 .. rst-class:: classref-item-separator
 
@@ -92,7 +92,7 @@ The :ref:`Curve<class_Curve>` that is rendered onto the texture's green channel.
 - |void| **set_curve_z**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_curve_z**\ (\ )
 
-The :ref:`Curve<class_Curve>` that is rendered onto the texture's blue channel. Should be a unit :ref:`Curve<class_Curve>`.
+La :ref:`Curve<class_Curve>` que se renderiza en el canal azul de la textura. Debe ser una :ref:`Curve<class_Curve>` unitaria.
 
 .. rst-class:: classref-item-separator
 
@@ -109,7 +109,7 @@ The :ref:`Curve<class_Curve>` that is rendered onto the texture's blue channel. 
 - |void| **set_width**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_width**\ (\ )
 
-The width of the texture (in pixels). Higher values make it possible to represent high-frequency data better (such as sudden direction changes), at the cost of increased generation time and memory usage.
+El ancho de la textura (en píxeles). Los valores más altos hacen posible representar mejor los datos de alta frecuencia (como los cambios repentinos de dirección), a costa de un mayor tiempo de generación y uso de memoria.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,14 +7,14 @@ PhysicalBoneSimulator3D
 
 **Hereda:** :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Node that can be the parent of :ref:`PhysicalBone3D<class_PhysicalBone3D>` and can apply the simulation results to :ref:`Skeleton3D<class_Skeleton3D>`.
+Nodo que puede ser el padre de :ref:`PhysicalBone3D<class_PhysicalBone3D>` y puede aplicar los resultados de la simulación a :ref:`Skeleton3D<class_Skeleton3D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Node that can be the parent of :ref:`PhysicalBone3D<class_PhysicalBone3D>` and can apply the simulation results to :ref:`Skeleton3D<class_Skeleton3D>`.
+Nodo que puede ser el padre de :ref:`PhysicalBone3D<class_PhysicalBone3D>` y puede aplicar los resultados de la simulación a :ref:`Skeleton3D<class_Skeleton3D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -51,7 +51,7 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **is_simulating_physics**\ (\ ) |const| :ref:`🔗<class_PhysicalBoneSimulator3D_method_is_simulating_physics>`
 
-Returns a boolean that indicates whether the **PhysicalBoneSimulator3D** is running and simulating.
+Devuelve un booleano que indica si el **PhysicalBoneSimulator3D** está funcionando y simulando.
 
 .. rst-class:: classref-item-separator
 
@@ -63,9 +63,9 @@ Returns a boolean that indicates whether the **PhysicalBoneSimulator3D** is runn
 
 |void| **physical_bones_add_collision_exception**\ (\ exception\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_PhysicalBoneSimulator3D_method_physical_bones_add_collision_exception>`
 
-Adds a collision exception to the physical bone.
+Añade una excepción de colisión al hueso físico.
 
-Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
+Funciona igual que el nodo :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -77,9 +77,9 @@ Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
 
 |void| **physical_bones_remove_collision_exception**\ (\ exception\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_PhysicalBoneSimulator3D_method_physical_bones_remove_collision_exception>`
 
-Removes a collision exception to the physical bone.
+Elimina una excepción de colisión al hueso físico.
 
-Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
+Funciona igual que el nodo :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -91,9 +91,9 @@ Works just like the :ref:`RigidBody3D<class_RigidBody3D>` node.
 
 |void| **physical_bones_start_simulation**\ (\ bones\: :ref:`Array<class_Array>`\[:ref:`StringName<class_StringName>`\] = []\ ) :ref:`🔗<class_PhysicalBoneSimulator3D_method_physical_bones_start_simulation>`
 
-Tells the :ref:`PhysicalBone3D<class_PhysicalBone3D>` nodes in the Skeleton to start simulating and reacting to the physics world.
+Indica a los nodos :ref:`PhysicalBone3D<class_PhysicalBone3D>` en el esqueleto que comiencen a simular y reaccionar al mundo de la física.
 
-Optionally, a list of bone names can be passed-in, allowing only the passed-in bones to be simulated.
+Opcionalmente, se puede pasar una lista de nombres de huesos, permitiendo que solo se simulen los huesos pasados.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Optionally, a list of bone names can be passed-in, allowing only the passed-in b
 
 |void| **physical_bones_stop_simulation**\ (\ ) :ref:`🔗<class_PhysicalBoneSimulator3D_method_physical_bones_stop_simulation>`
 
-Tells the :ref:`PhysicalBone3D<class_PhysicalBone3D>` nodes in the Skeleton to stop simulating.
+Indica a los nodos :ref:`PhysicalBone3D<class_PhysicalBone3D>` en el esqueleto que dejen de simular.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

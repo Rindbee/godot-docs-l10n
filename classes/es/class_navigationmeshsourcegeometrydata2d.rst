@@ -171,7 +171,7 @@ Returns an axis-aligned bounding box that covers all the stored geometry data. T
 
 :ref:`Array<class_Array>`\[:ref:`PackedVector2Array<class_PackedVector2Array>`\] **get_obstruction_outlines**\ (\ ) |const| :ref:`🔗<class_NavigationMeshSourceGeometryData2D_method_get_obstruction_outlines>`
 
-Devuelve todas las matrices de contornos del área obstruida.
+Devuelve todos los arrays de contornos del área obstruida.
 
 .. rst-class:: classref-item-separator
 

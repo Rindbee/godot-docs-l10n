@@ -320,7 +320,7 @@ Descripciones de Métodos
 
 :ref:`Variant<class_Variant>` **_get_script_method_argument_count**\ (\ method\: :ref:`StringName<class_StringName>`\ ) |virtual| |const| :ref:`🔗<class_ScriptExtension_private_method__get_script_method_argument_count>`
 
-Return the expected argument count for the given ``method``, or ``null`` if it can't be determined (which will then fall back to the default behavior).
+Devuelve el número de argumentos esperado para el ``method`` dado, o ``null`` si no se puede determinar (que entonces recurrirá al comportamiento predeterminado).
 
 .. rst-class:: classref-item-separator
 
@@ -500,7 +500,7 @@ Return the expected argument count for the given ``method``, or ``null`` if it c
 
 :ref:`bool<class_bool>` **_is_abstract**\ (\ ) |virtual| |const| :ref:`🔗<class_ScriptExtension_private_method__is_abstract>`
 
-Returns ``true`` if the script is an abstract script. Abstract scripts cannot be instantiated directly, instead other scripts should inherit them. Abstract scripts will be either unselectable or hidden in the Create New Node dialog (unselectable if there are non-abstract classes inheriting it, otherwise hidden).
+Devuelve ``true`` si el script es un script abstracto. Los scripts abstractos no se pueden instanciar directamente, en su lugar, otros scripts deben heredarlos. Los scripts abstractos no se podrán seleccionar u ocultar en el diálogo Crear nuevo nodo (no se podrán seleccionar si hay clases no abstractas que lo hereden, de lo contrario, se ocultarán).
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ AudioEffectInstance
 
 **Hérite de :** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`AudioEffectSpectrumAnalyzerInstance<class_AudioEffectSpectrumAnalyzerInstance>`
+**Hérité par :** :ref:`AudioEffectSpectrumAnalyzerInstance<class_AudioEffectSpectrumAnalyzerInstance>`
 
 Manipule l'audio qu'il reçoit pour obtenir un effet donné.
 

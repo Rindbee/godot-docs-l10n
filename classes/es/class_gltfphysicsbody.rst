@@ -127,7 +127,7 @@ When exporting, this will be squashed down to one of ``"static"``, ``"kinematic"
 - |void| **set_center_of_mass**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_center_of_mass**\ (\ )
 
-The center of mass of the body, in meters. This is in local space relative to the body. By default, the center of the mass is the body's origin.
+El centro de masa del cuerpo, en metros. Esto está en el espacio local relativo al cuerpo. Por defecto, el centro de la masa es el origen del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -144,9 +144,9 @@ The center of mass of the body, in meters. This is in local space relative to th
 - |void| **set_inertia_diagonal**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_inertia_diagonal**\ (\ )
 
-The inertia strength of the physics body, in kilogram meter squared (kg⋅m²). This represents the inertia around the principle axes, the diagonal of the inertia tensor matrix. This is only used when the body type is "rigid" or "vehicle".
+La fuerza de inercia del cuerpo físico, en kilogramos metros cuadrados (kg⋅m²). Esto representa la inercia alrededor de los ejes principales, la diagonal de la matriz del tensor de inercia. Esto solo se usa cuando el tipo de cuerpo es "rigid" o "vehicle".
 
-When converted to a Godot :ref:`RigidBody3D<class_RigidBody3D>` node, if this value is zero, then the inertia will be calculated automatically.
+Cuando se convierte a un nodo :ref:`RigidBody3D<class_RigidBody3D>` de Godot, si este valor es cero, entonces la inercia se calculará automáticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -163,7 +163,7 @@ When converted to a Godot :ref:`RigidBody3D<class_RigidBody3D>` node, if this va
 - |void| **set_inertia_orientation**\ (\ value\: :ref:`Quaternion<class_Quaternion>`\ )
 - :ref:`Quaternion<class_Quaternion>` **get_inertia_orientation**\ (\ )
 
-The inertia orientation of the physics body. This defines the rotation of the inertia's principle axes relative to the object's local axes. This is only used when the body type is "rigid" or "vehicle" and :ref:`inertia_diagonal<class_GLTFPhysicsBody_property_inertia_diagonal>` is set to a non-zero value.
+La orientación de la inercia del cuerpo físico. Esto define la rotación de los ejes principales de la inercia con respecto a los ejes locales del objeto. Esto es solo se usa cuando el tipo de cuerpo es "rigid" o "vehicle" y :ref:`inertia_diagonal<class_GLTFPhysicsBody_property_inertia_diagonal>` se establece en un valor distinto de cero.
 
 .. rst-class:: classref-item-separator
 
@@ -182,9 +182,9 @@ The inertia orientation of the physics body. This defines the rotation of the in
 
 **Obsoleto:** Esta propiedad podría ser modificada o eliminada en versiones futuras.
 
-The inertia tensor of the physics body, in kilogram meter squared (kg⋅m²). This is only used when the body type is "rigid" or "vehicle".
+El tensor de inercia del cuerpo físico, en kilogramos metros cuadrados (kg⋅m²). Esto solo se usa cuando el tipo de cuerpo es "rigid" o "vehicle".
 
-When converted to a Godot :ref:`RigidBody3D<class_RigidBody3D>` node, if this value is zero, then the inertia will be calculated automatically.
+Cuando se convierte a un nodo :ref:`RigidBody3D<class_RigidBody3D>` de Godot, si este valor es cero, entonces la inercia se calculará automáticamente.
 
 .. rst-class:: classref-item-separator
 
@@ -201,7 +201,7 @@ When converted to a Godot :ref:`RigidBody3D<class_RigidBody3D>` node, if this va
 - |void| **set_linear_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_linear_velocity**\ (\ )
 
-The linear velocity of the physics body, in meters per second. This is only used when the body type is "rigid" or "vehicle".
+La velocidad lineal del cuerpo físico, en metros por segundo. Esto solo se usa cuando el tipo de cuerpo es "rigid" o "vehicle".
 
 .. rst-class:: classref-item-separator
 
@@ -218,7 +218,7 @@ The linear velocity of the physics body, in meters per second. This is only used
 - |void| **set_mass**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_mass**\ (\ )
 
-The mass of the physics body, in kilograms. This is only used when the body type is "rigid" or "vehicle".
+La masa del cuerpo físico, en kilogramos. Esto solo se usa cuando el tipo de cuerpo es "rigid" o "vehicle".
 
 .. rst-class:: classref-section-separator
 
@@ -235,7 +235,7 @@ Descripciones de Métodos
 
 :ref:`GLTFPhysicsBody<class_GLTFPhysicsBody>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFPhysicsBody_method_from_dictionary>`
 
-Creates a new GLTFPhysicsBody instance by parsing the given :ref:`Dictionary<class_Dictionary>` in the ``OMI_physics_body`` glTF extension format.
+Crea una nueva instancia de GLTFPhysicsBody analizando el :ref:`Dictionary<class_Dictionary>` dado en el formato de la extensión glTF ``OMI_physics_body``.
 
 .. rst-class:: classref-item-separator
 
@@ -247,7 +247,7 @@ Creates a new GLTFPhysicsBody instance by parsing the given :ref:`Dictionary<cla
 
 :ref:`GLTFPhysicsBody<class_GLTFPhysicsBody>` **from_node**\ (\ body_node\: :ref:`CollisionObject3D<class_CollisionObject3D>`\ ) |static| :ref:`🔗<class_GLTFPhysicsBody_method_from_node>`
 
-Creates a new GLTFPhysicsBody instance from the given Godot :ref:`CollisionObject3D<class_CollisionObject3D>` node.
+Crea una nueva instancia de GLTFPhysicsBody a partir del nodo :ref:`CollisionObject3D<class_CollisionObject3D>` de Godot dado.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Creates a new GLTFPhysicsBody instance from the given Godot :ref:`CollisionObjec
 
 :ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFPhysicsBody_method_to_dictionary>`
 
-Serializes this GLTFPhysicsBody instance into a :ref:`Dictionary<class_Dictionary>`. It will be in the format expected by the ``OMI_physics_body`` glTF extension.
+Serializa esta instancia de GLTFPhysicsBody en un :ref:`Dictionary<class_Dictionary>`. Estará en el formato esperado por la extensión glTF ``OMI_physics_body``.
 
 .. rst-class:: classref-item-separator
 
@@ -271,7 +271,7 @@ Serializes this GLTFPhysicsBody instance into a :ref:`Dictionary<class_Dictionar
 
 :ref:`CollisionObject3D<class_CollisionObject3D>` **to_node**\ (\ ) |const| :ref:`🔗<class_GLTFPhysicsBody_method_to_node>`
 
-Converts this GLTFPhysicsBody instance into a Godot :ref:`CollisionObject3D<class_CollisionObject3D>` node.
+Convierte esta instancia de GLTFPhysicsBody en un nodo :ref:`CollisionObject3D<class_CollisionObject3D>` de Godot.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -366,13 +366,13 @@ Descrizioni dei metodi
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Basis_method_determinant>`
 
-Returns the `determinant <https://en.wikipedia.org/wiki/Determinant>`__ of this basis's matrix. For advanced math, this number can be used to determine a few attributes:
+Restituisce il `determinante <https://it.wikipedia.org/wiki/Determinante_(algebra)>`__ della matrice di questa base. Per la matematica avanzata, questo numero può servire per determinare alcuni attributi:
 
-- If the determinant is exactly ``0.0``, the basis is not invertible (see :ref:`inverse()<class_Basis_method_inverse>`).
+- Se il determinante è esattamente ``0.0``, la base non è invertibile (vedi :ref:`inverse()<class_Basis_method_inverse>`).
 
-- If the determinant is a negative number, the basis represents a negative scale.
+- Se il determinante è un numero negativo, la base rappresenta una scala negativa.
 
-\ **Note:** If the basis's scale is the same for every axis, its determinant is always that scale by the power of 3.
+\ **Nota:** Se la scala della base è la stessa per ogni asse, il suo determinante è sempre quella scala elevata alla potenza di 3.
 
 .. rst-class:: classref-item-separator
 

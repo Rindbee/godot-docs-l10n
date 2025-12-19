@@ -74,9 +74,9 @@ Cantidad de amplificacion en decibelios. Valores positivos hacen el sonido mas f
 - |void| **set_volume_linear**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volume_linear**\ (\ )
 
-Amount of amplification as a linear value.
+Cantidad de amplificación como un valor lineal.
 
-\ **Note:** This member modifies :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>` for convenience. The returned value is equivalent to the result of :ref:`@GlobalScope.db_to_linear()<class_@GlobalScope_method_db_to_linear>` on :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>`. Setting this member is equivalent to setting :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>` to the result of :ref:`@GlobalScope.linear_to_db()<class_@GlobalScope_method_linear_to_db>` on a value.
+\ **Nota:** Este miembro modifica :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>` para conveniencia. El valor devuelto es equivalente al resultado de :ref:`@GlobalScope.db_to_linear()<class_@GlobalScope_method_db_to_linear>` en :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>`. Establecer este miembro es equivalente a establecer :ref:`volume_db<class_AudioEffectAmplify_property_volume_db>` al resultado de :ref:`@GlobalScope.linear_to_db()<class_@GlobalScope_method_linear_to_db>` en un valor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -14,11 +14,11 @@ Un attracteur en forme de boîte qui influence les particules des nœuds :ref:`G
 Description
 -----------
 
-A box-shaped attractor that influences particles from :ref:`GPUParticles3D<class_GPUParticles3D>` nodes. Can be used to attract particles towards its origin, or to push them away from its origin.
+Un attracteur en forme de boîte qui influence les particules de nœuds :ref:`GPUParticles3D<class_GPUParticles3D>`. Peut être utilisé pour attirer des particules vers son origine, ou pour les pousser hors de son origine.
 
-Particle attractors work in real-time and can be moved, rotated and scaled during gameplay. Unlike collision shapes, non-uniform scaling of attractors is also supported.
+Les attracteurs de particules fonctionnent en temps réel et peuvent être déplacés, tournés et redimensionnés pendant le gameplay. Contrairement aux formes de collision, les attracteurs à échelle non uniformes sont également supportés.
 
-\ **Note:** Particle attractors only affect :ref:`GPUParticles3D<class_GPUParticles3D>`, not :ref:`CPUParticles3D<class_CPUParticles3D>`.
+\ **Note :** Les attracteurs de particules n'affectent que :ref:`GPUParticles3D<class_GPUParticles3D>`, pas :ref:`CPUParticles3D<class_CPUParticles3D>`.
 
 .. rst-class:: classref-reftable-group
 

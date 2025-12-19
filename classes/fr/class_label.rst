@@ -17,7 +17,7 @@ Un contrôle pour afficher du texte brut.
 Description
 -----------
 
-Un contrôle pour afficher du texte brut. Il vous donne le contrôle de l'alignement horizontal et vertical et peut faire un retour à la ligne automatique du texte à l'intérieur du rectangle délimitant du noeud. Il ne supporte pas le gras, l'italique ou autre formatage de texte avancé. Pour cela, utilisez :ref:`RichTextLabel<class_RichTextLabel>` à la place.
+Un contrôle pour afficher du texte brut. Il vous donne le contrôle de l'alignement horizontal et vertical et peut faire un retour à la ligne automatique du texte à l'intérieur du rectangle délimitant du nœud. Il ne supporte pas le gras, l'italique ou autre formatage de texte avancé. Pour cela, utilisez :ref:`RichTextLabel<class_RichTextLabel>` à la place.
 
 .. rst-class:: classref-introduction-group
 
@@ -160,7 +160,7 @@ Descriptions des propriétés
 - |void| **set_autowrap_mode**\ (\ value\: :ref:`AutowrapMode<enum_TextServer_AutowrapMode>`\ )
 - :ref:`AutowrapMode<enum_TextServer_AutowrapMode>` **get_autowrap_mode**\ (\ )
 
-If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, the text gets wrapped inside the node's bounding rectangle. If you resize the node, it will change its height automatically to show all the text.
+Si défini à quelque chose d'autre que :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_constant_AUTOWRAP_OFF>`, le texte retourne automatiquement à la ligne dans le rectangle délimitant du nœud. Si vous redimensionnez le nœud, il va changer sa hauteur automatiquement pour afficher tout le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -177,7 +177,7 @@ If set to something other than :ref:`TextServer.AUTOWRAP_OFF<class_TextServer_co
 - |void| **set_autowrap_trim_flags**\ (\ value\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\]\ )
 - |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] **get_autowrap_trim_flags**\ (\ )
 
-Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` and :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` for more info.
+Drapeaux de trimming des espaces en autowrap. Voir :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_START_EDGE_SPACES>` et :ref:`TextServer.BREAK_TRIM_END_EDGE_SPACES<class_TextServer_constant_BREAK_TRIM_END_EDGE_SPACES>` pour plus d'informations.
 
 .. rst-class:: classref-item-separator
 
@@ -194,7 +194,7 @@ Autowrap space trimming flags. See :ref:`TextServer.BREAK_TRIM_START_EDGE_SPACES
 - |void| **set_clip_text**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_clipping_text**\ (\ )
 
-If ``true``, the Label only shows the text that fits inside its bounding rectangle and will clip text horizontally.
+Si ``true``, le Label n'affiche que le texte qui rentre à l'intérieur de son rectangle délimitant et coupera le texte horizontalement.
 
 .. rst-class:: classref-item-separator
 
@@ -211,7 +211,7 @@ If ``true``, the Label only shows the text that fits inside its bounding rectang
 - |void| **set_ellipsis_char**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_ellipsis_char**\ (\ )
 
-Ellipsis character used for text clipping.
+Caractère d’ellipse utilisé pour tronquer du texte.
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ Ellipsis character used for text clipping.
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Controls the text's horizontal alignment. Supports left, center, right, and fill (also known as justify).
+Contrôle l'alignement horizontal du texte. Supporte à gauche, au centre, à droite, ou remplir (aussi connu comme justifié).
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Controls the text's horizontal alignment. Supports left, center, right, and fill
 - |void| **set_justification_flags**\ (\ value\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ )
 - |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] **get_justification_flags**\ (\ )
 
-Line fill alignment rules.
+Règles d'alignement du remplissage des lignes.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Line fill alignment rules.
 - |void| **set_label_settings**\ (\ value\: :ref:`LabelSettings<class_LabelSettings>`\ )
 - :ref:`LabelSettings<class_LabelSettings>` **get_label_settings**\ (\ )
 
-A :ref:`LabelSettings<class_LabelSettings>` resource that can be shared between multiple **Label** nodes. Takes priority over theme properties.
+Une ressource :ref:`LabelSettings<class_LabelSettings>` qui peut être partagée entre plusieurs nœuds **Label**. Prend la priorité sur les propriétés du thème.
 
 .. rst-class:: classref-item-separator
 
@@ -296,7 +296,7 @@ Code de langue utilisé pour les algorithmes de retour à la ligne et de "text s
 - |void| **set_lines_skipped**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_lines_skipped**\ (\ )
 
-The number of the lines ignored and not displayed from the start of the :ref:`text<class_Label_property_text>` value.
+Le nombre de lignes ignorées et non affichées depuis le début de la valeur de :ref:`text<class_Label_property_text>`.
 
 .. rst-class:: classref-item-separator
 
@@ -330,7 +330,7 @@ Limite le nombre de lignes de texte que le nœud affiche à l'écran.
 - |void| **set_paragraph_separator**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_paragraph_separator**\ (\ )
 
-String used as a paragraph separator. Each paragraph is processed independently, in its own BiDi context.
+Chaîne utilisée comme séparateur de paragraphe. Chaque paragraphe est traité indépendamment, dans son propre contexte BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -347,7 +347,7 @@ String used as a paragraph separator. Each paragraph is processed independently,
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Set BiDi algorithm override for the structured text.
+Définit la redéfinition de l'algorithme BiDi pour le texte structuré.
 
 .. rst-class:: classref-item-separator
 
@@ -364,7 +364,7 @@ Set BiDi algorithm override for the structured text.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Set additional options for BiDi override.
+Définit des options supplémentaires pour la redéfinition BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -434,7 +434,7 @@ Direction d'écriture du texte de base.
 - |void| **set_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_text_overrun_behavior**\ (\ )
 
-The clipping behavior when the text exceeds the node's bounding rectangle.
+Le comportement de coupure lorsque le texte dépasse le rectangle délimitant du nœud.
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ Si ``true``, tous les textes seront en MAJUSCULE.
 - |void| **set_vertical_alignment**\ (\ value\: :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>`\ )
 - :ref:`VerticalAlignment<enum_@GlobalScope_VerticalAlignment>` **get_vertical_alignment**\ (\ )
 
-Controls the text's vertical alignment. Supports top, center, bottom, and fill.
+Contrôle l'alignement vertical du texte. Supporte en haut, au centre, en bas et remplir.
 
 .. rst-class:: classref-item-separator
 
@@ -485,11 +485,11 @@ Controls the text's vertical alignment. Supports top, center, bottom, and fill.
 - |void| **set_visible_characters**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_visible_characters**\ (\ )
 
-The number of characters to display. If set to ``-1``, all characters are displayed. This can be useful when animating the text appearing in a dialog box.
+Le nombre de caractères à afficher. Si défini à ``-1``, tous les caractères sont affichés. Cela peut être utile lors de l'animation d'un texte apparaissant dans une boîte de dialogue.
 
-\ **Note:** Setting this property updates :ref:`visible_ratio<class_Label_property_visible_ratio>` accordingly.
+\ **Note :** Définir cette propriété met à jour :ref:`visible_ratio<class_Label_property_visible_ratio>` en conséquence.
 
-\ **Note:** Characters are counted as Unicode codepoints. A single visible grapheme may contain multiple codepoints (e.g. certain emoji use three codepoints). A single codepoint may contain two UTF-16 characters, which are used in C# strings.
+\ **Note :** Les caractères sont comptés comme des codes Unicode. Un seul graphème visible peut contenir plusieurs points de code (par exemple, certains emojis utilisent trois points de code). Un seul point de code peut contenir deux caractères UTF-16, qui sont utilisés dans les chaînes C#.
 
 .. rst-class:: classref-item-separator
 
@@ -506,7 +506,7 @@ The number of characters to display. If set to ``-1``, all characters are displa
 - |void| **set_visible_characters_behavior**\ (\ value\: :ref:`VisibleCharactersBehavior<enum_TextServer_VisibleCharactersBehavior>`\ )
 - :ref:`VisibleCharactersBehavior<enum_TextServer_VisibleCharactersBehavior>` **get_visible_characters_behavior**\ (\ )
 
-The clipping behavior when :ref:`visible_characters<class_Label_property_visible_characters>` or :ref:`visible_ratio<class_Label_property_visible_ratio>` is set.
+Le comportement de coupure lorsque :ref:`visible_characters<class_Label_property_visible_characters>` ou :ref:`visible_ratio<class_Label_property_visible_ratio>` est défini.
 
 .. rst-class:: classref-item-separator
 
@@ -523,9 +523,9 @@ The clipping behavior when :ref:`visible_characters<class_Label_property_visible
 - |void| **set_visible_ratio**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_visible_ratio**\ (\ )
 
-The fraction of characters to display, relative to the total number of characters (see :ref:`get_total_character_count()<class_Label_method_get_total_character_count>`). If set to ``1.0``, all characters are displayed. If set to ``0.5``, only half of the characters will be displayed. This can be useful when animating the text appearing in a dialog box.
+La fraction des caractères à afficher, par rapport au nombre total de caractères (voir :ref:`get_total_character_count()<class_Label_method_get_total_character_count>`). Si défini à ``1.0``, tous les caractères sont affichés. Si défini à ``0.5``, seulement la moitié des caractères seront affichés. Cela peut être utile lors de l'animation du texte apparaissant dans une boîte de dialogue.
 
-\ **Note:** Setting this property updates :ref:`visible_characters<class_Label_property_visible_characters>` accordingly.
+\ **Note :** Définir cette propriété met à jour :ref:`visible_characters<class_Label_property_visible_characters>` en conséquence.
 
 .. rst-class:: classref-section-separator
 
@@ -566,11 +566,11 @@ Renvoie le nombre de lignes de texte qu'a le Label.
 
 :ref:`int<class_int>` **get_line_height**\ (\ line\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_Label_method_get_line_height>`
 
-Returns the height of the line ``line``.
+Renvoie la hauteur de la ligne ``line``.
 
-If ``line`` is set to ``-1``, returns the biggest line height.
+Si ``line`` est définie à ``-1``, renvoie la plus grande hauteur de ligne.
 
-If there are no lines, returns font size in pixels.
+S'il n'y a pas de lignes, renvoie la taille de police en pixels.
 
 .. rst-class:: classref-item-separator
 
@@ -647,7 +647,7 @@ La :ref:`Color<class_Color>` de l'ombre du texte.
 
 :ref:`int<class_int>` **line_spacing** = ``3`` :ref:`🔗<class_Label_theme_constant_line_spacing>`
 
-Additional vertical spacing between lines (in pixels), spacing is added to line descent. This value can be negative.
+Espacement vertical supplémentaire entre les lignes (en pixels), l'espacement est ajouté à la descente de la ligne. Cette valeur peut être négative.
 
 .. rst-class:: classref-item-separator
 
@@ -659,11 +659,11 @@ Additional vertical spacing between lines (in pixels), spacing is added to line 
 
 :ref:`int<class_int>` **outline_size** = ``0`` :ref:`🔗<class_Label_theme_constant_outline_size>`
 
-Text outline size.
+Taille du contour du texte.
 
-\ **Note:** If using a font with :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` enabled, its :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` must be set to at least *twice* the value of :ref:`outline_size<class_Label_theme_constant_outline_size>` for outline rendering to look correct. Otherwise, the outline may appear to be cut off earlier than intended.
+\ **Note :** Si vous utilisez une police avec :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` activé, sa propriété :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` doit être définie à au moins *deux fois* la valeur de :ref:`outline_size<class_Label_theme_constant_outline_size>` pour que le rendu des contours soit correct. Sinon, le contour peut sembler coupé plus tôt que prévu.
 
-\ **Note:** Using a value that is larger than half the font size is not recommended, as the font outline may fail to be fully closed in this case.
+\ **Note :** L'utilisation d'une valeur supérieure à la moitié de la taille de la police n'est pas recommandée, car le contour de la police peut échouer à être entièrement fermé dans ce cas.
 
 .. rst-class:: classref-item-separator
 
@@ -675,7 +675,7 @@ Text outline size.
 
 :ref:`int<class_int>` **paragraph_spacing** = ``0`` :ref:`🔗<class_Label_theme_constant_paragraph_spacing>`
 
-Vertical space between paragraphs. Added on top of :ref:`line_spacing<class_Label_theme_constant_line_spacing>`.
+Espace vertical entre les paragraphes. Ajouté en plus de :ref:`line_spacing<class_Label_theme_constant_line_spacing>`.
 
 .. rst-class:: classref-item-separator
 
@@ -711,7 +711,7 @@ Le décalage vertical de l'ombre du texte.
 
 :ref:`int<class_int>` **shadow_outline_size** = ``1`` :ref:`🔗<class_Label_theme_constant_shadow_outline_size>`
 
-The size of the shadow outline.
+La taille du contour d'ombre.
 
 .. rst-class:: classref-item-separator
 
@@ -747,7 +747,7 @@ Taille de police du texte de **Label**.
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_Label_theme_style_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **Label** is focused (when used with assistive apps).
+:ref:`StyleBox<class_StyleBox>` utilisé quand le **Label** a le focus (lorsqu'utilisé avec des applications d’assistance).
 
 .. rst-class:: classref-item-separator
 

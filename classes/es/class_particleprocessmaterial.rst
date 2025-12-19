@@ -263,9 +263,9 @@ Señales
 
 **emission_shape_changed**\ (\ ) :ref:`🔗<class_ParticleProcessMaterial_signal_emission_shape_changed>`
 
-Emitted when this material's emission shape is changed in any way. This includes changes to :ref:`emission_shape<class_ParticleProcessMaterial_property_emission_shape>`, :ref:`emission_shape_scale<class_ParticleProcessMaterial_property_emission_shape_scale>`, or :ref:`emission_sphere_radius<class_ParticleProcessMaterial_property_emission_sphere_radius>`, and any other property that affects the emission shape's offset, size, scale, or orientation.
+Emitida cuando la forma de emisión de este material se cambia de alguna manera. Esto incluye cambios en :ref:`emission_shape<class_ParticleProcessMaterial_property_emission_shape>`, :ref:`emission_shape_scale<class_ParticleProcessMaterial_property_emission_shape_scale>` o :ref:`emission_sphere_radius<class_ParticleProcessMaterial_property_emission_sphere_radius>`, y cualquier otra propiedad que afecte el desplazamiento, el tamaño, la escala o la orientación de la forma de emisión.
 
-\ **Note:** This signal is only emitted inside the editor for performance reasons.
+\ **Nota:** Esta señal solo se emite dentro del editor por razones de rendimiento.
 
 .. rst-class:: classref-section-separator
 
@@ -368,7 +368,7 @@ Utilízalo con :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_pa
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_ANIM_SPEED** = ``10``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>`, and :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` to set animation speed properties.
+Utiliza :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` y :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` para establecer las propiedades de la velocidad de animación.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_ANIM_OFFSET:
 
@@ -376,7 +376,7 @@ Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_mi
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_ANIM_OFFSET** = ``11``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>`, and :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` to set animation offset properties.
+Utiliza :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` y :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` para establecer las propiedades del desplazamiento de la animación.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_RADIAL_VELOCITY:
 
@@ -384,7 +384,7 @@ Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_mi
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_RADIAL_VELOCITY** = ``15``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>`, and :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` to set radial velocity properties.
+Utiliza :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` y :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` para establecer las propiedades de la velocidad radial.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_DIRECTIONAL_VELOCITY:
 
@@ -392,7 +392,7 @@ Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_mi
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_DIRECTIONAL_VELOCITY** = ``16``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>`, and :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` to set directional velocity properties.
+Utiliza :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` y :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` para establecer las propiedades de la velocidad direccional.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_SCALE_OVER_VELOCITY:
 
@@ -400,7 +400,7 @@ Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_mi
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_SCALE_OVER_VELOCITY** = ``17``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>`, and :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` to set scale over velocity properties.
+Utiliza :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>`, :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` y :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` para establecer las propiedades de la escala sobre la velocidad.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_MAX:
 
@@ -416,7 +416,7 @@ Representa el tamaño del enumerado :ref:`Parameter<enum_ParticleProcessMaterial
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_TURB_VEL_INFLUENCE** = ``13``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>` and :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` to set the turbulence minimum und maximum influence on each particles velocity.
+Utiliza :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>` y :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` para establecer la influencia mínima y máxima de la turbulencia en la velocidad de cada partícula.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_TURB_INIT_DISPLACEMENT:
 
@@ -424,7 +424,7 @@ Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_mi
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_TURB_INIT_DISPLACEMENT** = ``14``
 
-Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>` and :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` to set the turbulence minimum and maximum displacement of the particles spawn position.
+Utilízalo con :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_min>` y :ref:`set_param_max()<class_ParticleProcessMaterial_method_set_param_max>` para establecer el desplazamiento mínimo y máximo de turbulencia de la posición de aparición de las partículas.
 
 .. _class_ParticleProcessMaterial_constant_PARAM_TURB_INFLUENCE_OVER_LIFE:
 
@@ -432,7 +432,7 @@ Use with :ref:`set_param_min()<class_ParticleProcessMaterial_method_set_param_mi
 
 :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` **PARAM_TURB_INFLUENCE_OVER_LIFE** = ``12``
 
-Use with :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` to set the turbulence influence over the particles life time.
+Utiliza :ref:`set_param_texture()<class_ParticleProcessMaterial_method_set_param_texture>` para establecer la influencia de la turbulencia sobre la vida útil de las partículas.
 
 .. rst-class:: classref-item-separator
 
@@ -656,7 +656,7 @@ enum **CollisionMode**: :ref:`🔗<enum_ParticleProcessMaterial_CollisionMode>`
 
 :ref:`CollisionMode<enum_ParticleProcessMaterial_CollisionMode>` **COLLISION_DISABLED** = ``0``
 
-No collision for particles. Particles will go through :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>` nodes.
+Sin colisión para las partículas. Las partículas atravesarán los nodos :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>`.
 
 .. _class_ParticleProcessMaterial_constant_COLLISION_RIGID:
 
@@ -664,7 +664,7 @@ No collision for particles. Particles will go through :ref:`GPUParticlesCollisio
 
 :ref:`CollisionMode<enum_ParticleProcessMaterial_CollisionMode>` **COLLISION_RIGID** = ``1``
 
-:ref:`RigidBody3D<class_RigidBody3D>`-style collision for particles using :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>` nodes.
+Colisión al estilo :ref:`RigidBody3D<class_RigidBody3D>` para partículas usando nodos :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>`.
 
 .. _class_ParticleProcessMaterial_constant_COLLISION_HIDE_ON_CONTACT:
 
@@ -672,7 +672,7 @@ No collision for particles. Particles will go through :ref:`GPUParticlesCollisio
 
 :ref:`CollisionMode<enum_ParticleProcessMaterial_CollisionMode>` **COLLISION_HIDE_ON_CONTACT** = ``2``
 
-Hide particles instantly when colliding with a :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>` node. This can be combined with a subemitter that uses the :ref:`COLLISION_RIGID<class_ParticleProcessMaterial_constant_COLLISION_RIGID>` collision mode to "replace" the parent particle with the subemitter on impact.
+Oculta las partículas instantáneamente al colisionar con un nodo :ref:`GPUParticlesCollision3D<class_GPUParticlesCollision3D>`. Esto se puede combinar con un subemisor que utilice el modo de colisión :ref:`COLLISION_RIGID<class_ParticleProcessMaterial_constant_COLLISION_RIGID>` para "reemplazar" la partícula principal con el subemisor al impactar.
 
 .. _class_ParticleProcessMaterial_constant_COLLISION_MAX:
 
@@ -1516,7 +1516,7 @@ El tono de cada partícula variará a lo largo de esta :ref:`CurveTexture<class_
 - |void| **set_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Maximum initial hue variation applied to each particle. It will shift the particle color's hue.
+Variación máxima inicial de tono aplicada a cada partícula. Desplazará el tono del color de la partícula.
 
 .. rst-class:: classref-item-separator
 
@@ -1955,7 +1955,7 @@ Equivalente mínimo de :ref:`scale_max<class_ParticleProcessMaterial_property_sc
 - |void| **set_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, texture\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Either a :ref:`CurveTexture<class_CurveTexture>` or a :ref:`CurveXYZTexture<class_CurveXYZTexture>` that scales each particle based on its velocity.
+Ya sea una :ref:`CurveTexture<class_CurveTexture>` o una :ref:`CurveXYZTexture<class_CurveXYZTexture>` que escala cada partícula en función de su velocidad.
 
 .. rst-class:: classref-item-separator
 
@@ -1972,9 +1972,9 @@ Either a :ref:`CurveTexture<class_CurveTexture>` or a :ref:`CurveXYZTexture<clas
 - |void| **set_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Maximum velocity value reference for :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>`.
+Valor máximo de referencia de la velocidad para :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>`.
 
-\ :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>` will be interpolated between :ref:`scale_over_velocity_min<class_ParticleProcessMaterial_property_scale_over_velocity_min>` and :ref:`scale_over_velocity_max<class_ParticleProcessMaterial_property_scale_over_velocity_max>`.
+\ :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>` se interpolará entre :ref:`scale_over_velocity_min<class_ParticleProcessMaterial_property_scale_over_velocity_min>` y :ref:`scale_over_velocity_max<class_ParticleProcessMaterial_property_scale_over_velocity_max>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1991,9 +1991,9 @@ Maximum velocity value reference for :ref:`scale_over_velocity_curve<class_Parti
 - |void| **set_param_min**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_min**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Minimum velocity value reference for :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>`.
+Valor mínimo de referencia de la velocidad para :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>`.
 
-\ :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>` will be interpolated between :ref:`scale_over_velocity_min<class_ParticleProcessMaterial_property_scale_over_velocity_min>` and :ref:`scale_over_velocity_max<class_ParticleProcessMaterial_property_scale_over_velocity_max>`.
+\ :ref:`scale_over_velocity_curve<class_ParticleProcessMaterial_property_scale_over_velocity_curve>` se interpolará entre :ref:`scale_over_velocity_min<class_ParticleProcessMaterial_property_scale_over_velocity_min>` y :ref:`scale_over_velocity_max<class_ParticleProcessMaterial_property_scale_over_velocity_max>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2027,9 +2027,9 @@ La dirección inicial de cada partícula va desde ``+spread`` hasta ``-spread`` 
 - |void| **set_sub_emitter_amount_at_collision**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_sub_emitter_amount_at_collision**\ (\ )
 
-The amount of particles to spawn from the subemitter node when a collision occurs. When combined with :ref:`COLLISION_HIDE_ON_CONTACT<class_ParticleProcessMaterial_constant_COLLISION_HIDE_ON_CONTACT>` on the main particles material, this can be used to achieve effects such as raindrops hitting the ground.
+La cantidad de partículas que se generarán desde el nodo subemisor cuando ocurre una colisión. Cuando se combina con :ref:`COLLISION_HIDE_ON_CONTACT<class_ParticleProcessMaterial_constant_COLLISION_HIDE_ON_CONTACT>` en el material de partículas principal, esto se puede usar para lograr efectos como gotas de lluvia golpeando el suelo.
 
-\ **Note:** This value shouldn't exceed :ref:`GPUParticles2D.amount<class_GPUParticles2D_property_amount>` or :ref:`GPUParticles3D.amount<class_GPUParticles3D_property_amount>` defined on the *subemitter node* (not the main node), relative to the subemitter's particle lifetime. If the number of particles is exceeded, no new particles will spawn from the subemitter until enough particles have expired.
+\ **Nota:** Este valor no debe exceder :ref:`GPUParticles2D.amount<class_GPUParticles2D_property_amount>` o :ref:`GPUParticles3D.amount<class_GPUParticles3D_property_amount>` definido en el *nodo subemisor* (no en el nodo principal), en relación con la vida útil de la partícula del subemisor. Si se excede el número de partículas, no se generarán nuevas partículas desde el subemisor hasta que hayan expirado suficientes partículas.
 
 .. rst-class:: classref-item-separator
 
@@ -2046,9 +2046,9 @@ The amount of particles to spawn from the subemitter node when a collision occur
 - |void| **set_sub_emitter_amount_at_end**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_sub_emitter_amount_at_end**\ (\ )
 
-The amount of particles to spawn from the subemitter node when the particle expires.
+La cantidad de partículas que se generarán desde el nodo subemisor cuando la partícula expira.
 
-\ **Note:** This value shouldn't exceed :ref:`GPUParticles2D.amount<class_GPUParticles2D_property_amount>` or :ref:`GPUParticles3D.amount<class_GPUParticles3D_property_amount>` defined on the *subemitter node* (not the main node), relative to the subemitter's particle lifetime. If the number of particles is exceeded, no new particles will spawn from the subemitter until enough particles have expired.
+\ **Nota:** Este valor no debe exceder :ref:`GPUParticles2D.amount<class_GPUParticles2D_property_amount>` o :ref:`GPUParticles3D.amount<class_GPUParticles3D_property_amount>` definido en el *nodo subemisor* (no en el nodo principal), en relación con la vida útil de la partícula del subemisor. Si se excede el número de partículas, no se generarán nuevas partículas desde el subemisor hasta que hayan expirado suficientes partículas.
 
 .. rst-class:: classref-item-separator
 
@@ -2120,7 +2120,7 @@ If ``true``, the subemitter inherits the parent particle's velocity when it spaw
 - |void| **set_sub_emitter_mode**\ (\ value\: :ref:`SubEmitterMode<enum_ParticleProcessMaterial_SubEmitterMode>`\ )
 - :ref:`SubEmitterMode<enum_ParticleProcessMaterial_SubEmitterMode>` **get_sub_emitter_mode**\ (\ )
 
-The particle subemitter mode (see :ref:`GPUParticles2D.sub_emitter<class_GPUParticles2D_property_sub_emitter>` and :ref:`GPUParticles3D.sub_emitter<class_GPUParticles3D_property_sub_emitter>`).
+El modo de subemisor de partículas (véase :ref:`GPUParticles2D.sub_emitter<class_GPUParticles2D_property_sub_emitter>` y :ref:`GPUParticles3D.sub_emitter<class_GPUParticles3D_property_sub_emitter>`).
 
 .. rst-class:: classref-item-separator
 
@@ -2262,9 +2262,9 @@ Each particle's amount of turbulence will be influenced along this :ref:`CurveTe
 - |void| **set_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_max**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Maximum displacement of each particle's spawn position by the turbulence.
+Máximo desplazamiento de la posición de aparición de cada partícula por la turbulencia.
 
-The actual amount of displacement will be a factor of the underlying turbulence multiplied by a random value between :ref:`turbulence_initial_displacement_min<class_ParticleProcessMaterial_property_turbulence_initial_displacement_min>` and :ref:`turbulence_initial_displacement_max<class_ParticleProcessMaterial_property_turbulence_initial_displacement_max>`.
+La cantidad real de desplazamiento será un factor de la turbulencia subyacente multiplicado por un valor aleatorio entre :ref:`turbulence_initial_displacement_min<class_ParticleProcessMaterial_property_turbulence_initial_displacement_min>` y :ref:`turbulence_initial_displacement_max<class_ParticleProcessMaterial_property_turbulence_initial_displacement_max>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2281,9 +2281,9 @@ The actual amount of displacement will be a factor of the underlying turbulence 
 - |void| **set_param_min**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_param_min**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const|
 
-Minimum displacement of each particle's spawn position by the turbulence.
+Mínimo desplazamiento de la posición de aparición de cada partícula por la turbulencia.
 
-The actual amount of displacement will be a factor of the underlying turbulence multiplied by a random value between :ref:`turbulence_initial_displacement_min<class_ParticleProcessMaterial_property_turbulence_initial_displacement_min>` and :ref:`turbulence_initial_displacement_max<class_ParticleProcessMaterial_property_turbulence_initial_displacement_max>`.
+La cantidad real de desplazamiento será un factor de la turbulencia subyacente multiplicado por un valor aleatorio entre :ref:`turbulence_initial_displacement_min<class_ParticleProcessMaterial_property_turbulence_initial_displacement_min>` y :ref:`turbulence_initial_displacement_max<class_ParticleProcessMaterial_property_turbulence_initial_displacement_max>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2300,9 +2300,9 @@ The actual amount of displacement will be a factor of the underlying turbulence 
 - |void| **set_turbulence_noise_scale**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_turbulence_noise_scale**\ (\ )
 
-This value controls the overall scale/frequency of the turbulence noise pattern.
+Este valor controla la escala/frecuencia general del patrón de ruido de turbulencia.
 
-A small scale will result in smaller features with more detail while a high scale will result in smoother noise with larger features.
+Una escala pequeña dará como resultado características más pequeñas con más detalle, mientras que una escala alta dará como resultado un ruido más suave con características más grandes.
 
 .. rst-class:: classref-item-separator
 
@@ -2319,9 +2319,9 @@ A small scale will result in smaller features with more detail while a high scal
 - |void| **set_turbulence_noise_speed**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_turbulence_noise_speed**\ (\ )
 
-A scrolling velocity for the turbulence field. This sets a directional trend for the pattern to move in over time.
+Una velocidad de desplazamiento para el campo de turbulencia. Esto establece una tendencia direccional para que el patrón se mueva con el tiempo.
 
-The default value of ``Vector3(0, 0, 0)`` turns off the scrolling.
+El valor predeterminado de ``Vector3(0, 0, 0)`` desactiva el desplazamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -2357,7 +2357,7 @@ A value of 0.0 will result in a fixed pattern.
 - |void| **set_turbulence_noise_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_turbulence_noise_strength**\ (\ )
 
-The turbulence noise strength. Increasing this will result in a stronger, more contrasting, flow pattern.
+La fuerza del ruido de la turbulencia. Aumentar esto resultará en un patrón de flujo más fuerte y contrastado.
 
 .. rst-class:: classref-item-separator
 
@@ -2374,7 +2374,7 @@ The turbulence noise strength. Increasing this will result in a stronger, more c
 - |void| **set_velocity_limit_curve**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_velocity_limit_curve**\ (\ )
 
-A :ref:`CurveTexture<class_CurveTexture>` that defines the maximum velocity of a particle during its lifetime.
+Una :ref:`CurveTexture<class_CurveTexture>` que define la velocidad máxima de una partícula durante su vida útil.
 
 .. rst-class:: classref-item-separator
 
@@ -2391,7 +2391,7 @@ A :ref:`CurveTexture<class_CurveTexture>` that defines the maximum velocity of a
 - |void| **set_velocity_pivot**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity_pivot**\ (\ )
 
-A pivot point used to calculate radial and orbital velocity of particles.
+Un punto de pivote utilizado para calcular la velocidad radial y orbital de las partículas.
 
 .. rst-class:: classref-section-separator
 
@@ -2408,9 +2408,9 @@ Descripciones de Métodos
 
 :ref:`Vector2<class_Vector2>` **get_param**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const| :ref:`🔗<class_ParticleProcessMaterial_method_get_param>`
 
-Returns the minimum and maximum values of the given ``param`` as a vector.
+Devuelve los valores mínimo y máximo del ``param`` dado como un vector.
 
-The ``x`` component of the returned vector corresponds to minimum and the ``y`` component corresponds to maximum.
+El componente ``x`` del vector devuelto corresponde al mínimo y el componente ``y`` corresponde al máximo.
 
 .. rst-class:: classref-item-separator
 
@@ -2446,7 +2446,7 @@ Devuelve el rango de valores mínimo para el parámetro dado.
 
 :ref:`Texture2D<class_Texture2D>` **get_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`\ ) |const| :ref:`🔗<class_ParticleProcessMaterial_method_get_param_texture>`
 
-Returns the :ref:`Texture2D<class_Texture2D>` used by the specified parameter.
+Devuelve la :ref:`Texture2D<class_Texture2D>` utilizada por el parámetro especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -2458,7 +2458,7 @@ Returns the :ref:`Texture2D<class_Texture2D>` used by the specified parameter.
 
 :ref:`bool<class_bool>` **get_particle_flag**\ (\ particle_flag\: :ref:`ParticleFlags<enum_ParticleProcessMaterial_ParticleFlags>`\ ) |const| :ref:`🔗<class_ParticleProcessMaterial_method_get_particle_flag>`
 
-Returns ``true`` if the specified particle flag is enabled.
+Devuelve ``true`` si la bandera de partícula especificada está habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -2470,9 +2470,9 @@ Returns ``true`` if the specified particle flag is enabled.
 
 |void| **set_param**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, value\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_ParticleProcessMaterial_method_set_param>`
 
-Sets the minimum and maximum values of the given ``param``.
+Establece los valores mínimo y máximo del ``param`` dado.
 
-The ``x`` component of the argument vector corresponds to minimum and the ``y`` component corresponds to maximum.
+El componente ``x`` del vector argumento corresponde al mínimo y el componente ``y`` corresponde al máximo.
 
 .. rst-class:: classref-item-separator
 
@@ -2508,7 +2508,7 @@ Establece el rango de valores mínimo para el parámetro dado.
 
 |void| **set_param_texture**\ (\ param\: :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`, texture\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_ParticleProcessMaterial_method_set_param_texture>`
 
-Sets the :ref:`Texture2D<class_Texture2D>` for the specified :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>`.
+Establece la :ref:`Texture2D<class_Texture2D>` para el :ref:`Parameter<enum_ParticleProcessMaterial_Parameter>` especificado.
 
 .. rst-class:: classref-item-separator
 

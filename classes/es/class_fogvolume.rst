@@ -7,25 +7,25 @@ FogVolume
 
 **Hereda:** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A region that contributes to the default volumetric fog from the world environment.
+Una región que contribuye a la niebla volumétrica predeterminada del entorno mundial.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**FogVolume**\ s are used to add localized fog into the global volumetric fog effect. **FogVolume**\ s can also remove volumetric fog from specific areas if using a :ref:`FogMaterial<class_FogMaterial>` with a negative :ref:`FogMaterial.density<class_FogMaterial_property_density>`.
+Los **FogVolume**\ s se utilizan para añadir niebla localizada al efecto de niebla volumétrica global. Los **FogVolume**\ s también pueden eliminar la niebla volumétrica de áreas específicas si se utiliza un :ref:`FogMaterial<class_FogMaterial>` con una :ref:`FogMaterial.density<class_FogMaterial_property_density>` negativa.
 
-Performance of **FogVolume**\ s is directly related to their relative size on the screen and the complexity of their attached :ref:`FogMaterial<class_FogMaterial>`. It is best to keep **FogVolume**\ s relatively small and simple where possible.
+El rendimiento de los **FogVolume**\ s está directamente relacionado con su tamaño relativo en la pantalla y la complejidad de su :ref:`FogMaterial<class_FogMaterial>` adjunto. Es mejor mantener los **FogVolume**\ s relativamente pequeños y simples siempre que sea posible.
 
-\ **Note:** **FogVolume**\ s only have a visible effect if :ref:`Environment.volumetric_fog_enabled<class_Environment_property_volumetric_fog_enabled>` is ``true``. If you don't want fog to be globally visible (but only within **FogVolume** nodes), set :ref:`Environment.volumetric_fog_density<class_Environment_property_volumetric_fog_density>` to ``0.0``.
+\ **Nota:** Los **FogVolume**\ s solo tienen un efecto visible si :ref:`Environment.volumetric_fog_enabled<class_Environment_property_volumetric_fog_enabled>` es ``true``. Si no quieres que la niebla sea globalmente visible (pero solo dentro de los nodos **FogVolume**), establece :ref:`Environment.volumetric_fog_density<class_Environment_property_volumetric_fog_density>` a ``0.0``.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriales
 --------------------
 
-- :doc:`Volumetric fog and fog volumes <../tutorials/3d/volumetric_fog>`
+- :doc:`Niebla volumétrica y volúmenes de niebla <../tutorials/3d/volumetric_fog>`
 
 .. rst-class:: classref-reftable-group
 
@@ -80,7 +80,7 @@ El :ref:`Material<class_Material>` utilizado por **FogVolume**. Puede ser un :re
 - |void| **set_shape**\ (\ value\: :ref:`FogVolumeShape<enum_RenderingServer_FogVolumeShape>`\ )
 - :ref:`FogVolumeShape<enum_RenderingServer_FogVolumeShape>` **get_shape**\ (\ )
 
-The shape of the **FogVolume**. This can be set to either :ref:`RenderingServer.FOG_VOLUME_SHAPE_ELLIPSOID<class_RenderingServer_constant_FOG_VOLUME_SHAPE_ELLIPSOID>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CONE<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CONE>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CYLINDER<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CYLINDER>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_BOX<class_RenderingServer_constant_FOG_VOLUME_SHAPE_BOX>` or :ref:`RenderingServer.FOG_VOLUME_SHAPE_WORLD<class_RenderingServer_constant_FOG_VOLUME_SHAPE_WORLD>`.
+La forma del **FogVolume**. Esto se puede establecer en :ref:`RenderingServer.FOG_VOLUME_SHAPE_ELLIPSOID<class_RenderingServer_constant_FOG_VOLUME_SHAPE_ELLIPSOID>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CONE<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CONE>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CYLINDER<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CYLINDER>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_BOX<class_RenderingServer_constant_FOG_VOLUME_SHAPE_BOX>` o :ref:`RenderingServer.FOG_VOLUME_SHAPE_WORLD<class_RenderingServer_constant_FOG_VOLUME_SHAPE_WORLD>`.
 
 .. rst-class:: classref-item-separator
 
@@ -97,11 +97,11 @@ The shape of the **FogVolume**. This can be set to either :ref:`RenderingServer.
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The size of the **FogVolume** when :ref:`shape<class_FogVolume_property_shape>` is :ref:`RenderingServer.FOG_VOLUME_SHAPE_ELLIPSOID<class_RenderingServer_constant_FOG_VOLUME_SHAPE_ELLIPSOID>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CONE<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CONE>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CYLINDER<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CYLINDER>` or :ref:`RenderingServer.FOG_VOLUME_SHAPE_BOX<class_RenderingServer_constant_FOG_VOLUME_SHAPE_BOX>`.
+El tamaño del **FogVolume** cuando :ref:`shape<class_FogVolume_property_shape>` es :ref:`RenderingServer.FOG_VOLUME_SHAPE_ELLIPSOID<class_RenderingServer_constant_FOG_VOLUME_SHAPE_ELLIPSOID>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CONE<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CONE>`, :ref:`RenderingServer.FOG_VOLUME_SHAPE_CYLINDER<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CYLINDER>` o :ref:`RenderingServer.FOG_VOLUME_SHAPE_BOX<class_RenderingServer_constant_FOG_VOLUME_SHAPE_BOX>`.
 
-\ **Note:** Thin fog volumes may appear to flicker when the camera moves or rotates. This can be alleviated by increasing :ref:`ProjectSettings.rendering/environment/volumetric_fog/volume_depth<class_ProjectSettings_property_rendering/environment/volumetric_fog/volume_depth>` (at a performance cost) or by decreasing :ref:`Environment.volumetric_fog_length<class_Environment_property_volumetric_fog_length>` (at no performance cost, but at the cost of lower fog range). Alternatively, the **FogVolume** can be made thicker and use a lower density in the :ref:`material<class_FogVolume_property_material>`.
+\ **Nota:** Los volúmenes de niebla delgados pueden parecer parpadear cuando la cámara se mueve o gira. Esto se puede aliviar aumentando :ref:`ProjectSettings.rendering/environment/volumetric_fog/volume_depth<class_ProjectSettings_property_rendering/environment/volumetric_fog/volume_depth>` (a costa del rendimiento) o disminuyendo :ref:`Environment.volumetric_fog_length<class_Environment_property_volumetric_fog_length>` (sin coste de rendimiento, pero a costa de un menor alcance de la niebla). Alternativamente, el **FogVolume** puede hacerse más grueso y usar una menor densidad en el :ref:`material<class_FogVolume_property_material>`.
 
-\ **Note:** If :ref:`shape<class_FogVolume_property_shape>` is :ref:`RenderingServer.FOG_VOLUME_SHAPE_CONE<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CONE>` or :ref:`RenderingServer.FOG_VOLUME_SHAPE_CYLINDER<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CYLINDER>`, the cone/cylinder will be adjusted to fit within the size. Non-uniform scaling of cone/cylinder shapes via the :ref:`size<class_FogVolume_property_size>` property is not supported, but you can scale the **FogVolume** node instead.
+\ **Nota:** Si :ref:`shape<class_FogVolume_property_shape>` es :ref:`RenderingServer.FOG_VOLUME_SHAPE_CONE<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CONE>` o :ref:`RenderingServer.FOG_VOLUME_SHAPE_CYLINDER<class_RenderingServer_constant_FOG_VOLUME_SHAPE_CYLINDER>`, el cono/cilindro se ajustará para encajar dentro del tamaño. El escalado no uniforme de las formas de cono/cilindro a través de la propiedad :ref:`size<class_FogVolume_property_size>` no es compatible, pero puedes escalar el nodo **FogVolume** en su lugar.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

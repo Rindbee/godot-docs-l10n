@@ -3430,7 +3430,9 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 - |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const|
 
-如果为 ``true``\ ，则启用次表面散射。模拟光线穿透物体表面，被散射，然后出现。次表面散射质量由 :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>` 控制。
+如果为 ``true``\ ，则启用次表面散射。模拟光线先穿透物体表面、被散射、然后出现。次表面散射质量由 :ref:`ProjectSettings.rendering/environment/subsurface_scattering/subsurface_scattering_quality<class_ProjectSettings_property_rendering/environment/subsurface_scattering/subsurface_scattering_quality>` 控制。
+
+\ **注意：**\ 透明背景的的视口不支持次表面散射（\ :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` 为 ``true``\ ）。
 
 .. rst-class:: classref-item-separator
 

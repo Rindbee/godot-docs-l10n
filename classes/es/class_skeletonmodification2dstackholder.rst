@@ -9,16 +9,16 @@ SkeletonModification2DStackHolder
 
 **Hereda:** :ref:`SkeletonModification2D<class_SkeletonModification2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A modification that holds and executes a :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`.
+Una modificación que contiene y ejecuta un :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This :ref:`SkeletonModification2D<class_SkeletonModification2D>` holds a reference to a :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`, allowing you to use multiple modification stacks on a single :ref:`Skeleton2D<class_Skeleton2D>`.
+Este :ref:`SkeletonModification2D<class_SkeletonModification2D>` contiene una referencia a un :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`, lo que te permite usar múltiples pilas de modificación en un solo :ref:`Skeleton2D<class_Skeleton2D>`.
 
-\ **Note:** The modifications in the held :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` will only be executed if their execution mode matches the execution mode of the SkeletonModification2DStackHolder.
+\ **Nota:** Las modificaciones en el :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` contenido solo se ejecutarán si su modo de ejecución coincide con el modo de ejecución del SkeletonModification2DStackHolder.
 
 .. rst-class:: classref-reftable-group
 
@@ -49,7 +49,7 @@ Descripciones de Métodos
 
 :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` **get_held_modification_stack**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DStackHolder_method_get_held_modification_stack>`
 
-Returns the :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` that this modification is holding.
+Devuelve el :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` que esta modificación está conteniendo.
 
 .. rst-class:: classref-item-separator
 
@@ -61,7 +61,7 @@ Returns the :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>
 
 |void| **set_held_modification_stack**\ (\ held_modification_stack\: :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>`\ ) :ref:`🔗<class_SkeletonModification2DStackHolder_method_set_held_modification_stack>`
 
-Sets the :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` that this modification is holding. This modification stack will then be executed when this modification is executed.
+Establece el :ref:`SkeletonModificationStack2D<class_SkeletonModificationStack2D>` que esta modificación está conteniendo. Esta pila de modificación se ejecutará cuando se ejecute esta modificación.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

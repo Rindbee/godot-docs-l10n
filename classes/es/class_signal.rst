@@ -5,7 +5,7 @@
 Signal
 ======
 
-A built-in type representing a signal of an :ref:`Object<class_Object>`.
+Un tipo incorporado que representa una señal de un :ref:`Object<class_Object>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -271,7 +271,7 @@ Descripciones de Constructores
 
 :ref:`Signal<class_Signal>` **Signal**\ (\ ) :ref:`🔗<class_Signal_constructor_Signal>`
 
-Constructs an empty **Signal** with no object nor signal name bound.
+Construye una **Signal** vacía sin ningún objeto ni nombre de señal vinculado.
 
 .. rst-class:: classref-item-separator
 
@@ -281,7 +281,7 @@ Constructs an empty **Signal** with no object nor signal name bound.
 
 :ref:`Signal<class_Signal>` **Signal**\ (\ from\: :ref:`Signal<class_Signal>`\ )
 
-Constructs a **Signal** as a copy of the given **Signal**.
+Construye una **Signal** como copia de la **Signal** dada.
 
 .. rst-class:: classref-item-separator
 
@@ -291,7 +291,7 @@ Constructs a **Signal** as a copy of the given **Signal**.
 
 :ref:`Signal<class_Signal>` **Signal**\ (\ object\: :ref:`Object<class_Object>`, signal\: :ref:`StringName<class_StringName>`\ )
 
-Creates a **Signal** object referencing a signal named ``signal`` in the specified ``object``.
+Crea un objeto **Signal** que hace referencia a una señal llamada ``signal`` en el ``object`` especificado.
 
 .. rst-class:: classref-section-separator
 
@@ -344,7 +344,7 @@ Disconnects this signal from the specified :ref:`Callable<class_Callable>`. If t
 
 |void| **emit**\ (\ ...\ ) |vararg| |const| :ref:`🔗<class_Signal_method_emit>`
 
-Emits this signal. All :ref:`Callable<class_Callable>`\ s connected to this signal will be triggered. This method supports a variable number of arguments, so parameters can be passed as a comma separated list.
+Emite esta señal. Todos los :ref:`Callable<class_Callable>`\ s conectados a esta señal se activarán. Este método admite un número variable de argumentos, por lo que los parámetros se pueden pasar como una lista separada por comas.
 
 .. rst-class:: classref-item-separator
 

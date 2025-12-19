@@ -7,7 +7,7 @@ VisualShaderNodeCubemap
 
 **Hérite de :** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A :ref:`Cubemap<class_Cubemap>` sampling node to be used within the visual shader graph.
+Un nœud d'échantillonnage de :ref:`Cubemap<class_Cubemap>` à utiliser dans le graphe de shader visuel.
 
 .. rst-class:: classref-introduction-group
 
@@ -53,7 +53,7 @@ enum **Source**: :ref:`🔗<enum_VisualShaderNodeCubemap_Source>`
 
 :ref:`Source<enum_VisualShaderNodeCubemap_Source>` **SOURCE_TEXTURE** = ``0``
 
-Use the :ref:`Cubemap<class_Cubemap>` set via :ref:`cube_map<class_VisualShaderNodeCubemap_property_cube_map>`. If this is set to :ref:`source<class_VisualShaderNodeCubemap_property_source>`, the ``samplerCube`` port is ignored.
+Utilise la :ref:`Cubemap<class_Cubemap>` définie via :ref:`cube_map<class_VisualShaderNodeCubemap_property_cube_map>`. Si cela est défini à :ref:`source<class_VisualShaderNodeCubemap_property_source>`, le port ``samplerCube`` est ignoré.
 
 .. _class_VisualShaderNodeCubemap_constant_SOURCE_PORT:
 
@@ -61,7 +61,7 @@ Use the :ref:`Cubemap<class_Cubemap>` set via :ref:`cube_map<class_VisualShaderN
 
 :ref:`Source<enum_VisualShaderNodeCubemap_Source>` **SOURCE_PORT** = ``1``
 
-Use the :ref:`Cubemap<class_Cubemap>` sampler reference passed via the ``samplerCube`` port. If this is set to :ref:`source<class_VisualShaderNodeCubemap_property_source>`, the :ref:`cube_map<class_VisualShaderNodeCubemap_property_cube_map>` texture is ignored.
+Utilise la référence de l'échantillonneur :ref:`Cubemap<class_Cubemap>` passée via le port ``samplerCube``. Si cela est défini à :ref:`source<class_VisualShaderNodeCubemap_property_source>`, la texture :ref:`cube_map<class_VisualShaderNodeCubemap_property_cube_map>` est ignorée.
 
 .. _class_VisualShaderNodeCubemap_constant_SOURCE_MAX:
 
@@ -133,7 +133,7 @@ Descriptions des propriétés
 - |void| **set_cube_map**\ (\ value\: :ref:`TextureLayered<class_TextureLayered>`\ )
 - :ref:`TextureLayered<class_TextureLayered>` **get_cube_map**\ (\ )
 
-The :ref:`Cubemap<class_Cubemap>` texture to sample when using :ref:`SOURCE_TEXTURE<class_VisualShaderNodeCubemap_constant_SOURCE_TEXTURE>` as :ref:`source<class_VisualShaderNodeCubemap_property_source>`.
+La texture :ref:`Cubemap<class_Cubemap>` à échantillonner lors de l'utilisation de :ref:`SOURCE_TEXTURE<class_VisualShaderNodeCubemap_constant_SOURCE_TEXTURE>` comme :ref:`source<class_VisualShaderNodeCubemap_property_source>`.
 
 .. rst-class:: classref-item-separator
 
@@ -150,7 +150,7 @@ The :ref:`Cubemap<class_Cubemap>` texture to sample when using :ref:`SOURCE_TEXT
 - |void| **set_source**\ (\ value\: :ref:`Source<enum_VisualShaderNodeCubemap_Source>`\ )
 - :ref:`Source<enum_VisualShaderNodeCubemap_Source>` **get_source**\ (\ )
 
-Defines which source should be used for the sampling.
+Définit quelle source devrait être utilisée pour l'échantillonnage.
 
 .. rst-class:: classref-item-separator
 
@@ -167,7 +167,7 @@ Defines which source should be used for the sampling.
 - |void| **set_texture_type**\ (\ value\: :ref:`TextureType<enum_VisualShaderNodeCubemap_TextureType>`\ )
 - :ref:`TextureType<enum_VisualShaderNodeCubemap_TextureType>` **get_texture_type**\ (\ )
 
-Defines the type of data provided by the source texture.
+Définit le type de données fournies par la texture source.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

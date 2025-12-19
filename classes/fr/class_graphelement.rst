@@ -9,7 +9,7 @@ GraphElement
 
 **Hérite de :** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`GraphFrame<class_GraphFrame>`, :ref:`GraphNode<class_GraphNode>`
+**Hérité par :** :ref:`GraphFrame<class_GraphFrame>`, :ref:`GraphNode<class_GraphNode>`
 
 A container that represents a basic element that can be placed inside a :ref:`GraphEdit<class_GraphEdit>` control.
 

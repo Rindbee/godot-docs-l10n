@@ -20,7 +20,7 @@ Pour les entrées qui ne peuvent être consultées que dans les scripts écrits 
 
 .. note::
 
-	Il y a des différences notables dans l'utilisation de cette API en C#. Voir ref:`doc_c_sharp_differences` pour plus d'informations.
+	Il y a des différences notables dans l'utilisation de cette API en C#. Voir :ref:`doc_c_sharp_differences` pour plus d'informations.
 
 .. rst-class:: classref-introduction-group
 
@@ -2924,7 +2924,7 @@ Message MIDI envoyé pour indiquer un changement de pression pour l'ensemble du 
 
 :ref:`MIDIMessage<enum_@GlobalScope_MIDIMessage>` **MIDI_MESSAGE_PITCH_BEND** = ``14``
 
-MIDI message sent when the value of the pitch bender changes, usually a wheel on the MIDI device.
+Message MIDI envoyé lorsque la valeur du Pitch Bend change, généralement une roue sur l'appareil MIDI.
 
 .. _class_@GlobalScope_constant_MIDI_MESSAGE_SYSTEM_EXCLUSIVE:
 
@@ -6828,14 +6828,14 @@ Renvoie un nombre entier non signé de 32 bits aléatoire. Utilisez l'opérateur
  .. code-tab:: gdscript
 
     randi()           # Renvoie un nombre entier aléatoire entre 0 et 2^32 - 1
-    randi() % 20      # Renvoie un nombre entier aléatoire entre 0 et 9
+    randi() % 20      # Renvoie un nombre entier aléatoire entre 0 et 19
     randi() % 100     # Renvoie un nombre entier aléatoire entre 0 et 99
     randi() % 100 + 1 # Renvoie un nombre entier aléatoire entre 1 et 100
 
  .. code-tab:: csharp
 
     GD.Randi();           // Renvoie un nombre entier aléatoire entre 0 et 2^32 - 1
-    GD.Randi() % 20;      // Renvoie un nombre entier aléatoire entre 0 et 9
+    GD.Randi() % 20;      // Renvoie un nombre entier aléatoire entre 0 et 19
     GD.Randi() % 100;     // Renvoie un nombre entier aléatoire entre 0 et 99
     GD.Randi() % 100 + 1; // Renvoie un nombre entier aléatoire entre 1 et 100
 

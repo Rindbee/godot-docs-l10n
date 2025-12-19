@@ -1389,9 +1389,9 @@ Descripciones de Propiedades
 
 :ref:`float<class_float>` **a** = ``1.0`` :ref:`🔗<class_Color_property_a>`
 
-The color's alpha component, typically on the range of 0 to 1. A value of 0 means that the color is fully transparent. A value of 1 means that the color is fully opaque.
+El componente alfa del color, normalmente en el rango de 0 a 1. Un valor de 0 significa que el color es totalmente transparente. Un valor de 1 significa que el color es totalmente opaco.
 
-\ **Note:** The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels. The :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` and :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` methods do not affect the alpha channel.
+\ **Nota:** El canal alfa siempre se almacena con codificación lineal, independientemente del espacio de color de los otros canales de color. Los métodos :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` y :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` no afectan al canal alfa.
 
 .. rst-class:: classref-item-separator
 
@@ -1564,9 +1564,9 @@ Descripciones de Constructores
 
 :ref:`Color<class_Color>` **Color**\ (\ ) :ref:`🔗<class_Color_constructor_Color>`
 
-Constructs a default **Color** from opaque black. This is the same as :ref:`BLACK<class_Color_constant_BLACK>`.
+Construye un **Color** por defecto a partir de negro opaco. Es lo mismo que :ref:`BLACK<class_Color_constant_BLACK>`.
 
-\ **Note:** In C#, this constructs a **Color** with all of its components set to ``0.0`` (transparent black).
+\ **Nota:** En C#, esto construye un **Color** con todos sus componentes establecidos a ``0.0`` (negro transparente).
 
 .. rst-class:: classref-item-separator
 
@@ -1576,18 +1576,18 @@ Constructs a default **Color** from opaque black. This is the same as :ref:`BLAC
 
 :ref:`Color<class_Color>` **Color**\ (\ from\: :ref:`Color<class_Color>`, alpha\: :ref:`float<class_float>`\ )
 
-Constructs a **Color** from the existing color, with :ref:`a<class_Color_property_a>` set to the given ``alpha`` value.
+Construye un **Color** a partir del color existente, con :ref:`a<class_Color_property_a>` establecido al valor ``alpha`` dado.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var red = Color(Color.RED, 0.2) # 20% opaque red.
+    var red = Color(Color.RED, 0.2) # Rojo opaco al 20%.
 
  .. code-tab:: csharp
 
-    var red = new Color(Colors.Red, 0.2f); // 20% opaque red.
+    var red = new Color(Colors.Red, 0.2f); // Rojo opaco al 20%.
 
 
 
@@ -1609,7 +1609,7 @@ Construye un **Color** como una copia del **Color** dado.
 
 :ref:`Color<class_Color>` **Color**\ (\ code\: :ref:`String<class_String>`\ )
 
-Constructs a **Color** either from an HTML color code or from a standardized color name. The supported color names are the same as the constants.
+Construye un **Color** ya sea desde un código de color HTML o desde un nombre de color estandarizado. Los nombres de color soportados son los mismos que las constantes.
 
 .. rst-class:: classref-item-separator
 
@@ -1619,7 +1619,7 @@ Constructs a **Color** either from an HTML color code or from a standardized col
 
 :ref:`Color<class_Color>` **Color**\ (\ code\: :ref:`String<class_String>`, alpha\: :ref:`float<class_float>`\ )
 
-Constructs a **Color** either from an HTML color code or from a standardized color name, with ``alpha`` on the range of 0.0 to 1.0. The supported color names are the same as the constants.
+Construye un **Color** ya sea desde un código de color HTML o desde un nombre de color estandarizado, con ``alpha`` en el rango de 0.0 a 1.0. Los nombres de color soportados son los mismos que las constantes.
 
 .. rst-class:: classref-item-separator
 
@@ -1629,18 +1629,18 @@ Constructs a **Color** either from an HTML color code or from a standardized col
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`\ )
 
-Constructs a **Color** from RGB values, typically between 0.0 and 1.0. :ref:`a<class_Color_property_a>` is set to 1.0.
+Construye un **Color** a partir de valores RGB, normalmente entre 0.0 y 1.0. :ref:`a<class_Color_property_a>` se establece en 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7) # Similar to `Color8(51, 255, 178, 255)`
+    var color = Color(0.2, 1.0, 0.7) # Similar a `Color8(51, 255, 178, 255)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f); // Similar to `Color.Color8(51, 255, 178, 255)`
+    var color = new Color(0.2f, 1.0f, 0.7f); // Similar a `Color.Color8(51, 255, 178, 255)`
 
 
 
@@ -1652,18 +1652,18 @@ Constructs a **Color** from RGB values, typically between 0.0 and 1.0. :ref:`a<c
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`, a\: :ref:`float<class_float>`\ )
 
-Constructs a **Color** from RGBA values, typically between 0.0 and 1.0.
+Construye un **Color** a partir de valores RGBA, normalmente entre 0.0 y 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7, 0.8) # Similar to `Color8(51, 255, 178, 204)`
+    var color = Color(0.2, 1.0, 0.7, 0.8) # Similar a `Color8(51, 255, 178, 204)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Similar to `Color.Color8(51, 255, 178, 255, 204)`
+    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Similar a `Color.Color8(51, 255, 178, 255, 204)`
 
 
 
@@ -1682,22 +1682,22 @@ Descripciones de Métodos
 
 :ref:`Color<class_Color>` **blend**\ (\ over\: :ref:`Color<class_Color>`\ ) |const| :ref:`🔗<class_Color_method_blend>`
 
-Returns a new color resulting from overlaying this color over the given color. In a painting program, you can imagine it as the ``over`` color painted over this color (including alpha).
+Devuelve un nuevo color resultante de superponer este color sobre el color dado. En un programa de pintura, puedes imaginarlo como el color ``over`` pintado sobre este color (incluyendo el alfa).
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var bg = Color(0.0, 1.0, 0.0, 0.5) # Green with alpha of 50%
-    var fg = Color(1.0, 0.0, 0.0, 0.5) # Red with alpha of 50%
-    var blended_color = bg.blend(fg) # Brown with alpha of 75%
+    var bg = Color(0.0, 1.0, 0.0, 0.5) # Verde con alfa del 50%
+    var fg = Color(1.0, 0.0, 0.0, 0.5) # Rojo con alfa del 50%
+    var blended_color = bg.blend(fg) # Marrón con alfa del 75%
 
  .. code-tab:: csharp
 
-    var bg = new Color(0.0f, 1.0f, 0.0f, 0.5f); // Green with alpha of 50%
-    var fg = new Color(1.0f, 0.0f, 0.0f, 0.5f); // Red with alpha of 50%
-    Color blendedColor = bg.Blend(fg); // Brown with alpha of 75%
+    var bg = new Color(0.0f, 1.0f, 0.0f, 0.5f); // Verde con alfa del 50%
+    var fg = new Color(1.0f, 0.0f, 0.0f, 0.5f); // Rojo con alfa del 50%
+    Color blendedColor = bg.Blend(fg); // Marrón con alfa del 75%
 
 
 
@@ -1711,7 +1711,7 @@ Returns a new color resulting from overlaying this color over the given color. I
 
 :ref:`Color<class_Color>` **clamp**\ (\ min\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0), max\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1)\ ) |const| :ref:`🔗<class_Color_method_clamp>`
 
-Returns a new color with all components clamped between the components of ``min`` and ``max``, by running :ref:`@GlobalScope.clamp()<class_@GlobalScope_method_clamp>` on each component.
+Devuelve un nuevo color con todos los componentes sujetos entre los componentes de ``min`` y ``max``, ejecutando :ref:`@GlobalScope.clamp()<class_@GlobalScope_method_clamp>` en cada componente.
 
 .. rst-class:: classref-item-separator
 
@@ -1723,7 +1723,7 @@ Returns a new color with all components clamped between the components of ``min`
 
 :ref:`Color<class_Color>` **darkened**\ (\ amount\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Color_method_darkened>`
 
-Returns a new color resulting from making this color darker by the specified ``amount`` (ratio from 0.0 to 1.0). See also :ref:`lightened()<class_Color_method_lightened>`.
+Devuelve un nuevo color resultante de oscurecer este color según la ``amount`` especificada (relación de 0.0 a 1.0). Véase también :ref:`lightened()<class_Color_method_lightened>`.
 
 
 .. tabs::
@@ -1731,12 +1731,12 @@ Returns a new color resulting from making this color darker by the specified ``a
  .. code-tab:: gdscript
 
     var green = Color(0.0, 1.0, 0.0)
-    var darkgreen = green.darkened(0.2) # 20% darker than regular green
+    var darkgreen = green.darkened(0.2) # 20% más oscuro que el verde normal
 
  .. code-tab:: csharp
 
     var green = new Color(0.0f, 1.0f, 0.0f);
-    Color darkgreen = green.Darkened(0.2f); // 20% darker than regular green
+    Color darkgreen = green.Darkened(0.2f); // 20% más oscuro que el verde normal
 
 
 
@@ -1750,7 +1750,7 @@ Returns a new color resulting from making this color darker by the specified ``a
 
 :ref:`Color<class_Color>` **from_hsv**\ (\ h\: :ref:`float<class_float>`, s\: :ref:`float<class_float>`, v\: :ref:`float<class_float>`, alpha\: :ref:`float<class_float>` = 1.0\ ) |static| :ref:`🔗<class_Color_method_from_hsv>`
 
-Constructs a color from an `HSV profile <https://en.wikipedia.org/wiki/HSL_and_HSV>`__. The hue (``h``), saturation (``s``), and value (``v``) are typically between 0.0 and 1.0.
+Construye un color a partir de un `perfil HSV <https://en.wikipedia.org/wiki/HSL_and_HSV>`__. El tono (``h``), la saturación (``s``) y el valor (``v``) están normalmente entre 0.0 y 1.0.
 
 
 .. tabs::
@@ -1775,7 +1775,7 @@ Constructs a color from an `HSV profile <https://en.wikipedia.org/wiki/HSL_and_H
 
 :ref:`Color<class_Color>` **from_ok_hsl**\ (\ h\: :ref:`float<class_float>`, s\: :ref:`float<class_float>`, l\: :ref:`float<class_float>`, alpha\: :ref:`float<class_float>` = 1.0\ ) |static| :ref:`🔗<class_Color_method_from_ok_hsl>`
 
-Constructs a color from an `OK HSL profile <https://bottosson.github.io/posts/colorpicker/>`__. The hue (``h``), saturation (``s``), and lightness (``l``) are typically between 0.0 and 1.0.
+Construye un color a partir de un `perfil OK HSL <https://bottosson.github.io/posts/colorpicker/>`__. El tono (``h``), la saturación (``s``) y la luminosidad (``l``) están normalmente entre 0.0 y 1.0.
 
 
 .. tabs::
@@ -1820,7 +1820,7 @@ Returns a **Color** constructed from red (``r8``), green (``g8``), blue (``b8``)
 
 :ref:`Color<class_Color>` **from_rgbe9995**\ (\ rgbe\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_Color_method_from_rgbe9995>`
 
-Decodes a **Color** from an RGBE9995 format integer. See :ref:`Image.FORMAT_RGBE9995<class_Image_constant_FORMAT_RGBE9995>`.
+Decodifica un **Color** desde un entero con formato RGBE9995. Véase :ref:`Image.FORMAT_RGBE9995<class_Image_constant_FORMAT_RGBE9995>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1832,9 +1832,9 @@ Decodes a **Color** from an RGBE9995 format integer. See :ref:`Image.FORMAT_RGBE
 
 :ref:`Color<class_Color>` **from_string**\ (\ str\: :ref:`String<class_String>`, default\: :ref:`Color<class_Color>`\ ) |static| :ref:`🔗<class_Color_method_from_string>`
 
-Creates a **Color** from the given string, which can be either an HTML color code or a named color (case-insensitive). Returns ``default`` if the color cannot be inferred from the string.
+Crea un **Color** a partir de la string dada, que puede ser un código de color HTML o un color con nombre (insensible a mayúsculas y minúsculas). Devuelve ``default`` si no se puede inferir el color de la string.
 
-If you want to create a color from String in a constant expression, use the equivalent constructor instead (i.e. ``Color("color string")``).
+Si quieres crear un color desde una String en una expresión constante, usa el constructor equivalente en su lugar (ej. ``Color("color string")``).
 
 .. rst-class:: classref-item-separator
 
@@ -1846,9 +1846,9 @@ If you want to create a color from String in a constant expression, use the equi
 
 :ref:`float<class_float>` **get_luminance**\ (\ ) |const| :ref:`🔗<class_Color_method_get_luminance>`
 
-Returns the light intensity of the color, as a value between 0.0 and 1.0 (inclusive). This is useful when determining light or dark color. Colors with a luminance smaller than 0.5 can be generally considered dark.
+Devuelve la intensidad de la luz del color, como un valor entre 0.0 y 1.0 (inclusivo). Esto es útil para determinar el color claro u oscuro. Los colores con una luminancia inferior a 0.5 pueden considerarse generalmente oscuros.
 
-\ **Note:** :ref:`get_luminance()<class_Color_method_get_luminance>` relies on the color being in the linear color space to return an accurate relative luminance value. If the color is in the sRGB color space, use :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` to convert it to the linear color space first.
+\ **Nota:** :ref:`get_luminance()<class_Color_method_get_luminance>` se basa en que el color esté en el espacio de color lineal para devolver un valor de luminancia relativa preciso. Si el color está en el espacio de color sRGB, usa :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` para convertirlo primero al espacio de color lineal.
 
 .. rst-class:: classref-item-separator
 
@@ -1860,9 +1860,9 @@ Returns the light intensity of the color, as a value between 0.0 and 1.0 (inclus
 
 :ref:`Color<class_Color>` **hex**\ (\ hex\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_Color_method_hex>`
 
-Returns the **Color** associated with the provided ``hex`` integer in 32-bit RGBA format (8 bits per channel). This method is the inverse of :ref:`to_rgba32()<class_Color_method_to_rgba32>`.
+Devuelve el **Color** asociado con el entero ``hex`` proporcionado en formato RGBA de 32 bits (8 bits por canal). Este método es el inverso de :ref:`to_rgba32()<class_Color_method_to_rgba32>`.
 
-In GDScript and C#, the :ref:`int<class_int>` is best visualized with hexadecimal notation (``"0x"`` prefix, making it ``"0xRRGGBBAA"``).
+En GDScript y C#, el :ref:`int<class_int>` se visualiza mejor con notación hexadecimal (``"0x"`` prefijo, haciéndolo ``"0xRRGGBBAA"``).
 
 
 .. tabs::
@@ -1881,7 +1881,7 @@ In GDScript and C#, the :ref:`int<class_int>` is best visualized with hexadecima
 
 
 
-If you want to use hex notation in a constant expression, use the equivalent constructor instead (i.e. ``Color(0xRRGGBBAA)``).
+Si quieres usar la notación hexadecimal en una expresión constante, usa el constructor equivalente en su lugar (ej. ``Color(0xRRGGBBAA)``).
 
 .. rst-class:: classref-item-separator
 
@@ -1893,9 +1893,9 @@ If you want to use hex notation in a constant expression, use the equivalent con
 
 :ref:`Color<class_Color>` **hex64**\ (\ hex\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_Color_method_hex64>`
 
-Returns the **Color** associated with the provided ``hex`` integer in 64-bit RGBA format (16 bits per channel). This method is the inverse of :ref:`to_rgba64()<class_Color_method_to_rgba64>`.
+Devuelve el **Color** asociado con el entero ``hex`` proporcionado en formato RGBA de 64 bits (16 bits por canal). Este método es el inverso de :ref:`to_rgba64()<class_Color_method_to_rgba64>`.
 
-In GDScript and C#, the :ref:`int<class_int>` is best visualized with hexadecimal notation (``"0x"`` prefix, making it ``"0xRRRRGGGGBBBBAAAA"``).
+En GDScript y C#, el :ref:`int<class_int>` se visualiza mejor con la notación hexadecimal (``"0x"`` prefijo, haciéndolo ``"0xRRRRGGGGBBBBAAAA"``).
 
 .. rst-class:: classref-item-separator
 
@@ -1907,24 +1907,24 @@ In GDScript and C#, the :ref:`int<class_int>` is best visualized with hexadecima
 
 :ref:`Color<class_Color>` **html**\ (\ rgba\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_Color_method_html>`
 
-Returns a new color from ``rgba``, an HTML hexadecimal color string. ``rgba`` is not case-sensitive, and may be prefixed by a hash sign (``#``).
+Devuelve un nuevo color de ``rgba``, una string de color hexadecimal HTML. ``rgba`` no distingue entre mayúsculas y minúsculas, y puede tener el prefijo de un signo hash (``#``).
 
-\ ``rgba`` must be a valid three-digit or six-digit hexadecimal color string, and may contain an alpha channel value. If ``rgba`` does not contain an alpha channel value, an alpha channel value of 1.0 is applied. If ``rgba`` is invalid, returns an empty color.
+\ ``rgba`` debe ser una string de color hexadecimal válida de tres o seis dígitos, y puede contener un valor de canal alfa. Si ``rgba`` no contiene un valor de canal alfa, se aplica un valor de canal alfa de 1.0. Si ``rgba`` no es válido, devuelve un color vacío.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var blue = Color.html("#0000ff") # blue is Color(0.0, 0.0, 1.0, 1.0)
-    var green = Color.html("#0F0")   # green is Color(0.0, 1.0, 0.0, 1.0)
-    var col = Color.html("663399cc") # col is Color(0.4, 0.2, 0.6, 0.8)
+    var azul = Color.html("#0000ff") # azul es Color(0.0, 0.0, 1.0, 1.0)
+    var verde = Color.html("#0F0")   # verde es Color(0.0, 1.0, 0.0, 1.0)
+    var col = Color.html("663399cc") # col es Color(0.4, 0.2, 0.6, 0.8)
 
  .. code-tab:: csharp
 
-    var blue = Color.FromHtml("#0000ff"); // blue is Color(0.0, 0.0, 1.0, 1.0)
-    var green = Color.FromHtml("#0F0");   // green is Color(0.0, 1.0, 0.0, 1.0)
-    var col = Color.FromHtml("663399cc"); // col is Color(0.4, 0.2, 0.6, 0.8)
+    var azul = Color.FromHtml("#0000ff"); // azul es Color(0.0, 0.0, 1.0, 1.0)
+    var verde = Color.FromHtml("#0F0");   // verde es Color(0.0, 1.0, 0.0, 1.0)
+    var col = Color.FromHtml("663399cc"); // col es Color(0.4, 0.2, 0.6, 0.8)
 
 
 
@@ -1938,30 +1938,30 @@ Returns a new color from ``rgba``, an HTML hexadecimal color string. ``rgba`` is
 
 :ref:`bool<class_bool>` **html_is_valid**\ (\ color\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_Color_method_html_is_valid>`
 
-Returns ``true`` if ``color`` is a valid HTML hexadecimal color string. The string must be a hexadecimal value (case-insensitive) of either 3, 4, 6 or 8 digits, and may be prefixed by a hash sign (``#``). This method is identical to :ref:`String.is_valid_html_color()<class_String_method_is_valid_html_color>`.
+Devuelve ``true`` si ``color`` es una string hexadecimal HTML válida.La string debe ser un valor hexadecimal (insensible a mayúsculas y minúsculas) de 3, 4, 6 u 8 dígitos, y puede tener el prefijo de un signo hash (``#``).Este método es idéntico a :ref:`String.is_valid_html_color()<class_String_method_is_valid_html_color>`.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    Color.html_is_valid("#55aaFF")   # Returns true
-    Color.html_is_valid("#55AAFF20") # Returns true
-    Color.html_is_valid("55AAFF")    # Returns true
-    Color.html_is_valid("#F2C")      # Returns true
+    Color.html_is_valid("#55aaFF")   # Devuelve true
+    Color.html_is_valid("#55AAFF20") # Devuelve true
+    Color.html_is_valid("55AAFF")    # Devuelve true
+    Color.html_is_valid("#F2C")      # Devuelve true
 
-    Color.html_is_valid("#AABBC")    # Returns false
-    Color.html_is_valid("#55aaFF5")  # Returns false
+    Color.html_is_valid("#AABBC")    # Devuelve false
+    Color.html_is_valid("#55aaFF5")  # Devuelve false
 
  .. code-tab:: csharp
 
-    Color.HtmlIsValid("#55AAFF");   // Returns true
-    Color.HtmlIsValid("#55AAFF20"); // Returns true
-    Color.HtmlIsValid("55AAFF");    // Returns true
-    Color.HtmlIsValid("#F2C");      // Returns true
+    Color.HtmlIsValid("#55AAFF");   // Devuelve true
+    Color.HtmlIsValid("#55AAFF20"); // Devuelve true
+    Color.HtmlIsValid("55AAFF");    // Devuelve true
+    Color.HtmlIsValid("#F2C");      // Devuelve true
 
-    Color.HtmlIsValid("#AABBC");    // Returns false
-    Color.HtmlIsValid("#55aaFF5");  // Returns false
+    Color.HtmlIsValid("#AABBC");    // Devuelve false
+    Color.HtmlIsValid("#55aaFF5");  // Devuelve false
 
 
 
@@ -1975,7 +1975,7 @@ Returns ``true`` if ``color`` is a valid HTML hexadecimal color string. The stri
 
 :ref:`Color<class_Color>` **inverted**\ (\ ) |const| :ref:`🔗<class_Color_method_inverted>`
 
-Returns the color with its :ref:`r<class_Color_property_r>`, :ref:`g<class_Color_property_g>`, and :ref:`b<class_Color_property_b>` components inverted (``(1 - r, 1 - g, 1 - b, a)``).
+Devuelve el color con sus componentes :ref:`r<class_Color_property_r>`, :ref:`g<class_Color_property_g>` y :ref:`b<class_Color_property_b>` invertidos (``(1 - r, 1 - g, 1 - b, a)``).
 
 
 .. tabs::
@@ -1984,13 +1984,13 @@ Returns the color with its :ref:`r<class_Color_property_r>`, :ref:`g<class_Color
 
     var black = Color.WHITE.inverted()
     var color = Color(0.3, 0.4, 0.9)
-    var inverted_color = color.inverted() # Equivalent to `Color(0.7, 0.6, 0.1)`
+    var inverted_color = color.inverted() # Equivalente a `Color(0.7, 0.6, 0.1)`
 
  .. code-tab:: csharp
 
     var black = Colors.White.Inverted();
     var color = new Color(0.3f, 0.4f, 0.9f);
-    Color invertedColor = color.Inverted(); // Equivalent to `new Color(0.7f, 0.6f, 0.1f)`
+    Color invertedColor = color.Inverted(); // Equivalente a `new Color(0.7f, 0.6f, 0.1f)`
 
 
 
@@ -2016,28 +2016,28 @@ Returns ``true`` if this color and ``to`` are approximately equal, by running :r
 
 :ref:`Color<class_Color>` **lerp**\ (\ to\: :ref:`Color<class_Color>`, weight\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Color_method_lerp>`
 
-Returns the linear interpolation between this color's components and ``to``'s components. The interpolation factor ``weight`` should be between 0.0 and 1.0 (inclusive). See also :ref:`@GlobalScope.lerp()<class_@GlobalScope_method_lerp>`.
+Devuelve la interpolación lineal entre los componentes de este color y los componentes de ``to``. El factor de interpolación ``weight`` debe estar entre 0.0 y 1.0 (inclusivo). Véase también :ref:`@GlobalScope.lerp()<class_@GlobalScope_method_lerp>`.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var red = Color(1.0, 0.0, 0.0)
+    var rojo = Color(1.0, 0.0, 0.0)
     var aqua = Color(0.0, 1.0, 0.8)
 
-    red.lerp(aqua, 0.2) # Returns Color(0.8, 0.2, 0.16)
-    red.lerp(aqua, 0.5) # Returns Color(0.5, 0.5, 0.4)
-    red.lerp(aqua, 1.0) # Returns Color(0.0, 1.0, 0.8)
+    rojo.lerp(aqua, 0.2) # Devuelve Color(0.8, 0.2, 0.16)
+    rojo.lerp(aqua, 0.5) # Devuelve Color(0.5, 0.5, 0.4)
+    rojo.lerp(aqua, 1.0) # Devuelve Color(0.0, 1.0, 0.8)
 
  .. code-tab:: csharp
 
-    var red = new Color(1.0f, 0.0f, 0.0f);
+    var rojo = new Color(1.0f, 0.0f, 0.0f);
     var aqua = new Color(0.0f, 1.0f, 0.8f);
 
-    red.Lerp(aqua, 0.2f); // Returns Color(0.8f, 0.2f, 0.16f)
-    red.Lerp(aqua, 0.5f); // Returns Color(0.5f, 0.5f, 0.4f)
-    red.Lerp(aqua, 1.0f); // Returns Color(0.0f, 1.0f, 0.8f)
+    rojo.Lerp(aqua, 0.2f); // Devuelve Color(0.8f, 0.2f, 0.16f)
+    rojo.Lerp(aqua, 0.5f); // Devuelve Color(0.5f, 0.5f, 0.4f)
+    rojo.Lerp(aqua, 1.0f); // Devuelve Color(0.0f, 1.0f, 0.8f)
 
 
 
@@ -2051,20 +2051,20 @@ Returns the linear interpolation between this color's components and ``to``'s co
 
 :ref:`Color<class_Color>` **lightened**\ (\ amount\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Color_method_lightened>`
 
-Returns a new color resulting from making this color lighter by the specified ``amount``, which should be a ratio from 0.0 to 1.0. See also :ref:`darkened()<class_Color_method_darkened>`.
+Devuelve un nuevo color resultante de hacer este color más claro según la ``amount`` especificada, que debería ser una relación de 0.0 a 1.0. Véase también :ref:`darkened()<class_Color_method_darkened>`.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var green = Color(0.0, 1.0, 0.0)
-    var light_green = green.lightened(0.2) # 20% lighter than regular green
+    var verde = Color(0.0, 1.0, 0.0)
+    var light_green = verde.lightened(0.2) # 20% más claro que el verde normal
 
  .. code-tab:: csharp
 
-    var green = new Color(0.0f, 1.0f, 0.0f);
-    Color lightGreen = green.Lightened(0.2f); // 20% lighter than regular green
+    var verde = new Color(0.0f, 1.0f, 0.0f);
+    Color verdeClaro = verde.Lightened(0.2f); // 20% más claro que el verde normal
 
 
 
@@ -2078,9 +2078,9 @@ Returns a new color resulting from making this color lighter by the specified ``
 
 :ref:`Color<class_Color>` **linear_to_srgb**\ (\ ) |const| :ref:`🔗<class_Color_method_linear_to_srgb>`
 
-Returns the color converted to the `sRGB <https://en.wikipedia.org/wiki/SRGB>`__ color space. This method assumes the original color is in the linear color space. See also :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` which performs the opposite operation.
+Devuelve el color convertido al espacio de color `sRGB <https://en.wikipedia.org/wiki/SRGB>`__. Este método asume que el color original está en el espacio de color lineal. Véase también :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>`, que realiza la operación opuesta.
 
-\ **Note:** The color's :ref:`a<class_Color_property_a>`\ lpha channel is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
+\ **Nota:** El canal alfa :ref:`a<class_Color_property_a>` del color no se ve afectado. El canal alfa siempre se almacena con codificación lineal, independientemente del espacio de color de los otros canales de color.
 
 .. rst-class:: classref-item-separator
 
@@ -2092,9 +2092,9 @@ Returns the color converted to the `sRGB <https://en.wikipedia.org/wiki/SRGB>`__
 
 :ref:`Color<class_Color>` **srgb_to_linear**\ (\ ) |const| :ref:`🔗<class_Color_method_srgb_to_linear>`
 
-Returns the color converted to the linear color space. This method assumes the original color already is in the sRGB color space. See also :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` which performs the opposite operation.
+Devuelve el color convertido al espacio de color lineal. Este método asume que el color original ya está en el espacio de color sRGB. Véase también :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>`, que realiza la operación opuesta.
 
-\ **Note:** The color's :ref:`a<class_Color_property_a>`\ lpha channel is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
+\ **Nota:** El canal alfa :ref:`a<class_Color_property_a>` del color no se ve afectado. El canal alfa siempre se almacena con codificación lineal, independientemente del espacio de color de los otros canales de color.
 
 .. rst-class:: classref-item-separator
 
@@ -2106,7 +2106,7 @@ Returns the color converted to the linear color space. This method assumes the o
 
 :ref:`int<class_int>` **to_abgr32**\ (\ ) |const| :ref:`🔗<class_Color_method_to_abgr32>`
 
-Returns the color converted to a 32-bit integer in ABGR format (each component is 8 bits). ABGR is the reversed version of the default RGBA format.
+Devuelve el color convertido a un entero de 32 bits en formato ABGR (cada componente ocupa 8 bits). ABGR es la versión invertida del formato RGBA por defecto.
 
 
 .. tabs::
@@ -2114,12 +2114,12 @@ Returns the color converted to a 32-bit integer in ABGR format (each component i
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_abgr32()) # Prints 4281565439
+    print(color.to_abgr32()) # Imprime 4281565439
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToAbgr32()); // Prints 4281565439
+    GD.Print(color.ToAbgr32()); // Imprime 4281565439
 
 
 
@@ -2133,7 +2133,7 @@ Returns the color converted to a 32-bit integer in ABGR format (each component i
 
 :ref:`int<class_int>` **to_abgr64**\ (\ ) |const| :ref:`🔗<class_Color_method_to_abgr64>`
 
-Returns the color converted to a 64-bit integer in ABGR format (each component is 16 bits). ABGR is the reversed version of the default RGBA format.
+Devuelve el color convertido a un entero de 64 bits en formato ABGR (cada componente ocupa 16 bits). ABGR es la versión invertida del formato RGBA por defecto.
 
 
 .. tabs::
@@ -2141,12 +2141,12 @@ Returns the color converted to a 64-bit integer in ABGR format (each component i
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_abgr64()) # Prints -225178692812801
+    print(color.to_abgr64()) # Imprime -225178692812801
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToAbgr64()); // Prints -225178692812801
+    GD.Print(color.ToAbgr64()); // Imprime -225178692812801
 
 
 
@@ -2160,7 +2160,7 @@ Returns the color converted to a 64-bit integer in ABGR format (each component i
 
 :ref:`int<class_int>` **to_argb32**\ (\ ) |const| :ref:`🔗<class_Color_method_to_argb32>`
 
-Returns the color converted to a 32-bit integer in ARGB format (each component is 8 bits). ARGB is more compatible with DirectX.
+Devuelve el color convertido a un entero de 32 bits en formato ARGB (cada componente ocupa 8 bits). ARGB es más compatible con DirectX.
 
 
 .. tabs::
@@ -2168,12 +2168,12 @@ Returns the color converted to a 32-bit integer in ARGB format (each component i
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_argb32()) # Prints 4294934323
+    print(color.to_argb32()) # Imprime 4294934323
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToArgb32()); // Prints 4294934323
+    GD.Print(color.ToArgb32()); // Imprime 4294934323
 
 
 
@@ -2187,7 +2187,7 @@ Returns the color converted to a 32-bit integer in ARGB format (each component i
 
 :ref:`int<class_int>` **to_argb64**\ (\ ) |const| :ref:`🔗<class_Color_method_to_argb64>`
 
-Returns the color converted to a 64-bit integer in ARGB format (each component is 16 bits). ARGB is more compatible with DirectX.
+Devuelve el color convertido a un entero de 64 bits en formato ARGB (cada componente ocupa 16 bits). ARGB es más compatible con DirectX.
 
 
 .. tabs::
@@ -2195,12 +2195,12 @@ Returns the color converted to a 64-bit integer in ARGB format (each component i
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_argb64()) # Prints -2147470541
+    print(color.to_argb64()) # Imprime -2147470541
 
  .. code-tab:: csharp
 
     var color = new Color(1.0f, 0.5f, 0.2f);
-    GD.Print(color.ToArgb64()); // Prints -2147470541
+    GD.Print(color.ToArgb64()); // Imprime -2147470541
 
 
 
@@ -2214,9 +2214,9 @@ Returns the color converted to a 64-bit integer in ARGB format (each component i
 
 :ref:`String<class_String>` **to_html**\ (\ with_alpha\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_Color_method_to_html>`
 
-Returns the color converted to an HTML hexadecimal color :ref:`String<class_String>` in RGBA format, without the hash (``#``) prefix.
+Devuelve el color convertido a una :ref:`String<class_String>` de color hexadecimal HTML en formato RGBA, sin el prefijo hash (``#``).
 
-Setting ``with_alpha`` to ``false``, excludes alpha from the hexadecimal string, using RGB format instead of RGBA format.
+Si estableces ``with_alpha`` a ``false``, se excluye el alfa de la string hexadecimal, usando el formato RGB en lugar del formato RGBA.
 
 
 .. tabs::
@@ -2224,14 +2224,14 @@ Setting ``with_alpha`` to ``false``, excludes alpha from the hexadecimal string,
  .. code-tab:: gdscript
 
     var white = Color(1, 1, 1, 0.5)
-    var with_alpha = white.to_html() # Returns "ffffff7f"
-    var without_alpha = white.to_html(false) # Returns "ffffff"
+    var with_alpha = white.to_html() # Devuelve "ffffff7f"
+    var without_alpha = white.to_html(false) # Devuelve "ffffff"
 
  .. code-tab:: csharp
 
     var white = new Color(1, 1, 1, 0.5f);
-    string withAlpha = white.ToHtml(); // Returns "ffffff7f"
-    string withoutAlpha = white.ToHtml(false); // Returns "ffffff"
+    string withAlpha = white.ToHtml(); // Devuelve "ffffff7f"
+    string withoutAlpha = white.ToHtml(false); // Devuelve "ffffff"
 
 
 
@@ -2245,7 +2245,7 @@ Setting ``with_alpha`` to ``false``, excludes alpha from the hexadecimal string,
 
 :ref:`int<class_int>` **to_rgba32**\ (\ ) |const| :ref:`🔗<class_Color_method_to_rgba32>`
 
-Returns the color converted to a 32-bit integer in RGBA format (each component is 8 bits). RGBA is Godot's default format. This method is the inverse of :ref:`hex()<class_Color_method_hex>`.
+Devuelve el color convertido a un entero de 32 bits en formato RGBA (cada componente tiene 8 bits). RGBA es el formato por defecto de Godot. Este método es el inverso de :ref:`hex()<class_Color_method_hex>`.
 
 
 .. tabs::
@@ -2253,12 +2253,12 @@ Returns the color converted to a 32-bit integer in RGBA format (each component i
  .. code-tab:: gdscript
 
     var color = Color(1, 0.5, 0.2)
-    print(color.to_rgba32()) # Prints 4286526463
+    print(color.to_rgba32()) # Imprime 4286526463
 
  .. code-tab:: csharp
 
     var color = new Color(1, 0.5f, 0.2f);
-    GD.Print(color.ToRgba32()); // Prints 4286526463
+    GD.Print(color.ToRgba32()); // Imprime 4286526463
 
 
 
@@ -2318,7 +2318,7 @@ Returns ``true`` if the colors are not exactly equal.
 
 :ref:`Color<class_Color>` **operator ***\ (\ right\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Color_operator_mul_Color>`
 
-Multiplies each component of the **Color** by the components of the given **Color**.
+Multiplica cada componente del **Color** por los componentes del **Color** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2330,7 +2330,7 @@ Multiplies each component of the **Color** by the components of the given **Colo
 
 :ref:`Color<class_Color>` **operator ***\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Color_operator_mul_float>`
 
-Multiplies each component of the **Color** by the given :ref:`float<class_float>`.
+Multiplica cada componente del **Color** por el :ref:`float<class_float>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2354,7 +2354,7 @@ Multiplica cada componente de **Color** por el :ref:`int<class_int>` dado.
 
 :ref:`Color<class_Color>` **operator +**\ (\ right\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Color_operator_sum_Color>`
 
-Adds each component of the **Color** with the components of the given **Color**.
+Suma cada componente del **Color** con los componentes del **Color** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2366,7 +2366,7 @@ Adds each component of the **Color** with the components of the given **Color**.
 
 :ref:`Color<class_Color>` **operator -**\ (\ right\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Color_operator_dif_Color>`
 
-Subtracts each component of the **Color** by the components of the given **Color**.
+Resta cada componente del **Color** por los componentes del **Color** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2378,7 +2378,7 @@ Subtracts each component of the **Color** by the components of the given **Color
 
 :ref:`Color<class_Color>` **operator /**\ (\ right\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Color_operator_div_Color>`
 
-Divides each component of the **Color** by the components of the given **Color**.
+Divide cada componente del **Color** por los componentes del **Color** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2390,7 +2390,7 @@ Divides each component of the **Color** by the components of the given **Color**
 
 :ref:`Color<class_Color>` **operator /**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Color_operator_div_float>`
 
-Divides each component of the **Color** by the given :ref:`float<class_float>`.
+Divide cada componente del **Color** por el :ref:`float<class_float>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2428,7 +2428,7 @@ Returns ``true`` if the colors are exactly equal.
 
 :ref:`float<class_float>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Color_operator_idx_int>`
 
-Access color components using their index. ``[0]`` is equivalent to :ref:`r<class_Color_property_r>`, ``[1]`` is equivalent to :ref:`g<class_Color_property_g>`, ``[2]`` is equivalent to :ref:`b<class_Color_property_b>`, and ``[3]`` is equivalent to :ref:`a<class_Color_property_a>`.
+Accede a los componentes de color usando su índice. ``[0]`` es equivalente a :ref:`r<class_Color_property_r>`, ``[1]`` es equivalente a :ref:`g<class_Color_property_g>`, ``[2]`` es equivalente a :ref:`b<class_Color_property_b>`, y ``[3]`` es equivalente a :ref:`a<class_Color_property_a>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2440,7 +2440,7 @@ Access color components using their index. ``[0]`` is equivalent to :ref:`r<clas
 
 :ref:`Color<class_Color>` **operator unary+**\ (\ ) :ref:`🔗<class_Color_operator_unplus>`
 
-Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, but sometimes it can make your code more readable.
+Devuelve el mismo valor como si el ``+`` no estuviera ahí. El ``+`` unario no hace nada, pero a veces puede hacer que tu código sea más legible.
 
 .. rst-class:: classref-item-separator
 
@@ -2452,7 +2452,7 @@ Returns the same value as if the ``+`` was not there. Unary ``+`` does nothing, 
 
 :ref:`Color<class_Color>` **operator unary-**\ (\ ) :ref:`🔗<class_Color_operator_unminus>`
 
-Inverts the given color. This is equivalent to ``Color.WHITE - c`` or ``Color(1 - c.r, 1 - c.g, 1 - c.b, 1 - c.a)``. Unlike with :ref:`inverted()<class_Color_method_inverted>`, the :ref:`a<class_Color_property_a>` component is inverted, too.
+Invierte el color dado. Esto es equivalente a ``Color.WHITE - c`` o a ``Color(1 - c.r, 1 - c.g, 1 - c.b, 1 - c.a)``. A diferencia de :ref:`inverted()<class_Color_method_inverted>`, el componente :ref:`a<class_Color_property_a>` también se invierte.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

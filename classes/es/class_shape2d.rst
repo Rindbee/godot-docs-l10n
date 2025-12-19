@@ -9,16 +9,16 @@ Shape2D
 
 **Heredado por:** :ref:`CapsuleShape2D<class_CapsuleShape2D>`, :ref:`CircleShape2D<class_CircleShape2D>`, :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>`, :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`, :ref:`RectangleShape2D<class_RectangleShape2D>`, :ref:`SegmentShape2D<class_SegmentShape2D>`, :ref:`SeparationRayShape2D<class_SeparationRayShape2D>`, :ref:`WorldBoundaryShape2D<class_WorldBoundaryShape2D>`
 
-Abstract base class for 2D shapes used for physics collision.
+Clase base abstracta para las formas 2D utilizadas en colisiones físicas.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Abstract base class for all 2D shapes, intended for use in physics.
+Clase base abstracta para todas las formas 2D, pensada para su uso en física.
 
-\ **Performance:** Primitive shapes, especially :ref:`CircleShape2D<class_CircleShape2D>`, are fast to check collisions against. :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>` is slower, and :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` is the slowest.
+\ **Rendimiento:** Las formas primitivas, especialmente :ref:`CircleShape2D<class_CircleShape2D>`, son rápidas para comprobar colisiones. :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>` es más lenta, y :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` es la más lenta.
 
 .. rst-class:: classref-introduction-group
 
@@ -100,9 +100,9 @@ Descripciones de Métodos
 
 :ref:`bool<class_bool>` **collide**\ (\ local_xform\: :ref:`Transform2D<class_Transform2D>`, with_shape\: :ref:`Shape2D<class_Shape2D>`, shape_xform\: :ref:`Transform2D<class_Transform2D>`\ ) :ref:`🔗<class_Shape2D_method_collide>`
 
-Returns ``true`` if this shape is colliding with another.
+Devuelve ``true`` si esta forma está colisionando con otra.
 
-This method needs the transformation matrix for this shape (``local_xform``), the shape to check collisions with (``with_shape``), and the transformation matrix of that shape (``shape_xform``).
+Este método necesita la matriz de transformación de esta forma (``local_xform``), la forma para comprobar las colisiones (``with_shape``), y la matriz de transformación de esa forma (``shape_xform``).
 
 .. rst-class:: classref-item-separator
 

@@ -14,9 +14,9 @@ Le **LookAtModifier3D** tourne un os pour regarder une cible.
 Description
 -----------
 
-This :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` rotates a bone to look at a target. This is helpful for moving a character's head to look at the player, rotating a turret to look at a target, or any other case where you want to make a bone rotate towards something quickly and easily.
+Ce :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` tourne un os pour qu'il regarde une cible. Ceci est utile pour déplacer la tête d'un personnage pour qu'il regarde le joueur, tourner une tourelle pour qu'elle regarde une cible, ou tout autre cas où vous voulez faire tourner un os vers quelque chose rapidement et facilement.
 
-When applying multiple **LookAtModifier3D**\ s, the **LookAtModifier3D** assigned to the parent bone must be put above the **LookAtModifier3D** assigned to the child bone in the list in order for the child bone results to be correct.
+Lors de l'application de plusieurs **LookAtModifier3D**\ s, le **LookAtModifier3D** assigné à l'os parent doit être placé au-dessus du **LookAtModifier3D** assigné à l'os enfant dans la liste afin que les résultats de l'os enfant soient corrects.
 
 .. rst-class:: classref-reftable-group
 
@@ -123,7 +123,7 @@ enum **OriginFrom**: :ref:`🔗<enum_LookAtModifier3D_OriginFrom>`
 
 :ref:`OriginFrom<enum_LookAtModifier3D_OriginFrom>` **ORIGIN_FROM_SELF** = ``0``
 
-The bone rest position of the bone specified in :ref:`bone<class_LookAtModifier3D_property_bone>` is used as origin.
+La position de repos de l'os spécifié dans :ref:`bone<class_LookAtModifier3D_property_bone>` est utilisée comme origine.
 
 .. _class_LookAtModifier3D_constant_ORIGIN_FROM_SPECIFIC_BONE:
 
@@ -131,9 +131,9 @@ The bone rest position of the bone specified in :ref:`bone<class_LookAtModifier3
 
 :ref:`OriginFrom<enum_LookAtModifier3D_OriginFrom>` **ORIGIN_FROM_SPECIFIC_BONE** = ``1``
 
-The bone global pose position of the bone specified in :ref:`origin_bone<class_LookAtModifier3D_property_origin_bone>` is used as origin.
+La position de pose globale d'os de l'os spécifié dans :ref:`origin_bone<class_LookAtModifier3D_property_origin_bone>` est utilisée comme origine.
 
-\ **Note:** It is recommended that you select only the parent bone unless you are familiar with the bone processing process. The specified bone pose at the time the **LookAtModifier3D** is processed is used as a reference. In other words, if you specify a child bone and the **LookAtModifier3D** causes the child bone to move, the rendered result and direction will not match.
+\ **Note :** Il est recommandé de sélectionner uniquement l'os parent à moins que vous ne connaissiez le processus de traitement des os. La pose d'os spécifiée au moment où **LookAtModifier3D** est traité est utilisée comme référence. En d'autres termes, si vous spécifiez un os enfant et que le **LookAtModifier3D** déplace l'os enfant, le résultat rendu et la direction ne correspondront pas.
 
 .. _class_LookAtModifier3D_constant_ORIGIN_FROM_EXTERNAL_NODE:
 
@@ -141,9 +141,9 @@ The bone global pose position of the bone specified in :ref:`origin_bone<class_L
 
 :ref:`OriginFrom<enum_LookAtModifier3D_OriginFrom>` **ORIGIN_FROM_EXTERNAL_NODE** = ``2``
 
-The global position of the :ref:`Node3D<class_Node3D>` specified in :ref:`origin_external_node<class_LookAtModifier3D_property_origin_external_node>` is used as origin.
+La position globale du :ref:`Node3D<class_Node3D>` spécifié dans :ref:`origin_external_node<class_LookAtModifier3D_property_origin_external_node>` est utilisée comme origine.
 
-\ **Note:** Same as :ref:`ORIGIN_FROM_SPECIFIC_BONE<class_LookAtModifier3D_constant_ORIGIN_FROM_SPECIFIC_BONE>`, when specifying a :ref:`BoneAttachment3D<class_BoneAttachment3D>` with a child bone assigned, the rendered result and direction will not match.
+\ **Note :** Comme avec :ref:`ORIGIN_FROM_SPECIFIC_BONE<class_LookAtModifier3D_constant_ORIGIN_FROM_SPECIFIC_BONE>`, lorsqu'un :ref:`BoneAttachment3D<class_BoneAttachment3D>` avec un os enfant assigné est spécifié, le résultat rendu et la direction ne correspondront pas.
 
 .. rst-class:: classref-section-separator
 
@@ -165,7 +165,7 @@ Descriptions des propriétés
 - |void| **set_bone**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_bone**\ (\ )
 
-Index of the :ref:`bone_name<class_LookAtModifier3D_property_bone_name>` in the parent :ref:`Skeleton3D<class_Skeleton3D>`.
+Index de :ref:`bone_name<class_LookAtModifier3D_property_bone_name>` dans le :ref:`Skeleton3D<class_Skeleton3D>` parent.
 
 .. rst-class:: classref-item-separator
 
@@ -182,7 +182,7 @@ Index of the :ref:`bone_name<class_LookAtModifier3D_property_bone_name>` in the 
 - |void| **set_bone_name**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_bone_name**\ (\ )
 
-The bone name of the :ref:`Skeleton3D<class_Skeleton3D>` that the modification will operate on.
+Le nom de l'os du :ref:`Skeleton3D<class_Skeleton3D>` sur lequel la modification va opérer.
 
 .. rst-class:: classref-item-separator
 
@@ -222,7 +222,7 @@ The duration of the time-based interpolation. Interpolation is triggered at the 
 - |void| **set_ease_type**\ (\ value\: :ref:`EaseType<enum_Tween_EaseType>`\ )
 - :ref:`EaseType<enum_Tween_EaseType>` **get_ease_type**\ (\ )
 
-The ease type of the time-based interpolation. See also :ref:`EaseType<enum_Tween_EaseType>`.
+Le type d'accélération de l'interpolation temporelle. Voir aussi :ref:`EaseType<enum_Tween_EaseType>`.
 
 .. rst-class:: classref-item-separator
 
@@ -239,7 +239,7 @@ The ease type of the time-based interpolation. See also :ref:`EaseType<enum_Twee
 - |void| **set_forward_axis**\ (\ value\: :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>`\ )
 - :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>` **get_forward_axis**\ (\ )
 
-The forward axis of the bone. This :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` modifies the bone so that this axis points toward the :ref:`target_node<class_LookAtModifier3D_property_target_node>`.
+L'axe avant de l'os. Ce :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` modifie l'os de sorte à ce que cet axe pointe vers :ref:`target_node<class_LookAtModifier3D_property_target_node>`.
 
 .. rst-class:: classref-item-separator
 
@@ -256,7 +256,7 @@ The forward axis of the bone. This :ref:`SkeletonModifier3D<class_SkeletonModifi
 - |void| **set_origin_bone**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_origin_bone**\ (\ )
 
-Index of the :ref:`origin_bone_name<class_LookAtModifier3D_property_origin_bone_name>` in the parent :ref:`Skeleton3D<class_Skeleton3D>`.
+Index de :ref:`origin_bone_name<class_LookAtModifier3D_property_origin_bone_name>` dans le :ref:`Skeleton3D<class_Skeleton3D>` parent.
 
 .. rst-class:: classref-item-separator
 
@@ -343,7 +343,7 @@ Le décalage de l'origine de la pose de l'os. Faire correspondre les origines pa
 - |void| **set_origin_safe_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_origin_safe_margin**\ (\ )
 
-If the target passes through too close to the origin than this value, time-based interpolation is used even if the target is within the angular limitations, to prevent the angular velocity from becoming too high.
+Si la cible passe plus près de l'origine que cette valeur, l'interpolation temporelle est utilisée même si la cible est dans les limites d'angle, pour empêcher la vitesse angulaire de devenir trop élevée.
 
 .. rst-class:: classref-item-separator
 
@@ -379,7 +379,7 @@ If ``1.0``, no damping is performed. If ``0.0``, damping is always performed.
 - |void| **set_primary_limit_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_primary_limit_angle**\ (\ )
 
-The limit angle of the primary rotation when :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` is ``true``.
+L'angle limite de la rotation primaire lorsque :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -396,7 +396,7 @@ The limit angle of the primary rotation when :ref:`symmetry_limitation<class_Loo
 - |void| **set_primary_negative_damp_threshold**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_primary_negative_damp_threshold**\ (\ )
 
-The threshold to start damping for :ref:`primary_negative_limit_angle<class_LookAtModifier3D_property_primary_negative_limit_angle>`.
+Le seuil pour commencer l'amortissement pour :ref:`primary_negative_limit_angle<class_LookAtModifier3D_property_primary_negative_limit_angle>`.
 
 .. rst-class:: classref-item-separator
 
@@ -413,7 +413,7 @@ The threshold to start damping for :ref:`primary_negative_limit_angle<class_Look
 - |void| **set_primary_negative_limit_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_primary_negative_limit_angle**\ (\ )
 
-The limit angle of negative side of the primary rotation when :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` is ``false``.
+L'angle limite du côté négatif de la rotation primaire lorsque :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -430,7 +430,7 @@ The limit angle of negative side of the primary rotation when :ref:`symmetry_lim
 - |void| **set_primary_positive_damp_threshold**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_primary_positive_damp_threshold**\ (\ )
 
-The threshold to start damping for :ref:`primary_positive_limit_angle<class_LookAtModifier3D_property_primary_positive_limit_angle>`.
+Le seuil pour commencer l'amortissement pour :ref:`primary_positive_limit_angle<class_LookAtModifier3D_property_primary_positive_limit_angle>`.
 
 .. rst-class:: classref-item-separator
 
@@ -447,7 +447,7 @@ The threshold to start damping for :ref:`primary_positive_limit_angle<class_Look
 - |void| **set_primary_positive_limit_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_primary_positive_limit_angle**\ (\ )
 
-The limit angle of positive side of the primary rotation when :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` is ``false``.
+L'angle limite du côté positif de la rotation primaire lorsque :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -464,7 +464,7 @@ The limit angle of positive side of the primary rotation when :ref:`symmetry_lim
 - |void| **set_primary_rotation_axis**\ (\ value\: :ref:`Axis<enum_Vector3_Axis>`\ )
 - :ref:`Axis<enum_Vector3_Axis>` **get_primary_rotation_axis**\ (\ )
 
-The axis of the first rotation. This :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` works by compositing the rotation by Euler angles to prevent to rotate the :ref:`forward_axis<class_LookAtModifier3D_property_forward_axis>`.
+L'axe de la première rotation. Ce :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` fonctionne en composant la rotation avec des angles d'Euler pour éviter de tourner :ref:`forward_axis<class_LookAtModifier3D_property_forward_axis>`.
 
 .. rst-class:: classref-item-separator
 
@@ -481,7 +481,7 @@ The axis of the first rotation. This :ref:`SkeletonModifier3D<class_SkeletonModi
 - |void| **set_secondary_damp_threshold**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_secondary_damp_threshold**\ (\ )
 
-The threshold to start damping for :ref:`secondary_limit_angle<class_LookAtModifier3D_property_secondary_limit_angle>`.
+Le seuil pour commencer l'amortissement pour :ref:`secondary_limit_angle<class_LookAtModifier3D_property_secondary_limit_angle>`.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ The threshold to start damping for :ref:`secondary_limit_angle<class_LookAtModif
 - |void| **set_secondary_limit_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_secondary_limit_angle**\ (\ )
 
-The limit angle of the secondary rotation when :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` is ``true``.
+L'angle limite de la rotation secondaire lorsque :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -532,7 +532,7 @@ Le seuil pour commencer l'amortissement pour :ref:`secondary_negative_limit_angl
 - |void| **set_secondary_negative_limit_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_secondary_negative_limit_angle**\ (\ )
 
-The limit angle of negative side of the secondary rotation when :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` is ``false``.
+L'angle limite du côté négatif de la rotation secondaire lorsque :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ Le seuil pour commencer l'amortissement pour :ref:`secondary_positive_limit_angl
 - |void| **set_secondary_positive_limit_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_secondary_positive_limit_angle**\ (\ )
 
-The limit angle of positive side of the secondary rotation when :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` is ``false``.
+L'angle limite du côté positif de la rotation secondaire lorsque :ref:`symmetry_limitation<class_LookAtModifier3D_property_symmetry_limitation>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -602,7 +602,7 @@ If ``false``, the limitation can be specified separately for each side of the bo
 - |void| **set_target_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_target_node**\ (\ )
 
-The :ref:`NodePath<class_NodePath>` to the node that is the target for the look at modification. This node is what the modification will rotate the bone to.
+Le :ref:`NodePath<class_NodePath>` vers le nœud qui est la cible du modificateur "LookAt". Ce nœud est celui vers lequel la modification va faire tourner l'os.
 
 .. rst-class:: classref-item-separator
 
@@ -619,7 +619,7 @@ The :ref:`NodePath<class_NodePath>` to the node that is the target for the look 
 - |void| **set_transition_type**\ (\ value\: :ref:`TransitionType<enum_Tween_TransitionType>`\ )
 - :ref:`TransitionType<enum_Tween_TransitionType>` **get_transition_type**\ (\ )
 
-The transition type of the time-based interpolation. See also :ref:`TransitionType<enum_Tween_TransitionType>`.
+Le type de transition de l'interpolation temporelle. Voir aussi :ref:`TransitionType<enum_Tween_TransitionType>`.
 
 .. rst-class:: classref-item-separator
 
@@ -674,7 +674,7 @@ Descriptions des méthodes
 
 :ref:`float<class_float>` **get_interpolation_remaining**\ (\ ) |const| :ref:`🔗<class_LookAtModifier3D_method_get_interpolation_remaining>`
 
-Returns the remaining seconds of the time-based interpolation.
+Renvoie les secondes restantes de l'interpolation temporelle.
 
 .. rst-class:: classref-item-separator
 
@@ -686,9 +686,9 @@ Returns the remaining seconds of the time-based interpolation.
 
 :ref:`bool<class_bool>` **is_interpolating**\ (\ ) |const| :ref:`🔗<class_LookAtModifier3D_method_is_interpolating>`
 
-Returns ``true`` if time-based interpolation is running. If ``true``, it is equivalent to :ref:`get_interpolation_remaining()<class_LookAtModifier3D_method_get_interpolation_remaining>` returning ``0.0``.
+Renvoie ``true`` si l'interpolation temporelle est en cours d'exécution. Si ``true``, ceci est équivalent à :ref:`get_interpolation_remaining()<class_LookAtModifier3D_method_get_interpolation_remaining>` renvoyant ``0.0``.
 
-This is useful to determine whether a **LookAtModifier3D** can be removed safely.
+Ceci est utile pour déterminer si un **LookAtModifier3D** peut être retiré en toute sécurité.
 
 .. rst-class:: classref-item-separator
 
@@ -700,9 +700,9 @@ This is useful to determine whether a **LookAtModifier3D** can be removed safely
 
 :ref:`bool<class_bool>` **is_target_within_limitation**\ (\ ) |const| :ref:`🔗<class_LookAtModifier3D_method_is_target_within_limitation>`
 
-Returns whether the target is within the angle limitations. It is useful for unsetting the :ref:`target_node<class_LookAtModifier3D_property_target_node>` when the target is outside of the angle limitations.
+Renvoie si la cible est dans les limites d'angle. Ceci est utile de retirer le :ref:`target_node<class_LookAtModifier3D_property_target_node>` lorsque la cible est hors des limites d'angle.
 
-\ **Note:** The value is updated after :ref:`SkeletonModifier3D._process_modification()<class_SkeletonModifier3D_private_method__process_modification>`. To retrieve this value correctly, we recommend using the signal :ref:`SkeletonModifier3D.modification_processed<class_SkeletonModifier3D_signal_modification_processed>`.
+\ **Note :** La valeur est mise à jour après :ref:`SkeletonModifier3D._process_modification()<class_SkeletonModifier3D_private_method__process_modification>`. Pour récupérer cette valeur correctement, nous vous recommandons d'utiliser le signal :ref:`SkeletonModifier3D.modification_processed<class_SkeletonModifier3D_signal_modification_processed>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

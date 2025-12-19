@@ -92,7 +92,7 @@ If ``true``, alpha is forced to either ``0.0`` or ``1.0``. This allows hardening
 - |void| **set_enable_sample_shading**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enable_sample_shading**\ (\ )
 
-If ``true``, enables per-sample shading which replaces MSAA by SSAA. This provides higher quality antialiasing that works with transparent (alpha scissor) edges. This has a very high performance cost. See also :ref:`min_sample_shading<class_RDPipelineMultisampleState_property_min_sample_shading>`. See the `per-sample shading Vulkan documentation <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#primsrast-sampleshading>`__ for more details.
+Si es ``true``, habilita el sombreado por muestra, que reemplaza MSAA por SSAA. Esto proporciona un antialiasing de mayor calidad que funciona con bordes transparentes (alpha scissor). Esto tiene un coste de rendimiento muy alto. Véase también :ref:`min_sample_shading<class_RDPipelineMultisampleState_property_min_sample_shading>`. Véase la `documentación de Vulkan sobre el sombreado por muestra <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#primsrast-sampleshading>`__ para obtener más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -109,7 +109,7 @@ If ``true``, enables per-sample shading which replaces MSAA by SSAA. This provid
 - |void| **set_min_sample_shading**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_min_sample_shading**\ (\ )
 
-The multiplier of :ref:`sample_count<class_RDPipelineMultisampleState_property_sample_count>` that determines how many samples are performed for each fragment. Must be between ``0.0`` and ``1.0`` (inclusive). Only effective if :ref:`enable_sample_shading<class_RDPipelineMultisampleState_property_enable_sample_shading>` is ``true``. If :ref:`min_sample_shading<class_RDPipelineMultisampleState_property_min_sample_shading>` is ``1.0``, fragment invocation must only read from the coverage index sample. Tile image access must not be used if :ref:`enable_sample_shading<class_RDPipelineMultisampleState_property_enable_sample_shading>` is *not* ``1.0``.
+El multiplicador de :ref:`sample_count<class_RDPipelineMultisampleState_property_sample_count>` que determina cuántas muestras se realizan para cada fragmento. Debe estar entre ``0.0`` y ``1.0`` (inclusive). Sólo es efectivo si :ref:`enable_sample_shading<class_RDPipelineMultisampleState_property_enable_sample_shading>` es ``true``. Si :ref:`min_sample_shading<class_RDPipelineMultisampleState_property_min_sample_shading>` es ``1.0``, la invocación de fragmentos sólo debe leer de la muestra del índice de cobertura. El acceso a la imagen de tile no debe utilizarse si :ref:`enable_sample_shading<class_RDPipelineMultisampleState_property_enable_sample_shading>` *no* es ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -126,7 +126,7 @@ The multiplier of :ref:`sample_count<class_RDPipelineMultisampleState_property_s
 - |void| **set_sample_count**\ (\ value\: :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>`\ )
 - :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>` **get_sample_count**\ (\ )
 
-The number of MSAA samples (or SSAA samples if :ref:`enable_sample_shading<class_RDPipelineMultisampleState_property_enable_sample_shading>` is ``true``) to perform. Higher values result in better antialiasing, at the cost of performance.
+El número de muestras MSAA (o muestras SSAA si :ref:`enable_sample_shading<class_RDPipelineMultisampleState_property_enable_sample_shading>` es ``true``) a realizar. Los valores más altos resultan en un mejor antialiasing, a costa del rendimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -143,7 +143,7 @@ The number of MSAA samples (or SSAA samples if :ref:`enable_sample_shading<class
 - |void| **set_sample_masks**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`int<class_int>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`int<class_int>`\] **get_sample_masks**\ (\ )
 
-The sample mask array. See the `sample mask Vulkan documentation <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#fragops-samplemask>`__ for more details.
+El array de máscara de muestra. Véase la `documentación de Vulkan sobre la máscara de muestra <https://registry.khronos.org/vulkan/specs/1.3-extensions/html/vkspec.html#fragops-samplemask>`__ para más detalles.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

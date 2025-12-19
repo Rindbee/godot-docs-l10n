@@ -526,7 +526,7 @@ Restituisce se lo strato specificato della :ref:`collision_mask<class_GridMap_pr
 
 :ref:`Array<class_Array>` **get_meshes**\ (\ ) |const| :ref:`🔗<class_GridMap_method_get_meshes>`
 
-Returns an array of :ref:`Transform3D<class_Transform3D>` and :ref:`Mesh<class_Mesh>` references corresponding to the non-empty cells in the grid. The transforms are specified in local space. Even indices contain :ref:`Transform3D<class_Transform3D>`\ s, while odd indices contain :ref:`Mesh<class_Mesh>`\ es related to the :ref:`Transform3D<class_Transform3D>` in the index preceding it.
+Restituisce un array di :ref:`Transform3D<class_Transform3D>` e riferimenti :ref:`Mesh<class_Mesh>` corrispondenti alle celle non vuote nella griglia. Le trasformazioni sono specificate nello spazio locale. Gli indici pari contengono :ref:`Transform3D<class_Transform3D>`, mentre gli indici dispari contengono :ref:`Mesh<class_Mesh>` correlati al :ref:`Transform3D<class_Transform3D>` nell'indice che lo precede.
 
 .. rst-class:: classref-item-separator
 

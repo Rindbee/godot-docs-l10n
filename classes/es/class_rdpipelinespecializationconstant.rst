@@ -7,16 +7,16 @@ RDPipelineSpecializationConstant
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Pipeline specialization constant (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Constante de especialización del pipeline (utilizada por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A *specialization constant* is a way to create additional variants of shaders without actually increasing the number of shader versions that are compiled. This allows improving performance by reducing the number of shader versions and reducing ``if`` branching, while still allowing shaders to be flexible for different use cases.
+Una *constante de especialización* es una forma de crear variantes adicionales de shaders sin aumentar realmente el número de versiones de shaders que se compilan. Esto permite mejorar el rendimiento al reducir el número de versiones de shaders y reducir las ramificaciones ``if``, al tiempo que permite que los shaders sean flexibles para diferentes casos de uso.
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -52,7 +52,7 @@ Descripciones de Propiedades
 - |void| **set_constant_id**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_constant_id**\ (\ )
 
-The identifier of the specialization constant. This is a value starting from ``0`` and that increments for every different specialization constant for a given shader.
+El identificador de la constante de especialización. Este es un valor que comienza desde ``0`` y que se incrementa para cada constante de especialización diferente para un shader dado.
 
 .. rst-class:: classref-item-separator
 
@@ -69,7 +69,7 @@ The identifier of the specialization constant. This is a value starting from ``0
 - |void| **set_value**\ (\ value\: :ref:`Variant<class_Variant>`\ )
 - :ref:`Variant<class_Variant>` **get_value**\ (\ )
 
-The specialization constant's value. Only :ref:`bool<class_bool>`, :ref:`int<class_int>` and :ref:`float<class_float>` types are valid for specialization constants.
+El valor de la constante de especialización. Solo los tipos :ref:`bool<class_bool>`, :ref:`int<class_int>` y :ref:`float<class_float>` son válidos para las constantes de especialización.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

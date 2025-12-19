@@ -17,11 +17,11 @@ Un champ de saisie pour des nombres.
 Description
 -----------
 
-**SpinBox** is a numerical input text field. It allows entering integers and floating-point numbers. The **SpinBox** also has up and down buttons that can be clicked increase or decrease the value. The value can also be changed by dragging the mouse up or down over the **SpinBox**'s arrows.
+**SpinBox** est un champ de texte d'entrée numérique. Il permet d'entrer des entiers et des flottants. **SpinBox** dispose également de boutons haut et bas qui peuvent être cliqués pour augmenter ou diminuer la valeur. La valeur peut également être changée en faisant glisser la souris vers le haut ou vers le bas sur les flèches de la **SpinBox**.
 
-Additionally, mathematical expressions can be entered. These are evaluated when the user presses :kbd:`Enter` while editing the **SpinBox**'s text field. This uses the :ref:`Expression<class_Expression>` class to parse and evaluate the expression. The result of the expression is then set as the value of the **SpinBox**. Some examples of valid expressions are ``5 + 2 * 3``, ``pow(2, 4)``, and ``PI + sin(0.5)``. Expressions are case-sensitive.
+De plus, des expressions mathématiques peuvent être entrées. Elles sont évaluées lorsque l'utilisateur appuie sur :kbd:`Entrée` tout en éditant le champ de texte de la **SpinBox**. Ceci utilise la classe :ref:`Expression<class_Expression>` pour analyser et évaluer l'expression. Le résultat de l'expression est alors défini comme la valeur de la **SpinBox**. Certains exemples d'expressions valides sont ``5 + 2 * 3``, ``pow(2, 4)``, et ``PI + sin(0.5)``. Les expressions sont sensibles à la casse.
 
-\ **Example:** Create a **SpinBox**, disable its context menu and set its text alignment to right.
+\ **Exemple :** Créer une **SpinBox**, désactiver son menu contextuel et aligner son texte sur la droite.
 
 
 .. tabs::
@@ -44,13 +44,13 @@ Additionally, mathematical expressions can be entered. These are evaluated when 
 
 
 
-See :ref:`Range<class_Range>` class for more options over the **SpinBox**.
+Voir la classe :ref:`Range<class_Range>` pour plus d'options sur **SpinBox**.
 
-\ **Note:** With the **SpinBox**'s context menu disabled, you can right-click the bottom half of the spinbox to set the value to its minimum, while right-clicking the top half sets the value to its maximum.
+\ **Note :** Avec le menu contextuel de la **SpinBox** désactivé, vous pouvez clic-droit sur la moitié inférieure de la spinbox pour définir la valeur à son minimum, tandis que le clic droit sur la moitié supérieure définit la valeur à son maximum.
 
-\ **Note:** **SpinBox** relies on an underlying :ref:`LineEdit<class_LineEdit>` node. To theme a **SpinBox**'s background, add theme items for :ref:`LineEdit<class_LineEdit>` and customize them. The :ref:`LineEdit<class_LineEdit>` has the ``SpinBoxInnerLineEdit`` theme variation, so that you can give it a distinct appearance from regular :ref:`LineEdit<class_LineEdit>`\ s.
+\ **Note :** **SpinBox** s'appuie sur un noeud :ref:`LineEdit<class_LineEdit>` sous-jacent. Pour donner un thème à l'arrière-plan d'une **SpinBox**, ajoutez des éléments de thème pour :ref:`LineEdit<class_LineEdit>` et personnalisez-les. Le :ref:`LineEdit<class_LineEdit>` a la variation de thème ``SpinBoxInnerLineEdit``, de sorte que vous pouvez lui donner une apparence distincte des :ref:`LineEdit<class_LineEdit>` réguliers.
 
-\ **Note:** If you want to implement drag and drop for the underlying :ref:`LineEdit<class_LineEdit>`, you can use :ref:`Control.set_drag_forwarding()<class_Control_method_set_drag_forwarding>` on the node returned by :ref:`get_line_edit()<class_SpinBox_method_get_line_edit>`.
+\ **Note :** Si vous voulez implémenter un glisser-déposer pour le :ref:`LineEdit<class_LineEdit>` sous-jacent, vous pouvez utiliser :ref:`Control.set_drag_forwarding()<class_Control_method_set_drag_forwarding>` sur le nœud renvoyé par :ref:`get_line_edit()<class_SpinBox_method_get_line_edit>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -203,9 +203,9 @@ Change l'alignement du :ref:`LineEdit<class_LineEdit>` sous-jacent.
 - |void| **set_custom_arrow_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_custom_arrow_step**\ (\ )
 
-If not ``0``, sets the step when interacting with the arrow buttons of the **SpinBox**.
+Si différent de ``0``, définit le pas lors de l'interaction avec les boutons flèche de la **SpinBox**.
 
-\ **Note:** :ref:`Range.value<class_Range_property_value>` will still be rounded to a multiple of :ref:`Range.step<class_Range_property_step>`.
+\ **Note :** :ref:`Range.value<class_Range_property_value>` sera toujours arrondi à un multiple de :ref:`Range.step<class_Range_property_step>`.
 
 .. rst-class:: classref-item-separator
 
@@ -239,7 +239,7 @@ Si ``true``, la **SpinBox** sera modifiable. Sinon, elle sera en lecture seule.
 - |void| **set_prefix**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_prefix**\ (\ )
 
-Adds the specified prefix string before the numerical value of the **SpinBox**.
+Ajoute la chaîne de caractères de préfixe spécifiée avant la valeur numérique de la **SpinBox**.
 
 .. rst-class:: classref-item-separator
 
@@ -256,7 +256,7 @@ Adds the specified prefix string before the numerical value of the **SpinBox**.
 - |void| **set_select_all_on_focus**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_select_all_on_focus**\ (\ )
 
-If ``true``, the **SpinBox** will select the whole text when the :ref:`LineEdit<class_LineEdit>` gains focus. Clicking the up and down arrows won't trigger this behavior.
+Si ``true``, la **SpinBox** sélectionnera tout le texte lorsque le :ref:`LineEdit<class_LineEdit>` obtient le focus. Cliquer sur les flèches haut et bas ne déclenchera pas ce comportement.
 
 .. rst-class:: classref-item-separator
 
@@ -273,7 +273,7 @@ If ``true``, the **SpinBox** will select the whole text when the :ref:`LineEdit<
 - |void| **set_suffix**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_suffix**\ (\ )
 
-Adds the specified suffix string after the numerical value of the **SpinBox**.
+Ajoute la chaîne de caractères de suffixe spécifiée avant la valeur numérique de la **SpinBox**.
 
 .. rst-class:: classref-item-separator
 
@@ -290,9 +290,9 @@ Adds the specified suffix string after the numerical value of the **SpinBox**.
 - |void| **set_update_on_text_changed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_update_on_text_changed**\ (\ )
 
-Sets the value of the :ref:`Range<class_Range>` for this **SpinBox** when the :ref:`LineEdit<class_LineEdit>` text is *changed* instead of *submitted*. See :ref:`LineEdit.text_changed<class_LineEdit_signal_text_changed>` and :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>`.
+Définit la valeur du :ref:`Range<class_Range>` pour cette **SpinBox** lorsque le texte du :ref:`LineEdit<class_LineEdit>` est *modifié* au lieu d'être *soumis*. Voir :ref:`LineEdit.text_changed<class_LineEdit_signal_text_changed>` et :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>`.
 
-\ **Note:** If set to ``true``, this will interfere with entering mathematical expressions in the **SpinBox**. The **SpinBox** will try to evaluate the expression as you type, which means symbols like a trailing ``+`` are removed immediately by the expression being evaluated.
+\ **Note :** Si défini à ``true``, cela interfère avec l'entrée d'expressions mathématiques dans la **SpinBox**. La **SpinBox** tentera d'évaluer l'expression au fur et à mesure que vous la tapiez, ce qui signifie que les symboles comme un ``+`` de fin sont enlevés immédiatement par l’évaluation de l’expression.
 
 .. rst-class:: classref-section-separator
 
@@ -309,7 +309,7 @@ Descriptions des méthodes
 
 |void| **apply**\ (\ ) :ref:`🔗<class_SpinBox_method_apply>`
 
-Applies the current value of this **SpinBox**. This is equivalent to pressing :kbd:`Enter` while editing the :ref:`LineEdit<class_LineEdit>` used by the **SpinBox**. This will cause :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>` to be emitted and its currently contained expression to be evaluated.
+Applique la valeur actuelle de cette **SpinBox**. Ceci équivaut à appuyer sur :kbd:`Entrée` lors de l'édition du :ref:`LineEdit<class_LineEdit>` utilisé par la **SpinBox**. Cela provoquer l'émission de :ref:`LineEdit.text_submitted<class_LineEdit_signal_text_submitted>` et l'évaluation de son expression actuellement contenue.
 
 .. rst-class:: classref-item-separator
 
@@ -340,7 +340,7 @@ Descriptions des propriétés du thème
 
 :ref:`Color<class_Color>` **down_disabled_icon_modulate** = ``Color(0.875, 0.875, 0.875, 0.5)`` :ref:`🔗<class_SpinBox_theme_color_down_disabled_icon_modulate>`
 
-Down button icon modulation color, when the button is disabled.
+Couleur de modulation de l'icône du bouton bas, lorsque le bouton est désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -352,7 +352,7 @@ Down button icon modulation color, when the button is disabled.
 
 :ref:`Color<class_Color>` **down_hover_icon_modulate** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_SpinBox_theme_color_down_hover_icon_modulate>`
 
-Down button icon modulation color, when the button is hovered.
+Couleur de modulation de l'icône du bouton bas, lorsque le bouton est survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -364,7 +364,7 @@ Down button icon modulation color, when the button is hovered.
 
 :ref:`Color<class_Color>` **down_icon_modulate** = ``Color(0.875, 0.875, 0.875, 1)`` :ref:`🔗<class_SpinBox_theme_color_down_icon_modulate>`
 
-Down button icon modulation color.
+Couleur de modulation de l'icône du bouton bas.
 
 .. rst-class:: classref-item-separator
 
@@ -376,7 +376,7 @@ Down button icon modulation color.
 
 :ref:`Color<class_Color>` **down_pressed_icon_modulate** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_SpinBox_theme_color_down_pressed_icon_modulate>`
 
-Down button icon modulation color, when the button is being pressed.
+Couleur de modulation de l'icône du bouton bas, lorsque le bouton est appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -388,7 +388,7 @@ Down button icon modulation color, when the button is being pressed.
 
 :ref:`Color<class_Color>` **up_disabled_icon_modulate** = ``Color(0.875, 0.875, 0.875, 0.5)`` :ref:`🔗<class_SpinBox_theme_color_up_disabled_icon_modulate>`
 
-Up button icon modulation color, when the button is disabled.
+Couleur de modulation de l'icône du bouton haut, lorsque le bouton est désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -400,7 +400,7 @@ Up button icon modulation color, when the button is disabled.
 
 :ref:`Color<class_Color>` **up_hover_icon_modulate** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_SpinBox_theme_color_up_hover_icon_modulate>`
 
-Up button icon modulation color, when the button is hovered.
+Couleur de modulation de l'icône du bouton haut, lorsque le bouton est survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -412,7 +412,7 @@ Up button icon modulation color, when the button is hovered.
 
 :ref:`Color<class_Color>` **up_icon_modulate** = ``Color(0.875, 0.875, 0.875, 1)`` :ref:`🔗<class_SpinBox_theme_color_up_icon_modulate>`
 
-Up button icon modulation color.
+Couleur de modulation de l'icône du bouton haut.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ Up button icon modulation color.
 
 :ref:`Color<class_Color>` **up_pressed_icon_modulate** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_SpinBox_theme_color_up_pressed_icon_modulate>`
 
-Up button icon modulation color, when the button is being pressed.
+Couleur de modulation de l'icône du bouton haut, lorsque le bouton est appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -448,7 +448,7 @@ Séparation verticale entre les boutons haut et bas.
 
 :ref:`int<class_int>` **buttons_width** = ``16`` :ref:`🔗<class_SpinBox_theme_constant_buttons_width>`
 
-Width of the up and down buttons. If smaller than any icon set on the buttons, the respective icon may overlap neighboring elements. If smaller than ``0``, the width is automatically adjusted from the icon size.
+Largeur des boutons haut et bas. Si plus petite que n'importe quelle icône définie sur les boutons, l'icône respective peut recouvrir les éléments voisins. Si plus petite que ``0``, la largeur est automatiquement ajustée depuis la taille de l'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -460,7 +460,7 @@ Width of the up and down buttons. If smaller than any icon set on the buttons, t
 
 :ref:`int<class_int>` **field_and_buttons_separation** = ``2`` :ref:`🔗<class_SpinBox_theme_constant_field_and_buttons_separation>`
 
-Width of the horizontal separation between the text input field (:ref:`LineEdit<class_LineEdit>`) and the buttons.
+Largeur de la séparation horizontale entre le champ de saisie de texte (:ref:`LineEdit<class_LineEdit>`) et les boutons.
 
 .. rst-class:: classref-item-separator
 
@@ -472,7 +472,7 @@ Width of the horizontal separation between the text input field (:ref:`LineEdit<
 
 :ref:`int<class_int>` **set_min_buttons_width_from_icons** = ``1`` :ref:`🔗<class_SpinBox_theme_constant_set_min_buttons_width_from_icons>`
 
-If not ``0``, the minimum button width corresponds to the widest of all icons set on those buttons, even if :ref:`buttons_width<class_SpinBox_theme_constant_buttons_width>` is smaller.
+Si différent de ``0``, la largeur minimale du bouton correspond à la plus grande largeur des icônes définies sur ces boutons, même si :ref:`buttons_width<class_SpinBox_theme_constant_buttons_width>` est plus petite.
 
 .. rst-class:: classref-item-separator
 
@@ -484,7 +484,7 @@ If not ``0``, the minimum button width corresponds to the widest of all icons se
 
 :ref:`Texture2D<class_Texture2D>` **down** :ref:`🔗<class_SpinBox_theme_icon_down>`
 
-Down button icon, displayed in the middle of the down (value-decreasing) button.
+Icône du bouton bas, affichée au milieu du bouton bas (diminution de la valeur).
 
 .. rst-class:: classref-item-separator
 
@@ -496,7 +496,7 @@ Down button icon, displayed in the middle of the down (value-decreasing) button.
 
 :ref:`Texture2D<class_Texture2D>` **down_disabled** :ref:`🔗<class_SpinBox_theme_icon_down_disabled>`
 
-Down button icon when the button is disabled.
+Icône du bouton bas lorsque le bouton est désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -508,7 +508,7 @@ Down button icon when the button is disabled.
 
 :ref:`Texture2D<class_Texture2D>` **down_hover** :ref:`🔗<class_SpinBox_theme_icon_down_hover>`
 
-Down button icon when the button is hovered.
+Icône du bouton bas lorsque le bouton est survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -520,7 +520,7 @@ Down button icon when the button is hovered.
 
 :ref:`Texture2D<class_Texture2D>` **down_pressed** :ref:`🔗<class_SpinBox_theme_icon_down_pressed>`
 
-Down button icon when the button is being pressed.
+Icône du bouton bas lorsque le bouton est appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -532,7 +532,7 @@ Down button icon when the button is being pressed.
 
 :ref:`Texture2D<class_Texture2D>` **up** :ref:`🔗<class_SpinBox_theme_icon_up>`
 
-Up button icon, displayed in the middle of the up (value-increasing) button.
+Icône du bouton haut, affichée au milieu du bouton haut (augmentation de la valeur).
 
 .. rst-class:: classref-item-separator
 
@@ -544,7 +544,7 @@ Up button icon, displayed in the middle of the up (value-increasing) button.
 
 :ref:`Texture2D<class_Texture2D>` **up_disabled** :ref:`🔗<class_SpinBox_theme_icon_up_disabled>`
 
-Up button icon when the button is disabled.
+Icône du bouton haut lorsque le bouton est désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -556,7 +556,7 @@ Up button icon when the button is disabled.
 
 :ref:`Texture2D<class_Texture2D>` **up_hover** :ref:`🔗<class_SpinBox_theme_icon_up_hover>`
 
-Up button icon when the button is hovered.
+Icône du bouton haut lorsque le bouton est survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -568,7 +568,7 @@ Up button icon when the button is hovered.
 
 :ref:`Texture2D<class_Texture2D>` **up_pressed** :ref:`🔗<class_SpinBox_theme_icon_up_pressed>`
 
-Up button icon when the button is being pressed.
+Icône du bouton haut lorsque le bouton est appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -580,7 +580,7 @@ Up button icon when the button is being pressed.
 
 :ref:`Texture2D<class_Texture2D>` **updown** :ref:`🔗<class_SpinBox_theme_icon_updown>`
 
-Single texture representing both the up and down buttons icons. It is displayed in the middle of the buttons and does not change upon interaction. If a valid icon is assigned, it will replace :ref:`up<class_SpinBox_theme_icon_up>` and :ref:`down<class_SpinBox_theme_icon_down>`.
+Texture unique représentant à la fois les icônes des boutons haut et bas. Elle est affichée au milieu des boutons et ne change pas lors d'une interaction. Si une icône valide est assignée, elle remplacera :ref:`up<class_SpinBox_theme_icon_up>` et :ref:`down<class_SpinBox_theme_icon_down>`.
 
 .. rst-class:: classref-item-separator
 
@@ -592,7 +592,7 @@ Single texture representing both the up and down buttons icons. It is displayed 
 
 :ref:`StyleBox<class_StyleBox>` **down_background** :ref:`🔗<class_SpinBox_theme_style_down_background>`
 
-Background style of the down button.
+Style de l'arrière-plan du bouton bas.
 
 .. rst-class:: classref-item-separator
 
@@ -604,7 +604,7 @@ Background style of the down button.
 
 :ref:`StyleBox<class_StyleBox>` **down_background_disabled** :ref:`🔗<class_SpinBox_theme_style_down_background_disabled>`
 
-Background style of the down button when disabled.
+Style de l'arrière-plan du bouton bas lorsque désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -616,7 +616,7 @@ Background style of the down button when disabled.
 
 :ref:`StyleBox<class_StyleBox>` **down_background_hovered** :ref:`🔗<class_SpinBox_theme_style_down_background_hovered>`
 
-Background style of the down button when hovered.
+Style de l'arrière-plan du bouton bas lorsque survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -628,7 +628,7 @@ Background style of the down button when hovered.
 
 :ref:`StyleBox<class_StyleBox>` **down_background_pressed** :ref:`🔗<class_SpinBox_theme_style_down_background_pressed>`
 
-Background style of the down button when being pressed.
+Style de l'arrière-plan du bouton bas lorsqu'appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -640,7 +640,7 @@ Background style of the down button when being pressed.
 
 :ref:`StyleBox<class_StyleBox>` **field_and_buttons_separator** :ref:`🔗<class_SpinBox_theme_style_field_and_buttons_separator>`
 
-:ref:`StyleBox<class_StyleBox>` drawn in the space occupied by the separation between the input field and the buttons.
+:ref:`StyleBox<class_StyleBox>` dessinée dans l'espace occupé par la séparation entre le champ de saisie et les boutons.
 
 .. rst-class:: classref-item-separator
 
@@ -664,7 +664,7 @@ Style d'arrière-plan du bouton haut.
 
 :ref:`StyleBox<class_StyleBox>` **up_background_disabled** :ref:`🔗<class_SpinBox_theme_style_up_background_disabled>`
 
-Background style of the up button when disabled.
+Style de l'arrière-plan du bouton haut lorsque désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -676,7 +676,7 @@ Background style of the up button when disabled.
 
 :ref:`StyleBox<class_StyleBox>` **up_background_hovered** :ref:`🔗<class_SpinBox_theme_style_up_background_hovered>`
 
-Background style of the up button when hovered.
+Style de l'arrière-plan du bouton haut lorsque survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -688,7 +688,7 @@ Background style of the up button when hovered.
 
 :ref:`StyleBox<class_StyleBox>` **up_background_pressed** :ref:`🔗<class_SpinBox_theme_style_up_background_pressed>`
 
-Background style of the up button when being pressed.
+Style de l'arrière-plan du bouton haut lorsqu'appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -700,7 +700,7 @@ Background style of the up button when being pressed.
 
 :ref:`StyleBox<class_StyleBox>` **up_down_buttons_separator** :ref:`🔗<class_SpinBox_theme_style_up_down_buttons_separator>`
 
-:ref:`StyleBox<class_StyleBox>` drawn in the space occupied by the separation between the up and down buttons.
+:ref:`StyleBox<class_StyleBox>` dessinée dans l'espace occupé par la séparation entre les boutons haut et bas.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

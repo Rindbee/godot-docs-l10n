@@ -308,7 +308,7 @@ Crea un segmento entre los puntos dados. Si ``bidirectional`` es ``false``, solo
 
 |void| **disconnect_points**\ (\ id\: :ref:`int<class_int>`, to_id\: :ref:`int<class_int>`, bidirectional\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_AStar3D_method_disconnect_points>`
 
-Deletes the segment between the given points. If ``bidirectional`` is ``false``, only movement from ``id`` to ``to_id`` is prevented, and a unidirectional segment possibly remains.
+Elimina el segmento entre los puntos dados. Si ``bidirectional`` es ``false``, solo el movimiento desde ``id`` a ``to_id`` se impide, y un segmento unidireccional posiblemente permanece.
 
 .. rst-class:: classref-item-separator
 
@@ -332,9 +332,9 @@ Devuelve el punto de Ide proximo disponible con ningun punto asociado a el.
 
 :ref:`int<class_int>` **get_closest_point**\ (\ to_position\: :ref:`Vector3<class_Vector3>`, include_disabled\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_AStar3D_method_get_closest_point>`
 
-Returns the ID of the closest point to ``to_position``, optionally taking disabled points into account. Returns ``-1`` if there are no points in the points pool.
+Devuelve el ID del punto más cercano a ``to_position``, opcionalmente teniendo en cuenta los puntos desactivados. Devuelve ``-1`` si no hay puntos en el grupo de puntos.
 
-\ **Note:** If several points are the closest to ``to_position``, the one with the smallest ID will be returned, ensuring a deterministic result.
+\ **Nota:** Si varios puntos son los más cercanos a ``to_position``, se devolverá el que tenga el ID más pequeño, lo que garantiza un resultado determinista.
 
 .. rst-class:: classref-item-separator
 
@@ -432,7 +432,7 @@ Si tu cambias el peso del segundo punto a 3, entonces el resultado será ``[1, 4
 
 :ref:`int<class_int>` **get_point_capacity**\ (\ ) |const| :ref:`🔗<class_AStar3D_method_get_point_capacity>`
 
-Returns the capacity of the structure backing the points, useful in conjunction with :ref:`reserve_space()<class_AStar3D_method_reserve_space>`.
+Devuelve la capacidad de la estructura que respalda los puntos, útil en conjunto con :ref:`reserve_space()<class_AStar3D_method_reserve_space>`.
 
 .. rst-class:: classref-item-separator
 
@@ -444,7 +444,7 @@ Returns the capacity of the structure backing the points, useful in conjunction 
 
 :ref:`PackedInt64Array<class_PackedInt64Array>` **get_point_connections**\ (\ id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_AStar3D_method_get_point_connections>`
 
-Returns an array with the IDs of the points that form the connection with the given point.
+Devuelve un array con los ID de los puntos que forman la conneccion con el punto dado.
 
 
 .. tabs::
@@ -460,7 +460,7 @@ Returns an array with the IDs of the points that form the connection with the gi
     astar.connect_points(1, 2, true)
     astar.connect_points(1, 3, true)
 
-    var neighbors = astar.get_point_connections(1) # Returns [2, 3]
+    var vecinos = astar.get_point_connections(1) # Devuelve [2, 3]
 
  .. code-tab:: csharp
 
@@ -472,7 +472,7 @@ Returns an array with the IDs of the points that form the connection with the gi
     astar.ConnectPoints(1, 2, true);
     astar.ConnectPoints(1, 3, true);
 
-    long[] neighbors = astar.GetPointConnections(1); // Returns [2, 3]
+    long[] vecinos = astar.GetPointConnections(1); // Devuelve [2, 3]
 
 
 
@@ -510,13 +510,13 @@ Devuelve un array de todos los ID de los puntos.
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **get_point_path**\ (\ from_id\: :ref:`int<class_int>`, to_id\: :ref:`int<class_int>`, allow_partial_path\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_AStar3D_method_get_point_path>`
 
-Returns an array with the points that are in the path found by AStar3D between the given points. The array is ordered from the starting point to the ending point of the path.
+Devuelve un array con los puntos que están en la ruta encontrada por AStar3D entre los puntos dados. El array se ordena desde el punto de inicio hasta el punto final de la ruta.
 
-If there is no valid path to the target, and ``allow_partial_path`` is ``true``, returns a path to the point closest to the target that can be reached.
+Si no hay una ruta válida al destino, y ``allow_partial_path`` es ``true``, devuelve una ruta al punto más cercano al destino que se puede alcanzar.
 
-\ **Note:** This method is not thread-safe; it can only be used from a single :ref:`Thread<class_Thread>` at a given time. Consider using :ref:`Mutex<class_Mutex>` to ensure exclusive access to one thread to avoid race conditions.
+\ **Nota:** Este método no es seguro para hilos; solo se puede usar desde un único :ref:`Thread<class_Thread>` a la vez. Considera usar :ref:`Mutex<class_Mutex>` para asegurar el acceso exclusivo a un hilo para evitar condiciones de carrera.
 
-Additionally, when ``allow_partial_path`` is ``true`` and ``to_id`` is disabled the search may take an unusually long time to finish.
+Adicionalmente, cuando ``allow_partial_path`` es ``true`` y ``to_id`` está deshabilitado, la búsqueda puede tardar un tiempo inusualmente largo en finalizar.
 
 .. rst-class:: classref-item-separator
 
@@ -540,7 +540,7 @@ Devuelve la posición del punto asociado con el ``id`` dado.
 
 :ref:`float<class_float>` **get_point_weight_scale**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AStar3D_method_get_point_weight_scale>`
 
-Returns the weight scale of the point associated with the given ``id``.
+Devuelve la escala de peso del punto asociado con el ``id`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -552,7 +552,7 @@ Returns the weight scale of the point associated with the given ``id``.
 
 :ref:`bool<class_bool>` **has_point**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AStar3D_method_has_point>`
 
-Returns whether a point associated with the given ``id`` exists.
+Devuelve si existe un punto asociado con el ``id`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -576,7 +576,7 @@ Devuelve si un punto esta deshabilitado or no para el buscador de rutas. Por def
 
 |void| **remove_point**\ (\ id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_AStar3D_method_remove_point>`
 
-Removes the point associated with the given ``id`` from the points pool.
+Elimina el punto asociado con el ``id`` dado del grupo de puntos.
 
 .. rst-class:: classref-item-separator
 
@@ -588,7 +588,7 @@ Removes the point associated with the given ``id`` from the points pool.
 
 |void| **reserve_space**\ (\ num_nodes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_AStar3D_method_reserve_space>`
 
-Reserves space internally for ``num_nodes`` points. Useful if you're adding a known large number of points at once, such as points on a grid.
+Reserva espacio internamente para ``num_nodes`` puntos. Útil si vas a añadir un número grande conocido de puntos a la vez, como puntos en una cuadrícula.
 
 .. rst-class:: classref-item-separator
 

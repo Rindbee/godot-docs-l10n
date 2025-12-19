@@ -27,7 +27,7 @@ The default settings are intended for use in an outdoor environment, tips for se
 Tutoriales
 --------------------
 
-- :doc:`Physical light and camera units <../tutorials/3d/physical_light_and_camera_units>`
+- :doc:`Unidades físicas de luz y cámara <../tutorials/3d/physical_light_and_camera_units>`
 
 .. rst-class:: classref-reftable-group
 
@@ -87,7 +87,7 @@ Descripciones de Propiedades
 - |void| **set_auto_exposure_max_exposure_value**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_auto_exposure_max_exposure_value**\ (\ )
 
-The maximum luminance (in EV100) used when calculating auto exposure. When calculating scene average luminance, color values will be clamped to at least this value. This limits the auto-exposure from exposing below a certain brightness, resulting in a cut off point where the scene will remain bright.
+La luminancia máxima (en EV100) utilizada al calcular la exposición automática. Al calcular la luminancia media de la escena, los valores de color se limitarán a este valor como mínimo. Esto limita la exposición automática a exponer por debajo de un cierto brillo, lo que resulta en un punto de corte donde la escena permanecerá brillante.
 
 .. rst-class:: classref-item-separator
 
@@ -104,7 +104,7 @@ The maximum luminance (in EV100) used when calculating auto exposure. When calcu
 - |void| **set_auto_exposure_min_exposure_value**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_auto_exposure_min_exposure_value**\ (\ )
 
-The minimum luminance (in EV100) used when calculating auto exposure. When calculating scene average luminance, color values will be clamped to at least this value. This limits the auto-exposure from exposing above a certain brightness, resulting in a cut off point where the scene will remain dark.
+La luminancia mínima (en EV100) utilizada al calcular la exposición automática. Al calcular la luminancia media de la escena, los valores de color se limitarán a este valor como mínimo. Esto limita la exposición automática a exponer por encima de un cierto brillo, lo que resulta en un punto de corte donde la escena permanecerá oscura.
 
 .. rst-class:: classref-item-separator
 
@@ -140,9 +140,9 @@ Only available when :ref:`ProjectSettings.rendering/lights_and_shadows/use_physi
 - |void| **set_shutter_speed**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_shutter_speed**\ (\ )
 
-Time for shutter to open and close, evaluated as ``1 / shutter_speed`` seconds. A higher value will allow less light (leading to a darker image), while a lower value will allow more light (leading to a brighter image).
+Tiempo para que el obturador se abra y se cierre, evaluado como ``1 / velocidad_de_obturación`` segundos. Un valor más alto permitirá menos luz (lo que conducirá a una imagen más oscura), mientras que un valor más bajo permitirá más luz (lo que conducirá a una imagen más brillante).
 
-Only available when :ref:`ProjectSettings.rendering/lights_and_shadows/use_physical_light_units<class_ProjectSettings_property_rendering/lights_and_shadows/use_physical_light_units>` is enabled.
+Solo disponible cuando :ref:`ProjectSettings.rendering/lights_and_shadows/use_physical_light_units<class_ProjectSettings_property_rendering/lights_and_shadows/use_physical_light_units>` está habilitado.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ Only available when :ref:`ProjectSettings.rendering/lights_and_shadows/use_physi
 - |void| **set_far**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_far**\ (\ )
 
-Override value for :ref:`Camera3D.far<class_Camera3D_property_far>`. Used internally when calculating depth of field. When attached to a :ref:`Camera3D<class_Camera3D>` as its :ref:`Camera3D.attributes<class_Camera3D_property_attributes>`, it will override the :ref:`Camera3D.far<class_Camera3D_property_far>` property.
+Valor de reemplazo para :ref:`Camera3D.far<class_Camera3D_property_far>`. Se usa internamente al calcular la profundidad de campo. Cuando se adjunta a una :ref:`Camera3D<class_Camera3D>` como sus :ref:`Camera3D.attributes<class_Camera3D_property_attributes>`, reemplazará la propiedad :ref:`Camera3D.far<class_Camera3D_property_far>`.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Override value for :ref:`Camera3D.far<class_Camera3D_property_far>`. Used intern
 - |void| **set_focal_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_focal_length**\ (\ )
 
-Distance between camera lens and camera aperture, measured in millimeters. Controls field of view and depth of field. A larger focal length will result in a smaller field of view and a narrower depth of field meaning fewer objects will be in focus. A smaller focal length will result in a wider field of view and a larger depth of field meaning more objects will be in focus. When attached to a :ref:`Camera3D<class_Camera3D>` as its :ref:`Camera3D.attributes<class_Camera3D_property_attributes>`, it will override the :ref:`Camera3D.fov<class_Camera3D_property_fov>` property and the :ref:`Camera3D.keep_aspect<class_Camera3D_property_keep_aspect>` property.
+Distancia entre la lente de la cámara y la apertura de la cámara, medida en milímetros. Controla el campo de visión y la profundidad de campo. Una distancia focal mayor resultará en un campo de visión más pequeño y una profundidad de campo más estrecha, lo que significa que menos objetos estarán enfocados. Una distancia focal más pequeña resultará en un campo de visión más amplio y una profundidad de campo mayor, lo que significa que más objetos estarán enfocados. Cuando se adjunta a una :ref:`Camera3D<class_Camera3D>` como sus :ref:`Camera3D.attributes<class_Camera3D_property_attributes>`, sobrescribirá la propiedad :ref:`Camera3D.fov<class_Camera3D_property_fov>` y la propiedad :ref:`Camera3D.keep_aspect<class_Camera3D_property_keep_aspect>`.
 
 .. rst-class:: classref-item-separator
 
@@ -193,7 +193,7 @@ Distance between camera lens and camera aperture, measured in millimeters. Contr
 - |void| **set_focus_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_focus_distance**\ (\ )
 
-Distance from camera of object that will be in focus, measured in meters. Internally this will be clamped to be at least 1 millimeter larger than :ref:`frustum_focal_length<class_CameraAttributesPhysical_property_frustum_focal_length>`.
+Distancia desde la cámara del objeto que estará enfocado, medida en metros. Internamente, esto se sujetará para que sea al menos 1 milímetro más grande que :ref:`frustum_focal_length<class_CameraAttributesPhysical_property_frustum_focal_length>`.
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ Distance from camera of object that will be in focus, measured in meters. Intern
 - |void| **set_near**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_near**\ (\ )
 
-Override value for :ref:`Camera3D.near<class_Camera3D_property_near>`. Used internally when calculating depth of field. When attached to a :ref:`Camera3D<class_Camera3D>` as its :ref:`Camera3D.attributes<class_Camera3D_property_attributes>`, it will override the :ref:`Camera3D.near<class_Camera3D_property_near>` property.
+Valor de reemplazo para :ref:`Camera3D.near<class_Camera3D_property_near>`. Se usa internamente al calcular la profundidad de campo. Cuando se adjunta a una :ref:`Camera3D<class_Camera3D>` como sus :ref:`Camera3D.attributes<class_Camera3D_property_attributes>`, reemplazará la propiedad :ref:`Camera3D.near<class_Camera3D_property_near>`.
 
 .. rst-class:: classref-section-separator
 
@@ -227,7 +227,7 @@ Descripciones de Métodos
 
 :ref:`float<class_float>` **get_fov**\ (\ ) |const| :ref:`🔗<class_CameraAttributesPhysical_method_get_fov>`
 
-Returns the vertical field of view that corresponds to the :ref:`frustum_focal_length<class_CameraAttributesPhysical_property_frustum_focal_length>`. This value is calculated internally whenever :ref:`frustum_focal_length<class_CameraAttributesPhysical_property_frustum_focal_length>` is changed.
+Devuelve el campo de visión vertical que corresponde a :ref:`frustum_focal_length<class_CameraAttributesPhysical_property_frustum_focal_length>`. Este valor se calcula internamente cada vez que se cambia :ref:`frustum_focal_length<class_CameraAttributesPhysical_property_frustum_focal_length>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

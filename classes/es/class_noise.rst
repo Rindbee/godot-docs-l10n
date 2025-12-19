@@ -9,7 +9,7 @@ Noise
 
 **Heredado por:** :ref:`FastNoiseLite<class_FastNoiseLite>`
 
-Abstract base class for noise generators.
+Clase base abstracta para los generadores de ruido.
 
 .. rst-class:: classref-introduction-group
 
@@ -65,9 +65,9 @@ Descripciones de Métodos
 
 :ref:`Image<class_Image>` **get_image**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, invert\: :ref:`bool<class_bool>` = false, in_3d_space\: :ref:`bool<class_bool>` = false, normalize\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_Noise_method_get_image>`
 
-Returns an :ref:`Image<class_Image>` containing 2D noise values.
+Devuelve una :ref:`Image<class_Image>` que contiene valores de ruido 2D.
 
-\ **Note:** With ``normalize`` set to ``false``, the default implementation expects the noise generator to return values in the range ``-1.0`` to ``1.0``.
+\ **Nota:** Con ``normalize`` establecido en ``false``, la implementación predeterminada espera que el generador de ruido devuelva valores en el rango ``-1.0`` a ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -79,9 +79,9 @@ Returns an :ref:`Image<class_Image>` containing 2D noise values.
 
 :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\] **get_image_3d**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, depth\: :ref:`int<class_int>`, invert\: :ref:`bool<class_bool>` = false, normalize\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_Noise_method_get_image_3d>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`Image<class_Image>`\ s containing 3D noise values for use with :ref:`ImageTexture3D.create()<class_ImageTexture3D_method_create>`.
+Devuelve un :ref:`Array<class_Array>` de :ref:`Image<class_Image>`\ s que contiene valores de ruido 3D para usar con :ref:`ImageTexture3D.create()<class_ImageTexture3D_method_create>`.
 
-\ **Note:** With ``normalize`` set to ``false``, the default implementation expects the noise generator to return values in the range ``-1.0`` to ``1.0``.
+\ **Nota:** Con ``normalize`` establecido en ``false``, la implementación predeterminada espera que el generador de ruido devuelva valores en el rango ``-1.0`` a ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -93,7 +93,7 @@ Returns an :ref:`Array<class_Array>` of :ref:`Image<class_Image>`\ s containing 
 
 :ref:`float<class_float>` **get_noise_1d**\ (\ x\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Noise_method_get_noise_1d>`
 
-Returns the 1D noise value at the given (x) coordinate.
+Devuelve el valor de ruido 1D en la coordenada (x) dada.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ Returns the 1D noise value at the given (x) coordinate.
 
 :ref:`float<class_float>` **get_noise_2d**\ (\ x\: :ref:`float<class_float>`, y\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Noise_method_get_noise_2d>`
 
-Returns the 2D noise value at the given position.
+Devuelve el valor de ruido 2D en la posición dada.
 
 .. rst-class:: classref-item-separator
 
@@ -117,7 +117,7 @@ Returns the 2D noise value at the given position.
 
 :ref:`float<class_float>` **get_noise_2dv**\ (\ v\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Noise_method_get_noise_2dv>`
 
-Returns the 2D noise value at the given position.
+Devuelve el valor de ruido 2D en la posición dada.
 
 .. rst-class:: classref-item-separator
 
@@ -129,7 +129,7 @@ Returns the 2D noise value at the given position.
 
 :ref:`float<class_float>` **get_noise_3d**\ (\ x\: :ref:`float<class_float>`, y\: :ref:`float<class_float>`, z\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Noise_method_get_noise_3d>`
 
-Returns the 3D noise value at the given position.
+Devuelve el valor de ruido 3D en la posición dada.
 
 .. rst-class:: classref-item-separator
 
@@ -141,7 +141,7 @@ Returns the 3D noise value at the given position.
 
 :ref:`float<class_float>` **get_noise_3dv**\ (\ v\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_Noise_method_get_noise_3dv>`
 
-Returns the 3D noise value at the given position.
+Devuelve el valor de ruido 3D en la posición dada.
 
 .. rst-class:: classref-item-separator
 
@@ -167,9 +167,9 @@ Returns an :ref:`Image<class_Image>` containing seamless 2D noise values.
 
 :ref:`Array<class_Array>`\[:ref:`Image<class_Image>`\] **get_seamless_image_3d**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, depth\: :ref:`int<class_int>`, invert\: :ref:`bool<class_bool>` = false, skirt\: :ref:`float<class_float>` = 0.1, normalize\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_Noise_method_get_seamless_image_3d>`
 
-Returns an :ref:`Array<class_Array>` of :ref:`Image<class_Image>`\ s containing seamless 3D noise values for use with :ref:`ImageTexture3D.create()<class_ImageTexture3D_method_create>`.
+Devuelve un :ref:`Array<class_Array>` de :ref:`Image<class_Image>`\ s que contiene valores de ruido 3D sin uniones para usar con :ref:`ImageTexture3D.create()<class_ImageTexture3D_method_create>`.
 
-\ **Note:** With ``normalize`` set to ``false``, the default implementation expects the noise generator to return values in the range ``-1.0`` to ``1.0``.
+\ **Nota:** Con ``normalize`` establecido en ``false``, la implementación predeterminada espera que el generador de ruido devuelva valores en el rango ``-1.0`` a ``1.0``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

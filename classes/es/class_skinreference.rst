@@ -7,7 +7,7 @@ SkinReference
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A reference-counted holder object for a skeleton RID used in the :ref:`RenderingServer<class_RenderingServer>`.
+Un objeto contenedor con conteo de referencias para un RID de esqueleto usado en el :ref:`RenderingServer<class_RenderingServer>`.
 
 .. rst-class:: classref-introduction-group
 

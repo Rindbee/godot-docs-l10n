@@ -177,7 +177,7 @@ enum **TrackerType**: :ref:`🔗<enum_XRServer_TrackerType>`
 
 :ref:`TrackerType<enum_XRServer_TrackerType>` **TRACKER_HEAD** = ``1``
 
-The tracker tracks the location of the player's head. This is usually a location centered between the player's eyes. Note that for handheld AR devices this can be the current location of the device.
+Le tracker suit l'emplacement de la tête du joueur. Il s'agit généralement d'un emplacement centré entre les yeux du joueur. Notez que pour les appareils AR portatifs, cela peut être l'emplacement actuel de l'appareil.
 
 .. _class_XRServer_constant_TRACKER_CONTROLLER:
 
@@ -193,7 +193,7 @@ Le traqueur permet de suivre la localisation d'un contrôleur.
 
 :ref:`TrackerType<enum_XRServer_TrackerType>` **TRACKER_BASESTATION** = ``4``
 
-Le traqueur permet de suivre l'emplacement d'une station de base.
+Le tracker permet de suivre l'emplacement d'une station de base.
 
 .. _class_XRServer_constant_TRACKER_ANCHOR:
 
@@ -201,7 +201,7 @@ Le traqueur permet de suivre l'emplacement d'une station de base.
 
 :ref:`TrackerType<enum_XRServer_TrackerType>` **TRACKER_ANCHOR** = ``8``
 
-Le traqueur permet de suivre l'emplacement et la taille d'une ancre en réalité augmentée.
+Le tracker permet de suivre l'emplacement et la taille d'une ancre en réalité augmentée.
 
 .. _class_XRServer_constant_TRACKER_HAND:
 
@@ -305,9 +305,9 @@ Descriptions des propriétés
 - |void| **set_camera_locked_to_origin**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_camera_locked_to_origin**\ (\ )
 
-If set to ``true``, the scene will be rendered as if the camera is locked to the :ref:`XROrigin3D<class_XROrigin3D>`.
+Si défini à ``true``, la scène sera rendue comme si la caméra était verrouillée au :ref:`XROrigin3D<class_XROrigin3D>`.
 
-\ **Note:** This doesn't provide a very comfortable experience for users. This setting exists for doing benchmarking or automated testing, where you want to control what is rendered via code.
+\ **Note :** Cela ne fournit pas une expérience très confortable pour les utilisateurs. Ce paramètre existe pour faire des tests de référence ou automatisés, où vous voulez contrôler ce qui est rendu via le code.
 
 .. rst-class:: classref-item-separator
 
@@ -341,9 +341,9 @@ La :ref:`XRInterface<class_XRInterface>` principale actuellement connectée à c
 - |void| **set_world_origin**\ (\ value\: :ref:`Transform3D<class_Transform3D>`\ )
 - :ref:`Transform3D<class_Transform3D>` **get_world_origin**\ (\ )
 
-The current origin of our tracking space in the virtual world. This is used by the renderer to properly position the camera with new tracking data.
+L'origine actuelle de notre espace de suivi dans le monde virtuel. Ceci est utilisé par le moteur de rendu pour positionner correctement la caméra avec de nouvelles données de suivi.
 
-\ **Note:** This property is managed by the current :ref:`XROrigin3D<class_XROrigin3D>` node. It is exposed for access from GDExtensions.
+\ **Note :** Cette propriété est gérée par le nœud :ref:`XROrigin3D<class_XROrigin3D>` courant. Il est exposé pour y accéder depuis des GDExtensions.
 
 .. rst-class:: classref-item-separator
 
@@ -401,17 +401,17 @@ Enregistre un nouveau :ref:`XRTracker<class_XRTracker>` qui suit un objet physiq
 
 |void| **center_on_hmd**\ (\ rotation_mode\: :ref:`RotationMode<enum_XRServer_RotationMode>`, keep_height\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_XRServer_method_center_on_hmd>`
 
-This is an important function to understand correctly. AR and VR platforms all handle positioning slightly differently.
+Il s'agit d'une fonction importante qu'il faut comprendre correctement. Les plates-formes AR et VR gèrent les positions légèrement différemment.
 
-For platforms that do not offer spatial tracking, our origin point ``(0, 0, 0)`` is the location of our HMD, but you have little control over the direction the player is facing in the real world.
+Pour les plateformes qui n'offrent pas de suivi spatial, notre point d'origine ``(0,0,0)`` est l'emplacement de notre HMD, mais vous avez peu de contrôle sur la direction que le joueur fait face dans le monde réel.
 
-For platforms that do offer spatial tracking, our origin point depends very much on the system. For OpenVR, our origin point is usually the center of the tracking space, on the ground. For other platforms, it's often the location of the tracking camera.
+Pour les plateformes qui offrent un suivi spatial, notre point d'origine dépend beaucoup du système. Pour OpenVR, notre point d'origine est généralement le centre de l'espace de suivi, au sol. Pour d'autres plates-formes, il s'agit souvent de l'emplacement de la caméra de suivi.
 
-This method allows you to center your tracker on the location of the HMD. It will take the current location of the HMD and use that to adjust all your tracking data; in essence, realigning the real world to your player's current position in the game world.
+Cette méthode vous permet de centrer votre tracker sur l'emplacement du HMD. Il prendra l'emplacement actuel de l'HMD et l'utilisera pour ajuster toutes vos données de suivi ; c'est-à-dire réaligner le monde réel à la position actuelle de votre joueur dans le monde du jeu.
 
-For this method to produce usable results, tracking information must be available. This often takes a few frames after starting your game.
+Pour que cette méthode produise des résultats utilisables, des informations de suivi doivent être disponibles. Cela prend souvent quelques trames après le démarrage de votre jeu.
 
-You should call this method after a few seconds have passed. For example, when the user requests a realignment of the display holding a designated button on a controller for a short period of time, or when implementing a teleport mechanism.
+Vous devriez appeler cette méthode après quelques secondes. Par exemple, lorsque l'utilisateur demande un réalignement de l'écran en maintenant un bouton désigné sur un contrôleur pendant une courte période, ou lors de l'implémentation d'un mécanisme de téléportation.
 
 .. rst-class:: classref-item-separator
 
@@ -471,7 +471,7 @@ Renvoie l'interface enregistrée à l'index ``idx`` donné dans la liste des int
 
 :ref:`int<class_int>` **get_interface_count**\ (\ ) |const| :ref:`🔗<class_XRServer_method_get_interface_count>`
 
-Renvoie le nombre d'interfaces actuellement enregistrées avec le serveur AR/VR. Si votre projet prend en charge plusieurs plateformes AR/VR, vous pouvez lister les interfaces disponibles, et présenter à l'utilisateur une sélection ou simplement essayer d'initialiser chaque interface et utiliser la première interface qui retourne ``true``.
+Renvoie le nombre d'interfaces actuellement enregistrées avec le serveur AR/VR. Si votre projet prend en charge plusieurs plateformes AR/VR, vous pouvez lister les interfaces disponibles, et présenter à l'utilisateur une sélection ou simplement essayer d'initialiser chaque interface et utiliser la première interface qui renvoie ``true``.
 
 .. rst-class:: classref-item-separator
 

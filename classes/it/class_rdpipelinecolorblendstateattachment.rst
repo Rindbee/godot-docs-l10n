@@ -7,7 +7,7 @@ RDPipelineColorBlendStateAttachment
 
 **Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Pipeline color blend state attachment (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Allegato allo stato di fusione dei colori della pipeline (utilizzato da :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 

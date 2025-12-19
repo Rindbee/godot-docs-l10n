@@ -527,7 +527,7 @@ If ``true``, ``x86_32`` binaries are included into exported project.
 
 :ref:`bool<class_bool>` **architectures/x86_64** :ref:`🔗<class_EditorExportPlatformAndroid_property_architectures/x86_64>`
 
-If ``true``, ``x86_64`` binaries are included into exported project.
+Si ``true``, les binaires ``x86_64`` sont incluses dans le projet exporté.
 
 .. rst-class:: classref-item-separator
 
@@ -2379,7 +2379,7 @@ Allows an application to control whether activities are immediately finished whe
 
 :ref:`bool<class_bool>` **permissions/set_animation_scale** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/set_animation_scale>`
 
-Allows to modify the global animation scaling factor. See `SET_ANIMATION_SCALE <https://developer.android.com/reference/android/Manifest.permission#SET_ANIMATION_SCALE>`__.
+Permet de modifier le facteur d'échelle d'animation global. Voir `SET_ANIMATION_SCALE <https://developer.android.com/reference/android/Manifest.permission#SET_ANIMATION_SCALE>`__.
 
 .. rst-class:: classref-item-separator
 

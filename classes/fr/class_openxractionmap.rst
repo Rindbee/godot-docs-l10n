@@ -86,7 +86,7 @@ Descriptions des propriétés
 - |void| **set_action_sets**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_action_sets**\ (\ )
 
-Collection de :ref:`OpenXRActionSet<class_OpenXRActionSet>`\ s qui font partie de cette action map.
+Collection d':ref:`OpenXRActionSet<class_OpenXRActionSet>`\ s qui font partie de cette action map.
 
 .. rst-class:: classref-item-separator
 
@@ -103,7 +103,7 @@ Collection de :ref:`OpenXRActionSet<class_OpenXRActionSet>`\ s qui font partie d
 - |void| **set_interaction_profiles**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_interaction_profiles**\ (\ )
 
-Collection de :ref:`OpenXRInteractionProfile<class_OpenXRInteractionProfile>`\ s qui font parti de cette action map.
+Collection d':ref:`OpenXRInteractionProfile<class_OpenXRInteractionProfile>`\ s qui font partie de cette action map.
 
 .. rst-class:: classref-section-separator
 

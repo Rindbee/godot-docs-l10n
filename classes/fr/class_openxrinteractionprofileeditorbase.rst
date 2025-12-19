@@ -7,7 +7,7 @@ OpenXRInteractionProfileEditorBase
 
 **Hérite de :** :ref:`HBoxContainer<class_HBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OpenXRInteractionProfileEditor<class_OpenXRInteractionProfileEditor>`
+**Hérité par :** :ref:`OpenXRInteractionProfileEditor<class_OpenXRInteractionProfileEditor>`
 
 Classe de base pour l'édition des profils d'interaction.
 

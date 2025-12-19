@@ -93,7 +93,7 @@ La máscara de luz del oclusor de LightOccluder2D. El LightOccluder2D proyectar�
 - |void| **set_as_sdf_collision**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_set_as_sdf_collision**\ (\ )
 
-Si está habilitado, el oclusor formará parte de un campo de distancia con signo generado en tiempo real que se puede usar en sombreadores personalizados.
+Si está habilitado, el oclusor formará parte de un campo de distancia con signo generado en tiempo real que se puede usar en shaders personalizados.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

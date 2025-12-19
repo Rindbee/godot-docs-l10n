@@ -362,9 +362,9 @@ Un format de texture OpenGL spécial où les trois composantes de couleur ont 9 
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT1** = ``17``
 
-Le format de texture `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ qui utiliser une compression de bloc 1, et est une variation plus petite que S3TC, avec seulement 1 bit pour l'alpha et les composants de couleurs étant pré-multitpliés avec l'alpha.
+Le format de texture `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ qui utilise Block Compression 1, et est une variation plus petite de S3TC, avec seulement 1 bit pour l'alpha et les composants de couleurs étant pré-multitpliées avec l'alpha.
 
-\ **Note :** À la création d'une :ref:`ImageTexture<class_ImageTexture>`, elle est convertie vers l'espace de couleur linéaire sRGB.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_DXT3:
 
@@ -372,9 +372,9 @@ Le format de texture `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT3** = ``18``
 
-The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format that uses Block Compression 2, and color data is interpreted as not having been premultiplied by alpha. Well suited for images with sharp alpha transitions between translucent and opaque areas.
+Le format de texture `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ qui utilise Block Compression 2, et les données de couleur sont interprétées comme n'ayant pas été prémultipliées par l'alpha. Bien adapté aux images avec des transitions alpha nettes entre les zones translucides et les zones opaques.
 
-\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, an sRGB to linear color space conversion is performed.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_DXT5:
 
@@ -382,9 +382,9 @@ The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture form
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT5** = ``19``
 
-The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format also known as Block Compression 3 or BC3 that contains 64 bits of alpha channel data followed by 64 bits of DXT1-encoded color data. Color data is not premultiplied by alpha, same as DXT3. DXT5 generally produces superior results for transparent gradients compared to DXT3.
+Le format de texture `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ qui utilise Block Compression 3 ou BC3 qui contient 64 bits de données de canal alpha suivis de 64 bits de données de couleurs encodées en DXT1. Les données de couleur ne sont pas pré-multipliées par l'alpha, comme avec DXT3. DXT5 produit généralement des résultats supérieurs pour des gradients transparents comparé à DXT3.
 
-\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, an sRGB to linear color space conversion is performed.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_RGTC_R:
 
@@ -392,7 +392,7 @@ The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture form
 
 :ref:`Format<enum_Image_Format>` **FORMAT_RGTC_R** = ``20``
 
-Texture format that uses `Red Green Texture Compression <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__, normalizing the red channel data using the same compression algorithm that DXT5 uses for the alpha channel.
+Format de texture utilisant la `Compression de texture Rouge Vert <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__, normalisant les données du canal rouge en utilisant le même algorithme de compression que DXT5 utilise pour le canal alpha.
 
 .. _class_Image_constant_FORMAT_RGTC_RG:
 
@@ -400,7 +400,7 @@ Texture format that uses `Red Green Texture Compression <https://www.khronos.org
 
 :ref:`Format<enum_Image_Format>` **FORMAT_RGTC_RG** = ``21``
 
-Texture format that uses `Red Green Texture Compression <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__, normalizing the red and green channel data using the same compression algorithm that DXT5 uses for the alpha channel.
+Format de texture utilisant la `Compression de texture Rouge Vert <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`__, normalisant les données du canal rouge et vert en utilisant le même algorithme de compression que DXT5 utilise pour le canal alpha.
 
 .. _class_Image_constant_FORMAT_BPTC_RGBA:
 
@@ -408,9 +408,9 @@ Texture format that uses `Red Green Texture Compression <https://www.khronos.org
 
 :ref:`Format<enum_Image_Format>` **FORMAT_BPTC_RGBA** = ``22``
 
-Texture format that uses `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ compression with unsigned normalized RGBA components.
+Format de texture utilisant la compression `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ avec des composantes RGBA normalisées non signées.
 
-\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, an sRGB to linear color space conversion is performed.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_BPTC_RGBF:
 
@@ -434,7 +434,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC** = ``25``
 
-`Ericsson Texture Compression format 1 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC1>`__, also referred to as "ETC1", and is part of the OpenGL ES graphics standard. This format cannot store an alpha channel.
+`Format de compression de texture Ericsson 1 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC1>`__, aussi connu sous le nom d'"ETC1", et fait partie de la norme graphique OpenGL ES. Ce format ne peut stocker de canal alpha.
 
 .. _class_Image_constant_FORMAT_ETC2_R11:
 
@@ -442,7 +442,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_R11** = ``26``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``R11_EAC`` variant), which provides one channel of unsigned data.
+`Format de compression de texture Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``R11_EAC``), qui fournit un canal de données non signées.
 
 .. _class_Image_constant_FORMAT_ETC2_R11S:
 
@@ -450,7 +450,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_R11S** = ``27``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``SIGNED_R11_EAC`` variant), which provides one channel of signed data.
+`Format de compression de texture Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``SIGNED_R11_EAC``), qui fournit un canal de données signées.
 
 .. _class_Image_constant_FORMAT_ETC2_RG11:
 
@@ -458,7 +458,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RG11** = ``28``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RG11_EAC`` variant), which provides two channels of unsigned data.
+`Format de compression de texture Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``RG11_EAC``), qui fournit deux canaux de données non signées.
 
 .. _class_Image_constant_FORMAT_ETC2_RG11S:
 
@@ -466,7 +466,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RG11S** = ``29``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``SIGNED_RG11_EAC`` variant), which provides two channels of signed data.
+`Format de compression de texture Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``SIGNED_RG11_EAC``), qui fournit deux canaux de données non signées.
 
 .. _class_Image_constant_FORMAT_ETC2_RGB8:
 
@@ -474,9 +474,9 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGB8** = ``30``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8`` variant), which is a follow-up of ETC1 and compresses RGB888 data.
+`Format de compression Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``RGB8``), qui est la suite d'ETC1 et compresse des données RGB888.
 
-\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, an sRGB to linear color space conversion is performed.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_ETC2_RGBA8:
 
@@ -484,9 +484,9 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGBA8** = ``31``
 
-`Format de compression Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante ``RGBA8``), qui compresse les données RGBA8888 avec le support complet de l'opacité.
+`Format de compression Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``RGBA8``), qui compresse des données RGBA8888 avec le support complet du canal alpha.
 
-\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, l'espace de couleur sRGB est convertit en linéaire.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_ETC2_RGB8A1:
 
@@ -494,9 +494,9 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGB8A1** = ``32``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8_PUNCHTHROUGH_ALPHA1`` variant), which compresses RGBA data to make alpha either fully transparent or fully opaque.
+`Format de compression Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``RGB8_PUNCHTHROUGH_ALPHA1``), qui compresse des données RGBA pour faire que l'alpha soit complètement transparent ou complètement opaque.
 
-\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, an sRGB to linear color space conversion is performed.
+\ **Note :** Lors de la création d'une :ref:`ImageTexture<class_ImageTexture>`, une conversion de l'espace de couleur sRGB vers linéaire est effectuée.
 
 .. _class_Image_constant_FORMAT_ETC2_RA_AS_RG:
 
@@ -504,7 +504,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RA_AS_RG** = ``33``
 
-`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGBA8`` variant), which compresses RA data and interprets it as two channels (red and green). See also :ref:`FORMAT_ETC2_RGBA8<class_Image_constant_FORMAT_ETC2_RGBA8>`.
+`Format de compression Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (variante de ``RGBA8``), qui compresse les données RA et l'interprète en deux canaux (rouge et vert). Voir aussi :ref:`FORMAT_ETC2_RGBA8<class_Image_constant_FORMAT_ETC2_RGBA8>`.
 
 .. _class_Image_constant_FORMAT_DXT5_RA_AS_RG:
 
@@ -512,7 +512,7 @@ Le format de texture qui utilise la compression `BPTC <https://www.khronos.org/o
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT5_RA_AS_RG** = ``34``
 
-The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format also known as Block Compression 3 or BC3, which compresses RA data and interprets it as two channels (red and green). See also :ref:`FORMAT_DXT5<class_Image_constant_FORMAT_DXT5>`.
+Le format de texture `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ aussi connu sous le nom de Block Compression 3 ou BC3, qui compresse les données RA et l'interprète en deux canaux (rouge et vert). Voir aussi :ref:`FORMAT_DXT5<class_Image_constant_FORMAT_DXT5>`.
 
 .. _class_Image_constant_FORMAT_ASTC_4x4:
 
@@ -528,7 +528,7 @@ The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture form
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ASTC_4x4_HDR** = ``36``
 
-Same format as :ref:`FORMAT_ASTC_4x4<class_Image_constant_FORMAT_ASTC_4x4>`, but with the hint to let the GPU know it is used for HDR.
+Même format que :ref:`FORMAT_ASTC_4x4<class_Image_constant_FORMAT_ASTC_4x4>`, mais avec l'indice pour indiquer au GPU qu'il est utilisé pour de l'HDR.
 
 .. _class_Image_constant_FORMAT_ASTC_8x8:
 
@@ -544,7 +544,7 @@ Same format as :ref:`FORMAT_ASTC_4x4<class_Image_constant_FORMAT_ASTC_4x4>`, but
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ASTC_8x8_HDR** = ``38``
 
-Same format as :ref:`FORMAT_ASTC_8x8<class_Image_constant_FORMAT_ASTC_8x8>`, but with the hint to let the GPU know it is used for HDR.
+Même format que :ref:`FORMAT_ASTC_8x8<class_Image_constant_FORMAT_ASTC_8x8>`, mais avec l'indice pour indiquer au GPU qu'il est utilisé pour de l'HDR.
 
 .. _class_Image_constant_FORMAT_MAX:
 
@@ -594,15 +594,15 @@ Fait une interpolation cubique. Si l'image est redimensionnée, elle peut être 
 
 :ref:`Interpolation<enum_Image_Interpolation>` **INTERPOLATE_TRILINEAR** = ``3``
 
-Performs bilinear separately on the two most-suited mipmap levels, then linearly interpolates between them.
+Effectue une interpolation bilinéaire séparément sur les deux niveaux de mipmap les plus adaptés, puis effectue une interpolation linéaire entre eux.
 
-It's slower than :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`, but produces higher-quality results with far fewer aliasing artifacts.
+Cela est plus lent que :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`, mais produit des résultats de qualité supérieure avec beaucoup moins d’artefacts de crénelage.
 
-If the image does not have mipmaps, they will be generated and used internally, but no mipmaps will be generated on the resulting image.
+Si l'image n'a pas de mipmaps, elles seront générées et utilisées en interne, mais aucune mipmap ne sera générée sur l'image résultante.
 
-\ **Note:** If you intend to scale multiple copies of the original image, it's better to call :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`] on it in advance, to avoid wasting processing power in generating them again and again.
+\ **Note :** Si vous avez l'intention de redimensionner plusieurs copies de l'image d'origine, il est préférable d'appeler :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>` à l'avance, pour éviter de gaspiller de la puissance de traitement pour les générer encore et encore.
 
-On the other hand, if the image already has mipmaps, they will be used, and a new set will be generated for the resulting image.
+D'autre part, si l'image a déjà des mipmaps, elles seront utilisées, et un nouveau jeu sera généré pour l'image résultante.
 
 .. _class_Image_constant_INTERPOLATE_LANCZOS:
 
@@ -610,7 +610,7 @@ On the other hand, if the image already has mipmaps, they will be used, and a ne
 
 :ref:`Interpolation<enum_Image_Interpolation>` **INTERPOLATE_LANCZOS** = ``4``
 
-Performs Lanczos interpolation. This is the slowest image resizing mode, but it typically gives the best results, especially when downscaling images.
+Effectue une interpolation de Lanczos. Il s'agit du mode le plus lent de redimensionnement d'image, mais il donne généralement les meilleurs résultats, surtout lors de la réduction d'images.
 
 .. rst-class:: classref-item-separator
 
@@ -662,7 +662,7 @@ enum **CompressMode**: :ref:`🔗<enum_Image_CompressMode>`
 
 :ref:`CompressMode<enum_Image_CompressMode>` **COMPRESS_S3TC** = ``0``
 
-Utilise la compression ST3TC.
+Utiliser la compression ST3TC.
 
 .. _class_Image_constant_COMPRESS_ETC:
 
@@ -670,7 +670,7 @@ Utilise la compression ST3TC.
 
 :ref:`CompressMode<enum_Image_CompressMode>` **COMPRESS_ETC** = ``1``
 
-Utilise la compression ETC.
+Utiliser la compression ETC.
 
 .. _class_Image_constant_COMPRESS_ETC2:
 
@@ -678,7 +678,7 @@ Utilise la compression ETC.
 
 :ref:`CompressMode<enum_Image_CompressMode>` **COMPRESS_ETC2** = ``2``
 
-Utilise la compression ETC2.
+Utiliser la compression ETC2.
 
 .. _class_Image_constant_COMPRESS_BPTC:
 
@@ -686,7 +686,7 @@ Utilise la compression ETC2.
 
 :ref:`CompressMode<enum_Image_CompressMode>` **COMPRESS_BPTC** = ``3``
 
-Utiliser la compression BPTC .
+Utiliser la compression BPTC.
 
 .. _class_Image_constant_COMPRESS_ASTC:
 
@@ -720,7 +720,7 @@ enum **UsedChannels**: :ref:`🔗<enum_Image_UsedChannels>`
 
 :ref:`UsedChannels<enum_Image_UsedChannels>` **USED_CHANNELS_L** = ``0``
 
-The image only uses one channel for luminance (grayscale).
+L'image n'utilise qu'un canal pour la luminance (niveaux de gris).
 
 .. _class_Image_constant_USED_CHANNELS_LA:
 
@@ -728,7 +728,7 @@ The image only uses one channel for luminance (grayscale).
 
 :ref:`UsedChannels<enum_Image_UsedChannels>` **USED_CHANNELS_LA** = ``1``
 
-The image uses two channels for luminance and alpha, respectively.
+L'image utilise deux canaux pour la luminance et l'alpha, respectivement.
 
 .. _class_Image_constant_USED_CHANNELS_R:
 
@@ -744,7 +744,7 @@ L'image n'utilise que le canal rouge.
 
 :ref:`UsedChannels<enum_Image_UsedChannels>` **USED_CHANNELS_RG** = ``3``
 
-The image uses two channels for red and green.
+L'image utilise deux canaux pour le rouge et le vert.
 
 .. _class_Image_constant_USED_CHANNELS_RGB:
 
@@ -752,7 +752,7 @@ The image uses two channels for red and green.
 
 :ref:`UsedChannels<enum_Image_UsedChannels>` **USED_CHANNELS_RGB** = ``4``
 
-The image uses three channels for red, green, and blue.
+L'image utilise trois canaux pour le rouge, le vert et le bleu.
 
 .. _class_Image_constant_USED_CHANNELS_RGBA:
 
@@ -760,7 +760,7 @@ The image uses three channels for red, green, and blue.
 
 :ref:`UsedChannels<enum_Image_UsedChannels>` **USED_CHANNELS_RGBA** = ``5``
 
-The image uses four channels for red, green, blue, and alpha.
+L'image utilise quatre canaux pour le rouge, le vert, le bleu et l'alpha.
 
 .. rst-class:: classref-item-separator
 
@@ -812,7 +812,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`ASTCFormat<enum_Image_ASTCFormat>` **ASTC_FORMAT_4x4** = ``0``
 
-Hint to indicate that the high quality 4×4 ASTC compression format should be used.
+Indice indiquant que le format de compression 4×4 ASTC haute qualité devrait être utilisé.
 
 .. _class_Image_constant_ASTC_FORMAT_8x8:
 
@@ -820,7 +820,7 @@ Hint to indicate that the high quality 4×4 ASTC compression format should be us
 
 :ref:`ASTCFormat<enum_Image_ASTCFormat>` **ASTC_FORMAT_8x8** = ``1``
 
-Hint to indicate that the low quality 8×8 ASTC compression format should be used.
+Indice indiquant que le format de compression 8×8 ASTC basse qualité devrait être utilisé.
 
 .. rst-class:: classref-section-separator
 
@@ -1699,9 +1699,9 @@ Sauvegarde l'image comme un fichier EXR en un tableau d'octets. Si ``grayscale``
 
 :ref:`Error<enum_@GlobalScope_Error>` **save_jpg**\ (\ path\: :ref:`String<class_String>`, quality\: :ref:`float<class_float>` = 0.75\ ) |const| :ref:`🔗<class_Image_method_save_jpg>`
 
-Saves the image as a JPEG file to ``path`` with the specified ``quality`` between ``0.01`` and ``1.0`` (inclusive). Higher ``quality`` values result in better-looking output at the cost of larger file sizes. Recommended ``quality`` values are between ``0.75`` and ``0.90``. Even at quality ``1.00``, JPEG compression remains lossy.
+Enregistre l'image en tant que fichier JPEG vers le chemin ``path`` avec la qualité ``quality`` spécifiée entre ``0.01`` et ``1.0`` (inclusifs). Des valeurs plus élevées de ``quality`` résultent en une meilleure performance au coût de plus grandes tailles de fichiers. Les valeurs recommandées pour ``quality`` sont comprises entre ``0.75`` et ``0.90``. Même à la qualité ``1.00``, la compression JPEG reste avec pertes.
 
-\ **Note:** JPEG does not save an alpha channel. If the **Image** contains an alpha channel, the image will still be saved, but the resulting JPEG file won't contain the alpha channel.
+\ **Note :** Le JPEG ne sauvegarde pas de canal alpha. Si l'**Image** contient un canal alpha, l'image sera toujours sauvegardée, mais le fichier JPEG résultant ne contiendra pas le canal alpha.
 
 .. rst-class:: classref-item-separator
 
@@ -1713,9 +1713,9 @@ Saves the image as a JPEG file to ``path`` with the specified ``quality`` betwee
 
 :ref:`PackedByteArray<class_PackedByteArray>` **save_jpg_to_buffer**\ (\ quality\: :ref:`float<class_float>` = 0.75\ ) |const| :ref:`🔗<class_Image_method_save_jpg_to_buffer>`
 
-Saves the image as a JPEG file to a byte array with the specified ``quality`` between ``0.01`` and ``1.0`` (inclusive). Higher ``quality`` values result in better-looking output at the cost of larger byte array sizes (and therefore memory usage). Recommended ``quality`` values are between ``0.75`` and ``0.90``. Even at quality ``1.00``, JPEG compression remains lossy.
+Enregistre l'image en tant que fichier JPEG en un tableau d'octets avec la qualité ``quality`` spécifiée entre ``0.01`` et ``1.0`` (inclusifs). Des valeurs plus élevées de ``quality`` résultent en une meilleure performance au coût de plus grandes tailles de fichiers. Les valeurs recommandées pour ``quality`` sont comprises entre ``0.75`` et ``0.90``. Même à la qualité ``1.00``, la compression JPEG reste avec pertes.
 
-\ **Note:** JPEG does not save an alpha channel. If the **Image** contains an alpha channel, the image will still be saved, but the resulting byte array won't contain the alpha channel.
+\ **Note :** Le JPEG ne sauvegarde pas de canal alpha. Si l'**Image** contient un canal alpha, l'image sera toujours sauvegardée, mais le tableau d'octets résultant ne contiendra pas le canal alpha.
 
 .. rst-class:: classref-item-separator
 
@@ -1727,7 +1727,7 @@ Saves the image as a JPEG file to a byte array with the specified ``quality`` be
 
 :ref:`Error<enum_@GlobalScope_Error>` **save_png**\ (\ path\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Image_method_save_png>`
 
-Saves the image as a PNG file to the file at ``path``.
+Enregistre l'image en un fichier PNG à l'emplacement ``path``.
 
 .. rst-class:: classref-item-separator
 
@@ -1751,9 +1751,9 @@ Enregistre l'image comme un fichier PNG vers un tableau d'octets.
 
 :ref:`Error<enum_@GlobalScope_Error>` **save_webp**\ (\ path\: :ref:`String<class_String>`, lossy\: :ref:`bool<class_bool>` = false, quality\: :ref:`float<class_float>` = 0.75\ ) |const| :ref:`🔗<class_Image_method_save_webp>`
 
-Saves the image as a WebP (Web Picture) file to the file at ``path``. By default it will save lossless. If ``lossy`` is ``true``, the image will be saved lossy, using the ``quality`` setting between ``0.0`` and ``1.0`` (inclusive). Lossless WebP offers more efficient compression than PNG.
+Enregistre l'image en tant que fichier WebP (Web Picture) vers le fichier au chemin ``path``. Par défaut, la sauvegarde sera sans perte. Si ``lossy`` vaut ``true``, l'image sera sauvegardée en utilisant le paramètre de qualité ``quality`` entre ``0.0`` et ``1.0`` (inclusifs). Le WebP sans perte offre une compression plus efficace que le PNG.
 
-\ **Note:** The WebP format is limited to a size of 16383×16383 pixels, while PNG can save larger images.
+\ **Note :** Le format WebP est limité à une taille de 16383×16383 pixels, tandis que le PNG peut enregistrer des images plus grandes.
 
 .. rst-class:: classref-item-separator
 
@@ -1765,9 +1765,9 @@ Saves the image as a WebP (Web Picture) file to the file at ``path``. By default
 
 :ref:`PackedByteArray<class_PackedByteArray>` **save_webp_to_buffer**\ (\ lossy\: :ref:`bool<class_bool>` = false, quality\: :ref:`float<class_float>` = 0.75\ ) |const| :ref:`🔗<class_Image_method_save_webp_to_buffer>`
 
-Saves the image as a WebP (Web Picture) file to a byte array. By default it will save lossless. If ``lossy`` is ``true``, the image will be saved lossy, using the ``quality`` setting between ``0.0`` and ``1.0`` (inclusive). Lossless WebP offers more efficient compression than PNG.
+Enregistre l'image en tant que fichier WebP (Web Picture) en un tableau d'octets. Par défaut, la sauvegarde sera sans perte. Si ``lossy`` vaut ``true``, l'image sera sauvegardée en utilisant le paramètre de qualité ``quality`` entre ``0.0`` et ``1.0`` (inclusifs). Le WebP sans perte offre une compression plus efficace que le PNG.
 
-\ **Note:** The WebP format is limited to a size of 16383×16383 pixels, while PNG can save larger images.
+\ **Note :** Le format WebP est limité à une taille de 16383×16383 pixels, tandis que le PNG peut enregistrer des images plus grandes.
 
 .. rst-class:: classref-item-separator
 
@@ -1779,7 +1779,7 @@ Saves the image as a WebP (Web Picture) file to a byte array. By default it will
 
 |void| **set_data**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, use_mipmaps\: :ref:`bool<class_bool>`, format\: :ref:`Format<enum_Image_Format>`, data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_Image_method_set_data>`
 
-Overwrites data of an existing **Image**. Non-static equivalent of :ref:`create_from_data()<class_Image_method_create_from_data>`.
+Écrase les données d'une **Image** existante. Équivalent non statique de :ref:`create_from_data()<class_Image_method_create_from_data>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1791,30 +1791,30 @@ Overwrites data of an existing **Image**. Non-static equivalent of :ref:`create_
 
 |void| **set_pixel**\ (\ x\: :ref:`int<class_int>`, y\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_set_pixel>`
 
-Sets the :ref:`Color<class_Color>` of the pixel at ``(x, y)`` to ``color``.
+Définit la :ref:`Color<class_Color>` du pixel à ``(x, y)`` à ``color``.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var img_width = 10
-    var img_height = 5
-    var img = Image.create(img_width, img_height, false, Image.FORMAT_RGBA8)
+    var largeur_img = 10
+    var hauteur_img = 5
+    var img = Image.create(largeur_img, hauteur_img, false, Image.FORMAT_RGBA8)
 
-    img.set_pixel(1, 2, Color.RED) # Sets the color at (1, 2) to red.
+    img.set_pixel(1, 2, Color.RED) # Définit la couleur en (1,2) en rouge.
 
  .. code-tab:: csharp
 
-    int imgWidth = 10;
-    int imgHeight = 5;
-    var img = Image.Create(imgWidth, imgHeight, false, Image.Format.Rgba8);
+    int largeurImage = 10;
+    int hauteurImage = 5;
+    var img = Image.Create(largeurImage, hauteurImage, false, Image.Format.Rgba8);
 
-    img.SetPixel(1, 2, Colors.Red); // Sets the color at (1, 2) to red.
+    img.SetPixel(1, 2, Colors.Red); // Définit la couleur en (1,2) en rouge.
 
 
 
-This is the same as :ref:`set_pixelv()<class_Image_method_set_pixelv>`, but with a two integer arguments instead of a :ref:`Vector2i<class_Vector2i>` argument.
+Identique à :ref:`set_pixelv()<class_Image_method_set_pixelv>`, mais avec deux arguments entiers au lieu d'un argument :ref:`Vector2i<class_Vector2i>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1826,30 +1826,30 @@ This is the same as :ref:`set_pixelv()<class_Image_method_set_pixelv>`, but with
 
 |void| **set_pixelv**\ (\ point\: :ref:`Vector2i<class_Vector2i>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_set_pixelv>`
 
-Sets the :ref:`Color<class_Color>` of the pixel at ``point`` to ``color``.
+Définit la :ref:`Color<class_Color>` du pixel au point ``point`` à ``color``.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var img_width = 10
-    var img_height = 5
-    var img = Image.create(img_width, img_height, false, Image.FORMAT_RGBA8)
+    var largeur_img = 10
+    var hauteur_img = 5
+    var img = Image.create(largeur_img, hauteur_img, false, Image.FORMAT_RGBA8)
 
-    img.set_pixelv(Vector2i(1, 2), Color.RED) # Sets the color at (1, 2) to red.
+    img.set_pixelv(Vector2i(1, 2), Color.RED) # Définit la couleur en (1,2) en rouge.
 
  .. code-tab:: csharp
 
-    int imgWidth = 10;
-    int imgHeight = 5;
-    var img = Image.Create(imgWidth, imgHeight, false, Image.Format.Rgba8);
+    int largeurImage = 10;
+    int hauteurImage = 5;
+    var img = Image.Create(largeurImage, hauteurImage, false, Image.Format.Rgba8);
 
-    img.SetPixelv(new Vector2I(1, 2), Colors.Red); // Sets the color at (1, 2) to red.
+    img.SetPixelv(new Vector2I(1, 2), Colors.Red); // Définit la couleur en (1,2) en rouge.
 
 
 
-This is the same as :ref:`set_pixel()<class_Image_method_set_pixel>`, but with a :ref:`Vector2i<class_Vector2i>` argument instead of two integer arguments.
+Identique à :ref:`set_pixel()<class_Image_method_set_pixel>`, mais avec un argument en :ref:`Vector2i<class_Vector2i>` au lieu de deux arguments entiers.
 
 .. rst-class:: classref-item-separator
 
@@ -1861,7 +1861,7 @@ This is the same as :ref:`set_pixel()<class_Image_method_set_pixel>`, but with a
 
 |void| **shrink_x2**\ (\ ) :ref:`🔗<class_Image_method_shrink_x2>`
 
-Shrinks the image by a factor of 2 on each axis (this divides the pixel count by 4).
+Rétrécit l'image par un facteur 2 sur chaque axe (ceci divise le nombre de pixels par 4).
 
 .. rst-class:: classref-item-separator
 
@@ -1873,7 +1873,7 @@ Shrinks the image by a factor of 2 on each axis (this divides the pixel count by
 
 |void| **srgb_to_linear**\ (\ ) :ref:`🔗<class_Image_method_srgb_to_linear>`
 
-Converts the raw data from the sRGB colorspace to a linear scale. Only works on images with :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` or :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` formats.
+Convertit des données brutes depuis l'espace de couleur sRGB vers une échelle linéaire. Ne fonctionne que sur des images en formats :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` ou :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

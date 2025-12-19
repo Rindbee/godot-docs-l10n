@@ -14,13 +14,13 @@ Una forma de polígono convexo 2D utilizada para colisiones físicas.
 Descripción
 ----------------------
 
-A 2D convex polygon shape, intended for use in physics. Used internally in :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` when it's in :ref:`CollisionPolygon2D.BUILD_SOLIDS<class_CollisionPolygon2D_constant_BUILD_SOLIDS>` mode.
+Una forma de polígono convexo 2D, destinada a ser utilizada en física. Se utiliza internamente en :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` cuando está en modo :ref:`CollisionPolygon2D.BUILD_SOLIDS<class_CollisionPolygon2D_constant_BUILD_SOLIDS>`.
 
-\ **ConvexPolygonShape2D** is *solid*, which means it detects collisions from objects that are fully inside it, unlike :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` which is hollow. This makes it more suitable for both detection and physics.
+\ **ConvexPolygonShape2D** es *sólido*, lo que significa que detecta colisiones de objetos que están completamente dentro de él, a diferencia de :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>` que es hueco. Esto lo hace más adecuado tanto para la detección como para la física.
 
-\ **Convex decomposition:** A concave polygon can be split up into several convex polygons. This allows dynamic physics bodies to have complex concave collisions (at a performance cost) and can be achieved by using several **ConvexPolygonShape2D** nodes or by using the :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` node in :ref:`CollisionPolygon2D.BUILD_SOLIDS<class_CollisionPolygon2D_constant_BUILD_SOLIDS>` mode. To generate a collision polygon from a sprite, select the :ref:`Sprite2D<class_Sprite2D>` node, go to the **Sprite2D** menu that appears above the viewport, and choose **Create Polygon2D Sibling**.
+\ **Descomposición convexa:** Un polígono cóncavo puede dividirse en varios polígonos convexos. Esto permite que los cuerpos físicos dinámicos tengan colisiones cóncavas complejas (a un costo de rendimiento) y se puede lograr utilizando varios nodos **ConvexPolygonShape2D** o utilizando el nodo :ref:`CollisionPolygon2D<class_CollisionPolygon2D>` en modo :ref:`CollisionPolygon2D.BUILD_SOLIDS<class_CollisionPolygon2D_constant_BUILD_SOLIDS>`. Para generar un polígono de colisión a partir de un sprite, selecciona el nodo :ref:`Sprite2D<class_Sprite2D>`, ve al menú **Sprite2D** que aparece encima de la ventana gráfica y elige **Crear nodo hermano Polygon2D**.
 
-\ **Performance:** **ConvexPolygonShape2D** is faster to check collisions against compared to :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>`, but it is slower than primitive collision shapes such as :ref:`CircleShape2D<class_CircleShape2D>` and :ref:`RectangleShape2D<class_RectangleShape2D>`. Its use should generally be limited to medium-sized objects that cannot have their collision accurately represented by primitive shapes.
+\ **Rendimiento:** **ConvexPolygonShape2D** es más rápido para comprobar las colisiones en comparación con :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>`, pero es más lento que las formas de colisión primitivas como :ref:`CircleShape2D<class_CircleShape2D>` y :ref:`RectangleShape2D<class_RectangleShape2D>`. Su uso generalmente debe limitarse a objetos de tamaño mediano que no pueden tener su colisión representada con precisión por formas primitivas.
 
 .. rst-class:: classref-reftable-group
 
@@ -66,9 +66,9 @@ Descripciones de Propiedades
 - |void| **set_points**\ (\ value\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ )
 - :ref:`PackedVector2Array<class_PackedVector2Array>` **get_points**\ (\ )
 
-The polygon's list of vertices that form a convex hull. Can be in either clockwise or counterclockwise order.
+La lista de vértices del polígono que forman una envolvente convexa. Puede estar en orden horario o antihorario.
 
-\ **Warning:** Only set this property to a list of points that actually form a convex hull. Use :ref:`set_point_cloud()<class_ConvexPolygonShape2D_method_set_point_cloud>` to generate the convex hull of an arbitrary set of points.
+\ **Advertencia:** Solo establece esta propiedad en una lista de puntos que realmente formen una envolvente convexa. Utiliza :ref:`set_point_cloud()<class_ConvexPolygonShape2D_method_set_point_cloud>` para generar la envolvente convexa de un conjunto arbitrario de puntos.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedVector2Array<class_PackedVector2Array>` for more details.
 
@@ -87,7 +87,7 @@ Descripciones de Métodos
 
 |void| **set_point_cloud**\ (\ point_cloud\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_ConvexPolygonShape2D_method_set_point_cloud>`
 
-Based on the set of points provided, this assigns the :ref:`points<class_ConvexPolygonShape2D_property_points>` property using the convex hull algorithm, removing all unneeded points. See :ref:`Geometry2D.convex_hull()<class_Geometry2D_method_convex_hull>` for details.
+Basándose en el conjunto de puntos proporcionados, esto asigna la propiedad :ref:`points<class_ConvexPolygonShape2D_property_points>` utilizando el algoritmo de envolvente convexa, eliminando todos los puntos innecesarios. Véase :ref:`Geometry2D.convex_hull()<class_Geometry2D_method_convex_hull>` para obtener más detalles.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

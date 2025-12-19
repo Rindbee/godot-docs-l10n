@@ -7,7 +7,7 @@ CSGShape3D
 
 **Hérite de :** :ref:`GeometryInstance3D<class_GeometryInstance3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`CSGCombiner3D<class_CSGCombiner3D>`, :ref:`CSGPrimitive3D<class_CSGPrimitive3D>`
+**Hérité par :** :ref:`CSGCombiner3D<class_CSGCombiner3D>`, :ref:`CSGPrimitive3D<class_CSGPrimitive3D>`
 
 La classe de base CSG.
 
@@ -297,7 +297,7 @@ Renvoie un :ref:`ArrayMesh<class_ArrayMesh>` statique calculé du résultat de l
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CSGShape3D_method_get_collision_layer_value>`
 
-Renvoie si la couche spécifiée du :ref:`collision_layer<class_CSGShape3D_property_collision_layer>` est activée, selon un numéro de couche ``layer_number`` entre 1 et 32 donné.
+Renvoie si la couche spécifiée du :ref:`collision_layer<class_CSGShape3D_property_collision_layer>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

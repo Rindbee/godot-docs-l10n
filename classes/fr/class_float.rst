@@ -14,7 +14,7 @@ Description
 
 Le type intégré **float** est un nombre à virgule flottante en double précision de 64 bits, équivalent à ``double`` en C++. Ce type a 14 chiffres décimaux fiables de précision. La valeur maximale de **float** est d'environ ``1.79769e308``, et le minimum est d'environ ``-1.79769e308``.
 
-Beaucoup de méthodes et de propriétés dans le moteur utilisent des nombre à virgule flottante de 32 bits, équivalents à ``float`` en C++, qui a 6 chiffres décimaux fiables de précision. Pour les structures de données telles que :ref:`Vector2<class_Vector2>` et :ref:`Vector3<class_Vector3>`, Godot utilise par défaut des nombres flottants de 32 bits, mais il peut être modifié pour utiliser des doubles de 64 bits si Godot est compilé avec l'option ``précision=double``.
+Beaucoup de méthodes et de propriétés dans le moteur utilisent des nombre à virgule flottante de 32 bits, équivalents à ``float`` en C++, qui a 6 chiffres décimaux fiables de précision. Pour les structures de données telles que :ref:`Vector2<class_Vector2>` et :ref:`Vector3<class_Vector3>`, Godot utilise par défaut des nombres flottants de 32 bits, mais il peut être modifié pour utiliser des doubles de 64 bits si Godot est compilé avec l'option ``precision=double``.
 
 Les mathématiques effectuées en utilisant le type **float** ne sont pas garanties d'être exactes et entraîneront souvent de petites erreurs. Vous devriez généralement utiliser les méthodes :ref:`@GlobalScope.is_equal_approx()<class_@GlobalScope_method_is_equal_approx>` et :ref:`@GlobalScope.is_zero_approx()<class_@GlobalScope_method_is_zero_approx>` au lieu de ``==`` pour comparer les valeurs **float** pour l'égalité.
 

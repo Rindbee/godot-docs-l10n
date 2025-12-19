@@ -10,7 +10,7 @@ DirAccess
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides methods for managing directories and their content.
+Proporciona métodos para gestionar directorios y su contenido.
 
 .. rst-class:: classref-introduction-group
 
@@ -281,7 +281,7 @@ Returns one of the :ref:`Error<enum_@GlobalScope_Error>` code constants (:ref:`@
 
 :ref:`Error<enum_@GlobalScope_Error>` **copy_absolute**\ (\ from\: :ref:`String<class_String>`, to\: :ref:`String<class_String>`, chmod_flags\: :ref:`int<class_int>` = -1\ ) |static| :ref:`🔗<class_DirAccess_method_copy_absolute>`
 
-Static version of :ref:`copy()<class_DirAccess_method_copy>`. Supports only absolute paths.
+Versión estática de :ref:`copy()<class_DirAccess_method_copy>`. Solo admite rutas absolutas.
 
 .. rst-class:: classref-item-separator
 
@@ -293,11 +293,11 @@ Static version of :ref:`copy()<class_DirAccess_method_copy>`. Supports only abso
 
 :ref:`Error<enum_@GlobalScope_Error>` **create_link**\ (\ source\: :ref:`String<class_String>`, target\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DirAccess_method_create_link>`
 
-Creates symbolic link between files or folders.
+Crea un enlace simbólico entre archivos o carpetas.
 
-\ **Note:** On Windows, this method works only if the application is running with elevated privileges or Developer Mode is enabled.
+\ **Nota:** En Windows, este método solo funciona si la aplicación se está ejecutando con privilegios elevados o el Modo Desarrollador está habilitado.
 
-\ **Note:** This method is implemented on macOS, Linux, and Windows.
+\ **Nota:** Este método está implementado en macOS, Linux y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -339,9 +339,9 @@ Devuelve si el objeto actual procesado con la última llamada a :ref:`get_next()
 
 :ref:`bool<class_bool>` **dir_exists**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DirAccess_method_dir_exists>`
 
-Returns whether the target directory exists. The argument can be relative to the current directory, or an absolute path.
+Devuelve si el directorio de destino existe. El argumento puede ser relativo al directorio actual, o una ruta absoluta.
 
-\ **Note:** The returned :ref:`bool<class_bool>` in the editor and after exporting when used on a path in the ``res://`` directory may be different. Some files are converted to engine-specific formats when exported, potentially changing the directory structure.
+\ **Nota:** El :ref:`bool<class_bool>` devuelto en el editor y después de la exportación cuando se usa en una ruta en el directorio ``res://`` puede ser diferente. Algunos archivos se convierten a formatos específicos del motor cuando se exportan, lo que puede cambiar la estructura del directorio.
 
 .. rst-class:: classref-item-separator
 
@@ -353,9 +353,9 @@ Returns whether the target directory exists. The argument can be relative to the
 
 :ref:`bool<class_bool>` **dir_exists_absolute**\ (\ path\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_DirAccess_method_dir_exists_absolute>`
 
-Static version of :ref:`dir_exists()<class_DirAccess_method_dir_exists>`. Supports only absolute paths.
+Versión estática de :ref:`dir_exists()<class_DirAccess_method_dir_exists>`. Solo admite rutas absolutas.
 
-\ **Note:** The returned :ref:`bool<class_bool>` in the editor and after exporting when used on a path in the ``res://`` directory may be different. Some files are converted to engine-specific formats when exported, potentially changing the directory structure.
+\ **Nota:** El :ref:`bool<class_bool>` devuelto en el editor y después de la exportación cuando se usa en una ruta en el directorio ``res://`` puede ser diferente. Algunos archivos se convierten a formatos específicos del motor cuando se exportan, lo que puede cambiar la estructura del directorio.
 
 .. rst-class:: classref-item-separator
 
@@ -395,7 +395,7 @@ Devuelve la ruta absoluta del directorio abierto actualmente (por ejemplo, ``res
 
 :ref:`int<class_int>` **get_current_drive**\ (\ ) :ref:`🔗<class_DirAccess_method_get_current_drive>`
 
-Returns the currently opened directory's drive index. See :ref:`get_drive_name()<class_DirAccess_method_get_drive_name>` to convert returned index to the name of the drive.
+Devuelve el índice de la unidad del directorio abierto actualmente. Véase :ref:`get_drive_name()<class_DirAccess_method_get_drive_name>` para convertir el índice devuelto al nombre de la unidad.
 
 .. rst-class:: classref-item-separator
 
@@ -407,11 +407,11 @@ Returns the currently opened directory's drive index. See :ref:`get_drive_name()
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_directories**\ (\ ) :ref:`🔗<class_DirAccess_method_get_directories>`
 
-Returns a :ref:`PackedStringArray<class_PackedStringArray>` containing filenames of the directory contents, excluding files. The array is sorted alphabetically.
+Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` que contiene los nombres de archivo del contenido del directorio, excluyendo los archivos. El array está ordenado alfabéticamente.
 
-Affected by :ref:`include_hidden<class_DirAccess_property_include_hidden>` and :ref:`include_navigational<class_DirAccess_property_include_navigational>`.
+Afectado por :ref:`include_hidden<class_DirAccess_property_include_hidden>` y :ref:`include_navigational<class_DirAccess_property_include_navigational>`.
 
-\ **Note:** The returned directories in the editor and after exporting in the ``res://`` directory may differ as some files are converted to engine-specific formats when exported.
+\ **Nota:** Los directorios devueltos en el editor y después de la exportación en el directorio ``res://`` pueden diferir, ya que algunos archivos se convierten a formatos específicos del motor cuando se exportan.
 
 .. rst-class:: classref-item-separator
 
@@ -423,11 +423,11 @@ Affected by :ref:`include_hidden<class_DirAccess_property_include_hidden>` and :
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_directories_at**\ (\ path\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_DirAccess_method_get_directories_at>`
 
-Returns a :ref:`PackedStringArray<class_PackedStringArray>` containing filenames of the directory contents, excluding files, at the given ``path``. The array is sorted alphabetically.
+Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` que contiene nombres de archivos del contenido del directorio, excluyendo archivos, en la ``path`` dada. El array se ordena alfabéticamente.
 
-Use :ref:`get_directories()<class_DirAccess_method_get_directories>` if you want more control of what gets included.
+Usa :ref:`get_directories()<class_DirAccess_method_get_directories>` si quieres más control sobre lo que se incluye.
 
-\ **Note:** The returned directories in the editor and after exporting in the ``res://`` directory may differ as some files are converted to engine-specific formats when exported.
+\ **Nota:** Los directorios devueltos en el editor y después de la exportación en el directorio ``res://`` pueden diferir, ya que algunos archivos se convierten a formatos específicos del motor cuando se exportan.
 
 .. rst-class:: classref-item-separator
 
@@ -439,13 +439,13 @@ Use :ref:`get_directories()<class_DirAccess_method_get_directories>` if you want
 
 :ref:`int<class_int>` **get_drive_count**\ (\ ) |static| :ref:`🔗<class_DirAccess_method_get_drive_count>`
 
-On Windows, returns the number of drives (partitions) mounted on the current filesystem.
+En Windows, devuelve el número de unidades (particiones) montadas en el sistema de archivos actual.
 
-On macOS and Android, returns the number of mounted volumes.
+En macOS y Android, devuelve el número de volúmenes montados.
 
-On Linux, returns the number of mounted volumes and GTK 3 bookmarks.
+En Linux, devuelve el número de volúmenes montados y los marcadores de GTK 3.
 
-On other platforms, the method returns 0.
+En otras plataformas, el método devuelve 0.
 
 .. rst-class:: classref-item-separator
 
@@ -457,15 +457,15 @@ On other platforms, the method returns 0.
 
 :ref:`String<class_String>` **get_drive_name**\ (\ idx\: :ref:`int<class_int>`\ ) |static| :ref:`🔗<class_DirAccess_method_get_drive_name>`
 
-On Windows, returns the name of the drive (partition) passed as an argument (e.g. ``C:``).
+En Windows, devuelve el nombre de la unidad (partición) pasada como argumento (p. ej. ``C:``).
 
-On macOS, returns the path to the mounted volume passed as an argument.
+En macOS, devuelve la ruta al volumen montado pasado como argumento.
 
-On Linux, returns the path to the mounted volume or GTK 3 bookmark passed as an argument.
+En Linux, devuelve la ruta al volumen montado o al marcador de GTK 3 pasado como argumento.
 
-On Android (API level 30+), returns the path to the mounted volume as an argument.
+En Android (API nivel 30+), devuelve la ruta al volumen montado como argumento.
 
-On other platforms, or if the requested drive does not exist, the method returns an empty String.
+En otras plataformas, o si la unidad solicitada no existe, el método devuelve una String vacía.
 
 .. rst-class:: classref-item-separator
 

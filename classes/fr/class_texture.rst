@@ -7,7 +7,7 @@ Texture
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Texture2D<class_Texture2D>`, :ref:`Texture3D<class_Texture3D>`, :ref:`TextureLayered<class_TextureLayered>`
+**Hérité par :** :ref:`Texture2D<class_Texture2D>`, :ref:`Texture3D<class_Texture3D>`, :ref:`TextureLayered<class_TextureLayered>`
 
 Classe de base pour tous les types de textures.
 

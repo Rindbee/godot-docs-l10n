@@ -134,9 +134,11 @@ CameraAttributesPractical
 - |void| **set_dof_blur_far_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dof_blur_far_enabled**\ (\ )
 
-Вмикає розмиття глибини поля для об’єктів, розташованих далі ніж :ref:`dof_blur_far_distance<class_CameraAttributesPractical_property_dof_blur_far_distance>`. Інтенсивність розмиття контролюється :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` і модулюється :ref:`dof_blur_far_transition<class_CameraAttributesPractical_property_dof_blur_far_transition>`.
+Вмикає розмиття глибини різкості для об'єктів, розташованих далі за :ref:`dof_blur_far_distance<class_CameraAttributesPractical_property_dof_blur_far_distance>`. Інтенсивність розмиття контролюється параметром :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` та модулюється параметром :ref:`dof_blur_far_transition<class_CameraAttributesPractical_property_dof_blur_far_transition>`.
 
-\ **Примітка.** Глибина поля розмиття підтримується лише методами візуалізації Forward+ і Mobile, а не Compatibility.
+\ **Примітка:** Розмиття глибини різкості підтримується лише в методах рендерингу Forward+ та Mobile, а не Compatibility.
+
+\ **Примітка:** Розмиття глибини різкості не підтримується на екранах з прозорим фоном (де :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` має значення ``true``).
 
 .. rst-class:: classref-item-separator
 
@@ -187,9 +189,11 @@ CameraAttributesPractical
 - |void| **set_dof_blur_near_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dof_blur_near_enabled**\ (\ )
 
-Вмикає розмиття глибини різкості для об’єктів ближче, ніж :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>`. Інтенсивність розмиття контролюється :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` і модулюється :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>`.
+Вмикає розмиття глибини різкості для об'єктів, розташованих ближче, ніж :ref:`dof_blur_near_distance<class_CameraAttributesPractical_property_dof_blur_near_distance>`. Інтенсивність розмиття контролюється параметром :ref:`dof_blur_amount<class_CameraAttributesPractical_property_dof_blur_amount>` та модулюється параметром :ref:`dof_blur_near_transition<class_CameraAttributesPractical_property_dof_blur_near_transition>`.
 
-\ **Примітка:** Глибина поля розмиття підтримується лише методами візуалізації Forward+ і Mobile, а не Compatibility.
+\ **Примітка:** Розмиття глибини різкості підтримується лише в методах рендерингу Forward+ та Mobile, а не Compatibility.
+
+\ **Примітка:** Розмиття глибини різкості не підтримується на екранах з прозорим фоном (де :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` має значення ``true``).
 
 .. rst-class:: classref-item-separator
 

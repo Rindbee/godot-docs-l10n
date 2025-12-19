@@ -7,16 +7,16 @@ ENetMultiplayerPeer
 
 **Hérite de :** :ref:`MultiplayerPeer<class_MultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A MultiplayerPeer implementation using the `ENet <http://enet.bespin.org/index.html>`__ library.
+Une implémentation de MultiplayerPeer utilisant la bibliothèque `ENet <http://enet.bespin.org/index.html>`__.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A MultiplayerPeer implementation that should be passed to :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` after being initialized as either a client, server, or mesh. Events can then be handled by connecting to :ref:`MultiplayerAPI<class_MultiplayerAPI>` signals. See :ref:`ENetConnection<class_ENetConnection>` for more information on the ENet library wrapper.
+Une implémentation de MultiplayerPeer qui devrait être passée au :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` après avoir été initialisé en tant que client, serveur ou maille. Les événements peuvent ensuite être gérés en se connectant aux signaux de :ref:`MultiplayerAPI<class_MultiplayerAPI>`. Voir :ref:`ENetConnection<class_ENetConnection>` pour plus d'information sur le wrapper de la bibliothèque ENet.
 
-\ **Note:** ENet only uses UDP, not TCP. When forwarding the server port to make your server accessible on the public Internet, you only need to forward the server port in UDP. You can use the :ref:`UPNP<class_UPNP>` class to try to forward the server port automatically when starting the server.
+\ **Note :** ENet utilise seulement UDP, et non TCP. Lors du branchement du port serveur pour rendre votre serveur accessible sur l'Internet public, vous n'avez besoin que d'envoyer le port serveur en UDP. Vous pouvez utiliser la classe :ref:`UPNP<class_UPNP>` pour essayer d'envoyer automatiquement le port serveur dès le démarrage du serveur.
 
 .. rst-class:: classref-introduction-group
 
@@ -25,7 +25,7 @@ Tutoriels
 
 - :doc:`API multijoueur de haut niveau <../tutorials/networking/high_level_multiplayer>`
 
-- `API documentation on the ENet website <http://enet.bespin.org/usergroup0.html>`__
+- `Documentation de l'API sur le site web d'ENet <http://enet.bespin.org/usergroup0.html>`__
 
 .. rst-class:: classref-reftable-group
 

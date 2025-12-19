@@ -7,7 +7,7 @@ PhysicsDirectSpaceState2D
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`PhysicsDirectSpaceState2DExtension<class_PhysicsDirectSpaceState2DExtension>`
+**Hérité par :** :ref:`PhysicsDirectSpaceState2DExtension<class_PhysicsDirectSpaceState2DExtension>`
 
 Fournit un accès direct à un espace physique dans le :ref:`PhysicsServer2D<class_PhysicsServer2D>`.
 

@@ -7,14 +7,14 @@ Marker3D
 
 **Hérite de :** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Un marqueur dans l'éditeur pour une position 3D quelconque.
+Aide de position 3D générique pour l'édition.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Generic 3D position hint for editing. It's just like a plain :ref:`Node3D<class_Node3D>`, but it displays as a cross in the 3D editor at all times.
+Aide de position 3D générique pour l'édition. Il ressemble à un :ref:`Node3D<class_Node3D>` ordinaire, mais il apparaît en permanence comme une croix dans l'éditeur 3D.
 
 .. rst-class:: classref-reftable-group
 
@@ -48,7 +48,7 @@ Descriptions des propriétés
 - |void| **set_gizmo_extents**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_gizmo_extents**\ (\ )
 
-Size of the gizmo cross that appears in the editor.
+Taille de la croix du manipulateur qui apparaît dans l'éditeur.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

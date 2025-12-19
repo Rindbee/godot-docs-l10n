@@ -152,7 +152,7 @@ Construye un **NodePath** vacío.
 
 :ref:`NodePath<class_NodePath>` **NodePath**\ (\ from\: :ref:`NodePath<class_NodePath>`\ )
 
-Constructs a **NodePath** as a copy of the given **NodePath**.
+Construye un **NodePath** como copia del **NodePath** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -425,7 +425,7 @@ Descripciones de Operadores
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_NodePath_operator_neq_NodePath>`
 
-Returns ``true`` if two node paths are not equal.
+Devuelve ``true`` si dos rutas de nodo no son iguales.
 
 .. rst-class:: classref-item-separator
 
@@ -437,7 +437,7 @@ Returns ``true`` if two node paths are not equal.
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_NodePath_operator_eq_NodePath>`
 
-Returns ``true`` if two node paths are equal, that is, they are composed of the same node names and subnames in the same order.
+Devuelve ``true`` si dos rutas de nodo son iguales, es decir, si están compuestas por los mismos nombres de nodo y subnombres en el mismo orden.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

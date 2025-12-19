@@ -111,7 +111,7 @@ Emitted when this MultiplayerAPI's :ref:`MultiplayerAPI.multiplayer_peer<class_M
 
 **peer_packet**\ (\ id\: :ref:`int<class_int>`, packet\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_SceneMultiplayer_signal_peer_packet>`
 
-Emitted when this MultiplayerAPI's :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` receives a ``packet`` with custom data (see :ref:`send_bytes()<class_SceneMultiplayer_method_send_bytes>`). ID is the peer ID of the peer that sent the packet.
+Emitida cuando el :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` de esta MultiplayerAPI recibe un ``packet`` con datos personalizados (véase :ref:`send_bytes()<class_SceneMultiplayer_method_send_bytes>`). ID es el ID del par que envió el paquete.
 
 .. rst-class:: classref-section-separator
 
@@ -203,7 +203,7 @@ Maximum size of each delta packet. Higher values increase the chance of receivin
 - |void| **set_max_sync_packet_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_sync_packet_size**\ (\ )
 
-Maximum size of each synchronization packet. Higher values increase the chance of receiving full updates in a single frame, but also the chance of packet loss. See :ref:`MultiplayerSynchronizer<class_MultiplayerSynchronizer>`.
+Tamaño máximo de cada paquete de sincronización. Los valores más altos aumentan la posibilidad de recibir actualizaciones completas en un solo fotograma, pero también la posibilidad de pérdida de paquetes. Véase :ref:`MultiplayerSynchronizer<class_MultiplayerSynchronizer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -220,7 +220,7 @@ Maximum size of each synchronization packet. Higher values increase the chance o
 - |void| **set_refuse_new_connections**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_refusing_new_connections**\ (\ )
 
-If ``true``, the MultiplayerAPI's :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` refuses new incoming connections.
+Si es ``true``, el :ref:`MultiplayerAPI.multiplayer_peer<class_MultiplayerAPI_property_multiplayer_peer>` de la MultiplayerAPI rechaza nuevas conexiones entrantes.
 
 .. rst-class:: classref-item-separator
 

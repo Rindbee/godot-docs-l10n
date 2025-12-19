@@ -7,7 +7,7 @@ TextMesh
 
 **Hereda:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Generate a :ref:`PrimitiveMesh<class_PrimitiveMesh>` from the text.
+Genera una :ref:`PrimitiveMesh<class_PrimitiveMesh>` a partir del texto.
 
 .. rst-class:: classref-introduction-group
 
@@ -110,7 +110,7 @@ Si se establece en algo que no sea :ref:`TextServer.AUTOWRAP_OFF<class_TextServe
 - |void| **set_curve_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_curve_step**\ (\ )
 
-Step (in pixels) used to approximate Bézier curves.
+Paso (en píxeles) utilizado para aproximar las curvas de Bézier.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ Step (in pixels) used to approximate Bézier curves.
 - |void| **set_depth**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_depth**\ (\ )
 
-Depths of the mesh, if set to ``0.0`` only front surface, is generated, and UV layout is changed to use full texture for the front face only.
+Profundidades de la malla, si se establece en ``0.0`` solo se genera la superficie frontal, y el diseño UV se cambia para usar la textura completa solo para la cara frontal.
 
 .. rst-class:: classref-item-separator
 
@@ -212,7 +212,7 @@ Reglas de alineación de relleno de línea.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for text shaping algorithms, if left empty current locale is used instead.
+Código de idioma utilizado para los algoritmos de modelado de texto. Si se deja vacío, se utiliza la configuración regional actual.
 
 .. rst-class:: classref-item-separator
 
@@ -263,7 +263,7 @@ El desplazamiento del dibujo del texto (en píxeles).
 - |void| **set_pixel_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_pixel_size**\ (\ )
 
-The size of one pixel's width on the text to scale it in 3D.
+El tamaño del ancho de un píxel en el texto para escalarlo en 3D.
 
 .. rst-class:: classref-item-separator
 
@@ -280,7 +280,7 @@ The size of one pixel's width on the text to scale it in 3D.
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Establece la anulación del algoritmo BiDi para el texto estructurado.
+Establece la sobrescritura del algoritmo BiDi para el texto estructurado.
 
 .. rst-class:: classref-item-separator
 
@@ -297,7 +297,7 @@ Establece la anulación del algoritmo BiDi para el texto estructurado.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Establece opciones adicionales para la anulación BiDi.
+Establece opciones adicionales para la sobrescritura BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -314,9 +314,9 @@ Establece opciones adicionales para la anulación BiDi.
 - |void| **set_text**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_text**\ (\ )
 
-The text to generate mesh from.
+El texto del que se generará la malla.
 
-\ **Note:** Due to being a :ref:`Resource<class_Resource>`, it doesn't follow the rules of :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>`. If disabling translation is desired, it should be done manually with :ref:`Object.set_message_translation()<class_Object_method_set_message_translation>`.
+\ **Nota:** Debido a que es un :ref:`Resource<class_Resource>`, no sigue las reglas de :ref:`Node.auto_translate_mode<class_Node_property_auto_translate_mode>`. Si se desea desactivar la traducción, debe hacerse manualmente con :ref:`Object.set_message_translation()<class_Object_method_set_message_translation>`.
 
 .. rst-class:: classref-item-separator
 
@@ -333,7 +333,7 @@ The text to generate mesh from.
 - |void| **set_text_direction**\ (\ value\: :ref:`Direction<enum_TextServer_Direction>`\ )
 - :ref:`Direction<enum_TextServer_Direction>` **get_text_direction**\ (\ )
 
-Base text writing direction.
+Dirección base de escritura del texto.
 
 .. rst-class:: classref-item-separator
 

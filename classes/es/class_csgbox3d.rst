@@ -14,16 +14,16 @@ Una forma de caja CSG.
 Descripción
 ----------------------
 
-This node allows you to create a box for use with the CSG system.
+Este nodo te permite crear una caja para usarla con el sistema CSG.
 
-\ **Note:** CSG nodes are intended to be used for level prototyping. Creating CSG nodes has a significant CPU cost compared to creating a :ref:`MeshInstance3D<class_MeshInstance3D>` with a :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Moving a CSG node within another CSG node also has a significant CPU cost, so it should be avoided during gameplay.
+\ **Nota:** Los nodos CSG están pensados para ser usados para el prototipado de niveles. La creación de nodos CSG tiene un coste de CPU significativo comparado con la creación de una :ref:`MeshInstance3D<class_MeshInstance3D>` con una :ref:`PrimitiveMesh<class_PrimitiveMesh>`. Mover un nodo CSG dentro de otro nodo CSG también tiene un coste de CPU significativo, por lo que debe evitarse durante el juego.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriales
 --------------------
 
-- :doc:`Prototyping levels with CSG <../tutorials/3d/csg_tools>`
+- :doc:`Prototipado de niveles con CSG <../tutorials/3d/csg_tools>`
 
 .. rst-class:: classref-reftable-group
 
@@ -76,7 +76,7 @@ El material utilizado para fabricar la caja.
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The box's width, height and depth.
+El ancho, la altura y la profundidad de la caja.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

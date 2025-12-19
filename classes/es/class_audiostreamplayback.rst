@@ -302,7 +302,7 @@ Associates :ref:`AudioSamplePlayback<class_AudioSamplePlayback>` to this **Audio
 
 |void| **start**\ (\ from_pos\: :ref:`float<class_float>` = 0.0\ ) :ref:`🔗<class_AudioStreamPlayback_method_start>`
 
-Starts the stream from the given ``from_pos``, in seconds.
+Inicia la transmisión desde la ``from_pos`` dada, en segundos.
 
 .. rst-class:: classref-item-separator
 

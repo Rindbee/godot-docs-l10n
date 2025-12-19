@@ -40,7 +40,7 @@ El :ref:`HashType<enum_HashingContext_HashType>` enum muestra los algoritmos de 
             contexto.update(archivo.get_buffer(min(restante, TAMANO_FRAGMENTO)))
         # Obtiene el hash computado.
         var res = ctx.finish()
-        # Imprime el resultado como una cadena hexadecimal y un array.
+        # Imprime el resultado como una string hexadecimal y un array.
         printt(res.hex_encode(), Array(res))
 
  .. code-tab:: csharp
@@ -67,7 +67,7 @@ El :ref:`HashType<enum_HashingContext_HashType>` enum muestra los algoritmos de 
         }
         // Obtiene el hash computado.
         byte[] res = ctx.Finish();
-        // Imprime el resultado como una cadena hexadecimal y un array.
+        // Imprime el resultado como una string hexadecimal y un array.
         GD.PrintT(res.HexEncode(), (Variant)res);
     }
 

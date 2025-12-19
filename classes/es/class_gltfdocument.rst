@@ -340,7 +340,7 @@ Determina una asignación entre el ``node_path`` de Godot dado y los punteros JS
 
 :ref:`PackedByteArray<class_PackedByteArray>` **generate_buffer**\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) :ref:`🔗<class_GLTFDocument_method_generate_buffer>`
 
-Takes a :ref:`GLTFState<class_GLTFState>` object through the ``state`` parameter and returns a glTF :ref:`PackedByteArray<class_PackedByteArray>`.
+Toma un objeto :ref:`GLTFState<class_GLTFState>` a través del parámetro ``state`` y devuelve un :ref:`PackedByteArray<class_PackedByteArray>` glTF.
 
 .. rst-class:: classref-item-separator
 
@@ -352,9 +352,9 @@ Takes a :ref:`GLTFState<class_GLTFState>` object through the ``state`` parameter
 
 :ref:`Node<class_Node>` **generate_scene**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, bake_fps\: :ref:`float<class_float>` = 30, trimming\: :ref:`bool<class_bool>` = false, remove_immutable_tracks\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_GLTFDocument_method_generate_scene>`
 
-Takes a :ref:`GLTFState<class_GLTFState>` object through the ``state`` parameter and returns a Godot Engine scene node.
+Toma un objeto :ref:`GLTFState<class_GLTFState>` a través del parámetro ``state`` y devuelve un nodo de escena de Godot Engine.
 
-The ``bake_fps`` parameter overrides the bake_fps in ``state``.
+El parámetro ``bake_fps`` anula el bake_fps en ``state``.
 
 .. rst-class:: classref-item-separator
 
@@ -366,9 +366,9 @@ The ``bake_fps`` parameter overrides the bake_fps in ``state``.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_supported_gltf_extensions**\ (\ ) |static| :ref:`🔗<class_GLTFDocument_method_get_supported_gltf_extensions>`
 
-Returns a list of all support glTF extensions, including extensions supported directly by the engine, and extensions supported by user plugins registering :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` classes.
+Devuelve una lista de todas las extensiones glTF compatibles, incluyendo las extensiones compatibles directamente con el motor, y las extensiones compatibles con plugins de usuario que registran clases :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`.
 
-\ **Note:** If this method is run before a GLTFDocumentExtension is registered, its extensions won't be included in the list. Be sure to only run this method after all extensions are registered. If you run this when the engine starts, consider waiting a frame before calling this method to ensure all extensions are registered.
+\ **Nota:** Si este método se ejecuta antes de que se registre un GLTFDocumentExtension, sus extensiones no se incluirán en la lista. Asegúrate de ejecutar este método sólo después de que todas las extensiones estén registradas. Si ejecutas esto cuando arranca el motor, considera esperar un frame antes de llamar a este método para asegurar que todas las extensiones estén registradas.
 
 .. rst-class:: classref-item-separator
 
@@ -380,7 +380,7 @@ Returns a list of all support glTF extensions, including extensions supported di
 
 :ref:`GLTFObjectModelProperty<class_GLTFObjectModelProperty>` **import_object_model_property**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, json_pointer\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_GLTFDocument_method_import_object_model_property>`
 
-Determines a mapping between the given glTF Object Model ``json_pointer`` and the corresponding Godot node path(s) in the generated Godot scene. The details of this mapping are returned in a :ref:`GLTFObjectModelProperty<class_GLTFObjectModelProperty>` object. Additional mappings can be supplied via the :ref:`GLTFDocumentExtension._export_object_model_property()<class_GLTFDocumentExtension_private_method__export_object_model_property>` callback method.
+Determina una asignación entre el Modelo de Objetos glTF dado ``json_pointer`` y la(s) ruta(s) de nodo de Godot correspondientes en la escena Godot generada. Los detalles de esta asignación se devuelven en un objeto :ref:`GLTFObjectModelProperty<class_GLTFObjectModelProperty>`. Se pueden proporcionar asignaciones adicionales a través del método de retorno :ref:`GLTFDocumentExtension._export_object_model_property()<class_GLTFDocumentExtension_private_method__export_object_model_property>`.
 
 .. rst-class:: classref-item-separator
 
@@ -392,9 +392,9 @@ Determines a mapping between the given glTF Object Model ``json_pointer`` and th
 
 |void| **register_gltf_document_extension**\ (\ extension\: :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, first_priority\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_GLTFDocument_method_register_gltf_document_extension>`
 
-Registers the given :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` instance with GLTFDocument. If ``first_priority`` is ``true``, this extension will be run first. Otherwise, it will be run last.
+Registra la instancia :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` dada con GLTFDocument. Si ``first_priority`` es ``true``, esta extensión se ejecutará primero. De lo contrario, se ejecutará al final.
 
-\ **Note:** Like GLTFDocument itself, all GLTFDocumentExtension classes must be stateless in order to function properly. If you need to store data, use the ``set_additional_data`` and ``get_additional_data`` methods in :ref:`GLTFState<class_GLTFState>` or :ref:`GLTFNode<class_GLTFNode>`.
+\ **Nota:** Al igual que el propio GLTFDocument, todas las clases GLTFDocumentExtension deben ser sin estado para que funcionen correctamente. Si necesitas almacenar datos, utiliza los métodos ``set_additional_data`` y ``get_additional_data`` en :ref:`GLTFState<class_GLTFState>` o :ref:`GLTFNode<class_GLTFNode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -406,7 +406,7 @@ Registers the given :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` in
 
 |void| **unregister_gltf_document_extension**\ (\ extension\: :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`\ ) |static| :ref:`🔗<class_GLTFDocument_method_unregister_gltf_document_extension>`
 
-Unregisters the given :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` instance.
+Anula el registro de la instancia :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` dada.
 
 .. rst-class:: classref-item-separator
 
@@ -418,9 +418,9 @@ Unregisters the given :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>` 
 
 :ref:`Error<enum_@GlobalScope_Error>` **write_to_filesystem**\ (\ state\: :ref:`GLTFState<class_GLTFState>`, path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_GLTFDocument_method_write_to_filesystem>`
 
-Takes a :ref:`GLTFState<class_GLTFState>` object through the ``state`` parameter and writes a glTF file to the filesystem.
+Toma un objeto :ref:`GLTFState<class_GLTFState>` a través del parámetro ``state`` y escribe un archivo glTF en el sistema de archivos.
 
-\ **Note:** The extension of the glTF file determines if it is a .glb binary file or a .gltf text file.
+\ **Nota:** La extensión del archivo glTF determina si es un archivo binario .glb o un archivo de texto .gltf.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

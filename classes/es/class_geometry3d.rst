@@ -7,14 +7,14 @@ Geometry3D
 
 **Hereda:** :ref:`Object<class_Object>`
 
-Provides methods for some common 3D geometric operations.
+Proporciona métodos para algunas operaciones geométricas 3D comunes.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Provides a set of helper functions to create geometric shapes, compute intersections between shapes, and process various other geometric operations in 3D.
+Proporciona un conjunto de funciones de ayuda para crear formas geométricas, calcular intersecciones entre formas y procesar varias otras operaciones geométricas en 3D.
 
 .. rst-class:: classref-reftable-group
 
@@ -71,7 +71,7 @@ Descripciones de Métodos
 
 :ref:`Array<class_Array>`\[:ref:`Plane<class_Plane>`\] **build_box_planes**\ (\ extents\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Geometry3D_method_build_box_planes>`
 
-Returns an array with 6 :ref:`Plane<class_Plane>`\ s that describe the sides of a box centered at the origin. The box size is defined by ``extents``, which represents one (positive) corner of the box (i.e. half its actual size).
+Devuelve un array con 6 :ref:`Plane<class_Plane>`\ s que describen los lados de una caja centrada en el origen. El tamaño de la caja está definido por ``extents``, que representa una esquina (positiva) de la caja (es decir, la mitad de su tamaño real).
 
 .. rst-class:: classref-item-separator
 
@@ -83,7 +83,7 @@ Returns an array with 6 :ref:`Plane<class_Plane>`\ s that describe the sides of 
 
 :ref:`Array<class_Array>`\[:ref:`Plane<class_Plane>`\] **build_capsule_planes**\ (\ radius\: :ref:`float<class_float>`, height\: :ref:`float<class_float>`, sides\: :ref:`int<class_int>`, lats\: :ref:`int<class_int>`, axis\: :ref:`Axis<enum_Vector3_Axis>` = 2\ ) :ref:`🔗<class_Geometry3D_method_build_capsule_planes>`
 
-Returns an array of :ref:`Plane<class_Plane>`\ s closely bounding a faceted capsule centered at the origin with radius ``radius`` and height ``height``. The parameter ``sides`` defines how many planes will be generated for the side part of the capsule, whereas ``lats`` gives the number of latitudinal steps at the bottom and top of the capsule. The parameter ``axis`` describes the axis along which the capsule is oriented (0 for X, 1 for Y, 2 for Z).
+Devuelve un array de :ref:`Plane<class_Plane>`\ s que delimitan estrechamente una cápsula facetada centrada en el origen con radio ``radius`` y altura ``height``. El parámetro ``sides`` define cuántos planos se generarán para la parte lateral de la cápsula, mientras que ``lats`` da el número de pasos latitudinales en la parte inferior y superior de la cápsula. El parámetro ``axis`` describe el eje a lo largo del cual se orienta la cápsula (0 para X, 1 para Y, 2 para Z).
 
 .. rst-class:: classref-item-separator
 
@@ -107,7 +107,7 @@ Returns an array of :ref:`Plane<class_Plane>`\ s closely bounding a faceted cyli
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **clip_polygon**\ (\ points\: :ref:`PackedVector3Array<class_PackedVector3Array>`, plane\: :ref:`Plane<class_Plane>`\ ) :ref:`🔗<class_Geometry3D_method_clip_polygon>`
 
-Clips the polygon defined by the points in ``points`` against the ``plane`` and returns the points of the clipped polygon.
+Recorta el polígono definido por los puntos en ``points`` contra el ``plane`` y devuelve los puntos del polígono recortado.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ Clips the polygon defined by the points in ``points`` against the ``plane`` and 
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **compute_convex_mesh_points**\ (\ planes\: :ref:`Array<class_Array>`\[:ref:`Plane<class_Plane>`\]\ ) :ref:`🔗<class_Geometry3D_method_compute_convex_mesh_points>`
 
-Calculates and returns all the vertex points of a convex shape defined by an array of ``planes``.
+Calcula y devuelve todos los puntos de los vértices de una forma convexa definida por un array de ``planes``.
 
 .. rst-class:: classref-item-separator
 
@@ -131,7 +131,7 @@ Calculates and returns all the vertex points of a convex shape defined by an arr
 
 :ref:`Vector3<class_Vector3>` **get_closest_point_to_segment**\ (\ point\: :ref:`Vector3<class_Vector3>`, s1\: :ref:`Vector3<class_Vector3>`, s2\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Geometry3D_method_get_closest_point_to_segment>`
 
-Returns the 3D point on the 3D segment (``s1``, ``s2``) that is closest to ``point``. The returned point will always be inside the specified segment.
+Devuelve el punto 3D en el segmento 3D (``s1``, ``s2``) que está más cerca de ``point``. El punto devuelto siempre estará dentro del segmento especificado.
 
 .. rst-class:: classref-item-separator
 
@@ -143,7 +143,7 @@ Returns the 3D point on the 3D segment (``s1``, ``s2``) that is closest to ``poi
 
 :ref:`Vector3<class_Vector3>` **get_closest_point_to_segment_uncapped**\ (\ point\: :ref:`Vector3<class_Vector3>`, s1\: :ref:`Vector3<class_Vector3>`, s2\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Geometry3D_method_get_closest_point_to_segment_uncapped>`
 
-Returns the 3D point on the 3D line defined by (``s1``, ``s2``) that is closest to ``point``. The returned point can be inside the segment (``s1``, ``s2``) or outside of it, i.e. somewhere on the line extending from the segment.
+Devuelve el punto 3D en la línea 3D definida por (``s1``, ``s2``) que está más cerca de ``point``. El punto devuelto puede estar dentro del segmento (``s1``, ``s2``) o fuera de él, es decir, en algún lugar de la línea que se extiende desde el segmento.
 
 .. rst-class:: classref-item-separator
 
@@ -155,7 +155,7 @@ Returns the 3D point on the 3D line defined by (``s1``, ``s2``) that is closest 
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **get_closest_points_between_segments**\ (\ p1\: :ref:`Vector3<class_Vector3>`, p2\: :ref:`Vector3<class_Vector3>`, q1\: :ref:`Vector3<class_Vector3>`, q2\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Geometry3D_method_get_closest_points_between_segments>`
 
-Given the two 3D segments (``p1``, ``p2``) and (``q1``, ``q2``), finds those two points on the two segments that are closest to each other. Returns a :ref:`PackedVector3Array<class_PackedVector3Array>` that contains this point on (``p1``, ``p2``) as well the accompanying point on (``q1``, ``q2``).
+Dados los dos segmentos 3D (``p1``, ``p2``) y (``q1``, ``q2``), encuentra esos dos puntos en los dos segmentos que están más cerca uno del otro. Devuelve un :ref:`PackedVector3Array<class_PackedVector3Array>` que contiene este punto en (``p1``, ``p2``) así como el punto acompañante en (``q1``, ``q2``).
 
 .. rst-class:: classref-item-separator
 
@@ -167,9 +167,9 @@ Given the two 3D segments (``p1``, ``p2``) and (``q1``, ``q2``), finds those two
 
 :ref:`Vector3<class_Vector3>` **get_triangle_barycentric_coords**\ (\ point\: :ref:`Vector3<class_Vector3>`, a\: :ref:`Vector3<class_Vector3>`, b\: :ref:`Vector3<class_Vector3>`, c\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Geometry3D_method_get_triangle_barycentric_coords>`
 
-Returns a :ref:`Vector3<class_Vector3>` containing weights based on how close a 3D position (``point``) is to a triangle's different vertices (``a``, ``b`` and ``c``). This is useful for interpolating between the data of different vertices in a triangle. One example use case is using this to smoothly rotate over a mesh instead of relying solely on face normals.
+Devuelve un :ref:`Vector3<class_Vector3>` que contiene pesos basados en la cercanía de una posición 3D (``point``) a los diferentes vértices de un triángulo (``a``, ``b`` y ``c``). Esto es útil para interpolar entre los datos de los diferentes vértices de un triángulo. Un caso de uso de ejemplo es utilizar esto para rotar suavemente sobre una malla en lugar de depender únicamente de las normales de la cara.
 
-\ `Here is a more detailed explanation of barycentric coordinates. <https://en.wikipedia.org/wiki/Barycentric_coordinate_system>`__
+\ `Aquí hay una explicación más detallada de las coordenadas baricéntricas. <https://en.wikipedia.org/wiki/Barycentric_coordinate_system>`__
 
 .. rst-class:: classref-item-separator
 
@@ -181,7 +181,7 @@ Returns a :ref:`Vector3<class_Vector3>` containing weights based on how close a 
 
 :ref:`Variant<class_Variant>` **ray_intersects_triangle**\ (\ from\: :ref:`Vector3<class_Vector3>`, dir\: :ref:`Vector3<class_Vector3>`, a\: :ref:`Vector3<class_Vector3>`, b\: :ref:`Vector3<class_Vector3>`, c\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Geometry3D_method_ray_intersects_triangle>`
 
-Tests if the 3D ray starting at ``from`` with the direction of ``dir`` intersects the triangle specified by ``a``, ``b`` and ``c``. If yes, returns the point of intersection as :ref:`Vector3<class_Vector3>`. If no intersection takes place, returns ``null``.
+Comprueba si el rayo 3D que comienza en ``from`` con la dirección de ``dir`` interseca el triángulo especificado por ``a``, ``b`` y ``c``. Si es así, devuelve el punto de intersección como :ref:`Vector3<class_Vector3>`. Si no hay intersección, devuelve ``null``.
 
 .. rst-class:: classref-item-separator
 

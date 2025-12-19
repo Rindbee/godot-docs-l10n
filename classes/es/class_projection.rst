@@ -12,11 +12,11 @@ Una matriz de 4×4 para transformaciones proyectivas 3D.
 Descripción
 ----------------------
 
-A 4×4 matrix used for 3D projective transformations. It can represent transformations such as translation, rotation, scaling, shearing, and perspective division. It consists of four :ref:`Vector4<class_Vector4>` columns.
+Una matriz de 4×4 utilizada para transformaciones proyectivas 3D. Puede representar transformaciones como la traslación, la rotación, el escalado, el cizallamiento y la división en perspectiva. Consiste en cuatro columnas de :ref:`Vector4<class_Vector4>`.
 
-For purely linear transformations (translation, rotation, and scale), it is recommended to use :ref:`Transform3D<class_Transform3D>`, as it is more performant and requires less memory.
+Para transformaciones puramente lineales (traslación, rotación y escala), se recomienda utilizar :ref:`Transform3D<class_Transform3D>`, ya que es más eficiente y requiere menos memoria.
 
-Used internally as :ref:`Camera3D<class_Camera3D>`'s projection matrix.
+Se utiliza internamente como matriz de proyección de :ref:`Camera3D<class_Camera3D>`.
 
 .. note::
 
@@ -161,7 +161,7 @@ enum **Planes**: :ref:`🔗<enum_Projection_Planes>`
 
 :ref:`Planes<enum_Projection_Planes>` **PLANE_NEAR** = ``0``
 
-The index value of the projection's near clipping plane.
+El valor del índice del plano de recorte cercano de la proyección.
 
 .. _class_Projection_constant_PLANE_FAR:
 
@@ -169,7 +169,7 @@ The index value of the projection's near clipping plane.
 
 :ref:`Planes<enum_Projection_Planes>` **PLANE_FAR** = ``1``
 
-The index value of the projection's far clipping plane.
+El valor del índice del plano de recorte lejano de la proyección.
 
 .. _class_Projection_constant_PLANE_LEFT:
 
@@ -177,7 +177,7 @@ The index value of the projection's far clipping plane.
 
 :ref:`Planes<enum_Projection_Planes>` **PLANE_LEFT** = ``2``
 
-The index value of the projection's left clipping plane.
+El valor del índice del plano de recorte izquierdo de la proyección.
 
 .. _class_Projection_constant_PLANE_TOP:
 
@@ -185,7 +185,7 @@ The index value of the projection's left clipping plane.
 
 :ref:`Planes<enum_Projection_Planes>` **PLANE_TOP** = ``3``
 
-The index value of the projection's top clipping plane.
+El valor del índice del plano de recorte superior de la proyección.
 
 .. _class_Projection_constant_PLANE_RIGHT:
 
@@ -193,7 +193,7 @@ The index value of the projection's top clipping plane.
 
 :ref:`Planes<enum_Projection_Planes>` **PLANE_RIGHT** = ``4``
 
-The index value of the projection's right clipping plane.
+El valor del índice del plano de recorte derecho de la proyección.
 
 .. _class_Projection_constant_PLANE_BOTTOM:
 
@@ -201,7 +201,7 @@ The index value of the projection's right clipping plane.
 
 :ref:`Planes<enum_Projection_Planes>` **PLANE_BOTTOM** = ``5``
 
-The index value of the projection bottom clipping plane.
+El valor del índice del plano de recorte inferior de la proyección.
 
 .. rst-class:: classref-section-separator
 
@@ -218,7 +218,7 @@ Constantes
 
 **IDENTITY** = ``Projection(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)`` :ref:`🔗<class_Projection_constant_IDENTITY>`
 
-A **Projection** with no transformation defined. When applied to other data structures, no transformation is performed.
+Una **Projection** sin transformación definida. Cuando se aplica a otras estructuras de datos, no se realiza ninguna transformación.
 
 .. _class_Projection_constant_ZERO:
 
@@ -243,7 +243,7 @@ Descripciones de Propiedades
 
 :ref:`Vector4<class_Vector4>` **w** = ``Vector4(0, 0, 0, 1)`` :ref:`🔗<class_Projection_property_w>`
 
-The projection matrix's W vector (column 3). Equivalent to array index ``3``.
+El vector W de la matriz de proyección (columna 3). Equivalente al índice ``3`` del array.
 
 .. rst-class:: classref-item-separator
 
@@ -255,7 +255,7 @@ The projection matrix's W vector (column 3). Equivalent to array index ``3``.
 
 :ref:`Vector4<class_Vector4>` **x** = ``Vector4(1, 0, 0, 0)`` :ref:`🔗<class_Projection_property_x>`
 
-The projection matrix's X vector (column 0). Equivalent to array index ``0``.
+El vector X de la matriz de proyección (columna 0). Equivalente al índice ``0`` del array.
 
 .. rst-class:: classref-item-separator
 
@@ -267,7 +267,7 @@ The projection matrix's X vector (column 0). Equivalent to array index ``0``.
 
 :ref:`Vector4<class_Vector4>` **y** = ``Vector4(0, 1, 0, 0)`` :ref:`🔗<class_Projection_property_y>`
 
-The projection matrix's Y vector (column 1). Equivalent to array index ``1``.
+El vector Y de la matriz de proyección (columna 1). Equivalente al índice ``1`` del array.
 
 .. rst-class:: classref-item-separator
 
@@ -279,7 +279,7 @@ The projection matrix's Y vector (column 1). Equivalent to array index ``1``.
 
 :ref:`Vector4<class_Vector4>` **z** = ``Vector4(0, 0, 1, 0)`` :ref:`🔗<class_Projection_property_z>`
 
-The projection matrix's Z vector (column 2). Equivalent to array index ``2``.
+El vector Z de la matriz de proyección (columna 2). Equivalente al índice ``2`` del array.
 
 .. rst-class:: classref-section-separator
 
@@ -328,7 +328,7 @@ Construye una Projection como una copia del :ref:`Transform3D<class_Transform3D>
 
 :ref:`Projection<class_Projection>` **Projection**\ (\ x_axis\: :ref:`Vector4<class_Vector4>`, y_axis\: :ref:`Vector4<class_Vector4>`, z_axis\: :ref:`Vector4<class_Vector4>`, w_axis\: :ref:`Vector4<class_Vector4>`\ )
 
-Constructs a Projection from four :ref:`Vector4<class_Vector4>` values (matrix columns).
+Construye una **Projection** a partir de cuatro valores :ref:`Vector4<class_Vector4>` (columnas de la matriz).
 
 .. rst-class:: classref-section-separator
 
@@ -345,7 +345,7 @@ Descripciones de Métodos
 
 :ref:`Projection<class_Projection>` **create_depth_correction**\ (\ flip_y\: :ref:`bool<class_bool>`\ ) |static| :ref:`🔗<class_Projection_method_create_depth_correction>`
 
-Creates a new **Projection** that projects positions from a depth range of ``-1`` to ``1`` to one that ranges from ``0`` to ``1``, and flips the projected positions vertically, according to ``flip_y``.
+Crea una nueva **Projection** que proyecta posiciones desde un rango de profundidad de ``-1`` a ``1`` a uno que va de ``0`` a ``1``, e invierte las posiciones proyectadas verticalmente, según ``flip_y``.
 
 .. rst-class:: classref-item-separator
 
@@ -369,9 +369,9 @@ Crea una nueva **Projection** que escala una proyección dada para ajustarse a u
 
 :ref:`Projection<class_Projection>` **create_for_hmd**\ (\ eye\: :ref:`int<class_int>`, aspect\: :ref:`float<class_float>`, intraocular_dist\: :ref:`float<class_float>`, display_width\: :ref:`float<class_float>`, display_to_lens\: :ref:`float<class_float>`, oversample\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`\ ) |static| :ref:`🔗<class_Projection_method_create_for_hmd>`
 
-Creates a new **Projection** for projecting positions onto a head-mounted display with the given X:Y aspect ratio, distance between eyes, display width, distance to lens, oversampling factor, and depth clipping planes.
+Crea una nueva **Projection** para proyectar posiciones en una pantalla montada en la cabeza con la relación de aspecto X:Y dada, la distancia entre los ojos, el ancho de la pantalla, la distancia a la lente, el factor de sobremuestreo y los planos de recorte de profundidad.
 
-\ ``eye`` creates the projection for the left eye when set to 1, or the right eye when set to 2.
+\ ``eye`` crea la proyección para el ojo izquierdo cuando se establece en 1, o el ojo derecho cuando se establece en 2.
 
 .. rst-class:: classref-item-separator
 
@@ -395,9 +395,9 @@ Crea una nueva **Projection** que proyecta posiciones en un frustum con los plan
 
 :ref:`Projection<class_Projection>` **create_frustum_aspect**\ (\ size\: :ref:`float<class_float>`, aspect\: :ref:`float<class_float>`, offset\: :ref:`Vector2<class_Vector2>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`, flip_fov\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_Projection_method_create_frustum_aspect>`
 
-Creates a new **Projection** that projects positions in a frustum with the given size, X:Y aspect ratio, offset, and clipping planes.
+Crea una nueva **Projection** que proyecta posiciones en un frustum con el tamaño dado, la relación de aspecto X:Y, el desplazamiento y los planos de recorte.
 
-\ ``flip_fov`` determines whether the projection's field of view is flipped over its diagonal.
+\ ``flip_fov`` determina si el campo de visión de la proyección se invierte sobre su diagonal.
 
 .. rst-class:: classref-item-separator
 
@@ -433,9 +433,9 @@ Crea una nueva **Projection** que proyecta posiciones utilizando una proyección
 
 :ref:`Projection<class_Projection>` **create_orthogonal_aspect**\ (\ size\: :ref:`float<class_float>`, aspect\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`, flip_fov\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_Projection_method_create_orthogonal_aspect>`
 
-Creates a new **Projection** that projects positions using an orthogonal projection with the given size, X:Y aspect ratio, and clipping planes.
+Crea una nueva **Projection** que proyecta posiciones usando una proyección ortogonal con el tamaño dado, la relación de aspecto X:Y y los planos de recorte.
 
-\ ``flip_fov`` determines whether the projection's field of view is flipped over its diagonal.
+\ ``flip_fov`` determina si el campo de visión de la proyección se invierte sobre su diagonal.
 
 .. rst-class:: classref-item-separator
 
@@ -447,9 +447,9 @@ Creates a new **Projection** that projects positions using an orthogonal project
 
 :ref:`Projection<class_Projection>` **create_perspective**\ (\ fovy\: :ref:`float<class_float>`, aspect\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`, flip_fov\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_Projection_method_create_perspective>`
 
-Creates a new **Projection** that projects positions using a perspective projection with the given Y-axis field of view (in degrees), X:Y aspect ratio, and clipping planes.
+Crea una nueva **Projection** que proyecta posiciones usando una proyección en perspectiva con el campo de visión del eje Y dado (en grados), la relación de aspecto X:Y y los planos de recorte.
 
-\ ``flip_fov`` determines whether the projection's field of view is flipped over its diagonal.
+\ ``flip_fov`` determina si el campo de visión de la proyección se invierte sobre su diagonal.
 
 .. rst-class:: classref-item-separator
 
@@ -461,11 +461,11 @@ Creates a new **Projection** that projects positions using a perspective project
 
 :ref:`Projection<class_Projection>` **create_perspective_hmd**\ (\ fovy\: :ref:`float<class_float>`, aspect\: :ref:`float<class_float>`, z_near\: :ref:`float<class_float>`, z_far\: :ref:`float<class_float>`, flip_fov\: :ref:`bool<class_bool>`, eye\: :ref:`int<class_int>`, intraocular_dist\: :ref:`float<class_float>`, convergence_dist\: :ref:`float<class_float>`\ ) |static| :ref:`🔗<class_Projection_method_create_perspective_hmd>`
 
-Creates a new **Projection** that projects positions using a perspective projection with the given Y-axis field of view (in degrees), X:Y aspect ratio, and clipping distances. The projection is adjusted for a head-mounted display with the given distance between eyes and distance to a point that can be focused on.
+Crea una nueva **Projection** que proyecta posiciones usando una proyección en perspectiva con el campo de visión del eje Y dado (en grados), la relación de aspecto X:Y y las distancias de recorte. La proyección se ajusta para una pantalla montada en la cabeza con la distancia dada entre los ojos y la distancia a un punto en el que se puede enfocar.
 
-\ ``eye`` creates the projection for the left eye when set to 1, or the right eye when set to 2.
+\ ``eye`` crea la proyección para el ojo izquierdo cuando se establece en 1, o el ojo derecho cuando se establece en 2.
 
-\ ``flip_fov`` determines whether the projection's field of view is flipped over its diagonal.
+\ ``flip_fov`` determina si el campo de visión de la proyección se invierte sobre su diagonal.
 
 .. rst-class:: classref-item-separator
 
@@ -477,9 +477,9 @@ Creates a new **Projection** that projects positions using a perspective project
 
 :ref:`float<class_float>` **determinant**\ (\ ) |const| :ref:`🔗<class_Projection_method_determinant>`
 
-Returns a scalar value that is the signed factor by which areas are scaled by this matrix. If the sign is negative, the matrix flips the orientation of the area.
+Devuelve un valor escalar que es el factor con signo por el cual las áreas son escaladas por esta matriz. Si el signo es negativo, la matriz invierte la orientación del área.
 
-The determinant can be used to calculate the invertibility of a matrix or solve linear systems of equations involving the matrix, among other applications.
+El determinante se puede utilizar para calcular la invertibilidad de una matriz o resolver sistemas lineales de ecuaciones que involucran a la matriz, entre otras aplicaciones.
 
 .. rst-class:: classref-item-separator
 
@@ -503,7 +503,7 @@ Devuelve una copia de esta **Projection** con los signos de los valores de la co
 
 :ref:`float<class_float>` **get_aspect**\ (\ ) |const| :ref:`🔗<class_Projection_method_get_aspect>`
 
-Returns the X:Y aspect ratio of this **Projection**'s viewport.
+Devuelve la relación de aspecto X:Y del viewport de esta **Projection**.
 
 .. rst-class:: classref-item-separator
 
@@ -515,7 +515,7 @@ Returns the X:Y aspect ratio of this **Projection**'s viewport.
 
 :ref:`Vector2<class_Vector2>` **get_far_plane_half_extents**\ (\ ) |const| :ref:`🔗<class_Projection_method_get_far_plane_half_extents>`
 
-Returns the dimensions of the far clipping plane of the projection, divided by two.
+Devuelve las dimensiones del plano de recorte lejano de la proyección, divididas entre dos.
 
 .. rst-class:: classref-item-separator
 
@@ -527,7 +527,7 @@ Returns the dimensions of the far clipping plane of the projection, divided by t
 
 :ref:`float<class_float>` **get_fov**\ (\ ) |const| :ref:`🔗<class_Projection_method_get_fov>`
 
-Returns the horizontal field of view of the projection (in degrees).
+Devuelve el campo de visión horizontal de la proyección (en grados).
 
 .. rst-class:: classref-item-separator
 
@@ -539,9 +539,9 @@ Returns the horizontal field of view of the projection (in degrees).
 
 :ref:`float<class_float>` **get_fovy**\ (\ fovx\: :ref:`float<class_float>`, aspect\: :ref:`float<class_float>`\ ) |static| :ref:`🔗<class_Projection_method_get_fovy>`
 
-Returns the vertical field of view of the projection (in degrees) associated with the given horizontal field of view (in degrees) and aspect ratio.
+Devuelve el campo de visión vertical de la proyección (en grados) asociado con el campo de visión horizontal dado (en grados) y la relación de aspecto.
 
-\ **Note:** Unlike most methods of **Projection**, ``aspect`` is expected to be 1 divided by the X:Y aspect ratio.
+\ **Nota:** A diferencia de la mayoría de los métodos de **Projection**, se espera que ``aspect`` sea 1 dividido por la relación de aspecto X:Y.
 
 .. rst-class:: classref-item-separator
 
@@ -577,9 +577,9 @@ Devuelve ``for_pixel_width`` dividido por el ancho del viewport medido en metros
 
 :ref:`Plane<class_Plane>` **get_projection_plane**\ (\ plane\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Projection_method_get_projection_plane>`
 
-Returns the clipping plane of this **Projection** whose index is given by ``plane``.
+Devuelve el plano de recorte de esta **Projection** cuyo índice se indica en ``plane``.
 
-\ ``plane`` should be equal to one of :ref:`PLANE_NEAR<class_Projection_constant_PLANE_NEAR>`, :ref:`PLANE_FAR<class_Projection_constant_PLANE_FAR>`, :ref:`PLANE_LEFT<class_Projection_constant_PLANE_LEFT>`, :ref:`PLANE_TOP<class_Projection_constant_PLANE_TOP>`, :ref:`PLANE_RIGHT<class_Projection_constant_PLANE_RIGHT>`, or :ref:`PLANE_BOTTOM<class_Projection_constant_PLANE_BOTTOM>`.
+\ ``plane`` debe ser igual a uno de :ref:`PLANE_NEAR<class_Projection_constant_PLANE_NEAR>`, :ref:`PLANE_FAR<class_Projection_constant_PLANE_FAR>`, :ref:`PLANE_LEFT<class_Projection_constant_PLANE_LEFT>`, :ref:`PLANE_TOP<class_Projection_constant_PLANE_TOP>`, :ref:`PLANE_RIGHT<class_Projection_constant_PLANE_RIGHT>` o :ref:`PLANE_BOTTOM<class_Projection_constant_PLANE_BOTTOM>`.
 
 .. rst-class:: classref-item-separator
 
@@ -603,7 +603,7 @@ Devuelve las dimensiones del plano del viewport sobre el que esta **Projection**
 
 :ref:`float<class_float>` **get_z_far**\ (\ ) |const| :ref:`🔗<class_Projection_method_get_z_far>`
 
-Returns the distance for this **Projection** beyond which positions are clipped.
+Devuelve la distancia para esta **Projection** más allá de la cual se recortan las posiciones.
 
 .. rst-class:: classref-item-separator
 
@@ -639,7 +639,7 @@ Devuelve una **Projection** que realiza la inversa de la transformación proyect
 
 :ref:`bool<class_bool>` **is_orthogonal**\ (\ ) |const| :ref:`🔗<class_Projection_method_is_orthogonal>`
 
-Returns ``true`` if this **Projection** performs an orthogonal projection.
+Devuelve ``true`` si esta **Projection** realiza una proyección ortogonal.
 
 .. rst-class:: classref-item-separator
 
@@ -682,9 +682,9 @@ Descripciones de Operadores
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`Projection<class_Projection>`\ ) :ref:`🔗<class_Projection_operator_neq_Projection>`
 
-Returns ``true`` if the projections are not equal.
+Devuelve ``true`` si las proyecciones no son iguales.
 
-\ **Note:** Due to floating-point precision errors, this may return ``true``, even if the projections are virtually equal. An ``is_equal_approx`` method may be added in a future version of Godot.
+\ **Nota:** Debido a errores de precisión de punto flotante, esto puede devolver ``true``, incluso si las proyecciones son virtualmente iguales. Un método ``is_equal_approx`` puede ser añadido en una futura versión de Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -720,9 +720,9 @@ Proyecta (multiplica) el :ref:`Vector4<class_Vector4>` dado por esta matriz **Pr
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`Projection<class_Projection>`\ ) :ref:`🔗<class_Projection_operator_eq_Projection>`
 
-Returns ``true`` if the projections are equal.
+Devuelve ``true`` si las proyecciones son iguales.
 
-\ **Note:** Due to floating-point precision errors, this may return ``false``, even if the projections are virtually equal. An ``is_equal_approx`` method may be added in a future version of Godot.
+\ **Nota:** Debido a errores de precisión de punto flotante, esto puede devolver ``false``, incluso si las proyecciones son virtualmente iguales. Un método ``is_equal_approx`` puede ser añadido en una futura versión de Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -734,9 +734,9 @@ Returns ``true`` if the projections are equal.
 
 :ref:`Vector4<class_Vector4>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Projection_operator_idx_int>`
 
-Returns the column of the **Projection** with the given index.
+Devuelve la columna de la **Projection** con el índice dado.
 
-Indices are in the following order: x, y, z, w.
+Los índices están en el siguiente orden: x, y, z, w.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

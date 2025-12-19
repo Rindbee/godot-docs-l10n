@@ -9,14 +9,14 @@ CompositorEffect
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-This resource allows for creating a custom rendering effect.
+Este recurso permite crear un efecto de renderizado personalizado.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This resource defines a custom rendering effect that can be applied to :ref:`Viewport<class_Viewport>`\ s through the viewports' :ref:`Environment<class_Environment>`. You can implement a callback that is called during rendering at a given stage of the rendering pipeline and allows you to insert additional passes. Note that this callback happens on the rendering thread. CompositorEffect is an abstract base class and must be extended to implement specific rendering logic.
+Este recurso define un efecto de renderizado personalizado que se puede aplicar a los :ref:`Viewport<class_Viewport>`\ s a través del :ref:`Environment<class_Environment>` de los viewports. Puedes implementar una retrollamada que se llama durante el renderizado en una etapa dada de la pipeline de renderizado y te permite insertar pases adicionales. Ten en cuenta que esta retrollamada se produce en el hilo de renderizado. CompositorEffect es una clase base abstracta y debe ser extendida para implementar una lógica de renderizado específica.
 
 .. rst-class:: classref-introduction-group
 
@@ -82,7 +82,7 @@ enum **EffectCallbackType**: :ref:`🔗<enum_CompositorEffect_EffectCallbackType
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_PRE_OPAQUE** = ``0``
 
-The callback is called before our opaque rendering pass, but after depth prepass (if applicable).
+La retrollamada se llama antes de nuestro pase de renderizado opaco, pero después del pre-pase de profundidad (si corresponde).
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_POST_OPAQUE:
 
@@ -90,7 +90,7 @@ The callback is called before our opaque rendering pass, but after depth prepass
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_POST_OPAQUE** = ``1``
 
-The callback is called after our opaque rendering pass, but before our sky is rendered.
+La retrollamada se llama después de nuestro pase de renderizado opaco, pero antes de que se renderice nuestro cielo.
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_POST_SKY:
 
@@ -98,7 +98,7 @@ The callback is called after our opaque rendering pass, but before our sky is re
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_POST_SKY** = ``2``
 
-The callback is called after our sky is rendered, but before our back buffers are created (and if enabled, before subsurface scattering and/or screen space reflections).
+La retrollamada se llama después de que se renderice nuestro cielo, pero antes de que se creen nuestros búferes de fondo (y, si está habilitado, antes de la dispersión subsuperficial y/o los reflejos del espacio de pantalla).
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_PRE_TRANSPARENT:
 
@@ -106,7 +106,7 @@ The callback is called after our sky is rendered, but before our back buffers ar
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_PRE_TRANSPARENT** = ``3``
 
-The callback is called before our transparent rendering pass, but after our sky is rendered and we've created our back buffers.
+La retrollamada se llama antes de nuestro pase de renderizado transparente, pero después de que se renderice nuestro cielo y hayamos creado nuestros búferes de fondo.
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_POST_TRANSPARENT:
 
@@ -114,7 +114,7 @@ The callback is called before our transparent rendering pass, but after our sky 
 
 :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **EFFECT_CALLBACK_TYPE_POST_TRANSPARENT** = ``4``
 
-The callback is called after our transparent rendering pass, but before any built-in post-processing effects and output to our render target.
+La retrollamada se llama después de nuestro pase de renderizado transparente, pero antes de cualquier efecto de post-procesamiento incorporado y de la salida a nuestro objetivo de renderizado.
 
 .. _class_CompositorEffect_constant_EFFECT_CALLBACK_TYPE_MAX:
 
@@ -144,9 +144,9 @@ Descripciones de Propiedades
 - |void| **set_access_resolved_color**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_access_resolved_color**\ (\ )
 
-If ``true`` and MSAA is enabled, this will trigger a color buffer resolve before the effect is run.
+Si es ``true`` y MSAA está habilitado, esto activará una resolución del búfer de color antes de que se ejecute el efecto.
 
-\ **Note:** In :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, to access the resolved buffer use:
+\ **Nota:** En :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, para acceder al búfer resuelto, usa:
 
 ::
 
@@ -168,9 +168,9 @@ If ``true`` and MSAA is enabled, this will trigger a color buffer resolve before
 - |void| **set_access_resolved_depth**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_access_resolved_depth**\ (\ )
 
-If ``true`` and MSAA is enabled, this will trigger a depth buffer resolve before the effect is run.
+Si es ``true`` y MSAA está habilitado, esto activará una resolución del búfer de profundidad antes de que se ejecute el efecto.
 
-\ **Note:** In :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, to access the resolved buffer use:
+\ **Nota:** En :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, para acceder al búfer resuelto, usa:
 
 ::
 
@@ -192,7 +192,7 @@ If ``true`` and MSAA is enabled, this will trigger a depth buffer resolve before
 - |void| **set_effect_callback_type**\ (\ value\: :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>`\ )
 - :ref:`EffectCallbackType<enum_CompositorEffect_EffectCallbackType>` **get_effect_callback_type**\ (\ )
 
-The type of effect that is implemented, determines at what stage of rendering the callback is called.
+El tipo de efecto que se implementa determina en qué etapa del renderizado se llama al callback.
 
 .. rst-class:: classref-item-separator
 
@@ -209,7 +209,7 @@ The type of effect that is implemented, determines at what stage of rendering th
 - |void| **set_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enabled**\ (\ )
 
-If ``true`` this rendering effect is applied to any viewport it is added to.
+Si es ``true``, este efecto de renderizado se aplica a cualquier viewport al que se añada.
 
 .. rst-class:: classref-item-separator
 
@@ -226,9 +226,9 @@ If ``true`` this rendering effect is applied to any viewport it is added to.
 - |void| **set_needs_motion_vectors**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_needs_motion_vectors**\ (\ )
 
-If ``true`` this triggers motion vectors being calculated during the opaque render state.
+Si es ``true``, esto activa el cálculo de vectores de movimiento durante el estado de renderizado opaco.
 
-\ **Note:** In :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, to access the motion vector buffer use:
+\ **Nota:** En :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, para acceder al búfer de vectores de movimiento, usa:
 
 ::
 
@@ -250,16 +250,16 @@ If ``true`` this triggers motion vectors being calculated during the opaque rend
 - |void| **set_needs_normal_roughness**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_needs_normal_roughness**\ (\ )
 
-If ``true`` this triggers normal and roughness data to be output during our depth pre-pass, only applicable for the Forward+ renderer.
+Si es ``true``, esto activa la salida de los datos normales y de rugosidad durante nuestro pre-pase de profundidad, solo aplicable para el renderizador Forward+.
 
-\ **Note:** In :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, to access the roughness buffer use:
+\ **Nota:** En :ref:`_render_callback()<class_CompositorEffect_private_method__render_callback>`, para acceder al búfer de rugosidad, usa:
 
 ::
 
     var render_scene_buffers = render_data.get_render_scene_buffers()
     var roughness_buffer = render_scene_buffers.get_texture("forward_clustered", "normal_roughness")
 
-The raw normal and roughness buffer is stored in an optimized format, different than the one available in Spatial shaders. When sampling the buffer, a conversion function must be applied. Use this function, copied from `here <https://github.com/godotengine/godot/blob/da5f39889f155658cef7f7ec3cc1abb94e17d815/servers/rendering/renderer_rd/shaders/forward_clustered/scene_forward_clustered_inc.glsl#L334-L341>`__:
+El búfer bruto normal y de rugosidad se almacena en un formato optimizado, diferente del disponible en los shaders espaciales. Al muestrear el búfer, debe aplicarse una función de conversión. Usa esta función, copiada de `aquí <https://github.com/godotengine/godot/blob/da5f39889f155658cef7f7ec3cc1abb94e17d815/servers/rendering/renderer_rd/shaders/forward_clustered/scene_forward_clustered_inc.glsl#L334-L341>`__:
 
 ::
 
@@ -287,7 +287,7 @@ The raw normal and roughness buffer is stored in an optimized format, different 
 - |void| **set_needs_separate_specular**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_needs_separate_specular**\ (\ )
 
-If ``true`` this triggers specular data being rendered to a separate buffer and combined after effects have been applied, only applicable for the Forward+ renderer.
+Si es ``true``, esto activa que los datos especulares se rendericen en un búfer separado y se combinen después de que se hayan aplicado los efectos, solo aplicable para el renderizador Forward+.
 
 .. rst-class:: classref-section-separator
 
@@ -304,7 +304,7 @@ Descripciones de Métodos
 
 |void| **_render_callback**\ (\ effect_callback_type\: :ref:`int<class_int>`, render_data\: :ref:`RenderData<class_RenderData>`\ ) |virtual| :ref:`🔗<class_CompositorEffect_private_method__render_callback>`
 
-Implement this function with your custom rendering code. ``effect_callback_type`` should always match the effect callback type you've specified in :ref:`effect_callback_type<class_CompositorEffect_property_effect_callback_type>`. ``render_data`` provides access to the rendering state, it is only valid during rendering and should not be stored.
+Implementa esta función con tu código de renderizado personalizado. ``effect_callback_type`` siempre debe coincidir con el tipo de retrollamada de efecto que has especificado en :ref:`effect_callback_type<class_CompositorEffect_property_effect_callback_type>`. ``render_data`` proporciona acceso al estado de renderizado, sólo es válido durante el renderizado y no debe ser almacenado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

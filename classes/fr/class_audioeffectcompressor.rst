@@ -16,17 +16,17 @@ Réduit les sons qui dépassent un certain seuil, lisse les dynamiques et augmen
 Description
 -----------
 
-Dynamic range compressor reduces the level of the sound when the amplitude goes over a certain threshold in Decibels. One of the main uses of a compressor is to increase the dynamic range by clipping as little as possible (when sound goes over 0dB).
+Le compresseur dynamique d'intensité réduit le niveau du son lorsque le volume dépasse un certain seuil de décibels. L'une des principales utilisations d'un compresseur est d'augmenter la gamme dynamique en essayant de saturer le moins possible le son (quand le son dépasse 0dB).
 
-Compressor has many uses in the mix:
+Le compresseur a de nombreuses utilisations dans le mixage :
 
-- In the Master bus to compress the whole output (although an :ref:`AudioEffectHardLimiter<class_AudioEffectHardLimiter>` is probably better).
+- Dans le bus Maître pour compresser toute la sortie (même si un :ref:`AudioEffectHardLimiter<class_AudioEffectHardLimiter>` est souvent plus adapté).
 
-- In voice channels to ensure they sound as balanced as possible.
+- Dans les canaux de voix pour s'assurer qu'ils sonnent aussi équilibré que possible.
 
-- Sidechained. This can reduce the sound level sidechained with another audio bus for threshold detection. This technique is common in video game mixing to the level of music and SFX while voices are being heard.
+- Pour le "Sidechained". Cela peut réduire le niveau de son enchaîné avec un autre bus audio pour la détection des seuils. Cette technique est courante dans le jeu vidéo pour mixer le niveau de la musique et les effets spéciaux tandis que les voix sont entendues.
 
-- Accentuates transients by using a wider attack, making effects sound more punchy.
+- Accentue les transitions en utilisant une attaque plus grande, rendant les effets sonores plus percutants.
 
 .. rst-class:: classref-introduction-group
 

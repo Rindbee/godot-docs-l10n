@@ -7,14 +7,14 @@ RDPipelineDepthStencilState
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Pipeline depth/stencil state (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Estado de profundidad/stencil del pipeline (utilizado por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**RDPipelineDepthStencilState** controls the way depth and stencil comparisons are performed when sampling those values using :ref:`RenderingDevice<class_RenderingDevice>`.
+**RDPipelineDepthStencilState** controla la forma en que se realizan las comparaciones de profundidad y stencil al muestrear esos valores usando :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -88,7 +88,7 @@ Descripciones de Propiedades
 - |void| **set_back_op_compare**\ (\ value\: :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>`\ )
 - :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>` **get_back_op_compare**\ (\ )
 
-The method used for comparing the previous back stencil value and :ref:`back_op_reference<class_RDPipelineDepthStencilState_property_back_op_reference>`.
+El método utilizado para comparar el valor anterior del esténcil trasero y :ref:`back_op_reference<class_RDPipelineDepthStencilState_property_back_op_reference>`.
 
 .. rst-class:: classref-item-separator
 
@@ -105,7 +105,7 @@ The method used for comparing the previous back stencil value and :ref:`back_op_
 - |void| **set_back_op_compare_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_back_op_compare_mask**\ (\ )
 
-Selects which bits from the back stencil value will be compared.
+Selecciona qué bits del valor del esténcil trasero se compararán.
 
 .. rst-class:: classref-item-separator
 
@@ -122,7 +122,7 @@ Selects which bits from the back stencil value will be compared.
 - |void| **set_back_op_depth_fail**\ (\ value\: :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>`\ )
 - :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>` **get_back_op_depth_fail**\ (\ )
 
-The operation to perform on the stencil buffer for back pixels that pass the stencil test but fail the depth test.
+La operación a realizar en el búfer de esténcil para los píxeles traseros que pasan la prueba de esténcil pero fallan la prueba de profundidad.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ The operation to perform on the stencil buffer for back pixels that pass the ste
 - |void| **set_back_op_fail**\ (\ value\: :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>`\ )
 - :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>` **get_back_op_fail**\ (\ )
 
-The operation to perform on the stencil buffer for back pixels that fail the stencil test.
+La operación a realizar en el búfer de esténcil para los píxeles traseros que fallan la prueba de esténcil.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ The operation to perform on the stencil buffer for back pixels that fail the ste
 - |void| **set_back_op_pass**\ (\ value\: :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>`\ )
 - :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>` **get_back_op_pass**\ (\ )
 
-The operation to perform on the stencil buffer for back pixels that pass the stencil test.
+La operación a realizar en el búfer de esténcil para los píxeles posteriores que pasan la prueba de esténcil.
 
 .. rst-class:: classref-item-separator
 
@@ -173,7 +173,7 @@ The operation to perform on the stencil buffer for back pixels that pass the ste
 - |void| **set_back_op_reference**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_back_op_reference**\ (\ )
 
-The value the previous back stencil value will be compared to.
+El valor con el que se comparará el valor anterior del esténcil posterior.
 
 .. rst-class:: classref-item-separator
 
@@ -190,7 +190,7 @@ The value the previous back stencil value will be compared to.
 - |void| **set_back_op_write_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_back_op_write_mask**\ (\ )
 
-Selects which bits from the back stencil value will be changed.
+Selecciona qué bits del valor del esténcil posterior se cambiarán.
 
 .. rst-class:: classref-item-separator
 
@@ -207,7 +207,7 @@ Selects which bits from the back stencil value will be changed.
 - |void| **set_depth_compare_operator**\ (\ value\: :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>`\ )
 - :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>` **get_depth_compare_operator**\ (\ )
 
-The method used for comparing the previous and current depth values.
+El método utilizado para comparar los valores de profundidad anterior y actual.
 
 .. rst-class:: classref-item-separator
 
@@ -224,7 +224,7 @@ The method used for comparing the previous and current depth values.
 - |void| **set_depth_range_max**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_depth_range_max**\ (\ )
 
-The maximum depth that returns ``true`` for :ref:`enable_depth_range<class_RDPipelineDepthStencilState_property_enable_depth_range>`.
+La profundidad máxima que devuelve ``true`` para :ref:`enable_depth_range<class_RDPipelineDepthStencilState_property_enable_depth_range>`.
 
 .. rst-class:: classref-item-separator
 
@@ -241,7 +241,7 @@ The maximum depth that returns ``true`` for :ref:`enable_depth_range<class_RDPip
 - |void| **set_depth_range_min**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_depth_range_min**\ (\ )
 
-The minimum depth that returns ``true`` for :ref:`enable_depth_range<class_RDPipelineDepthStencilState_property_enable_depth_range>`.
+La profundidad mínima que devuelve ``true`` para :ref:`enable_depth_range<class_RDPipelineDepthStencilState_property_enable_depth_range>`.
 
 .. rst-class:: classref-item-separator
 
@@ -309,7 +309,7 @@ Si es ``true``, escribe en el búfer de profundidad siempre que la prueba de pro
 - |void| **set_enable_stencil**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_enable_stencil**\ (\ )
 
-Si es ``true``, habilita la prueba de stencil. Hay búferes de stencil separados para los triángulos orientados hacia delante y los orientados hacia atrás. Véase las propiedades que empiezan con "front_op" y las que tienen "back_op" para cada uno.
+Si es ``true``, habilita la prueba de esténcil. Hay búferes de stencil separados para los triángulos orientados hacia delante y los orientados hacia atrás. Véase las propiedades que empiezan con "front_op" y las que tienen "back_op" para cada uno.
 
 .. rst-class:: classref-item-separator
 
@@ -326,7 +326,7 @@ Si es ``true``, habilita la prueba de stencil. Hay búferes de stencil separados
 - |void| **set_front_op_compare**\ (\ value\: :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>`\ )
 - :ref:`CompareOperator<enum_RenderingDevice_CompareOperator>` **get_front_op_compare**\ (\ )
 
-El método utilizado para comparar el valor de stencil frontal anterior y :ref:`front_op_reference<class_RDPipelineDepthStencilState_property_front_op_reference>`.
+El método utilizado para comparar el valor de esténcil frontal anterior y :ref:`front_op_reference<class_RDPipelineDepthStencilState_property_front_op_reference>`.
 
 .. rst-class:: classref-item-separator
 
@@ -343,7 +343,7 @@ El método utilizado para comparar el valor de stencil frontal anterior y :ref:`
 - |void| **set_front_op_compare_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_front_op_compare_mask**\ (\ )
 
-Selecciona qué bits del valor de stencil frontal se compararán.
+Selecciona qué bits del valor de esténcil frontal se compararán.
 
 .. rst-class:: classref-item-separator
 
@@ -360,7 +360,7 @@ Selecciona qué bits del valor de stencil frontal se compararán.
 - |void| **set_front_op_depth_fail**\ (\ value\: :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>`\ )
 - :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>` **get_front_op_depth_fail**\ (\ )
 
-La operación a realizar en el búfer de stencil para los píxeles frontales que pasan la prueba de stencil pero fallan la prueba de profundidad.
+La operación a realizar en el búfer de esténcil para los píxeles frontales que pasan la prueba de esténcil pero fallan la prueba de profundidad.
 
 .. rst-class:: classref-item-separator
 
@@ -377,7 +377,7 @@ La operación a realizar en el búfer de stencil para los píxeles frontales que
 - |void| **set_front_op_fail**\ (\ value\: :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>`\ )
 - :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>` **get_front_op_fail**\ (\ )
 
-La operación a realizar en el búfer de stencil para los píxeles frontales que fallan la prueba de stencil.
+La operación a realizar en el búfer de esténcil para los píxeles frontales que fallan la prueba de esténcil.
 
 .. rst-class:: classref-item-separator
 
@@ -394,7 +394,7 @@ La operación a realizar en el búfer de stencil para los píxeles frontales que
 - |void| **set_front_op_pass**\ (\ value\: :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>`\ )
 - :ref:`StencilOperation<enum_RenderingDevice_StencilOperation>` **get_front_op_pass**\ (\ )
 
-La operación a realizar en el búfer de stencil para los píxeles frontales que pasan la prueba de stencil.
+La operación a realizar en el búfer de esténcil para los píxeles frontales que pasan la prueba de esténcil.
 
 .. rst-class:: classref-item-separator
 
@@ -411,7 +411,7 @@ La operación a realizar en el búfer de stencil para los píxeles frontales que
 - |void| **set_front_op_reference**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_front_op_reference**\ (\ )
 
-El valor con el que se comparará el valor de stencil frontal anterior.
+El valor con el que se comparará el valor de esténcil frontal anterior.
 
 .. rst-class:: classref-item-separator
 
@@ -428,7 +428,7 @@ El valor con el que se comparará el valor de stencil frontal anterior.
 - |void| **set_front_op_write_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_front_op_write_mask**\ (\ )
 
-Selecciona qué bits del valor de stencil frontal se cambiarán.
+Selecciona qué bits del valor de esténcil frontal se cambiarán.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -3152,7 +3152,7 @@ enum **IndexBufferFormat**: :ref:`🔗<enum_RenderingDevice_IndexBufferFormat>`
 
 :ref:`IndexBufferFormat<enum_RenderingDevice_IndexBufferFormat>` **INDEX_BUFFER_FORMAT_UINT16** = ``0``
 
-Búfer de índices en formato de entero sin signo de 16 bits. Esto limita el índice máximo que se puede especificar a ``65535``.
+Búfer de índices en formato de entero sin signo de 16 bits. Esto limita el índice máximo que se puede especificar como ``65535``.
 
 .. _class_RenderingDevice_constant_INDEX_BUFFER_FORMAT_UINT32:
 
@@ -3160,7 +3160,7 @@ Búfer de índices en formato de entero sin signo de 16 bits. Esto limita el ín
 
 :ref:`IndexBufferFormat<enum_RenderingDevice_IndexBufferFormat>` **INDEX_BUFFER_FORMAT_UINT32** = ``1``
 
-Búfer de índices en formato de entero sin signo de 32 bits. Esto limita el índice máximo que se puede especificar a ``4294967295``.
+Búfer de índices en formato de entero sin signo de 32 bits. Esto limita el índice máximo que se puede especificar como ``4294967295``.
 
 .. rst-class:: classref-item-separator
 
@@ -3427,7 +3427,7 @@ Triangle strip rendering primitive with *primitive restart* enabled. Triangles d
 
 :ref:`RenderPrimitive<enum_RenderingDevice_RenderPrimitive>` **RENDER_PRIMITIVE_TESSELATION_PATCH** = ``10``
 
-Tessellation patch rendering primitive. Only useful with tessellation shaders, which can be used to deform these patches.
+Primitiva de renderizado de parche de teselación. Solo es útil con shaders de teselación, que pueden usarse para deformar estos parches.
 
 .. _class_RenderingDevice_constant_RENDER_PRIMITIVE_MAX:
 
@@ -4421,7 +4421,7 @@ enum **PipelineSpecializationConstantType**: :ref:`🔗<enum_RenderingDevice_Pip
 
 :ref:`PipelineSpecializationConstantType<enum_RenderingDevice_PipelineSpecializationConstantType>` **PIPELINE_SPECIALIZATION_CONSTANT_TYPE_BOOL** = ``0``
 
-Boolean specialization constant.
+Constante de especialización de bools.
 
 .. _class_RenderingDevice_constant_PIPELINE_SPECIALIZATION_CONSTANT_TYPE_INT:
 
@@ -4429,7 +4429,7 @@ Boolean specialization constant.
 
 :ref:`PipelineSpecializationConstantType<enum_RenderingDevice_PipelineSpecializationConstantType>` **PIPELINE_SPECIALIZATION_CONSTANT_TYPE_INT** = ``1``
 
-Integer specialization constant.
+Constante de especialización de ints.
 
 .. _class_RenderingDevice_constant_PIPELINE_SPECIALIZATION_CONSTANT_TYPE_FLOAT:
 
@@ -4455,7 +4455,7 @@ enum **Features**: :ref:`🔗<enum_RenderingDevice_Features>`
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_METALFX_SPATIAL** = ``3``
 
-Support for MetalFX spatial upscaling.
+Soporte para el escalado espacial de MetalFX.
 
 .. _class_RenderingDevice_constant_SUPPORTS_METALFX_TEMPORAL:
 
@@ -4463,7 +4463,7 @@ Support for MetalFX spatial upscaling.
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_METALFX_TEMPORAL** = ``4``
 
-Support for MetalFX temporal upscaling.
+Soporte para el escalado temporal de MetalFX.
 
 .. _class_RenderingDevice_constant_SUPPORTS_BUFFER_DEVICE_ADDRESS:
 
@@ -4471,7 +4471,7 @@ Support for MetalFX temporal upscaling.
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_BUFFER_DEVICE_ADDRESS** = ``6``
 
-Features support for buffer device address extension.
+Funciones de soporte para la extensión de la dirección del dispositivo de búfer.
 
 .. _class_RenderingDevice_constant_SUPPORTS_IMAGE_ATOMIC_32_BIT:
 
@@ -4479,7 +4479,7 @@ Features support for buffer device address extension.
 
 :ref:`Features<enum_RenderingDevice_Features>` **SUPPORTS_IMAGE_ATOMIC_32_BIT** = ``7``
 
-Support for 32-bit image atomic operations.
+Soporte para operaciones atómicas de imágenes de 32 bits.
 
 .. rst-class:: classref-item-separator
 
@@ -4713,7 +4713,7 @@ Alineación mínima del desplazamiento del búfer uniforme.
 
 :ref:`Limit<enum_RenderingDevice_Limit>` **LIMIT_MAX_COMPUTE_SHARED_MEMORY_SIZE** = ``27``
 
-Tamaño máximo de la memoria compartida para los sombreadores de cómputo.
+Tamaño máximo de la memoria compartida para los shaders de cómputo.
 
 .. _class_RenderingDevice_constant_LIMIT_MAX_COMPUTE_WORKGROUP_COUNT_X:
 
@@ -4721,7 +4721,7 @@ Tamaño máximo de la memoria compartida para los sombreadores de cómputo.
 
 :ref:`Limit<enum_RenderingDevice_Limit>` **LIMIT_MAX_COMPUTE_WORKGROUP_COUNT_X** = ``28``
 
-Número máximo de grupos de trabajo para los sombreadores de cómputo en el eje X.
+Número máximo de grupos de trabajo para los shaders de cómputo en el eje X.
 
 .. _class_RenderingDevice_constant_LIMIT_MAX_COMPUTE_WORKGROUP_COUNT_Y:
 
@@ -4729,7 +4729,7 @@ Número máximo de grupos de trabajo para los sombreadores de cómputo en el eje
 
 :ref:`Limit<enum_RenderingDevice_Limit>` **LIMIT_MAX_COMPUTE_WORKGROUP_COUNT_Y** = ``29``
 
-Número máximo de grupos de trabajo para los sombreadores de cómputo en el eje Y.
+Número máximo de grupos de trabajo para los shaders de cómputo en el eje Y.
 
 .. _class_RenderingDevice_constant_LIMIT_MAX_COMPUTE_WORKGROUP_COUNT_Z:
 
@@ -4737,7 +4737,7 @@ Número máximo de grupos de trabajo para los sombreadores de cómputo en el eje
 
 :ref:`Limit<enum_RenderingDevice_Limit>` **LIMIT_MAX_COMPUTE_WORKGROUP_COUNT_Z** = ``30``
 
-Número máximo de grupos de trabajo para los sombreadores de cómputo en el eje Z.
+Número máximo de grupos de trabajo para los shaders de cómputo en el eje Z.
 
 .. _class_RenderingDevice_constant_LIMIT_MAX_COMPUTE_WORKGROUP_INVOCATIONS:
 

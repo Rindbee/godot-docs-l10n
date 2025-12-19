@@ -10,20 +10,20 @@ OptionButton
 
 **Hérite de :** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A button that brings up a dropdown with selectable options when pressed.
+Un bouton qui affiche un menu déroulant avec des options sélectionnables lors qu’appuyé.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**OptionButton** is a type of button that brings up a dropdown with selectable items when pressed. The item selected becomes the "current" item and is displayed as the button text.
+**OptionButton** est un type de bouton qui affiche un menu déroulant avec des éléments sélectionnables lors qu’appuyé. L'élément sélectionné devient l'élément "actuel" et s'affiche comme le texte du bouton.
 
-See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node.
+Voir aussi :ref:`BaseButton<class_BaseButton>` qui contient des propriétés et des méthodes communes associées à ce nœud.
 
-\ **Note:** The IDs used for items are limited to signed 32-bit integers, not the full 64 bits of :ref:`int<class_int>`. These have a range of ``-2^31`` to ``2^31 - 1``, that is, ``-2147483648`` to ``2147483647``.
+\ **Note :** Les identifiants utilisés pour les éléments sont limités à des entiers de 32 bits signés, pas aux 64 bits complets de :ref:`int<class_int>`. Ils ont une plage de ``-2^31`` à ``2^31 - 1``, c'est-à-dire ``-2147483648`` à ``2147483647``.
 
-\ **Note:** The :ref:`Button.text<class_Button_property_text>` and :ref:`Button.icon<class_Button_property_icon>` properties are set automatically based on the selected item. They shouldn't be changed manually.
+\ **Note :** Les propriétés :ref:`Button.text<class_Button_property_text>` et :ref:`Button.icon<class_Button_property_icon>` sont définies automatiquement en fonction de l'élément sélectionné. Elles ne devraient pas être changées manuellement.
 
 .. rst-class:: classref-reftable-group
 
@@ -148,7 +148,7 @@ Signaux
 
 **item_focused**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OptionButton_signal_item_focused>`
 
-Emitted when the user navigates to an item using the :ref:`ProjectSettings.input/ui_up<class_ProjectSettings_property_input/ui_up>` or :ref:`ProjectSettings.input/ui_down<class_ProjectSettings_property_input/ui_down>` input actions. The index of the item selected is passed as argument.
+Émis lorsque l'utilisateur navigue vers un élément utilisant les actions d'entrée :ref:`ProjectSettings.input/ui_up<class_ProjectSettings_property_input/ui_up>` ou :ref:`ProjectSettings.input/ui_down<class_ProjectSettings_property_input/ui_down>`. L'index de l'élément sélectionné est passé en tant qu'argument.
 
 .. rst-class:: classref-item-separator
 
@@ -160,9 +160,9 @@ Emitted when the user navigates to an item using the :ref:`ProjectSettings.input
 
 **item_selected**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OptionButton_signal_item_selected>`
 
-Emitted when the current item has been changed by the user. The index of the item selected is passed as argument.
+Émis lorsque l'élément actuel a été changé par l'utilisateur. L'index de l'élément sélectionné est passé en tant qu'argument.
 
-\ :ref:`allow_reselect<class_OptionButton_property_allow_reselect>` must be enabled to reselect an item.
+\ :ref:`allow_reselect<class_OptionButton_property_allow_reselect>` doit être activé pour ré-sélectionner un article.
 
 .. rst-class:: classref-section-separator
 
@@ -201,9 +201,9 @@ Si ``true``, l'élément actuellement sélectionné peut être sélectionné à 
 - |void| **set_fit_to_longest_item**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_fit_to_longest_item**\ (\ )
 
-If ``true``, minimum size will be determined by the longest item's text, instead of the currently selected one's.
+Si ``true``, la taille minimale sera déterminée par le texte de l'élément le plus long, au lieu de celui de l'élément actuellement sélectionné.
 
-\ **Note:** For performance reasons, the minimum size doesn't update immediately when adding, removing or modifying items.
+\ **Note :** Pour des raisons de performances, la taille minimale ne se met pas immédiatement à jour lorsque vous ajoutez, supprimez ou modifiez des éléments.
 
 .. rst-class:: classref-item-separator
 
@@ -220,7 +220,7 @@ If ``true``, minimum size will be determined by the longest item's text, instead
 - |void| **set_item_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_item_count**\ (\ )
 
-The number of items to select from.
+Le nombre d'éléments sélectionnables.
 
 .. rst-class:: classref-item-separator
 
@@ -253,9 +253,9 @@ Descriptions des méthodes
 
 |void| **add_icon_item**\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, label\: :ref:`String<class_String>`, id\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_OptionButton_method_add_icon_item>`
 
-Adds an item, with a ``texture`` icon, text ``label`` and (optionally) ``id``. If no ``id`` is passed, the item index will be used as the item's ID. New items are appended at the end.
+Ajoute un élément, avec une icône ``texture``, un texte ``label`` et (en option) un ``id``. Si aucun ``id`` n'est spécifié, l'index de l'élément sera utilisé comme identifiant de l'élément.Les nouveaux éléments sont placés à la fin de la liste.
 
-\ **Note:** The item will be selected if there are no other items.
+\ **Note :** L'élément sera sélectionné s'il n'y a pas d'autres éléments.
 
 .. rst-class:: classref-item-separator
 
@@ -267,9 +267,9 @@ Adds an item, with a ``texture`` icon, text ``label`` and (optionally) ``id``. I
 
 |void| **add_item**\ (\ label\: :ref:`String<class_String>`, id\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_OptionButton_method_add_item>`
 
-Adds an item, with text ``label`` and (optionally) ``id``. If no ``id`` is passed, the item index will be used as the item's ID. New items are appended at the end.
+Ajoute un élément, avec le texte ``label``] et (en option) un ``id``. Si aucun ``id`` n'est spécifié, l'index de l'élément sera utilisé comme identifiant de l'élément. Les nouveaux éléments sont placés à la fin de la liste.
 
-\ **Note:** The item will be selected if there are no other items.
+\ **Note :** L'élément sera sélectionné s'il n'y a pas d'autres éléments.
 
 .. rst-class:: classref-item-separator
 
@@ -281,7 +281,7 @@ Adds an item, with text ``label`` and (optionally) ``id``. If no ``id`` is passe
 
 |void| **add_separator**\ (\ text\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_OptionButton_method_add_separator>`
 
-Adds a separator to the list of items. Separators help to group items, and can optionally be given a ``text`` header. A separator also gets an index assigned, and is appended at the end of the item list.
+Ajoute un séparateur à la liste des éléments. Les séparateurs aident à regrouper les éléments, et peuvent en option recevoir un en-tête ``text``. Un séparateur se voit également assigné un index, et est ajouté à la fin de la liste d'éléments.
 
 .. rst-class:: classref-item-separator
 
@@ -305,7 +305,7 @@ Retire tous les éléments du **OptionButton**.
 
 :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **get_item_auto_translate_mode**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_get_item_auto_translate_mode>`
 
-Returns the auto translate mode of the item at index ``idx``.
+Renvoie le mode de traduction automatique de l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -317,7 +317,7 @@ Returns the auto translate mode of the item at index ``idx``.
 
 :ref:`Texture2D<class_Texture2D>` **get_item_icon**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_get_item_icon>`
 
-Returns the icon of the item at index ``idx``.
+Renvoie l'icône de l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -329,7 +329,7 @@ Returns the icon of the item at index ``idx``.
 
 :ref:`int<class_int>` **get_item_id**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_get_item_id>`
 
-Returns the ID of the item at index ``idx``.
+Renvoie l'identifiant de l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -341,7 +341,7 @@ Returns the ID of the item at index ``idx``.
 
 :ref:`int<class_int>` **get_item_index**\ (\ id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_get_item_index>`
 
-Returns the index of the item with the given ``id``.
+Renvoie l'index de l'élément avec l'identifiant ``id`` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -403,9 +403,9 @@ Renvoie le :ref:`PopupMenu<class_PopupMenu>` contenu dans ce bouton.
 
 :ref:`int<class_int>` **get_selectable_item**\ (\ from_last\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_OptionButton_method_get_selectable_item>`
 
-Returns the index of the first item which is not disabled, or marked as a separator. If ``from_last`` is ``true``, the items will be searched in reverse order.
+Renvoie l'index du premier élément qui n'est pas désactivé, ou marqué comme séparateur. Si ``from_last`` vaut ``true``, les éléments seront recherchés en ordre inverse.
 
-Returns ``-1`` if no item is found.
+Renvoie ``-1`` si aucun élément n'est trouvé.
 
 .. rst-class:: classref-item-separator
 
@@ -441,7 +441,7 @@ Obtient les métadonnées de l'élément sélectionné. Les métadonnées peuven
 
 :ref:`bool<class_bool>` **has_selectable_items**\ (\ ) |const| :ref:`🔗<class_OptionButton_method_has_selectable_items>`
 
-Returns ``true`` if this button contains at least one item which is not disabled, or marked as a separator.
+Renvoie ``true`` si ce bouton contient au moins un élément qui n'est pas désactivé ou marqué comme séparateur.
 
 .. rst-class:: classref-item-separator
 
@@ -453,7 +453,7 @@ Returns ``true`` if this button contains at least one item which is not disabled
 
 :ref:`bool<class_bool>` **is_item_disabled**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_is_item_disabled>`
 
-Returns ``true`` if the item at index ``idx`` is disabled.
+Renvoie ``true`` si l'élément à l'index ``idx`` est désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -465,7 +465,7 @@ Returns ``true`` if the item at index ``idx`` is disabled.
 
 :ref:`bool<class_bool>` **is_item_separator**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_is_item_separator>`
 
-Returns ``true`` if the item at index ``idx`` is marked as a separator.
+Renvoie ``true`` si l'élément à l'index ``idx`` est marqué comme séparateur.
 
 .. rst-class:: classref-item-separator
 
@@ -515,9 +515,9 @@ Si ``true``, les raccourcis sont désactivés et ne peuvent pas être utilisés 
 
 |void| **set_item_auto_translate_mode**\ (\ idx\: :ref:`int<class_int>`, mode\: :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>`\ ) :ref:`🔗<class_OptionButton_method_set_item_auto_translate_mode>`
 
-Sets the auto translate mode of the item at index ``idx``.
+Définit le mode de traduction automatique de l'élément à l'index ``idx``.
 
-Items use :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>` by default, which uses the same auto translate mode as the **OptionButton** itself.
+Les éléments utilisent :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>` par défaut, qui utilise le même mode de traduction automatique que l'**OptionButton** lui-même.
 
 .. rst-class:: classref-item-separator
 
@@ -529,9 +529,9 @@ Items use :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSL
 
 |void| **set_item_disabled**\ (\ idx\: :ref:`int<class_int>`, disabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_OptionButton_method_set_item_disabled>`
 
-Sets whether the item at index ``idx`` is disabled.
+Définit si l'élément à l'index ``idx`` est désactivé.
 
-Disabled items are drawn differently in the dropdown and are not selectable by the user. If the current selected item is set as disabled, it will remain selected.
+Les éléments désactivés sont dessinés différemment dans le menu déroulant et ne peuvent pas être sélectionnés par l'utilisateur. Si l'élément sélectionné actuel est défini comme désactivé, il restera sélectionné.
 
 .. rst-class:: classref-item-separator
 
@@ -543,7 +543,7 @@ Disabled items are drawn differently in the dropdown and are not selectable by t
 
 |void| **set_item_icon**\ (\ idx\: :ref:`int<class_int>`, texture\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_OptionButton_method_set_item_icon>`
 
-Sets the icon of the item at index ``idx``.
+Définit l'icône pour l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -555,7 +555,7 @@ Sets the icon of the item at index ``idx``.
 
 |void| **set_item_id**\ (\ idx\: :ref:`int<class_int>`, id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_OptionButton_method_set_item_id>`
 
-Sets the ID of the item at index ``idx``.
+Définit l'identifiant pour l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -579,7 +579,7 @@ Définit les métadonnées d'un élément. Les métadonnées peuvent être de n'
 
 |void| **set_item_text**\ (\ idx\: :ref:`int<class_int>`, text\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OptionButton_method_set_item_text>`
 
-Sets the text of the item at index ``idx``.
+Définit le texte pour l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -591,7 +591,7 @@ Sets the text of the item at index ``idx``.
 
 |void| **set_item_tooltip**\ (\ idx\: :ref:`int<class_int>`, tooltip\: :ref:`String<class_String>`\ ) :ref:`🔗<class_OptionButton_method_set_item_tooltip>`
 
-Sets the tooltip of the item at index ``idx``.
+Définit l'infobulle pour l'élément à l'index ``idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -603,7 +603,7 @@ Sets the tooltip of the item at index ``idx``.
 
 |void| **show_popup**\ (\ ) :ref:`🔗<class_OptionButton_method_show_popup>`
 
-Adjusts popup position and sizing for the **OptionButton**, then shows the :ref:`PopupMenu<class_PopupMenu>`. Prefer this over using ``get_popup().popup()``.
+Ajuste la position et la taille de la popup pour l'**OptionButton**, puis affiche le :ref:`PopupMenu<class_PopupMenu>`. Préférez ceci plutôt qu'utiliser ``get_popup().popup()``.
 
 .. rst-class:: classref-section-separator
 
@@ -632,7 +632,7 @@ L'espace horizontal entre l'icône de la flèche et le bord droit du bouton.
 
 :ref:`int<class_int>` **modulate_arrow** = ``0`` :ref:`🔗<class_OptionButton_theme_constant_modulate_arrow>`
 
-If different than ``0``, the arrow icon will be modulated to the font color.
+Si différent de ``0``, l'icône de la flèche sera modulée à la couleur de la police.
 
 .. rst-class:: classref-item-separator
 

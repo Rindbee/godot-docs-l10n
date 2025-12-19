@@ -96,7 +96,7 @@ Optional array of body :ref:`RID<class_RID>` to exclude from collision. Use :ref
 - |void| **set_exclude_objects**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`int<class_int>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`int<class_int>`\] **get_exclude_objects**\ (\ )
 
-Optional array of object unique instance ID to exclude from collision. See :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`.
+Array opcional de los ID de instancia únicas de objetos para excluir de la colisión. Véase :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`.
 
 .. rst-class:: classref-item-separator
 
@@ -113,7 +113,7 @@ Optional array of object unique instance ID to exclude from collision. See :ref:
 - |void| **set_from**\ (\ value\: :ref:`Transform2D<class_Transform2D>`\ )
 - :ref:`Transform2D<class_Transform2D>` **get_from**\ (\ )
 
-Transform in global space where the motion should start. Usually set to :ref:`Node2D.global_transform<class_Node2D_property_global_transform>` for the current body's transform.
+Transformación en el espacio global donde debería comenzar el movimiento. Normalmente se establece en :ref:`Node2D.global_transform<class_Node2D_property_global_transform>` para la transformación del cuerpo actual.
 
 .. rst-class:: classref-item-separator
 
@@ -130,7 +130,7 @@ Transform in global space where the motion should start. Usually set to :ref:`No
 - |void| **set_margin**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_margin**\ (\ )
 
-Increases the size of the shapes involved in the collision detection.
+Aumenta el tamaño de las formas involucradas en la detección de colisiones.
 
 .. rst-class:: classref-item-separator
 
@@ -147,7 +147,7 @@ Increases the size of the shapes involved in the collision detection.
 - |void| **set_motion**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_motion**\ (\ )
 
-Motion vector to define the length and direction of the motion to test.
+Vector de movimiento para definir la longitud y la dirección del movimiento a probar.
 
 .. rst-class:: classref-item-separator
 

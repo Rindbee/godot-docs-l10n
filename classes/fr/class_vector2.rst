@@ -1279,7 +1279,7 @@ Renvoie la même valeur comme si ``+`` n'était pas là. Le ``+`` unaire ne fait
 
 :ref:`Vector2<class_Vector2>` **operator unary-**\ (\ ) :ref:`🔗<class_Vector2_operator_unminus>`
 
-Renvoie la valeur négative du **Vector2**. C'est la même chose qu'écrire ``Vector2(-v.x, -v.y)``. Cette opération retourne la direction du vecteur tout en gardant la même magnitude. Avec des flottants, le nombre zéro peut être positif ou négatif.
+Renvoie la valeur négative du **Vector2**. Revient à écrire ``Vector2(-v.x, -v.y)``. Cette opération retourne la direction du vecteur tout en gardant la même magnitude. Avec des flottants, le nombre zéro peut être positif ou négatif.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

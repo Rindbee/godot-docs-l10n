@@ -7,14 +7,14 @@ EditorScenePostImportPlugin
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Plugin to control and modifying the process of importing a scene.
+Plugin para controlar y modificar el proceso de importación de una escena.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This plugin type exists to modify the process of importing scenes, allowing to change the content as well as add importer options at every stage of the process.
+Este tipo de plugin existe para modificar el proceso de importación de escenas, permitiendo cambiar el contenido así como añadir opciones de importación en cada etapa del proceso.
 
 .. rst-class:: classref-reftable-group
 
@@ -174,7 +174,7 @@ Descripciones de Métodos
 
 |void| **_get_import_options**\ (\ path\: :ref:`String<class_String>`\ ) |virtual| :ref:`🔗<class_EditorScenePostImportPlugin_private_method__get_import_options>`
 
-Override to add general import options. These will appear in the main import dock on the editor. Add options via :ref:`add_import_option()<class_EditorScenePostImportPlugin_method_add_import_option>` and :ref:`add_import_option_advanced()<class_EditorScenePostImportPlugin_method_add_import_option_advanced>`.
+Sobrescribe para añadir opciones generales de importación. Estas aparecerán en el dock principal de importación en el editor. Añade opciones a través de :ref:`add_import_option()<class_EditorScenePostImportPlugin_method_add_import_option>` y :ref:`add_import_option_advanced()<class_EditorScenePostImportPlugin_method_add_import_option_advanced>`.
 
 .. rst-class:: classref-item-separator
 
@@ -186,7 +186,7 @@ Override to add general import options. These will appear in the main import doc
 
 |void| **_get_internal_import_options**\ (\ category\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_EditorScenePostImportPlugin_private_method__get_internal_import_options>`
 
-Override to add internal import options. These will appear in the 3D scene import dialog. Add options via :ref:`add_import_option()<class_EditorScenePostImportPlugin_method_add_import_option>` and :ref:`add_import_option_advanced()<class_EditorScenePostImportPlugin_method_add_import_option_advanced>`.
+Sobrescribe para añadir opciones internas de importación. Estas aparecerán en el diálogo de importación de la escena 3D. Añade opciones a través de :ref:`add_import_option()<class_EditorScenePostImportPlugin_method_add_import_option>` y :ref:`add_import_option_advanced()<class_EditorScenePostImportPlugin_method_add_import_option_advanced>`.
 
 .. rst-class:: classref-item-separator
 
@@ -246,7 +246,7 @@ Procesa un nodo o recurso específico para una categoría determinada.
 
 |void| **_post_process**\ (\ scene\: :ref:`Node<class_Node>`\ ) |virtual| :ref:`🔗<class_EditorScenePostImportPlugin_private_method__post_process>`
 
-Post-process the scene. This function is called after the final scene has been configured.
+Postprocesa la escena. Esta función se llama después de que la escena final haya sido configurada.
 
 .. rst-class:: classref-item-separator
 
@@ -272,7 +272,7 @@ Pre-process may be used to adjust internal import options in the ``"nodes"``, ``
 
 |void| **add_import_option**\ (\ name\: :ref:`String<class_String>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_EditorScenePostImportPlugin_method_add_import_option>`
 
-Add a specific import option (name and default value only). This function can only be called from :ref:`_get_import_options()<class_EditorScenePostImportPlugin_private_method__get_import_options>` and :ref:`_get_internal_import_options()<class_EditorScenePostImportPlugin_private_method__get_internal_import_options>`.
+Añade una opción de importación específica (solo el nombre y el valor por defecto). Esta función solo puede ser llamada desde :ref:`_get_import_options()<class_EditorScenePostImportPlugin_private_method__get_import_options>` y :ref:`_get_internal_import_options()<class_EditorScenePostImportPlugin_private_method__get_internal_import_options>`.
 
 .. rst-class:: classref-item-separator
 
@@ -284,7 +284,7 @@ Add a specific import option (name and default value only). This function can on
 
 |void| **add_import_option_advanced**\ (\ type\: :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`, name\: :ref:`String<class_String>`, default_value\: :ref:`Variant<class_Variant>`, hint\: :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` = 0, hint_string\: :ref:`String<class_String>` = "", usage_flags\: :ref:`int<class_int>` = 6\ ) :ref:`🔗<class_EditorScenePostImportPlugin_method_add_import_option_advanced>`
 
-Add a specific import option. This function can only be called from :ref:`_get_import_options()<class_EditorScenePostImportPlugin_private_method__get_import_options>` and :ref:`_get_internal_import_options()<class_EditorScenePostImportPlugin_private_method__get_internal_import_options>`.
+Añade una opción de importación específica. Esta función solo puede ser llamada desde :ref:`_get_import_options()<class_EditorScenePostImportPlugin_private_method__get_import_options>` y :ref:`_get_internal_import_options()<class_EditorScenePostImportPlugin_private_method__get_internal_import_options>`.
 
 .. rst-class:: classref-item-separator
 
@@ -296,7 +296,7 @@ Add a specific import option. This function can only be called from :ref:`_get_i
 
 :ref:`Variant<class_Variant>` **get_option_value**\ (\ name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_EditorScenePostImportPlugin_method_get_option_value>`
 
-Query the value of an option. This function can only be called from those querying visibility, or processing.
+Consulta el valor de una opción. Esta función solo puede ser llamada desde aquellos que consultan la visibilidad o el procesamiento.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

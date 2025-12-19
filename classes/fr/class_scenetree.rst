@@ -239,7 +239,7 @@ Signaux
 
 **tree_process_mode_changed**\ (\ ) :ref:`🔗<class_SceneTree_signal_tree_process_mode_changed>`
 
-Émis lorsque le :ref:`Node.process_mode<class_Node_property_process_mode>` d'un noeud dans l’arborescence est changé. Seulement émis dans l'éditeur, pour mettre à jour la visibilité des nœuds désactivés.
+Émis lorsque le :ref:`Node.process_mode<class_Node_property_process_mode>` d'un nœud dans l’arborescence est changé. Seulement émis dans l'éditeur, pour mettre à jour la visibilité des nœuds désactivés.
 
 .. rst-class:: classref-section-separator
 

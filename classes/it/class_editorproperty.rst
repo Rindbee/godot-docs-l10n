@@ -549,9 +549,9 @@ Restituisce l'oggetto in fase di modifica.
 
 :ref:`StringName<class_StringName>` **get_edited_property**\ (\ ) |const| :ref:`🔗<class_EditorProperty_method_get_edited_property>`
 
-Returns the edited property. If your editor is for a single property (added via :ref:`EditorInspectorPlugin._parse_property()<class_EditorInspectorPlugin_private_method__parse_property>`), then this will return the property.
+Restituisce la proprietà in fase di modifica. Se l'editor è per una singola proprietà (aggiunta tramite :ref:`EditorInspectorPlugin._parse_property()<class_EditorInspectorPlugin_private_method__parse_property>`), questo restituirà la proprietà.
 
-\ **Note:** This method could return ``null`` if the editor has not yet been associated with a property. However, in :ref:`_update_property()<class_EditorProperty_private_method__update_property>` and :ref:`_set_read_only()<class_EditorProperty_private_method__set_read_only>`, this value is *guaranteed* to be non-``null``.
+\ **Nota:** Questo metodo potrebbe restituire ``null`` se l'editor non è ancora stato associato a una proprietà. Tuttavia, in :ref:`_update_property()<class_EditorProperty_private_method__update_property>` e :ref:`_set_read_only()<class_EditorProperty_private_method__set_read_only>`, questo valore è *garantito* di non essere ``null``.
 
 .. rst-class:: classref-item-separator
 

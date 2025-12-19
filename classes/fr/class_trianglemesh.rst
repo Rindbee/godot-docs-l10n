@@ -14,13 +14,13 @@ Géométrie de triangles pour des requêtes d'intersection efficaces et sans phy
 Description
 -----------
 
-Creates a bounding volume hierarchy (BVH) tree structure around triangle geometry.
+Crée un arbre de hiérarchie de volume englobant (Bounding Volume Hierarchy) autour de la géométrie en triangles.
 
-The triangle BVH tree can be used for efficient intersection queries without involving a physics engine.
+L'arbre BVH des triangles peut être utilisé pour des requêtes d'intersection efficaces sans impliquer un moteur physique.
 
-For example, this can be used in editor tools to select objects with complex shapes based on the mouse cursor position.
+Par exemple, cela peut être utilisé dans des outils d'éditeur pour sélectionner des objets avec des formes complexes selon sur la position du curseur de la souris.
 
-\ **Performance:** Creating the BVH tree for complex geometry is a slow process and best done in a background thread.
+\ **Performance :** Créer l'arbre BVH pour une géométrie complexe est un processus lent et généralement fait dans un thread d'arrière-plan.
 
 .. rst-class:: classref-reftable-group
 
@@ -55,9 +55,9 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **create_from_faces**\ (\ faces\: :ref:`PackedVector3Array<class_PackedVector3Array>`\ ) :ref:`🔗<class_TriangleMesh_method_create_from_faces>`
 
-Creates the BVH tree from an array of faces. Each 3 vertices of the input ``faces`` array represent one triangle (face).
+Crée l'arbre BVH depuis un tableau de faces. Chaque 3 sommets du tableau d'entrée ``faces`` représentent un triangle (face).
 
-Returns ``true`` if the tree is successfully built, ``false`` otherwise.
+Renvoie ``true`` si l'arbre est construit avec succès, ``false`` sinon.
 
 .. rst-class:: classref-item-separator
 
@@ -69,7 +69,7 @@ Returns ``true`` if the tree is successfully built, ``false`` otherwise.
 
 :ref:`PackedVector3Array<class_PackedVector3Array>` **get_faces**\ (\ ) |const| :ref:`🔗<class_TriangleMesh_method_get_faces>`
 
-Returns a copy of the geometry faces. Each 3 vertices of the array represent one triangle (face).
+Renvoie une copie des faces de la géométrie. Chaque 3 sommets du tableau représentent un triangle (face).
 
 .. rst-class:: classref-item-separator
 
@@ -81,19 +81,19 @@ Returns a copy of the geometry faces. Each 3 vertices of the array represent one
 
 :ref:`Dictionary<class_Dictionary>` **intersect_ray**\ (\ begin\: :ref:`Vector3<class_Vector3>`, dir\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_TriangleMesh_method_intersect_ray>`
 
-Tests for intersection with a ray starting at ``begin`` and facing ``dir`` and extending toward infinity.
+Teste l'intersection avec un rayon commençant à ``begin``, de direction ``dir`` et de longueur infinie.
 
-If an intersection with a triangle happens, returns a :ref:`Dictionary<class_Dictionary>` with the following fields:
+Si une intersection avec un triangle se produit, renvoie un :ref:`Dictionary<class_Dictionary>` avec les champs suivants :
 
-\ ``position``: The position on the intersected triangle.
+\ ``position``\  : La position sur le triangle intersecté.
 
-\ ``normal``: The normal of the intersected triangle.
+\ ``normal``\  : La normale du triangle intersecté.
 
-\ ``face_index``: The index of the intersected triangle.
+\ ``face_index``\  : L'index du triangle intersecté.
 
-Returns an empty :ref:`Dictionary<class_Dictionary>` if no intersection happens.
+Renvoie un :ref:`Dictionary<class_Dictionary>` vide si aucune intersection ne se produit.
 
-See also :ref:`intersect_segment()<class_TriangleMesh_method_intersect_segment>`, which is similar but uses a finite-length segment.
+Voir aussi :ref:`intersect_segment()<class_TriangleMesh_method_intersect_segment>`, qui est similaire mais utilise un segment de taille finie.
 
 .. rst-class:: classref-item-separator
 
@@ -105,19 +105,19 @@ See also :ref:`intersect_segment()<class_TriangleMesh_method_intersect_segment>`
 
 :ref:`Dictionary<class_Dictionary>` **intersect_segment**\ (\ begin\: :ref:`Vector3<class_Vector3>`, end\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_TriangleMesh_method_intersect_segment>`
 
-Tests for intersection with a segment going from ``begin`` to ``end``.
+Teste l'intersection avec un segment allant de ``begin`` à ``end``.
 
-If an intersection with a triangle happens returns a :ref:`Dictionary<class_Dictionary>` with the following fields:
+Si une intersection avec un triangle se produit, renvoie un :ref:`Dictionary<class_Dictionary>` avec les champs suivants :
 
-\ ``position``: The position on the intersected triangle.
+\ ``position``\  : La position sur le triangle intersecté.
 
-\ ``normal``: The normal of the intersected triangle.
+\ ``normal``\  : La normale du triangle intersecté.
 
-\ ``face_index``: The index of the intersected triangle.
+\ ``face_index``\  : L'index du triangle intersecté.
 
-Returns an empty :ref:`Dictionary<class_Dictionary>` if no intersection happens.
+Renvoie un :ref:`Dictionary<class_Dictionary>` vide si aucune intersection ne se produit.
 
-See also :ref:`intersect_ray()<class_TriangleMesh_method_intersect_ray>`, which is similar but uses an infinite-length ray.
+Voir aussi :ref:`intersect_ray()<class_TriangleMesh_method_intersect_ray>`, qui est similaire mais utilise un rayon infini.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

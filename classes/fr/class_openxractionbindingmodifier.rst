@@ -7,7 +7,7 @@ OpenXRActionBindingModifier
 
 **Hérite de :** :ref:`OpenXRBindingModifier<class_OpenXRBindingModifier>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`OpenXRAnalogThresholdModifier<class_OpenXRAnalogThresholdModifier>`
+**Hérité par :** :ref:`OpenXRAnalogThresholdModifier<class_OpenXRAnalogThresholdModifier>`
 
 Modification de liaison qui s'applique aux actions individuelles liées à un profil d'interaction.
 

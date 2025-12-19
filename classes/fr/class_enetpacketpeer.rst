@@ -14,18 +14,18 @@ Une classe wrapper pour un `ENetPeer <http://enet.bespin.org/group__peer.html>`_
 Description
 -----------
 
-A PacketPeer implementation representing a peer of an :ref:`ENetConnection<class_ENetConnection>`.
+Une implémentation de PacketPeer représentant un pair d'une :ref:`ENetConnection<class_ENetConnection>`.
 
-This class cannot be instantiated directly but can be retrieved during :ref:`ENetConnection.service()<class_ENetConnection_method_service>` or via :ref:`ENetConnection.get_peers()<class_ENetConnection_method_get_peers>`.
+Cette classe ne peut pas être instanciée directement mais peut être récupérée pendant :ref:`ENetConnection.service()<class_ENetConnection_method_service>` ou via :ref:`ENetConnection.get_peers()<class_ENetConnection_method_get_peers>`.
 
-\ **Note:** When exporting to Android, make sure to enable the ``INTERNET`` permission in the Android export preset before exporting the project or using one-click deploy. Otherwise, network communication of any kind will be blocked by Android.
+\ **Note :** Lors de l'export vers Android, assurez-vous d'activer la permission ``INTERNET`` dans le préréglage d'export Android avant d'exporter le projet ou en utilisant le déploiement en un clic. Sinon, la communication réseau de tout type sera bloquée par Android.
 
 .. rst-class:: classref-introduction-group
 
 Tutoriels
 ------------------
 
-- `API documentation on the ENet website <http://enet.bespin.org/usergroup0.html>`__
+- `Documentation de l'API sur le site web d'ENet <http://enet.bespin.org/usergroup0.html>`__
 
 .. rst-class:: classref-reftable-group
 
@@ -122,7 +122,7 @@ Le pair est actuellement en train de se connecter.
 
 :ref:`PeerState<enum_ENetPacketPeer_PeerState>` **STATE_CONNECTION_SUCCEEDED** = ``4``
 
-The peer has successfully connected, but is not ready to communicate with yet (:ref:`STATE_CONNECTED<class_ENetPacketPeer_constant_STATE_CONNECTED>`).
+Le pair a réussi à se connecter, mais n'est pas prêt à être communiqué avec (:ref:`STATE_CONNECTED<class_ENetPacketPeer_constant_STATE_CONNECTED>`).
 
 .. _class_ENetPacketPeer_constant_STATE_CONNECTED:
 
@@ -130,7 +130,7 @@ The peer has successfully connected, but is not ready to communicate with yet (:
 
 :ref:`PeerState<enum_ENetPacketPeer_PeerState>` **STATE_CONNECTED** = ``5``
 
-The peer is currently connected and ready to communicate with.
+Le pair est actuellement connecté et prêt à être communiqué avec.
 
 .. _class_ENetPacketPeer_constant_STATE_DISCONNECT_LATER:
 
@@ -350,7 +350,7 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **get_channels**\ (\ ) |const| :ref:`🔗<class_ENetPacketPeer_method_get_channels>`
 
-Returns the number of channels allocated for communication with peer.
+Renvoie le nombre de canaux alloués à la communication avec le pair.
 
 .. rst-class:: classref-item-separator
 
@@ -362,7 +362,7 @@ Returns the number of channels allocated for communication with peer.
 
 :ref:`int<class_int>` **get_packet_flags**\ (\ ) |const| :ref:`🔗<class_ENetPacketPeer_method_get_packet_flags>`
 
-Returns the ENet flags of the next packet in the received queue. See ``FLAG_*`` constants for available packet flags. Note that not all flags are replicated from the sending peer to the receiving peer.
+Renvoie les drapeaux ENet du prochain paquet dans la file reçue. Voir les constantes ``FLAG_*`` pour les drapeaux de paquet disponibles. Notez que les drapeaux ne sont pas tous répliqués entre le pair émetteur et le pair récepteur.
 
 .. rst-class:: classref-item-separator
 
@@ -374,7 +374,7 @@ Returns the ENet flags of the next packet in the received queue. See ``FLAG_*`` 
 
 :ref:`String<class_String>` **get_remote_address**\ (\ ) |const| :ref:`🔗<class_ENetPacketPeer_method_get_remote_address>`
 
-Returns the IP address of this peer.
+Renvoie l'adresse IP de ce pair.
 
 .. rst-class:: classref-item-separator
 
@@ -386,7 +386,7 @@ Returns the IP address of this peer.
 
 :ref:`int<class_int>` **get_remote_port**\ (\ ) |const| :ref:`🔗<class_ENetPacketPeer_method_get_remote_port>`
 
-Returns the remote port of this peer.
+Renvoie le port distant de ce pair.
 
 .. rst-class:: classref-item-separator
 
@@ -434,7 +434,7 @@ Renvoie ``true`` si le pair est actuellement actif (c.-à-d. que le :ref:`ENetCo
 
 |void| **peer_disconnect**\ (\ data\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_ENetPacketPeer_method_peer_disconnect>`
 
-Request a disconnection from a peer. An :ref:`ENetConnection.EVENT_DISCONNECT<class_ENetConnection_constant_EVENT_DISCONNECT>` will be generated during :ref:`ENetConnection.service()<class_ENetConnection_method_service>` once the disconnection is complete.
+Demande une déconnexion d'un pair. Un évènement :ref:`ENetConnection.EVENT_DISCONNECT<class_ENetConnection_constant_EVENT_DISCONNECT>` sera généré pendant :ref:`ENetConnection.service()<class_ENetConnection_method_service>` une fois la déconnexion terminée.
 
 .. rst-class:: classref-item-separator
 
@@ -446,7 +446,7 @@ Request a disconnection from a peer. An :ref:`ENetConnection.EVENT_DISCONNECT<cl
 
 |void| **peer_disconnect_later**\ (\ data\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_ENetPacketPeer_method_peer_disconnect_later>`
 
-Request a disconnection from a peer, but only after all queued outgoing packets are sent. An :ref:`ENetConnection.EVENT_DISCONNECT<class_ENetConnection_constant_EVENT_DISCONNECT>` will be generated during :ref:`ENetConnection.service()<class_ENetConnection_method_service>` once the disconnection is complete.
+Demande une déconnexion d'un pair, mais seulement après que tous les paquets en cours d'attente soient envoyés. Un évènement :ref:`ENetConnection.EVENT_DISCONNECT<class_ENetConnection_constant_EVENT_DISCONNECT>` sera généré pendant :ref:`ENetConnection.service()<class_ENetConnection_method_service>` une fois la déconnexion terminée.
 
 .. rst-class:: classref-item-separator
 
@@ -458,7 +458,7 @@ Request a disconnection from a peer, but only after all queued outgoing packets 
 
 |void| **peer_disconnect_now**\ (\ data\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_ENetPacketPeer_method_peer_disconnect_now>`
 
-Force an immediate disconnection from a peer. No :ref:`ENetConnection.EVENT_DISCONNECT<class_ENetConnection_constant_EVENT_DISCONNECT>` will be generated. The foreign peer is not guaranteed to receive the disconnect notification, and is reset immediately upon return from this function.
+Force une déconnexion immédiate d'un pair. Aucun évènement :ref:`ENetConnection.EVENT_DISCONNECT<class_ENetConnection_constant_EVENT_DISCONNECT>` ne sera généré. Le pair étranger n'est pas garanti de recevoir la notification de déconnexion et est réinitialisé immédiatement après le renvoi de cette fonction.
 
 .. rst-class:: classref-item-separator
 
@@ -470,7 +470,7 @@ Force an immediate disconnection from a peer. No :ref:`ENetConnection.EVENT_DISC
 
 |void| **ping**\ (\ ) :ref:`🔗<class_ENetPacketPeer_method_ping>`
 
-Sends a ping request to a peer. ENet automatically pings all connected peers at regular intervals, however, this function may be called to ensure more frequent ping requests.
+Envoye une requête de ping à un pair. ENet ping automatiquement tous les pairs connectés à intervalles réguliers, cependant, cette fonction peut être appelée pour assurer des requêtes de ping plus fréquentes.
 
 .. rst-class:: classref-item-separator
 
@@ -494,7 +494,7 @@ Sets the ``ping_interval`` in milliseconds at which pings will be sent to a peer
 
 |void| **reset**\ (\ ) :ref:`🔗<class_ENetPacketPeer_method_reset>`
 
-Forcefully disconnects a peer. The foreign host represented by the peer is not notified of the disconnection and will timeout on its connection to the local host.
+Force la déconnexion d'un pair. L'hôte étranger représenté par le pair n'est pas averti de la déconnexion et fera un timeout sur sa connexion à l'hôte local.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ GPUParticlesAttractor3D
 
 **Hérite de :** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`GPUParticlesAttractorBox3D<class_GPUParticlesAttractorBox3D>`, :ref:`GPUParticlesAttractorSphere3D<class_GPUParticlesAttractorSphere3D>`, :ref:`GPUParticlesAttractorVectorField3D<class_GPUParticlesAttractorVectorField3D>`
+**Hérité par :** :ref:`GPUParticlesAttractorBox3D<class_GPUParticlesAttractorBox3D>`, :ref:`GPUParticlesAttractorSphere3D<class_GPUParticlesAttractorSphere3D>`, :ref:`GPUParticlesAttractorVectorField3D<class_GPUParticlesAttractorVectorField3D>`
 
 Classe de base abstraite pour les attracteurs de particules 3D.
 
@@ -79,11 +79,11 @@ L'atténuation de l'attracteur à particules. Des valeurs plus élevées résult
 - |void| **set_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_cull_mask**\ (\ )
 
-The particle rendering layers (:ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`) that will be affected by the attractor. By default, all particles are affected by an attractor.
+Les couches de rendu des particules (:ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`) qui seront affectées par l'attracteur. Par défaut, toutes les particules sont affectées par un attracteur.
 
-After configuring particle nodes accordingly, specific layers can be unchecked to prevent certain particles from being affected by attractors. For example, this can be used if you're using an attractor as part of a spell effect but don't want the attractor to affect unrelated weather particles at the same position.
+Après avoir configuré les nœuds de particules en conséquence, des couches spécifiques peuvent être décochées pour empêcher que certaines particules ne soient affectées par des attracteurs. Par exemple, cela peut être utilisé si vous utilisez un attracteur dans le cadre d'un effet de sort, mais ne voulez pas que l'attracteur affecte les particules météorologiques sans rapport à la même position.
 
-Particle attraction can also be disabled on a per-process material basis by setting :ref:`ParticleProcessMaterial.attractor_interaction_enabled<class_ParticleProcessMaterial_property_attractor_interaction_enabled>` on the :ref:`GPUParticles3D<class_GPUParticles3D>` node.
+L'attraction des particules peut également être désactivée selon le matériau de traitement en définissant :ref:`ParticleProcessMaterial.attractor_interaction_enabled<class_ParticleProcessMaterial_property_attractor_interaction_enabled>` sur le nœud :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -100,9 +100,9 @@ Particle attraction can also be disabled on a per-process material basis by sett
 - |void| **set_directionality**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_directionality**\ (\ )
 
-Adjusts how directional the attractor is. At ``0.0``, the attractor is not directional at all: it will attract particles towards its center. At ``1.0``, the attractor is fully directional: particles will always be pushed towards local -Z (or +Z if :ref:`strength<class_GPUParticlesAttractor3D_property_strength>` is negative).
+Ajuste à quel point l'attracteur est directionnel. À ``0.0``, l'attracteur n'est pas directionnel du tout : il attirera les particules vers son centre. À ``1.0``, l'attracteur est entièrement directionnel : les particules seront toujours poussées vers le -Z local (ou +Z si :ref:`strength<class_GPUParticlesAttractor3D_property_strength>` est négative).
 
-\ **Note:** If :ref:`directionality<class_GPUParticlesAttractor3D_property_directionality>` is greater than ``0.0``, the direction in which particles are pushed can be changed by rotating the **GPUParticlesAttractor3D** node.
+\ **Note :** Si :ref:`directionality<class_GPUParticlesAttractor3D_property_directionality>` est supérieure à ``0.0``, la direction dans laquelle les particules sont poussées peut être modifiée en tournant le nœud **GPUParticlesAttractor3D**.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ Adjusts how directional the attractor is. At ``0.0``, the attractor is not direc
 - |void| **set_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_strength**\ (\ )
 
-Adjusts the strength of the attractor. If :ref:`strength<class_GPUParticlesAttractor3D_property_strength>` is negative, particles will be pushed in the opposite direction. Particles will be pushed *away* from the attractor's origin if :ref:`directionality<class_GPUParticlesAttractor3D_property_directionality>` is ``0.0``, or towards local +Z if :ref:`directionality<class_GPUParticlesAttractor3D_property_directionality>` is greater than ``0.0``.
+Ajuste la force de l'attracteur. Si :ref:`strength<class_GPUParticlesAttractor3D_property_strength>` est négative, les particules seront poussées dans la direction opposée. Les particules seront poussées *hors* de l'origine de l'attracteur si :ref:`directionality<class_GPUParticlesAttractor3D_property_directionality>` vaut ``0.0``, ou vers le +Z local si :ref:`directionality<class_GPUParticlesAttractor3D_property_directionality>` est supérieure à ``0.0``.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

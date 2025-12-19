@@ -172,7 +172,7 @@ Transform3D
     print("| %.f | %.f | %.f | %.f" % [basis.x.x, basis.y.x, basis.z.x, transform.origin.x])
     print("| %.f | %.f | %.f | %.f" % [basis.x.y, basis.y.y, basis.z.y, transform.origin.y])
     print("| %.f | %.f | %.f | %.f" % [basis.x.z, basis.y.z, basis.z.z, transform.origin.z])
-    # Prints:
+    # Выводит:
     # | X | Y | Z | Origin
     # | 1 | 0 | 0 | 0
     # | 0 | 1 | 0 | 0

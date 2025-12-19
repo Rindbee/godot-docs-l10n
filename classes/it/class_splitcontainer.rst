@@ -245,7 +245,7 @@ Evidenzia il :ref:`Rect2<class_Rect2>` dell'area di trascinamento in modo da pot
 - |void| **set_drag_area_margin_begin**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_drag_area_margin_begin**\ (\ )
 
-Reduces the size of the drag area and split bar :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` at the beginning of the container.
+Riduce le dimensioni dell'area di trascinamento e di :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` della barra di divisione all'inizio del contenitore.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Reduces the size of the drag area and split bar :ref:`split_bar_background<class
 - |void| **set_drag_area_margin_end**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_drag_area_margin_end**\ (\ )
 
-Reduces the size of the drag area and split bar :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` at the end of the container.
+Riduce le dimensioni dell'area di trascinamento e di :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` della barra di divisione alla fine del contenitore.
 
 .. rst-class:: classref-item-separator
 
@@ -420,7 +420,7 @@ Descrizioni delle proprietà del tema
 
 :ref:`Color<class_Color>` **touch_dragger_color** = ``Color(1, 1, 1, 0.3)`` :ref:`🔗<class_SplitContainer_theme_color_touch_dragger_color>`
 
-The color of the touch dragger.
+Il colore del trascinatore di tocco.
 
 .. rst-class:: classref-item-separator
 
@@ -432,7 +432,7 @@ The color of the touch dragger.
 
 :ref:`Color<class_Color>` **touch_dragger_hover_color** = ``Color(1, 1, 1, 0.6)`` :ref:`🔗<class_SplitContainer_theme_color_touch_dragger_hover_color>`
 
-The color of the touch dragger when hovered.
+Il colore del trascinatore di tocco al passaggio del mouse.
 
 .. rst-class:: classref-item-separator
 
@@ -444,7 +444,7 @@ The color of the touch dragger when hovered.
 
 :ref:`Color<class_Color>` **touch_dragger_pressed_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_SplitContainer_theme_color_touch_dragger_pressed_color>`
 
-The color of the touch dragger when pressed.
+Il colore del trascinatore di tocco quando premuto.
 
 .. rst-class:: classref-item-separator
 

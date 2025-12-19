@@ -188,7 +188,7 @@ Elimina todo el contenido de la configuración.
 
 :ref:`String<class_String>` **encode_to_text**\ (\ ) |const| :ref:`🔗<class_ConfigFile_method_encode_to_text>`
 
-Obtain the text version of this config file (the same text that would be written to a file).
+Obtener la versión de texto de este archivo de configuración (el mismo texto que se escribiría en un archivo).
 
 .. rst-class:: classref-item-separator
 
@@ -248,7 +248,7 @@ Devuelve un array de todos los identificadores de sección definidos.
 
 :ref:`Variant<class_Variant>` **get_value**\ (\ section\: :ref:`String<class_String>`, key\: :ref:`String<class_String>`, default\: :ref:`Variant<class_Variant>` = null\ ) |const| :ref:`🔗<class_ConfigFile_method_get_value>`
 
-Returns the current value for the specified section and key. If either the section or the key do not exist, the method returns the fallback ``default`` value. If ``default`` is not specified or set to ``null``, an error is also raised.
+Devuelve el valor actual para la sección y la clave especificadas. Si la sección o la clave no existen, el método devuelve el valor ``default``. Si ``default`` no se especifica o se establece en ``null``, también se produce un error.
 
 .. rst-class:: classref-item-separator
 

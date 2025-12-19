@@ -7,18 +7,18 @@ InputEventWithModifiers
 
 **Hérite de :** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`InputEventGesture<class_InputEventGesture>`, :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouse<class_InputEventMouse>`
+**Hérité par :** :ref:`InputEventGesture<class_InputEventGesture>`, :ref:`InputEventKey<class_InputEventKey>`, :ref:`InputEventMouse<class_InputEventMouse>`
 
-Abstract base class for input events affected by modifier keys like :kbd:`Shift` and :kbd:`Alt`.
+Classe de base abstraite pour les événements d'entrée affectés par des touches de modification comme :kbd:`Maj` et :kbd:`Alt`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Stores information about mouse, keyboard, and touch gesture input events. This includes information about which modifier keys are pressed, such as :kbd:`Shift` or :kbd:`Alt`. See :ref:`Node._input()<class_Node_private_method__input>`.
+Stocke des informations sur la souris, le clavier et les événements d'entrée de geste. Cela comprend des informations sur les touches de modification appuyées, telles que :kbd:`Maj` ou :kbd:`Alt`. Voir :ref:`Node._input()<class_Node_private_method__input>`.
 
-\ **Note:** Modifier keys are considered modifiers only when used in combination with another key. As a result, their corresponding member variables, such as :ref:`ctrl_pressed<class_InputEventWithModifiers_property_ctrl_pressed>`, will return ``false`` if the key is pressed on its own.
+\ **Note :** Les touches de modification sont considérées comme des modificateurs seulement lorsqu'elles sont utilisées en combinaison avec une autre touche. Par conséquent, leurs variables membres correspondantes, telles que :ref:`ctrl_pressed<class_InputEventWithModifiers_property_ctrl_pressed>`, renverront ``false`` si la touchée est appuyée seule.
 
 .. rst-class:: classref-introduction-group
 
@@ -98,7 +98,7 @@ L'état du modificateur :kbd:`Alt`.
 - |void| **set_command_or_control_autoremap**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_command_or_control_autoremap**\ (\ )
 
-Automatically use :kbd:`Meta` (:kbd:`Cmd`) on macOS and :kbd:`Ctrl` on other platforms. If ``true``, :ref:`ctrl_pressed<class_InputEventWithModifiers_property_ctrl_pressed>` and :ref:`meta_pressed<class_InputEventWithModifiers_property_meta_pressed>` cannot be set.
+Utiliser automatiquement :kbd:`Meta` (:kbd:`Cmd`) sur macOS et :kbd:`Ctrl` sur les autres plateformes. Si ``true``, :ref:`ctrl_pressed<class_InputEventWithModifiers_property_ctrl_pressed>` et :ref:`meta_pressed<class_InputEventWithModifiers_property_meta_pressed>` ne peuvent être définis.
 
 .. rst-class:: classref-item-separator
 
@@ -132,7 +132,7 @@ L'état du modificateur :kbd:`Ctrl` (Contrôle).
 - |void| **set_meta_pressed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_meta_pressed**\ (\ )
 
-State of the :kbd:`Meta` modifier. On Windows and Linux, this represents the Windows key (sometimes called "meta" or "super" on Linux). On macOS, this represents the Command key.
+État du modificateur :kbd:`Meta`. Sur Windows et Linux, cela représente la touche Windows (parfois appelée "meta" ou "super" sur Linux). Sur macOS, cela représente la touche Commande.
 
 .. rst-class:: classref-item-separator
 
@@ -178,9 +178,9 @@ Returns the keycode combination of modifier keys.
 
 :ref:`bool<class_bool>` **is_command_or_control_pressed**\ (\ ) |const| :ref:`🔗<class_InputEventWithModifiers_method_is_command_or_control_pressed>`
 
-On macOS, returns ``true`` if :kbd:`Meta` (:kbd:`Cmd`) is pressed.
+Sur macOS, renvoie ``true`` si :kbd:`Meta` (:kbd:`Cmd`) est appuyé.
 
-On other platforms, returns ``true`` if :kbd:`Ctrl` is pressed.
+Sur les autres plateformes, renvoie ``true`` si :kbd:`Ctrl` est appuyé.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

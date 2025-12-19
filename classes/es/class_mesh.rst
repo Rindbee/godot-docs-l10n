@@ -176,7 +176,7 @@ enum **ArrayType**: :ref:`🔗<enum_Mesh_ArrayType>`
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_VERTEX** = ``0``
 
-:ref:`PackedVector3Array<class_PackedVector3Array>`, :ref:`PackedVector2Array<class_PackedVector2Array>`, or :ref:`Array<class_Array>` of vertex positions.
+:ref:`PackedVector3Array<class_PackedVector3Array>`, :ref:`PackedVector2Array<class_PackedVector2Array>` o :ref:`Array<class_Array>` de posiciones de vértices.
 
 .. _class_Mesh_constant_ARRAY_NORMAL:
 
@@ -184,9 +184,9 @@ enum **ArrayType**: :ref:`🔗<enum_Mesh_ArrayType>`
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_NORMAL** = ``1``
 
-:ref:`PackedVector3Array<class_PackedVector3Array>` of vertex normals.
+:ref:`PackedVector3Array<class_PackedVector3Array>` de normales de vértices.
 
-\ **Note:** The array has to consist of normal vectors, otherwise they will be normalized by the engine, potentially causing visual discrepancies.
+\ **Nota:** El array tiene que consistir en vectores normales, de lo contrario serán normalizados por el motor, causando potencialmente discrepancias visuales.
 
 .. _class_Mesh_constant_ARRAY_TANGENT:
 
@@ -194,7 +194,7 @@ enum **ArrayType**: :ref:`🔗<enum_Mesh_ArrayType>`
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_TANGENT** = ``2``
 
-:ref:`PackedFloat32Array<class_PackedFloat32Array>` of vertex tangents. Each element in groups of 4 floats, first 3 floats determine the tangent, and the last the binormal direction as -1 or 1.
+:ref:`PackedFloat32Array<class_PackedFloat32Array>` de tangentes de vértice. Cada elemento está en grupos de 4 floats, los 3 primeros floats determinan la tangente, y el último la dirección binormal como -1 o 1.
 
 .. _class_Mesh_constant_ARRAY_COLOR:
 
@@ -218,7 +218,7 @@ enum **ArrayType**: :ref:`🔗<enum_Mesh_ArrayType>`
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_TEX_UV2** = ``5``
 
-:ref:`PackedVector2Array<class_PackedVector2Array>` for second UV coordinates.
+:ref:`PackedVector2Array<class_PackedVector2Array>` para las segundas coordenadas UV.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM0:
 
@@ -226,7 +226,7 @@ enum **ArrayType**: :ref:`🔗<enum_Mesh_ArrayType>`
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM0** = ``6``
 
-Contains custom color channel 0. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contiene el canal de color personalizado 0. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` es :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, o :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` en caso contrario.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM1:
 
@@ -234,7 +234,7 @@ Contains custom color channel 0. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM1** = ``7``
 
-Contains custom color channel 1. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM1_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contiene el canal de color personalizado 1. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM1_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` es :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, o :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` en caso contrario.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM2:
 
@@ -242,7 +242,7 @@ Contains custom color channel 1. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM2** = ``8``
 
-Contains custom color channel 2. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM2_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contiene el canal de color personalizado 2. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM2_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` es :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, o :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` en caso contrario.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM3:
 
@@ -250,7 +250,7 @@ Contains custom color channel 2. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM3** = ``9``
 
-Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM3_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contiene el canal de color personalizado 3. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM3_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` es :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, o :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` en caso contrario.
 
 .. _class_Mesh_constant_ARRAY_BONES:
 
@@ -258,7 +258,7 @@ Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_BONES** = ``10``
 
-:ref:`PackedFloat32Array<class_PackedFloat32Array>` or :ref:`PackedInt32Array<class_PackedInt32Array>` of bone indices. Contains either 4 or 8 numbers per vertex depending on the presence of the :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>` flag.
+:ref:`PackedFloat32Array<class_PackedFloat32Array>` o :ref:`PackedInt32Array<class_PackedInt32Array>` de índices de hueso. Contiene 4 u 8 números por vértice dependiendo de la presencia de la bandera :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>`.
 
 .. _class_Mesh_constant_ARRAY_WEIGHTS:
 
@@ -266,7 +266,7 @@ Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_WEIGHTS** = ``11``
 
-:ref:`PackedFloat32Array<class_PackedFloat32Array>` or :ref:`PackedFloat64Array<class_PackedFloat64Array>` of bone weights in the range ``0.0`` to ``1.0`` (inclusive). Contains either 4 or 8 numbers per vertex depending on the presence of the :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>` flag.
+:ref:`PackedFloat32Array<class_PackedFloat32Array>` o :ref:`PackedFloat64Array<class_PackedFloat64Array>` de pesos de hueso en el rango ``0.0`` a ``1.0`` (inclusivo). Contiene 4 u 8 números por vértice dependiendo de la presencia de la bandera :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>`.
 
 .. _class_Mesh_constant_ARRAY_INDEX:
 
@@ -302,7 +302,7 @@ enum **ArrayCustomFormat**: :ref:`🔗<enum_Mesh_ArrayCustomFormat>`
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA8_UNORM** = ``0``
 
-Indicates this custom channel contains unsigned normalized byte colors from 0 to 1, encoded as :ref:`PackedByteArray<class_PackedByteArray>`.
+Indica que este canal personalizado contiene colores de bytes normalizados sin signo de 0 a 1, codificados como :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM:
 
@@ -310,7 +310,7 @@ Indicates this custom channel contains unsigned normalized byte colors from 0 to
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA8_SNORM** = ``1``
 
-Indicates this custom channel contains signed normalized byte colors from -1 to 1, encoded as :ref:`PackedByteArray<class_PackedByteArray>`.
+Indica que este canal personalizado contiene colores de bytes normalizados con signo de -1 a 1, codificados como :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RG_HALF:
 
@@ -318,7 +318,7 @@ Indicates this custom channel contains signed normalized byte colors from -1 to 
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RG_HALF** = ``2``
 
-Indicates this custom channel contains half precision float colors, encoded as :ref:`PackedByteArray<class_PackedByteArray>`. Only red and green channels are used.
+Indica que este canal personalizado contiene colores de punto flotante de media precisión, codificados como :ref:`PackedByteArray<class_PackedByteArray>`. Solo se utilizan los canales rojo y verde.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF:
 
@@ -326,7 +326,7 @@ Indicates this custom channel contains half precision float colors, encoded as :
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA_HALF** = ``3``
 
-Indicates this custom channel contains half precision float colors, encoded as :ref:`PackedByteArray<class_PackedByteArray>`.
+Indica que este canal personalizado contiene colores de punto flotante de media precisión, codificados como :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_R_FLOAT:
 
@@ -334,7 +334,7 @@ Indicates this custom channel contains half precision float colors, encoded as :
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_R_FLOAT** = ``4``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Only the red channel is used.
+Indica que este canal personalizado contiene colores de punto flotante completo, en un :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Solo se utiliza el canal rojo.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RG_FLOAT:
 
@@ -342,7 +342,7 @@ Indicates this custom channel contains full float colors, in a :ref:`PackedFloat
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RG_FLOAT** = ``5``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Only red and green channels are used.
+Indica que este canal personalizado contiene colores de punto flotante completo, en un :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Solo se utilizan los canales rojo y verde.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGB_FLOAT:
 
@@ -350,7 +350,7 @@ Indicates this custom channel contains full float colors, in a :ref:`PackedFloat
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGB_FLOAT** = ``6``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Only red, green and blue channels are used.
+Indica que este canal personalizado contiene colores de punto flotante completo, en un :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Solo se utilizan los canales rojo, verde y azul.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGBA_FLOAT:
 
@@ -358,7 +358,7 @@ Indicates this custom channel contains full float colors, in a :ref:`PackedFloat
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA_FLOAT** = ``7``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`.
+Indica que este canal personalizado contiene colores de punto flotante completo, en un :ref:`PackedFloat32Array<class_PackedFloat32Array>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_MAX:
 
@@ -488,7 +488,7 @@ El array de malla usa índices.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_BLEND_SHAPE_MASK** = ``7``
 
-Mask of mesh channels permitted in blend shapes.
+Máscara de los canales de malla permitidos en las blendshapes.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM_BASE:
 
@@ -496,7 +496,7 @@ Mask of mesh channels permitted in blend shapes.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM_BASE** = ``13``
 
-Shift of first custom channel.
+Desplazamiento del primer canal personalizado.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM_BITS:
 
@@ -504,7 +504,7 @@ Shift of first custom channel.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM_BITS** = ``3``
 
-Number of format bits per custom channel. See :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>`.
+Número de bits de formato por canal personalizado. Véase :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>`.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM0_SHIFT:
 
@@ -512,7 +512,7 @@ Number of format bits per custom channel. See :ref:`ArrayCustomFormat<enum_Mesh_
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM0_SHIFT** = ``13``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom channel index 0.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` para el índice de canal personalizado 0.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM1_SHIFT:
 
@@ -520,7 +520,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM1_SHIFT** = ``16``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom channel index 1.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` para el índice de canal personalizado 1.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM2_SHIFT:
 
@@ -528,7 +528,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM2_SHIFT** = ``19``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom channel index 2.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` para el índice de canal personalizado 2.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM3_SHIFT:
 
@@ -536,7 +536,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM3_SHIFT** = ``22``
 
-Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom channel index 3.
+Cantidad a desplazar :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` para el índice de canal personalizado 3.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM_MASK:
 
@@ -544,7 +544,7 @@ Amount to shift :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` for custom
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM_MASK** = ``7``
 
-Mask of custom format bits per custom channel. Must be shifted by one of the SHIFT constants. See :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>`.
+Máscara de bits de formato personalizado por canal personalizado. Debe ser desplazado por una de las constantes SHIFT. Véase :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>`.
 
 .. _class_Mesh_constant_ARRAY_COMPRESS_FLAGS_BASE:
 
@@ -552,7 +552,7 @@ Mask of custom format bits per custom channel. Must be shifted by one of the SHI
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_COMPRESS_FLAGS_BASE** = ``25``
 
-Shift of first compress flag. Compress flags should be passed to :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>` and :ref:`SurfaceTool.commit()<class_SurfaceTool_method_commit>`.
+Desplazamiento de la primera bandera de compresión. Las banderas de compresión deben pasarse a :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>` y :ref:`SurfaceTool.commit()<class_SurfaceTool_method_commit>`.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USE_2D_VERTICES:
 
@@ -568,7 +568,7 @@ Flag usada para marcar que el array contiene vértices 2D.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USE_DYNAMIC_UPDATE** = ``67108864``
 
-Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unused on Vulkan.
+Bandera utilizada para marcar que los datos de la malla usarán ``GL_DYNAMIC_DRAW`` en GLES. No se utiliza en Vulkan.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS:
 
@@ -576,7 +576,7 @@ Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unuse
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USE_8_BONE_WEIGHTS** = ``134217728``
 
-Flag used to mark that the mesh contains up to 8 bone influences per vertex. This flag indicates that :ref:`ARRAY_BONES<class_Mesh_constant_ARRAY_BONES>` and :ref:`ARRAY_WEIGHTS<class_Mesh_constant_ARRAY_WEIGHTS>` elements will have double length.
+Bandera utilizada para marcar que la malla contiene hasta 8 influencias de hueso por vértice. Esta bandera indica que los elementos :ref:`ARRAY_BONES<class_Mesh_constant_ARRAY_BONES>` y :ref:`ARRAY_WEIGHTS<class_Mesh_constant_ARRAY_WEIGHTS>` tendrán el doble de longitud.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USES_EMPTY_VERTEX_ARRAY:
 
@@ -584,7 +584,7 @@ Flag used to mark that the mesh contains up to 8 bone influences per vertex. Thi
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USES_EMPTY_VERTEX_ARRAY** = ``268435456``
 
-Flag used to mark that the mesh intentionally contains no vertex array.
+Bandera utilizada para marcar que la malla no contiene intencionalmente ningún array de vértices.
 
 .. _class_Mesh_constant_ARRAY_FLAG_COMPRESS_ATTRIBUTES:
 
@@ -592,7 +592,7 @@ Flag used to mark that the mesh intentionally contains no vertex array.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_COMPRESS_ATTRIBUTES** = ``536870912``
 
-Flag used to mark that a mesh is using compressed attributes (vertices, normals, tangents, UVs). When this form of compression is enabled, vertex positions will be packed into an RGBA16UNORM attribute and scaled in the vertex shader. The normal and tangent will be packed into an RG16UNORM representing an axis, and a 16-bit float stored in the A-channel of the vertex. UVs will use 16-bit normalized floats instead of full 32-bit signed floats. When using this compression mode you must use either vertices, normals, and tangents or only vertices. You cannot use normals without tangents. Importers will automatically enable this compression if they can.
+Bandera utilizada para marcar que una malla está utilizando atributos comprimidos (vértices, normales, tangentes, UVs). Cuando esta forma de compresión está habilitada, las posiciones de los vértices se empaquetarán en un atributo RGBA16UNORM y se escalarán en el sombreador de vértices. La normal y la tangente se empaquetarán en un RG16UNORM representando un eje, y un float de 16 bits almacenado en el canal A del vértice. Los UVs utilizarán floats normalizados de 16 bits en lugar de floats completos de 32 bits con signo. Cuando utilices este modo de compresión debes usar vértices, normales y tangentes o solo vértices. No puedes usar normales sin tangentes. Los importadores habilitarán automáticamente esta compresión si pueden.
 
 .. rst-class:: classref-item-separator
 
@@ -657,7 +657,7 @@ Descripciones de Métodos
 
 :ref:`AABB<class_AABB>` **_get_aabb**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_aabb>`
 
-Virtual method to override the :ref:`AABB<class_AABB>` for a custom class extending **Mesh**.
+Método virtual para sobrescribir el :ref:`AABB<class_AABB>` para una clase personalizada que extiende **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -669,7 +669,7 @@ Virtual method to override the :ref:`AABB<class_AABB>` for a custom class extend
 
 :ref:`int<class_int>` **_get_blend_shape_count**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_blend_shape_count>`
 
-Virtual method to override the number of blend shapes for a custom class extending **Mesh**.
+Método virtual para sobrescribir el número de blendshapes para una clase personalizada que extiende **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -681,7 +681,7 @@ Virtual method to override the number of blend shapes for a custom class extendi
 
 :ref:`StringName<class_StringName>` **_get_blend_shape_name**\ (\ index\: :ref:`int<class_int>`\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_blend_shape_name>`
 
-Virtual method to override the retrieval of blend shape names for a custom class extending **Mesh**.
+Método virtual para sobrescribir la recuperación de nombres de blendshapes para una clase personalizada que extiende **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -693,7 +693,7 @@ Virtual method to override the retrieval of blend shape names for a custom class
 
 :ref:`int<class_int>` **_get_surface_count**\ (\ ) |virtual| |required| |const| :ref:`🔗<class_Mesh_private_method__get_surface_count>`
 
-Virtual method to override the surface count for a custom class extending **Mesh**.
+Método virtual para sobrescribir el recuento de superficies para una clase personalizada que extiende **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -705,7 +705,7 @@ Virtual method to override the surface count for a custom class extending **Mesh
 
 |void| **_set_blend_shape_name**\ (\ index\: :ref:`int<class_int>`, name\: :ref:`StringName<class_StringName>`\ ) |virtual| |required| :ref:`🔗<class_Mesh_private_method__set_blend_shape_name>`
 
-Virtual method to override the names of blend shapes for a custom class extending **Mesh**.
+Método virtual para sobrescribir los nombres de los blendshapes para una clase personalizada que extiende **Mesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -855,7 +855,7 @@ Calcular una malla de contorno en un desplazamiento definido (margen) de la mall
 
 :ref:`Resource<class_Resource>` **create_placeholder**\ (\ ) |const| :ref:`🔗<class_Mesh_method_create_placeholder>`
 
-Creates a placeholder version of this resource (:ref:`PlaceholderMesh<class_PlaceholderMesh>`).
+Crea una versión de marcador de posición de este recurso (:ref:`PlaceholderMesh<class_PlaceholderMesh>`).
 
 .. rst-class:: classref-item-separator
 
@@ -929,7 +929,7 @@ Devuelve el número de superficies que contiene la **Mesh**. Esto es equivalente
 
 :ref:`Array<class_Array>` **surface_get_arrays**\ (\ surf_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Mesh_method_surface_get_arrays>`
 
-Returns the arrays for the vertices, normals, UVs, etc. that make up the requested surface (see :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>`).
+Devuelve los arrays para los vértices, normales, UVs, etc. que conforman la superficie solicitada (véase :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>`).
 
 .. rst-class:: classref-item-separator
 
@@ -953,9 +953,9 @@ Devuelve los arrays de formas de mezcla para la superficie solicitada.
 
 :ref:`Material<class_Material>` **surface_get_material**\ (\ surf_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Mesh_method_surface_get_material>`
 
-Returns a :ref:`Material<class_Material>` in a given surface. Surface is rendered using this material.
+Devuelve un :ref:`Material<class_Material>` en una superficie dada. La superficie se renderiza usando este material.
 
-\ **Note:** This returns the material within the **Mesh** resource, not the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties. To get the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties, use :ref:`MeshInstance3D.get_surface_override_material()<class_MeshInstance3D_method_get_surface_override_material>` instead.
+\ **Nota:** Esto devuelve el material dentro del recurso **Mesh**, no el :ref:`Material<class_Material>` asociado a las propiedades de Surface Material Override de :ref:`MeshInstance3D<class_MeshInstance3D>`. Para obtener el :ref:`Material<class_Material>` asociado a las propiedades de Surface Material Override de :ref:`MeshInstance3D<class_MeshInstance3D>`, usa :ref:`MeshInstance3D.get_surface_override_material()<class_MeshInstance3D_method_get_surface_override_material>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -967,9 +967,9 @@ Returns a :ref:`Material<class_Material>` in a given surface. Surface is rendere
 
 |void| **surface_set_material**\ (\ surf_idx\: :ref:`int<class_int>`, material\: :ref:`Material<class_Material>`\ ) :ref:`🔗<class_Mesh_method_surface_set_material>`
 
-Sets a :ref:`Material<class_Material>` for a given surface. Surface will be rendered using this material.
+Establece un :ref:`Material<class_Material>` para una superficie dada. La superficie se renderizará usando este material.
 
-\ **Note:** This assigns the material within the **Mesh** resource, not the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties. To set the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties, use :ref:`MeshInstance3D.set_surface_override_material()<class_MeshInstance3D_method_set_surface_override_material>` instead.
+\ **Nota:** Esto asigna el material dentro del recurso **Mesh**, no el :ref:`Material<class_Material>` asociado a las propiedades de Surface Material Override de :ref:`MeshInstance3D<class_MeshInstance3D>`. Para establecer el :ref:`Material<class_Material>` asociado a las propiedades de Surface Material Override de :ref:`MeshInstance3D<class_MeshInstance3D>`, usa :ref:`MeshInstance3D.set_surface_override_material()<class_MeshInstance3D_method_set_surface_override_material>` en su lugar.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -72,9 +72,9 @@ Descripciones de Métodos
 
 :ref:`Error<enum_@GlobalScope_Error>` **pack**\ (\ value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_PackedDataContainer_method_pack>`
 
-Packs the given container into a binary representation. The ``value`` must be either :ref:`Array<class_Array>` or :ref:`Dictionary<class_Dictionary>`, any other type will result in invalid data error.
+Empaqueta el contenedor dado en una representación binaria. El ``value`` debe ser :ref:`Array<class_Array>` o :ref:`Dictionary<class_Dictionary>`, cualquier otro tipo resultará en un error de datos inválido.
 
-\ **Note:** Subsequent calls to this method will overwrite the existing data.
+\ **Nota:** Las llamadas siguientes a este método sobrescribirán los datos existentes.
 
 .. rst-class:: classref-item-separator
 
@@ -86,7 +86,7 @@ Packs the given container into a binary representation. The ``value`` must be ei
 
 :ref:`int<class_int>` **size**\ (\ ) |const| :ref:`🔗<class_PackedDataContainer_method_size>`
 
-Returns the size of the packed container (see :ref:`Array.size()<class_Array_method_size>` and :ref:`Dictionary.size()<class_Dictionary_method_size>`).
+Devuelve el tamaño del contenedor empaquetado (véase :ref:`Array.size()<class_Array_method_size>` y :ref:`Dictionary.size()<class_Dictionary_method_size>`).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

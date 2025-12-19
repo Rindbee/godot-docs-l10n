@@ -24,7 +24,7 @@ Les données de couleur peuvent être stockées dans de nombreux espaces de coul
 
 .. note::
 
-	Il y a des différences notables dans l'utilisation de cette API en C#. Voir ref:`doc_c_sharp_differences` pour plus d'informations.
+	Il y a des différences notables dans l'utilisation de cette API en C#. Voir :ref:`doc_c_sharp_differences` pour plus d'informations.
 
 .. rst-class:: classref-introduction-group
 
@@ -1463,7 +1463,7 @@ Wrapper pour le :ref:`g<class_Color_property_g>` qui utilise l'intervalle de 0 �
 
 :ref:`float<class_float>` **h** = ``0.0`` :ref:`🔗<class_Color_property_h>`
 
-La teinte HSV de cette couleur, dans l'intervalle de 0 à 1.
+La teinte TSV de cette couleur, dans l'intervalle de 0 à 1.
 
 .. rst-class:: classref-item-separator
 
@@ -1535,7 +1535,7 @@ Wrapper pour le :ref:`r<class_Color_property_r>` qui utilise l'intervalle de 0 �
 
 :ref:`float<class_float>` **s** = ``0.0`` :ref:`🔗<class_Color_property_s>`
 
-La saturation HSV de cette couleur, dans l'intervalle de 0 à 1.
+La saturation TSV de cette couleur, dans l'intervalle de 0 à 1.
 
 .. rst-class:: classref-item-separator
 
@@ -1547,7 +1547,7 @@ La saturation HSV de cette couleur, dans l'intervalle de 0 à 1.
 
 :ref:`float<class_float>` **v** = ``0.0`` :ref:`🔗<class_Color_property_v>`
 
-La valeur HSV (luminosité) de cette couleur, dans l'intervalle de 0 à 1.
+La valeur TSV (luminosité) de cette couleur, dans l'intervalle de 0 à 1.
 
 .. rst-class:: classref-section-separator
 
@@ -1750,7 +1750,7 @@ Renvoie une nouvelle couleur résultant du fait de rendre cette couleur plus fon
 
 :ref:`Color<class_Color>` **from_hsv**\ (\ h\: :ref:`float<class_float>`, s\: :ref:`float<class_float>`, v\: :ref:`float<class_float>`, alpha\: :ref:`float<class_float>` = 1.0\ ) |static| :ref:`🔗<class_Color_method_from_hsv>`
 
-Construit une couleur depuis un `profil HSV (Hue Saturation Value, litt. Teinte Saturation Lumière) <https://fr.m.wikipedia.org/wiki/Teinte_saturation_lumi%C3%A8re>`__. La teinte (``h``), la saturation (``s``) et la lumière (``v``) sont typiquement entre 0.0 et 1.0.
+Construit une couleur depuis un `profil TSV (Hue Saturation Value, litt. Teinte Saturation Valeur) <https://fr.m.wikipedia.org/wiki/Teinte_saturation_lumi%C3%A8re>`__. La teinte (``h``), la saturation (``s``) et la valeur (``v``) sont typiquement entre 0.0 et 1.0.
 
 
 .. tabs::
@@ -1775,7 +1775,7 @@ Construit une couleur depuis un `profil HSV (Hue Saturation Value, litt. Teinte 
 
 :ref:`Color<class_Color>` **from_ok_hsl**\ (\ h\: :ref:`float<class_float>`, s\: :ref:`float<class_float>`, l\: :ref:`float<class_float>`, alpha\: :ref:`float<class_float>` = 1.0\ ) |static| :ref:`🔗<class_Color_method_from_ok_hsl>`
 
-Construit une couleur depuis un `profil OK HSL <https://bottosson.github.io/posts/colorpicker/>`__. La teinte (``h``), la saturation (``s``) et la lumière (``l``) sont typiquement entre 0.0 et 1.0.
+Construit une couleur depuis un `profil OK TSL <https://bottosson.github.io/posts/colorpicker/>`__. La teinte (``h``), la saturation (``s``) et la lumière (``l``) sont typiquement entre 0.0 et 1.0.
 
 
 .. tabs::

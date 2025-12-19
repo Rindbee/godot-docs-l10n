@@ -7,7 +7,7 @@ OpenXRVisibilityMask
 
 **Eredita:** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Draws a stereo correct visibility mask.
+Disegna una maschera di visibilità stereo corretta.
 
 .. rst-class:: classref-introduction-group
 

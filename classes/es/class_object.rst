@@ -251,7 +251,7 @@ Deferred connections trigger their :ref:`Callable<class_Callable>`\ s on idle ti
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_PERSIST** = ``2``
 
-Persisting connections are stored when the object is serialized (such as when using :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). In the editor, connections created through the Node dock are always persisting.
+Las conexiones persistentes se almacenan cuando el objeto se serializa (como cuando se usa :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). En el editor, las conexiones creadas a través del dock Nodo son siempre persistentes.
 
 .. _class_Object_constant_CONNECT_ONE_SHOT:
 
@@ -267,7 +267,7 @@ Las conexiones de one-shot se desconectan después de la emisión.
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_REFERENCE_COUNTED** = ``8``
 
-Reference-counted connections can be assigned to the same :ref:`Callable<class_Callable>` multiple times. Each disconnection decreases the internal counter. The signal fully disconnects only when the counter reaches 0.
+Las conexiones con conteo de referencias pueden ser asignadas al mismo :ref:`Callable<class_Callable>` múltiples veces. Cada desconexión disminuye el contador interno. La señal se desconecta completamente solo cuando el contador llega a 0.
 
 .. _class_Object_constant_CONNECT_APPEND_SOURCE_OBJECT:
 
@@ -292,7 +292,7 @@ Constantes
 
 **NOTIFICATION_POSTINITIALIZE** = ``0`` :ref:`🔗<class_Object_constant_NOTIFICATION_POSTINITIALIZE>`
 
-Notification received when the object is initialized, before its script is attached. Used internally.
+Notificación recibida cuando el objeto se inicializa, antes de que su script sea adjuntado. Se utiliza internamente.
 
 .. _class_Object_constant_NOTIFICATION_PREDELETE:
 
@@ -300,7 +300,7 @@ Notification received when the object is initialized, before its script is attac
 
 **NOTIFICATION_PREDELETE** = ``1`` :ref:`🔗<class_Object_constant_NOTIFICATION_PREDELETE>`
 
-Notification received when the object is about to be deleted. Can be used like destructors in object-oriented programming languages.
+Notificación recibida cuando el objeto está a punto de ser borrado. Puede ser usado como los destructores en lenguajes de programación orientados a objetos.
 
 .. _class_Object_constant_NOTIFICATION_EXTENSION_RELOADED:
 
@@ -308,7 +308,7 @@ Notification received when the object is about to be deleted. Can be used like d
 
 **NOTIFICATION_EXTENSION_RELOADED** = ``2`` :ref:`🔗<class_Object_constant_NOTIFICATION_EXTENSION_RELOADED>`
 
-Notification received when the object finishes hot reloading. This notification is only sent for extensions classes and derived.
+Notificación recibida cuando el objeto termina la recarga en caliente. Esta notificación solo se envía para las clases de extensión y derivadas.
 
 .. rst-class:: classref-section-separator
 

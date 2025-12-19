@@ -12,17 +12,17 @@ Une boîte délimitante 3D alignée sur les axes.
 Description
 -----------
 
-The **AABB** built-in :ref:`Variant<class_Variant>` type represents an axis-aligned bounding box in a 3D space. It is defined by its :ref:`position<class_AABB_property_position>` and :ref:`size<class_AABB_property_size>`, which are :ref:`Vector3<class_Vector3>`. It is frequently used for fast overlap tests (see :ref:`intersects()<class_AABB_method_intersects>`). Although **AABB** itself is axis-aligned, it can be combined with :ref:`Transform3D<class_Transform3D>` to represent a rotated or skewed bounding box.
+Le type :ref:`Variant<class_Variant>` intégré **AABB** représente une boîte délimitante alignée sur les axes dans un espace 3D. Elle est définie par sa :ref:`position<class_AABB_property_position>` et sa taille :ref:`size<class_AABB_property_size>`, qui sont des :ref:`Vector3<class_Vector3>`. Elle est fréquemment utilisée pour les tests de chevauchement rapide (voir :ref:`intersects()<class_AABB_method_intersects>`). Bien que **AABB** elle-même soit alignée sur les axes, elle peut être combinée avec :ref:`Transform3D<class_Transform3D>` pour représenter une boîte englobante tournée ou cisaillée.
 
-It uses floating-point coordinates. The 2D counterpart to **AABB** is :ref:`Rect2<class_Rect2>`. There is no version of **AABB** that uses integer coordinates.
+Elle utilise des coordonnées flottantes. La contrepartie 2D de **AABB** est :ref:`Rect2<class_Rect2>`. Il n'y a pas de version de **AABB** qui utilise des coordonnées entières.
 
-\ **Note:** Negative values for :ref:`size<class_AABB_property_size>` are not supported. With negative size, most **AABB** methods do not work correctly. Use :ref:`abs()<class_AABB_method_abs>` to get an equivalent **AABB** with a non-negative size.
+\ **Note : ** Les valeurs négatives pour :ref:`size<class_AABB_property_size>` ne sont pas supportées. Avec une taille négative, la plupart des méthodes de **AABB** ne fonctionnent pas correctement. Utilisez :ref:`abs()<class_AABB_method_abs>` pour obtenir une **AABB** équivalente avec une taille non négative.
 
-\ **Note:** In a boolean context, an **AABB** evaluates to ``false`` if both :ref:`position<class_AABB_property_position>` and :ref:`size<class_AABB_property_size>` are zero (equal to :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`). Otherwise, it always evaluates to ``true``.
+\ **Note :** Dans un contexte booléen, une **AABB** évalue à ``false`` si :ref:`position<class_AABB_property_position>` et :ref:`size<class_AABB_property_size>` valent tous les deux zéro (égaux à :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`). Sinon, elle évalue toujours à ``true``.
 
 .. note::
 
-	Il y a des différences notables dans l'utilisation de cette API en C#. Voir ref:`doc_c_sharp_differences` pour plus d'informations.
+	Il y a des différences notables dans l'utilisation de cette API en C#. Voir :ref:`doc_c_sharp_differences` pour plus d'informations.
 
 .. rst-class:: classref-introduction-group
 

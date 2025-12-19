@@ -369,7 +369,7 @@ DirAccess
 
 返回目标文件是否存在。参数可以相对于当前目录，也可以是绝对路径。
 
-静态版本见 :ref:`file_exists()<class_DirAccess_method_file_exists>`\ 。
+静态版本见 :ref:`FileAccess.file_exists()<class_FileAccess_method_file_exists>`\ 。
 
 \ **注意：**\ 许多资源类型是导入的（例如纹理和声音文件），它们的源资产不会包含在导出的游戏中，因为只使用导入的版本。有关考虑资源重新映射的替代方法，请参阅 :ref:`ResourceLoader.exists()<class_ResourceLoader_method_exists>`\ 。
 

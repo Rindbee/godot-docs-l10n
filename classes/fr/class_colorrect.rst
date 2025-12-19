@@ -7,14 +7,14 @@ ColorRect
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A control that displays a solid color rectangle.
+Un contrôle qui affiche un rectangle de couleur unie.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Displays a rectangle filled with a solid :ref:`color<class_ColorRect_property_color>`. If you need to display the border alone, consider using a :ref:`Panel<class_Panel>` instead.
+Affiche un rectangle rempli de la couleur unie :ref:`color<class_ColorRect_property_color>`. Si vous devez seulement afficher la bordure, utilisez plutôt un :ref:`Panel<class_Panel>`.
 
 .. rst-class:: classref-introduction-group
 
@@ -55,7 +55,7 @@ Descriptions des propriétés
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-The fill color of the rectangle.
+La couleur de remplissage du rectangle.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

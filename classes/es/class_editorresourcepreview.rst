@@ -53,7 +53,7 @@ Señales
 
 **preview_invalidated**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorResourcePreview_signal_preview_invalidated>`
 
-Emitted if a preview was invalidated (changed). ``path`` corresponds to the path of the preview.
+Se emite si una vista previa se ha invalidado (cambiado). ``path`` corresponde a la ruta de la vista previa.
 
 .. rst-class:: classref-section-separator
 

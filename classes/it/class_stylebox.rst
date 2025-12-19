@@ -94,13 +94,13 @@ Descrizioni delle proprietà
 - |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-The bottom margin for the contents of this style box. Increasing this value reduces the space available to the contents from the bottom.
+Il margine inferiore per il contenuto di questo style box. Aumentando questo valore si riduce lo spazio disponibile per il contenuto dal basso.
 
-If this value is negative, it is ignored and a child-specific margin is used instead. For example, for :ref:`StyleBoxFlat<class_StyleBoxFlat>`, the border thickness (if any) is used instead.
+Se questo valore è negativo, è ignorato e al suo posto viene utilizzato un margine specifico per classe figlia. Ad esempio, per :ref:`StyleBoxFlat<class_StyleBoxFlat>`, è utilizzato lo spessore del bordo (se presente).
 
-It is up to the code using this style box to decide what these contents are: for example, a :ref:`Button<class_Button>` respects this content margin for the textual contents of the button.
+Spetta al codice che utilizza questo style box di decidere quali siano questi contenuti: ad esempio, un :ref:`Button<class_Button>` rispetta questo margine di contenuto per il contenuto testuale del pulsante.
 
-\ :ref:`get_margin()<class_StyleBox_method_get_margin>` should be used to fetch this value as consumer instead of reading these properties directly. This is because it correctly respects negative values and the fallback mentioned above.
+Si dovrebbe usare :ref:`get_margin()<class_StyleBox_method_get_margin>` per recuperare questo valore come consumatore anziché leggere direttamente queste proprietà. Questo perché rispetta correttamente i valori negativi e l'alternativa menzionata sopra.
 
 .. rst-class:: classref-item-separator
 

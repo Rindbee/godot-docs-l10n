@@ -70,7 +70,7 @@ Descripciones de Propiedades
 - |void| **set_physical_bone_chain_length**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_physical_bone_chain_length**\ (\ )
 
-The number of :ref:`PhysicalBone2D<class_PhysicalBone2D>` nodes linked in this modification.
+El número de nodos :ref:`PhysicalBone2D<class_PhysicalBone2D>` enlazados en esta modificación.
 
 .. rst-class:: classref-section-separator
 
@@ -111,9 +111,9 @@ Devuelve el nodo :ref:`PhysicalBone2D<class_PhysicalBone2D>` en ``joint_idx``.
 
 |void| **set_physical_bone_node**\ (\ joint_idx\: :ref:`int<class_int>`, physicalbone2d_node\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_SkeletonModification2DPhysicalBones_method_set_physical_bone_node>`
 
-Sets the :ref:`PhysicalBone2D<class_PhysicalBone2D>` node at ``joint_idx``.
+Establece el nodo :ref:`PhysicalBone2D<class_PhysicalBone2D>` en ``joint_idx``.
 
-\ **Note:** This is just the index used for this modification, not the bone index used in the :ref:`Skeleton2D<class_Skeleton2D>`.
+\ **Nota:** Este es solo el índice utilizado para esta modificación, no el índice del hueso utilizado en el :ref:`Skeleton2D<class_Skeleton2D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -125,9 +125,9 @@ Sets the :ref:`PhysicalBone2D<class_PhysicalBone2D>` node at ``joint_idx``.
 
 |void| **start_simulation**\ (\ bones\: :ref:`Array<class_Array>`\[:ref:`StringName<class_StringName>`\] = []\ ) :ref:`🔗<class_SkeletonModification2DPhysicalBones_method_start_simulation>`
 
-Tell the :ref:`PhysicalBone2D<class_PhysicalBone2D>` nodes to start simulating and interacting with the physics world.
+Indica a los nodos :ref:`PhysicalBone2D<class_PhysicalBone2D>` que comiencen a simular e interactuar con el mundo físico.
 
-Optionally, an array of bone names can be passed to this function, and that will cause only :ref:`PhysicalBone2D<class_PhysicalBone2D>` nodes with those names to start simulating.
+Opcionalmente, se puede pasar un array de nombres de huesos a esta función, y eso hará que solo los nodos :ref:`PhysicalBone2D<class_PhysicalBone2D>` con esos nombres comiencen a simular.
 
 .. rst-class:: classref-item-separator
 
@@ -139,9 +139,9 @@ Optionally, an array of bone names can be passed to this function, and that will
 
 |void| **stop_simulation**\ (\ bones\: :ref:`Array<class_Array>`\[:ref:`StringName<class_StringName>`\] = []\ ) :ref:`🔗<class_SkeletonModification2DPhysicalBones_method_stop_simulation>`
 
-Tell the :ref:`PhysicalBone2D<class_PhysicalBone2D>` nodes to stop simulating and interacting with the physics world.
+Indica a los nodos :ref:`PhysicalBone2D<class_PhysicalBone2D>` que dejen de simular e interactuar con el mundo físico.
 
-Optionally, an array of bone names can be passed to this function, and that will cause only :ref:`PhysicalBone2D<class_PhysicalBone2D>` nodes with those names to stop simulating.
+Opcionalmente, se puede pasar un array de nombres de huesos a esta función, y eso hará que solo los nodos :ref:`PhysicalBone2D<class_PhysicalBone2D>` con esos nombres dejen de simular.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

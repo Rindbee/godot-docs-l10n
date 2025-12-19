@@ -981,7 +981,7 @@ Elemento contenitore di scorrimento.
 
 :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>` **ROLE_SPLITTER** = ``14``
 
-Container splitter handle element.
+Elemento maniglia di divisore di contenitore.
 
 .. _class_DisplayServer_constant_ROLE_SLIDER:
 

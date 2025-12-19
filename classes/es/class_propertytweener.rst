@@ -203,7 +203,7 @@ Establece el tiempo en segundos después del cual el **PropertyTweener** comenza
 
 :ref:`PropertyTweener<class_PropertyTweener>` **set_ease**\ (\ ease\: :ref:`EaseType<enum_Tween_EaseType>`\ ) :ref:`🔗<class_PropertyTweener_method_set_ease>`
 
-Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not set, the default easing is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Establece el tipo de easing usado de :ref:`EaseType<enum_Tween_EaseType>`. Si no se establece, se usa el easing por defecto del :ref:`Tween<class_Tween>` que contiene este Tweener.
 
 .. rst-class:: classref-item-separator
 
@@ -215,7 +215,7 @@ Sets the type of used easing from :ref:`EaseType<enum_Tween_EaseType>`. If not s
 
 :ref:`PropertyTweener<class_PropertyTweener>` **set_trans**\ (\ trans\: :ref:`TransitionType<enum_Tween_TransitionType>`\ ) :ref:`🔗<class_PropertyTweener_method_set_trans>`
 
-Sets the type of used transition from :ref:`TransitionType<enum_Tween_TransitionType>`. If not set, the default transition is used from the :ref:`Tween<class_Tween>` that contains this Tweener.
+Establece el tipo de transición usada de :ref:`TransitionType<enum_Tween_TransitionType>`. Si no se establece, se usa la transición por defecto del :ref:`Tween<class_Tween>` que contiene este Tweener.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

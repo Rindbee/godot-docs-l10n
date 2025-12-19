@@ -14,9 +14,9 @@ Clase base para crear perfiladores personalizados.
 Descripción
 ----------------------
 
-This class can be used to implement custom profilers that are able to interact with the engine and editor debugger.
+Esta clase se puede utilizar para implementar perfiladores personalizados que pueden interactuar con el motor y el depurador del editor.
 
-See :ref:`EngineDebugger<class_EngineDebugger>` and :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>` for more information.
+Véase :ref:`EngineDebugger<class_EngineDebugger>` y :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>` para obtener más información.
 
 .. rst-class:: classref-reftable-group
 
@@ -49,7 +49,7 @@ Descripciones de Métodos
 
 |void| **_add_frame**\ (\ data\: :ref:`Array<class_Array>`\ ) |virtual| :ref:`🔗<class_EngineProfiler_private_method__add_frame>`
 
-Called when data is added to profiler using :ref:`EngineDebugger.profiler_add_frame_data()<class_EngineDebugger_method_profiler_add_frame_data>`.
+Se llama cuando se añaden datos al perfilador usando :ref:`EngineDebugger.profiler_add_frame_data()<class_EngineDebugger_method_profiler_add_frame_data>`.
 
 .. rst-class:: classref-item-separator
 
@@ -61,7 +61,7 @@ Called when data is added to profiler using :ref:`EngineDebugger.profiler_add_fr
 
 |void| **_tick**\ (\ frame_time\: :ref:`float<class_float>`, process_time\: :ref:`float<class_float>`, physics_time\: :ref:`float<class_float>`, physics_frame_time\: :ref:`float<class_float>`\ ) |virtual| :ref:`🔗<class_EngineProfiler_private_method__tick>`
 
-Called once every engine iteration when the profiler is active with information about the current frame. All time values are in seconds. Lower values represent faster processing times and are therefore considered better.
+Se llama una vez por cada iteración del motor cuando el perfilador está activo con información sobre el fotograma actual. Todos los valores de tiempo están en segundos. Los valores más bajos representan tiempos de procesamiento más rápidos y, por lo tanto, se consideran mejores.
 
 .. rst-class:: classref-item-separator
 
@@ -73,7 +73,7 @@ Called once every engine iteration when the profiler is active with information 
 
 |void| **_toggle**\ (\ enable\: :ref:`bool<class_bool>`, options\: :ref:`Array<class_Array>`\ ) |virtual| :ref:`🔗<class_EngineProfiler_private_method__toggle>`
 
-Called when the profiler is enabled/disabled, along with a set of ``options``.
+Se llama cuando el perfilador se activa/desactiva, junto con un conjunto de ``options``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

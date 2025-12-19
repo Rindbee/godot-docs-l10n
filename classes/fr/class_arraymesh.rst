@@ -249,7 +249,7 @@ L'argument ``flags`` est le OU par bits de, comme requis : Une valeur de :ref:`
 
 |void| **clear_blend_shapes**\ (\ ) :ref:`🔗<class_ArrayMesh_method_clear_blend_shapes>`
 
-Retire toutes les formes de mélange de ce **ArrayMesh**.
+Retire toutes les blend shapes de ce **ArrayMesh**.
 
 .. rst-class:: classref-item-separator
 

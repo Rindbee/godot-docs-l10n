@@ -7,7 +7,7 @@ EditorSceneFormatImporterBlend
 
 **Hereda:** :ref:`EditorSceneFormatImporter<class_EditorSceneFormatImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Importer for Blender's ``.blend`` scene file format.
+Importador para el formato de archivo de escena ``.blend`` de Blender.
 
 .. rst-class:: classref-introduction-group
 

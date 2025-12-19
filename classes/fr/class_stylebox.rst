@@ -7,9 +7,9 @@ StyleBox
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`, :ref:`StyleBoxFlat<class_StyleBoxFlat>`, :ref:`StyleBoxLine<class_StyleBoxLine>`, :ref:`StyleBoxTexture<class_StyleBoxTexture>`
+**Hérité par :** :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`, :ref:`StyleBoxFlat<class_StyleBoxFlat>`, :ref:`StyleBoxLine<class_StyleBoxLine>`, :ref:`StyleBoxTexture<class_StyleBoxTexture>`
 
-Abstract base class for defining stylized boxes for UI elements.
+Classe de base abstraite pour définir des boîtes stylisées pour des éléments d'UI.
 
 .. rst-class:: classref-introduction-group
 
@@ -117,9 +117,9 @@ It is up to the code using this style box to decide what these contents are: for
 - |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-The left margin for the contents of this style box. Increasing this value reduces the space available to the contents from the left.
+La marge gauche pour le contenu de cette stylebox. Augmenter cette valeur réduit l'espace disponible pour le contenu à partir de la gauche.
 
-Refer to :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` for extra considerations.
+Se référer à :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` pour des considérations supplémentaires.
 
 .. rst-class:: classref-item-separator
 
@@ -136,9 +136,9 @@ Refer to :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bott
 - |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-La marge droite pour le contenu de cette boîte de style. L'augmentation de cette valeur réduit l'espace disponible pour le contenu sur la droite.
+La marge droite pour le contenu de cette stylebox. Augmenter cette valeur réduit l'espace disponible pour le contenu à partir de la droite.
 
-Voir :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` pour des considérations supplémentaires.
+Se référer à :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` pour des considérations supplémentaires.
 
 .. rst-class:: classref-item-separator
 
@@ -155,9 +155,9 @@ Voir :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>`
 - |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-La marge supérieure pour le contenu de cette boîte de style. Augmenter cette valeur réduit l'espace disponible pour le contenu en haut.
+La marge du haut pour le contenu de cette stylebox. Augmenter cette valeur réduit l'espace disponible pour le contenu à partir du haut.
 
-Voir :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` pour des considérations supplémentaires.
+Se référer à :ref:`content_margin_bottom<class_StyleBox_property_content_margin_bottom>` pour des considérations supplémentaires.
 
 .. rst-class:: classref-section-separator
 
@@ -202,7 +202,7 @@ Descriptions des méthodes
 
 :ref:`Vector2<class_Vector2>` **_get_minimum_size**\ (\ ) |virtual| |const| :ref:`🔗<class_StyleBox_private_method__get_minimum_size>`
 
-Virtual method to be implemented by the user. Returns a custom minimum size that the stylebox must respect when drawing. By default :ref:`get_minimum_size()<class_StyleBox_method_get_minimum_size>` only takes content margins into account. This method can be overridden to add another size restriction. A combination of the default behavior and the output of this method will be used, to account for both sizes.
+Méthode virtuelle à implémenter par l'utilisateur. Renvoie une taille minimale personnalisée que la stylebox doit respecter lors du dessin. Par défaut :ref:`get_minimum_size()<class_StyleBox_method_get_minimum_size>` prend uniquement en compte les marges du contenu. Cette méthode peut être redéfinie pour ajouter une autre restriction de taille. Une combinaison du comportement par défaut et de la sortie de cette méthode sera utilisée pour tenir compte des deux tailles.
 
 .. rst-class:: classref-item-separator
 
@@ -228,9 +228,9 @@ Virtual method to be implemented by the user. Returns a custom minimum size that
 
 |void| **draw**\ (\ canvas_item\: :ref:`RID<class_RID>`, rect\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_StyleBox_method_draw>`
 
-Draws this stylebox using a canvas item identified by the given :ref:`RID<class_RID>`.
+Dessine cette stylebox en utilisant un élément de canevasidentifié par le :ref:`RID<class_RID>` donné.
 
-The :ref:`RID<class_RID>` value can either be the result of :ref:`CanvasItem.get_canvas_item()<class_CanvasItem_method_get_canvas_item>` called on an existing :ref:`CanvasItem<class_CanvasItem>`-derived node, or directly from creating a canvas item in the :ref:`RenderingServer<class_RenderingServer>` with :ref:`RenderingServer.canvas_item_create()<class_RenderingServer_method_canvas_item_create>`.
+La valeur du :ref:`RID<class_RID>` peut soit être le résultat de :ref:`CanvasItem.get_canvas_item()<class_CanvasItem_method_get_canvas_item>` appelé sur un nœud dérivé de :ref:`CanvasItem<class_CanvasItem>` existant, ou directement de la création d'un élément de canevas dans le :ref:`RenderingServer<class_RenderingServer>` avec :ref:`RenderingServer.canvas_item_create()<class_RenderingServer_method_canvas_item_create>`.
 
 .. rst-class:: classref-item-separator
 
@@ -242,7 +242,7 @@ The :ref:`RID<class_RID>` value can either be the result of :ref:`CanvasItem.get
 
 :ref:`float<class_float>` **get_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBox_method_get_content_margin>`
 
-Returns the default margin of the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Renvoie la marge par défaut du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
 .. rst-class:: classref-item-separator
 
@@ -266,9 +266,9 @@ Renvoie le :ref:`CanvasItem<class_CanvasItem>` qui gère sa :ref:`CanvasItem.NOT
 
 :ref:`float<class_float>` **get_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const| :ref:`🔗<class_StyleBox_method_get_margin>`
 
-Returns the content margin offset for the specified :ref:`Side<enum_@GlobalScope_Side>`.
+Renvoie le décalage de la marge de contenu pour le côté :ref:`Side<enum_@GlobalScope_Side>` spécifié.
 
-Positive values reduce size inwards, unlike :ref:`Control<class_Control>`'s margin values.
+Les valeurs positives réduisent la taille vers l'intérieur, contrairement aux valeurs des marges de :ref:`Control<class_Control>`.
 
 .. rst-class:: classref-item-separator
 
@@ -280,7 +280,7 @@ Positive values reduce size inwards, unlike :ref:`Control<class_Control>`'s marg
 
 :ref:`Vector2<class_Vector2>` **get_minimum_size**\ (\ ) |const| :ref:`🔗<class_StyleBox_method_get_minimum_size>`
 
-Renvoie la taille minimale à laquelle cette boîte de style peut être réduite.
+Renvoie la taille minimale à laquelle cette stylebox peut être réduite.
 
 .. rst-class:: classref-item-separator
 
@@ -304,7 +304,7 @@ Renvoie le "décalage" d'une boîte de style. Cette fonction d'aide renvoie une 
 
 |void| **set_content_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBox_method_set_content_margin>`
 
-Sets the default value of the specified :ref:`Side<enum_@GlobalScope_Side>` to ``offset`` pixels.
+Définit la valeur par défaut du côté :ref:`Side<enum_@GlobalScope_Side>` spécifié à ``offset`` pixels.
 
 .. rst-class:: classref-item-separator
 
@@ -316,7 +316,7 @@ Sets the default value of the specified :ref:`Side<enum_@GlobalScope_Side>` to `
 
 |void| **set_content_margin_all**\ (\ offset\: :ref:`float<class_float>`\ ) :ref:`🔗<class_StyleBox_method_set_content_margin_all>`
 
-Sets the default margin to ``offset`` pixels for all sides.
+Définit la marge par défaut à ``offset`` pixels pour tous les côtés.
 
 .. rst-class:: classref-item-separator
 

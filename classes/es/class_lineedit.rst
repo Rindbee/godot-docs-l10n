@@ -493,7 +493,7 @@ Inserta el carácter de inicio de incrustación de derecha a izquierda (RLE).
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_LRO** = ``18``
 
-Inserta el carácter de inicio de anulación de izquierda a derecha (LRO).
+Inserta el carácter de inicio de sobrescritura de izquierda a derecha (LRO).
 
 .. _class_LineEdit_constant_MENU_INSERT_RLO:
 
@@ -501,7 +501,7 @@ Inserta el carácter de inicio de anulación de izquierda a derecha (LRO).
 
 :ref:`MenuItems<enum_LineEdit_MenuItems>` **MENU_INSERT_RLO** = ``19``
 
-Inserta el carácter de inicio de anulación de derecha a izquierda (RLO).
+Inserta el carácter de inicio de sobrescritura de derecha a izquierda (RLO).
 
 .. _class_LineEdit_constant_MENU_INSERT_PDF:
 
@@ -1187,7 +1187,7 @@ Si es ``true``, las teclas de atajo para los elementos del menú contextual est�
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Establece la anulación del algoritmo BiDi para el texto estructurado.
+Establece la sobrescritura del algoritmo BiDi para el texto estructurado.
 
 .. rst-class:: classref-item-separator
 
@@ -1204,7 +1204,7 @@ Establece la anulación del algoritmo BiDi para el texto estructurado.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Establece opciones adicionales para la anulación BiDi.
+Establece opciones adicionales para la sobrescritura BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -1240,7 +1240,7 @@ Valor de la strting de la **LineEdit**.
 - |void| **set_text_direction**\ (\ value\: :ref:`TextDirection<enum_Control_TextDirection>`\ )
 - :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ )
 
-Base text writing direction.
+Dirección base de escritura del texto.
 
 .. rst-class:: classref-item-separator
 

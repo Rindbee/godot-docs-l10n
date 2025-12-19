@@ -84,7 +84,7 @@ Adds the ``source_path`` file to the current PCK package at the ``target_path`` 
 
 :ref:`Error<enum_@GlobalScope_Error>` **add_file_removal**\ (\ target_path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_PCKPacker_method_add_file_removal>`
 
-Registers a file removal of the ``target_path`` internal path to the PCK. This is mainly used for patches. If the file at this path has been loaded from a previous PCK, it will be removed. The ``res://`` prefix for ``target_path`` is optional and stripped internally.
+Registra la eliminación de un archivo en la ruta interna ``target_path`` del PCK. Se utiliza principalmente para parches. Si el archivo en esta ruta se ha cargado desde un PCK anterior, se eliminará. El prefijo ``res://`` para ``target_path`` es opcional y se elimina internamente.
 
 .. rst-class:: classref-item-separator
 
@@ -96,9 +96,9 @@ Registers a file removal of the ``target_path`` internal path to the PCK. This i
 
 :ref:`Error<enum_@GlobalScope_Error>` **flush**\ (\ verbose\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PCKPacker_method_flush>`
 
-Writes the file directory and closes the PCK. If ``verbose`` is ``true``, a list of files added will be printed to the console for easier debugging.
+Escribe el directorio de archivos y cierra el PCK. Si ``verbose`` es ``true``, se imprimirá una lista de los archivos añadidos en la consola para facilitar la depuración.
 
-\ **Note:** **PCKPacker** will automatically flush when it's freed, which happens when it goes out of scope or when it gets assigned with ``null``. In C# the reference must be disposed after use, either with the ``using`` statement or by calling the ``Dispose`` method directly.
+\ **Nota:** **PCKPacker** se vaciará automáticamente cuando se libere, lo que sucede cuando sale del alcance o cuando se le asigna ``null``. En C#, la referencia debe eliminarse después de su uso, ya sea con la declaración ``using`` o llamando al método ``Dispose`` directamente.
 
 .. rst-class:: classref-item-separator
 
@@ -110,7 +110,7 @@ Writes the file directory and closes the PCK. If ``verbose`` is ``true``, a list
 
 :ref:`Error<enum_@GlobalScope_Error>` **pck_start**\ (\ pck_path\: :ref:`String<class_String>`, alignment\: :ref:`int<class_int>` = 32, key\: :ref:`String<class_String>` = "0000000000000000000000000000000000000000000000000000000000000000", encrypt_directory\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_PCKPacker_method_pck_start>`
 
-Creates a new PCK file at the file path ``pck_path``. The ``.pck`` file extension isn't added automatically, so it should be part of ``pck_path`` (even though it's not required).
+Crea un nuevo archivo PCK en la ruta de archivo ``pck_path``. La extensión de archivo ``.pck`` no se añade automáticamente, por lo que debe formar parte de ``pck_path`` (aunque no es obligatorio).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

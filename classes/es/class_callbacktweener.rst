@@ -14,11 +14,11 @@ Llama al método especificado después de un retraso opcional.
 Descripción
 ----------------------
 
-**CallbackTweener** is used to call a method in a tweening sequence. See :ref:`Tween.tween_callback()<class_Tween_method_tween_callback>` for more usage information.
+**CallbackTweener** se usa para llamar a un método en una secuencia de interpolación. Véase :ref:`Tween.tween_callback()<class_Tween_method_tween_callback>` para obtener más información sobre su uso.
 
-The tweener will finish automatically if the callback's target object is freed.
+El interpolador finalizará automáticamente si se libera el objeto de destino de la llamada.
 
-\ **Note:** :ref:`Tween.tween_callback()<class_Tween_method_tween_callback>` is the only correct way to create **CallbackTweener**. Any **CallbackTweener** created manually will not function correctly.
+\ **Nota:** :ref:`Tween.tween_callback()<class_Tween_method_tween_callback>` es la única forma correcta de crear **CallbackTweener**. Cualquier **CallbackTweener** creado manualmente no funcionará correctamente.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,9 +47,9 @@ Descripciones de Métodos
 
 :ref:`CallbackTweener<class_CallbackTweener>` **set_delay**\ (\ delay\: :ref:`float<class_float>`\ ) :ref:`🔗<class_CallbackTweener_method_set_delay>`
 
-Makes the callback call delayed by given time in seconds.
+Hace que la llamada de retorno se retrase el tiempo dado en segundos.
 
-\ **Example:** Call :ref:`Node.queue_free()<class_Node_method_queue_free>` after 2 seconds:
+\ **Ejemplo:** Llama a :ref:`Node.queue_free()<class_Node_method_queue_free>` después de 2 segundos:
 
 ::
 

@@ -534,9 +534,9 @@ Descripciones de Propiedades
 - |void| **set_clip_children_mode**\ (\ value\: :ref:`ClipChildrenMode<enum_CanvasItem_ClipChildrenMode>`\ )
 - :ref:`ClipChildrenMode<enum_CanvasItem_ClipChildrenMode>` **get_clip_children_mode**\ (\ )
 
-The mode in which this node clips its children, acting as a mask.
+El modo en que este nodo recorta a sus hijos, actuando como una máscara.
 
-\ **Note:** Clipping nodes cannot be nested or placed within a :ref:`CanvasGroup<class_CanvasGroup>`. If an ancestor of this node clips its children or is a :ref:`CanvasGroup<class_CanvasGroup>`, then this node's clip mode should be set to :ref:`CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` to avoid unexpected behavior.
+\ **Nota:** Los nodos de recorte no se pueden anidar ni colocar dentro de un :ref:`CanvasGroup<class_CanvasGroup>`. Si un ancestro de este nodo recorta a sus hijos o es un :ref:`CanvasGroup<class_CanvasGroup>`, entonces el modo de recorte de este nodo debe establecerse en :ref:`CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` para evitar un comportamiento inesperado.
 
 .. rst-class:: classref-item-separator
 
@@ -587,7 +587,7 @@ El material aplicado a este **CanvasItem**.
 - |void| **set_modulate**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_modulate**\ (\ )
 
-The color applied to this **CanvasItem**. This property does affect child **CanvasItem**\ s, unlike :ref:`self_modulate<class_CanvasItem_property_self_modulate>` which only affects the node itself.
+El color aplicado a este **CanvasItem**. Esta propiedad afecta a los **CanvasItem** hijos, a diferencia de :ref:`self_modulate<class_CanvasItem_property_self_modulate>` que solo afecta al nodo en sí.
 
 .. rst-class:: classref-item-separator
 
@@ -604,9 +604,9 @@ The color applied to this **CanvasItem**. This property does affect child **Canv
 - |void| **set_self_modulate**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_self_modulate**\ (\ )
 
-The color applied to this **CanvasItem**. This property does **not** affect child **CanvasItem**\ s, unlike :ref:`modulate<class_CanvasItem_property_modulate>` which affects both the node itself and its children.
+El color aplicado a este **CanvasItem**. Esta propiedad **no** afecta a los **CanvasItem** hijos, a diferencia de :ref:`modulate<class_CanvasItem_property_modulate>` que afecta tanto al nodo en sí como a sus hijos.
 
-\ **Note:** Internal children are also not affected by this property (see the ``include_internal`` parameter in :ref:`Node.add_child()<class_Node_method_add_child>`). For built-in nodes this includes sliders in :ref:`ColorPicker<class_ColorPicker>`, and the tab bar in :ref:`TabContainer<class_TabContainer>`.
+\ **Nota:** Los hijos internos tampoco se ven afectados por esta propiedad (véase el parámetro ``include_internal`` en :ref:`Node.add_child()<class_Node_method_add_child>`). Para los nodos incorporados esto incluye los deslizadores en :ref:`ColorPicker<class_ColorPicker>`, y la barra de pestañas en :ref:`TabContainer<class_TabContainer>`.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ Mesh
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`ArrayMesh<class_ArrayMesh>`, :ref:`ImmediateMesh<class_ImmediateMesh>`, :ref:`PlaceholderMesh<class_PlaceholderMesh>`, :ref:`PrimitiveMesh<class_PrimitiveMesh>`
+**Hérité par :** :ref:`ArrayMesh<class_ArrayMesh>`, :ref:`ImmediateMesh<class_ImmediateMesh>`, :ref:`PlaceholderMesh<class_PlaceholderMesh>`, :ref:`PrimitiveMesh<class_PrimitiveMesh>`
 
 Une :ref:`Resource<class_Resource>` qui contient une géométrie à base d'un tableau de sommets.
 
@@ -184,9 +184,9 @@ Un :ref:`PackedVector3Array<class_PackedVector3Array>`, :ref:`PackedVector2Array
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_NORMAL** = ``1``
 
-:ref:`PackedVector3Array<class_PackedVector3Array>` of vertex normals.
+:ref:`PackedVector3Array<class_PackedVector3Array>` des normales des sommets.
 
-\ **Note:** The array has to consist of normal vectors, otherwise they will be normalized by the engine, potentially causing visual discrepancies.
+\ **Note :** Le tableau doit être composé de vecteurs normaux, sinon ils seront normalisés par le moteur, causant potentiellement des divergences visuels.
 
 .. _class_Mesh_constant_ARRAY_TANGENT:
 
@@ -194,7 +194,7 @@ Un :ref:`PackedVector3Array<class_PackedVector3Array>`, :ref:`PackedVector2Array
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_TANGENT** = ``2``
 
-:ref:`PackedFloat32Array<class_PackedFloat32Array>` of vertex tangents. Each element in groups of 4 floats, first 3 floats determine the tangent, and the last the binormal direction as -1 or 1.
+:ref:`PackedFloat32Array<class_PackedFloat32Array>` des tangentes des sommets. Chaque élément est un groupe de 4 flottants, les 3 premiers déterminent la tangente, et le dernier la direction binormale valant -1 ou 1.
 
 .. _class_Mesh_constant_ARRAY_COLOR:
 
@@ -226,7 +226,7 @@ Le :ref:`PackedVector2Array<class_PackedVector2Array>` pour les coordonnées UV.
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM0** = ``6``
 
-Contains custom color channel 0. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contient le canal de couleur personnalisé 0. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` vaut :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, ou :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` sinon.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM1:
 
@@ -234,7 +234,7 @@ Contains custom color channel 0. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM1** = ``7``
 
-Contains custom color channel 1. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM1_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contient le canal de couleur personnalisé 1. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` vaut :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, ou :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` sinon.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM2:
 
@@ -242,7 +242,7 @@ Contains custom color channel 1. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM2** = ``8``
 
-Contains custom color channel 2. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM2_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contient le canal de couleur personnalisé 2. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` vaut :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, ou :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` sinon.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM3:
 
@@ -250,7 +250,7 @@ Contains custom color channel 2. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_CUSTOM3** = ``9``
 
-Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` if ``(format >> Mesh.ARRAY_FORMAT_CUSTOM3_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` is :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, or :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` otherwise.
+Contient le canal de couleur personnalisé 3. :ref:`PackedByteArray<class_PackedByteArray>` si ``(format >> Mesh.ARRAY_FORMAT_CUSTOM0_SHIFT) & Mesh.ARRAY_FORMAT_CUSTOM_MASK`` vaut :ref:`ARRAY_CUSTOM_RGBA8_UNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_UNORM>`, :ref:`ARRAY_CUSTOM_RGBA8_SNORM<class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM>`, :ref:`ARRAY_CUSTOM_RG_HALF<class_Mesh_constant_ARRAY_CUSTOM_RG_HALF>`, ou :ref:`ARRAY_CUSTOM_RGBA_HALF<class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF>`. :ref:`PackedFloat32Array<class_PackedFloat32Array>` sinon.
 
 .. _class_Mesh_constant_ARRAY_BONES:
 
@@ -258,7 +258,7 @@ Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_BONES** = ``10``
 
-:ref:`PackedFloat32Array<class_PackedFloat32Array>` or :ref:`PackedInt32Array<class_PackedInt32Array>` of bone indices. Contains either 4 or 8 numbers per vertex depending on the presence of the :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>` flag.
+:ref:`PackedFloat32Array<class_PackedFloat32Array>` ou :ref:`PackedInt32Array<class_PackedInt32Array>` des indices d'os. Contient soit 4 soit 8 nombres par sommet selon la présence du drapeau :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>`.
 
 .. _class_Mesh_constant_ARRAY_WEIGHTS:
 
@@ -266,7 +266,7 @@ Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_WEIGHTS** = ``11``
 
-:ref:`PackedFloat32Array<class_PackedFloat32Array>` or :ref:`PackedFloat64Array<class_PackedFloat64Array>` of bone weights in the range ``0.0`` to ``1.0`` (inclusive). Contains either 4 or 8 numbers per vertex depending on the presence of the :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>` flag.
+:ref:`PackedFloat32Array<class_PackedFloat32Array>` ou :ref:`PackedFloat64Array<class_PackedFloat64Array>` de poids d'os dans l'intervalle ``0.0`` à ``1.0`` (inclusifs). Contient soit 4 soit 8 nombres par sommet selon la présence du drapeau :ref:`ARRAY_FLAG_USE_8_BONE_WEIGHTS<class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS>`.
 
 .. _class_Mesh_constant_ARRAY_INDEX:
 
@@ -274,9 +274,9 @@ Contains custom color channel 3. :ref:`PackedByteArray<class_PackedByteArray>` i
 
 :ref:`ArrayType<enum_Mesh_ArrayType>` **ARRAY_INDEX** = ``12``
 
-:ref:`PackedInt32Array<class_PackedInt32Array>` of integers used as indices referencing vertices, colors, normals, tangents, and textures. All of those arrays must have the same number of elements as the vertex array. No index can be beyond the vertex array size. When this index array is present, it puts the function into "index mode," where the index selects the *i*'th vertex, normal, tangent, color, UV, etc. This means if you want to have different normals or colors along an edge, you have to duplicate the vertices.
+:ref:`PackedInt32Array<class_PackedInt32Array>` d'entiers utilisés comme indices référençant des sommets, des couleurs, des normales, des tangentes et des textures. Tous ces tableaux doivent avoir le même nombre d'éléments que le tableau des sommets. Aucun index ne peut dépasser la taille du tableau des sommets. Lorsque ce tableau d'index est présent, il met la fonction en "mode index", où l'index sélectionne le *i-ième* sommet, normale, tangente, couleur, UV, etc. Cela signifie que si vous voulez avoir des normales ou des couleurs différentes le long d'une arête, vous devez dupliquer les sommets.
 
-For triangles, the index array is interpreted as triples, referring to the vertices of each triangle. For lines, the index array is in pairs indicating the start and end of each line.
+Pour les triangles, le tableau d'index est interprété comme des triplets, référençant les sommets de chaque triangle. Pour les lignes, le tableau d'index contient des paires indiquant le point de début et de fin de chaque ligne.
 
 .. _class_Mesh_constant_ARRAY_MAX:
 
@@ -302,7 +302,7 @@ enum **ArrayCustomFormat**: :ref:`🔗<enum_Mesh_ArrayCustomFormat>`
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA8_UNORM** = ``0``
 
-Indicates this custom channel contains unsigned normalized byte colors from 0 to 1, encoded as :ref:`PackedByteArray<class_PackedByteArray>`.
+Indique que ce canal personnalisé contient des couleurs sur des octets normalisés non signés de 0 à 1, encodés en tant que :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGBA8_SNORM:
 
@@ -310,7 +310,7 @@ Indicates this custom channel contains unsigned normalized byte colors from 0 to
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA8_SNORM** = ``1``
 
-Indicates this custom channel contains signed normalized byte colors from -1 to 1, encoded as :ref:`PackedByteArray<class_PackedByteArray>`.
+Indique que ce canal personnalisé contient des couleurs sur des octets normalisés de -1 à 1, encodés en tant que :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RG_HALF:
 
@@ -318,7 +318,7 @@ Indicates this custom channel contains signed normalized byte colors from -1 to 
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RG_HALF** = ``2``
 
-Indicates this custom channel contains half precision float colors, encoded as :ref:`PackedByteArray<class_PackedByteArray>`. Only red and green channels are used.
+Indique que ce canal personnalisé contient des couleurs sur des flottants en demi-précision, encodés en tant que :ref:`PackedByteArray<class_PackedByteArray>`. Seuls les canaux rouge et vert sont utilisés.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGBA_HALF:
 
@@ -326,7 +326,7 @@ Indicates this custom channel contains half precision float colors, encoded as :
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA_HALF** = ``3``
 
-Indicates this custom channel contains half precision float colors, encoded as :ref:`PackedByteArray<class_PackedByteArray>`.
+Indique que ce canal personnalisé contient des couleurs sur des flottants en demi-précision, encodés en tant que :ref:`PackedByteArray<class_PackedByteArray>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_R_FLOAT:
 
@@ -334,7 +334,7 @@ Indicates this custom channel contains half precision float colors, encoded as :
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_R_FLOAT** = ``4``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Only the red channel is used.
+Indique que ce canal personnalisé contient des couleurs sur des flottants complets, dans un :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Seul le canal rouge est utilisé.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RG_FLOAT:
 
@@ -342,7 +342,7 @@ Indicates this custom channel contains full float colors, in a :ref:`PackedFloat
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RG_FLOAT** = ``5``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Only red and green channels are used.
+Indique que ce canal personnalisé contient des couleurs sur des flottants complets, dans un :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Seul les canaux rouge et vert sont utilisés.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGB_FLOAT:
 
@@ -350,7 +350,7 @@ Indicates this custom channel contains full float colors, in a :ref:`PackedFloat
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGB_FLOAT** = ``6``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Only red, green and blue channels are used.
+Indique que ce canal personnalisé contient des couleurs sur des flottants complets, dans un :ref:`PackedFloat32Array<class_PackedFloat32Array>`. Seul les canaux rouge, vert et bleu sont utilisés.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_RGBA_FLOAT:
 
@@ -358,7 +358,7 @@ Indicates this custom channel contains full float colors, in a :ref:`PackedFloat
 
 :ref:`ArrayCustomFormat<enum_Mesh_ArrayCustomFormat>` **ARRAY_CUSTOM_RGBA_FLOAT** = ``7``
 
-Indicates this custom channel contains full float colors, in a :ref:`PackedFloat32Array<class_PackedFloat32Array>`.
+Indique que ce canal personnalisé contient des couleurs sur des flottants complets, dans un :ref:`PackedFloat32Array<class_PackedFloat32Array>`.
 
 .. _class_Mesh_constant_ARRAY_CUSTOM_MAX:
 
@@ -384,7 +384,7 @@ flags **ArrayFormat**: :ref:`🔗<enum_Mesh_ArrayFormat>`
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_VERTEX** = ``1``
 
-Un maillage de points contient des sommets. Tous les maillages nécessitent un tableau des sommets donc ce tableau doit être présent.
+Le tableau du maillage contient des sommets. Tous les maillages nécessitent un tableau de sommets donc ce tableau devrait toujours être présent.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_NORMAL:
 
@@ -392,7 +392,7 @@ Un maillage de points contient des sommets. Tous les maillages nécessitent un t
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_NORMAL** = ``2``
 
-Un maillage de points contient des normales.
+Le tableau du maillage contient des normales.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_TANGENT:
 
@@ -400,7 +400,7 @@ Un maillage de points contient des normales.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_TANGENT** = ``4``
 
-Un maillage de points contient des tangentes.
+Le tableau du maillage contient des tangentes.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_COLOR:
 
@@ -408,7 +408,7 @@ Un maillage de points contient des tangentes.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_COLOR** = ``8``
 
-Un maillage de points contient des couleurs.
+Le tableau du maillage contient des couleurs.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_TEX_UV:
 
@@ -416,7 +416,7 @@ Un maillage de points contient des couleurs.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_TEX_UV** = ``16``
 
-Un maillage de points contient des UV.
+Le tableau du maillage contient des UVs.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_TEX_UV2:
 
@@ -424,7 +424,7 @@ Un maillage de points contient des UV.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_TEX_UV2** = ``32``
 
-Un maillage de points contient des UV secondaires.
+Le tableau du maillage contient des UV secondaires.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM0:
 
@@ -432,7 +432,7 @@ Un maillage de points contient des UV secondaires.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM0** = ``64``
 
-Mesh array contains custom channel index 0.
+Le tableau du maillage contient un canal personnalisé d'index 0.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM1:
 
@@ -440,7 +440,7 @@ Mesh array contains custom channel index 0.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM1** = ``128``
 
-Mesh array contains custom channel index 1.
+Le tableau du maillage contient un canal personnalisé d'index 1.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM2:
 
@@ -448,7 +448,7 @@ Mesh array contains custom channel index 1.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM2** = ``256``
 
-Mesh array contains custom channel index 2.
+Le tableau du maillage contient un canal personnalisé d'index 2.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_CUSTOM3:
 
@@ -456,7 +456,7 @@ Mesh array contains custom channel index 2.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FORMAT_CUSTOM3** = ``512``
 
-Mesh array contains custom channel index 3.
+Le tableau du maillage contient un canal personnalisé d'index 3.
 
 .. _class_Mesh_constant_ARRAY_FORMAT_BONES:
 
@@ -568,7 +568,7 @@ Un marqueur pour spécifier que ce tableau contient des sommets 2D.
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USE_DYNAMIC_UPDATE** = ``67108864``
 
-Flag used to mark that the mesh data will use ``GL_DYNAMIC_DRAW`` on GLES. Unused on Vulkan.
+Drapeau utilisé pour marquer que les données du maillage utiliseront ``GL_DYNAMIC_DRAW`` sur GLES. Inutilisé sur Vulkan.
 
 .. _class_Mesh_constant_ARRAY_FLAG_USE_8_BONE_WEIGHTS:
 
@@ -584,7 +584,7 @@ Flag used to mark that the mesh contains up to 8 bone influences per vertex. Thi
 
 :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` **ARRAY_FLAG_USES_EMPTY_VERTEX_ARRAY** = ``268435456``
 
-Flag used to mark that the mesh intentionally contains no vertex array.
+Drapeau utilisé pour marquer que le maillage ne contient intentionnellement aucun tableau de sommets.
 
 .. _class_Mesh_constant_ARRAY_FLAG_COMPRESS_ATTRIBUTES:
 
@@ -610,7 +610,7 @@ enum **BlendShapeMode**: :ref:`🔗<enum_Mesh_BlendShapeMode>`
 
 :ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>` **BLEND_SHAPE_MODE_NORMALIZED** = ``0``
 
-Les formes de fusion sont normalisées.
+Les blend shapes sont normalisées.
 
 .. _class_Mesh_constant_BLEND_SHAPE_MODE_RELATIVE:
 
@@ -618,7 +618,7 @@ Les formes de fusion sont normalisées.
 
 :ref:`BlendShapeMode<enum_Mesh_BlendShapeMode>` **BLEND_SHAPE_MODE_RELATIVE** = ``1``
 
-Blend shapes are relative to base weight.
+Les blend shapes sont relatives au poids de base.
 
 .. rst-class:: classref-section-separator
 
@@ -640,7 +640,7 @@ Descriptions des propriétés
 - |void| **set_lightmap_size_hint**\ (\ value\: :ref:`Vector2i<class_Vector2i>`\ )
 - :ref:`Vector2i<class_Vector2i>` **get_lightmap_size_hint**\ (\ )
 
-Sets a hint to be used for lightmap resolution.
+Définit un indice à utiliser pour la résolution de la lightmap.
 
 .. rst-class:: classref-section-separator
 
@@ -879,7 +879,7 @@ Calcule une :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` à partir 
 
 :ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh**\ (\ ) |const| :ref:`🔗<class_Mesh_method_generate_triangle_mesh>`
 
-Generate a :ref:`TriangleMesh<class_TriangleMesh>` from the mesh. Considers only surfaces using one of these primitive types: :ref:`PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`, :ref:`PRIMITIVE_TRIANGLE_STRIP<class_Mesh_constant_PRIMITIVE_TRIANGLE_STRIP>`.
+Génère un :ref:`TriangleMesh<class_TriangleMesh>` depuis le maillage. Considère seulement les surfaces utilisant un de ces types primitifs : :ref:`PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`, :ref:`PRIMITIVE_TRIANGLE_STRIP<class_Mesh_constant_PRIMITIVE_TRIANGLE_STRIP>`.
 
 .. rst-class:: classref-item-separator
 
@@ -891,9 +891,9 @@ Generate a :ref:`TriangleMesh<class_TriangleMesh>` from the mesh. Considers only
 
 :ref:`AABB<class_AABB>` **get_aabb**\ (\ ) |const| :ref:`🔗<class_Mesh_method_get_aabb>`
 
-Returns the smallest :ref:`AABB<class_AABB>` enclosing this mesh in local space. Not affected by ``custom_aabb``.
+Renvoie la plus petite :ref:`AABB<class_AABB>` englobant ce maillage dans l'espace local. Non affecté par ``custom_aabb``.
 
-\ **Note:** This is only implemented for :ref:`ArrayMesh<class_ArrayMesh>` and :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
+\ **Note :** Ceci n'est implémenté que pour :ref:`ArrayMesh<class_ArrayMesh>` et :ref:`PrimitiveMesh<class_PrimitiveMesh>`.
 
 .. rst-class:: classref-item-separator
 
@@ -917,7 +917,7 @@ Renvoie tous les sommets qui composent les faces du maillage. Chaque triplet de 
 
 :ref:`int<class_int>` **get_surface_count**\ (\ ) |const| :ref:`🔗<class_Mesh_method_get_surface_count>`
 
-Returns the number of surfaces that the **Mesh** holds. This is equivalent to :ref:`MeshInstance3D.get_surface_override_material_count()<class_MeshInstance3D_method_get_surface_override_material_count>`.
+Renvoie le nombre de surfaces que le **Mesh** contient. Ceci est équivalent à :ref:`MeshInstance3D.get_surface_override_material_count()<class_MeshInstance3D_method_get_surface_override_material_count>`.
 
 .. rst-class:: classref-item-separator
 
@@ -929,7 +929,7 @@ Returns the number of surfaces that the **Mesh** holds. This is equivalent to :r
 
 :ref:`Array<class_Array>` **surface_get_arrays**\ (\ surf_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Mesh_method_surface_get_arrays>`
 
-Returns the arrays for the vertices, normals, UVs, etc. that make up the requested surface (see :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>`).
+Renvoie les tableaux pour les sommets, les normales, les UVs, etc. qui composent la surface demandée (voir :ref:`ArrayMesh.add_surface_from_arrays()<class_ArrayMesh_method_add_surface_from_arrays>`).
 
 .. rst-class:: classref-item-separator
 
@@ -953,9 +953,9 @@ Renvoie les tableaux de blend shape pour la surface demandée.
 
 :ref:`Material<class_Material>` **surface_get_material**\ (\ surf_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Mesh_method_surface_get_material>`
 
-Returns a :ref:`Material<class_Material>` in a given surface. Surface is rendered using this material.
+Renvoie un :ref:`Material<class_Material>` dans une surface donnée. La surface est rendue en utilisant ce matériau.
 
-\ **Note:** This returns the material within the **Mesh** resource, not the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties. To get the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties, use :ref:`MeshInstance3D.get_surface_override_material()<class_MeshInstance3D_method_get_surface_override_material>` instead.
+\ **Note :** Cela renvoie le matériau dans la ressource **Mesh**, pas le :ref:`Material<class_Material>` associé aux propriétés de redéfinition du matériau de surface du :ref:`MeshInstance3D<class_MeshInstance3D>`. Pour obtenir le :ref:`Material<class_Material>` associé aux propriétés de redéfinition du matériau de surface du :ref:`MeshInstance3D<class_MeshInstance3D>`, utilisez plutôt :ref:`MeshInstance3D.get_surface_override_material()<class_MeshInstance3D_method_get_surface_override_material>`.
 
 .. rst-class:: classref-item-separator
 
@@ -967,9 +967,9 @@ Returns a :ref:`Material<class_Material>` in a given surface. Surface is rendere
 
 |void| **surface_set_material**\ (\ surf_idx\: :ref:`int<class_int>`, material\: :ref:`Material<class_Material>`\ ) :ref:`🔗<class_Mesh_method_surface_set_material>`
 
-Sets a :ref:`Material<class_Material>` for a given surface. Surface will be rendered using this material.
+Définit un :ref:`Material<class_Material>` pour une surface donnée. La surface sera rendue en utilisant ce matériel.
 
-\ **Note:** This assigns the material within the **Mesh** resource, not the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties. To set the :ref:`Material<class_Material>` associated to the :ref:`MeshInstance3D<class_MeshInstance3D>`'s Surface Material Override properties, use :ref:`MeshInstance3D.set_surface_override_material()<class_MeshInstance3D_method_set_surface_override_material>` instead.
+\ **Note :** Cela attribue le matériau dans la ressource **Mesh**, pas le :ref:`Material<class_Material>` associé aux propriétés de redéfinition du matériau de surface du :ref:`MeshInstance3D<class_MeshInstance3D>`. Pour définir le :ref:`Material<class_Material>` associé aux propriétés de redéfinition du matériau de surface du :ref:`MeshInstance3D<class_MeshInstance3D>`, utilisez plutôt :ref:`MeshInstance3D.set_surface_override_material()<class_MeshInstance3D_method_set_surface_override_material>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

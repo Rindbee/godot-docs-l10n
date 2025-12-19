@@ -14,13 +14,13 @@ Objet léger utilisé pour l'animation générale par script, en utilisant des :
 Description
 -----------
 
-Tweens are mostly useful for animations requiring a numerical property to be interpolated over a range of values. The name *tween* comes from *in-betweening*, an animation technique where you specify *keyframes* and the computer interpolates the frames that appear between them. Animating something with a **Tween** is called tweening.
+Les tweens sont généralement utiles pour des animations ayant besoin d'interpoler une propriété numérique sur une plage de valeurs. Le nom *tween* provient de l'anglais *in-betweening* (litt. "entre-dedans"), une technique d'animation où l'on spécifie des *clés d'animation* et l'ordinateur interpole les trames qui apparaissent entre elles. Animer quelque chose avec un **Tween** est appelé du tweening.
 
-\ **Tween** is more suited than :ref:`AnimationPlayer<class_AnimationPlayer>` for animations where you don't know the final values in advance. For example, interpolating a dynamically-chosen camera zoom value is best done with a **Tween**; it would be difficult to do the same thing with an :ref:`AnimationPlayer<class_AnimationPlayer>` node. Tweens are also more light-weight than :ref:`AnimationPlayer<class_AnimationPlayer>`, so they are very much suited for simple animations or general tasks that don't require visual tweaking provided by the editor. They can be used in a "fire-and-forget" manner for some logic that normally would be done by code. You can e.g. make something shoot periodically by using a looped :ref:`CallbackTweener<class_CallbackTweener>` with a delay.
+\ **Tween** est plus adapté qu':ref:`AnimationPlayer<class_AnimationPlayer>` pour les animations où l'on ne connaît pas les valeurs finales à l'avance. Par exemple, interpoler une valeur de zoom de caméra choisie dynamiquement est mieux fait avec un **Tween**, il serait difficile de faire la même chose avec un nœud :ref:`AnimationNode<class_AnimationNode>`. Les tweens sont aussi plus légers qu':ref:`AnimationPlayer<class_AnimationPlayer>`, car ils sont très adaptés aux animations simples ou aux tâches générales qui ne nécessitent pas d'ajustement manuel dans l'éditeur. Ils peuvent être utilisés d'une manière "déclencher et oublier" pour de la logique qui serait normalement faite dans du code. Vous pouvez par exemple faire tirer quelque chose périodiquement en utilisant un :ref:`CallbackTweener<class_CallbackTweener>` bouclant avec un délai.
 
-A **Tween** can be created by using either :ref:`SceneTree.create_tween()<class_SceneTree_method_create_tween>` or :ref:`Node.create_tween()<class_Node_method_create_tween>`. **Tween**\ s created manually (i.e. by using ``Tween.new()``) are invalid and can't be used for tweening values.
+Un **Tween** peut être créé en utilisant soit :ref:`SceneTree.create_tween()<class_SceneTree_method_create_tween>` ou :ref:`Node.create_tween()<class_Node_method_create_tween>`. Les **Tween**\ s créés manuellement (par ex. en utilisant ``Tween.new()``) sont invalides et ne peuvent être utiliser pour tweener des valeurs.
 
-A tween animation is created by adding :ref:`Tweener<class_Tweener>`\ s to the **Tween** object, using :ref:`tween_property()<class_Tween_method_tween_property>`, :ref:`tween_interval()<class_Tween_method_tween_interval>`, :ref:`tween_callback()<class_Tween_method_tween_callback>` or :ref:`tween_method()<class_Tween_method_tween_method>`:
+Une animation de tween est créée en ajoutant des :ref:`Tweener<class_Tweener>`\ s à l'objet **Tween**, en utilisant :ref:`tween_property()<class_Tween_method_tween_property>`, :ref:`tween_interval()<class_Tween_method_tween_interval>`, :ref:`tween_callback()<class_Tween_method_tween_callback>` ou :ref:`tween_method()<class_Tween_method_tween_method>`\  :
 
 
 .. tabs::
@@ -41,9 +41,9 @@ A tween animation is created by adding :ref:`Tweener<class_Tweener>`\ s to the *
 
 
 
-This sequence will make the ``$Sprite`` node turn red, then shrink, before finally calling :ref:`Node.queue_free()<class_Node_method_queue_free>` to free the sprite. :ref:`Tweener<class_Tweener>`\ s are executed one after another by default. This behavior can be changed using :ref:`parallel()<class_Tween_method_parallel>` and :ref:`set_parallel()<class_Tween_method_set_parallel>`.
+Cette séquence changera le nœud ``$Sprite`` en rouge, puis le réduira jusqu'à le faire disparaître et enfin :ref:`Node.queue_free()<class_Node_method_queue_free>` sera appelée pour libérer le sprite. Les :ref:`Tweener<class_Tweener>`\ s sont exécutés l'un après l'autre par défaut. Ce comportement peut être changé en utilisant :ref:`parallel()<class_Tween_method_parallel>` et :ref:`set_parallel()<class_Tween_method_set_parallel>`.
 
-When a :ref:`Tweener<class_Tweener>` is created with one of the ``tween_*`` methods, a chained method call can be used to tweak the properties of this :ref:`Tweener<class_Tweener>`. For example, if you want to set a different transition type in the above example, you can use :ref:`set_trans()<class_Tween_method_set_trans>`:
+Quand un :ref:`Tweener<class_Tweener>` est créé avec une des méthodes ``tween_*``, une méthode peut être enchaînée pour ajuster les propriétés de ce :ref:`Tweener<class_Tweener>`. Par exemple, si vous souhaitez définir un autre type d'accélération dans l'exemple précédent, vous pouvez utiliser :ref:`set_trans()<class_Tween_method_set_trans>`\  :
 
 
 .. tabs::
@@ -64,7 +64,7 @@ When a :ref:`Tweener<class_Tweener>` is created with one of the ``tween_*`` meth
 
 
 
-Most of the **Tween** methods can be chained this way too. In the following example the **Tween** is bound to the running script's node and a default transition is set for its :ref:`Tweener<class_Tweener>`\ s:
+La plupart des méthodes **Tween** peuvent aussi être enchaînées de cette façon. Dans cet exemple, le **Tween** est lié au nœud du script en cours d'exécution et une transition par défaut sera définie pour ses :ref:`Tweener<class_Tweener>`\ s :
 
 
 .. tabs::
@@ -85,7 +85,7 @@ Most of the **Tween** methods can be chained this way too. In the following exam
 
 
 
-Another interesting use for **Tween**\ s is animating arbitrary sets of objects:
+Un autre usage intéressant des **Tween**\ s est l'animation d'ensembles arbitraires d'objets :
 
 
 .. tabs::
@@ -104,9 +104,9 @@ Another interesting use for **Tween**\ s is animating arbitrary sets of objects:
 
 
 
-In the example above, all children of a node are moved one after another to position ``(0, 0)``.
+Dans l'exemple au-dessus, tous les enfants d'un nœud sont déplacés à leur tour à la position ``(0, 0)``.
 
-You should avoid using more than one **Tween** per object's property. If two or more tweens animate one property at the same time, the last one created will take priority and assign the final value. If you want to interrupt and restart an animation, consider assigning the **Tween** to a variable:
+Vous devriez éviter d'utiliser plus d'un **Tween** par propriété d'un objet. Si deux tweens ou plus animent une propriété en même temps, le dernier créé prendra la priorité et assignera la valeur finale. Si vous voulez interrompre et redémarrer une animation, envisagez d'assigner le **Tween** à une variable :
 
 
 .. tabs::
@@ -114,31 +114,31 @@ You should avoid using more than one **Tween** per object's property. If two or 
  .. code-tab:: gdscript
 
     var tween
-    func animate():
+    func animer():
         if tween:
-            tween.kill() # Abort the previous animation.
+            tween.kill() # Avorter l'animation précédente.
         tween = create_tween()
 
  .. code-tab:: csharp
 
     private Tween _tween;
 
-    public void Animate()
+    public void Animer()
     {
-        if (_tween != null)
-            _tween.Kill(); // Abort the previous animation
+        if (_tween != null)
+            _tween.Kill(); // Avorter l'animation précédente.
         _tween = CreateTween();
     }
 
 
 
-Some :ref:`Tweener<class_Tweener>`\ s use transitions and eases. The first accepts a :ref:`TransitionType<enum_Tween_TransitionType>` constant, and refers to the way the timing of the animation is handled (see `easings.net <https://easings.net/>`__ for some examples). The second accepts an :ref:`EaseType<enum_Tween_EaseType>` constant, and controls where the ``trans_type`` is applied to the interpolation (in the beginning, the end, or both). If you don't know which transition and easing to pick, you can try different :ref:`TransitionType<enum_Tween_TransitionType>` constants with :ref:`EASE_IN_OUT<class_Tween_constant_EASE_IN_OUT>`, and use the one that looks best.
+Certains :ref:`Tweener<class_Tweener>`\ s utilisent des transitions et des accélérations. Le premier accepte une constante :ref:`TransitionType<enum_Tween_TransitionType>`, et se réfère à la manière dont le timing de l'animation est gérée (voir `easings.net <https://easings.net/>`__ pour quelques exemples). Le second accepte une constante :ref:`EaseType<enum_Tween_EaseType>`, et contrôle où le ``trans_type`` s'applique durant l'interpolation (au début, à la fin, ou les deux). Si vous ne savez pas quel transition et accélération choisir, vous pouvez essayer différentes constantes :ref:`TransitionType<enum_Tween_TransitionType>` avec :ref:`EASE_IN_OUT<class_Tween_constant_EASE_IN_OUT>`, et utiliser celle qui vous semble la meilleure.
 
-\ `Tween easing and transition types cheatsheet <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/tween_cheatsheet.webp>`__\ 
+\ `Aide-mémoire des types de transitions et d'accélération des Tween <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/tween_cheatsheet.webp>`__\ 
 
-\ **Note:** Tweens are not designed to be reused and trying to do so results in an undefined behavior. Create a new Tween for each animation and every time you replay an animation from start. Keep in mind that Tweens start immediately, so only create a Tween when you want to start animating.
+\ **Note :** Les Tweens ne sont pas prévus pour être réutilisés et essayer de le faire résulte en un comportement indéfini. Créez un nouveau Tween pour chaque animation et chaque fois que vous recommencez une animation du début. Gardez à l'esprit que les Tweens commencent immédiatement, donc ne créez un Tween que lorsque vous voulez commencer à animer.
 
-\ **Note:** The tween is processed after all of the nodes in the current frame, i.e. node's :ref:`Node._process()<class_Node_private_method__process>` method would be called before the tween (or :ref:`Node._physics_process()<class_Node_private_method__physics_process>` depending on the value passed to :ref:`set_process_mode()<class_Tween_method_set_process_mode>`).
+\ **Note :** Le tween est traité après tous les nœuds de la trame actuelle, c-à-d la méthode :ref:`Node._process()<class_Node_private_method__process>` du nœud serait appelée avant le tween (ou :ref:`Node._physics_process()<class_Node_private_method__physics_process>` selon la valeur passée à :ref:`set_process_mode()<class_Tween_method_set_process_mode>`).
 
 .. rst-class:: classref-reftable-group
 
@@ -217,7 +217,7 @@ Signaux
 
 **finished**\ (\ ) :ref:`🔗<class_Tween_signal_finished>`
 
-Emitted when the **Tween** has finished all tweening. Never emitted when the **Tween** is set to infinite looping (see :ref:`set_loops()<class_Tween_method_set_loops>`).
+Émis quand le **Tween** a fini tout le tweening. Jamais émis lorsque le **Tween** est défini à une boucle infinie (voir :ref:`set_loops()<class_Tween_method_set_loops>`).
 
 .. rst-class:: classref-item-separator
 
@@ -229,7 +229,7 @@ Emitted when the **Tween** has finished all tweening. Never emitted when the **T
 
 **loop_finished**\ (\ loop_count\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Tween_signal_loop_finished>`
 
-Emitted when a full loop is complete (see :ref:`set_loops()<class_Tween_method_set_loops>`), providing the loop index. This signal is not emitted after the final loop, use :ref:`finished<class_Tween_signal_finished>` instead for this case.
+Émis lorsqu'une boucle complète est finie (voir :ref:`set_loops()<class_Tween_method_set_loops>`), fournissant l'index de la boucle. Ce signal n'est pas émis après la boucle finale, utilisez :ref:`finished<class_Tween_signal_finished>` à la place pour ce cas.
 
 .. rst-class:: classref-item-separator
 
@@ -241,7 +241,7 @@ Emitted when a full loop is complete (see :ref:`set_loops()<class_Tween_method_s
 
 **step_finished**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Tween_signal_step_finished>`
 
-Emitted when one step of the **Tween** is complete, providing the step index. One step is either a single :ref:`Tweener<class_Tweener>` or a group of :ref:`Tweener<class_Tweener>`\ s running in parallel.
+Émis lorsqu'une étape du **Tween** est terminée, en fournissant l'index de l'étape. Une étape est soit un seul :ref:`Tweener<class_Tweener>` ou un groupe de :ref:`Tweener<class_Tweener>`\ s fonctionnant en parallèle.
 
 .. rst-class:: classref-section-separator
 
@@ -272,7 +272,7 @@ Le **Tween** se met à jour après chaque trame de physique (voir :ref:`Node._ph
 
 :ref:`TweenProcessMode<enum_Tween_TweenProcessMode>` **TWEEN_PROCESS_IDLE** = ``1``
 
-The **Tween** updates after each process frame (see :ref:`Node._process()<class_Node_private_method__process>`).
+Le **Tween** se met à jour après chaque trame de traitement (voir :ref:`Node._process()<class_Node_private_method__process>`).
 
 .. rst-class:: classref-item-separator
 
@@ -290,7 +290,7 @@ enum **TweenPauseMode**: :ref:`🔗<enum_Tween_TweenPauseMode>`
 
 :ref:`TweenPauseMode<enum_Tween_TweenPauseMode>` **TWEEN_PAUSE_BOUND** = ``0``
 
-If the **Tween** has a bound node, it will process when that node can process (see :ref:`Node.process_mode<class_Node_property_process_mode>`). Otherwise it's the same as :ref:`TWEEN_PAUSE_STOP<class_Tween_constant_TWEEN_PAUSE_STOP>`.
+Si le **Tween** a un nœud lié, il traitera quand ce nœud peut traiter (voir :ref:`Node.process_mode<class_Node_property_process_mode>`). Sinon, identique à :ref:`TWEEN_PAUSE_STOP<class_Tween_constant_TWEEN_PAUSE_STOP>`.
 
 .. _class_Tween_constant_TWEEN_PAUSE_STOP:
 
@@ -298,7 +298,7 @@ If the **Tween** has a bound node, it will process when that node can process (s
 
 :ref:`TweenPauseMode<enum_Tween_TweenPauseMode>` **TWEEN_PAUSE_STOP** = ``1``
 
-If :ref:`SceneTree<class_SceneTree>` is paused, the **Tween** will also pause.
+Si le :ref:`SceneTree<class_SceneTree>` est en pause, le **Tween** le sera aussi.
 
 .. _class_Tween_constant_TWEEN_PAUSE_PROCESS:
 
@@ -306,7 +306,7 @@ If :ref:`SceneTree<class_SceneTree>` is paused, the **Tween** will also pause.
 
 :ref:`TweenPauseMode<enum_Tween_TweenPauseMode>` **TWEEN_PAUSE_PROCESS** = ``2``
 
-The **Tween** will process regardless of whether :ref:`SceneTree<class_SceneTree>` is paused.
+Le **Tween** traitera peu importe l'état de pause du :ref:`SceneTree<class_SceneTree>`.
 
 .. rst-class:: classref-item-separator
 
@@ -412,7 +412,7 @@ L’animation est interpolée en reculant aux extrémités.
 
 :ref:`TransitionType<enum_Tween_TransitionType>` **TRANS_SPRING** = ``11``
 
-The animation is interpolated like a spring towards the end.
+L'animation est interpolée comme un ressort vers la fin.
 
 .. rst-class:: classref-item-separator
 
@@ -471,9 +471,9 @@ Descriptions des méthodes
 
 :ref:`Tween<class_Tween>` **bind_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_Tween_method_bind_node>`
 
-Binds this **Tween** with the given ``node``. **Tween**\ s are processed directly by the :ref:`SceneTree<class_SceneTree>`, so they run independently of the animated nodes. When you bind a :ref:`Node<class_Node>` with the **Tween**, the **Tween** will halt the animation when the object is not inside tree and the **Tween** will be automatically killed when the bound object is freed. Also :ref:`TWEEN_PAUSE_BOUND<class_Tween_constant_TWEEN_PAUSE_BOUND>` will make the pausing behavior dependent on the bound node.
+Lie ce **Tween** avec le nœud ``node`` donné. Les **Tween**\ s sont traités directement par le :ref:`SceneTree<class_SceneTree>`, donc ils fonctionnent indépendamment des nœuds animés. Lorsque vous liez un :ref:`Node<class_Node>` avec le **Tween**, le **Tween** arrêtera l'animation lorsque l'objet n'est pas à l'intérieur de l'arborescence et le **Tween** sera automatiquement tué lorsque l'objet lié est libéré. :ref:`TWEEN_PAUSE_BOUND<class_Tween_constant_TWEEN_PAUSE_BOUND>` rendra aussi le comportement de pause dépendant du nœud lié.
 
-For a shorter way to create and bind a **Tween**, you can use :ref:`Node.create_tween()<class_Node_method_create_tween>`.
+Pour un moyen plus court de créer et de lier un **Tween**, vous pouvez utiliser :ref:`Node.create_tween()<class_Node_method_create_tween>`.
 
 .. rst-class:: classref-item-separator
 
@@ -485,7 +485,7 @@ For a shorter way to create and bind a **Tween**, you can use :ref:`Node.create_
 
 :ref:`Tween<class_Tween>` **chain**\ (\ ) :ref:`🔗<class_Tween_method_chain>`
 
-Used to chain two :ref:`Tweener<class_Tweener>`\ s after :ref:`set_parallel()<class_Tween_method_set_parallel>` is called with ``true``.
+Utiliser pour enchaîner deux :ref:`Tweener<class_Tweener>` après que :ref:`set_parallel()<class_Tween_method_set_parallel>` est appelé avec ``true``.
 
 
 .. tabs::
@@ -494,15 +494,15 @@ Used to chain two :ref:`Tweener<class_Tweener>`\ s after :ref:`set_parallel()<cl
 
     var tween = create_tween().set_parallel(true)
     tween.tween_property(...)
-    tween.tween_property(...) # Will run parallelly with above.
-    tween.chain().tween_property(...) # Will run after two above are finished.
+    tween.tween_property(...) # S'exécutera en parallèle de l'appel au-dessus.
+    tween.chain().tween_property(...) # S'exécutera que quand les deux appels au-dessus seront terminés.
 
  .. code-tab:: csharp
 
     Tween tween = CreateTween().SetParallel(true);
     tween.TweenProperty(...);
-    tween.TweenProperty(...); // Will run parallelly with above.
-    tween.Chain().TweenProperty(...); // Will run after two above are finished.
+    tween.TweenProperty(...); // S'exécutera en parallèle de l'appel au-dessus.
+    tween.Chain().TweenProperty(...); // S'exécutera que quand les deux appels au-dessus seront terminés.
 
 
 
@@ -516,9 +516,9 @@ Used to chain two :ref:`Tweener<class_Tweener>`\ s after :ref:`set_parallel()<cl
 
 :ref:`bool<class_bool>` **custom_step**\ (\ delta\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Tween_method_custom_step>`
 
-Processes the **Tween** by the given ``delta`` value, in seconds. This is mostly useful for manual control when the **Tween** is paused. It can also be used to end the **Tween** animation immediately, by setting ``delta`` longer than the whole duration of the **Tween** animation.
+Traite le **Tween** par la valeur ``delta`` donnée, en secondes. Cela est surtout utile pour du contrôle manuel lorsque le **Tween** est mis en pause. Elle peut également être utilisée pour mettre fin à l'animation du **Tween** immédiatement, en fixant ``delta`` à une valeur plus longue que toute la durée de l'animation du **Tween**.
 
-Returns ``true`` if the **Tween** still has :ref:`Tweener<class_Tweener>`\ s that haven't finished.
+Renvoie ``true`` si le **Tween** a encore des :ref:`Tweener<class_Tweener>`\ s qui ne sont pas finis.
 
 .. rst-class:: classref-item-separator
 
@@ -530,7 +530,7 @@ Returns ``true`` if the **Tween** still has :ref:`Tweener<class_Tweener>`\ s tha
 
 :ref:`int<class_int>` **get_loops_left**\ (\ ) |const| :ref:`🔗<class_Tween_method_get_loops_left>`
 
-Returns the number of remaining loops for this **Tween** (see :ref:`set_loops()<class_Tween_method_set_loops>`). A return value of ``-1`` indicates an infinitely looping **Tween**, and a return value of ``0`` indicates that the **Tween** has already finished.
+Renvoie le nombre de boucles restantes pour ce **Tween** (voir :ref:`set_loops()<class_Tween_method_set_loops>`). Une valeur de renvoie de ``-1`` indique un **Tween** bouclant infiniement, et une valeur de renvoi de ``0`` indique que le **Tween** s'est déjà terminé.
 
 .. rst-class:: classref-item-separator
 
@@ -542,9 +542,9 @@ Returns the number of remaining loops for this **Tween** (see :ref:`set_loops()<
 
 :ref:`float<class_float>` **get_total_elapsed_time**\ (\ ) |const| :ref:`🔗<class_Tween_method_get_total_elapsed_time>`
 
-Returns the total time in seconds the **Tween** has been animating (i.e. the time since it started, not counting pauses etc.). The time is affected by :ref:`set_speed_scale()<class_Tween_method_set_speed_scale>`, and :ref:`stop()<class_Tween_method_stop>` will reset it to ``0``.
+Renvoie le temps total en secondes durant lequel **Tween** a animé (c.-à-d. le temps depuis son début, sans compter les pauses, etc.). Le temps est affecté par :ref:`set_speed_scale()<class_Tween_method_set_speed_scale>`, et :ref:`stop()<class_Tween_method_stop>` le réinitialisera à ``0``.
 
-\ **Note:** As it results from accumulating frame deltas, the time returned after the **Tween** has finished animating will be slightly greater than the actual **Tween** duration.
+\ **Note :** Comme il résulte de l'accumulation des deltas de trames, le temps renvoyé après que le **Tween** ait fini d'animer sera légèrement supérieur à la durée réelle du **Tween**.
 
 .. rst-class:: classref-item-separator
 
@@ -556,17 +556,17 @@ Returns the total time in seconds the **Tween** has been animating (i.e. the tim
 
 :ref:`Variant<class_Variant>` **interpolate_value**\ (\ initial_value\: :ref:`Variant<class_Variant>`, delta_value\: :ref:`Variant<class_Variant>`, elapsed_time\: :ref:`float<class_float>`, duration\: :ref:`float<class_float>`, trans_type\: :ref:`TransitionType<enum_Tween_TransitionType>`, ease_type\: :ref:`EaseType<enum_Tween_EaseType>`\ ) |static| :ref:`🔗<class_Tween_method_interpolate_value>`
 
-This method can be used for manual interpolation of a value, when you don't want **Tween** to do animating for you. It's similar to :ref:`@GlobalScope.lerp()<class_@GlobalScope_method_lerp>`, but with support for custom transition and easing.
+Cette méthode peut être utilisée pour de l'interpolation manuelle d'une valeur, lorsque vous ne voulez pas que **Tween** fasse l'animation pour vous. Elle est similaire à :ref:`@GlobalScope.lerp()<class_@GlobalScope_method_lerp>`, mais avec du support pour des transitions et accélérations personnalisées.
 
-\ ``initial_value`` is the starting value of the interpolation.
+\ ``initial_value`` est la valeur de départ de l'interpolation.
 
-\ ``delta_value`` is the change of the value in the interpolation, i.e. it's equal to ``final_value - initial_value``.
+\ ``delta_value`` est le changement de la valeur dans l'interpolation, c'est-à-dire qu'il est égal à ``final_value - initial_value``.
 
-\ ``elapsed_time`` is the time in seconds that passed after the interpolation started and it's used to control the position of the interpolation. E.g. when it's equal to half of the ``duration``, the interpolated value will be halfway between initial and final values. This value can also be greater than ``duration`` or lower than 0, which will extrapolate the value.
+\ ``elapsed_time`` est le temps en secondes passé après que l'interpolation ait commencé et il est utilisé pour contrôler la position de l'interpolation. Par exemple, lorsqu'il est égal à la moitié de ``duration``, la valeur interpolée sera à mi-chemin entre les valeurs initiales et finales. Cette valeur peut également être supérieure à ``duration`` ou inférieure à 0, ce qui extrapolera la valeur.
 
-\ ``duration`` is the total time of the interpolation.
+\ ``duration`` est le temps total de l'interpolation.
 
-\ **Note:** If ``duration`` is equal to ``0``, the method will always return the final value, regardless of ``elapsed_time`` provided.
+\ **Note :** Si ``duration`` est égal à ``0``, la méthode renverra toujours la valeur finale, peu importe l'``elapsed_time`` fourni.
 
 .. rst-class:: classref-item-separator
 
@@ -578,7 +578,7 @@ This method can be used for manual interpolation of a value, when you don't want
 
 :ref:`bool<class_bool>` **is_running**\ (\ ) :ref:`🔗<class_Tween_method_is_running>`
 
-Returns whether the **Tween** is currently running, i.e. it wasn't paused and it's not finished.
+Renvoie si le **Tween** est actuellement en cours d'exécution, c'est-à-dire qu'il n'a pas été mis en pause et il n'est pas fini.
 
 .. rst-class:: classref-item-separator
 
@@ -590,7 +590,7 @@ Returns whether the **Tween** is currently running, i.e. it wasn't paused and it
 
 :ref:`bool<class_bool>` **is_valid**\ (\ ) :ref:`🔗<class_Tween_method_is_valid>`
 
-Returns whether the **Tween** is valid. A valid **Tween** is a **Tween** contained by the scene tree (i.e. the array from :ref:`SceneTree.get_processed_tweens()<class_SceneTree_method_get_processed_tweens>` will contain this **Tween**). A **Tween** might become invalid when it has finished tweening, is killed, or when created with ``Tween.new()``. Invalid **Tween**\ s can't have :ref:`Tweener<class_Tweener>`\ s appended.
+Renvoie si le **Tween** est valide. Un **Tween** valide est un **Tween** contenu par l'arborescence de scène (c.-à-d. le tableau de :ref:`SceneTree.get_processed_tweens()<class_SceneTree_method_get_processed_tweens>` contiendra ce **Tween**). Un **Tween** peut devenir invalide lorsqu'il a fini de tweening, est tué, ou lorsqu'il est créé avec ``Tween.new()``. Les **Tween** invalides ne peuvent pas avoir de :ref:`Tweener<class_Tweener>`\ s ajoutés.
 
 .. rst-class:: classref-item-separator
 
@@ -602,7 +602,7 @@ Returns whether the **Tween** is valid. A valid **Tween** is a **Tween** contain
 
 |void| **kill**\ (\ ) :ref:`🔗<class_Tween_method_kill>`
 
-Aborts all tweening operations and invalidates the **Tween**.
+Avorte toutes les opérations de tweening et invalide le **Tween**.
 
 .. rst-class:: classref-item-separator
 
@@ -649,9 +649,9 @@ Vous pouvez rendre le **Tween** parallèle par défaut en utilisant :ref:`set_pa
 
 |void| **pause**\ (\ ) :ref:`🔗<class_Tween_method_pause>`
 
-Pauses the tweening. The animation can be resumed by using :ref:`play()<class_Tween_method_play>`.
+Met en pause le tweening. L'animation peut être reprise en utilisant :ref:`play()<class_Tween_method_play>`.
 
-\ **Note:** If a Tween is paused and not bound to any node, it will exist indefinitely until manually started or invalidated. If you lose a reference to such Tween, you can retrieve it using :ref:`SceneTree.get_processed_tweens()<class_SceneTree_method_get_processed_tweens>`.
+\ **Note :** Si un Tween est en pause et n'est pas lié à un nœud, il existera indéfiniment jusqu'à ce qu'il soit manuellement démarré ou invalidé. Si vous perdez une référence à ce Tween, vous pouvez le récupérer en utilisant :ref:`SceneTree.get_processed_tweens()<class_SceneTree_method_get_processed_tweens>`.
 
 .. rst-class:: classref-item-separator
 
@@ -675,16 +675,16 @@ Reprend un **Tween** en pause ou arrêté.
 
 :ref:`Tween<class_Tween>` **set_ease**\ (\ ease\: :ref:`EaseType<enum_Tween_EaseType>`\ ) :ref:`🔗<class_Tween_method_set_ease>`
 
-Sets the default ease type for :ref:`PropertyTweener<class_PropertyTweener>`\ s and :ref:`MethodTweener<class_MethodTweener>`\ s appended after this method.
+Définit le type d'accélération par défaut pour les :ref:`PropertyTweener<class_PropertyTweener>`\ s et :ref:`MethodTweener<class_MethodTweener>`\ s ajoutés après cette méthode.
 
-Before this method is called, the default ease type is :ref:`EASE_IN_OUT<class_Tween_constant_EASE_IN_OUT>`.
+Avant que cette méthode soit appelée, le type d'accélération par défaut est :ref:`EASE_IN_OUT<class_Tween_constant_EASE_IN_OUT>`.
 
 ::
 
     var tween = create_tween()
-    tween.tween_property(self, "position", Vector2(300, 0), 0.5) # Uses EASE_IN_OUT.
+    tween.tween_property(self, "position", Vector2(300, 0), 0.5) # Utilise EASE_IN_OUT.
     tween.set_ease(Tween.EASE_IN)
-    tween.tween_property(self, "rotation_degrees", 45.0, 0.5) # Uses EASE_IN.
+    tween.tween_property(self, "rotation_degrees", 45.0, 0.5) # Utilise EASE_IN.
 
 .. rst-class:: classref-item-separator
 
@@ -696,7 +696,7 @@ Before this method is called, the default ease type is :ref:`EASE_IN_OUT<class_T
 
 :ref:`Tween<class_Tween>` **set_ignore_time_scale**\ (\ ignore\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_Tween_method_set_ignore_time_scale>`
 
-If ``ignore`` is ``true``, the tween will ignore :ref:`Engine.time_scale<class_Engine_property_time_scale>` and update with the real, elapsed time. This affects all :ref:`Tweener<class_Tweener>`\ s and their delays. Default value is ``false``.
+Si ``ignore`` vaut ``true``, le tween ignorera :ref:`Engine.time_scale<class_Engine_property_time_scale>` et se met à jour avec le temps réel écoulé. Cela affecte tous les :ref:`Tweener<class_Tweener>` et leurs délais. La valeur par défaut est ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -708,11 +708,11 @@ If ``ignore`` is ``true``, the tween will ignore :ref:`Engine.time_scale<class_E
 
 :ref:`Tween<class_Tween>` **set_loops**\ (\ loops\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Tween_method_set_loops>`
 
-Sets the number of times the tweening sequence will be repeated, i.e. ``set_loops(2)`` will run the animation twice.
+Définit le nombre de fois que la séquence de tweening sera répétée, c'est-à-dire que ``set_loops(2)`` exécutera l'animation deux fois.
 
-Calling this method without arguments will make the **Tween** run infinitely, until either it is killed with :ref:`kill()<class_Tween_method_kill>`, the **Tween**'s bound node is freed, or all the animated objects have been freed (which makes further animation impossible).
+Appeler cette méthode sans argument fera s'exécuter le **Tween** de manière infinie, jusqu'à ce qu'il soit tué avec :ref:`kill()<class_Tween_method_kill>`, le nœud lié du **Tween** est libéré, ou tous les objets animés ont été libérés (ce qui rend la suite de l'animation impossible).
 
-\ **Warning:** Make sure to always add some duration/delay when using infinite loops. To prevent the game freezing, 0-duration looped animations (e.g. a single :ref:`CallbackTweener<class_CallbackTweener>` with no delay) are stopped after a small number of loops, which may produce unexpected results. If a **Tween**'s lifetime depends on some node, always use :ref:`bind_node()<class_Tween_method_bind_node>`.
+\ **Attention :** Assurez-vous d'ajouter toujours une durée ou un délai lors de l'utilisation de boucles infinies. Pour éviter le gel du jeu, les animations en boucle de durée nulle (p. ex. un single :ref:`CallbackTweener<class_CallbackTweener>` sans délai) sont arrêtées après un petit nombre de boucles, qui peut produire des résultats inattendus. Si la durée de vie d'un **Tween** dépend d'un nœud, utilisez toujours :ref:`bind_node()<class_Tween_method_bind_node>`.
 
 .. rst-class:: classref-item-separator
 
@@ -724,15 +724,15 @@ Calling this method without arguments will make the **Tween** run infinitely, un
 
 :ref:`Tween<class_Tween>` **set_parallel**\ (\ parallel\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_Tween_method_set_parallel>`
 
-If ``parallel`` is ``true``, the :ref:`Tweener<class_Tweener>`\ s appended after this method will by default run simultaneously, as opposed to sequentially.
+Si ``parallel`` vaut ``true``, les :ref:`Tweener<class_Tweener>`\ s ajoutés après cette méthode s'exécuteront par défaut simultanément, au lieu de séquentiellement.
 
-\ **Note:** Just like with :ref:`parallel()<class_Tween_method_parallel>`, the tweener added right before this method will also be part of the parallel step.
+\ **Note:** Tout comme avec :ref:`parallel()<class_Tween_method_parallel>`, le tweener ajouté juste avant cette méthode fera également partie de l'étape parallèle.
 
 ::
 
     tween.tween_property(self, "position", Vector2(300, 0), 0.5)
     tween.set_parallel()
-    tween.tween_property(self, "modulate", Color.GREEN, 0.5) # Runs together with the position tweener.
+    tween.tween_property(self, "modulate", Couleur. GREEN, 0.5) # S'exécute ensemble avec le tweener de position.
 
 .. rst-class:: classref-item-separator
 
@@ -744,9 +744,9 @@ If ``parallel`` is ``true``, the :ref:`Tweener<class_Tweener>`\ s appended after
 
 :ref:`Tween<class_Tween>` **set_pause_mode**\ (\ mode\: :ref:`TweenPauseMode<enum_Tween_TweenPauseMode>`\ ) :ref:`🔗<class_Tween_method_set_pause_mode>`
 
-Determines the behavior of the **Tween** when the :ref:`SceneTree<class_SceneTree>` is paused.
+Détermine le comportement du **Tween** lorsque le :ref:`SceneTree<class_SceneTree>` est mis en pause.
 
-Default value is :ref:`TWEEN_PAUSE_BOUND<class_Tween_constant_TWEEN_PAUSE_BOUND>`.
+La valeur par défaut est :ref:`TWEEN_PAUSE_BOUND<class_Tween_constant_TWEEN_PAUSE_BOUND>`.
 
 .. rst-class:: classref-item-separator
 
@@ -758,9 +758,9 @@ Default value is :ref:`TWEEN_PAUSE_BOUND<class_Tween_constant_TWEEN_PAUSE_BOUND>
 
 :ref:`Tween<class_Tween>` **set_process_mode**\ (\ mode\: :ref:`TweenProcessMode<enum_Tween_TweenProcessMode>`\ ) :ref:`🔗<class_Tween_method_set_process_mode>`
 
-Determines whether the **Tween** should run after process frames (see :ref:`Node._process()<class_Node_private_method__process>`) or physics frames (see :ref:`Node._physics_process()<class_Node_private_method__physics_process>`).
+Détermine si le **Tween** devrait s'exécuter après les cadres de traitement (voir :ref:`Node._process()<class_Node_private_method__process>`) ou les trames de physique (voir :ref:`Node._physics_process()<class_Node_private_method__physics_process>`).
 
-Default value is :ref:`TWEEN_PROCESS_IDLE<class_Tween_constant_TWEEN_PROCESS_IDLE>`.
+La valeur par défaut est :ref:`TWEEN_PROCESS_IDLE<class_Tween_constant_TWEEN_PROCESS_IDLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -784,16 +784,16 @@ Redimensionne la vitesse du tweening. Cela affecte tous les :ref:`Tweener<class_
 
 :ref:`Tween<class_Tween>` **set_trans**\ (\ trans\: :ref:`TransitionType<enum_Tween_TransitionType>`\ ) :ref:`🔗<class_Tween_method_set_trans>`
 
-Sets the default transition type for :ref:`PropertyTweener<class_PropertyTweener>`\ s and :ref:`MethodTweener<class_MethodTweener>`\ s appended after this method.
+Définit le type de transition par défaut pour les :ref:`PropertyTweener<class_PropertyTweener>`\ s et :ref:`MethodTweener<class_MethodTweener>`\ s ajoutés après cette méthode.
 
-Before this method is called, the default transition type is :ref:`TRANS_LINEAR<class_Tween_constant_TRANS_LINEAR>`.
+Avant que cette méthode soit appelée, le type de transition par défaut est :ref:`TRANS_LINEAR<class_Tween_constant_TRANS_LINEAR>`.
 
 ::
 
     var tween = create_tween()
-    tween.tween_property(self, "position", Vector2(300, 0), 0.5) # Uses TRANS_LINEAR.
+    tween.tween_property(self, "position", Vector2(300, 0), 0.5) # Utilise TRANS_LINEAR.
     tween.set_trans(Tween.TRANS_SINE)
-    tween.tween_property(self, "rotation_degrees", 45.0, 0.5) # Uses TRANS_SINE.
+    tween.tween_property(self, "rotation_degrees", 45.0, 0.5) # Utilise TRANS_SINE.
 
 .. rst-class:: classref-item-separator
 
@@ -805,27 +805,27 @@ Before this method is called, the default transition type is :ref:`TRANS_LINEAR<
 
 |void| **stop**\ (\ ) :ref:`🔗<class_Tween_method_stop>`
 
-Stops the tweening and resets the **Tween** to its initial state. This will not remove any appended :ref:`Tweener<class_Tweener>`\ s.
+Arrête le tweening et réinitialise le **Tween** à son état initial. Cela ne supprimera pas de :ref:`Tweener<class_Tweener>`\ s ajoutés.
 
-\ **Note:** This does *not* reset targets of :ref:`PropertyTweener<class_PropertyTweener>`\ s to their values when the **Tween** first started.
+\ **Note :** Cela ne réinitialise *pas* les cibles des :ref:`PropertyTweener<class_PropertyTweener>`\ s à leur valeurs de quand le **Tween** a démarré pour la première fois.
 
 ::
 
     var tween = create_tween()
 
-    # Will move from 0 to 500 over 1 second.
+    # Se déplacera de 0 à 500 en une 1 seconde.
     position.x = 0.0
     tween.tween_property(self, "position:x", 500, 1.0)
 
-    # Will be at (about) 250 when the timer finishes.
+    # Sera à (environ) 250 quand le minuteur se finit.
     await get_tree().create_timer(0.5).timeout
 
-    # Will now move from (about) 250 to 500 over 1 second,
-    # thus at half the speed as before.
+    # Se déplacera maintenant d'environ 250 à 500 en une 1 seconde,
+    # donc à la moitié de la vitesse d'avant.
     tween.stop()
     tween.play()
 
-\ **Note:** If a Tween is stopped and not bound to any node, it will exist indefinitely until manually started or invalidated. If you lose a reference to such Tween, you can retrieve it using :ref:`SceneTree.get_processed_tweens()<class_SceneTree_method_get_processed_tweens>`.
+\ **Note :** Si un Tween est arrêté et n'est pas lié à un nœud, il existera toujours jusqu'à ce qu'il soit démarré ou invalidé manuellement. Si vous perdez une référence à ce genre de Tween, vous pouvez la récupérer en utilisant :ref:`SceneTree.get_processed_tweens()<class_SceneTree_method_get_processed_tweens>`.
 
 .. rst-class:: classref-item-separator
 
@@ -837,9 +837,9 @@ Stops the tweening and resets the **Tween** to its initial state. This will not 
 
 :ref:`CallbackTweener<class_CallbackTweener>` **tween_callback**\ (\ callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_Tween_method_tween_callback>`
 
-Creates and appends a :ref:`CallbackTweener<class_CallbackTweener>`. This method can be used to call an arbitrary method in any object. Use :ref:`Callable.bind()<class_Callable_method_bind>` to bind additional arguments for the call.
+Crée et ajoute un :ref:`CallbackTweener<class_CallbackTweener>`. Cette méthode peut être utilisée pour appeler une méthode arbitraire sur n'importe quel objet. Utilisez :ref:`Callable.bind()<class_Callable_method_bind>` pour passer des arguments additionnels lors de l'appel.
 
-\ **Example:** Object that keeps shooting every 1 second:
+\ **Exemple :** Un objet qui tire toujours les secondes :
 
 
 .. tabs::
@@ -847,16 +847,16 @@ Creates and appends a :ref:`CallbackTweener<class_CallbackTweener>`. This method
  .. code-tab:: gdscript
 
     var tween = get_tree().create_tween().set_loops()
-    tween.tween_callback(shoot).set_delay(1.0)
+    tween.tween_callback(tirer).set_delay(1.0)
 
  .. code-tab:: csharp
 
     Tween tween = GetTree().CreateTween().SetLoops();
-    tween.TweenCallback(Callable.From(Shoot)).SetDelay(1.0f);
+    tween.TweenCallback(Callable.From(Tirer)).SetDelay(1.0f);
 
 
 
-\ **Example:** Turning a sprite red and then blue, with 2 second delay:
+\ **Exemple :** Changer un sprite en rouge puis en bleu, avec un délai de 2 secondes :
 
 
 .. tabs::
@@ -886,28 +886,28 @@ Creates and appends a :ref:`CallbackTweener<class_CallbackTweener>`. This method
 
 :ref:`IntervalTweener<class_IntervalTweener>` **tween_interval**\ (\ time\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Tween_method_tween_interval>`
 
-Creates and appends an :ref:`IntervalTweener<class_IntervalTweener>`. This method can be used to create delays in the tween animation, as an alternative to using the delay in other :ref:`Tweener<class_Tweener>`\ s, or when there's no animation (in which case the **Tween** acts as a timer). ``time`` is the length of the interval, in seconds.
+Crée et ajoute un :ref:`IntervalTweener<class_IntervalTweener>`. Cette méthode peut être utilisée pour créer des délais lors de l'interpolation du tween, ou comme une alternative pour utiliser le délai dans d'autres :ref:`Tweener<class_Tweener>`\ s, ou quand il n'y a pas d'animation (dans ce cas le **Tween** se comporte comme un minuteur). ``time`` est le durée du délai, en secondes.
 
-\ **Example:** Creating an interval in code execution:
+\ **Exemple :** Créer un délai dans l'exécution du code :
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # ... some code
+    # ... du code
     await create_tween().tween_interval(2).finished
-    # ... more code
+    # ... encore du code
 
  .. code-tab:: csharp
 
-    // ... some code
+    // ... du code
     await ToSignal(CreateTween().TweenInterval(2.0f), Tween.SignalName.Finished);
-    // ... more code
+    // ... encode du code
 
 
 
-\ **Example:** Creating an object that moves back and forth and jumps every few seconds:
+\ **Exemple :** Créer un objet qui se déplace d'avant en arrière et saute toutes les quelques secondes :
 
 
 .. tabs::
@@ -916,20 +916,20 @@ Creates and appends an :ref:`IntervalTweener<class_IntervalTweener>`. This metho
 
     var tween = create_tween().set_loops()
     tween.tween_property($Sprite, "position:x", 200.0, 1.0).as_relative()
-    tween.tween_callback(jump)
+    tween.tween_callback(sauter)
     tween.tween_interval(2)
     tween.tween_property($Sprite, "position:x", -200.0, 1.0).as_relative()
-    tween.tween_callback(jump)
+    tween.tween_callback(sauter)
     tween.tween_interval(2)
 
  .. code-tab:: csharp
 
     Tween tween = CreateTween().SetLoops();
     tween.TweenProperty(GetNode("Sprite"), "position:x", 200.0f, 1.0f).AsRelative();
-    tween.TweenCallback(Callable.From(Jump));
+    tween.TweenCallback(Callable.From(Sauter));
     tween.TweenInterval(2.0f);
     tween.TweenProperty(GetNode("Sprite"), "position:x", -200.0f, 1.0f).AsRelative();
-    tween.TweenCallback(Callable.From(Jump));
+    tween.TweenCallback(Callable.From(Sauter));
     tween.TweenInterval(2.0f);
 
 
@@ -1004,7 +1004,7 @@ Crée et ajoute un :ref:`MethodTweener<class_MethodTweener>`. Cette méthode est
 
 :ref:`PropertyTweener<class_PropertyTweener>` **tween_property**\ (\ object\: :ref:`Object<class_Object>`, property\: :ref:`NodePath<class_NodePath>`, final_val\: :ref:`Variant<class_Variant>`, duration\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Tween_method_tween_property>`
 
-Creates and appends a :ref:`PropertyTweener<class_PropertyTweener>`. This method tweens a ``property`` of an ``object`` between an initial value and ``final_val`` in a span of time equal to ``duration``, in seconds. The initial value by default is the property's value at the time the tweening of the :ref:`PropertyTweener<class_PropertyTweener>` starts.
+Crée et ajoute un :ref:`PropertyTweener<class_PropertyTweener>`. Cette méthode interpole une propriété ``property`` d'un objet ``object`` entre une valeur initiale et une valeur finale ``final_val`` durant la durée ``duration``, en secondes. La valeur initiale par défaut est la valeur de la propriété au moment où le tweening du :ref:`PropertyTweener<class_PropertyTweener>` commence.
 
 
 .. tabs::
@@ -1023,11 +1023,11 @@ Creates and appends a :ref:`PropertyTweener<class_PropertyTweener>`. This method
 
 
 
-will move the sprite to position (100, 200) and then to (200, 300). If you use :ref:`PropertyTweener.from()<class_PropertyTweener_method_from>` or :ref:`PropertyTweener.from_current()<class_PropertyTweener_method_from_current>`, the starting position will be overwritten by the given value instead. See other methods in :ref:`PropertyTweener<class_PropertyTweener>` to see how the tweening can be tweaked further.
+déplacera la sprite à la position (100, 200) puis ensuite à (200, 300). Si vous utilisez :ref:`PropertyTweener.from()<class_PropertyTweener_method_from>` ou :ref:`PropertyTweener.from_current()<class_PropertyTweener_method_from_current>`, la position de départ sera remplacée par la valeur donnée à la place. Voir les autres méthodes de :ref:`PropertyTweener<class_PropertyTweener>` pour voir comment le tweening peut être encore plus ajusté.
 
-\ **Note:** You can find the correct property name by hovering over the property in the Inspector. You can also provide the components of a property directly by using ``"property:component"`` (eg. ``position:x``), where it would only apply to that particular component.
+\ **Note :** Vous pouvez trouver les noms corrects des propriétés en survolant ces propriétés dans l'Inspecteur. Vous pouvez aussi fournir les composantes d'une propriété directement en utilisant ``"propriété:composante"`` (ex. ``position:x``), l'interpolation ne se fera alors que sur cette unique composante.
 
-\ **Example:** Moving an object twice from the same position, with different transition types:
+\ **Exemple :** Déplacer un objet deux fois depuis la même position, avec différents types de transition.
 
 
 .. tabs::
@@ -1056,24 +1056,24 @@ will move the sprite to position (100, 200) and then to (200, 300). If you use :
 
 :ref:`SubtweenTweener<class_SubtweenTweener>` **tween_subtween**\ (\ subtween\: :ref:`Tween<class_Tween>`\ ) :ref:`🔗<class_Tween_method_tween_subtween>`
 
-Creates and appends a :ref:`SubtweenTweener<class_SubtweenTweener>`. This method can be used to nest ``subtween`` within this **Tween**, allowing for the creation of more complex and composable sequences.
+Crée et ajoute un :ref:`SubtweenTweener<class_SubtweenTweener>`. Cette méthode peut être utiliser pour imbriquer un ``subtween`` dans ce **Tween**, permettant la création de séquences composables et plus complexes.
 
 ::
 
-    # Subtween will rotate the object.
+    # Le sous-tween tournera l'objet.
     var subtween = create_tween()
     subtween.tween_property(self, "rotation_degrees", 45.0, 1.0)
     subtween.tween_property(self, "rotation_degrees", 0.0, 1.0)
 
-    # Parent tween will execute the subtween as one of its steps.
+    # Le tween parent exécutera le sous-tween comme l'une de ses étapes.
     var tween = create_tween()
     tween.tween_property(self, "position:x", 500, 3.0)
     tween.tween_subtween(subtween)
     tween.tween_property(self, "position:x", 300, 2.0)
 
-\ **Note:** The methods :ref:`pause()<class_Tween_method_pause>`, :ref:`stop()<class_Tween_method_stop>`, and :ref:`set_loops()<class_Tween_method_set_loops>` can cause the parent **Tween** to get stuck on the subtween step; see the documentation for those methods for more information.
+\ **Note :** Les méthodes :ref:`pause()<class_Tween_method_pause>`, :ref:`stop()<class_Tween_method_stop>`, et :ref:`set_loops()<class_Tween_method_set_loops>` peuvent faire que le **Tween** parent soit bloqué à l'étape du sous-tween, voir la documentation sur ces méthodes pour plus d'informations.
 
-\ **Note:** The pause and process modes set by :ref:`set_pause_mode()<class_Tween_method_set_pause_mode>` and :ref:`set_process_mode()<class_Tween_method_set_process_mode>` on ``subtween`` will be overridden by the parent **Tween**'s settings.
+\ **Note :** Les modes de pause et de traitement définis par :ref:`set_pause_mode()<class_Tween_method_set_pause_mode>` et :ref:`set_process_mode()<class_Tween_method_set_process_mode>` sur ``subtween`` seront redéfinies par les paramètres du **Tween** parent.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

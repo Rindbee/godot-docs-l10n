@@ -49,7 +49,7 @@ Descriptions des propriétés
 
 :ref:`float<class_float>` **base_scale** = ``1.0`` :ref:`🔗<class_ResourceImporterSVG_property_base_scale>`
 
-Texture scale. ``1.0`` is the original SVG size. Higher values result in a larger image.
+Échelle de la texture. ``1.0`` est la taille SVG originale. Des valeurs plus élevées résultent en une image plus grande.
 
 .. rst-class:: classref-item-separator
 

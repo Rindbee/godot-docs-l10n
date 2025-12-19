@@ -388,7 +388,7 @@ Emite la señal :ref:`changed<class_Resource_signal_changed>`. Este método se l
 
 :ref:`String<class_String>` **generate_scene_unique_id**\ (\ ) |static| :ref:`🔗<class_Resource_method_generate_scene_unique_id>`
 
-Genera un identificador único para un recurso que se contendrá dentro de una :ref:`PackedScene<class_PackedScene>`, basado en la fecha, hora y un valor aleatorio actuales. La cadena devuelta se compone únicamente de letras (``a`` a ``y``) y números (``0`` a ``8``). Véase también :ref:`resource_scene_unique_id<class_Resource_property_resource_scene_unique_id>`.
+Genera un identificador único para un recurso que se contendrá dentro de una :ref:`PackedScene<class_PackedScene>`, basado en la fecha, hora y un valor aleatorio actuales. La string devuelta se compone únicamente de letras (``a`` a ``y``) y números (``0`` a ``8``). Véase también :ref:`resource_scene_unique_id<class_Resource_property_resource_scene_unique_id>`.
 
 .. rst-class:: classref-item-separator
 
@@ -400,9 +400,9 @@ Genera un identificador único para un recurso que se contendrá dentro de una :
 
 :ref:`String<class_String>` **get_id_for_path**\ (\ path\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Resource_method_get_id_for_path>`
 
-Desde la caché interna para ID únicos de escena, devuelve el ID de este recurso para la escena en ``path``. Si no hay ninguna entrada, se devuelve una cadena vacía. Útil para mantener los ID únicos de escena iguales al implementar un formato de recurso personalizado compatible con VCS extendiendo :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` y :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
+Desde la caché interna para ID únicos de escena, devuelve el ID de este recurso para la escena en ``path``. Si no hay ninguna entrada, se devuelve una string vacía. Útil para mantener los ID únicos de escena iguales al implementar un formato de recurso personalizado compatible con VCS extendiendo :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` y :ref:`ResourceFormatSaver<class_ResourceFormatSaver>`.
 
-\ **Nota:** Este método solo se implementa cuando se ejecuta en un contexto de editor. En tiempo de ejecución, devuelve una cadena vacía.
+\ **Nota:** Este método solo se implementa cuando se ejecuta en un contexto de editor. En tiempo de ejecución, devuelve una string vacía.
 
 .. rst-class:: classref-item-separator
 

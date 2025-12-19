@@ -306,7 +306,7 @@ Supported architectures: ``x86_32``, ``x86_64``, and ``arm64``.
 
 :ref:`bool<class_bool>` **binary_format/embed_pck** :ref:`🔗<class_EditorExportPlatformWindows_property_binary_format/embed_pck>`
 
-If ``true``, project resources are embedded into the executable.
+Si es ``true``, los recursos del proyecto se incrustan en el ejecutable.
 
 .. rst-class:: classref-item-separator
 

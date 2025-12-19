@@ -7,7 +7,7 @@ VisualShaderNodeGroupBase
 
 **Hérite de :** :ref:`VisualShaderNodeResizableBase<class_VisualShaderNodeResizableBase>` **<** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>`
+**Hérité par :** :ref:`VisualShaderNodeExpression<class_VisualShaderNodeExpression>`
 
 Classe de base pour une famille de nœuds avec un nombre variable de ports d'entrée et de sortie dans le graphe de shader visuel.
 

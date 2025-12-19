@@ -397,7 +397,7 @@ If ``true``, the **MultiMesh** will use custom data (see :ref:`set_instance_cust
 - |void| **set_visible_instance_count**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_visible_instance_count**\ (\ )
 
-Limita el número de instancias dibujadas, -1 dibuja todas las instancias. Cambiar esto no cambia el tamaño de los búfers.
+Limita el número de instancias dibujadas, -1 dibuja todas las instancias. Cambiar esto no cambia el tamaño de los búferes.
 
 .. rst-class:: classref-section-separator
 

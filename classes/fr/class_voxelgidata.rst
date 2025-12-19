@@ -7,16 +7,16 @@ VoxelGIData
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Contains baked voxel global illumination data for use in a :ref:`VoxelGI<class_VoxelGI>` node.
+Contient des données d'illumination globale de voxel pré-calculées pour une utilisation dans un nœud :ref:`VoxelGI<class_VoxelGI>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**VoxelGIData** contains baked voxel global illumination for use in a :ref:`VoxelGI<class_VoxelGI>` node. **VoxelGIData** also offers several properties to adjust the final appearance of the global illumination. These properties can be adjusted at run-time without having to bake the :ref:`VoxelGI<class_VoxelGI>` node again.
+**VoxelGIData** contient de l'illumination global de voxel pré-calculée pour utiliser dans un nœud :ref:`VoxelGI<class_VoxelGI>`. **VoxelGIData** offre également plusieurs propriétés pour ajuster l'apparence finale de l'illumination globale. Ces propriétés peuvent être ajustées durant l'exécution sans avoir à pré-calculer le nœud :ref:`VoxelGI<class_VoxelGI>` à nouveau.
 
-\ **Note:** To prevent text-based scene files (``.tscn``) from growing too much and becoming slow to load and save, always save **VoxelGIData** to an external binary resource file (``.res``) instead of embedding it within the scene. This can be done by clicking the dropdown arrow next to the **VoxelGIData** resource, choosing **Edit**, clicking the floppy disk icon at the top of the Inspector then choosing **Save As...**.
+\ **Note :** Pour éviter que les fichiers de scène basés sur du texte (``.tscn``) ne grandissent trop et deviennent lents pour charger et s'enregistrer, sauvegardez toujours **VoxelGIData** en un fichier de ressources binaire externe (``.res``) au lieu de l'intégrer à la scène. Cela peut être fait en cliquant sur la flèche descendante à côté de la ressource **VoxelGIData**, choisir **Édition**, cliquer sur l'icône de disquette en haut de l'inspecteur puis choisir **Enregistrer sous...**.
 
 .. rst-class:: classref-introduction-group
 
@@ -93,7 +93,7 @@ Descriptions des propriétés
 - |void| **set_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_bias**\ (\ )
 
-The normal bias to use for indirect lighting and reflections. Higher values reduce self-reflections visible in non-rough materials, at the cost of more visible light leaking and flatter-looking indirect lighting. To prioritize hiding self-reflections over lighting quality, set :ref:`bias<class_VoxelGIData_property_bias>` to ``0.0`` and :ref:`normal_bias<class_VoxelGIData_property_normal_bias>` to a value between ``1.0`` and ``2.0``.
+Le biais des normales à utiliser pour l'éclairage indirect et les réflexions. Des valeurs plus élevées réduisent les auto-réflexions visibles dans les matériaux non-rugueux, au prix de fuites de lumières plus visibles et d'un éclairage indirect plus plat. Pour prioriser la dissimulation des auto-réflexions sur la qualité de l'éclairage, définissez :ref:`bias<class_VoxelGIData_property_bias>` à ``0.0`` et :ref:`normal_bias<class_VoxelGIData_property_normal_bias>` à une valeur entre ``1.0`` et ``2.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -110,7 +110,7 @@ The normal bias to use for indirect lighting and reflections. Higher values redu
 - |void| **set_dynamic_range**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_dynamic_range**\ (\ )
 
-The dynamic range to use (``1.0`` represents a low dynamic range scene brightness). Higher values can be used to provide brighter indirect lighting, at the cost of more visible color banding in dark areas (both in indirect lighting and reflections). To avoid color banding, it's recommended to use the lowest value that does not result in visible light clipping.
+La plage dynamique à utiliser (``1.0`` représente une luminosité de la scène à plage dynamique basse). Des valeurs plus élevées peuvent être utilisées pour fournir un éclairage indirect plus lumineux, au coût de bandes de couleur plus visibles dans les zones sombres (à la fois dans l'éclairage indirect et dans les réflexions). Pour éviter les bandes des couleurs, il est recommandé d'utiliser la valeur la plus basse qui n'entraîne pas de coupure visible dans la lumière.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ The dynamic range to use (``1.0`` represents a low dynamic range scene brightnes
 - |void| **set_energy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_energy**\ (\ )
 
-The energy of the indirect lighting and reflections produced by the :ref:`VoxelGI<class_VoxelGI>` node. Higher values result in brighter indirect lighting. If indirect lighting looks too flat, try decreasing :ref:`propagation<class_VoxelGIData_property_propagation>` while increasing :ref:`energy<class_VoxelGIData_property_energy>` at the same time. See also :ref:`use_two_bounces<class_VoxelGIData_property_use_two_bounces>` which influences the indirect lighting's effective brightness.
+L'énergie de l'éclairage indirect et des réflexions produits par le nœud :ref:`VoxelGI<class_VoxelGI>`. Des valeurs plus élevées résultent en un éclairage indirect plus lumineux. Si l'éclairage indirect semble trop plat, essayez de diminuer :ref:`propagation<class_VoxelGIData_property_propagation>` tout en augmentant :ref:`energy<class_VoxelGIData_property_energy>` en même temps. Voir aussi :ref:`use_two_bounces<class_VoxelGIData_property_use_two_bounces>` qui influence la luminosité effective de l'éclairage indirect.
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ The energy of the indirect lighting and reflections produced by the :ref:`VoxelG
 - |void| **set_interior**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_interior**\ (\ )
 
-If ``true``, :ref:`Environment<class_Environment>` lighting is ignored by the :ref:`VoxelGI<class_VoxelGI>` node. If ``false``, :ref:`Environment<class_Environment>` lighting is taken into account by the :ref:`VoxelGI<class_VoxelGI>` node. :ref:`Environment<class_Environment>` lighting updates in real-time, which means it can be changed without having to bake the :ref:`VoxelGI<class_VoxelGI>` node again.
+Si ``true``, l'éclairage de l':ref:`Environment<class_Environment>` est ignoré par le nœud\ :ref:`VoxelGI<class_VoxelGI>`. Si ``false``, l'éclairage de l':ref:`Environment<class_Environment>` est pris en compte par le nœud :ref:`VoxelGI<class_VoxelGI>`. L'éclairage de l':ref:`Environment<class_Environment>` est mis à jour en temps réel, ce qui signifie qu'il peut être changé sans avoir à re-calculer le nœud :ref:`VoxelGI<class_VoxelGI>` à nouveau.
 
 .. rst-class:: classref-item-separator
 
@@ -161,7 +161,7 @@ If ``true``, :ref:`Environment<class_Environment>` lighting is ignored by the :r
 - |void| **set_normal_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_normal_bias**\ (\ )
 
-The normal bias to use for indirect lighting and reflections. Higher values reduce self-reflections visible in non-rough materials, at the cost of more visible light leaking and flatter-looking indirect lighting. See also :ref:`bias<class_VoxelGIData_property_bias>`. To prioritize hiding self-reflections over lighting quality, set :ref:`bias<class_VoxelGIData_property_bias>` to ``0.0`` and :ref:`normal_bias<class_VoxelGIData_property_normal_bias>` to a value between ``1.0`` and ``2.0``.
+Le biais des normales à utiliser pour l'éclairage indirect et les réflexions. Des valeurs plus élevées réduisent les auto-réflexions visibles dans les matériaux non-rugueux, au prix de fuites de lumières plus visibles et d'un éclairage indirect plus plat. Voir aussi :ref:`bias<class_VoxelGIData_property_bias>`. Pour prioriser la dissimulation des auto-réflexions sur la qualité de l'éclairage, définissez :ref:`bias<class_VoxelGIData_property_bias>` à ``0.0`` et :ref:`normal_bias<class_VoxelGIData_property_normal_bias>` à une valeur entre ``1.0`` et ``2.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +178,7 @@ The normal bias to use for indirect lighting and reflections. Higher values redu
 - |void| **set_propagation**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_propagation**\ (\ )
 
-The multiplier to use when light bounces off a surface. Higher values result in brighter indirect lighting. If indirect lighting looks too flat, try decreasing :ref:`propagation<class_VoxelGIData_property_propagation>` while increasing :ref:`energy<class_VoxelGIData_property_energy>` at the same time. See also :ref:`use_two_bounces<class_VoxelGIData_property_use_two_bounces>` which influences the indirect lighting's effective brightness.
+Le multiplicateur à utiliser lorsque la lumière rebondit sur une surface. Des valeurs plus élevées résultent en un éclairage indirect plus lumineux. Si l'éclairage indirect semble trop plat, essayez de diminuer :ref:`propagation<class_VoxelGIData_property_propagation>` tout en augmentant :ref:`energy<class_VoxelGIData_property_energy>` en même temps. Voir aussi :ref:`use_two_bounces<class_VoxelGIData_property_use_two_bounces>` qui influence la luminosité effective de l'éclairage indirect.
 
 .. rst-class:: classref-item-separator
 
@@ -195,7 +195,7 @@ The multiplier to use when light bounces off a surface. Higher values result in 
 - |void| **set_use_two_bounces**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_two_bounces**\ (\ )
 
-If ``true``, performs two bounces of indirect lighting instead of one. This makes indirect lighting look more natural and brighter at a small performance cost. The second bounce is also visible in reflections. If the scene appears too bright after enabling :ref:`use_two_bounces<class_VoxelGIData_property_use_two_bounces>`, adjust :ref:`propagation<class_VoxelGIData_property_propagation>` and :ref:`energy<class_VoxelGIData_property_energy>`.
+Si ``true``, effectue deux rebonds d'éclairage indirect au lieu d'un. Cela rend l'éclairage indirect plus naturel et plus lumineux avec un petit coût de performance. La deuxième rebond est également visible dans les réflexions. Si la scène apparaît trop brillante après avoir activé :ref:`use_two_bounces<class_VoxelGIData_property_use_two_bounces>`, ajustez :ref:`propagation<class_VoxelGIData_property_propagation>` et :ref:`energy<class_VoxelGIData_property_energy>`.
 
 .. rst-class:: classref-section-separator
 
@@ -226,9 +226,9 @@ Descriptions des méthodes
 
 :ref:`AABB<class_AABB>` **get_bounds**\ (\ ) |const| :ref:`🔗<class_VoxelGIData_method_get_bounds>`
 
-Returns the bounds of the baked voxel data as an :ref:`AABB<class_AABB>`, which should match :ref:`VoxelGI.size<class_VoxelGI_property_size>` after being baked (which only contains the size as a :ref:`Vector3<class_Vector3>`).
+Renvoies les limites des données de voxel pré-calculées en tant qu':ref:`AABB<class_AABB>`, qui devrait correspondre à :ref:`VoxelGI.size<class_VoxelGI_property_size>` après avoir été pré-calculé (qui ne contient la taille qu'en tant que :ref:`Vector3<class_Vector3>`).
 
-\ **Note:** If the size was modified without baking the VoxelGI data, then the value of :ref:`get_bounds()<class_VoxelGIData_method_get_bounds>` and :ref:`VoxelGI.size<class_VoxelGI_property_size>` will not match.
+\ **Note :** Si la taille a été modifiée sans pré-calculer les données VoxelGI, alors la valeur de :ref:`get_bounds()<class_VoxelGIData_method_get_bounds>` et de :ref:`VoxelGI.size<class_VoxelGI_property_size>` ne correspondront pas.
 
 .. rst-class:: classref-item-separator
 

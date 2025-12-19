@@ -501,13 +501,13 @@ Los valores posibles provienen de `XRReferenceSpaceType de WebXR <https://develo
 - |void| **set_required_features**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_required_features**\ (\ )
 
-A comma-seperated list of required features used by :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` when setting up the WebXR session.
+Una lista separada por comas de las características requeridas utilizadas por :ref:`XRInterface.initialize()<class_XRInterface_method_initialize>` al configurar la sesión WebXR.
 
-If a user's browser or device doesn't support one of the given features, initialization will fail and :ref:`session_failed<class_WebXRInterface_signal_session_failed>` will be emitted.
+Si el navegador o dispositivo de un usuario no admite una de las características dadas, la inicialización fallará y se emitirá :ref:`session_failed<class_WebXRInterface_signal_session_failed>`.
 
-This doesn't have any effect on the interface when already initialized.
+Esto no tiene ningún efecto en la interfaz cuando ya está inicializada.
 
-See the MDN documentation on `WebXR's session features <https://developer.mozilla.org/en-US/docs/Web/API/XRSystem/requestSession#session_features>`__ for a list of possible values.
+Consulta la documentación de MDN sobre las `características de sesión de WebXR <https://developer.mozilla.org/en-US/docs/Web/API/XRSystem/requestSession#session_features>`__ para una lista de valores posibles.
 
 .. rst-class:: classref-item-separator
 
@@ -643,7 +643,7 @@ Devuelve ``true`` si se encuentra una fuente de entrada activa con el ``input_so
 
 Comprueba si el ``session_mode`` dado es compatible con el navegador del usuario.
 
-Los valores posibles provienen de `XRSessionMode de WebXR <https://developer.mozilla.org/en-US/docs/Web/API/XRSessionMode>`__, incluyendo: ``"immersive-vr"``, `` "immersive-ar"``, e ``"inline"``.
+Los valores posibles provienen de `XRSessionMode de WebXR <https://developer.mozilla.org/en-US/docs/Web/API/XRSessionMode>`__, incluyendo: ``"immersive-vr"``, ``"immersive-ar"``, e ``"inline"``.
 
 Este método no devuelve nada, en su lugar emite la señal :ref:`session_supported<class_WebXRInterface_signal_session_supported>` con el resultado.
 

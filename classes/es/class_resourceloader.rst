@@ -225,7 +225,7 @@ Devuelve la referencia al recurso en caché para la ``path`` dada.
 
 Devuelve las dependencias del recurso en la ``path`` dada.
 
-Cada dependencia es una cadena que puede dividirse en secciones mediante ``::``. Puede haber una sección o tres secciones, siendo la segunda sección siempre vacía. Cuando hay una sección, contiene la ruta del archivo. Cuando hay tres secciones, la primera sección contiene el UID y la tercera sección contiene la ruta de respaldo.
+Cada dependencia es una string que puede dividirse en secciones mediante ``::``. Puede haber una sección o tres secciones, siendo la segunda sección siempre vacía. Cuando hay una sección, contiene la ruta del archivo. Cuando hay tres secciones, la primera sección contiene el UID y la tercera sección contiene la ruta de respaldo.
 
 ::
 
@@ -347,7 +347,7 @@ Si se llama a esto antes de que el hilo de carga haya terminado (es decir, :ref:
 
 Devuelve el estado de una operación de carga por hilos iniciada con :ref:`load_threaded_request()<class_ResourceLoader_method_load_threaded_request>` para el recurso en ``path``.
 
-Una variable de matriz puede ser pasada opcionalmente a través de ``progress``, y devolverá una matriz de un elemento que contiene la relación de terminación de la carga por hilos (entre ``0.0`` y ``1.0``).
+Una variable de array puede ser pasada opcionalmente a través de ``progress``, y devolverá un array de un elemento que contiene la relación de terminación de la carga por hilos (entre ``0.0`` y ``1.0``).
 
 \ **Nota:** La forma recomendada de usar este método es llamarlo durante diferentes frames (por ejemplo, en :ref:`Node._process()<class_Node_private_method__process>`, en lugar de un bucle).
 

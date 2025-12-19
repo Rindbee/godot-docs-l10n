@@ -7,29 +7,29 @@ GDScriptSyntaxHighlighter
 
 **Hérite de :** :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` **<** :ref:`SyntaxHighlighter<class_SyntaxHighlighter>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A GDScript syntax highlighter that can be used with :ref:`TextEdit<class_TextEdit>` and :ref:`CodeEdit<class_CodeEdit>` nodes.
+Un colorateur syntaxique GDScript qui peut être utilisée avec les nœuds :ref:`TextEdit<class_TextEdit>` et :ref:`CodeEdit<class_CodeEdit>`.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-**Note:** This class can only be used for editor plugins because it relies on editor settings.
+**Note :** Cette classe ne peut être utilisée que pour les plugins éditeurs parce qu'elle repose sur les paramètres de l'éditeur.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var code_preview = TextEdit.new()
-    var highlighter = GDScriptSyntaxHighlighter.new()
-    code_preview.syntax_highlighter = highlighter
+    var previsualisation_code = TextEdit.new()
+    var colorateur = GDScriptSyntaxHighlighter.new()
+    previsualisation_code.syntax_highlighter = colorateur
 
  .. code-tab:: csharp
 
-    var codePreview = new TextEdit();
-    var highlighter = new GDScriptSyntaxHighlighter();
-    codePreview.SyntaxHighlighter = highlighter;
+    var previsualisationCode = new TextEdit();
+    var colorateur= new GDScriptSyntaxHighlighter();
+    previsualisationCode.SyntaxHighlighter = colorateur;
 
 
 

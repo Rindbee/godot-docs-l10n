@@ -7,7 +7,7 @@ ViewportTexture
 
 **Hérite de :** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Provides the content of a :ref:`Viewport<class_Viewport>` as a dynamic texture.
+Fournit le contenu d'un :ref:`Viewport<class_Viewport>` en tant que texture dynamique.
 
 .. rst-class:: classref-introduction-group
 
@@ -76,9 +76,9 @@ Descriptions des propriétés
 - |void| **set_viewport_path_in_scene**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_viewport_path_in_scene**\ (\ )
 
-The path to the :ref:`Viewport<class_Viewport>` node to display. This is relative to the local scene root (see :ref:`Resource.get_local_scene()<class_Resource_method_get_local_scene>`), **not** to the nodes that use this texture.
+Le chemin vers le nœud :ref:`Viewport<class_Viewport>` à afficher. Ceci est relatif à la racine de la scène locale (voir :ref:`Resource.get_local_scene()<class_Resource_method_get_local_scene>`), **pas** aux nœuds qui utilisent cette texture.
 
-\ **Note:** In the editor, this path is automatically updated when the target viewport or one of its ancestors is renamed or moved. At runtime, this path may not automatically update if the scene root cannot be found.
+\ **Note :** Dans l'éditeur, ce chemin est automatiquement mis à jour lorsque le viewport cible ou l'un de ses ancêtres est renommé ou déplacé. Durant l'exécution, ce chemin peut ne pas être automatiquement mis à jour si la racine de la scène ne peut pas être trouvée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

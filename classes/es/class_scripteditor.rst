@@ -14,9 +14,9 @@ El editor de script de Godot.
 Descripción
 ----------------------
 
-Godot editor's script editor.
+Editor de scripts del editor de Godot.
 
-\ **Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_script_editor()<class_EditorInterface_method_get_script_editor>`.
+\ **Nota:** Esta clase no debe instanciarse directamente. En su lugar, accede al singleton usando :ref:`EditorInterface.get_script_editor()<class_EditorInterface_method_get_script_editor>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -96,9 +96,9 @@ Descripciones de Métodos
 
 |void| **clear_docs_from_script**\ (\ script\: :ref:`Script<class_Script>`\ ) :ref:`🔗<class_ScriptEditor_method_clear_docs_from_script>`
 
-Removes the documentation for the given ``script``.
+Elimina la documentación para el ``script`` dado.
 
-\ **Note:** This should be called whenever the script is changed to keep the open documentation state up to date.
+\ **Nota:** Esto debería llamarse siempre que se cambie el script para mantener el estado de la documentación abierto actualizado.
 
 .. rst-class:: classref-item-separator
 
@@ -217,7 +217,7 @@ Va a la línea especificada en el script actual.
 
 |void| **open_script_create_dialog**\ (\ base_name\: :ref:`String<class_String>`, base_path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ScriptEditor_method_open_script_create_dialog>`
 
-Opens the script create dialog. The script will extend ``base_name``. The file extension can be omitted from ``base_path``. It will be added based on the selected scripting language.
+Abre el diálogo de creación de scripts. El script extenderá ``base_name``. La extensión del archivo puede omitirse de ``base_path``. Se agregará según el lenguaje de scripting seleccionado.
 
 .. rst-class:: classref-item-separator
 
@@ -229,9 +229,9 @@ Opens the script create dialog. The script will extend ``base_name``. The file e
 
 |void| **register_syntax_highlighter**\ (\ syntax_highlighter\: :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>`\ ) :ref:`🔗<class_ScriptEditor_method_register_syntax_highlighter>`
 
-Registers the :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` to the editor, the :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` will be available on all open scripts.
+Registra el :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` en el editor, el :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` estará disponible en todos los scripts abiertos.
 
-\ **Note:** Does not apply to scripts that are already opened.
+\ **Nota:** No se aplica a los scripts que ya están abiertos.
 
 .. rst-class:: classref-item-separator
 
@@ -243,9 +243,9 @@ Registers the :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` to t
 
 |void| **unregister_syntax_highlighter**\ (\ syntax_highlighter\: :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>`\ ) :ref:`🔗<class_ScriptEditor_method_unregister_syntax_highlighter>`
 
-Unregisters the :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` from the editor.
+Anula el registro del :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` del editor.
 
-\ **Note:** The :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` will still be applied to scripts that are already opened.
+\ **Nota:** El :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` seguirá aplicándose a los scripts que ya están abiertos.
 
 .. rst-class:: classref-item-separator
 
@@ -257,9 +257,9 @@ Unregisters the :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` fr
 
 |void| **update_docs_from_script**\ (\ script\: :ref:`Script<class_Script>`\ ) :ref:`🔗<class_ScriptEditor_method_update_docs_from_script>`
 
-Updates the documentation for the given ``script``.
+Actualiza la documentación para el ``script`` dado.
 
-\ **Note:** This should be called whenever the script is changed to keep the open documentation state up to date.
+\ **Nota:** Esto debe llamarse cada vez que se cambie el script para mantener el estado de la documentación abierto actualizado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

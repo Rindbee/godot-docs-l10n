@@ -108,7 +108,7 @@ Descriptions des propriétés
 
 **Obsolète :** Use :ref:`SkeletonModifier3D.influence<class_SkeletonModifier3D_property_influence>` instead.
 
-Interpolation value for how much the IK results are applied to the current skeleton bone chain. A value of ``1.0`` will overwrite all skeleton bone transforms completely while a value of ``0.0`` will visually disable the SkeletonIK.
+Valeur de l'interpolation indiquant de combien les résultats de l'IK sont appliqués à la chaîne d'os du squelette actuelle. Une valeur de ``1.0`` écrasera toutes les transformations d'os du squelette complètement alors qu'une valeur de ``0.0`` désactivera visuellement le SkeletonIK.
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ Le nom de l'os racine actuel, le premier os de la chaîne IK.
 - |void| **set_target_transform**\ (\ value\: :ref:`Transform3D<class_Transform3D>`\ )
 - :ref:`Transform3D<class_Transform3D>` **get_target_transform**\ (\ )
 
-First target of the IK chain where the tip bone is placed and, if :ref:`override_tip_basis<class_SkeletonIK3D_property_override_tip_basis>` is ``true``, how the tip bone is rotated. If a :ref:`target_node<class_SkeletonIK3D_property_target_node>` path is available the nodes transform is used instead and this property is ignored.
+Première cible de la chaîne IK où l'os du bout est placé et, si :ref:`override_tip_basis<class_SkeletonIK3D_property_override_tip_basis>` vaut ``true``, comment l'os du bout est tourné. Si un chemin :ref:`target_node<class_SkeletonIK3D_property_target_node>` est disponible, la transformation des nœuds est utilisée à la place et cette propriété est ignorée.
 
 .. rst-class:: classref-item-separator
 
@@ -227,7 +227,7 @@ First target of the IK chain where the tip bone is placed and, if :ref:`override
 - |void| **set_target_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_target_node**\ (\ )
 
-Target node :ref:`NodePath<class_NodePath>` for the IK chain. If available, the node's current :ref:`Transform3D<class_Transform3D>` is used instead of the :ref:`target<class_SkeletonIK3D_property_target>` property.
+:ref:`NodePath<class_NodePath>` du nœud cible pour la chaîne IK. Si disponible, la :ref:`Transform3D<class_Transform3D>` actuelle du nœud est utilisée au lieu de la propriété :ref:`target<class_SkeletonIK3D_property_target>`.
 
 .. rst-class:: classref-item-separator
 
@@ -244,7 +244,7 @@ Target node :ref:`NodePath<class_NodePath>` for the IK chain. If available, the 
 - |void| **set_tip_bone**\ (\ value\: :ref:`StringName<class_StringName>`\ )
 - :ref:`StringName<class_StringName>` **get_tip_bone**\ (\ )
 
-The name of the current tip bone, the last bone in the IK chain placed at the :ref:`target<class_SkeletonIK3D_property_target>` transform (or :ref:`target_node<class_SkeletonIK3D_property_target_node>` if defined).
+Le nom de l'os du bout actuel, le dernier os de la chaîne d'IK placé à la transformation :ref:`target<class_SkeletonIK3D_property_target>` (ou :ref:`target_node<class_SkeletonIK3D_property_target_node>` si défini).
 
 .. rst-class:: classref-item-separator
 
@@ -261,7 +261,7 @@ The name of the current tip bone, the last bone in the IK chain placed at the :r
 - |void| **set_use_magnet**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_magnet**\ (\ )
 
-If ``true``, instructs the IK solver to consider the secondary magnet target (pole target) when calculating the bone chain. Use the magnet position (pole target) to control the bending of the IK chain.
+Si ``true``, ordonne au solveur IK de considérer la cible magnétique secondaire (cible du pôle) lors du calcul de la chaîne d'os. Utilisez la position de l'aimant (cible du pôle) pour contrôler la flexion de la chaîne IK.
 
 .. rst-class:: classref-section-separator
 

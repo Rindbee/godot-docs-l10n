@@ -108,9 +108,9 @@ Descriptions des propriétés
 - |void| **set_doppler_tracking**\ (\ value\: :ref:`DopplerTracking<enum_AudioListener3D_DopplerTracking>`\ )
 - :ref:`DopplerTracking<enum_AudioListener3D_DopplerTracking>` **get_doppler_tracking**\ (\ )
 
-If not :ref:`DOPPLER_TRACKING_DISABLED<class_AudioListener3D_constant_DOPPLER_TRACKING_DISABLED>`, this listener will simulate the `Doppler effect <https://en.wikipedia.org/wiki/Doppler_effect>`__ for objects changed in particular ``_process`` methods.
+Si n'est pas :ref:`DOPPLER_TRACKING_DISABLED<class_AudioListener3D_constant_DOPPLER_TRACKING_DISABLED>`, cet auditeur simulera l'effet `Doppler <https://fr.wikipedia.org/wiki/Effet_Doppler>`__ pour les objets modifiés dans des méthodes ``_process`` particulières.
 
-\ **Note:** The Doppler effect will only be heard on :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ s if :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` is not set to :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`.
+\ **Note :** L'effet Doppler ne sera entendu que sur des :ref:`AudioStreamPlayer3D<class_AudioStreamPlayer3D>`\ s si :ref:`AudioStreamPlayer3D.doppler_tracking<class_AudioStreamPlayer3D_property_doppler_tracking>` n'est pas défini à :ref:`AudioStreamPlayer3D.DOPPLER_TRACKING_DISABLED<class_AudioStreamPlayer3D_constant_DOPPLER_TRACKING_DISABLED>`.
 
 .. rst-class:: classref-section-separator
 
@@ -127,7 +127,7 @@ Descriptions des méthodes
 
 |void| **clear_current**\ (\ ) :ref:`🔗<class_AudioListener3D_method_clear_current>`
 
-Désactive l'écouteur pour utiliser à la place celui de la caméra actuelle.
+Désactive l'auditeur pour utiliser à la place celui de la caméra actuelle.
 
 .. rst-class:: classref-item-separator
 
@@ -139,7 +139,7 @@ Désactive l'écouteur pour utiliser à la place celui de la caméra actuelle.
 
 :ref:`Transform3D<class_Transform3D>` **get_listener_transform**\ (\ ) |const| :ref:`🔗<class_AudioListener3D_method_get_listener_transform>`
 
-Renvoie le :ref:`Transform3D<class_Transform3D>` global orthonormalisé de l'auditeur.
+Renvoie la :ref:`Transform3D<class_Transform3D>` globale orthonormalisée de l'auditeur.
 
 .. rst-class:: classref-item-separator
 

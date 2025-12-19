@@ -9,14 +9,14 @@ Separator
 
 **Heredado por:** :ref:`HSeparator<class_HSeparator>`, :ref:`VSeparator<class_VSeparator>`
 
-Abstract base class for separators.
+Clase base abstracta para separadores.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Abstract base class for separators, used for separating other controls. **Separator**\ s are purely visual and normally drawn as a :ref:`StyleBoxLine<class_StyleBoxLine>`.
+Clase base abstracta para separadores, utilizada para separar otros controles. Los **Separator**\ s son puramente visuales y normalmente se dibujan como un :ref:`StyleBoxLine<class_StyleBoxLine>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,7 +47,7 @@ Descripciones de las propiedades del tema
 
 :ref:`int<class_int>` **separation** = ``0`` :ref:`🔗<class_Separator_theme_constant_separation>`
 
-The size of the area covered by the separator. Effectively works like a minimum width/height.
+El tamaño del área cubierta por el separador. Efectivamente funciona como un ancho/alto mínimo.
 
 .. rst-class:: classref-item-separator
 
@@ -59,7 +59,7 @@ The size of the area covered by the separator. Effectively works like a minimum 
 
 :ref:`StyleBox<class_StyleBox>` **separator** :ref:`🔗<class_Separator_theme_style_separator>`
 
-The style for the separator line. Works best with :ref:`StyleBoxLine<class_StyleBoxLine>` (remember to enable :ref:`StyleBoxLine.vertical<class_StyleBoxLine_property_vertical>` for :ref:`VSeparator<class_VSeparator>`).
+El estilo de la línea del separador. Funciona mejor con :ref:`StyleBoxLine<class_StyleBoxLine>` (recuerda habilitar :ref:`StyleBoxLine.vertical<class_StyleBoxLine_property_vertical>` para :ref:`VSeparator<class_VSeparator>`).
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

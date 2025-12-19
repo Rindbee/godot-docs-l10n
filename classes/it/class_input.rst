@@ -863,9 +863,7 @@ If ``exact_match`` is ``false``, it ignores additional input modifiers for :ref:
 
 :ref:`bool<class_bool>` **is_action_just_released_by_event**\ (\ action\: :ref:`StringName<class_StringName>`, event\: :ref:`InputEvent<class_InputEvent>`, exact_match\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Input_method_is_action_just_released_by_event>`
 
-Restituisce ``true`` quando l'utente ha *finito* di premere l'evento azione nel frame o nel tick di fisica attuale, e il primo evento che ha attivato il rilascio dell'azione nel frame/tick di fisica attuale è stato ``event``.
-
-Restituirà ``true`` solo sul frame o sul tick in cui l'utente ha rilasciato il pulsante.
+Restituisce ``true`` quando l'utente ha *finito* di premere l'evento azione nel frame o nel tick di fisica attuale, e il primo evento che ha attivato il rilascio dell'azione nel frame/tick di fisica attuale è stato ``event``. Restituirà ``true`` solo sul frame o sul tick in cui l'utente ha rilasciato il pulsante.
 
 Ciò è utile quando un'azione è elaborata durante la gestione degli input (ad esempio :ref:`Node._input()<class_Node_private_method__input>`).
 

@@ -16,7 +16,7 @@ Permet d'implémenter des extensions OpenXR avec GDExtension.
 Description
 -----------
 
-**OpenXRExtensionWrapperExtension** allows implementing OpenXR extensions with GDExtension. The extension should be registered with :ref:`OpenXRExtensionWrapper.register_extension_wrapper()<class_OpenXRExtensionWrapper_method_register_extension_wrapper>`.
+**OpenXRExtensionWrapperExtension** permet d'implémenter des extensions OpenXR avec GDExtension. L'extension doit être enregistrée avec :ref:`OpenXRExtensionWrapper.register_extension_wrapper()<class_OpenXRExtensionWrapper_method_register_extension_wrapper>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

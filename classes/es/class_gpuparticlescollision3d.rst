@@ -9,7 +9,7 @@ GPUParticlesCollision3D
 
 **Heredado por:** :ref:`GPUParticlesCollisionBox3D<class_GPUParticlesCollisionBox3D>`, :ref:`GPUParticlesCollisionHeightField3D<class_GPUParticlesCollisionHeightField3D>`, :ref:`GPUParticlesCollisionSDF3D<class_GPUParticlesCollisionSDF3D>`, :ref:`GPUParticlesCollisionSphere3D<class_GPUParticlesCollisionSphere3D>`
 
-Abstract base class for 3D particle collision shapes affecting :ref:`GPUParticles3D<class_GPUParticles3D>` nodes.
+Clase base abstracta para las formas de colisión de partículas 3D que afectan a los nodos :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
 .. rst-class:: classref-introduction-group
 

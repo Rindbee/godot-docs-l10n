@@ -1075,7 +1075,7 @@ Y компонент вектора. Может быть доступен чер
 
 ::
 
-    print(Vector2(10, 20) * Vector2(3, 4)) # Prints (30.0, 80.0)
+    print(Vector2(10, 20) * Vector2(3, 4)) # Выводит (30.0, 80.0)
 
 .. rst-class:: classref-item-separator
 

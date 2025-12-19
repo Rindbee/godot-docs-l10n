@@ -14,45 +14,45 @@ Classe d'aide pour créer et interpréter des données JSON.
 Description
 -----------
 
-The **JSON** class enables all data types to be converted to and from a JSON string. This is useful for serializing data, e.g. to save to a file or send over the network.
+La classe **JSON** permet à tous les types de données d'être convertis en et d'une chaîne JSON. Ceci est utile pour la sérialisation de données, par exemple pour enregistrer dans un fichier ou envoyer sur le réseau.
 
-\ :ref:`stringify()<class_JSON_method_stringify>` is used to convert any data type into a JSON string.
+\ :ref:`stringify()<class_JSON_method_stringify>` est utilisée pour convertir tout type de données en une chaîne JSON.
 
-\ :ref:`parse()<class_JSON_method_parse>` is used to convert any existing JSON data into a :ref:`Variant<class_Variant>` that can be used within Godot. If successfully parsed, use :ref:`data<class_JSON_property_data>` to retrieve the :ref:`Variant<class_Variant>`, and use :ref:`@GlobalScope.typeof()<class_@GlobalScope_method_typeof>` to check if the Variant's type is what you expect. JSON Objects are converted into a :ref:`Dictionary<class_Dictionary>`, but JSON data can be used to store :ref:`Array<class_Array>`\ s, numbers, :ref:`String<class_String>`\ s and even just a boolean.
+\ :ref:`parse()<class_JSON_method_parse>` est utilisée pour convertir des données JSON existantes en un :ref:`Variant<class_Variant>` qui peut être utilisé dans Godot. Si parsé avec succès, utilisez :ref:`data<class_JSON_property_data>` pour récupérer le :ref:`Variant<class_Variant>` et utilisez :ref:`@GlobalScope.typeof()<class_@GlobalScope_method_typeof>` pour vérifier si le type du Variant est celui que vous attendez. Les objets JSON sont convertis en un :ref:`Dictionary<class_Dictionary>`, mais les données JSON peuvent être utilisées pour stocker des :ref:`Array<class_Array>`\ s, des nombres, des :ref:`String<class_String>`\ s et même seulement un booléen.
 
 ::
 
-    var data_to_send = ["a", "b", "c"]
-    var json_string = JSON.stringify(data_to_send)
-    # Save data
+    var donnees_a_envoyer = ["a", "b", "c"]
+    var chaine_json = JSON.stringify(donnees_a_envoyer)
+    # Sauvegarder les données
     # ...
-    # Retrieve data
+    # Récupérer les données
     var json = JSON.new()
-    var error = json.parse(json_string)
-    if error == OK:
-        var data_received = json.data
-        if typeof(data_received) == TYPE_ARRAY:
-            print(data_received) # Prints the array.
+    var erreur = json.parse(chaine_json)
+    if erreur == OK:
+        var donnees_recues = json.data
+        if typeof(donnees_recues) == TYPE_ARRAY:
+            print(donnees_recues) # Affiche le tableau.
         else:
-            print("Unexpected data")
+            print("Données inattendues")
     else:
-        print("JSON Parse Error: ", json.get_error_message(), " in ", json_string, " at line ", json.get_error_line())
+        print("Erreur du parsing JSON : ", json.get_error_message(), " dans ", json_string, " à la ligne ", json.get_error_line())
 
-Alternatively, you can parse strings using the static :ref:`parse_string()<class_JSON_method_parse_string>` method, but it doesn't handle errors.
+Alternativement, vous pouvez parser des chaînes en utilisant la méthode statique :ref:`parse_string()<class_JSON_method_parse_string>`, mais il ne gère pas les erreurs.
 
 ::
 
-    var data = JSON.parse_string(json_string) # Returns null if parsing failed.
+    var donnes = JSON.parse_string(chaine_json) # Renvoie null si le parsing a echoué.
 
-\ **Note:** Both parse methods do not fully comply with the JSON specification:
+\ **Note :** Les deux méthodes de parsing ne sont pas entièrement conformes à la spécification JSON :
 
-- Trailing commas in arrays or objects are ignored, instead of causing a parser error.
+- Les virgules de fin dans les tableaux ou les objets sont ignorées, au lieu de causer une erreur de parsing.
 
-- New line and tab characters are accepted in string literals, and are treated like their corresponding escape sequences ``\n`` and ``\t``.
+- Les caractères de nouvelle ligne et de tabulations sont acceptés en caractères alphabétiques et sont traités comme leurs séquences d'échappement correspondantes ``\n`` et ``\t``.
 
-- Numbers are parsed using :ref:`String.to_float()<class_String_method_to_float>` which is generally more lax than the JSON specification.
+- Les chiffres sont parsés en utilisant :ref:`String.to_float()<class_String_method_to_float>` qui est généralement plus laxiste que la spécification JSON.
 
-- Certain errors, such as invalid Unicode sequences, do not cause a parser error. Instead, the string is cleaned up and an error is logged to the console.
+- Certaines erreurs, telles que les séquences Unicode invalides, ne provoquent pas d'erreur de parsing. Au lieu de cela, la chaîne est nettoyée et une erreur est affichée dans la console.
 
 .. rst-class:: classref-reftable-group
 
@@ -112,7 +112,7 @@ Descriptions des propriétés
 - |void| **set_data**\ (\ value\: :ref:`Variant<class_Variant>`\ )
 - :ref:`Variant<class_Variant>` **get_data**\ (\ )
 
-Contains the parsed JSON data in :ref:`Variant<class_Variant>` form.
+Contient les données JSON parsées en leur forme de :ref:`Variant<class_Variant>`.
 
 .. rst-class:: classref-section-separator
 
@@ -129,16 +129,16 @@ Descriptions des méthodes
 
 :ref:`Variant<class_Variant>` **from_native**\ (\ variant\: :ref:`Variant<class_Variant>`, full_objects\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_JSON_method_from_native>`
 
-Converts a native engine type to a JSON-compliant value.
+Convertit un type natif du moteur en une valeur compatible JSON.
 
-By default, objects are ignored for security reasons, unless ``full_objects`` is ``true``.
+Par défaut, les objets sont ignorés pour des raisons de sécurité, sauf si ``full_objects`` vaut\ ``true``.
 
-You can convert a native value to a JSON string like this:
+Vous pouvez convertir une valeur native en une chaîne JSON comme ceci :
 
 ::
 
-    func encode_data(value, full_objects = false):
-        return JSON.stringify(JSON.from_native(value, full_objects))
+    func encoder_donnees(valeur, objets_complets = false):
+        return JSON.stringify(JSON.from_native(valeur, objets_complets))
 
 .. rst-class:: classref-item-separator
 
@@ -150,7 +150,7 @@ You can convert a native value to a JSON string like this:
 
 :ref:`int<class_int>` **get_error_line**\ (\ ) |const| :ref:`🔗<class_JSON_method_get_error_line>`
 
-Returns ``0`` if the last call to :ref:`parse()<class_JSON_method_parse>` was successful, or the line number where the parse failed.
+Renvoie ``0`` si le dernier appel à :ref:`parse()<class_JSON_method_parse>` était un succès, ou le numéro de ligne où le parsing a échoué.
 
 .. rst-class:: classref-item-separator
 
@@ -162,7 +162,7 @@ Returns ``0`` if the last call to :ref:`parse()<class_JSON_method_parse>` was su
 
 :ref:`String<class_String>` **get_error_message**\ (\ ) |const| :ref:`🔗<class_JSON_method_get_error_message>`
 
-Returns an empty string if the last call to :ref:`parse()<class_JSON_method_parse>` was successful, or the error message if it failed.
+Renvoie une chaîne vide si le dernier appel à :ref:`parse()<class_JSON_method_parse>` était un succès, ou le message d'erreur si il a échoué.
 
 .. rst-class:: classref-item-separator
 
@@ -174,7 +174,7 @@ Returns an empty string if the last call to :ref:`parse()<class_JSON_method_pars
 
 :ref:`String<class_String>` **get_parsed_text**\ (\ ) |const| :ref:`🔗<class_JSON_method_get_parsed_text>`
 
-Return the text parsed by :ref:`parse()<class_JSON_method_parse>` (requires passing ``keep_text`` to :ref:`parse()<class_JSON_method_parse>`).
+Renvoie le texte parsé par :ref:`parse()<class_JSON_method_parse>` (nécessite de passer ``keep_text`` à :ref:`parse()<class_JSON_method_parse>`).
 
 .. rst-class:: classref-item-separator
 
@@ -186,13 +186,13 @@ Return the text parsed by :ref:`parse()<class_JSON_method_parse>` (requires pass
 
 :ref:`Error<enum_@GlobalScope_Error>` **parse**\ (\ json_text\: :ref:`String<class_String>`, keep_text\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_JSON_method_parse>`
 
-Attempts to parse the ``json_text`` provided.
+Essaye de parser le texte ``json_text`` fourni.
 
-Returns an :ref:`Error<enum_@GlobalScope_Error>`. If the parse was successful, it returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` and the result can be retrieved using :ref:`data<class_JSON_property_data>`. If unsuccessful, use :ref:`get_error_line()<class_JSON_method_get_error_line>` and :ref:`get_error_message()<class_JSON_method_get_error_message>` to identify the source of the failure.
+Renvoie une erreur :ref:`Error<enum_@GlobalScope_Error>`. Si le parsing était un succès, elle renvoie :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` et le résultat peut être récupéré en utilisant :ref:`data<class_JSON_property_data>`. Si c'était un échec, utilisez :ref:`get_error_line()<class_JSON_method_get_error_line>` et :ref:`get_error_message()<class_JSON_method_get_error_message>` pour identifier la source de l'échec.
 
-Non-static variant of :ref:`parse_string()<class_JSON_method_parse_string>`, if you want custom error handling.
+Variante non statique de :ref:`parse_string()<class_JSON_method_parse_string>`, si vous voulez gérer les erreurs de manière personnalisée.
 
-The optional ``keep_text`` argument instructs the parser to keep a copy of the original text. This text can be obtained later by using the :ref:`get_parsed_text()<class_JSON_method_get_parsed_text>` function and is used when saving the resource (instead of generating new text from :ref:`data<class_JSON_property_data>`).
+L'argument optionnel ``keep_text`` ordonne au parseur de conserver une copie du texte original. Ce texte peut être obtenu plus tard en utilisant la fonction :ref:`get_parsed_text()<class_JSON_method_get_parsed_text>` et est utilisé lors de la sauvegarde de la ressource (au lieu de générer un nouveau texte à partir de :ref:`data<class_JSON_property_data>`).
 
 .. rst-class:: classref-item-separator
 
@@ -273,16 +273,16 @@ La paramètre ``indent`` contrôle si et comment le JSON doit être indenté, la
 
 :ref:`Variant<class_Variant>` **to_native**\ (\ json\: :ref:`Variant<class_Variant>`, allow_objects\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_JSON_method_to_native>`
 
-Converts a JSON-compliant value that was created with :ref:`from_native()<class_JSON_method_from_native>` back to native engine types.
+Convertit une valeur compatible-JSON qui a été créée avec :ref:`from_native()<class_JSON_method_from_native>` vers un type natif du moteur.
 
-By default, objects are ignored for security reasons, unless ``allow_objects`` is ``true``.
+Par défaut, les objets sont ignorés pour des raisons de sécurité, sauf si ``allow_objects`` vaut ``true``.
 
-You can convert a JSON string back to a native value like this:
+Vous pouvez convertir une chaîne JSON en une valeur native comme ceci :
 
 ::
 
-    func decode_data(string, allow_objects = false):
-        return JSON.to_native(JSON.parse_string(string), allow_objects)
+    func decoder_donnees(chaine, autoriser_objets = false):
+        return JSON.to_native(JSON.parse_string(chaine), autoriser_objets)
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

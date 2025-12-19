@@ -7,14 +7,14 @@ ScriptEditorBase
 
 **Hereda:** :ref:`VBoxContainer<class_VBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-Base editor for editing scripts in the :ref:`ScriptEditor<class_ScriptEditor>`.
+Editor base para editar scripts en el :ref:`ScriptEditor<class_ScriptEditor>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Base editor for editing scripts in the :ref:`ScriptEditor<class_ScriptEditor>`. This does not include documentation items.
+Editor base para editar scripts en el :ref:`ScriptEditor<class_ScriptEditor>`. No incluye los elementos de documentación.
 
 .. rst-class:: classref-reftable-group
 
@@ -69,7 +69,7 @@ Emitida cuando el usuario solicita una página de documentación específica.
 
 **go_to_method**\ (\ script\: :ref:`Object<class_Object>`, method\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ScriptEditorBase_signal_go_to_method>`
 
-Emitted when the user requests to view a specific method of a script, similar to :ref:`request_open_script_at_line<class_ScriptEditorBase_signal_request_open_script_at_line>`.
+Emitida cuando el usuario solicita ver un método específico de un script, similar a :ref:`request_open_script_at_line<class_ScriptEditorBase_signal_request_open_script_at_line>`.
 
 .. rst-class:: classref-item-separator
 
@@ -117,7 +117,7 @@ Emitida cuando el usuario solicita ayuda contextual.
 
 **request_open_script_at_line**\ (\ script\: :ref:`Object<class_Object>`, line\: :ref:`int<class_int>`\ ) :ref:`🔗<class_ScriptEditorBase_signal_request_open_script_at_line>`
 
-Emitted when the user requests to view a specific line of a script, similar to :ref:`go_to_method<class_ScriptEditorBase_signal_go_to_method>`.
+Emitida cuando el usuario solicita ver una línea específica de un script, similar a :ref:`go_to_method<class_ScriptEditorBase_signal_go_to_method>`.
 
 .. rst-class:: classref-item-separator
 
@@ -170,7 +170,7 @@ Descripciones de Métodos
 
 |void| **add_syntax_highlighter**\ (\ highlighter\: :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>`\ ) :ref:`🔗<class_ScriptEditorBase_method_add_syntax_highlighter>`
 
-Adds an :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` to the open script.
+Añade un :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` al script abierto.
 
 .. rst-class:: classref-item-separator
 
@@ -182,7 +182,7 @@ Adds an :ref:`EditorSyntaxHighlighter<class_EditorSyntaxHighlighter>` to the ope
 
 :ref:`Control<class_Control>` **get_base_editor**\ (\ ) |const| :ref:`🔗<class_ScriptEditorBase_method_get_base_editor>`
 
-Returns the underlying :ref:`Control<class_Control>` used for editing scripts. For text scripts, this is a :ref:`CodeEdit<class_CodeEdit>`.
+Devuelve el :ref:`Control<class_Control>` subyacente utilizado para editar scripts. Para scripts de texto, este es un :ref:`CodeEdit<class_CodeEdit>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

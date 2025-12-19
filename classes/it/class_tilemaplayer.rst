@@ -333,9 +333,9 @@ Abilita o disabilita l'occlusione di luce.
 - |void| **set_physics_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_physics_quadrant_size**\ (\ )
 
-La dimensione del quadrante di fisica del **TileMapLayer**. All'interno di un quadrante di fisica, le celle con proprietà fisiche simili sono raggruppate assieme e le loro forme di collisione sono unite. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, la dimensione predefinita del quadrante raggruppa insieme ``16 * 16 = 256`` tasselli.
+La dimensione dei quadranti di fisica del **TileMapLayer**. All'interno di un quadrante di fisica, le celle con proprietà fisiche simili sono raggruppate assieme e le loro forme di collisione sono unite. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, la dimensione predefinita dei quadranti raggruppa insieme ``16 * 16 = 256`` tasselli.
 
-\ **Nota:** Poiché i quadranti sono creati secondo il sistema di coordinate della mappa, la "forma quadrata" del quadrante potrebbe non apparire quadrata nel sistema di coordinate locale del **TileMapLayer**.
+\ **Nota:** Poiché i quadranti sono creati secondo il sistema di coordinate della mappa, la "forma quadrata" dei quadranti potrebbe non apparire quadrata nel sistema di coordinate locale del **TileMapLayer**.
 
 \ **Nota:** Ciò influisce sul valore restituito da :ref:`get_coords_for_body_rid()<class_TileMapLayer_method_get_coords_for_body_rid>`.
 
@@ -354,11 +354,11 @@ La dimensione del quadrante di fisica del **TileMapLayer**. All'interno di un qu
 - |void| **set_rendering_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_rendering_quadrant_size**\ (\ )
 
-La dimensione del quadrante di rendering del **TileMapLayer**. Un quadrante è un gruppo di tasselli da disegnare insieme su un singolo elemento canvas, per scopi di ottimizzazione. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, la dimensione predefinita del quadrante raggruppa insieme ``16 * 16 = 256`` tasselli.
+La dimensione dei quadranti di rendering del **TileMapLayer**. Un quadrante è un gruppo di tasselli da disegnare insieme su un singolo elemento canvas, per scopi di ottimizzazione. :ref:`rendering_quadrant_size<class_TileMapLayer_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, la dimensione predefinita dei quadranti raggruppa insieme ``16 * 16 = 256`` tasselli.
 
-La dimensione del quadrante non si applica a un **TileMapLayer** ordinato per Y, poiché in quel caso i tasselli sono raggruppati in base alla posizione Y.
+La dimensione dei quadranti non si applica a un **TileMapLayer** ordinato per Y, poiché in quel caso i tasselli sono raggruppati in base alla posizione Y.
 
-\ **Nota:** Poiché i quadranti sono creati secondo il sistema di coordinate della mappa, la "forma quadrata" del quadrante potrebbe non apparire quadrata nel sistema di coordinate locale del **TileMapLayer**.
+\ **Nota:** Poiché i quadranti sono creati secondo il sistema di coordinate della mappa, la "forma quadrata" dei quadranti potrebbe non apparire quadrata nel sistema di coordinate locale del **TileMapLayer**.
 
 .. rst-class:: classref-item-separator
 

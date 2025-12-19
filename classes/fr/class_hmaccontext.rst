@@ -95,7 +95,7 @@ Descriptions des méthodes
 
 :ref:`PackedByteArray<class_PackedByteArray>` **finish**\ (\ ) :ref:`🔗<class_HMACContext_method_finish>`
 
-Returns the resulting HMAC. If the HMAC failed, an empty :ref:`PackedByteArray<class_PackedByteArray>` is returned.
+Renvoie le HMAC résultant. Si le HMAC a échoué, un :ref:`PackedByteArray<class_PackedByteArray>` vide est renvoyé.
 
 .. rst-class:: classref-item-separator
 
@@ -119,7 +119,7 @@ Initialise le HMACContext. Cette méthode ne peut pas être appelée sur le mêm
 
 :ref:`Error<enum_@GlobalScope_Error>` **update**\ (\ data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_HMACContext_method_update>`
 
-Updates the message to be HMACed. This can be called multiple times before :ref:`finish()<class_HMACContext_method_finish>` is called to append ``data`` to the message, but cannot be called until :ref:`start()<class_HMACContext_method_start>` has been called.
+Met à jour le message a être HMACé. Ceci peut être appelé plusieurs fois avant que :ref:`finish()<class_HMACContext_method_finish>` soit appelée pour ajouter les données ``data`` au message, mais ne peut être appelé avant que :ref:`start()<class_HMACContext_method_start>` ne soit appelée.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

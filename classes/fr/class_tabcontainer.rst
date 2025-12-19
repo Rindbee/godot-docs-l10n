@@ -7,16 +7,16 @@ TabContainer
 
 **Hérite de :** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A container that creates a tab for each child control, displaying only the active tab's control.
+Un conteneur qui crée un onglet pour chaque contrôle enfant, n'affichant que le contrôle de l'onglet actif.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Arranges child controls into a tabbed view, creating a tab for each one. The active tab's corresponding control is made visible, while all other child controls are hidden. Ignores non-control children.
+Arrange les contrôles enfants en une vue en onglets, créant un onglet pour chacun. Le contrôle correspondant à l'onglet actif est rendu visible, tandis que tous les autres contrôles enfants sont cachés. Ignore les contrôles non enfants.
 
-\ **Note:** The drawing of the clickable tabs is handled by this node; :ref:`TabBar<class_TabBar>` is not needed.
+\ **Note :** Le dessin des onglets cliquables est géré par ce nœud, :ref:`TabBar<class_TabBar>` n'est pas nécessaire.
 
 .. rst-class:: classref-introduction-group
 
@@ -295,7 +295,7 @@ enum **TabPosition**: :ref:`🔗<enum_TabContainer_TabPosition>`
 
 :ref:`TabPosition<enum_TabContainer_TabPosition>` **POSITION_TOP** = ``0``
 
-Places the tab bar at the top.
+Place la barre d'onglet en haut.
 
 .. _class_TabContainer_constant_POSITION_BOTTOM:
 
@@ -303,7 +303,7 @@ Places the tab bar at the top.
 
 :ref:`TabPosition<enum_TabContainer_TabPosition>` **POSITION_BOTTOM** = ``1``
 
-Places the tab bar at the bottom. The tab bar's :ref:`StyleBox<class_StyleBox>` will be flipped vertically.
+Place la barre d'onglets en bas. La :ref:`StyleBox<class_StyleBox>` de la barre d'onglets sera inversée verticalement.
 
 .. _class_TabContainer_constant_POSITION_MAX:
 
@@ -367,9 +367,9 @@ Si ``true``, les onglets débordant de la largeur de ce nœud seront cachés, af
 - |void| **set_current_tab**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_current_tab**\ (\ )
 
-The current tab index. When set, this index's :ref:`Control<class_Control>` node's ``visible`` property is set to ``true`` and all others are set to ``false``.
+L'index actuel de l'onglet. Lorsque définie, la propriété ``visible`` du nœud :ref:`Control<class_Control>` de cet index est définie à ``true`` et toutes les autres sont définies à ``false``.
 
-A value of ``-1`` means that no tab is selected.
+Une valeur de ``-1`` signifie qu'aucun onglet n'est sélectionné.
 
 .. rst-class:: classref-item-separator
 
@@ -386,9 +386,9 @@ A value of ``-1`` means that no tab is selected.
 - |void| **set_deselect_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_deselect_enabled**\ (\ )
 
-If ``true``, all tabs can be deselected so that no tab is selected. Click on the :ref:`current_tab<class_TabContainer_property_current_tab>` to deselect it.
+Si ``true``, tous les onglets peuvent être désélectionnés de sorte qu'aucun onglet ne soit sélectionné. Cliquez sur l'onglet actuel :ref:`current_tab<class_TabContainer_property_current_tab>` pour le désélectionner.
 
-Only the tab header will be shown if no tabs are selected.
+Seul l'en-tête de l'onglet sera affiché si aucun onglet n'est sélectionné.
 
 .. rst-class:: classref-item-separator
 
@@ -439,7 +439,7 @@ La position à laquelle les onglets seront placés.
 - |void| **set_tab_focus_mode**\ (\ value\: :ref:`FocusMode<enum_Control_FocusMode>`\ )
 - :ref:`FocusMode<enum_Control_FocusMode>` **get_tab_focus_mode**\ (\ )
 
-The focus access mode for the internal :ref:`TabBar<class_TabBar>` node.
+Le mode d'accès au focus pour le nœud :ref:`TabBar<class_TabBar>` interne.
 
 .. rst-class:: classref-item-separator
 
@@ -509,7 +509,7 @@ Si ``true``, les onglets sont visibles. Si ``false``, le contenu des onglets et 
 - |void| **set_use_hidden_tabs_for_min_size**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_hidden_tabs_for_min_size**\ (\ )
 
-If ``true``, child :ref:`Control<class_Control>` nodes that are hidden have their minimum size take into account in the total, instead of only the currently visible one.
+Si ``true``, les nœuds :ref:`Control<class_Control>` enfants qui sont cachés auront leur taille minimale qui sera prise en compte dans le total, au lieu de seulement celle actuellement visible.
 
 .. rst-class:: classref-section-separator
 
@@ -538,9 +538,9 @@ Renvoie le nœud :ref:`Control<class_Control>` enfant localisé à l'index de l'
 
 :ref:`Popup<class_Popup>` **get_popup**\ (\ ) |const| :ref:`🔗<class_TabContainer_method_get_popup>`
 
-Returns the :ref:`Popup<class_Popup>` node instance if one has been set already with :ref:`set_popup()<class_TabContainer_method_set_popup>`.
+Renvoie l'instance de nœud :ref:`Popup<class_Popup>` si l'un a déjà été défini avec :ref:`set_popup()<class_TabContainer_method_set_popup>`.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`Window.visible<class_Window_property_visible>` property.
+\ **Avertissement :** Il s'agit d'un nœud interne requis, le retirer et le supprimer peut causer un plantage. Si vous voulez le cacher ou l'un de ses enfants, utilisez leur propriété :ref:`Window.visible<class_Window_property_visible>`.
 
 .. rst-class:: classref-item-separator
 
@@ -650,7 +650,7 @@ Renvoie l'index de l'onglet aux coordonnées locales ``point``. Renvoie ``-1`` s
 
 :ref:`int<class_int>` **get_tab_idx_from_control**\ (\ control\: :ref:`Control<class_Control>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_idx_from_control>`
 
-Returns the index of the tab tied to the given ``control``. The control must be a child of the **TabContainer**.
+Renvoie l'index de l'onglet lié au contrôle ``control`` donné. Le contrôle doit être un enfant du **TabContainer**.
 
 .. rst-class:: classref-item-separator
 
@@ -674,7 +674,7 @@ Renvoie la valeur des métadonnées définies dans l'onglet à l'index ``tab_idx
 
 :ref:`String<class_String>` **get_tab_title**\ (\ tab_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TabContainer_method_get_tab_title>`
 
-Returns the title of the tab at index ``tab_idx``. Tab titles default to the name of the indexed child node, but this can be overridden with :ref:`set_tab_title()<class_TabContainer_method_set_tab_title>`.
+Renvoie le titre de l'onglet à l'index ``tab_idx``. Le titres des onglets sont par défaut le nom des nœuds enfants indexés, mais ça peut être redéfini avec :ref:`set_tab_title()<class_TabContainer_method_set_tab_title>`.
 
 .. rst-class:: classref-item-separator
 
@@ -746,7 +746,7 @@ Sélectionne le premier onglet disponible avec un index inférieur à celui actu
 
 |void| **set_popup**\ (\ popup\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_TabContainer_method_set_popup>`
 
-If set on a :ref:`Popup<class_Popup>` node instance, a popup menu icon appears in the top-right corner of the **TabContainer** (setting it to ``null`` will make it go away). Clicking it will expand the :ref:`Popup<class_Popup>` node.
+Si défini à une instance de nœud :ref:`Popup<class_Popup>`, une icône de menu popup apparaît dans le coin supérieur droit du **TabContainer** (le définir à ``null`` la fera disparaître). Cliquer dessus étendra le nœud :ref:`Popup<class_Popup>`.
 
 .. rst-class:: classref-item-separator
 
@@ -830,7 +830,7 @@ Définit la valeur des métadonnées pour l'onglet à l'index ``tab_idx``, qui p
 
 |void| **set_tab_title**\ (\ tab_idx\: :ref:`int<class_int>`, title\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_title>`
 
-Sets a custom title for the tab at index ``tab_idx`` (tab titles default to the name of the indexed child node). Set it back to the child's name to make the tab default to it again.
+Définit un titre personnalisé pour l'onglet à l'index ``tab_idx`` (les titres des onglets sont par défaut le nom du nœud enfant indexé). Définissez au nom de l'enfant pour qu'il redevienne le nom par défaut.
 
 .. rst-class:: classref-item-separator
 
@@ -842,9 +842,9 @@ Sets a custom title for the tab at index ``tab_idx`` (tab titles default to the 
 
 |void| **set_tab_tooltip**\ (\ tab_idx\: :ref:`int<class_int>`, tooltip\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TabContainer_method_set_tab_tooltip>`
 
-Sets a custom tooltip text for tab at index ``tab_idx``.
+Définit un texte d'info-bulle personnalisé pour l'onglet à l'index ``tab_idx``.
 
-\ **Note:** By default, if the ``tooltip`` is empty and the tab text is truncated (not all characters fit into the tab), the title will be displayed as a tooltip. To hide the tooltip, assign ``" "`` as the ``tooltip`` text.
+\ **Note :** Par défaut, si le ``tooltip`` est vide et que le texte de l'onglet est tronqué (tous les caractères ne s'inscrivent pas tous dans l'onglet), le titre sera affiché en tant qu'info-bulle. Pour cacher l'info-bulle, assignez ``" "`` comme texte du ``tooltip``.
 
 .. rst-class:: classref-section-separator
 
@@ -885,7 +885,7 @@ La couleur de la police pour les onglets désactivés.
 
 :ref:`Color<class_Color>` **font_hovered_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_TabContainer_theme_color_font_hovered_color>`
 
-Font color of the currently hovered tab.
+Couleur de police pour l'onglet actuellement survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -933,7 +933,7 @@ Couleur de police pour les autres onglets, non sélectionnés.
 
 :ref:`int<class_int>` **icon_max_width** = ``0`` :ref:`🔗<class_TabContainer_theme_constant_icon_max_width>`
 
-The maximum allowed width of the tab's icon. This limit is applied on top of the default size of the icon, but before the value set with :ref:`TabBar.set_tab_icon_max_width()<class_TabBar_method_set_tab_icon_max_width>`. The height is adjusted according to the icon's ratio.
+La largeur maximale autorisée de l'icône de l'onglet. Cette limite est appliquée par dessus la taille par défaut de l'icône, mais avant la valeur définie avec :ref:`TabBar.set_tab_icon_max_width()<class_TabBar_method_set_tab_icon_max_width>`. La hauteur est ajustée selon le rapport de l'icône.
 
 .. rst-class:: classref-item-separator
 
@@ -945,7 +945,7 @@ The maximum allowed width of the tab's icon. This limit is applied on top of the
 
 :ref:`int<class_int>` **icon_separation** = ``4`` :ref:`🔗<class_TabContainer_theme_constant_icon_separation>`
 
-Space between tab's name and its icon.
+Espacement entre le nom de l'onglet et son icône.
 
 .. rst-class:: classref-item-separator
 
@@ -971,9 +971,9 @@ La taille du contour du texte de l'onglet.
 
 :ref:`int<class_int>` **side_margin** = ``8`` :ref:`🔗<class_TabContainer_theme_constant_side_margin>`
 
-The space at the left or right edges of the tab bar, accordingly with the current :ref:`tab_alignment<class_TabContainer_property_tab_alignment>`.
+L'espace du bord gauche ou droite de la barre d'onglet, selon le :ref:`tab_alignment<class_TabContainer_property_tab_alignment>` actuel.
 
-The margin is ignored with :ref:`TabBar.ALIGNMENT_RIGHT<class_TabBar_constant_ALIGNMENT_RIGHT>` if the tabs are clipped (see :ref:`clip_tabs<class_TabContainer_property_clip_tabs>`) or a popup has been set (see :ref:`set_popup()<class_TabContainer_method_set_popup>`). The margin is always ignored with :ref:`TabBar.ALIGNMENT_CENTER<class_TabBar_constant_ALIGNMENT_CENTER>`.
+La marge est ignorée avec :ref:`TabBar.ALIGNMENT_RIGHT<class_TabBar_constant_ALIGNMENT_RIGHT>` si les onglets sont coupés (voir :ref:`clip_tabs<class_TabContainer_property_clip_tabs>`) ou si une popup a été définie (voir :ref:`set_popup()<class_TabContainer_method_set_popup>`). La marge est toujours ignorée avec :ref:`TabBar.ALIGNMENT_CENTER<class_TabBar_constant_ALIGNMENT_CENTER>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1141,9 +1141,9 @@ Le style des onglets désactivés.
 
 :ref:`StyleBox<class_StyleBox>` **tab_hovered** :ref:`🔗<class_TabContainer_theme_style_tab_hovered>`
 
-The style of the currently hovered tab.
+Le style de l'onglet actuellement survolé.
 
-\ **Note:** This style will be drawn with the same width as :ref:`tab_unselected<class_TabContainer_theme_style_tab_unselected>` at minimum.
+\ **Note :** Ce style sera dessiné avec la même largeur que :ref:`tab_unselected<class_TabContainer_theme_style_tab_unselected>` au minimum.
 
 .. rst-class:: classref-item-separator
 

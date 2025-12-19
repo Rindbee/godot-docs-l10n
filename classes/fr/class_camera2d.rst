@@ -242,7 +242,7 @@ Le nœud :ref:`Viewport<class_Viewport>` personnalisé attaché à la **Camera2D
 - |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Bottom margin needed to drag the camera. A value of ``1`` makes the camera move only when reaching the bottom edge of the screen.
+La marge inférieure nécessaire pour faire glisser la caméra. Une valeur de ``1`` fait que la caméra se déplace uniquement lorsqu'elle atteint le bord inférieur de l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -259,7 +259,7 @@ Bottom margin needed to drag the camera. A value of ``1`` makes the camera move 
 - |void| **set_drag_horizontal_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_drag_horizontal_enabled**\ (\ )
 
-If ``true``, the camera only moves when reaching the horizontal (left and right) drag margins. If ``false``, the camera moves horizontally regardless of margins.
+Si ``true``, la caméra ne bouge que lorsqu'elle atteint les marges horizontales (droite et gauche) de glissage. Si ``false``, la caméra se déplace horizontalement indépendamment des marges.
 
 .. rst-class:: classref-item-separator
 
@@ -276,9 +276,9 @@ If ``true``, the camera only moves when reaching the horizontal (left and right)
 - |void| **set_drag_horizontal_offset**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_horizontal_offset**\ (\ )
 
-The relative horizontal drag offset of the camera between the right (``-1``) and left (``1``) drag margins.
+Le décalage de glissage horizontal relatif de la caméra entre les marges de glissage droite (``-1``) et gauche (``1``).
 
-\ **Note:** Used to set the initial horizontal drag offset; determine the current offset; or force the current offset. It's not automatically updated when :ref:`drag_horizontal_enabled<class_Camera2D_property_drag_horizontal_enabled>` is ``true`` or the drag margins are changed.
+\ **Note :** Utilisé pour régler le décalage initial du glissement horizontal, déterminer le décalage actuel, ou forcer le décalage actuel. Il n'est pas automatiquement mis à jour lorsque :ref:`drag_horizontal_enabled<class_Camera2D_property_drag_horizontal_enabled>` vaut ``true`` ou que les marges sont modifiées.
 
 .. rst-class:: classref-item-separator
 
@@ -295,7 +295,7 @@ The relative horizontal drag offset of the camera between the right (``-1``) and
 - |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Left margin needed to drag the camera. A value of ``1`` makes the camera move only when reaching the left edge of the screen.
+Marge de gauche nécessaire pour faire glisser la caméra. Une valeur de ``1`` ne déplace la caméra que lorsqu'elle atteint le bord gauche de l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -312,7 +312,7 @@ Left margin needed to drag the camera. A value of ``1`` makes the camera move on
 - |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Right margin needed to drag the camera. A value of ``1`` makes the camera move only when reaching the right edge of the screen.
+Marge de droite nécessaire pour faire glisser la caméra. Une valeur de ``1`` ne déplace la caméra que lorsqu'elle atteint le bord droit de l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -329,7 +329,7 @@ Right margin needed to drag the camera. A value of ``1`` makes the camera move o
 - |void| **set_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`, drag_margin\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_margin**\ (\ margin\: :ref:`Side<enum_@GlobalScope_Side>`\ ) |const|
 
-Top margin needed to drag the camera. A value of ``1`` makes the camera move only when reaching the top edge of the screen.
+Marge du haut nécessaire pour faire glisser la caméra. Une valeur de ``1`` ne déplace la caméra que lorsqu'elle atteint le bord du haut de l'écran.
 
 .. rst-class:: classref-item-separator
 
@@ -346,7 +346,7 @@ Top margin needed to drag the camera. A value of ``1`` makes the camera move onl
 - |void| **set_drag_vertical_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_drag_vertical_enabled**\ (\ )
 
-If ``true``, the camera only moves when reaching the vertical (top and bottom) drag margins. If ``false``, the camera moves vertically regardless of the drag margins.
+Si ``true``, la caméra ne bouge que lorsqu'elle atteint les marges verticales (haut et bas) de glissage. Si ``false``, la caméra se déplace verticalement indépendamment des marges de glissage.
 
 .. rst-class:: classref-item-separator
 
@@ -363,9 +363,9 @@ If ``true``, the camera only moves when reaching the vertical (top and bottom) d
 - |void| **set_drag_vertical_offset**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_vertical_offset**\ (\ )
 
-The relative vertical drag offset of the camera between the bottom (``-1``) and top (``1``) drag margins.
+Le décalage de glissement vertical relatif de la caméra entre le bas (``-1``) et le dessus (``1``)) des marges de glissement.
 
-\ **Note:** Used to set the initial vertical drag offset; determine the current offset; or force the current offset. It's not automatically updated when :ref:`drag_vertical_enabled<class_Camera2D_property_drag_vertical_enabled>` is ``true`` or the drag margins are changed.
+\ **Note :** Utilisé pour régler le décalage initial du glissement vertical, déterminer le décalage courant, ou forcer le décalage courant. Il n'est pas automatiquement mis à jour lorsque :ref:`drag_vertical_enabled<class_Camera2D_property_drag_vertical_enabled>` vaut ``true`` ou que les marges de glissement sont modifiées.
 
 .. rst-class:: classref-item-separator
 
@@ -774,9 +774,9 @@ Renvoie la rotation actuelle de l'écran du point de vue de cette caméra.
 
 :ref:`Vector2<class_Vector2>` **get_target_position**\ (\ ) |const| :ref:`🔗<class_Camera2D_method_get_target_position>`
 
-Returns this camera's target position, in global coordinates.
+Renvoie la position cible de cette caméra, dans les coordonnées globales.
 
-\ **Note:** The returned value is not the same as :ref:`Node2D.global_position<class_Node2D_property_global_position>`, as it is affected by the drag properties. It is also not the same as the current position if :ref:`position_smoothing_enabled<class_Camera2D_property_position_smoothing_enabled>` is ``true`` (see :ref:`get_screen_center_position()<class_Camera2D_method_get_screen_center_position>`).
+\ **Note :** La valeur renvoyée n'est pas la même que :ref:`Node2D.global_position<class_Node2D_property_global_position>`, car elle est affectée par les propriétés de glissage. Ce n'est aussi pas la même que la position actuelle si :ref:`position_smoothing_enabled<class_Camera2D_property_position_smoothing_enabled>` vaut ``true`` (voir :ref:`get_screen_center_position()<class_Camera2D_method_get_screen_center_position>`).
 
 .. rst-class:: classref-item-separator
 

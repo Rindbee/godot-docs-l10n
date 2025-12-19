@@ -7,14 +7,14 @@ CollisionShape2D
 
 **Hereda:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A node that provides a :ref:`Shape2D<class_Shape2D>` to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent.
+Un nodo que proporciona una :ref:`Shape2D<class_Shape2D>` a un padre :ref:`CollisionObject2D<class_CollisionObject2D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A node that provides a :ref:`Shape2D<class_Shape2D>` to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent and allows to edit it. This can give a detection shape to an :ref:`Area2D<class_Area2D>` or turn a :ref:`PhysicsBody2D<class_PhysicsBody2D>` into a solid object.
+Un nodo que proporciona una :ref:`Shape2D<class_Shape2D>` a un padre :ref:`CollisionObject2D<class_CollisionObject2D>` y permite editarlo. Esto puede dar una forma de detección a un :ref:`Area2D<class_Area2D>` o convertir un :ref:`PhysicsBody2D<class_PhysicsBody2D>` en un objeto sólido.
 
 .. rst-class:: classref-introduction-group
 
@@ -88,7 +88,7 @@ The collision shape color that is displayed in the editor, or in the running pro
 - |void| **set_disabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_disabled**\ (\ )
 
-A disabled collision shape has no effect in the world. This property should be changed with :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
+Una forma de colisión desactivada no tiene ningún efecto en el mundo. Esta propiedad debe cambiarse con :ref:`Object.set_deferred()<class_Object_method_set_deferred>`.
 
 .. rst-class:: classref-item-separator
 
@@ -105,9 +105,9 @@ A disabled collision shape has no effect in the world. This property should be c
 - |void| **set_one_way_collision**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_one_way_collision_enabled**\ (\ )
 
-Sets whether this collision shape should only detect collision on one side (top or bottom).
+Establece si esta forma de colisión sólo debe detectar la colisión en un lado (superior o inferior).
 
-\ **Note:** This property has no effect if this **CollisionShape2D** is a child of an :ref:`Area2D<class_Area2D>` node.
+\ **Nota:** Esta propiedad no tiene ningún efecto si este **CollisionShape2D** es hijo de un nodo :ref:`Area2D<class_Area2D>`.
 
 .. rst-class:: classref-item-separator
 

@@ -7,14 +7,14 @@ SegmentShape2D
 
 **Hereda:** :ref:`Shape2D<class_Shape2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 2D line segment shape used for physics collision.
+Una forma de segmento de línea 2D utilizada para la colisión física.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A 2D line segment shape, intended for use in physics. Usually used to provide a shape for a :ref:`CollisionShape2D<class_CollisionShape2D>`.
+Una forma de segmento de línea 2D, destinada a ser utilizada en física. Normalmente se usa para proporcionar una forma para un :ref:`CollisionShape2D<class_CollisionShape2D>`.
 
 .. rst-class:: classref-reftable-group
 

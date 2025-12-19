@@ -14,25 +14,25 @@ Uno :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` che applica una trasform
 Descrizione
 ----------------------
 
-Apply the copied transform of the bone set by :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` to the bone set by :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` with processing it with some masks and options.
+Applica la trasformazione copiata dell'insieme di ossa tramite :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` all'insieme di ossa tramite :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` elaborandola con alcune maschere e opzioni.
 
-There are 4 ways to apply the transform, depending on the combination of :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` and :ref:`set_additive()<class_CopyTransformModifier3D_method_set_additive>`.
+Esistono 4 modi per applicare la trasformazione, a seconda della combinazione di :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` e :ref:`set_additive()<class_CopyTransformModifier3D_method_set_additive>`.
 
-\ **Relative + Additive:**\ 
+\ **Relativo + Additivo:**\ 
 
-- Extract reference pose relative to the rest and add it to the apply bone's pose.
+- Estrae la posa di riferimento relativa al riposo e la aggiunge alla posa dell'osso da applicare.
 
-\ **Relative + Not Additive:**\ 
+\ **Relativo + Non Additivo:**\ 
 
-- Extract reference pose relative to the rest and add it to the apply bone's rest.
+- Estrae la posa di riferimento relativa al riposo e la aggiunge alla posa dell'osso da applicare.
 
-\ **Not Relative + Additive:**\ 
+\ **Non Relativo + Additivo:**\ 
 
-- Extract reference pose absolutely and add it to the apply bone's pose.
+- Estrae la posa di riferimento assoluta e la aggiunge alla posa dell'osso da applicare.
 
-\ **Not Relative + Not Additive:**\ 
+\ **Non relativo + Non additivo:**\ 
 
-- Extract reference pose absolutely and the apply bone's pose is replaced with it.
+- Estrae la posa di riferimento in modo assoluto e la posa dell'osso applicato è sostituita con essa.
 
 .. rst-class:: classref-reftable-group
 
@@ -406,11 +406,11 @@ Restituisce ``true`` se i flag di copia hanno il flag per la scala nell'impostaz
 
 |void| **set_additive**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CopyTransformModifier3D_method_set_additive>`
 
-Sets additive option in the setting at ``index`` to ``enabled``. This mainly affects the process of applying transform to the :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>`.
+Imposta l'opzione "additiva" nell'impostazione all'indice ``index`` su ``enabled``. Questo influisce principalmente sul processo di applicazione della trasformazione al :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>`.
 
-If sets ``enabled`` to ``true``, the processed transform is added to the pose of the current apply bone.
+Se ``enabled`` è impostato su ``true``, la trasformazione elaborata viene aggiunta alla posa dell'osso applicato attuale.
 
-If sets ``enabled`` to ``false``, the pose of the current apply bone is replaced with the processed transform. However, if set :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` to ``true``, the transform is relative to rest.
+Se ``enabled`` è impostato su ``false``, la posa dell'osso applicato attuale è sostituita con la trasformazione elaborata. Tuttavia, se :ref:`set_relative()<class_CopyTransformModifier3D_method_set_relative>` è impostato su ``true``, la trasformazione è relativa al riposo.
 
 .. rst-class:: classref-item-separator
 

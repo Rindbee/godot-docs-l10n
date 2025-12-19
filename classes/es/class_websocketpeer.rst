@@ -208,7 +208,7 @@ Descripciones de Propiedades
 - |void| **set_handshake_headers**\ (\ value\: :ref:`PackedStringArray<class_PackedStringArray>`\ )
 - :ref:`PackedStringArray<class_PackedStringArray>` **get_handshake_headers**\ (\ )
 
-Las cabeceras HTTP adicionales que se enviarán durante el handshake de WebSocket.
+Las cabeceras HTTP adicionales que se enviarán durante el establecimiento de comunicación de WebSocket.
 
 \ **Nota:** No soportado en las exportaciones Web debido a las restricciones de los navegadores.
 
@@ -299,7 +299,7 @@ El tamaño del búfer de entrada en bytes (aproximadamente la cantidad máxima d
 - |void| **set_supported_protocols**\ (\ value\: :ref:`PackedStringArray<class_PackedStringArray>`\ )
 - :ref:`PackedStringArray<class_PackedStringArray>` **get_supported_protocols**\ (\ )
 
-Los subprotocolos de WebSocket permitidos durante el handshake de WebSocket.
+Los subprotocolos de WebSocket permitidos durante el establecimiento de comunicación de WebSocket.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -318,7 +318,7 @@ Descripciones de Métodos
 
 :ref:`Error<enum_@GlobalScope_Error>` **accept_stream**\ (\ stream\: :ref:`StreamPeer<class_StreamPeer>`\ ) :ref:`🔗<class_WebSocketPeer_method_accept_stream>`
 
-Acepta una conexión de par que realiza el handshake HTTP como un servidor WebSocket. El ``stream`` debe ser un flujo TCP válido recuperado a través de :ref:`TCPServer.take_connection()<class_TCPServer_method_take_connection>`, o un flujo TLS aceptado a través de :ref:`StreamPeerTLS.accept_stream()<class_StreamPeerTLS_method_accept_stream>`.
+Acepta una conexión de par que realiza el establecimiento de comunicación HTTP como un servidor WebSocket. El ``stream`` debe ser un flujo TCP válido recuperado a través de :ref:`TCPServer.take_connection()<class_TCPServer_method_take_connection>`, o un flujo TLS aceptado a través de :ref:`StreamPeerTLS.accept_stream()<class_StreamPeerTLS_method_accept_stream>`.
 
 \ **Nota:** No compatible con las exportaciones Web debido a las restricciones de los navegadores.
 
@@ -348,7 +348,7 @@ Cierra esta conexión WebSocket. ``code`` es el código de estado para el cierre
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect_to_url**\ (\ url\: :ref:`String<class_String>`, tls_client_options\: :ref:`TLSOptions<class_TLSOptions>` = null\ ) :ref:`🔗<class_WebSocketPeer_method_connect_to_url>`
 
-Conecta a la URL dada. Los certificados TLS se verificarán con el nombre de host al conectarse mediante el protocolo ``wss://``. Puedes pasar el parámetro opcional ``tls_client_options`` para personalizar las autoridades de certificación de confianza, o desactivar la verificación del nombre común. Consulta :ref:`TLSOptions.client()<class_TLSOptions_method_client>` y :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
+Conecta a la URL dada. Los certificados TLS se verificarán con el nombre de host al conectarse mediante el protocolo ``wss://``. Puedes pasar el parámetro opcional ``tls_client_options`` para personalizar las autoridades de certificación de confianza, o desactivar la verificación del nombre común. Véase :ref:`TLSOptions.client()<class_TLSOptions_method_client>` y :ref:`TLSOptions.client_unsafe()<class_TLSOptions_method_client_unsafe>`.
 
 \ **Nota:** Este método no es bloqueante, y devolverá :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` antes de que se establezca la conexión, siempre y cuando los parámetros proporcionados sean válidos y el par no esté en un estado inválido (por ejemplo, ya conectado). Llama regularmente a :ref:`poll()<class_WebSocketPeer_method_poll>` (por ejemplo, durante el proceso de :ref:`Node<class_Node>`) y comprueba el resultado de :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>` para saber si la conexión tiene éxito o falla.
 

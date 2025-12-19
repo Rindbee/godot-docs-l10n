@@ -7,16 +7,16 @@ SphereShape3D
 
 **Hereda:** :ref:`Shape3D<class_Shape3D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 3D sphere shape used for physics collision.
+Una forma de esfera 3D utilizada para la colisión física.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A 3D sphere shape, intended for use in physics. Usually used to provide a shape for a :ref:`CollisionShape3D<class_CollisionShape3D>`.
+Una forma de esfera 3D, destinada a ser utilizada en la física. Normalmente se utiliza para proporcionar una forma a un :ref:`CollisionShape3D<class_CollisionShape3D>`.
 
-\ **Performance:** **SphereShape3D** is fast to check collisions against. It is faster than :ref:`BoxShape3D<class_BoxShape3D>`, :ref:`CapsuleShape3D<class_CapsuleShape3D>`, and :ref:`CylinderShape3D<class_CylinderShape3D>`.
+\ **Rendimiento:** **SphereShape3D** es rápido para comprobar colisiones. Es más rápido que :ref:`BoxShape3D<class_BoxShape3D>`, :ref:`CapsuleShape3D<class_CapsuleShape3D>` y :ref:`CylinderShape3D<class_CylinderShape3D>`.
 
 .. rst-class:: classref-introduction-group
 

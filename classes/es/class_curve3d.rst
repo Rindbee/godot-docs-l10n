@@ -131,7 +131,7 @@ La distancia en metros entre dos puntos cacheados adyacentes. Cambiarlo obliga a
 - |void| **set_closed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_closed**\ (\ )
 
-If ``true``, and the curve has more than 2 control points, the last point and the first one will be connected in a loop.
+Si es ``true`` y la curva tiene más de 2 puntos de control, el último punto y el primero se conectarán en un bucle.
 
 .. rst-class:: classref-item-separator
 
@@ -165,7 +165,7 @@ El número de puntos que describen la curva.
 - |void| **set_up_vector_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_up_vector_enabled**\ (\ )
 
-If ``true``, the curve will bake up vectors used for orientation. This is used when :ref:`PathFollow3D.rotation_mode<class_PathFollow3D_property_rotation_mode>` is set to :ref:`PathFollow3D.ROTATION_ORIENTED<class_PathFollow3D_constant_ROTATION_ORIENTED>`. Changing it forces the cache to be recomputed.
+Si es ``true``, la curva calculará los vectores utilizados para la orientación. Esto se utiliza cuando :ref:`PathFollow3D.rotation_mode<class_PathFollow3D_property_rotation_mode>` se establece en :ref:`PathFollow3D.ROTATION_ORIENTED<class_PathFollow3D_constant_ROTATION_ORIENTED>`. Cambiar esto fuerza a que la caché se vuelva a calcular.
 
 .. rst-class:: classref-section-separator
 
@@ -388,7 +388,7 @@ If the curve has no up vectors, the function sends an error to the console, and 
 
 :ref:`Transform3D<class_Transform3D>` **sample_baked_with_rotation**\ (\ offset\: :ref:`float<class_float>` = 0.0, cubic\: :ref:`bool<class_bool>` = false, apply_tilt\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Curve3D_method_sample_baked_with_rotation>`
 
-Returns a :ref:`Transform3D<class_Transform3D>` with ``origin`` as point position, ``basis.x`` as sideway vector, ``basis.y`` as up vector, ``basis.z`` as forward vector. When the curve length is 0, there is no reasonable way to calculate the rotation, all vectors aligned with global space axes. See also :ref:`sample_baked()<class_Curve3D_method_sample_baked>`.
+Devuelve un :ref:`Transform3D<class_Transform3D>` con ``origin`` como posición del punto, ``basis.x`` como vector lateral, ``basis.y`` como vector superior, ``basis.z`` como vector frontal. Cuando la longitud de la curva es 0, no hay una forma razonable de calcular la rotación, todos los vectores se alinean con los ejes del espacio global. Véase también :ref:`sample_baked()<class_Curve3D_method_sample_baked>`.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ Sets the position of the control point leading to the vertex ``idx``. If the ind
 
 |void| **set_point_out**\ (\ idx\: :ref:`int<class_int>`, position\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Curve3D_method_set_point_out>`
 
-Sets the position of the control point leading out of the vertex ``idx``. If the index is out of bounds, the function sends an error to the console. The position is relative to the vertex.
+Establece la posición del punto de control que sale del vértice ``idx``. Si el índice está fuera de los límites, la función envía un error a la consola. La posición es relativa al vértice.
 
 .. rst-class:: classref-item-separator
 
@@ -436,7 +436,7 @@ Sets the position of the control point leading out of the vertex ``idx``. If the
 
 |void| **set_point_position**\ (\ idx\: :ref:`int<class_int>`, position\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_Curve3D_method_set_point_position>`
 
-Sets the position for the vertex ``idx``. If the index is out of bounds, the function sends an error to the console.
+Establece la posición para el vértice ``idx``. Si el índice está fuera de los límites, la función envía un error a la consola.
 
 .. rst-class:: classref-item-separator
 
@@ -448,9 +448,9 @@ Sets the position for the vertex ``idx``. If the index is out of bounds, the fun
 
 |void| **set_point_tilt**\ (\ idx\: :ref:`int<class_int>`, tilt\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Curve3D_method_set_point_tilt>`
 
-Sets the tilt angle in radians for the point ``idx``. If the index is out of bounds, the function sends an error to the console.
+Establece el ángulo de inclinación en radianes para el punto ``idx``. Si el índice está fuera de los límites, la función envía un error a la consola.
 
-The tilt controls the rotation along the look-at axis an object traveling the path would have. In the case of a curve controlling a :ref:`PathFollow3D<class_PathFollow3D>`, this tilt is an offset over the natural tilt the :ref:`PathFollow3D<class_PathFollow3D>` calculates.
+La inclinación controla la rotación a lo largo del eje de visión que tendría un objeto que viaja por el trayecto. En el caso de una curva que controla un :ref:`PathFollow3D<class_PathFollow3D>`, esta inclinación es un desplazamiento sobre la inclinación natural que calcula el :ref:`PathFollow3D<class_PathFollow3D>`.
 
 .. rst-class:: classref-item-separator
 

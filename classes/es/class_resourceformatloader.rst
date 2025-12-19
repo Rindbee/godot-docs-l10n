@@ -150,7 +150,7 @@ Descripciones de Métodos
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_dependencies**\ (\ path\: :ref:`String<class_String>`, add_types\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_ResourceFormatLoader_private_method__get_dependencies>`
 
-Debería devolver las dependencias para el recurso en la ``path`` dada. Cada dependencia es una cadena compuesta por una a tres secciones separadas por ``::``, omitiendo las secciones finales vacías:
+Debería devolver las dependencias para el recurso en la ``path`` dada. Cada dependencia es una string compuesta por una a tres secciones separadas por ``::``, omitiendo las secciones finales vacías:
 
 - La primera sección debería contener el UID si el recurso tiene uno. De lo contrario, debería contener la ruta del archivo.
 

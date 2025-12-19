@@ -1980,9 +1980,11 @@ Y для використання для SDFGI клітин. Низьке зна
 - |void| **set_ssr_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ssr_enabled**\ (\ )
 
-Якщо ``true``, ввімкнено екранно-космічні відображення. Екранно-космічні відбиття є більш точними, ніж відбиття від :ref:`VoxelGI<class_VoxelGI>`\ s або :ref:`ReflectionProbe<class_ReflectionProbe>`\ s, але повільніше і не може відображати поверхні, що включені іншими.
+Якщо ``true``, відображення в екранному просторі ввімкнено. Відображення в екранному просторі точніші, ніж відображення від :ref:`VoxelGI<class_VoxelGI>` або :ref:`ReflectionProbe<class_ReflectionProbe>`, але повільніші та не можуть відображати поверхні, перекриті іншими.
 
-\ **Note:** SSR підтримується тільки в методі рендерингу Forward+, не мобільний або сумісний.
+\ **Примітка:** SSR підтримується лише в методі рендерингу Forward+, а не в Mobile або Compatibility.
+
+\ **Примітка:** SSR не підтримується на екранах з прозорим фоном (де :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` має значення ``true``).
 
 .. rst-class:: classref-item-separator
 

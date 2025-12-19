@@ -5,20 +5,20 @@
 Rect2
 =====
 
-A 2D axis-aligned bounding box using floating-point coordinates.
+Un cuadro delimitador 2D alineado con los ejes que usa coordenadas de punto flotante.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-The **Rect2** built-in :ref:`Variant<class_Variant>` type represents an axis-aligned rectangle in a 2D space. It is defined by its :ref:`position<class_Rect2_property_position>` and :ref:`size<class_Rect2_property_size>`, which are :ref:`Vector2<class_Vector2>`. It is frequently used for fast overlap tests (see :ref:`intersects()<class_Rect2_method_intersects>`). Although **Rect2** itself is axis-aligned, it can be combined with :ref:`Transform2D<class_Transform2D>` to represent a rotated or skewed rectangle.
+El tipo :ref:`Variant<class_Variant>` incorporado **Rect2** representa un rectángulo alineado con los ejes en un espacio 2D. Se define por su :ref:`position<class_Rect2_property_position>` y su :ref:`size<class_Rect2_property_size>`, que son :ref:`Vector2<class_Vector2>`. Se utiliza con frecuencia para pruebas rápidas de superposición (véase :ref:`intersects()<class_Rect2_method_intersects>`). Aunque **Rect2** en sí está alineado con los ejes, puede combinarse con :ref:`Transform2D<class_Transform2D>` para representar un rectángulo rotado o sesgado.
 
-For integer coordinates, use :ref:`Rect2i<class_Rect2i>`. The 3D equivalent to **Rect2** is :ref:`AABB<class_AABB>`.
+Para coordenadas enteras, utiliza :ref:`Rect2i<class_Rect2i>`. El equivalente 3D a **Rect2** es :ref:`AABB<class_AABB>`.
 
-\ **Note:** Negative values for :ref:`size<class_Rect2_property_size>` are not supported. With negative size, most **Rect2** methods do not work correctly. Use :ref:`abs()<class_Rect2_method_abs>` to get an equivalent **Rect2** with a non-negative size.
+\ **Nota:** No se admiten valores negativos para :ref:`size<class_Rect2_property_size>`. Con un tamaño negativo, la mayoría de los métodos **Rect2** no funcionan correctamente. Utiliza :ref:`abs()<class_Rect2_method_abs>` para obtener un **Rect2** equivalente con un tamaño no negativo.
 
-\ **Note:** In a boolean context, a **Rect2** evaluates to ``false`` if both :ref:`position<class_Rect2_property_position>` and :ref:`size<class_Rect2_property_size>` are zero (equal to :ref:`Vector2.ZERO<class_Vector2_constant_ZERO>`). Otherwise, it always evaluates to ``true``.
+\ **Nota:** En un contexto booleano, un **Rect2** se evalúa como ``false`` si tanto :ref:`position<class_Rect2_property_position>` como :ref:`size<class_Rect2_property_size>` son cero (igual a :ref:`Vector2.ZERO<class_Vector2_constant_ZERO>`). De lo contrario, siempre se evalúa como ``true``.
 
 .. note::
 
@@ -144,7 +144,7 @@ Descripciones de Propiedades
 
 :ref:`Vector2<class_Vector2>` **end** = ``Vector2(0, 0)`` :ref:`🔗<class_Rect2_property_end>`
 
-The ending point. This is usually the bottom-right corner of the rectangle, and is equivalent to ``position + size``. Setting this point affects the :ref:`size<class_Rect2_property_size>`.
+El punto final. Este es usualmente la esquina inferior derecha del rectángulo, y es equivalente a ``position + size``. Establecer este punto afecta el :ref:`size<class_Rect2_property_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -156,7 +156,7 @@ The ending point. This is usually the bottom-right corner of the rectangle, and 
 
 :ref:`Vector2<class_Vector2>` **position** = ``Vector2(0, 0)`` :ref:`🔗<class_Rect2_property_position>`
 
-The origin point. This is usually the top-left corner of the rectangle.
+El punto de origen. Este es usualmente la esquina superior izquierda del rectángulo.
 
 .. rst-class:: classref-item-separator
 
@@ -168,9 +168,9 @@ The origin point. This is usually the top-left corner of the rectangle.
 
 :ref:`Vector2<class_Vector2>` **size** = ``Vector2(0, 0)`` :ref:`🔗<class_Rect2_property_size>`
 
-The rectangle's width and height, starting from :ref:`position<class_Rect2_property_position>`. Setting this value also affects the :ref:`end<class_Rect2_property_end>` point.
+La anchura y la altura del rectángulo, empezando desde :ref:`position<class_Rect2_property_position>`. Establecer este valor también afecta al punto :ref:`end<class_Rect2_property_end>`.
 
-\ **Note:** It's recommended setting the width and height to non-negative values, as most methods in Godot assume that the :ref:`position<class_Rect2_property_position>` is the top-left corner, and the :ref:`end<class_Rect2_property_end>` is the bottom-right corner. To get an equivalent rectangle with non-negative size, use :ref:`abs()<class_Rect2_method_abs>`.
+\ **Nota:** Se recomienda establecer la anchura y la altura a valores no negativos, ya que la mayoría de los métodos en Godot asumen que la :ref:`position<class_Rect2_property_position>` es la esquina superior izquierda, y el :ref:`end<class_Rect2_property_end>` es la esquina inferior derecha. Para obtener un rectángulo equivalente con un tamaño no negativo, utiliza :ref:`abs()<class_Rect2_method_abs>`.
 
 .. rst-class:: classref-section-separator
 
@@ -187,7 +187,7 @@ Descripciones de Constructores
 
 :ref:`Rect2<class_Rect2>` **Rect2**\ (\ ) :ref:`🔗<class_Rect2_constructor_Rect2>`
 
-Constructs a **Rect2** with its :ref:`position<class_Rect2_property_position>` and :ref:`size<class_Rect2_property_size>` set to :ref:`Vector2.ZERO<class_Vector2_constant_ZERO>`.
+Construye un **Rect2** con su :ref:`position<class_Rect2_property_position>` y :ref:`size<class_Rect2_property_size>` establecidos a :ref:`Vector2.ZERO<class_Vector2_constant_ZERO>`.
 
 .. rst-class:: classref-item-separator
 
@@ -197,7 +197,7 @@ Constructs a **Rect2** with its :ref:`position<class_Rect2_property_position>` a
 
 :ref:`Rect2<class_Rect2>` **Rect2**\ (\ from\: :ref:`Rect2<class_Rect2>`\ )
 
-Constructs a **Rect2** as a copy of the given **Rect2**.
+Construye un **Rect2** como una copia del **Rect2** dado.
 
 .. rst-class:: classref-item-separator
 
@@ -207,7 +207,7 @@ Constructs a **Rect2** as a copy of the given **Rect2**.
 
 :ref:`Rect2<class_Rect2>` **Rect2**\ (\ from\: :ref:`Rect2i<class_Rect2i>`\ )
 
-Constructs a **Rect2** from a :ref:`Rect2i<class_Rect2i>`.
+Construye un **Rect2** desde un :ref:`Rect2i<class_Rect2i>`.
 
 .. rst-class:: classref-item-separator
 
@@ -217,7 +217,7 @@ Constructs a **Rect2** from a :ref:`Rect2i<class_Rect2i>`.
 
 :ref:`Rect2<class_Rect2>` **Rect2**\ (\ position\: :ref:`Vector2<class_Vector2>`, size\: :ref:`Vector2<class_Vector2>`\ )
 
-Constructs a **Rect2** by ``position`` and ``size``.
+Construye un **Rect2** por ``position`` y ``size``.
 
 .. rst-class:: classref-item-separator
 
@@ -227,7 +227,7 @@ Constructs a **Rect2** by ``position`` and ``size``.
 
 :ref:`Rect2<class_Rect2>` **Rect2**\ (\ x\: :ref:`float<class_float>`, y\: :ref:`float<class_float>`, width\: :ref:`float<class_float>`, height\: :ref:`float<class_float>`\ )
 
-Constructs a **Rect2** by setting its :ref:`position<class_Rect2_property_position>` to (``x``, ``y``), and its :ref:`size<class_Rect2_property_size>` to (``width``, ``height``).
+Construye un **Rect2** estableciendo su :ref:`position<class_Rect2_property_position>` a (``x``, ``y``) y su :ref:`size<class_Rect2_property_size>` a (``width``, ``height``).
 
 .. rst-class:: classref-section-separator
 
@@ -244,7 +244,7 @@ Descripciones de Métodos
 
 :ref:`Rect2<class_Rect2>` **abs**\ (\ ) |const| :ref:`🔗<class_Rect2_method_abs>`
 
-Returns a **Rect2** equivalent to this rectangle, with its width and height modified to be non-negative values, and with its :ref:`position<class_Rect2_property_position>` being the top-left corner of the rectangle.
+Devuelve un **Rect2** equivalente a este rectángulo, con su anchura y altura modificadas para que sean valores no negativos, y con su :ref:`position<class_Rect2_property_position>` siendo la esquina superior izquierda del rectángulo.
 
 
 .. tabs::
@@ -252,16 +252,16 @@ Returns a **Rect2** equivalent to this rectangle, with its width and height modi
  .. code-tab:: gdscript
 
     var rect = Rect2(25, 25, -100, -50)
-    var absolute = rect.abs() # absolute is Rect2(-75, -25, 100, 50)
+    var absolute = rect.abs() # absolute es Rect2(-75, -25, 100, 50)
 
  .. code-tab:: csharp
 
     var rect = new Rect2(25, 25, -100, -50);
-    var absolute = rect.Abs(); // absolute is Rect2(-75, -25, 100, 50)
+    var absolute = rect.Abs(); // absolute es Rect2(-75, -25, 100, 50)
 
 
 
-\ **Note:** It's recommended to use this method when :ref:`size<class_Rect2_property_size>` is negative, as most other methods in Godot assume that the :ref:`position<class_Rect2_property_position>` is the top-left corner, and the :ref:`end<class_Rect2_property_end>` is the bottom-right corner.
+\ **Nota:** Se recomienda utilizar este método cuando :ref:`size<class_Rect2_property_size>` es negativo, ya que la mayoría de los otros métodos en Godot asumen que la :ref:`position<class_Rect2_property_position>` es la esquina superior izquierda, y el :ref:`end<class_Rect2_property_end>` es la esquina inferior derecha.
 
 .. rst-class:: classref-item-separator
 
@@ -273,7 +273,7 @@ Returns a **Rect2** equivalent to this rectangle, with its width and height modi
 
 :ref:`bool<class_bool>` **encloses**\ (\ b\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_Rect2_method_encloses>`
 
-Returns ``true`` if this rectangle *completely* encloses the ``b`` rectangle.
+Devuelve ``true`` si este rectángulo encierra *completamente* el rectángulo ``b``.
 
 .. rst-class:: classref-item-separator
 
@@ -316,7 +316,7 @@ Devuelve una copia de este rectángulo expandida para alinear los bordes con el 
 
 :ref:`float<class_float>` **get_area**\ (\ ) |const| :ref:`🔗<class_Rect2_method_get_area>`
 
-Returns the rectangle's area. This is equivalent to ``size.x * size.y``. See also :ref:`has_area()<class_Rect2_method_has_area>`.
+Devuelve el área del rectángulo. Esto es equivalente a ``size.x * size.y``. Véase también :ref:`has_area()<class_Rect2_method_has_area>`.
 
 .. rst-class:: classref-item-separator
 
@@ -328,7 +328,7 @@ Returns the rectangle's area. This is equivalent to ``size.x * size.y``. See als
 
 :ref:`Vector2<class_Vector2>` **get_center**\ (\ ) |const| :ref:`🔗<class_Rect2_method_get_center>`
 
-Returns the center point of the rectangle. This is the same as ``position + (size / 2.0)``.
+Devuelve el punto central del rectángulo. Esto es lo mismo que ``position + (size / 2.0)``.
 
 .. rst-class:: classref-item-separator
 
@@ -340,7 +340,7 @@ Returns the center point of the rectangle. This is the same as ``position + (siz
 
 :ref:`Vector2<class_Vector2>` **get_support**\ (\ direction\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Rect2_method_get_support>`
 
-Returns the vertex's position of this rect that's the farthest in the given direction. This point is commonly known as the support point in collision detection algorithms.
+Devuelve la posición del vértice de este rect que está más lejos en la dirección dada. Este punto se conoce comúnmente como el punto de soporte en los algoritmos de detección de colisiones.
 
 .. rst-class:: classref-item-separator
 
@@ -352,20 +352,20 @@ Returns the vertex's position of this rect that's the farthest in the given dire
 
 :ref:`Rect2<class_Rect2>` **grow**\ (\ amount\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Rect2_method_grow>`
 
-Returns a copy of this rectangle extended on all sides by the given ``amount``. A negative ``amount`` shrinks the rectangle instead. See also :ref:`grow_individual()<class_Rect2_method_grow_individual>` and :ref:`grow_side()<class_Rect2_method_grow_side>`.
+Devuelve una copia de este rectángulo extendido en todos los lados por la ``amount`` dada. Una ``amount`` negativa encoge el rectángulo en su lugar. Véase también :ref:`grow_individual()<class_Rect2_method_grow_individual>` y :ref:`grow_side()<class_Rect2_method_grow_side>`.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var a = Rect2(4, 4, 8, 8).grow(4) # a is Rect2(0, 0, 16, 16)
-    var b = Rect2(0, 0, 8, 4).grow(2) # b is Rect2(-2, -2, 12, 8)
+    var a = Rect2(4, 4, 8, 8).grow(4) # a es Rect2(0, 0, 16, 16)
+    var b = Rect2(0, 0, 8, 4).grow(2) # b es Rect2(-2, -2, 12, 8)
 
  .. code-tab:: csharp
 
-    var a = new Rect2(4, 4, 8, 8).Grow(4); // a is Rect2(0, 0, 16, 16)
-    var b = new Rect2(0, 0, 8, 4).Grow(2); // b is Rect2(-2, -2, 12, 8)
+    var a = new Rect2(4, 4, 8, 8).Grow(4); // a es Rect2(0, 0, 16, 16)
+    var b = new Rect2(0, 0, 8, 4).Grow(2); // b es Rect2(-2, -2, 12, 8)
 
 
 
@@ -379,7 +379,7 @@ Returns a copy of this rectangle extended on all sides by the given ``amount``. 
 
 :ref:`Rect2<class_Rect2>` **grow_individual**\ (\ left\: :ref:`float<class_float>`, top\: :ref:`float<class_float>`, right\: :ref:`float<class_float>`, bottom\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Rect2_method_grow_individual>`
 
-Returns a copy of this rectangle with its ``left``, ``top``, ``right``, and ``bottom`` sides extended by the given amounts. Negative values shrink the sides, instead. See also :ref:`grow()<class_Rect2_method_grow>` and :ref:`grow_side()<class_Rect2_method_grow_side>`.
+Devuelve una copia de este rectángulo con sus lados ``left``, ``top``, ``right`` y ``bottom`` extendidos por las cantidades dadas. Los valores negativos encogen los lados, en su lugar. Véase también :ref:`grow()<class_Rect2_method_grow>` y :ref:`grow_side()<class_Rect2_method_grow_side>`.
 
 .. rst-class:: classref-item-separator
 
@@ -391,7 +391,7 @@ Returns a copy of this rectangle with its ``left``, ``top``, ``right``, and ``bo
 
 :ref:`Rect2<class_Rect2>` **grow_side**\ (\ side\: :ref:`int<class_int>`, amount\: :ref:`float<class_float>`\ ) |const| :ref:`🔗<class_Rect2_method_grow_side>`
 
-Returns a copy of this rectangle with its ``side`` extended by the given ``amount`` (see :ref:`Side<enum_@GlobalScope_Side>` constants). A negative ``amount`` shrinks the rectangle, instead. See also :ref:`grow()<class_Rect2_method_grow>` and :ref:`grow_individual()<class_Rect2_method_grow_individual>`.
+Devuelve una copia de este rectángulo con su ``side`` extendido por la ``amount`` dada (véase las constantes :ref:`Side<enum_@GlobalScope_Side>`). Una ``amount`` negativa encoge el rectángulo, en su lugar. Véase también :ref:`grow()<class_Rect2_method_grow>` y :ref:`grow_individual()<class_Rect2_method_grow_individual>`.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Returns a copy of this rectangle with its ``side`` extended by the given ``amoun
 
 :ref:`bool<class_bool>` **has_area**\ (\ ) |const| :ref:`🔗<class_Rect2_method_has_area>`
 
-Returns ``true`` if this rectangle has positive width and height. See also :ref:`get_area()<class_Rect2_method_get_area>`.
+Devuelve ``true`` si este rectángulo tiene un ancho y un alto positivos. Véase también :ref:`get_area()<class_Rect2_method_get_area>`.
 
 .. rst-class:: classref-item-separator
 
@@ -415,9 +415,9 @@ Returns ``true`` if this rectangle has positive width and height. See also :ref:
 
 :ref:`bool<class_bool>` **has_point**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Rect2_method_has_point>`
 
-Returns ``true`` if the rectangle contains the given ``point``. By convention, points on the right and bottom edges are **not** included.
+"Devuelve ``true`` si el rectángulo contiene el ``point`` dado. Por convención, los puntos en los bordes derecho e inferior **no** están incluidos.
 
-\ **Note:** This method is not reliable for **Rect2** with a *negative* :ref:`size<class_Rect2_property_size>`. Use :ref:`abs()<class_Rect2_method_abs>` first to get a valid rectangle.
+\ **Nota:** Este método no es fiable para **Rect2** con un *tamaño* :ref:`size<class_Rect2_property_size>` negativo. Utiliza :ref:`abs()<class_Rect2_method_abs>` primero para obtener un rectángulo válido.
 
 .. rst-class:: classref-item-separator
 
@@ -429,7 +429,7 @@ Returns ``true`` if the rectangle contains the given ``point``. By convention, p
 
 :ref:`Rect2<class_Rect2>` **intersection**\ (\ b\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_Rect2_method_intersection>`
 
-Returns the intersection between this rectangle and ``b``. If the rectangles do not intersect, returns an empty **Rect2**.
+Devuelve la intersección entre este rectángulo y ``b``. Si los rectángulos no se intersecan, devuelve un **Rect2** vacío.
 
 
 .. tabs::
@@ -439,18 +439,18 @@ Returns the intersection between this rectangle and ``b``. If the rectangles do 
     var rect1 = Rect2(0, 0, 5, 10)
     var rect2 = Rect2(2, 0, 8, 4)
 
-    var a = rect1.intersection(rect2) # a is Rect2(2, 0, 3, 4)
+    var a = rect1.intersection(rect2) # a es Rect2(2, 0, 3, 4)
 
  .. code-tab:: csharp
 
     var rect1 = new Rect2(0, 0, 5, 10);
     var rect2 = new Rect2(2, 0, 8, 4);
 
-    var a = rect1.Intersection(rect2); // a is Rect2(2, 0, 3, 4)
+    var a = rect1.Intersection(rect2); // a es Rect2(2, 0, 3, 4)
 
 
 
-\ **Note:** If you only need to know whether two rectangles are overlapping, use :ref:`intersects()<class_Rect2_method_intersects>`, instead.
+\ **Nota:** Si solo necesitas saber si dos rectángulos se superponen, usa :ref:`intersects()<class_Rect2_method_intersects>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -462,7 +462,7 @@ Returns the intersection between this rectangle and ``b``. If the rectangles do 
 
 :ref:`bool<class_bool>` **intersects**\ (\ b\: :ref:`Rect2<class_Rect2>`, include_borders\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Rect2_method_intersects>`
 
-Returns ``true`` if this rectangle overlaps with the ``b`` rectangle. The edges of both rectangles are excluded, unless ``include_borders`` is ``true``.
+Devuelve ``true`` si este rectángulo se superpone con el rectángulo ``b``. Los bordes de ambos rectángulos se excluyen, a menos que ``include_borders`` sea ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -474,7 +474,7 @@ Returns ``true`` if this rectangle overlaps with the ``b`` rectangle. The edges 
 
 :ref:`bool<class_bool>` **is_equal_approx**\ (\ rect\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_Rect2_method_is_equal_approx>`
 
-Returns ``true`` if this rectangle and ``rect`` are approximately equal, by calling :ref:`Vector2.is_equal_approx()<class_Vector2_method_is_equal_approx>` on the :ref:`position<class_Rect2_property_position>` and the :ref:`size<class_Rect2_property_size>`.
+Devuelve ``true`` si este rectángulo y ``rect`` son aproximadamente iguales, llamando a :ref:`Vector2.is_equal_approx()<class_Vector2_method_is_equal_approx>` en la :ref:`position<class_Rect2_property_position>` y el :ref:`size<class_Rect2_property_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ Returns ``true`` if this rectangle and ``rect`` are approximately equal, by call
 
 :ref:`bool<class_bool>` **is_finite**\ (\ ) |const| :ref:`🔗<class_Rect2_method_is_finite>`
 
-Returns ``true`` if this rectangle's values are finite, by calling :ref:`Vector2.is_finite()<class_Vector2_method_is_finite>` on the :ref:`position<class_Rect2_property_position>` and the :ref:`size<class_Rect2_property_size>`.
+Devuelve ``true`` si los valores de este rectángulo son finitos, llamando a :ref:`Vector2.is_finite()<class_Vector2_method_is_finite>` en la :ref:`position<class_Rect2_property_position>` y el :ref:`size<class_Rect2_property_size>`.
 
 .. rst-class:: classref-item-separator
 
@@ -498,7 +498,7 @@ Returns ``true`` if this rectangle's values are finite, by calling :ref:`Vector2
 
 :ref:`Rect2<class_Rect2>` **merge**\ (\ b\: :ref:`Rect2<class_Rect2>`\ ) |const| :ref:`🔗<class_Rect2_method_merge>`
 
-Returns a **Rect2** that encloses both this rectangle and ``b`` around the edges. See also :ref:`encloses()<class_Rect2_method_encloses>`.
+Devuelve un **Rect2** que encierra tanto este rectángulo como ``b`` alrededor de los bordes. Véase también :ref:`encloses()<class_Rect2_method_encloses>`.
 
 .. rst-class:: classref-section-separator
 
@@ -515,9 +515,9 @@ Descripciones de Operadores
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_Rect2_operator_neq_Rect2>`
 
-Returns ``true`` if the :ref:`position<class_Rect2_property_position>` or :ref:`size<class_Rect2_property_size>` of both rectangles are not equal.
+Devuelve ``true`` si la :ref:`position<class_Rect2_property_position>` o el :ref:`size<class_Rect2_property_size>` de ambos rectángulos no son iguales.
 
-\ **Note:** Due to floating-point precision errors, consider using :ref:`is_equal_approx()<class_Rect2_method_is_equal_approx>` instead, which is more reliable.
+\ **Nota:** Debido a errores de precisión de punto flotante, considera usar :ref:`is_equal_approx()<class_Rect2_method_is_equal_approx>` en su lugar, que es más fiable.
 
 .. rst-class:: classref-item-separator
 
@@ -529,11 +529,11 @@ Returns ``true`` if the :ref:`position<class_Rect2_property_position>` or :ref:`
 
 :ref:`Rect2<class_Rect2>` **operator ***\ (\ right\: :ref:`Transform2D<class_Transform2D>`\ ) :ref:`🔗<class_Rect2_operator_mul_Transform2D>`
 
-Inversely transforms (multiplies) the **Rect2** by the given :ref:`Transform2D<class_Transform2D>` transformation matrix, under the assumption that the transformation basis is orthonormal (i.e. rotation/reflection is fine, scaling/skew is not).
+Transforma inversamente (multiplica) el **Rect2** por la matriz de transformación :ref:`Transform2D<class_Transform2D>` dada, bajo la suposición de que la base de transformación es ortonormal (es decir, la rotación/reflexión está bien, la escala/sesgo no lo está).
 
-\ ``rect * transform`` is equivalent to ``transform.inverse() * rect``. See :ref:`Transform2D.inverse()<class_Transform2D_method_inverse>`.
+\ ``rect * transform`` es equivalente a ``transform.inverse() * rect``. Véase :ref:`Transform2D.inverse()<class_Transform2D_method_inverse>`.
 
-For transforming by inverse of an affine transformation (e.g. with scaling) ``transform.affine_inverse() * rect`` can be used instead. See :ref:`Transform2D.affine_inverse()<class_Transform2D_method_affine_inverse>`.
+Para transformar por la inversa de una transformación afín (por ejemplo, con escala) se puede utilizar ``transform.affine_inverse() * rect`` en su lugar. Véase :ref:`Transform2D.affine_inverse()<class_Transform2D_method_affine_inverse>`.
 
 .. rst-class:: classref-item-separator
 
@@ -545,9 +545,9 @@ For transforming by inverse of an affine transformation (e.g. with scaling) ``tr
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_Rect2_operator_eq_Rect2>`
 
-Returns ``true`` if both :ref:`position<class_Rect2_property_position>` and :ref:`size<class_Rect2_property_size>` of the rectangles are exactly equal, respectively.
+Devuelve ``true`` si tanto :ref:`position<class_Rect2_property_position>` como :ref:`size<class_Rect2_property_size>` de los rectángulos son exactamente iguales, respectivamente.
 
-\ **Note:** Due to floating-point precision errors, consider using :ref:`is_equal_approx()<class_Rect2_method_is_equal_approx>` instead, which is more reliable.
+\ **Nota:** Debido a errores de precisión de punto flotante, considera usar :ref:`is_equal_approx()<class_Rect2_method_is_equal_approx>` en su lugar, que es más fiable.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -271,7 +271,7 @@ Signaux
 
 **connection_request**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`, to_node\: :ref:`StringName<class_StringName>`, to_port\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_signal_connection_request>`
 
-Emitted to the GraphEdit when the connection between the ``from_port`` of the ``from_node`` :ref:`GraphNode<class_GraphNode>` and the ``to_port`` of the ``to_node`` :ref:`GraphNode<class_GraphNode>` is attempted to be created.
+Émis au GraphEdit lorsque la connexion entre le port ``from_port`` du :ref:`GraphNode<class_GraphNode>` ``from_node`` et le port ``to_port`` du :ref:`GraphNode<class_GraphNode>` ``to_node`` est tentée d'être créée.
 
 .. rst-class:: classref-item-separator
 
@@ -333,7 +333,7 @@ Emitted to the GraphEdit when the connection between the ``from_port`` of the ``
 
 **disconnection_request**\ (\ from_node\: :ref:`StringName<class_StringName>`, from_port\: :ref:`int<class_int>`, to_node\: :ref:`StringName<class_StringName>`, to_port\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_signal_disconnection_request>`
 
-Emitted to the GraphEdit when the connection between ``from_port`` of ``from_node`` :ref:`GraphNode<class_GraphNode>` and ``to_port`` of ``to_node`` :ref:`GraphNode<class_GraphNode>` is attempted to be removed.
+Émis au GraphEdit lorsque la connexion entre le port ``from_port`` du :ref:`GraphNode<class_GraphNode>` ``from_node`` et le port ``to_port`` du :ref:`GraphNode<class_GraphNode>` ``to_node`` est tentée d'être supprimée.
 
 .. rst-class:: classref-item-separator
 
@@ -369,7 +369,7 @@ Emitted to the GraphEdit when the connection between ``from_port`` of ``from_nod
 
 **frame_rect_changed**\ (\ frame\: :ref:`GraphFrame<class_GraphFrame>`, new_rect\: :ref:`Rect2<class_Rect2>`\ ) :ref:`🔗<class_GraphEdit_signal_frame_rect_changed>`
 
-Emitted when the :ref:`GraphFrame<class_GraphFrame>` ``frame`` is resized to ``new_rect``.
+Émis lorsque le :ref:`GraphFrame<class_GraphFrame>` ``frame`` est redimensionné à ``new_rect``.
 
 .. rst-class:: classref-item-separator
 
@@ -381,9 +381,9 @@ Emitted when the :ref:`GraphFrame<class_GraphFrame>` ``frame`` is resized to ``n
 
 **graph_elements_linked_to_frame_request**\ (\ elements\: :ref:`Array<class_Array>`, frame\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_GraphEdit_signal_graph_elements_linked_to_frame_request>`
 
-Emitted when one or more :ref:`GraphElement<class_GraphElement>`\ s are dropped onto the :ref:`GraphFrame<class_GraphFrame>` named ``frame``, when they were not previously attached to any other one.
+Émis lorsqu'un ou plusieurs :ref:`GraphElement<class_GraphElement>` sont déposés sur le :ref:`GraphFrame<class_GraphFrame>` nommé ``frame``, lorsqu'ils n'étaient pas auparavant attachés à un autre élément.
 
-\ ``elements`` is an array of :ref:`GraphElement<class_GraphElement>`\ s to be attached.
+\ ``elements`` est un tableau de :ref:`GraphElement<class_GraphElement>` à attacher.
 
 .. rst-class:: classref-item-separator
 
@@ -395,7 +395,7 @@ Emitted when one or more :ref:`GraphElement<class_GraphElement>`\ s are dropped 
 
 **node_deselected**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_GraphEdit_signal_node_deselected>`
 
-Emitted when the given :ref:`GraphElement<class_GraphElement>` node is deselected.
+Émis lorsque le nœud :ref:`GraphElement<class_GraphElement>` donné est désélectionné.
 
 .. rst-class:: classref-item-separator
 
@@ -407,7 +407,7 @@ Emitted when the given :ref:`GraphElement<class_GraphElement>` node is deselecte
 
 **node_selected**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_GraphEdit_signal_node_selected>`
 
-Emitted when the given :ref:`GraphElement<class_GraphElement>` node is selected.
+Émis lorsque le nœud :ref:`GraphElement<class_GraphElement>` donné est sélectionné.
 
 .. rst-class:: classref-item-separator
 
@@ -431,7 +431,7 @@ Emitted when the given :ref:`GraphElement<class_GraphElement>` node is selected.
 
 **popup_request**\ (\ at_position\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_GraphEdit_signal_popup_request>`
 
-Emitted when a popup is requested. Happens on right-clicking in the GraphEdit. ``at_position`` is the position of the mouse pointer when the signal is sent.
+Émis lorsqu'une popup est demandée. Arrive lors d'un clic droit dans le GraphEdit. ``at_position`` est la position du pointeur de la souris lorsque le signal est envoyé.
 
 .. rst-class:: classref-item-separator
 
@@ -466,7 +466,7 @@ enum **PanningScheme**: :ref:`🔗<enum_GraphEdit_PanningScheme>`
 
 :ref:`PanningScheme<enum_GraphEdit_PanningScheme>` **SCROLL_ZOOMS** = ``0``
 
-:kbd:`Mouse Wheel` will zoom, :kbd:`Ctrl + Mouse Wheel` will move the view.
+:kbd:`Molette souris` va zoomer, :kbd:`Ctrl + Molette souris` va déplacer la vue.
 
 .. _class_GraphEdit_constant_SCROLL_PANS:
 
@@ -474,7 +474,7 @@ enum **PanningScheme**: :ref:`🔗<enum_GraphEdit_PanningScheme>`
 
 :ref:`PanningScheme<enum_GraphEdit_PanningScheme>` **SCROLL_PANS** = ``1``
 
-:kbd:`Mouse Wheel` will move the view, :kbd:`Ctrl + Mouse Wheel` will zoom.
+:kbd:`Molette souris` va déplacer la vue, :kbd:`Ctrl + Molette souris` va zoomer.
 
 .. rst-class:: classref-item-separator
 
@@ -1253,9 +1253,9 @@ Renvoie les points qui constitueraient une connexion entre les nœuds ``from_nod
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_connection_list_from_node**\ (\ node\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_GraphEdit_method_get_connection_list_from_node>`
 
-Returns an :ref:`Array<class_Array>` containing a list of all connections for ``node``.
+Renvoie un :ref:`Array<class_Array>` contenant une liste de toutes les connections pour le nœud ``node``.
 
-A connection is represented as a :ref:`Dictionary<class_Dictionary>` in the form of:
+Une connexion est représentée par un :ref:`Dictionary<class_Dictionary>` de la forme :
 
 ::
 
@@ -1267,26 +1267,26 @@ A connection is represented as a :ref:`Dictionary<class_Dictionary>` in the form
         keep_alive: bool
     }
 
-\ **Example:** Get all connections on a specific port:
+\ **Example :** Obtenir toutes les connexions sur un port spécifique :
 
 ::
 
-    func get_connection_list_from_port(node, port):
-        var connections = get_connection_list_from_node(node)
-        var result = []
-        for connection in connections:
+    func obtenir_liste_connexions_du_port(noeud, port):
+        var connexions = get_connection_list_from_node(noeud)
+        var resultat = []
+        for connexion in connexions:
             var dict = {}
-            if connection["from_node"] == node and connection["from_port"] == port:
-                dict["node"] = connection["to_node"]
-                dict["port"] = connection["to_port"]
+            if connexion["from_node"] == noeud and connexion["from_port"] == port:
+                dict["node"] = connexion["to_node"]
+                dict["port"] = connexion["to_port"]
                 dict["type"] = "left"
-                result.push_back(dict)
-            elif connection["to_node"] == node and connection["to_port"] == port:
-                dict["node"] = connection["from_node"]
-                dict["port"] = connection["from_port"]
+                resultat.push_back(dict)
+            elif connexion["to_node"] == noeud and connexion["to_port"] == port:
+                dict["node"] = connexion["from_node"]
+                dict["port"] = connexion["from_port"]
                 dict["type"] = "right"
-                result.push_back(dict)
-        return result
+                resultat.push_back(dict)
+        return resultat
 
 .. rst-class:: classref-item-separator
 
@@ -1441,7 +1441,7 @@ Descriptions des propriétés du thème
 
 :ref:`Color<class_Color>` **activity** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_GraphEdit_theme_color_activity>`
 
-Color the connection line is interpolated to based on the activity value of a connection (see :ref:`set_connection_activity()<class_GraphEdit_method_set_connection_activity>`).
+Couleur vers laquelle la ligne de connexion est interpolée en fonction de la valeur d'activité d'une connexion (voir :ref:`set_connection_activity()<class_GraphEdit_method_set_connection_activity>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1453,7 +1453,7 @@ Color the connection line is interpolated to based on the activity value of a co
 
 :ref:`Color<class_Color>` **connection_hover_tint_color** = ``Color(0, 0, 0, 0.3)`` :ref:`🔗<class_GraphEdit_theme_color_connection_hover_tint_color>`
 
-Color which is blended with the connection line when the mouse is hovering over it.
+Couleur qui est mélangée avec la ligne de connexion lorsque la souris la survole.
 
 .. rst-class:: classref-item-separator
 
@@ -1465,7 +1465,7 @@ Color which is blended with the connection line when the mouse is hovering over 
 
 :ref:`Color<class_Color>` **connection_rim_color** = ``Color(0.1, 0.1, 0.1, 0.6)`` :ref:`🔗<class_GraphEdit_theme_color_connection_rim_color>`
 
-Color of the rim around each connection line used for making intersecting lines more distinguishable.
+Couleur de la bordure autour de chaque ligne de connexion utilisée pour rendre les lignes d'intersection plus distinguables.
 
 .. rst-class:: classref-item-separator
 
@@ -1477,7 +1477,7 @@ Color of the rim around each connection line used for making intersecting lines 
 
 :ref:`Color<class_Color>` **connection_valid_target_tint_color** = ``Color(1, 1, 1, 0.4)`` :ref:`🔗<class_GraphEdit_theme_color_connection_valid_target_tint_color>`
 
-Color which is blended with the connection line when the currently dragged connection is hovering over a valid target port.
+Couleur qui est mélangée avec la ligne de connexion lorsque la connexion actuellement glissée survole un port cible valide.
 
 .. rst-class:: classref-item-separator
 
@@ -1489,7 +1489,7 @@ Color which is blended with the connection line when the currently dragged conne
 
 :ref:`Color<class_Color>` **grid_major** = ``Color(1, 1, 1, 0.2)`` :ref:`🔗<class_GraphEdit_theme_color_grid_major>`
 
-Color of major grid lines/dots.
+Couleur des lignes/points principaux de la grille.
 
 .. rst-class:: classref-item-separator
 
@@ -1501,7 +1501,7 @@ Color of major grid lines/dots.
 
 :ref:`Color<class_Color>` **grid_minor** = ``Color(1, 1, 1, 0.05)`` :ref:`🔗<class_GraphEdit_theme_color_grid_minor>`
 
-Color of minor grid lines/dots.
+Couleur des lignes/points secondaires de la grille.
 
 .. rst-class:: classref-item-separator
 
@@ -1537,7 +1537,7 @@ La couleur de la bordure du rectangle de sélection.
 
 :ref:`int<class_int>` **connection_hover_thickness** = ``0`` :ref:`🔗<class_GraphEdit_theme_constant_connection_hover_thickness>`
 
-Widen the line of the connection when the mouse is hovering over it by a percentage factor. A value of ``0`` disables the highlight. A value of ``100`` doubles the line width.
+Élargit la ligne de la connexion lorsque la souris la survole par un facteur en pourcentage. Une valeur de ``0`` désactive la mise en valeur. Une valeur de ``100`` double la largeur de la ligne.
 
 .. rst-class:: classref-item-separator
 
@@ -1549,7 +1549,7 @@ Widen the line of the connection when the mouse is hovering over it by a percent
 
 :ref:`int<class_int>` **port_hotzone_inner_extent** = ``22`` :ref:`🔗<class_GraphEdit_theme_constant_port_hotzone_inner_extent>`
 
-The horizontal range within which a port can be grabbed (inner side).
+La plage horizontale sur laquelle un port peut être saisi (côté intérieur).
 
 .. rst-class:: classref-item-separator
 
@@ -1561,7 +1561,7 @@ The horizontal range within which a port can be grabbed (inner side).
 
 :ref:`int<class_int>` **port_hotzone_outer_extent** = ``26`` :ref:`🔗<class_GraphEdit_theme_constant_port_hotzone_outer_extent>`
 
-The horizontal range within which a port can be grabbed (outer side).
+La plage horizontale sur laquelle un port peut être saisi (côté extérieur).
 
 .. rst-class:: classref-item-separator
 
@@ -1573,7 +1573,7 @@ The horizontal range within which a port can be grabbed (outer side).
 
 :ref:`Texture2D<class_Texture2D>` **grid_toggle** :ref:`🔗<class_GraphEdit_theme_icon_grid_toggle>`
 
-The icon for the grid toggle button.
+L'icône du bouton d'activation de la grille.
 
 .. rst-class:: classref-item-separator
 
@@ -1585,7 +1585,7 @@ The icon for the grid toggle button.
 
 :ref:`Texture2D<class_Texture2D>` **layout** :ref:`🔗<class_GraphEdit_theme_icon_layout>`
 
-The icon for the layout button for auto-arranging the graph.
+L'icône pour le bouton de mise en page pour auto-arranger le graphe.
 
 .. rst-class:: classref-item-separator
 
@@ -1597,7 +1597,7 @@ The icon for the layout button for auto-arranging the graph.
 
 :ref:`Texture2D<class_Texture2D>` **minimap_toggle** :ref:`🔗<class_GraphEdit_theme_icon_minimap_toggle>`
 
-The icon for the minimap toggle button.
+L'icône du bouton d'activation de la mini-carte.
 
 .. rst-class:: classref-item-separator
 
@@ -1609,7 +1609,7 @@ The icon for the minimap toggle button.
 
 :ref:`Texture2D<class_Texture2D>` **snapping_toggle** :ref:`🔗<class_GraphEdit_theme_icon_snapping_toggle>`
 
-The icon for the snapping toggle button.
+L'icône du bouton d'activation de la magnétisation.
 
 .. rst-class:: classref-item-separator
 
@@ -1683,7 +1683,7 @@ L’arrière-plan dessiné sous la grille.
 
 :ref:`StyleBox<class_StyleBox>` **panel_focus** :ref:`🔗<class_GraphEdit_theme_style_panel_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **GraphEdit** is focused (when used with assistive apps).
+:ref:`StyleBox<class_StyleBox>` utilisée quand le **GraphEdit** a le focus (lorsqu’utilisé avec des applications d'assistance).
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

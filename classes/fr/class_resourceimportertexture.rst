@@ -292,7 +292,7 @@ It's recommended to enable mipmaps in 3D. However, in 2D, this should only be en
 
 :ref:`int<class_int>` **mipmaps/limit** = ``-1`` :ref:`🔗<class_ResourceImporterTexture_property_mipmaps/limit>`
 
-Unimplemented. This currently has no effect when changed.
+Non implémenté. Ceci n'a actuellement aucun effet lorsque modifié.
 
 .. rst-class:: classref-item-separator
 

@@ -14,9 +14,9 @@ Un bouton qui représente un lien.
 Description
 -----------
 
-A button that represents a link. This type of button is primarily used for interactions that cause a context change (like linking to a web page).
+Un bouton qui représente un lien. Ce type de bouton est principalement utilisé pour les interactions qui provoquent un changement de contexte (comme un lien vers une page web).
 
-See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node.
+Voir aussi :ref:`BaseButton<class_BaseButton>` qui contient des propriétés et des méthodes communes associées à ce nœud.
 
 .. rst-class:: classref-reftable-group
 
@@ -156,7 +156,7 @@ Code de langue utilisé pour les algorithmes de retour à la ligne et de "text s
 - |void| **set_structured_text_bidi_override**\ (\ value\: :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>`\ )
 - :ref:`StructuredTextParser<enum_TextServer_StructuredTextParser>` **get_structured_text_bidi_override**\ (\ )
 
-Set BiDi algorithm override for the structured text.
+Définit la redéfinition de l'algorithme BiDi pour le texte structuré.
 
 .. rst-class:: classref-item-separator
 
@@ -173,7 +173,7 @@ Set BiDi algorithm override for the structured text.
 - |void| **set_structured_text_bidi_override_options**\ (\ value\: :ref:`Array<class_Array>`\ )
 - :ref:`Array<class_Array>` **get_structured_text_bidi_override_options**\ (\ )
 
-Set additional options for BiDi override.
+Définit des options supplémentaires pour la redéfinition BiDi.
 
 .. rst-class:: classref-item-separator
 
@@ -224,7 +224,7 @@ Direction d'écriture du texte de base.
 - |void| **set_underline_mode**\ (\ value\: :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`\ )
 - :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>` **get_underline_mode**\ (\ )
 
-The underline mode to use for the text.
+Le mode de sous-lignage à utiliser pour le texte.
 
 .. rst-class:: classref-item-separator
 
@@ -241,22 +241,22 @@ The underline mode to use for the text.
 - |void| **set_uri**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_uri**\ (\ )
 
-The `URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>`__ for this **LinkButton**. If set to a valid URI, pressing the button opens the URI using the operating system's default program for the protocol (via :ref:`OS.shell_open()<class_OS_method_shell_open>`). HTTP and HTTPS URLs open the default web browser.
+L'`URI <https://fr.wikipedia.org/wiki/Uniform_Resource_Identifier>`__ pour ce **LinkButton**. S'il s'agit d'une URI valide, appuyer sur le bouton ouvre l'URI en utilisant le programme par défaut du système d'exploitation pour le protocole (via :ref:`OS.shell_open()<class_OS_method_shell_open>`). Les URLs HTTP et HTTPS ouvrent le navigateur Web par défaut.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    uri = "https://godotengine.org"  # Opens the URL in the default web browser.
-    uri = "C:\SomeFolder"  # Opens the file explorer at the given path.
-    uri = "C:\SomeImage.png"  # Opens the given image in the default viewing app.
+    uri = "https://godotengine.org"  # Ouvre l'URL dans le navigateur Web par défaut.
+    uri = "C:\UnDossier"  # Ouvre l'explorateur de fichiers au chemin donné.
+    uri = "C:\UneImage.png"  # Ouvre l'image donnée dans l'application de visualisation par défaut.
 
  .. code-tab:: csharp
 
-    Uri = "https://godotengine.org"; // Opens the URL in the default web browser.
-    Uri = "C:\SomeFolder"; // Opens the file explorer at the given path.
-    Uri = "C:\SomeImage.png"; // Opens the given image in the default viewing app.
+    Uri = "https://godotengine.org"; // Ouvre l'URL dans le navigateur Web par défaut.
+    Uri = "C:\UnDossier"; // Ouvre l'explorateur de fichiers au chemin donné.
+    Uri = "C:\UneImage.png"; // Ouvre l'image donnée dans l'application de visualisation par défaut.
 
 
 
@@ -287,7 +287,7 @@ La :ref:`Color<class_Color>` par défaut du texte pour le **LinkButton**.
 
 :ref:`Color<class_Color>` **font_disabled_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_LinkButton_theme_color_font_disabled_color>`
 
-Text :ref:`Color<class_Color>` used when the **LinkButton** is disabled.
+:ref:`Color<class_Color>` du texte utilisée quand le **LinkButton** est désactivé.
 
 .. rst-class:: classref-item-separator
 
@@ -299,7 +299,7 @@ Text :ref:`Color<class_Color>` used when the **LinkButton** is disabled.
 
 :ref:`Color<class_Color>` **font_focus_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_LinkButton_theme_color_font_focus_color>`
 
-Text :ref:`Color<class_Color>` used when the **LinkButton** is focused. Only replaces the normal text color of the button. Disabled, hovered, and pressed states take precedence over this color.
+:ref:`Color<class_Color>` du texte utilisée quand le **LinkButton** a le focus. Remplace seulement la couleur de texte normale du bouton. Les états désactivé, survolé et appuyé sont prioritaires sur cette couleur.
 
 .. rst-class:: classref-item-separator
 
@@ -323,7 +323,7 @@ La :ref:`Color<class_Color>` de texte utilisée quand le **LinkButton** est surv
 
 :ref:`Color<class_Color>` **font_hover_pressed_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_LinkButton_theme_color_font_hover_pressed_color>`
 
-Text :ref:`Color<class_Color>` used when the **LinkButton** is being hovered and pressed.
+:ref:`Color<class_Color>` du texte utilisée quand le **LinkButton** est survolé et appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -409,7 +409,7 @@ Taille de police du texte de **LinkButton**.
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_LinkButton_theme_style_focus>`
 
-:ref:`StyleBox<class_StyleBox>` used when the **LinkButton** is focused. The :ref:`focus<class_LinkButton_theme_style_focus>` :ref:`StyleBox<class_StyleBox>` is displayed *over* the base :ref:`StyleBox<class_StyleBox>`, so a partially transparent :ref:`StyleBox<class_StyleBox>` should be used to ensure the base :ref:`StyleBox<class_StyleBox>` remains visible. A :ref:`StyleBox<class_StyleBox>` that represents an outline or an underline works well for this purpose. To disable the focus visual effect, assign a :ref:`StyleBoxEmpty<class_StyleBoxEmpty>` resource. Note that disabling the focus visual effect will harm keyboard/controller navigation usability, so this is not recommended for accessibility reasons.
+:ref:`StyleBox<class_StyleBox>` utilisée lorsque le **LinkButton** a le focus. La :ref:`StyleBox<class_StyleBox>` :ref:`focus<class_LinkButton_theme_style_focus>` est affichée *par-dessus* la :ref:`StyleBox<class_StyleBox>` de base, donc une :ref:`StyleBox<class_StyleBox>` partiellement transparente devrait être utilisée pour garantir que la :ref:`StyleBox<class_StyleBox>` de base reste visible. Une :ref:`StyleBox<class_StyleBox>` qui représente un contour ou une sous-lignage fonctionne bien à cette fin. Pour désactiver l'effet visuel du focus, assignez une ressource :ref:`StyleBoxEmpty<class_StyleBoxEmpty>`. Notez que la désactivation de l'effet visuel du focus va nuire à utilisabilité de la navigation clavier/contrôleur, ce qui n'est donc pas recommandé pour des raisons d'accessibilité.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

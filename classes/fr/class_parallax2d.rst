@@ -14,9 +14,9 @@ Un nœud utilisé pour créer un arrière-plan à défilement parallaxe.
 Description
 -----------
 
-A **Parallax2D** is used to create a parallax effect. It can move at a different speed relative to the camera movement using :ref:`scroll_scale<class_Parallax2D_property_scroll_scale>`. This creates an illusion of depth in a 2D game. If manual scrolling is desired, the :ref:`Camera2D<class_Camera2D>` position can be ignored with :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>`.
+Un **Parallax2D** est utilisé pour créer un effet de parallaxe. Il peut se déplacer à une vitesse différente par rapport au mouvement de la caméra en utilisant :ref:`scroll_scale<class_Parallax2D_property_scroll_scale>`. Cela crée une illusion de profondeur dans un jeu 2D. Si du défilement manuel est souhaité, la position de la :ref:`Camera2D<class_Camera2D>` peut être ignorée avec :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>`.
 
-\ **Note:** Any changes to this node's position made after it enters the scene tree will be overridden if :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>` is ``false`` or :ref:`screen_offset<class_Parallax2D_property_screen_offset>` is modified.
+\ **Note :** Tout changement à la position de ce nœud effectué après son entrée dans l'arbre de scène sera redéfini si :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>` vaut ``false`` ou que :ref:`screen_offset<class_Parallax2D_property_screen_offset>` est modifié.
 
 .. rst-class:: classref-introduction-group
 
@@ -77,7 +77,7 @@ Descriptions des propriétés
 - |void| **set_autoscroll**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_autoscroll**\ (\ )
 
-Velocity at which the offset scrolls automatically, in pixels per second.
+Vélocité à laquelle le décalage défile automatiquement, en pixels par seconde.
 
 .. rst-class:: classref-item-separator
 
@@ -94,7 +94,7 @@ Velocity at which the offset scrolls automatically, in pixels per second.
 - |void| **set_follow_viewport**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_follow_viewport**\ (\ )
 
-If ``true``, this **Parallax2D** is offset by the current camera's position. If the **Parallax2D** is in a :ref:`CanvasLayer<class_CanvasLayer>` separate from the current camera, it may be desired to match the value with :ref:`CanvasLayer.follow_viewport_enabled<class_CanvasLayer_property_follow_viewport_enabled>`.
+Si ``true``, ce **Parallax2D** est décalé par la position actuelle de la caméra. Si le **Parallax2D** se trouve dans un :ref:`CanvasLayer<class_CanvasLayer>` séparé de la caméra actuelle, il peut être souhaité de faire correspondre la valeur avec :ref:`CanvasLayer.follow_viewport_enabled<class_CanvasLayer_property_follow_viewport_enabled>`.
 
 .. rst-class:: classref-item-separator
 
@@ -111,7 +111,7 @@ If ``true``, this **Parallax2D** is offset by the current camera's position. If 
 - |void| **set_ignore_camera_scroll**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ignore_camera_scroll**\ (\ )
 
-If ``true``, **Parallax2D**'s position is not affected by the position of the camera.
+Si ``true``, la position de **Parallax2D** n'est pas affectée par la position de la caméra.
 
 .. rst-class:: classref-item-separator
 
@@ -128,7 +128,7 @@ If ``true``, **Parallax2D**'s position is not affected by the position of the ca
 - |void| **set_limit_begin**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_limit_begin**\ (\ )
 
-Top-left limits for scrolling to begin. If the camera is outside of this limit, the **Parallax2D** stops scrolling. Must be lower than :ref:`limit_end<class_Parallax2D_property_limit_end>` minus the viewport size to work.
+Limites en haut à gauche pour que le défilement commence. Si la caméra est en dehors de cette limite, le **Parallax2D** cesse de défiler. Doit être inférieur à :ref:`limit_end<class_Parallax2D_property_limit_end>` moins la taille du viewport pour fonctionner.
 
 .. rst-class:: classref-item-separator
 
@@ -145,7 +145,7 @@ Top-left limits for scrolling to begin. If the camera is outside of this limit, 
 - |void| **set_limit_end**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_limit_end**\ (\ )
 
-Bottom-right limits for scrolling to end. If the camera is outside of this limit, the **Parallax2D** will stop scrolling. Must be higher than :ref:`limit_begin<class_Parallax2D_property_limit_begin>` and the viewport size combined to work.
+Limites en bas à droite pour que le défilement s'arrête. Si la caméra est en dehors de cette limite, le **Parallax2D** cesse de défiler. Doit être supérieur à :ref:`limit_begin<class_Parallax2D_property_limit_begin>` plus la taille du viewport pour fonctionner.
 
 .. rst-class:: classref-item-separator
 
@@ -162,7 +162,7 @@ Bottom-right limits for scrolling to end. If the camera is outside of this limit
 - |void| **set_repeat_size**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_repeat_size**\ (\ )
 
-Repeats the :ref:`Texture2D<class_Texture2D>` of each of this node's children and offsets them by this value. When scrolling, the node's position loops, giving the illusion of an infinite scrolling background if the values are larger than the screen size. If an axis is set to ``0``, the :ref:`Texture2D<class_Texture2D>` will not be repeated.
+Répète la :ref:`Texture2D<class_Texture2D>` de chacun des enfants de ce nœud et les décale de cette valeur. Lors du défilement, la position du nœud boucle, donnant l'illusion d'un arrière-plan défilant de manière infinie si les valeurs sont plus grandes que la taille de l'écran. Si un axe est défini à ``0``, la :ref:`Texture2D<class_Texture2D>` ne sera pas répétée.
 
 .. rst-class:: classref-item-separator
 
@@ -179,7 +179,7 @@ Repeats the :ref:`Texture2D<class_Texture2D>` of each of this node's children an
 - |void| **set_repeat_times**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_repeat_times**\ (\ )
 
-Overrides the amount of times the texture repeats. Each texture copy spreads evenly from the original by :ref:`repeat_size<class_Parallax2D_property_repeat_size>`. Useful for when zooming out with a camera.
+Redéfinit le nombre de fois que la texture répète. Chaque copie de la texture s'écarte uniformément de l'original de :ref:`repeat_size<class_Parallax2D_property_repeat_size>`. Utile pour dézoomer avec une caméra.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Overrides the amount of times the texture repeats. Each texture copy spreads eve
 - |void| **set_screen_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_screen_offset**\ (\ )
 
-Offset used to scroll this **Parallax2D**. This value is updated automatically unless :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>` is ``true``.
+Décalage utilisé pour défiler ce **Parallax2D**. Cette valeur est mise à jour automatiquement sauf si :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -213,9 +213,9 @@ Offset used to scroll this **Parallax2D**. This value is updated automatically u
 - |void| **set_scroll_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scroll_offset**\ (\ )
 
-The **Parallax2D**'s offset. Similar to :ref:`screen_offset<class_Parallax2D_property_screen_offset>` and :ref:`Node2D.position<class_Node2D_property_position>`, but will not be overridden.
+Le décalage du **Parallax2D**. Similaire à :ref:`screen_offset<class_Parallax2D_property_screen_offset>` et :ref:`Node2D.position<class_Node2D_property_position>`, mais ne sera pas redéfini.
 
-\ **Note:** Values will loop if :ref:`repeat_size<class_Parallax2D_property_repeat_size>` is set higher than ``0``.
+\ **Note :** Les valeurs vont boucler si :ref:`repeat_size<class_Parallax2D_property_repeat_size>` est défini supérieur à ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -232,9 +232,9 @@ The **Parallax2D**'s offset. Similar to :ref:`screen_offset<class_Parallax2D_pro
 - |void| **set_scroll_scale**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scroll_scale**\ (\ )
 
-Multiplier to the final **Parallax2D**'s offset. Can be used to simulate distance from the camera.
+Multiplicateur du décalage final du **Parallax2D**. Peut être utilisé pour simuler de la distance à la caméra.
 
-For example, a value of ``1`` scrolls at the same speed as the camera. A value greater than ``1`` scrolls faster, making objects appear closer. Less than ``1`` scrolls slower, making objects appear further, and a value of ``0`` stops the objects completely.
+Par exemple, une valeur de ``1`` défile à la même vitesse que la caméra. Une valeur supérieure à ``1`` défile plus vite, faisant apparaître les objets comme plus proches. Une valeur inférieure à ``1`` défile plus lentement, faisant apparaître les objets comme plus lointains, et une valeur de ``0`` arrête complètement les objets.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -7,7 +7,7 @@ StreamPeerTLS
 
 **Hérite de :** :ref:`StreamPeer<class_StreamPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A stream peer that handles TLS connections.
+Un pair de flux qui gère des connexions TLS.
 
 .. rst-class:: classref-introduction-group
 
@@ -117,7 +117,7 @@ Descriptions des méthodes
 
 :ref:`Error<enum_@GlobalScope_Error>` **accept_stream**\ (\ stream\: :ref:`StreamPeer<class_StreamPeer>`, server_options\: :ref:`TLSOptions<class_TLSOptions>`\ ) :ref:`🔗<class_StreamPeerTLS_method_accept_stream>`
 
-Accepts a peer connection as a server using the given ``server_options``. See :ref:`TLSOptions.server()<class_TLSOptions_method_server>`.
+Accepte une connexion de pair en tant que serveur en utilisant ``server_options``. Voir :ref:`TLSOptions.server()<class_TLSOptions_method_server>`.
 
 .. rst-class:: classref-item-separator
 

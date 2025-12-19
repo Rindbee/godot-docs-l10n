@@ -7,16 +7,16 @@ TileMapPattern
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Holds a pattern to be copied from or pasted into :ref:`TileMap<class_TileMap>`\ s.
+Contient un motif à copier ou à coller dans des :ref:`TileMap<class_TileMap>`\ s.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-This resource holds a set of cells to help bulk manipulations of :ref:`TileMap<class_TileMap>`.
+Cette ressource contient un ensemble de cellules pour aider les manipulations en masse de :ref:`TileMap<class_TileMap>`.
 
-A pattern always starts at the ``(0, 0)`` coordinates and cannot have cells with negative coordinates.
+Un motif commence toujours aux coordonnées ``(0, 0)`` et ne peut pas avoir de cellules avec des coordonnées négatives.
 
 .. rst-class:: classref-reftable-group
 
@@ -63,7 +63,7 @@ Descriptions des méthodes
 
 :ref:`int<class_int>` **get_cell_alternative_tile**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapPattern_method_get_cell_alternative_tile>`
 
-Returns the tile alternative ID of the cell at ``coords``.
+Renvoie l'identifiant alternatif de tuile de la cellule aux coordonnées ``coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -75,7 +75,7 @@ Returns the tile alternative ID of the cell at ``coords``.
 
 :ref:`Vector2i<class_Vector2i>` **get_cell_atlas_coords**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_TileMapPattern_method_get_cell_atlas_coords>`
 
-Returns the tile atlas coordinates ID of the cell at ``coords``.
+Renvoie l'identifiant des coordonnées d'atlas de tuile de la cellule aux coordonnées ``coords``.
 
 .. rst-class:: classref-item-separator
 
@@ -111,7 +111,7 @@ Renvoie la taille, en cellules, du motif.
 
 :ref:`Array<class_Array>`\[:ref:`Vector2i<class_Vector2i>`\] **get_used_cells**\ (\ ) |const| :ref:`🔗<class_TileMapPattern_method_get_used_cells>`
 
-Returns the list of used cell coordinates in the pattern.
+Renvoie la liste des coordonnées des cellules utilisées dans le motif.
 
 .. rst-class:: classref-item-separator
 
@@ -159,7 +159,7 @@ Supprime la cellule aux coordonnées données.
 
 |void| **set_cell**\ (\ coords\: :ref:`Vector2i<class_Vector2i>`, source_id\: :ref:`int<class_int>` = -1, atlas_coords\: :ref:`Vector2i<class_Vector2i>` = Vector2i(-1, -1), alternative_tile\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_TileMapPattern_method_set_cell>`
 
-Sets the tile identifiers for the cell at coordinates ``coords``. See :ref:`TileMap.set_cell()<class_TileMap_method_set_cell>`.
+Définit les identifiants de tuile pour la cellule aux coordonnées ``coords``. Voir :ref:`TileMap.set_cell()<class_TileMap_method_set_cell>`.
 
 .. rst-class:: classref-item-separator
 

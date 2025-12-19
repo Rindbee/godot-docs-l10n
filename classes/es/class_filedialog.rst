@@ -14,7 +14,7 @@ Un diálogo para seleccionar archivos o directorios en el sistema de archivos.
 Descripción
 ----------------------
 
-**FileDialog** is a preset dialog used to choose files and directories in the filesystem. It supports filter masks. **FileDialog** automatically sets its window title according to the :ref:`file_mode<class_FileDialog_property_file_mode>`. If you want to use a custom title, disable this by setting :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` to ``false``.
+**FileDialog** es un diálogo preestablecido que se utiliza para elegir archivos y directorios en el sistema de archivos. Soporta máscaras de filtro. **FileDialog** establece automáticamente el título de su ventana de acuerdo con :ref:`file_mode<class_FileDialog_property_file_mode>`. Si quieres usar un título personalizado, desactiva esto estableciendo :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` a ``false``.
 
 .. rst-class:: classref-reftable-group
 
@@ -352,9 +352,9 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_HIDDEN_FILES** = ``0``
 
-Toggles visibility of the favorite button, and the favorite list on the left side of the dialog.
+Alterna la visibilidad del botón de favoritos y la lista de favoritos en el lado izquierdo del diálogo.
 
-Equivalent to :ref:`hidden_files_toggle_enabled<class_FileDialog_property_hidden_files_toggle_enabled>`.
+Equivalente a :ref:`hidden_files_toggle_enabled<class_FileDialog_property_hidden_files_toggle_enabled>`.
 
 .. _class_FileDialog_constant_CUSTOMIZATION_CREATE_FOLDER:
 
@@ -362,9 +362,9 @@ Equivalent to :ref:`hidden_files_toggle_enabled<class_FileDialog_property_hidden
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_CREATE_FOLDER** = ``1``
 
-If enabled, shows the button for creating new directories (when using :ref:`FILE_MODE_OPEN_DIR<class_FileDialog_constant_FILE_MODE_OPEN_DIR>`, :ref:`FILE_MODE_OPEN_ANY<class_FileDialog_constant_FILE_MODE_OPEN_ANY>`, or :ref:`FILE_MODE_SAVE_FILE<class_FileDialog_constant_FILE_MODE_SAVE_FILE>`).
+Si está habilitado, muestra el botón para crear nuevos directorios (cuando se usa :ref:`FILE_MODE_OPEN_DIR<class_FileDialog_constant_FILE_MODE_OPEN_DIR>`, :ref:`FILE_MODE_OPEN_ANY<class_FileDialog_constant_FILE_MODE_OPEN_ANY>` o :ref:`FILE_MODE_SAVE_FILE<class_FileDialog_constant_FILE_MODE_SAVE_FILE>`).
 
-Equivalent to :ref:`folder_creation_enabled<class_FileDialog_property_folder_creation_enabled>`.
+Equivalente a :ref:`folder_creation_enabled<class_FileDialog_property_folder_creation_enabled>`.
 
 .. _class_FileDialog_constant_CUSTOMIZATION_FILE_FILTER:
 
@@ -372,9 +372,9 @@ Equivalent to :ref:`folder_creation_enabled<class_FileDialog_property_folder_cre
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_FILE_FILTER** = ``2``
 
-If enabled, shows the toggle file filter button.
+Si está habilitado, muestra el botón para alternar el filtro de archivos.
 
-Equivalent to :ref:`file_filter_toggle_enabled<class_FileDialog_property_file_filter_toggle_enabled>`.
+Equivalente a :ref:`file_filter_toggle_enabled<class_FileDialog_property_file_filter_toggle_enabled>`.
 
 .. _class_FileDialog_constant_CUSTOMIZATION_FILE_SORT:
 
@@ -382,9 +382,9 @@ Equivalent to :ref:`file_filter_toggle_enabled<class_FileDialog_property_file_fi
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_FILE_SORT** = ``3``
 
-If enabled, shows the file sorting options button.
+Si está habilitado, muestra el botón de opciones para ordenar archivos.
 
-Equivalent to :ref:`file_sort_options_enabled<class_FileDialog_property_file_sort_options_enabled>`.
+Equivalente a :ref:`file_sort_options_enabled<class_FileDialog_property_file_sort_options_enabled>`.
 
 .. _class_FileDialog_constant_CUSTOMIZATION_FAVORITES:
 
@@ -392,9 +392,9 @@ Equivalent to :ref:`file_sort_options_enabled<class_FileDialog_property_file_sor
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_FAVORITES** = ``4``
 
-If enabled, shows the toggle favorite button and favorite list on the left side of the dialog.
+Si está habilitado, muestra el botón de alternar favoritos y la lista de favoritos en el lado izquierdo del diálogo.
 
-Equivalent to :ref:`favorites_enabled<class_FileDialog_property_favorites_enabled>`.
+Equivalente a :ref:`favorites_enabled<class_FileDialog_property_favorites_enabled>`.
 
 .. _class_FileDialog_constant_CUSTOMIZATION_RECENT:
 
@@ -402,9 +402,9 @@ Equivalent to :ref:`favorites_enabled<class_FileDialog_property_favorites_enable
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_RECENT** = ``5``
 
-If enabled, shows the recent directories list on the left side of the dialog.
+Si está habilitado, muestra la lista de directorios recientes en el lado izquierdo del diálogo.
 
-Equivalent to :ref:`recent_list_enabled<class_FileDialog_property_recent_list_enabled>`.
+Equivalente a :ref:`recent_list_enabled<class_FileDialog_property_recent_list_enabled>`.
 
 .. _class_FileDialog_constant_CUSTOMIZATION_LAYOUT:
 
@@ -412,9 +412,9 @@ Equivalent to :ref:`recent_list_enabled<class_FileDialog_property_recent_list_en
 
 :ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_LAYOUT** = ``6``
 
-If enabled, shows the layout switch buttons (list/thumbnails).
+Si está habilitado, muestra los botones de cambio de diseño (lista/miniaturas).
 
-Equivalent to :ref:`layout_toggle_enabled<class_FileDialog_property_layout_toggle_enabled>`.
+Equivalente a :ref:`layout_toggle_enabled<class_FileDialog_property_layout_toggle_enabled>`.
 
 .. rst-class:: classref-section-separator
 
@@ -525,7 +525,7 @@ Modo de visualización de la lista de archivos del diálogo.
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the toggle favorite button and favorite list on the left side of the dialog.
+Si es ``true``, muestra el botón para alternar favoritos y la lista de favoritos en el lado izquierdo del diálogo.
 
 .. rst-class:: classref-item-separator
 
@@ -542,7 +542,7 @@ If ``true``, shows the toggle favorite button and favorite list on the left side
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the toggle file filter button.
+Si es ``true``, muestra el botón para alternar el filtro de archivos.
 
 .. rst-class:: classref-item-separator
 
@@ -576,7 +576,7 @@ The dialog's open or save mode, which affects the selection behavior.
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the file sorting options button.
+Si es ``true``, muestra el botón de opciones para ordenar archivos.
 
 .. rst-class:: classref-item-separator
 
@@ -593,9 +593,9 @@ If ``true``, shows the file sorting options button.
 - |void| **set_filename_filter**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_filename_filter**\ (\ )
 
-The filter for file names (case-insensitive). When set to a non-empty string, only files that contains the substring will be shown. :ref:`filename_filter<class_FileDialog_property_filename_filter>` can be edited by the user with the filter button at the top of the file dialog.
+El filtro para nombres de archivo (no distingue entre mayúsculas y minúsculas). Cuando se establece en una string no vacía, solo se mostrarán los archivos que contengan la substring. El usuario puede editar :ref:`filename_filter<class_FileDialog_property_filename_filter>` con el botón de filtro en la parte superior del diálogo de archivo.
 
-See also :ref:`filters<class_FileDialog_property_filters>`, which should be used to restrict the file types that can be selected instead of :ref:`filename_filter<class_FileDialog_property_filename_filter>` which is meant to be set by the user.
+Véase también :ref:`filters<class_FileDialog_property_filters>`, que debería usarse para restringir los tipos de archivo que se pueden seleccionar en lugar de :ref:`filename_filter<class_FileDialog_property_filename_filter>`, que está destinado a ser establecido por el usuario.
 
 .. rst-class:: classref-item-separator
 
@@ -612,9 +612,9 @@ See also :ref:`filters<class_FileDialog_property_filters>`, which should be used
 - |void| **set_filters**\ (\ value\: :ref:`PackedStringArray<class_PackedStringArray>`\ )
 - :ref:`PackedStringArray<class_PackedStringArray>` **get_filters**\ (\ )
 
-The available file type filters. Each filter string in the array should be formatted like this: ``*.png,*.jpg,*.jpeg;Image Files;image/png,image/jpeg``. The description text of the filter is optional and can be omitted. Both file extensions and MIME type should be always set.
+Los filtros de tipo de archivo disponibles. Cada string de filtro en el array debe tener el siguiente formato: ``*.png,*.jpg,*.jpeg;Archivos de imagen;image/png,image/jpeg``. El texto de descripción del filtro es opcional y puede omitirse. Tanto las extensiones de archivo como el tipo MIME siempre deben estar establecidos.
 
-\ **Note:** Embedded file dialog and Windows file dialog support only file extensions, while Android, Linux, and macOS file dialogs also support MIME types.
+\ **Nota:** El diálogo de archivo integrado y el diálogo de archivo de Windows solo admiten extensiones de archivo, mientras que los diálogos de archivo de Android, Linux y macOS también admiten tipos MIME.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -633,7 +633,7 @@ The available file type filters. Each filter string in the array should be forma
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the button for creating new directories (when using :ref:`FILE_MODE_OPEN_DIR<class_FileDialog_constant_FILE_MODE_OPEN_DIR>`, :ref:`FILE_MODE_OPEN_ANY<class_FileDialog_constant_FILE_MODE_OPEN_ANY>`, or :ref:`FILE_MODE_SAVE_FILE<class_FileDialog_constant_FILE_MODE_SAVE_FILE>`).
+Si es ``true``, muestra el botón para crear nuevos directorios (cuando se usa :ref:`FILE_MODE_OPEN_DIR<class_FileDialog_constant_FILE_MODE_OPEN_DIR>`, :ref:`FILE_MODE_OPEN_ANY<class_FileDialog_constant_FILE_MODE_OPEN_ANY>` o :ref:`FILE_MODE_SAVE_FILE<class_FileDialog_constant_FILE_MODE_SAVE_FILE>`).
 
 .. rst-class:: classref-item-separator
 
@@ -650,7 +650,7 @@ If ``true``, shows the button for creating new directories (when using :ref:`FIL
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the toggle hidden files button.
+Si es ``true``, muestra el botón para alternar la visibilidad de archivos ocultos.
 
 .. rst-class:: classref-item-separator
 
@@ -667,7 +667,7 @@ If ``true``, shows the toggle hidden files button.
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the layout switch buttons (list/thumbnails).
+Si es ``true``, muestra los botones para cambiar el diseño (lista/miniaturas).
 
 .. rst-class:: classref-item-separator
 
@@ -684,7 +684,7 @@ If ``true``, shows the layout switch buttons (list/thumbnails).
 - |void| **set_mode_overrides_title**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_mode_overriding_title**\ (\ )
 
-If ``true``, changing the :ref:`file_mode<class_FileDialog_property_file_mode>` property will set the window title accordingly (e.g. setting :ref:`file_mode<class_FileDialog_property_file_mode>` to :ref:`FILE_MODE_OPEN_FILE<class_FileDialog_constant_FILE_MODE_OPEN_FILE>` will change the window title to "Open a File").
+Si es ``true``, cambiar la propiedad :ref:`file_mode<class_FileDialog_property_file_mode>` establecerá el título de la ventana en consecuencia (p. ej., establecer :ref:`file_mode<class_FileDialog_property_file_mode>` en :ref:`FILE_MODE_OPEN_FILE<class_FileDialog_constant_FILE_MODE_OPEN_FILE>` cambiará el título de la ventana a "Abrir un archivo").
 
 .. rst-class:: classref-item-separator
 
@@ -718,7 +718,7 @@ The number of additional :ref:`OptionButton<class_OptionButton>`\ s and :ref:`Ch
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-If ``true``, shows the recent directories list on the left side of the dialog.
+Si es ``true``, muestra la lista de directorios recientes en el lado izquierdo del diálogo.
 
 .. rst-class:: classref-item-separator
 
@@ -735,9 +735,9 @@ If ``true``, shows the recent directories list on the left side of the dialog.
 - |void| **set_root_subfolder**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_root_subfolder**\ (\ )
 
-If non-empty, the given sub-folder will be "root" of this **FileDialog**, i.e. user won't be able to go to its parent directory.
+Si no está vacío, la subcarpeta dada será la "raíz" de este **FileDialog**, es decir, el usuario no podrá ir a su directorio padre.
 
-\ **Note:** This property is ignored by native file dialogs.
+\ **Nota:** Esta propiedad es ignorada por los diálogos de archivo nativos.
 
 .. rst-class:: classref-item-separator
 
@@ -754,9 +754,9 @@ If non-empty, the given sub-folder will be "root" of this **FileDialog**, i.e. u
 - |void| **set_show_hidden_files**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_showing_hidden_files**\ (\ )
 
-If ``true``, the dialog will show hidden files.
+Si es ``true``, el diálogo mostrará los archivos ocultos.
 
-\ **Note:** This property is ignored by native file dialogs on Android and Linux.
+\ **Nota:** Esta propiedad es ignorada por los diálogos de archivo nativos en Android y Linux.
 
 .. rst-class:: classref-item-separator
 
@@ -773,15 +773,15 @@ If ``true``, the dialog will show hidden files.
 - |void| **set_use_native_dialog**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_native_dialog**\ (\ )
 
-If ``true``, and if supported by the current :ref:`DisplayServer<class_DisplayServer>`, OS native dialog will be used instead of custom one.
+Si es ``true``, y si es compatible con el :ref:`DisplayServer<class_DisplayServer>` actual, se utilizará el diálogo nativo del SO en lugar del personalizado.
 
-\ **Note:** On Android, it is only supported for Android 10+ devices and when using :ref:`ACCESS_FILESYSTEM<class_FileDialog_constant_ACCESS_FILESYSTEM>`. For access mode :ref:`ACCESS_RESOURCES<class_FileDialog_constant_ACCESS_RESOURCES>` and :ref:`ACCESS_USERDATA<class_FileDialog_constant_ACCESS_USERDATA>`, the system will fall back to custom FileDialog.
+\ **Nota:** En Android, solo se admite para dispositivos Android 10+ y cuando se usa :ref:`ACCESS_FILESYSTEM<class_FileDialog_constant_ACCESS_FILESYSTEM>`. Para el modo de acceso :ref:`ACCESS_RESOURCES<class_FileDialog_constant_ACCESS_RESOURCES>` y :ref:`ACCESS_USERDATA<class_FileDialog_constant_ACCESS_USERDATA>`, el sistema volverá a FileDialog personalizado.
 
-\ **Note:** On Linux and macOS, sandboxed apps always use native dialogs to access the host file system.
+\ **Nota:** En Linux y macOS, las aplicaciones en espacio aislado siempre usan diálogos nativos para acceder al sistema de archivos del host.
 
-\ **Note:** On macOS, sandboxed apps will save security-scoped bookmarks to retain access to the opened folders across multiple sessions. Use :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` to get a list of saved bookmarks.
+\ **Nota:** En macOS, las aplicaciones en espacio aislado guardarán marcadores con ámbito de seguridad para conservar el acceso a las carpetas abiertas en varias sesiones. Usa :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` para obtener una lista de marcadores guardados.
 
-\ **Note:** Native dialogs are isolated from the base process, file dialog properties can't be modified once the dialog is shown.
+\ **Nota:** Los diálogos nativos están aislados del proceso base, las propiedades del diálogo de archivo no se pueden modificar una vez que se muestra el diálogo.
 
 .. rst-class:: classref-section-separator
 
@@ -798,11 +798,11 @@ Descripciones de Métodos
 
 |void| **add_filter**\ (\ filter\: :ref:`String<class_String>`, description\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_FileDialog_method_add_filter>`
 
-Adds a comma-separated file name ``filter`` option to the **FileDialog** with an optional ``description``, which restricts what files can be picked.
+Añade una opción de ``filter`` de nombre de archivo separada por comas al **FileDialog** con una ``description`` opcional, que restringe qué archivos se pueden elegir.
 
-A ``filter`` should be of the form ``"filename.extension"``, where filename and extension can be ``*`` to match any string. Filters starting with ``.`` (i.e. empty filenames) are not allowed.
+Un ``filter`` debe tener la forma ``"nombrearchivo.extensión"``, donde nombrearchivo y extensión pueden ser ``*`` para coincidir con cualquier string. No se permiten filtros que empiecen por ``.`` (es decir, nombres de archivo vacíos).
 
-For example, a ``filter`` of ``"*.png, *.jpg"`` and a ``description`` of ``"Images"`` results in filter text "Images (\*.png, \*.jpg)".
+Por ejemplo, un ``filter`` de ``"*.png, *.jpg"`` y una ``description`` de ``"Imágenes"`` da como resultado el texto del filtro "Imágenes (\*.png, \*.jpg)".
 
 .. rst-class:: classref-item-separator
 
@@ -852,7 +852,7 @@ Borra todos los filtros añadidos en el diálogo.
 
 |void| **deselect_all**\ (\ ) :ref:`🔗<class_FileDialog_method_deselect_all>`
 
-Clear all currently selected items in the dialog.
+Borra los elementos actualmente seleccionados en el diálogo.
 
 .. rst-class:: classref-item-separator
 
@@ -926,11 +926,11 @@ Returns a :ref:`Dictionary<class_Dictionary>` with the selected values of the ad
 
 :ref:`VBoxContainer<class_VBoxContainer>` **get_vbox**\ (\ ) :ref:`🔗<class_FileDialog_method_get_vbox>`
 
-Returns the vertical box container of the dialog, custom controls can be added to it.
+Devuelve el contenedor de caja vertical del diálogo, se le pueden añadir controles personalizados.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` property.
+\ **Advertencia:** Este es un nodo interno requerido, eliminarlo y liberarlo puede causar un fallo. Si deseas ocultarlo o cualquiera de sus hijos, usa su propiedad :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`.
 
-\ **Note:** Changes to this node are ignored by native file dialogs, use :ref:`add_option()<class_FileDialog_method_add_option>` to add custom elements to the dialog instead.
+\ **Nota:** Los diálogos de archivo nativos ignoran los cambios en este nodo, usa :ref:`add_option()<class_FileDialog_method_add_option>` para añadir elementos personalizados al diálogo en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -956,7 +956,7 @@ Invalida y actualiza la lista de contenido del diálogo actual.
 
 :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const| :ref:`🔗<class_FileDialog_method_is_customization_flag_enabled>`
 
-Returns ``true`` if the provided ``flag`` is enabled.
+Devuelve ``true`` si la ``flag`` proporcionada está habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -968,7 +968,7 @@ Returns ``true`` if the provided ``flag`` is enabled.
 
 |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_FileDialog_method_set_customization_flag_enabled>`
 
-Toggles the specified customization ``flag``, allowing to customize features available in this **FileDialog**. See :ref:`Customization<enum_FileDialog_Customization>` for options.
+Alterna la ``flag`` de personalización especificada, lo que permite personalizar las funciones disponibles en este **FileDialog**. Véase :ref:`Customization<enum_FileDialog_Customization>` para ver las opciones.
 
 .. rst-class:: classref-item-separator
 

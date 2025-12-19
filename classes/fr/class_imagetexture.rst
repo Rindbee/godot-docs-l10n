@@ -14,7 +14,7 @@ Une :ref:`Texture2D<class_Texture2D>` basée sur une :ref:`Image<class_Image>`.
 Description
 -----------
 
-A :ref:`Texture2D<class_Texture2D>` based on an :ref:`Image<class_Image>`. For an image to be displayed, an **ImageTexture** has to be created from it using the :ref:`create_from_image()<class_ImageTexture_method_create_from_image>` method:
+Une :ref:`Texture2D<class_Texture2D>` basée sur une :ref:`Image<class_Image>`. Pour qu'une image soit affichée, une **ImageTexture** doit être créée avec la méthode :ref:`create_from_image()<class_ImageTexture_method_create_from_image>`\  :
 
 ::
 
@@ -22,27 +22,27 @@ A :ref:`Texture2D<class_Texture2D>` based on an :ref:`Image<class_Image>`. For a
     var texture = ImageTexture.create_from_image(image)
     $Sprite2D.texture = texture
 
-This way, textures can be created at run-time by loading images both from within the editor and externally.
+De cette façon, les textures peuvent être créées durant l'exécution en chargent les images à la fois depuis l'éditeur et de manière externe.
 
-\ **Warning:** Prefer to load imported textures with :ref:`@GDScript.load()<class_@GDScript_method_load>` over loading them from within the filesystem dynamically with :ref:`Image.load()<class_Image_method_load>`, as it may not work in exported projects:
+\ **Avertissement :** Préférez charger les texture importées avec :ref:`@GDScript.load()<class_@GDScript_method_load>` plutôt que dynamiquement depuis le système de fichier avec :ref:`Image.load()<class_Image_method_load>`, car cela peut ne pas fonctionner dans des projets exportés :
 
 ::
 
     var texture = load("res://icon.svg")
     $Sprite2D.texture = texture
 
-This is because images have to be imported as a :ref:`CompressedTexture2D<class_CompressedTexture2D>` first to be loaded with :ref:`@GDScript.load()<class_@GDScript_method_load>`. If you'd still like to load an image file just like any other :ref:`Resource<class_Resource>`, import it as an :ref:`Image<class_Image>` resource instead, and then load it normally using the :ref:`@GDScript.load()<class_@GDScript_method_load>` method.
+C'est parce que les images doivent d'abord être importées en tant que :ref:`CompressedTexture2D<class_CompressedTexture2D>` d'abord pour être chargées avec :ref:`@GDScript.load()<class_@GDScript_method_load>`. Si vous préférez charger un fichier image comme n'importe quelle :ref:`Resource<class_Resource>`, importez-la comme une ressource :ref:`Image<class_Image>`, et ensuite chargez-la normalement avec la méthode :ref:`@GDScript.load()<class_@GDScript_method_load>`.
 
-\ **Note:** The image can be retrieved from an imported texture using the :ref:`Texture2D.get_image()<class_Texture2D_method_get_image>` method, which returns a copy of the image:
+\ **Note :** L'image peut toujours être récupérée à partir d'une texture importée avec la méthode :ref:`Texture2D.get_image()<class_Texture2D_method_get_image>`, qui renvoie une copie des données de l'image :
 
 ::
 
     var texture = load("res://icon.svg")
     var image = texture.get_image()
 
-An **ImageTexture** is not meant to be operated from within the editor interface directly, and is mostly useful for rendering images on screen dynamically via code. If you need to generate images procedurally from within the editor, consider saving and importing images as custom texture resources implementing a new :ref:`EditorImportPlugin<class_EditorImportPlugin>`.
+Une **ImageTexture** n'est pas prévue pour être opérée directement depuis l'interface de l'éditeur, et est principalement utilisée pour rendre des images à l'écran de manière dynamique depuis du code. Si vous devez générer des images de manière procédurale depuis l'éditeur, préférez enregistrer puis importer des imanges sous forme de texture personnalisée en implémentant un nouveau :ref:`EditorImportPlugin<class_EditorImportPlugin>`.
 
-\ **Note:** The maximum texture size is 16384×16384 pixels due to graphics hardware limitations.
+\ **Note :** La taille maximale de texture est de 16384×16384 pixels à cause des limitations des matériels graphiques.
 
 .. rst-class:: classref-introduction-group
 
@@ -98,7 +98,7 @@ Descriptions des méthodes
 
 :ref:`ImageTexture<class_ImageTexture>` **create_from_image**\ (\ image\: :ref:`Image<class_Image>`\ ) |static| :ref:`🔗<class_ImageTexture_method_create_from_image>`
 
-Creates a new **ImageTexture** and initializes it by allocating and setting the data from an :ref:`Image<class_Image>`.
+Crée une nouvelle **ImageTexture** et l'initialise en allouant et en définissant les données depuis une :ref:`Image<class_Image>`.
 
 .. rst-class:: classref-item-separator
 
@@ -110,7 +110,7 @@ Creates a new **ImageTexture** and initializes it by allocating and setting the 
 
 :ref:`Format<enum_Image_Format>` **get_format**\ (\ ) |const| :ref:`🔗<class_ImageTexture_method_get_format>`
 
-Returns the format of the texture.
+Renvoie le format de la texture.
 
 .. rst-class:: classref-item-separator
 
@@ -122,9 +122,9 @@ Returns the format of the texture.
 
 |void| **set_image**\ (\ image\: :ref:`Image<class_Image>`\ ) :ref:`🔗<class_ImageTexture_method_set_image>`
 
-Replaces the texture's data with a new :ref:`Image<class_Image>`. This will re-allocate new memory for the texture.
+Remplace les données de la texture par une nouvelle :ref:`Image<class_Image>`. Cela réattribuera de la nouvelle mémoire pour la texture.
 
-If you want to update the image, but don't need to change its parameters (format, size), use :ref:`update()<class_ImageTexture_method_update>` instead for better performance.
+Si vous voulez mettre à jour l'image, mais n'avez pas besoin de changer ses paramètres (format, taille), utilisez :ref:`update()<class_ImageTexture_method_update>` à la place pour de meilleures performances.
 
 .. rst-class:: classref-item-separator
 
@@ -148,11 +148,11 @@ Redimensionne la texture aux dimensions spécifiées.
 
 |void| **update**\ (\ image\: :ref:`Image<class_Image>`\ ) :ref:`🔗<class_ImageTexture_method_update>`
 
-Replaces the texture's data with a new :ref:`Image<class_Image>`.
+Remplacer les données de la texture par une nouvelle :ref:`Image<class_Image>`.
 
-\ **Note:** The texture has to be created using :ref:`create_from_image()<class_ImageTexture_method_create_from_image>` or initialized first with the :ref:`set_image()<class_ImageTexture_method_set_image>` method before it can be updated. The new image dimensions, format, and mipmaps configuration should match the existing texture's image configuration.
+\ **Note :** La texture doit être créée en utilisant :ref:`create_from_image()<class_ImageTexture_method_create_from_image>` ou initialisée en premier avec la méthode :ref:`set_image()<class_ImageTexture_method_set_image>` avant qu'elle puisse être mise à jour. Les nouvelles dimensions, format et configuration des mipmaps doivent correspondre à la configuration de l'image de la texture existante.
 
-Use this method over :ref:`set_image()<class_ImageTexture_method_set_image>` if you need to update the texture frequently, which is faster than allocating additional memory for a new texture each time.
+Utilisez cette méthode au lieu de :ref:`set_image()<class_ImageTexture_method_set_image>` si vous devez mettre à jour la texture fréquemment, car elle est plus rapide qu'allouer de la mémoire supplémentaire pour une nouvelle texture à chaque fois.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

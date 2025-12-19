@@ -14,7 +14,7 @@ L'instance unique qui connecte le moteur de jeu avec les greffons Android pour s
 Description
 -----------
 
-The JNISingleton is implemented only in the Android export. It's used to call methods and connect signals from an Android plugin written in Java or Kotlin. Methods and signals can be called and connected to the JNISingleton as if it is a Node. See `Java Native Interface - Wikipedia <https://en.wikipedia.org/wiki/Java_Native_Interface>`__ for more information.
+Le JNISingleton est implémenté seulement dans l'export Android. Il est utilisé pour appeler des méthodes et connecter des signaux d'un plugin Android écrit en Java ou en Kotlin. Les méthodes et les signaux peuvent être appelés et connectés au JNISingleton comme s'il s'agit d'un Node. Voir `Java Native Interface - Wikipedia <https://fr.wikipedia.org/wiki/Java_Native_Interface>`__ pour plus d'informations.
 
 .. rst-class:: classref-introduction-group
 

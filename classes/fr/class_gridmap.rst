@@ -17,15 +17,15 @@ Nœud pour les cartes à base de tuiles 3D.
 Description
 -----------
 
-GridMap lets you place meshes on a grid interactively. It works both from the editor and from scripts, which can help you create in-game level editors.
+GridMap vous permet de placer de manière interactive des maillages sur une grille. Elle fonctionne à la fois à partir de l'éditeur et des scripts, ce qui peut vous aider à créer des éditeurs de niveau en jeu.
 
-GridMaps use a :ref:`MeshLibrary<class_MeshLibrary>` which contains a list of tiles. Each tile is a mesh with materials plus optional collision and navigation shapes.
+Les GridMaps utilisent une :ref:`MeshLibrary<class_MeshLibrary>` qui contient une liste de tuiles. Chaque tuile est un maillage avec des matériaux, en plus de formes de collision et de navigation en option.
 
-A GridMap contains a collection of cells. Each grid cell refers to a tile in the :ref:`MeshLibrary<class_MeshLibrary>`. All cells in the map have the same dimensions.
+Une GridMap contient une collection de cellules. Chaque cellule de la grille se réfère à une tuile dans la :ref:`MeshLibrary<class_MeshLibrary>`. Toutes les cellules de la grille ont les mêmes dimensions.
 
-Internally, a GridMap is split into a sparse collection of octants for efficient rendering and physics processing. Every octant has the same dimensions and can contain several cells.
+En interne, une GridMap est divisée en une collection d'octants séparés pour traitement du rendu et de la physique efficace. Chaque octant a les mêmes dimensions et peut contenir plusieurs cellules.
 
-\ **Note:** GridMap doesn't extend :ref:`VisualInstance3D<class_VisualInstance3D>` and therefore can't be hidden or cull masked based on :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`. If you make a light not affect the first layer, the whole GridMap won't be lit by the light in question.
+\ **Note :** GridMap n'étend pas :ref:`VisualInstance3D<class_VisualInstance3D>` et donc de ne pas être cull ou masqué selon :ref:`VisualInstance3D.layers<class_VisualInstance3D_property_layers>`. Si vous ajoutez une lumière qui n'affecte pas la première couche, la GridMap entière ne sera éclairée la lumière en question.
 
 .. rst-class:: classref-introduction-group
 
@@ -155,7 +155,7 @@ Signaux
 
 **changed**\ (\ ) :ref:`🔗<class_GridMap_signal_changed>`
 
-Emitted when the :ref:`MeshLibrary<class_MeshLibrary>` of this GridMap changes.
+Émis lorsque la :ref:`MeshLibrary<class_MeshLibrary>` de cette GridMap change.
 
 .. rst-class:: classref-section-separator
 
@@ -416,7 +416,7 @@ Effacer toutes les cellules.
 
 |void| **clear_baked_meshes**\ (\ ) :ref:`🔗<class_GridMap_method_clear_baked_meshes>`
 
-Clears all baked meshes. See :ref:`make_baked_meshes()<class_GridMap_method_make_baked_meshes>`.
+Retire tous les maillages pré-calculés. Voir :ref:`make_baked_meshes()<class_GridMap_method_make_baked_meshes>`.
 
 .. rst-class:: classref-item-separator
 
@@ -428,7 +428,7 @@ Clears all baked meshes. See :ref:`make_baked_meshes()<class_GridMap_method_make
 
 :ref:`RID<class_RID>` **get_bake_mesh_instance**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GridMap_method_get_bake_mesh_instance>`
 
-Returns :ref:`RID<class_RID>` of a baked mesh with the given ``idx``.
+Renvoie le :ref:`RID<class_RID>` d'un maillage pré-calculé avec l'index ``idx`` donné.
 
 .. rst-class:: classref-item-separator
 
@@ -440,9 +440,9 @@ Returns :ref:`RID<class_RID>` of a baked mesh with the given ``idx``.
 
 :ref:`Array<class_Array>` **get_bake_meshes**\ (\ ) :ref:`🔗<class_GridMap_method_get_bake_meshes>`
 
-Returns an array of :ref:`ArrayMesh<class_ArrayMesh>`\ es and :ref:`Transform3D<class_Transform3D>` references of all bake meshes that exist within the current GridMap. Even indices contain :ref:`ArrayMesh<class_ArrayMesh>`\ es, while odd indices contain :ref:`Transform3D<class_Transform3D>`\ s that are always equal to :ref:`Transform3D.IDENTITY<class_Transform3D_constant_IDENTITY>`.
+Renvoie un tableau de références d':ref:`ArrayMesh<class_ArrayMesh>`\ s et de :ref:`Transform3D<class_Transform3D>`\ s de tous les maillages pré-calculés qui existent dans la GridMap actuelle. Les indices pairs contiennent des :ref:`ArrayMesh<class_ArrayMesh>`\ s, tandis que les indices impairs contiennent des :ref:`Transform3D<class_Transform3D>` qui sont toujours égaux à :ref:`Transform3D.IDENTITY<class_Transform3D_constant_IDENTITY>`.
 
-This method relies on the output of :ref:`make_baked_meshes()<class_GridMap_method_make_baked_meshes>`, which will be called with ``gen_lightmap_uv`` set to ``true`` and ``lightmap_uv_texel_size`` set to ``0.1`` if it hasn't been called yet.
+Cette méthode repose sur la sortie de :ref:`make_baked_meshes()<class_GridMap_method_make_baked_meshes>`, qui sera appelée avec ``gen_lightmap_uv`` défini à ``true`` et ``lightmap_uv_texel_size`` défini à ``0.1`` si elle n'a pas encore été appelée.
 
 .. rst-class:: classref-item-separator
 
@@ -454,7 +454,7 @@ This method relies on the output of :ref:`make_baked_meshes()<class_GridMap_meth
 
 :ref:`Basis<class_Basis>` **get_basis_with_orthogonal_index**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GridMap_method_get_basis_with_orthogonal_index>`
 
-Returns one of 24 possible rotations that lie along the vectors (x,y,z) with each component being either -1, 0, or 1. For further details, refer to the Godot source code.
+Renvoie une des 24 rotations possibles qui se situent le long des vecteurs (x,y,z) avec chaque composante valant -1, 0, ou 1. Pour plus de détails, consultez le code source de Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -466,7 +466,7 @@ Returns one of 24 possible rotations that lie along the vectors (x,y,z) with eac
 
 :ref:`int<class_int>` **get_cell_item**\ (\ position\: :ref:`Vector3i<class_Vector3i>`\ ) |const| :ref:`🔗<class_GridMap_method_get_cell_item>`
 
-The :ref:`MeshLibrary<class_MeshLibrary>` item index located at the given grid coordinates. If the cell is empty, :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` will be returned.
+L'indice de l'élément de la :ref:`MeshLibrary<class_MeshLibrary>` situé aux coordonnées de grille données. Si la cellule est vide, :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` sera renvoyé.
 
 .. rst-class:: classref-item-separator
 
@@ -478,7 +478,7 @@ The :ref:`MeshLibrary<class_MeshLibrary>` item index located at the given grid c
 
 :ref:`Basis<class_Basis>` **get_cell_item_basis**\ (\ position\: :ref:`Vector3i<class_Vector3i>`\ ) |const| :ref:`🔗<class_GridMap_method_get_cell_item_basis>`
 
-Returns the basis that gives the specified cell its orientation.
+Renvoie la base qui donne à la cellule spécifiée son orientation.
 
 .. rst-class:: classref-item-separator
 
@@ -490,7 +490,7 @@ Returns the basis that gives the specified cell its orientation.
 
 :ref:`int<class_int>` **get_cell_item_orientation**\ (\ position\: :ref:`Vector3i<class_Vector3i>`\ ) |const| :ref:`🔗<class_GridMap_method_get_cell_item_orientation>`
 
-The orientation of the cell at the given grid coordinates. ``-1`` is returned if the cell is empty.
+L'orientation de la cellule aux coordonnées de grille données. ``-1`` est renvoyé si la cellule est vide.
 
 .. rst-class:: classref-item-separator
 
@@ -502,7 +502,7 @@ The orientation of the cell at the given grid coordinates. ``-1`` is returned if
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GridMap_method_get_collision_layer_value>`
 
-Renvoie si la couche spécifiée du :ref:`collision_layer<class_GridMap_property_collision_layer>` est activée, selon un numéro de couche ``layer_number`` entre 1 et 32 donné.
+Renvoie si la couche spécifiée du :ref:`collision_layer<class_GridMap_property_collision_layer>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -526,7 +526,7 @@ Renvoie si la couche spécifiée du :ref:`collision_mask<class_GridMap_property_
 
 :ref:`Array<class_Array>` **get_meshes**\ (\ ) |const| :ref:`🔗<class_GridMap_method_get_meshes>`
 
-Returns an array of :ref:`Transform3D<class_Transform3D>` and :ref:`Mesh<class_Mesh>` references corresponding to the non-empty cells in the grid. The transforms are specified in local space. Even indices contain :ref:`Transform3D<class_Transform3D>`\ s, while odd indices contain :ref:`Mesh<class_Mesh>`\ es related to the :ref:`Transform3D<class_Transform3D>` in the index preceding it.
+Renvoie un tableau de références :ref:`Transform3D<class_Transform3D>` et :ref:`Mesh<class_Mesh>` correspondant aux cellules non vides de la grille. Les transformations sont spécifiées dans l'espace local. Les indices pairs contiennent des :ref:`Transform3D<class_Transform3D>`\ s, et les indices impairs contiennent les :ref:`Mesh<class_Mesh>`\ s liés au :ref:`Transform3D<class_Transform3D>` de l'index précédent.
 
 .. rst-class:: classref-item-separator
 
@@ -552,7 +552,7 @@ Cette fonction renvoie toujours la carte définie sur le nœud GridMap et non la
 
 :ref:`int<class_int>` **get_orthogonal_index_from_basis**\ (\ basis\: :ref:`Basis<class_Basis>`\ ) |const| :ref:`🔗<class_GridMap_method_get_orthogonal_index_from_basis>`
 
-This function considers a discretization of rotations into 24 points on unit sphere, lying along the vectors (x,y,z) with each component being either -1, 0, or 1, and returns the index (in the range from 0 to 23) of the point best representing the orientation of the object. For further details, refer to the Godot source code.
+Cette fonction considère une discrétisation des rotations en 24 points sur la sphère unité, le long des vecteurs (x,y,z), chaque composante valant soit -1, 0, ou 1, et renvoie l'index (dans un intervalle de 0 à 23) du point représentant le mieux l'orientation de l'objet. Pour plus de détails, consultez le code source de Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -576,7 +576,7 @@ Renvoie un tableau de :ref:`Vector3<class_Vector3>` avec les coordonnées des ce
 
 :ref:`Array<class_Array>`\[:ref:`Vector3i<class_Vector3i>`\] **get_used_cells_by_item**\ (\ item\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GridMap_method_get_used_cells_by_item>`
 
-Returns an array of all cells with the given item index specified in ``item``.
+Renvoie un tableau de toutes les cellules avec l'indice d'élément donné spécifié dans ``item``.
 
 .. rst-class:: classref-item-separator
 
@@ -588,7 +588,7 @@ Returns an array of all cells with the given item index specified in ``item``.
 
 :ref:`Vector3i<class_Vector3i>` **local_to_map**\ (\ local_position\: :ref:`Vector3<class_Vector3>`\ ) |const| :ref:`🔗<class_GridMap_method_local_to_map>`
 
-Returns the map coordinates of the cell containing the given ``local_position``. If ``local_position`` is in global coordinates, consider using :ref:`Node3D.to_local()<class_Node3D_method_to_local>` before passing it to this method. See also :ref:`map_to_local()<class_GridMap_method_map_to_local>`.
+Renvoie les coordonnées de la cellule contenant la position locale ``local_position`` donnée. Si ``local_position`` est dans les coordonnées globales, envisagez d'utiliser :ref:`Node3D.to_local()<class_Node3D_method_to_local>` avant de la transmettre à cette méthode. Voir aussi :ref:`map_to_local()<class_GridMap_method_map_to_local>`.
 
 .. rst-class:: classref-item-separator
 
@@ -600,9 +600,9 @@ Returns the map coordinates of the cell containing the given ``local_position``.
 
 |void| **make_baked_meshes**\ (\ gen_lightmap_uv\: :ref:`bool<class_bool>` = false, lightmap_uv_texel_size\: :ref:`float<class_float>` = 0.1\ ) :ref:`🔗<class_GridMap_method_make_baked_meshes>`
 
-Generates a baked mesh that represents all meshes in the assigned :ref:`MeshLibrary<class_MeshLibrary>` for use with :ref:`LightmapGI<class_LightmapGI>`. If ``gen_lightmap_uv`` is ``true``, UV2 data will be generated for each mesh currently used in the **GridMap**. Otherwise, only meshes that already have UV2 data present will be able to use baked lightmaps. When generating UV2, ``lightmap_uv_texel_size`` controls the texel density for lightmaps, with lower values resulting in more detailed lightmaps. ``lightmap_uv_texel_size`` is ignored if ``gen_lightmap_uv`` is ``false``. See also :ref:`get_bake_meshes()<class_GridMap_method_get_bake_meshes>`, which relies on the output of this method.
+Génère une maillage pré-calculé qui représente tous les maillages dans la :ref:`MeshLibrary<class_MeshLibrary>` attribuée à utiliser avec :ref:`LightmapGI<class_LightmapGI>`. Si ``gen_lightmap_uv`` vaut ``true``, les données UV2 seront générées pour chaque maillage actuellement utilisé dans la **GridMap**. Sinon, seuls les maillages qui ont déjà des données UV2 présentes seront en mesure d'utiliser des lightmaps pré-calculées. Lors de la génération des UV2, ``lightmap_uv_texel_size`` contrôle la densité de texel pour les lightmaps, avec les valeurs inférieures résultant en des lightmaps plus détaillées. ``lightmap_uv_texel_size`` est ignoré si ``gen_lightmap_uv`` vaut ``false``. Voir aussi :ref:`get_bake_meshes()<class_GridMap_method_get_bake_meshes>`, qui dépend de la sortie de cette méthode.
 
-\ **Note:** Calling this method will not actually bake lightmaps, as lightmap baking is performed using the :ref:`LightmapGI<class_LightmapGI>` node.
+\ **Note :** Appeler cette méthode ne pré-calcule pas les lightmaps, car le pré-calcul des lightmaps est effectué en utilisant le nœud :ref:`LightmapGI<class_LightmapGI>`.
 
 .. rst-class:: classref-item-separator
 
@@ -614,7 +614,7 @@ Generates a baked mesh that represents all meshes in the assigned :ref:`MeshLibr
 
 :ref:`Vector3<class_Vector3>` **map_to_local**\ (\ map_position\: :ref:`Vector3i<class_Vector3i>`\ ) |const| :ref:`🔗<class_GridMap_method_map_to_local>`
 
-Returns the position of a grid cell in the GridMap's local coordinate space. To convert the returned value into global coordinates, use :ref:`Node3D.to_global()<class_Node3D_method_to_global>`. See also :ref:`local_to_map()<class_GridMap_method_local_to_map>`.
+Renvoie la position d'une cellule de la grille dans l'espace de coordonnées local de la GridMap. Pour convertir la valeur renvoyée en coordonnées globales, utilisez :ref:`Node3D.to_global()<class_Node3D_method_to_global>`. Voir aussi :ref:`local_to_map()<class_GridMap_method_local_to_map>`.
 
 .. rst-class:: classref-item-separator
 
@@ -640,11 +640,11 @@ Cette méthode ne fait rien.
 
 |void| **set_cell_item**\ (\ position\: :ref:`Vector3i<class_Vector3i>`, item\: :ref:`int<class_int>`, orientation\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_GridMap_method_set_cell_item>`
 
-Sets the mesh index for the cell referenced by its grid coordinates.
+Définit l'indice de maillage pour la cellule référencée par ses coordonnées de grille.
 
-A negative item index such as :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` will clear the cell.
+Un index négatif comme :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` effacera la cellule.
 
-Optionally, the item's orientation can be passed. For valid orientation values, see :ref:`get_orthogonal_index_from_basis()<class_GridMap_method_get_orthogonal_index_from_basis>`.
+En option, l'orientation de l'objet peut être spécifiée. Pour les valeurs d'orientation valides, voir :ref:`get_orthogonal_index_from_basis()<class_GridMap_method_get_orthogonal_index_from_basis>`.
 
 .. rst-class:: classref-item-separator
 

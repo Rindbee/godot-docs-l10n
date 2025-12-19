@@ -242,7 +242,7 @@ The 2D size override of the sub-viewport. If either the width or height is ``0``
 - |void| **set_size_2d_override_stretch**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_size_2d_override_stretch_enabled**\ (\ )
 
-Si es ``true``, la anulación del tamaño 2D también afecta el estiramiento.
+Si es ``true``, la sobrescritura del tamaño 2D también afecta el estiramiento.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

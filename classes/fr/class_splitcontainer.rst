@@ -7,7 +7,7 @@ SplitContainer
 
 **Hérite de :** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`HSplitContainer<class_HSplitContainer>`, :ref:`VSplitContainer<class_VSplitContainer>`
+**Hérité par :** :ref:`HSplitContainer<class_HSplitContainer>`, :ref:`VSplitContainer<class_VSplitContainer>`
 
 A container that splits two child controls horizontally or vertically and provides a grabber for adjusting the split ratio.
 
@@ -16,7 +16,7 @@ A container that splits two child controls horizontally or vertically and provid
 Description
 -----------
 
-A container that accepts only two child controls, then arranges them horizontally or vertically and creates a divisor between them. The divisor can be dragged around to change the size relation between the child controls.
+Un conteneur qui n'accepte que deux contrôles enfants, puis les arrange horizontalement ou verticalement et crée un diviseur entre eux. Le diviseur peut être déplacer pour changer la relation de taille entre les contrôles enfants.
 
 .. rst-class:: classref-introduction-group
 
@@ -167,11 +167,11 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` **DRAGGER_VISIBLE** = ``0``
 
-The split dragger icon is always visible when :ref:`autohide<class_SplitContainer_theme_constant_autohide>` is ``false``, otherwise visible only when the cursor hovers it.
+L'icône de l’ascenseur de séparation est toujours visible lorsque :ref:`autohide<class_SplitContainer_theme_constant_autohide>` vaut ``false``, sinon visible seulement lorsque le curseur le survole.
 
-The size of the grabber icon determines the minimum :ref:`separation<class_SplitContainer_theme_constant_separation>`.
+La taille de l'icône de l'ascenseur détermine la séparation minimale :ref:`separation<class_SplitContainer_theme_constant_separation>`.
 
-The dragger icon is automatically hidden if the length of the grabber icon is longer than the split bar.
+L'icône de l'ascenseur est automatiquement cachée si la longueur de l'icône de l'ascenseur est plus longue que la barre de séparation.
 
 .. _class_SplitContainer_constant_DRAGGER_HIDDEN:
 
@@ -179,9 +179,9 @@ The dragger icon is automatically hidden if the length of the grabber icon is lo
 
 :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` **DRAGGER_HIDDEN** = ``1``
 
-The split dragger icon is never visible regardless of the value of :ref:`autohide<class_SplitContainer_theme_constant_autohide>`.
+L'icône de l’ascenseur de séparation n'est jamais visible peu importe la valeur de :ref:`autohide<class_SplitContainer_theme_constant_autohide>`.
 
-The size of the grabber icon determines the minimum :ref:`separation<class_SplitContainer_theme_constant_separation>`.
+La taille de l'icône de l'ascenseur détermine la séparation minimale :ref:`separation<class_SplitContainer_theme_constant_separation>`.
 
 .. _class_SplitContainer_constant_DRAGGER_HIDDEN_COLLAPSED:
 
@@ -189,7 +189,7 @@ The size of the grabber icon determines the minimum :ref:`separation<class_Split
 
 :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` **DRAGGER_HIDDEN_COLLAPSED** = ``2``
 
-The split dragger icon is not visible, and the split bar is collapsed to zero thickness.
+L'icône de l’ascenseur de séparation n'est pas visible, et la barre de séparation est réduite à une épaisseur nulle.
 
 .. rst-class:: classref-section-separator
 
@@ -211,7 +211,7 @@ Descriptions des propriétés
 - |void| **set_collapsed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collapsed**\ (\ )
 
-If ``true``, the dragger will be disabled and the children will be sized as if the :ref:`split_offset<class_SplitContainer_property_split_offset>` was ``0``.
+Si ``true``, l’ascenseur sera désactivé et les enfants seront dimensionnés comme si :ref:`split_offset<class_SplitContainer_property_split_offset>` valait ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ If ``true``, the dragger will be disabled and the children will be sized as if t
 - |void| **set_drag_area_highlight_in_editor**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_drag_area_highlight_in_editor_enabled**\ (\ )
 
-Highlights the drag area :ref:`Rect2<class_Rect2>` so you can see where it is during development. The drag area is gold if :ref:`dragging_enabled<class_SplitContainer_property_dragging_enabled>` is ``true``, and red if ``false``.
+Fait ressortir le :ref:`Rect2<class_Rect2>` de la zone de glissement pour que vous puissiez voir où elle est pendant le développement. La zone de glissement est en or si :ref:`dragging_enabled<class_SplitContainer_property_dragging_enabled>` vaut ``true``, et rouge si ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ Highlights the drag area :ref:`Rect2<class_Rect2>` so you can see where it is du
 - |void| **set_drag_area_margin_begin**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_drag_area_margin_begin**\ (\ )
 
-Reduces the size of the drag area and split bar :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` at the beginning of the container.
+Réduit la taille de la zone de glissement et de la barre de séparation :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` au début du conteneur.
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Reduces the size of the drag area and split bar :ref:`split_bar_background<class
 - |void| **set_drag_area_margin_end**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_drag_area_margin_end**\ (\ )
 
-Reduces the size of the drag area and split bar :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` at the end of the container.
+Réduit la taille de la zone de glissement et de la barre de séparation :ref:`split_bar_background<class_SplitContainer_theme_style_split_bar_background>` à la fin du conteneur.
 
 .. rst-class:: classref-item-separator
 
@@ -279,7 +279,7 @@ Reduces the size of the drag area and split bar :ref:`split_bar_background<class
 - |void| **set_drag_area_offset**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_drag_area_offset**\ (\ )
 
-Shifts the drag area in the axis of the container to prevent the drag area from overlapping the :ref:`ScrollBar<class_ScrollBar>` or other selectable :ref:`Control<class_Control>` of a child node.
+Décale la zone de glissement dans l'axe du conteneur pour empêcher la zone de glissement de recouvrir la :ref:`ScrollBar<class_ScrollBar>` ou tout autre :ref:`Control<class_Control>` sélectionnable d'un nœud enfant.
 
 .. rst-class:: classref-item-separator
 
@@ -296,7 +296,7 @@ Shifts the drag area in the axis of the container to prevent the drag area from 
 - |void| **set_dragger_visibility**\ (\ value\: :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>`\ )
 - :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` **get_dragger_visibility**\ (\ )
 
-Determines the dragger's visibility. This property does not determine whether dragging is enabled or not. Use :ref:`dragging_enabled<class_SplitContainer_property_dragging_enabled>` for that.
+Détermine la visibilité de l’ascenseur. Cette propriété ne détermine pas si le glissement est activé ou non. Utilisez :ref:`dragging_enabled<class_SplitContainer_property_dragging_enabled>` pour cela.
 
 .. rst-class:: classref-item-separator
 
@@ -313,7 +313,7 @@ Determines the dragger's visibility. This property does not determine whether dr
 - |void| **set_dragging_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_dragging_enabled**\ (\ )
 
-Enables or disables split dragging.
+Active ou désactive le glissement de la séparation.
 
 .. rst-class:: classref-item-separator
 
@@ -347,7 +347,7 @@ Le décalage initial de la séparation entre les deux :ref:`Control<class_Contro
 - |void| **set_touch_dragger_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_touch_dragger_enabled**\ (\ )
 
-If ``true``, a touch-friendly drag handle will be enabled for better usability on smaller screens. Unlike the standard grabber, this drag handle overlaps the **SplitContainer**'s children and does not affect their minimum separation. The standard grabber will no longer be drawn when this option is enabled.
+Si ``true``, une poignée de glissement adaptée au tactile sera activée pour une meilleure utilisabilité sur les écrans plus petits. Contrairement à l'ascenseur standard, cette poignée de glissement recouvre les enfants du **SplitContainer** et n'affecte pas leur séparation minimale. L'ascenseur standard ne sera plus dessiné lorsque cette option sera activée.
 
 .. rst-class:: classref-item-separator
 
@@ -364,9 +364,9 @@ If ``true``, a touch-friendly drag handle will be enabled for better usability o
 - |void| **set_vertical**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_vertical**\ (\ )
 
-If ``true``, the **SplitContainer** will arrange its children vertically, rather than horizontally.
+Si ``true``, le **SplitContainer** arrangera ses enfants verticalement, plutôt que horizontalement.
 
-Can't be changed when using :ref:`HSplitContainer<class_HSplitContainer>` and :ref:`VSplitContainer<class_VSplitContainer>`.
+Ne peut être changé lors de l'utilisation de :ref:`HSplitContainer<class_HSplitContainer>` et de :ref:`VSplitContainer<class_VSplitContainer>`.
 
 .. rst-class:: classref-section-separator
 
@@ -420,7 +420,7 @@ Descriptions des propriétés du thème
 
 :ref:`Color<class_Color>` **touch_dragger_color** = ``Color(1, 1, 1, 0.3)`` :ref:`🔗<class_SplitContainer_theme_color_touch_dragger_color>`
 
-The color of the touch dragger.
+La couleur de l’ascenseur tactile.
 
 .. rst-class:: classref-item-separator
 
@@ -432,7 +432,7 @@ The color of the touch dragger.
 
 :ref:`Color<class_Color>` **touch_dragger_hover_color** = ``Color(1, 1, 1, 0.6)`` :ref:`🔗<class_SplitContainer_theme_color_touch_dragger_hover_color>`
 
-The color of the touch dragger when hovered.
+La couleur de l’ascenseur tactile lorsque survolé.
 
 .. rst-class:: classref-item-separator
 
@@ -444,7 +444,7 @@ The color of the touch dragger when hovered.
 
 :ref:`Color<class_Color>` **touch_dragger_pressed_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_SplitContainer_theme_color_touch_dragger_pressed_color>`
 
-The color of the touch dragger when pressed.
+La couleur de l’ascenseur tactile lorsqu'appuyé.
 
 .. rst-class:: classref-item-separator
 
@@ -456,7 +456,7 @@ The color of the touch dragger when pressed.
 
 :ref:`int<class_int>` **autohide** = ``1`` :ref:`🔗<class_SplitContainer_theme_constant_autohide>`
 
-Boolean value. If ``1`` (``true``), the grabber will hide automatically when it isn't under the cursor. If ``0`` (``false``), it's always visible. The :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` must be :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`.
+Valeur booléenne. Si ``1`` (``true``), l'ascenseur sera automatiquement caché quand il n'est pas sous le curseur. Si ``0`` (``false``), il sera toujours visible. :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` doit valoir :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ Boolean value. If ``1`` (``true``), the grabber will hide automatically when it 
 
 :ref:`int<class_int>` **minimum_grab_thickness** = ``6`` :ref:`🔗<class_SplitContainer_theme_constant_minimum_grab_thickness>`
 
-The minimum thickness of the area users can click on to grab the split bar. This ensures that the split bar can still be dragged if :ref:`separation<class_SplitContainer_theme_constant_separation>` or :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` / :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>`'s size is too narrow to easily select.
+L'épaisseur minimale de la zone dans laquelle les utilisateurs peuvent cliquer pour saisir la barre de séparation. Cela garantit que la barre de séparation peut encore être glissée si la taille de :ref:`separation<class_SplitContainer_theme_constant_separation>` ou :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` / :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` est trop fine pour être sélectionnée facilement.
 
 .. rst-class:: classref-item-separator
 
@@ -480,9 +480,9 @@ The minimum thickness of the area users can click on to grab the split bar. This
 
 :ref:`int<class_int>` **separation** = ``12`` :ref:`🔗<class_SplitContainer_theme_constant_separation>`
 
-The split bar thickness, i.e., the gap between the two children of the container. This is overridden by the size of the grabber icon if :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` is set to :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`, or :ref:`DRAGGER_HIDDEN<class_SplitContainer_constant_DRAGGER_HIDDEN>`, and :ref:`separation<class_SplitContainer_theme_constant_separation>` is smaller than the size of the grabber icon in the same axis.
+L'épaisseur de la barre de séparation, c'est-à-dire l'écart entre les deux enfants du conteneur. Cela est redéfinie par la taille de l'icône de l'ascenseur si :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` est défini à :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`, ou :ref:`DRAGGER_HIDDEN<class_SplitContainer_constant_DRAGGER_HIDDEN>`, et :ref:`separation<class_SplitContainer_theme_constant_separation>` est plus petit que la taille de l'icône de l'ascenseur dans le même axe.
 
-\ **Note:** To obtain :ref:`separation<class_SplitContainer_theme_constant_separation>` values less than the size of the grabber icon, for example a ``1 px`` hairline, set :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` or :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` to a new :ref:`ImageTexture<class_ImageTexture>`, which effectively sets the grabber icon size to ``0 px``.
+\ **Note :** Pour obtenir des valeurs de :ref:`separation<class_SplitContainer_theme_constant_separation>` inférieures à la taille de l'icône de l'ascenseur, par exemple une ligne de ``1 px``, définissez :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` ou :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` à une nouvelle :ref:`ImageTexture<class_ImageTexture>`, ce qui fixe effectivement la taille de l'icône de l'ascenseur à ``0 px``.
 
 .. rst-class:: classref-item-separator
 
@@ -494,7 +494,7 @@ The split bar thickness, i.e., the gap between the two children of the container
 
 :ref:`Texture2D<class_Texture2D>` **grabber** :ref:`🔗<class_SplitContainer_theme_icon_grabber>`
 
-The icon used for the grabber drawn in the middle area. This is only used in :ref:`HSplitContainer<class_HSplitContainer>` and :ref:`VSplitContainer<class_VSplitContainer>`. For **SplitContainer**, see :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` and :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` instead.
+L'icône utilisée pour l'ascenseur dessiné dans le milieu. Ceci est utilisé uniquement dans :ref:`HSplitContainer<class_HSplitContainer>` et :ref:`VSplitContainer<class_VSplitContainer>`. Pour **SplitContainer**, voir :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` et :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -506,7 +506,7 @@ The icon used for the grabber drawn in the middle area. This is only used in :re
 
 :ref:`Texture2D<class_Texture2D>` **h_grabber** :ref:`🔗<class_SplitContainer_theme_icon_h_grabber>`
 
-The icon used for the grabber drawn in the middle area when :ref:`vertical<class_SplitContainer_property_vertical>` is ``false``.
+L'icône utilisée pour le séparateur dessiné dans la zone du milieu lorsque :ref:`vertical<class_SplitContainer_property_vertical>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -518,7 +518,7 @@ The icon used for the grabber drawn in the middle area when :ref:`vertical<class
 
 :ref:`Texture2D<class_Texture2D>` **h_touch_dragger** :ref:`🔗<class_SplitContainer_theme_icon_h_touch_dragger>`
 
-The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` is ``true`` and :ref:`vertical<class_SplitContainer_property_vertical>` is ``false``.
+L'icône utilisée pour la poignée à glisser lorsque :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` vaut ``true`` et que :ref:`vertical<class_SplitContainer_property_vertical>` vaut ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -530,7 +530,7 @@ The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitCo
 
 :ref:`Texture2D<class_Texture2D>` **touch_dragger** :ref:`🔗<class_SplitContainer_theme_icon_touch_dragger>`
 
-The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` is ``true``. This is only used in :ref:`HSplitContainer<class_HSplitContainer>` and :ref:`VSplitContainer<class_VSplitContainer>`. For **SplitContainer**, see :ref:`h_touch_dragger<class_SplitContainer_theme_icon_h_touch_dragger>` and :ref:`v_touch_dragger<class_SplitContainer_theme_icon_v_touch_dragger>` instead.
+L'icône utilisée pour la poignée de glissement lorsque :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` vaut ``true``. Ceci est utilisé uniquement dans :ref:`HSplitContainer<class_HSplitContainer>` et :ref:`VSplitContainer<class_VSplitContainer>`. Pour **SplitContainer**, voir :ref:`h_touch_dragger<class_SplitContainer_theme_icon_h_touch_dragger>` et :ref:`v_touch_dragger<class_SplitContainer_theme_icon_v_touch_dragger>` à la place.
 
 .. rst-class:: classref-item-separator
 
@@ -542,7 +542,7 @@ The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitCo
 
 :ref:`Texture2D<class_Texture2D>` **v_grabber** :ref:`🔗<class_SplitContainer_theme_icon_v_grabber>`
 
-The icon used for the grabber drawn in the middle area when :ref:`vertical<class_SplitContainer_property_vertical>` is ``true``.
+L'icône utilisée pour le séparateur dessiné dans la zone du milieu lorsque :ref:`vertical<class_SplitContainer_property_vertical>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -554,7 +554,7 @@ The icon used for the grabber drawn in the middle area when :ref:`vertical<class
 
 :ref:`Texture2D<class_Texture2D>` **v_touch_dragger** :ref:`🔗<class_SplitContainer_theme_icon_v_touch_dragger>`
 
-The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` is ``true`` and :ref:`vertical<class_SplitContainer_property_vertical>` is ``true``.
+L'icône utilisée pour la poignée à glisser lorsque :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>` vaut ``true`` et que :ref:`vertical<class_SplitContainer_property_vertical>` vaut ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -566,7 +566,7 @@ The icon used for the drag handle when :ref:`touch_dragger_enabled<class_SplitCo
 
 :ref:`StyleBox<class_StyleBox>` **split_bar_background** :ref:`🔗<class_SplitContainer_theme_style_split_bar_background>`
 
-Determines the background of the split bar if its thickness is greater than zero.
+Détermine le fond de la barre de séparation si son épaisseur est supérieure à zéro.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -140,7 +140,7 @@ The number of columns in the sprite sheet. When this property is changed, :ref:`
 - |void| **set_region_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_region_enabled**\ (\ )
 
-If ``true``, the sprite will use :ref:`region_rect<class_Sprite3D_property_region_rect>` and display only the specified part of its texture.
+Si ``true``, le sprite utilisera :ref:`region_rect<class_Sprite3D_property_region_rect>` et n'affichera que la partie spécifiée de sa texture.
 
 .. rst-class:: classref-item-separator
 
@@ -174,7 +174,7 @@ La région de la texture atlas à afficher. :ref:`region_enabled<class_Sprite3D_
 - |void| **set_texture**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ )
 
-:ref:`Texture2D<class_Texture2D>` object to draw. If :ref:`GeometryInstance3D.material_override<class_GeometryInstance3D_property_material_override>` is used, this will be overridden. The size information is still used.
+L'objet :ref:`Texture2D<class_Texture2D>` à dessiner. Si :ref:`GeometryInstance3D.material_override<class_GeometryInstance3D_property_material_override>` est utilisé, cela sera redéfini. L'information de la taille est toujours utilisée.
 
 .. rst-class:: classref-item-separator
 

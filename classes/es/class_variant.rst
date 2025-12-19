@@ -112,7 +112,7 @@ Una variante:
 
 - Puede ser usado por diccionarios, arrays, parsers, etc.
 
-\ **Los contenedores (Array y Dictionary):** Ambos están implementados utilizando variantes. Un :ref:`Dictionary<class_Dictionary>` puede hacer coincidir cualquier tipo de datos utilizado como clave con cualquier otro tipo de datos. Un :ref:`Array<class_Array>` solo contiene un arreglo de variantes. Por supuesto, una variante también puede contener un :ref:`Dictionary<class_Dictionary>` y un :ref:`Array<class_Array>` en su interior, lo que lo hace aún más flexible.
+\ **Los contenedores (Array y Dictionary):** Ambos están implementados utilizando variantes. Un :ref:`Dictionary<class_Dictionary>` puede hacer coincidir cualquier tipo de datos utilizado como clave con cualquier otro tipo de datos. Un :ref:`Array<class_Array>` solo contiene un array de variantes. Por supuesto, una variante también puede contener un :ref:`Dictionary<class_Dictionary>` y un :ref:`Array<class_Array>` en su interior, lo que lo hace aún más flexible.
 
 Las modificaciones a un contenedor modificarán todas las referencias que apuntan hacia él. Debe crearse un :ref:`Mutex<class_Mutex>` para bloquearla si deseas un acceso multihilo.
 

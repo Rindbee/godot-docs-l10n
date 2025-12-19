@@ -7,7 +7,7 @@ ResourceImporterScene
 
 **Hérite de :** :ref:`ResourceImporter<class_ResourceImporter>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Imports a glTF, FBX, COLLADA, or Blender 3D scene.
+Importe une scène 3D glTF, FBX, COLLADA ou Blender.
 
 .. rst-class:: classref-introduction-group
 
@@ -126,7 +126,7 @@ The number of frames per second to use for baking animation curves to a series o
 
 :ref:`bool<class_bool>` **animation/import** = ``true`` :ref:`🔗<class_ResourceImporterScene_property_animation/import>`
 
-If ``true``, import animations from the 3D scene.
+Si ``true``, importe les animations de la scène 3D.
 
 .. rst-class:: classref-item-separator
 

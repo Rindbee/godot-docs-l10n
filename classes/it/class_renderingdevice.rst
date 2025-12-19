@@ -5418,7 +5418,7 @@ Indica alla GPU quale pipeline di calcolo utilizzare durante l'elaborazione dell
 
 |void| **compute_list_bind_uniform_set**\ (\ compute_list\: :ref:`int<class_int>`, uniform_set\: :ref:`RID<class_RID>`, set_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_compute_list_bind_uniform_set>`
 
-Associa il set uniforme ``uniform_set`` all'elenco di calcolo ``compute_list``. Godot assicura che tutte le texture nel set uniforme abbiano le maschere di accesso Vulkan attuali. Se Godot dovesse cambiare le maschere di accesso delle texture, ciò innalzerebbe una barriera Vulkan di memoria delle immagini.
+Associa il set di uniformi ``uniform_set`` all'elenco di calcolo ``compute_list``. Godot assicura che tutte le texture nel set uniforme abbiano le maschere di accesso Vulkan attuali. Se Godot dovesse cambiare le maschere di accesso delle texture, ciò innalzerebbe una barriera Vulkan di memoria delle immagini.
 
 .. rst-class:: classref-item-separator
 
@@ -5516,9 +5516,9 @@ Crea un nuovo **RenderingDevice** locale. Ciò è molto utile per eseguire opera
 
 |void| **draw_command_begin_label**\ (\ name\: :ref:`String<class_String>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_RenderingDevice_method_draw_command_begin_label>`
 
-Create a command buffer debug label region that can be displayed in third-party tools such as `RenderDoc <https://renderdoc.org/>`__. All regions must be ended with a :ref:`draw_command_end_label()<class_RenderingDevice_method_draw_command_end_label>` call. When viewed from the linear series of submissions to a single queue, calls to :ref:`draw_command_begin_label()<class_RenderingDevice_method_draw_command_begin_label>` and :ref:`draw_command_end_label()<class_RenderingDevice_method_draw_command_end_label>` must be matched and balanced.
+Crea un'area per un'etichetta di debug del buffer dei comandi che è possibile visualizzare in strumenti di terze parti come `RenderDoc <https://renderdoc.org/>`__. Tutte le aree devono essere terminate con una chiamata a :ref:`draw_command_end_label()<class_RenderingDevice_method_draw_command_end_label>`. Quando visualizzate dalla serie lineare di invii a una singola coda, le chiamate a :ref:`draw_command_begin_label()<class_RenderingDevice_method_draw_command_begin_label>` e a :ref:`draw_command_end_label()<class_RenderingDevice_method_draw_command_end_label>` devono coincidere ed essere bilanciate.
 
-The ``VK_EXT_DEBUG_UTILS_EXTENSION_NAME`` Vulkan extension must be available and enabled for command buffer debug label region to work. See also :ref:`draw_command_end_label()<class_RenderingDevice_method_draw_command_end_label>`.
+L'estensione Vulkan ``VK_EXT_DEBUG_UTILS_EXTENSION_NAME`` deve essere disponibile e abilitata affinché l'area per l'etichetta di debug del buffer dei comandi funzioni. Vedi anche :ref:`draw_command_end_label()<class_RenderingDevice_method_draw_command_end_label>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5530,7 +5530,7 @@ The ``VK_EXT_DEBUG_UTILS_EXTENSION_NAME`` Vulkan extension must be available and
 
 |void| **draw_command_end_label**\ (\ ) :ref:`🔗<class_RenderingDevice_method_draw_command_end_label>`
 
-Ends the command buffer debug label region started by a :ref:`draw_command_begin_label()<class_RenderingDevice_method_draw_command_begin_label>` call.
+Termina la regione per un'etichetta di debug del buffer dei comandi avviata da una chiamata a :ref:`draw_command_begin_label()<class_RenderingDevice_method_draw_command_begin_label>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5751,7 +5751,7 @@ Imposta le costanti di fusione per l'elenco di disegno ``draw_list`` specificato
 
 |void| **draw_list_set_push_constant**\ (\ draw_list\: :ref:`int<class_int>`, buffer\: :ref:`PackedByteArray<class_PackedByteArray>`, size_bytes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_draw_list_set_push_constant>`
 
-Sets the push constant data to ``buffer`` for the specified ``draw_list``. The shader determines how this binary data is used. The buffer's size in bytes must also be specified in ``size_bytes`` (this can be obtained by calling the :ref:`PackedByteArray.size()<class_PackedByteArray_method_size>` method on the passed ``buffer``).
+Imposta i dati costanti push su ``buffer`` per l'elenco di disegno ``draw_list``. Lo shader determina come si utilizzano questi dati binari. Anche la dimensione del buffer in byte deve essere specificata in ``size_bytes`` (è possibile ricavarla chiamando il metodo :ref:`PackedByteArray.size()<class_PackedByteArray_method_size>` sul ``buffer`` passato).
 
 .. rst-class:: classref-item-separator
 

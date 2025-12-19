@@ -7,14 +7,14 @@ MeshConvexDecompositionSettings
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Parameters to be used with a :ref:`Mesh<class_Mesh>` convex decomposition operation.
+Parámetros que se utilizarán con una operación de descomposición convexa de :ref:`Mesh<class_Mesh>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Parameters to be used with a :ref:`Mesh<class_Mesh>` convex decomposition operation.
+Parámetros que se utilizarán con una operación de descomposición convexa de :ref:`Mesh<class_Mesh>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -73,7 +73,7 @@ enum **Mode**: :ref:`🔗<enum_MeshConvexDecompositionSettings_Mode>`
 
 :ref:`Mode<enum_MeshConvexDecompositionSettings_Mode>` **CONVEX_DECOMPOSITION_MODE_VOXEL** = ``0``
 
-Constant for voxel-based approximate convex decomposition.
+Constante para la descomposición convexa aproximada basada en vóxeles.
 
 .. _class_MeshConvexDecompositionSettings_constant_CONVEX_DECOMPOSITION_MODE_TETRAHEDRON:
 
@@ -81,7 +81,7 @@ Constant for voxel-based approximate convex decomposition.
 
 :ref:`Mode<enum_MeshConvexDecompositionSettings_Mode>` **CONVEX_DECOMPOSITION_MODE_TETRAHEDRON** = ``1``
 
-Constant for tetrahedron-based approximate convex decomposition.
+Constante para la descomposición convexa aproximada basada en tetraedros.
 
 .. rst-class:: classref-section-separator
 
@@ -103,7 +103,7 @@ Descripciones de Propiedades
 - |void| **set_convex_hull_approximation**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_convex_hull_approximation**\ (\ )
 
-If ``true``, uses approximation for computing convex hulls.
+Si es ``true``, utiliza aproximación para calcular las envolventes convexas.
 
 .. rst-class:: classref-item-separator
 
@@ -120,7 +120,7 @@ If ``true``, uses approximation for computing convex hulls.
 - |void| **set_convex_hull_downsampling**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_convex_hull_downsampling**\ (\ )
 
-Controls the precision of the convex-hull generation process during the clipping plane selection stage. Ranges from ``1`` to ``16``.
+Controla la precisión del proceso de generación de envolventes convexas durante la etapa de selección del plano de recorte. El rango es de ``1`` a ``16``.
 
 .. rst-class:: classref-item-separator
 
@@ -137,7 +137,7 @@ Controls the precision of the convex-hull generation process during the clipping
 - |void| **set_max_concavity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_max_concavity**\ (\ )
 
-Maximum concavity. Ranges from ``0.0`` to ``1.0``.
+Máxima concavidad. El rango es de ``0.0`` a ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -154,7 +154,7 @@ Maximum concavity. Ranges from ``0.0`` to ``1.0``.
 - |void| **set_max_convex_hulls**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_convex_hulls**\ (\ )
 
-The maximum number of convex hulls to produce from the merge operation.
+El número máximo de envolventes convexas a producir a partir de la operación de fusión.
 
 .. rst-class:: classref-item-separator
 
@@ -205,7 +205,7 @@ Controls the adaptive sampling of the generated convex-hulls. Ranges from ``0.0`
 - |void| **set_mode**\ (\ value\: :ref:`Mode<enum_MeshConvexDecompositionSettings_Mode>`\ )
 - :ref:`Mode<enum_MeshConvexDecompositionSettings_Mode>` **get_mode**\ (\ )
 
-Mode for the approximate convex decomposition.
+Modo para la descomposición convexa aproximada.
 
 .. rst-class:: classref-item-separator
 
@@ -222,7 +222,7 @@ Mode for the approximate convex decomposition.
 - |void| **set_normalize_mesh**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_normalize_mesh**\ (\ )
 
-If ``true``, normalizes the mesh before applying the convex decomposition.
+Si es ``true``, normaliza la malla antes de aplicar la descomposición convexa.
 
 .. rst-class:: classref-item-separator
 
@@ -239,7 +239,7 @@ If ``true``, normalizes the mesh before applying the convex decomposition.
 - |void| **set_plane_downsampling**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_plane_downsampling**\ (\ )
 
-Controls the granularity of the search for the "best" clipping plane. Ranges from ``1`` to ``16``.
+Controla la granularidad de la búsqueda del "mejor" plano de recorte. El rango es de ``1`` a ``16``.
 
 .. rst-class:: classref-item-separator
 
@@ -273,7 +273,7 @@ If ``true``, projects output convex hull vertices onto the original source mesh 
 - |void| **set_resolution**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_resolution**\ (\ )
 
-Maximum number of voxels generated during the voxelization stage.
+Número máximo de vóxeles generados durante la etapa de voxelización.
 
 .. rst-class:: classref-item-separator
 
@@ -290,7 +290,7 @@ Maximum number of voxels generated during the voxelization stage.
 - |void| **set_revolution_axes_clipping_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_revolution_axes_clipping_bias**\ (\ )
 
-Controls the bias toward clipping along revolution axes. Ranges from ``0.0`` to ``1.0``.
+Controla el sesgo hacia el recorte a lo largo de los ejes de revolución. El rango es de ``0.0`` a ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -307,7 +307,7 @@ Controls the bias toward clipping along revolution axes. Ranges from ``0.0`` to 
 - |void| **set_symmetry_planes_clipping_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_symmetry_planes_clipping_bias**\ (\ )
 
-Controls the bias toward clipping along symmetry planes. Ranges from ``0.0`` to ``1.0``.
+Controla el sesgo hacia el recorte a lo largo de los planos de simetría. El rango es de ``0.0`` a ``1.0``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

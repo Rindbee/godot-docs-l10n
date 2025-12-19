@@ -5683,7 +5683,7 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
 
 ::
 
-    print(cosh(1)) # Prints 1.543081
+    print(cosh(1)) # Выводит 1.543081
 
 .. rst-class:: classref-item-separator
 
@@ -5805,10 +5805,10 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
 
 ::
 
-    print(OK)                              # Prints 0
-    print(error_string(OK))                # Prints "OK"
-    print(error_string(ERR_BUSY))          # Prints "Busy"
-    print(error_string(ERR_OUT_OF_MEMORY)) # Prints "Out of memory"
+    print(OK)                              # Выводит 0
+    print(error_string(OK))                # Выводит "OK"
+    print(error_string(ERR_BUSY))          # Выводит "Busy"
+    print(error_string(ERR_OUT_OF_MEMORY)) # Выводит "Out of memory"
 
 .. rst-class:: classref-item-separator
 
@@ -5948,11 +5948,11 @@ Prints:
 
  .. code-tab:: gdscript
 
-    print(hash("a")) # Prints 177670
+    print(hash("a")) # Выводит 177670
 
  .. code-tab:: csharp
 
-    GD.Print(GD.Hash("a")); // Prints 177670
+    GD.Print(GD.Hash("a")); // Выводит 177670
 
 
 
@@ -5978,7 +5978,7 @@ Prints:
     func _ready():
         var id = get_instance_id()
         var instance = instance_from_id(id)
-        print(instance.foo) # Prints "water"
+        print(instance.foo) # Выводит "water"
 
  .. code-tab:: csharp
 
@@ -5990,7 +5990,7 @@ Prints:
         {
             ulong id = GetInstanceId();
             var instance = (MyNode)InstanceFromId(Id);
-            GD.Print(instance.Drink); // Prints "water"
+            GD.Print(instance.Drink); // Выводит "water"
         }
     }
 
@@ -6437,7 +6437,7 @@ Prints:
     for i in range(-3, 4):
         print("%2d       %2d  | %2d" % [i, i % 3, posmod(i, 3)])
 
-Prints:
+Выводит:
 
 .. code:: text
 
@@ -6589,7 +6589,7 @@ Prints:
 
  .. code-tab:: gdscript
 
-    # Prints "ABC" to terminal.
+    # Выводит на терминал «ABC».
     printraw("A")
     printraw("B")
     printraw("C")
@@ -6645,11 +6645,11 @@ Prints:
 
  .. code-tab:: gdscript
 
-    printt("A", "B", "C") # Prints "A       B       C"
+    printt("A", "B", "C") # Выводит "A       B       C"
 
  .. code-tab:: csharp
 
-    GD.PrintT("A", "B", "C"); // Prints "A       B       C"
+    GD.PrintT("A", "B", "C"); // Выводит "A       B       C"
 
 
 
@@ -6741,8 +6741,8 @@ Prints:
 
     var a = rand_from_seed(4)
 
-    print(a[0]) # Prints 2879024997
-    print(a[1]) # Prints 4
+    print(a[0]) # Выводит 2879024997
+    print(a[1]) # Выводит 4
 
 .. rst-class:: classref-item-separator
 
@@ -7271,8 +7271,8 @@ Prints:
 
     var a = [10, 20, 30]
     var b = str(a)
-    print(len(a)) # Prints 3 (количество элементов в массиве).
-    print(len(b)) # Prints 12 (длина строки "[10, 20, 30]").
+    print(len(a)) # Выводит 3 (количество элементов в массиве).
+    print(len(b)) # Выводит 12 (длина строки "[10, 20, 30]").
 
 .. rst-class:: classref-item-separator
 
@@ -7293,13 +7293,13 @@ Prints:
 
     var data = '{ "a": 1, "b": 2 }' # data — это String (строка)
     var dict = str_to_var(data)     # dict — это Dictionary (словарь)
-    print(dict["a"])                # Prints 1
+    print(dict["a"])                # Выводит 1
 
  .. code-tab:: csharp
 
     string data = "{ \"a\": 1, \"b\": 2 }";           // data — это string
     var dict = GD.StrToVar(data).AsGodotDictionary(); // dict — это Dictionary
-    GD.Print(dict["a"]);                              // Prints 1
+    GD.Print(dict["a"]);                              // Выводит 1
 
 
 
@@ -7374,9 +7374,9 @@ Prints:
 
 ::
 
-    print(TYPE_INT) # Prints 2
-    print(type_string(TYPE_INT)) # Prints "int"
-    print(type_string(TYPE_STRING)) # Prints "String"
+    print(TYPE_INT) # Выводит 2
+    print(type_string(TYPE_INT)) # Выводит "int"
+    print(type_string(TYPE_STRING)) # Выводит "String"
 
 Смотрите также :ref:`typeof()<class_@GlobalScope_method_typeof>`.
 
@@ -7398,7 +7398,7 @@ Prints:
     json.parse('["a", "b", "c"]')
     var result = json.get_data()
     if result is Array:
-        print(result[0]) # Prints "a"
+        print(result[0]) # Выводит "a"
     else:
         print("Unexpected result!")
 

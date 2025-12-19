@@ -16,13 +16,13 @@ Un editor para estructuras tipo grafo, que utiliza :ref:`GraphNode<class_GraphNo
 Descripción
 ----------------------
 
-**GraphEdit** provides tools for creation, manipulation, and display of various graphs. Its main purpose in the engine is to power the visual programming systems, such as visual shaders, but it is also available for use in user projects.
+**GraphEdit** proporciona herramientas para la creación, manipulación y visualización de varios gráficos. Su propósito principal en el motor es potenciar los sistemas de programación visual, como los shaders visuales, pero también está disponible para su uso en proyectos de usuario.
 
-\ **GraphEdit** by itself is only an empty container, representing an infinite grid where :ref:`GraphNode<class_GraphNode>`\ s can be placed. Each :ref:`GraphNode<class_GraphNode>` represents a node in the graph, a single unit of data in the connected scheme. **GraphEdit**, in turn, helps to control various interactions with nodes and between nodes. When the user attempts to connect, disconnect, or delete a :ref:`GraphNode<class_GraphNode>`, a signal is emitted in the **GraphEdit**, but no action is taken by default. It is the responsibility of the programmer utilizing this control to implement the necessary logic to determine how each request should be handled.
+\ **GraphEdit** por sí solo es solo un contenedor vacío, que representa una cuadrícula infinita donde se pueden colocar los :ref:`GraphNode<class_GraphNode>`\ s. Cada :ref:`GraphNode<class_GraphNode>` representa un nodo en el gráfico, una sola unidad de datos en el esquema conectado. **GraphEdit**, a su vez, ayuda a controlar varias interacciones con los nodos y,entre los nodos. Cuando el usuario intenta conectar, desconectar o eliminar un :ref:`GraphNode<class_GraphNode>`, se emite una señal en el **GraphEdit**, pero no se realiza ninguna acción de forma predeterminada. Es responsabilidad del programador que utiliza este control implementar la lógica necesaria para determinar cómo se debe gestionar cada solicitud.
 
-\ **Performance:** It is greatly advised to enable low-processor usage mode (see :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`) when using GraphEdits.
+\ **Rendimiento:** Se recomienda encarecidamente activar el modo de bajo uso del procesador (véase :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`) al utilizar GraphEdits.
 
-\ **Note:** Keep in mind that :ref:`Node.get_children()<class_Node_method_get_children>` will also return the connection layer node named ``_connection_layer`` due to technical limitations. This behavior may change in future releases.
+\ **Nota:** Ten en cuenta que :ref:`Node.get_children()<class_Node_method_get_children>` también devolverá el nodo de la capa de conexión llamado ``_connection_layer`` debido a limitaciones técnicas. Este comportamiento puede cambiar en futuras versiones.
 
 .. rst-class:: classref-reftable-group
 
@@ -961,7 +961,7 @@ Descripciones de Métodos
 
 :ref:`PackedVector2Array<class_PackedVector2Array>` **_get_connection_line**\ (\ from_position\: :ref:`Vector2<class_Vector2>`, to_position\: :ref:`Vector2<class_Vector2>`\ ) |virtual| |const| :ref:`🔗<class_GraphEdit_private_method__get_connection_line>`
 
-Virtual method which can be overridden to customize how connections are drawn.
+Método virtual que puede ser sobreescrito para personalizar cómo se dibujan las conexiones.
 
 .. rst-class:: classref-item-separator
 

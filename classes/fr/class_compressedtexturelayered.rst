@@ -7,16 +7,16 @@ CompressedTextureLayered
 
 **Hérite de :** :ref:`TextureLayered<class_TextureLayered>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`CompressedCubemap<class_CompressedCubemap>`, :ref:`CompressedCubemapArray<class_CompressedCubemapArray>`, :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>`
+**Hérité par :** :ref:`CompressedCubemap<class_CompressedCubemap>`, :ref:`CompressedCubemapArray<class_CompressedCubemapArray>`, :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>`
 
-Base class for texture arrays that can optionally be compressed.
+Classe de base pour les tableaux de texture qui peuvent être optionnellement compressés.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Base class for :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>` and :ref:`CompressedTexture3D<class_CompressedTexture3D>`. Cannot be used directly, but contains all the functions necessary for accessing the derived resource types. See also :ref:`TextureLayered<class_TextureLayered>`.
+Classe de base pour :ref:`CompressedTexture2DArray<class_CompressedTexture2DArray>` et :ref:`CompressedTexture3D<class_CompressedTexture3D>`. Ne peut être utilisée directement, mais contient toutes les fonctions nécessaires pour accéder aux types de ressources dérivées. Voir aussi :ref:`TextureLayered<class_TextureLayered>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -62,7 +62,7 @@ Descriptions des propriétés
 - :ref:`Error<enum_@GlobalScope_Error>` **load**\ (\ path\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_load_path**\ (\ )
 
-The path the texture should be loaded from.
+Le chemin où la texture sera chargée.
 
 .. rst-class:: classref-section-separator
 

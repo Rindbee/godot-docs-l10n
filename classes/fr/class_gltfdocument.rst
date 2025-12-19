@@ -7,7 +7,7 @@ GLTFDocument
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`FBXDocument<class_FBXDocument>`
+**Hérité par :** :ref:`FBXDocument<class_FBXDocument>`
 
 Classe pour l'importation et l'exportation de fichiers glTF dans et hors de Godot.
 

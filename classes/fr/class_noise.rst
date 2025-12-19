@@ -7,7 +7,7 @@ Noise
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`FastNoiseLite<class_FastNoiseLite>`
+**Hérité par :** :ref:`FastNoiseLite<class_FastNoiseLite>`
 
 Classe de base abstraite pour les générateurs de bruit.
 

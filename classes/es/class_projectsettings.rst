@@ -1264,6 +1264,10 @@ Propiedades
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/use_edge_connections<class_ProjectSettings_property_navigation/2d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/2d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_height<class_ProjectSettings_property_navigation/3d/default_cell_height>`                                                                                                 | ``0.25``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/default_cell_size<class_ProjectSettings_property_navigation/3d/default_cell_size>`                                                                                                     | ``0.25``                                                                                         |
@@ -1277,6 +1281,10 @@ Propiedades
    | :ref:`float<class_float>`                         | :ref:`navigation/3d/merge_rasterizer_cell_scale<class_ProjectSettings_property_navigation/3d/merge_rasterizer_cell_scale>`                                                                                 | ``1.0``                                                                                          |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/use_edge_connections<class_ProjectSettings_property_navigation/3d/use_edge_connections>`                                                                                               | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_cell_size_mismatch<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`                                                                 | ``true``                                                                                         |
+   +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`navigation/3d/warnings/navmesh_edge_merge_errors<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`                                                                   | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`navigation/avoidance/thread_model/avoidance_use_high_priority_threads<class_ProjectSettings_property_navigation/avoidance/thread_model/avoidance_use_high_priority_threads>`                         | ``true``                                                                                         |
    +---------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+
@@ -1949,7 +1957,7 @@ Accessibility support mode:
 
 :ref:`int<class_int>` **accessibility/general/updates_per_second** = ``60`` :ref:`🔗<class_ProjectSettings_property_accessibility/general/updates_per_second>`
 
-The number of accessibility information updates per second.
+Número de actualizaciones por segundo de la información de accesibilidad.
 
 .. rst-class:: classref-item-separator
 
@@ -2091,7 +2099,7 @@ The :ref:`application/config/use_custom_user_dir<class_ProjectSettings_property_
 
 :ref:`String<class_String>` **application/config/description** = ``""`` :ref:`🔗<class_ProjectSettings_property_application/config/description>`
 
-La descripción del proyecto, que se muestra como una sugerencia en el Administrador de Proyectos cuando se pasa el cursor por encima del proyecto.
+The project's description, displayed as a tooltip in the Project Manager when hovering the project.
 
 .. rst-class:: classref-item-separator
 
@@ -2141,7 +2149,7 @@ The project's name. It is used both by the Project Manager and by exporters. The
 
 :ref:`Dictionary<class_Dictionary>` **application/config/name_localized** = ``{}`` :ref:`🔗<class_ProjectSettings_property_application/config/name_localized>`
 
-Translations of the project's name. This setting is used by OS tools to translate application name on Android, iOS and macOS.
+El nombre del proyecto en otros idiomas. El SO usa este ajuste para traducir el nombre de la aplicación en Android, iOS y macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -2829,7 +2837,7 @@ If the ``--log-file <file>`` :doc:`command line argument <../tutorials/editor/co
 
 :ref:`int<class_int>` **debug/gdscript/warnings/assert_always_false** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/assert_always_false>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when an ``assert`` call always evaluates to ``false``.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando una llamada a ``assert`` siempre se evalúa como ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -2841,7 +2849,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/assert_always_true** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/assert_always_true>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when an ``assert`` call always evaluates to ``true``.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando una llamada a ``assert`` siempre se evalúa como ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -2853,7 +2861,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/confusable_capture_reassignment** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/confusable_capture_reassignment>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a local variable captured by a lambda is reassigned, since this does not modify the outer local variable.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando se reasigna una variable local capturada por una lambda, ya que esto no modifica la variable local externa.
 
 .. rst-class:: classref-item-separator
 
@@ -2865,7 +2873,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/confusable_identifier** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/confusable_identifier>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when an identifier contains characters that can be confused with something else, like when mixing different alphabets.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando un identificador contiene caracteres que pueden confundirse con otra cosa, como al mezclar diferentes alfabetos.
 
 .. rst-class:: classref-item-separator
 
@@ -2877,7 +2885,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/confusable_local_declaration** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/confusable_local_declaration>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when an identifier declared in the nested block has the same name as an identifier declared below in the parent block.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando un identificador declarado en el bloque anidado tiene el mismo nombre que un identificador declarado más abajo en el bloque padre.
 
 .. rst-class:: classref-item-separator
 
@@ -2889,7 +2897,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/confusable_local_usage** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/confusable_local_usage>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when an identifier that will be shadowed below in the block is used.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando se utiliza un identificador que será sombreado más abajo en el bloque.
 
 .. rst-class:: classref-item-separator
 
@@ -2901,9 +2909,9 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/deprecated_keyword** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/deprecated_keyword>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when deprecated keywords are used.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando se utilizan palabras clave obsoletas.
 
-\ **Note:** There are currently no deprecated keywords, so this warning is never produced.
+\ **Nota:** Actualmente no hay palabras clave obsoletas, por lo que esta advertencia nunca se produce.
 
 .. rst-class:: classref-item-separator
 
@@ -2915,7 +2923,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/empty_file** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/empty_file>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when an empty file is parsed.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando se analiza un archivo vacío.
 
 .. rst-class:: classref-item-separator
 
@@ -2939,7 +2947,7 @@ Si es ``true``, habilita advertencias específicas de GDScript (véase la config
 
 :ref:`int<class_int>` **debug/gdscript/warnings/enum_variable_without_default** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/enum_variable_without_default>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a variable has an enum type but no explicit default value, but only if the enum does not contain ``0`` as a valid value.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando una variable tiene un tipo de enum pero no un valor predeterminado explícito, pero solo si el enum no contiene ``0`` como un valor válido.
 
 .. rst-class:: classref-item-separator
 
@@ -2963,7 +2971,7 @@ Si es ``true``, los scripts de la carpeta ``res://addons`` no generarán adverte
 
 :ref:`int<class_int>` **debug/gdscript/warnings/get_node_default_without_onready** = ``2`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/get_node_default_without_onready>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when :ref:`Node.get_node()<class_Node_method_get_node>` (or the shorthand ``$``) is used as default value of a class variable without the ``@onready`` annotation.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando :ref:`Node.get_node()<class_Node_method_get_node>` (o la forma abreviada ``$``) se utiliza como valor predeterminado de una variable de clase sin la anotación ``@onready``.
 
 .. rst-class:: classref-item-separator
 
@@ -2975,7 +2983,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/incompatible_ternary** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/incompatible_ternary>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a ternary operator may emit values with incompatible types.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando un operador ternario puede emitir valores con tipos incompatibles.
 
 .. rst-class:: classref-item-separator
 
@@ -2987,7 +2995,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/inference_on_variant** = ``2`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/inference_on_variant>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a static inferred type uses a :ref:`Variant<class_Variant>` as initial value, which makes the static type to also be Variant.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando un tipo estático inferido utiliza una :ref:`Variant<class_Variant>` como valor inicial, lo que hace que el tipo estático también sea Variant.
 
 .. rst-class:: classref-item-separator
 
@@ -2999,9 +3007,9 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/inferred_declaration** = ``0`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/inferred_declaration>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a variable, constant, or parameter has an implicitly inferred static type. In GDScript, type inference is performed by declaring a variable with ``:=`` instead of ``=`` and leaving out the type specifier. For example, ``var x := 1`` will *infer* the :ref:`int<class_int>` type, while ``var x: int = 1`` explicitly declares the variable as :ref:`int<class_int>`.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando una variable, constante o parámetro tiene un tipo estático inferido implícitamente. En GDScript, la inferencia de tipos se realiza declarando una variable con ``:=`` en lugar de ``=`` y omitiendo el especificador de tipo. Por ejemplo, ``var x := 1`` *inferirá* el tipo :ref:`int<class_int>`, mientras que ``var x: int = 1`` declara explícitamente la variable como :ref:`int<class_int>`.
 
-\ **Note:** This warning is recommended *in addition* to :ref:`debug/gdscript/warnings/untyped_declaration<class_ProjectSettings_property_debug/gdscript/warnings/untyped_declaration>` if you want to always specify the type explicitly. Having ``INFERRED_DECLARATION`` warning level higher than ``UNTYPED_DECLARATION`` warning level makes little sense and is not recommended.
+\ **Nota:** Se recomienda esta advertencia *además* de :ref:`debug/gdscript/warnings/untyped_declaration<class_ProjectSettings_property_debug/gdscript/warnings/untyped_declaration>` si quieres especificar siempre el tipo explícitamente. Tener el nivel de advertencia ``INFERRED_DECLARATION`` más alto que el nivel de advertencia ``UNTYPED_DECLARATION`` tiene poco sentido y no se recomienda.
 
 .. rst-class:: classref-item-separator
 
@@ -3013,7 +3021,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/int_as_enum_without_cast** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/int_as_enum_without_cast>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when trying to use an integer as an enum without an explicit cast.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente al intentar usar un entero como un enum sin una conversión explícita.
 
 .. rst-class:: classref-item-separator
 
@@ -3025,7 +3033,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/int_as_enum_without_match** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/int_as_enum_without_match>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when trying to use an integer as an enum when there is no matching enum member for that numeric value.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente al intentar usar un entero como un enum cuando no hay un miembro enum coincidente para ese valor numérico.
 
 .. rst-class:: classref-item-separator
 
@@ -3037,7 +3045,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/integer_division** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/integer_division>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when dividing an integer by another integer (the decimal part will be discarded).
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente al dividir un entero por otro entero (la parte decimal se descartará).
 
 .. rst-class:: classref-item-separator
 
@@ -3049,7 +3057,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/missing_tool** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/missing_tool>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when the base class script has the ``@tool`` annotation, but the current class script does not have it.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando el script de la clase base tiene la anotación ``@tool``, pero el script de la clase actual no la tiene.
 
 .. rst-class:: classref-item-separator
 
@@ -3061,7 +3069,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/narrowing_conversion** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/narrowing_conversion>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when passing a floating-point value to a function that expects an integer (it will be converted and lose precision).
+Cuando se establece en ``warn`` o ``error``, se produce una advertencia o un error, respectivamente, al pasar un valor de punto flotante a una función que espera un entero (se convertirá y perderá precisión).
 
 .. rst-class:: classref-item-separator
 
@@ -3073,7 +3081,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/native_method_override** = ``2`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/native_method_override>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a method in the script overrides a native method, because it may not behave as expected.
+Cuando se establece en ``warn`` o ``error``, se produce una advertencia o un error, respectivamente, cuando un método en el script reemplaza un método nativo, porque puede que no se comporte como se espera.
 
 .. rst-class:: classref-item-separator
 
@@ -3085,7 +3093,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/onready_with_export** = ``2`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/onready_with_export>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when the ``@onready`` annotation is used together with the ``@export`` annotation, since it may not behave as expected.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error, respectivamente, cuando la anotación ``@onready`` se utiliza junto con la anotación ``@export``, ya que puede que no se comporte como se espera.
 
 .. rst-class:: classref-item-separator
 
@@ -3097,7 +3105,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/redundant_await** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/redundant_await>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a function that is not a coroutine is called with await.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error, respectivamente, cuando una función que no es una corrutina se llama con await.
 
 .. rst-class:: classref-item-separator
 
@@ -3109,7 +3117,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/redundant_static_unload** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/redundant_static_unload>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when the ``@static_unload`` annotation is used in a script without any static variables.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error, respectivamente, cuando la anotación ``@static_unload`` se utiliza en un script sin ninguna variable estática.
 
 .. rst-class:: classref-item-separator
 
@@ -3121,7 +3129,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`bool<class_bool>` **debug/gdscript/warnings/renamed_in_godot_4_hint** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/renamed_in_godot_4_hint>`
 
-When enabled, using a property, enum, or function that was renamed since Godot 3 will produce a hint if an error occurs.
+Cuando está activado, el uso de una propiedad, enumeración o función que ha sido renombrada desde Godot 3 producirá una sugerencia si ocurre un error.
 
 .. rst-class:: classref-item-separator
 
@@ -3157,7 +3165,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/shadowed_variable** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/shadowed_variable>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a local variable or local constant shadows a member declared in the current class.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando una variable local o una constante local ensombrece a un miembro declarado en la clase actual.
 
 .. rst-class:: classref-item-separator
 
@@ -3169,7 +3177,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/shadowed_variable_base_class** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/shadowed_variable_base_class>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when a local variable or local constant shadows a member declared in a base class.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando una variable local o una constante local ensombrece a un miembro declarado en una clase base.
 
 .. rst-class:: classref-item-separator
 
@@ -3181,7 +3189,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/standalone_expression** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/standalone_expression>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when calling an expression that may have no effect on the surrounding code, such as writing ``2 + 2`` as a statement.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente al llamar a una expresión que puede no tener efecto en el código circundante, como escribir ``2 + 2`` como una declaración.
 
 .. rst-class:: classref-item-separator
 
@@ -3193,7 +3201,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/standalone_ternary** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/standalone_ternary>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when calling a ternary expression that may have no effect on the surrounding code, such as writing ``42 if active else 0`` as a statement.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente al llamar a una expresión ternaria que puede no tener efecto en el código circundante, como escribir ``42 if active else 0`` como una declaración.
 
 .. rst-class:: classref-item-separator
 
@@ -3205,7 +3213,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/static_called_on_instance** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/static_called_on_instance>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when calling a static method from an instance of a class instead of from the class directly.
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente al llamar a un método estático desde una instancia de una clase en lugar de la clase directamente.
 
 .. rst-class:: classref-item-separator
 
@@ -3217,7 +3225,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/unassigned_variable** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/unassigned_variable>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when using a variable that wasn't previously assigned.
+Cuando se establece en ``warn`` o ``error``, se produce una advertencia o un error respectivamente al usar una variable que no ha sido asignada previamente.
 
 .. rst-class:: classref-item-separator
 
@@ -3229,7 +3237,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/unassigned_variable_op_assign** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/unassigned_variable_op_assign>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when assigning a variable using an assignment operator like ``+=`` if the variable wasn't previously assigned.
+Cuando se establece en ``warn`` o ``error``, se produce una advertencia o un error respectivamente al asignar una variable usando un operador de asignación como ``+=`` si la variable no ha sido asignada previamente.
 
 .. rst-class:: classref-item-separator
 
@@ -3241,7 +3249,7 @@ When set to ``warn`` or ``error``, produces a warning or an error respectively w
 
 :ref:`int<class_int>` **debug/gdscript/warnings/unreachable_code** = ``1`` :ref:`🔗<class_ProjectSettings_property_debug/gdscript/warnings/unreachable_code>`
 
-When set to ``warn`` or ``error``, produces a warning or an error respectively when unreachable code is detected (such as after a ``return`` statement that will always be executed).
+Cuando se establece en ``warn`` o ``error``, produce una advertencia o un error respectivamente cuando se detecta código inalcanzable (como después de una sentencia ``return`` que siempre se ejecutará).
 
 .. rst-class:: classref-item-separator
 
@@ -3411,7 +3419,7 @@ Message to be displayed before the backtrace when the engine crashes. By default
 
 :ref:`String<class_String>` **debug/settings/crash_handler/message.editor** = ``"Please include this when reporting the bug on: https://github.com/godotengine/godot/issues"`` :ref:`🔗<class_ProjectSettings_property_debug/settings/crash_handler/message.editor>`
 
-Editor-only override for :ref:`debug/settings/crash_handler/message<class_ProjectSettings_property_debug/settings/crash_handler/message>`. Does not affect exported projects in debug or release mode.
+Sobrescritura solo para el editor de :ref:`debug/settings/crash_handler/message<class_ProjectSettings_property_debug/settings/crash_handler/message>`. No afecta a los proyectos exportados en modo de depuración o de lanzamiento.
 
 .. rst-class:: classref-item-separator
 
@@ -3423,9 +3431,9 @@ Editor-only override for :ref:`debug/settings/crash_handler/message<class_Projec
 
 :ref:`bool<class_bool>` **debug/settings/gdscript/always_track_call_stacks** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`
 
-Whether GDScript call stacks will be tracked in release builds, thus allowing :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` to function.
+Indica si las pilas de llamadas de GDScript se rastrearán en las compilaciones de lanzamiento, lo que permitirá que :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` funcione.
 
-\ **Note:** This setting has no effect on editor builds or debug builds, where GDScript call stacks are tracked regardless.
+\ **Nota:** Esta configuración no tiene ningún efecto en las compilaciones del editor o las compilaciones de depuración, donde las pilas de llamadas de GDScript se rastrean de todos modos.
 
 .. rst-class:: classref-item-separator
 
@@ -3437,11 +3445,11 @@ Whether GDScript call stacks will be tracked in release builds, thus allowing :r
 
 :ref:`bool<class_bool>` **debug/settings/gdscript/always_track_local_variables** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/settings/gdscript/always_track_local_variables>`
 
-Whether GDScript local variables will be tracked in all builds, including export builds, thus allowing :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` to capture them when enabling its ``include_variables`` parameter.
+Indica si las variables locales de GDScript se rastrearán en todas las compilaciones, incluidas las compilaciones de exportación, lo que permite que :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>` las capture al habilitar su parámetro ``include_variables``.
 
-Enabling this comes at the cost of roughly 50 bytes of memory per local variable, for every compiled class in the entire project, so can be several MiB in larger projects.
+Habilitar esto tiene el coste de aproximadamente 50 bytes de memoria por variable local, para cada clase compilada en todo el proyecto, por lo que puede ser varios MiB en proyectos más grandes.
 
-\ **Note:** This setting has no effect when running the game from the editor, where GDScript local variables are tracked regardless.
+\ **Nota:** Esta configuración no tiene ningún efecto cuando se ejecuta el juego desde el editor, donde las variables locales de GDScript se rastrean de todos modos.
 
 .. rst-class:: classref-item-separator
 
@@ -3465,9 +3473,9 @@ Máxima pila de llamadas permitida para depurar GDScript.
 
 :ref:`bool<class_bool>` **debug/settings/physics_interpolation/enable_warnings** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/settings/physics_interpolation/enable_warnings>`
 
-If ``true``, enables warnings which can help pinpoint where nodes are being incorrectly updated, which will result in incorrect interpolation and visual glitches.
+Si es ``true``, habilita advertencias que pueden ayudar a identificar dónde se están actualizando incorrectamente los nodos, lo que provocará una interpolación incorrecta y fallos visuales.
 
-When a node is being interpolated, it is essential that the transform is set during :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (during a physics tick) rather than :ref:`Node._process()<class_Node_private_method__process>` (during a frame).
+Cuando se interpola un nodo, es esencial que la transformación se establezca durante :ref:`Node._physics_process()<class_Node_private_method__physics_process>` (durante un tick de física) en lugar de :ref:`Node._process()<class_Node_private_method__process>` (durante un frame).
 
 .. rst-class:: classref-item-separator
 
@@ -3515,7 +3523,7 @@ Imprime fotogramas por segundo a una salida estándar cada segundo.
 
 :ref:`bool<class_bool>` **debug/settings/stdout/print_gpu_profile** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/settings/stdout/print_gpu_profile>`
 
-Print GPU profile information to standard output every second. This includes how long each frame takes the GPU to render on average, broken down into different steps of the render pipeline, such as CanvasItems, shadows, glow, etc.
+Imprime la información del perfil de la GPU en la salida estándar cada segundo. Esto incluye cuánto tiempo tarda cada frame en renderizarse en la GPU en promedio, dividido en diferentes pasos de la canalización de renderizado, como CanvasItems, sombras, resplandor, etc.
 
 .. rst-class:: classref-item-separator
 
@@ -3527,7 +3535,7 @@ Print GPU profile information to standard output every second. This includes how
 
 :ref:`bool<class_bool>` **debug/settings/stdout/verbose_stdout** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/settings/stdout/verbose_stdout>`
 
-Print more information to standard output when running. It displays information such as memory leaks, which scenes and resources are being loaded, etc. This can also be enabled using the ``--verbose`` or ``-v`` :doc:`command line argument <../tutorials/editor/command_line_tutorial>`, even on an exported project. See also :ref:`OS.is_stdout_verbose()<class_OS_method_is_stdout_verbose>` and :ref:`@GlobalScope.print_verbose()<class_@GlobalScope_method_print_verbose>`.
+Imprime más información en la salida estándar al ejecutar. Muestra información como fugas de memoria, qué escenas y recursos se están cargando, etc. Esto también se puede habilitar usando el ``--verbose`` o ``-v`` :doc:`argumento de línea de comandos <../tutorials/editor/command_line_tutorial>`, incluso en un proyecto exportado. Véase también :ref:`OS.is_stdout_verbose()<class_OS_method_is_stdout_verbose>` y :ref:`@GlobalScope.print_verbose()<class_@GlobalScope_method_print_verbose>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3539,7 +3547,7 @@ Print more information to standard output when running. It displays information 
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/device_limit_exceeded** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/device_limit_exceeded>`
 
-When set to ``true``, produces a warning when the shader exceeds certain device limits. Currently, the only device limit checked is the limit on uniform buffer size. More device limits will be added in the future.
+Cuando se establece en ``true``, produce una advertencia cuando el shader excede ciertos límites del dispositivo. Actualmente, el único límite del dispositivo que se comprueba es el límite en el tamaño del búfer uniforme. Se agregarán más límites de dispositivo en el futuro.
 
 .. rst-class:: classref-item-separator
 
@@ -3551,7 +3559,7 @@ When set to ``true``, produces a warning when the shader exceeds certain device 
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/enable** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/enable>`
 
-If ``true``, enables specific shader warnings (see ``debug/shader_language/warnings/*`` settings). If ``false``, disables all shader warnings.
+Si es ``true``, habilita advertencias específicas del shader (véase la configuración de ``debug/shader_language/warnings/*``). Si es ``false``, desactiva todas las advertencias del shader.
 
 .. rst-class:: classref-item-separator
 
@@ -3563,7 +3571,7 @@ If ``true``, enables specific shader warnings (see ``debug/shader_language/warni
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/float_comparison** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/float_comparison>`
 
-When set to ``true``, produces a warning when two floating-point numbers are compared directly with the ``==`` operator or the ``!=`` operator.
+Cuando se establece en ``true``, produce una advertencia cuando dos números de punto flotante se comparan directamente con el operador ``==`` o el operador ``!=``.
 
 .. rst-class:: classref-item-separator
 
@@ -3575,7 +3583,7 @@ When set to ``true``, produces a warning when two floating-point numbers are com
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/formatting_error** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/formatting_error>`
 
-When set to ``true``, produces a warning upon encountering certain formatting errors. Currently this only checks for empty statements. More formatting errors may be added over time.
+Cuando se establece en ``true``, produce una advertencia al encontrar ciertos errores de formato. Actualmente, esto solo verifica si hay declaraciones vacías. Se pueden agregar más errores de formato con el tiempo.
 
 .. rst-class:: classref-item-separator
 
@@ -3587,7 +3595,7 @@ When set to ``true``, produces a warning upon encountering certain formatting er
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/magic_position_write** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/magic_position_write>`
 
-When set to ``true``, produces a warning when the shader contains ``POSITION = vec4(vertex,`` as this was very common code written in Godot 4.2 and earlier that was paired with a QuadMesh to produce a full screen post processes pass. With the switch to reversed z in 4.3, this trick no longer works, as it implicitly relied on the ``VERTEX.z`` being 0.
+Cuando se establece en ``true``, produce una advertencia cuando el shader contiene ``POSITION = vec4(vertex,``, ya que este era un código muy común escrito en Godot 4.2 y versiones anteriores que se combinaba con un QuadMesh para producir un pase de postprocesamiento de pantalla completa. Con el cambio a la Z invertida en 4.3, este truco ya no funciona, ya que dependía implícitamente de que ``VERTEX.z`` fuera 0.
 
 .. rst-class:: classref-item-separator
 
@@ -3599,7 +3607,7 @@ When set to ``true``, produces a warning when the shader contains ``POSITION = v
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/treat_warnings_as_errors** = ``false`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/treat_warnings_as_errors>`
 
-When set to ``true``, warnings are treated as errors.
+Cuando se establece en ``true``, las advertencias se tratan como errores.
 
 .. rst-class:: classref-item-separator
 
@@ -3611,7 +3619,7 @@ When set to ``true``, warnings are treated as errors.
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/unused_constant** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/unused_constant>`
 
-When set to ``true``, produces a warning when a constant is never used.
+Cuando se establece en ``true``, se produce una advertencia cuando una constante nunca se utiliza.
 
 .. rst-class:: classref-item-separator
 
@@ -3623,7 +3631,7 @@ When set to ``true``, produces a warning when a constant is never used.
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/unused_function** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/unused_function>`
 
-When set to ``true``, produces a warning when a function is never used.
+Cuando se establece en ``true``, se produce una advertencia cuando una función nunca se utiliza.
 
 .. rst-class:: classref-item-separator
 
@@ -3635,7 +3643,7 @@ When set to ``true``, produces a warning when a function is never used.
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/unused_local_variable** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/unused_local_variable>`
 
-When set to ``true``, produces a warning when a local variable is never used.
+Cuando se establece en ``true``, se produce una advertencia cuando una variable local nunca se utiliza.
 
 .. rst-class:: classref-item-separator
 
@@ -3647,7 +3655,7 @@ When set to ``true``, produces a warning when a local variable is never used.
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/unused_struct** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/unused_struct>`
 
-When set to ``true``, produces a warning when a struct is never used.
+Cuando se establece en ``true``, se produce una advertencia cuando una struct nunca se utiliza.
 
 .. rst-class:: classref-item-separator
 
@@ -3659,7 +3667,7 @@ When set to ``true``, produces a warning when a struct is never used.
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/unused_uniform** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/unused_uniform>`
 
-When set to ``true``, produces a warning when a uniform is never used.
+Cuando se establece en ``true``, se produce una advertencia cuando una uniform nunca se utiliza.
 
 .. rst-class:: classref-item-separator
 
@@ -3671,7 +3679,7 @@ When set to ``true``, produces a warning when a uniform is never used.
 
 :ref:`bool<class_bool>` **debug/shader_language/warnings/unused_varying** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shader_language/warnings/unused_varying>`
 
-When set to ``true``, produces a warning when a varying is never used.
+Cuando se establece en ``true``, se produce una advertencia cuando una varying nunca se utiliza.
 
 .. rst-class:: classref-item-separator
 
@@ -3683,7 +3691,7 @@ When set to ``true``, produces a warning when a varying is never used.
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/2d/agents_radius_color** = ``Color(1, 1, 0, 0.25)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/agents_radius_color>`
 
-Color of the avoidance agents radius, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color del radio de los agentes de evitación, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3695,7 +3703,7 @@ Color of the avoidance agents radius, visible when "Visible Avoidance" is enable
 
 :ref:`bool<class_bool>` **debug/shapes/avoidance/2d/enable_agents_radius** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/enable_agents_radius>`
 
-If enabled, displays avoidance agents radius when "Visible Avoidance" is enabled in the Debug menu.
+Si está activado, muestra el radio de los agentes de evitación cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3707,7 +3715,7 @@ If enabled, displays avoidance agents radius when "Visible Avoidance" is enabled
 
 :ref:`bool<class_bool>` **debug/shapes/avoidance/2d/enable_obstacles_radius** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/enable_obstacles_radius>`
 
-If enabled, displays avoidance obstacles radius when "Visible Avoidance" is enabled in the Debug menu.
+Si está activado, muestra el radio de los obstáculos de evitación cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3719,7 +3727,7 @@ If enabled, displays avoidance obstacles radius when "Visible Avoidance" is enab
 
 :ref:`bool<class_bool>` **debug/shapes/avoidance/2d/enable_obstacles_static** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/enable_obstacles_static>`
 
-If enabled, displays static avoidance obstacles when "Visible Avoidance" is enabled in the Debug menu.
+Si está activado, muestra los obstáculos estáticos de evitación cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3731,7 +3739,7 @@ If enabled, displays static avoidance obstacles when "Visible Avoidance" is enab
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/2d/obstacles_radius_color** = ``Color(1, 0.5, 0, 0.25)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/obstacles_radius_color>`
 
-Color of the avoidance obstacles radius, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color del radio de los obstáculos de evitación, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3743,7 +3751,7 @@ Color of the avoidance obstacles radius, visible when "Visible Avoidance" is ena
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/2d/obstacles_static_edge_pushin_color** = ``Color(1, 0, 0, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/obstacles_static_edge_pushin_color>`
 
-Color of the static avoidance obstacles edges when their vertices are winded in order to push agents in, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de los bordes de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia adentro, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3755,7 +3763,7 @@ Color of the static avoidance obstacles edges when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/2d/obstacles_static_edge_pushout_color** = ``Color(1, 1, 0, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/obstacles_static_edge_pushout_color>`
 
-Color of the static avoidance obstacles edges when their vertices are winded in order to push agents out, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de los bordes de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia afuera, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3767,7 +3775,7 @@ Color of the static avoidance obstacles edges when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/2d/obstacles_static_face_pushin_color** = ``Color(1, 0, 0, 0)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/obstacles_static_face_pushin_color>`
 
-Color of the static avoidance obstacles faces when their vertices are winded in order to push agents in, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de las caras de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia adentro, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3779,7 +3787,7 @@ Color of the static avoidance obstacles faces when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/2d/obstacles_static_face_pushout_color** = ``Color(1, 1, 0, 0.5)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/2d/obstacles_static_face_pushout_color>`
 
-Color of the static avoidance obstacles faces when their vertices are winded in order to push agents out, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de las caras de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia afuera, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3791,7 +3799,7 @@ Color of the static avoidance obstacles faces when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/3d/agents_radius_color** = ``Color(1, 1, 0, 0.25)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/agents_radius_color>`
 
-Color of the avoidance agents radius, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color del radio de los agentes de evitación, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3803,7 +3811,7 @@ Color of the avoidance agents radius, visible when "Visible Avoidance" is enable
 
 :ref:`bool<class_bool>` **debug/shapes/avoidance/3d/enable_agents_radius** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/enable_agents_radius>`
 
-If enabled, displays avoidance agents radius when "Visible Avoidance" is enabled in the Debug menu.
+Si está activado, muestra el radio de los agentes de evitación cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3815,7 +3823,7 @@ If enabled, displays avoidance agents radius when "Visible Avoidance" is enabled
 
 :ref:`bool<class_bool>` **debug/shapes/avoidance/3d/enable_obstacles_radius** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/enable_obstacles_radius>`
 
-If enabled, displays avoidance obstacles radius when "Visible Avoidance" is enabled in the Debug menu.
+Si está activado, muestra el radio de los obstáculos de evitación cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3827,7 +3835,7 @@ If enabled, displays avoidance obstacles radius when "Visible Avoidance" is enab
 
 :ref:`bool<class_bool>` **debug/shapes/avoidance/3d/enable_obstacles_static** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/enable_obstacles_static>`
 
-If enabled, displays static avoidance obstacles when "Visible Avoidance" is enabled in the Debug menu.
+Si está activado, muestra los obstáculos estáticos de evitación cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3839,7 +3847,7 @@ If enabled, displays static avoidance obstacles when "Visible Avoidance" is enab
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/3d/obstacles_radius_color** = ``Color(1, 0.5, 0, 0.25)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/obstacles_radius_color>`
 
-Color of the avoidance obstacles radius, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color del radio de los obstáculos de evitación, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3851,7 +3859,7 @@ Color of the avoidance obstacles radius, visible when "Visible Avoidance" is ena
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/3d/obstacles_static_edge_pushin_color** = ``Color(1, 0, 0, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/obstacles_static_edge_pushin_color>`
 
-Color of the static avoidance obstacles edges when their vertices are winded in order to push agents in, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de los bordes de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia adentro, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3863,7 +3871,7 @@ Color of the static avoidance obstacles edges when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/3d/obstacles_static_edge_pushout_color** = ``Color(1, 1, 0, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/obstacles_static_edge_pushout_color>`
 
-Color of the static avoidance obstacles edges when their vertices are winded in order to push agents out, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de los bordes de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia afuera, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3875,7 +3883,7 @@ Color of the static avoidance obstacles edges when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/3d/obstacles_static_face_pushin_color** = ``Color(1, 0, 0, 0)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/obstacles_static_face_pushin_color>`
 
-Color of the static avoidance obstacles faces when their vertices are winded in order to push agents in, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de las caras de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia adentro, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3887,7 +3895,7 @@ Color of the static avoidance obstacles faces when their vertices are winded in 
 
 :ref:`Color<class_Color>` **debug/shapes/avoidance/3d/obstacles_static_face_pushout_color** = ``Color(1, 1, 0, 0.5)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/avoidance/3d/obstacles_static_face_pushout_color>`
 
-Color of the static avoidance obstacles faces when their vertices are winded in order to push agents out, visible when "Visible Avoidance" is enabled in the Debug menu.
+Color de las caras de los obstáculos estáticos de evitación cuando sus vértices están orientados para empujar a los agentes hacia afuera, visible cuando "Evitación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3911,7 +3919,7 @@ Color de los puntos de contacto entre las formas de colisión, visible cuando "F
 
 :ref:`bool<class_bool>` **debug/shapes/collision/draw_2d_outlines** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/collision/draw_2d_outlines>`
 
-Sets whether 2D physics will display collision outlines in game when "Visible Collision Shapes" is enabled in the Debug menu.
+Establece si la física 2D mostrará los contornos de colisión en el juego cuando "Formas de colisión visibles" esté activado en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3947,7 +3955,7 @@ Color de las formas de colisión, visible cuando "Formas de colisión visibles" 
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/agent_path_color** = ``Color(1, 0, 0, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/agent_path_color>`
 
-Color to display enabled navigation agent paths when an agent has debug enabled.
+Color para mostrar las rutas de los agentes de navegación habilitados cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -3959,7 +3967,7 @@ Color to display enabled navigation agent paths when an agent has debug enabled.
 
 :ref:`float<class_float>` **debug/shapes/navigation/2d/agent_path_point_size** = ``4.0`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/agent_path_point_size>`
 
-Rasterized size (pixel) used to render navigation agent path points when an agent has debug enabled.
+Tamaño rasterizado (píxel) utilizado para renderizar los puntos de la ruta del agente de navegación cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -3971,7 +3979,7 @@ Rasterized size (pixel) used to render navigation agent path points when an agen
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/edge_connection_color** = ``Color(1, 0, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/edge_connection_color>`
 
-Color to display edge connections between navigation regions, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar las conexiones de borde entre las regiones de navegación, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -3983,7 +3991,7 @@ Color to display edge connections between navigation regions, visible when "Visi
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_agent_paths** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_agent_paths>`
 
-If enabled, displays navigation agent paths when an agent has debug enabled.
+Si está activado, muestra las rutas de los agentes de navegación cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -3995,7 +4003,7 @@ If enabled, displays navigation agent paths when an agent has debug enabled.
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_edge_connections>`
 
-If enabled, displays edge connections between navigation regions when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra las conexiones de borde entre las regiones de navegación cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4007,7 +4015,7 @@ If enabled, displays edge connections between navigation regions when "Visible N
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_edge_lines** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_edge_lines>`
 
-If enabled, displays navigation mesh polygon edges when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra los bordes del polígono de la malla de navegación cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4019,7 +4027,7 @@ If enabled, displays navigation mesh polygon edges when "Visible Navigation" is 
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_geometry_face_random_color** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_geometry_face_random_color>`
 
-If enabled, colorizes each navigation mesh polygon face with a random color when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, colorea cada cara del polígono de la malla de navegación con un color aleatorio cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4031,7 +4039,7 @@ If enabled, colorizes each navigation mesh polygon face with a random color when
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/2d/enable_link_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/enable_link_connections>`
 
-If enabled, displays navigation link connections when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra las conexiones de los enlaces de navegación cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4043,7 +4051,7 @@ If enabled, displays navigation link connections when "Visible Navigation" is en
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/geometry_edge_color** = ``Color(0.5, 1, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/geometry_edge_color>`
 
-Color to display enabled navigation mesh polygon edges, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar los bordes del polígono de la malla de navegación habilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4055,7 +4063,7 @@ Color to display enabled navigation mesh polygon edges, visible when "Visible Na
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/geometry_edge_disabled_color** = ``Color(0.5, 0.5, 0.5, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/geometry_edge_disabled_color>`
 
-Color to display disabled navigation mesh polygon edges, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar los bordes del polígono de la malla de navegación deshabilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4067,7 +4075,7 @@ Color to display disabled navigation mesh polygon edges, visible when "Visible N
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/geometry_face_color** = ``Color(0.5, 1, 1, 0.4)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/geometry_face_color>`
 
-Color to display enabled navigation mesh polygon faces, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar las caras del polígono de la malla de navegación habilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4079,7 +4087,7 @@ Color to display enabled navigation mesh polygon faces, visible when "Visible Na
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/geometry_face_disabled_color** = ``Color(0.5, 0.5, 0.5, 0.4)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/geometry_face_disabled_color>`
 
-Color to display disabled navigation mesh polygon faces, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar las caras del polígono de la malla de navegación deshabilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4091,7 +4099,7 @@ Color to display disabled navigation mesh polygon faces, visible when "Visible N
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/link_connection_color** = ``Color(1, 0.5, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/link_connection_color>`
 
-Color to use to display navigation link connections, visible when "Visible Navigation" is enabled in the Debug menu.
+Color a usar para mostrar las conexiones de los enlaces de navegación, visible cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4103,7 +4111,7 @@ Color to use to display navigation link connections, visible when "Visible Navig
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/2d/link_connection_disabled_color** = ``Color(0.5, 0.5, 0.5, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/2d/link_connection_disabled_color>`
 
-Color to use to display disabled navigation link connections, visible when "Visible Navigation" is enabled in the Debug menu.
+Color a usar para mostrar las conexiones de los enlaces de navegación desactivados, visible cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4115,7 +4123,7 @@ Color to use to display disabled navigation link connections, visible when "Visi
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/agent_path_color** = ``Color(1, 0, 0, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/agent_path_color>`
 
-Color to display enabled navigation agent paths when an agent has debug enabled.
+Color para mostrar las rutas de los agentes de navegación habilitados cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -4127,7 +4135,7 @@ Color to display enabled navigation agent paths when an agent has debug enabled.
 
 :ref:`float<class_float>` **debug/shapes/navigation/3d/agent_path_point_size** = ``4.0`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/agent_path_point_size>`
 
-Rasterized size (pixel) used to render navigation agent path points when an agent has debug enabled.
+Tamaño rasterizado (píxel) utilizado para renderizar los puntos de la ruta del agente de navegación cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -4139,7 +4147,7 @@ Rasterized size (pixel) used to render navigation agent path points when an agen
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/edge_connection_color** = ``Color(1, 0, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/edge_connection_color>`
 
-Color to display edge connections between navigation regions, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar las conexiones de borde entre las regiones de navegación, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4151,7 +4159,7 @@ Color to display edge connections between navigation regions, visible when "Visi
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_agent_paths** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_agent_paths>`
 
-If enabled, displays navigation agent paths when an agent has debug enabled.
+Si está activado, muestra las rutas de los agentes de navegación cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -4163,7 +4171,7 @@ If enabled, displays navigation agent paths when an agent has debug enabled.
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_agent_paths_xray** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_agent_paths_xray>`
 
-If enabled, displays navigation agent paths through geometry when an agent has debug enabled.
+Si está activado, muestra las rutas de los agentes de navegación a través de la geometría cuando un agente tiene la depuración habilitada.
 
 .. rst-class:: classref-item-separator
 
@@ -4175,7 +4183,7 @@ If enabled, displays navigation agent paths through geometry when an agent has d
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_connections>`
 
-If enabled, displays edge connections between navigation regions when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra las conexiones de borde entre las regiones de navegación cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4187,7 +4195,7 @@ If enabled, displays edge connections between navigation regions when "Visible N
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_connections_xray** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_connections_xray>`
 
-If enabled, displays edge connections between navigation regions through geometry when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra las conexiones de borde entre las regiones de navegación a través de la geometría cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4199,7 +4207,7 @@ If enabled, displays edge connections between navigation regions through geometr
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_lines** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_lines>`
 
-If enabled, displays navigation mesh polygon edges when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra los bordes del polígono de la malla de navegación cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4211,7 +4219,7 @@ If enabled, displays navigation mesh polygon edges when "Visible Navigation" is 
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_edge_lines_xray** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_edge_lines_xray>`
 
-If enabled, displays navigation mesh polygon edges through geometry when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra los bordes de los polígonos de la malla de navegación a través de la geometría cuando la opción "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4223,7 +4231,7 @@ If enabled, displays navigation mesh polygon edges through geometry when "Visibl
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_geometry_face_random_color** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_geometry_face_random_color>`
 
-If enabled, colorizes each navigation mesh polygon face with a random color when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, colorea cada cara del polígono de la malla de navegación con un color aleatorio cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4235,7 +4243,7 @@ If enabled, colorizes each navigation mesh polygon face with a random color when
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_link_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_link_connections>`
 
-If enabled, displays navigation link connections when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra las conexiones de los enlaces de navegación cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4247,7 +4255,7 @@ If enabled, displays navigation link connections when "Visible Navigation" is en
 
 :ref:`bool<class_bool>` **debug/shapes/navigation/3d/enable_link_connections_xray** = ``true`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/enable_link_connections_xray>`
 
-If enabled, displays navigation link connections through geometry when "Visible Navigation" is enabled in the Debug menu.
+Si está activado, muestra las conexiones de los enlaces de navegación a través de la geometría cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4259,7 +4267,7 @@ If enabled, displays navigation link connections through geometry when "Visible 
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/geometry_edge_color** = ``Color(0.5, 1, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/geometry_edge_color>`
 
-Color to display enabled navigation mesh polygon edges, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar los bordes del polígono de la malla de navegación habilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4271,7 +4279,7 @@ Color to display enabled navigation mesh polygon edges, visible when "Visible Na
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/geometry_edge_disabled_color** = ``Color(0.5, 0.5, 0.5, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/geometry_edge_disabled_color>`
 
-Color to display disabled navigation mesh polygon edges, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar los bordes del polígono de la malla de navegación deshabilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4283,7 +4291,7 @@ Color to display disabled navigation mesh polygon edges, visible when "Visible N
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/geometry_face_color** = ``Color(0.5, 1, 1, 0.4)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/geometry_face_color>`
 
-Color to display enabled navigation mesh polygon faces, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar las caras del polígono de la malla de navegación habilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4295,7 +4303,7 @@ Color to display enabled navigation mesh polygon faces, visible when "Visible Na
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/geometry_face_disabled_color** = ``Color(0.5, 0.5, 0.5, 0.4)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/geometry_face_disabled_color>`
 
-Color to display disabled navigation mesh polygon faces, visible when "Visible Navigation" is enabled in the Debug menu.
+Color para mostrar las caras del polígono de la malla de navegación deshabilitada, visible cuando "Navegación Visible" está habilitada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4307,7 +4315,7 @@ Color to display disabled navigation mesh polygon faces, visible when "Visible N
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/link_connection_color** = ``Color(1, 0.5, 1, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/link_connection_color>`
 
-Color to use to display navigation link connections, visible when "Visible Navigation" is enabled in the Debug menu.
+Color a usar para mostrar las conexiones de los enlaces de navegación, visible cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4319,7 +4327,7 @@ Color to use to display navigation link connections, visible when "Visible Navig
 
 :ref:`Color<class_Color>` **debug/shapes/navigation/3d/link_connection_disabled_color** = ``Color(0.5, 0.5, 0.5, 1)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/navigation/3d/link_connection_disabled_color>`
 
-Color to use to display disabled navigation link connections, visible when "Visible Navigation" is enabled in the Debug menu.
+Color a usar para mostrar las conexiones de los enlaces de navegación desactivados, visible cuando "Navegación Visible" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4331,7 +4339,7 @@ Color to use to display disabled navigation link connections, visible when "Visi
 
 :ref:`Color<class_Color>` **debug/shapes/paths/geometry_color** = ``Color(0.1, 1, 0.7, 0.4)`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/paths/geometry_color>`
 
-Color of the curve path geometry, visible when "Visible Paths" is enabled in the Debug menu.
+Color de la geometría del camino del trayecto, visible cuando la opción "Trayectos Visibles" está activada en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4343,7 +4351,7 @@ Color of the curve path geometry, visible when "Visible Paths" is enabled in the
 
 :ref:`float<class_float>` **debug/shapes/paths/geometry_width** = ``2.0`` :ref:`🔗<class_ProjectSettings_property_debug/shapes/paths/geometry_width>`
 
-Line width of the curve path geometry, visible when "Visible Paths" is enabled in the Debug menu.
+Ancho de línea de la geometría del camino del trayecto, visible cuando "Trayectos Visibles" está habilitado en el menú Depuración.
 
 .. rst-class:: classref-item-separator
 
@@ -4355,7 +4363,7 @@ Line width of the curve path geometry, visible when "Visible Paths" is enabled i
 
 :ref:`String<class_String>` **display/display_server/driver** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver>`
 
-Sets the driver to be used by the display server. This property can not be edited directly, instead, set the driver using the platform-specific overrides.
+Establece el driver que utilizará el servidor de visualización. Esta propiedad no se puede editar directamente, en su lugar, establece el driver utilizando las sobrescrituras específicas de la plataforma.
 
 .. rst-class:: classref-item-separator
 
@@ -4367,7 +4375,7 @@ Sets the driver to be used by the display server. This property can not be edite
 
 :ref:`String<class_String>` **display/display_server/driver.android** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver.android>`
 
-Android override for :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
+Sobrescritura de Android para :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4379,7 +4387,7 @@ Android override for :ref:`display/display_server/driver<class_ProjectSettings_p
 
 :ref:`String<class_String>` **display/display_server/driver.ios** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver.ios>`
 
-iOS override for :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
+Sobrescritura de iOS para :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4391,7 +4399,7 @@ iOS override for :ref:`display/display_server/driver<class_ProjectSettings_prope
 
 :ref:`String<class_String>` **display/display_server/driver.linuxbsd** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver.linuxbsd>`
 
-LinuxBSD override for :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
+Sobrescritura de LinuxBSD para :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4403,7 +4411,7 @@ LinuxBSD override for :ref:`display/display_server/driver<class_ProjectSettings_
 
 :ref:`String<class_String>` **display/display_server/driver.macos** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver.macos>`
 
-MacOS override for :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
+Sobrescritura de MacOS para :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4415,7 +4423,7 @@ MacOS override for :ref:`display/display_server/driver<class_ProjectSettings_pro
 
 :ref:`String<class_String>` **display/display_server/driver.visionos** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver.visionos>`
 
-visionOS override for :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
+Sobrescritura de visionOS para :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4427,7 +4435,7 @@ visionOS override for :ref:`display/display_server/driver<class_ProjectSettings_
 
 :ref:`String<class_String>` **display/display_server/driver.windows** :ref:`🔗<class_ProjectSettings_property_display/display_server/driver.windows>`
 
-Windows override for :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
+Sobrescritura de Windows para :ref:`display/display_server/driver<class_ProjectSettings_property_display/display_server/driver>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4475,9 +4483,9 @@ Desplazamiento de la posición de las sugerencias, en relación con el punto don
 
 :ref:`bool<class_bool>` **display/window/dpi/allow_hidpi** = ``true`` :ref:`🔗<class_ProjectSettings_property_display/window/dpi/allow_hidpi>`
 
-If ``true``, allows HiDPI display on Windows, macOS, Android, iOS and Web. If ``false``, the platform's low-DPI fallback will be used on HiDPI displays, which causes the window to be displayed in a blurry or pixelated manner (and can cause various window management bugs). Therefore, it is recommended to make your project scale to :doc:`multiple resolutions <../tutorials/rendering/multiple_resolutions>` instead of disabling this setting.
+Si es ``true``, permite la visualización HiDPI en Windows, macOS, Android, iOS y Web. Si es ``false``, se utilizará el fallback de baja resolución DPI de la plataforma en pantallas HiDPI, lo que hará que la ventana se muestre de forma borrosa o pixelada (y puede causar varios errores de administración de ventanas). Por lo tanto, se recomienda escalar tu proyecto a :doc:`múltiples resoluciones <../tutorials/rendering/multiple_resolutions>` en lugar de desactivar este ajuste.
 
-\ **Note:** This setting has no effect on Linux as DPI-awareness fallbacks are not supported there.
+\ **Nota:** Este ajuste no tiene ningún efecto en Linux, ya que los fallbacks de reconocimiento de DPI no son compatibles allí.
 
 .. rst-class:: classref-item-separator
 
@@ -4501,9 +4509,9 @@ Si es ``true``, mantiene la pantalla encendida (incluso en caso de inactividad),
 
 :ref:`bool<class_bool>` **display/window/frame_pacing/android/enable_frame_pacing** = ``true`` :ref:`🔗<class_ProjectSettings_property_display/window/frame_pacing/android/enable_frame_pacing>`
 
-Enable Swappy for stable frame pacing on Android. Highly recommended.
+Activa Swappy para un ritmo de fotogramas estable en Android. Muy recomendable.
 
-\ **Note:** This option will be forced off when using OpenXR.
+\ **Nota:** Esta opción se desactivará obligatoriamente cuando se utilice OpenXR.
 
 .. rst-class:: classref-item-separator
 
@@ -4515,15 +4523,15 @@ Enable Swappy for stable frame pacing on Android. Highly recommended.
 
 :ref:`int<class_int>` **display/window/frame_pacing/android/swappy_mode** = ``2`` :ref:`🔗<class_ProjectSettings_property_display/window/frame_pacing/android/swappy_mode>`
 
-Swappy mode to use. The options are:
+Modo Swappy a utilizar. Las opciones son:
 
-- ``pipeline_forced_on``: Try to honor :ref:`Engine.max_fps<class_Engine_property_max_fps>`. Pipelining is always on. This is the same behavior as a desktop PC.
+- ``pipeline_forced_on``: Intenta respetar :ref:`Engine.max_fps<class_Engine_property_max_fps>`. El pipeline siempre está activado. Este es el mismo comportamiento que un PC de escritorio.
 
-- ``auto_fps_pipeline_forced_on``: Calculate the max FPS automatically. The actual max FPS will be between ``0`` and :ref:`Engine.max_fps<class_Engine_property_max_fps>`. While this sounds convenient, beware that Swappy will often downgrade the max FPS until it finds a value that can be maintained. That means, if your game runs between 40fps and 60fps on a 60hz screen, after some time Swappy will downgrade the max FPS so that the game renders at a perfect 30fps.
+- ``auto_fps_pipeline_forced_on``: Calcula los FPS máximos automáticamente. Los FPS máximos reales estarán entre ``0`` y :ref:`Engine.max_fps<class_Engine_property_max_fps>`. Si bien esto suena conveniente, ten cuidado porque Swappy a menudo reducirá los FPS máximos hasta que encuentre un valor que pueda mantenerse. Eso significa que, si tu juego se ejecuta entre 40 FPS y 60 FPS en una pantalla de 60 Hz, después de un tiempo Swappy reducirá los FPS máximos para que el juego se renderice a 30 FPS perfectos.
 
-- ``auto_fps_auto_pipeline``: Same as ``auto_fps_pipeline_forced_on``, but if Swappy detects that rendering is very fast (for example it takes less than 8ms to render on a 60hz screen), Swappy will disable pipelining to minimize input latency. This is the default.
+- ``auto_fps_auto_pipeline``: Igual que ``auto_fps_pipeline_forced_on``, pero si Swappy detecta que el renderizado es muy rápido (por ejemplo, tarda menos de 8 ms en renderizarse en una pantalla de 60 Hz), Swappy desactivará el pipeline para minimizar la latencia de entrada. Este es el valor predeterminado.
 
-\ **Note:** If :ref:`Engine.max_fps<class_Engine_property_max_fps>` is ``0``, the actual max FPS will be considered to be the screen's refresh rate (often 60hz, 90hz, or 120hz, depending on device model and OS settings).
+\ **Nota:** Si :ref:`Engine.max_fps<class_Engine_property_max_fps>` es ``0``, los FPS máximos reales se considerarán la frecuencia de actualización de la pantalla (a menudo 60 Hz, 90 Hz o 120 Hz, dependiendo del modelo de dispositivo y la configuración del sistema operativo).
 
 .. rst-class:: classref-item-separator
 
@@ -4535,9 +4543,9 @@ Swappy mode to use. The options are:
 
 :ref:`int<class_int>` **display/window/handheld/orientation** = ``0`` :ref:`🔗<class_ProjectSettings_property_display/window/handheld/orientation>`
 
-The default screen orientation to use on mobile devices. See :ref:`ScreenOrientation<enum_DisplayServer_ScreenOrientation>` for possible values.
+La orientación de pantalla predeterminada para usar en dispositivos móviles. Véase :ref:`ScreenOrientation<enum_DisplayServer_ScreenOrientation>` para ver los valores posibles.
 
-\ **Note:** When set to a portrait orientation, this project setting does not flip the project resolution's width and height automatically. Instead, you have to set :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` and :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>` accordingly.
+\ **Nota:** Cuando se establece en una orientación vertical, esta configuración del proyecto no invierte automáticamente el ancho y el alto de la resolución del proyecto. En su lugar, debes establecer :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` y :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>` en consecuencia.
 
 .. rst-class:: classref-item-separator
 
@@ -4549,7 +4557,7 @@ The default screen orientation to use on mobile devices. See :ref:`ScreenOrienta
 
 :ref:`bool<class_bool>` **display/window/ios/allow_high_refresh_rate** = ``true`` :ref:`🔗<class_ProjectSettings_property_display/window/ios/allow_high_refresh_rate>`
 
-If ``true``, iOS devices that support high refresh rate/"ProMotion" will be allowed to render at up to 120 frames per second.
+Si es ``true``, los dispositivos iOS que admiten una alta frecuencia de actualización/"ProMotion" podrán renderizar hasta 120 fotogramas por segundo.
 
 .. rst-class:: classref-item-separator
 
@@ -4573,7 +4581,7 @@ Si es ``true``, el indicador de casa se oculta automáticamente. Esto sólo afec
 
 :ref:`bool<class_bool>` **display/window/ios/hide_status_bar** = ``true`` :ref:`🔗<class_ProjectSettings_property_display/window/ios/hide_status_bar>`
 
-If ``true``, the status bar is hidden while the app is running.
+Si es ``true``, la barra de estado se oculta mientras la aplicación está en ejecución.
 
 .. rst-class:: classref-item-separator
 
@@ -4585,9 +4593,9 @@ If ``true``, the status bar is hidden while the app is running.
 
 :ref:`bool<class_bool>` **display/window/ios/suppress_ui_gesture** = ``true`` :ref:`🔗<class_ProjectSettings_property_display/window/ios/suppress_ui_gesture>`
 
-If ``true``, it will require two swipes to access iOS UI that uses gestures.
+Si es ``true``, se requerirán dos deslizamientos para acceder a la interfaz de usuario de iOS que usa gestos.
 
-\ **Note:** This setting has no effect on the home indicator if ``hide_home_indicator`` is ``true``.
+\ **Nota:** Este ajuste no tiene efecto en el indicador de inicio si ``hide_home_indicator`` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -4599,7 +4607,7 @@ If ``true``, it will require two swipes to access iOS UI that uses gestures.
 
 :ref:`bool<class_bool>` **display/window/per_pixel_transparency/allowed** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`
 
-If ``true``, allows per-pixel transparency for the window background. This affects performance, so leave it on ``false`` unless you need it. See also :ref:`display/window/size/transparent<class_ProjectSettings_property_display/window/size/transparent>` and :ref:`rendering/viewport/transparent_background<class_ProjectSettings_property_rendering/viewport/transparent_background>`.
+Si es ``true``, permite la transparencia por píxel para el fondo de la ventana. Esto afecta al rendimiento, así que déjalo en ``false`` a menos que lo necesites. Véase también :ref:`display/window/size/transparent<class_ProjectSettings_property_display/window/size/transparent>` y :ref:`rendering/viewport/transparent_background<class_ProjectSettings_property_rendering/viewport/transparent_background>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4611,9 +4619,9 @@ If ``true``, allows per-pixel transparency for the window background. This affec
 
 :ref:`bool<class_bool>` **display/window/size/always_on_top** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/always_on_top>`
 
-Forces the main window to be always on top.
+Fuerza que la ventana principal esté siempre en primer plano.
 
-\ **Note:** This setting is ignored on iOS, Android, and Web.
+\ **Nota:** Este ajuste se ignora en iOS, Android y Web.
 
 .. rst-class:: classref-item-separator
 
@@ -4625,9 +4633,9 @@ Forces the main window to be always on top.
 
 :ref:`bool<class_bool>` **display/window/size/borderless** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/borderless>`
 
-Forces the main window to be borderless.
+Fuerza que la ventana principal no tenga bordes.
 
-\ **Note:** This setting is ignored on iOS, Android, and Web.
+\ **Nota:** Este ajuste se ignora en iOS, Android y Web.
 
 .. rst-class:: classref-item-separator
 
@@ -4639,9 +4647,9 @@ Forces the main window to be borderless.
 
 :ref:`bool<class_bool>` **display/window/size/extend_to_title** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/extend_to_title>`
 
-Main window content is expanded to the full size of the window. Unlike a borderless window, the frame is left intact and can be used to resize the window, and the title bar is transparent, but has minimize/maximize/close buttons.
+El contenido de la ventana principal se expande al tamaño completo de la ventana. A diferencia de una ventana sin bordes, el marco se deja intacto y se puede usar para redimensionar la ventana, y la barra de título es transparente, pero tiene botones de minimizar/maximizar/cerrar.
 
-\ **Note:** This setting is implemented only on macOS.
+\ **Nota:** Este ajuste solo se implementa en macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -4667,15 +4675,15 @@ Main window initial position (in virtual desktop coordinates), this setting is u
 
 :ref:`int<class_int>` **display/window/size/initial_position_type** = ``1`` :ref:`🔗<class_ProjectSettings_property_display/window/size/initial_position_type>`
 
-Main window initial position.
+Posición inicial de la ventana principal.
 
-\ ``0`` - "Absolute", :ref:`display/window/size/initial_position<class_ProjectSettings_property_display/window/size/initial_position>` is used to set window position.
+\ ``0`` - "Absoluta", :ref:`display/window/size/initial_position<class_ProjectSettings_property_display/window/size/initial_position>` se utiliza para establecer la posición de la ventana.
 
-\ ``1`` - "Primary Screen Center".
+\ ``1`` - "Centro de la pantalla principal".
 
-\ ``2`` - "Other Screen Center", :ref:`display/window/size/initial_screen<class_ProjectSettings_property_display/window/size/initial_screen>` is used to set the screen.
+\ ``2`` - "Centro de otra pantalla", :ref:`display/window/size/initial_screen<class_ProjectSettings_property_display/window/size/initial_screen>` se utiliza para establecer la pantalla.
 
-\ **Note:** This setting only affects the exported project, or when the project is run from the command line. In the editor, the value of :ref:`EditorSettings.run/window_placement/rect<class_EditorSettings_property_run/window_placement/rect>` is used instead.
+\ **Nota:** Este ajuste solo afecta al proyecto exportado, o cuando el proyecto se ejecuta desde la línea de comandos. En el editor, se utiliza el valor de :ref:`EditorSettings.run/window_placement/rect<class_EditorSettings_property_run/window_placement/rect>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -4687,9 +4695,9 @@ Main window initial position.
 
 :ref:`int<class_int>` **display/window/size/initial_screen** = ``0`` :ref:`🔗<class_ProjectSettings_property_display/window/size/initial_screen>`
 
-Main window initial screen, this setting is used only if :ref:`display/window/size/initial_position_type<class_ProjectSettings_property_display/window/size/initial_position_type>` is set to "Other Screen Center" (``2``).
+Pantalla inicial de la ventana principal, este ajuste solo se utiliza si :ref:`display/window/size/initial_position_type<class_ProjectSettings_property_display/window/size/initial_position_type>` está establecido en "Centro de otra pantalla" (``2``).
 
-\ **Note:** This setting only affects the exported project, or when the project is run from the command line. In the editor, the value of :ref:`EditorSettings.run/window_placement/screen<class_EditorSettings_property_run/window_placement/screen>` is used instead.
+\ **Nota:** Este ajuste solo afecta al proyecto exportado, o cuando el proyecto se ejecuta desde la línea de comandos. En el editor, se utiliza el valor de :ref:`EditorSettings.run/window_placement/screen<class_EditorSettings_property_run/window_placement/screen>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -4701,7 +4709,7 @@ Main window initial screen, this setting is used only if :ref:`display/window/si
 
 :ref:`bool<class_bool>` **display/window/size/maximize_disabled** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/maximize_disabled>`
 
-If ``true``, the main window's maximize button is disabled.
+Si es ``true``, el botón de maximizar de la ventana principal está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -4713,7 +4721,7 @@ If ``true``, the main window's maximize button is disabled.
 
 :ref:`bool<class_bool>` **display/window/size/minimize_disabled** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/minimize_disabled>`
 
-If ``true``, the main window's minimize button is disabled.
+Si es ``true``, el botón de minimizar de la ventana principal está desactivado.
 
 .. rst-class:: classref-item-separator
 
@@ -4725,9 +4733,9 @@ If ``true``, the main window's minimize button is disabled.
 
 :ref:`int<class_int>` **display/window/size/mode** = ``0`` :ref:`🔗<class_ProjectSettings_property_display/window/size/mode>`
 
-Main window mode. See :ref:`WindowMode<enum_DisplayServer_WindowMode>` for possible values and how each mode behaves.
+Modo de la ventana principal. Véase :ref:`WindowMode<enum_DisplayServer_WindowMode>` para ver los valores posibles y cómo se comporta cada modo.
 
-\ **Note:** Game embedding is available only in the "Windowed" mode.
+\ **Nota:** La incrustación de juegos solo está disponible en el modo "En ventana".
 
 .. rst-class:: classref-item-separator
 
@@ -4739,7 +4747,7 @@ Main window mode. See :ref:`WindowMode<enum_DisplayServer_WindowMode>` for possi
 
 :ref:`bool<class_bool>` **display/window/size/no_focus** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/no_focus>`
 
-Main window can't be focused. No-focus window will ignore all input, except mouse clicks.
+La ventana principal no se puede enfocar. La ventana sin foco ignorará todas las entradas, excepto los clics del ratón.
 
 .. rst-class:: classref-item-separator
 
@@ -4751,13 +4759,13 @@ Main window can't be focused. No-focus window will ignore all input, except mous
 
 :ref:`bool<class_bool>` **display/window/size/resizable** = ``true`` :ref:`🔗<class_ProjectSettings_property_display/window/size/resizable>`
 
-If ``true``, allows the window to be resizable by default.
+Si es ``true``, permite que la ventana se pueda redimensionar de forma predeterminada.
 
-\ **Note:** This property is only read when the project starts. To change whether the window is resizable at runtime, set :ref:`Window.unresizable<class_Window_property_unresizable>` instead on the root Window, which can be retrieved using ``get_viewport().get_window()``. :ref:`Window.unresizable<class_Window_property_unresizable>` takes the opposite value of this setting.
+\ **Nota:** Esta propiedad solo se lee cuando el proyecto se inicia. Para cambiar si la ventana se puede redimensionar en tiempo de ejecución, establece :ref:`Window.unresizable<class_Window_property_unresizable>` en su lugar en la ventana raíz, que se puede recuperar utilizando ``get_viewport().get_window()``. :ref:`Window.unresizable<class_Window_property_unresizable>` toma el valor opuesto de este ajuste.
 
-\ **Note:** Certain window managers can be configured to ignore the non-resizable status of a window. Do not rely on this setting as a guarantee that the window will *never* be resizable.
+\ **Nota:** Ciertos administradores de ventanas se pueden configurar para ignorar el estado no redimensionable de una ventana. No confíes en este ajuste como una garantía de que la ventana *nunca* será redimensionable.
 
-\ **Note:** This setting is ignored on iOS.
+\ **Nota:** Este ajuste se ignora en iOS.
 
 .. rst-class:: classref-item-separator
 
@@ -4769,9 +4777,9 @@ If ``true``, allows the window to be resizable by default.
 
 :ref:`bool<class_bool>` **display/window/size/sharp_corners** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/sharp_corners>`
 
-If ``true``, the main window uses sharp corners by default.
+Si es ``true``, la ventana principal usa esquinas puntiagudas por defecto.
 
-\ **Note:** This property is implemented only on Windows (11).
+\ **Nota:** Esta propiedad solo está implementada en Windows (11).
 
 .. rst-class:: classref-item-separator
 
@@ -4783,13 +4791,13 @@ If ``true``, the main window uses sharp corners by default.
 
 :ref:`bool<class_bool>` **display/window/size/transparent** = ``false`` :ref:`🔗<class_ProjectSettings_property_display/window/size/transparent>`
 
-If ``true``, enables a window manager hint that the main window background *can* be transparent. This does not make the background actually transparent. For the background to be transparent, the root viewport must also be made transparent by enabling :ref:`rendering/viewport/transparent_background<class_ProjectSettings_property_rendering/viewport/transparent_background>`.
+Si es ``true``, activa una sugerencia del administrador de ventanas de que el fondo de la ventana principal *puede* ser transparente. Esto no hace que el fondo sea realmente transparente. Para que el fondo sea transparente, el viewport raíz también debe hacerse transparente activando :ref:`rendering/viewport/transparent_background<class_ProjectSettings_property_rendering/viewport/transparent_background>`.
 
-\ **Note:** To use a transparent splash screen, set :ref:`application/boot_splash/bg_color<class_ProjectSettings_property_application/boot_splash/bg_color>` to ``Color(0, 0, 0, 0)``.
+\ **Nota:** Para usar una pantalla de presentación transparente, establece :ref:`application/boot_splash/bg_color<class_ProjectSettings_property_application/boot_splash/bg_color>` a ``Color(0, 0, 0, 0)``.
 
-\ **Note:** This setting has no effect if :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` is set to ``false``.
+\ **Nota:** Este ajuste no tiene ningún efecto si :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>` está establecido en ``false``.
 
-\ **Note:** This setting has no effect on Android as transparency is controlled only via :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`.
+\ **Nota:** Este ajuste no tiene ningún efecto en Android, ya que la transparencia se controla únicamente a través de :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4801,7 +4809,7 @@ If ``true``, enables a window manager hint that the main window background *can*
 
 :ref:`int<class_int>` **display/window/size/viewport_height** = ``648`` :ref:`🔗<class_ProjectSettings_property_display/window/size/viewport_height>`
 
-Sets the game's main viewport height. On desktop platforms, this is also the initial window height, represented by an indigo-colored rectangle in the 2D editor. Stretch mode settings also use this as a reference when using the ``canvas_items`` or ``viewport`` stretch modes. See also :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>`, :ref:`display/window/size/window_width_override<class_ProjectSettings_property_display/window/size/window_width_override>` and :ref:`display/window/size/window_height_override<class_ProjectSettings_property_display/window/size/window_height_override>`.
+Establece la altura del viewport principal del juego. En las plataformas de escritorio, esta es también la altura inicial de la ventana, representada por un rectángulo de color índigo en el editor 2D. Los ajustes del modo de estiramiento también utilizan esto como referencia cuando se utilizan los modos de estiramiento ``canvas_items`` o ``viewport``. Véase también :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>`, :ref:`display/window/size/window_width_override<class_ProjectSettings_property_display/window/size/window_width_override>` y :ref:`display/window/size/window_height_override<class_ProjectSettings_property_display/window/size/window_height_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4813,7 +4821,7 @@ Sets the game's main viewport height. On desktop platforms, this is also the ini
 
 :ref:`int<class_int>` **display/window/size/viewport_width** = ``1152`` :ref:`🔗<class_ProjectSettings_property_display/window/size/viewport_width>`
 
-Sets the game's main viewport width. On desktop platforms, this is also the initial window width, represented by an indigo-colored rectangle in the 2D editor. Stretch mode settings also use this as a reference when using the ``canvas_items`` or ``viewport`` stretch modes. See also :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`, :ref:`display/window/size/window_width_override<class_ProjectSettings_property_display/window/size/window_width_override>` and :ref:`display/window/size/window_height_override<class_ProjectSettings_property_display/window/size/window_height_override>`.
+Establece el ancho del viewport principal del juego. En las plataformas de escritorio, este es también el ancho inicial de la ventana, representado por un rectángulo de color índigo en el editor 2D. Los ajustes del modo de estiramiento también utilizan esto como referencia cuando se utilizan los modos de estiramiento ``canvas_items`` o ``viewport``. Véase también :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`, :ref:`display/window/size/window_width_override<class_ProjectSettings_property_display/window/size/window_width_override>` y :ref:`display/window/size/window_height_override<class_ProjectSettings_property_display/window/size/window_height_override>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4825,9 +4833,9 @@ Sets the game's main viewport width. On desktop platforms, this is also the init
 
 :ref:`int<class_int>` **display/window/size/window_height_override** = ``0`` :ref:`🔗<class_ProjectSettings_property_display/window/size/window_height_override>`
 
-On desktop platforms, overrides the game's initial window height. See also :ref:`display/window/size/window_width_override<class_ProjectSettings_property_display/window/size/window_width_override>`, :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` and :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`.
+En las plataformas de escritorio, sobrescribe la altura inicial de la ventana del juego. Véase también :ref:`display/window/size/window_width_override<class_ProjectSettings_property_display/window/size/window_width_override>`, :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` y :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`.
 
-\ **Note:** By default, or when set to ``0``, the initial window height is the :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`. This setting is ignored on iOS, Android, and Web.
+\ **Nota:** Por defecto, o cuando se establece en ``0``, la altura inicial de la ventana es :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`. Este ajuste se ignora en iOS, Android y Web.
 
 .. rst-class:: classref-item-separator
 
@@ -4839,9 +4847,9 @@ On desktop platforms, overrides the game's initial window height. See also :ref:
 
 :ref:`int<class_int>` **display/window/size/window_width_override** = ``0`` :ref:`🔗<class_ProjectSettings_property_display/window/size/window_width_override>`
 
-On desktop platforms, overrides the game's initial window width. See also :ref:`display/window/size/window_height_override<class_ProjectSettings_property_display/window/size/window_height_override>`, :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` and :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`.
+En plataformas de escritorio, sobrescribe el ancho inicial de la ventana del juego. Véase también :ref:`display/window/size/window_height_override<class_ProjectSettings_property_display/window/size/window_height_override>`, :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` y :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`.
 
-\ **Note:** By default, or when set to ``0``, the initial window width is the :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>`. This setting is ignored on iOS, Android, and Web.
+\ **Nota:** Por defecto, o cuando se establece a ``0``, el ancho inicial de la ventana es el :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>`. Este ajuste se ignora en iOS, Android y Web.
 
 .. rst-class:: classref-item-separator
 
@@ -4885,7 +4893,7 @@ Defines how the base size is stretched to fit the resolution of the window or sc
 
 :ref:`float<class_float>` **display/window/stretch/scale** = ``1.0`` :ref:`🔗<class_ProjectSettings_property_display/window/stretch/scale>`
 
-The scale factor multiplier to use for 2D elements. This multiplies the final scale factor determined by :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>`. If using the **Disabled** stretch mode, this scale factor is applied as-is. This can be adjusted to make the UI easier to read on certain displays.
+El multiplicador del factor de escala a utilizar para los elementos 2D. Esto multiplica el factor de escala final determinado por :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>`. Si utilizas el modo de estiramiento **Desactivado**, este factor de escala se aplica tal cual. Esto se puede ajustar para que la interfaz de usuario sea más fácil de leer en ciertas pantallas.
 
 .. rst-class:: classref-item-separator
 
@@ -4897,13 +4905,13 @@ The scale factor multiplier to use for 2D elements. This multiplies the final sc
 
 :ref:`String<class_String>` **display/window/stretch/scale_mode** = ``"fractional"`` :ref:`🔗<class_ProjectSettings_property_display/window/stretch/scale_mode>`
 
-The policy to use to determine the final scale factor for 2D elements. This affects how :ref:`display/window/stretch/scale<class_ProjectSettings_property_display/window/stretch/scale>` is applied, in addition to the automatic scale factor determined by :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>`.
+La política a utilizar para determinar el factor de escala final para los elementos 2D. Esto afecta a cómo se aplica :ref:`display/window/stretch/scale<class_ProjectSettings_property_display/window/stretch/scale>`, además del factor de escala automático determinado por :ref:`display/window/stretch/mode<class_ProjectSettings_property_display/window/stretch/mode>`.
 
-\ **"fractional"**: The scale factor will not be modified.
+\ **"fractional"**: El factor de escala no se modificará.
 
-\ **"integer"**: The scale factor will be floored to an integer value, which means that the screen size will always be an integer multiple of the base viewport size. This provides a crisp pixel art appearance.
+\ **"integer"**: El factor de escala se redondeará a un valor entero, lo que significa que el tamaño de la pantalla siempre será un múltiplo entero del tamaño base del viewport. Esto proporciona una apariencia nítida de pixel art.
 
-\ **Note:** When using integer scaling with a stretch mode, resizing the window to be smaller than the base viewport size will clip the contents. Consider preventing that by setting :ref:`Window.min_size<class_Window_property_min_size>` to the same value as the base viewport size defined in :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` and :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`.
+\ **Nota:** Cuando se utiliza el escalado entero con un modo de estiramiento, el cambio de tamaño de la ventana para que sea más pequeña que el tamaño base del viewport recortará el contenido. Considera la posibilidad de evitarlo configurando :ref:`Window.min_size<class_Window_property_min_size>` con el mismo valor que el tamaño base del viewport definido en :ref:`display/window/size/viewport_width<class_ProjectSettings_property_display/window/size/viewport_width>` y :ref:`display/window/size/viewport_height<class_ProjectSettings_property_display/window/size/viewport_height>`.
 
 .. rst-class:: classref-item-separator
 
@@ -4953,7 +4961,7 @@ V-Sync can be disabled on the command line using the ``--disable-vsync`` :doc:`c
 
 :ref:`String<class_String>` **dotnet/project/assembly_name** = ``""`` :ref:`🔗<class_ProjectSettings_property_dotnet/project/assembly_name>`
 
-Name of the .NET assembly. This name is used as the name of the ``.csproj`` and ``.sln`` files. By default, it's set to the name of the project (:ref:`application/config/name<class_ProjectSettings_property_application/config/name>`) allowing to change it in the future without affecting the .NET assembly.
+Nombre del ensamblaje .NET. Este nombre se utiliza como nombre de los archivos ``.csproj`` y ``.sln``. Por defecto, se establece al nombre del proyecto (:ref:`application/config/name<class_ProjectSettings_property_application/config/name>`) permitiendo cambiarlo en el futuro sin afectar al ensamblaje .NET.
 
 .. rst-class:: classref-item-separator
 
@@ -4965,7 +4973,7 @@ Name of the .NET assembly. This name is used as the name of the ``.csproj`` and 
 
 :ref:`int<class_int>` **dotnet/project/assembly_reload_attempts** = ``3`` :ref:`🔗<class_ProjectSettings_property_dotnet/project/assembly_reload_attempts>`
 
-Number of times to attempt assembly reloading after rebuilding .NET assemblies. Effectively also the timeout in seconds to wait for unloading of script assemblies to finish.
+Número de veces que se intenta recargar el ensamblaje después de reconstruir los ensamblajes .NET. Efectivamente, también es el tiempo de espera en segundos para que termine la descarga de los ensamblajes de script.
 
 .. rst-class:: classref-item-separator
 
@@ -4977,9 +4985,9 @@ Number of times to attempt assembly reloading after rebuilding .NET assemblies. 
 
 :ref:`String<class_String>` **dotnet/project/solution_directory** = ``""`` :ref:`🔗<class_ProjectSettings_property_dotnet/project/solution_directory>`
 
-Directory that contains the ``.sln`` file. By default, the ``.sln`` files is in the root of the project directory, next to the ``project.godot`` and ``.csproj`` files.
+Directorio que contiene el archivo ``.sln``. Por defecto, los archivos ``.sln`` están en la raíz del directorio del proyecto, junto a los archivos ``project.godot`` y ``.csproj``.
 
-Changing this value allows setting up a multi-project scenario where there are multiple ``.csproj``. Keep in mind that the Godot project is considered one of the C# projects in the workspace and it's root directory should contain the ``project.godot`` and ``.csproj`` next to each other.
+Cambiar este valor permite establecer un escenario de múltiples proyectos donde hay múltiples ``.csproj``. Ten en cuenta que el proyecto Godot se considera uno de los proyectos C# en el espacio de trabajo y su directorio raíz debe contener ``project.godot`` y ``.csproj`` uno al lado del otro.
 
 .. rst-class:: classref-item-separator
 
@@ -4991,11 +4999,11 @@ Changing this value allows setting up a multi-project scenario where there are m
 
 :ref:`bool<class_bool>` **editor/export/convert_text_resources_to_binary** = ``true`` :ref:`🔗<class_ProjectSettings_property_editor/export/convert_text_resources_to_binary>`
 
-If ``true``, text resource (``tres``) and text scene (``tscn``) files are converted to their corresponding binary format on export. This decreases file sizes and speeds up loading slightly.
+Si es ``true``, los archivos de recursos de texto (``tres``) y los archivos de escenas de texto (``tscn``) se convierten a su formato binario correspondiente al exportar. Esto disminuye el tamaño de los archivos y acelera ligeramente la carga.
 
-\ **Note:** Because a resource's file extension may change in an exported project, it is heavily recommended to use :ref:`@GDScript.load()<class_@GDScript_method_load>` or :ref:`ResourceLoader<class_ResourceLoader>` instead of :ref:`FileAccess<class_FileAccess>` to load resources dynamically.
+\ **Nota:** Debido a que la extensión de archivo de un recurso puede cambiar en un proyecto exportado, se recomienda encarecidamente utilizar :ref:`@GDScript.load()<class_@GDScript_method_load>` o :ref:`ResourceLoader<class_ResourceLoader>` en lugar de :ref:`FileAccess<class_FileAccess>` para cargar los recursos dinámicamente.
 
-\ **Note:** The project settings file (``project.godot``) will always be converted to binary on export, regardless of this setting.
+\ **Nota:** El archivo de configuración del proyecto (``project.godot``) siempre se convertirá a binario al exportar, independientemente de este ajuste.
 
 .. rst-class:: classref-item-separator
 
@@ -5007,7 +5015,7 @@ If ``true``, text resource (``tres``) and text scene (``tscn``) files are conver
 
 :ref:`int<class_int>` **editor/import/atlas_max_width** = ``2048`` :ref:`🔗<class_ProjectSettings_property_editor/import/atlas_max_width>`
 
-The maximum width to use when importing textures as an atlas. The value will be rounded to the nearest power of two when used. Use this to prevent imported textures from growing too large in the other direction.
+El ancho máximo a utilizar al importar texturas como un atlas. El valor se redondeará a la potencia de dos más cercana cuando se utilice. Utiliza esto para evitar que las texturas importadas crezcan demasiado en la otra dirección.
 
 .. rst-class:: classref-item-separator
 
@@ -5033,7 +5041,7 @@ The maximum width to use when importing textures as an atlas. The value will be 
 
 :ref:`bool<class_bool>` **editor/import/use_multiple_threads** = ``true`` :ref:`🔗<class_ProjectSettings_property_editor/import/use_multiple_threads>`
 
-If ``true`` importing of resources is run on multiple threads.
+Si es ``true``, la importación de recursos se ejecuta en múltiples hilos.
 
 .. rst-class:: classref-item-separator
 
@@ -5045,9 +5053,9 @@ If ``true`` importing of resources is run on multiple threads.
 
 :ref:`bool<class_bool>` **editor/movie_writer/disable_vsync** = ``false`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/disable_vsync>`
 
-If ``true``, requests V-Sync to be disabled when writing a movie (similar to setting :ref:`display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` to **Disabled**). This can speed up video writing if the hardware is fast enough to render, encode and save the video at a framerate higher than the monitor's refresh rate.
+Si es ``true``, solicita que V-Sync se desactive al escribir una película (similar a establecer :ref:`display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` a **Desactivado**). Esto puede acelerar la escritura de vídeo si el hardware es lo suficientemente rápido para renderizar, codificar y guardar el vídeo a una velocidad de fotogramas superior a la frecuencia de actualización del monitor.
 
-\ **Note:** :ref:`editor/movie_writer/disable_vsync<class_ProjectSettings_property_editor/movie_writer/disable_vsync>` has no effect if the operating system or graphics driver forces V-Sync with no way for applications to disable it.
+\ **Nota:** :ref:`editor/movie_writer/disable_vsync<class_ProjectSettings_property_editor/movie_writer/disable_vsync>` no tiene ningún efecto si el sistema operativo o el controlador de gráficos fuerza V-Sync sin que las aplicaciones puedan desactivarlo.
 
 .. rst-class:: classref-item-separator
 
@@ -5073,7 +5081,7 @@ This can be specified manually on the command line using the ``--fixed-fps <fps>
 
 :ref:`int<class_int>` **editor/movie_writer/mix_rate** = ``48000`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/mix_rate>`
 
-The audio mix rate to use in the recorded audio when writing a movie (in Hz). This can be different from :ref:`audio/driver/mix_rate<class_ProjectSettings_property_audio/driver/mix_rate>`, but this value must be divisible by :ref:`editor/movie_writer/fps<class_ProjectSettings_property_editor/movie_writer/fps>` to prevent audio from desynchronizing over time.
+La frecuencia de mezcla de audio a utilizar en el audio grabado al escribir una película (en Hz). Esto puede ser diferente de :ref:`audio/driver/mix_rate<class_ProjectSettings_property_audio/driver/mix_rate>`, pero este valor debe ser divisible por :ref:`editor/movie_writer/fps<class_ProjectSettings_property_editor/movie_writer/fps>` para evitar que el audio se desincronice con el tiempo.
 
 .. rst-class:: classref-item-separator
 
@@ -5109,9 +5117,9 @@ When using PNG output, the frame number will be appended at the end of the file 
 
 :ref:`float<class_float>` **editor/movie_writer/ogv/audio_quality** = ``0.5`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/ogv/audio_quality>`
 
-The audio encoding quality to use when writing Vorbis audio to a file, between ``-0.1`` and ``1.0`` (inclusive). Higher ``quality`` values result in better-sounding output at the cost of larger file sizes. Even at quality ``1.0``, compression remains lossy.
+La calidad de codificación de audio que se utilizará al escribir audio Vorbis en un archivo, entre ``-0.1`` y ``1.0`` (inclusive). Los valores más altos de ``quality`` dan como resultado una salida con mejor sonido a costa de archivos de mayor tamaño. Incluso con una calidad de ``1.0``, la compresión sigue siendo con pérdida.
 
-\ **Note:** This does not affect video quality, which is controlled by :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>` instead.
+\ **Nota:** Esto no afecta a la calidad del vídeo, que se controla mediante :ref:`editor/movie_writer/video_quality<class_ProjectSettings_property_editor/movie_writer/video_quality>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -5123,7 +5131,7 @@ The audio encoding quality to use when writing Vorbis audio to a file, between `
 
 :ref:`int<class_int>` **editor/movie_writer/ogv/encoding_speed** = ``4`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/ogv/encoding_speed>`
 
-The tradeoff between encoding speed and compression efficiency. Speed ``1`` is the slowest but provides the best compression. Speed ``4`` is the fastest but provides the worst compression. Video quality is generally not affected significantly by this setting.
+El equilibrio entre la velocidad de codificación y la eficiencia de la compresión. La velocidad ``1`` es la más lenta, pero proporciona la mejor compresión. La velocidad ``4`` es la más rápida, pero proporciona la peor compresión. La calidad del vídeo no se ve afectada de forma significativa por este ajuste.
 
 .. rst-class:: classref-item-separator
 
@@ -5135,7 +5143,7 @@ The tradeoff between encoding speed and compression efficiency. Speed ``1`` is t
 
 :ref:`int<class_int>` **editor/movie_writer/ogv/keyframe_interval** = ``64`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/ogv/keyframe_interval>`
 
-Forces keyframes at the specified interval (in frame count). Higher values can improve compression up to a certain level at the expense of higher latency when seeking.
+Fuerza fotogramas clave en el intervalo especificado (en número de fotogramas). Los valores más altos pueden mejorar la compresión hasta un cierto nivel a expensas de una mayor latencia al buscar.
 
 .. rst-class:: classref-item-separator
 
@@ -5147,7 +5155,7 @@ Forces keyframes at the specified interval (in frame count). Higher values can i
 
 :ref:`int<class_int>` **editor/movie_writer/speaker_mode** = ``0`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/speaker_mode>`
 
-The speaker mode to use in the recorded audio when writing a movie. See :ref:`SpeakerMode<enum_AudioServer_SpeakerMode>` for possible values.
+El modo de altavoz a utilizar en el audio grabado al escribir una película. Véase :ref:`SpeakerMode<enum_AudioServer_SpeakerMode>` para ver los valores posibles.
 
 .. rst-class:: classref-item-separator
 
@@ -5159,7 +5167,7 @@ The speaker mode to use in the recorded audio when writing a movie. See :ref:`Sp
 
 :ref:`float<class_float>` **editor/movie_writer/video_quality** = ``0.75`` :ref:`🔗<class_ProjectSettings_property_editor/movie_writer/video_quality>`
 
-The video encoding quality to use when writing a Theora or AVI (MJPEG) video to a file, between ``0.0`` and ``1.0`` (inclusive). Higher ``quality`` values result in better-looking output at the cost of larger file sizes. Recommended ``quality`` values are between ``0.75`` and ``0.9``. Even at quality ``1.0``, compression remains lossy.
+La calidad de codificación de vídeo que se utilizará al escribir un vídeo Theora o AVI (MJPEG) en un archivo, entre ``0.0`` y ``1.0`` (inclusive). Los valores más altos de ``quality`` dan como resultado una salida de mejor aspecto a costa de archivos de mayor tamaño. Los valores de ``quality`` recomendados están entre ``0.75`` y ``0.9``. Incluso con una calidad de ``1.0``, la compresión sigue siendo con pérdida.
 
 .. rst-class:: classref-item-separator
 
@@ -5171,7 +5179,7 @@ The video encoding quality to use when writing a Theora or AVI (MJPEG) video to 
 
 :ref:`String<class_String>` **editor/naming/default_signal_callback_name** = ``"_on_{node_name}_{signal_name}"`` :ref:`🔗<class_ProjectSettings_property_editor/naming/default_signal_callback_name>`
 
-The format of the default signal callback name (in the Signal Connection Dialog). The following substitutions are available: ``{NodeName}``, ``{nodeName}``, ``{node_name}``, ``{SignalName}``, ``{signalName}``, and ``{signal_name}``.
+El formato del nombre de la retrollamada de señal por defecto (en el Diálogo de Conexión de Señal). Las siguientes sustituciones están disponibles: ``{NodeName}``, ``{nodeName}``, ``{node_name}``, ``{SignalName}``, ``{signalName}``, y ``{signal_name}``.
 
 .. rst-class:: classref-item-separator
 
@@ -5195,7 +5203,7 @@ The format of the default signal callback name when a signal connects to the sam
 
 :ref:`int<class_int>` **editor/naming/node_name_casing** = ``0`` :ref:`🔗<class_ProjectSettings_property_editor/naming/node_name_casing>`
 
-When creating node names automatically, set the type of casing to use in this project. This is mostly an editor setting.
+Al crear nombres de nodos automáticamente, establece el tipo de capitalización a usar en este proyecto. Esto es principalmente un ajuste del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -5219,7 +5227,7 @@ Qué usar para separar el nombre del nodo del número. Esto es mayormente un aju
 
 :ref:`int<class_int>` **editor/naming/scene_name_casing** = ``2`` :ref:`🔗<class_ProjectSettings_property_editor/naming/scene_name_casing>`
 
-When generating scene file names from scene root node, set the type of casing to use in this project. This is mostly an editor setting.
+Al generar nombres de archivos de escena desde el nodo raíz de la escena, establece el tipo de capitalización a usar en este proyecto. Esto es principalmente un ajuste del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -5231,7 +5239,7 @@ When generating scene file names from scene root node, set the type of casing to
 
 :ref:`int<class_int>` **editor/naming/script_name_casing** = ``0`` :ref:`🔗<class_ProjectSettings_property_editor/naming/script_name_casing>`
 
-When generating script file names from the selected node, set the type of casing to use in this project. This is mostly an editor setting.
+Al generar nombres de archivos de script desde el nodo seleccionado, establece el tipo de capitalización a usar en este proyecto. Esto es principalmente un ajuste del editor.
 
 .. rst-class:: classref-item-separator
 
@@ -5243,11 +5251,11 @@ When generating script file names from the selected node, set the type of casing
 
 :ref:`String<class_String>` **editor/run/main_run_args** = ``""`` :ref:`🔗<class_ProjectSettings_property_editor/run/main_run_args>`
 
-The command-line arguments to append to Godot's own command line when running the project. This doesn't affect the editor itself.
+Los argumentos de la línea de comandos que se añadirán a la propia línea de comandos de Godot al ejecutar el proyecto. Esto no afecta al editor en sí.
 
-It is possible to make another executable run Godot by using the ``%command%`` placeholder. The placeholder will be replaced with Godot's own command line. Program-specific arguments should be placed *before* the placeholder, whereas Godot-specific arguments should be placed *after* the placeholder.
+Es posible hacer que otro ejecutable ejecute Godot utilizando el marcador de posición ``%command%``. El marcador de posición se reemplazará con la propia línea de comandos de Godot. Los argumentos específicos del programa deben colocarse *antes* del marcador de posición, mientras que los argumentos específicos de Godot deben colocarse *después* del marcador de posición.
 
-For example, this can be used to force the project to run on the dedicated GPU in an NVIDIA Optimus system on Linux:
+Por ejemplo, esto se puede utilizar para forzar la ejecución del proyecto en la GPU dedicada en un sistema NVIDIA Optimus en Linux:
 
 .. code:: text
 
@@ -5277,7 +5285,7 @@ Extensiones de archivo basadas en texto para incluir en la función "Buscar en l
 
 :ref:`String<class_String>` **editor/script/templates_search_path** = ``"res://script_templates"`` :ref:`🔗<class_ProjectSettings_property_editor/script/templates_search_path>`
 
-Search path for project-specific script templates. Godot will search for script templates both in the editor-specific path and in this project-specific path.
+Ruta de búsqueda de plantillas de script específicas del proyecto. Godot buscará plantillas de script tanto en la ruta específica del editor como en esta ruta específica del proyecto.
 
 .. rst-class:: classref-item-separator
 
@@ -5317,9 +5325,9 @@ Search path for project-specific script templates. Godot will search for script 
 
 :ref:`bool<class_bool>` **filesystem/import/blender/enabled** = ``true`` :ref:`🔗<class_ProjectSettings_property_filesystem/import/blender/enabled>`
 
-If ``true``, Blender 3D scene files with the ``.blend`` extension will be imported by converting them to glTF 2.0.
+Si es ``true``, los archivos de escena 3D de Blender con la extensión ``.blend`` se importarán convirtiéndolos a glTF 2.0.
 
-This requires configuring a path to a Blender executable in the :ref:`EditorSettings.filesystem/import/blender/blender_path<class_EditorSettings_property_filesystem/import/blender/blender_path>` setting. Blender 3.0 or later is required.
+Esto requiere configurar una ruta a un ejecutable de Blender en el ajuste :ref:`EditorSettings.filesystem/import/blender/blender_path<class_EditorSettings_property_filesystem/import/blender/blender_path>`. Se requiere Blender 3.0 o posterior.
 
 .. rst-class:: classref-item-separator
 
@@ -5331,7 +5339,7 @@ This requires configuring a path to a Blender executable in the :ref:`EditorSett
 
 :ref:`bool<class_bool>` **filesystem/import/blender/enabled.android** = ``false`` :ref:`🔗<class_ProjectSettings_property_filesystem/import/blender/enabled.android>`
 
-Override for :ref:`filesystem/import/blender/enabled<class_ProjectSettings_property_filesystem/import/blender/enabled>` on Android where Blender can't easily be accessed from Godot.
+Sobrescritura para :ref:`filesystem/import/blender/enabled<class_ProjectSettings_property_filesystem/import/blender/enabled>` en Android donde Blender no puede ser accedido fácilmente desde Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -5343,7 +5351,7 @@ Override for :ref:`filesystem/import/blender/enabled<class_ProjectSettings_prope
 
 :ref:`bool<class_bool>` **filesystem/import/blender/enabled.web** = ``false`` :ref:`🔗<class_ProjectSettings_property_filesystem/import/blender/enabled.web>`
 
-Override for :ref:`filesystem/import/blender/enabled<class_ProjectSettings_property_filesystem/import/blender/enabled>` on the Web where Blender can't easily be accessed from Godot.
+Sobrescritura para :ref:`filesystem/import/blender/enabled<class_ProjectSettings_property_filesystem/import/blender/enabled>` en la Web donde Blender no puede ser accedido fácilmente desde Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -5355,9 +5363,9 @@ Override for :ref:`filesystem/import/blender/enabled<class_ProjectSettings_prope
 
 :ref:`bool<class_bool>` **filesystem/import/fbx2gltf/enabled** = ``true`` :ref:`🔗<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>`
 
-If ``true``, Autodesk FBX 3D scene files with the ``.fbx`` extension will be imported by converting them to glTF 2.0.
+Si es ``true``, los archivos de escena 3D Autodesk FBX con la extensión ``.fbx`` se importarán convirtiéndolos a glTF 2.0.
 
-This requires configuring a path to an FBX2glTF executable in the editor settings at :ref:`EditorSettings.filesystem/import/fbx/fbx2gltf_path<class_EditorSettings_property_filesystem/import/fbx/fbx2gltf_path>`.
+Esto requiere configurar una ruta a un ejecutable FBX2glTF en los ajustes del editor en :ref:`EditorSettings.filesystem/import/fbx/fbx2gltf_path<class_EditorSettings_property_filesystem/import/fbx/fbx2gltf_path>`.
 
 .. rst-class:: classref-item-separator
 
@@ -5369,7 +5377,7 @@ This requires configuring a path to an FBX2glTF executable in the editor setting
 
 :ref:`bool<class_bool>` **filesystem/import/fbx2gltf/enabled.android** = ``false`` :ref:`🔗<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled.android>`
 
-Override for :ref:`filesystem/import/fbx2gltf/enabled<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>` on Android where FBX2glTF can't easily be accessed from Godot.
+Sobrescritura para :ref:`filesystem/import/fbx2gltf/enabled<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>` en Android donde FBX2glTF no puede ser accedido fácilmente desde Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -5381,7 +5389,7 @@ Override for :ref:`filesystem/import/fbx2gltf/enabled<class_ProjectSettings_prop
 
 :ref:`bool<class_bool>` **filesystem/import/fbx2gltf/enabled.web** = ``false`` :ref:`🔗<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled.web>`
 
-Override for :ref:`filesystem/import/fbx2gltf/enabled<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>` on the Web where FBX2glTF can't easily be accessed from Godot.
+Sobrescritura para :ref:`filesystem/import/fbx2gltf/enabled<class_ProjectSettings_property_filesystem/import/fbx2gltf/enabled>` en la Web donde FBX2glTF no puede ser accedido fácilmente desde Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -5405,7 +5413,7 @@ Valor por defecto para :ref:`ScrollContainer.scroll_deadzone<class_ScrollContain
 
 :ref:`bool<class_bool>` **gui/common/snap_controls_to_pixels** = ``true`` :ref:`🔗<class_ProjectSettings_property_gui/common/snap_controls_to_pixels>`
 
-If ``true``, snaps :ref:`Control<class_Control>` node vertices to the nearest pixel to ensure they remain crisp even when the camera moves or zooms.
+Si es ``true``, ajusta los vértices del nodo :ref:`Control<class_Control>` al píxel más cercano para asegurar que permanezcan nítidos incluso cuando la cámara se mueve o hace zoom.
 
 .. rst-class:: classref-item-separator
 
@@ -6133,7 +6141,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to delete all characters
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_backspace_word.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_backspace_word.macos>`
 
-Anulación específica de macOS para el acceso directo para eliminar una palabra.
+Sobrescritura específica de macOS para el acceso directo para eliminar una palabra.
 
 .. rst-class:: classref-item-separator
 
@@ -6157,7 +6165,7 @@ Anulación específica de macOS para el acceso directo para eliminar una palabra
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_add_above.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_add_above.macos>`
 
-Anulación específica de macOS para el acceso directo para agregar un cursor encima de cada cursor.
+Sobrescritura específica de macOS para el acceso directo para agregar un cursor encima de cada cursor.
 
 .. rst-class:: classref-item-separator
 
@@ -6181,7 +6189,7 @@ Anulación específica de macOS para el acceso directo para agregar un cursor en
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_add_below.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_add_below.macos>`
 
-Anulación específica de macOS para el acceso directo para agregar un cursor debajo de cada cursor.
+Sobrescritura específica de macOS para el acceso directo para agregar un cursor debajo de cada cursor.
 
 .. rst-class:: classref-item-separator
 
@@ -6207,7 +6215,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to move the text cursor 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_document_end.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_document_end.macos>`
 
-Anulación específica de macOS para el acceso directo para mover el cursor de texto al final del texto.
+Sobrescritura específica de macOS para el acceso directo para mover el cursor de texto al final del texto.
 
 .. rst-class:: classref-item-separator
 
@@ -6233,7 +6241,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to move the text cursor 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_document_start.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_document_start.macos>`
 
-Anulación específica de macOS para el acceso directo para mover el cursor de texto al inicio del texto.
+Sobrescritura específica de macOS para el acceso directo para mover el cursor de texto al inicio del texto.
 
 .. rst-class:: classref-item-separator
 
@@ -6287,7 +6295,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to move the text cursor 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_line_end.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_line_end.macos>`
 
-Anulación específica de macOS para el acceso directo para mover el cursor de texto al final de la línea.
+Sobrescritura específica de macOS para el acceso directo para mover el cursor de texto al final de la línea.
 
 .. rst-class:: classref-item-separator
 
@@ -6313,7 +6321,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to move the text cursor 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_line_start.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_line_start.macos>`
 
-Anulación específica de macOS para el acceso directo para mover el cursor de texto al inicio de la línea.
+Sobrescritura específica de macOS para el acceso directo para mover el cursor de texto al inicio de la línea.
 
 .. rst-class:: classref-item-separator
 
@@ -6395,7 +6403,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to move the text cursor 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_word_left.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_word_left.macos>`
 
-Anulación específica de macOS para el acceso directo para mover el cursor de texto una palabra hacia atrás.
+Sobrescritura específica de macOS para el acceso directo para mover el cursor de texto una palabra hacia atrás.
 
 .. rst-class:: classref-item-separator
 
@@ -6421,7 +6429,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to move the text cursor 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_caret_word_right.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_caret_word_right.macos>`
 
-Anulación específica de macOS para el acceso directo para mover el cursor de texto una palabra hacia adelante.
+Sobrescritura específica de macOS para el acceso directo para mover el cursor de texto una palabra hacia adelante.
 
 .. rst-class:: classref-item-separator
 
@@ -6533,7 +6541,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to delete **all** text a
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_delete_all_to_right.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_delete_all_to_right.macos>`
 
-Anulación específica de macOS para el acceso directo para eliminar todo el texto después del cursor de texto.
+Sobrescritura específica de macOS para el acceso directo para eliminar todo el texto después del cursor de texto.
 
 .. rst-class:: classref-item-separator
 
@@ -6559,7 +6567,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to delete all characters
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_delete_word.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_delete_word.macos>`
 
-Anulación específica de macOS para el acceso directo para eliminar una palabra después del cursor de texto.
+Sobrescritura específica de macOS para el acceso directo para eliminar una palabra después del cursor de texto.
 
 .. rst-class:: classref-item-separator
 
@@ -6641,7 +6649,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to scroll down one line 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_scroll_down.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_scroll_down.macos>`
 
-Anulación específica de macOS para el acceso directo para desplazarse hacia abajo una línea.
+Sobrescritura específica de macOS para el acceso directo para desplazarse hacia abajo una línea.
 
 .. rst-class:: classref-item-separator
 
@@ -6667,7 +6675,7 @@ Default :ref:`InputEventAction<class_InputEventAction>` to scroll up one line of
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_scroll_up.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_scroll_up.macos>`
 
-Anulación específica de macOS para el acceso directo para desplazarse hacia arriba una línea.
+Sobrescritura específica de macOS para el acceso directo para desplazarse hacia arriba una línea.
 
 .. rst-class:: classref-item-separator
 
@@ -6707,7 +6715,7 @@ If no selection is currently active, selects the word currently under the caret 
 
 :ref:`Dictionary<class_Dictionary>` **input/ui_text_select_word_under_caret.macos** :ref:`🔗<class_ProjectSettings_property_input/ui_text_select_word_under_caret.macos>`
 
-Anulación específica de macOS para el acceso directo para seleccionar la palabra que se encuentra actualmente debajo del cursor.
+Sobrescritura específica de macOS para el acceso directo para seleccionar la palabra que se encuentra actualmente debajo del cursor.
 
 .. rst-class:: classref-item-separator
 
@@ -6825,11 +6833,11 @@ Enabling this can greatly improve the responsiveness to input, specially in devi
 
 :ref:`bool<class_bool>` **input_devices/compatibility/legacy_just_pressed_behavior** = ``false`` :ref:`🔗<class_ProjectSettings_property_input_devices/compatibility/legacy_just_pressed_behavior>`
 
-If ``true``, :ref:`Input.is_action_just_pressed()<class_Input_method_is_action_just_pressed>` and :ref:`Input.is_action_just_released()<class_Input_method_is_action_just_released>` will only return ``true`` if the action is still in the respective state, i.e. an action that is pressed *and* released on the same frame will be missed.
+Si es ``true``, :ref:`Input.is_action_just_pressed()<class_Input_method_is_action_just_pressed>` y :ref:`Input.is_action_just_released()<class_Input_method_is_action_just_released>` solo devolverán ``true`` si la acción todavía está en el estado respectivo, es decir, una acción que se presiona *y* se suelta en el mismo fotograma no se detectará.
 
-If ``false``, no input will be lost.
+Si es ``false``, no se perderá ninguna entrada.
 
-\ **Note:** You should in nearly all cases prefer the ``false`` setting. The legacy behavior is to enable supporting old projects that rely on the old logic, without changes to script.
+\ **Nota:** En casi todos los casos deberías preferir la configuración ``false``. El comportamiento heredado está habilitado para dar soporte a proyectos antiguos que dependen de la lógica anterior, sin cambios en el script.
 
 .. rst-class:: classref-item-separator
 
@@ -6841,11 +6849,11 @@ If ``false``, no input will be lost.
 
 :ref:`String<class_String>` **input_devices/pen_tablet/driver** :ref:`🔗<class_ProjectSettings_property_input_devices/pen_tablet/driver>`
 
-Specifies the tablet driver to use. If left empty, the default driver will be used.
+Especifica el controlador de tableta a usar. Si se deja vacío, se usará el controlador predeterminado.
 
-\ **Note:** The driver in use can be overridden at runtime via the ``--tablet-driver`` :doc:`command line argument <../tutorials/editor/command_line_tutorial>`.
+\ **Nota:**\ El controlador en uso puede ser sobrescrito en tiempo de ejecución mediante el ``--tablet-driver`` :doc:`argumento de línea de comandos <../tutorials/editor/command_line_tutorial>`.
 
-\ **Note:** Use :ref:`DisplayServer.tablet_set_current_driver()<class_DisplayServer_method_tablet_set_current_driver>` to switch tablet driver in runtime.
+\ **Nota:**\ Usa :ref:`DisplayServer.tablet_set_current_driver()<class_DisplayServer_method_tablet_set_current_driver>` para cambiar el controlador de tableta en tiempo de ejecución.
 
 .. rst-class:: classref-item-separator
 
@@ -9707,6 +9715,30 @@ If enabled 2D navigation regions will use edge connections to connect with other
 
 ----
 
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_cell_size_mismatch>`
+
+If ``true``, the navigation system will print warnings when a navigation mesh with a small cell size is used on a navigation map with a larger size as this commonly causes rasterization errors.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/2d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/2d/warnings/navmesh_edge_merge_errors>`
+
+If ``true``, the navigation system will print warnings about navigation mesh edge merge errors occurring in navigation regions or maps.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ProjectSettings_property_navigation/3d/default_cell_height:
 
 .. rst-class:: classref-property
@@ -9786,6 +9818,30 @@ Default merge rasterizer cell scale for 3D navigation maps. See :ref:`Navigation
 :ref:`bool<class_bool>` **navigation/3d/use_edge_connections** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/use_edge_connections>`
 
 If enabled 3D navigation regions will use edge connections to connect with other navigation regions within proximity of the navigation map edge connection margin. This setting only affects World3D default navigation maps.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_cell_size_mismatch** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_cell_size_mismatch>`
+
+If ``true``, the navigation system will print warnings when a navigation mesh with a small cell size (or in 3D height) is used on a navigation map with a larger size as this commonly causes rasterization errors.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **navigation/3d/warnings/navmesh_edge_merge_errors** = ``true`` :ref:`🔗<class_ProjectSettings_property_navigation/3d/warnings/navmesh_edge_merge_errors>`
+
+If ``true``, the navigation system will print warnings about navigation mesh edge merge errors occurring in navigation regions or maps.
 
 .. rst-class:: classref-item-separator
 
@@ -9991,9 +10047,9 @@ If in doubt, leave this setting empty.
 
 :ref:`bool<class_bool>` **network/tls/enable_tls_v1.3** = ``true`` :ref:`🔗<class_ProjectSettings_property_network/tls/enable_tls_v1.3>`
 
-If ``true``, enable TLSv1.3 negotiation.
+Si es ``true``, habilita la negociación TLSv1.3.
 
-\ **Note:** Only supported when using Mbed TLS 3.0 or later (Linux distribution packages may be compiled against older system Mbed TLS packages), otherwise the maximum supported TLS version is always TLSv1.2.
+\ **Nota:** Solo se admite cuando se utiliza Mbed TLS 3.0 o posterior (los paquetes de distribución de Linux pueden compilarse con paquetes Mbed TLS del sistema más antiguos); de lo contrario, la versión máxima de TLS admitida es siempre TLSv1.2.
 
 .. rst-class:: classref-item-separator
 
@@ -10867,7 +10923,7 @@ The minimum velocity needed before a collision can be bouncy, in meters per seco
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/continuous_cd_max_penetration** = ``0.25`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/continuous_cd_max_penetration>`
 
-Fraction of a body's inner radius that may penetrate another body while using continuous collision detection.
+Fracción del radio interior de un cuerpo que puede penetrar otro cuerpo mientras se usa la detección continua de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -10879,7 +10935,7 @@ Fraction of a body's inner radius that may penetrate another body while using co
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/continuous_cd_movement_threshold** = ``0.75`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/continuous_cd_movement_threshold>`
 
-Fraction of a body's inner radius that the body must move per step to make use of continuous collision detection.
+Fracción del radio interior de un cuerpo que el cuerpo debe moverse por paso para hacer uso de la detección continua de colisión.
 
 .. rst-class:: classref-item-separator
 
@@ -10905,7 +10961,7 @@ If ``true``, a :ref:`RigidBody3D<class_RigidBody3D>` frozen with :ref:`RigidBody
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/penetration_slop** = ``0.02`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/penetration_slop>`
 
-How much bodies are allowed to penetrate each other, in meters.
+Cantidad que se permite que los cuerpos se penetren entre sí, en metros.
 
 .. rst-class:: classref-item-separator
 
@@ -10917,7 +10973,7 @@ How much bodies are allowed to penetrate each other, in meters.
 
 :ref:`int<class_int>` **physics/jolt_physics_3d/simulation/position_steps** = ``2`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/position_steps>`
 
-Number of solver position iterations. The greater the number of iterations, the more accurate the simulation will be, at the cost of CPU performance.
+Número de iteraciones de posición del solucionador. Cuanto mayor sea el número de iteraciones, más precisa será la simulación, a costa del rendimiento de la CPU.
 
 .. rst-class:: classref-item-separator
 
@@ -10929,7 +10985,7 @@ Number of solver position iterations. The greater the number of iterations, the 
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/sleep_time_threshold** = ``0.5`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/sleep_time_threshold>`
 
-Time in seconds a :ref:`RigidBody3D<class_RigidBody3D>` will spend below the sleep velocity threshold before going to sleep.
+Tiempo en segundos que un :ref:`RigidBody3D<class_RigidBody3D>` pasará por debajo del umbral de velocidad de reposo antes de entrar en reposo.
 
 .. rst-class:: classref-item-separator
 
@@ -10941,7 +10997,7 @@ Time in seconds a :ref:`RigidBody3D<class_RigidBody3D>` will spend below the sle
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/sleep_velocity_threshold** = ``0.03`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/sleep_velocity_threshold>`
 
-The linear velocity of specific points on the bounding box of a :ref:`RigidBody3D<class_RigidBody3D>`, below which it can be put to sleep, in meters per second. These points help capture both the linear and angular motion of a :ref:`RigidBody3D<class_RigidBody3D>`.
+La velocidad lineal de puntos específicos en la caja delimitadora de un :ref:`RigidBody3D<class_RigidBody3D>`, por debajo de la cual puede ser puesto a dormir, en metros por segundo. Estos puntos ayudan a capturar tanto el movimiento lineal como angular de un :ref:`RigidBody3D<class_RigidBody3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -10953,7 +11009,7 @@ The linear velocity of specific points on the bounding box of a :ref:`RigidBody3
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/soft_body_point_radius** = ``0.01`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/soft_body_point_radius>`
 
-How big the points of a :ref:`SoftBody3D<class_SoftBody3D>` are, in meters. A higher value can prevent behavior such as cloth laying perfectly flush against other surfaces and causing Z-fighting.
+Qué tan grandes son los puntos de un :ref:`SoftBody3D<class_SoftBody3D>`, en metros. Un valor más alto puede evitar comportamientos como que la tela quede perfectamente al ras de otras superficies y cause Z-fighting.
 
 .. rst-class:: classref-item-separator
 
@@ -10965,9 +11021,9 @@ How big the points of a :ref:`SoftBody3D<class_SoftBody3D>` are, in meters. A hi
 
 :ref:`float<class_float>` **physics/jolt_physics_3d/simulation/speculative_contact_distance** = ``0.02`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/speculative_contact_distance>`
 
-Radius around physics bodies, inside which speculative contact points will be detected, in meters. This is mainly used to prevent tunneling/penetration for :ref:`RigidBody3D<class_RigidBody3D>` nodes during simulation.
+Radio alrededor de los cuerpos físicos, dentro del cual se detectarán puntos de contacto especulativos, en metros. Esto se utiliza principalmente para evitar la tunelización/penetración de los nodos :ref:`RigidBody3D<class_RigidBody3D>` durante la simulación.
 
-\ **Note:** Setting this too high may result in ghost collisions, as speculative contacts are based on the closest points during the collision detection step which may not be the actual closest points by the time the two bodies hit.
+\ **Nota:** Establecer esto demasiado alto puede resultar en colisiones fantasma, ya que los contactos especulativos se basan en los puntos más cercanos durante el paso de detección de colisiones, que pueden no ser los puntos más cercanos reales cuando los dos cuerpos chocan.
 
 .. rst-class:: classref-item-separator
 
@@ -10979,7 +11035,7 @@ Radius around physics bodies, inside which speculative contact points will be de
 
 :ref:`bool<class_bool>` **physics/jolt_physics_3d/simulation/use_enhanced_internal_edge_removal** = ``true`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/use_enhanced_internal_edge_removal>`
 
-If ``true``, enables Jolt's enhanced internal edge removal for :ref:`RigidBody3D<class_RigidBody3D>`. This can help alleviate ghost collisions when, for example, a :ref:`RigidBody3D<class_RigidBody3D>` collides with the edges of two perfectly joined :ref:`BoxShape3D<class_BoxShape3D>`. The removal only applies to edges internal to a single body, meaning edges between separate bodies can still cause ghost collisions.
+Si es ``true``, habilita la eliminación de bordes internos mejorada de Jolt para :ref:`RigidBody3D<class_RigidBody3D>`. Esto puede ayudar a aliviar las colisiones fantasma cuando, por ejemplo, un :ref:`RigidBody3D<class_RigidBody3D>` colisiona con los bordes de dos :ref:`BoxShape3D<class_BoxShape3D>` perfectamente unidos. La eliminación solo se aplica a los bordes internos de un solo cuerpo, lo que significa que los bordes entre cuerpos separados aún pueden causar colisiones fantasma.
 
 .. rst-class:: classref-item-separator
 
@@ -10991,9 +11047,9 @@ If ``true``, enables Jolt's enhanced internal edge removal for :ref:`RigidBody3D
 
 :ref:`int<class_int>` **physics/jolt_physics_3d/simulation/velocity_steps** = ``10`` :ref:`🔗<class_ProjectSettings_property_physics/jolt_physics_3d/simulation/velocity_steps>`
 
-Number of solver velocity iterations. The greater the number of iterations, the more accurate the simulation will be, at the cost of CPU performance.
+Número de iteraciones de velocidad del solucionador. Cuanto mayor sea el número de iteraciones, más precisa será la simulación, a costa del rendimiento de la CPU.
 
-\ **Note:** This needs to be at least ``2`` in order for friction to work, as friction is applied using the non-penetration impulse from the previous iteration.
+\ **Nota:** Esto debe ser al menos ``2`` para que la fricción funcione, ya que la fricción se aplica utilizando el impulso de no penetración de la iteración anterior.
 
 .. rst-class:: classref-item-separator
 
@@ -11017,9 +11073,9 @@ Maximum number of canvas item commands that can be batched into a single draw ca
 
 :ref:`int<class_int>` **rendering/2d/batching/uniform_set_cache_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/2d/batching/uniform_set_cache_size>`
 
-Maximum number of uniform sets that will be cached by the 2D renderer when batching draw calls.
+Número máximo de conjuntos uniformes que la renderización 2D almacenará en caché al procesar llamadas de dibujo por lotes.
 
-\ **Note:** Increasing this value can improve performance if the project renders many unique sprite textures every frame.
+\ **Nota:** Aumentar este valor puede mejorar el rendimiento si el proyecto renderiza muchas texturas de sprite únicas cada fotograma.
 
 .. rst-class:: classref-item-separator
 
@@ -11047,9 +11103,9 @@ The percentage specified is added on each axis and on both sides. For example, w
 
 :ref:`int<class_int>` **rendering/2d/sdf/scale** = ``1`` :ref:`🔗<class_ProjectSettings_property_rendering/2d/sdf/scale>`
 
-The resolution scale to use for the 2D signed distance field. Higher values lead to a more precise and more stable signed distance field as the camera moves, at the cost of performance. The default value (50%) renders at half the resolution of the viewport size on each axis, which means the SDF is generated with 25% of the viewport's pixel count.
+La escala de resolución a usar para el campo de distancia firmado 2D. Los valores más altos conducen a un campo de distancia firmado más preciso y estable a medida que la cámara se mueve, a costa del rendimiento. El valor predeterminado (50%) se renderiza a la mitad de la resolución del tamaño de la ventana gráfica en cada eje, lo que significa que el SDF se genera con el 25% del recuento de píxeles de la ventana gráfica.
 
-\ **Note:** This property is only read when the project starts. To change the 2D SDF resolution scale at runtime, use :ref:`RenderingServer.viewport_set_sdf_oversize_and_scale()<class_RenderingServer_method_viewport_set_sdf_oversize_and_scale>` instead.
+\ **Nota:** Esta propiedad solo se lee cuando se inicia el proyecto. Para cambiar la escala de resolución SDF 2D en tiempo de ejecución, usa :ref:`RenderingServer.viewport_set_sdf_oversize_and_scale()<class_RenderingServer_method_viewport_set_sdf_oversize_and_scale>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -11061,9 +11117,9 @@ The resolution scale to use for the 2D signed distance field. Higher values lead
 
 :ref:`int<class_int>` **rendering/2d/shadow_atlas/size** = ``2048`` :ref:`🔗<class_ProjectSettings_property_rendering/2d/shadow_atlas/size>`
 
-The size of the 2D shadow atlas in pixels. Higher values result in more precise :ref:`Light2D<class_Light2D>` shadows, at the cost of performance and video memory usage. The specified value is rounded up to the nearest power of 2.
+El tamaño del atlas de sombras 2D en píxeles. Los valores más altos dan como resultado sombras :ref:`Light2D<class_Light2D>` más precisas, a costa del rendimiento y el uso de memoria de vídeo. El valor especificado se redondea a la potencia de 2 más cercana.
 
-\ **Note:** This property is only read when the project starts. To change the 2D shadow atlas size at runtime, use :ref:`RenderingServer.canvas_set_shadow_texture_size()<class_RenderingServer_method_canvas_set_shadow_texture_size>` instead.
+\ **Nota:** Esta propiedad solo se lee cuando se inicia el proyecto. Para cambiar el tamaño del atlas de sombras 2D en tiempo de ejecución, usa :ref:`RenderingServer.canvas_set_shadow_texture_size()<class_RenderingServer_method_canvas_set_shadow_texture_size>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -11159,9 +11215,9 @@ Another way to combat specular aliasing is to enable :ref:`rendering/anti_aliasi
 
 :ref:`float<class_float>` **rendering/anti_aliasing/quality/smaa_edge_detection_threshold** = ``0.05`` :ref:`🔗<class_ProjectSettings_property_rendering/anti_aliasing/quality/smaa_edge_detection_threshold>`
 
-Sets the sensitivity to edges when using SMAA for antialiasing. Lower values will catch more edges, at a potentially higher performance cost.
+Establece la sensibilidad a los bordes al usar SMAA para el antialiasing. Los valores más bajos captarán más bordes, a un costo de rendimiento potencialmente mayor.
 
-\ **Note:** This property is only read when the project starts. There is currently no way to change this setting at run-time.
+\ **Nota:** Esta propiedad solo se lee cuando se inicia el proyecto. Actualmente no hay forma de cambiar esta configuración en tiempo de ejecución.
 
 .. rst-class:: classref-item-separator
 
@@ -11207,7 +11263,7 @@ Enables temporal antialiasing for the default screen :ref:`Viewport<class_Viewpo
 
 :ref:`float<class_float>` **rendering/anti_aliasing/screen_space_roughness_limiter/amount** = ``0.25`` :ref:`🔗<class_ProjectSettings_property_rendering/anti_aliasing/screen_space_roughness_limiter/amount>`
 
-**Note:** This property is only read when the project starts. To control the screen-space roughness limiter at runtime, call :ref:`RenderingServer.screen_space_roughness_limiter_set_active()<class_RenderingServer_method_screen_space_roughness_limiter_set_active>` instead.
+**Nota:** Esta propiedad solo se lee cuando se inicia el proyecto. Para controlar el limitador de rugosidad del espacio de la pantalla en tiempo de ejecución, llama a :ref:`RenderingServer.screen_space_roughness_limiter_set_active()<class_RenderingServer_method_screen_space_roughness_limiter_set_active>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -11235,7 +11291,7 @@ If ``true``, enables a spatial filter to limit roughness in areas with high-freq
 
 :ref:`float<class_float>` **rendering/anti_aliasing/screen_space_roughness_limiter/limit** = ``0.18`` :ref:`🔗<class_ProjectSettings_property_rendering/anti_aliasing/screen_space_roughness_limiter/limit>`
 
-**Note:** This property is only read when the project starts. To control the screen-space roughness limiter at runtime, call :ref:`RenderingServer.screen_space_roughness_limiter_set_active()<class_RenderingServer_method_screen_space_roughness_limiter_set_active>` instead.
+**Nota:** Esta propiedad solo se lee cuando se inicia el proyecto. Para controlar el limitador de rugosidad del espacio de la pantalla en tiempo de ejecución, llama a :ref:`RenderingServer.screen_space_roughness_limiter_set_active()<class_RenderingServer_method_screen_space_roughness_limiter_set_active>` en su lugar.
 
 .. rst-class:: classref-item-separator
 
@@ -11247,7 +11303,7 @@ If ``true``, enables a spatial filter to limit roughness in areas with high-freq
 
 :ref:`int<class_int>` **rendering/camera/depth_of_field/depth_of_field_bokeh_quality** = ``1`` :ref:`🔗<class_ProjectSettings_property_rendering/camera/depth_of_field/depth_of_field_bokeh_quality>`
 
-Sets the quality of the depth of field effect. Higher quality takes more samples, which is slower but looks smoother.
+Establece la calidad del efecto de profundidad de campo. Una mayor calidad toma más muestras, lo que es más lento pero se ve más suave.
 
 .. rst-class:: classref-item-separator
 
@@ -11271,7 +11327,7 @@ Sets the depth of field shape. Can be Box, Hexagon, or Circle. Box is the fastes
 
 :ref:`bool<class_bool>` **rendering/camera/depth_of_field/depth_of_field_use_jitter** = ``false`` :ref:`🔗<class_ProjectSettings_property_rendering/camera/depth_of_field/depth_of_field_use_jitter>`
 
-If ``true``, jitters DOF samples to make effect slightly blurrier and hide lines created from low sample rates. This can result in a slightly grainy appearance when used with a low number of samples.
+Si es ``true``, aplica fluctuación a las muestras DOF para que el efecto sea ligeramente más borroso y oculte las líneas creadas a partir de bajas tasas de muestreo. Esto puede resultar en una apariencia ligeramente granulada cuando se usa con un número bajo de muestras.
 
 .. rst-class:: classref-item-separator
 
@@ -11283,7 +11339,7 @@ If ``true``, jitters DOF samples to make effect slightly blurrier and hide lines
 
 :ref:`String<class_String>` **rendering/driver/depth_prepass/disable_for_vendors** = ``"PowerVR,Mali,Adreno,Apple"`` :ref:`🔗<class_ProjectSettings_property_rendering/driver/depth_prepass/disable_for_vendors>`
 
-Disables :ref:`rendering/driver/depth_prepass/enable<class_ProjectSettings_property_rendering/driver/depth_prepass/enable>` conditionally for certain vendors. By default, disables the depth prepass for mobile devices as mobile devices do not benefit from the depth prepass due to their unique architecture.
+Deshabilita :ref:`rendering/driver/depth_prepass/enable<class_ProjectSettings_property_rendering/driver/depth_prepass/enable>` condicionalmente para ciertos proveedores. Por defecto, deshabilita el pre-pase de profundidad para dispositivos móviles, ya que estos no se benefician de él debido a su arquitectura única.
 
 .. rst-class:: classref-item-separator
 
@@ -11409,7 +11465,7 @@ Number of blur passes to use when computing screen-space ambient occlusion. A hi
 
 :ref:`float<class_float>` **rendering/environment/ssao/fadeout_from** = ``50.0`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssao/fadeout_from>`
 
-Distance at which the screen-space ambient occlusion effect starts to fade out. Use this hide ambient occlusion from far away.
+Distancia a la que el efecto de oclusión ambiental en espacio de pantalla comienza a desvanecerse. Usa esto para ocultar la oclusión ambiental desde lejos.
 
 .. rst-class:: classref-item-separator
 
@@ -11421,7 +11477,7 @@ Distance at which the screen-space ambient occlusion effect starts to fade out. 
 
 :ref:`float<class_float>` **rendering/environment/ssao/fadeout_to** = ``300.0`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssao/fadeout_to>`
 
-Distance at which the screen-space ambient occlusion is fully faded out. Use this hide ambient occlusion from far away.
+Distancia a la que la oclusión ambiental en espacio de pantalla está completamente desvanecida. Usa esto para ocultar la oclusión ambiental desde lejos.
 
 .. rst-class:: classref-item-separator
 
@@ -11433,7 +11489,7 @@ Distance at which the screen-space ambient occlusion is fully faded out. Use thi
 
 :ref:`bool<class_bool>` **rendering/environment/ssao/half_size** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssao/half_size>`
 
-If ``true``, screen-space ambient occlusion will be rendered at half size and then upscaled before being added to the scene. This is significantly faster but may miss small details. If ``false``, screen-space ambient occlusion will be rendered at full size.
+Si ``true``, la oclusión ambiental en espacio de pantalla se renderizará a la mitad de tamaño y luego se aumentará antes de agregarse a la escena. Esto es significativamente más rápido pero puede perder pequeños detalles. Si ``false``, la oclusión ambiental en espacio de pantalla se renderizará a tamaño completo.
 
 .. rst-class:: classref-item-separator
 
@@ -11445,7 +11501,7 @@ If ``true``, screen-space ambient occlusion will be rendered at half size and th
 
 :ref:`int<class_int>` **rendering/environment/ssao/quality** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssao/quality>`
 
-Sets the quality of the screen-space ambient occlusion effect. Higher values take more samples and so will result in better quality, at the cost of performance. Setting to ``Ultra`` will use the :ref:`rendering/environment/ssao/adaptive_target<class_ProjectSettings_property_rendering/environment/ssao/adaptive_target>` setting.
+Establece la calidad del efecto de oclusión ambiental en espacio de pantalla. Los valores más altos toman más muestras y, por lo tanto, resultarán en una mejor calidad, a costa del rendimiento. Establecer en ``Ultra`` utilizará el ajuste :ref:`rendering/environment/ssao/adaptive_target<class_ProjectSettings_property_rendering/environment/ssao/adaptive_target>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11457,7 +11513,7 @@ Sets the quality of the screen-space ambient occlusion effect. Higher values tak
 
 :ref:`float<class_float>` **rendering/environment/ssil/adaptive_target** = ``0.5`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssil/adaptive_target>`
 
-Quality target to use when :ref:`rendering/environment/ssil/quality<class_ProjectSettings_property_rendering/environment/ssil/quality>` is set to ``Ultra``. A value of ``0.0`` provides a quality and speed similar to ``Medium`` while a value of ``1.0`` provides much higher quality than any of the other settings at the cost of performance. When using the adaptive target, the performance cost scales with the complexity of the scene.
+Objetivo de calidad a utilizar cuando :ref:`rendering/environment/ssil/quality<class_ProjectSettings_property_rendering/environment/ssil/quality>` está establecido en ``Ultra``. Un valor de ``0.0`` proporciona una calidad y velocidad similar a ``Medium`` mientras que un valor de ``1.0`` proporciona una calidad mucho mayor que cualquiera de los otros ajustes a costa del rendimiento. Cuando se utiliza el objetivo adaptativo, el coste de rendimiento se escala con la complejidad de la escena.
 
 .. rst-class:: classref-item-separator
 
@@ -11469,7 +11525,7 @@ Quality target to use when :ref:`rendering/environment/ssil/quality<class_Projec
 
 :ref:`int<class_int>` **rendering/environment/ssil/blur_passes** = ``4`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssil/blur_passes>`
 
-Number of blur passes to use when computing screen-space indirect lighting. A higher number will result in a smoother look, but will be slower to compute and will have less high-frequency detail.
+Número de pases de desenfoque a utilizar al calcular la iluminación indirecta en espacio de pantalla. Un número mayor resultará en un aspecto más suave, pero será más lento de calcular y tendrá menos detalles de alta frecuencia.
 
 .. rst-class:: classref-item-separator
 
@@ -11481,7 +11537,7 @@ Number of blur passes to use when computing screen-space indirect lighting. A hi
 
 :ref:`float<class_float>` **rendering/environment/ssil/fadeout_from** = ``50.0`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssil/fadeout_from>`
 
-Distance at which the screen-space indirect lighting effect starts to fade out. Use this to hide screen-space indirect lighting from far away.
+Distancia a la que el efecto de iluminación indirecta en espacio de pantalla comienza a desvanecerse. Usa esto para ocultar la iluminación indirecta en espacio de pantalla desde lejos.
 
 .. rst-class:: classref-item-separator
 
@@ -11493,7 +11549,7 @@ Distance at which the screen-space indirect lighting effect starts to fade out. 
 
 :ref:`float<class_float>` **rendering/environment/ssil/fadeout_to** = ``300.0`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssil/fadeout_to>`
 
-Distance at which the screen-space indirect lighting is fully faded out. Use this to hide screen-space indirect lighting from far away.
+Distancia a la que la iluminación indirecta en espacio de pantalla está completamente desvanecida. Usa esto para ocultar la iluminación indirecta en espacio de pantalla desde lejos.
 
 .. rst-class:: classref-item-separator
 
@@ -11505,7 +11561,7 @@ Distance at which the screen-space indirect lighting is fully faded out. Use thi
 
 :ref:`bool<class_bool>` **rendering/environment/ssil/half_size** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssil/half_size>`
 
-If ``true``, screen-space indirect lighting will be rendered at half size and then upscaled before being added to the scene. This is significantly faster but may miss small details and may result in some objects appearing to glow at their edges.
+Si ``true``, la iluminación indirecta en espacio de pantalla se renderizará a la mitad de tamaño y luego se aumentará antes de agregarse a la escena. Esto es significativamente más rápido pero puede perder pequeños detalles y puede hacer que algunos objetos parezcan brillar en sus bordes.
 
 .. rst-class:: classref-item-separator
 
@@ -11517,7 +11573,7 @@ If ``true``, screen-space indirect lighting will be rendered at half size and th
 
 :ref:`int<class_int>` **rendering/environment/ssil/quality** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/ssil/quality>`
 
-Sets the quality of the screen-space indirect lighting effect. Higher values take more samples and so will result in better quality, at the cost of performance. Setting to ``Ultra`` will use the :ref:`rendering/environment/ssil/adaptive_target<class_ProjectSettings_property_rendering/environment/ssil/adaptive_target>` setting.
+Establece la calidad del efecto de iluminación indirecta en espacio de pantalla. Los valores más altos toman más muestras y, por lo tanto, resultarán en una mejor calidad, a costa del rendimiento. Establecer en ``Ultra`` utilizará el ajuste :ref:`rendering/environment/ssil/adaptive_target<class_ProjectSettings_property_rendering/environment/ssil/adaptive_target>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11571,7 +11627,7 @@ Scales the distance over which samples are taken for subsurface scattering effec
 
 :ref:`int<class_int>` **rendering/environment/volumetric_fog/use_filter** = ``1`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/volumetric_fog/use_filter>`
 
-Enables filtering of the volumetric fog effect prior to integration. This substantially blurs the fog which reduces fine details but also smooths out harsh edges and aliasing artifacts. Disable when more detail is required.
+Activa el filtrado del efecto de niebla volumétrica antes de la integración. Esto difumina sustancialmente la niebla, lo que reduce los detalles finos, pero también suaviza los bordes ásperos y los artefactos de aliasing. Desactiva esta opción cuando se requieran más detalles.
 
 .. rst-class:: classref-item-separator
 
@@ -11583,7 +11639,7 @@ Enables filtering of the volumetric fog effect prior to integration. This substa
 
 :ref:`int<class_int>` **rendering/environment/volumetric_fog/volume_depth** = ``64`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/volumetric_fog/volume_depth>`
 
-Number of slices to use along the depth of the froxel buffer for volumetric fog. A lower number will be more efficient but may result in artifacts appearing during camera movement. See also :ref:`Environment.volumetric_fog_length<class_Environment_property_volumetric_fog_length>`.
+Número de cortes a utilizar a lo largo de la profundidad del búfer de fróxeles para la niebla volumétrica. Un número menor será más eficiente, pero puede provocar la aparición de artefactos durante el movimiento de la cámara. Véase también :ref:`Environment.volumetric_fog_length<class_Environment_property_volumetric_fog_length>`.
 
 .. rst-class:: classref-item-separator
 
@@ -11595,7 +11651,7 @@ Number of slices to use along the depth of the froxel buffer for volumetric fog.
 
 :ref:`int<class_int>` **rendering/environment/volumetric_fog/volume_size** = ``64`` :ref:`🔗<class_ProjectSettings_property_rendering/environment/volumetric_fog/volume_size>`
 
-Base size used to determine size of froxel buffer in the camera X-axis and Y-axis. The final size is scaled by the aspect ratio of the screen, so actual values may differ from what is set. Set a larger size for more detailed fog, set a smaller size for better performance.
+Tamaño base utilizado para determinar el tamaño del búfer de fróxeles en el eje X y el eje Y de la cámara. El tamaño final se escala según la relación de aspecto de la pantalla, por lo que los valores reales pueden diferir de los establecidos. Establece un tamaño mayor para una niebla más detallada, establece un tamaño menor para un mejor rendimiento.
 
 .. rst-class:: classref-item-separator
 
@@ -11633,11 +11689,11 @@ Supported values are:
 
 :ref:`String<class_String>` **rendering/gl_compatibility/driver.android** = ``"opengl3"`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/driver.android>`
 
-Android override for :ref:`rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
+Sobrescritura de Android para :ref:`rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
 
-Only one option is supported:
+Solo se admite una opción:
 
-- ``opengl3``, OpenGL ES 3.0 from native drivers.
+- ``opengl3``, OpenGL ES 3.0 de controladores nativos.
 
 .. rst-class:: classref-item-separator
 
@@ -11649,11 +11705,11 @@ Only one option is supported:
 
 :ref:`String<class_String>` **rendering/gl_compatibility/driver.ios** = ``"opengl3"`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/driver.ios>`
 
-iOS override for :ref:`rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
+Sobrescritura de iOS para :ref:`rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
 
-Only one option is supported:
+Solo se admite una opción:
 
-- ``opengl3``, OpenGL ES 3.0 from native drivers.
+- ``opengl3``, OpenGL ES 3.0 de controladores nativos.
 
 .. rst-class:: classref-item-separator
 
@@ -11665,13 +11721,13 @@ Only one option is supported:
 
 :ref:`String<class_String>` **rendering/gl_compatibility/driver.linuxbsd** = ``"opengl3"`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/driver.linuxbsd>`
 
-LinuxBSD override for :ref:`rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
+Sobrescritura de LinuxBSD para :ref:`rendering/gl_compatibility/driver<class_ProjectSettings_property_rendering/gl_compatibility/driver>`.
 
-Two options are supported:
+Se admiten dos opciones:
 
-- ``opengl3`` (default), OpenGL 3.3 from native drivers.
+- ``opengl3`` (predeterminado), OpenGL 3.3 de controladores nativos.
 
-- ``opengl3_es``, OpenGL ES 3.0 from native drivers. If :ref:`rendering/gl_compatibility/fallback_to_gles<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_gles>` is enabled, this is used as a fallback if OpenGL 3.3 is not supported.
+- ``opengl3_es``, OpenGL ES 3.0 de controladores nativos. Si :ref:`rendering/gl_compatibility/fallback_to_gles<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_gles>` está habilitado, esto se utiliza como alternativa si OpenGL 3.3 no es compatible.
 
 .. rst-class:: classref-item-separator
 
@@ -11735,9 +11791,9 @@ Two options are supported:
 
 :ref:`bool<class_bool>` **rendering/gl_compatibility/fallback_to_angle** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_angle>`
 
-If ``true``, the Compatibility renderer will fall back to ANGLE if native OpenGL is not supported or the device is listed in :ref:`rendering/gl_compatibility/force_angle_on_devices<class_ProjectSettings_property_rendering/gl_compatibility/force_angle_on_devices>`.
+Si es ``true``, el renderizador de Compatibilidad recurrirá a ANGLE si OpenGL nativo no es compatible o si el dispositivo aparece en :ref:`rendering/gl_compatibility/force_angle_on_devices<class_ProjectSettings_property_rendering/gl_compatibility/force_angle_on_devices>`.
 
-\ **Note:** This setting is implemented only on Windows.
+\ **Nota:** Este ajuste solo se implementa en Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -11749,9 +11805,9 @@ If ``true``, the Compatibility renderer will fall back to ANGLE if native OpenGL
 
 :ref:`bool<class_bool>` **rendering/gl_compatibility/fallback_to_gles** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_gles>`
 
-If ``true``, the Compatibility renderer will fall back to OpenGLES if desktop OpenGL is not supported.
+Si es ``true``, el renderizador de Compatibilidad recurrirá a OpenGLES si OpenGL de escritorio no es compatible.
 
-\ **Note:** This setting is implemented only on Linux/X11.
+\ **Nota:** Este ajuste solo se implementa en Linux/X11.
 
 .. rst-class:: classref-item-separator
 
@@ -11763,9 +11819,9 @@ If ``true``, the Compatibility renderer will fall back to OpenGLES if desktop Op
 
 :ref:`bool<class_bool>` **rendering/gl_compatibility/fallback_to_native** = ``true`` :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/fallback_to_native>`
 
-If ``true``, the Compatibility renderer will fall back to native OpenGL if ANGLE is not supported, or ANGLE dynamic libraries aren't found.
+Si es ``true``, el renderizador Compatibility recurrirá a OpenGL nativo si ANGLE no es compatible o no se encuentran las bibliotecas dinámicas de ANGLE.
 
-\ **Note:** This setting is implemented on macOS and Windows.
+\ **Nota:** Este ajuste se implementa en macOS y Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -11777,11 +11833,11 @@ If ``true``, the Compatibility renderer will fall back to native OpenGL if ANGLE
 
 :ref:`Array<class_Array>` **rendering/gl_compatibility/force_angle_on_devices** :ref:`🔗<class_ProjectSettings_property_rendering/gl_compatibility/force_angle_on_devices>`
 
-An :ref:`Array<class_Array>` of devices which should always use the ANGLE renderer.
+Un :ref:`Array<class_Array>` de dispositivos que siempre deberían usar el renderizador ANGLE.
 
-Each entry is a :ref:`Dictionary<class_Dictionary>` with the following keys: ``vendor`` and ``name``. ``name`` can be set to ``*`` to add all devices with the specified ``vendor``.
+Cada entrada es un :ref:`Dictionary<class_Dictionary>` con las siguientes claves: ``vendor`` y ``name``. ``name`` puede establecerse como ``*`` para añadir todos los dispositivos con el ``vendor`` especificado.
 
-\ **Note:** This setting is implemented only on Windows.
+\ **Nota:** Este ajuste solo se implementa en Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -11995,7 +12051,7 @@ The number of rays to use for baking lightmaps with :ref:`LightmapGI<class_Light
 
 :ref:`int<class_int>` **rendering/lightmapping/bake_quality/medium_quality_probe_ray_count** = ``256`` :ref:`🔗<class_ProjectSettings_property_rendering/lightmapping/bake_quality/medium_quality_probe_ray_count>`
 
-The number of rays to use for baking dynamic object lighting in :ref:`LightmapProbe<class_LightmapProbe>`\ s when :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` is :ref:`LightmapGI.BAKE_QUALITY_MEDIUM<class_LightmapGI_constant_BAKE_QUALITY_MEDIUM>`.
+El número de rayos a usar para procesar la iluminación de objetos dinámicos en :ref:`LightmapProbe<class_LightmapProbe>`\ s cuando :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` es :ref:`LightmapGI.BAKE_QUALITY_MEDIUM<class_LightmapGI_constant_BAKE_QUALITY_MEDIUM>`.
 
 .. rst-class:: classref-item-separator
 
@@ -12007,7 +12063,7 @@ The number of rays to use for baking dynamic object lighting in :ref:`LightmapPr
 
 :ref:`int<class_int>` **rendering/lightmapping/bake_quality/medium_quality_ray_count** = ``128`` :ref:`🔗<class_ProjectSettings_property_rendering/lightmapping/bake_quality/medium_quality_ray_count>`
 
-The number of rays to use for baking lightmaps with :ref:`LightmapGI<class_LightmapGI>` when :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` is :ref:`LightmapGI.BAKE_QUALITY_MEDIUM<class_LightmapGI_constant_BAKE_QUALITY_MEDIUM>`.
+El número de rayos a usar para procesar lightmaps con :ref:`LightmapGI<class_LightmapGI>` cuando :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` es :ref:`LightmapGI.BAKE_QUALITY_MEDIUM<class_LightmapGI_constant_BAKE_QUALITY_MEDIUM>`.
 
 .. rst-class:: classref-item-separator
 
@@ -12019,7 +12075,7 @@ The number of rays to use for baking lightmaps with :ref:`LightmapGI<class_Light
 
 :ref:`int<class_int>` **rendering/lightmapping/bake_quality/ultra_quality_probe_ray_count** = ``2048`` :ref:`🔗<class_ProjectSettings_property_rendering/lightmapping/bake_quality/ultra_quality_probe_ray_count>`
 
-The number of rays to use for baking dynamic object lighting in :ref:`LightmapProbe<class_LightmapProbe>`\ s when :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` is :ref:`LightmapGI.BAKE_QUALITY_ULTRA<class_LightmapGI_constant_BAKE_QUALITY_ULTRA>`.
+El número de rayos a usar para procesar la iluminación de objetos dinámicos en :ref:`LightmapProbe<class_LightmapProbe>`\ s cuando :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` es :ref:`LightmapGI.BAKE_QUALITY_ULTRA<class_LightmapGI_constant_BAKE_QUALITY_ULTRA>`.
 
 .. rst-class:: classref-item-separator
 
@@ -12031,7 +12087,7 @@ The number of rays to use for baking dynamic object lighting in :ref:`LightmapPr
 
 :ref:`int<class_int>` **rendering/lightmapping/bake_quality/ultra_quality_ray_count** = ``2048`` :ref:`🔗<class_ProjectSettings_property_rendering/lightmapping/bake_quality/ultra_quality_ray_count>`
 
-The number of rays to use for baking lightmaps with :ref:`LightmapGI<class_LightmapGI>` when :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` is :ref:`LightmapGI.BAKE_QUALITY_ULTRA<class_LightmapGI_constant_BAKE_QUALITY_ULTRA>`.
+El número de rayos a usar para procesar lightmaps con :ref:`LightmapGI<class_LightmapGI>` cuando :ref:`LightmapGI.quality<class_LightmapGI_property_quality>` es :ref:`LightmapGI.BAKE_QUALITY_ULTRA<class_LightmapGI_constant_BAKE_QUALITY_ULTRA>`.
 
 .. rst-class:: classref-item-separator
 
@@ -12181,7 +12237,7 @@ Use 16 bits for the omni/spot shadow depth map. Enabling this results in shadows
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_0_subdiv>`
 
-The subdivision amount of the first quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+The subdivision amount of the first quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12193,7 +12249,7 @@ The subdivision amount of the first quadrant on the shadow atlas. See the `docum
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv** = ``2`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_1_subdiv>`
 
-The subdivision amount of the second quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+The subdivision amount of the second quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12205,7 +12261,7 @@ The subdivision amount of the second quadrant on the shadow atlas. See the `docu
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv** = ``3`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_2_subdiv>`
 
-The subdivision amount of the third quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+The subdivision amount of the third quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12217,7 +12273,7 @@ The subdivision amount of the third quadrant on the shadow atlas. See the `docum
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv** = ``4`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_quadrant_3_subdiv>`
 
-The subdivision amount of the fourth quadrant on the shadow atlas. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+The subdivision amount of the fourth quadrant on the shadow atlas. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12229,7 +12285,7 @@ The subdivision amount of the fourth quadrant on the shadow atlas. See the `docu
 
 :ref:`int<class_int>` **rendering/lights_and_shadows/positional_shadow/atlas_size** = ``4096`` :ref:`🔗<class_ProjectSettings_property_rendering/lights_and_shadows/positional_shadow/atlas_size>`
 
-The size of the shadow atlas used for :ref:`OmniLight3D<class_OmniLight3D>` and :ref:`SpotLight3D<class_SpotLight3D>` nodes. See the `documentation <../tutorials/tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
+The size of the shadow atlas used for :ref:`OmniLight3D<class_OmniLight3D>` and :ref:`SpotLight3D<class_SpotLight3D>` nodes. See the `documentation <../tutorials/3d/lights_and_shadows.html#shadow-atlas>`__ for more information.
 
 .. rst-class:: classref-item-separator
 
@@ -12635,7 +12691,7 @@ This can be overridden using the ``--rendering-method <method>`` command line ar
 
 :ref:`String<class_String>` **rendering/renderer/rendering_method.mobile** = ``"mobile"`` :ref:`🔗<class_ProjectSettings_property_rendering/renderer/rendering_method.mobile>`
 
-Override for :ref:`rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` on mobile devices.
+Sobrescritura para :ref:`rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` en dispositivos móviles.
 
 .. rst-class:: classref-item-separator
 
@@ -12647,7 +12703,7 @@ Override for :ref:`rendering/renderer/rendering_method<class_ProjectSettings_pro
 
 :ref:`String<class_String>` **rendering/renderer/rendering_method.web** = ``"gl_compatibility"`` :ref:`🔗<class_ProjectSettings_property_rendering/renderer/rendering_method.web>`
 
-Override for :ref:`rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` on web.
+Sobrescritura para :ref:`rendering/renderer/rendering_method<class_ProjectSettings_property_rendering/renderer/rendering_method>` en web.
 
 .. rst-class:: classref-item-separator
 
@@ -12671,9 +12727,9 @@ Version code of the `Direct3D 12 Agility SDK <https://devblogs.microsoft.com/dir
 
 :ref:`int<class_int>` **rendering/rendering_device/d3d12/max_misc_descriptors_per_frame** = ``512`` :ref:`🔗<class_ProjectSettings_property_rendering/rendering_device/d3d12/max_misc_descriptors_per_frame>`
 
-The number of entries in the miscellaneous descriptors heap the Direct3D 12 rendering driver uses each frame, used for various operations like clearing a texture.
+El número de entradas en el bloque de descriptores misceláneos que el controlador de renderizado Direct3D 12 usa cada fotograma, utilizado para varias operaciones como limpiar una textura.
 
-Depending on the complexity of scenes, this value may be lowered or may need to be raised.
+Dependiendo de la complejidad de las escenas, este valor puede ser reducido o puede necesitar aumentarse.
 
 .. rst-class:: classref-item-separator
 
@@ -12685,9 +12741,9 @@ Depending on the complexity of scenes, this value may be lowered or may need to 
 
 :ref:`int<class_int>` **rendering/rendering_device/d3d12/max_resource_descriptors_per_frame** = ``16384`` :ref:`🔗<class_ProjectSettings_property_rendering/rendering_device/d3d12/max_resource_descriptors_per_frame>`
 
-The number of entries in the resource descriptors heap the Direct3D 12 rendering driver uses each frame, used for most rendering operations.
+El número de entradas en el bloque de descriptores de recursos que el controlador de renderizado Direct3D 12 usa cada fotograma, utilizado para la mayoría de las operaciones de renderizado.
 
-Depending on the complexity of scenes, this value may be lowered or may need to be raised.
+Dependiendo de la complejidad de las escenas, este valor puede ser reducido o puede necesitar aumentarse.
 
 .. rst-class:: classref-item-separator
 
@@ -12699,9 +12755,9 @@ Depending on the complexity of scenes, this value may be lowered or may need to 
 
 :ref:`int<class_int>` **rendering/rendering_device/d3d12/max_sampler_descriptors_per_frame** = ``1024`` :ref:`🔗<class_ProjectSettings_property_rendering/rendering_device/d3d12/max_sampler_descriptors_per_frame>`
 
-The number of entries in the sampler descriptors heap the Direct3D 12 rendering driver uses each frame, used for most rendering operations.
+El número de entradas en el bloque de descriptores de sampler que el controlador de renderizado Direct3D 12 usa cada fotograma, utilizado para la mayoría de las operaciones de renderizado.
 
-Depending on the complexity of scenes, this value may be lowered or may need to be raised.
+Dependiendo de la complejidad de las escenas, este valor puede ser reducido o puede necesitar aumentarse.
 
 .. rst-class:: classref-item-separator
 
@@ -12759,7 +12815,7 @@ Only one option is supported:
 
 :ref:`String<class_String>` **rendering/rendering_device/driver.ios** = ``"metal"`` :ref:`🔗<class_ProjectSettings_property_rendering/rendering_device/driver.ios>`
 
-Sobreescritura de iOS para :ref:`rendering/rendering_device/driver<class_ProjectSettings_property_rendering/rendering_device/driver>`.
+Sobrescritura de iOS para :ref:`rendering/rendering_device/driver<class_ProjectSettings_property_rendering/rendering_device/driver>`.
 
 Se admiten dos opciones:
 
@@ -12777,7 +12833,7 @@ Se admiten dos opciones:
 
 :ref:`String<class_String>` **rendering/rendering_device/driver.linuxbsd** = ``"vulkan"`` :ref:`🔗<class_ProjectSettings_property_rendering/rendering_device/driver.linuxbsd>`
 
-Sobreescritura de LinuxBSD para :ref:`rendering/rendering_device/driver<class_ProjectSettings_property_rendering/rendering_device/driver>`.
+Sobrescritura de LinuxBSD para :ref:`rendering/rendering_device/driver<class_ProjectSettings_property_rendering/rendering_device/driver>`.
 
 Solo se admite una opción:
 
@@ -13449,7 +13505,7 @@ Practically speaking, this means that the end result of the Viewport will not be
 
 :ref:`bool<class_bool>` **rendering/viewport/transparent_background** = ``false`` :ref:`🔗<class_ProjectSettings_property_rendering/viewport/transparent_background>`
 
-If ``true``, enables :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` on the root viewport. This allows per-pixel transparency to be effective after also enabling :ref:`display/window/size/transparent<class_ProjectSettings_property_display/window/size/transparent>` and :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`.
+Si es ``true``, habilita :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` en el viewport raíz. Esto permite que la transparencia por píxel sea efectiva después de habilitar también :ref:`display/window/size/transparent<class_ProjectSettings_property_display/window/size/transparent>` y :ref:`display/window/per_pixel_transparency/allowed<class_ProjectSettings_property_display/window/per_pixel_transparency/allowed>`.
 
 .. rst-class:: classref-item-separator
 
@@ -13461,7 +13517,7 @@ If ``true``, enables :ref:`Viewport.transparent_bg<class_Viewport_property_trans
 
 :ref:`int<class_int>` **rendering/vrs/mode** = ``0`` :ref:`🔗<class_ProjectSettings_property_rendering/vrs/mode>`
 
-Set the default Variable Rate Shading (VRS) mode for the main viewport. See :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` to change this at runtime, and :ref:`VRSMode<enum_Viewport_VRSMode>` for possible values.
+Establece el modo predeterminado de Sombreado de Tasa Variable (VRS) para el viewport principal. Véase :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` para cambiar esto en tiempo de ejecución, y :ref:`VRSMode<enum_Viewport_VRSMode>` para los valores posibles.
 
 .. rst-class:: classref-item-separator
 
@@ -13774,7 +13830,7 @@ Especifica la configuración de la vista con la que configurar OpenXR, estableci
 
 :ref:`bool<class_bool>` **xr/shaders/enabled** = ``false`` :ref:`🔗<class_ProjectSettings_property_xr/shaders/enabled>`
 
-Si es ``true``, Godot compilará los sombreadores necesarios para XR.
+Si es ``true``, Godot compilará los shaders necesarios para XR.
 
 .. rst-class:: classref-section-separator
 
@@ -14003,13 +14059,13 @@ Returns ``true`` if a configuration value is present.
 
 :ref:`bool<class_bool>` **load_resource_pack**\ (\ pack\: :ref:`String<class_String>`, replace_files\: :ref:`bool<class_bool>` = true, offset\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_ProjectSettings_method_load_resource_pack>`
 
-Loads the contents of the .pck or .zip file specified by ``pack`` into the resource filesystem (``res://``). Returns ``true`` on success.
+Carga el contenido del archivo (.pck o .zip) especificado por ``pack`` al sistema de archivos de recursos (``res://``). Devuelve ``true`` si tiene éxito.
 
-\ **Note:** If a file from ``pack`` shares the same path as a file already in the resource filesystem, any attempts to load that file will use the file from ``pack`` unless ``replace_files`` is set to ``false``.
+\ **Nota:** Si un archivo de ``pack`` comparte la ruta de otro que ya está en dicho sistema de archivos, al intentar cargar ese archivo, se usará el de ``pack`` a menos que ``replace_files`` esté configurado como ``false``.
 
-\ **Note:** The optional ``offset`` parameter can be used to specify the offset in bytes to the start of the resource pack. This is only supported for .pck files.
+\ **Nota:** El parámetro opcional ``offset`` se puede usar para especificar el desplazamiento en bytes al inicio del paquete de recursos. Solo sirve con archivos en .pck.
 
-\ **Note:** :ref:`DirAccess<class_DirAccess>` will not show changes made to the contents of ``res://`` after calling this function.
+\ **Nota:** :ref:`DirAccess<class_DirAccess>` no mostrará los cambios hechos al contenido en ``res://`` tras llamar esta función.
 
 .. rst-class:: classref-item-separator
 

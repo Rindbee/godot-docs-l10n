@@ -7,7 +7,7 @@ SoftBody3D
 
 **Hereda:** :ref:`MeshInstance3D<class_MeshInstance3D>` **<** :ref:`GeometryInstance3D<class_GeometryInstance3D>` **<** :ref:`VisualInstance3D<class_VisualInstance3D>` **<** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A deformable 3D physics mesh.
+Una malla física 3D deformable.
 
 .. rst-class:: classref-introduction-group
 
@@ -122,9 +122,9 @@ enum **DisableMode**: :ref:`🔗<enum_SoftBody3D_DisableMode>`
 
 :ref:`DisableMode<enum_SoftBody3D_DisableMode>` **DISABLE_MODE_REMOVE** = ``0``
 
-When :ref:`Node.process_mode<class_Node_property_process_mode>` is set to :ref:`Node.PROCESS_MODE_DISABLED<class_Node_constant_PROCESS_MODE_DISABLED>`, remove from the physics simulation to stop all physics interactions with this **SoftBody3D**.
+Cuando :ref:`Node.process_mode<class_Node_property_process_mode>` está establecido en :ref:`Node.PROCESS_MODE_DISABLED<class_Node_constant_PROCESS_MODE_DISABLED>`, se elimina de la simulación física para detener todas las interacciones físicas con este **SoftBody3D**.
 
-Automatically re-added to the physics simulation when the :ref:`Node<class_Node>` is processed again.
+Se vuelve a añadir automáticamente a la simulación física cuando el :ref:`Node<class_Node>` se procesa de nuevo.
 
 .. _class_SoftBody3D_constant_DISABLE_MODE_KEEP_ACTIVE:
 
@@ -192,7 +192,7 @@ The physics layers this SoftBody3D **scans**. Collision objects can scan one or 
 - |void| **set_damping_coefficient**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_damping_coefficient**\ (\ )
 
-The body's damping coefficient. Higher values will slow down the body more noticeably when forces are applied.
+El coeficiente de amortiguación del cuerpo. Los valores más altos ralentizarán el cuerpo de forma más notoria cuando se apliquen fuerzas.
 
 .. rst-class:: classref-item-separator
 
@@ -226,9 +226,9 @@ Define el comportamiento en la física cuando :ref:`Node.process_mode<class_Node
 - |void| **set_drag_coefficient**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_drag_coefficient**\ (\ )
 
-The body's drag coefficient. Higher values increase this body's air resistance.
+El coeficiente de arrastre del cuerpo. Los valores más altos aumentan la resistencia al aire de este cuerpo.
 
-\ **Note:** This value is currently unused by Godot's default physics implementation.
+\ **Nota:** Este valor no es utilizado actualmente por la implementación física predeterminada de Godot.
 
 .. rst-class:: classref-item-separator
 
@@ -245,7 +245,7 @@ The body's drag coefficient. Higher values increase this body's air resistance.
 - |void| **set_linear_stiffness**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_linear_stiffness**\ (\ )
 
-Higher values will result in a stiffer body, while lower values will increase the body's ability to bend. The value can be between ``0.0`` and ``1.0`` (inclusive).
+Los valores más altos resultarán en un cuerpo más rígido, mientras que los valores más bajos aumentarán la capacidad del cuerpo para doblarse. El valor puede estar entre ``0.0`` y ``1.0`` (inclusivo).
 
 .. rst-class:: classref-item-separator
 
@@ -262,7 +262,7 @@ Higher values will result in a stiffer body, while lower values will increase th
 - |void| **set_parent_collision_ignore**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_parent_collision_ignore**\ (\ )
 
-:ref:`NodePath<class_NodePath>` to a :ref:`CollisionObject3D<class_CollisionObject3D>` this SoftBody3D should avoid clipping.
+:ref:`NodePath<class_NodePath>` a un :ref:`CollisionObject3D<class_CollisionObject3D>` que este SoftBody3D debería evitar atravesar.
 
 .. rst-class:: classref-item-separator
 
@@ -279,7 +279,7 @@ Higher values will result in a stiffer body, while lower values will increase th
 - |void| **set_pressure_coefficient**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_pressure_coefficient**\ (\ )
 
-The pressure coefficient of this soft body. Simulate pressure build-up from inside this body. Higher values increase the strength of this effect.
+El coeficiente de presión de este cuerpo blando. Simula la acumulación de presión desde el interior de este cuerpo. Los valores más altos aumentan la fuerza de este efecto.
 
 .. rst-class:: classref-item-separator
 
@@ -296,7 +296,7 @@ The pressure coefficient of this soft body. Simulate pressure build-up from insi
 - |void| **set_ray_pickable**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ray_pickable**\ (\ )
 
-If ``true``, the **SoftBody3D** will respond to :ref:`RayCast3D<class_RayCast3D>`\ s.
+Si es ``true``, el **SoftBody3D** responderá a los :ref:`RayCast3D<class_RayCast3D>`\ s.
 
 .. rst-class:: classref-item-separator
 
@@ -313,9 +313,9 @@ If ``true``, the **SoftBody3D** will respond to :ref:`RayCast3D<class_RayCast3D>
 - |void| **set_shrinking_factor**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_shrinking_factor**\ (\ )
 
-Scales the rest lengths of **SoftBody3D**'s edge constraints. Positive values shrink the mesh, while negative values expand it. For example, a value of ``0.1`` shortens the edges of the mesh by 10%, while ``-0.1`` expands the edges by 10%.
+Escala las longitudes de reposo de las restricciones de borde del **SoftBody3D**. Los valores positivos encogen la malla, mientras que los valores negativos la expanden. Por ejemplo, un valor de ``0.1`` acorta los bordes de la malla en un 10%, mientras que ``-0.1`` expande los bordes en un 10%.
 
-\ **Note:** :ref:`shrinking_factor<class_SoftBody3D_property_shrinking_factor>` is best used on surface meshes with pinned points.
+\ **Nota:** :ref:`shrinking_factor<class_SoftBody3D_property_shrinking_factor>` se usa mejor en mallas de superficie con puntos fijados.
 
 .. rst-class:: classref-item-separator
 
@@ -378,7 +378,7 @@ Añade un cuerpo a la lista de cuerpos con los que este cuerpo no puede colision
 
 |void| **apply_central_force**\ (\ force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_SoftBody3D_method_apply_central_force>`
 
-Distributes and applies a force to all points. A force is time dependent and meant to be applied every physics update.
+Distribuye y aplica una fuerza a todos los puntos. Una fuerza depende del tiempo y está pensada para aplicarse en cada actualización de la física.
 
 .. rst-class:: classref-item-separator
 
@@ -390,9 +390,9 @@ Distributes and applies a force to all points. A force is time dependent and mea
 
 |void| **apply_central_impulse**\ (\ impulse\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_SoftBody3D_method_apply_central_impulse>`
 
-Distributes and applies an impulse to all points.
+Distribuye y aplica un impulso a todos los puntos.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso cada frame resultaría en una fuerza dependiente del framerate. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en caso contrario).
 
 .. rst-class:: classref-item-separator
 
@@ -404,7 +404,7 @@ An impulse is time-independent! Applying an impulse every frame would result in 
 
 |void| **apply_force**\ (\ point_index\: :ref:`int<class_int>`, force\: :ref:`Vector3<class_Vector3>`\ ) :ref:`🔗<class_SoftBody3D_method_apply_force>`
 
-Applies a force to a point. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza a un punto. Una fuerza depende del tiempo y está pensada para aplicarse en cada actualización de la física.
 
 .. rst-class:: classref-item-separator
 
@@ -442,7 +442,7 @@ Devuelve un conjunto de nodos que se añadieron como excepciones de colisión pa
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SoftBody3D_method_get_collision_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_layer<class_SoftBody3D_property_collision_layer>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_layer<class_SoftBody3D_property_collision_layer>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -454,7 +454,7 @@ Returns whether or not the specified layer of the :ref:`collision_layer<class_So
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SoftBody3D_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_mask<class_SoftBody3D_property_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_mask<class_SoftBody3D_property_collision_mask>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -466,7 +466,7 @@ Returns whether or not the specified layer of the :ref:`collision_mask<class_Sof
 
 :ref:`RID<class_RID>` **get_physics_rid**\ (\ ) |const| :ref:`🔗<class_SoftBody3D_method_get_physics_rid>`
 
-Returns the internal :ref:`RID<class_RID>` used by the :ref:`PhysicsServer3D<class_PhysicsServer3D>` for this body.
+Devuelve el :ref:`RID<class_RID>` interno utilizado por el :ref:`PhysicsServer3D<class_PhysicsServer3D>` para este cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -478,7 +478,7 @@ Returns the internal :ref:`RID<class_RID>` used by the :ref:`PhysicsServer3D<cla
 
 :ref:`Vector3<class_Vector3>` **get_point_transform**\ (\ point_index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SoftBody3D_method_get_point_transform>`
 
-Returns local translation of a vertex in the surface array.
+Devuelve la traslación local de un vértice en el array de superficie.
 
 .. rst-class:: classref-item-separator
 
@@ -490,7 +490,7 @@ Returns local translation of a vertex in the surface array.
 
 :ref:`bool<class_bool>` **is_point_pinned**\ (\ point_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_SoftBody3D_method_is_point_pinned>`
 
-Returns ``true`` if vertex is set to pinned.
+Devuelve ``true`` si el vértice está fijado.
 
 .. rst-class:: classref-item-separator
 
@@ -514,7 +514,7 @@ Quita un cuerpo de la lista de cuerpos con los que este cuerpo no puede colision
 
 |void| **set_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SoftBody3D_method_set_collision_layer_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_layer<class_SoftBody3D_property_collision_layer>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_layer<class_SoftBody3D_property_collision_layer>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -526,7 +526,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`collisi
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_SoftBody3D_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_mask<class_SoftBody3D_property_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_mask<class_SoftBody3D_property_collision_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -538,7 +538,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`collisi
 
 |void| **set_point_pinned**\ (\ point_index\: :ref:`int<class_int>`, pinned\: :ref:`bool<class_bool>`, attachment_path\: :ref:`NodePath<class_NodePath>` = NodePath(""), insert_at\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_SoftBody3D_method_set_point_pinned>`
 
-Sets the pinned state of a surface vertex. When set to ``true``, the optional ``attachment_path`` can define a :ref:`Node3D<class_Node3D>` the pinned vertex will be attached to.
+Establece el estado fijado de un vértice de la superficie. Cuando se establece en ``true``, el ``attachment_path`` opcional puede definir un :ref:`Node3D<class_Node3D>` al que se adjuntará el vértice fijado.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

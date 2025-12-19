@@ -353,7 +353,7 @@ Devuelve el índice del ítem con el ``id`` dado.
 
 :ref:`Variant<class_Variant>` **get_item_metadata**\ (\ idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_OptionButton_method_get_item_metadata>`
 
-Recupera los metadatos de un elemento. Los metadatos pueden ser de cualquier tipo y pueden utilizarse para almacenar información adicional sobre un elemento, como un ID de cadena externa.
+Recupera los metadatos de un elemento. Los metadatos pueden ser de cualquier tipo y pueden utilizarse para almacenar información adicional sobre un elemento, como un ID de string externa.
 
 .. rst-class:: classref-item-separator
 
@@ -389,9 +389,9 @@ Devuelve el tooltip del ítem en el índice ``idx``.
 
 :ref:`PopupMenu<class_PopupMenu>` **get_popup**\ (\ ) |const| :ref:`🔗<class_OptionButton_method_get_popup>`
 
-Returns the :ref:`PopupMenu<class_PopupMenu>` contained in this button.
+Devuelve el :ref:`PopupMenu<class_PopupMenu>` contenido en este botón.
 
-\ **Warning:** This is a required internal node, removing and freeing it may cause a crash. If you wish to hide it or any of its children, use their :ref:`Window.visible<class_Window_property_visible>` property.
+\ **Advertencia:** Este es un nodo interno requerido, eliminarlo y liberarlo puede causar un fallo. Si deseas ocultarlo o alguno de sus hijos, usa su propiedad :ref:`Window.visible<class_Window_property_visible>`.
 
 .. rst-class:: classref-item-separator
 
@@ -567,7 +567,7 @@ Establece el ID del elemento en el índice ``idx``.
 
 |void| **set_item_metadata**\ (\ idx\: :ref:`int<class_int>`, metadata\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_OptionButton_method_set_item_metadata>`
 
-Establece los metadatos de un elemento. Los metadatos pueden ser de cualquier tipo y pueden utilizarse para almacenar información adicional sobre un elemento, como un string externa cod un ID.
+Establece los metadatos de un elemento. Los metadatos pueden ser de cualquier tipo y pueden utilizarse para almacenar información adicional sobre un elemento, como una string externa con un ID.
 
 .. rst-class:: classref-item-separator
 

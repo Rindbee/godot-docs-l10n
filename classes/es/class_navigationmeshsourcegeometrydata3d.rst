@@ -123,7 +123,7 @@ Adds a projected obstruction shape to the source geometry. The ``vertices`` are 
 
 |void| **append_arrays**\ (\ vertices\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`, indices\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ ) :ref:`🔗<class_NavigationMeshSourceGeometryData3D_method_append_arrays>`
 
-Añade arrays de ``vertices`` e ``indices`` al final de las matrices existentes. Añade el índice existente como desplazamiento a los índices añadidos.
+Añade arrays de ``vertices`` e ``indices`` al final de los arrays existentes. Añade el índice existente como desplazamiento a los índices añadidos.
 
 .. rst-class:: classref-item-separator
 

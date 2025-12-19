@@ -16,7 +16,7 @@ Una malla de navegación 2D que describe una superficie transitable para la bús
 Descripción
 ----------------------
 
-Se puede crear una malla de navegación procesándola con la ayuda del :ref:`NavigationServer2D<class_NavigationServer2D>`, o añadiendo manualmente vértices y matrices de índices de polígonos convexos.
+Se puede crear una malla de navegación procesándola con la ayuda del :ref:`NavigationServer2D<class_NavigationServer2D>`, o añadiendo manualmente vértices y arrays de índices de polígonos convexos.
 
 Para procesar una malla de navegación, debe añadirse al menos un contorno que defina los límites exteriores de la zona procesada.
 
@@ -510,7 +510,7 @@ Añade un polígono usando los índices de los vértices que obtienes al llamar 
 
 |void| **clear**\ (\ ) :ref:`🔗<class_NavigationPolygon_method_clear>`
 
-Clears the internal arrays for vertices and polygon indices.
+Limpia los arrays internos para los vértices e índices de polígonos.
 
 .. rst-class:: classref-item-separator
 
@@ -594,7 +594,7 @@ Devuelve si la capa especificada de :ref:`parsed_collision_mask<class_Navigation
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_polygon**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_NavigationPolygon_method_get_polygon>`
 
-Returns a :ref:`PackedInt32Array<class_PackedInt32Array>` containing the indices of the vertices of a created polygon.
+Devuelve un :ref:`PackedInt32Array<class_PackedInt32Array>` que contiene los índices de los vértices de un polígono creado.
 
 .. rst-class:: classref-item-separator
 

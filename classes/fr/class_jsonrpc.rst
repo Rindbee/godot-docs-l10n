@@ -7,14 +7,14 @@ JSONRPC
 
 **Hérite de :** :ref:`Object<class_Object>`
 
-A helper to handle dictionaries which look like JSONRPC documents.
+Une classe d'aide pour gérer les dictionnaires qui ressemblent à des documents JSONRPC.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-`JSON-RPC <https://www.jsonrpc.org/>`__ is a standard which wraps a method call in a :ref:`JSON<class_JSON>` object. The object has a particular structure and identifies which method is called, the parameters to that function, and carries an ID to keep track of responses. This class implements that standard on top of :ref:`Dictionary<class_Dictionary>`; you will have to convert between a :ref:`Dictionary<class_Dictionary>` and :ref:`JSON<class_JSON>` with other functions.
+`JSON-RPC <https://www.jsonrpc.org/>`__ est une norme qui enveloppe un appel de méthode dans un objet :ref:`JSON<class_JSON>`. L'objet a une structure particulière et identifie quelle méthode est appelée, les paramètres de cette fonction, et porte un ID pour suivre les réponses. Cette classe implémente cette norme par dessus :ref:`Dictionary<class_Dictionary>`, vous devrez convertir entre un :ref:`Dictionary<class_Dictionary>` et :ref:`JSON<class_JSON>` avec d'autres fonctions.
 
 .. rst-class:: classref-reftable-group
 
@@ -61,7 +61,7 @@ enum **ErrorCode**: :ref:`🔗<enum_JSONRPC_ErrorCode>`
 
 :ref:`ErrorCode<enum_JSONRPC_ErrorCode>` **PARSE_ERROR** = ``-32700``
 
-The request could not be parsed as it was not valid by JSON standard (:ref:`JSON.parse()<class_JSON_method_parse>` failed).
+La requête n'a pas pu être parsée car elle n'était pas valide selon la norme JSON (:ref:`JSON.parse()<class_JSON_method_parse>` a échoué).
 
 .. _class_JSONRPC_constant_INVALID_REQUEST:
 
@@ -69,7 +69,7 @@ The request could not be parsed as it was not valid by JSON standard (:ref:`JSON
 
 :ref:`ErrorCode<enum_JSONRPC_ErrorCode>` **INVALID_REQUEST** = ``-32600``
 
-A method call was requested but the request's format is not valid.
+Un appel de méthode a été demandé, mais le format de la requête n'est pas valide.
 
 .. _class_JSONRPC_constant_METHOD_NOT_FOUND:
 
@@ -77,7 +77,7 @@ A method call was requested but the request's format is not valid.
 
 :ref:`ErrorCode<enum_JSONRPC_ErrorCode>` **METHOD_NOT_FOUND** = ``-32601``
 
-A method call was requested but no function of that name existed in the JSONRPC subclass.
+Un appel de méthode a été demandé, mais aucune fonction avec ce nom n'existait dans la sous-classe JSONRPC.
 
 .. _class_JSONRPC_constant_INVALID_PARAMS:
 
@@ -85,7 +85,7 @@ A method call was requested but no function of that name existed in the JSONRPC 
 
 :ref:`ErrorCode<enum_JSONRPC_ErrorCode>` **INVALID_PARAMS** = ``-32602``
 
-A method call was requested but the given method parameters are not valid. Not used by the built-in JSONRPC.
+Un appel de méthode a été demandé, mais les paramètres de méthode donnés ne sont pas valides. Non utilisé par le JSONRPC intégré.
 
 .. _class_JSONRPC_constant_INTERNAL_ERROR:
 
@@ -93,7 +93,7 @@ A method call was requested but the given method parameters are not valid. Not u
 
 :ref:`ErrorCode<enum_JSONRPC_ErrorCode>` **INTERNAL_ERROR** = ``-32603``
 
-An internal error occurred while processing the request. Not used by the built-in JSONRPC.
+Une erreur interne s'est produite lors du traitement de la requête. Non utilisé par le JSONRPC intégré.
 
 .. rst-class:: classref-section-separator
 
@@ -110,11 +110,11 @@ Descriptions des méthodes
 
 :ref:`Dictionary<class_Dictionary>` **make_notification**\ (\ method\: :ref:`String<class_String>`, params\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_JSONRPC_method_make_notification>`
 
-Returns a dictionary in the form of a JSON-RPC notification. Notifications are one-shot messages which do not expect a response.
+Renvoie un dictionnaire sous forme d'une notification JSON-RPC. Les notifications sont des messages à usage unique qui ne s'attendent pas à une réponse.
 
-- ``method``: Name of the method being called.
+- ``method``\  : Nom de la méthode appelée.
 
-- ``params``: An array or dictionary of parameters being passed to the method.
+- ``params``\  : Un tableau ou un dictionnaire de paramètres transmis à la méthode.
 
 .. rst-class:: classref-item-separator
 
@@ -126,13 +126,13 @@ Returns a dictionary in the form of a JSON-RPC notification. Notifications are o
 
 :ref:`Dictionary<class_Dictionary>` **make_request**\ (\ method\: :ref:`String<class_String>`, params\: :ref:`Variant<class_Variant>`, id\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_JSONRPC_method_make_request>`
 
-Returns a dictionary in the form of a JSON-RPC request. Requests are sent to a server with the expectation of a response. The ID field is used for the server to specify which exact request it is responding to.
+Renvoie un dictionnaire sous forme de requête JSON-RPC. Les requêtes sont envoyées à un serveur avec l'attente d'une réponse. Le champ ID est utilisé pour le serveur pour spécifier la requête exacte à laquelle il répond.
 
-- ``method``: Name of the method being called.
+- ``method``\  : Nom de la méthode appelée.
 
-- ``params``: An array or dictionary of parameters being passed to the method.
+- ``params``\  : Un tableau ou un dictionnaire de paramètres transmis à la méthode.
 
-- ``id``: Uniquely identifies this request. The server is expected to send a response with the same ID.
+- ``id``\  : Identifie cette requête de façon unique. Le serveur devrait envoyer une réponse avec le même ID.
 
 .. rst-class:: classref-item-separator
 
@@ -144,11 +144,11 @@ Returns a dictionary in the form of a JSON-RPC request. Requests are sent to a s
 
 :ref:`Dictionary<class_Dictionary>` **make_response**\ (\ result\: :ref:`Variant<class_Variant>`, id\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_JSONRPC_method_make_response>`
 
-When a server has received and processed a request, it is expected to send a response. If you did not want a response then you need to have sent a Notification instead.
+Quand un serveur a reçu et traité une requête, il est attendu qu'il envoie une réponse. Si vous ne voulez pas de réponse alors vous devez envoyer une Notification à la place.
 
-- ``result``: The return value of the function which was called.
+- ``result``\  : Le résultat de la fonction appelée.
 
-- ``id``: The ID of the request this response is targeted to.
+- ``id``\  : L'identifiant de la requête que cette réponse cible.
 
 .. rst-class:: classref-item-separator
 
@@ -160,13 +160,13 @@ When a server has received and processed a request, it is expected to send a res
 
 :ref:`Dictionary<class_Dictionary>` **make_response_error**\ (\ code\: :ref:`int<class_int>`, message\: :ref:`String<class_String>`, id\: :ref:`Variant<class_Variant>` = null\ ) |const| :ref:`🔗<class_JSONRPC_method_make_response_error>`
 
-Creates a response which indicates a previous reply has failed in some way.
+Crée une réponse qui indique qu'une réponse précédente a échoué d'une certaine manière.
 
-- ``code``: The error code corresponding to what kind of error this is. See the :ref:`ErrorCode<enum_JSONRPC_ErrorCode>` constants.
+- ``code``\  : Le code d'erreur correspondant à ce type d'erreur. Voir les constantes :ref:`ErrorCode<enum_JSONRPC_ErrorCode>`.
 
-- ``message``: A custom message about this error.
+- ``message``\  : Un message personnalisé sur cette erreur.
 
-- ``id``: The request this error is a response to.
+- ``id``\  : La requête à laquelle cette erreur est une réponse.
 
 .. rst-class:: classref-item-separator
 
@@ -178,11 +178,11 @@ Creates a response which indicates a previous reply has failed in some way.
 
 :ref:`Variant<class_Variant>` **process_action**\ (\ action\: :ref:`Variant<class_Variant>`, recurse\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_JSONRPC_method_process_action>`
 
-Given a Dictionary which takes the form of a JSON-RPC request: unpack the request and run it. Methods are resolved by looking at the field called "method" and looking for an equivalently named function in the JSONRPC object. If one is found that method is called.
+Compte tenu d'un dictionnaire qui prend la forme d'une demande JSON-RPC : déballe la requête et l'exécute. Les méthodes sont résolues en regardant le champ appelé "method" et en recherchant une fonction équivalente dans l'objet JSONRPC. Si une telle méthode est trouvée, elle est appelée.
 
-To add new supported methods extend the JSONRPC class and call :ref:`process_action()<class_JSONRPC_method_process_action>` on your subclass.
+Pour ajouter de nouvelles méthodes supportées, prolongez la classe JSONRPC et appelez :ref:`process_action()<class_JSONRPC_method_process_action>` sur votre sous-classe.
 
-\ ``action``: The action to be run, as a Dictionary in the form of a JSON-RPC request or notification.
+\ ``action``\  : L'action à exécuter, en tant que Dictionary sous forme de requête ou de notification JSON-RPC.
 
 .. rst-class:: classref-item-separator
 
@@ -208,11 +208,11 @@ To add new supported methods extend the JSONRPC class and call :ref:`process_act
 
 |void| **set_method**\ (\ name\: :ref:`String<class_String>`, callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_JSONRPC_method_set_method>`
 
-Registers a callback for the given method name.
+Enregistre un callback pour le nom de la méthode donnée.
 
-- ``name`` The name that clients can use to access the callback.
+- ``name`` Le nom que les clients peuvent utiliser pour accéder au callback.
 
-- ``callback`` The callback which will handle the specific method.
+- ``callback`` Le callback qui gérera la méthode spécifique.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

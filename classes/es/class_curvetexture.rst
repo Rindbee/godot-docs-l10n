@@ -7,16 +7,16 @@ CurveTexture
 
 **Hereda:** :ref:`Texture2D<class_Texture2D>` **<** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 1D texture where pixel brightness corresponds to points on a curve.
+Una textura 1D donde el brillo de los píxeles corresponde a los puntos de una curva.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A 1D texture where pixel brightness corresponds to points on a unit :ref:`Curve<class_Curve>` resource, either in grayscale or in red. This visual representation simplifies the task of saving curves as image files.
+Una textura 1D donde el brillo de los píxeles se corresponde con los puntos de un recurso :ref:`Curve<class_Curve>` unitario, ya sea en escala de grises o en rojo. Esta representación visual simplifica la tarea de guardar curvas como archivos de imagen.
 
-If you need to store up to 3 curves within a single texture, use :ref:`CurveXYZTexture<class_CurveXYZTexture>` instead. See also :ref:`GradientTexture1D<class_GradientTexture1D>` and :ref:`GradientTexture2D<class_GradientTexture2D>`.
+Si necesitas almacenar hasta 3 curvas dentro de una sola textura, utiliza :ref:`CurveXYZTexture<class_CurveXYZTexture>` en su lugar. Véase también :ref:`GradientTexture1D<class_GradientTexture1D>` y :ref:`GradientTexture2D<class_GradientTexture2D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -57,7 +57,7 @@ enum **TextureMode**: :ref:`🔗<enum_CurveTexture_TextureMode>`
 
 :ref:`TextureMode<enum_CurveTexture_TextureMode>` **TEXTURE_MODE_RGB** = ``0``
 
-Store the curve equally across the red, green and blue channels. This uses more video memory, but is more compatible with shaders that only read the green and blue values.
+Guarda la curva por igual en los canales rojo, verde y azul. Esto usa más memoria de video, pero es más compatible con los sombreadores que solo leen los valores verde y azul.
 
 .. _class_CurveTexture_constant_TEXTURE_MODE_RED:
 
@@ -65,7 +65,7 @@ Store the curve equally across the red, green and blue channels. This uses more 
 
 :ref:`TextureMode<enum_CurveTexture_TextureMode>` **TEXTURE_MODE_RED** = ``1``
 
-Store the curve only in the red channel. This saves video memory, but some custom shaders may not be able to work with this.
+Guarda la curva solo en el canal rojo. Esto ahorra memoria de video, pero algunos sombreadores personalizados podrían no funcionar con esto.
 
 .. rst-class:: classref-section-separator
 
@@ -87,7 +87,7 @@ Descripciones de Propiedades
 - |void| **set_curve**\ (\ value\: :ref:`Curve<class_Curve>`\ )
 - :ref:`Curve<class_Curve>` **get_curve**\ (\ )
 
-The :ref:`Curve<class_Curve>` that is rendered onto the texture. Should be a unit :ref:`Curve<class_Curve>`.
+La :ref:`Curve<class_Curve>` que se renderiza en la textura. Debe ser una :ref:`Curve<class_Curve>` unitaria.
 
 .. rst-class:: classref-item-separator
 
@@ -104,7 +104,7 @@ The :ref:`Curve<class_Curve>` that is rendered onto the texture. Should be a uni
 - |void| **set_texture_mode**\ (\ value\: :ref:`TextureMode<enum_CurveTexture_TextureMode>`\ )
 - :ref:`TextureMode<enum_CurveTexture_TextureMode>` **get_texture_mode**\ (\ )
 
-The format the texture should be generated with. When passing a CurveTexture as an input to a :ref:`Shader<class_Shader>`, this may need to be adjusted.
+El formato con el que se debe generar la textura. Al pasar una CurveTexture como entrada a un :ref:`Shader<class_Shader>`, es posible que esto deba ajustarse.
 
 .. rst-class:: classref-item-separator
 
@@ -121,7 +121,7 @@ The format the texture should be generated with. When passing a CurveTexture as 
 - |void| **set_width**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_width**\ (\ )
 
-The width of the texture (in pixels). Higher values make it possible to represent high-frequency data better (such as sudden direction changes), at the cost of increased generation time and memory usage.
+El ancho de la textura (en píxeles). Los valores más altos hacen posible representar mejor los datos de alta frecuencia (como los cambios repentinos de dirección), a costa de un mayor tiempo de generación y uso de memoria.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

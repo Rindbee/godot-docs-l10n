@@ -146,7 +146,7 @@ Direction d'écriture du texte.
 - |void| **set_ellipsis_char**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_ellipsis_char**\ (\ )
 
-Ellipsis character used for text clipping.
+Caractère d’ellipse utilisé pour tronquer du texte.
 
 .. rst-class:: classref-item-separator
 

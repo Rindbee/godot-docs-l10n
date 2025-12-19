@@ -7,7 +7,7 @@ VisualShaderNodeOutput
 
 **Hérite de :** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`VisualShaderNodeParticleOutput<class_VisualShaderNodeParticleOutput>`
+**Hérité par :** :ref:`VisualShaderNodeParticleOutput<class_VisualShaderNodeParticleOutput>`
 
 Represents the output shader parameters within the visual shader graph.
 

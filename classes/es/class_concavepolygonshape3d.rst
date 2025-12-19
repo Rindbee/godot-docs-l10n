@@ -106,7 +106,7 @@ Returns the faces of the trimesh shape as an array of vertices. The array (of le
 
 |void| **set_faces**\ (\ faces\: :ref:`PackedVector3Array<class_PackedVector3Array>`\ ) :ref:`🔗<class_ConcavePolygonShape3D_method_set_faces>`
 
-Sets the faces of the trimesh shape from an array of vertices. The ``faces`` array should be composed of triples such that each triple of vertices defines a triangle.
+Establece las caras de la forma trimesh a partir de un array de vértices. El array ``faces`` debe estar compuesto por triples de forma que cada triple de vértices defina un triángulo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

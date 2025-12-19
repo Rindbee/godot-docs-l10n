@@ -9,7 +9,7 @@ SkeletonModification2DTwoBoneIK
 
 **Hereda:** :ref:`SkeletonModification2D<class_SkeletonModification2D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A modification that rotates two bones using the law of cosines to reach the target.
+Una modificación que rota dos huesos usando la ley de los cosenos para alcanzar el objetivo.
 
 .. rst-class:: classref-introduction-group
 
@@ -84,7 +84,7 @@ Descripciones de Propiedades
 - |void| **set_flip_bend_direction**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flip_bend_direction**\ (\ )
 
-If ``true``, the bones in the modification will bend outward as opposed to inwards when contracting. If ``false``, the bones will bend inwards when contracting.
+Si es ``true``, los huesos en la modificación se doblarán hacia afuera en lugar de hacia adentro al contraerse. Si es ``false``, los huesos se doblarán hacia adentro al contraerse.
 
 .. rst-class:: classref-item-separator
 
@@ -101,7 +101,7 @@ If ``true``, the bones in the modification will bend outward as opposed to inwar
 - |void| **set_target_maximum_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_target_maximum_distance**\ (\ )
 
-The maximum distance the target can be at. If the target is farther than this distance, the modification will solve as if it's at this maximum distance. When set to ``0``, the modification will solve without distance constraints.
+La distancia máxima a la que puede estar el objetivo. Si el objetivo está más lejos de esta distancia, la modificación se resolverá como si estuviera a esta distancia máxima. Cuando se establece en ``0``, la modificación se resolverá sin restricciones de distancia.
 
 .. rst-class:: classref-item-separator
 
@@ -118,7 +118,7 @@ The maximum distance the target can be at. If the target is farther than this di
 - |void| **set_target_minimum_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_target_minimum_distance**\ (\ )
 
-The minimum distance the target can be at. If the target is closer than this distance, the modification will solve as if it's at this minimum distance. When set to ``0``, the modification will solve without distance constraints.
+La distancia mínima a la que puede estar el objetivo. Si el objetivo está más cerca de esta distancia, la modificación se resolverá como si estuviera a esta distancia mínima. Cuando se establece en ``0``, la modificación se resolverá sin restricciones de distancia.
 
 .. rst-class:: classref-item-separator
 
@@ -135,7 +135,7 @@ The minimum distance the target can be at. If the target is closer than this dis
 - |void| **set_target_node**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_target_node**\ (\ )
 
-The NodePath to the node that is the target for the TwoBoneIK modification. This node is what the modification will use when bending the :ref:`Bone2D<class_Bone2D>` nodes.
+La NodePath al nodo que es el objetivo para la modificación TwoBoneIK. Este nodo es lo que la modificación usará cuando doble los nodos :ref:`Bone2D<class_Bone2D>`.
 
 .. rst-class:: classref-section-separator
 
@@ -152,7 +152,7 @@ Descripciones de Métodos
 
 :ref:`NodePath<class_NodePath>` **get_joint_one_bone2d_node**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_get_joint_one_bone2d_node>`
 
-Returns the :ref:`Bone2D<class_Bone2D>` node that is being used as the first bone in the TwoBoneIK modification.
+Devuelve el nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el primer hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -164,7 +164,7 @@ Returns the :ref:`Bone2D<class_Bone2D>` node that is being used as the first bon
 
 :ref:`int<class_int>` **get_joint_one_bone_idx**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_get_joint_one_bone_idx>`
 
-Returns the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as the first bone in the TwoBoneIK modification.
+Devuelve el índice del nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el primer hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -176,7 +176,7 @@ Returns the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as 
 
 :ref:`NodePath<class_NodePath>` **get_joint_two_bone2d_node**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_get_joint_two_bone2d_node>`
 
-Returns the :ref:`Bone2D<class_Bone2D>` node that is being used as the second bone in the TwoBoneIK modification.
+Devuelve el nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el segundo hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -188,7 +188,7 @@ Returns the :ref:`Bone2D<class_Bone2D>` node that is being used as the second bo
 
 :ref:`int<class_int>` **get_joint_two_bone_idx**\ (\ ) |const| :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_get_joint_two_bone_idx>`
 
-Returns the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as the second bone in the TwoBoneIK modification.
+Devuelve el índice del nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el segundo hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -200,7 +200,7 @@ Returns the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as 
 
 |void| **set_joint_one_bone2d_node**\ (\ bone2d_node\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_set_joint_one_bone2d_node>`
 
-Sets the :ref:`Bone2D<class_Bone2D>` node that is being used as the first bone in the TwoBoneIK modification.
+Establece el nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el primer hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -212,7 +212,7 @@ Sets the :ref:`Bone2D<class_Bone2D>` node that is being used as the first bone i
 
 |void| **set_joint_one_bone_idx**\ (\ bone_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_set_joint_one_bone_idx>`
 
-Sets the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as the first bone in the TwoBoneIK modification.
+Establece el índice del nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el primer hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -224,7 +224,7 @@ Sets the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as the
 
 |void| **set_joint_two_bone2d_node**\ (\ bone2d_node\: :ref:`NodePath<class_NodePath>`\ ) :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_set_joint_two_bone2d_node>`
 
-Sets the :ref:`Bone2D<class_Bone2D>` node that is being used as the second bone in the TwoBoneIK modification.
+Establece el nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el segundo hueso en la modificación TwoBoneIK.
 
 .. rst-class:: classref-item-separator
 
@@ -236,7 +236,7 @@ Sets the :ref:`Bone2D<class_Bone2D>` node that is being used as the second bone 
 
 |void| **set_joint_two_bone_idx**\ (\ bone_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SkeletonModification2DTwoBoneIK_method_set_joint_two_bone_idx>`
 
-Sets the index of the :ref:`Bone2D<class_Bone2D>` node that is being used as the second bone in the TwoBoneIK modification.
+Establece el índice del nodo :ref:`Bone2D<class_Bone2D>` que se está utilizando como el segundo hueso en la modificación TwoBoneIK.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

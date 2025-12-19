@@ -202,9 +202,9 @@ Implementing this method is required if :ref:`_begin_customize_resources()<class
 
 :ref:`Node<class_Node>` **_customize_scene**\ (\ scene\: :ref:`Node<class_Node>`, path\: :ref:`String<class_String>`\ ) |virtual| |required| :ref:`🔗<class_EditorExportPlugin_private_method__customize_scene>`
 
-Customize a scene. If changes are made to it, return the same or a new scene. Otherwise, return ``null``. If a new scene is returned, it is up to you to dispose of the old one.
+Personaliza una escena. Si se realizan cambios, devuelve la misma escena o una nueva. De lo contrario, devuelve ``null``. Si se devuelve una nueva escena, depende de ti desechar la antigua.
 
-Implementing this method is required if :ref:`_begin_customize_scenes()<class_EditorExportPlugin_private_method__begin_customize_scenes>` returns ``true``.
+Es necesario implementar este método si :ref:`_begin_customize_scenes()<class_EditorExportPlugin_private_method__begin_customize_scenes>` devuelve ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -216,7 +216,7 @@ Implementing this method is required if :ref:`_begin_customize_scenes()<class_Ed
 
 |void| **_end_customize_resources**\ (\ ) |virtual| :ref:`🔗<class_EditorExportPlugin_private_method__end_customize_resources>`
 
-This is called when the customization process for resources ends.
+Se llama a esto cuando termina el proceso de personalización de los recursos.
 
 .. rst-class:: classref-item-separator
 
@@ -228,7 +228,7 @@ This is called when the customization process for resources ends.
 
 |void| **_end_customize_scenes**\ (\ ) |virtual| :ref:`🔗<class_EditorExportPlugin_private_method__end_customize_scenes>`
 
-This is called when the customization process for scenes ends.
+Se llama a esto cuando termina el proceso de personalización de las escenas.
 
 .. rst-class:: classref-item-separator
 
@@ -240,7 +240,7 @@ This is called when the customization process for scenes ends.
 
 |void| **_export_begin**\ (\ features\: :ref:`PackedStringArray<class_PackedStringArray>`, is_debug\: :ref:`bool<class_bool>`, path\: :ref:`String<class_String>`, flags\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_EditorExportPlugin_private_method__export_begin>`
 
-Virtual method to be overridden by the user. It is called when the export starts and provides all information about the export. ``features`` is the list of features for the export, ``is_debug`` is ``true`` for debug builds, ``path`` is the target path for the exported project. ``flags`` is only used when running a runnable profile, e.g. when using native run on Android.
+Método virtual para ser redefinido por el usuario. Se llama cuando comienza la exportación y proporciona toda la información sobre la exportación. ``features`` es la lista de características para la exportación, ``is_debug`` es ``true`` para las compilaciones de depuración, ``path`` es la ruta de destino para el proyecto exportado. ``flags`` solo se usa cuando se ejecuta un perfil ejecutable, por ejemplo, cuando se usa la ejecución nativa en Android.
 
 .. rst-class:: classref-item-separator
 
@@ -384,7 +384,7 @@ Implementing this method is required if :ref:`_begin_customize_resources()<class
 
 :ref:`PackedStringArray<class_PackedStringArray>` **_get_export_features**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`, debug\: :ref:`bool<class_bool>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__get_export_features>`
 
-Return a :ref:`PackedStringArray<class_PackedStringArray>` of additional features this preset, for the given ``platform``, should have.
+Devuelve un :ref:`PackedStringArray<class_PackedStringArray>` de características adicionales que este ajuste preestablecido, para la ``platform`` dada, debería tener.
 
 .. rst-class:: classref-item-separator
 
@@ -396,7 +396,7 @@ Return a :ref:`PackedStringArray<class_PackedStringArray>` of additional feature
 
 :ref:`bool<class_bool>` **_get_export_option_visibility**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`, option\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__get_export_option_visibility>`
 
-Validates ``option`` and returns the visibility for the specified ``platform``. The default implementation returns ``true`` for all options.
+Valida ``option`` y devuelve la visibilidad para la ``platform`` especificada. La implementación predeterminada devuelve ``true`` para todas las opciones.
 
 .. rst-class:: classref-item-separator
 
@@ -408,9 +408,9 @@ Validates ``option`` and returns the visibility for the specified ``platform``. 
 
 :ref:`String<class_String>` **_get_export_option_warning**\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`, option\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_EditorExportPlugin_private_method__get_export_option_warning>`
 
-Check the requirements for the given ``option`` and return a non-empty warning string if they are not met.
+Verifica los requisitos para la ``option`` dada y devuelve una string de advertencia no vacía si no se cumplen.
 
-\ **Note:** Use :ref:`get_option()<class_EditorExportPlugin_method_get_option>` to check the value of the export options.
+\ **Nota:** Utiliza :ref:`get_option()<class_EditorExportPlugin_method_get_option>` para verificar el valor de las opciones de exportación.
 
 .. rst-class:: classref-item-separator
 

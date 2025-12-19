@@ -124,9 +124,9 @@ Descripciones de Propiedades
 - |void| **set_fallbacks**\ (\ value\: :ref:`Array<class_Array>`\[:ref:`Font<class_Font>`\]\ )
 - :ref:`Array<class_Array>`\[:ref:`Font<class_Font>`\] **get_fallbacks**\ (\ )
 
-Array of fallback **Font**\ s to use as a substitute if a glyph is not found in this current **Font**.
+Array de **Font**\ s de respaldo para usar como sustituto si no se encuentra un glifo en esta **Font** actual.
 
-If this array is empty in a :ref:`FontVariation<class_FontVariation>`, the :ref:`FontVariation.base_font<class_FontVariation_property_base_font>`'s fallbacks are used instead.
+Si este array está vacío en una :ref:`FontVariation<class_FontVariation>`, se utilizan los respaldos de :ref:`FontVariation.base_font<class_FontVariation_property_base_font>` en su lugar.
 
 .. rst-class:: classref-section-separator
 
@@ -239,9 +239,9 @@ Devuelve el RID de :ref:`TextServer<class_TextServer>` del caché de fuentes par
 
 :ref:`float<class_float>` **get_ascent**\ (\ font_size\: :ref:`int<class_int>` = 16\ ) |const| :ref:`🔗<class_Font_method_get_ascent>`
 
-Returns the average font ascent (number of pixels above the baseline).
+Devuelve el ascenso medio de la fuente (número de píxeles por encima de la línea base).
 
-\ **Note:** Real ascent of the string is context-dependent and can be significantly different from the value returned by this function. Use it only as rough estimate (e.g. as the ascent of empty line).
+\ **Nota:** El ascenso real de la string depende del contexto y puede ser significativamente diferente del valor devuelto por esta función. Úsalo solo como una estimación aproximada (por ejemplo, como el ascenso de una línea vacía).
 
 .. rst-class:: classref-item-separator
 
@@ -253,9 +253,9 @@ Returns the average font ascent (number of pixels above the baseline).
 
 :ref:`Vector2<class_Vector2>` **get_char_size**\ (\ char\: :ref:`int<class_int>`, font_size\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Font_method_get_char_size>`
 
-Returns the size of a character. Does not take kerning into account.
+Devuelve el tamaño de un carácter. No tiene en cuenta el kerning.
 
-\ **Note:** Do not use this function to calculate width of the string character by character, use :ref:`get_string_size()<class_Font_method_get_string_size>` or :ref:`TextLine<class_TextLine>` instead. The height returned is the font height (see also :ref:`get_height()<class_Font_method_get_height>`) and has no relation to the glyph height.
+\ **Nota:** No uses esta función para calcular el ancho de la string carácter por carácter, usa :ref:`get_string_size()<class_Font_method_get_string_size>` o :ref:`TextLine<class_TextLine>` en su lugar. La altura devuelta es la altura de la fuente (véase también :ref:`get_height()<class_Font_method_get_height>`) y no tiene relación con la altura del glifo.
 
 .. rst-class:: classref-item-separator
 
@@ -267,9 +267,9 @@ Returns the size of a character. Does not take kerning into account.
 
 :ref:`float<class_float>` **get_descent**\ (\ font_size\: :ref:`int<class_int>` = 16\ ) |const| :ref:`🔗<class_Font_method_get_descent>`
 
-Returns the average font descent (number of pixels below the baseline).
+Devuelve el descenso medio de la fuente (número de píxeles por debajo de la línea de base).
 
-\ **Note:** Real descent of the string is context-dependent and can be significantly different from the value returned by this function. Use it only as rough estimate (e.g. as the descent of empty line).
+\ **Nota:** El descenso real de la string depende del contexto y puede ser significativamente diferente del valor devuelto por esta función. Úsalo solo como una estimación aproximada (por ejemplo, como el descenso de una línea vacía).
 
 .. rst-class:: classref-item-separator
 
@@ -281,7 +281,7 @@ Returns the average font descent (number of pixels below the baseline).
 
 :ref:`int<class_int>` **get_face_count**\ (\ ) |const| :ref:`🔗<class_Font_method_get_face_count>`
 
-Returns number of faces in the TrueType / OpenType collection.
+Devuelve el número de caras en la colección TrueType/OpenType.
 
 .. rst-class:: classref-item-separator
 
@@ -341,7 +341,7 @@ Devuelve el nombre del estilo de la fuente.
 
 :ref:`int<class_int>` **get_font_weight**\ (\ ) |const| :ref:`🔗<class_Font_method_get_font_weight>`
 
-Returns weight (boldness) of the font. A value in the ``100...999`` range, normal font weight is ``400``, bold font weight is ``700``.
+Devuelve el peso (grosor) de la fuente. Un valor en el rango ``100...999``, el peso normal de la fuente es ``400``, el peso de la fuente en negrita es ``700``.
 
 .. rst-class:: classref-item-separator
 
@@ -353,9 +353,9 @@ Returns weight (boldness) of the font. A value in the ``100...999`` range, norma
 
 :ref:`float<class_float>` **get_height**\ (\ font_size\: :ref:`int<class_int>` = 16\ ) |const| :ref:`🔗<class_Font_method_get_height>`
 
-Returns the total average font height (ascent plus descent) in pixels.
+Devuelve la altura total media de la fuente (ascenso más descenso) en píxeles.
 
-\ **Note:** Real height of the string is context-dependent and can be significantly different from the value returned by this function. Use it only as rough estimate (e.g. as the height of empty line).
+\ **Nota:** La altura real de la string depende del contexto y puede ser significativamente diferente del valor devuelto por esta función. Úsalo solo como una estimación aproximada (por ejemplo, como la altura de una línea vacía).
 
 .. rst-class:: classref-item-separator
 
@@ -367,9 +367,9 @@ Returns the total average font height (ascent plus descent) in pixels.
 
 :ref:`Vector2<class_Vector2>` **get_multiline_string_size**\ (\ text\: :ref:`String<class_String>`, alignment\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` = 0, width\: :ref:`float<class_float>` = -1, font_size\: :ref:`int<class_int>` = 16, max_lines\: :ref:`int<class_int>` = -1, brk_flags\: |bitfield|\[:ref:`LineBreakFlag<enum_TextServer_LineBreakFlag>`\] = 3, justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] = 3, direction\: :ref:`Direction<enum_TextServer_Direction>` = 0, orientation\: :ref:`Orientation<enum_TextServer_Orientation>` = 0\ ) |const| :ref:`🔗<class_Font_method_get_multiline_string_size>`
 
-Returns the size of a bounding box of a string broken into the lines, taking kerning and advance into account.
+Devuelve el tamaño de un cuadro delimitador de una string dividida en líneas, teniendo en cuenta el kerning y el avance.
 
-See also :ref:`draw_multiline_string()<class_Font_method_draw_multiline_string>`.
+Véase también :ref:`draw_multiline_string()<class_Font_method_draw_multiline_string>`.
 
 .. rst-class:: classref-item-separator
 
@@ -381,7 +381,7 @@ See also :ref:`draw_multiline_string()<class_Font_method_draw_multiline_string>`
 
 :ref:`Dictionary<class_Dictionary>` **get_opentype_features**\ (\ ) |const| :ref:`🔗<class_Font_method_get_opentype_features>`
 
-Returns a set of OpenType feature tags. More info: `OpenType feature tags <https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags>`__.
+Devuelve un conjunto de etiquetas de características OpenType. Más información: `Etiquetas de características OpenType <https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -393,7 +393,7 @@ Returns a set of OpenType feature tags. More info: `OpenType feature tags <https
 
 :ref:`Dictionary<class_Dictionary>` **get_ot_name_strings**\ (\ ) |const| :ref:`🔗<class_Font_method_get_ot_name_strings>`
 
-Returns :ref:`Dictionary<class_Dictionary>` with OpenType font name strings (localized font names, version, description, license information, sample text, etc.).
+Devuelve un :ref:`Dictionary<class_Dictionary>` con cadenas de nombre de fuente OpenType (nombres de fuente localizados, versión, descripción, información de licencia, texto de ejemplo, etc.).
 
 .. rst-class:: classref-item-separator
 
@@ -405,7 +405,7 @@ Returns :ref:`Dictionary<class_Dictionary>` with OpenType font name strings (loc
 
 :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\] **get_rids**\ (\ ) |const| :ref:`🔗<class_Font_method_get_rids>`
 
-Returns :ref:`Array<class_Array>` of valid **Font** :ref:`RID<class_RID>`\ s, which can be passed to the :ref:`TextServer<class_TextServer>` methods.
+Devuelve un :ref:`Array<class_Array>` de :ref:`RID<class_RID>`\ s de **Font** válidos, que se pueden pasar a los métodos :ref:`TextServer<class_TextServer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -461,7 +461,7 @@ For example, to get the string size as displayed by a single-line Label, use:
 
 :ref:`String<class_String>` **get_supported_chars**\ (\ ) |const| :ref:`🔗<class_Font_method_get_supported_chars>`
 
-Devuelve un string que contiene todos los caracteres disponibles en la fuente.
+Devuelve una string que contiene todos los caracteres disponibles en la fuente.
 
 Si un carácter determinado está incluido en más de una fuente, solo aparece una vez en la string devuelta.
 
@@ -475,7 +475,7 @@ Si un carácter determinado está incluido en más de una fuente, solo aparece u
 
 :ref:`Dictionary<class_Dictionary>` **get_supported_feature_list**\ (\ ) |const| :ref:`🔗<class_Font_method_get_supported_feature_list>`
 
-Returns list of OpenType features supported by font.
+Devuelve una lista de las características OpenType soportadas por la fuente.
 
 .. rst-class:: classref-item-separator
 
@@ -515,9 +515,9 @@ To print available variation axes of a variable font:
 
 :ref:`float<class_float>` **get_underline_position**\ (\ font_size\: :ref:`int<class_int>` = 16\ ) |const| :ref:`🔗<class_Font_method_get_underline_position>`
 
-Returns average pixel offset of the underline below the baseline.
+Devuelve el desplazamiento medio en píxeles del subrayado por debajo de la línea de base.
 
-\ **Note:** Real underline position of the string is context-dependent and can be significantly different from the value returned by this function. Use it only as rough estimate.
+\ **Nota:** La posición real del subrayado de la string depende del contexto y puede ser significativamente diferente del valor devuelto por esta función. Úsalo solo como una estimación aproximada.
 
 .. rst-class:: classref-item-separator
 
@@ -529,9 +529,9 @@ Returns average pixel offset of the underline below the baseline.
 
 :ref:`float<class_float>` **get_underline_thickness**\ (\ font_size\: :ref:`int<class_int>` = 16\ ) |const| :ref:`🔗<class_Font_method_get_underline_thickness>`
 
-Returns average thickness of the underline.
+Devuelve el grosor medio del subrayado.
 
-\ **Note:** Real underline thickness of the string is context-dependent and can be significantly different from the value returned by this function. Use it only as rough estimate.
+\ **Nota:** El grosor real del subrayado de la string depende del contexto y puede ser significativamente diferente del valor devuelto por esta función. Úsalo solo como una estimación aproximada.
 
 .. rst-class:: classref-item-separator
 
@@ -555,7 +555,7 @@ Devuelve ``true`` si un ``char`` Unicode está disponible en la fuente.
 
 :ref:`bool<class_bool>` **is_language_supported**\ (\ language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Font_method_is_language_supported>`
 
-Returns ``true``, if font supports given language (`ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ code).
+Devuelve ``true`` si la fuente soporta el idioma dado (código `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__).
 
 .. rst-class:: classref-item-separator
 
@@ -567,7 +567,7 @@ Returns ``true``, if font supports given language (`ISO 639 <https://en.wikipedi
 
 :ref:`bool<class_bool>` **is_script_supported**\ (\ script\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Font_method_is_script_supported>`
 
-Returns ``true``, if font supports given script (`ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__ code).
+Devuelve ``true`` si la fuente soporta el script dado (código `ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__).
 
 .. rst-class:: classref-item-separator
 
@@ -579,7 +579,7 @@ Returns ``true``, if font supports given script (`ISO 15924 <https://en.wikipedi
 
 |void| **set_cache_capacity**\ (\ single_line\: :ref:`int<class_int>`, multi_line\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Font_method_set_cache_capacity>`
 
-Sets LRU cache capacity for ``draw_*`` methods.
+Establece la capacidad de la caché LRU para los métodos ``draw_*``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

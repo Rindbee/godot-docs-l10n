@@ -765,7 +765,7 @@ See also the :doc:`GDScript format string <../tutorials/scripting/gdscript/gdscr
 
 :ref:`String<class_String>` **get_base_dir**\ (\ ) |const| :ref:`🔗<class_String_method_get_base_dir>`
 
-Si la cadena es una ruta de archivo válida, devuelve el nombre del directorio base.
+Si la string es una ruta de archivo válida, devuelve el nombre del directorio base.
 
 ::
 
@@ -1596,7 +1596,7 @@ Repite esta string un número de veces. ``count`` debe ser mayor que ``0``. De l
 
 :ref:`String<class_String>` **replace**\ (\ what\: :ref:`String<class_String>`, forwhat\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_replace>`
 
-Replaces all occurrences of ``what`` inside the string with the given ``forwhat``.
+Reemplaza todas las instancias de ``what`` dentro de la string con el ``forwhat`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2179,7 +2179,7 @@ Elimina el ``prefix`` dado del inicio de la string, o devuelve la string sin cam
 
 :ref:`String<class_String>` **trim_suffix**\ (\ suffix\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_trim_suffix>`
 
-Elimina el ``suffix`` dado del final de la string, o string la cadena sin cambios.
+Elimina el ``suffix`` dado del final de la string, o string la string sin cambios.
 
 .. rst-class:: classref-item-separator
 
@@ -2277,7 +2277,7 @@ Decodifica la ruta del archivo desde su formato codificado en URL. A diferencia 
 
 :ref:`String<class_String>` **validate_filename**\ (\ ) |const| :ref:`🔗<class_String_method_validate_filename>`
 
-Returns a copy of the string with all characters that are not allowed in :ref:`is_valid_filename()<class_String_method_is_valid_filename>` replaced with underscores.
+Devuelve una copia de la string con todos los caracteres que no están permitidos en :ref:`is_valid_filename()<class_String_method_is_valid_filename>` reemplazados con guiones bajos.
 
 .. rst-class:: classref-item-separator
 
@@ -2330,7 +2330,7 @@ Descripciones de Operadores
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_neq_String>`
 
-Returns ``true`` if both strings do not contain the same sequence of characters.
+Devuelve ``true`` si ambas strings no contienen la misma secuencia de caracteres.
 
 .. rst-class:: classref-item-separator
 
@@ -2342,7 +2342,7 @@ Returns ``true`` if both strings do not contain the same sequence of characters.
 
 :ref:`bool<class_bool>` **operator !=**\ (\ right\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_String_operator_neq_StringName>`
 
-Returns ``true`` if this **String** is not equivalent to the given :ref:`StringName<class_StringName>`.
+Devuelve ``true`` si esta **String** no es equivalente al :ref:`StringName<class_StringName>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -2427,7 +2427,7 @@ Devuelve ``true`` si la **String** de la izquierda es anterior a ``right`` en el
 
 :ref:`bool<class_bool>` **operator ==**\ (\ right\: :ref:`String<class_String>`\ ) :ref:`🔗<class_String_operator_eq_String>`
 
-Returns ``true`` if both strings contain the same sequence of characters.
+Devuelve ``true`` si ambas strings contienen la misma secuencia de caracteres.
 
 .. rst-class:: classref-item-separator
 
@@ -2475,7 +2475,7 @@ Devuelve ``true`` si la **String** de la izquierda es posterior a ``right`` en e
 
 :ref:`String<class_String>` **operator []**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_String_operator_idx_int>`
 
-Devuelve una nueva **String** que solo contiene el carácter en ``index``. Los índices comienzan desde ``0``. Si ``index`` es mayor o igual que ``0``, el carácter se obtiene desde el principio de la cadena. Si ``index`` es un valor negativo, se obtiene desde el final. Acceder a una cadena fuera de los límites provocará un error en tiempo de ejecución, pausando la ejecución del proyecto si se ejecuta desde el editor.
+Devuelve una nueva **String** que solo contiene el carácter en ``index``. Los índices comienzan desde ``0``. Si ``index`` es mayor o igual que ``0``, el carácter se obtiene desde el principio de la string. Si ``index`` es un valor negativo, se obtiene desde el final. Acceder a una string fuera de los límites provocará un error en tiempo de ejecución, pausando la ejecución del proyecto si se ejecuta desde el editor.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

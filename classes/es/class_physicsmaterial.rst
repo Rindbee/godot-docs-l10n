@@ -7,14 +7,14 @@ PhysicsMaterial
 
 **Hereda:** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Holds physics-related properties of a surface, namely its roughness and bounciness.
+Contiene las propiedades relacionadas con la física de una superficie, concretamente su rugosidad y rebote.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-Holds physics-related properties of a surface, namely its roughness and bounciness. This class is used to apply these properties to a physics body.
+Contiene las propiedades relacionadas con la física de una superficie, concretamente su rugosidad y rebote. Esta clase se utiliza para aplicar estas propiedades a un cuerpo físico.
 
 .. rst-class:: classref-reftable-group
 

@@ -7,16 +7,16 @@ PhysicsServer3DExtension
 
 **Hereda:** :ref:`PhysicsServer3D<class_PhysicsServer3D>` **<** :ref:`Object<class_Object>`
 
-Provides virtual methods that can be overridden to create custom :ref:`PhysicsServer3D<class_PhysicsServer3D>` implementations.
+Proporciona métodos virtuales que pueden ser sobrescritos para crear implementaciones personalizadas de :ref:`PhysicsServer3D<class_PhysicsServer3D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This class extends :ref:`PhysicsServer3D<class_PhysicsServer3D>` by providing additional virtual methods that can be overridden. When these methods are overridden, they will be called instead of the internal methods of the physics server.
+Esta clase extiende :ref:`PhysicsServer3D<class_PhysicsServer3D>` proporcionando métodos virtuales adicionales que pueden ser sobreescritos. Cuando estos métodos son sobreescritos, serán llamados en lugar de los métodos internos del servidor de física.
 
-Intended for use with GDExtension to create custom implementations of :ref:`PhysicsServer3D<class_PhysicsServer3D>`.
+Pensado para ser usado con GDExtension para crear implementaciones personalizadas de :ref:`PhysicsServer3D<class_PhysicsServer3D>`.
 
 .. rst-class:: classref-reftable-group
 

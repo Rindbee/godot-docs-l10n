@@ -7,14 +7,14 @@ ReferenceRect
 
 **Hereda:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A rectangular box for designing UIs.
+Un cuadro rectangular para diseñar interfaces de usuario.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-A rectangular box that displays only a colored border around its rectangle (see :ref:`Control.get_rect()<class_Control_method_get_rect>`). It can be used to visualize the extents of a :ref:`Control<class_Control>` node, for testing purposes.
+Un cuadro rectangular que muestra solo un borde coloreado alrededor de su rectángulo (ver :ref:`Control.get_rect()<class_Control_method_get_rect>`). Puede ser utilizado para visualizar las extensiones de un nodo :ref:`Control<class_Control>`, para propósitos de prueba.
 
 .. rst-class:: classref-reftable-group
 
@@ -52,7 +52,7 @@ Descripciones de Propiedades
 - |void| **set_border_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_border_color**\ (\ )
 
-Sets the border color of the **ReferenceRect**.
+Establece el color del borde del **ReferenceRect**.
 
 .. rst-class:: classref-item-separator
 
@@ -69,7 +69,7 @@ Sets the border color of the **ReferenceRect**.
 - |void| **set_border_width**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_border_width**\ (\ )
 
-Sets the border width of the **ReferenceRect**. The border grows both inwards and outwards with respect to the rectangle box.
+Establece el ancho del borde del **ReferenceRect**. El borde crece tanto hacia adentro como hacia afuera con respecto al cuadro del rectángulo.
 
 .. rst-class:: classref-item-separator
 
@@ -86,7 +86,7 @@ Sets the border width of the **ReferenceRect**. The border grows both inwards an
 - |void| **set_editor_only**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_editor_only**\ (\ )
 
-If ``true``, the **ReferenceRect** will only be visible while in editor. Otherwise, **ReferenceRect** will be visible in the running project.
+Si es ``true``, el **ReferenceRect** solo será visible mientras esté en el editor. De lo contrario, el **ReferenceRect** será visible en el proyecto en ejecución.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

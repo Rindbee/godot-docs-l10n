@@ -306,7 +306,7 @@ Renvoie le :ref:`RID<class_RID>` du premier objet que le rayon intersecte, ou un
 
 :ref:`int<class_int>` **get_collider_shape**\ (\ ) |const| :ref:`🔗<class_RayCast2D_method_get_collider_shape>`
 
-Renvoie l'identifiant de forme du premier objet que le rayon intersecte, ou ``0`` si aucun objet n'intersecte le rayon (c.-à-d. :ref:`is_colliding()<class_RayCast2D_method_is_colliding>` retourne ``false``).
+Renvoie l'identifiant de forme du premier objet que le rayon intersecte, ou ``0`` si aucun objet n'intersecte le rayon (c.-à-d. que :ref:`is_colliding()<class_RayCast2D_method_is_colliding>` renvoie ``false``).
 
 Pour obtenir le nœud de la forme intersectée, pour une cible :ref:`CollisionObject2D<class_CollisionObject2D>`, utilisez :
 

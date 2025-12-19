@@ -7,7 +7,7 @@ BaseButton
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`Button<class_Button>`, :ref:`LinkButton<class_LinkButton>`, :ref:`TextureButton<class_TextureButton>`
+**Hérité par :** :ref:`Button<class_Button>`, :ref:`LinkButton<class_LinkButton>`, :ref:`TextureButton<class_TextureButton>`
 
 Classe commune abstraite pour les boutons GUI.
 
@@ -281,9 +281,9 @@ Pour permettre à la fois le clic gauche et le clic droit, utilisez ``MOUSE_BUTT
 - |void| **set_pressed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_pressed**\ (\ )
 
-If ``true``, the button's state is pressed. Means the button is pressed down or toggled (if :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` is active). Only works if :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` is ``true``.
+Si ``true``, l'état du bouton est appuyé. Ce qui signifie que le bouton est appuyé ou basculé (si :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` est actif). Ne fonctionne que si :ref:`toggle_mode<class_BaseButton_property_toggle_mode>` est ``true``.
 
-\ **Note:** Changing the value of :ref:`button_pressed<class_BaseButton_property_button_pressed>` will result in :ref:`toggled<class_BaseButton_signal_toggled>` to be emitted. If you want to change the pressed state without emitting that signal, use :ref:`set_pressed_no_signal()<class_BaseButton_method_set_pressed_no_signal>`.
+\ **Note :** Changer la valeur de :ref:`button_pressed<class_BaseButton_property_button_pressed>` émettra le signal :ref:`toggled<class_BaseButton_signal_toggled>`. Si vous voulez changer l'état pressé sans émettre ce signal, utilisez plutôt :ref:`set_pressed_no_signal()<class_BaseButton_method_set_pressed_no_signal>`.
 
 .. rst-class:: classref-item-separator
 

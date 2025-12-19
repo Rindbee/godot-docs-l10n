@@ -7,14 +7,14 @@ ReferenceRect
 
 **Hérite de :** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-A rectangular box for designing UIs.
+Une boîte rectangulaire pour la conception des interfaces utilisateur.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-A rectangular box that displays only a colored border around its rectangle (see :ref:`Control.get_rect()<class_Control_method_get_rect>`). It can be used to visualize the extents of a :ref:`Control<class_Control>` node, for testing purposes.
+Une boîte rectangulaire qui n'affiche qu'une bordure colorée autour de son rectangle (voir :ref:`Control.get_rect()<class_Control_method_get_rect>`). Elle peut être utilisée pour visualiser l'étendue d'un nœud :ref:`Control<class_Control>`, à des fins de test.
 
 .. rst-class:: classref-reftable-group
 
@@ -52,7 +52,7 @@ Descriptions des propriétés
 - |void| **set_border_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_border_color**\ (\ )
 
-Sets the border color of the **ReferenceRect**.
+Définit la couleur de la bordure du **ReferenceRect**.
 
 .. rst-class:: classref-item-separator
 
@@ -86,7 +86,7 @@ Définit la largeur de la bordure du **ReferenceRect**. La bordure va à la fois
 - |void| **set_editor_only**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_editor_only**\ (\ )
 
-If ``true``, the **ReferenceRect** will only be visible while in editor. Otherwise, **ReferenceRect** will be visible in the running project.
+Si ``true``, le **ReferenceRect** ne sera visible que dans l'éditeur. Sinon, le **ReferenceRect** sera aussi visible durant l'exécution du projet.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

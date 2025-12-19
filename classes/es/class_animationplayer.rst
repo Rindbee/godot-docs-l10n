@@ -299,7 +299,7 @@ La clave de la animación que se reproducirá cuando se cargue la escena.
 - |void| **set_current_animation**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_current_animation**\ (\ )
 
-La clave de la animación que se está reproduciendo actualmente. Si no se está reproduciendo ninguna animación, el valor de la propiedad es una cadena vacía. Cambiar este valor no reinicia la animación. Véase :ref:`play()<class_AnimationPlayer_method_play>` para más información sobre la reproducción de animaciones.
+La clave de la animación que se está reproduciendo actualmente. Si no se está reproduciendo ninguna animación, el valor de la propiedad es una string vacía. Cambiar este valor no reinicia la animación. Véase :ref:`play()<class_AnimationPlayer_method_play>` para más información sobre la reproducción de animaciones.
 
 \ **Nota:** Aunque esta propiedad aparece en el Inspector, no está pensada para ser editada y no se guarda en la escena. Esta propiedad se usa principalmente para obtener la animación que se está reproduciendo actualmente, e internamente para las pistas de reproducción de animación. Para más información, véase :ref:`Animation<class_Animation>`.
 
@@ -388,9 +388,9 @@ If ``true``, performs :ref:`AnimationMixer.capture()<class_AnimationMixer_method
 - |void| **set_auto_capture_duration**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_auto_capture_duration**\ (\ )
 
-See also :ref:`play_with_capture()<class_AnimationPlayer_method_play_with_capture>` and :ref:`AnimationMixer.capture()<class_AnimationMixer_method_capture>`.
+Véase también :ref:`play_with_capture()<class_AnimationPlayer_method_play_with_capture>` y :ref:`AnimationMixer.capture()<class_AnimationMixer_method_capture>`.
 
-If :ref:`playback_auto_capture_duration<class_AnimationPlayer_property_playback_auto_capture_duration>` is negative value, the duration is set to the interval between the current position and the first key.
+Si :ref:`playback_auto_capture_duration<class_AnimationPlayer_property_playback_auto_capture_duration>` es un value negativo, la duración se establece al intervalo entre la posición actual y la primera key.
 
 .. rst-class:: classref-item-separator
 
@@ -424,7 +424,7 @@ The ease type of the capture interpolation. See also :ref:`EaseType<enum_Tween_E
 - |void| **set_auto_capture_transition_type**\ (\ value\: :ref:`TransitionType<enum_Tween_TransitionType>`\ )
 - :ref:`TransitionType<enum_Tween_TransitionType>` **get_auto_capture_transition_type**\ (\ )
 
-The transition type of the capture interpolation. See also :ref:`TransitionType<enum_Tween_TransitionType>`.
+El tipo de transición de la interpolación de captura. Véase :ref:`TransitionType<enum_Tween_TransitionType>`.
 
 .. rst-class:: classref-item-separator
 
@@ -489,7 +489,7 @@ Devuelve la clave de la animación que está en cola para reproducirse después 
 
 |void| **animation_set_next**\ (\ animation_from\: :ref:`StringName<class_StringName>`, animation_to\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_AnimationPlayer_method_animation_set_next>`
 
-Triggers the ``animation_to`` animation when the ``animation_from`` animation completes.
+Dispara la animación ``animation_to`` cuando la animación ``animation_from`` se completa.
 
 .. rst-class:: classref-item-separator
 

@@ -14,13 +14,13 @@ A box-shaped 3D particle collision shape affecting :ref:`GPUParticles3D<class_GP
 Descripción
 ----------------------
 
-A box-shaped 3D particle collision shape affecting :ref:`GPUParticles3D<class_GPUParticles3D>` nodes.
+Una forma de colisión de partículas 3D con forma de caja que afecta a los nodos :ref:`GPUParticles3D<class_GPUParticles3D>`.
 
-Particle collision shapes work in real-time and can be moved, rotated and scaled during gameplay. Unlike attractors, non-uniform scaling of collision shapes is *not* supported.
+Las formas de colisión de partículas funcionan en tiempo real y se pueden mover, rotar y escalar durante el juego. A diferencia de los atractores, *no* se admite el escalado no uniforme de las formas de colisión.
 
-\ **Note:** :ref:`ParticleProcessMaterial.collision_mode<class_ParticleProcessMaterial_property_collision_mode>` must be :ref:`ParticleProcessMaterial.COLLISION_RIGID<class_ParticleProcessMaterial_constant_COLLISION_RIGID>` or :ref:`ParticleProcessMaterial.COLLISION_HIDE_ON_CONTACT<class_ParticleProcessMaterial_constant_COLLISION_HIDE_ON_CONTACT>` on the :ref:`GPUParticles3D<class_GPUParticles3D>`'s process material for collision to work.
+\ **Nota:** :ref:`ParticleProcessMaterial.collision_mode<class_ParticleProcessMaterial_property_collision_mode>` debe ser :ref:`ParticleProcessMaterial.COLLISION_RIGID<class_ParticleProcessMaterial_constant_COLLISION_RIGID>` o :ref:`ParticleProcessMaterial.COLLISION_HIDE_ON_CONTACT<class_ParticleProcessMaterial_constant_COLLISION_HIDE_ON_CONTACT>` en el material de proceso del :ref:`GPUParticles3D<class_GPUParticles3D>` para que la colisión funcione.
 
-\ **Note:** Particle collision only affects :ref:`GPUParticles3D<class_GPUParticles3D>`, not :ref:`CPUParticles3D<class_CPUParticles3D>`.
+\ **Nota:** La colisión de partículas solo afecta a :ref:`GPUParticles3D<class_GPUParticles3D>`, no a :ref:`CPUParticles3D<class_CPUParticles3D>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -54,7 +54,7 @@ Descripciones de Propiedades
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-The collision box's size in 3D units.
+El tamaño de la caja de colisión en unidades 3D.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

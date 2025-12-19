@@ -194,9 +194,9 @@ Sobrescribe el :ref:`AABB<class_AABB>` con uno definido por usuario para el uso 
 - |void| **set_shadow_mesh**\ (\ value\: :ref:`ArrayMesh<class_ArrayMesh>`\ )
 - :ref:`ArrayMesh<class_ArrayMesh>` **get_shadow_mesh**\ (\ )
 
-An optional mesh which can be used for rendering shadows and the depth prepass. Can be used to increase performance by supplying a mesh with fused vertices and only vertex position data (without normals, UVs, colors, etc.).
+Una malla opcional que puede ser usada para renderizar sombras y el pre-pase de profundidad. Puede ser usada para aumentar el rendimiento suministrando una malla con vértices fusionados y solo datos de posición del vértice (sin normales, UVs, colores, etc.).
 
-\ **Note:** This mesh must have exactly the same vertex positions as the source mesh (including the source mesh's LODs, if present). If vertex positions differ, then the mesh will not draw correctly.
+\ **Nota:** Esta malla debe tener exactamente las mismas posiciones de vértice que la malla fuente (incluyendo los LODs de la malla fuente, si están presentes). Si las posiciones de los vértices difieren, entonces la malla no se dibujará correctamente.
 
 .. rst-class:: classref-section-separator
 
@@ -309,7 +309,7 @@ Performs a UV unwrap on the **ArrayMesh** to prepare the mesh for lightmapping.
 
 |void| **regen_normal_maps**\ (\ ) :ref:`🔗<class_ArrayMesh_method_regen_normal_maps>`
 
-Regenerates tangents for each of the **ArrayMesh**'s surfaces.
+Regenera las tangentes para cada una de las superficies del **ArrayMesh**.
 
 .. rst-class:: classref-item-separator
 
@@ -321,7 +321,7 @@ Regenerates tangents for each of the **ArrayMesh**'s surfaces.
 
 |void| **set_blend_shape_name**\ (\ index\: :ref:`int<class_int>`, name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_ArrayMesh_method_set_blend_shape_name>`
 
-Sets the name of the blend shape at this index.
+Establece el nombre de la blendshape en este indice.
 
 .. rst-class:: classref-item-separator
 
@@ -405,7 +405,7 @@ Devuelve el tipo primitivo de la superficie solicitada (véase :ref:`add_surface
 
 |void| **surface_remove**\ (\ surf_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_ArrayMesh_method_surface_remove>`
 
-Removes the surface at the given index from the Mesh, shifting surfaces with higher index down by one.
+Elimina la superficie en el índice dado de la Mesh, desplazando las superficies con un índice mayor hacia abajo en uno.
 
 .. rst-class:: classref-item-separator
 

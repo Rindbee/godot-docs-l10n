@@ -9,7 +9,7 @@ NavigationPolygon
 
 **Hérite de :** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-A 2D navigation mesh that describes a traversable surface for pathfinding.
+Un maillage de navigation 2D qui décrit une surface traversable pour la recherche de chemin.
 
 .. rst-class:: classref-introduction-group
 
@@ -258,7 +258,7 @@ Scans the child nodes of the root node recursively for geometry.
 
 :ref:`SourceGeometryMode<enum_NavigationPolygon_SourceGeometryMode>` **SOURCE_GEOMETRY_GROUPS_WITH_CHILDREN** = ``1``
 
-Scans nodes in a group and their child nodes recursively for geometry. The group is specified by :ref:`source_geometry_group_name<class_NavigationPolygon_property_source_geometry_group_name>`.
+Scanne les nœuds dans un groupe et leurs nœuds enfants récursivement pour de la géométrie. Le groupe est spécifié par :ref:`source_geometry_group_name<class_NavigationPolygon_property_source_geometry_group_name>`.
 
 .. _class_NavigationPolygon_constant_SOURCE_GEOMETRY_GROUPS_EXPLICIT:
 
@@ -266,7 +266,7 @@ Scans nodes in a group and their child nodes recursively for geometry. The group
 
 :ref:`SourceGeometryMode<enum_NavigationPolygon_SourceGeometryMode>` **SOURCE_GEOMETRY_GROUPS_EXPLICIT** = ``2``
 
-Uses nodes in a group for geometry. The group is specified by :ref:`source_geometry_group_name<class_NavigationPolygon_property_source_geometry_group_name>`.
+Utilise des nœuds dans un groupe pour la géométrie. Le groupe est spécifié par :ref:`source_geometry_group_name<class_NavigationPolygon_property_source_geometry_group_name>`.
 
 .. _class_NavigationPolygon_constant_SOURCE_GEOMETRY_MAX:
 
@@ -315,7 +315,7 @@ The distance to erode/shrink the walkable surface when baking the navigation mes
 - |void| **set_baking_rect**\ (\ value\: :ref:`Rect2<class_Rect2>`\ )
 - :ref:`Rect2<class_Rect2>` **get_baking_rect**\ (\ )
 
-If the baking :ref:`Rect2<class_Rect2>` has an area the navigation mesh baking will be restricted to its enclosing area.
+Si la :ref:`Rect2<class_Rect2>` de pré-calcul a une aire, le pré-calcul du maillage de navigation sera limité à son aire englobante.
 
 .. rst-class:: classref-item-separator
 
@@ -332,7 +332,7 @@ If the baking :ref:`Rect2<class_Rect2>` has an area the navigation mesh baking w
 - |void| **set_baking_rect_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_baking_rect_offset**\ (\ )
 
-The position offset applied to the :ref:`baking_rect<class_NavigationPolygon_property_baking_rect>` :ref:`Rect2<class_Rect2>`.
+Le décalage de position appliqué au :ref:`Rect2<class_Rect2>` de :ref:`baking_rect<class_NavigationPolygon_property_baking_rect>`.
 
 .. rst-class:: classref-item-separator
 
@@ -404,7 +404,7 @@ Seulement utilisé quand :ref:`parsed_geometry_type<class_NavigationPolygon_prop
 - |void| **set_parsed_geometry_type**\ (\ value\: :ref:`ParsedGeometryType<enum_NavigationPolygon_ParsedGeometryType>`\ )
 - :ref:`ParsedGeometryType<enum_NavigationPolygon_ParsedGeometryType>` **get_parsed_geometry_type**\ (\ )
 
-Determines which type of nodes will be parsed as geometry.
+Détermine quel type de nœuds seront parsés en tant que géométrie.
 
 .. rst-class:: classref-item-separator
 
@@ -421,7 +421,7 @@ Determines which type of nodes will be parsed as geometry.
 - |void| **set_sample_partition_type**\ (\ value\: :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>`\ )
 - :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>` **get_sample_partition_type**\ (\ )
 
-Partitioning algorithm for creating the navigation mesh polys.
+Algorithme de partitionnement pour la création des polygones du maillage de navigation.
 
 .. rst-class:: classref-item-separator
 
@@ -457,7 +457,7 @@ Only used when :ref:`source_geometry_mode<class_NavigationPolygon_property_sourc
 - |void| **set_source_geometry_mode**\ (\ value\: :ref:`SourceGeometryMode<enum_NavigationPolygon_SourceGeometryMode>`\ )
 - :ref:`SourceGeometryMode<enum_NavigationPolygon_SourceGeometryMode>` **get_source_geometry_mode**\ (\ )
 
-The source of the geometry used when baking.
+La source de la géométrie utilisée lors du pré-calcul.
 
 .. rst-class:: classref-section-separator
 
@@ -474,7 +474,7 @@ Descriptions des méthodes
 
 |void| **add_outline**\ (\ outline\: :ref:`PackedVector2Array<class_PackedVector2Array>`\ ) :ref:`🔗<class_NavigationPolygon_method_add_outline>`
 
-Appends a :ref:`PackedVector2Array<class_PackedVector2Array>` that contains the vertices of an outline to the internal array that contains all the outlines.
+Ajoute un :ref:`PackedVector2Array<class_PackedVector2Array>` contenant les sommets d'un contour au tableau interne qui contient tous les contours.
 
 .. rst-class:: classref-item-separator
 
@@ -486,7 +486,7 @@ Appends a :ref:`PackedVector2Array<class_PackedVector2Array>` that contains the 
 
 |void| **add_outline_at_index**\ (\ outline\: :ref:`PackedVector2Array<class_PackedVector2Array>`, index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_NavigationPolygon_method_add_outline_at_index>`
 
-Adds a :ref:`PackedVector2Array<class_PackedVector2Array>` that contains the vertices of an outline to the internal array that contains all the outlines at a fixed position.
+Ajoute un :ref:`PackedVector2Array<class_PackedVector2Array>` contenant les sommets d'un contour au tableau interne qui contient tous les contours à une position fixe.
 
 .. rst-class:: classref-item-separator
 
@@ -510,7 +510,7 @@ Ajoute un polygone en utilisant les indices des sommets que obtenus avec :ref:`g
 
 |void| **clear**\ (\ ) :ref:`🔗<class_NavigationPolygon_method_clear>`
 
-Clears the internal arrays for vertices and polygon indices.
+Vide les tableaux internes pour les indices de sommets et de polygones.
 
 .. rst-class:: classref-item-separator
 
@@ -546,7 +546,7 @@ Efface le tableau des polygones, mais ça n'effacera pas le tableau des contours
 
 :ref:`NavigationMesh<class_NavigationMesh>` **get_navigation_mesh**\ (\ ) :ref:`🔗<class_NavigationPolygon_method_get_navigation_mesh>`
 
-Returns the :ref:`NavigationMesh<class_NavigationMesh>` resulting from this navigation polygon. This navigation mesh can be used to update the navigation mesh of a region with the :ref:`NavigationServer3D.region_set_navigation_mesh()<class_NavigationServer3D_method_region_set_navigation_mesh>` API directly.
+Renvoie le :ref:`NavigationMesh<class_NavigationMesh>` résultant de ce polygone de navigation. Ce maillage de navigation peut être utilisé pour mettre à jour le maillage de navigation d'une région avec l'API :ref:`NavigationServer3D.region_set_navigation_mesh()<class_NavigationServer3D_method_region_set_navigation_mesh>` directement.
 
 .. rst-class:: classref-item-separator
 
@@ -582,7 +582,7 @@ Renvoie le nombre de contours qui ont été créés dans l'éditeur ou par un sc
 
 :ref:`bool<class_bool>` **get_parsed_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_NavigationPolygon_method_get_parsed_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`parsed_collision_mask<class_NavigationPolygon_property_parsed_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Renvoie si la couche spécifiée du :ref:`parsed_collision_mask<class_NavigationPolygon_property_parsed_collision_mask>` est activée, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 
@@ -594,7 +594,7 @@ Returns whether or not the specified layer of the :ref:`parsed_collision_mask<cl
 
 :ref:`PackedInt32Array<class_PackedInt32Array>` **get_polygon**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_NavigationPolygon_method_get_polygon>`
 
-Returns a :ref:`PackedInt32Array<class_PackedInt32Array>` containing the indices of the vertices of a created polygon.
+Renvoie un :ref:`PackedInt32Array<class_PackedInt32Array>` contenant les indices des sommets d'un polygone créé.
 
 .. rst-class:: classref-item-separator
 
@@ -632,7 +632,7 @@ Renvoie un :ref:`PackedVector2Array<class_PackedVector2Array>` contenant tous le
 
 **Obsolète :** Use :ref:`NavigationServer2D.parse_source_geometry_data()<class_NavigationServer2D_method_parse_source_geometry_data>` and :ref:`NavigationServer2D.bake_from_source_geometry_data()<class_NavigationServer2D_method_bake_from_source_geometry_data>` instead.
 
-Creates polygons from the outlines added in the editor or by script.
+Crée des polygones depuis les contours ajoutés dans l'éditeur ou par script.
 
 .. rst-class:: classref-item-separator
 
@@ -668,7 +668,7 @@ Change un aperçu créé dans l'éditeur ou par un script. Vous devez appeler :r
 
 |void| **set_parsed_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_NavigationPolygon_method_set_parsed_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`parsed_collision_mask<class_NavigationPolygon_property_parsed_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Selon ``value``, active ou désactive la couche spécifiée dans le :ref:`parsed_collision_mask<class_NavigationPolygon_property_parsed_collision_mask>`, étant donné un numéro de couche ``layer_number`` entre 1 et 32.
 
 .. rst-class:: classref-item-separator
 

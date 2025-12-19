@@ -7,14 +7,14 @@ RDAttachmentFormat
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Attachment format (used by :ref:`RenderingDevice<class_RenderingDevice>`).
+Formato de adjunto (utilizado por :ref:`RenderingDevice<class_RenderingDevice>`).
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-This object is used by :ref:`RenderingDevice<class_RenderingDevice>`.
+Este objeto es utilizado por :ref:`RenderingDevice<class_RenderingDevice>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -69,7 +69,7 @@ El formato de los datos del adjunto.
 - |void| **set_samples**\ (\ value\: :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>`\ )
 - :ref:`TextureSamples<enum_RenderingDevice_TextureSamples>` **get_samples**\ (\ )
 
-The number of samples used when sampling the attachment.
+El número de muestras utilizadas al muestrear el adjunto.
 
 .. rst-class:: classref-item-separator
 
@@ -86,7 +86,7 @@ The number of samples used when sampling the attachment.
 - |void| **set_usage_flags**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_usage_flags**\ (\ )
 
-The attachment's usage flags, which determine what can be done with it.
+Las banderas de uso del adjunto, que determinan lo que se puede hacer con él.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

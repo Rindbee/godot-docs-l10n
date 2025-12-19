@@ -14,7 +14,7 @@ Representa una luz glTF.
 Descripción
 ----------------------
 
-Represents a light as defined by the ``KHR_lights_punctual`` glTF extension.
+Representa una luz definida por la extensión glTF ``KHR_lights_punctual``.
 
 .. rst-class:: classref-introduction-group
 
@@ -23,7 +23,7 @@ Tutoriales
 
 - :doc:`Carga y guardado de archivos en tiempo de ejecución <../tutorials/io/runtime_file_loading_and_saving>`
 
-- `KHR_lights_punctual glTF extension spec <https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_lights_punctual>`__
+- `Especificación de la extensión glTF KHR_lights_punctual <https://github.com/KhronosGroup/glTF/blob/main/extensions/2.0/Khronos/KHR_lights_punctual>`__
 
 .. rst-class:: classref-reftable-group
 
@@ -89,9 +89,9 @@ Descripciones de Propiedades
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-The :ref:`Color<class_Color>` of the light in linear space. Defaults to white. A black color causes the light to have no effect.
+El :ref:`Color<class_Color>` de la luz en espacio lineal. El valor predeterminado es blanco. Un color negro hace que la luz no tenga ningún efecto.
 
-This value is linear to match glTF, but will be converted to nonlinear sRGB when creating a Godot :ref:`Light3D<class_Light3D>` node upon import, or converted to linear when exporting a Godot :ref:`Light3D<class_Light3D>` to glTF.
+Este valor es lineal para que coincida con glTF, pero se convertirá a sRGB no lineal al crear un nodo :ref:`Light3D<class_Light3D>` de Godot al importar, o se convertirá a lineal al exportar una :ref:`Light3D<class_Light3D>` de Godot a glTF.
 
 .. rst-class:: classref-item-separator
 
@@ -108,9 +108,9 @@ This value is linear to match glTF, but will be converted to nonlinear sRGB when
 - |void| **set_inner_cone_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_inner_cone_angle**\ (\ )
 
-The inner angle of the cone in a spotlight. Must be less than or equal to the outer cone angle.
+El ángulo interno del cono en un foco. Debe ser menor o igual que el ángulo externo del cono.
 
-Within this angle, the light is at full brightness. Between the inner and outer cone angles, there is a transition from full brightness to zero brightness. When creating a Godot :ref:`SpotLight3D<class_SpotLight3D>`, the ratio between the inner and outer cone angles is used to calculate the attenuation of the light.
+Dentro de este ángulo, la luz está a pleno brillo. Entre los ángulos interno y externo del cono, hay una transición desde el brillo total hasta el brillo cero. Al crear un :ref:`SpotLight3D<class_SpotLight3D>` de Godot, la relación entre los ángulos interno y externo del cono se utiliza para calcular la atenuación de la luz.
 
 .. rst-class:: classref-item-separator
 
@@ -127,7 +127,7 @@ Within this angle, the light is at full brightness. Between the inner and outer 
 - |void| **set_intensity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_intensity**\ (\ )
 
-The intensity of the light. This is expressed in candelas (lumens per steradian) for point and spot lights, and lux (lumens per m²) for directional lights. When creating a Godot light, this value is converted to a unitless multiplier.
+La intensidad de la luz. Esto se expresa en candelas (lúmenes por estereorradián) para luces puntuales y focos, y lux (lúmenes por m²) para luces direccionales. Al crear una luz de Godot, este valor se convierte en un multiplicador sin unidades.
 
 .. rst-class:: classref-item-separator
 
@@ -144,7 +144,7 @@ The intensity of the light. This is expressed in candelas (lumens per steradian)
 - |void| **set_light_type**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_light_type**\ (\ )
 
-The type of the light. The values accepted by Godot are "point", "spot", and "directional", which correspond to Godot's :ref:`OmniLight3D<class_OmniLight3D>`, :ref:`SpotLight3D<class_SpotLight3D>`, and :ref:`DirectionalLight3D<class_DirectionalLight3D>` respectively.
+El tipo de luz. Los valores aceptados por Godot son "point", "spot" y "directional", que corresponden a :ref:`OmniLight3D<class_OmniLight3D>`, :ref:`SpotLight3D<class_SpotLight3D>` y :ref:`DirectionalLight3D<class_DirectionalLight3D>` de Godot respectivamente.
 
 .. rst-class:: classref-item-separator
 
@@ -161,9 +161,9 @@ The type of the light. The values accepted by Godot are "point", "spot", and "di
 - |void| **set_outer_cone_angle**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_outer_cone_angle**\ (\ )
 
-The outer angle of the cone in a spotlight. Must be greater than or equal to the inner angle.
+El ángulo exterior del cono en un foco. Debe ser mayor o igual que el ángulo interior.
 
-At this angle, the light drops off to zero brightness. Between the inner and outer cone angles, there is a transition from full brightness to zero brightness. If this angle is a half turn, then the spotlight emits in all directions. When creating a Godot :ref:`SpotLight3D<class_SpotLight3D>`, the outer cone angle is used as the angle of the spotlight.
+En este ángulo, la luz se reduce a brillo cero. Entre los ángulos de cono interior y exterior, hay una transición desde el brillo total hasta el brillo cero. Si este ángulo es media vuelta, entonces el foco emite en todas las direcciones. Al crear un :ref:`SpotLight3D<class_SpotLight3D>` de Godot, el ángulo exterior del cono se usa como el ángulo del foco.
 
 .. rst-class:: classref-item-separator
 
@@ -180,7 +180,7 @@ At this angle, the light drops off to zero brightness. Between the inner and out
 - |void| **set_range**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_range**\ (\ )
 
-The range of the light, beyond which the light has no effect. glTF lights with no range defined behave like physical lights (which have infinite range). When creating a Godot light, the range is clamped to ``4096.0``.
+El alcance de la luz, más allá del cual la luz no tiene efecto. Las luces glTF sin un alcance definido se comportan como luces físicas (que tienen un alcance infinito). Al crear una luz de Godot, el alcance se limita a ``4096.0``.
 
 .. rst-class:: classref-section-separator
 
@@ -197,7 +197,7 @@ Descripciones de Métodos
 
 :ref:`GLTFLight<class_GLTFLight>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFLight_method_from_dictionary>`
 
-Creates a new GLTFLight instance by parsing the given :ref:`Dictionary<class_Dictionary>`.
+Crea una nueva instancia de GLTFLight analizando el :ref:`Dictionary<class_Dictionary>` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -209,7 +209,7 @@ Creates a new GLTFLight instance by parsing the given :ref:`Dictionary<class_Dic
 
 :ref:`GLTFLight<class_GLTFLight>` **from_node**\ (\ light_node\: :ref:`Light3D<class_Light3D>`\ ) |static| :ref:`🔗<class_GLTFLight_method_from_node>`
 
-Create a new GLTFLight instance from the given Godot :ref:`Light3D<class_Light3D>` node.
+Crea una nueva instancia de GLTFLight a partir del nodo :ref:`Light3D<class_Light3D>` de Godot dado.
 
 .. rst-class:: classref-item-separator
 
@@ -249,7 +249,7 @@ Create a new GLTFLight instance from the given Godot :ref:`Light3D<class_Light3D
 
 :ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFLight_method_to_dictionary>`
 
-Serializes this GLTFLight instance into a :ref:`Dictionary<class_Dictionary>`.
+Serializa esta instancia de GLTFLight en un :ref:`Dictionary<class_Dictionary>`.
 
 .. rst-class:: classref-item-separator
 
@@ -261,7 +261,7 @@ Serializes this GLTFLight instance into a :ref:`Dictionary<class_Dictionary>`.
 
 :ref:`Light3D<class_Light3D>` **to_node**\ (\ ) |const| :ref:`🔗<class_GLTFLight_method_to_node>`
 
-Converts this GLTFLight instance into a Godot :ref:`Light3D<class_Light3D>` node.
+Convierte esta instancia de GLTFLight en un nodo :ref:`Light3D<class_Light3D>` de Godot.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

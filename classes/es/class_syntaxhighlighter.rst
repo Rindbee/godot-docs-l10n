@@ -99,7 +99,7 @@ Método virtual que puede ser sobreescrito para actualizar cualquier caché loca
 
 Limpia todos los datos de resaltado de sintaxis cacheados.
 
-Luego llama al método sobreescribible :ref:`_clear_highlighting_cache()<class_SyntaxHighlighter_private_method__clear_highlighting_cache>`.
+Luego llama al método sobrescribible :ref:`_clear_highlighting_cache()<class_SyntaxHighlighter_private_method__clear_highlighting_cache>`.
 
 .. rst-class:: classref-item-separator
 

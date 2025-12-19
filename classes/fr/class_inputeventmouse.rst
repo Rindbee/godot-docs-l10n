@@ -7,7 +7,7 @@ InputEventMouse
 
 **Hérite de :** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEventFromWindow<class_InputEventFromWindow>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Hérité de:** :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`
+**Hérité par :** :ref:`InputEventMouseButton<class_InputEventMouseButton>`, :ref:`InputEventMouseMotion<class_InputEventMouseMotion>`
 
 Type d’événement d’entrée de base pour les événements de la souris.
 
@@ -78,9 +78,9 @@ The mouse button mask identifier, one of or a bitwise combination of the :ref:`M
 - |void| **set_global_position**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_global_position**\ (\ )
 
-When received in :ref:`Node._input()<class_Node_private_method__input>` or :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>`, returns the mouse's position in the root :ref:`Viewport<class_Viewport>` using the coordinate system of the root :ref:`Viewport<class_Viewport>`.
+Lorsque reçu dans :ref:`Node._input()<class_Node_private_method__input>` ou :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>`, renvoie la position de la souris dans le :ref:`Viewport<class_Viewport>` racine en utilisant le système de coordonnées du :ref:`Viewport<class_Viewport>` racine.
 
-When received in :ref:`Control._gui_input()<class_Control_private_method__gui_input>`, returns the mouse's position in the :ref:`CanvasLayer<class_CanvasLayer>` that the :ref:`Control<class_Control>` is in using the coordinate system of the :ref:`CanvasLayer<class_CanvasLayer>`.
+Lorsque reçu dans :ref:`Control._gui_input()<class_Control_private_method__gui_input>`, renvoie la position de la souris dans le :ref:`CanvasLayer<class_CanvasLayer>` où se trouve le :ref:`Control<class_Control>` en utilisant le système de coordonnées du :ref:`CanvasLayer<class_CanvasLayer>`.
 
 .. rst-class:: classref-item-separator
 
@@ -97,9 +97,9 @@ When received in :ref:`Control._gui_input()<class_Control_private_method__gui_in
 - |void| **set_position**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_position**\ (\ )
 
-When received in :ref:`Node._input()<class_Node_private_method__input>` or :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>`, returns the mouse's position in the :ref:`Viewport<class_Viewport>` this :ref:`Node<class_Node>` is in using the coordinate system of this :ref:`Viewport<class_Viewport>`.
+Lorsque reçu dans :ref:`Node._input()<class_Node_private_method__input>` ou :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>`, renvoie la position de la souris dans le :ref:`Viewport<class_Viewport>` où se trouve ce :ref:`Node<class_Node>` en utilisant le système de coordonnées de ce :ref:`Viewport<class_Viewport>`.
 
-When received in :ref:`Control._gui_input()<class_Control_private_method__gui_input>`, returns the mouse's position in the :ref:`Control<class_Control>` using the local coordinate system of the :ref:`Control<class_Control>`.
+Lorsque reçu dans :ref:`Control._gui_input()<class_Control_private_method__gui_input>`, renvoie la position de la souris dans le :ref:`Control<class_Control>` en utilisant le système de coordonnées locales du :ref:`Control<class_Control>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

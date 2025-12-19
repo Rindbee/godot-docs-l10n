@@ -313,11 +313,11 @@ Mostra o nasconde le mesh di navigazione del TileMap. Se impostato su :ref:`VISI
 - |void| **set_rendering_quadrant_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_rendering_quadrant_size**\ (\ )
 
-Dimensioni del quadrante di TileMap. Un quadrante è un gruppo di tasselli da disegnare insieme su un singolo elemento canvas, per motivi di ottimizzazione. :ref:`rendering_quadrant_size<class_TileMap_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, le dimensioni predefinite del quadrante raggruppano insieme ``16 * 16 = 256`` tasselli.
+Dimensioni dei quadrante di TileMap. Un quadrante è un gruppo di tasselli da disegnare insieme su un singolo elemento canvas, per motivi di ottimizzazione. :ref:`rendering_quadrant_size<class_TileMap_property_rendering_quadrant_size>` definisce la lunghezza del lato di un quadrato, nel sistema di coordinate della mappa, che forma il quadrante. Quindi, le dimensioni predefinite dei quadranti raggruppano insieme ``16 * 16 = 256`` tasselli.
 
-Le dimensioni del quadrante non si applicano ai livelli ordinati in base a Y, poiché in quel caso i tasselli vengono raggruppati in base alla posizione Y.
+Le dimensioni dei quadranti non si applicano ai livelli ordinati in base a Y, poiché in quel caso i tasselli vengono raggruppati in base alla posizione Y.
 
-\ **Nota:** Poiché i quadranti vengono creati in base al sistema di coordinate della mappa, la "forma quadrata" del quadrante potrebbe non apparire quadrata nel sistema di coordinate locale del TileMap.
+\ **Nota:** Poiché i quadranti vengono creati in base al sistema di coordinate della mappa, la "forma quadrata" dei quadranti potrebbe non apparire quadrata nel sistema di coordinate locale del TileMap.
 
 .. rst-class:: classref-item-separator
 

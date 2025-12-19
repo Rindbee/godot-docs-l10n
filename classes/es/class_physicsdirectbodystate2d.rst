@@ -167,7 +167,7 @@ La velocidad de rotación del cuerpo en *radianes* por segundo.
 
 - :ref:`Vector2<class_Vector2>` **get_center_of_mass**\ (\ )
 
-The body's center of mass position relative to the body's center in the global coordinate system.
+La posición del centro de masa del cuerpo relativa al centro del cuerpo en el sistema de coordenadas global.
 
 .. rst-class:: classref-item-separator
 
@@ -200,7 +200,7 @@ Posición del centro de masa del cuerpo en el sistema de coordenadas local del c
 - |void| **set_collision_layer**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_layer**\ (\ )
 
-The body's collision layer.
+La capa de colisión del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -217,7 +217,7 @@ The body's collision layer.
 - |void| **set_collision_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_collision_mask**\ (\ )
 
-The body's collision mask.
+La máscara de colisión del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -381,9 +381,9 @@ Descripciones de Métodos
 
 |void| **add_constant_central_force**\ (\ force\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_add_constant_central_force>`
 
-Adds a constant directional force without affecting rotation that keeps being applied over time until cleared with ``constant_force = Vector2(0, 0)``.
+Añade una fuerza direccional constante sin afectar la rotación que se sigue aplicando con el tiempo hasta que se borra con ``constant_force = Vector2(0, 0)``.
 
-This is equivalent to using :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constant_force>` at the body's center of mass.
+Esto es equivalente a usar :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constant_force>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -395,9 +395,9 @@ This is equivalent to using :ref:`add_constant_force()<class_PhysicsDirectBodySt
 
 |void| **add_constant_force**\ (\ force\: :ref:`Vector2<class_Vector2>`, position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_add_constant_force>`
 
-Adds a constant positioned force to the body that keeps being applied over time until cleared with ``constant_force = Vector2(0, 0)``.
+Añade una fuerza constante posicionada al cuerpo que se sigue aplicando con el tiempo hasta que se borra con ``constant_force = Vector2(0, 0)``.
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -409,7 +409,7 @@ Adds a constant positioned force to the body that keeps being applied over time 
 
 |void| **add_constant_torque**\ (\ torque\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_add_constant_torque>`
 
-Adds a constant rotational force without affecting position that keeps being applied over time until cleared with ``constant_torque = 0``.
+Añade una fuerza rotacional constante sin afectar la posición que se sigue aplicando con el tiempo hasta que se borra con ``constant_torque = 0``.
 
 .. rst-class:: classref-item-separator
 
@@ -421,9 +421,9 @@ Adds a constant rotational force without affecting position that keeps being app
 
 |void| **apply_central_force**\ (\ force\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_apply_central_force>`
 
-Applies a directional force without affecting rotation. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza direccional sin afectar la rotación. Una fuerza depende del tiempo y está pensada para ser aplicada en cada actualización de la física.
 
-This is equivalent to using :ref:`apply_force()<class_PhysicsDirectBodyState2D_method_apply_force>` at the body's center of mass.
+Esto es equivalente a usar :ref:`apply_force()<class_PhysicsDirectBodyState2D_method_apply_force>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -435,11 +435,11 @@ This is equivalent to using :ref:`apply_force()<class_PhysicsDirectBodyState2D_m
 
 |void| **apply_central_impulse**\ (\ impulse\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_apply_central_impulse>`
 
-Applies a directional impulse without affecting rotation.
+Aplica un impulso direccional sin afectar la rotación.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada fotograma resultaría en una fuerza dependiente de la velocidad de fotogramas. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en su lugar).
 
-This is equivalent to using :ref:`apply_impulse()<class_PhysicsDirectBodyState2D_method_apply_impulse>` at the body's center of mass.
+Esto es equivalente a usar :ref:`apply_impulse()<class_PhysicsDirectBodyState2D_method_apply_impulse>` en el centro de masa del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -451,9 +451,9 @@ This is equivalent to using :ref:`apply_impulse()<class_PhysicsDirectBodyState2D
 
 |void| **apply_force**\ (\ force\: :ref:`Vector2<class_Vector2>`, position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_apply_force>`
 
-Applies a positioned force to the body. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza posicionada al cuerpo. Una fuerza depende del tiempo y está pensada para ser aplicada en cada actualización de la física.
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -465,11 +465,11 @@ Applies a positioned force to the body. A force is time dependent and meant to b
 
 |void| **apply_impulse**\ (\ impulse\: :ref:`Vector2<class_Vector2>`, position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_apply_impulse>`
 
-Applies a positioned impulse to the body.
+Aplica un impulso posicionado al cuerpo.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada fotograma resultaría en una fuerza dependiente de la velocidad de fotogramas. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en su lugar).
 
-\ ``position`` is the offset from the body origin in global coordinates.
+\ ``position`` es el desplazamiento desde el origen del cuerpo en coordenadas globales.
 
 .. rst-class:: classref-item-separator
 
@@ -481,9 +481,9 @@ An impulse is time-independent! Applying an impulse every frame would result in 
 
 |void| **apply_torque**\ (\ torque\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_apply_torque>`
 
-Applies a rotational force without affecting position. A force is time dependent and meant to be applied every physics update.
+Aplica una fuerza rotacional sin afectar la posición. Una fuerza depende del tiempo y está pensada para ser aplicada en cada actualización de la física.
 
-\ **Note:** :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>` is required for this to work. To have :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`, an active :ref:`CollisionShape2D<class_CollisionShape2D>` must be a child of the node, or you can manually set :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`.
+\ **Nota:** :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>` es requerido para que esto funcione. Para tener :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`, una :ref:`CollisionShape2D<class_CollisionShape2D>` activa debe ser hija del nodo, o puedes establecer manualmente :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`.
 
 .. rst-class:: classref-item-separator
 
@@ -495,11 +495,11 @@ Applies a rotational force without affecting position. A force is time dependent
 
 |void| **apply_torque_impulse**\ (\ impulse\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_apply_torque_impulse>`
 
-Applies a rotational impulse to the body without affecting the position.
+Aplica un impulso rotacional al cuerpo sin afectar la posición.
 
-An impulse is time-independent! Applying an impulse every frame would result in a framerate-dependent force. For this reason, it should only be used when simulating one-time impacts (use the "_force" functions otherwise).
+¡Un impulso es independiente del tiempo! Aplicar un impulso en cada fotograma resultaría en una fuerza dependiente de la velocidad de fotogramas. Por esta razón, solo debe usarse al simular impactos únicos (usa las funciones "_force" en su lugar).
 
-\ **Note:** :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>` is required for this to work. To have :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`, an active :ref:`CollisionShape2D<class_CollisionShape2D>` must be a child of the node, or you can manually set :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`.
+\ **Nota:** :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>` es requerido para que esto funcione. Para tener :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`, una :ref:`CollisionShape2D<class_CollisionShape2D>` activa debe ser hija del nodo, o puedes establecer manualmente :ref:`inverse_inertia<class_PhysicsDirectBodyState2D_property_inverse_inertia>`.
 
 .. rst-class:: classref-item-separator
 
@@ -511,9 +511,9 @@ An impulse is time-independent! Applying an impulse every frame would result in 
 
 :ref:`Vector2<class_Vector2>` **get_constant_force**\ (\ ) |const| :ref:`🔗<class_PhysicsDirectBodyState2D_method_get_constant_force>`
 
-Returns the body's total constant positional forces applied during each physics update.
+Devuelve las fuerzas posicionales constantes totales del cuerpo aplicadas durante cada actualización de la física.
 
-See :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constant_force>` and :ref:`add_constant_central_force()<class_PhysicsDirectBodyState2D_method_add_constant_central_force>`.
+Véase :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constant_force>` y :ref:`add_constant_central_force()<class_PhysicsDirectBodyState2D_method_add_constant_central_force>`.
 
 .. rst-class:: classref-item-separator
 
@@ -525,9 +525,9 @@ See :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constan
 
 :ref:`float<class_float>` **get_constant_torque**\ (\ ) |const| :ref:`🔗<class_PhysicsDirectBodyState2D_method_get_constant_torque>`
 
-Returns the body's total constant rotational forces applied during each physics update.
+Devuelve las fuerzas rotacionales constantes totales del cuerpo aplicadas durante cada actualización de la física.
 
-See :ref:`add_constant_torque()<class_PhysicsDirectBodyState2D_method_add_constant_torque>`.
+Véase :ref:`add_constant_torque()<class_PhysicsDirectBodyState2D_method_add_constant_torque>`.
 
 .. rst-class:: classref-item-separator
 
@@ -575,7 +575,7 @@ Devuelve el objeto del colisionador. Esto depende de cómo fue creado (devolver�
 
 :ref:`Vector2<class_Vector2>` **get_contact_collider_position**\ (\ contact_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PhysicsDirectBodyState2D_method_get_contact_collider_position>`
 
-Returns the position of the contact point on the collider in the global coordinate system.
+Devuelve la posición del punto de contacto en el colisionador en el sistema de coordenadas global.
 
 .. rst-class:: classref-item-separator
 
@@ -599,7 +599,7 @@ Devuelve el índice de forma del colisionador.
 
 :ref:`Vector2<class_Vector2>` **get_contact_collider_velocity_at_position**\ (\ contact_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PhysicsDirectBodyState2D_method_get_contact_collider_velocity_at_position>`
 
-Returns the velocity vector at the collider's contact point.
+Devuelve el vector de velocidad en el punto de contacto del colisionador.
 
 .. rst-class:: classref-item-separator
 
@@ -673,7 +673,7 @@ Devuelve el índice de forma local de la colisión.
 
 :ref:`Vector2<class_Vector2>` **get_contact_local_velocity_at_position**\ (\ contact_idx\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PhysicsDirectBodyState2D_method_get_contact_local_velocity_at_position>`
 
-Returns the velocity vector at the body's contact point.
+Devuelve el vector de velocidad en el punto de contacto del cuerpo.
 
 .. rst-class:: classref-item-separator
 
@@ -697,7 +697,7 @@ Devuelve el estado actual del espacio, útil para las consultas.
 
 :ref:`Vector2<class_Vector2>` **get_velocity_at_local_position**\ (\ local_position\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_PhysicsDirectBodyState2D_method_get_velocity_at_local_position>`
 
-Returns the body's velocity at the given relative position, including both translation and rotation.
+Devuelve la velocidad del cuerpo en la posición relativa dada, incluyendo la traslación y la rotación.
 
 .. rst-class:: classref-item-separator
 
@@ -721,9 +721,9 @@ Updates the body's linear and angular velocity by applying gravity and damping f
 
 |void| **set_constant_force**\ (\ force\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_set_constant_force>`
 
-Sets the body's total constant positional forces applied during each physics update.
+Establece las fuerzas posicionales constantes totales del cuerpo aplicadas durante cada actualización de la física.
 
-See :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constant_force>` and :ref:`add_constant_central_force()<class_PhysicsDirectBodyState2D_method_add_constant_central_force>`.
+Véase :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constant_force>` y :ref:`add_constant_central_force()<class_PhysicsDirectBodyState2D_method_add_constant_central_force>`.
 
 .. rst-class:: classref-item-separator
 
@@ -735,9 +735,9 @@ See :ref:`add_constant_force()<class_PhysicsDirectBodyState2D_method_add_constan
 
 |void| **set_constant_torque**\ (\ torque\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PhysicsDirectBodyState2D_method_set_constant_torque>`
 
-Sets the body's total constant rotational forces applied during each physics update.
+Establece las fuerzas rotacionales constantes totales del cuerpo aplicadas durante cada actualización de la física.
 
-See :ref:`add_constant_torque()<class_PhysicsDirectBodyState2D_method_add_constant_torque>`.
+Véase :ref:`add_constant_torque()<class_PhysicsDirectBodyState2D_method_add_constant_torque>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

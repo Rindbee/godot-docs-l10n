@@ -193,7 +193,7 @@ The custom ambient color energy to use within the **ReflectionProbe**'s box defi
 - |void| **set_ambient_mode**\ (\ value\: :ref:`AmbientMode<enum_ReflectionProbe_AmbientMode>`\ )
 - :ref:`AmbientMode<enum_ReflectionProbe_AmbientMode>` **get_ambient_mode**\ (\ )
 
-The ambient color to use within the **ReflectionProbe**'s box defined by its :ref:`size<class_ReflectionProbe_property_size>`. The ambient color will smoothly blend with other **ReflectionProbe**\ s and the rest of the scene (outside the **ReflectionProbe**'s box defined by its :ref:`size<class_ReflectionProbe_property_size>`).
+El color ambiental que se utilizará dentro de la caja del **ReflectionProbe** definida por su :ref:`size<class_ReflectionProbe_property_size>`. El color ambiental se mezclará suavemente con otros **ReflectionProbe**\ s y con el resto de la escena (fuera de la caja del **ReflectionProbe** definida por su :ref:`size<class_ReflectionProbe_property_size>`).
 
 .. rst-class:: classref-item-separator
 
@@ -210,7 +210,7 @@ The ambient color to use within the **ReflectionProbe**'s box defined by its :re
 - |void| **set_blend_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_blend_distance**\ (\ )
 
-Defines the distance in meters over which a probe blends into the scene.
+Define la distancia en metros sobre la que una sonda se mezcla con la escena.
 
 .. rst-class:: classref-item-separator
 

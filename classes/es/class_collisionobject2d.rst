@@ -16,9 +16,9 @@ Clase base abstracta para objetos de física 2D.
 Descripción
 ----------------------
 
-Abstract base class for 2D physics objects. **CollisionObject2D** can hold any number of :ref:`Shape2D<class_Shape2D>`\ s for collision. Each shape must be assigned to a *shape owner*. Shape owners are not nodes and do not appear in the editor, but are accessible through code using the ``shape_owner_*`` methods.
+Clase base abstracta para objetos físicos 2D. **CollisionObject2D** puede contener cualquier número de :ref:`Shape2D<class_Shape2D>`\ s para la colisión. Cada forma debe ser asignada a un *propietario de la forma*. Los propietarios de la forma no son nodos y no aparecen en el editor, pero son accesibles a través del código usando los métodos ``shape_owner_*``.
 
-\ **Note:** Only collisions between objects within the same canvas (:ref:`Viewport<class_Viewport>` canvas or :ref:`CanvasLayer<class_CanvasLayer>`) are supported. The behavior of collisions between objects in different canvases is undefined.
+\ **Nota:** Sólo se admiten colisiones entre objetos dentro del mismo canvas (:ref:`Viewport<class_Viewport>` o :ref:`CanvasLayer<class_CanvasLayer>`). El comportamiento de las colisiones entre objetos en diferentes canvas no está definido.
 
 .. rst-class:: classref-reftable-group
 
@@ -329,9 +329,9 @@ Descripciones de Métodos
 
 |void| **_input_event**\ (\ viewport\: :ref:`Viewport<class_Viewport>`, event\: :ref:`InputEvent<class_InputEvent>`, shape_idx\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_CollisionObject2D_private_method__input_event>`
 
-Accepts unhandled :ref:`InputEvent<class_InputEvent>`\ s. ``shape_idx`` is the child index of the clicked :ref:`Shape2D<class_Shape2D>`. Connect to :ref:`input_event<class_CollisionObject2D_signal_input_event>` to easily pick up these events.
+Acepta :ref:`InputEvent<class_InputEvent>`\ s no gestionados. ``shape_idx`` es el índice hijo del :ref:`Shape2D<class_Shape2D>` clickeado. Conéctate a la :ref:`input_event<class_CollisionObject2D_signal_input_event>` para capturar fácilmente estos eventos.
 
-\ **Note:** :ref:`_input_event()<class_CollisionObject2D_private_method__input_event>` requires :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` to be ``true`` and at least one :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` bit to be set.
+\ **Nota:** :ref:`_input_event()<class_CollisionObject2D_private_method__input_event>` requiere que :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` sea ``true`` y que al menos un bit de :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` esté establecido.
 
 .. rst-class:: classref-item-separator
 
@@ -343,7 +343,7 @@ Accepts unhandled :ref:`InputEvent<class_InputEvent>`\ s. ``shape_idx`` is the c
 
 |void| **_mouse_enter**\ (\ ) |virtual| :ref:`🔗<class_CollisionObject2D_private_method__mouse_enter>`
 
-Called when the mouse pointer enters any of this object's shapes. Requires :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` to be ``true`` and at least one :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` bit to be set. Note that moving between different shapes within a single **CollisionObject2D** won't cause this function to be called.
+Llamado cuando el puntero del ratón entra en cualquiera de las formas de este objeto. Requiere que :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` sea ``true`` y que al menos un bit de :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` esté establecido. Ten en cuenta que moverte entre diferentes formas dentro de un único **CollisionObject2D** no causará que esta función sea llamada.
 
 .. rst-class:: classref-item-separator
 
@@ -355,7 +355,7 @@ Called when the mouse pointer enters any of this object's shapes. Requires :ref:
 
 |void| **_mouse_exit**\ (\ ) |virtual| :ref:`🔗<class_CollisionObject2D_private_method__mouse_exit>`
 
-Called when the mouse pointer exits all this object's shapes. Requires :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` to be ``true`` and at least one :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` bit to be set. Note that moving between different shapes within a single **CollisionObject2D** won't cause this function to be called.
+Llamado cuando el puntero del ratón sale de todas las formas de este objeto. Requiere que :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` sea ``true`` y que al menos un bit de :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` esté establecido. Ten en cuenta que moverte entre diferentes formas dentro de un único **CollisionObject2D** no causará que esta función sea llamada.
 
 .. rst-class:: classref-item-separator
 
@@ -367,7 +367,7 @@ Called when the mouse pointer exits all this object's shapes. Requires :ref:`inp
 
 |void| **_mouse_shape_enter**\ (\ shape_idx\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_CollisionObject2D_private_method__mouse_shape_enter>`
 
-Called when the mouse pointer enters any of this object's shapes or moves from one shape to another. ``shape_idx`` is the child index of the newly entered :ref:`Shape2D<class_Shape2D>`. Requires :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` to be ``true`` and at least one :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` bit to be called.
+Llamado cuando el puntero del ratón entra en cualquiera de las formas de este objeto o se mueve de una forma a otra. ``shape_idx`` es el índice del hijo :ref:`Shape2D<class_Shape2D>` recién entrado. Requiere que :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` sea ``true`` y que al menos un bit de :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` esté establecido.
 
 .. rst-class:: classref-item-separator
 
@@ -379,7 +379,7 @@ Called when the mouse pointer enters any of this object's shapes or moves from o
 
 |void| **_mouse_shape_exit**\ (\ shape_idx\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_CollisionObject2D_private_method__mouse_shape_exit>`
 
-Called when the mouse pointer exits any of this object's shapes. ``shape_idx`` is the child index of the exited :ref:`Shape2D<class_Shape2D>`. Requires :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` to be ``true`` and at least one :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` bit to be called.
+Llamado cuando el puntero del ratón sale de cualquiera de las formas de este objeto. ``shape_idx`` es el índice hijo del :ref:`Shape2D<class_Shape2D>` que se ha salido. Requiere que :ref:`input_pickable<class_CollisionObject2D_property_input_pickable>` sea ``true`` y al menos un bit de :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` esté establecido.
 
 .. rst-class:: classref-item-separator
 
@@ -403,7 +403,7 @@ Crea un nuevo dueño de la forma para el objeto dado. Devuelve ``owner_id`` del 
 
 :ref:`bool<class_bool>` **get_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject2D_method_get_collision_layer_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -415,7 +415,7 @@ Returns whether or not the specified layer of the :ref:`collision_layer<class_Co
 
 :ref:`bool<class_bool>` **get_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject2D_method_get_collision_mask_value>`
 
-Returns whether or not the specified layer of the :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>` is enabled, given a ``layer_number`` between 1 and 32.
+Devuelve si la capa especificada de :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>` está habilitada o no, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -439,7 +439,7 @@ Devuelve el :ref:`RID<class_RID>` del objeto.
 
 :ref:`float<class_float>` **get_shape_owner_one_way_collision_margin**\ (\ owner_id\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_CollisionObject2D_method_get_shape_owner_one_way_collision_margin>`
 
-Returns the ``one_way_collision_margin`` of the shape owner identified by given ``owner_id``.
+Devuelve el ``one_way_collision_margin`` del propietario de la forma identificado por el ``owner_id`` dado.
 
 .. rst-class:: classref-item-separator
 
@@ -499,7 +499,7 @@ Elimina al dueño de la forma dada.
 
 |void| **set_collision_layer_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CollisionObject2D_method_set_collision_layer_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_layer<class_CollisionObject2D_property_collision_layer>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 
@@ -511,7 +511,7 @@ Based on ``value``, enables or disables the specified layer in the :ref:`collisi
 
 |void| **set_collision_mask_value**\ (\ layer_number\: :ref:`int<class_int>`, value\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CollisionObject2D_method_set_collision_mask_value>`
 
-Based on ``value``, enables or disables the specified layer in the :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`, given a ``layer_number`` between 1 and 32.
+Basado en ``value``, habilita o deshabilita la capa especificada en :ref:`collision_mask<class_CollisionObject2D_property_collision_mask>`, dado un ``layer_number`` entre 1 y 32.
 
 .. rst-class:: classref-item-separator
 

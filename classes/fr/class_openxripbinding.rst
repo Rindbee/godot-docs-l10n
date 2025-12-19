@@ -14,7 +14,7 @@ Définit une liaison entre une :ref:`OpenXRAction<class_OpenXRAction>` et une en
 Description
 -----------
 
-This binding resource binds an :ref:`OpenXRAction<class_OpenXRAction>` to an input or output. As most controllers have left hand and right versions that are handled by the same interaction profile we can specify multiple bindings. For instance an action "Fire" could be bound to both "/user/hand/left/input/trigger" and "/user/hand/right/input/trigger". This would require two binding entries.
+Cette ressource de liaison lie une :ref:`OpenXRAction<class_OpenXRAction>` à une entrée ou une sortie. Comme la plupart des contrôleurs ont des versions gauche et droite qui sont gérées par le même profil d'interaction, nous pouvons spécifier plusieurs liaisons. Par exemple, une action "Tirer" pourrait être liée à la fois à "/user/hand/left/input/trigger" et "/user/hand/right/input/trigger". Cela nécessiterait deux entrées de liaison.
 
 .. rst-class:: classref-reftable-group
 
@@ -76,7 +76,7 @@ Descriptions des propriétés
 - |void| **set_action**\ (\ value\: :ref:`OpenXRAction<class_OpenXRAction>`\ )
 - :ref:`OpenXRAction<class_OpenXRAction>` **get_action**\ (\ )
 
-:ref:`OpenXRAction<class_OpenXRAction>` that is bound to :ref:`binding_path<class_OpenXRIPBinding_property_binding_path>`.
+:ref:`OpenXRAction<class_OpenXRAction>` qui est liée à :ref:`binding_path<class_OpenXRIPBinding_property_binding_path>`.
 
 .. rst-class:: classref-item-separator
 
@@ -110,9 +110,9 @@ Modificateurs de liaison pour cette liaison.
 - |void| **set_binding_path**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_binding_path**\ (\ )
 
-Binding path that defines the input or output bound to :ref:`action<class_OpenXRIPBinding_property_action>`.
+Chemin de liaison qui définit l'entrée ou la sortie liée à :ref:`action<class_OpenXRIPBinding_property_action>`.
 
-\ **Note:** Binding paths are suggestions, an XR runtime may choose to bind the action to a different input or output emulating this input or output.
+\ **Note :** Les chemins de liaison sont des suggestions, un runtime XR peut choisir de lier l'action à une entrée/sortie différente émulant cette entrée/sortie.
 
 .. rst-class:: classref-item-separator
 
@@ -131,7 +131,7 @@ Binding path that defines the input or output bound to :ref:`action<class_OpenXR
 
 **Obsolète :** Use :ref:`binding_path<class_OpenXRIPBinding_property_binding_path>` instead.
 
-Paths that define the inputs or outputs bound on the device.
+Chemins qui définissent les entrées/sorties liées sur l'appareil.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -204,7 +204,7 @@ Obtient le nombre de chemins d'entrée/sortie dans cette liaison.
 
 **Obsolète :** Binding is for a single path.
 
-Returns ``true`` if this input/output path is part of this binding.
+Renvoie ``true`` si ce chemin d'entrée/sortie fait partie de cette liaison.
 
 .. rst-class:: classref-item-separator
 

@@ -309,7 +309,7 @@ Number of navigation mesh polygon edges in :ref:`NavigationServer2D<class_Naviga
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_EDGE_MERGE_COUNT** = ``30``
 
-Number of navigation mesh polygon edges that were merged due to edge key overlap in :ref:`NavigationServer2D<class_NavigationServer2D>` and :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de aristas de polígono de la malla de navegación que se fusionaron debido a la superposición de claves de aristas en :ref:`NavigationServer2D<class_NavigationServer2D>` y :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_EDGE_CONNECTION_COUNT:
 
@@ -317,7 +317,7 @@ Number of navigation mesh polygon edges that were merged due to edge key overlap
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_EDGE_CONNECTION_COUNT** = ``31``
 
-Number of polygon edges that are considered connected by edge proximity :ref:`NavigationServer2D<class_NavigationServer2D>` and :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de aristas de polígono que se consideran conectadas por proximidad de aristas :ref:`NavigationServer2D<class_NavigationServer2D>` y :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_EDGE_FREE_COUNT:
 
@@ -325,7 +325,7 @@ Number of polygon edges that are considered connected by edge proximity :ref:`Na
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_EDGE_FREE_COUNT** = ``32``
 
-Number of navigation mesh polygon edges that could not be merged in :ref:`NavigationServer2D<class_NavigationServer2D>` and :ref:`NavigationServer3D<class_NavigationServer3D>`. The edges still may be connected by edge proximity or with links.
+Número de aristas de polígono de la malla de navegación que no se pudieron fusionar en :ref:`NavigationServer2D<class_NavigationServer2D>` y :ref:`NavigationServer3D<class_NavigationServer3D>`. Las aristas aún pueden estar conectadas por proximidad de aristas o con enlaces.
 
 .. _class_Performance_constant_NAVIGATION_OBSTACLE_COUNT:
 
@@ -333,7 +333,7 @@ Number of navigation mesh polygon edges that could not be merged in :ref:`Naviga
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_OBSTACLE_COUNT** = ``33``
 
-Number of active navigation obstacles in the :ref:`NavigationServer2D<class_NavigationServer2D>` and :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de obstáculos de navegación activos en :ref:`NavigationServer2D<class_NavigationServer2D>` y :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_PIPELINE_COMPILATIONS_CANVAS:
 
@@ -389,7 +389,7 @@ Number of active navigation maps in the :ref:`NavigationServer2D<class_Navigatio
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_REGION_COUNT** = ``40``
 
-Number of active navigation regions in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de regiones de navegación activas en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_2D_AGENT_COUNT:
 
@@ -397,7 +397,7 @@ Number of active navigation regions in the :ref:`NavigationServer2D<class_Naviga
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_AGENT_COUNT** = ``41``
 
-Number of active navigation agents processing avoidance in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de agentes de navegación activos procesando la evitación en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_2D_LINK_COUNT:
 
@@ -405,7 +405,7 @@ Number of active navigation agents processing avoidance in the :ref:`NavigationS
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_LINK_COUNT** = ``42``
 
-Number of active navigation links in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de enlaces de navegación activos en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_2D_POLYGON_COUNT:
 
@@ -413,7 +413,7 @@ Number of active navigation links in the :ref:`NavigationServer2D<class_Navigati
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_POLYGON_COUNT** = ``43``
 
-Number of navigation mesh polygons in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de polígonos de malla de navegación en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_2D_EDGE_COUNT:
 
@@ -421,7 +421,7 @@ Number of navigation mesh polygons in the :ref:`NavigationServer2D<class_Navigat
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_EDGE_COUNT** = ``44``
 
-Number of navigation mesh polygon edges in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de aristas de polígono de malla de navegación en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_2D_EDGE_MERGE_COUNT:
 
@@ -429,7 +429,7 @@ Number of navigation mesh polygon edges in the :ref:`NavigationServer2D<class_Na
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_EDGE_MERGE_COUNT** = ``45``
 
-Number of navigation mesh polygon edges that were merged due to edge key overlap in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de aristas de polígono de la malla de navegación que se fusionaron debido a la superposición de claves de aristas en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_2D_EDGE_CONNECTION_COUNT:
 
@@ -453,7 +453,7 @@ Número de bordes de polígonos de malla de navegación que no se pudieron fusio
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_OBSTACLE_COUNT** = ``48``
 
-Number of active navigation obstacles in the :ref:`NavigationServer2D<class_NavigationServer2D>`.
+Número de obstáculos de navegación activos en el :ref:`NavigationServer2D<class_NavigationServer2D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_ACTIVE_MAPS:
 
@@ -461,7 +461,7 @@ Number of active navigation obstacles in the :ref:`NavigationServer2D<class_Navi
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_ACTIVE_MAPS** = ``49``
 
-Number of active navigation maps in the :ref:`NavigationServer3D<class_NavigationServer3D>`. This also includes the two empty default navigation maps created by World3D.
+Número de mapas de navegación activos en el :ref:`NavigationServer3D<class_NavigationServer3D>`. Esto también incluye los dos mapas de navegación predeterminados vacíos creados por World3D.
 
 .. _class_Performance_constant_NAVIGATION_3D_REGION_COUNT:
 
@@ -469,7 +469,7 @@ Number of active navigation maps in the :ref:`NavigationServer3D<class_Navigatio
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_REGION_COUNT** = ``50``
 
-Number of active navigation regions in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de regiones de navegación activas en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_AGENT_COUNT:
 
@@ -477,7 +477,7 @@ Number of active navigation regions in the :ref:`NavigationServer3D<class_Naviga
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_AGENT_COUNT** = ``51``
 
-Number of active navigation agents processing avoidance in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de agentes de navegación activos procesando la evitación en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_LINK_COUNT:
 
@@ -485,7 +485,7 @@ Number of active navigation agents processing avoidance in the :ref:`NavigationS
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_LINK_COUNT** = ``52``
 
-Number of active navigation links in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de enlaces de navegación activos en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_POLYGON_COUNT:
 
@@ -493,7 +493,7 @@ Number of active navigation links in the :ref:`NavigationServer3D<class_Navigati
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_POLYGON_COUNT** = ``53``
 
-Number of navigation mesh polygons in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de polígonos de malla de navegación en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_EDGE_COUNT:
 
@@ -501,7 +501,7 @@ Number of navigation mesh polygons in the :ref:`NavigationServer3D<class_Navigat
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_EDGE_COUNT** = ``54``
 
-Number of navigation mesh polygon edges in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de aristas de polígono de la malla de navegación en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_EDGE_MERGE_COUNT:
 
@@ -509,7 +509,7 @@ Number of navigation mesh polygon edges in the :ref:`NavigationServer3D<class_Na
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_EDGE_MERGE_COUNT** = ``55``
 
-Number of navigation mesh polygon edges that were merged due to edge key overlap in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de aristas de polígono de la malla de navegación que se fusionaron debido a la superposición de claves de aristas en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_EDGE_CONNECTION_COUNT:
 
@@ -517,7 +517,7 @@ Number of navigation mesh polygon edges that were merged due to edge key overlap
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_EDGE_CONNECTION_COUNT** = ``56``
 
-Number of polygon edges that are considered connected by edge proximity :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de aristas de polígono que se consideran conectadas por proximidad de aristas :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_NAVIGATION_3D_EDGE_FREE_COUNT:
 
@@ -525,7 +525,7 @@ Number of polygon edges that are considered connected by edge proximity :ref:`Na
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_EDGE_FREE_COUNT** = ``57``
 
-Number of navigation mesh polygon edges that could not be merged in the :ref:`NavigationServer3D<class_NavigationServer3D>`. The edges still may be connected by edge proximity or with links.
+Número de aristas de polígono de la malla de navegación que no se pudieron fusionar en el :ref:`NavigationServer3D<class_NavigationServer3D>`. Las aristas aún pueden estar conectadas por proximidad de aristas o con enlaces.
 
 .. _class_Performance_constant_NAVIGATION_3D_OBSTACLE_COUNT:
 
@@ -533,7 +533,7 @@ Number of navigation mesh polygon edges that could not be merged in the :ref:`Na
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_OBSTACLE_COUNT** = ``58``
 
-Number of active navigation obstacles in the :ref:`NavigationServer3D<class_NavigationServer3D>`.
+Número de obstáculos de navegación activos en el :ref:`NavigationServer3D<class_NavigationServer3D>`.
 
 .. _class_Performance_constant_MONITOR_MAX:
 

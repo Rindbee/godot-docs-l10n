@@ -7,16 +7,16 @@ PhysicsServer3DManager
 
 **Hereda:** :ref:`Object<class_Object>`
 
-A singleton for managing :ref:`PhysicsServer3D<class_PhysicsServer3D>` implementations.
+Un singleton para administrar las implementaciones de :ref:`PhysicsServer3D<class_PhysicsServer3D>`.
 
 .. rst-class:: classref-introduction-group
 
 Descripción
 ----------------------
 
-**PhysicsServer3DManager** is the API for registering :ref:`PhysicsServer3D<class_PhysicsServer3D>` implementations and for setting the default implementation.
+**PhysicsServer3DManager** es la API para registrar implementaciones de :ref:`PhysicsServer3D<class_PhysicsServer3D>` y para establecer la implementación predeterminada.
 
-\ **Note:** It is not possible to switch physics servers at runtime. This class is only used on startup at the server initialization level, by Godot itself and possibly by GDExtensions.
+\ **Nota:** No es posible cambiar los servidores de física en tiempo de ejecución. Esta clase solo se usa al inicio, en el nivel de inicialización del servidor, por Godot y posiblemente por GDExtensions.
 
 .. rst-class:: classref-reftable-group
 
@@ -47,7 +47,7 @@ Descripciones de Métodos
 
 |void| **register_server**\ (\ name\: :ref:`String<class_String>`, create_callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_PhysicsServer3DManager_method_register_server>`
 
-Register a :ref:`PhysicsServer3D<class_PhysicsServer3D>` implementation by passing a ``name`` and a :ref:`Callable<class_Callable>` that returns a :ref:`PhysicsServer3D<class_PhysicsServer3D>` object.
+Registra una implementación de :ref:`PhysicsServer3D<class_PhysicsServer3D>` pasando un ``name`` y un :ref:`Callable<class_Callable>` que devuelve un objeto :ref:`PhysicsServer3D<class_PhysicsServer3D>`.
 
 .. rst-class:: classref-item-separator
 
@@ -59,7 +59,7 @@ Register a :ref:`PhysicsServer3D<class_PhysicsServer3D>` implementation by passi
 
 |void| **set_default_server**\ (\ name\: :ref:`String<class_String>`, priority\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PhysicsServer3DManager_method_set_default_server>`
 
-Set the default :ref:`PhysicsServer3D<class_PhysicsServer3D>` implementation to the one identified by ``name``, if ``priority`` is greater than the priority of the current default implementation.
+Establece la implementación predeterminada de :ref:`PhysicsServer3D<class_PhysicsServer3D>` a la identificada por ``name``, si ``priority`` es mayor que la prioridad de la implementación predeterminada actual.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

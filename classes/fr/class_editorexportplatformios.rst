@@ -891,7 +891,7 @@ If ``true``, allows access to Game Center features. See `com.apple.developer.gam
 
 :ref:`bool<class_bool>` **entitlements/increased_memory_limit** :ref:`🔗<class_EditorExportPlatformIOS_property_entitlements/increased_memory_limit>`
 
-If ``true``, hints that the app might perform better with a higher memory limit. See `com.apple.developer.kernel.increased-memory-limit <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_kernel_increased-memory-limit>`__.
+Si ``true``, cela indique que l'application pourrait mieux fonctionner avec une limite de mémoire plus élevée. Voir `com.apple.developer.kernel.increased-memory-limit <https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_kernel_increased-memory-limit>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1683,7 +1683,7 @@ The reasons your app collects browsing history. See `Describing data use in priv
 
 :ref:`bool<class_bool>` **privacy/collected_data/browsing_history/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/browsing_history/linked_to_user>`
 
-Indicates whether your app links browsing history to the user's identity.
+Indique si votre application relie l'historique de navigation à l'identité de l'utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -1695,7 +1695,7 @@ Indicates whether your app links browsing history to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/browsing_history/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/browsing_history/used_for_tracking>`
 
-Indicates whether your app uses browsing history for tracking.
+Indique si votre application utilise l'historique de navigation pour du suivi.
 
 .. rst-class:: classref-item-separator
 
@@ -1707,7 +1707,7 @@ Indicates whether your app uses browsing history for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/coarse_location/collected** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/coarse_location/collected>`
 
-Indicates whether your app collects coarse location data.
+Indique si votre application collecte des données de localisation approximatives.
 
 .. rst-class:: classref-item-separator
 
@@ -1719,7 +1719,7 @@ Indicates whether your app collects coarse location data.
 
 :ref:`int<class_int>` **privacy/collected_data/coarse_location/collection_purposes** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/coarse_location/collection_purposes>`
 
-The reasons your app collects coarse location data. See `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
+Les raisons pour lesquelles votre application collecte des données de localisation approximatives. Voir `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1731,7 +1731,7 @@ The reasons your app collects coarse location data. See `Describing data use in 
 
 :ref:`bool<class_bool>` **privacy/collected_data/coarse_location/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/coarse_location/linked_to_user>`
 
-Indicates whether your app links coarse location data to the user's identity.
+Indique si votre application relie les données de localisation approximatives à l'identité de l'utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -1743,7 +1743,7 @@ Indicates whether your app links coarse location data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/coarse_location/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/coarse_location/used_for_tracking>`
 
-Indicates whether your app uses coarse location data for tracking.
+Indique si votre application utilise les données de localisation approximatives pour du suivi.
 
 .. rst-class:: classref-item-separator
 
@@ -1755,7 +1755,7 @@ Indicates whether your app uses coarse location data for tracking.
 
 :ref:`bool<class_bool>` **privacy/collected_data/contacts/collected** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/contacts/collected>`
 
-Indicates whether your app collects contacts.
+Indique si votre application recueille des contacts.
 
 .. rst-class:: classref-item-separator
 
@@ -1767,7 +1767,7 @@ Indicates whether your app collects contacts.
 
 :ref:`int<class_int>` **privacy/collected_data/contacts/collection_purposes** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/contacts/collection_purposes>`
 
-The reasons your app collects contacts. See `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
+Les raisons pour lesquelles votre application recueille des contacts. Voir `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1779,7 +1779,7 @@ The reasons your app collects contacts. See `Describing data use in privacy mani
 
 :ref:`bool<class_bool>` **privacy/collected_data/contacts/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/contacts/linked_to_user>`
 
-Indicates whether your app links contacts to the user's identity.
+Indique si votre application relie les contacts à l'identité de l'utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -1791,7 +1791,7 @@ Indicates whether your app links contacts to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/contacts/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/contacts/used_for_tracking>`
 
-Indicates whether your app uses contacts for tracking.
+Indique si votre application utilise les contacts pour le suivi.
 
 .. rst-class:: classref-item-separator
 
@@ -1815,7 +1815,7 @@ Indique si votre application collecte des données de plantage.
 
 :ref:`int<class_int>` **privacy/collected_data/crash_data/collection_purposes** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/crash_data/collection_purposes>`
 
-The reasons your app collects crash data. See `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
+Les raisons pour lesquelles votre application collecte les données de plantage. Voir `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1827,7 +1827,7 @@ The reasons your app collects crash data. See `Describing data use in privacy ma
 
 :ref:`bool<class_bool>` **privacy/collected_data/crash_data/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/crash_data/linked_to_user>`
 
-Indicates whether your app links crash data to the user's identity.
+Indique si votre application relie les données de plantage à l'identité de l'utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -1839,7 +1839,7 @@ Indicates whether your app links crash data to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/crash_data/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/crash_data/used_for_tracking>`
 
-Indicates whether your app uses crash data for tracking.
+Indique si votre application utilise les données de plantage pour le suivi.
 
 .. rst-class:: classref-item-separator
 
@@ -1863,7 +1863,7 @@ Indique si votre application collecte des informations de crédit.
 
 :ref:`int<class_int>` **privacy/collected_data/credit_info/collection_purposes** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/credit_info/collection_purposes>`
 
-The reasons your app collects credit information. See `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
+Les raisons pour lesquelles votre application collecte les informations de crédit. Voir `Describing data use in privacy manifests <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1875,7 +1875,7 @@ The reasons your app collects credit information. See `Describing data use in pr
 
 :ref:`bool<class_bool>` **privacy/collected_data/credit_info/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/credit_info/linked_to_user>`
 
-Indicates whether your app links credit information to the user's identity.
+Indique si votre application relie les informations de crédit à l'identité de l'utilisateur.
 
 .. rst-class:: classref-item-separator
 
@@ -1887,7 +1887,7 @@ Indicates whether your app links credit information to the user's identity.
 
 :ref:`bool<class_bool>` **privacy/collected_data/credit_info/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/credit_info/used_for_tracking>`
 
-Indicates whether your app uses credit information for tracking.
+Indique si votre application utilise les informations de crédit pour le suivi.
 
 .. rst-class:: classref-item-separator
 

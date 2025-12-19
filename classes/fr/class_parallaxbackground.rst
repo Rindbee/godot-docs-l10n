@@ -16,9 +16,9 @@ Un nœud utilisé pour créer un arrière-plan à défilement parallaxe.
 Description
 -----------
 
-A ParallaxBackground uses one or more :ref:`ParallaxLayer<class_ParallaxLayer>` child nodes to create a parallax effect. Each :ref:`ParallaxLayer<class_ParallaxLayer>` can move at a different speed using :ref:`ParallaxLayer.motion_offset<class_ParallaxLayer_property_motion_offset>`. This creates an illusion of depth in a 2D game. If not used with a :ref:`Camera2D<class_Camera2D>`, you must manually calculate the :ref:`scroll_offset<class_ParallaxBackground_property_scroll_offset>`.
+Un ParallaxBackground utilise un ou plusieurs nœuds :ref:`ParallaxLayer<class_ParallaxLayer>` enfants pour créer un effet de parallaxe. Chaque :ref:`ParallaxLayer<class_ParallaxLayer>` peut se déplacer à une vitesse différente en utilisant :ref:`ParallaxLayer.motion_offset<class_ParallaxLayer_property_motion_offset>`. Cela crée une illusion de profondeur dans un jeu 2D. Si non utilisé avec une :ref:`Camera2D<class_Camera2D>`, vous devez calculer manuellement le :ref:`scroll_offset<class_ParallaxBackground_property_scroll_offset>`.
 
-\ **Note:** Each **ParallaxBackground** is drawn on one specific :ref:`Viewport<class_Viewport>` and cannot be shared between multiple :ref:`Viewport<class_Viewport>`\ s, see :ref:`CanvasLayer.custom_viewport<class_CanvasLayer_property_custom_viewport>`. When using multiple :ref:`Viewport<class_Viewport>`\ s, for example in a split-screen game, you need create an individual **ParallaxBackground** for each :ref:`Viewport<class_Viewport>` you want it to be drawn on.
+\ **Note :** Chaque **ParallaxBackground** est dessiné sur un :ref:`Viewport<class_Viewport>` spécifique et ne peut pas être partagé entre plusieurs :ref:`Viewport<class_Viewport>`\ s, voir :ref:`CanvasLayer.custom_viewport<class_CanvasLayer_property_custom_viewport>`. Lors de l'utilisation de plusieurs :ref:`Viewport<class_Viewport>`\ s, par exemple dans un jeu à écran séparé, vous devez créer un **ParallaxBackground** individuel pour chaque :ref:`Viewport<class_Viewport>` sur lequel vous voulez qu'il soit dessiné.
 
 .. rst-class:: classref-reftable-group
 
@@ -115,7 +115,7 @@ Si ``true``, les éléments des :ref:`ParallaxLayer<class_ParallaxLayer>` enfant
 - |void| **set_limit_begin**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_limit_begin**\ (\ )
 
-Top-left limits for scrolling to begin. If the camera is outside of this limit, the background will stop scrolling. Must be lower than :ref:`scroll_limit_end<class_ParallaxBackground_property_scroll_limit_end>` to work.
+Limites en haut à gauche pour que le défilement commence. Si la caméra est en dehors de cette limite, l'arrière-plan cesse de défiler. Doit être inférieur à :ref:`scroll_limit_end<class_ParallaxBackground_property_scroll_limit_end>` pour fonctionner.
 
 .. rst-class:: classref-item-separator
 
@@ -132,7 +132,7 @@ Top-left limits for scrolling to begin. If the camera is outside of this limit, 
 - |void| **set_limit_end**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_limit_end**\ (\ )
 
-Bottom-right limits for scrolling to end. If the camera is outside of this limit, the background will stop scrolling. Must be higher than :ref:`scroll_limit_begin<class_ParallaxBackground_property_scroll_limit_begin>` to work.
+Limites en bas à droite pour que le défilement s'arrête. Si la caméra est en dehors de cette limite, l'arrière-plan cesse de défiler. Doit être supérieur à :ref:`scroll_limit_begin<class_ParallaxBackground_property_scroll_limit_begin>` pour fonctionner.
 
 .. rst-class:: classref-item-separator
 
@@ -149,7 +149,7 @@ Bottom-right limits for scrolling to end. If the camera is outside of this limit
 - |void| **set_scroll_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scroll_offset**\ (\ )
 
-The ParallaxBackground's scroll value. Calculated automatically when using a :ref:`Camera2D<class_Camera2D>`, but can be used to manually manage scrolling when no camera is present.
+La valeur de défilement du ParallaxBackground. Calculé automatiquement lors de l'utilisation d'une :ref:`Camera2D<class_Camera2D>`, mais peut être utilisé pour gérer manuellement le défilement lorsqu'aucune caméra n'est présente.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

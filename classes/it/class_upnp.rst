@@ -269,7 +269,7 @@ I valori delle porte esterne e interne devono essere gli stessi.
 
 :ref:`UPNPResult<enum_UPNP_UPNPResult>` **UPNP_RESULT_ONLY_PERMANENT_LEASE_SUPPORTED** = ``15``
 
-Only permanent leases are supported. Do not use the ``duration`` parameter when adding port mappings.
+Sono supportati solo i lease permanenti. Non usare il parametro ``duration`` quando si aggiungono le mappature delle porte.
 
 .. _class_UPNP_constant_UPNP_RESULT_INVALID_GATEWAY:
 

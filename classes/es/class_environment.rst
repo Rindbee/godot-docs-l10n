@@ -14,15 +14,15 @@ Recurso para nodos del entorno (como :ref:`WorldEnvironment<class_WorldEnvironme
 Descripción
 ----------------------
 
-Resource for environment nodes (like :ref:`WorldEnvironment<class_WorldEnvironment>`) that define multiple environment operations (such as background :ref:`Sky<class_Sky>` or :ref:`Color<class_Color>`, ambient light, fog, depth-of-field...). These parameters affect the final render of the scene. The order of these operations is:
+Recurso para nodos de entorno (como :ref:`WorldEnvironment<class_WorldEnvironment>`) que definen múltiples operaciones de entorno (como :ref:`Sky<class_Sky>` o :ref:`Color<class_Color>` de fondo, luz ambiental, niebla, profundidad de campo...). Estos parámetros afectan el render final de la escena. El orden de estas operaciones es:
 
-- Depth of Field Blur
+- Desenfoque de profundidad de campo
 
-- Glow
+- Resplandor
 
-- Tonemap (Auto Exposure)
+- Asignación de tonos (exposición automática)
 
-- Adjustments
+- Ajustes
 
 .. rst-class:: classref-introduction-group
 
@@ -31,7 +31,7 @@ Tutoriales
 
 - :doc:`Ambiente y posprocesamiento <../tutorials/3d/environment_and_post_processing>`
 
-- :doc:`High dynamic range lighting <../tutorials/3d/high_dynamic_range>`
+- :doc:`Iluminación de alto rango dinámico <../tutorials/3d/high_dynamic_range>`
 
 - `Demo de Prueba de Materiales en 3D <https://godotengine.org/asset-library/asset/2742>`__
 
@@ -590,7 +590,7 @@ Descripciones de Propiedades
 - |void| **set_adjustment_brightness**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_adjustment_brightness**\ (\ )
 
-The global brightness value of the rendered scene. Effective only if :ref:`adjustment_enabled<class_Environment_property_adjustment_enabled>` is ``true``.
+El valor de brillo global de la escena renderizada. Solo es efectivo si :ref:`adjustment_enabled<class_Environment_property_adjustment_enabled>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -607,7 +607,7 @@ The global brightness value of the rendered scene. Effective only if :ref:`adjus
 - |void| **set_adjustment_color_correction**\ (\ value\: :ref:`Texture<class_Texture>`\ )
 - :ref:`Texture<class_Texture>` **get_adjustment_color_correction**\ (\ )
 
-The :ref:`Texture2D<class_Texture2D>` or :ref:`Texture3D<class_Texture3D>` lookup table (LUT) to use for the built-in post-process color grading. Can use a :ref:`GradientTexture1D<class_GradientTexture1D>` for a 1-dimensional LUT, or a :ref:`Texture3D<class_Texture3D>` for a more complex LUT. Effective only if :ref:`adjustment_enabled<class_Environment_property_adjustment_enabled>` is ``true``.
+La tabla de búsqueda (:ref:`Texture2D<class_Texture2D>` o :ref:`Texture3D<class_Texture3D>` LUT) para usar en la gradación de color de post-procesamiento incorporada. Se puede usar un :ref:`GradientTexture1D<class_GradientTexture1D>` para una LUT unidimensional, o una :ref:`Texture3D<class_Texture3D>` para una LUT más compleja. Solo es efectivo si :ref:`adjustment_enabled<class_Environment_property_adjustment_enabled>` es ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -675,7 +675,7 @@ El valor de saturación de color global de la escena renderizada (el valor por d
 - |void| **set_ambient_light_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_ambient_light_color**\ (\ )
 
-The ambient light's :ref:`Color<class_Color>`. Only effective if :ref:`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>` is lower than ``1.0`` (exclusive).
+El :ref:`Color<class_Color>` de la luz ambiental. Solo es efectivo si :ref:`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>` es inferior a ``1.0`` (exclusivo).
 
 .. rst-class:: classref-item-separator
 
@@ -692,7 +692,7 @@ The ambient light's :ref:`Color<class_Color>`. Only effective if :ref:`ambient_l
 - |void| **set_ambient_light_energy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ambient_light_energy**\ (\ )
 
-The ambient light's energy. The higher the value, the stronger the light. Only effective if :ref:`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>` is lower than ``1.0`` (exclusive).
+La energía de la luz ambiental. Cuanto mayor sea el valor, más fuerte será la luz. Solo es efectivo si :ref:`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>` es menor que ``1.0`` (exclusivo).
 
 .. rst-class:: classref-item-separator
 
@@ -709,9 +709,9 @@ The ambient light's energy. The higher the value, the stronger the light. Only e
 - |void| **set_ambient_light_sky_contribution**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ambient_light_sky_contribution**\ (\ )
 
-Defines the amount of light that the sky brings on the scene. A value of ``0.0`` means that the sky's light emission has no effect on the scene illumination, thus all ambient illumination is provided by the ambient light. On the contrary, a value of ``1.0`` means that *all* the light that affects the scene is provided by the sky, thus the ambient light parameter has no effect on the scene.
+Define la cantidad de luz que el cielo aporta a la escena. Un valor de ``0.0`` significa que la emisión de luz del cielo no tiene efecto en la iluminación de la escena, por lo que toda la iluminación ambiental es proporcionada por la luz ambiental. Por el contrario, un valor de ``1.0`` significa que *toda* la luz que afecta a la escena es proporcionada por el cielo, por lo que el parámetro de luz ambiental no tiene efecto en la escena.
 
-\ **Note:** :ref:`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>` is internally clamped between ``0.0`` and ``1.0`` (inclusive).
+\ **Nota:** :ref:`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>` se limita internamente entre ``0.0`` y ``1.0`` (inclusive).
 
 .. rst-class:: classref-item-separator
 
@@ -728,7 +728,7 @@ Defines the amount of light that the sky brings on the scene. A value of ``0.0``
 - |void| **set_ambient_source**\ (\ value\: :ref:`AmbientSource<enum_Environment_AmbientSource>`\ )
 - :ref:`AmbientSource<enum_Environment_AmbientSource>` **get_ambient_source**\ (\ )
 
-The ambient light source to use for rendering materials and global illumination.
+La fuente de luz ambiental que se utilizará para renderizar materiales e iluminación global.
 
 .. rst-class:: classref-item-separator
 
@@ -779,7 +779,7 @@ El ID de la capa maxima a mostrar. Sólo es efectivo cuando se utiliza el modo d
 - |void| **set_bg_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_bg_color**\ (\ )
 
-The :ref:`Color<class_Color>` displayed for clear areas of the scene. Only effective when using the :ref:`BG_COLOR<class_Environment_constant_BG_COLOR>` background mode.
+El :ref:`Color<class_Color>` mostrado para las áreas claras de la escena. Solo es efectivo cuando se usa el modo de fondo :ref:`BG_COLOR<class_Environment_constant_BG_COLOR>`.
 
 .. rst-class:: classref-item-separator
 
@@ -796,7 +796,7 @@ The :ref:`Color<class_Color>` displayed for clear areas of the scene. Only effec
 - |void| **set_bg_energy_multiplier**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_bg_energy_multiplier**\ (\ )
 
-Multiplier for background energy. Increase to make background brighter, decrease to make background dimmer.
+Multiplicador para la energía del fondo. Aumenta para hacer el fondo más brillante, disminuye para hacer el fondo más oscuro.
 
 .. rst-class:: classref-item-separator
 
@@ -813,7 +813,7 @@ Multiplier for background energy. Increase to make background brighter, decrease
 - |void| **set_bg_intensity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_bg_intensity**\ (\ )
 
-Luminance of background measured in nits (candela per square meter). Only used when :ref:`ProjectSettings.rendering/lights_and_shadows/use_physical_light_units<class_ProjectSettings_property_rendering/lights_and_shadows/use_physical_light_units>` is enabled. The default value is roughly equivalent to the sky at midday.
+Luminancia del fondo medida en nits (candela por metro cuadrado). Solo se usa cuando :ref:`ProjectSettings.rendering/lights_and_shadows/use_physical_light_units<class_ProjectSettings_property_rendering/lights_and_shadows/use_physical_light_units>` está habilitado. El valor predeterminado es aproximadamente equivalente al cielo al mediodía.
 
 .. rst-class:: classref-item-separator
 
@@ -1416,9 +1416,9 @@ If ``true``, glow levels will be normalized so that summed together their intens
 - |void| **set_glow_strength**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_glow_strength**\ (\ )
 
-The strength of the glow effect. This applies as the glow is blurred across the screen and increases the distance and intensity of the blur. When using the Mobile rendering method, this should be increased to compensate for the lower dynamic range.
+La fuerza del efecto de brillo. Esto se aplica a medida que el brillo se difumina por la pantalla y aumenta la distancia e intensidad del desenfoque. Cuando se utiliza el método de renderizado Mobile, esto debe aumentarse para compensar el menor rango dinámico.
 
-\ **Note:** :ref:`glow_strength<class_Environment_property_glow_strength>` has no effect when using the Compatibility rendering method, due to this rendering method using a simpler glow implementation optimized for low-end devices.
+\ **Nota:** :ref:`glow_strength<class_Environment_property_glow_strength>` no tiene ningún efecto cuando se utiliza el método de renderizado Compatibility, debido a que este método de renderizado utiliza una implementación de brillo más sencilla optimizada para dispositivos de gama baja.
 
 .. rst-class:: classref-item-separator
 
@@ -1435,7 +1435,7 @@ The strength of the glow effect. This applies as the glow is blurred across the 
 - |void| **set_reflection_source**\ (\ value\: :ref:`ReflectionSource<enum_Environment_ReflectionSource>`\ )
 - :ref:`ReflectionSource<enum_Environment_ReflectionSource>` **get_reflection_source**\ (\ )
 
-The reflected (specular) light source.
+La fuente de luz reflejada (especular).
 
 .. rst-class:: classref-item-separator
 
@@ -1473,7 +1473,7 @@ The energy multiplier applied to light every time it bounces from a surface when
 - |void| **set_sdfgi_cascade0_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sdfgi_cascade0_distance**\ (\ )
 
-**Note:** This property is linked to :ref:`sdfgi_min_cell_size<class_Environment_property_sdfgi_min_cell_size>` and :ref:`sdfgi_max_distance<class_Environment_property_sdfgi_max_distance>`. Changing its value will automatically change those properties as well.
+**Nota:** Esta propiedad está enlazada a :ref:`sdfgi_min_cell_size<class_Environment_property_sdfgi_min_cell_size>` y a :ref:`sdfgi_max_distance<class_Environment_property_sdfgi_max_distance>`. Cambiar su valor cambiará automáticamente también esas propiedades.
 
 .. rst-class:: classref-item-separator
 
@@ -1530,7 +1530,7 @@ If ``true``, enables signed distance field global illumination for meshes that h
 - |void| **set_sdfgi_energy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sdfgi_energy**\ (\ )
 
-The energy multiplier to use for SDFGI. Higher values will result in brighter indirect lighting and reflections. See also :ref:`sdfgi_bounce_feedback<class_Environment_property_sdfgi_bounce_feedback>`.
+El multiplicador de energía que se utiliza para SDFGI. Los valores más altos darán como resultado una iluminación indirecta y reflejos más brillantes. Véase también :ref:`sdfgi_bounce_feedback<class_Environment_property_sdfgi_bounce_feedback>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1547,9 +1547,9 @@ The energy multiplier to use for SDFGI. Higher values will result in brighter in
 - |void| **set_sdfgi_max_distance**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sdfgi_max_distance**\ (\ )
 
-The maximum distance at which SDFGI is visible. Beyond this distance, environment lighting or other sources of GI such as :ref:`ReflectionProbe<class_ReflectionProbe>` will be used as a fallback.
+La distancia máxima a la que SDFGI es visible. Más allá de esta distancia, se utilizará la iluminación del entorno u otras fuentes de GI como :ref:`ReflectionProbe<class_ReflectionProbe>` como alternativa.
 
-\ **Note:** This property is linked to :ref:`sdfgi_min_cell_size<class_Environment_property_sdfgi_min_cell_size>` and :ref:`sdfgi_cascade0_distance<class_Environment_property_sdfgi_cascade0_distance>`. Changing its value will automatically change those properties as well.
+\ **Nota:** Esta propiedad está enlazada a :ref:`sdfgi_min_cell_size<class_Environment_property_sdfgi_min_cell_size>` y a :ref:`sdfgi_cascade0_distance<class_Environment_property_sdfgi_cascade0_distance>`. Cambiar su valor cambiará automáticamente también esas propiedades.
 
 .. rst-class:: classref-item-separator
 
@@ -1566,9 +1566,9 @@ The maximum distance at which SDFGI is visible. Beyond this distance, environmen
 - |void| **set_sdfgi_min_cell_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sdfgi_min_cell_size**\ (\ )
 
-The cell size to use for the closest SDFGI cascade (in 3D units). Lower values allow SDFGI to be more precise up close, at the cost of making SDFGI updates more demanding. This can cause stuttering when the camera moves fast. Higher values allow SDFGI to cover more ground, while also reducing the performance impact of SDFGI updates.
+El tamaño de celda que se utilizará para la cascada SDFGI más cercana (en unidades 3D). Los valores más bajos permiten que SDFGI sea más preciso de cerca, a costa de hacer que las actualizaciones de SDFGI sean más exigentes. Esto puede causar tartamudeo cuando la cámara se mueve rápidamente. Los valores más altos permiten que SDFGI cubra más terreno, al tiempo que reducen el impacto en el rendimiento de las actualizaciones de SDFGI.
 
-\ **Note:** This property is linked to :ref:`sdfgi_max_distance<class_Environment_property_sdfgi_max_distance>` and :ref:`sdfgi_cascade0_distance<class_Environment_property_sdfgi_cascade0_distance>`. Changing its value will automatically change those properties as well.
+\ **Nota:** Esta propiedad está enlazada a :ref:`sdfgi_max_distance<class_Environment_property_sdfgi_max_distance>` y a :ref:`sdfgi_cascade0_distance<class_Environment_property_sdfgi_cascade0_distance>`. Cambiar su valor cambiará automáticamente también esas propiedades.
 
 .. rst-class:: classref-item-separator
 
@@ -1585,7 +1585,7 @@ The cell size to use for the closest SDFGI cascade (in 3D units). Lower values a
 - |void| **set_sdfgi_normal_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sdfgi_normal_bias**\ (\ )
 
-The normal bias to use for SDFGI probes. Increasing this value can reduce visible streaking artifacts on sloped surfaces, at the cost of increased light leaking.
+El sesgo normal que se utilizará para las sondas SDFGI. Aumentar este valor puede reducir los artefactos de rayado visibles en superficies inclinadas, a costa de una mayor fuga de luz.
 
 .. rst-class:: classref-item-separator
 
@@ -1602,7 +1602,7 @@ The normal bias to use for SDFGI probes. Increasing this value can reduce visibl
 - |void| **set_sdfgi_probe_bias**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sdfgi_probe_bias**\ (\ )
 
-The constant bias to use for SDFGI probes. Increasing this value can reduce visible streaking artifacts on sloped surfaces, at the cost of increased light leaking.
+El sesgo constante que se utilizará para las sondas SDFGI. Aumentar este valor puede reducir los artefactos de rayado visibles en superficies inclinadas, a costa de una mayor fuga de luz.
 
 .. rst-class:: classref-item-separator
 
@@ -1619,7 +1619,7 @@ The constant bias to use for SDFGI probes. Increasing this value can reduce visi
 - |void| **set_sdfgi_read_sky_light**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_sdfgi_reading_sky_light**\ (\ )
 
-If ``true``, SDFGI takes the environment lighting into account. This should be set to ``false`` for interior scenes.
+Si es ``true``, SDFGI tiene en cuenta la iluminación del entorno. Esto debería establecerse en ``false`` para escenas de interior.
 
 .. rst-class:: classref-item-separator
 
@@ -1636,7 +1636,7 @@ If ``true``, SDFGI takes the environment lighting into account. This should be s
 - |void| **set_sdfgi_use_occlusion**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_sdfgi_using_occlusion**\ (\ )
 
-If ``true``, SDFGI uses an occlusion detection approach to reduce light leaking. Occlusion may however introduce dark blotches in certain spots, which may be undesired in mostly outdoor scenes. :ref:`sdfgi_use_occlusion<class_Environment_property_sdfgi_use_occlusion>` has a performance impact and should only be enabled when needed.
+Si es ``true``, SDFGI utiliza un enfoque de detección de oclusión para reducir las fugas de luz. Sin embargo, la oclusión puede introducir manchas oscuras en ciertos puntos, lo que puede ser indeseable en escenas principalmente exteriores. :ref:`sdfgi_use_occlusion<class_Environment_property_sdfgi_use_occlusion>` tiene un impacto en el rendimiento y solo debe habilitarse cuando sea necesario.
 
 .. rst-class:: classref-item-separator
 
@@ -1653,7 +1653,7 @@ If ``true``, SDFGI uses an occlusion detection approach to reduce light leaking.
 - |void| **set_sdfgi_y_scale**\ (\ value\: :ref:`SDFGIYScale<enum_Environment_SDFGIYScale>`\ )
 - :ref:`SDFGIYScale<enum_Environment_SDFGIYScale>` **get_sdfgi_y_scale**\ (\ )
 
-The Y scale to use for SDFGI cells. Lower values will result in SDFGI cells being packed together more closely on the Y axis. This is used to balance between quality and covering a lot of vertical ground. :ref:`sdfgi_y_scale<class_Environment_property_sdfgi_y_scale>` should be set depending on how vertical your scene is (and how fast your camera may move on the Y axis).
+La escala Y a utilizar para las celdas SDFGI. Los valores más bajos harán que las celdas SDFGI se empaqueten más juntas en el eje Y. Esto se utiliza para equilibrar la calidad y la cobertura de una gran cantidad de terreno vertical. :ref:`sdfgi_y_scale<class_Environment_property_sdfgi_y_scale>` debe establecerse dependiendo de lo vertical que sea tu escena (y de lo rápido que tu cámara pueda moverse en el eje Y).
 
 .. rst-class:: classref-item-separator
 
@@ -1687,7 +1687,7 @@ El recurso :ref:`Sky<class_Sky>` utilizado para este **Environment**.
 - |void| **set_sky_custom_fov**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_sky_custom_fov**\ (\ )
 
-If set to a value greater than ``0.0``, overrides the field of view to use for sky rendering. If set to ``0.0``, the same FOV as the current :ref:`Camera3D<class_Camera3D>` is used for sky rendering.
+Si se establece en un valor mayor que ``0.0``, anula el campo de visión a utilizar para el renderizado del cielo. Si se establece en ``0.0``, se utiliza el mismo FOV que el :ref:`Camera3D<class_Camera3D>` actual para el renderizado del cielo.
 
 .. rst-class:: classref-item-separator
 
@@ -1738,7 +1738,7 @@ La intensidad de la oclusión ambiental del espacio de pantalla en los materiale
 - |void| **set_ssao_detail**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssao_detail**\ (\ )
 
-Sets the strength of the additional level of detail for the screen-space ambient occlusion effect. A high value makes the detail pass more prominent, but it may contribute to aliasing in your final image.
+Establece la fuerza del nivel de detalle adicional para el efecto de oclusión ambiental del espacio de la pantalla. Un valor alto hace que el pase de detalle sea más prominente, pero puede contribuir al aliasing en tu imagen final.
 
 .. rst-class:: classref-item-separator
 
@@ -1774,7 +1774,7 @@ If ``true``, the screen-space ambient occlusion effect is enabled. This darkens 
 - |void| **set_ssao_horizon**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssao_horizon**\ (\ )
 
-The threshold for considering whether a given point on a surface is occluded or not represented as an angle from the horizon mapped into the ``0.0-1.0`` range. A value of ``1.0`` results in no occlusion.
+El umbral para considerar si un punto dado en una superficie está ocluido o no, representado como un ángulo desde el horizonte mapeado en el rango ``0.0-1.0``. Un valor de ``1.0`` resulta en ninguna oclusión.
 
 .. rst-class:: classref-item-separator
 
@@ -1791,7 +1791,7 @@ The threshold for considering whether a given point on a surface is occluded or 
 - |void| **set_ssao_intensity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssao_intensity**\ (\ )
 
-The primary screen-space ambient occlusion intensity. Acts as a multiplier for the screen-space ambient occlusion effect. A higher value results in darker occlusion.
+La intensidad primaria de la oclusión ambiental en el espacio de la pantalla. Actúa como un multiplicador para el efecto de oclusión ambiental en el espacio de la pantalla. Un valor más alto resulta en una oclusión más oscura.
 
 .. rst-class:: classref-item-separator
 
@@ -1825,7 +1825,7 @@ La intensidad de la oclusión ambiental del espacio de la pantalla en luz direct
 - |void| **set_ssao_power**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssao_power**\ (\ )
 
-The distribution of occlusion. A higher value results in darker occlusion, similar to :ref:`ssao_intensity<class_Environment_property_ssao_intensity>`, but with a sharper falloff.
+La distribución de la oclusión. Un valor más alto resulta en una oclusión más oscura, similar a :ref:`ssao_intensity<class_Environment_property_ssao_intensity>`, pero con una caída más pronunciada.
 
 .. rst-class:: classref-item-separator
 
@@ -1842,7 +1842,7 @@ The distribution of occlusion. A higher value results in darker occlusion, simil
 - |void| **set_ssao_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssao_radius**\ (\ )
 
-The distance at which objects can occlude each other when calculating screen-space ambient occlusion. Higher values will result in occlusion over a greater distance at the cost of performance and quality.
+La distancia a la que los objetos pueden ocluirse entre sí al calcular la oclusión ambiental del espacio de la pantalla. Los valores más altos darán como resultado una oclusión en una distancia mayor, a costa del rendimiento y la calidad.
 
 .. rst-class:: classref-item-separator
 
@@ -1859,7 +1859,7 @@ The distance at which objects can occlude each other when calculating screen-spa
 - |void| **set_ssao_sharpness**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssao_sharpness**\ (\ )
 
-The amount that the screen-space ambient occlusion effect is allowed to blur over the edges of objects. Setting too high will result in aliasing around the edges of objects. Setting too low will make object edges appear blurry.
+La cantidad que se permite que el efecto de oclusión ambiental del espacio de la pantalla se difumine sobre los bordes de los objetos. Si se establece un valor demasiado alto, se producirá aliasing alrededor de los bordes de los objetos. Si se establece un valor demasiado bajo, los bordes de los objetos aparecerán borrosos.
 
 .. rst-class:: classref-item-separator
 
@@ -1876,9 +1876,9 @@ The amount that the screen-space ambient occlusion effect is allowed to blur ove
 - |void| **set_ssil_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_ssil_enabled**\ (\ )
 
-If ``true``, the screen-space indirect lighting effect is enabled. Screen space indirect lighting is a form of indirect lighting that allows diffuse light to bounce between nearby objects. Screen-space indirect lighting works very similarly to screen-space ambient occlusion, in that it only affects a limited range. It is intended to be used along with a form of proper global illumination like SDFGI or :ref:`VoxelGI<class_VoxelGI>`. Screen-space indirect lighting is not affected by individual light's :ref:`Light3D.light_indirect_energy<class_Light3D_property_light_indirect_energy>`.
+Si es ``true``, el efecto de iluminación indirecta en el espacio de la pantalla está activado. La iluminación indirecta en el espacio de la pantalla es una forma de iluminación indirecta que permite que la luz difusa rebote entre los objetos cercanos. La iluminación indirecta en el espacio de la pantalla funciona de forma muy similar a la oclusión ambiental en el espacio de la pantalla, ya que solo afecta a un rango limitado. Está pensada para ser utilizada junto con una forma de iluminación global adecuada como SDFGI o :ref:`VoxelGI<class_VoxelGI>`. La iluminación indirecta del espacio de la pantalla no se ve afectada por la :ref:`Light3D.light_indirect_energy<class_Light3D_property_light_indirect_energy>` de la luz individual.
 
-\ **Note:** SSIL is only supported in the Forward+ rendering method, not Mobile or Compatibility.
+\ **Nota:** SSIL solo se soporta en el método de renderizado Forward+, no en Mobile o Compatibility.
 
 .. rst-class:: classref-item-separator
 
@@ -1895,7 +1895,7 @@ If ``true``, the screen-space indirect lighting effect is enabled. Screen space 
 - |void| **set_ssil_intensity**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssil_intensity**\ (\ )
 
-The brightness multiplier for the screen-space indirect lighting effect. A higher value will result in brighter light.
+El multiplicador de brillo para el efecto de iluminación indirecta en el espacio de la pantalla. Un valor más alto resultará en una luz más brillante.
 
 .. rst-class:: classref-item-separator
 
@@ -1912,7 +1912,7 @@ The brightness multiplier for the screen-space indirect lighting effect. A highe
 - |void| **set_ssil_normal_rejection**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssil_normal_rejection**\ (\ )
 
-Amount of normal rejection used when calculating screen-space indirect lighting. Normal rejection uses the normal of a given sample point to reject samples that are facing away from the current pixel. Normal rejection is necessary to avoid light leaking when only one side of an object is illuminated. However, normal rejection can be disabled if light leaking is desirable, such as when the scene mostly contains emissive objects that emit light from faces that cannot be seen from the camera.
+Cantidad de rechazo normal utilizada al calcular la iluminación indirecta en el espacio de la pantalla. El rechazo normal utiliza la normal de un punto de muestra dado para rechazar las muestras que están orientadas en dirección opuesta al píxel actual. El rechazo normal es necesario para evitar fugas de luz cuando solo se ilumina un lado de un objeto. Sin embargo, el rechazo normal se puede desactivar si se desea la fuga de luz, como cuando la escena contiene principalmente objetos emisores que emiten luz desde caras que no se pueden ver desde la cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -1929,7 +1929,7 @@ Amount of normal rejection used when calculating screen-space indirect lighting.
 - |void| **set_ssil_radius**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssil_radius**\ (\ )
 
-The distance that bounced lighting can travel when using the screen space indirect lighting effect. A larger value will result in light bouncing further in a scene, but may result in under-sampling artifacts which look like long spikes surrounding light sources.
+La distancia que puede viajar la iluminación rebotada cuando se utiliza el efecto de iluminación indirecta del espacio de la pantalla. Un valor mayor hará que la luz rebote más lejos en una escena, pero puede resultar en artefactos de submuestreo que parecen picos largos que rodean las fuentes de luz.
 
 .. rst-class:: classref-item-separator
 
@@ -1946,7 +1946,7 @@ The distance that bounced lighting can travel when using the screen space indire
 - |void| **set_ssil_sharpness**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssil_sharpness**\ (\ )
 
-The amount that the screen-space indirect lighting effect is allowed to blur over the edges of objects. Setting too high will result in aliasing around the edges of objects. Setting too low will make object edges appear blurry.
+La cantidad que se permite que el efecto de iluminación indirecta del espacio de la pantalla se difumine sobre los bordes de los objetos. Si se establece un valor demasiado alto, se producirá aliasing alrededor de los bordes de los objetos. Si se establece un valor demasiado bajo, los bordes de los objetos aparecerán borrosos.
 
 .. rst-class:: classref-item-separator
 
@@ -1984,6 +1984,8 @@ If ``true``, screen-space reflections are enabled. Screen-space reflections are 
 
 \ **Note:** SSR is only supported in the Forward+ rendering method, not Mobile or Compatibility.
 
+\ **Note:** SSR is not supported on viewports that have a transparent background (where :ref:`Viewport.transparent_bg<class_Viewport_property_transparent_bg>` is ``true``).
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -2016,7 +2018,7 @@ The fade-in distance for screen-space reflections. Affects the area from the ref
 - |void| **set_ssr_fade_out**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_ssr_fade_out**\ (\ )
 
-The fade-out distance for screen-space reflections. Affects the area from the screen-space reflection to the "global" reflection. Only positive values are valid (negative values will be clamped to ``0.0``).
+La distancia de atenuación para los reflejos del espacio de la pantalla. Afecta al área desde el reflejo del espacio de la pantalla hasta el reflejo "global". Solo son válidos los valores positivos (los valores negativos se limitarán a ``0.0``).
 
 .. rst-class:: classref-item-separator
 
@@ -2050,9 +2052,9 @@ El número máximo de pasos para los reflejos en el espacio de la pantalla. Los 
 - |void| **set_tonemap_exposure**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_tonemap_exposure**\ (\ )
 
-Adjusts the brightness of values before they are provided to the tonemapper. Higher :ref:`tonemap_exposure<class_Environment_property_tonemap_exposure>` values result in a brighter image. See also :ref:`tonemap_white<class_Environment_property_tonemap_white>`.
+Ajusta el brillo de los valores antes de que se proporcionen al mapeador de tonos.Los valores más altos de :ref:`tonemap_exposure<class_Environment_property_tonemap_exposure>` dan como resultado una imagen más brillante. Véase también :ref:`tonemap_white<class_Environment_property_tonemap_white>`.
 
-\ **Note:** Values provided to the tonemapper will also be multiplied by ``2.0`` and ``1.8`` for :ref:`TONE_MAPPER_FILMIC<class_Environment_constant_TONE_MAPPER_FILMIC>` and :ref:`TONE_MAPPER_ACES<class_Environment_constant_TONE_MAPPER_ACES>` respectively to produce a similar apparent brightness as :ref:`TONE_MAPPER_LINEAR<class_Environment_constant_TONE_MAPPER_LINEAR>`.
+\ **Nota:** Los valores proporcionados al mapeador de tonos también se multiplicarán por ``2.0`` y ``1.8`` para :ref:`TONE_MAPPER_FILMIC<class_Environment_constant_TONE_MAPPER_FILMIC>` y :ref:`TONE_MAPPER_ACES<class_Environment_constant_TONE_MAPPER_ACES>` respectivamente para producir un brillo aparente similar al de :ref:`TONE_MAPPER_LINEAR<class_Environment_constant_TONE_MAPPER_LINEAR>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2069,7 +2071,7 @@ Adjusts the brightness of values before they are provided to the tonemapper. Hig
 - |void| **set_tonemapper**\ (\ value\: :ref:`ToneMapper<enum_Environment_ToneMapper>`\ )
 - :ref:`ToneMapper<enum_Environment_ToneMapper>` **get_tonemapper**\ (\ )
 
-The tonemapping mode to use. Tonemapping is the process that "converts" HDR values to be suitable for rendering on an LDR display. (Godot doesn't support rendering on HDR displays yet.)
+El modo de mapeo de tonos a utilizar. El mapeo de tonos es el proceso que "convierte" los valores HDR para que sean adecuados para su representación en una pantalla LDR (Godot todavía no soporta el renderizado en pantallas HDR).
 
 .. rst-class:: classref-item-separator
 
@@ -2105,7 +2107,7 @@ The white reference value for tonemapping, which indicates where bright white is
 - |void| **set_volumetric_fog_albedo**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_volumetric_fog_albedo**\ (\ )
 
-The :ref:`Color<class_Color>` of the volumetric fog when interacting with lights. Mist and fog have an albedo close to ``Color(1, 1, 1, 1)`` while smoke has a darker albedo.
+El :ref:`Color<class_Color>` de la niebla volumétrica cuando interactúa con las luces. La niebla y la neblina tienen un albedo cercano a ``Color(1, 1, 1, 1)`` mientras que el humo tiene un albedo más oscuro.
 
 .. rst-class:: classref-item-separator
 
@@ -2122,9 +2124,9 @@ The :ref:`Color<class_Color>` of the volumetric fog when interacting with lights
 - |void| **set_volumetric_fog_ambient_inject**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_ambient_inject**\ (\ )
 
-Scales the strength of ambient light used in the volumetric fog. A value of ``0.0`` means that ambient light will not impact the volumetric fog. :ref:`volumetric_fog_ambient_inject<class_Environment_property_volumetric_fog_ambient_inject>` has a small performance cost when set above ``0.0``.
+Escala la fuerza de la luz ambiental utilizada en la niebla volumétrica. Un valor de ``0.0`` significa que la luz ambiental no afectará a la niebla volumétrica. :ref:`volumetric_fog_ambient_inject<class_Environment_property_volumetric_fog_ambient_inject>` tiene un pequeño coste de rendimiento cuando se establece por encima de ``0.0``.
 
-\ **Note:** This has no visible effect if :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` is ``0.0`` or if :ref:`volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>` is a fully black color.
+\ **Nota:** Esto no tiene ningún efecto visible si :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` es ``0.0`` o si :ref:`volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>` es un color completamente negro.
 
 .. rst-class:: classref-item-separator
 
@@ -2141,7 +2143,7 @@ Scales the strength of ambient light used in the volumetric fog. A value of ``0.
 - |void| **set_volumetric_fog_anisotropy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_anisotropy**\ (\ )
 
-The direction of scattered light as it goes through the volumetric fog. A value close to ``1.0`` means almost all light is scattered forward. A value close to ``0.0`` means light is scattered equally in all directions. A value close to ``-1.0`` means light is scattered mostly backward. Fog and mist scatter light slightly forward, while smoke scatters light equally in all directions.
+La dirección de la luz dispersa a medida que atraviesa la niebla volumétrica. Un valor cercano a ``1.0`` significa que casi toda la luz se dispersa hacia adelante. Un valor cercano a ``0.0`` significa que la luz se dispersa por igual en todas las direcciones. Un valor cercano a ``-1.0`` significa que la luz se dispersa principalmente hacia atrás. La niebla y la bruma dispersan la luz ligeramente hacia adelante, mientras que el humo dispersa la luz por igual en todas las direcciones.
 
 .. rst-class:: classref-item-separator
 
@@ -2179,7 +2181,7 @@ To make volumetric fog work as a volumetric *lighting* solution, set :ref:`volum
 - |void| **set_volumetric_fog_detail_spread**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_detail_spread**\ (\ )
 
-The distribution of size down the length of the froxel buffer. A higher value compresses the froxels closer to the camera and places more detail closer to the camera.
+La distribución del tamaño a lo largo del búfer de fróxeles. Un valor más alto comprime los fróxeles más cerca de la cámara y coloca más detalles más cerca de la cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -2196,7 +2198,7 @@ The distribution of size down the length of the froxel buffer. A higher value co
 - |void| **set_volumetric_fog_emission**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_volumetric_fog_emission**\ (\ )
 
-The emitted light from the volumetric fog. Even with emission, volumetric fog will not cast light onto other surfaces. Emission is useful to establish an ambient color. As the volumetric fog effect uses single-scattering only, fog tends to need a little bit of emission to soften the harsh shadows.
+La luz emitida por la niebla volumétrica. Incluso con la emisión, la niebla volumétrica no proyectará luz sobre otras superficies. La emisión es útil para establecer un color ambiental. Como el efecto de niebla volumétrica utiliza sólo la dispersión simple, la niebla tiende a necesitar un poco de emisión para suavizar las sombras duras.
 
 .. rst-class:: classref-item-separator
 
@@ -2213,7 +2215,7 @@ The emitted light from the volumetric fog. Even with emission, volumetric fog wi
 - |void| **set_volumetric_fog_emission_energy**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_emission_energy**\ (\ )
 
-The brightness of the emitted light from the volumetric fog.
+El brillo de la luz emitida por la niebla volumétrica.
 
 .. rst-class:: classref-item-separator
 
@@ -2230,9 +2232,9 @@ The brightness of the emitted light from the volumetric fog.
 - |void| **set_volumetric_fog_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_volumetric_fog_enabled**\ (\ )
 
-Enables the volumetric fog effect. Volumetric fog uses a screen-aligned froxel buffer to calculate accurate volumetric scattering in the short to medium range. Volumetric fog interacts with :ref:`FogVolume<class_FogVolume>`\ s and lights to calculate localized and global fog. Volumetric fog uses a PBR single-scattering model based on extinction, scattering, and emission which it exposes to users as density, albedo, and emission.
+Activa el efecto de niebla volumétrica. La niebla volumétrica utiliza un búfer de fróxeles alineado con la pantalla para calcular la dispersión volumétrica precisa en el rango corto a medio. La niebla volumétrica interactúa con los :ref:`FogVolume<class_FogVolume>`\ s y las luces para calcular la niebla localizada y global. La niebla volumétrica utiliza un modelo de dispersión única PBR basado en la extinción, la dispersión y la emisión, que expone a los usuarios como densidad, albedo y emisión.
 
-\ **Note:** Volumetric fog is only supported in the Forward+ rendering method, not Mobile or Compatibility.
+\ **Nota:** La niebla volumétrica solo es compatible con el método de renderizado Forward+, no con Mobile o Compatibility.
 
 .. rst-class:: classref-item-separator
 
@@ -2249,11 +2251,11 @@ Enables the volumetric fog effect. Volumetric fog uses a screen-aligned froxel b
 - |void| **set_volumetric_fog_gi_inject**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_gi_inject**\ (\ )
 
-Scales the strength of Global Illumination used in the volumetric fog's albedo color. A value of ``0.0`` means that Global Illumination will not impact the volumetric fog. :ref:`volumetric_fog_gi_inject<class_Environment_property_volumetric_fog_gi_inject>` has a small performance cost when set above ``0.0``.
+Escala la fuerza de la Iluminación Global utilizada en el color albedo de la niebla volumétrica. Un valor de ``0.0`` significa que la Iluminación Global no afectará a la niebla volumétrica. :ref:`volumetric_fog_gi_inject<class_Environment_property_volumetric_fog_gi_inject>` tiene un pequeño coste de rendimiento cuando se establece por encima de ``0.0``.
 
-\ **Note:** This has no visible effect if :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` is ``0.0`` or if :ref:`volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>` is a fully black color.
+\ **Nota:** Esto no tiene ningún efecto visible si :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` es ``0.0`` o si :ref:`volumetric_fog_albedo<class_Environment_property_volumetric_fog_albedo>` es un color completamente negro.
 
-\ **Note:** Only :ref:`VoxelGI<class_VoxelGI>` and SDFGI (:ref:`sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) are taken into account when using :ref:`volumetric_fog_gi_inject<class_Environment_property_volumetric_fog_gi_inject>`. Global illumination from :ref:`LightmapGI<class_LightmapGI>`, :ref:`ReflectionProbe<class_ReflectionProbe>` and SSIL (see :ref:`ssil_enabled<class_Environment_property_ssil_enabled>`) will be ignored by volumetric fog.
+\ **Nota:** Solo :ref:`VoxelGI<class_VoxelGI>` y SDFGI (:ref:`sdfgi_enabled<class_Environment_property_sdfgi_enabled>`) se tienen en cuenta al usar :ref:`volumetric_fog_gi_inject<class_Environment_property_volumetric_fog_gi_inject>`. La iluminación global de :ref:`LightmapGI<class_LightmapGI>`, :ref:`ReflectionProbe<class_ReflectionProbe>` y SSIL (ver :ref:`ssil_enabled<class_Environment_property_ssil_enabled>`) será ignorada por la niebla volumétrica.
 
 .. rst-class:: classref-item-separator
 
@@ -2270,7 +2272,7 @@ Scales the strength of Global Illumination used in the volumetric fog's albedo c
 - |void| **set_volumetric_fog_length**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_length**\ (\ )
 
-The distance over which the volumetric fog is computed. Increase to compute fog over a greater range, decrease to add more detail when a long range is not needed. For best quality fog, keep this as low as possible. See also :ref:`ProjectSettings.rendering/environment/volumetric_fog/volume_depth<class_ProjectSettings_property_rendering/environment/volumetric_fog/volume_depth>`.
+La distancia sobre la que se calcula la niebla volumétrica. Aumenta para calcular la niebla en un rango mayor, disminuye para añadir más detalle cuando no se necesita un rango largo. Para obtener la mejor calidad de niebla, mantenlo lo más bajo posible. Véase también :ref:`ProjectSettings.rendering/environment/volumetric_fog/volume_depth<class_ProjectSettings_property_rendering/environment/volumetric_fog/volume_depth>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2287,9 +2289,9 @@ The distance over which the volumetric fog is computed. Increase to compute fog 
 - |void| **set_volumetric_fog_sky_affect**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_volumetric_fog_sky_affect**\ (\ )
 
-The factor to use when affecting the sky with volumetric fog. ``1.0`` means that volumetric fog can fully obscure the sky. Lower values reduce the impact of volumetric fog on sky rendering, with ``0.0`` not affecting sky rendering at all.
+El factor a utilizar al afectar el cielo con la niebla volumétrica. ``1.0`` significa que la niebla volumétrica puede oscurecer completamente el cielo. Los valores más bajos reducen el impacto de la niebla volumétrica en el renderizado del cielo, y ``0.0`` no afecta en absoluto al renderizado del cielo.
 
-\ **Note:** :ref:`volumetric_fog_sky_affect<class_Environment_property_volumetric_fog_sky_affect>` also affects :ref:`FogVolume<class_FogVolume>`\ s, even if :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` is ``0.0``. If you notice :ref:`FogVolume<class_FogVolume>`\ s are disappearing when looking towards the sky, set :ref:`volumetric_fog_sky_affect<class_Environment_property_volumetric_fog_sky_affect>` to ``1.0``.
+\ **Nota:** :ref:`volumetric_fog_sky_affect<class_Environment_property_volumetric_fog_sky_affect>` también afecta a los :ref:`FogVolume<class_FogVolume>`\ s, incluso si :ref:`volumetric_fog_density<class_Environment_property_volumetric_fog_density>` es ``0.0``. Si notas que los :ref:`FogVolume<class_FogVolume>`\ s desaparecen al mirar hacia el cielo, establece :ref:`volumetric_fog_sky_affect<class_Environment_property_volumetric_fog_sky_affect>` a ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -2352,7 +2354,7 @@ Devuelve la intensidad del nivel de brillo ``idx``.
 
 |void| **set_glow_level**\ (\ idx\: :ref:`int<class_int>`, intensity\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Environment_method_set_glow_level>`
 
-Sets the intensity of the glow level ``idx``. A value above ``0.0`` enables the level. Each level relies on the previous level. This means that enabling higher glow levels will slow down the glow effect rendering, even if previous levels aren't enabled.
+Establece la intensidad del nivel de brillo ``idx``. Un valor superior a ``0.0`` activa el nivel. Cada nivel se basa en el nivel anterior. Esto significa que habilitar niveles de brillo más altos ralentizará el procesamiento del efecto de brillo, incluso si los niveles anteriores no están habilitados.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

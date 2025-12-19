@@ -962,7 +962,7 @@ Reemplaza la velocidad interna en la simulación de evitación de colisiones con
 
 |void| **bake_from_source_geometry_data**\ (\ navigation_mesh\: :ref:`NavigationMesh<class_NavigationMesh>`, source_geometry_data\: :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`, callback\: :ref:`Callable<class_Callable>` = Callable()\ ) :ref:`🔗<class_NavigationServer3D_method_bake_from_source_geometry_data>`
 
-Bakes the provided ``navigation_mesh`` with the data from the provided ``source_geometry_data``. After the process is finished the optional ``callback`` will be called.
+Procesa la ``navigation_mesh`` proporcionada con los datos del ``source_geometry_data`` proporcionado. Una vez que finalice el proceso, se llamará al ``callback`` opcional.
 
 .. rst-class:: classref-item-separator
 
@@ -974,7 +974,7 @@ Bakes the provided ``navigation_mesh`` with the data from the provided ``source_
 
 |void| **bake_from_source_geometry_data_async**\ (\ navigation_mesh\: :ref:`NavigationMesh<class_NavigationMesh>`, source_geometry_data\: :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>`, callback\: :ref:`Callable<class_Callable>` = Callable()\ ) :ref:`🔗<class_NavigationServer3D_method_bake_from_source_geometry_data_async>`
 
-Hornea la ``navigation_mesh`` proporcionada con los datos de la ``source_geometry_data`` proporcionada como una tarea asíncrona que se ejecuta en un hilo en segundo plano. Una vez finalizado el proceso, se llamará a la ``callback`` opcional.
+Procesa la ``navigation_mesh`` proporcionada con los datos de la ``source_geometry_data`` proporcionada como una tarea asíncrona que se ejecuta en un hilo en segundo plano. Una vez finalizado el proceso, se llamará a la ``callback`` opcional.
 
 .. rst-class:: classref-item-separator
 
@@ -1034,7 +1034,7 @@ Devuelve información sobre el estado actual del NavigationServer.
 
 :ref:`bool<class_bool>` **is_baking_navigation_mesh**\ (\ navigation_mesh\: :ref:`NavigationMesh<class_NavigationMesh>`\ ) |const| :ref:`🔗<class_NavigationServer3D_method_is_baking_navigation_mesh>`
 
-Devuelve ``true`` cuando la malla de navegación proporcionada se está horneando en un hilo en segundo plano.
+Devuelve ``true`` cuando la malla de navegación proporcionada se está procesando en un hilo en segundo plano.
 
 .. rst-class:: classref-item-separator
 
@@ -1958,7 +1958,7 @@ Consulta una ruta en un mapa de navegación dado. La posición de inicio y de de
 
 **Obsoleto:** This method is deprecated due to core threading changes. To upgrade existing code, first create a :ref:`NavigationMeshSourceGeometryData3D<class_NavigationMeshSourceGeometryData3D>` resource. Use this resource with :ref:`parse_source_geometry_data()<class_NavigationServer3D_method_parse_source_geometry_data>` to parse the :ref:`SceneTree<class_SceneTree>` for nodes that should contribute to the navigation mesh baking. The :ref:`SceneTree<class_SceneTree>` parsing needs to happen on the main thread. After the parsing is finished use the resource with :ref:`bake_from_source_geometry_data()<class_NavigationServer3D_method_bake_from_source_geometry_data>` to bake a navigation mesh.
 
-Hornea la ``navigation_mesh`` con la geometría de origen de procesado recogida a partir del ``root_node``.
+Procesa la ``navigation_mesh`` con la geometría de origen de procesado recogida a partir del ``root_node``.
 
 .. rst-class:: classref-item-separator
 

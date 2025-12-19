@@ -376,7 +376,7 @@ Devuelve un array con todas las señales de ``class`` o su ascendencia si ``no_i
 
 :ref:`bool<class_bool>` **class_has_enum**\ (\ class\: :ref:`StringName<class_StringName>`, name\: :ref:`StringName<class_StringName>`, no_inheritance\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_ClassDB_method_class_has_enum>`
 
-Devuelve si ``class`` o su ascendencia tiene una enumeración llamada ``name`` o no.
+Devuelve si ``class`` o su ascendencia tiene un enum llamado ``name`` o no.
 
 .. rst-class:: classref-item-separator
 

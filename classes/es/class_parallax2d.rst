@@ -162,7 +162,7 @@ Bottom-right limits for scrolling to end. If the camera is outside of this limit
 - |void| **set_repeat_size**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_repeat_size**\ (\ )
 
-Repeats the :ref:`Texture2D<class_Texture2D>` of each of this node's children and offsets them by this value. When scrolling, the node's position loops, giving the illusion of an infinite scrolling background if the values are larger than the screen size. If an axis is set to ``0``, the :ref:`Texture2D<class_Texture2D>` will not be repeated.
+Repite la :ref:`Texture2D<class_Texture2D>` de cada uno de los hijos de este nodo y los desplaza según este valor. Al desplazarse, la posición del nodo se repite, dando la ilusión de un fondo de desplazamiento infinito si los valores son mayores que el tamaño de la pantalla. Si un eje se establece en ``0``, la :ref:`Texture2D<class_Texture2D>` no se repetirá.
 
 .. rst-class:: classref-item-separator
 
@@ -179,7 +179,7 @@ Repeats the :ref:`Texture2D<class_Texture2D>` of each of this node's children an
 - |void| **set_repeat_times**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_repeat_times**\ (\ )
 
-Overrides the amount of times the texture repeats. Each texture copy spreads evenly from the original by :ref:`repeat_size<class_Parallax2D_property_repeat_size>`. Useful for when zooming out with a camera.
+Anula la cantidad de veces que se repite la textura. Cada copia de textura se extiende uniformemente desde el original por :ref:`repeat_size<class_Parallax2D_property_repeat_size>`. Útil para cuando se aleja con una cámara.
 
 .. rst-class:: classref-item-separator
 
@@ -196,7 +196,7 @@ Overrides the amount of times the texture repeats. Each texture copy spreads eve
 - |void| **set_screen_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_screen_offset**\ (\ )
 
-Offset used to scroll this **Parallax2D**. This value is updated automatically unless :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>` is ``true``.
+Desplazamiento utilizado para desplazar este **Parallax2D**. Este valor se actualiza automáticamente a menos que :ref:`ignore_camera_scroll<class_Parallax2D_property_ignore_camera_scroll>` sea ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -213,9 +213,9 @@ Offset used to scroll this **Parallax2D**. This value is updated automatically u
 - |void| **set_scroll_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scroll_offset**\ (\ )
 
-The **Parallax2D**'s offset. Similar to :ref:`screen_offset<class_Parallax2D_property_screen_offset>` and :ref:`Node2D.position<class_Node2D_property_position>`, but will not be overridden.
+El desplazamiento de **Parallax2D**. Similar a :ref:`screen_offset<class_Parallax2D_property_screen_offset>` y :ref:`Node2D.position<class_Node2D_property_position>`, pero no se sobrescribirá.
 
-\ **Note:** Values will loop if :ref:`repeat_size<class_Parallax2D_property_repeat_size>` is set higher than ``0``.
+\ **Nota:** Los valores se repetirán si :ref:`repeat_size<class_Parallax2D_property_repeat_size>` se establece por encima de ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -232,9 +232,9 @@ The **Parallax2D**'s offset. Similar to :ref:`screen_offset<class_Parallax2D_pro
 - |void| **set_scroll_scale**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_scroll_scale**\ (\ )
 
-Multiplier to the final **Parallax2D**'s offset. Can be used to simulate distance from the camera.
+Multiplicador del desplazamiento final de **Parallax2D**. Se puede utilizar para simular la distancia desde la cámara.
 
-For example, a value of ``1`` scrolls at the same speed as the camera. A value greater than ``1`` scrolls faster, making objects appear closer. Less than ``1`` scrolls slower, making objects appear further, and a value of ``0`` stops the objects completely.
+Por ejemplo, un valor de ``1`` se desplaza a la misma velocidad que la cámara. Un valor mayor que ``1`` se desplaza más rápido, haciendo que los objetos parezcan más cercanos. Menos de ``1`` se desplaza más lento, haciendo que los objetos parezcan más lejanos, y un valor de ``0`` detiene los objetos por completo.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`
