@@ -485,7 +485,7 @@ enum **AlphaCutMode**: :ref:`🔗<enum_Label3D_AlphaCutMode>`
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Код языка, используемый для алгоритмов переноса строк и формирования текста. Если оставить его пустым, вместо него будет использоваться текущая локаль (место действия).
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

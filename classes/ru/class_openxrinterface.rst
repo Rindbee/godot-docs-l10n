@@ -325,7 +325,7 @@ OpenXR готов начать наш сеанс. Сигнал :ref:`session_beg
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_EXITING** = ``8``
 
-Экземпляр OpenXR скоро будет уничтожен, а мы существуем. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` испускается, когда мы переходим в это состояние.
+The OpenXR instance is about to be destroyed and we're exiting. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` is emitted when we change to this state.
 
 .. rst-class:: classref-item-separator
 
@@ -876,9 +876,9 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 - |void| **set_foveation_dynamic**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_foveation_dynamic**\ (\ )
 
-Включить динамическую регулировку фовеации. Для доступа к интерфейсу необходимо инициализировать его. При включении фовеация будет автоматически регулироваться в диапазоне от низкого до :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
+If ``true``, enables dynamic foveation adjustment. The interface must be initialized before this is accessible. If enabled, foveation will automatically be adjusted between low and :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
 
-\ **Примечание:** Работает только в режиме рендеринга совместимости.
+\ **Note:** Only works on the Compatibility renderer.
 
 .. rst-class:: classref-item-separator
 
@@ -895,9 +895,9 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 - |void| **set_foveation_level**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_foveation_level**\ (\ )
 
-Установите уровень фовеации от 0 (выкл.) до 3 (высокий). Перед этим необходимо инициализировать интерфейс.
+The foveation level, from ``0`` (off) to ``3`` (high). The interface must be initialized before this is accessible.
 
-\ **Примечание:** Работает только при использовании рендера совместимости.
+\ **Note:** Only works on the Compatibility renderer.
 
 .. rst-class:: classref-item-separator
 
@@ -981,7 +981,7 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 
 :ref:`Array<class_Array>` **get_available_display_refresh_rates**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_get_available_display_refresh_rates>`
 
-Возвращает частоты обновления дисплея, поддерживаемые текущим HMD. Возвращается только в том случае, если эта функция поддерживается средой выполнения OpenXR и после инициализации интерфейса.
+Returns a list of display refresh rates supported by the current HMD. Only returned if this feature is supported by the OpenXR runtime and after the interface has been initialized.
 
 .. rst-class:: classref-item-separator
 
@@ -1141,9 +1141,9 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 
 :ref:`bool<class_bool>` **is_foveation_supported**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_is_foveation_supported>`
 
-Возвращает ``true``, если поддерживается расширение фовеации OpenXR. Перед возвратом допустимого значения интерфейс должен быть инициализирован.
+Returns ``true`` if OpenXR's foveation extension is supported. The interface must be initialized before this returns a valid value.
 
-\ **Примечание:** Эта функция доступна только в модуле визуализации совместимости и в настоящее время доступна только на некоторых автономных гарнитурах. Для Vulkan установите :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` в значение ``VRS_XR`` на десктопе.
+\ **Note:** When using the Vulkan rendering driver, :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` must be set to :ref:`Viewport.VRS_XR<class_Viewport_constant_VRS_XR>` to support foveation.
 
 .. rst-class:: classref-item-separator
 

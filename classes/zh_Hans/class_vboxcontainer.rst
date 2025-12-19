@@ -7,7 +7,7 @@ VBoxContainer
 
 **继承：** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**派生：** :ref:`ColorPicker<class_ColorPicker>`, :ref:`FileSystemDock<class_FileSystemDock>`, :ref:`ScriptEditorBase<class_ScriptEditorBase>`
+**派生：** :ref:`ColorPicker<class_ColorPicker>`, :ref:`ScriptEditorBase<class_ScriptEditorBase>`
 
 将子控件纵向排列的容器。
 

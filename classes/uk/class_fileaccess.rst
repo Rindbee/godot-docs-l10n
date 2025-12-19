@@ -111,7 +111,7 @@ FileAccess
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                                         | :ref:`get_access_time<class_FileAccess_method_get_access_time>`\ (\ file\: :ref:`String<class_String>`\ ) |static|                                                                                                                                                                                      |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`String<class_String>`                                                   | :ref:`get_as_text<class_FileAccess_method_get_as_text>`\ (\ skip_cr\: :ref:`bool<class_bool>` = false\ ) |const|                                                                                                                                                                                        |
+   | :ref:`String<class_String>`                                                   | :ref:`get_as_text<class_FileAccess_method_get_as_text>`\ (\ ) |const|                                                                                                                                                                                                                                   |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>`                                 | :ref:`get_buffer<class_FileAccess_method_get_buffer>`\ (\ length\: :ref:`int<class_int>`\ ) |const|                                                                                                                                                                                                     |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -120,6 +120,12 @@ FileAccess
    | :ref:`float<class_float>`                                                     | :ref:`get_double<class_FileAccess_method_get_double>`\ (\ ) |const|                                                                                                                                                                                                                                     |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`                                         | :ref:`get_error<class_FileAccess_method_get_error>`\ (\ ) |const|                                                                                                                                                                                                                                       |
+   +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedByteArray<class_PackedByteArray>`                                 | :ref:`get_extended_attribute<class_FileAccess_method_get_extended_attribute>`\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`\ ) |static|                                                                                                                          |
+   +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`                                                   | :ref:`get_extended_attribute_string<class_FileAccess_method_get_extended_attribute_string>`\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`\ ) |static|                                                                                                            |
+   +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedStringArray<class_PackedStringArray>`                             | :ref:`get_extended_attributes_list<class_FileAccess_method_get_extended_attributes_list>`\ (\ file\: :ref:`String<class_String>`\ ) |static|                                                                                                                                                            |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>`                                 | :ref:`get_file_as_bytes<class_FileAccess_method_get_file_as_bytes>`\ (\ path\: :ref:`String<class_String>`\ ) |static|                                                                                                                                                                                  |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -171,11 +177,17 @@ FileAccess
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`FileAccess<class_FileAccess>`                                           | :ref:`open_encrypted_with_pass<class_FileAccess_method_open_encrypted_with_pass>`\ (\ path\: :ref:`String<class_String>`, mode_flags\: :ref:`ModeFlags<enum_FileAccess_ModeFlags>`, pass\: :ref:`String<class_String>`\ ) |static|                                                                      |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`                                         | :ref:`remove_extended_attribute<class_FileAccess_method_remove_extended_attribute>`\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`\ ) |static|                                                                                                                    |
+   +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`                                         | :ref:`resize<class_FileAccess_method_resize>`\ (\ length\: :ref:`int<class_int>`\ )                                                                                                                                                                                                                     |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                        | :ref:`seek<class_FileAccess_method_seek>`\ (\ position\: :ref:`int<class_int>`\ )                                                                                                                                                                                                                       |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                        | :ref:`seek_end<class_FileAccess_method_seek_end>`\ (\ position\: :ref:`int<class_int>` = 0\ )                                                                                                                                                                                                           |
+   +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`                                         | :ref:`set_extended_attribute<class_FileAccess_method_set_extended_attribute>`\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`, data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) |static|                                                                    |
+   +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`                                         | :ref:`set_extended_attribute_string<class_FileAccess_method_set_extended_attribute_string>`\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`, data\: :ref:`String<class_String>`\ ) |static|                                                                        |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`                                         | :ref:`set_hidden_attribute<class_FileAccess_method_set_hidden_attribute>`\ (\ file\: :ref:`String<class_String>`, hidden\: :ref:`bool<class_bool>`\ ) |static|                                                                                                                                          |
    +-------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -241,9 +253,9 @@ enum **ModeFlags**: :ref:`🔗<enum_FileAccess_ModeFlags>`
 
 :ref:`ModeFlags<enum_FileAccess_ModeFlags>` **WRITE** = ``2``
 
-Відкриває файл для запису операцій. Файл створений, якщо він не існує, і обрізається, якщо це робить.
+Opens the file for write operations. If the file exists, it is truncated to zero length and its contents are cleared. Otherwise, it is created.
 
-\ **Примітка:** При створенні файлу він повинен бути в вже існуючому каталозі. Щоб рекурсивно створити каталоги для шляху до файлу, див. :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
+\ **Note:** When creating a file it must be in an already existing directory. To recursively create directories for a file path, see :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
 
 .. _class_FileAccess_constant_READ_WRITE:
 
@@ -259,9 +271,9 @@ enum **ModeFlags**: :ref:`🔗<enum_FileAccess_ModeFlags>`
 
 :ref:`ModeFlags<enum_FileAccess_ModeFlags>` **WRITE_READ** = ``7``
 
-Відкриває файл для операцій читання та запису. Файл створюється, якщо він не існує, і скорочується, якщо існує. Курсор файлу розташовується на початку файлу.
+Opens the file for read and write operations. If the file exists, it is truncated to zero length and its contents are cleared. Otherwise, it is created. The file cursor is positioned at the beginning of the file.
 
-\ **Примітка:** Під час створення файлу він має бути у вже існуючому каталозі. Щоб рекурсивно створити каталоги для шляху до файлу, див. :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
+\ **Note:** When creating a file it must be in an already existing directory. To recursively create directories for a file path, see :ref:`DirAccess.make_dir_recursive()<class_DirAccess_method_make_dir_recursive>`.
 
 .. rst-class:: classref-item-separator
 
@@ -611,11 +623,9 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 .. rst-class:: classref-method
 
-:ref:`String<class_String>` **get_as_text**\ (\ skip_cr\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_FileAccess_method_get_as_text>`
+:ref:`String<class_String>` **get_as_text**\ (\ ) |const| :ref:`🔗<class_FileAccess_method_get_as_text>`
 
-Повертає весь файл як :ref:`String<class_String>`. Текст інтерпретується як закодований UTF-8. Це ігнорує курсор файлу та не впливає на нього.
-
-Якщо ``skip_cr`` має значення ``true``, символи повернення каретки (``\r``, CR) будуть ігноруватися під час розбору UTF-8, тому лише символи переведення рядка (``\n``, LF) представлятимуть новий рядок (конвенція Unix).
+Returns the whole file as a :ref:`String<class_String>`. Text is interpreted as being UTF-8 encoded. This ignores the file cursor and does not affect it.
 
 .. rst-class:: classref-item-separator
 
@@ -681,6 +691,66 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 ----
 
+.. _class_FileAccess_method_get_extended_attribute:
+
+.. rst-class:: classref-method
+
+:ref:`PackedByteArray<class_PackedByteArray>` **get_extended_attribute**\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_extended_attribute>`
+
+Reads the file extended attribute with name ``attribute_name`` as a byte array.
+
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
+
+\ **Note:** Extended attributes support depends on the file system. Attributes will be lost when the file is moved between incompatible file systems.
+
+\ **Note:** On Linux, only "user" namespace attributes are accessible, namespace prefix should not be included.
+
+\ **Note:** On Windows, alternate data streams are used to store extended attributes.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileAccess_method_get_extended_attribute_string:
+
+.. rst-class:: classref-method
+
+:ref:`String<class_String>` **get_extended_attribute_string**\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_extended_attribute_string>`
+
+Reads the file extended attribute with name ``attribute_name`` as a UTF-8 encoded string.
+
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
+
+\ **Note:** Extended attributes support depends on the file system. Attributes will be lost when the file is moved between incompatible file systems.
+
+\ **Note:** On Linux, only "user" namespace attributes are accessible, namespace prefix should not be included.
+
+\ **Note:** On Windows, alternate data streams are used to store extended attributes.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileAccess_method_get_extended_attributes_list:
+
+.. rst-class:: classref-method
+
+:ref:`PackedStringArray<class_PackedStringArray>` **get_extended_attributes_list**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_extended_attributes_list>`
+
+Returns a list of file extended attributes.
+
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
+
+\ **Note:** Extended attributes support depends on the file system. Attributes will be lost when the file is moved between incompatible file systems.
+
+\ **Note:** On Linux, only "user" namespace attributes are accessible, namespace prefix should not be included.
+
+\ **Note:** On Windows, alternate data streams are used to store extended attributes.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_FileAccess_method_get_file_as_bytes:
 
 .. rst-class:: classref-method
@@ -739,9 +809,9 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 :ref:`bool<class_bool>` **get_hidden_attribute**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_hidden_attribute>`
 
-Повертає ``true``, якщо файл ``Прихований атрибут ``.
+Returns ``true`` if the **hidden** attribute is set on the file at the given path.
 
-\ **Примітка:** Цей метод реалізується на iOS, BSD, macOS та Windows.
+\ **Note:** This method is implemented on iOS, BSD, macOS, and Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -865,9 +935,9 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 :ref:`bool<class_bool>` **get_read_only_attribute**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_read_only_attribute>`
 
-Повертає ``true``, якщо файл ``read only`` атрибут.
+Returns ``true`` if the **read only** attribute is set on the file at the given path.
 
-\ **Примітка:** Цей метод реалізується на iOS, BSD, macOS та Windows.
+\ **Note:** This method is implemented on iOS, BSD, macOS, and Windows.
 
 .. rst-class:: classref-item-separator
 
@@ -905,7 +975,7 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 :ref:`int<class_int>` **get_size**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_size>`
 
-Повертає розмір файлу в байтах або ``-1`` у разі помилки.
+Returns the size of the file at the given path, in bytes, or ``-1`` on error.
 
 .. rst-class:: classref-item-separator
 
@@ -917,9 +987,9 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 |bitfield|\[:ref:`UnixPermissionFlags<enum_FileAccess_UnixPermissionFlags>`\] **get_unix_permissions**\ (\ file\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_get_unix_permissions>`
 
-Повертає файл УНІКС дозволів.
+Returns the UNIX permissions of the file at the given path.
 
-\ **Примітка:** Цей метод реалізується на iOS, Linux/BSD та macOS.
+\ **Note:** This method is implemented on iOS, Linux/BSD, and macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -1013,6 +1083,26 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 ----
 
+.. _class_FileAccess_method_remove_extended_attribute:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **remove_extended_attribute**\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_remove_extended_attribute>`
+
+Removes file extended attribute with name ``attribute_name``.
+
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
+
+\ **Note:** Extended attributes support depends on the file system. Attributes will be lost when the file is moved between incompatible file systems.
+
+\ **Note:** On Linux, only "user" namespace attributes are accessible, namespace prefix should not be included.
+
+\ **Note:** On Windows, alternate data streams are used to store extended attributes.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_FileAccess_method_resize:
 
 .. rst-class:: classref-method
@@ -1031,7 +1121,7 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 |void| **seek**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_FileAccess_method_seek>`
 
-Змінює курсор читання/запису файлу на вказану позицію (у байтах від початку файлу). Це змінює значення, що повертається методом :ref:`get_position()<class_FileAccess_method_get_position>`.
+Sets the file cursor to the specified position in bytes, from the beginning of the file. This changes the value returned by :ref:`get_position()<class_FileAccess_method_get_position>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1043,9 +1133,49 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 |void| **seek_end**\ (\ position\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_FileAccess_method_seek_end>`
 
-Змінює курсор читання/запису файлу на вказану позицію (у байтах від кінця файлу). Це змінює значення, що повертається методом :ref:`get_position()<class_FileAccess_method_get_position>`.
+Sets the file cursor to the specified position in bytes, from the end of the file. This changes the value returned by :ref:`get_position()<class_FileAccess_method_get_position>`.
 
-\ **Примітка:** Це зміщення, тому слід використовувати від'ємні числа, інакше курсор файлу буде в кінці файлу.
+\ **Note:** This is an offset, so you should use negative numbers otherwise the file cursor will be at the end of the file.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileAccess_method_set_extended_attribute:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **set_extended_attribute**\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`, data\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) |static| :ref:`🔗<class_FileAccess_method_set_extended_attribute>`
+
+Writes file extended attribute with name ``attribute_name`` as a byte array.
+
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
+
+\ **Note:** Extended attributes support depends on the file system. Attributes will be lost when the file is moved between incompatible file systems.
+
+\ **Note:** On Linux, only "user" namespace attributes are accessible, namespace prefix should not be included.
+
+\ **Note:** On Windows, alternate data streams are used to store extended attributes.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileAccess_method_set_extended_attribute_string:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **set_extended_attribute_string**\ (\ file\: :ref:`String<class_String>`, attribute_name\: :ref:`String<class_String>`, data\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_FileAccess_method_set_extended_attribute_string>`
+
+Writes file extended attribute with name ``attribute_name`` as a UTF-8 encoded string.
+
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
+
+\ **Note:** Extended attributes support depends on the file system. Attributes will be lost when the file is moved between incompatible file systems.
+
+\ **Note:** On Linux, only "user" namespace attributes are accessible, namespace prefix should not be included.
+
+\ **Note:** On Windows, alternate data streams are used to store extended attributes.
 
 .. rst-class:: classref-item-separator
 
@@ -1220,11 +1350,11 @@ flags **UnixPermissionFlags**: :ref:`🔗<enum_FileAccess_UnixPermissionFlags>`
 
 :ref:`bool<class_bool>` **store_csv_line**\ (\ values\: :ref:`PackedStringArray<class_PackedStringArray>`, delim\: :ref:`String<class_String>` = ","\ ) :ref:`🔗<class_FileAccess_method_store_csv_line>`
 
-Збережіть заданий :ref:`PackedStringArray<class_PackedStringArray>` у файлі як рядок, відформатований у форматі CSV (значення, розділені комами). Ви можете передати інший роздільник ``delim``, відмінний від стандартного значення ``","`` (кома). Цей роздільник має бути довжиною один символ.
+Stores the given :ref:`PackedStringArray<class_PackedStringArray>` in the file as a line formatted in the CSV (Comma-Separated Values) format. You can pass a different delimiter ``delim`` to use other than the default ``","`` (comma). This delimiter must be one-character long.
 
-Текст буде закодовано як UTF-8. Повертає ``true``, якщо операція виконана успішно.
+Text will be encoded as UTF-8. Returns ``true`` if the operation is successful.
 
-\ **Примітка:** Якщо виникає помилка, результуюче значення індикатора позиції у файлі є невизначеним.
+\ **Note:** If an error occurs, the resulting value of the file position indicator is indeterminate.
 
 .. rst-class:: classref-item-separator
 

@@ -372,9 +372,7 @@ Restituisce un :ref:`Rect2<class_Rect2>` che rappresenta il confine dello Sprite
 
 :ref:`bool<class_bool>` **is_pixel_opaque**\ (\ pos\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Sprite2D_method_is_pixel_opaque>`
 
-Restituisce ``true`` se il pixel nella posizione specificata è opaco, altrimenti ``false``. La posizione è in coordinate locali.
-
-\ **Nota:** Restituisce anche ``false`` se la texture dello sprite è ``null`` o se la posizione specificata non è valida.
+Returns ``true`` if the pixel at the given position is opaque, ``false`` otherwise. Also returns ``false`` if the given position is out of bounds or this sprite's :ref:`texture<class_Sprite2D_property_texture>` is ``null``. ``pos`` is in local coordinates.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

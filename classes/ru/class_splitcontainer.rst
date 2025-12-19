@@ -9,14 +9,14 @@ SplitContainer
 
 **Наследуется от:** :ref:`HSplitContainer<class_HSplitContainer>`, :ref:`VSplitContainer<class_VSplitContainer>`
 
-Контейнер, который разбивает два дочерних элемента по горизонтали или вертикали и предоставляет захват для настройки отношения разделения.
+A container that arranges child controls horizontally or vertically and provides grabbers for adjusting the split ratios between them.
 
 .. rst-class:: classref-introduction-group
 
 Описание
 ----------------
 
-Контейнер, который принимает только два дочерних элемента управления, затем размещает их горизонтально или вертикально и создает разделитель между ними. Разделитель можно перетаскивать, чтобы изменить соотношение размеров дочерних элементов управления.
+A container that arranges child controls horizontally or vertically and creates grabbers between them. The grabbers can be dragged around to change the size relations between the child controls.
 
 .. rst-class:: classref-introduction-group
 
@@ -33,27 +33,29 @@ SplitContainer
 .. table::
    :widths: auto
 
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`bool<class_bool>`                                         | :ref:`collapsed<class_SplitContainer_property_collapsed>`                                         | ``false`` |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`bool<class_bool>`                                         | :ref:`drag_area_highlight_in_editor<class_SplitContainer_property_drag_area_highlight_in_editor>` | ``false`` |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`int<class_int>`                                           | :ref:`drag_area_margin_begin<class_SplitContainer_property_drag_area_margin_begin>`               | ``0``     |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`int<class_int>`                                           | :ref:`drag_area_margin_end<class_SplitContainer_property_drag_area_margin_end>`                   | ``0``     |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`int<class_int>`                                           | :ref:`drag_area_offset<class_SplitContainer_property_drag_area_offset>`                           | ``0``     |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` | :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>`                       | ``0``     |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`bool<class_bool>`                                         | :ref:`dragging_enabled<class_SplitContainer_property_dragging_enabled>`                           | ``true``  |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`int<class_int>`                                           | :ref:`split_offset<class_SplitContainer_property_split_offset>`                                   | ``0``     |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`bool<class_bool>`                                         | :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>`                 | ``false`` |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
-   | :ref:`bool<class_bool>`                                         | :ref:`vertical<class_SplitContainer_property_vertical>`                                           | ``false`` |
-   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-----------+
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`bool<class_bool>`                                         | :ref:`collapsed<class_SplitContainer_property_collapsed>`                                         | ``false``               |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`bool<class_bool>`                                         | :ref:`drag_area_highlight_in_editor<class_SplitContainer_property_drag_area_highlight_in_editor>` | ``false``               |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`int<class_int>`                                           | :ref:`drag_area_margin_begin<class_SplitContainer_property_drag_area_margin_begin>`               | ``0``                   |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`int<class_int>`                                           | :ref:`drag_area_margin_end<class_SplitContainer_property_drag_area_margin_end>`                   | ``0``                   |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`int<class_int>`                                           | :ref:`drag_area_offset<class_SplitContainer_property_drag_area_offset>`                           | ``0``                   |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` | :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>`                       | ``0``                   |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`bool<class_bool>`                                         | :ref:`dragging_enabled<class_SplitContainer_property_dragging_enabled>`                           | ``true``                |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`int<class_int>`                                           | :ref:`split_offset<class_SplitContainer_property_split_offset>`                                   | ``0``                   |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`PackedInt32Array<class_PackedInt32Array>`                 | :ref:`split_offsets<class_SplitContainer_property_split_offsets>`                                 | ``PackedInt32Array(0)`` |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`bool<class_bool>`                                         | :ref:`touch_dragger_enabled<class_SplitContainer_property_touch_dragger_enabled>`                 | ``false``               |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
+   | :ref:`bool<class_bool>`                                         | :ref:`vertical<class_SplitContainer_property_vertical>`                                           | ``false``               |
+   +-----------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -63,11 +65,13 @@ SplitContainer
 .. table::
    :widths: auto
 
-   +-------------------------------+---------------------------------------------------------------------------------------+
-   | |void|                        | :ref:`clamp_split_offset<class_SplitContainer_method_clamp_split_offset>`\ (\ )       |
-   +-------------------------------+---------------------------------------------------------------------------------------+
-   | :ref:`Control<class_Control>` | :ref:`get_drag_area_control<class_SplitContainer_method_get_drag_area_control>`\ (\ ) |
-   +-------------------------------+---------------------------------------------------------------------------------------+
+   +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                     | :ref:`clamp_split_offset<class_SplitContainer_method_clamp_split_offset>`\ (\ priority_index\: :ref:`int<class_int>` = 0\ ) |
+   +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Control<class_Control>`                              | :ref:`get_drag_area_control<class_SplitContainer_method_get_drag_area_control>`\ (\ )                                       |
+   +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Array<class_Array>`\[:ref:`Control<class_Control>`\] | :ref:`get_drag_area_controls<class_SplitContainer_method_get_drag_area_controls>`\ (\ )                                     |
+   +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -144,7 +148,7 @@ SplitContainer
 
 **dragged**\ (\ offset\: :ref:`int<class_int>`\ ) :ref:`🔗<class_SplitContainer_signal_dragged>`
 
-Генерируется, когда пользователь перетаскивает курсор.
+Emitted when any dragger is dragged by user.
 
 .. rst-class:: classref-section-separator
 
@@ -211,7 +215,7 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 - |void| **set_collapsed**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_collapsed**\ (\ )
 
-Если ``true``, перетаскиватель будет отключен, а дочерние элементы будут иметь такой размер, как если бы :ref:`split_offset<class_SplitContainer_property_split_offset>` был равен ``0``.
+If ``true``, the draggers will be disabled and the children will be sized as if all :ref:`split_offsets<class_SplitContainer_property_split_offsets>` were ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -330,7 +334,32 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 - |void| **set_split_offset**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_split_offset**\ (\ )
 
-Начальное смещение разделения между двумя :ref:`Control<class_Control>`, при этом ``0`` находится в конце первого :ref:`Control<class_Control>`.
+**Устарело:** Use :ref:`split_offsets<class_SplitContainer_property_split_offsets>` instead. The first element of the array is the split offset between the first two children.
+
+The first element of :ref:`split_offsets<class_SplitContainer_property_split_offsets>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_SplitContainer_property_split_offsets:
+
+.. rst-class:: classref-property
+
+:ref:`PackedInt32Array<class_PackedInt32Array>` **split_offsets** = ``PackedInt32Array(0)`` :ref:`🔗<class_SplitContainer_property_split_offsets>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_split_offsets**\ (\ value\: :ref:`PackedInt32Array<class_PackedInt32Array>`\ )
+- :ref:`PackedInt32Array<class_PackedInt32Array>` **get_split_offsets**\ (\ )
+
+Offsets for each dragger in pixels. Each one is the offset of the split between the :ref:`Control<class_Control>` nodes before and after the dragger, with ``0`` being the default position. The default position is based on the :ref:`Control<class_Control>` nodes expand flags and minimum sizes. See :ref:`Control.size_flags_horizontal<class_Control_property_size_flags_horizontal>`, :ref:`Control.size_flags_vertical<class_Control_property_size_flags_vertical>`, and :ref:`Control.size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`.
+
+If none of the :ref:`Control<class_Control>` nodes before the dragger are expanded, the default position will be at the start of the **SplitContainer**. If none of the :ref:`Control<class_Control>` nodes after the dragger are expanded, the default position will be at the end of the **SplitContainer**. If the dragger is in between expanded :ref:`Control<class_Control>` nodes, the default position will be in the middle, based on the :ref:`Control.size_flags_stretch_ratio<class_Control_property_size_flags_stretch_ratio>`\ s and minimum sizes.
+
+\ **Note:** If the split offsets cause :ref:`Control<class_Control>` nodes to overlap, the first split will take priority when resolving the positions.
+
+**Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedInt32Array<class_PackedInt32Array>` for more details.
 
 .. rst-class:: classref-item-separator
 
@@ -381,9 +410,9 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 .. rst-class:: classref-method
 
-|void| **clamp_split_offset**\ (\ ) :ref:`🔗<class_SplitContainer_method_clamp_split_offset>`
+|void| **clamp_split_offset**\ (\ priority_index\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_SplitContainer_method_clamp_split_offset>`
 
-Ограничивает значение :ref:`split_offset<class_SplitContainer_property_split_offset>`, чтобы оно не выходило за пределы текущих возможных минимальных и максимальных значений.
+Clamps the :ref:`split_offsets<class_SplitContainer_property_split_offsets>` values to ensure they are within valid ranges and do not overlap with each other. When overlaps occur, this method prioritizes one split offset (at index ``priority_index``) by clamping any overlapping split offsets to it.
 
 .. rst-class:: classref-item-separator
 
@@ -395,6 +424,8 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`Control<class_Control>` **get_drag_area_control**\ (\ ) :ref:`🔗<class_SplitContainer_method_get_drag_area_control>`
 
+**Устарело:** Use the first element of :ref:`get_drag_area_controls()<class_SplitContainer_method_get_drag_area_controls>` instead.
+
 Возвращает область перетаскивания :ref:`Control<class_Control>`. Например, вы можете переместить предварительно настроенную кнопку в область перетаскивания :ref:`Control<class_Control>`, чтобы она перемещалась вместе с разделительной полосой. Попробуйте установить якоря :ref:`Button<class_Button>` на ``center`` до вызова ``reparent()``.
 
 ::
@@ -404,6 +435,26 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 \ **Примечание:** Область перетаскивания :ref:`Control<class_Control>` рисуется поверх дочерних элементов **SplitContainer**, поэтому объекты рисования :ref:`CanvasItem<class_CanvasItem>`, вызываемые из :ref:`Control<class_Control>`, и дочерние элементы, добавленные в :ref:`Control<class_Control>`, также будут отображаться поверх дочерних элементов **SplitContainer**. Попробуйте установить :ref:`Control.mouse_filter<class_Control_property_mouse_filter>` пользовательских дочерних элементов на :ref:`Control.MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>`, чтобы предотвратить блокировку мыши при перетаскивании, если это необходимо.
 
 \ **Предупреждение:** Это обязательный внутренний узел, его удаление и освобождение может привести к сбою.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_SplitContainer_method_get_drag_area_controls:
+
+.. rst-class:: classref-method
+
+:ref:`Array<class_Array>`\[:ref:`Control<class_Control>`\] **get_drag_area_controls**\ (\ ) :ref:`🔗<class_SplitContainer_method_get_drag_area_controls>`
+
+Returns an :ref:`Array<class_Array>` of the drag area :ref:`Control<class_Control>`\ s. These are the interactable :ref:`Control<class_Control>` nodes between each child. For example, this can be used to add a pre-configured button to a drag area :ref:`Control<class_Control>` so that it rides along with the split bar. Try setting the :ref:`Button<class_Button>` anchors to ``center`` prior to the :ref:`Node.reparent()<class_Node_method_reparent>` call.
+
+::
+
+    $BarnacleButton.reparent($SplitContainer.get_drag_area_controls()[0])
+
+\ **Note:** The drag area :ref:`Control<class_Control>`\ s are drawn over the **SplitContainer**'s children, so :ref:`CanvasItem<class_CanvasItem>` draw objects called from a drag area and children added to it will also appear over the **SplitContainer**'s children. Try setting :ref:`Control.mouse_filter<class_Control_property_mouse_filter>` of custom children to :ref:`Control.MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` to prevent blocking the mouse from dragging if desired.
+
+\ **Warning:** These are required internal nodes, removing or freeing them may cause a crash.
 
 .. rst-class:: classref-section-separator
 
@@ -456,7 +507,7 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`int<class_int>` **autohide** = ``1`` :ref:`🔗<class_SplitContainer_theme_constant_autohide>`
 
-Логическое значение. Если ``1`` (``true``), захватчик будет автоматически скрываться, когда он не находится под курсором. Если ``0`` (``false``), он всегда виден. ``Member dragger_visibility`` должен быть :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`.
+Boolean value. If ``1`` (``true``), the grabbers will hide automatically when they aren't under the cursor. If ``0`` (``false``), the grabbers are always visible. The :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` must be :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +519,7 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`int<class_int>` **minimum_grab_thickness** = ``6`` :ref:`🔗<class_SplitContainer_theme_constant_minimum_grab_thickness>`
 
-Минимальная толщина области, на которую пользователи могут нажать, чтобы захватить разделительную полосу. Это гарантирует, что разделительную полосу все еще можно перетаскивать, если размер :ref:`Separate<class_SplitContainer_theme_item_Separate>` или :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` / :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` слишком узкий для легкого выбора.
+The minimum thickness of the area users can click on to grab a split bar. This ensures that the split bar can still be dragged if :ref:`separation<class_SplitContainer_theme_constant_separation>` or :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` / :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>`'s size is too narrow to easily select.
 
 .. rst-class:: classref-item-separator
 
@@ -480,9 +531,9 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`int<class_int>` **separation** = ``12`` :ref:`🔗<class_SplitContainer_theme_constant_separation>`
 
-Толщина разделительной полосы, т. е. зазор между двумя дочерними элементами контейнера. Это переопределяется размером значка граббера, если :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` установлен на :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>` или :ref:`DRAGGER_HIDDEN<class_SplitContainer_constant_DRAGGER_HIDDEN>`, а :ref:`Separate<class_SplitContainer_theme_item_Separate>` меньше размера значка граббера на той же оси.
+The split bar thickness, i.e., the gap between each child of the container. This is overridden by the size of the grabber icon if :ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>` is set to :ref:`DRAGGER_VISIBLE<class_SplitContainer_constant_DRAGGER_VISIBLE>`, or :ref:`DRAGGER_HIDDEN<class_SplitContainer_constant_DRAGGER_HIDDEN>`, and :ref:`separation<class_SplitContainer_theme_constant_separation>` is smaller than the size of the grabber icon in the same axis.
 
-\ **Примечание:** Чтобы получить значения :ref:`Separate<class_SplitContainer_theme_item_Separate>` меньше размера значка граббера, например, ``1 px`` hairline, установите :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` или :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` на новый :ref:`ImageTexture<class_ImageTexture>`, который фактически устанавливает размер значка граббера на ``0 px``.
+\ **Note:** To obtain :ref:`separation<class_SplitContainer_theme_constant_separation>` values less than the size of the grabber icon, for example a ``1 px`` hairline, set :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` or :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` to a new :ref:`ImageTexture<class_ImageTexture>`, which effectively sets the grabber icon size to ``0 px``.
 
 .. rst-class:: classref-item-separator
 
@@ -494,7 +545,7 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`Texture2D<class_Texture2D>` **grabber** :ref:`🔗<class_SplitContainer_theme_icon_grabber>`
 
-Значок, используемый для граббера (перетаскивателя), нарисованного в средней области. Используется только в :ref:`HSplitContainer<class_HSplitContainer>` и :ref:`VSplitContainer<class_VSplitContainer>`. Для **SplitContainer** см. :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` и :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>`.
+The icon used for the grabbers drawn in the separations. This is only used in :ref:`HSplitContainer<class_HSplitContainer>` and :ref:`VSplitContainer<class_VSplitContainer>`. For **SplitContainer**, see :ref:`h_grabber<class_SplitContainer_theme_icon_h_grabber>` and :ref:`v_grabber<class_SplitContainer_theme_icon_v_grabber>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -506,7 +557,7 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`Texture2D<class_Texture2D>` **h_grabber** :ref:`🔗<class_SplitContainer_theme_icon_h_grabber>`
 
-Значок, используемый для захвата, нарисованного в средней области, когда :ref:`vertical<class_SplitContainer_property_vertical>` имеет значение ``false``.
+The icon used for the grabbers drawn in the separations when :ref:`vertical<class_SplitContainer_property_vertical>` is ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -542,7 +593,7 @@ enum **DraggerVisibility**: :ref:`🔗<enum_SplitContainer_DraggerVisibility>`
 
 :ref:`Texture2D<class_Texture2D>` **v_grabber** :ref:`🔗<class_SplitContainer_theme_icon_v_grabber>`
 
-Значок, используемый для захвата, нарисованного в средней области, когда :ref:`vertical<class_SplitContainer_property_vertical>` имеет значение ``true``.
+The icon used for the grabbers drawn in the separations when :ref:`vertical<class_SplitContainer_property_vertical>` is ``true``.
 
 .. rst-class:: classref-item-separator
 

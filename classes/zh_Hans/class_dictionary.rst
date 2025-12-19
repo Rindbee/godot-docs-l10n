@@ -440,9 +440,9 @@ Dictionary
 
 :ref:`Dictionary<class_Dictionary>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Dictionary_method_duplicate_deep>`
 
-深度复制该字典，类似 :ref:`duplicate()<class_Dictionary_method_duplicate>`\ ``(true)``\ ，但能够额外控制子资源的处理方式。
+Duplicates this dictionary, deeply, like :ref:`duplicate()<class_Dictionary_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` 必须是 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` 中的一个值。默认只会（递归）复制内部资源。
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -889,7 +889,7 @@ Dictionary
 
 :ref:`bool<class_bool>` **set**\ (\ key\: :ref:`Variant<class_Variant>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Dictionary_method_set>`
 
-将给定键 ``key`` 对应元素的值设置为给定的 ``value``\ 。与使用 ``[]`` 运算符相同（\ ``array[index] = value``\ ）。
+Sets the value of the element at the given ``key`` to the given ``value``. Returns ``true`` if the value is set successfully. Fails and returns ``false`` if the dictionary is read-only, or if ``key`` and ``value`` don't match the dictionary's types. This is the same as using the ``[]`` operator (``dict[key] = value``).
 
 .. rst-class:: classref-item-separator
 

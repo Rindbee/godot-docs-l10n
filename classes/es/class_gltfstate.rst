@@ -52,6 +52,8 @@ Propiedades
    +----------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>`                              | :ref:`glb_data<class_GLTFState_property_glb_data>`                                 | ``PackedByteArray()``  |
    +----------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------+
+   | :ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>`         | :ref:`handle_binary_image_mode<class_GLTFState_property_handle_binary_image_mode>` | ``1``                  |
+   +----------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------+
    | :ref:`bool<class_bool>`                                                    | :ref:`import_as_skeleton_bones<class_GLTFState_property_import_as_skeleton_bones>` | ``false``              |
    +----------------------------------------------------------------------------+------------------------------------------------------------------------------------+------------------------+
    | :ref:`Dictionary<class_Dictionary>`                                        | :ref:`json<class_GLTFState_property_json>`                                         | ``{}``                 |
@@ -82,47 +84,47 @@ Métodos
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                                            | :ref:`append_gltf_node<class_GLTFState_method_append_gltf_node>`\ (\ gltf_node\: :ref:`GLTFNode<class_GLTFNode>`, godot_scene_node\: :ref:`Node<class_Node>`, parent_node_index\: :ref:`int<class_int>`\ ) |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFAccessor<class_GLTFAccessor>`\]             | :ref:`get_accessors<class_GLTFState_method_get_accessors>`\ (\ )                                                                                                                                           |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFAccessor<class_GLTFAccessor>`\]             | :ref:`get_accessors<class_GLTFState_method_get_accessors>`\ (\ ) |const|                                                                                                                                   |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Variant<class_Variant>`                                                    | :ref:`get_additional_data<class_GLTFState_method_get_additional_data>`\ (\ extension_name\: :ref:`StringName<class_StringName>`\ )                                                                         |
+   | :ref:`Variant<class_Variant>`                                                    | :ref:`get_additional_data<class_GLTFState_method_get_additional_data>`\ (\ extension_name\: :ref:`StringName<class_StringName>`\ ) |const|                                                                 |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`AnimationPlayer<class_AnimationPlayer>`                                    | :ref:`get_animation_player<class_GLTFState_method_get_animation_player>`\ (\ idx\: :ref:`int<class_int>`\ )                                                                                                |
+   | :ref:`AnimationPlayer<class_AnimationPlayer>`                                    | :ref:`get_animation_player<class_GLTFState_method_get_animation_player>`\ (\ anim_player_index\: :ref:`int<class_int>`\ ) |const|                                                                          |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                                                            | :ref:`get_animation_players_count<class_GLTFState_method_get_animation_players_count>`\ (\ idx\: :ref:`int<class_int>`\ )                                                                                  |
+   | :ref:`int<class_int>`                                                            | :ref:`get_animation_players_count<class_GLTFState_method_get_animation_players_count>`\ (\ anim_player_index\: :ref:`int<class_int>`\ ) |const|                                                            |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFAnimation<class_GLTFAnimation>`\]           | :ref:`get_animations<class_GLTFState_method_get_animations>`\ (\ )                                                                                                                                         |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFAnimation<class_GLTFAnimation>`\]           | :ref:`get_animations<class_GLTFState_method_get_animations>`\ (\ ) |const|                                                                                                                                 |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFBufferView<class_GLTFBufferView>`\]         | :ref:`get_buffer_views<class_GLTFState_method_get_buffer_views>`\ (\ )                                                                                                                                     |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFBufferView<class_GLTFBufferView>`\]         | :ref:`get_buffer_views<class_GLTFState_method_get_buffer_views>`\ (\ ) |const|                                                                                                                             |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFCamera<class_GLTFCamera>`\]                 | :ref:`get_cameras<class_GLTFState_method_get_cameras>`\ (\ )                                                                                                                                               |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFCamera<class_GLTFCamera>`\]                 | :ref:`get_cameras<class_GLTFState_method_get_cameras>`\ (\ ) |const|                                                                                                                                       |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                                                            | :ref:`get_handle_binary_image<class_GLTFState_method_get_handle_binary_image>`\ (\ )                                                                                                                       |
+   | :ref:`int<class_int>`                                                            | :ref:`get_handle_binary_image<class_GLTFState_method_get_handle_binary_image>`\ (\ ) |const|                                                                                                               |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`Texture2D<class_Texture2D>`\]                   | :ref:`get_images<class_GLTFState_method_get_images>`\ (\ )                                                                                                                                                 |
+   | :ref:`Array<class_Array>`\[:ref:`Texture2D<class_Texture2D>`\]                   | :ref:`get_images<class_GLTFState_method_get_images>`\ (\ ) |const|                                                                                                                                         |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFLight<class_GLTFLight>`\]                   | :ref:`get_lights<class_GLTFState_method_get_lights>`\ (\ )                                                                                                                                                 |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFLight<class_GLTFLight>`\]                   | :ref:`get_lights<class_GLTFState_method_get_lights>`\ (\ ) |const|                                                                                                                                         |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`Material<class_Material>`\]                     | :ref:`get_materials<class_GLTFState_method_get_materials>`\ (\ )                                                                                                                                           |
+   | :ref:`Array<class_Array>`\[:ref:`Material<class_Material>`\]                     | :ref:`get_materials<class_GLTFState_method_get_materials>`\ (\ ) |const|                                                                                                                                   |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFMesh<class_GLTFMesh>`\]                     | :ref:`get_meshes<class_GLTFState_method_get_meshes>`\ (\ )                                                                                                                                                 |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFMesh<class_GLTFMesh>`\]                     | :ref:`get_meshes<class_GLTFState_method_get_meshes>`\ (\ ) |const|                                                                                                                                         |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                                                            | :ref:`get_node_index<class_GLTFState_method_get_node_index>`\ (\ scene_node\: :ref:`Node<class_Node>`\ )                                                                                                   |
+   | :ref:`int<class_int>`                                                            | :ref:`get_node_index<class_GLTFState_method_get_node_index>`\ (\ scene_node\: :ref:`Node<class_Node>`\ ) |const|                                                                                           |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFNode<class_GLTFNode>`\]                     | :ref:`get_nodes<class_GLTFState_method_get_nodes>`\ (\ )                                                                                                                                                   |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFNode<class_GLTFNode>`\]                     | :ref:`get_nodes<class_GLTFState_method_get_nodes>`\ (\ ) |const|                                                                                                                                           |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Node<class_Node>`                                                          | :ref:`get_scene_node<class_GLTFState_method_get_scene_node>`\ (\ idx\: :ref:`int<class_int>`\ )                                                                                                            |
+   | :ref:`Node<class_Node>`                                                          | :ref:`get_scene_node<class_GLTFState_method_get_scene_node>`\ (\ gltf_node_index\: :ref:`int<class_int>`\ ) |const|                                                                                        |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFSkeleton<class_GLTFSkeleton>`\]             | :ref:`get_skeletons<class_GLTFState_method_get_skeletons>`\ (\ )                                                                                                                                           |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFSkeleton<class_GLTFSkeleton>`\]             | :ref:`get_skeletons<class_GLTFState_method_get_skeletons>`\ (\ ) |const|                                                                                                                                   |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFSkin<class_GLTFSkin>`\]                     | :ref:`get_skins<class_GLTFState_method_get_skins>`\ (\ )                                                                                                                                                   |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFSkin<class_GLTFSkin>`\]                     | :ref:`get_skins<class_GLTFState_method_get_skins>`\ (\ ) |const|                                                                                                                                           |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFTextureSampler<class_GLTFTextureSampler>`\] | :ref:`get_texture_samplers<class_GLTFState_method_get_texture_samplers>`\ (\ )                                                                                                                             |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFTextureSampler<class_GLTFTextureSampler>`\] | :ref:`get_texture_samplers<class_GLTFState_method_get_texture_samplers>`\ (\ ) |const|                                                                                                                     |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`GLTFTexture<class_GLTFTexture>`\]               | :ref:`get_textures<class_GLTFState_method_get_textures>`\ (\ )                                                                                                                                             |
+   | :ref:`Array<class_Array>`\[:ref:`GLTFTexture<class_GLTFTexture>`\]               | :ref:`get_textures<class_GLTFState_method_get_textures>`\ (\ ) |const|                                                                                                                                     |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]                         | :ref:`get_unique_animation_names<class_GLTFState_method_get_unique_animation_names>`\ (\ )                                                                                                                 |
+   | :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]                         | :ref:`get_unique_animation_names<class_GLTFState_method_get_unique_animation_names>`\ (\ ) |const|                                                                                                         |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]                         | :ref:`get_unique_names<class_GLTFState_method_get_unique_names>`\ (\ )                                                                                                                                     |
+   | :ref:`Array<class_Array>`\[:ref:`String<class_String>`\]                         | :ref:`get_unique_names<class_GLTFState_method_get_unique_names>`\ (\ ) |const|                                                                                                                             |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                           | :ref:`set_accessors<class_GLTFState_method_set_accessors>`\ (\ accessors\: :ref:`Array<class_Array>`\[:ref:`GLTFAccessor<class_GLTFAccessor>`\]\ )                                                         |
    +----------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -165,6 +167,57 @@ Métodos
 
 .. rst-class:: classref-descriptions-group
 
+Enumeraciones
+--------------------------
+
+.. _enum_GLTFState_HandleBinaryImageMode:
+
+.. rst-class:: classref-enumeration
+
+enum **HandleBinaryImageMode**: :ref:`🔗<enum_GLTFState_HandleBinaryImageMode>`
+
+.. _class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_DISCARD_TEXTURES:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` **HANDLE_BINARY_IMAGE_MODE_DISCARD_TEXTURES** = ``0``
+
+When importing a glTF file with embedded binary images, discards all images and uses untextured materials in their place. Images stored as separate files in the ``res://`` folder are not affected by this; those will be used as Godot imported them.
+
+.. _class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EXTRACT_TEXTURES:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` **HANDLE_BINARY_IMAGE_MODE_EXTRACT_TEXTURES** = ``1``
+
+When importing a glTF file with embedded binary images, extracts them and saves them to their own files. This allows the image to be imported by Godot's image importer, which can then have their import options customized by the user, including optionally compressing the image to VRAM texture formats.
+
+This will save the images's bytes exactly as-is, without recompression. For image formats supplied by glTF extensions, the file will have a filename ending with the file extension supplied by :ref:`GLTFDocumentExtension._get_image_file_extension()<class_GLTFDocumentExtension_private_method__get_image_file_extension>` of the extension class.
+
+\ **Note:** This option is editor-only. At runtime, this acts the same as :ref:`HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED<class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED>`.
+
+.. _class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EMBED_AS_BASISU:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` **HANDLE_BINARY_IMAGE_MODE_EMBED_AS_BASISU** = ``2``
+
+When importing a glTF file with embedded binary images, embeds textures VRAM compressed with Basis Universal into the generated scene. Images stored as separate files in the ``res://`` folder are not affected by this; those will be used as Godot imported them.
+
+.. _class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` **HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED** = ``3``
+
+When importing a glTF file with embedded binary images, embeds textures compressed losslessly into the generated scene. Images stored as separate files in the ``res://`` folder are not affected by this; those will be used as Godot imported them.
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
 Constantes
 --------------------
 
@@ -174,6 +227,8 @@ Constantes
 
 **HANDLE_BINARY_DISCARD_TEXTURES** = ``0`` :ref:`🔗<class_GLTFState_constant_HANDLE_BINARY_DISCARD_TEXTURES>`
 
+**Obsoleto:** Use :ref:`HANDLE_BINARY_IMAGE_MODE_DISCARD_TEXTURES<class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_DISCARD_TEXTURES>` instead.
+
 Descarta todas las texturas incrustadas y usa materiales sin textura.
 
 .. _class_GLTFState_constant_HANDLE_BINARY_EXTRACT_TEXTURES:
@@ -181,6 +236,8 @@ Descarta todas las texturas incrustadas y usa materiales sin textura.
 .. rst-class:: classref-constant
 
 **HANDLE_BINARY_EXTRACT_TEXTURES** = ``1`` :ref:`🔗<class_GLTFState_constant_HANDLE_BINARY_EXTRACT_TEXTURES>`
+
+**Obsoleto:** Use :ref:`HANDLE_BINARY_IMAGE_MODE_EXTRACT_TEXTURES<class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EXTRACT_TEXTURES>` instead.
 
 Extrae las texturas incrustadas para ser reimportadas y comprimidas. Solo en el editor. Actúa como sin comprimir en tiempo de ejecución.
 
@@ -190,6 +247,8 @@ Extrae las texturas incrustadas para ser reimportadas y comprimidas. Solo en el 
 
 **HANDLE_BINARY_EMBED_AS_BASISU** = ``2`` :ref:`🔗<class_GLTFState_constant_HANDLE_BINARY_EMBED_AS_BASISU>`
 
+**Obsoleto:** Use :ref:`HANDLE_BINARY_IMAGE_MODE_EMBED_AS_BASISU<class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EMBED_AS_BASISU>` instead.
+
 Incrusta texturas comprimidas para VRAM con Basis Universal en la escena generada.
 
 .. _class_GLTFState_constant_HANDLE_BINARY_EMBED_AS_UNCOMPRESSED:
@@ -197,6 +256,8 @@ Incrusta texturas comprimidas para VRAM con Basis Universal en la escena generad
 .. rst-class:: classref-constant
 
 **HANDLE_BINARY_EMBED_AS_UNCOMPRESSED** = ``3`` :ref:`🔗<class_GLTFState_constant_HANDLE_BINARY_EMBED_AS_UNCOMPRESSED>`
+
+**Obsoleto:** Use :ref:`HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED<class_GLTFState_constant_HANDLE_BINARY_IMAGE_MODE_EMBED_AS_UNCOMPRESSED>` instead.
 
 Incrusta texturas comprimidas sin pérdida en la escena generada, coincidiendo con el comportamiento anterior.
 
@@ -329,6 +390,25 @@ El nombre de archivo asociado a estos datos glTF. Si termina con ``.gltf``, se t
 El búfer binario adjunto a un archivo .glb.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedByteArray<class_PackedByteArray>` for more details.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GLTFState_property_handle_binary_image_mode:
+
+.. rst-class:: classref-property
+
+:ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` **handle_binary_image_mode** = ``1`` :ref:`🔗<class_GLTFState_property_handle_binary_image_mode>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_handle_binary_image_mode**\ (\ value\: :ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>`\ )
+- :ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` **get_handle_binary_image_mode**\ (\ )
+
+When importing a glTF file with unimported raw binary images embedded inside of binary blob buffers, in data URIs, or separate files not imported by Godot, this controls how the images are handled. Images can be discarded, saved as separate files, or embedded in the scene lossily or losslessly. See :ref:`HandleBinaryImageMode<enum_GLTFState_HandleBinaryImageMode>` for options.
+
+This property does nothing for image files in the ``res://`` folder imported by Godot, as those are handled by Godot's image importer directly, and then the Godot scene generated from the glTF file will use the images as Godot imported them.
 
 .. rst-class:: classref-item-separator
 
@@ -510,7 +590,7 @@ El parámetro ``parent_node_index`` es el índice del :ref:`GLTFNode<class_GLTFN
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFAccessor<class_GLTFAccessor>`\] **get_accessors**\ (\ ) :ref:`🔗<class_GLTFState_method_get_accessors>`
+:ref:`Array<class_Array>`\[:ref:`GLTFAccessor<class_GLTFAccessor>`\] **get_accessors**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_accessors>`
 
 .. container:: contribute
 
@@ -524,7 +604,7 @@ El parámetro ``parent_node_index`` es el índice del :ref:`GLTFNode<class_GLTFN
 
 .. rst-class:: classref-method
 
-:ref:`Variant<class_Variant>` **get_additional_data**\ (\ extension_name\: :ref:`StringName<class_StringName>`\ ) :ref:`🔗<class_GLTFState_method_get_additional_data>`
+:ref:`Variant<class_Variant>` **get_additional_data**\ (\ extension_name\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_GLTFState_method_get_additional_data>`
 
 Obtiene datos arbitrarios adicionales en esta instancia de **GLTFState**. Esto se puede usar para mantener datos de estado por archivo en las clases :ref:`GLTFDocumentExtension<class_GLTFDocumentExtension>`, lo cual es importante porque no tienen estado.
 
@@ -538,7 +618,7 @@ El argumento debe ser el nombre de :ref:`GLTFDocumentExtension<class_GLTFDocumen
 
 .. rst-class:: classref-method
 
-:ref:`AnimationPlayer<class_AnimationPlayer>` **get_animation_player**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GLTFState_method_get_animation_player>`
+:ref:`AnimationPlayer<class_AnimationPlayer>` **get_animation_player**\ (\ anim_player_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GLTFState_method_get_animation_player>`
 
 Devuelve el nodo :ref:`AnimationPlayer<class_AnimationPlayer>` con el índice dado. Estos nodos solo se usan durante el proceso de exportación al convertir los nodos :ref:`AnimationPlayer<class_AnimationPlayer>` de Godot en animaciones glTF.
 
@@ -550,7 +630,7 @@ Devuelve el nodo :ref:`AnimationPlayer<class_AnimationPlayer>` con el índice da
 
 .. rst-class:: classref-method
 
-:ref:`int<class_int>` **get_animation_players_count**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GLTFState_method_get_animation_players_count>`
+:ref:`int<class_int>` **get_animation_players_count**\ (\ anim_player_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GLTFState_method_get_animation_players_count>`
 
 Devuelve el número de nodos :ref:`AnimationPlayer<class_AnimationPlayer>` en este **GLTFState**. Estos nodos solo se utilizan durante el proceso de exportación al convertir los nodos :ref:`AnimationPlayer<class_AnimationPlayer>` de Godot en animaciones glTF.
 
@@ -562,7 +642,7 @@ Devuelve el número de nodos :ref:`AnimationPlayer<class_AnimationPlayer>` en es
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFAnimation<class_GLTFAnimation>`\] **get_animations**\ (\ ) :ref:`🔗<class_GLTFState_method_get_animations>`
+:ref:`Array<class_Array>`\[:ref:`GLTFAnimation<class_GLTFAnimation>`\] **get_animations**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_animations>`
 
 Devuelve un array de todos los :ref:`GLTFAnimation<class_GLTFAnimation>`\ s en el archivo glTF. Al importar, estos se generarán como animaciones en un nodo :ref:`AnimationPlayer<class_AnimationPlayer>`. Al exportar, estos se generarán a partir de nodos :ref:`AnimationPlayer<class_AnimationPlayer>` de Godot.
 
@@ -574,7 +654,7 @@ Devuelve un array de todos los :ref:`GLTFAnimation<class_GLTFAnimation>`\ s en e
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFBufferView<class_GLTFBufferView>`\] **get_buffer_views**\ (\ ) :ref:`🔗<class_GLTFState_method_get_buffer_views>`
+:ref:`Array<class_Array>`\[:ref:`GLTFBufferView<class_GLTFBufferView>`\] **get_buffer_views**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_buffer_views>`
 
 .. container:: contribute
 
@@ -588,7 +668,7 @@ Devuelve un array de todos los :ref:`GLTFAnimation<class_GLTFAnimation>`\ s en e
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFCamera<class_GLTFCamera>`\] **get_cameras**\ (\ ) :ref:`🔗<class_GLTFState_method_get_cameras>`
+:ref:`Array<class_Array>`\[:ref:`GLTFCamera<class_GLTFCamera>`\] **get_cameras**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_cameras>`
 
 Devuelve un array de todos los :ref:`GLTFCamera<class_GLTFCamera>` en el archivo glTF. Estas son las cámaras a las que se refiere el índice :ref:`GLTFNode.camera<class_GLTFNode_property_camera>`.
 
@@ -600,11 +680,11 @@ Devuelve un array de todos los :ref:`GLTFCamera<class_GLTFCamera>` en el archivo
 
 .. rst-class:: classref-method
 
-:ref:`int<class_int>` **get_handle_binary_image**\ (\ ) :ref:`🔗<class_GLTFState_method_get_handle_binary_image>`
+:ref:`int<class_int>` **get_handle_binary_image**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_handle_binary_image>`
 
-.. container:: contribute
+**Obsoleto:** Use :ref:`handle_binary_image_mode<class_GLTFState_property_handle_binary_image_mode>` instead.
 
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Deprecated untyped alias for :ref:`handle_binary_image_mode<class_GLTFState_property_handle_binary_image_mode>`. When importing a glTF file with unimported raw binary images embedded inside of binary blob buffers, in data URIs, or separate files not imported by Godot, this controls how the images are handled.
 
 .. rst-class:: classref-item-separator
 
@@ -614,7 +694,7 @@ Devuelve un array de todos los :ref:`GLTFCamera<class_GLTFCamera>` en el archivo
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`Texture2D<class_Texture2D>`\] **get_images**\ (\ ) :ref:`🔗<class_GLTFState_method_get_images>`
+:ref:`Array<class_Array>`\[:ref:`Texture2D<class_Texture2D>`\] **get_images**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_images>`
 
 Obtiene las imágenes del archivo glTF como un array de :ref:`Texture2D<class_Texture2D>`\ s. Estas son las imágenes a las que se refiere el índice :ref:`GLTFTexture.src_image<class_GLTFTexture_property_src_image>`.
 
@@ -626,7 +706,7 @@ Obtiene las imágenes del archivo glTF como un array de :ref:`Texture2D<class_Te
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFLight<class_GLTFLight>`\] **get_lights**\ (\ ) :ref:`🔗<class_GLTFState_method_get_lights>`
+:ref:`Array<class_Array>`\[:ref:`GLTFLight<class_GLTFLight>`\] **get_lights**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_lights>`
 
 Devuelve un array de todas las :ref:`GLTFLight<class_GLTFLight>`\ s en el archivo glTF. Estas son las luces a las que se refiere el índice :ref:`GLTFNode.light<class_GLTFNode_property_light>`.
 
@@ -638,7 +718,7 @@ Devuelve un array de todas las :ref:`GLTFLight<class_GLTFLight>`\ s en el archiv
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`Material<class_Material>`\] **get_materials**\ (\ ) :ref:`🔗<class_GLTFState_method_get_materials>`
+:ref:`Array<class_Array>`\[:ref:`Material<class_Material>`\] **get_materials**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_materials>`
 
 .. container:: contribute
 
@@ -652,7 +732,7 @@ Devuelve un array de todas las :ref:`GLTFLight<class_GLTFLight>`\ s en el archiv
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFMesh<class_GLTFMesh>`\] **get_meshes**\ (\ ) :ref:`🔗<class_GLTFState_method_get_meshes>`
+:ref:`Array<class_Array>`\[:ref:`GLTFMesh<class_GLTFMesh>`\] **get_meshes**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_meshes>`
 
 Devuelve un array de todos los :ref:`GLTFMesh<class_GLTFMesh>` del archivo glTF. Estas son las mallas a las que se refiere el índice :ref:`GLTFNode.mesh<class_GLTFNode_property_mesh>`.
 
@@ -664,7 +744,7 @@ Devuelve un array de todos los :ref:`GLTFMesh<class_GLTFMesh>` del archivo glTF.
 
 .. rst-class:: classref-method
 
-:ref:`int<class_int>` **get_node_index**\ (\ scene_node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_GLTFState_method_get_node_index>`
+:ref:`int<class_int>` **get_node_index**\ (\ scene_node\: :ref:`Node<class_Node>`\ ) |const| :ref:`🔗<class_GLTFState_method_get_node_index>`
 
 Devuelve el índice del :ref:`GLTFNode<class_GLTFNode>` correspondiente a este nodo de escena de Godot. Esta es la inversa de :ref:`get_scene_node()<class_GLTFState_method_get_scene_node>`. Útil durante el proceso de exportación.
 
@@ -678,7 +758,7 @@ Devuelve el índice del :ref:`GLTFNode<class_GLTFNode>` correspondiente a este n
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFNode<class_GLTFNode>`\] **get_nodes**\ (\ ) :ref:`🔗<class_GLTFState_method_get_nodes>`
+:ref:`Array<class_Array>`\[:ref:`GLTFNode<class_GLTFNode>`\] **get_nodes**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_nodes>`
 
 Devuelve un array de todos los :ref:`GLTFNode<class_GLTFNode>`\ s en el archivo glTF. Estos son los nodos a los que :ref:`GLTFNode.children<class_GLTFNode_property_children>` y :ref:`root_nodes<class_GLTFState_property_root_nodes>` se refieren. Esto incluye los nodos que pueden no ser generados en la escena de Godot, o los nodos que pueden generar múltiples nodos de la escena de Godot.
 
@@ -690,7 +770,7 @@ Devuelve un array de todos los :ref:`GLTFNode<class_GLTFNode>`\ s en el archivo 
 
 .. rst-class:: classref-method
 
-:ref:`Node<class_Node>` **get_scene_node**\ (\ idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GLTFState_method_get_scene_node>`
+:ref:`Node<class_Node>` **get_scene_node**\ (\ gltf_node_index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_GLTFState_method_get_scene_node>`
 
 Devuelve el nodo de la escena de Godot que corresponde al mismo índice que el :ref:`GLTFNode<class_GLTFNode>` del que fue generado. Esta es la inversa de :ref:`get_node_index()<class_GLTFState_method_get_node_index>`. Útil durante el proceso de importación.
 
@@ -704,7 +784,7 @@ Devuelve el nodo de la escena de Godot que corresponde al mismo índice que el :
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFSkeleton<class_GLTFSkeleton>`\] **get_skeletons**\ (\ ) :ref:`🔗<class_GLTFState_method_get_skeletons>`
+:ref:`Array<class_Array>`\[:ref:`GLTFSkeleton<class_GLTFSkeleton>`\] **get_skeletons**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_skeletons>`
 
 Devuelve un array de todos los :ref:`GLTFSkeleton<class_GLTFSkeleton>`\ s en el archivo glTF. Estos son los esqueletos a los que se refiere el índice de :ref:`GLTFNode.skeleton<class_GLTFNode_property_skeleton>`.
 
@@ -716,7 +796,7 @@ Devuelve un array de todos los :ref:`GLTFSkeleton<class_GLTFSkeleton>`\ s en el 
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFSkin<class_GLTFSkin>`\] **get_skins**\ (\ ) :ref:`🔗<class_GLTFState_method_get_skins>`
+:ref:`Array<class_Array>`\[:ref:`GLTFSkin<class_GLTFSkin>`\] **get_skins**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_skins>`
 
 Devuelve un array de todos los :ref:`GLTFSkin<class_GLTFSkin>`\ s en el archivo glTF. Estos son las pieles a las que se refiere el índice de :ref:`GLTFNode.skin<class_GLTFNode_property_skin>`.
 
@@ -728,7 +808,7 @@ Devuelve un array de todos los :ref:`GLTFSkin<class_GLTFSkin>`\ s en el archivo 
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFTextureSampler<class_GLTFTextureSampler>`\] **get_texture_samplers**\ (\ ) :ref:`🔗<class_GLTFState_method_get_texture_samplers>`
+:ref:`Array<class_Array>`\[:ref:`GLTFTextureSampler<class_GLTFTextureSampler>`\] **get_texture_samplers**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_texture_samplers>`
 
 Retrieves the array of texture samplers that are used by the textures contained in the glTF.
 
@@ -740,7 +820,7 @@ Retrieves the array of texture samplers that are used by the textures contained 
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`GLTFTexture<class_GLTFTexture>`\] **get_textures**\ (\ ) :ref:`🔗<class_GLTFState_method_get_textures>`
+:ref:`Array<class_Array>`\[:ref:`GLTFTexture<class_GLTFTexture>`\] **get_textures**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_textures>`
 
 .. container:: contribute
 
@@ -754,7 +834,7 @@ Retrieves the array of texture samplers that are used by the textures contained 
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_unique_animation_names**\ (\ ) :ref:`🔗<class_GLTFState_method_get_unique_animation_names>`
+:ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_unique_animation_names**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_unique_animation_names>`
 
 Devuelve una lista de nombres de animación únicos. Esto solo se usa durante el proceso de importación.
 
@@ -766,7 +846,7 @@ Devuelve una lista de nombres de animación únicos. Esto solo se usa durante el
 
 .. rst-class:: classref-method
 
-:ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_unique_names**\ (\ ) :ref:`🔗<class_GLTFState_method_get_unique_names>`
+:ref:`Array<class_Array>`\[:ref:`String<class_String>`\] **get_unique_names**\ (\ ) |const| :ref:`🔗<class_GLTFState_method_get_unique_names>`
 
 Devuelve una lista de nombres de nodo únicos. Esto se usa tanto en el proceso de importación como en el de exportación.
 
@@ -846,9 +926,9 @@ Establece las :ref:`GLTFCamera<class_GLTFCamera>`\ s en el estado. Estas son las
 
 |void| **set_handle_binary_image**\ (\ method\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GLTFState_method_set_handle_binary_image>`
 
-.. container:: contribute
+**Obsoleto:** Use :ref:`handle_binary_image_mode<class_GLTFState_property_handle_binary_image_mode>` instead.
 
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Deprecated untyped alias for :ref:`handle_binary_image_mode<class_GLTFState_property_handle_binary_image_mode>`. When importing a glTF file with unimported raw binary images embedded inside of binary blob buffers, in data URIs, or separate files not imported by Godot, this controls how the images are handled.
 
 .. rst-class:: classref-item-separator
 

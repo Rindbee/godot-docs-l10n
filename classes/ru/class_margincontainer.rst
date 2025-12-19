@@ -10,6 +10,8 @@ MarginContainer
 
 **Наследует:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
+**Наследуется от:** :ref:`EditorDock<class_EditorDock>`
+
 Контейнер, сохраняющий отступы вокруг своих дочерних элементов управления.
 
 .. rst-class:: classref-introduction-group

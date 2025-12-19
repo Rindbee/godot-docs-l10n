@@ -697,11 +697,11 @@ Divise chaque composante du **Vector2i** par les composantes du **Vector2i** don
 
 :ref:`Vector2<class_Vector2>` **operator /**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Vector2i_operator_div_float>`
 
-Divise chaque composante du **Vector2i** par le flottant :ref:`float<class_float>` donné. Renvoie un :ref:`Vector2<class_Vector2>`.
+Divides each component of the **Vector2i** by the given :ref:`float<class_float>`. Returns a :ref:`Vector2<class_Vector2>`.
 
 ::
 
-    print(Vector2i(10, 20) / 2.9) # Affiche (5.0, 10.0)
+    print(Vector2i(1, 2) / 2.5) # Prints (0.4, 0.8)
 
 .. rst-class:: classref-item-separator
 

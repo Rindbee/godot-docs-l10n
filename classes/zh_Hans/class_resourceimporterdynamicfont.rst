@@ -184,13 +184,13 @@ ResourceImporterDynamicFont
 
 :ref:`int<class_int>` **hinting** = ``1`` :ref:`🔗<class_ResourceImporterDynamicFont_property_hinting>`
 
-要使用的提示模式。这控制在光栅化字体时应如何积极地将字形边缘吸附到像素。根据个人喜好，你可能更喜欢使用一种提示模式而不是另一种。除 **None** 之外的提示模式仅在字体包含提示数据时才有效（请参阅 :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`\ ）。
+The hinting mode to use. This controls how aggressively glyph edges should be snapped to pixels when rasterizing the font. Depending on personal preference, you may prefer using one hinting mode over the other. Hinting modes other than **None** are only effective if the font contains hinting data (see :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`).
 
-\ **None：**\ 最平滑的外观，这会使字体在小尺寸下看起来模糊。
+\ **None:** Smoothest appearance, which can make the font look blurry at small sizes.
 
-\ **Light：**\ 通过仅将字形边缘吸附到 Y 轴上的像素来获得清晰的结果。
+\ **Light:** Sharp result by snapping glyph edges to pixels on the Y axis only.
 
-\ **Full：**\ 通过将字形边缘吸附到 X 轴和 Y 轴上的像素获得最清晰的结果。
+\ **Normal:** Sharpest by snapping glyph edges to pixels on both X and Y axes.
 
 .. rst-class:: classref-item-separator
 

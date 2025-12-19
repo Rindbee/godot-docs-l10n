@@ -163,7 +163,7 @@ Les **MenuBar**\ s "flat" (plats) n'affichent pas la décoration des éléments.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Code de langue utilisé pour les algorithmes de retour à la ligne et de "text shaping". Si vide, la langue locale actuelle est utilisée à la place.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Renvoie l'info-bulle de l'élément du menu.
 
 :ref:`bool<class_bool>` **is_menu_disabled**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_disabled>`
 
-Renvoie ``true`` si l'élément de menu est désactivé.
+Returns ``true`` if the menu item is disabled.
 
 .. rst-class:: classref-item-separator
 
@@ -312,7 +312,7 @@ Renvoie ``true`` si l'élément de menu est désactivé.
 
 :ref:`bool<class_bool>` **is_menu_hidden**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_hidden>`
 
-Renvoie ``true`` si l'élément de menu est caché.
+Returns ``true`` if the menu item is hidden.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Renvoie ``true`` si l'élément de menu est caché.
 
 :ref:`bool<class_bool>` **is_native_menu**\ (\ ) |const| :ref:`🔗<class_MenuBar_method_is_native_menu>`
 
-Renvoie ``true``, si le menu global du système est supporté et utilisé par ce **MenuBar**.
+Returns ``true`` if the current system's global menu is supported and used by this **MenuBar**.
 
 .. rst-class:: classref-item-separator
 

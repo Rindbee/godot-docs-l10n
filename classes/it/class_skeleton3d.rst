@@ -566,7 +566,7 @@ Restituisce la trasformazione di riposo globale per ``bone_idx``.
 
 :ref:`Variant<class_Variant>` **get_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Skeleton3D_method_get_bone_meta>`
 
-Restituisce i metadati per l'osso all'indice ``bone_idx`` con la chiave ``key``.
+Returns the metadata with the given ``key`` for the bone at index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -720,7 +720,7 @@ Utilizzabile per invalidare le cache nei risolutori IK e altri nodi che elaboran
 
 :ref:`bool<class_bool>` **has_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Skeleton3D_method_has_bone_meta>`
 
-Restituisce ``true`` se l'osso all'indice ``bone_idx`` ha metadati con la chiave ``key``.
+Returns ``true`` if the bone at index ``bone_idx`` has metadata with the given ``key``.
 
 .. rst-class:: classref-item-separator
 
@@ -898,7 +898,7 @@ Imposta la trasformazione della posa globale, ``pose``, per l'osso all'indice ``
 
 |void| **set_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_meta>`
 
-Imposta i metadati per l'osso all'indice ``bone_idx``, impostando i metadati con la chiave ``key`` su ``value``.
+Sets the metadata with the given ``key`` to ``value`` for the bone at index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 

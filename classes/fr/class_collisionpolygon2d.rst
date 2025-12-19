@@ -14,9 +14,9 @@ Un nœud qui fournit une forme de polygone à un :ref:`CollisionObject2D<class_C
 Description
 -----------
 
-Un nœud qui fournit une forme de polygone à un :ref:`CollisionObject2D<class_CollisionObject2D>` parent et permet de l'éditer. Le polygone peut être concave ou convexe. Cela peut donner une forme de détection à une :ref:`Area2D<class_Area2D>`, transformer un :ref:`PhysicsBody2D<class_PhysicsBody2D>` en un objet solide, ou donner une forme creuse à un :ref:`StaticBody2D<class_StaticBody2D>`.
+A node that provides a polygon shape to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent and allows it to be edited. The polygon can be concave or convex. This can give a detection shape to an :ref:`Area2D<class_Area2D>`, turn a :ref:`PhysicsBody2D<class_PhysicsBody2D>` into a solid object, or give a hollow shape to a :ref:`StaticBody2D<class_StaticBody2D>`.
 
-\ **Attention :** Un\ **CollisionPolygon2D** avec une échelle non uniforme ne se comportera probablement pas comme prévu. Assurez-vous de garder la même échelle sur tous les axes et ajustez son polygone à la place.
+\ **Warning:** A non-uniformly scaled **CollisionPolygon2D** will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its polygon instead.
 
 .. rst-class:: classref-reftable-group
 

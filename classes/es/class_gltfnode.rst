@@ -309,7 +309,7 @@ Si este nodo glTF tiene una piel, el índice de la :ref:`GLTFSkin<class_GLTFSkin
 - |void| **set_visible**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_visible**\ (\ )
 
-Si es ``true``, el nodo GLTF es visible. Si es ``false``, el nodo GLTF no es visible. Esto se traduce a la propiedad :ref:`Node3D.visible<class_Node3D_property_visible>` en la escena de Godot, y se exporta a ``KHR_node_visibility`` cuando ``false``.
+If ``true``, the GLTF node is visible. If ``false``, the GLTF node is not visible. This is converted to the :ref:`Node3D.visible<class_Node3D_property_visible>` property in the Godot scene, and is exported to ``KHR_node_visibility`` when ``false``.
 
 .. rst-class:: classref-item-separator
 

@@ -257,7 +257,9 @@ enum **RotationEditMode**: :ref:`🔗<enum_Node3D_RotationEditMode>`
 
 **NOTIFICATION_EXIT_WORLD** = ``42`` :ref:`🔗<class_Node3D_constant_NOTIFICATION_EXIT_WORLD>`
 
-Сповіщення, отримане, коли цей вузол відреєстровано в поточному :ref:`World3D<class_World3D>` (див. :ref:`get_world_3d()<class_Node3D_method_get_world_3d>`).
+Notification received when this node is unregistered from the current :ref:`World3D<class_World3D>` (see :ref:`get_world_3d()<class_Node3D_method_get_world_3d>`).
+
+This notification is sent in reversed order.
 
 .. _class_Node3D_constant_NOTIFICATION_VISIBILITY_CHANGED:
 

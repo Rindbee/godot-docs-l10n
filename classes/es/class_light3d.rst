@@ -491,7 +491,7 @@ El modo de procesado de la luz. Esto afectará a las técnicas de iluminación g
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-El color de la luz en el espacio de color sRGB no lineal. Se puede usar un color *sobrebrillante* para lograr un resultado equivalente a aumentar la :ref:`light_energy<class_Light3D_property_light_energy>` de la luz.
+The light's color in nonlinear sRGB encoding. An *overbright* color can be used to achieve a result equivalent to increasing the light's :ref:`light_energy<class_Light3D_property_light_energy>`.
 
 .. rst-class:: classref-item-separator
 

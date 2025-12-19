@@ -14,22 +14,22 @@ Proporciona el contenido de un :ref:`Viewport<class_Viewport>` como una textura 
 Descripción
 ----------------------
 
-Un **ViewportTexture** proporciona el contenido de un :ref:`Viewport<class_Viewport>` como una :ref:`Texture2D<class_Texture2D>` dinámica. Esto se puede utilizar para combinar el renderizado de nodos :ref:`Control<class_Control>`, :ref:`Node2D<class_Node2D>` y :ref:`Node3D<class_Node3D>`. Por ejemplo, puedes utilizar esta textura para mostrar una escena 3D dentro de un :ref:`TextureRect<class_TextureRect>`, o una superposición 2D en un :ref:`Sprite3D<class_Sprite3D>`.
+A **ViewportTexture** provides the content of a :ref:`Viewport<class_Viewport>` as a dynamic :ref:`Texture2D<class_Texture2D>`. This can be used to combine the rendering of :ref:`Control<class_Control>`, :ref:`Node2D<class_Node2D>` and :ref:`Node3D<class_Node3D>` nodes. For example, you can use this texture to display a 3D scene inside a :ref:`TextureRect<class_TextureRect>`, or a 2D overlay in a :ref:`Sprite3D<class_Sprite3D>`.
 
-Para obtener un **ViewportTexture** en el código, utiliza el método :ref:`Viewport.get_texture()<class_Viewport_method_get_texture>` en el viewport de destino.
+To get a **ViewportTexture** in code, use the :ref:`Viewport.get_texture()<class_Viewport_method_get_texture>` method on the target viewport.
 
-\ **Nota:** Un **ViewportTexture** es siempre local a su escena (véase :ref:`Resource.resource_local_to_scene<class_Resource_property_resource_local_to_scene>`). Si la raíz de la escena no está lista, puede devolver datos incorrectos (véase :ref:`Node.ready<class_Node_signal_ready>`).
+\ **Note:** A **ViewportTexture** is always local to its scene (see :ref:`Resource.resource_local_to_scene<class_Resource_property_resource_local_to_scene>`). If the scene root is not ready, it may return incorrect data (see :ref:`Node.ready<class_Node_signal_ready>`).
 
-\ **Nota:** Instanciar escenas que contengan un **ViewportTexture** de alta resolución puede causar tartamudeo notable.
+\ **Note:** Instantiating scenes containing a high-resolution **ViewportTexture** may cause noticeable stutter.
 
-\ **Nota:** Cuando se utiliza un :ref:`Viewport<class_Viewport>` con :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` establecido en ``true``, la textura devuelta será una imagen HDR codificada en espacio lineal. Esto puede verse más oscuro de lo normal cuando se muestra directamente en la pantalla. Para convertir al espacio gamma, puedes hacer lo siguiente:
+\ **Note:** When using a :ref:`Viewport<class_Viewport>` with :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` set to ``true``, the returned texture will be an HDR image that uses linear encoding. This may look darker than normal when displayed directly on screen. To convert to nonlinear sRGB encoding, you can do the following:
 
 ::
 
     img.convert(Image.FORMAT_RGBA8)
-    imb.linear_to_srgb()
+    img.linear_to_srgb()
 
-\ **Nota:** Algunos nodos como :ref:`Decal<class_Decal>`, :ref:`Light3D<class_Light3D>` y :ref:`PointLight2D<class_PointLight2D>` no soportan el uso de **ViewportTexture** directamente. Para utilizar los datos de textura de un **ViewportTexture** en estos nodos, es necesario crear un :ref:`ImageTexture<class_ImageTexture>` llamando a :ref:`Texture2D.get_image()<class_Texture2D_method_get_image>` en el **ViewportTexture** y pasando el resultado a :ref:`ImageTexture.create_from_image()<class_ImageTexture_method_create_from_image>`. Esta conversión es una operación lenta, por lo que no debe realizarse en cada fotograma.
+\ **Note:** Some nodes such as :ref:`Decal<class_Decal>`, :ref:`Light3D<class_Light3D>`, and :ref:`PointLight2D<class_PointLight2D>` do not support using **ViewportTexture** directly. To use texture data from a **ViewportTexture** in these nodes, you need to create an :ref:`ImageTexture<class_ImageTexture>` by calling :ref:`Texture2D.get_image()<class_Texture2D_method_get_image>` on the **ViewportTexture** and passing the result to :ref:`ImageTexture.create_from_image()<class_ImageTexture_method_create_from_image>`. This conversion is a slow operation, so it should not be performed every frame.
 
 .. rst-class:: classref-introduction-group
 

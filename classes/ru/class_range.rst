@@ -255,7 +255,7 @@ Range — абстрактный базовый класс для элемент
 - |void| **set_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_step**\ (\ )
 
-Если значение больше 0, :ref:`value<class_Range_property_value>` всегда будет округляться до значения, кратного значению этого свойства, превышающего :ref:`min_value<class_Range_property_min_value>`. Например, если :ref:`min_value<class_Range_property_min_value>` равно ``0.1``, а шаг равен 0.2, то :ref:`value<class_Range_property_value>` будет ограничено значениями ``0.1``, ``0.3``, ``0.5`` и т. д. Если :ref:`rounded<class_Range_property_rounded>` также равно ``true``, :ref:`value<class_Range_property_value>` сначала будет округлено до значения, кратного значению этого свойства, а затем до ближайшего целого числа.
+If greater than ``0.0``, :ref:`value<class_Range_property_value>` will always be rounded to a multiple of this property's value above :ref:`min_value<class_Range_property_min_value>`. For example, if :ref:`min_value<class_Range_property_min_value>` is ``0.1`` and step is ``0.2``, then :ref:`value<class_Range_property_value>` is limited to ``0.1``, ``0.3``, ``0.5``, and so on. If :ref:`rounded<class_Range_property_rounded>` is also ``true``, :ref:`value<class_Range_property_value>` will first be rounded to a multiple of this property's value, then rounded to the nearest integer.
 
 .. rst-class:: classref-item-separator
 

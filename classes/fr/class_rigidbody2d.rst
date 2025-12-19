@@ -558,11 +558,11 @@ Définir cette propriété appellera la méthode :ref:`PhysicsServer2D.body_set_
 - |void| **set_freeze_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_freeze_enabled**\ (\ )
 
-Si ``true``, le corps est gelé. La gravité et les forces ne sont plus appliquées.
+If ``true``, the body is frozen. Gravity and forces are not applied anymore.
 
-Voir :ref:`freeze_mode<class_RigidBody2D_property_freeze_mode>` pour définir le comportement du corps lorsqu'il est gelé.
+See :ref:`freeze_mode<class_RigidBody2D_property_freeze_mode>` to set the body's behavior when frozen.
 
-Pour un corps qui est toujours gelé, utilisez :ref:`StaticBody2D<class_StaticBody2D>` ou :ref:`AnimatableBody2D<class_AnimatableBody2D>` à la place.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -579,9 +579,9 @@ Pour un corps qui est toujours gelé, utilisez :ref:`StaticBody2D<class_StaticBo
 - |void| **set_freeze_mode**\ (\ value\: :ref:`FreezeMode<enum_RigidBody2D_FreezeMode>`\ )
 - :ref:`FreezeMode<enum_RigidBody2D_FreezeMode>` **get_freeze_mode**\ (\ )
 
-Le mode de gel du corps. Peut être utilisé pour définir le comportement du corps lorsque :ref:`freeze<class_RigidBody2D_property_freeze>` est activé.
+The body's freeze mode. Determines the body's behavior when :ref:`freeze<class_RigidBody2D_property_freeze>` is ``true``.
 
-Pour un corps toujours gelé, utilisez :ref:`StaticBody2D<class_StaticBody2D>` ou :ref:`AnimatableBody2D<class_AnimatableBody2D>` à la place.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
 
 .. rst-class:: classref-item-separator
 

@@ -5,7 +5,7 @@
 TCPServer
 =========
 
-**Успадковує:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
+**Успадковує:** :ref:`SocketServer<class_SocketServer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
 Сервер TCP.
 
@@ -29,13 +29,7 @@ TCPServer
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                     | :ref:`get_local_port<class_TCPServer_method_get_local_port>`\ (\ ) |const|                                                         |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                   | :ref:`is_connection_available<class_TCPServer_method_is_connection_available>`\ (\ ) |const|                                       |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                   | :ref:`is_listening<class_TCPServer_method_is_listening>`\ (\ ) |const|                                                             |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`     | :ref:`listen<class_TCPServer_method_listen>`\ (\ port\: :ref:`int<class_int>`, bind_address\: :ref:`String<class_String>` = "*"\ ) |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                    | :ref:`stop<class_TCPServer_method_stop>`\ (\ )                                                                                     |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`StreamPeerTCP<class_StreamPeerTCP>` | :ref:`take_connection<class_TCPServer_method_take_connection>`\ (\ )                                                               |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -61,30 +55,6 @@ TCPServer
 
 ----
 
-.. _class_TCPServer_method_is_connection_available:
-
-.. rst-class:: classref-method
-
-:ref:`bool<class_bool>` **is_connection_available**\ (\ ) |const| :ref:`🔗<class_TCPServer_method_is_connection_available>`
-
-Повертаємо ``true``, якщо підключення доступно для прийому.
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_TCPServer_method_is_listening:
-
-.. rst-class:: classref-method
-
-:ref:`bool<class_bool>` **is_listening**\ (\ ) |const| :ref:`🔗<class_TCPServer_method_is_listening>`
-
-Повертає ``true``, якщо сервер в даний час слухає для підключення.
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_TCPServer_method_listen:
 
 .. rst-class:: classref-method
@@ -98,18 +68,6 @@ TCPServer
 Якщо ``bind_address`` встановлюється як ``"0.0.0.0"`` (для IPv4) або ``:"`` (для IPv6), сервер буде слухати всі доступні адреси, що відповідають типу IP.
 
 Якщо ``bind_address`` встановлюється на будь-яку дійсну адресу (наприклад, ``"192.168.1.101"``, ``::1"`` і т.д.), сервер буде слухати тільки інтерфейс з цією адресою (або не вдалося, якщо не існує інтерфейсу з вказаною адресою).
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_TCPServer_method_stop:
-
-.. rst-class:: classref-method
-
-|void| **stop**\ (\ ) :ref:`🔗<class_TCPServer_method_stop>`
-
-Стопи прослуховування.
 
 .. rst-class:: classref-item-separator
 

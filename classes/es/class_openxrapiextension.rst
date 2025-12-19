@@ -66,6 +66,8 @@ Métodos
    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                                                   | :ref:`get_next_frame_time<class_OpenXRAPIExtension_method_get_next_frame_time>`\ (\ )                                                                                                                                                                                                                                                                       |
    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                                                   | :ref:`get_openxr_version<class_OpenXRAPIExtension_method_get_openxr_version>`\ (\ )                                                                                                                                                                                                                                                                         |
+   +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                                                   | :ref:`get_play_space<class_OpenXRAPIExtension_method_get_play_space>`\ (\ )                                                                                                                                                                                                                                                                                 |
    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                                                   | :ref:`get_predicted_display_time<class_OpenXRAPIExtension_method_get_predicted_display_time>`\ (\ )                                                                                                                                                                                                                                                         |
@@ -133,6 +135,8 @@ Métodos
    | |void|                                                                                  | :ref:`unregister_frame_info_extension<class_OpenXRAPIExtension_method_unregister_frame_info_extension>`\ (\ extension\: :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`\ )                                                                                                                                                                      |
    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                                  | :ref:`unregister_projection_views_extension<class_OpenXRAPIExtension_method_unregister_projection_views_extension>`\ (\ extension\: :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`\ )                                                                                                                                                          |
+   +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                                                  | :ref:`update_main_swapchain_size<class_OpenXRAPIExtension_method_update_main_swapchain_size>`\ (\ )                                                                                                                                                                                                                                                         |
    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                 | :ref:`xr_result<class_OpenXRAPIExtension_method_xr_result>`\ (\ result\: :ref:`int<class_int>`, format\: :ref:`String<class_String>`, args\: :ref:`Array<class_Array>`\ )                                                                                                                                                                                   |
    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -307,6 +311,18 @@ Returns the predicted display timing for the next frame.
 
 ----
 
+.. _class_OpenXRAPIExtension_method_get_openxr_version:
+
+.. rst-class:: classref-method
+
+:ref:`int<class_int>` **get_openxr_version**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_get_openxr_version>`
+
+Returns the version of OpenXR that was initialized. Only valid after the OpenXR instance has been created. See `XR_MAKE_VERSION <https://registry.khronos.org/OpenXR/specs/1.1/html/xrspec.html#XR_MAKE_VERSION>`__ for how the version is calculated.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_OpenXRAPIExtension_method_get_play_space:
 
 .. rst-class:: classref-method
@@ -415,7 +431,7 @@ Returns the name of the specified swapchain format.
 
 :ref:`int<class_int>` **get_system_id**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_get_system_id>`
 
-Returns the id of the system, which is an `XrSystemId <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSystemId.html>`__ cast to an integer.
+Returns the ID of the system, which is an `XrSystemId <https://registry.khronos.org/OpenXR/specs/1.0/man/html/XrSystemId.html>`__ cast to an integer.
 
 .. rst-class:: classref-item-separator
 
@@ -561,6 +577,8 @@ Releases the image of the provided swapchain.
 
 Registers the given extension as a composition layer provider.
 
+\ **Note:** This cannot be called after the OpenXR session has started. However, it can be called in :ref:`OpenXRExtensionWrapper._on_session_created()<class_OpenXRExtensionWrapper_private_method__on_session_created>`.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -573,6 +591,8 @@ Registers the given extension as a composition layer provider.
 
 Registers the given extension as modifying frame info via the :ref:`OpenXRExtensionWrapper._set_frame_wait_info_and_get_next_pointer()<class_OpenXRExtensionWrapper_private_method__set_frame_wait_info_and_get_next_pointer>`, :ref:`OpenXRExtensionWrapper._set_view_locate_info_and_get_next_pointer()<class_OpenXRExtensionWrapper_private_method__set_view_locate_info_and_get_next_pointer>`, or :ref:`OpenXRExtensionWrapper._set_frame_end_info_and_get_next_pointer()<class_OpenXRExtensionWrapper_private_method__set_frame_end_info_and_get_next_pointer>` virtual methods.
 
+\ **Note:** This cannot be called after the OpenXR session has started. However, it can be called in :ref:`OpenXRExtensionWrapper._on_session_created()<class_OpenXRExtensionWrapper_private_method__on_session_created>`.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -583,7 +603,9 @@ Registers the given extension as modifying frame info via the :ref:`OpenXRExtens
 
 |void| **register_projection_views_extension**\ (\ extension\: :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`\ ) :ref:`🔗<class_OpenXRAPIExtension_method_register_projection_views_extension>`
 
-Registra la extensión dada como un proveedor de estructuras de datos adicionales para las vistas de proyección.
+Registers the given extension as a provider of additional data structures to projections views.
+
+\ **Note:** This cannot be called after the OpenXR session has started. However, it can be called in :ref:`OpenXRExtensionWrapper._on_session_created()<class_OpenXRExtensionWrapper_private_method__on_session_created>`.
 
 .. rst-class:: classref-item-separator
 
@@ -693,6 +715,8 @@ Creates a :ref:`Transform3D<class_Transform3D>` from an `XrPosef <https://regist
 
 Unregisters the given extension as a composition layer provider.
 
+\ **Note:** This cannot be called while the OpenXR session is still running.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -705,6 +729,8 @@ Unregisters the given extension as a composition layer provider.
 
 Unregisters the given extension as modifying frame info.
 
+\ **Note:** This cannot be called while the OpenXR session is still running.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -716,6 +742,20 @@ Unregisters the given extension as modifying frame info.
 |void| **unregister_projection_views_extension**\ (\ extension\: :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`\ ) :ref:`🔗<class_OpenXRAPIExtension_method_unregister_projection_views_extension>`
 
 Unregisters the given extension as a provider of additional data structures to projections views.
+
+\ **Note:** This cannot be called while the OpenXR session is still running.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_OpenXRAPIExtension_method_update_main_swapchain_size:
+
+.. rst-class:: classref-method
+
+|void| **update_main_swapchain_size**\ (\ ) :ref:`🔗<class_OpenXRAPIExtension_method_update_main_swapchain_size>`
+
+Request the recommended resolution from the OpenXR runtime and update the main swapchain size if it has changed.
 
 .. rst-class:: classref-item-separator
 

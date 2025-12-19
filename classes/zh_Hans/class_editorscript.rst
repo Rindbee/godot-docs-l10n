@@ -95,6 +95,8 @@ EditorScript
 
 |void| **add_root_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorScript_method_add_root_node>`
 
+**已弃用：** Use :ref:`EditorInterface.add_root_node()<class_EditorInterface_method_add_root_node>` instead.
+
 使 ``node`` 成为当前打开的场景的根。仅当场景为空时才有效。如果 ``node`` 是场景实例，则会创建一个继承场景。
 
 .. rst-class:: classref-item-separator
@@ -120,6 +122,8 @@ EditorScript
 .. rst-class:: classref-method
 
 :ref:`Node<class_Node>` **get_scene**\ (\ ) |const| :ref:`🔗<class_EditorScript_method_get_scene>`
+
+**已弃用：** Use :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>` instead.
 
 返回正在编辑的（当前）场景的根 :ref:`Node<class_Node>`\ 。相当于 :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>`\ 。
 

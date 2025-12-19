@@ -58,7 +58,11 @@ Méthodes
    :widths: auto
 
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GLTFBufferView<class_GLTFBufferView>`   | :ref:`from_dictionary<class_GLTFBufferView_method_from_dictionary>`\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static|     |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>` | :ref:`load_buffer_view_data<class_GLTFBufferView_method_load_buffer_view_data>`\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) |const| |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Dictionary<class_Dictionary>`           | :ref:`to_dictionary<class_GLTFBufferView_method_to_dictionary>`\ (\ ) |const|                                                            |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
@@ -177,6 +181,18 @@ The stride, in bytes, between interleaved data. If ``-1``, this buffer view is n
 Descriptions des méthodes
 --------------------------------------------------
 
+.. _class_GLTFBufferView_method_from_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`GLTFBufferView<class_GLTFBufferView>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFBufferView_method_from_dictionary>`
+
+Creates a new GLTFBufferView instance by parsing the given :ref:`Dictionary<class_Dictionary>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_GLTFBufferView_method_load_buffer_view_data:
 
 .. rst-class:: classref-method
@@ -184,6 +200,18 @@ Descriptions des méthodes
 :ref:`PackedByteArray<class_PackedByteArray>` **load_buffer_view_data**\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) |const| :ref:`🔗<class_GLTFBufferView_method_load_buffer_view_data>`
 
 Loads the buffer view data from the buffer referenced by this buffer view in the given :ref:`GLTFState<class_GLTFState>`. Interleaved data with a byte stride is not yet supported by this method. The data is returned as a :ref:`PackedByteArray<class_PackedByteArray>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GLTFBufferView_method_to_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFBufferView_method_to_dictionary>`
+
+Serializes this GLTFBufferView instance into a :ref:`Dictionary<class_Dictionary>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

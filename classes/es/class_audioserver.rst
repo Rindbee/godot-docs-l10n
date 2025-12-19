@@ -86,7 +86,13 @@ Métodos
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                           | :ref:`get_driver_name<class_AudioServer_method_get_driver_name>`\ (\ ) |const|                                                                                                                   |
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                 | :ref:`get_input_buffer_length_frames<class_AudioServer_method_get_input_buffer_length_frames>`\ (\ )                                                                                             |
+   +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedStringArray<class_PackedStringArray>`     | :ref:`get_input_device_list<class_AudioServer_method_get_input_device_list>`\ (\ )                                                                                                               |
+   +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedVector2Array<class_PackedVector2Array>`   | :ref:`get_input_frames<class_AudioServer_method_get_input_frames>`\ (\ frames\: :ref:`int<class_int>`\ )                                                                                         |
+   +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                 | :ref:`get_input_frames_available<class_AudioServer_method_get_input_frames_available>`\ (\ )                                                                                                     |
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                             | :ref:`get_input_mix_rate<class_AudioServer_method_get_input_mix_rate>`\ (\ ) |const|                                                                                                             |
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -141,6 +147,8 @@ Métodos
    | |void|                                                | :ref:`set_bus_volume_linear<class_AudioServer_method_set_bus_volume_linear>`\ (\ bus_idx\: :ref:`int<class_int>`, volume_linear\: :ref:`float<class_float>`\ )                                   |
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                | :ref:`set_enable_tagging_used_audio_streams<class_AudioServer_method_set_enable_tagging_used_audio_streams>`\ (\ enable\: :ref:`bool<class_bool>`\ )                                             |
+   +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`                 | :ref:`set_input_device_active<class_AudioServer_method_set_input_device_active>`\ (\ active\: :ref:`bool<class_bool>`\ )                                                                         |
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                | :ref:`swap_bus_effects<class_AudioServer_method_swap_bus_effects>`\ (\ bus_idx\: :ref:`int<class_int>`, effect_idx\: :ref:`int<class_int>`, by_effect_idx\: :ref:`int<class_int>`\ )             |
    +-------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -543,6 +551,20 @@ Devuelve el nombre del controlador de audio actual. El valor predeterminado suel
 
 ----
 
+.. _class_AudioServer_method_get_input_buffer_length_frames:
+
+.. rst-class:: classref-method
+
+:ref:`int<class_int>` **get_input_buffer_length_frames**\ (\ ) :ref:`🔗<class_AudioServer_method_get_input_buffer_length_frames>`
+
+**Experimental:** Este método podría ser modificado o eliminado en versiones futuras.
+
+Returns the absolute size of the microphone input buffer. This is set to a multiple of the audio latency and can be used to estimate the minimum rate at which the frames need to be fetched.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_AudioServer_method_get_input_device_list:
 
 .. rst-class:: classref-method
@@ -552,6 +574,38 @@ Devuelve el nombre del controlador de audio actual. El valor predeterminado suel
 Devuelve los nombres de todos los dispositivos de entrada de audio detectados en el sistema.
 
 \ **Nota:** El valor de :ref:`ProjectSettings.audio/driver/enable_input<class_ProjectSettings_property_audio/driver/enable_input>` debe ser ``true`` para que la entrada de audio funcione. Consulta también la descripción de esta configuración para conocer las advertencias relacionadas con los permisos y la configuración de privacidad del sistema operativo.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_AudioServer_method_get_input_frames:
+
+.. rst-class:: classref-method
+
+:ref:`PackedVector2Array<class_PackedVector2Array>` **get_input_frames**\ (\ frames\: :ref:`int<class_int>`\ ) :ref:`🔗<class_AudioServer_method_get_input_frames>`
+
+**Experimental:** Este método podría ser modificado o eliminado en versiones futuras.
+
+Returns a :ref:`PackedVector2Array<class_PackedVector2Array>` containing exactly ``frames`` audio samples from the internal microphone buffer if available, otherwise returns an empty :ref:`PackedVector2Array<class_PackedVector2Array>`.
+
+The buffer is filled at the rate of :ref:`get_input_mix_rate()<class_AudioServer_method_get_input_mix_rate>` frames per second when :ref:`set_input_device_active()<class_AudioServer_method_set_input_device_active>` has successfully been set to ``true``.
+
+The samples are signed floating-point PCM values between ``-1`` and ``1``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_AudioServer_method_get_input_frames_available:
+
+.. rst-class:: classref-method
+
+:ref:`int<class_int>` **get_input_frames_available**\ (\ ) :ref:`🔗<class_AudioServer_method_get_input_frames_available>`
+
+**Experimental:** Este método podría ser modificado o eliminado en versiones futuras.
+
+Returns the number of frames available to read using :ref:`get_input_frames()<class_AudioServer_method_get_input_frames>`.
 
 .. rst-class:: classref-item-separator
 
@@ -892,6 +946,22 @@ Establece el volumen como un valor lineal del bus en el índice ``bus_idx`` a ``
 Si se establece como ``true``, todas las instancias de :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` llamarán a :ref:`AudioStreamPlayback._tag_used_streams()<class_AudioStreamPlayback_private_method__tag_used_streams>` en cada paso de la mezcla.
 
 \ **Nota:** Esta opción está habilitada de forma predeterminada en el editor, ya que la utilizan los plugins del editor para las vistas previas de las transmisiones de audio.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_AudioServer_method_set_input_device_active:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **set_input_device_active**\ (\ active\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_AudioServer_method_set_input_device_active>`
+
+**Experimental:** Este método podría ser modificado o eliminado en versiones futuras.
+
+If ``active`` is ``true``, starts the microphone input stream specified by :ref:`input_device<class_AudioServer_property_input_device>` or returns an error if it failed.
+
+If ``active`` is ``false``, stops the input stream if it is running.
 
 .. rst-class:: classref-item-separator
 

@@ -26,25 +26,27 @@ Godot 编辑器用于编辑数值的控件。
 .. table::
    :widths: auto
 
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                | :ref:`editing_integer<class_EditorSpinSlider_property_editing_integer>` | ``false``                                                                    |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                | :ref:`flat<class_EditorSpinSlider_property_flat>`                       | ``false``                                                                    |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`FocusMode<enum_Control_FocusMode>`               | focus_mode                                                              | ``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)          |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                | :ref:`hide_slider<class_EditorSpinSlider_property_hide_slider>`         | ``false``                                                                    |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`String<class_String>`                            | :ref:`label<class_EditorSpinSlider_property_label>`                     | ``""``                                                                       |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                | :ref:`read_only<class_EditorSpinSlider_property_read_only>`             | ``false``                                                                    |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | |bitfield|\[:ref:`SizeFlags<enum_Control_SizeFlags>`\] | size_flags_vertical                                                     | ``1`` (overrides :ref:`Control<class_Control_property_size_flags_vertical>`) |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                              | step                                                                    | ``1.0`` (overrides :ref:`Range<class_Range_property_step>`)                  |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`String<class_String>`                            | :ref:`suffix<class_EditorSpinSlider_property_suffix>`                   | ``""``                                                                       |
-   +--------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`ControlState<enum_EditorSpinSlider_ControlState>` | :ref:`control_state<class_EditorSpinSlider_property_control_state>`     | ``0``                                                                        |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                 | :ref:`editing_integer<class_EditorSpinSlider_property_editing_integer>` | ``false``                                                                    |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                 | :ref:`flat<class_EditorSpinSlider_property_flat>`                       | ``false``                                                                    |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`FocusMode<enum_Control_FocusMode>`                | focus_mode                                                              | ``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)          |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                 | :ref:`hide_slider<class_EditorSpinSlider_property_hide_slider>`         | ``false``                                                                    |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`                             | :ref:`label<class_EditorSpinSlider_property_label>`                     | ``""``                                                                       |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                 | :ref:`read_only<class_EditorSpinSlider_property_read_only>`             | ``false``                                                                    |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | |bitfield|\[:ref:`SizeFlags<enum_Control_SizeFlags>`\]  | size_flags_vertical                                                     | ``1`` (overrides :ref:`Control<class_Control_property_size_flags_vertical>`) |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                               | step                                                                    | ``1.0`` (overrides :ref:`Range<class_Range_property_step>`)                  |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`                             | :ref:`suffix<class_EditorSpinSlider_property_suffix>`                   | ``""``                                                                       |
+   +---------------------------------------------------------+-------------------------------------------------------------------------+------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -131,8 +133,64 @@ Godot 编辑器用于编辑数值的控件。
 
 .. rst-class:: classref-descriptions-group
 
+枚举
+----
+
+.. _enum_EditorSpinSlider_ControlState:
+
+.. rst-class:: classref-enumeration
+
+enum **ControlState**: :ref:`🔗<enum_EditorSpinSlider_ControlState>`
+
+.. _class_EditorSpinSlider_constant_CONTROL_STATE_DEFAULT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ControlState<enum_EditorSpinSlider_ControlState>` **CONTROL_STATE_DEFAULT** = ``0``
+
+The type of control used will depend on the value of :ref:`editing_integer<class_EditorSpinSlider_property_editing_integer>`. Up-down arrows if ``true``, a slider if ``false``.
+
+.. _class_EditorSpinSlider_constant_CONTROL_STATE_PREFER_SLIDER:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ControlState<enum_EditorSpinSlider_ControlState>` **CONTROL_STATE_PREFER_SLIDER** = ``1``
+
+A slider will always be used, even if :ref:`editing_integer<class_EditorSpinSlider_property_editing_integer>` is enabled.
+
+.. _class_EditorSpinSlider_constant_CONTROL_STATE_HIDE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ControlState<enum_EditorSpinSlider_ControlState>` **CONTROL_STATE_HIDE** = ``2``
+
+Neither the up-down arrows nor the slider will be shown.
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
 属性说明
 --------
+
+.. _class_EditorSpinSlider_property_control_state:
+
+.. rst-class:: classref-property
+
+:ref:`ControlState<enum_EditorSpinSlider_ControlState>` **control_state** = ``0`` :ref:`🔗<class_EditorSpinSlider_property_control_state>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_control_state**\ (\ value\: :ref:`ControlState<enum_EditorSpinSlider_ControlState>`\ )
+- :ref:`ControlState<enum_EditorSpinSlider_ControlState>` **get_control_state**\ (\ )
+
+The state in which the control used to manipulate the value will be.
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_EditorSpinSlider_property_editing_integer:
 
@@ -145,7 +203,7 @@ Godot 编辑器用于编辑数值的控件。
 - |void| **set_editing_integer**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_integer**\ (\ )
 
-如果为 ``true``\ ，则 **EditorSpinSlider** 会认为正在编辑整数值。如果为 ``false``\ ，则 **EditorSpinSlider** 会认为正在编辑浮点数值。用于确定是否绘制滑杆。只有浮点数才会绘制滑杆；整数使用的是类似于 :ref:`SpinBox<class_SpinBox>` 的上下箭头。
+If ``true``, the **EditorSpinSlider** is considered to be editing an integer value. If ``false``, the **EditorSpinSlider** is considered to be editing a floating-point value. This is used to determine whether a slider should be drawn by default. The slider is only drawn for floats; integers use up-down arrows similar to :ref:`SpinBox<class_SpinBox>` instead, unless :ref:`control_state<class_EditorSpinSlider_property_control_state>` is set to :ref:`CONTROL_STATE_PREFER_SLIDER<class_EditorSpinSlider_constant_CONTROL_STATE_PREFER_SLIDER>`. It will also use :ref:`EditorSettings.interface/inspector/integer_drag_speed<class_EditorSettings_property_interface/inspector/integer_drag_speed>` instead of :ref:`EditorSettings.interface/inspector/float_drag_speed<class_EditorSettings_property_interface/inspector/float_drag_speed>` if the slider is available.
 
 .. rst-class:: classref-item-separator
 
@@ -178,6 +236,8 @@ Godot 编辑器用于编辑数值的控件。
 
 - |void| **set_hide_slider**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_hiding_slider**\ (\ )
+
+**已弃用：** Use :ref:`control_state<class_EditorSpinSlider_property_control_state>` instead.
 
 如果为 ``true``\ ，则隐藏滑块和向上/向下箭头。
 

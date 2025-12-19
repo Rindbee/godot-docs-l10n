@@ -184,13 +184,13 @@ ResourceImporterDynamicFont
 
 :ref:`int<class_int>` **hinting** = ``1`` :ref:`🔗<class_ResourceImporterDynamicFont_property_hinting>`
 
-Режим хинтинга для использования. Он контролирует, насколько агрессивно края глифов должны быть привязаны к пикселям при растрировании шрифта. В зависимости от личных предпочтений вы можете предпочесть использовать один режим хинтинга другому. Режимы хинтинга, отличные от **None**, эффективны только в том случае, если шрифт содержит данные хинтинга (см. :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`).
+The hinting mode to use. This controls how aggressively glyph edges should be snapped to pixels when rasterizing the font. Depending on personal preference, you may prefer using one hinting mode over the other. Hinting modes other than **None** are only effective if the font contains hinting data (see :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`).
 
-\ **None:** Самый плавный вид, из-за которого шрифт может выглядеть размытым при малых размерах.
+\ **None:** Smoothest appearance, which can make the font look blurry at small sizes.
 
-\ **Light:** Резкий результат за счет привязки краев глифов к пикселям только по оси Y.
+\ **Light:** Sharp result by snapping glyph edges to pixels on the Y axis only.
 
-\ **Full:** Самый резкий результат за счет привязки краев глифов к пикселям как по оси X, так и по оси Y.
+\ **Normal:** Sharpest by snapping glyph edges to pixels on both X and Y axes.
 
 .. rst-class:: classref-item-separator
 

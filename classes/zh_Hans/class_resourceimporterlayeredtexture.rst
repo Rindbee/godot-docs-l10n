@@ -68,13 +68,13 @@ ResourceImporterLayeredTexture
 
 :ref:`int<class_int>` **compress/channel_pack** = ``0`` :ref:`🔗<class_ResourceImporterLayeredTexture_property_compress/channel_pack>`
 
-控制在导入的纹理中应如何使用颜色通道。
+Controls how color channels should be used in the imported texture.
 
-\ **sRGB 友好：**\ 阻止使用 RG 颜色格式，因为它不支持 sRGB 颜色。
+\ **sRGB Friendly:**, prevents the R and RG color formats from being used, as they do not support nonlinear sRGB encoding.
 
-\ **优化：**\ 如果纹理不使用蓝色通道，则允许使用 RG 颜色格式。如果可以丢弃纹理的蓝色通道（所有像素的蓝色值必须为 ``0``\ ），则可以减少内存使用量。
+\ **Optimized:**, allows the RG color format to be used if the texture does not use the blue channel. This reduces memory usage if the texture's blue channel can be discarded (all pixels must have a blue value of ``0``).
 
-\ **法线贴图（RG 通道）：**\ 这会强制使用 RG 颜色格式导入纹理中的所有图层，仅保留红色和绿色通道。RGTC（红绿纹理压缩）压缩能够更好地保留细节，同时使用与标准 RGBA VRAM 压缩纹理相同的内存量。这仅对具有 VRAM 压缩或 Basis Universal 压缩模式的纹理有影响。该模式仅适用于分层纹理（\ :ref:`Cubemap<class_Cubemap>`\ 、\ :ref:`CubemapArray<class_CubemapArray>`\ 、\ :ref:`Texture2DArray<class_Texture2DArray>` 和 :ref:`Texture3D<class_Texture3D>`\ ）。
+\ **Normal Map (RG Channels):** This forces all layers from the texture to be imported with the RG color format, with only the red and green channels preserved. RGTC (Red-Green Texture Compression) compression is able to preserve its detail much better, while using the same amount of memory as a standard RGBA VRAM-compressed texture. This only has an effect on textures with the VRAM Compressed or Basis Universal compression modes. This mode is only available in layered textures (:ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>` and :ref:`Texture3D<class_Texture3D>`).
 
 .. rst-class:: classref-item-separator
 

@@ -23,6 +23,35 @@ Tutoriels
 
 - `Créer des greffons Android <../tutorials/platform/android/android_plugin.html#doc-android-plugin>`__
 
+.. rst-class:: classref-reftable-group
+
+Méthodes
+----------------
+
+.. table::
+   :widths: auto
+
+   +-------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>` | :ref:`has_java_method<class_JNISingleton_method_has_java_method>`\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| |
+   +-------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Descriptions des méthodes
+--------------------------------------------------
+
+.. _class_JNISingleton_method_has_java_method:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **has_java_method**\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_JNISingleton_method_has_java_method>`
+
+Returns ``true`` if the given ``method`` name exists in the JNISingleton's Java methods.
+
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`
 .. |const| replace:: :abbr:`const (Cette méthode n'a pas d'effets de bord. Elle ne modifie aucune des variables membres de l'instance.)`

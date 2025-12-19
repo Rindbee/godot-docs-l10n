@@ -210,9 +210,9 @@ An internal error occurred while processing the request. Not used by the built-i
 
 Registers a callback for the given method name.
 
-- ``name`` The name that clients can use to access the callback.
+- ``name``: The name that clients can use to access the callback.
 
-- ``callback`` The callback which will handle the specific method.
+- ``callback``: The callback which will handle the specified method.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

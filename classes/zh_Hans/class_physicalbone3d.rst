@@ -21,6 +21,13 @@ PhysicalBone3D
 
 \ **注意：**\ 为了通过射线投射检测物理骨骼，父级 :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` 的 :ref:`SkeletonModifier3D.active<class_SkeletonModifier3D_property_active>` 属性必须为 ``true``\ ，并且 :ref:`Skeleton3D<class_Skeleton3D>` 的骨骼必须正确分配给 **PhysicalBone3D**\ ；这意味着 :ref:`get_bone_id()<class_PhysicalBone3D_method_get_bone_id>` 应该返回一个有效的 id（\ ``>= 0``\ ）。
 
+.. rst-class:: classref-introduction-group
+
+教程
+----
+
+- :doc:`Ragdoll System <../tutorials/physics/ragdoll_system>`
+
 .. rst-class:: classref-reftable-group
 
 属性

@@ -7,18 +7,22 @@ HeightMapShape3D
 
 **继承：** :ref:`Shape3D<class_Shape3D>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-3D 高度图形状，用于物理碰撞。
+A 3D heightmap shape used for physics collision.
 
 .. rst-class:: classref-introduction-group
 
 描述
 ----
 
-3D 高度图形状，旨在用于物理。常用于为 :ref:`CollisionShape3D<class_CollisionShape3D>` 提供形状。这种类型最常用于在固定宽度的栅格中放置顶点的地形。由于高度图的特性，它无法用于建模悬垂或洞穴，这些情况需要在相同的垂直位置上存在多个顶点。可以通过将所需顶点的高度赋值为 :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` 来在碰撞中打孔（GodotPhysics3D 和 Jolt Physics 中都支持）。然后就可以插入具有自己独立碰撞的网格，提供悬垂、洞穴等效果。
+A 3D heightmap shape, intended for use in physics to provide a shape for a :ref:`CollisionShape3D<class_CollisionShape3D>`. This type is most commonly used for terrain with vertices placed in a fixed-width grid.
 
-\ **性能：**\ 对 **HeightMapShape3D** 的碰撞检测比 :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` 快，但与 :ref:`BoxShape3D<class_BoxShape3D>` 等图元形状相比显著要慢。
+The heightmap is represented as a 2D grid of height values, which represent the position of grid points on the Y axis. Grid points are spaced 1 unit apart on the X and Z axes, and the grid is centered on the origin of the :ref:`CollisionShape3D<class_CollisionShape3D>` node. Internally, each grid square is divided into two triangles.
 
-高度图碰撞形状也可以使用 :ref:`Image<class_Image>` 构建：
+Due to the nature of the heightmap, it cannot be used to model overhangs or caves, which would require multiple vertices at the same vertical location. Holes can be punched through the collision by assigning :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` to the height of the desired vertices (this is supported in both GodotPhysics3D and Jolt Physics). You could then insert meshes with their own separate collision to provide overhangs, caves, and so on.
+
+\ **Performance:** **HeightMapShape3D** is faster to check collisions against than :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>`, but it is significantly slower than primitive shapes like :ref:`BoxShape3D<class_BoxShape3D>`.
+
+A heightmap collision shape can also be built by using an :ref:`Image<class_Image>` reference:
 
 
 .. tabs::
@@ -35,6 +39,8 @@ HeightMapShape3D
     update_map_data_from_image(heightmap_image, height_min, height_max)
 
 
+
+\ **Note:** If you need to use a spacing different than 1 unit, you can adjust the :ref:`Node3D.scale<class_Node3D_property_scale>` of the shape. However, keep in mind that GodotPhysics3D does not support non-uniform scaling: you'll need to scale the Y axis by the same amount as the X and Z axes, which means the values in :ref:`map_data<class_HeightMapShape3D_property_map_data>` will need to be pre-scaled by the inverse of that scale. Also note that GodotPhysics3D does not support scaling at all for dynamic bodies (that is, non-frozen :ref:`RigidBody3D<class_RigidBody3D>` nodes); to use a scaled **HeightMapShape3D** with those, you will need to use Jolt Physics.
 
 .. rst-class:: classref-reftable-group
 
@@ -88,7 +94,7 @@ HeightMapShape3D
 - |void| **set_map_data**\ (\ value\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ )
 - :ref:`PackedFloat32Array<class_PackedFloat32Array>` **get_map_data**\ (\ )
 
-高度图数据。该数组的大小必须等于 :ref:`map_width<class_HeightMapShape3D_property_map_width>` 乘以 :ref:`map_depth<class_HeightMapShape3D_property_map_depth>`\ 。
+Heightmap data. The array's size must be equal to :ref:`map_width<class_HeightMapShape3D_property_map_width>` multiplied by :ref:`map_depth<class_HeightMapShape3D_property_map_depth>`.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedFloat32Array<class_PackedFloat32Array>` for more details.
 
@@ -107,7 +113,7 @@ HeightMapShape3D
 - |void| **set_map_depth**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_map_depth**\ (\ )
 
-高度图深度中的顶点数。更改该项将调整 :ref:`map_data<class_HeightMapShape3D_property_map_data>` 的大小。
+Number of vertices in the depth of the heightmap. Changing this will resize the :ref:`map_data<class_HeightMapShape3D_property_map_data>`.
 
 .. rst-class:: classref-item-separator
 
@@ -124,7 +130,7 @@ HeightMapShape3D
 - |void| **set_map_width**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_map_width**\ (\ )
 
-高度图宽度中的顶点数。更改该项将调整 :ref:`map_data<class_HeightMapShape3D_property_map_data>` 的大小。
+Number of vertices in the width of the heightmap. Changing this will resize the :ref:`map_data<class_HeightMapShape3D_property_map_data>`.
 
 .. rst-class:: classref-section-separator
 

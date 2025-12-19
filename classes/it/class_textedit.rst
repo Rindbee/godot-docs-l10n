@@ -60,8 +60,6 @@ Proprietà
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`CaretType<enum_TextEdit_CaretType>`                         | :ref:`caret_type<class_TextEdit_property_caret_type>`                                                                       | ``0``                                                                               |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                           | clip_contents                                                                                                               | ``true`` (overrides :ref:`Control<class_Control_property_clip_contents>`)           |
-   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                           | :ref:`context_menu_enabled<class_TextEdit_property_context_menu_enabled>`                                                   | ``true``                                                                            |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                                       | :ref:`custom_word_separators<class_TextEdit_property_custom_word_separators>`                                               | ``""``                                                                              |
@@ -513,6 +511,8 @@ Proprietà del tema
    | :ref:`int<class_int>`             | :ref:`line_spacing<class_TextEdit_theme_constant_line_spacing>`                          | ``4``                               |
    +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
    | :ref:`int<class_int>`             | :ref:`outline_size<class_TextEdit_theme_constant_outline_size>`                          | ``0``                               |
+   +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
+   | :ref:`int<class_int>`             | :ref:`wrap_offset<class_TextEdit_theme_constant_wrap_offset>`                            | ``10``                              |
    +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
    | :ref:`Font<class_Font>`           | :ref:`font<class_TextEdit_theme_font_font>`                                              |                                     |
    +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
@@ -1501,7 +1501,7 @@ Se ``true``, tutte le righe avvolte vengono rientrate della stessa quantità del
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Codice della lingua usato per gli algoritmi di interruzione di riga e di formazione del testo, se lasciato vuoto è invece utilizzata la localizzazione attuale.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -4201,6 +4201,18 @@ Spaziatura verticale aggiuntiva tra le righe (in pixel), la spaziatura è aggiun
 La dimensione del contorno del testo.
 
 \ **Nota:** Se si utilizza un font con :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` abilitato, il suo :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` deve essere impostato su almeno il *doppio* del valore di :ref:`outline_size<class_TextEdit_theme_constant_outline_size>` affinché il rendering del contorno appaia corretto. Altrimenti, il contorno potrebbe apparire troncato prima del previsto.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TextEdit_theme_constant_wrap_offset:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **wrap_offset** = ``10`` :ref:`🔗<class_TextEdit_theme_constant_wrap_offset>`
+
+Sets an additional margin for line wrapping width.
 
 .. rst-class:: classref-item-separator
 

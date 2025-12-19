@@ -174,9 +174,9 @@ enum **Subdiv**: :ref:`🔗<enum_VoxelGI_Subdiv>`
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-Размер области, охватываемой **VoxelGI**. Если вы увеличите размер, не увеличивая подразделения с помощью :ref:`subdiv<class_VoxelGI_property_subdiv>`, размер каждой ячейки увеличится, что приведет к снижению детализации освещения.
+The size of the area covered by the **VoxelGI**. This must be ``1.0`` or greater on each axis.
 
-\ **Примечание:** Размер ограничен 1,0 единицей или более по каждой оси.
+\ **Note:** If you make the size larger without increasing the number of subdivisions with :ref:`subdiv<class_VoxelGI_property_subdiv>`, the size of each cell will increase and result in less detailed lighting.
 
 .. rst-class:: classref-item-separator
 

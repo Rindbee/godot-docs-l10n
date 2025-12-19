@@ -1,7 +1,7 @@
 :github_url: hide
 
 .. meta::
-	:keywords: expandable, collapsible, collapse
+	:keywords: expandable, collapsible, collapse, accordion, details
 
 .. _class_FoldableContainer:
 
@@ -17,15 +17,11 @@ Un contenitore che si può espandere/comprimere.
 Descrizione
 ----------------------
 
-Un contenitore che si può espandere/comprimere, con un titolo che si può riempire con controlli, come pulsanti.
+A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons. This is also called an accordion.
 
-Il titolo può essere posizionato in alto o in basso il contenitore.
+The title can be positioned at the top or bottom of the container. The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused. Child control nodes are hidden when the container is collapsed. Ignores non-control children.
 
-Il contenitore si può espandere o comprimere cliccando sul titolo o premendo ``ui_accept`` quando è focalizzato.
-
-I nodi di controllo figlio sono nascosti quando il contenitore è compresso. Ignora i nodi figlio non di controllo.
-
-Consentire di raggruppare altri FoldableContainer, consulta :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` e :ref:`FoldableGroup<class_FoldableGroup>`.
+A FoldableContainer can be grouped with other FoldableContainers so that only one of them can be opened at a time; see :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -223,7 +219,7 @@ Se ``true``, il contenitore verrà ridotto e nasconderà tutti i suoi elementi f
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Codice lingua usato per gli algoritmi di formazione del testo. Se lasciato vuoto, è utilizzata la localizzazione attuale.
+Language code used for text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

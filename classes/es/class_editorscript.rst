@@ -95,6 +95,8 @@ Este método es ejecutado por el Editor cuando se utiliza **Archivo > Ejecutar**
 
 |void| **add_root_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorScript_method_add_root_node>`
 
+**Obsoleto:** Use :ref:`EditorInterface.add_root_node()<class_EditorInterface_method_add_root_node>` instead.
+
 Convierte a ``node`` en la raíz de la escena actualmente abierta. Solo funciona si la escena está vacía. Si ``node`` es una instancia de escena, se creará una escena heredada.
 
 .. rst-class:: classref-item-separator
@@ -120,6 +122,8 @@ Devuelve la instancia singleton :ref:`EditorInterface<class_EditorInterface>`.
 .. rst-class:: classref-method
 
 :ref:`Node<class_Node>` **get_scene**\ (\ ) |const| :ref:`🔗<class_EditorScript_method_get_scene>`
+
+**Obsoleto:** Use :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>` instead.
 
 Devuelve la raíz :ref:`Node<class_Node>` de la escena editada (actual). Equivalente de :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>`.
 

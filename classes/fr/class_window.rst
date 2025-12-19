@@ -77,6 +77,8 @@ Propriétés
    +-----------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------------------+
    | :ref:`PackedVector2Array<class_PackedVector2Array>`             | :ref:`mouse_passthrough_polygon<class_Window_property_mouse_passthrough_polygon>` | ``PackedVector2Array()`` |
    +-----------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------------------+
+   | :ref:`Rect2i<class_Rect2i>`                                     | :ref:`nonclient_area<class_Window_property_nonclient_area>`                       | ``Rect2i(0, 0, 0, 0)``   |
+   +-----------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------------------+
    | :ref:`bool<class_bool>`                                         | :ref:`popup_window<class_Window_property_popup_window>`                           | ``false``                |
    +-----------------------------------------------------------------+-----------------------------------------------------------------------------------+--------------------------+
    | :ref:`bool<class_bool>`                                         | :ref:`popup_wm_hint<class_Window_property_popup_wm_hint>`                         | ``false``                |
@@ -430,6 +432,18 @@ Ce signal peut être utilisé pour traiter la fermeture de la fenêtre, par exem
 **mouse_exited**\ (\ ) :ref:`🔗<class_Window_signal_mouse_exited>`
 
 Émis lorsque le curseur de la souris quitte la zone visible de la **Window**, qui n'est pas cachée derrière d'autres :ref:`Control<class_Control>`\ s ou fenêtres, à condition que son :ref:`Viewport.gui_disable_input<class_Viewport_property_gui_disable_input>` vaille ``false``, peu importe si elle a le focus ou non.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Window_signal_nonclient_window_input:
+
+.. rst-class:: classref-signal
+
+**nonclient_window_input**\ (\ event\: :ref:`InputEvent<class_InputEvent>`\ ) :ref:`🔗<class_Window_signal_nonclient_window_input>`
+
+Emitted when the mouse event is received by the custom decoration area defined by :ref:`nonclient_area<class_Window_property_nonclient_area>`, and normal input to the window is blocked (such as when it has an exclusive child opened). ``event``'s position is in the embedder's coordinate system.
 
 .. rst-class:: classref-item-separator
 
@@ -1471,6 +1485,23 @@ Passer un tableau vide désactivera cet effet (tous les événements de la souri
 
 ----
 
+.. _class_Window_property_nonclient_area:
+
+.. rst-class:: classref-property
+
+:ref:`Rect2i<class_Rect2i>` **nonclient_area** = ``Rect2i(0, 0, 0, 0)`` :ref:`🔗<class_Window_property_nonclient_area>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_nonclient_area**\ (\ value\: :ref:`Rect2i<class_Rect2i>`\ )
+- :ref:`Rect2i<class_Rect2i>` **get_nonclient_area**\ (\ )
+
+If set, defines the window's custom decoration area which will receive mouse input, even if normal input to the window is blocked (such as when it has an exclusive child opened). See also :ref:`nonclient_window_input<class_Window_signal_nonclient_window_input>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_Window_property_popup_window:
 
 .. rst-class:: classref-property
@@ -2367,7 +2398,7 @@ Renvoie ``true`` si le sur-échantillonnage de la police est activé. Voir :ref:
 
 |void| **move_to_center**\ (\ ) :ref:`🔗<class_Window_method_move_to_center>`
 
-Centre une fenêtre native sur l'écran actuel et une fenêtre intégrée sur le :ref:`Viewport<class_Viewport>` dans lequel elle est intégrée.
+Centers the window in the current screen. If the window is embedded, it is centered in the embedder :ref:`Viewport<class_Viewport>` instead.
 
 .. rst-class:: classref-item-separator
 

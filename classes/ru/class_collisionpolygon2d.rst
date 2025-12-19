@@ -14,9 +14,9 @@ CollisionPolygon2D
 Описание
 ----------------
 
-Узел, который предоставляет форму многоугольника для родительского :ref:`CollisionObject2D<class_CollisionObject2D>` и позволяет редактировать его. Многоугольник может быть вогнутым или выпуклым. Это может дать форму обнаружения для :ref:`Area2D<class_Area2D>`, превратить :ref:`PhysicsBody2D<class_PhysicsBody2D>` в сплошной объект или дать полую форму для :ref:`StaticBody2D<class_StaticBody2D>`.
+A node that provides a polygon shape to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent and allows it to be edited. The polygon can be concave or convex. This can give a detection shape to an :ref:`Area2D<class_Area2D>`, turn a :ref:`PhysicsBody2D<class_PhysicsBody2D>` into a solid object, or give a hollow shape to a :ref:`StaticBody2D<class_StaticBody2D>`.
 
-\ **Предупреждение:** Неравномерно масштабированный **CollisionPolygon2D**, скорее всего, не будет вести себя так, как ожидается. Убедитесь, что его масштаб одинаковый по всем осям, и вместо этого настройте его многоугольник.
+\ **Warning:** A non-uniformly scaled **CollisionPolygon2D** will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its polygon instead.
 
 .. rst-class:: classref-reftable-group
 

@@ -1020,9 +1020,9 @@ enum **Flags**: :ref:`🔗<enum_BaseMaterial3D_Flags>`
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_SRGB_VERTEX_COLOR** = ``2``
 
-顶点颜色被认为使用 sRGB 颜色空间存储，并在渲染期间转换为线性颜色空间。另见 :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`\ 。
+Vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-\ **注意：**\ 仅在使用 Forward+ 和移动渲染方式时有效。
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods.
 
 .. _class_BaseMaterial3D_constant_FLAG_USE_POINT_SIZE:
 
@@ -1102,7 +1102,7 @@ enum **Flags**: :ref:`🔗<enum_BaseMaterial3D_Flags>`
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = ``12``
 
-强制着色器将反照率从 sRGB 空间转换为线性空间。另见 :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`\ 。
+Forces the shader to convert albedo from nonlinear sRGB encoding to linear encoding. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
 .. _class_BaseMaterial3D_constant_FLAG_DONT_RECEIVE_SHADOWS:
 
@@ -1512,7 +1512,7 @@ enum **StencilFlags**: :ref:`🔗<enum_BaseMaterial3D_StencilFlags>`
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_READ** = ``1``
 
-材质仅当其通过与现有模板缓冲区值的模板比较时才会被渲染。请参阅 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`\ 。
+The material will only be rendered where it passes a stencil comparison with existing stencil buffer values.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE:
 
@@ -1654,9 +1654,9 @@ enum **StencilCompare**: :ref:`🔗<enum_BaseMaterial3D_StencilCompare>`
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-如果为 ``true``\ ，则强制将 :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` 从 sRGB 颜色空间转换为线性颜色空间。另见 :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`\ 。
+If ``true``, forces a conversion of the :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` from nonlinear sRGB encoding to linear encoding. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-该属性应该只在需要时启用（通常在使用 :ref:`ViewportTexture<class_ViewportTexture>` 作为 :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` 时）。如果 :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` 在不应该的情况下为 ``true``\ ，则纹理会显得太暗。如果 :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` 在不应该的情况下为 ``false``\ ，则纹理会显得太亮。
+This should only be enabled when needed (typically when using a :ref:`ViewportTexture<class_ViewportTexture>` as :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>`). If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``true`` when it shouldn't be, the texture will appear to be too dark. If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``false`` when it shouldn't be, the texture will appear to be too bright.
 
 .. rst-class:: classref-item-separator
 
@@ -2152,9 +2152,9 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 **实验性：** May be affected by future rendering pipeline changes.
 
-决定深度测试时使用的比较运算符。见 :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>`\ 。
+Determines which comparison operator is used when testing depth.
 
-\ **注意：**\ 将 :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` 设为非默认值只有用于透明材质、\ :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` 为 :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>` 的材质时才有可见的效果。
+\ **Note:** Changing :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` to a non-default value only has a visible effect when used on a transparent material, or a material that has :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` set to :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3337,7 +3337,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 **实验性：** May be affected by future rendering pipeline changes.
 
-模板遮罩运算所使用的比较运算符。见 :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`\ 。
+The comparison operator to use for stencil masking operations.
 
 .. rst-class:: classref-item-separator
 
@@ -3356,7 +3356,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 **实验性：** May be affected by future rendering pipeline changes.
 
-控制模板运算行为的标志。见 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`\ 。
+The flags dictating how the stencil operation behaves.
 
 .. rst-class:: classref-item-separator
 
@@ -3375,7 +3375,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 **实验性：** May be affected by future rendering pipeline changes.
 
-模板效果模式。见 :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`\ 。
+The stencil effect mode.
 
 .. rst-class:: classref-item-separator
 
@@ -3882,9 +3882,9 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-如果为 ``true``\ ，则顶点颜色被认为使用 sRGB 颜色空间存储，并在渲染期间被转换为线性颜色空间。如果为 ``false``\ ，则顶点颜色被认为使用线性颜色空间存储并按原样渲染。另见 :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`\ 。
+If ``true``, vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. If ``false``, vertex colors are considered to be stored in linear encoding and are rendered as-is. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
-\ **注意：**\ 仅在使用 Forward+ 和移动渲染方式时有效，不支持兼容模式。
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods, not Compatibility.
 
 .. rst-class:: classref-item-separator
 
@@ -3935,7 +3935,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_feature>`
 
-如果指定的 :ref:`Feature<enum_BaseMaterial3D_Feature>` 被启用，返回 ``true``\ 。
+Returns ``true`` if the specified ``feature`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3947,7 +3947,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_flag>`
 
-如果指定的标志已启用，则返回 ``true``\ 。
+Returns ``true`` if the specified ``flag`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3959,7 +3959,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_texture>`
 
-返回与指定 :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>` 关联的 :ref:`Texture2D<class_Texture2D>`\ 。
+Returns the :ref:`Texture2D<class_Texture2D>` associated with the specified texture ``param``.
 
 .. rst-class:: classref-item-separator
 
@@ -3971,7 +3971,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_feature>`
 
-如果为 ``true``\ ，则启用指定的 :ref:`Feature<enum_BaseMaterial3D_Feature>`\ 。\ **BaseMaterial3D** 中的许多功能都需要在使用前启用。这样，仅在指定时才会产生使用该功能的成本。也可以通过将相应的成员设置为 ``true`` 来启用功能。
+If ``enable`` is ``true``, enables the specified ``feature``. Many features that are available in **BaseMaterial3D** need to be enabled before use. This way, the cost for using the feature is only incurred when specified. Features can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -3983,7 +3983,7 @@ Alpha 剪刀将丢弃值的阈值。较高的值将导致更多像素被丢弃�
 
 |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_flag>`
 
-如果为 ``true``\ ，则启用指定的标志。标志是可以打开和关闭的可选行为。使用该函数一次只能启用一个标志，不能将标志枚举值像位掩码一样进行合并，一次启用或禁用多个标志。也可以通过将相应成员设置为 ``true`` 来启用标志。
+If ``enable`` is ``true``, enables the specified ``flag``. Flags are optional behavior that can be turned on and off. Only one flag can be enabled at a time with this function, the flag enumerators cannot be bit-masked together to enable or disable multiple flags at once. Flags can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 

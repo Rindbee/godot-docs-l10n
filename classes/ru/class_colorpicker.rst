@@ -433,7 +433,7 @@ enum **PickerShapeType**: :ref:`🔗<enum_ColorPicker_PickerShapeType>`
 - |void| **set_edit_intensity**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_intensity**\ (\ )
 
-Если ``true``, показывает ползунок интенсивности. Интенсивность применяется следующим образом: умножьте цвет на ``2 ** intensity`` в линейном пространстве RGB, а затем преобразуйте его обратно в sRGB.
+If ``true``, shows an intensity slider. The intensity is applied as follows: convert the color to linear encoding, multiply it by ``2 ** intensity``, and then convert it back to nonlinear sRGB encoding.
 
 .. rst-class:: classref-item-separator
 

@@ -16,17 +16,26 @@ Interfaccia per una connessione di peer via WebRTC.
 Descrizione
 ----------------------
 
-Una connessione WebRTC tra il computer locale e un peer remoto. Fornisce un'interfaccia per collegare, mantenere e monitorare la connessione.
+A WebRTC connection between the local computer and a remote peer. Provides an interface to connect, maintain, and monitor the connection.
 
-Impostare una connessione WebRTC tra due peer potrebbe non sembrare un compito banale, ma può essere suddiviso in 3 passaggi principali:
+Setting up a WebRTC connection between two peers may not seem a trivial task, but it can be broken down into 3 main steps:
 
-- Il peer che vuole iniziare la connessione (``A`` d'ora in poi) crea un'offerta e la invia all'altro peer (``B`` d'ora in poi).
+- The peer that wants to initiate the connection (``A`` from now on) creates an offer and sends it to the other peer (``B`` from now on).
 
-- ``B`` riceve l'offerta, genera e risponde, e la invia a ``A``).
+- ``B`` receives the offer, generates an answer, and sends it to ``A``.
 
-- ``A`` e ``B`` poi generano e scambiano i candidati ICE tra di loro.
+- ``A`` and ``B`` then generate and exchange ICE candidates with each other.
 
-Dopo questi passaggi, la connessione dovrebbe essere collegata. Continua a leggere o guarda nel tutorial per ulteriori informazioni.
+After these steps, the connection should be established. Refer to the linked tutorials for details.
+
+.. rst-class:: classref-introduction-group
+
+Tutorial
+----------------
+
+- :doc:`WebRTC documentation <../tutorials/networking/webrtc>`
+
+- :doc:`API Multigiocatore di alto livello <../tutorials/networking/high_level_multiplayer>`
 
 .. rst-class:: classref-reftable-group
 

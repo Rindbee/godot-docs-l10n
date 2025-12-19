@@ -55,6 +55,8 @@ EditorInterface
    :widths: auto
 
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                         | :ref:`add_root_node<class_EditorInterface_method_add_root_node>`\ (\ node\: :ref:`Node<class_Node>`\ )                                                                                                                                                                                                                                                                         |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`                          | :ref:`close_scene<class_EditorInterface_method_close_scene>`\ (\ )                                                                                                                                                                                                                                                                                                             |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                         | :ref:`edit_node<class_EditorInterface_method_edit_node>`\ (\ node\: :ref:`Node<class_Node>`\ )                                                                                                                                                                                                                                                                                 |
@@ -74,6 +76,8 @@ EditorInterface
    | :ref:`String<class_String>`                                    | :ref:`get_current_path<class_EditorInterface_method_get_current_path>`\ (\ ) |const|                                                                                                                                                                                                                                                                                           |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Node<class_Node>`                                        | :ref:`get_edited_scene_root<class_EditorInterface_method_get_edited_scene_root>`\ (\ ) |const|                                                                                                                                                                                                                                                                                 |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`                                    | :ref:`get_editor_language<class_EditorInterface_method_get_editor_language>`\ (\ ) |const|                                                                                                                                                                                                                                                                                     |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`VBoxContainer<class_VBoxContainer>`                      | :ref:`get_editor_main_screen<class_EditorInterface_method_get_editor_main_screen>`\ (\ ) |const|                                                                                                                                                                                                                                                                               |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -97,6 +101,12 @@ EditorInterface
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`EditorInspector<class_EditorInspector>`                  | :ref:`get_inspector<class_EditorInterface_method_get_inspector>`\ (\ ) |const|                                                                                                                                                                                                                                                                                                 |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                      | :ref:`get_node_3d_rotate_snap<class_EditorInterface_method_get_node_3d_rotate_snap>`\ (\ ) |const|                                                                                                                                                                                                                                                                             |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                      | :ref:`get_node_3d_scale_snap<class_EditorInterface_method_get_node_3d_scale_snap>`\ (\ ) |const|                                                                                                                                                                                                                                                                               |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                      | :ref:`get_node_3d_translate_snap<class_EditorInterface_method_get_node_3d_translate_snap>`\ (\ ) |const|                                                                                                                                                                                                                                                                       |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Array<class_Array>`\[:ref:`Node<class_Node>`\]           | :ref:`get_open_scene_roots<class_EditorInterface_method_get_open_scene_roots>`\ (\ ) |const|                                                                                                                                                                                                                                                                                   |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedStringArray<class_PackedStringArray>`              | :ref:`get_open_scenes<class_EditorInterface_method_get_open_scenes>`\ (\ ) |const|                                                                                                                                                                                                                                                                                             |
@@ -116,6 +126,10 @@ EditorInterface
    | |void|                                                         | :ref:`inspect_object<class_EditorInterface_method_inspect_object>`\ (\ object\: :ref:`Object<class_Object>`, for_property\: :ref:`String<class_String>` = "", inspector_only\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                              |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                        | :ref:`is_multi_window_enabled<class_EditorInterface_method_is_multi_window_enabled>`\ (\ ) |const|                                                                                                                                                                                                                                                                             |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                        | :ref:`is_node_3d_snap_enabled<class_EditorInterface_method_is_node_3d_snap_enabled>`\ (\ ) |const|                                                                                                                                                                                                                                                                             |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                        | :ref:`is_object_edited<class_EditorInterface_method_is_object_edited>`\ (\ object\: :ref:`Object<class_Object>`\ ) |const|                                                                                                                                                                                                                                                     |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                        | :ref:`is_playing_scene<class_EditorInterface_method_is_playing_scene>`\ (\ ) |const|                                                                                                                                                                                                                                                                                           |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -166,6 +180,8 @@ EditorInterface
    | |void|                                                         | :ref:`set_current_feature_profile<class_EditorInterface_method_set_current_feature_profile>`\ (\ profile_name\: :ref:`String<class_String>`\ )                                                                                                                                                                                                                                 |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                         | :ref:`set_main_screen_editor<class_EditorInterface_method_set_main_screen_editor>`\ (\ name\: :ref:`String<class_String>`\ )                                                                                                                                                                                                                                                   |
+   +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                         | :ref:`set_object_edited<class_EditorInterface_method_set_object_edited>`\ (\ object\: :ref:`Object<class_Object>`, edited\: :ref:`bool<class_bool>`\ )                                                                                                                                                                                                                         |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                         | :ref:`set_plugin_enabled<class_EditorInterface_method_set_plugin_enabled>`\ (\ plugin\: :ref:`String<class_String>`, enabled\: :ref:`bool<class_bool>`\ )                                                                                                                                                                                                                      |
    +----------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -219,6 +235,18 @@ EditorInterface
 
 Описания метода
 ------------------------------
+
+.. _class_EditorInterface_method_add_root_node:
+
+.. rst-class:: classref-method
+
+|void| **add_root_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorInterface_method_add_root_node>`
+
+Делает ``node`` корнем текущей открытой сцены. Работает только если сцена пуста. Если ``node`` является экземпляром сцены, будет создана наследующая сцена.
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_EditorInterface_method_close_scene:
 
@@ -343,6 +371,18 @@ EditorInterface
 :ref:`Node<class_Node>` **get_edited_scene_root**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_edited_scene_root>`
 
 Возвращает корень :ref:`Node<class_Node>` отредактированной (текущей) сцены.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorInterface_method_get_editor_language:
+
+.. rst-class:: classref-method
+
+:ref:`String<class_String>` **get_editor_language**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_editor_language>`
+
+Returns the language currently used for the editor interface.
 
 .. rst-class:: classref-item-separator
 
@@ -492,6 +532,42 @@ EditorInterface
 
 ----
 
+.. _class_EditorInterface_method_get_node_3d_rotate_snap:
+
+.. rst-class:: classref-method
+
+:ref:`float<class_float>` **get_node_3d_rotate_snap**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_node_3d_rotate_snap>`
+
+Returns the amount of degrees the 3D editor's rotational snapping is set to.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorInterface_method_get_node_3d_scale_snap:
+
+.. rst-class:: classref-method
+
+:ref:`float<class_float>` **get_node_3d_scale_snap**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_node_3d_scale_snap>`
+
+Returns the amount of units the 3D editor's scale snapping is set to.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorInterface_method_get_node_3d_translate_snap:
+
+.. rst-class:: classref-method
+
+:ref:`float<class_float>` **get_node_3d_translate_snap**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_get_node_3d_translate_snap>`
+
+Returns the amount of units the 3D editor's translation snapping is set to.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_EditorInterface_method_get_open_scene_roots:
 
 .. rst-class:: classref-method
@@ -620,6 +696,30 @@ EditorInterface
 
 ----
 
+.. _class_EditorInterface_method_is_node_3d_snap_enabled:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_node_3d_snap_enabled**\ (\ ) |const| :ref:`🔗<class_EditorInterface_method_is_node_3d_snap_enabled>`
+
+Returns ``true`` if the 3D editor currently has snapping mode enabled, and ``false`` otherwise.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorInterface_method_is_object_edited:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_object_edited**\ (\ object\: :ref:`Object<class_Object>`\ ) |const| :ref:`🔗<class_EditorInterface_method_is_object_edited>`
+
+Returns ``true`` if the object has been marked as edited through :ref:`set_object_edited()<class_EditorInterface_method_set_object_edited>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_EditorInterface_method_is_playing_scene:
 
 .. rst-class:: classref-method
@@ -724,19 +824,19 @@ EditorInterface
 
 **Экспериментальное:** Этот метод может быть изменён или удалён в будущих версиях.
 
-Открывает диалог редактора для создания объекта.
+Pops up an editor dialog for creating an object.
 
-\ ``callback`` должен принимать один аргумент типа :ref:`StringName<class_StringName>`, который будет содержать имя типа выбранного объекта или быть пустым, если не выбран ни один элемент.
+The ``callback`` must take a single argument of type :ref:`String<class_String>`, which will contain the type name of the selected object (or the script path of the type, if the type is created from a script), or be an empty string if no item is selected.
 
-\ ``base_type`` указывает базовый тип отображаемых объектов. Например, если установить его на "Resource", все типы, производные от :ref:`Resource<class_Resource>`, будут отображаться в диалоге создания.
+The ``base_type`` specifies the base type of objects to display. For example, if you set this to "Resource", all types derived from :ref:`Resource<class_Resource>` will display in the create dialog.
 
-\ ``current_type`` будет передан в поле поиска диалога создания, и указанный тип можно будет сразу выбрать при появлении диалога. Если ``current_type`` не является производным от ``base_type``, в диалоге не будет результата типа.
+The ``current_type`` will be passed in the search box of the create dialog, and the specified type can be immediately selected when the dialog pops up. If the ``current_type`` is not derived from ``base_type``, there will be no result of the type in the dialog.
 
-\ ``dialog_title`` позволяет определить пользовательский заголовок для диалога. Это полезно, если вы хотите точно указать использование диалога. Если ``dialog_title`` является пустой строкой, диалог будет использовать "Создать новый 'Base Type'" в качестве заголовка по умолчанию.
+The ``dialog_title`` allows you to define a custom title for the dialog. This is useful if you want to accurately hint the usage of the dialog. If the ``dialog_title`` is an empty string, the dialog will use "Create New 'Base Type'" as the default title.
 
-\ ``type_blocklist`` содержит список имен типов, а типы в списке блоков будут скрыты из диалога создания.
+The ``type_blocklist`` contains a list of type names, and the types in the blocklist will be hidden from the create dialog.
 
-\ **Примечание:** Попытка перечислить базовый тип в ``type_blocklist`` скроет все типы, производные от базового типа, из диалога создания.
+\ **Note:** Trying to list the base type in the ``type_blocklist`` will hide all types derived from the base type from the create dialog.
 
 .. rst-class:: classref-item-separator
 
@@ -967,6 +1067,22 @@ EditorInterface
 |void| **set_main_screen_editor**\ (\ name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_EditorInterface_method_set_main_screen_editor>`
 
 Устанавливает текущий главный экран редактора на тот, который указан в ``name``. ``name`` должен точно соответствовать заголовку соответствующей вкладки (например, ``2D``, ``3D``, ``Script``, ``Game`` или ``AssetLib`` для вкладок по умолчанию).
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorInterface_method_set_object_edited:
+
+.. rst-class:: classref-method
+
+|void| **set_object_edited**\ (\ object\: :ref:`Object<class_Object>`, edited\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_EditorInterface_method_set_object_edited>`
+
+If ``edited`` is ``true``, the object is marked as edited.
+
+\ **Note:** This is primarily used by the editor for :ref:`Resource<class_Resource>` based objects to track their modified state. For example, any changes to an open scene, a resource in the inspector, or an edited script will cause this method to be called with ``true``. Saving the scene, script, or resource resets the edited state by calling this method with ``false``.
+
+\ **Note:** Each call to this method increments the object's edited version. This is used to track changes in the editor and to trigger when thumbnails should be regenerated for resources.
 
 .. rst-class:: classref-item-separator
 

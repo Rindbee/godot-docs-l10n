@@ -14,9 +14,9 @@ CollisionPolygon2D
 描述
 ----
 
-向 :ref:`CollisionObject2D<class_CollisionObject2D>` 父级提供多边形形状的节点，允许对形状进行编辑，可以是凹多边形也可以是凸多边形。该节点可以为 :ref:`Area2D<class_Area2D>` 提供检测形状，将 :ref:`PhysicsBody2D<class_PhysicsBody2D>` 变成实体对象，为 :ref:`StaticBody2D<class_StaticBody2D>` 提供空心形状。
+A node that provides a polygon shape to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent and allows it to be edited. The polygon can be concave or convex. This can give a detection shape to an :ref:`Area2D<class_Area2D>`, turn a :ref:`PhysicsBody2D<class_PhysicsBody2D>` into a solid object, or give a hollow shape to a :ref:`StaticBody2D<class_StaticBody2D>`.
 
-\ **警告：**\ 非均匀缩放的 :ref:`CollisionShape2D<class_CollisionShape2D>` 可能不会按预期运行。请确保在所有轴上保持其缩放相同，可改为调整其多边形形状。
+\ **Warning:** A non-uniformly scaled **CollisionPolygon2D** will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its polygon instead.
 
 .. rst-class:: classref-reftable-group
 

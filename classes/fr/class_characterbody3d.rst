@@ -443,9 +443,9 @@ Vecteur pointant vers le haut, utilisé pour déterminer ce qui est un mur et ce
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-Vecteur de vitesse actuel (typiquement en mètres par seconde), utilisé et modifié pendant les appels à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
 
-Cette propriété ne doit pas être assignée une valeur multipliée par ``delta``, car cela est appliqué en interne dans :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Dans le cas contraire, la simulation avancera à une vitesse incorrecte.
+\ **Note:** A common mistake is setting this property to the desired velocity multiplied by ``delta``, which produces a motion vector (typically in meters).
 
 .. rst-class:: classref-item-separator
 
@@ -529,7 +529,7 @@ Renvoie le dernier mouvement appliqué au **CharacterBody3D** lors du dernier ap
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **get_last_slide_collision**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_get_last_slide_collision>`
 
-Renvoie un :ref:`KinematicCollision3D<class_KinematicCollision3D>`, qui contient des informations sur la dernière collision qui est arrivée lors du dernier appel de :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>` if a collision occurred. The returned value contains information about the latest collision that occurred during the last call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Returns ``null`` if no collision occurred. See also :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 
 .. rst-class:: classref-item-separator
 
@@ -589,7 +589,7 @@ Renvoie la vitesse réelle actuelle depuis le dernier appel à :ref:`move_and_sl
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **get_slide_collision**\ (\ slide_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CharacterBody3D_method_get_slide_collision>`
 
-Renvoie un :ref:`KinematicCollision3D<class_KinematicCollision3D>` qui contient des informations sur une collision qui s'est produite au cours du dernier appel à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Comme le corps peut entrer en collision plusieurs fois dans un seul appel à :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`, vous devez spécifier l'index de la collision dans une plage de 0 à (:ref:`get_slide_collision_count()<class_CharacterBody3D_method_get_slide_collision_count>` - 1).
+Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>`, which contains information about a collision that occurred during the last call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Since the body can collide several times in a single call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`, you must specify the index of the collision in the range 0 to (:ref:`get_slide_collision_count()<class_CharacterBody3D_method_get_slide_collision_count>` - 1). See also :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`.
 
 .. rst-class:: classref-item-separator
 

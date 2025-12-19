@@ -496,7 +496,9 @@ HTTPRequest не може писати на файл завантаження.
 - |void| **set_timeout**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_timeout**\ (\ )
 
-Тривалість, щоб чекати в секундах до часу запиту. ``0.0`` Для простих запитів, таких як комунікація з REST API, рекомендується :ref:`timeout<class_HTTPRequest_property_timeout>` встановити значення, придатне для часу реагування сервера (наприклад, між ``1.0`` та ``10.0``. Це допоможе уникнути небажаних часів, викликаних варіацією в часі реагування сервера, але все ще дозволяє програмі виявити, коли запит виповнилося. Для більших запитів, таких як завантаження файлів, пропонується ``пам'ятний час``, щоб ``0.0``, відключення функцій часу. Це допоможе уникнути великих переказів з моменту перевищення вартості часу.
+The duration to wait before a request times out, in seconds (independent of :ref:`Engine.time_scale<class_Engine_property_time_scale>`). If :ref:`timeout<class_HTTPRequest_property_timeout>` is set to ``0.0``, the request will never time out.
+
+For simple requests, such as communication with a REST API, it is recommended to set :ref:`timeout<class_HTTPRequest_property_timeout>` to a value suitable for the server response time (commonly between ``1.0`` and ``10.0``). This will help prevent unwanted timeouts caused by variation in response times while still allowing the application to detect when a request has timed out. For larger requests such as file downloads, it is recommended to set :ref:`timeout<class_HTTPRequest_property_timeout>` to ``0.0``, disabling the timeout functionality. This will help prevent large transfers from failing due to exceeding the timeout value.
 
 .. rst-class:: classref-item-separator
 

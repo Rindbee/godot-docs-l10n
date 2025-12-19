@@ -1020,9 +1020,9 @@ Définit ``ALBEDO`` par la couleur définie pour chaque sommet du maillage.
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_SRGB_VERTEX_COLOR** = ``2``
 
-Les couleurs de sommet sont considérées comme stockées dans l'espace de couleur sRGB et sont converties en l'espace de couleur linéaire durant le rendu. Voir aussi :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
+Vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-\ **Note :** Seulement effectif lors de l'utilisation des méthodes de rendu Forward+ et Mobile.
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods.
 
 .. _class_BaseMaterial3D_constant_FLAG_USE_POINT_SIZE:
 
@@ -1102,7 +1102,7 @@ Utiliser les coordonnées ``UV2`` pour la projection de la :ref:`emission_textur
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = ``12``
 
-Force le shader à convertir l'albedo de l'espace sRGB en l'espace linéaire. Voir aussi :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
+Forces the shader to convert albedo from nonlinear sRGB encoding to linear encoding. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
 .. _class_BaseMaterial3D_constant_FLAG_DONT_RECEIVE_SHADOWS:
 
@@ -1512,7 +1512,7 @@ enum **StencilFlags**: :ref:`🔗<enum_BaseMaterial3D_StencilFlags>`
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_READ** = ``1``
 
-Le matériau ne sera rendu que lorsqu'il passe une comparaison de pochoirs avec les valeurs du buffeur de pochoir existantes. Voir :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+The material will only be rendered where it passes a stencil comparison with existing stencil buffer values.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE:
 
@@ -1654,9 +1654,9 @@ Si la texture apparaît de façon inattendue trop foncée ou trop lumineuse, vé
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-Si ``true``, force une conversion de la texture :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` de l'espace de couleur sRGB à l'espace de couleur linéaire. Voir aussi :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
+If ``true``, forces a conversion of the :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` from nonlinear sRGB encoding to linear encoding. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-Cela ne devrait être activé qu'au besoin (généralement lorsque vous utilisez un :ref:`ViewportTexture<class_ViewportTexture>` comme :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>`). Si :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` vaut ``true`` lorsque cela ne devrait pas être, la texture semblera trop foncée. Si :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` vaut ``false`` lorsque cela ne devrait pas être, la texture semblera trop brillante.
+This should only be enabled when needed (typically when using a :ref:`ViewportTexture<class_ViewportTexture>` as :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>`). If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``true`` when it shouldn't be, the texture will appear to be too dark. If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``false`` when it shouldn't be, the texture will appear to be too bright.
 
 .. rst-class:: classref-item-separator
 
@@ -2152,9 +2152,9 @@ Détermine quand le rendu de la profondeur a lieu. Voir aussi :ref:`transparency
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-Détermine quel opérateur de comparaison est utilisé lors des tests de profondeur. Voir :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>`.
+Determines which comparison operator is used when testing depth.
 
-\ **Note :** La modification de :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` à une valeur non par défaut n'a qu'un effet visible que lorsqu'elle est utilisée sur un matériau transparent, ou un matériau qui a :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` défini à :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
+\ **Note:** Changing :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` to a non-default value only has a visible effect when used on a transparent material, or a material that has :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` set to :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3337,7 +3337,7 @@ La couleur primaire de l'effet de pochoir.
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-L'opérateur de comparaison à utiliser pour les opérations de masque de pochoir. Voir :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+The comparison operator to use for stencil masking operations.
 
 .. rst-class:: classref-item-separator
 
@@ -3356,7 +3356,7 @@ L'opérateur de comparaison à utiliser pour les opérations de masque de pochoi
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-Les drapeaux dictant comment l'opération de pochoir se comporte. Voir :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
+The flags dictating how the stencil operation behaves.
 
 .. rst-class:: classref-item-separator
 
@@ -3375,7 +3375,7 @@ Les drapeaux dictant comment l'opération de pochoir se comporte. Voir :ref:`Ste
 
 **Expérimental :** May be affected by future rendering pipeline changes.
 
-Le mode d'effet de pochoir. Voir :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
+The stencil effect mode.
 
 .. rst-class:: classref-item-separator
 
@@ -3882,9 +3882,9 @@ Si ``true``, le mapping triplanaire pour ``UV2`` est calculé dans l'espace glob
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-Si ``true``, les couleurs des sommets sont considérées comme stockées dans l'espace de couleur sRGB et sont converties en espace de couleur linéaire pendant le rendu. Si ``false``, les couleurs des sommets sont considérées comme stockées dans l'espace de couleur linéaire et sont rendues telles quelles. Voir aussi :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
+If ``true``, vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. If ``false``, vertex colors are considered to be stored in linear encoding and are rendered as-is. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
-\ **Note :** Seulement effectif lors de l'utilisation des moteurs de rendu Forward+ et Mobile, mais pas Compatibilité.
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods, not Compatibility.
 
 .. rst-class:: classref-item-separator
 
@@ -3935,7 +3935,7 @@ Descriptions des méthodes
 
 :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_feature>`
 
-Renvoie ``true`` si la fonctionnalité :ref:`Feature<enum_BaseMaterial3D_Feature>` spécifiée est active.
+Returns ``true`` if the specified ``feature`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3947,7 +3947,7 @@ Renvoie ``true`` si la fonctionnalité :ref:`Feature<enum_BaseMaterial3D_Feature
 
 :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_flag>`
 
-Renvoie ``true`` si le drapeau spécifié est activé.
+Returns ``true`` if the specified ``flag`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3959,7 +3959,7 @@ Renvoie ``true`` si le drapeau spécifié est activé.
 
 :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_texture>`
 
-Renvoie la :ref:`Texture2D<class_Texture2D>` associée avec le :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>` spécifié.
+Returns the :ref:`Texture2D<class_Texture2D>` associated with the specified texture ``param``.
 
 .. rst-class:: classref-item-separator
 
@@ -3971,7 +3971,7 @@ Renvoie la :ref:`Texture2D<class_Texture2D>` associée avec le :ref:`TexturePara
 
 |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_feature>`
 
-Si ``true``, active la :ref:`Feature<enum_BaseMaterial3D_Feature>` spécifiée. De nombreuses fonctionnalités disponibles dans **BaseMaterial3D** doivent être activées avant utilisation. De cette façon, le coût d'utilisation de la fonctionnalité n'est présent que lorsque spécifié. Les fonctionnalités peuvent également être activées en définissant le membre correspondant à ``true``.
+If ``enable`` is ``true``, enables the specified ``feature``. Many features that are available in **BaseMaterial3D** need to be enabled before use. This way, the cost for using the feature is only incurred when specified. Features can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -3983,7 +3983,7 @@ Si ``true``, active la :ref:`Feature<enum_BaseMaterial3D_Feature>` spécifiée. 
 
 |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_flag>`
 
-Si ``true``, active le drapeau spécifié. Les drapeaux sont un comportement optionnel qui peut être activé et désactivé. Un seul drapeau peut être activé à la fois avec cette fonction, les énumérateurs de drapeau ne peuvent pas être mis dans un masque de bits ensemble pour activer ou désactiver plusieurs drapeaux à la fois. Les drapeaux peuvent également être activés en définissant le membre correspondant à ``true``.
+If ``enable`` is ``true``, enables the specified ``flag``. Flags are optional behavior that can be turned on and off. Only one flag can be enabled at a time with this function, the flag enumerators cannot be bit-masked together to enable or disable multiple flags at once. Flags can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 

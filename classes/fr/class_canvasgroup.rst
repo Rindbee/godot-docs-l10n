@@ -14,16 +14,16 @@ Fusionne plusieurs nœuds 2D en une seule opération de dessin.
 Description
 -----------
 
-Les nœuds enfants :ref:`CanvasItem<class_CanvasItem>` d'un **CanvasGroup** sont dessinés comme un seul object. Cela permet par exemple de dessiner des nœuds 2D enchevêtrés sans mélange (activer la propriété :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` de **CanvasGroup** pour aboutir à cet effet).
+Child :ref:`CanvasItem<class_CanvasItem>` nodes of a **CanvasGroup** are drawn as a single object. It allows to e.g. draw overlapping translucent 2D nodes without causing the overlapping sections to be more opaque than intended (set the :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` property on the **CanvasGroup** to achieve this effect).
 
-\ **Remarque :** Le **CanvasGroup** utilise un shader pour lire depuis le tampon arrière pour dessiner ses enfants. Affecter un :ref:`Material<class_Material>` au **CanvasGroup** remplacera le shader de base. Pour dupliquer le comportement du shader de base dans un :ref:`Shader<class_Shader>` personnalisé, le code suivant peut être utilisé :
+\ **Note:** The **CanvasGroup** uses a custom shader to read from the backbuffer to draw its children. Assigning a :ref:`Material<class_Material>` to the **CanvasGroup** overrides the built-in shader. To duplicate the behavior of the built-in shader in a custom :ref:`Shader<class_Shader>`, use the following:
 
 ::
 
     shader_type canvas_item;
     render_mode unshaded;
 
-    uniform sampler2D screen_texture : hint_screen_texture, repeat_disable, filter_nearest;
+    uniform sampler2D screen_texture : hint_screen_texture, repeat_disable, filter_nearest;
 
     void fragment() {
         vec4 c = textureLod(screen_texture, SCREEN_UV, 0.0);
@@ -35,7 +35,7 @@ Les nœuds enfants :ref:`CanvasItem<class_CanvasItem>` d'un **CanvasGroup** sont
         COLOR *= c;
     }
 
-\ **Remarque :** Vu que **CanvasGroup** et :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` utilisent tous deux le tampon arrière, les enfants d'un **CanvasGroup** qui ont leur propriété :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` définie à toute valeur exceptée :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` ne fonctionneront pas correctement.
+\ **Note:** Since **CanvasGroup** and :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` both utilize the backbuffer, children of a **CanvasGroup** who have their :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` set to anything other than :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` will not function correctly.
 
 .. rst-class:: classref-reftable-group
 

@@ -433,7 +433,7 @@ HSL OK 颜色模型圆形色彩空间。
 - |void| **set_edit_intensity**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_intensity**\ (\ )
 
-如果为 ``true`` 则显示强度滑块。强度的应用方法为：将颜色在线性 RGB 空间中乘以 ``2 ** intensity``\ ，然后转换回 sRGB。
+If ``true``, shows an intensity slider. The intensity is applied as follows: convert the color to linear encoding, multiply it by ``2 ** intensity``, and then convert it back to nonlinear sRGB encoding.
 
 .. rst-class:: classref-item-separator
 

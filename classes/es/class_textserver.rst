@@ -322,6 +322,8 @@ Métodos
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`is_locale_right_to_left<class_TextServer_method_is_locale_right_to_left>`\ (\ locale\: :ref:`String<class_String>`\ ) |const|                                                                                                                                                                                                                                                                                                     |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                          | :ref:`is_locale_using_support_data<class_TextServer_method_is_locale_using_support_data>`\ (\ locale\: :ref:`String<class_String>`\ ) |const|                                                                                                                                                                                                                                                                                           |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`is_valid_identifier<class_TextServer_method_is_valid_identifier>`\ (\ string\: :ref:`String<class_String>`\ ) |const|                                                                                                                                                                                                                                                                                                             |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`is_valid_letter<class_TextServer_method_is_valid_letter>`\ (\ unicode\: :ref:`int<class_int>`\ ) |const|                                                                                                                                                                                                                                                                                                                          |
@@ -379,6 +381,8 @@ Métodos
    | |void|                                                           | :ref:`shaped_text_draw<class_TextServer_method_shaped_text_draw>`\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>` = -1, clip_r\: :ref:`float<class_float>` = -1, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), oversampling\: :ref:`float<class_float>` = 0.0\ ) |const|                                                           |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                           | :ref:`shaped_text_draw_outline<class_TextServer_method_shaped_text_draw_outline>`\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>` = -1, clip_r\: :ref:`float<class_float>` = -1, outline_size\: :ref:`int<class_int>` = 1, color\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1), oversampling\: :ref:`float<class_float>` = 0.0\ ) |const| |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`RID<class_RID>`                                            | :ref:`shaped_text_duplicate<class_TextServer_method_shaped_text_duplicate>`\ (\ rid\: :ref:`RID<class_RID>`\ )                                                                                                                                                                                                                                                                                                                          |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                                        | :ref:`shaped_text_fit_to_width<class_TextServer_method_shaped_text_fit_to_width>`\ (\ shaped\: :ref:`RID<class_RID>`, width\: :ref:`float<class_float>`, justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\] = 3\ )                                                                                                                                                                         |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -449,6 +453,8 @@ Métodos
    | :ref:`float<class_float>`                                        | :ref:`shaped_text_get_width<class_TextServer_method_shaped_text_get_width>`\ (\ shaped\: :ref:`RID<class_RID>`\ ) |const|                                                                                                                                                                                                                                                                                                               |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedInt32Array<class_PackedInt32Array>`                  | :ref:`shaped_text_get_word_breaks<class_TextServer_method_shaped_text_get_word_breaks>`\ (\ shaped\: :ref:`RID<class_RID>`, grapheme_flags\: |bitfield|\[:ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>`\] = 264, skip_grapheme_flags\: |bitfield|\[:ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>`\] = 4\ ) |const|                                                                                                                |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                          | :ref:`shaped_text_has_object<class_TextServer_method_shaped_text_has_object>`\ (\ shaped\: :ref:`RID<class_RID>`, key\: :ref:`Variant<class_Variant>`\ ) |const|                                                                                                                                                                                                                                                                        |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`shaped_text_has_visible_chars<class_TextServer_method_shaped_text_has_visible_chars>`\ (\ shaped\: :ref:`RID<class_RID>`\ ) |const|                                                                                                                                                                                                                                                                                               |
    +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1069,6 +1075,14 @@ Determina si la elipsis al final del texto se aplica y no se puede ocultar.
 :ref:`TextOverrunFlag<enum_TextServer_TextOverrunFlag>` **OVERRUN_JUSTIFICATION_AWARE** = ``16``
 
 Tiene en cuenta que el texto esté justificado antes de intentar recortarlo (véase :ref:`JustificationFlag<enum_TextServer_JustificationFlag>`).
+
+.. _class_TextServer_constant_OVERRUN_SHORT_STRING_ELLIPSIS:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`TextOverrunFlag<enum_TextServer_TextOverrunFlag>` **OVERRUN_SHORT_STRING_ELLIPSIS** = ``32``
+
+Determines whether the ellipsis should be added regardless of the string length, otherwise it is added only if the string is 6 characters or longer.
 
 .. rst-class:: classref-item-separator
 
@@ -1949,7 +1963,7 @@ Returns ``true`` if font texture mipmap generation is enabled.
 
 **Obsoleto:** Use :ref:`Viewport<class_Viewport>` oversampling, or the ``oversampling`` argument of the ``draw_*`` methods instead.
 
-Obsoleto. Este método siempre devuelve ``1.0``.
+This method does nothing and always returns ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -2523,7 +2537,7 @@ Devuelve ``true`` si el hinting automático es compatible y preferible al hintin
 
 :ref:`bool<class_bool>` **font_is_language_supported**\ (\ font_rid\: :ref:`RID<class_RID>`, language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_language_supported>`
 
-Devuelve ``true`` si la fuente soporta el idioma dado (código `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__).
+Returns ``true`` if the font supports the given language (as a `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ code).
 
 .. rst-class:: classref-item-separator
 
@@ -2535,7 +2549,7 @@ Devuelve ``true`` si la fuente soporta el idioma dado (código `ISO 639 <https:/
 
 :ref:`bool<class_bool>` **font_is_modulate_color_glyphs**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_modulate_color_glyphs>`
 
-Devuelve ``true`` si la modulación de color se aplica al dibujar glifos coloreados.
+Returns ``true`` if color modulation is applied when drawing the font's colored glyphs.
 
 .. rst-class:: classref-item-separator
 
@@ -2559,7 +2573,7 @@ Devuelve ``true`` si los glifos de todos los tamaños se renderizan utilizando u
 
 :ref:`bool<class_bool>` **font_is_script_supported**\ (\ font_rid\: :ref:`RID<class_RID>`, script\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_font_is_script_supported>`
 
-Devuelve ``true`` si la fuente admite el script dado (código ISO 15924).
+Returns ``true`` if the font supports the given script (as a `ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__ code).
 
 .. rst-class:: classref-item-separator
 
@@ -2829,7 +2843,7 @@ Si se establece en ``true``, la generación de mipmap de textura de fuente está
 
 **Obsoleto:** Use :ref:`Viewport<class_Viewport>` oversampling, or the ``oversampling`` argument of the ``draw_*`` methods instead.
 
-Obsoleto. Este método no hace nada.
+Este método no hace nada.
 
 .. rst-class:: classref-item-separator
 
@@ -3237,9 +3251,11 @@ Devuelve el diccionario de las coordenadas de variación OpenType admitidas.
 
 :ref:`String<class_String>` **format_number**\ (\ number\: :ref:`String<class_String>`, language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_format_number>`
 
-Convierte un número del sistema arábigo occidental (0..9) a los sistemas numerales utilizados en ``language``.
+**Obsoleto:** Use :ref:`TranslationServer.format_number()<class_TranslationServer_method_format_number>` instead.
 
-Si se omite ``language``, se utilizará la configuración regional activa.
+Converts a number from Western Arabic (0..9) to the numeral system used in the given ``language``.
+
+If ``language`` is an empty string, the active locale will be used.
 
 .. rst-class:: classref-item-separator
 
@@ -3381,6 +3397,18 @@ Devuelve ``true`` si la configuración regional es de derecha a izquierda.
 
 ----
 
+.. _class_TextServer_method_is_locale_using_support_data:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_locale_using_support_data**\ (\ locale\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_is_locale_using_support_data>`
+
+Returns ``true`` if the locale requires text server support data for line/word breaking.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_TextServer_method_is_valid_identifier:
 
 .. rst-class:: classref-method
@@ -3441,7 +3469,7 @@ Carga una base de datos opcional de TextServer (p. ej. iteradores de salto y dic
 
 :ref:`int<class_int>` **name_to_tag**\ (\ name\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_TextServer_method_name_to_tag>`
 
-Convierte un nombre legible de característica, variación, script o idioma a una etiqueta OpenType.
+Converts the given readable name of a feature, variation, script, or language to an OpenType tag.
 
 .. rst-class:: classref-item-separator
 
@@ -3453,7 +3481,11 @@ Convierte un nombre legible de característica, variación, script o idioma a un
 
 :ref:`String<class_String>` **parse_number**\ (\ number\: :ref:`String<class_String>`, language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_parse_number>`
 
-Convierte ``number`` del sistema numeral usado en ``language`` a árabe occidental (0..9).
+**Obsoleto:** Use :ref:`TranslationServer.parse_number()<class_TranslationServer_method_parse_number>` instead.
+
+Converts ``number`` from the numeral system used in the given ``language`` to Western Arabic (0..9).
+
+If ``language`` is an empty string, the active locale will be used.
 
 .. rst-class:: classref-item-separator
 
@@ -3477,7 +3509,11 @@ Implementación predeterminada de la función de sobrescritura del algoritmo BiD
 
 :ref:`String<class_String>` **percent_sign**\ (\ language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_percent_sign>`
 
-Devuelve el signo de porcentaje utilizado en el ``language``.
+**Obsoleto:** Use :ref:`TranslationServer.get_percent_sign()<class_TranslationServer_method_get_percent_sign>` instead.
+
+Returns the percent sign used in the given ``language``.
+
+If ``language`` is an empty string, the active locale will be used.
 
 .. rst-class:: classref-item-separator
 
@@ -3748,6 +3784,18 @@ Draw shaped text into a canvas item at a given position, with ``color``. ``pos``
 Dibuja el contorno del texto conformado en un elemento del canvas en una posición dada, con ``color``. ``pos`` especifica el punto más a la izquierda de la línea base (para el diseño horizontal) o el punto más alto de la línea base (para el diseño vertical). Si ``oversampling`` es mayor que cero, se utiliza como factor de sobremuestreo de la fuente, de lo contrario, se utiliza la configuración de sobremuestreo del viewport.
 
 \ ``clip_l`` y ``clip_r`` son desplazamientos relativos a ``pos``, yendo hacia la derecha en el diseño horizontal y hacia abajo en el diseño vertical. Si ``clip_l`` no es negativo, los glifos que comienzan antes del desplazamiento se recortan. Si ``clip_r`` no es negativo, los glifos que terminan después del desplazamiento se recortan.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TextServer_method_shaped_text_duplicate:
+
+.. rst-class:: classref-method
+
+:ref:`RID<class_RID>` **shaped_text_duplicate**\ (\ rid\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_TextServer_method_shaped_text_duplicate>`
+
+Duplicates shaped text buffer.
 
 .. rst-class:: classref-item-separator
 
@@ -4179,6 +4227,18 @@ Divide el texto en palabras y devuelve un array de rangos de caracteres. Usa ``g
 
 ----
 
+.. _class_TextServer_method_shaped_text_has_object:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **shaped_text_has_object**\ (\ shaped\: :ref:`RID<class_RID>`, key\: :ref:`Variant<class_Variant>`\ ) |const| :ref:`🔗<class_TextServer_method_shaped_text_has_object>`
+
+Returns ``true`` if an object with ``key`` is embedded in this shaped text buffer.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_TextServer_method_shaped_text_has_visible_chars:
 
 .. rst-class:: classref-method
@@ -4512,11 +4572,11 @@ Cuando ``chars_per_line`` es mayor que cero, se devuelven en su lugar los límit
 
 :ref:`String<class_String>` **string_to_lower**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_string_to_lower>`
 
-Devuelve la string convertida a minúsculas.
+Returns the string converted to ``lowercase``.
 
-\ **Nota:** El uso de mayúsculas y minúsculas depende de la configuración regional y del contexto si el servidor soporta la característica :ref:`FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION<class_TextServer_constant_FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION>` (soportada por :ref:`TextServerAdvanced<class_TextServerAdvanced>`).
+\ **Note:** Casing is locale dependent and context sensitive if server support :ref:`FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION<class_TextServer_constant_FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION>` feature (supported by :ref:`TextServerAdvanced<class_TextServerAdvanced>`).
 
-\ **Nota:** El resultado puede ser más largo o más corto que el original.
+\ **Note:** The result may be longer or shorter than the original.
 
 .. rst-class:: classref-item-separator
 
@@ -4528,11 +4588,11 @@ Devuelve la string convertida a minúsculas.
 
 :ref:`String<class_String>` **string_to_title**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_string_to_title>`
 
-Devuelve la string convertida a formato de título.
+Returns the string converted to ``Title Case``.
 
-\ **Nota:** El uso de mayúsculas y minúsculas depende de la configuración regional y del contexto si el servidor soporta la característica :ref:`FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION<class_TextServer_constant_FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION>` (soportada por :ref:`TextServerAdvanced<class_TextServerAdvanced>`).
+\ **Note:** Casing is locale dependent and context sensitive if server support :ref:`FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION<class_TextServer_constant_FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION>` feature (supported by :ref:`TextServerAdvanced<class_TextServerAdvanced>`).
 
-\ **Nota:** El resultado puede ser más largo o más corto que el original.
+\ **Note:** The result may be longer or shorter than the original.
 
 .. rst-class:: classref-item-separator
 
@@ -4544,11 +4604,11 @@ Devuelve la string convertida a formato de título.
 
 :ref:`String<class_String>` **string_to_upper**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>` = ""\ ) |const| :ref:`🔗<class_TextServer_method_string_to_upper>`
 
-Devuelve la string convertida a mayúsculas.
+Returns the string converted to ``UPPERCASE``.
 
-\ **Nota:** El uso de mayúsculas y minúsculas depende de la configuración regional y del contexto si el servidor soporta la característica :ref:`FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION<class_TextServer_constant_FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION>` (soportada por :ref:`TextServerAdvanced<class_TextServerAdvanced>`).
+\ **Note:** Casing is locale dependent and context sensitive if server support :ref:`FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION<class_TextServer_constant_FEATURE_CONTEXT_SENSITIVE_CASE_CONVERSION>` feature (supported by :ref:`TextServerAdvanced<class_TextServerAdvanced>`).
 
-\ **Nota:** El resultado puede ser más largo o más corto que el original.
+\ **Note:** The result may be longer or shorter than the original.
 
 .. rst-class:: classref-item-separator
 
@@ -4574,7 +4634,7 @@ Elimina los diacríticos de la string.
 
 :ref:`String<class_String>` **tag_to_name**\ (\ tag\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TextServer_method_tag_to_name>`
 
-Convierte la etiqueta OpenType a un nombre legible de característica, variación, script o idioma.
+Converts the given OpenType tag to the readable name of a feature, variation, script, or language.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

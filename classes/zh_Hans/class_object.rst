@@ -5,7 +5,7 @@
 Object
 ======
 
-**派生：** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
+**派生：** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`GodotInstance<class_GodotInstance>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer2DManager<class_NavigationServer2DManager>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`NavigationServer3DManager<class_NavigationServer3DManager>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
 
 引擎中所有其他类的基类。
 
@@ -251,7 +251,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_PERSIST** = ``2``
 
-持久连接会在序列化对象时存储（比如使用 :ref:`PackedScene.pack()<class_PackedScene_method_pack>` 时）。在编辑器中，通过“节点”面板创建的连接总是持久的。
+Persisting connections are stored when the object is serialized (such as when using :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). In the editor, connections created through the Signals dock are always persisting.
+
+\ **Note:** Connections to lambda functions (that is, when the function code is embedded in the :ref:`connect()<class_Object_method_connect>` call) cannot be made persistent.
 
 .. _class_Object_constant_CONNECT_ONE_SHOT:
 
@@ -300,7 +302,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 **NOTIFICATION_PREDELETE** = ``1`` :ref:`🔗<class_Object_constant_NOTIFICATION_PREDELETE>`
 
-该对象即将被删除时收到的通知。可以用作其他面向对象编程语言中的析构函数。
+Notification received when the object is about to be deleted. Can be used like destructors in object-oriented programming languages.
+
+This notification is sent in reversed order.
 
 .. _class_Object_constant_NOTIFICATION_EXTENSION_RELOADED:
 
@@ -325,11 +329,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **_get**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__get>`
 
-覆盖该方法以自定义 :ref:`get()<class_Object_method_get>` 的行为。应该返回给定的 ``property`` 的值，或者 ``property`` 应该被正常处理时返回 ``null``\ 。
+Override this method to customize the behavior of :ref:`get()<class_Object_method_get>`. Should return the given ``property``'s value, or ``null`` if the ``property`` should be handled normally.
 
-结合 :ref:`_set()<class_Object_private_method__set>` 和 :ref:`_get_property_list()<class_Object_private_method__get_property_list>`\ ，该方法允许定义自定义属性，对编辑器插件特别有用。
+Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **注意：**\ 获取对象的内置属性时不会调用该方法，包括使用 :ref:`@GDScript.@export<class_@GDScript_annotation_@export>` 定义的属性。
+\ **Note:** This method is not called when getting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -338,7 +342,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _get(property):
         if property == "fake_property":
-            print("正在获取我的属性！")
+            print("Getting my property!")
             return 4
 
     func _get_property_list():
@@ -352,7 +356,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (property == "FakeProperty")
         {
-            GD.Print("正在获取我的属性！");
+            GD.Print("Getting my property!");
             return 4;
         }
         return default;
@@ -372,6 +376,8 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -382,13 +388,13 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_property_list**\ (\ ) |virtual| :ref:`🔗<class_Object_private_method__get_property_list>`
 
-覆盖该方法以提供由引擎处理的额外属性的自定义列表。
+Override this method to provide a custom list of additional properties to handle by the engine.
 
-应该返回一个属性列表，作为字典的 :ref:`Array<class_Array>`\ 。该结果被添加到 :ref:`get_property_list()<class_Object_method_get_property_list>` 的数组中，并且应该以相同的方式进行格式化。每个 :ref:`Dictionary<class_Dictionary>` 必须至少包含 ``name`` 和 ``type`` 条目。
+Should return a property list, as an :ref:`Array<class_Array>` of dictionaries. The result is added to the array of :ref:`get_property_list()<class_Object_method_get_property_list>`, and should be formatted in the same way. Each :ref:`Dictionary<class_Dictionary>` must at least contain the ``name`` and ``type`` entries.
 
-你可以使用 :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` 和 :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` 自定义该方法添加的属性的默认值。
+You can use :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` and :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to customize the default values of the properties added by this method.
 
-下面的示例显示了一个数字列表，该列表显示为从 ``ZERO`` 到 ``FIVE`` 的单词，其中 ``number_count`` 控制列表的大小：
+The example below displays a list of numbers shown as words going from ``ZERO`` to ``FIVE``, with ``number_count`` controlling the size of the list:
 
 
 .. tabs::
@@ -496,9 +502,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
-\ **注意：**\ 该方法旨在用于高级目的。对于大多数常见用例，脚本语言提供了更简单的方法来处理属性。参见 :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`\ 、\ :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`\ 、\ :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>` 等。如果要自定义导出的属性，请使用 :ref:`_validate_property()<class_Object_private_method__validate_property>`\ 。
+\ **Note:** This method is intended for advanced purposes. For most common use cases, the scripting languages offer easier ways to handle properties. See :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>`, etc. If you want to customize exported properties, use :ref:`_validate_property()<class_Object_private_method__validate_property>`.
 
-\ **注意：**\ 如果该对象的脚本不是 :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`\ ，则该方法在编辑器中不会被调用。
+\ **Note:** If the object's script is not :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, this method will not be called in the editor.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy.
 
 .. rst-class:: classref-item-separator
 
@@ -591,7 +599,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 |void| **_notification**\ (\ what\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_Object_private_method__notification>`
 
-当对象收到通知时被调用，可以通过将 ``what`` 与常量比较来识别通知。另见 :ref:`notification()<class_Object_method_notification>`\ 。
+Called when the object receives a notification, which can be identified in ``what`` by comparing it with a constant. See also :ref:`notification()<class_Object_method_notification>`.
 
 
 .. tabs::
@@ -600,7 +608,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _notification(what):
         if what == NOTIFICATION_PREDELETE:
-            print("再见！")
+            print("Goodbye!")
 
  .. code-tab:: csharp
 
@@ -608,15 +616,15 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (what == NotificationPredelete)
         {
-            GD.Print("再见！");
+            GD.Print("Goodbye!");
         }
     }
 
 
 
-\ **注意：**\ 基类 **Object** 定义了一些通知（\ :ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` 和 :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`\ ）。\ :ref:`Node<class_Node>` 等继承类定义了更多通知，这些通知也由该方法接收。
+\ **Note:** The base **Object** defines a few notifications (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Inheriting classes such as :ref:`Node<class_Node>` define a lot more notifications, which are also received by this method.
 
-\ **注意：**\ 与其他虚方法不同，该方法会被每个覆盖的脚本自动调用。这意味着不应该通过 GDScript 中的 ``super`` 或其他语言中的类似手段来调用基础实现。
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. Call order depends on the ``reversed`` argument of :ref:`notification()<class_Object_method_notification>` and varies between different notifications. Most notifications are sent in the forward order (i.e. Object class first, most derived class last).
 
 .. rst-class:: classref-item-separator
 
@@ -628,9 +636,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`bool<class_bool>` **_property_can_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_can_revert>`
 
-覆盖该方法以自定义给定 ``property`` 的恢复行为。如果 ``property`` 具有自定义默认值并且可在检查器面板中恢复，则应返回 ``true``\ 。使用 :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` 来指定 ``property`` 的默认值。
+Override this method to customize the given ``property``'s revert behavior. Should return ``true`` if the ``property`` has a custom default value and is revertible in the Inspector dock. Use :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to specify the ``property``'s default value.
 
-\ **注意：**\ 无论 ``property`` 的当前值如何，该方法都必须始终如一地返回。
+\ **Note:** This method must return consistently, regardless of the current value of the ``property``.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -642,9 +652,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **_property_get_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_get_revert>`
 
-覆盖该方法以自定义给定 ``property`` 的还原行为。应返回 ``property`` 的默认值。如果默认值与 ``property`` 的当前值不同，则检查器停靠面板中会显示一个还原图标。
+Override this method to customize the given ``property``'s revert behavior. Should return the default value for the ``property``. If the default value differs from the ``property``'s current value, a revert icon is displayed in the Inspector dock.
 
-\ **注意：**\ :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` 也必须被覆盖，该方法才能被调用。
+\ **Note:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` must also be overridden for this method to be called.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
 
 .. rst-class:: classref-item-separator
 
@@ -656,11 +668,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`bool<class_bool>` **_set**\ (\ property\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Object_private_method__set>`
 
-覆盖该方法以自定义 :ref:`set()<class_Object_method_set>` 的行为。应将 ``property`` 设置为 ``value`` 并返回 ``true``\ ，如果 ``property`` 正常处理则返回 ``false``\ 。设置 ``property`` 的\ *确切*\ 方式取决于该方法的实现。
+Override this method to customize the behavior of :ref:`set()<class_Object_method_set>`. Should set the ``property`` to ``value`` and return ``true``, or ``false`` if the ``property`` should be handled normally. The *exact* way to set the ``property`` is up to this method's implementation.
 
-结合 :ref:`_get()<class_Object_private_method__get>` 和 :ref:`_get_property_list()<class_Object_private_method__get_property_list>`\ ，该方法允许定义自定义属性，对编辑器插件特别有用。
+Combined with :ref:`_get()<class_Object_private_method__get>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **注意：**\ 设置对象的内置属性时不会调用该方法，包括使用 :ref:`@GDScript.@export<class_@GDScript_annotation_@export>` 定义的属性。
+\ **Note:** This method is not called when setting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -671,7 +683,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _set(property, value):
         if property == "fake_property":
-            # 在冒牌属性中存值。
+            # Storing the value in the fake property.
             internal_data["fake_property"] = value
             return true
         return false
@@ -689,7 +701,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (property == "FakeProperty")
         {
-            // 在冒牌属性中存值。
+            // Storing the value in the fake property.
             _internalData["FakeProperty"] = value;
             return true;
         }
@@ -710,6 +722,8 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     }
 
 
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -874,11 +888,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **call_deferred**\ (\ method\: :ref:`StringName<class_StringName>`, ...\ ) |vararg| :ref:`🔗<class_Object_method_call_deferred>`
 
-在空闲时调用该对象的 ``method`` 方法。始终返回 ``null``\ ，\ **不返回**\ 该方法的结果。
+Calls the ``method`` on the object during idle time. Always returns ``null``, **not** the method's result.
 
-空闲时间主要出现在处理帧和物理帧的末尾。延迟的调用会在此时执行，直到没有调用剩余为止，这意味着你可以从其他延迟的调用中延迟调用，并且它们仍将在当前空闲时间周期中运行。这意味着你不应从延迟调用的方法（或从其调用的方法）中延迟调用其自身，因为这会导致无限递归，就像你直接调用该方法一样。
+Idle time happens mainly at the end of process and physics frames. In it, deferred calls will be run until there are none left, which means you can defer calls from other deferred calls and they'll still be run in the current idle time cycle. This means you should not call a method deferred from itself (or from a method called by it), as this causes infinite recursion the same way as if you had called the method directly.
 
-这个方法支持可变数量的参数，所以参数可以用逗号分隔列表的形式传递。
+This method supports a variable number of arguments, so parameters can be passed as a comma separated list.
 
 
 .. tabs::
@@ -895,19 +909,21 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
-另见 :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`\ 。
+For methods that are deferred from the same thread, the order of execution at idle time is identical to the order in which ``call_deferred`` was called.
 
-\ **注意：**\ 在 C# 中，\ ``method`` 引用内置的 Godot 方法时必须使用 snake_case 的形式。请优先使用 ``MethodName`` 类中暴露的名称，避免每次调用都分配一个新的 :ref:`StringName<class_StringName>`\ 。
+See also :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`.
 
-\ **注意：**\ 如果你想要延迟一帧再调用函数，请使用 :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` 和 :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>` 信号。
+\ **Note:** In C#, ``method`` must be in snake_case when referring to built-in Godot methods. Prefer using the names exposed in the ``MethodName`` class to avoid allocating a new :ref:`StringName<class_StringName>` on each call.
+
+\ **Note:** If you're looking to delay the function call by a frame, refer to the :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` and :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>` signals.
 
 ::
 
     var node = Node3D.new()
-    # 制作可调用体并将参数绑定到该节点的 rotate() 调用。
+    # Make a Callable and bind the arguments to the node's rotate() call.
     var callable = node.rotate.bind(Vector3(1.0, 0.0, 0.0), 1.571)
-    # 将可调用体连接到 process_frame 信号，这样就能够在下一个处理帧中调用。
-    # CONNECT_ONE_SHOT 能够确保只调用一次，不会每帧都调用。
+    # Connect the callable to the process_frame signal, so it gets called in the next process frame.
+    # CONNECT_ONE_SHOT makes sure it only gets called once instead of every frame.
     get_tree().process_frame.connect(callable, CONNECT_ONE_SHOT)
 
 .. rst-class:: classref-item-separator
@@ -973,15 +989,15 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect**\ (\ signal\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, flags\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Object_method_connect>`
 
-将名为 ``signal`` 的信号与可调用体 ``callable`` 连接。还可以通过 ``flags`` 添加标志，配置连接行为（见 :ref:`ConnectFlags<enum_Object_ConnectFlags>` 常量）。
+Connects a ``signal`` by name to a ``callable``. Optional ``flags`` can be also added to configure the connection's behavior (see :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants).
 
-一个信号与同一个 :ref:`Callable<class_Callable>` 只能连接一次。如果信号已连接，则该方法会返回 :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` 并报错误，除非信号是使用 :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>` 连接的。要防止出现这种情况，请先使用 :ref:`is_connected()<class_Object_method_is_connected>` 检查是否已存在连接。
+A signal can only be connected once to the same :ref:`Callable<class_Callable>`. If the signal is already connected, this method returns :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` and generates an error, unless the signal is connected with :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To prevent this, use :ref:`is_connected()<class_Object_method_is_connected>` first to check for existing connections.
 
-\ **注意：**\ 如果 ``callable`` 的对象被释放，连接就会丢失。
+\ **Note:** If the ``callable``'s object is freed, the connection will be lost.
 
-\ **注意：**\ 在 GDScript 中，通常建议使用 :ref:`Signal.connect()<class_Signal_method_connect>` 来连接信号。
+\ **Note:** In GDScript, it is generally recommended to connect signals with :ref:`Signal.connect()<class_Signal_method_connect>` instead.
 
-\ **注意：**\ 该操作（和其他所有与信号相关的操作）是线程安全的。
+\ **Note:** This method, and all other signal-related methods, are thread-safe.
 
 .. rst-class:: classref-item-separator
 
@@ -1286,9 +1302,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_signal_list**\ (\ ) |const| :ref:`🔗<class_Object_method_get_signal_list>`
 
-将现有信号的列表返回为字典的一个 :ref:`Array<class_Array>` 。
+Returns the list of existing signals as an :ref:`Array<class_Array>` of dictionaries.
 
-\ **注意：**\ 由于该实现，每个 :ref:`Dictionary<class_Dictionary>` 被格式为与 :ref:`get_method_list()<class_Object_method_get_method_list>` 的返回值非常相似。
+\ **Note:** Due to the implementation, each :ref:`Dictionary<class_Dictionary>` is formatted very similarly to the returned values of :ref:`get_method_list()<class_Object_method_get_method_list>`.
 
 .. rst-class:: classref-item-separator
 

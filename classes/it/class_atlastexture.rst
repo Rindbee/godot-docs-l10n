@@ -111,7 +111,9 @@ Il margine attorno alla regione (:ref:`region<class_AtlasTexture_property_region
 - |void| **set_region**\ (\ value\: :ref:`Rect2<class_Rect2>`\ )
 - :ref:`Rect2<class_Rect2>` **get_region**\ (\ )
 
-La regione usata per disegnare l':ref:`atlas<class_AtlasTexture_property_atlas>`. Se una delle dimensioni della regione è ``0``, il valore dalle dimensioni dell':ref:`atlas<class_AtlasTexture_property_atlas>` sarà invece utilizzato per quell'asse.
+The region used to draw the :ref:`atlas<class_AtlasTexture_property_atlas>`. If either dimension of the region's size is ``0``, the value from :ref:`atlas<class_AtlasTexture_property_atlas>` size will be used for that axis instead.
+
+\ **Note:** The image size is always an integer, so the actual region size is rounded down.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

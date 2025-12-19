@@ -14,15 +14,17 @@ PopupMenu
 Опис
 --------
 
-**PopupMenu** є модним вікном, яке використовується для відображення списку варіантів. Корисне меню інструментів та контекстних меню.
+**PopupMenu** is a modal window used to display a list of options. Useful for toolbars and context menus.
 
-Розмір **PopupMenu** може бути обмежений за допомогою :ref:`Window.max_size<class_Window_property_max_size>`. Якщо висота переліку товарів більша, ніж максимальна висота **PopupMenu**, :ref:`ScrollContainer<class_ScrollContainer>` в межах спливаючих дозволить користувачеві прокрутити вміст. Якщо не встановлено максимальний розмір, або якщо вона встановлена до ``0``, висота **PopupMenu** буде обмежена його батьківщиною.
+The size of a **PopupMenu** can be limited by using :ref:`Window.max_size<class_Window_property_max_size>`. If the height of the list of items is larger than the maximum height of the **PopupMenu**, a :ref:`ScrollContainer<class_ScrollContainer>` within the popup will allow the user to scroll the contents. If no maximum size is set, or if it is set to ``0``, the **PopupMenu** height will be limited by its parent rect.
 
-Всі ``set_*`` методи дозволяють індексувати негативний елемент, тобто ``-1`` для доступу до останнього елемента ``-2`` для вибору другого елемента, і так далі.
+All ``set_*`` methods allow negative item indices, i.e. ``-1`` to access the last item, ``-2`` to select the second-to-last item, and so on.
 
-\ **Incremental search:** Подібно :ref:`ItemList<class_ItemList>` і :ref:`Tree<class_Tree>`, **PopupMenu** підтримує пошук у списку, в той час як зосереджений контроль. Натисніть клавішу, яка відповідає першому листу назви пункту, щоб вибрати перший елемент, починаючи з даного листа. Після того, як точка, є два способи виконання вступного пошуку: 1) Натисніть той же ключ знову до закінчення часу, щоб вибрати наступний пункт, починаючи з того ж листа. 2) Натисніть клавіші літери, які відповідають решті слова перед тривалістю часу, щоб відповідати вибору пункту прямо. І з цих дій буде скидання на початок списку, якщо тривалість від’їзду з останнього ключа було зареєстровано. Ви можете налаштувати тривалість часу, змінивши :ref:`ProjectSettings.gui/timers/incremental_search_max_interval_msec<class_ProjectSettings_property_gui/timers/incremental_search_max_interval_msec>`.
+\ **Incremental search:** Like :ref:`ItemList<class_ItemList>` and :ref:`Tree<class_Tree>`, **PopupMenu** supports searching within the list while the control is focused. Press a key that matches the first letter of an item's name to select the first item starting with the given letter. After that point, there are two ways to perform incremental search: 1) Press the same key again before the timeout duration to select the next item starting with the same letter. 2) Press letter keys that match the rest of the word before the timeout duration to match to select the item in question directly. Both of these actions will be reset to the beginning of the list if the timeout duration has passed since the last keystroke was registered. You can adjust the timeout duration by changing :ref:`ProjectSettings.gui/timers/incremental_search_max_interval_msec<class_ProjectSettings_property_gui/timers/incremental_search_max_interval_msec>`.
 
-\ **Примітка:** Значення ідентифікатора, що використовуються для елементів, обмежені 32 бітами, не повні 64 біти :ref:`int<class_int>`. Це має діапазон ``-2^32`` до ``2^32 - 1``, тобто ``-2147483648`` до ``2147483647``.
+\ **Note:** **PopupMenu** is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
+
+\ **Note:** The ID values used for items are limited to 32 bits, not full 64 bits of :ref:`int<class_int>`. This has a range of ``-2^32`` to ``2^32 - 1``, i.e. ``-2147483648`` to ``2147483647``.
 
 .. rst-class:: classref-reftable-group
 
@@ -45,7 +47,7 @@ PopupMenu
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                         | :ref:`prefer_native_menu<class_PopupMenu_property_prefer_native_menu>`                             | ``false``                                                                    |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                       | :ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`                           | ``0.3``                                                                      |
+   | :ref:`float<class_float>`                       | :ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`                           | ``0.2``                                                                      |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`SystemMenus<enum_NativeMenu_SystemMenus>` | :ref:`system_menu_id<class_PopupMenu_property_system_menu_id>`                                     | ``0``                                                                        |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -233,6 +235,8 @@ PopupMenu
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`Color<class_Color>`         | :ref:`font_separator_outline_color<class_PopupMenu_theme_color_font_separator_outline_color>` | ``Color(0, 0, 0, 1)``             |
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
+   | :ref:`int<class_int>`             | :ref:`gutter_compact<class_PopupMenu_theme_constant_gutter_compact>`                          | ``1``                             |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`int<class_int>`             | :ref:`h_separation<class_PopupMenu_theme_constant_h_separation>`                              | ``4``                             |
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`int<class_int>`             | :ref:`icon_max_width<class_PopupMenu_theme_constant_icon_max_width>`                          | ``0``                             |
@@ -315,9 +319,9 @@ PopupMenu
 
 **id_pressed**\ (\ id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PopupMenu_signal_id_pressed>`
 
-Увімкнено, коли активовано пункт деяких ``id`` або його акселератор.
+Emitted when an item of some ``id`` is pressed. Also emitted when its accelerator is activated on macOS.
 
-\ **Примітка:** Якщо ``id`` є негативним (наприклад, явно або через переповнення), це поверне відповідний індекс замість.
+\ **Note:** If ``id`` is negative (either explicitly or due to overflow), this will return the corresponding index instead.
 
 .. rst-class:: classref-item-separator
 
@@ -329,7 +333,7 @@ PopupMenu
 
 **index_pressed**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PopupMenu_signal_index_pressed>`
 
-Увімкнено, коли активовано пункт деяких ``index`` або його акселератор.
+Emitted when an item of some ``index`` is pressed. Also emitted when its accelerator is activated on macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -460,14 +464,16 @@ PopupMenu
 
 .. rst-class:: classref-property
 
-:ref:`float<class_float>` **submenu_popup_delay** = ``0.3`` :ref:`🔗<class_PopupMenu_property_submenu_popup_delay>`
+:ref:`float<class_float>` **submenu_popup_delay** = ``0.2`` :ref:`🔗<class_PopupMenu_property_submenu_popup_delay>`
 
 .. rst-class:: classref-property-setget
 
 - |void| **set_submenu_popup_delay**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_submenu_popup_delay**\ (\ )
 
-Налаштовує час затримки в секундах для підменю пункту, щоб попросити на мишці. Якщо у спливаючому меню додається дитина іншої (як підменю), вона буде спадковувати час затримки батьківського пункту меню.
+Sets the delay time in seconds for the submenu item to popup on mouse hovering. If the popup menu is added as a child of another (acting as a submenu), it will inherit the delay time of the parent menu item.
+
+\ **Note:** If the mouse is exiting a submenu item with an open submenu and enters a different submenu item, the submenu popup delay time is affected by the direction of the mouse movement toward the open submenu. If the mouse is moving toward the submenu, the open submenu will wait approximately ``0.5`` seconds before closing, which then allows the hovered submenu item to open. This additional delay allows the mouse time to move to the open submenu across other menu items without prematurely closing. If the mouse is not moving toward the open submenu, for example in a downward direction, the open submenu will close immediately.
 
 .. rst-class:: classref-item-separator
 
@@ -1313,7 +1319,7 @@ PopupMenu
 
 |void| **set_item_language**\ (\ index\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_PopupMenu_method_set_item_language>`
 
-Налаштовує мовний код текста, який використовується для алгоритмів розбиття та формування тексту, якщо використовується лівий порожній струм.
+Sets the language code of the text for the item at the given index to ``language``. This is used for line-breaking and text shaping algorithms. If ``language`` is empty, the current locale is used.
 
 .. rst-class:: classref-item-separator
 
@@ -1549,6 +1555,18 @@ PopupMenu
 :ref:`Color<class_Color>` **font_separator_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_PopupMenu_theme_color_font_separator_outline_color>`
 
 Розмітка текстового контуру маркованого сепаратора.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_PopupMenu_theme_constant_gutter_compact:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **gutter_compact** = ``1`` :ref:`🔗<class_PopupMenu_theme_constant_gutter_compact>`
+
+If not ``0``, the icon gutter will be merged with the checkbox gutter when possible. This acts as a boolean.
 
 .. rst-class:: classref-item-separator
 

@@ -375,7 +375,7 @@ enum **TileAnimationMode**: :ref:`🔗<enum_TileSetAtlasSource_TileAnimationMode
 
 :ref:`Texture2D<class_Texture2D>` **get_runtime_texture**\ (\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_runtime_texture>`
 
-如果 :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` 为 ``false``\ ，则返回 :ref:`texture<class_TileSetAtlasSource_property_texture>`\ 。否则，创建并返回包含内边距的内部 :ref:`ImageTexture<class_ImageTexture>`\ 。
+If :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` is ``false``, returns :ref:`texture<class_TileSetAtlasSource_property_texture>`. Otherwise, returns an internal :ref:`ImageTexture<class_ImageTexture>` created that includes the padding.
 
 .. rst-class:: classref-item-separator
 

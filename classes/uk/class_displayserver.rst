@@ -31,7 +31,7 @@ DisplayServer
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`RID<class_RID>`                                                   | :ref:`accessibility_create_sub_element<class_DisplayServer_method_accessibility_create_sub_element>`\ (\ parent_rid\: :ref:`RID<class_RID>`, role\: :ref:`AccessibilityRole<enum_DisplayServer_AccessibilityRole>`, insert_pos\: :ref:`int<class_int>` = -1\ )                                                                                                                                                                                                                                                                                                                                                    |
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`RID<class_RID>`                                                   | :ref:`accessibility_create_sub_text_edit_elements<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`\ (\ parent_rid\: :ref:`RID<class_RID>`, shaped_text\: :ref:`RID<class_RID>`, min_height\: :ref:`float<class_float>`, insert_pos\: :ref:`int<class_int>` = -1\ )                                                                                                                                                                                                                                                                                                                        |
+   | :ref:`RID<class_RID>`                                                   | :ref:`accessibility_create_sub_text_edit_elements<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`\ (\ parent_rid\: :ref:`RID<class_RID>`, shaped_text\: :ref:`RID<class_RID>`, min_height\: :ref:`float<class_float>`, insert_pos\: :ref:`int<class_int>` = -1, is_last_line\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                                                                                                                                        |
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Variant<class_Variant>`                                           | :ref:`accessibility_element_get_meta<class_DisplayServer_method_accessibility_element_get_meta>`\ (\ id\: :ref:`RID<class_RID>`\ ) |const|                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -517,6 +517,8 @@ DisplayServer
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                  | :ref:`window_request_attention<class_DisplayServer_method_window_request_attention>`\ (\ window_id\: :ref:`int<class_int>` = 0\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                                  | :ref:`window_set_color<class_DisplayServer_method_window_set_color>`\ (\ color\: :ref:`Color<class_Color>`\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+   +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                  | :ref:`window_set_current_screen<class_DisplayServer_method_window_set_current_screen>`\ (\ screen\: :ref:`int<class_int>`, window_id\: :ref:`int<class_int>` = 0\ )                                                                                                                                                                                                                                                                                                                                                                                                                                               |
    +-------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                                  | :ref:`window_set_drop_files_callback<class_DisplayServer_method_window_set_drop_files_callback>`\ (\ callback\: :ref:`Callable<class_Callable>`, window_id\: :ref:`int<class_int>` = 0\ )                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -691,7 +693,9 @@ enum **Feature**: :ref:`🔗<enum_DisplayServer_Feature>`
 
 :ref:`Feature<enum_DisplayServer_Feature>` **FEATURE_ICON** = ``13``
 
-Відображення сервера підтримує зміну іконки вікна (зазвичай відображається у верхньому лівому куті). **Windows, macOS, Linux**
+Display server supports changing the window icon (usually displayed in the top-left corner). **Windows, macOS, Linux (X11/Wayland)**\ 
+
+\ **Note:** Use on Wayland requires the compositor to implement the `xdg_toplevel_icon_v1 <https://wayland.app/protocols/xdg-toplevel-icon-v1#xdg_toplevel_icon_v1>`__ protocol, which not all compositors do. See `xdg_toplevel_icon_v1#compositor-support <https://wayland.app/protocols/xdg-toplevel-icon-v1#compositor-support>`__ for more information on individual compositor support.
 
 .. _class_DisplayServer_constant_FEATURE_NATIVE_ICON:
 
@@ -1297,7 +1301,7 @@ enum **AccessibilityFlags**: :ref:`🔗<enum_DisplayServer_AccessibilityFlags>`
 
 :ref:`AccessibilityFlags<enum_DisplayServer_AccessibilityFlags>` **FLAG_MULTISELECTABLE** = ``1``
 
-Елемент підтримує вибір кількох елементів.
+Element supports multiple item selection.
 
 .. _class_DisplayServer_constant_FLAG_REQUIRED:
 
@@ -2305,7 +2309,7 @@ enum **WindowFlags**: :ref:`🔗<enum_DisplayServer_WindowFlags>`
 
 :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` **WINDOW_FLAG_MAX** = ``13``
 
-Максимальне значення :ref:`WindowFlags<enum_DisplayServer_WindowFlags>`.
+Represents the size of the :ref:`WindowFlags<enum_DisplayServer_WindowFlags>` enum.
 
 .. rst-class:: classref-item-separator
 
@@ -2393,9 +2397,9 @@ enum **WindowEvent**: :ref:`🔗<enum_DisplayServer_WindowEvent>`
 
 :ref:`WindowEvent<enum_DisplayServer_WindowEvent>` **WINDOW_EVENT_FORCE_CLOSE** = ``8``
 
-Надсилається, коли вікно примусово закривається сервером відображення. Вікно має негайно приховати та очистити будь-які внутрішні посилання на рендеринг.
+Sent when the window has been forcibly closed by the display server. The window will immediately hide and clean any internal rendering references.
 
-\ **Примітка:** Цей прапорець реалізовано лише в Linux (Wayland).
+\ **Note:** This flag is implemented only on Linux (Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -2785,9 +2789,11 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 .. rst-class:: classref-method
 
-:ref:`RID<class_RID>` **accessibility_create_sub_text_edit_elements**\ (\ parent_rid\: :ref:`RID<class_RID>`, shaped_text\: :ref:`RID<class_RID>`, min_height\: :ref:`float<class_float>`, insert_pos\: :ref:`int<class_int>` = -1\ ) :ref:`🔗<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`
+:ref:`RID<class_RID>` **accessibility_create_sub_text_edit_elements**\ (\ parent_rid\: :ref:`RID<class_RID>`, shaped_text\: :ref:`RID<class_RID>`, min_height\: :ref:`float<class_float>`, insert_pos\: :ref:`int<class_int>` = -1, is_last_line\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`
 
-Створює новий, порожній піделемент доступності з буфера форми тексту. Піделементи звільняються автоматично, коли звільняється батьківський елемент, або можуть бути звільнені раніше за допомогою методу :ref:`accessibility_free_element()<class_DisplayServer_method_accessibility_free_element>`.
+Creates a new, empty accessibility sub-element from the shaped text buffer. Sub-elements are freed automatically when the parent element is freed, or can be freed early using the :ref:`accessibility_free_element()<class_DisplayServer_method_accessibility_free_element>` method.
+
+If ``is_last_line`` is ``true``, no trailing newline is appended to the text content. Set to ``true`` for the last line in multi-line text fields and for single-line text fields.
 
 .. rst-class:: classref-item-separator
 
@@ -2799,7 +2805,7 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`Variant<class_Variant>` **accessibility_element_get_meta**\ (\ id\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_DisplayServer_method_accessibility_element_get_meta>`
 
-Повертає метадані елемента доступності.
+Returns the metadata of the accessibility element ``id``.
 
 .. rst-class:: classref-item-separator
 
@@ -2811,7 +2817,7 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 |void| **accessibility_element_set_meta**\ (\ id\: :ref:`RID<class_RID>`, meta\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_element_set_meta>`
 
-Встановлює метадані елемента доступності.
+Sets the metadata of the accessibility element ``id`` to ``meta``.
 
 .. rst-class:: classref-item-separator
 
@@ -2823,7 +2829,7 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 |void| **accessibility_free_element**\ (\ id\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_DisplayServer_method_accessibility_free_element>`
 
-Звільняє об'єкт, створений методом :ref:`accessibility_create_element()<class_DisplayServer_method_accessibility_create_element>`, :ref:`accessibility_create_sub_element()<class_DisplayServer_method_accessibility_create_sub_element>` або :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`.
+Frees the accessibility element ``id`` created by :ref:`accessibility_create_element()<class_DisplayServer_method_accessibility_create_element>`, :ref:`accessibility_create_sub_element()<class_DisplayServer_method_accessibility_create_sub_element>`, or :ref:`accessibility_create_sub_text_edit_elements()<class_DisplayServer_method_accessibility_create_sub_text_edit_elements>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2859,11 +2865,11 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`int<class_int>` **accessibility_screen_reader_active**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_accessibility_screen_reader_active>`
 
-Повертає ``1``, якщо активний зчитувач з екрана, дисплей Брайля або інший допоміжний додаток, в іншому випадку ``0``. Повертає ``-1``, якщо статус невідомий.
+Returns ``1`` if a screen reader, Braille display or other assistive app is active, ``0`` otherwise. Returns ``-1`` if status is unknown.
 
-\ **Примітка:** Цей метод реалізовано в Linux, macOS та Windows.
+\ **Note:** This method is implemented on Linux, macOS, and Windows.
 
-\ **Примітка:** Інструменти налагодження доступності, такі як Accessibility Insights for Windows, macOS Accessibility Inspector або AT-SPI Browser, не враховуються як допоміжні програми та не впливатимуть на це значення. Щоб протестувати свій додаток за допомогою цих інструментів, встановіть для :ref:`ProjectSettings.accessibility/general/accessibility_support<class_ProjectSettings_property_accessibility/general/accessibility_support>` значення ``1``.
+\ **Note:** Accessibility debugging tools, such as Accessibility Insights for Windows, Accessibility Inspector (macOS), or AT-SPI Browser (Linux/BSD), do not count as assistive apps and will not affect this value. To test your project with these tools, set :ref:`ProjectSettings.accessibility/general/accessibility_support<class_ProjectSettings_property_accessibility/general/accessibility_support>` to ``1``.
 
 .. rst-class:: classref-item-separator
 
@@ -3925,23 +3931,45 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **file_dialog_show**\ (\ title\: :ref:`String<class_String>`, current_directory\: :ref:`String<class_String>`, filename\: :ref:`String<class_String>`, show_hidden\: :ref:`bool<class_bool>`, mode\: :ref:`FileDialogMode<enum_DisplayServer_FileDialogMode>`, filters\: :ref:`PackedStringArray<class_PackedStringArray>`, callback\: :ref:`Callable<class_Callable>`, parent_window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_file_dialog_show>`
 
-Відображає діалогове вікно ОС для вибору файлів або каталогів у файловій системі.
+Displays OS native dialog for selecting files or directories in the file system.
 
-Кожен рядок фільтра в масиві ``filters`` має бути відформатований таким чином: ``*.png,*.jpg,*.jpeg;Image Files;image/png,image/jpeg``. Текст опису фільтра необов'язковий і його можна пропустити. Рекомендується встановлювати як розширення файлу, так і тип MIME. Див. також :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
+Each filter string in the ``filters`` array should be formatted like this: ``*.png,*.jpg,*.jpeg;Image Files;image/png,image/jpeg``. The description text of the filter is optional and can be omitted. It is recommended to set both file extension and MIME type. See also :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
 
-Зворотні виклики мають такі аргументи: ``status: bool, selected_paths: PackedStringArray, selected_filter_index: int``. **На Android,** третій аргумент зворотного виклику (``selected_filter_index``) завжди дорівнює ``0``.
+Callbacks have the following arguments: ``status: bool, selected_paths: PackedStringArray, selected_filter_index: int``. **On Android,** the third callback argument (``selected_filter_index``) is always ``0``.
 
-\ **Примітка:** Цей метод реалізовано, якщо сервер відображення має функцію :ref:`FEATURE_NATIVE_DIALOG_FILE<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE>`. Підтримувані платформи включають Linux (X11/Wayland), Windows, macOS та Android (рівень API 29+).
+\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_DIALOG_FILE<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE>` feature. Supported platforms include Linux (X11/Wayland), Windows, macOS, and Android (API level 29+).
 
-\ **Примітка:** Параметр ``current_directory`` може ігноруватися.
+\ **Note:** ``current_directory`` might be ignored.
 
-\ **Примітка:** Вбудовані діалогові вікна файлів та діалогові вікна файлів Windows підтримують лише розширення файлів, тоді як діалогові вікна файлів Android, Linux та macOS також підтримують типи MIME.
+\ **Note:** Embedded file dialogs and Windows file dialogs support only file extensions, while Android, Linux, and macOS file dialogs also support MIME types.
 
-\ **Примітка:** На Android та Linux параметр ``show_hidden`` ігнорується.
+\ **Note:** On Android and Linux, ``show_hidden`` is ignored.
 
-\ **Примітка:** На Android та macOS рідні діалогові вікна файлів не мають заголовка.
+\ **Note:** On Android and macOS, native file dialogs have no title.
 
-\ **Примітка:** На macOS ізольовані програми зберігатимуть закладки з областю безпеки, щоб зберегти доступ до відкритих папок протягом кількох сеансів. Використовуйте :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>`, щоб отримати список збережених закладок.
+\ **Note:** On macOS, sandboxed apps will save security-scoped bookmarks to retain access to the opened folders across multiple sessions. Use :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` to get a list of saved bookmarks.
+
+\ **Note:** On Android, this method uses the Android Storage Access Framework (SAF).
+
+The file picker returns a URI instead of a filesystem path. This URI can be passed directly to :ref:`FileAccess<class_FileAccess>` to perform read/write operations.
+
+When using :ref:`FILE_DIALOG_MODE_OPEN_DIR<class_DisplayServer_constant_FILE_DIALOG_MODE_OPEN_DIR>`, it returns a tree URI that grants full access to the selected directory. File operations inside this directory can be performed by passing a path on the form ``treeUri#relative/path/to/file`` to :ref:`FileAccess<class_FileAccess>`.
+
+To avoid opening the file picker again after each app restart, you can take persistable URI permission as follows:
+
+
+.. tabs::
+
+ .. code-tab:: gdscript
+
+    val uri = "content://com.android..." # URI of the selected file or folder.
+    val persist = true # Set to false to release the persistable permission.
+    var android_runtime = Engine.get_singleton("AndroidRuntime")
+    android_runtime.updatePersistableUriPermission(uri, persist)
+
+
+
+The persistable URI permission remains valid across app restarts as long as the directory is not moved, renamed, or deleted.
 
 .. rst-class:: classref-item-separator
 
@@ -3953,31 +3981,31 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **file_dialog_with_options_show**\ (\ title\: :ref:`String<class_String>`, current_directory\: :ref:`String<class_String>`, root\: :ref:`String<class_String>`, filename\: :ref:`String<class_String>`, show_hidden\: :ref:`bool<class_bool>`, mode\: :ref:`FileDialogMode<enum_DisplayServer_FileDialogMode>`, filters\: :ref:`PackedStringArray<class_PackedStringArray>`, options\: :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\], callback\: :ref:`Callable<class_Callable>`, parent_window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_file_dialog_with_options_show>`
 
-Відображає рідне діалогове вікно ОС для вибору файлів або каталогів у файловій системі з додатковими параметрами, які користувач може вибрати.
+Displays OS native dialog for selecting files or directories in the file system with additional user selectable options.
 
-Кожен рядок фільтра в масиві ``filters`` має бути відформатований таким чином: ``*.png,*.jpg,*.jpeg;Файли зображень;image/png,image/jpeg``. Текст опису фільтра необов’язковий і його можна опустити. Рекомендується встановити як розширення файлу, так і тип MIME. Дивіться :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
+Each filter string in the ``filters`` array should be formatted like this: ``*.png,*.jpg,*.jpeg;Image Files;image/png,image/jpeg``. The description text of the filter is optional and can be omitted. It is recommended to set both file extension and MIME type. See also :ref:`FileDialog.filters<class_FileDialog_property_filters>`.
 
-\ ``options`` — це масив :ref:`Dictionary<class_Dictionary>` з такими ключами:
+\ ``options`` is array of :ref:`Dictionary<class_Dictionary>`\ s with the following keys:
 
-- ``"назва"`` - назва опції :ref:`String<class_String>`.
+- ``"name"`` - option's name :ref:`String<class_String>`.
 
-- ``"значення"`` - :ref:`PackedStringArray<class_PackedStringArray>` значень. Якщо пусто, використовується логічний параметр (прапорець).
+- ``"values"`` - :ref:`PackedStringArray<class_PackedStringArray>` of values. If empty, boolean option (check box) is used.
 
-- ``"default"`` - типовий індекс вибраного параметра (:ref:`int<class_int>`) або типове логічне значення (:ref:`bool<class_bool>`).
+- ``"default"`` - default selected option index (:ref:`int<class_int>`) or default boolean value (:ref:`bool<class_bool>`).
 
-Зворотні виклики мають такі аргументи: ``status: bool, selected_paths: PackedStringArray, selected_filter_index: int, selected_option: Dictionary``.
+Callbacks have the following arguments: ``status: bool, selected_paths: PackedStringArray, selected_filter_index: int, selected_option: Dictionary``.
 
-\ **Примітка:** Цей метод реалізовано, якщо сервер відображення має функцію :ref:`FEATURE_NATIVE_DIALOG_FILE_EXTRA<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE_EXTRA>`. Підтримувані платформи включають Linux (X11/Wayland), Windows і macOS.
+\ **Note:** This method is implemented if the display server has the :ref:`FEATURE_NATIVE_DIALOG_FILE_EXTRA<class_DisplayServer_constant_FEATURE_NATIVE_DIALOG_FILE_EXTRA>` feature. Supported platforms include Linux (X11/Wayland), Windows, and macOS.
 
-\ **Примітка:** ``current_directory`` може бути проігноровано.
+\ **Note:** ``current_directory`` might be ignored.
 
-\ **Примітка:** Вбудоване діалогове вікно файлів і діалогове вікно файлів Windows підтримують лише розширення файлів, тоді як діалогові вікна файлів Android, Linux і macOS також підтримують типи MIME.
+\ **Note:** Embedded file dialogs and Windows file dialogs support only file extensions, while Android, Linux, and macOS file dialogs also support MIME types.
 
-\ **Примітка:** У Linux (X11) ``show_hidden`` ігнорується.
+\ **Note:** On Linux (X11), ``show_hidden`` is ignored.
 
-\ **Примітка:** У macOS рідні діалогові вікна файлів не мають заголовків.
+\ **Note:** On macOS, native file dialogs have no title.
 
-\ **Примітка:** У macOS програми ізольованого програмного середовища зберігають закладки з областю безпеки, щоб зберегти доступ до відкритих тек протягом кількох сеансів. Використовуйте :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>`, щоб отримати список збережених закладок.
+\ **Note:** On macOS, sandboxed apps will save security-scoped bookmarks to retain access to the opened folders across multiple sessions. Use :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` to get a list of saved bookmarks.
 
 .. rst-class:: classref-item-separator
 
@@ -4087,9 +4115,9 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`int<class_int>` **get_primary_screen**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_get_primary_screen>`
 
-Повертає індекс основного екрана.
+Returns the index of the primary screen.
 
-\ **Примітка:** Цей метод реалізовано на Linux/X11, macOS та Windows. На інших платформах цей метод завжди повертає ``0``.
+\ **Note:** This method is implemented on Linux/X11, macOS, and Windows. On other platforms, this method always returns ``0``.
 
 .. rst-class:: classref-item-separator
 
@@ -5533,11 +5561,11 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`Color<class_Color>` **screen_get_pixel**\ (\ position\: :ref:`Vector2i<class_Vector2i>`\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_pixel>`
 
-Повертає колір пікселя дисплея в позиції ``position``.
+Returns the color of the pixel at the given screen ``position``. On multi-monitor setups, the screen position is relative to the virtual desktop area.
 
-\ **Примітка:** Цей метод реалізовано в Linux (X11, крім XWayland), macOS та Windows. На інших платформах цей метод завжди повертає :ref:`Color<class_Color>`.
+\ **Note:** This method is implemented on Linux (X11, excluding XWayland), macOS, and Windows. On other platforms, this method always returns ``Color(0, 0, 0, 1)``.
 
-\ **Примітка:** У macOS цей метод вимагає дозволу "Запис екрану". Якщо дозвіл не надано, цей метод повертає знімок екрана, який міститиме лише шпалери робочого столу, вікно поточної програми та інші пов'язані елементи інтерфейсу користувача.
+\ **Note:** On macOS, this method requires the "Screen Recording" permission. If permission is not granted, this method returns a color from a screenshot that will not include other application windows or OS elements not related to the application.
 
 .. rst-class:: classref-item-separator
 
@@ -5574,19 +5602,19 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`float<class_float>` **screen_get_refresh_rate**\ (\ screen\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_DisplayServer_method_screen_get_refresh_rate>`
 
-Повертає поточну частоту оновлення вказаного екрана. Повертає ``-1.0``, якщо ``screen`` недійсний або **DisplayServer** не може знайти частоту оновлення для вказаного екрана.
+Returns the current refresh rate of the specified screen. When V-Sync is enabled, this returns the maximum framerate the project can effectively reach. Returns ``-1.0`` if ``screen`` is invalid or the **DisplayServer** fails to find the refresh rate for the specified screen.
 
-Щоб повернутися до частоти оновлення за замовчуванням, якщо метод не спрацює, спробуйте:
+To fallback to a default refresh rate if the method fails, try:
 
 ::
 
     var refresh_rate = DisplayServer.screen_get_refresh_rate()
     if refresh_rate < 0:
-    refresh_rate = 60.0
+        refresh_rate = 60.0
 
-\ **Примітка:** Як ``screen`` можна використовувати одну з наступних констант: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>` або :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
+\ **Note:** One of the following constants can be used as ``screen``: :ref:`SCREEN_OF_MAIN_WINDOW<class_DisplayServer_constant_SCREEN_OF_MAIN_WINDOW>`, :ref:`SCREEN_PRIMARY<class_DisplayServer_constant_SCREEN_PRIMARY>`, :ref:`SCREEN_WITH_MOUSE_FOCUS<class_DisplayServer_constant_SCREEN_WITH_MOUSE_FOCUS>`, or :ref:`SCREEN_WITH_KEYBOARD_FOCUS<class_DisplayServer_constant_SCREEN_WITH_KEYBOARD_FOCUS>`.
 
-\ **Примітка:** Цей метод реалізовано на Android, iOS, macOS, Linux (X11 та Wayland) та Windows. На інших платформах цей метод завжди повертає ``-1.0``.
+\ **Note:** This method is implemented on Android, iOS, macOS, Linux (X11 and Wayland), and Windows. On other platforms, this method always returns ``-1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -5690,9 +5718,9 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 |void| **set_hardware_keyboard_connection_change_callback**\ (\ callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_set_hardware_keyboard_connection_change_callback>`
 
-Встановлює ``callable``, який слід викликати, коли апаратна клавіатура підключена/відключена. ``callable`` повинен приймати один параметр :ref:`bool<class_bool>`, який вказує, чи клавіатура підключена (true) чи відключена (false).
+Sets the callback that should be called when a hardware keyboard is connected or disconnected. ``callable`` should accept a single :ref:`bool<class_bool>` argument indicating whether the keyboard has been connected (``true``) or disconnected (``false``).
 
-\ **Примітка:** Цей метод реалізовано лише на Android.
+\ **Note:** This method is only implemented on Android.
 
 .. rst-class:: classref-item-separator
 
@@ -5732,9 +5760,9 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 |void| **set_system_theme_change_callback**\ (\ callable\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_DisplayServer_method_set_system_theme_change_callback>`
 
-Налаштовує ``callable``, яка повинна бути викликана при зміні теми системи. Метод виклику повинен мати нульові аргументи.
+Sets the callback that should be called when the system's theme settings are changed. ``callable`` should accept zero arguments.
 
-\ **Примітка:** Цей метод реалізується на Android, iOS, macOS, Windows та Linux (X11/Wayland).
+\ **Note:** This method is implemented on Android, iOS, macOS, Windows, and Linux (X11/Wayland).
 
 .. rst-class:: classref-item-separator
 
@@ -6066,9 +6094,9 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`int<class_int>` **virtual_keyboard_get_height**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_virtual_keyboard_get_height>`
 
-Повертає висоту екранної клавіатури в пікселях. Повертає 0, якщо клавіатури немає або вона наразі прихована.
+Returns the on-screen keyboard's height in pixels. Returns ``0`` if there is no keyboard or if it is currently hidden.
 
-\ **Примітка:** На Android 7 та 8 висота клавіатури може повертати 0 під час першого відкриття клавіатури в неімерсивному режимі. Ця поведінка не відбувається в імерсивному режимі.
+\ **Note:** On Android 7 and 8, the keyboard height may return ``0`` the first time the keyboard is opened in non-immersive mode. This behavior does not occur in immersive mode.
 
 .. rst-class:: classref-item-separator
 
@@ -6366,9 +6394,9 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`bool<class_bool>` **window_maximize_on_title_dbl_click**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_window_maximize_on_title_dbl_click>`
 
-Повертаємо ``true``, якщо подвійна клацання на заголовку вікна повинна максимізувати її.
+Returns ``true`` if double-clicking on a window's title should maximize it.
 
-\ **Примітка:** Цей метод реалізується тільки на macOS.
+\ **Note:** This method is implemented only on macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -6380,9 +6408,9 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 
 :ref:`bool<class_bool>` **window_minimize_on_title_dbl_click**\ (\ ) |const| :ref:`🔗<class_DisplayServer_method_window_minimize_on_title_dbl_click>`
 
-Повертаємо ``true``, якщо подвійна клацання на заголовку вікна повинна мінімізувати її.
+Returns ``true`` if double-clicking on a window's title should minimize it.
 
-\ **Примітка:** Цей метод реалізується тільки на macOS.
+\ **Note:** This method is implemented only on macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -6407,6 +6435,20 @@ enum **TTSUtteranceEvent**: :ref:`🔗<enum_DisplayServer_TTSUtteranceEvent>`
 |void| **window_request_attention**\ (\ window_id\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_DisplayServer_method_window_request_attention>`
 
 Зробіть вікно, вказане ``Window_id``, на яке матеріалізується заголовок вікна та запис панелі завдань, що підключається до фокусування вікна. Це зазвичай не має видимого ефекту, якщо вікно в даний час зосереджено. Точна поведінка залежить від операційної системи.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_DisplayServer_method_window_set_color:
+
+.. rst-class:: classref-method
+
+|void| **window_set_color**\ (\ color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_DisplayServer_method_window_set_color>`
+
+Sets the background color of the root window.
+
+\ **Note:** This method is implemented only on Android.
 
 .. rst-class:: classref-item-separator
 

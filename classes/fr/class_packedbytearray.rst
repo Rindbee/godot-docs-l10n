@@ -51,7 +51,7 @@ Méthodes
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                              | :ref:`append_array<class_PackedByteArray_method_append_array>`\ (\ array\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                   |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                               | :ref:`bsearch<class_PackedByteArray_method_bsearch>`\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ )                                                            |
+   | :ref:`int<class_int>`                               | :ref:`bsearch<class_PackedByteArray_method_bsearch>`\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) |const|                                                    |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                              | :ref:`bswap16<class_PackedByteArray_method_bswap16>`\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ )                                                            |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -95,7 +95,7 @@ Méthodes
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>`       | :ref:`decompress_dynamic<class_PackedByteArray_method_decompress_dynamic>`\ (\ max_output_size\: :ref:`int<class_int>`, compression_mode\: :ref:`int<class_int>` = 0\ ) |const|               |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`PackedByteArray<class_PackedByteArray>`       | :ref:`duplicate<class_PackedByteArray_method_duplicate>`\ (\ )                                                                                                                                |
+   | :ref:`PackedByteArray<class_PackedByteArray>`       | :ref:`duplicate<class_PackedByteArray_method_duplicate>`\ (\ ) |const|                                                                                                                        |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                              | :ref:`encode_double<class_PackedByteArray_method_encode_double>`\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`float<class_float>`\ )                                                |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -278,7 +278,7 @@ Ajoute un **PackedByteArray** à la fin de ce tableau.
 
 .. rst-class:: classref-method
 
-:ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_PackedByteArray_method_bsearch>`
+:ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_PackedByteArray_method_bsearch>`
 
 Cherche l'index d'une valeur existante (ou l'index d'insertion qui maintient l'ordre de tri, si la valeur n'est pas encore présente dans le tableau) en utilisant la recherche binaire. Optionnellement, un spécificateur ``before`` peut être passé. Si ``false``, l'index renvoyé vient après toutes les entrées existantes de la valeur dans le tableau.
 
@@ -552,7 +552,7 @@ GZIP a un rapport de compression maximal de 1032:1, ce qui signifie qu'il est tr
 
 .. rst-class:: classref-method
 
-:ref:`PackedByteArray<class_PackedByteArray>` **duplicate**\ (\ ) :ref:`🔗<class_PackedByteArray_method_duplicate>`
+:ref:`PackedByteArray<class_PackedByteArray>` **duplicate**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_duplicate>`
 
 Crée une copie du tableau, et le renvoie.
 
@@ -746,9 +746,9 @@ Recherche dans le tableau pour une valeur et renvoie son index ou ``-1`` si elle
 
 :ref:`int<class_int>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_get>`
 
-Renvoie l'octet à l'index ``index`` donné dans le tableau. Si ``index`` est hors des limites ou négatif, cette méthode échoue et renvoie ``0``.
+Returns the byte at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``0``.
 
-Cette méthode est similaire (mais pas identique) à l'opérateur ``[]``. Plus particulièrement, lorsque cette méthode échoue, elle ne met pas en pause l'exécution du projet s'il est exécuté depuis l'éditeur.
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 

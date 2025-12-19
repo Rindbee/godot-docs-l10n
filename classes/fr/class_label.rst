@@ -17,7 +17,9 @@ Un contrôle pour afficher du texte brut.
 Description
 -----------
 
-Un contrôle pour afficher du texte brut. Il vous donne le contrôle de l'alignement horizontal et vertical et peut faire un retour à la ligne automatique du texte à l'intérieur du rectangle délimitant du nœud. Il ne supporte pas le gras, l'italique ou autre formatage de texte avancé. Pour cela, utilisez :ref:`RichTextLabel<class_RichTextLabel>` à la place.
+A control for displaying plain text. It gives you control over the horizontal and vertical alignment and can wrap the text inside the node's bounding rectangle. It doesn't support bold, italics, or other rich text formatting. For that, use :ref:`RichTextLabel<class_RichTextLabel>` instead.
+
+\ **Note:** A single Label node is not designed to display huge amounts of text. To display large amounts of text in a single node, consider using :ref:`RichTextLabel<class_RichTextLabel>` instead as it supports features like an integrated scroll bar and threading. :ref:`RichTextLabel<class_RichTextLabel>` generally performs better when displaying large amounts of text (several pages or more).
 
 .. rst-class:: classref-introduction-group
 
@@ -279,7 +281,7 @@ Une ressource :ref:`LabelSettings<class_LabelSettings>` qui peut être partagée
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Code de langue utilisé pour les algorithmes de retour à la ligne et de "text shaping". Si vide, la langue locale actuelle est utilisée à la place.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

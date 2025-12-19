@@ -876,7 +876,7 @@ The pattern used for drawing the grid.
 - |void| **set_type_names**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_type_names**\ (\ )
 
-:ref:`Dictionary<class_Dictionary>` of human readable port type names.
+:ref:`Dictionary<class_Dictionary>` of human-readable port type names.
 
 .. rst-class:: classref-item-separator
 
@@ -1388,7 +1388,7 @@ Returns the :ref:`GraphFrame<class_GraphFrame>` that contains the :ref:`GraphEle
 
 |void| **remove_valid_left_disconnect_type**\ (\ type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_left_disconnect_type>`
 
-如果 :ref:`GraphNode<class_GraphNode>` 插槽的左側埠具有指定型別，當從該埠拖動時，則不允許斷開節點的連接。使用該方法來禁用以前使用 :ref:`add_valid_left_disconnect_type()<class_GraphEdit_method_add_valid_left_disconnect_type>` 允許的斷開連接。
+Disallows to disconnect nodes when dragging from the left port of the :ref:`GraphNode<class_GraphNode>`'s slot if it has the specified type. Use this to disable a disconnection previously allowed with :ref:`add_valid_left_disconnect_type()<class_GraphEdit_method_add_valid_left_disconnect_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1400,7 +1400,7 @@ Returns the :ref:`GraphFrame<class_GraphFrame>` that contains the :ref:`GraphEle
 
 |void| **remove_valid_right_disconnect_type**\ (\ type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_right_disconnect_type>`
 
-如果 :ref:`GraphNode<class_GraphNode>` 插槽的右側埠具有指定型別，當從該埠拖動時，則不允許斷開節點的連接。使用該方法來禁用以前使用 :ref:`add_valid_right_disconnect_type()<class_GraphEdit_method_add_valid_right_disconnect_type>` 允許的斷開連接。
+Disallows to disconnect nodes when dragging from the right port of the :ref:`GraphNode<class_GraphNode>`'s slot if it has the specified type. Use this to disable a disconnection previously allowed with :ref:`add_valid_right_disconnect_type()<class_GraphEdit_method_add_valid_right_disconnect_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1537,7 +1537,7 @@ Color of minor grid lines/dots.
 
 :ref:`int<class_int>` **connection_hover_thickness** = ``0`` :ref:`🔗<class_GraphEdit_theme_constant_connection_hover_thickness>`
 
-Widen the line of the connection when the mouse is hovering over it by a percentage factor. A value of ``0`` disables the highlight. A value of ``100`` doubles the line width.
+Widens the line of a connection when the mouse is hovering over it by a percentage factor. A value of ``0`` disables the highlight. A value of ``100`` doubles the line width.
 
 .. rst-class:: classref-item-separator
 

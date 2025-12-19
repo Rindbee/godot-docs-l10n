@@ -789,7 +789,7 @@ Si ``true``, l'étiquette souligne les balises d'indice comme ``[hint=descriptio
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Contrôle l'alignement horizontal du texte. Supporte à gauche, au centre, à droite, et rempli ou justifié.
+Contrôle l'alignement horizontal du texte. Supporte à gauche, au centre, à droite, ou remplir (aussi connu comme justifié).
 
 .. rst-class:: classref-item-separator
 
@@ -823,7 +823,7 @@ Règles d'alignement du remplissage des lignes.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Code de langue utilisé pour les algorithmes de retour à la ligne et de "text shaping". Si vide, la langue locale actuelle est utilisée à la place.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -2077,7 +2077,7 @@ Ajoute une balise ``[p]`` à la pile des balises.
 
 |void| **push_strikethrough**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_strikethrough>`
 
-Ajoute une balise ``[s]`` à la pile des balises. Si la valeur alpha de ``color`` vaut zéro, la couleur de la police actuelle avec alpha multiplié par :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` est utilisée.
+Adds a ``[s]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 
@@ -2101,7 +2101,7 @@ Ajoute une balise ``[table=columns,inline_align]`` à la pile des balises. Utili
 
 |void| **push_underline**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_underline>`
 
-Ajoute une balise ``[u]`` à la pile des balises. Si la valeur alpha de ``color`` vaut zéro, la couleur de la police actuelle avec alpha multiplié par :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>` est utilisée.
+Adds a ``[u]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 

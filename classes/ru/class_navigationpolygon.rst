@@ -172,7 +172,7 @@ enum **SamplePartitionType**: :ref:`🔗<enum_NavigationPolygon_SamplePartitionT
 
 :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>` **SAMPLE_PARTITION_CONVEX_PARTITION** = ``0``
 
-Выпуклое разбиение, дающее навигационную сетку с выпуклыми многоугольниками.
+Convex partitioning that results in a navigation mesh with convex polygons.
 
 .. _class_NavigationPolygon_constant_SAMPLE_PARTITION_TRIANGULATE:
 
@@ -180,7 +180,7 @@ enum **SamplePartitionType**: :ref:`🔗<enum_NavigationPolygon_SamplePartitionT
 
 :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>` **SAMPLE_PARTITION_TRIANGULATE** = ``1``
 
-Триангуляционное разбиение, дающее навигационную сетку с треугольными полигонами.
+Triangulation partitioning that results in a navigation mesh with triangle polygons.
 
 .. _class_NavigationPolygon_constant_SAMPLE_PARTITION_MAX:
 

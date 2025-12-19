@@ -7,14 +7,16 @@ OptimizedTranslation
 
 **Hérite de :** :ref:`Translation<class_Translation>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-Une traduction optimisée, utilisée par défaut pour les traductions CSV.
+An optimized translation.
 
 .. rst-class:: classref-introduction-group
 
 Description
 -----------
 
-Une traduction optimisée, utilisée par défaut pour les traductions CSV. Utilise des traductions compressées en temps réel, ce qui résulte en de très petits dictionnaires.
+An optimized translation. Uses real-time compressed translations, which results in very small dictionaries.
+
+This class does not store the untranslated strings for optimization purposes. Therefore, :ref:`Translation.get_message_list()<class_Translation_method_get_message_list>` always returns an empty array, and :ref:`Translation.get_message_count()<class_Translation_method_get_message_count>` always returns ``0``.
 
 .. rst-class:: classref-reftable-group
 
@@ -43,9 +45,11 @@ Descriptions des méthodes
 
 |void| **generate**\ (\ from\: :ref:`Translation<class_Translation>`\ ) :ref:`🔗<class_OptimizedTranslation_method_generate>`
 
-Génère et crée une traduction optimisée de la ressource :ref:`Translation<class_Translation>` donnée.
+Generates and sets an optimized translation from the given :ref:`Translation<class_Translation>` resource.
 
-\ **Note :** Cette méthode est destinée à être utilisée dans l'éditeur. Elle ne fait rien lorsqu'on l'appelle depuis un projet exporté.
+\ **Note:** Messages in ``from`` should not use context or plural forms.
+
+\ **Note:** This method is intended to be used in the editor. It does nothing when called from an exported project.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -526,11 +526,11 @@ Impostando questa proprietà sarà chiamato internamente il metodo :ref:`Physics
 - |void| **set_freeze_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_freeze_enabled**\ (\ )
 
-Se ``true``, il corpo è congelato. La gravità e altre forze non sono più applicate.
+If ``true``, the body is frozen. Gravity and forces are not applied anymore.
 
-Vedi :ref:`freeze_mode<class_RigidBody3D_property_freeze_mode>` per impostare il comportamento del corpo quando è congelato.
+See :ref:`freeze_mode<class_RigidBody3D_property_freeze_mode>` to set the body's behavior when frozen.
 
-Per un corpo che è sempre congelato, usa invece :ref:`StaticBody3D<class_StaticBody3D>` o :ref:`AnimatableBody3D<class_AnimatableBody3D>`.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody3D<class_StaticBody3D>` or :ref:`AnimatableBody3D<class_AnimatableBody3D>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -547,9 +547,9 @@ Per un corpo che è sempre congelato, usa invece :ref:`StaticBody3D<class_Static
 - |void| **set_freeze_mode**\ (\ value\: :ref:`FreezeMode<enum_RigidBody3D_FreezeMode>`\ )
 - :ref:`FreezeMode<enum_RigidBody3D_FreezeMode>` **get_freeze_mode**\ (\ )
 
-La modalità di congelamento del corpo, usata per impostare il comportamento del corpo quando :ref:`freeze<class_RigidBody3D_property_freeze>` è abilitato.
+The body's freeze mode. Determines the body's behavior when :ref:`freeze<class_RigidBody3D_property_freeze>` is ``true``.
 
-Per un corpo che è sempre congelato, usa invece :ref:`StaticBody3D<class_StaticBody3D>` o :ref:`AnimatableBody3D<class_AnimatableBody3D>`.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody3D<class_StaticBody3D>` or :ref:`AnimatableBody3D<class_AnimatableBody3D>` instead.
 
 .. rst-class:: classref-item-separator
 

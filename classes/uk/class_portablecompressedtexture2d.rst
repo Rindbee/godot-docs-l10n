@@ -181,11 +181,9 @@ enum **CompressionMode**: :ref:`🔗<enum_PortableCompressedTexture2D_Compressio
 - |void| **set_keep_compressed_buffer**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_keeping_compressed_buffer**\ (\ )
 
-Під час роботи в редакторі цей клас зберігатиме стиснуті вихідні дані в пам'яті. В іншому випадку стиснуті вихідні дані будуть втрачені після завантаження, і ресурс не можна буде відновити.
+If ``true``, when running in the editor, this texture will keep the source-compressed data in memory, allowing the data to persist after loading. Otherwise, the source-compressed data is lost after loading and the texture can't be re-saved.
 
-Цей прапорець дозволяє зберігати стиснуті дані в пам'яті, якщо ви хочете, щоб вони збереглися після завантаження.
-
-\ **Примітка:** Щоб це набуло чинності, його потрібно встановити перед :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>`.
+\ **Note:** This property must be set before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` for this to work.
 
 .. rst-class:: classref-item-separator
 
@@ -202,7 +200,7 @@ enum **CompressionMode**: :ref:`🔗<enum_PortableCompressedTexture2D_Compressio
 - |void| **set_size_override**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_size_override**\ (\ )
 
-Дозвольте переносити фактуру розміром (для 2D тільки).
+Allows overriding the texture's size (for 2D only).
 
 .. rst-class:: classref-section-separator
 
@@ -259,7 +257,7 @@ enum **CompressionMode**: :ref:`🔗<enum_PortableCompressedTexture2D_Compressio
 
 :ref:`bool<class_bool>` **is_keeping_all_compressed_buffers**\ (\ ) |static| :ref:`🔗<class_PortableCompressedTexture2D_method_is_keeping_all_compressed_buffers>`
 
-Поверніть, чи перейде прапор для всіх текстур цього типу.
+Returns ``true`` if the flag is overridden for all textures of this type.
 
 .. rst-class:: classref-item-separator
 
@@ -271,9 +269,9 @@ enum **CompressionMode**: :ref:`🔗<enum_PortableCompressedTexture2D_Compressio
 
 |void| **set_basisu_compressor_params**\ (\ uastc_level\: :ref:`int<class_int>`, rdo_quality_loss\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PortableCompressedTexture2D_method_set_basisu_compressor_params>`
 
-Встановлює параметри компресора для стиснення Basis Universal. Див. також налаштування в :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
+Sets the compressor parameters for Basis Universal compression. See also the settings in :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
 
-\ **Примітка:** Це потрібно встановити перед :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>`, щоб це набуло чинності.
+\ **Note:** This method must be called before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` for this to work.
 
 .. rst-class:: classref-item-separator
 
@@ -285,7 +283,7 @@ enum **CompressionMode**: :ref:`🔗<enum_PortableCompressedTexture2D_Compressio
 
 |void| **set_keep_all_compressed_buffers**\ (\ keep\: :ref:`bool<class_bool>`\ ) |static| :ref:`🔗<class_PortableCompressedTexture2D_method_set_keep_all_compressed_buffers>`
 
-На відміну від прапора глобально для всіх текстур цього типу. Це використовується в першу чергу редактором.
+If ``keep`` is ``true``, overrides the flag globally for all textures of this type. This is used primarily by the editor.
 
 .. |virtual| replace:: :abbr:`virtual (Зазвичай, цей метод перевизначається користувачем, щоб він мав вплив.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

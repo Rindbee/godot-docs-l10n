@@ -97,7 +97,7 @@ Aplica el efecto de tono sepia usando la siguiente fórmula:
 
 :ref:`Function<enum_VisualShaderNodeColorFunc_Function>` **FUNC_LINEAR_TO_SRGB** = ``4``
 
-Convierte el color del espacio de color lineal al espacio de color sRGB usando la siguiente fórmula:
+Converts color from linear encoding to nonlinear sRGB encoding using the following formula:
 
 ::
 
@@ -105,7 +105,7 @@ Convierte el color del espacio de color lineal al espacio de color sRGB usando l
     const vec3 a = vec3(0.055f);
     return mix((vec3(1.0f) + a) * pow(c.rgb, vec3(1.0f / 2.4f)) - a, 12.92f * c.rgb, lessThan(c.rgb, vec3(0.0031308f)));
 
-El renderizador de compatibilidad utiliza una fórmula más simple:
+The Compatibility renderer uses a simpler formula:
 
 ::
 
@@ -118,14 +118,14 @@ El renderizador de compatibilidad utiliza una fórmula más simple:
 
 :ref:`Function<enum_VisualShaderNodeColorFunc_Function>` **FUNC_SRGB_TO_LINEAR** = ``5``
 
-Convierte el color del espacio de color sRGB al espacio de color lineal usando la siguiente fórmula:
+Converts color from nonlinear sRGB encoding to linear encoding using the following formula:
 
 ::
 
     vec3 c = input;
     return mix(pow((c.rgb + vec3(0.055)) * (1.0 / (1.0 + 0.055)), vec3(2.4)), c.rgb * (1.0 / 12.92), lessThan(c.rgb, vec3(0.04045)));
 
-El renderizador de compatibilidad utiliza una fórmula más simple:
+The Compatibility renderer uses a simpler formula:
 
 ::
 

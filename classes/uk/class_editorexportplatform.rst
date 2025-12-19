@@ -381,7 +381,7 @@ flags **DebugFlags**: :ref:`🔗<enum_EditorExportPlatform_DebugFlags>`
 
 :ref:`String<class_String>` **get_message_category**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_category>`
 
-Повертає категорію повідомлення для повідомлення з ``index``.
+Returns the message category for the message with the given ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -393,7 +393,7 @@ flags **DebugFlags**: :ref:`🔗<enum_EditorExportPlatform_DebugFlags>`
 
 :ref:`int<class_int>` **get_message_count**\ (\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_count>`
 
-Повертає кількість повідомлень у журналі експорту.
+Returns the number of messages in the export log.
 
 .. rst-class:: classref-item-separator
 
@@ -405,7 +405,7 @@ flags **DebugFlags**: :ref:`🔗<enum_EditorExportPlatform_DebugFlags>`
 
 :ref:`String<class_String>` **get_message_text**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_text>`
 
-Повертає текст повідомлення для повідомлення з ``index``.
+Returns the text for the message with the given ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -417,7 +417,7 @@ flags **DebugFlags**: :ref:`🔗<enum_EditorExportPlatform_DebugFlags>`
 
 :ref:`ExportMessageType<enum_EditorExportPlatform_ExportMessageType>` **get_message_type**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_type>`
 
-Повертає тип повідомлення для повідомлення з ``index``.
+Returns the type for the message with the given ``index``.
 
 .. rst-class:: classref-item-separator
 

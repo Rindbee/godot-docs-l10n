@@ -1159,7 +1159,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_WORLD_BOUNDARY** = ``0``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`WorldBoundaryShape3D<class_WorldBoundaryShape3D>`\ 。
+Constant for creating a world boundary shape (used by the :ref:`WorldBoundaryShape3D<class_WorldBoundaryShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_SEPARATION_RAY:
 
@@ -1167,7 +1167,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_SEPARATION_RAY** = ``1``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`SeparationRayShape3D<class_SeparationRayShape3D>`\ 。
+Constant for creating a separation ray shape (used by the :ref:`SeparationRayShape3D<class_SeparationRayShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_SPHERE:
 
@@ -1175,7 +1175,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_SPHERE** = ``2``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`SphereShape3D<class_SphereShape3D>`\ 。
+Constant for creating a sphere shape (used by the :ref:`SphereShape3D<class_SphereShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_BOX:
 
@@ -1183,7 +1183,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_BOX** = ``3``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`BoxShape3D<class_BoxShape3D>`\ 。
+Constant for creating a box shape (used by the :ref:`BoxShape3D<class_BoxShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_CAPSULE:
 
@@ -1191,7 +1191,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_CAPSULE** = ``4``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`CapsuleShape3D<class_CapsuleShape3D>`\ 。
+Constant for creating a capsule shape (used by the :ref:`CapsuleShape3D<class_CapsuleShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_CYLINDER:
 
@@ -1199,7 +1199,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_CYLINDER** = ``5``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`CylinderShape3D<class_CylinderShape3D>`\ 。
+Constant for creating a cylinder shape (used by the :ref:`CylinderShape3D<class_CylinderShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_CONVEX_POLYGON:
 
@@ -1207,7 +1207,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_CONVEX_POLYGON** = ``6``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`ConvexPolygonShape3D<class_ConvexPolygonShape3D>`\ 。
+Constant for creating a convex polygon shape (used by the :ref:`ConvexPolygonShape3D<class_ConvexPolygonShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_CONCAVE_POLYGON:
 
@@ -1215,7 +1215,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_CONCAVE_POLYGON** = ``7``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>`\ 。
+Constant for creating a concave polygon (trimesh) shape (used by the :ref:`ConcavePolygonShape3D<class_ConcavePolygonShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_HEIGHTMAP:
 
@@ -1223,7 +1223,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_HEIGHTMAP** = ``8``
 
-該 :ref:`Shape3D<class_Shape3D>` 為 :ref:`HeightMapShape3D<class_HeightMapShape3D>`\ 。
+Constant for creating a heightmap shape (used by the :ref:`HeightMapShape3D<class_HeightMapShape3D>` resource).
 
 .. _class_PhysicsServer3D_constant_SHAPE_SOFT_BODY:
 
@@ -1231,7 +1231,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_SOFT_BODY** = ``9``
 
-該 :ref:`Shape3D<class_Shape3D>` 是在柔體內部使用的。嘗試建立這種形狀會導致出錯。
+Constant used internally for a soft body shape. Any attempt to create this kind of shape results in an error.
 
 .. _class_PhysicsServer3D_constant_SHAPE_CUSTOM:
 
@@ -1239,7 +1239,7 @@ enum **ShapeType**: :ref:`🔗<enum_PhysicsServer3D_ShapeType>`
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **SHAPE_CUSTOM** = ``10``
 
-引擎內部會使用這個常數。任何試圖建立這種形狀的行為都會導致錯誤。
+Constant used internally for a custom shape. Any attempt to create this kind of shape results in an error when using Godot Physics or Jolt Physics.
 
 .. rst-class:: classref-item-separator
 
@@ -2932,9 +2932,7 @@ The function ``callable`` must take the following parameters:
 
 :ref:`RID<class_RID>` **box_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_box_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D box shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the box's half-extents.
 
 .. rst-class:: classref-item-separator
 
@@ -2946,9 +2944,7 @@ The function ``callable`` must take the following parameters:
 
 :ref:`RID<class_RID>` **capsule_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_capsule_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D capsule shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the capsule's height and radius.
 
 .. rst-class:: classref-item-separator
 
@@ -2960,9 +2956,7 @@ The function ``callable`` must take the following parameters:
 
 :ref:`RID<class_RID>` **concave_polygon_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_concave_polygon_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D concave polygon shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the concave polygon's triangles.
 
 .. rst-class:: classref-item-separator
 
@@ -2998,9 +2992,7 @@ Sets a cone twist joint parameter.
 
 :ref:`RID<class_RID>` **convex_polygon_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_convex_polygon_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D convex polygon shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the convex polygon's points.
 
 .. rst-class:: classref-item-separator
 
@@ -3012,9 +3004,9 @@ Sets a cone twist joint parameter.
 
 :ref:`RID<class_RID>` **custom_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_custom_shape_create>`
 
-.. container:: contribute
+Creates a custom shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the shape's data.
 
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+\ **Note:** Custom shapes are not supported by the built-in physics servers, so calling this method always produces an error when using Godot Physics or Jolt Physics. Custom physics servers implemented as GDExtensions may support a custom shape.
 
 .. rst-class:: classref-item-separator
 
@@ -3026,9 +3018,7 @@ Sets a cone twist joint parameter.
 
 :ref:`RID<class_RID>` **cylinder_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_cylinder_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D cylinder shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the cylinder's height and radius.
 
 .. rst-class:: classref-item-separator
 
@@ -3112,9 +3102,7 @@ Returns the value of a physics engine state specified by ``process_info``.
 
 :ref:`RID<class_RID>` **heightmap_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_heightmap_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D heightmap shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the heightmap's data.
 
 .. rst-class:: classref-item-separator
 
@@ -3402,9 +3390,7 @@ Sets a pin joint parameter.
 
 :ref:`RID<class_RID>` **separation_ray_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_separation_ray_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D separation ray shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the shape's ``length`` and ``slide_on_slope`` properties.
 
 .. rst-class:: classref-item-separator
 
@@ -3428,7 +3414,7 @@ Sets a pin joint parameter.
 
 :ref:`Variant<class_Variant>` **shape_get_data**\ (\ shape\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_shape_get_data>`
 
-返回形狀資料。
+Returns the shape data that configures the shape, such as the half-extents of a box or the triangles of a concave (trimesh) shape. See :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` for the precise format of this data in each case.
 
 .. rst-class:: classref-item-separator
 
@@ -3454,7 +3440,7 @@ Returns the collision margin for the shape.
 
 :ref:`ShapeType<enum_PhysicsServer3D_ShapeType>` **shape_get_type**\ (\ shape\: :ref:`RID<class_RID>`\ ) |const| :ref:`🔗<class_PhysicsServer3D_method_shape_get_type>`
 
-Returns the type of shape.
+Returns the shape's type.
 
 .. rst-class:: classref-item-separator
 
@@ -3466,7 +3452,29 @@ Returns the type of shape.
 
 |void| **shape_set_data**\ (\ shape\: :ref:`RID<class_RID>`, data\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_PhysicsServer3D_method_shape_set_data>`
 
-設定定義形狀和大小的形狀資料。要傳遞的資料取決於建立的形狀的型別 :ref:`shape_get_type()<class_PhysicsServer3D_method_shape_get_type>`\ 。
+Sets the shape data that configures the shape. The ``data`` to be passed depends on the shape's type (see :ref:`shape_get_type()<class_PhysicsServer3D_method_shape_get_type>`):
+
+- :ref:`SHAPE_WORLD_BOUNDARY<class_PhysicsServer3D_constant_SHAPE_WORLD_BOUNDARY>`: a :ref:`Plane<class_Plane>`,
+
+- :ref:`SHAPE_SEPARATION_RAY<class_PhysicsServer3D_constant_SHAPE_SEPARATION_RAY>`: a dictionary containing the key ``"length"`` with a :ref:`float<class_float>` value and the key ``"slide_on_slope"`` with a :ref:`bool<class_bool>` value,
+
+- :ref:`SHAPE_SPHERE<class_PhysicsServer3D_constant_SHAPE_SPHERE>`: a :ref:`float<class_float>` that is the radius of the sphere,
+
+- :ref:`SHAPE_BOX<class_PhysicsServer3D_constant_SHAPE_BOX>`: a :ref:`Vector3<class_Vector3>` containing the half-extents of the box,
+
+- :ref:`SHAPE_CAPSULE<class_PhysicsServer3D_constant_SHAPE_CAPSULE>`: a dictionary containing the keys ``"height"`` and ``"radius"`` with :ref:`float<class_float>` values,
+
+- :ref:`SHAPE_CYLINDER<class_PhysicsServer3D_constant_SHAPE_CYLINDER>`: a dictionary containing the keys ``"height"`` and ``"radius"`` with :ref:`float<class_float>` values,
+
+- :ref:`SHAPE_CONVEX_POLYGON<class_PhysicsServer3D_constant_SHAPE_CONVEX_POLYGON>`: a :ref:`PackedVector3Array<class_PackedVector3Array>` of points defining a convex polygon (the shape will be the convex hull of the points),
+
+- :ref:`SHAPE_CONCAVE_POLYGON<class_PhysicsServer3D_constant_SHAPE_CONCAVE_POLYGON>`: a dictionary containing the key ``"faces"`` with a :ref:`PackedVector3Array<class_PackedVector3Array>` value (with a length divisible by 3, so that each 3-tuple of points forms a face) and the key ``"backface_collision"`` with a :ref:`bool<class_bool>` value,
+
+- :ref:`SHAPE_HEIGHTMAP<class_PhysicsServer3D_constant_SHAPE_HEIGHTMAP>`: a dictionary containing the keys ``"width"`` and ``"depth"`` with :ref:`int<class_int>` values, and the key ``"heights"`` with a value that is a packed array of :ref:`float<class_float>`\ s of length ``width * depth`` (that is a :ref:`PackedFloat32Array<class_PackedFloat32Array>`, or a :ref:`PackedFloat64Array<class_PackedFloat64Array>` if Godot was compiled with the ``precision=double`` option), and optionally the keys ``"min_height"`` and ``"max_height"`` with :ref:`float<class_float>` values,
+
+- :ref:`SHAPE_SOFT_BODY<class_PhysicsServer3D_constant_SHAPE_SOFT_BODY>`: the input ``data`` is ignored and this method has no effect,
+
+- :ref:`SHAPE_CUSTOM<class_PhysicsServer3D_constant_SHAPE_CUSTOM>`: the input ``data`` is interpreted by a custom physics server, if it supports custom shapes.
 
 .. rst-class:: classref-item-separator
 
@@ -4068,9 +4076,7 @@ Requests that the physics server updates the rendering server with the latest po
 
 :ref:`RID<class_RID>` **sphere_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_sphere_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D sphere shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the sphere's radius.
 
 .. rst-class:: classref-item-separator
 
@@ -4082,9 +4088,7 @@ Requests that the physics server updates the rendering server with the latest po
 
 :ref:`RID<class_RID>` **world_boundary_shape_create**\ (\ ) :ref:`🔗<class_PhysicsServer3D_method_world_boundary_shape_create>`
 
-.. container:: contribute
-
-	There is currently no description for this method. Please help us by `contributing one <https://contributing.godotengine.org/en/latest/documentation/class_reference.html>`__!
+Creates a 3D world boundary shape in the physics server, and returns the :ref:`RID<class_RID>` that identifies it. Use :ref:`shape_set_data()<class_PhysicsServer3D_method_shape_set_data>` to set the shape's normal direction and distance properties.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

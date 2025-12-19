@@ -339,9 +339,9 @@ Node2D
 
 :ref:`float<class_float>` **get_angle_to**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Node2D_method_get_angle_to>`
 
-回傳此節點與 ``point`` 之間的夾角（單位：弧度）。
+Returns the angle between the node and the ``point`` in radians. See also :ref:`look_at()<class_Node2D_method_look_at>`.
 
-\ `回傳角度的示意圖。 <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -377,9 +377,9 @@ Node2D
 
 |void| **look_at**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_look_at>`
 
-旋轉節點，使其本地 +X 軸指向 ``point``\ （需使用全域座標）。
+Rotates the node so that its local +X axis points towards the ``point``, which is expected to use global coordinates. This method is a combination of both :ref:`rotate()<class_Node2D_method_rotate>` and :ref:`get_angle_to()<class_Node2D_method_get_angle_to>`.
 
-\ ``point`` 不應與節點位置相同，否則節點會一直朝向右方。
+\ ``point`` should not be the same as the node's position, otherwise the node always looks to the right.
 
 .. rst-class:: classref-item-separator
 
@@ -415,7 +415,7 @@ Applies a local translation on the node's X axis with the amount specified in ``
 
 |void| **rotate**\ (\ radians\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Node2D_method_rotate>`
 
-以目前旋轉為基礎，對節點套用旋轉（單位：弧度）。
+Applies a rotation to the node, in radians, starting from its current rotation. This is equivalent to ``rotation += radians``.
 
 .. rst-class:: classref-item-separator
 
@@ -451,7 +451,7 @@ Applies a local translation on the node's X axis with the amount specified in ``
 
 |void| **translate**\ (\ offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_translate>`
 
-以局部座標系，將節點平移指定的 ``offset``\ 。
+Translates the node by the given ``offset`` in local coordinates. This is equivalent to ``position += offset``.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

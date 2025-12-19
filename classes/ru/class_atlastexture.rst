@@ -111,7 +111,9 @@ AtlasTexture
 - |void| **set_region**\ (\ value\: :ref:`Rect2<class_Rect2>`\ )
 - :ref:`Rect2<class_Rect2>` **get_region**\ (\ )
 
-Регион, используемый для рисования :ref:`atlas<class_AtlasTexture_property_atlas>`. Если какое-либо измерение размера региона равно ``0``, вместо этого для этой оси будет использоваться значение из :ref:`atlas<class_AtlasTexture_property_atlas>`.
+The region used to draw the :ref:`atlas<class_AtlasTexture_property_atlas>`. If either dimension of the region's size is ``0``, the value from :ref:`atlas<class_AtlasTexture_property_atlas>` size will be used for that axis instead.
+
+\ **Note:** The image size is always an integer, so the actual region size is rounded down.
 
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

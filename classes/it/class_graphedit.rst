@@ -876,7 +876,7 @@ Se ``true``, l'aggancio è abilitato.
 - |void| **set_type_names**\ (\ value\: :ref:`Dictionary<class_Dictionary>`\ )
 - :ref:`Dictionary<class_Dictionary>` **get_type_names**\ (\ )
 
-:ref:`Dictionary<class_Dictionary>` di nomi di tipi di porte leggibili in chiaro.
+:ref:`Dictionary<class_Dictionary>` of human-readable port type names.
 
 .. rst-class:: classref-item-separator
 
@@ -1388,7 +1388,7 @@ Vedi anche :ref:`is_valid_connection_type()<class_GraphEdit_method_is_valid_conn
 
 |void| **remove_valid_left_disconnect_type**\ (\ type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_left_disconnect_type>`
 
-Impedisce di scollegare i nodi quando si trascina dalla porta sinistra dello slot del :ref:`GraphNode<class_GraphNode>` se ha il tipo specificato. Utilizza questo per disabilitare uno scollegamento consentito in precedenza con :ref:`add_valid_left_disconnect_type()<class_GraphEdit_method_add_valid_left_disconnect_type>`.
+Disallows to disconnect nodes when dragging from the left port of the :ref:`GraphNode<class_GraphNode>`'s slot if it has the specified type. Use this to disable a disconnection previously allowed with :ref:`add_valid_left_disconnect_type()<class_GraphEdit_method_add_valid_left_disconnect_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1400,7 +1400,7 @@ Impedisce di scollegare i nodi quando si trascina dalla porta sinistra dello slo
 
 |void| **remove_valid_right_disconnect_type**\ (\ type\: :ref:`int<class_int>`\ ) :ref:`🔗<class_GraphEdit_method_remove_valid_right_disconnect_type>`
 
-Impedisce di scollegare i nodi quando si trascina dalla porta destra dello slot del :ref:`GraphNode<class_GraphNode>` se ha il tipo specificato. Utilizza questo per disabilitare uno scollegamento consentito in precedenza con :ref:`add_valid_right_disconnect_type()<class_GraphEdit_method_add_valid_right_disconnect_type>`.
+Disallows to disconnect nodes when dragging from the right port of the :ref:`GraphNode<class_GraphNode>`'s slot if it has the specified type. Use this to disable a disconnection previously allowed with :ref:`add_valid_right_disconnect_type()<class_GraphEdit_method_add_valid_right_disconnect_type>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1537,7 +1537,7 @@ Il colore del contorno del rettangolo di selezione.
 
 :ref:`int<class_int>` **connection_hover_thickness** = ``0`` :ref:`🔗<class_GraphEdit_theme_constant_connection_hover_thickness>`
 
-Allarga la linea del collegamento quando il mouse ci passa sopra di un fattore in percentuale. Un valore di ``0`` disattiva l'evidenziazione. Un valore di ``100`` raddoppia lo spessore della linea.
+Widens the line of a connection when the mouse is hovering over it by a percentage factor. A value of ``0`` disables the highlight. A value of ``100`` doubles the line width.
 
 .. rst-class:: classref-item-separator
 

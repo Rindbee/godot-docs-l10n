@@ -394,9 +394,9 @@ VisualShaderNodeCustom
 
 :ref:`bool<class_bool>` **_is_highend**\ (\ ) |virtual| |const| :ref:`🔗<class_VisualShaderNodeCustom_private_method__is_highend>`
 
-Зазначте цей метод, щоб забезпечити високу оцінку в діалоговому вікні членів редактора Visual Shader.
+Override this method to enable the high-end mark in the Visual Shader Editor's members dialog. This should return ``true`` for nodes that only work when using the Forward+ and Mobile renderers.
 
-Захищаючи цей метод **optional**. ``false``.
+Defining this method is **optional**. If not overridden, it's ``false``, which indicates this node works with all renderers (including Compatibility).
 
 .. rst-class:: classref-item-separator
 

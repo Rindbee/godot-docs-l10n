@@ -7,6 +7,8 @@ FileDialog
 
 **Успадковує:** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
+**Успадковано від:** :ref:`EditorFileDialog<class_EditorFileDialog>`
+
 Діалогове вікно вибору файлів або каталогів у файловій системі.
 
 .. rst-class:: classref-introduction-group
@@ -14,7 +16,9 @@ FileDialog
 Опис
 --------
 
-**FileDialog** - це діалогове вікно, яке використовується для вибору файлів та каталогів у файловій системі. Підтримує фільтрувальні маски. **FileDialog** автоматично встановлює назву вікна згідно з :ref:`файл_mode<class_FileDialog_property_файл_mode>`. Якщо ви хочете використовувати користувацьке звання, відключити це за допомогою параметра :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` до ``false``.
+**FileDialog** is a preset dialog used to choose files and directories in the filesystem. It supports filter masks. **FileDialog** automatically sets its window title according to the :ref:`file_mode<class_FileDialog_property_file_mode>`. If you want to use a custom title, disable this by setting :ref:`mode_overrides_title<class_FileDialog_property_mode_overrides_title>` to ``false``.
+
+\ **Note:** **FileDialog** is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -32,6 +36,8 @@ FileDialog
    | :ref:`String<class_String>`                       | :ref:`current_file<class_FileDialog_property_current_file>`                               |                                                                                          |
    +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                       | :ref:`current_path<class_FileDialog_property_current_path>`                               |                                                                                          |
+   +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`deleting_enabled<class_FileDialog_property_deleting_enabled>`                       | ``true``                                                                                 |
    +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | dialog_hide_on_ok                                                                         | ``false`` (overrides :ref:`AcceptDialog<class_AcceptDialog_property_dialog_hide_on_ok>`) |
    +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
@@ -59,6 +65,8 @@ FileDialog
    +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                             | :ref:`option_count<class_FileDialog_property_option_count>`                               | ``0``                                                                                    |
    +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`overwrite_warning_enabled<class_FileDialog_property_overwrite_warning_enabled>`     | ``true``                                                                                 |
+   +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`recent_list_enabled<class_FileDialog_property_recent_list_enabled>`                 | ``true``                                                                                 |
    +---------------------------------------------------+-------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                       | :ref:`root_subfolder<class_FileDialog_property_root_subfolder>`                           | ``""``                                                                                   |
@@ -81,7 +89,7 @@ FileDialog
    :widths: auto
 
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                            | :ref:`add_filter<class_FileDialog_method_add_filter>`\ (\ filter\: :ref:`String<class_String>`, description\: :ref:`String<class_String>` = ""\ )                                                        |
+   | |void|                                            | :ref:`add_filter<class_FileDialog_method_add_filter>`\ (\ filter\: :ref:`String<class_String>`, description\: :ref:`String<class_String>` = "", mime_type\: :ref:`String<class_String>` = ""\ )          |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`add_option<class_FileDialog_method_add_option>`\ (\ name\: :ref:`String<class_String>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`, default_value_index\: :ref:`int<class_int>`\ ) |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -91,6 +99,8 @@ FileDialog
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`deselect_all<class_FileDialog_method_deselect_all>`\ (\ )                                                                                                                                          |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedStringArray<class_PackedStringArray>` | :ref:`get_favorite_list<class_FileDialog_method_get_favorite_list>`\ (\ ) |static|                                                                                                                       |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`LineEdit<class_LineEdit>`                   | :ref:`get_line_edit<class_FileDialog_method_get_line_edit>`\ (\ )                                                                                                                                        |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                             | :ref:`get_option_default<class_FileDialog_method_get_option_default>`\ (\ option\: :ref:`int<class_int>`\ ) |const|                                                                                      |
@@ -98,6 +108,8 @@ FileDialog
    | :ref:`String<class_String>`                       | :ref:`get_option_name<class_FileDialog_method_get_option_name>`\ (\ option\: :ref:`int<class_int>`\ ) |const|                                                                                            |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedStringArray<class_PackedStringArray>` | :ref:`get_option_values<class_FileDialog_method_get_option_values>`\ (\ option\: :ref:`int<class_int>`\ ) |const|                                                                                        |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedStringArray<class_PackedStringArray>` | :ref:`get_recent_list<class_FileDialog_method_get_recent_list>`\ (\ ) |static|                                                                                                                           |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Dictionary<class_Dictionary>`               | :ref:`get_selected_options<class_FileDialog_method_get_selected_options>`\ (\ ) |const|                                                                                                                  |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -107,13 +119,23 @@ FileDialog
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`is_customization_flag_enabled<class_FileDialog_method_is_customization_flag_enabled>`\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|                                    |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                            | :ref:`popup_file_dialog<class_FileDialog_method_popup_file_dialog>`\ (\ )                                                                                                                                |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`set_customization_flag_enabled<class_FileDialog_method_set_customization_flag_enabled>`\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )       |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                            | :ref:`set_favorite_list<class_FileDialog_method_set_favorite_list>`\ (\ favorites\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |static|                                                        |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                            | :ref:`set_get_icon_callback<class_FileDialog_method_set_get_icon_callback>`\ (\ callback\: :ref:`Callable<class_Callable>`\ ) |static|                                                                   |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                            | :ref:`set_get_thumbnail_callback<class_FileDialog_method_set_get_thumbnail_callback>`\ (\ callback\: :ref:`Callable<class_Callable>`\ ) |static|                                                         |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`set_option_default<class_FileDialog_method_set_option_default>`\ (\ option\: :ref:`int<class_int>`, default_value_index\: :ref:`int<class_int>`\ )                                                 |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`set_option_name<class_FileDialog_method_set_option_name>`\ (\ option\: :ref:`int<class_int>`, name\: :ref:`String<class_String>`\ )                                                                |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`set_option_values<class_FileDialog_method_set_option_values>`\ (\ option\: :ref:`int<class_int>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`\ )                                    |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                            | :ref:`set_recent_list<class_FileDialog_method_set_recent_list>`\ (\ recents\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |static|                                                              |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
@@ -416,6 +438,26 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 Еквівалентно :ref:`layout_toggle_enabled<class_FileDialog_property_layout_toggle_enabled>`.
 
+.. _class_FileDialog_constant_CUSTOMIZATION_OVERWRITE_WARNING:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_OVERWRITE_WARNING** = ``7``
+
+If enabled, the **FileDialog** will warn the user before overwriting files in save mode.
+
+Equivalent to :ref:`overwrite_warning_enabled<class_FileDialog_property_overwrite_warning_enabled>`.
+
+.. _class_FileDialog_constant_CUSTOMIZATION_DELETE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Customization<enum_FileDialog_Customization>` **CUSTOMIZATION_DELETE** = ``8``
+
+If enabled, the context menu will show the "Delete" option, which allows moving files and folders to trash.
+
+Equivalent to :ref:`deleting_enabled<class_FileDialog_property_deleting_enabled>`.
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -492,6 +534,23 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 - :ref:`String<class_String>` **get_current_path**\ (\ )
 
 В даний час вибраний шлях файлу діалогу.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileDialog_property_deleting_enabled:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **deleting_enabled** = ``true`` :ref:`🔗<class_FileDialog_property_deleting_enabled>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
+
+If ``true``, the context menu will show the "Delete" option, which allows moving files and folders to trash.
 
 .. rst-class:: classref-item-separator
 
@@ -612,9 +671,9 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 - |void| **set_filters**\ (\ value\: :ref:`PackedStringArray<class_PackedStringArray>`\ )
 - :ref:`PackedStringArray<class_PackedStringArray>` **get_filters**\ (\ )
 
-Доступні фільтри типів файлів. Кожен рядок фільтра в масиві має бути відформатований таким чином: ``*.png,*.jpg,*.jpeg;файли зображень;зображення/png,зображення/jpeg``. Текст опису фільтра необов’язковий і його можна опустити. Слід завжди встановлювати розширення файлів і тип MIME.
+The available file type filters. Each filter string in the array should be formatted like this: ``*.png,*.jpg,*.jpeg;Image Files;image/png,image/jpeg``. The description text of the filter is optional and can be omitted. Both file extensions and MIME type should be always set.
 
-\ **Примітка.** Вбудоване діалогове вікно файлів і діалогове вікно файлів Windows підтримують лише розширення файлів, тоді як діалогові вікна файлів Android, Linux і macOS також підтримують типи MIME.
+\ **Note:** Embedded file dialogs and Windows file dialogs support only file extensions, while Android, Linux, and macOS file dialogs also support MIME types.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 
@@ -633,7 +692,7 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 - |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
 
-Якщо ``true``, відображається кнопка для створення нових каталогів (при використанні :ref:`FILE_MODE_OPEN_DIR<class_FileDialog_constant_FILE_MODE_OPEN_DIR>`, :ref:`FILE_MODE_OPEN_ANY<class_FileDialog_constant_FILE_MODE_OPEN_ANY>` або :ref:`FILE_MODE_SAVE_FILE<class_FileDialog_constant_FILE_MODE_SAVE_FILE>`).
+If ``true``, shows the button for creating new directories (when using :ref:`FILE_MODE_OPEN_DIR<class_FileDialog_constant_FILE_MODE_OPEN_DIR>`, :ref:`FILE_MODE_OPEN_ANY<class_FileDialog_constant_FILE_MODE_OPEN_ANY>`, or :ref:`FILE_MODE_SAVE_FILE<class_FileDialog_constant_FILE_MODE_SAVE_FILE>`), and the context menu will have the "New Folder..." option.
 
 .. rst-class:: classref-item-separator
 
@@ -707,6 +766,23 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 ----
 
+.. _class_FileDialog_property_overwrite_warning_enabled:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **overwrite_warning_enabled** = ``true`` :ref:`🔗<class_FileDialog_property_overwrite_warning_enabled>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`\ ) |const|
+
+If ``true``, the **FileDialog** will warn the user before overwriting files in save mode.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_FileDialog_property_recent_list_enabled:
 
 .. rst-class:: classref-property
@@ -773,15 +849,17 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 - |void| **set_use_native_dialog**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_use_native_dialog**\ (\ )
 
-Якщо ``true``, і якщо підтримується поточним :ref:`DisplayServer<class_DisplayServer>`, замість власного буде використовуватися рідне діалогове вікно ОС.
+If ``true``, and if supported by the current :ref:`DisplayServer<class_DisplayServer>`, OS native dialog will be used instead of custom one.
 
-\ **Примітка:** На Android це підтримується лише для пристроїв Android 10+ та під час використання :ref:`ACCESS_FILESYSTEM<class_FileDialog_constant_ACCESS_FILESYSTEM>`. Для режиму доступу :ref:`ACCESS_RESOURCES<class_FileDialog_constant_ACCESS_RESOURCES>` та :ref:`ACCESS_USERDATA<class_FileDialog_constant_ACCESS_USERDATA>` система повернеться до власного FileDialog.
+\ **Note:** On Android, it is only supported for Android 10+ devices and when using :ref:`ACCESS_FILESYSTEM<class_FileDialog_constant_ACCESS_FILESYSTEM>`. For access mode :ref:`ACCESS_RESOURCES<class_FileDialog_constant_ACCESS_RESOURCES>` and :ref:`ACCESS_USERDATA<class_FileDialog_constant_ACCESS_USERDATA>`, the system will fall back to custom FileDialog.
 
-\ **Примітка:** У Linux та macOS ізольовані програми завжди використовують рідні діалогові вікна для доступу до файлової системи хоста.
+\ **Note:** On Linux and macOS, sandboxed apps always use native dialogs to access the host file system.
 
-\ **Примітка:** У macOS ізольовані програми зберігатимуть закладки з областю безпеки, щоб зберегти доступ до відкритих папок протягом кількох сеансів. Використовуйте :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>`, щоб отримати список збережених закладок.
+\ **Note:** On macOS, sandboxed apps will save security-scoped bookmarks to retain access to the opened folders across multiple sessions. Use :ref:`OS.get_granted_permissions()<class_OS_method_get_granted_permissions>` to get a list of saved bookmarks.
 
-\ **Примітка:** Рідні діалогові вікна ізольовані від базового процесу, властивості діалогового вікна файлу не можна змінити після того, як діалогове вікно відображається.
+\ **Note:** Native dialogs are isolated from the base process, file dialog properties can't be modified once the dialog is shown.
+
+\ **Note:** This property is ignored in :ref:`EditorFileDialog<class_EditorFileDialog>`.
 
 .. rst-class:: classref-section-separator
 
@@ -796,13 +874,15 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 .. rst-class:: classref-method
 
-|void| **add_filter**\ (\ filter\: :ref:`String<class_String>`, description\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_FileDialog_method_add_filter>`
+|void| **add_filter**\ (\ filter\: :ref:`String<class_String>`, description\: :ref:`String<class_String>` = "", mime_type\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_FileDialog_method_add_filter>`
 
-Додає параметр ``filter`` для імені файлу, розділеного комами, до **FileDialog** з необов'язковим ``description``, який обмежує вибір файлів.
+Adds a comma-separated file extension ``filter`` and comma-separated MIME type ``mime_type`` option to the **FileDialog** with an optional ``description``, which restricts what files can be picked.
 
-\ ``filter`` повинен мати вигляд ``"filename.extension"``, де filename та extension можуть бути ``*`` для відповідності будь-якому рядку. Фільтри, що починаються з ``.`` (тобто пусті імена файлів), не допускаються.
+A ``filter`` should be of the form ``"filename.extension"``, where filename and extension can be ``*`` to match any string. Filters starting with ``.`` (i.e. empty filenames) are not allowed.
 
-Наприклад, ``filter`` з ``"*.png, *.jpg"`` та ``description`` з ``"Images"`` призведе до тексту фільтра "Images (\*.png, \*.jpg)".
+For example, a ``filter`` of ``"*.png, *.jpg"``, a ``mime_type`` of ``image/png, image/jpeg``, and a ``description`` of ``"Images"`` results in filter text "Images (\*.png, \*.jpg)".
+
+\ **Note:** Embedded file dialogs and Windows file dialogs support only file extensions, while Android, Linux, and macOS file dialogs also support MIME types.
 
 .. rst-class:: classref-item-separator
 
@@ -858,6 +938,18 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 ----
 
+.. _class_FileDialog_method_get_favorite_list:
+
+.. rst-class:: classref-method
+
+:ref:`PackedStringArray<class_PackedStringArray>` **get_favorite_list**\ (\ ) |static| :ref:`🔗<class_FileDialog_method_get_favorite_list>`
+
+Returns the list of favorite directories, which is shared by all **FileDialog** nodes. Useful to store the list of favorites between project sessions. This method can be called only from the main thread.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_FileDialog_method_get_line_edit:
 
 .. rst-class:: classref-method
@@ -908,6 +1000,18 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 ----
 
+.. _class_FileDialog_method_get_recent_list:
+
+.. rst-class:: classref-method
+
+:ref:`PackedStringArray<class_PackedStringArray>` **get_recent_list**\ (\ ) |static| :ref:`🔗<class_FileDialog_method_get_recent_list>`
+
+Returns the list of recent directories, which is shared by all **FileDialog** nodes. Useful to store the list of recents between project sessions. This method can be called only from the main thread.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_FileDialog_method_get_selected_options:
 
 .. rst-class:: classref-method
@@ -942,9 +1046,9 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 |void| **invalidate**\ (\ ) :ref:`🔗<class_FileDialog_method_invalidate>`
 
-Неоцінити і оновити поточний список вмісту діалогу.
+Invalidates and updates this dialog's content list.
 
-\ **Примітка:** Цей метод не робить нічого на рідних діалогах файлів.
+\ **Note:** This method does nothing on native file dialogs.
 
 .. rst-class:: classref-item-separator
 
@@ -962,13 +1066,79 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 
 ----
 
+.. _class_FileDialog_method_popup_file_dialog:
+
+.. rst-class:: classref-method
+
+|void| **popup_file_dialog**\ (\ ) :ref:`🔗<class_FileDialog_method_popup_file_dialog>`
+
+Shows the **FileDialog** using the default size and position for file dialogs, and selects the file name if there is a current file.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_FileDialog_method_set_customization_flag_enabled:
 
 .. rst-class:: classref-method
 
 |void| **set_customization_flag_enabled**\ (\ flag\: :ref:`Customization<enum_FileDialog_Customization>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_FileDialog_method_set_customization_flag_enabled>`
 
-Вмикає/вимикає вказане налаштування ``flag``, що дозволяє налаштовувати функції, доступні в цьому **FileDialog**. Див. :ref:`Customization<enum_FileDialog_Customization>` для отримання інформації про параметри.
+Sets the specified customization ``flag``, allowing to customize the features available in this **FileDialog**.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileDialog_method_set_favorite_list:
+
+.. rst-class:: classref-method
+
+|void| **set_favorite_list**\ (\ favorites\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |static| :ref:`🔗<class_FileDialog_method_set_favorite_list>`
+
+Sets the list of favorite directories, which is shared by all **FileDialog** nodes. Useful to restore the list of favorites saved with :ref:`get_favorite_list()<class_FileDialog_method_get_favorite_list>`. This method can be called only from the main thread.
+
+\ **Note:** **FileDialog** will update its internal :ref:`ItemList<class_ItemList>` of favorites when its visibility changes. Be sure to call this method earlier if you want your changes to have effect.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileDialog_method_set_get_icon_callback:
+
+.. rst-class:: classref-method
+
+|void| **set_get_icon_callback**\ (\ callback\: :ref:`Callable<class_Callable>`\ ) |static| :ref:`🔗<class_FileDialog_method_set_get_icon_callback>`
+
+Sets the callback used by the **FileDialog** nodes to get a file icon, when :ref:`DISPLAY_LIST<class_FileDialog_constant_DISPLAY_LIST>` mode is used. The callback should take a single :ref:`String<class_String>` argument (file path), and return a :ref:`Texture2D<class_Texture2D>`. If an invalid texture is returned, the :ref:`file<class_FileDialog_theme_icon_file>` icon will be used instead.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileDialog_method_set_get_thumbnail_callback:
+
+.. rst-class:: classref-method
+
+|void| **set_get_thumbnail_callback**\ (\ callback\: :ref:`Callable<class_Callable>`\ ) |static| :ref:`🔗<class_FileDialog_method_set_get_thumbnail_callback>`
+
+Sets the callback used by the **FileDialog** nodes to get a file icon, when :ref:`DISPLAY_THUMBNAILS<class_FileDialog_constant_DISPLAY_THUMBNAILS>` mode is used. The callback should take a single :ref:`String<class_String>` argument (file path), and return a :ref:`Texture2D<class_Texture2D>`. If an invalid texture is returned, the :ref:`file_thumbnail<class_FileDialog_theme_icon_file_thumbnail>` icon will be used instead.
+
+Thumbnails are usually more complex and may take a while to load. To avoid stalling the application, you can use :ref:`ImageTexture<class_ImageTexture>` to asynchronously create the thumbnail.
+
+::
+
+    func _ready():
+        FileDialog.set_get_thumbnail_callback(thumbnail_method)
+
+    func thumbnail_method(path):
+        var image_texture = ImageTexture.new()
+        make_thumbnail_async(path, image_texture)
+        return image_texture
+
+    func make_thumbnail_async(path, image_texture):
+        var thumbnail_texture = await generate_thumbnail(path) # Some method that generates a thumbnail.
+        image_texture.set_image(thumbnail_texture.get_image())
 
 .. rst-class:: classref-item-separator
 
@@ -1005,6 +1175,20 @@ enum **Customization**: :ref:`🔗<enum_FileDialog_Customization>`
 |void| **set_option_values**\ (\ option\: :ref:`int<class_int>`, values\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) :ref:`🔗<class_FileDialog_method_set_option_values>`
 
 Встановлює значення параметрів :ref:`OptionButton<class_OptionButton>` з індексом ``option``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileDialog_method_set_recent_list:
+
+.. rst-class:: classref-method
+
+|void| **set_recent_list**\ (\ recents\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |static| :ref:`🔗<class_FileDialog_method_set_recent_list>`
+
+Sets the list of recent directories, which is shared by all **FileDialog** nodes. Useful to restore the list of recents saved with :ref:`set_recent_list()<class_FileDialog_method_set_recent_list>`. This method can be called only from the main thread.
+
+\ **Note:** **FileDialog** will update its internal :ref:`ItemList<class_ItemList>` of recent directories when its visibility changes. Be sure to call this method earlier if you want your changes to have effect.
 
 .. rst-class:: classref-section-separator
 

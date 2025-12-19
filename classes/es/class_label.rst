@@ -17,7 +17,9 @@ Un control para mostrar texto sin formato.
 Descripción
 ----------------------
 
-Un control para mostrar texto sin formato. Te da control sobre la alineación horizontal y vertical y puede ajustar el texto dentro del rectángulo delimitador del nodo. No admite negrita, cursiva u otro formato de texto enriquecido. Para eso, usa :ref:`RichTextLabel<class_RichTextLabel>` en su lugar.
+A control for displaying plain text. It gives you control over the horizontal and vertical alignment and can wrap the text inside the node's bounding rectangle. It doesn't support bold, italics, or other rich text formatting. For that, use :ref:`RichTextLabel<class_RichTextLabel>` instead.
+
+\ **Note:** A single Label node is not designed to display huge amounts of text. To display large amounts of text in a single node, consider using :ref:`RichTextLabel<class_RichTextLabel>` instead as it supports features like an integrated scroll bar and threading. :ref:`RichTextLabel<class_RichTextLabel>` generally performs better when displaying large amounts of text (several pages or more).
 
 .. rst-class:: classref-introduction-group
 
@@ -279,7 +281,7 @@ Un recurso :ref:`LabelSettings<class_LabelSettings>` que puede ser compartido en
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Código de idioma utilizado para los algoritmos de salto de línea y forma del texto, si se deja vacío se utiliza la configuración regional actual.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

@@ -555,7 +555,7 @@ Devuelve ``true`` si un ``char`` Unicode está disponible en la fuente.
 
 :ref:`bool<class_bool>` **is_language_supported**\ (\ language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Font_method_is_language_supported>`
 
-Devuelve ``true`` si la fuente soporta el idioma dado (código `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__).
+Returns ``true`` if the font supports the given language (as a `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ code).
 
 .. rst-class:: classref-item-separator
 
@@ -567,7 +567,7 @@ Devuelve ``true`` si la fuente soporta el idioma dado (código `ISO 639 <https:/
 
 :ref:`bool<class_bool>` **is_script_supported**\ (\ script\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Font_method_is_script_supported>`
 
-Devuelve ``true`` si la fuente soporta el script dado (código `ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__).
+Returns ``true`` if the font supports the given script (as a `ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__ code).
 
 .. rst-class:: classref-item-separator
 

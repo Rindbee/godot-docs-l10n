@@ -116,6 +116,8 @@ L'infini positif représenté en virgule flottante. C'est le résultat d'un nomb
 
 ----
 
+.. rst-class:: classref-descriptions-group
+
 Annotations
 -----------
 
@@ -624,16 +626,17 @@ Voir aussi :ref:`@GlobalScope.PROPERTY_USAGE_GROUP<class_@GlobalScope_constant_P
 
 .. rst-class:: classref-annotation
 
-**@export_multiline**\ (\ ) :ref:`🔗<class_@GDScript_annotation_@export_multiline>`
+**@export_multiline**\ (\ hint\: :ref:`String<class_String>` = "", ...\ ) |vararg| :ref:`🔗<class_@GDScript_annotation_@export_multiline>`
 
-Exporte une propriété :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \], :ref:`PackedStringArray<class_PackedStringArray>`, :ref:`Dictionary<class_Dictionary>` ou :ref:`Array<class_Array>`\ \[:ref:`Dictionary<class_Dictionary>`\ \] avec un widget :ref:`TextEdit<class_TextEdit>` large à la place d'un :ref:`LineEdit<class_LineEdit>`. Cela ajoute du support pour un contenu multi-ligne et rend plus facile l'édition de beaucoup de texte stocké dans la propriété.
+Export a :ref:`String<class_String>`, :ref:`Array<class_Array>`\ \[:ref:`String<class_String>`\ \], :ref:`PackedStringArray<class_PackedStringArray>`, :ref:`Dictionary<class_Dictionary>` or :ref:`Array<class_Array>`\ \[:ref:`Dictionary<class_Dictionary>`\ \] property with a large :ref:`TextEdit<class_TextEdit>` widget instead of a :ref:`LineEdit<class_LineEdit>`. This adds support for multiline content and makes it easier to edit large amount of text stored in the property.
 
-Voir également :ref:`@GlobalScope.PROPERTY_HINT_MULTILINE_TEXT<class_@GlobalScope_constant_PROPERTY_HINT_MULTILINE_TEXT>`.
+See also :ref:`@GlobalScope.PROPERTY_HINT_MULTILINE_TEXT<class_@GlobalScope_constant_PROPERTY_HINT_MULTILINE_TEXT>`.
 
 ::
 
     @export_multiline var character_biography
     @export_multiline var npc_dialogs: Array[String]
+    @export_multiline("monospace", "no_wrap") var favorite_ascii_art: String
 
 .. rst-class:: classref-item-separator
 
@@ -685,13 +688,13 @@ Voir également :ref:`@GlobalScope.PROPERTY_HINT_PLACEHOLDER_TEXT<class_@GlobalS
 
 **@export_range**\ (\ min\: :ref:`float<class_float>`, max\: :ref:`float<class_float>`, step\: :ref:`float<class_float>` = 1.0, extra_hints\: :ref:`String<class_String>` = "", ...\ ) |vararg| :ref:`🔗<class_@GDScript_annotation_@export_range>`
 
-Exporte une propriété :ref:`int<class_int>`, :ref:`float<class_float>`, :ref:`Array<class_Array>`\ \[:ref:`int<class_int>`\ \], :ref:`Array<class_Array>`\ \[:ref:`float<class_float>`\ \], :ref:`PackedByteArray<class_PackedByteArray>`, :ref:`PackedInt32Array<class_PackedInt32Array>`, :ref:`PackedInt64Array<class_PackedInt64Array>`, :ref:`PackedFloat32Array<class_PackedFloat32Array>`, ou :ref:`PackedFloat64Array<class_PackedFloat64Array>` en tant que valeur de plage. La plage doit être définie par ``min`` et ``max``, ainsi qu'un pas ``step`` facultatif et une variété d'indices supplémentaires. Le pas ``step`` est par défaut ``1`` pour les propriétés entières. Pour les nombres à virgule flottante, cette valeur dépend de votre paramètre :ref:`EditorSettings.interface/inspector/default_float_step<class_EditorSettings_property_interface/inspector/default_float_step>`.
+Export an :ref:`int<class_int>`, :ref:`float<class_float>`, :ref:`Array<class_Array>`\ \[:ref:`int<class_int>`\ \], :ref:`Array<class_Array>`\ \[:ref:`float<class_float>`\ \], :ref:`PackedByteArray<class_PackedByteArray>`, :ref:`PackedInt32Array<class_PackedInt32Array>`, :ref:`PackedInt64Array<class_PackedInt64Array>`, :ref:`PackedFloat32Array<class_PackedFloat32Array>`, or :ref:`PackedFloat64Array<class_PackedFloat64Array>` property as a range value. The range must be defined by ``min`` and ``max``, as well as an optional ``step`` and a variety of extra hints. The ``step`` defaults to ``1`` for integer properties. For floating-point numbers this value depends on your :ref:`EditorSettings.interface/inspector/default_float_step<class_EditorSettings_property_interface/inspector/default_float_step>` setting.
 
-Si les indices ``"or_greater"`` et ``"or_less"`` sont fournis, le widget de l'éditeur ne plafonnera pas la valeur aux limites de la plage. L'indice ``"exp"`` fera en sorte que les valeurs modifiées sur la plage changent de manière exponentielle. L'indice ``"hide_slider"`` masquera l'élément slider du widget de l'éditeur.
+If hints ``"or_greater"`` and ``"or_less"`` are provided, the editor widget will not cap the value at range boundaries. The ``"exp"`` hint will make the edited values on range to change exponentially. The ``"prefer_slider"`` hint will make integer values use the slider instead of arrows for editing, while ``"hide_control"`` will hide the element controlling the value of the editor widget.
 
-Des indices permettent également d'indiquer les unités de la valeur modifiée. En utilisant ``"radians_as_degrees"``, vous pouvez spécifier que la valeur réelle est en radians, mais doit être affichée en degrés dans le dock Inspecteur (les valeurs de plage sont également en degrés). ``"degrees"`` permet d'ajouter un signe de degré comme suffixe d'unité (la valeur est inchangée). Enfin, un suffixe personnalisé peut être fourni en utilisant ``"suffix:unit"``, où "unit" peut être n'importe quelle chaîne.
+Hints also allow to indicate the units for the edited value. Using ``"radians_as_degrees"`` you can specify that the actual value is in radians, but should be displayed in degrees in the Inspector dock (the range values are also in degrees). ``"degrees"`` allows to add a degree sign as a unit suffix (the value is unchanged). Finally, a custom suffix can be provided using ``"suffix:unit"``, where "unit" can be any string.
 
-Voir également :ref:`@GlobalScope.PROPERTY_HINT_RANGE<class_@GlobalScope_constant_PROPERTY_HINT_RANGE>`.
+See also :ref:`@GlobalScope.PROPERTY_HINT_RANGE<class_@GlobalScope_constant_PROPERTY_HINT_RANGE>`.
 
 ::
 

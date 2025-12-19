@@ -558,11 +558,11 @@ enum **CCDMode**: :ref:`🔗<enum_RigidBody2D_CCDMode>`
 - |void| **set_freeze_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_freeze_enabled**\ (\ )
 
-Якщо ``true``, тіло заморожене. Витривалість і сили не застосовуються більше.
+If ``true``, the body is frozen. Gravity and forces are not applied anymore.
 
-Дивись :ref:`freeze_mode<class_RigidBody2D_property_freeze_mode>`, щоб встановити поведінку тіла при замороженні.
+See :ref:`freeze_mode<class_RigidBody2D_property_freeze_mode>` to set the body's behavior when frozen.
 
-Для тіла, який завжди заморожений, використовуйте :ref:`StaticBody2D<class_StaticBody2D>` або :ref:`AnimatableBody2D<class_AnimatableBody2D>`.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -579,9 +579,9 @@ enum **CCDMode**: :ref:`🔗<enum_RigidBody2D_CCDMode>`
 - |void| **set_freeze_mode**\ (\ value\: :ref:`FreezeMode<enum_RigidBody2D_FreezeMode>`\ )
 - :ref:`FreezeMode<enum_RigidBody2D_FreezeMode>` **get_freeze_mode**\ (\ )
 
-Режим заморожування тіла. Можна використовувати для встановлення поведінки тіла, коли ввімкнено :ref:`freeze<class_RigidBody2D_property_freeze>`.
+The body's freeze mode. Determines the body's behavior when :ref:`freeze<class_RigidBody2D_property_freeze>` is ``true``.
 
-Для тіла, яке завжди заморожене, використовуйте :ref:`StaticBody2D<class_StaticBody2D>` або :ref:`AnimatableBody2D<class_AnimatableBody2D>`.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
 
 .. rst-class:: classref-item-separator
 

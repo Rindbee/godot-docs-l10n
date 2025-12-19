@@ -39,6 +39,8 @@ OpenXRCompositionLayer
    +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------+
    | :ref:`SubViewport<class_SubViewport>`                     | :ref:`layer_viewport<class_OpenXRCompositionLayer_property_layer_viewport>`                                   |                          |
    +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------+
+   | :ref:`bool<class_bool>`                                   | :ref:`protected_content<class_OpenXRCompositionLayer_property_protected_content>`                             | ``false``                |
+   +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------+
    | :ref:`int<class_int>`                                     | :ref:`sort_order<class_OpenXRCompositionLayer_property_sort_order>`                                           | ``1``                    |
    +-----------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+--------------------------+
    | :ref:`Swizzle<enum_OpenXRCompositionLayer_Swizzle>`       | :ref:`swapchain_state_alpha_swizzle<class_OpenXRCompositionLayer_property_swapchain_state_alpha_swizzle>`     | ``3``                    |
@@ -343,6 +345,25 @@ enum **Swizzle**: :ref:`🔗<enum_OpenXRCompositionLayer_Swizzle>`
 - :ref:`SubViewport<class_SubViewport>` **get_layer_viewport**\ (\ )
 
 :ref:`SubViewport<class_SubViewport>` для рендерингу на шар композиції.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_OpenXRCompositionLayer_property_protected_content:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **protected_content** = ``false`` :ref:`🔗<class_OpenXRCompositionLayer_property_protected_content>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_protected_content**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_protected_content**\ (\ )
+
+If enabled, the OpenXR swapchain will be created with the ``XR_SWAPCHAIN_CREATE_PROTECTED_CONTENT_BIT`` flag, which will protect its contents from CPU access.
+
+When used with an Android Surface, this may allow DRM content to be presented, and will only take effect when the Surface is first created; later changes to this property will have no effect.
 
 .. rst-class:: classref-item-separator
 

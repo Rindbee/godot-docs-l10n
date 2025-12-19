@@ -164,9 +164,9 @@ Implementado en las plataformas de escritorio si el manejador de fallos está ha
 
 **NOTIFICATION_OS_IME_UPDATE** = ``2013`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>`
 
-Notificación recibida del sistema operativo cuando se produce una actualización del motor del método de entrada (por ejemplo, cambio de la posición del cursor de la IME o de la string de composición).
+Notification received from the OS when an update of the Input Method Engine occurs (e.g. change of IME cursor position or composition string).
 
-Específico de la plataforma MacOS.
+Implemented on desktop and web platforms.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_RESUMED:
 

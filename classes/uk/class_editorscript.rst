@@ -95,6 +95,8 @@ EditorScript
 
 |void| **add_root_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorScript_method_add_root_node>`
 
+**Застаріло:** Use :ref:`EditorInterface.add_root_node()<class_EditorInterface_method_add_root_node>` instead.
+
 Зробіть ``node`` корінь в даний час відкритої сцени. Тільки роботи, якщо сцена порожній. Якщо ``node`` є екземпляром сцени, буде створена спадкова сцена.
 
 .. rst-class:: classref-item-separator
@@ -120,6 +122,8 @@ EditorScript
 .. rst-class:: classref-method
 
 :ref:`Node<class_Node>` **get_scene**\ (\ ) |const| :ref:`🔗<class_EditorScript_method_get_scene>`
+
+**Застаріло:** Use :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>` instead.
 
 Повертає корінь відредагованої (поточної) сцени :ref:`Node<class_Node>`. Еквівалент методу :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>`.
 

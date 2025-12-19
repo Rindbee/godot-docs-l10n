@@ -103,6 +103,8 @@ L'éditeur de l'arborescence de la scène. Si cette caractéristique est désact
 
 :ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_NODE_DOCK** = ``4``
 
+**Obsolète :** Replaced by the Signals and Groups docks.
+
 Le dock des Nœuds. Si cette caractéristique est désactivée, les signaux et les groupes ne seront pas affichés ni modifiables dans l'éditeur.
 
 .. _class_EditorFeatureProfile_constant_FEATURE_FILESYSTEM_DOCK:
@@ -137,11 +139,27 @@ The History dock. If this feature is disabled, the History dock won't be visible
 
 The Game tab, which allows embedding the game window and selecting nodes by clicking inside of it. If this feature is disabled, the Game tab won't display.
 
+.. _class_EditorFeatureProfile_constant_FEATURE_SIGNALS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_SIGNALS_DOCK** = ``9``
+
+The Signals dock. If this feature is disabled, signals won't be visible and modifiable from the editor.
+
+.. _class_EditorFeatureProfile_constant_FEATURE_GROUPS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_GROUPS_DOCK** = ``10``
+
+The Groups dock. If this feature is disabled, groups won't be visible and modifiable from the editor.
+
 .. _class_EditorFeatureProfile_constant_FEATURE_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``9``
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``11``
 
 Représente la taille de l'énumération :ref:`Feature<enum_EditorFeatureProfile_Feature>`.
 

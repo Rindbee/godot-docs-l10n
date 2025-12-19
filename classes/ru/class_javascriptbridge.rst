@@ -23,7 +23,7 @@ JavaScriptBridge
 Обучающие материалы
 --------------------------------------
 
-- `Экспорт для Интернета: вызов JavaScript из скрипта <../tutorials/export/exporting_for_web.html#calling-javascript-from-script>`__
+- :doc:`The JavaScriptBridge singleton <../tutorials/platform/web/javascript_bridge>`
 
 .. rst-class:: classref-reftable-group
 

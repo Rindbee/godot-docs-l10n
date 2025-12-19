@@ -63,6 +63,8 @@ Propiedades
    +-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------+
    | :ref:`Axis<enum_Vector3_Axis>`                      | :ref:`primary_rotation_axis<class_LookAtModifier3D_property_primary_rotation_axis>`                         | ``1``                |
    +-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------+
+   | :ref:`bool<class_bool>`                             | :ref:`relative<class_LookAtModifier3D_property_relative>`                                                   | ``true``             |
+   +-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------+
    | :ref:`float<class_float>`                           | :ref:`secondary_damp_threshold<class_LookAtModifier3D_property_secondary_damp_threshold>`                   |                      |
    +-----------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------+
    | :ref:`float<class_float>`                           | :ref:`secondary_limit_angle<class_LookAtModifier3D_property_secondary_limit_angle>`                         |                      |
@@ -465,6 +467,23 @@ El ángulo límite del lado positivo de la rotación primaria cuando :ref:`symme
 - :ref:`Axis<enum_Vector3_Axis>` **get_primary_rotation_axis**\ (\ )
 
 El eje de la primera rotación. Este :ref:`SkeletonModifier3D<class_SkeletonModifier3D>` funciona componiendo la rotación mediante ángulos de Euler para evitar rotar el :ref:`forward_axis<class_LookAtModifier3D_property_forward_axis>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_LookAtModifier3D_property_relative:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **relative** = ``true`` :ref:`🔗<class_LookAtModifier3D_property_relative>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_relative**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_relative**\ (\ )
+
+The relative option. If ``true``, the rotation is applied relative to the pose. If ``false``, the rotation is applied relative to the rest. It means to replace the current pose with the **LookAtModifier3D**'s result.
 
 .. rst-class:: classref-item-separator
 

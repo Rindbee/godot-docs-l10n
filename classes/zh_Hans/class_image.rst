@@ -14,11 +14,13 @@ Image
 描述
 ----
 
-本机图像数据类型。包含可以被转换为 :ref:`ImageTexture<class_ImageTexture>` 的图像数据，并提供常用的\ *图像处理*\ 方法。\ **Image** 的最大宽度和高度为 :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` 和 :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`\ 。
+Native image datatype. Contains image data which can be converted to an :ref:`ImageTexture<class_ImageTexture>` and provides commonly used *image processing* methods. The maximum width and height for an **Image** are :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` and :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`.
 
-\ **Image** 不能被直接分配给对象的纹理属性（例如 :ref:`Sprite2D.texture<class_Sprite2D_property_texture>`\ ），必须先手动转换为 :ref:`ImageTexture<class_ImageTexture>`\ 。
+An **Image** cannot be assigned to a texture property of an object directly (such as :ref:`Sprite2D.texture<class_Sprite2D_property_texture>`), and has to be converted manually to an :ref:`ImageTexture<class_ImageTexture>` first.
 
-\ **注意：**\ 由于图形硬件限制，最大图像大小为 16384×16384 像素。较大的图像可能无法导入。
+\ **Note:** Methods that modify the image data cannot be used on VRAM-compressed images. Use :ref:`decompress()<class_Image_method_decompress>` to convert the image to an uncompressed format first.
+
+\ **Note:** The maximum image size is 16384×16384 pixels due to graphics hardware limitations. Larger images may fail to import.
 
 .. rst-class:: classref-introduction-group
 
@@ -140,6 +142,8 @@ Image
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`         | :ref:`load_dds_from_buffer<class_Image_method_load_dds_from_buffer>`\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                                                                                                 |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`         | :ref:`load_exr_from_buffer<class_Image_method_load_exr_from_buffer>`\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                                                                                                 |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Image<class_Image>`                     | :ref:`load_from_file<class_Image_method_load_from_file>`\ (\ path\: :ref:`String<class_String>`\ ) |static|                                                                                                                                                                        |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`         | :ref:`load_jpg_from_buffer<class_Image_method_load_jpg_from_buffer>`\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                                                                                                 |
@@ -254,9 +258,9 @@ OpenGL 纹理格式 ``RG``\ ，具有两个部分，每个部分的位深度为 
 
 :ref:`Format<enum_Image_Format>` **FORMAT_RGB8** = ``4``
 
-OpenGL 纹理格式 ``RGB`` 具有三个部分，每个分量部分的位深度为 8。
+OpenGL texture format ``RGB`` with three components, each with a bitdepth of 8.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_RGBA8:
 
@@ -264,9 +268,9 @@ OpenGL 纹理格式 ``RGB`` 具有三个部分，每个分量部分的位深度�
 
 :ref:`Format<enum_Image_Format>` **FORMAT_RGBA8** = ``5``
 
-OpenGL 纹理格式 ``RGBA`` 有四个部分，每个分量部分的位深度为 8。
+OpenGL texture format ``RGBA`` with four components, each with a bitdepth of 8.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_RGBA4444:
 
@@ -362,9 +366,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT1** = ``17``
 
-`S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 纹理格式使用块压缩 1，并且是 S3TC 的最小变化，仅提供 1 位的 Alpha 和颜色数据 预乘以 Alpha。
+The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format that uses Block Compression 1, and is the smallest variation of S3TC, only providing 1 bit of alpha and color data being premultiplied with alpha.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_DXT3:
 
@@ -372,9 +376,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT3** = ``18``
 
-使用块压缩 2 的 `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 贴图格式,并且颜色数据被解析为没有与 Alpha 预先相乘。非常适用于具有 半透明和不透明区域之间的清晰的 Alpha 过渡。
+The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format that uses Block Compression 2, and color data is interpreted as not having been premultiplied by alpha. Well suited for images with sharp alpha transitions between translucent and opaque areas.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_DXT5:
 
@@ -382,9 +386,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT5** = ``19``
 
-`S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ 纹理格式也称为块压缩 3 或 BC3，其中包含 64 位的 Alpha 通道数据，后跟 64 位的 DXT1 编码颜色数据。颜色数据不会与 DXT3 预先乘以 Alpha。与 DXT3 相比，DXT5 对于透明渐变通常会产生更好的结果。
+The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format also known as Block Compression 3 or BC3 that contains 64 bits of alpha channel data followed by 64 bits of DXT1-encoded color data. Color data is not premultiplied by alpha, same as DXT3. DXT5 generally produces superior results for transparent gradients compared to DXT3.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_RGTC_R:
 
@@ -408,9 +412,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_BPTC_RGBA** = ``22``
 
-使用 `BPTC压缩 <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ 和无符号归一化RGBA分量的贴图格式.
+Texture format that uses `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ compression with unsigned normalized RGBA components.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_BPTC_RGBF:
 
@@ -474,9 +478,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGB8** = ``30``
 
-`ETC2%E5%92%8CEAC]爱立信纹理压缩格式 2 <https://zh.wikipedia.org/zh-cn/%E7%88%B1%E7%AB%8B%E4%BF%A1%E7%BA%B9%E7%90%86%E5%8E%8B%E7%BC%A9#[3>`__\ （\ ``RGB8`` 变体），它是 ETC1 的后续版本，可压缩 RGB888 数据。
+`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8`` variant), which is a follow-up of ETC1 and compresses RGB888 data.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_ETC2_RGBA8:
 
@@ -484,9 +488,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGBA8** = ``31``
 
-`ETC2%E5%92%8CEAC]爱立信纹理压缩格式 2 <https://zh.wikipedia.org/zh-cn/%E7%88%B1%E7%AB%8B%E4%BF%A1%E7%BA%B9%E7%90%86%E5%8E%8B%E7%BC%A9#[3>`__\ （\ ``RGBA8`` 变体），它可以压缩 RGBA8888 数据，完全支持 Alpha。
+`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGBA8``\ variant), which compresses RGBA8888 data with full alpha support.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_ETC2_RGB8A1:
 
@@ -494,9 +498,9 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGB8A1** = ``32``
 
-`ETC2%E5%92%8CEAC]爱立信纹理压缩格式 2 <https://zh.wikipedia.org/zh-cn/%E7%88%B1%E7%AB%8B%E4%BF%A1%E7%BA%B9%E7%90%86%E5%8E%8B%E7%BC%A9#[3>`__\ （\ ``RGB8_PUNCHTHROUGH_ALPHA1`` 变体），它可以压缩 RGBA 数据，使 Alpha 完全透明或完全不透明。
+`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8_PUNCHTHROUGH_ALPHA1`` variant), which compresses RGBA data to make alpha either fully transparent or fully opaque.
 
-\ **注意：**\ 创建 :ref:`ImageTexture<class_ImageTexture>` 时，会执行 sRGB 到线性色彩空间的转换。
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_ETC2_RA_AS_RG:
 
@@ -546,11 +550,99 @@ OpenGL 纹理格式 ``GL_RGBA16F``\ ，其中有四个分量，每个都是 16 �
 
 与 :ref:`FORMAT_ASTC_8x8<class_Image_constant_FORMAT_ASTC_8x8>` 相同的格式，但有提示以让 GPU 知道它用于 HDR。
 
+.. _class_Image_constant_FORMAT_R16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_R16** = ``39``
+
+OpenGL texture format ``GL_R16`` where there's one component, a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RF<class_Image_constant_FORMAT_RF>`.
+
+.. _class_Image_constant_FORMAT_RG16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RG16** = ``40``
+
+OpenGL texture format ``GL_RG16`` where there are two components, each a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RGF<class_Image_constant_FORMAT_RGF>`.
+
+.. _class_Image_constant_FORMAT_RGB16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGB16** = ``41``
+
+OpenGL texture format ``GL_RGB16`` where there are three components, each a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RGBF<class_Image_constant_FORMAT_RGBF>`.
+
+.. _class_Image_constant_FORMAT_RGBA16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGBA16** = ``42``
+
+OpenGL texture format ``GL_RGBA16`` where there are four components, each a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RGBAF<class_Image_constant_FORMAT_RGBAF>`.
+
+.. _class_Image_constant_FORMAT_R16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_R16I** = ``43``
+
+OpenGL texture format ``GL_R16UI`` where there's one component, a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
+.. _class_Image_constant_FORMAT_RG16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RG16I** = ``44``
+
+OpenGL texture format ``GL_RG16UI`` where there are two components, each a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
+.. _class_Image_constant_FORMAT_RGB16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGB16I** = ``45``
+
+OpenGL texture format ``GL_RGB16UI`` where there are three components, each a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
+.. _class_Image_constant_FORMAT_RGBA16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGBA16I** = ``46``
+
+OpenGL texture format ``GL_RGBA16UI`` where there are four components, each a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
 .. _class_Image_constant_FORMAT_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Format<enum_Image_Format>` **FORMAT_MAX** = ``39``
+:ref:`Format<enum_Image_Format>` **FORMAT_MAX** = ``47``
 
 代表 :ref:`Format<enum_Image_Format>` 枚举的大小。
 
@@ -628,7 +720,7 @@ enum **AlphaMode**: :ref:`🔗<enum_Image_AlphaMode>`
 
 :ref:`AlphaMode<enum_Image_AlphaMode>` **ALPHA_NONE** = ``0``
 
-图片没有 Alpha 通道。
+Image is fully opaque. It does not store alpha data.
 
 .. _class_Image_constant_ALPHA_BIT:
 
@@ -636,7 +728,7 @@ enum **AlphaMode**: :ref:`🔗<enum_Image_AlphaMode>`
 
 :ref:`AlphaMode<enum_Image_AlphaMode>` **ALPHA_BIT** = ``1``
 
-图像将 Alpha 存储在单个 bit 中。
+Image stores either fully opaque or fully transparent pixels. Also known as punchthrough alpha.
 
 .. _class_Image_constant_ALPHA_BLEND:
 
@@ -644,7 +736,7 @@ enum **AlphaMode**: :ref:`🔗<enum_Image_AlphaMode>`
 
 :ref:`AlphaMode<enum_Image_AlphaMode>` **ALPHA_BLEND** = ``2``
 
-图像使用 Alpha。
+Image stores alpha data with values varying between ``0.0`` and ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -786,7 +878,7 @@ enum **CompressSource**: :ref:`🔗<enum_Image_CompressSource>`
 
 :ref:`CompressSource<enum_Image_CompressSource>` **COMPRESS_SOURCE_SRGB** = ``1``
 
-原始纹理（在压缩前）使用 sRGB 空间。
+Source texture (before compression) uses nonlinear sRGB encoding.
 
 .. _class_Image_constant_COMPRESS_SOURCE_NORMAL:
 
@@ -965,11 +1057,13 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **compress**\ (\ mode\: :ref:`CompressMode<enum_Image_CompressMode>`, source\: :ref:`CompressSource<enum_Image_CompressSource>` = 0, astc_format\: :ref:`ASTCFormat<enum_Image_ASTCFormat>` = 0\ ) :ref:`🔗<class_Image_method_compress>`
 
-压缩图像以减少内存的使用。当图像被压缩时，不能直接访问像素数据。如果选择的压缩模式不可用，则返回错误。
+Compresses the image with a VRAM-compressed format to use less memory. Can not directly access pixel data while the image is compressed. Returns error if the chosen compression mode is not available.
 
-\ ``source`` 参数有助于为 DXT 和 ETC2 格式选择最佳压缩方法。对于 ASTC 压缩，它会被忽略。
+The ``source`` parameter helps to pick the best compression method for DXT and ETC2 formats. It is ignored for ASTC compression.
 
-对于 ASTC 压缩，必须提供 ``astc_format`` 参数。
+The ``astc_format`` parameter is only taken into account when using ASTC compression; it is ignored for all other formats.
+
+\ **Note:** :ref:`compress()<class_Image_method_compress>` is only supported in editor builds. When run in an exported project, this method always returns :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -981,11 +1075,13 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **compress_from_channels**\ (\ mode\: :ref:`CompressMode<enum_Image_CompressMode>`, channels\: :ref:`UsedChannels<enum_Image_UsedChannels>`, astc_format\: :ref:`ASTCFormat<enum_Image_ASTCFormat>` = 0\ ) :ref:`🔗<class_Image_method_compress_from_channels>`
 
-压缩图像以减少内存的使用。当图像被压缩时，不能直接访问像素数据。如果选择的压缩模式不可用，则返回错误。
+Compresses the image with a VRAM-compressed format to use less memory. Can not directly access pixel data while the image is compressed. Returns error if the chosen compression mode is not available.
 
-这是 :ref:`compress()<class_Image_method_compress>` 的一种替代方法，允许用户提供使用的通道，以便压缩器选择最佳的 DXT 和 ETC2 格式。对于其他格式（非 DXT 或 ETC2），将忽略此参数。
+This is an alternative to :ref:`compress()<class_Image_method_compress>` that lets the user supply the channels used in order for the compressor to pick the best DXT and ETC2 formats. For other formats (non DXT or ETC2), this argument is ignored.
 
-对于 ASTC 压缩，必须提供 ``astc_format`` 参数。
+The ``astc_format`` parameter is only taken into account when using ASTC compression; it is ignored for all other formats.
+
+\ **Note:** :ref:`compress_from_channels()<class_Image_method_compress_from_channels>` is only supported in editor builds. When run in an exported project, this method always returns :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -997,9 +1093,9 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Dictionary<class_Dictionary>` **compute_image_metrics**\ (\ compared_image\: :ref:`Image<class_Image>`, use_luma\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Image_method_compute_image_metrics>`
 
-在当前图像和被比较图像上，计算图像指标。
+Compute image metrics on the current image and the compared image. This can be used to calculate the similarity between two images.
 
-该字典包含 ``max``\ 、\ ``mean``\ 、\ ``mean_squared``\ 、\ ``root_mean_squared`` 和 ``peak_snr``\ 。
+The dictionary contains ``max``, ``mean``, ``mean_squared``, ``root_mean_squared`` and ``peak_snr``.
 
 .. rst-class:: classref-item-separator
 
@@ -1037,7 +1133,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 **已弃用：** Use :ref:`create_empty()<class_Image_method_create_empty>`.
 
-创建一个给定大小和格式的空图像。如果 ``use_mipmaps`` 为 ``true``\ ，则为该图像生成 Mipmap。
+Creates an empty image of the given size and format. If ``use_mipmaps`` is ``true``, generates mipmaps for this image (see :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1049,7 +1145,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Image<class_Image>` **create_empty**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, use_mipmaps\: :ref:`bool<class_bool>`, format\: :ref:`Format<enum_Image_Format>`\ ) |static| :ref:`🔗<class_Image_method_create_empty>`
 
-创建一个给定大小和格式的空图像。如果 ``use_mipmaps`` 为 ``true``\ ，则为该图像生成 Mipmap。
+Creates an empty image of the given size and format. If ``use_mipmaps`` is ``true``, generates mipmaps for this image (see :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1085,9 +1181,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **decompress**\ (\ ) :ref:`🔗<class_Image_method_decompress>`
 
-如果图像是以一个支持的格式压缩的 VRAM，则解压缩该图像。如果该格式受支持，则返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ ，否则返回 :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`\ 。
-
-\ **注意：**\ 可以解压的格式有：DXT、RGTC、BPTC。不支持 ETC1 和 ETC2 格式。
+Decompresses the image if it is VRAM-compressed in a supported format. This increases memory utilization, but allows modifying the image. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` if the format is supported, otherwise :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`. All VRAM-compressed formats supported by Godot can be decompressed with this method, except :ref:`FORMAT_ETC2_R11S<class_Image_constant_FORMAT_ETC2_R11S>`, :ref:`FORMAT_ETC2_RG11S<class_Image_constant_FORMAT_ETC2_RG11S>`, and :ref:`FORMAT_ETC2_RGB8A1<class_Image_constant_FORMAT_ETC2_RGB8A1>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1393,7 +1487,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **linear_to_srgb**\ (\ ) :ref:`🔗<class_Image_method_linear_to_srgb>`
 
-将整个图像从线性色彩空间转换至 sRGB 色彩空间。仅适用于 :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` 和 :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` 格式的图像。
+Converts the entire image from linear encoding to nonlinear sRGB encoding by using a lookup table. Only works on images with :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` or :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` formats.
 
 .. rst-class:: classref-item-separator
 
@@ -1440,6 +1534,18 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 从 DDS 文件的二进制内容加载图像。
 
 \ **注意：**\ 该方法仅在启用了 DDS 模块的引擎版本中可用。默认情况下，DDS 模块是启用的，但可以在构建时使用 ``module_dds_enabled=no`` SCons 选项禁用它。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Image_method_load_exr_from_buffer:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **load_exr_from_buffer**\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_Image_method_load_exr_from_buffer>`
+
+Loads an image from the binary contents of an OpenEXR file.
 
 .. rst-class:: classref-item-separator
 
@@ -1607,7 +1713,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Image<class_Image>` **rgbe_to_srgb**\ (\ ) :ref:`🔗<class_Image_method_rgbe_to_srgb>`
 
-将标准 RGBE（红绿蓝指数）图像转换为 sRGB 图像。
+Converts a standard linear RGBE (Red Green Blue Exponent) image to an image that uses nonlinear sRGB encoding.
 
 .. rst-class:: classref-item-separator
 
@@ -1671,9 +1777,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **save_exr**\ (\ path\: :ref:`String<class_String>`, grayscale\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Image_method_save_exr>`
 
-将图像作为 EXR 文件保存到 ``path``\ 。如果 ``grayscale`` 为 ``true``\ ，并且图像只有一个通道，它将被明确地保存为单色而不是一个红色通道。如果 Godot 是在没有 TinyEXR 模块的情况下编译的，则该函数将返回 :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`\ 。
-
-\ **注意：**\ TinyEXR 模块在非编辑器构建中被禁用，这意味着当 :ref:`save_exr()<class_Image_method_save_exr>` 从导出的项目中被调用时将返回 :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`\ 。
+Saves the image as an EXR file to ``path``. If ``grayscale`` is ``true`` and the image has only one channel, it will be saved explicitly as monochrome rather than one red channel. This function will return :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if Godot was compiled without the TinyEXR module.
 
 .. rst-class:: classref-item-separator
 
@@ -1685,9 +1789,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`PackedByteArray<class_PackedByteArray>` **save_exr_to_buffer**\ (\ grayscale\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Image_method_save_exr_to_buffer>`
 
-将图像作为 EXR 文件保存到一个字节数组。如果 ``grayscale`` 为 ``true`` 并且图像只有一个通道，它将被明确地保存为单色而不是一个红色通道。如果 Godot 是在没有 TinyEXR 模块的情况下编译的，则该函数将返回一个空字节数组。
-
-\ **注意：**\ TinyEXR 模块在非编辑器构建中被禁用，这意味着当 :ref:`save_exr_to_buffer()<class_Image_method_save_exr_to_buffer>` 从导出的项目中被调用时将返回一个空字节数组。
+Saves the image as an EXR file to a byte array. If ``grayscale`` is ``true`` and the image has only one channel, it will be saved explicitly as monochrome rather than one red channel. This function will return an empty byte array if Godot was compiled without the TinyEXR module.
 
 .. rst-class:: classref-item-separator
 
@@ -1791,7 +1893,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **set_pixel**\ (\ x\: :ref:`int<class_int>`, y\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_set_pixel>`
 
-将 ``(x, y)`` 处像素的 :ref:`Color<class_Color>` 设置为 ``color``\ 。
+Sets the :ref:`Color<class_Color>` of the pixel at ``(x, y)`` to ``color``.
 
 
 .. tabs::
@@ -1802,7 +1904,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     var img_height = 5
     var img = Image.create(img_width, img_height, false, Image.FORMAT_RGBA8)
 
-    img.set_pixel(1, 2, Color.RED) # 将 (1, 2) 处的颜色设置为红色。
+    img.set_pixel(1, 2, Color.RED) # Sets the color at (1, 2) to red.
 
  .. code-tab:: csharp
 
@@ -1810,11 +1912,15 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     int imgHeight = 5;
     var img = Image.Create(imgWidth, imgHeight, false, Image.Format.Rgba8);
 
-    img.SetPixel(1, 2, Colors.Red); // 将 (1, 2) 处的颜色设置为红色。
+    img.SetPixel(1, 2, Colors.Red); // Sets the color at (1, 2) to red.
 
 
 
-这与 :ref:`set_pixelv()<class_Image_method_set_pixelv>` 相同，只是使用两个整数参数而不是一个 :ref:`Vector2i<class_Vector2i>` 参数。
+This is the same as :ref:`set_pixelv()<class_Image_method_set_pixelv>`, but with a two integer arguments instead of a :ref:`Vector2i<class_Vector2i>` argument.
+
+\ **Note:** Depending on the image's format, the color set here may be clamped or lose precision. Do not assume the color returned by :ref:`get_pixel()<class_Image_method_get_pixel>` to be identical to the one set here; any comparisons will likely need to use an approximation like :ref:`Color.is_equal_approx()<class_Color_method_is_equal_approx>`.
+
+\ **Note:** On grayscale image formats, only the red channel of ``color`` is used (and alpha if relevant). The green and blue channels are ignored.
 
 .. rst-class:: classref-item-separator
 
@@ -1826,7 +1932,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **set_pixelv**\ (\ point\: :ref:`Vector2i<class_Vector2i>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_set_pixelv>`
 
-将 ``point`` 处像素的 :ref:`Color<class_Color>` 设置为 ``color``\ 。
+Sets the :ref:`Color<class_Color>` of the pixel at ``point`` to ``color``.
 
 
 .. tabs::
@@ -1837,7 +1943,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     var img_height = 5
     var img = Image.create(img_width, img_height, false, Image.FORMAT_RGBA8)
 
-    img.set_pixelv(Vector2i(1, 2), Color.RED) # 将 (1, 2) 处的颜色设置为红色。
+    img.set_pixelv(Vector2i(1, 2), Color.RED) # Sets the color at (1, 2) to red.
 
  .. code-tab:: csharp
 
@@ -1845,11 +1951,15 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     int imgHeight = 5;
     var img = Image.Create(imgWidth, imgHeight, false, Image.Format.Rgba8);
 
-    img.SetPixelv(new Vector2I(1, 2), Colors.Red); // 将 (1, 2) 处的颜色设置为红色。
+    img.SetPixelv(new Vector2I(1, 2), Colors.Red); // Sets the color at (1, 2) to red.
 
 
 
-这与 :ref:`set_pixel()<class_Image_method_set_pixel>` 相同，只是使用一个 :ref:`Vector2i<class_Vector2i>` 参数而不是两个整数参数。
+This is the same as :ref:`set_pixel()<class_Image_method_set_pixel>`, but with a :ref:`Vector2i<class_Vector2i>` argument instead of two integer arguments.
+
+\ **Note:** Depending on the image's format, the color set here may be clamped or lose precision. Do not assume the color returned by :ref:`get_pixelv()<class_Image_method_get_pixelv>` to be identical to the one set here; any comparisons will likely need to use an approximation like :ref:`Color.is_equal_approx()<class_Color_method_is_equal_approx>`.
+
+\ **Note:** On grayscale image formats, only the red channel of ``color`` is used (and alpha if relevant). The green and blue channels are ignored.
 
 .. rst-class:: classref-item-separator
 
@@ -1873,7 +1983,9 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **srgb_to_linear**\ (\ ) :ref:`🔗<class_Image_method_srgb_to_linear>`
 
-将原始数据从 sRGB 色彩空间转换至线性尺度。仅对格式为 :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` 和 :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` 的图像有效。
+Converts the raw data from nonlinear sRGB encoding to linear encoding using a lookup table. Only works on images with :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` or :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` formats.
+
+\ **Note:** The 8-bit formats required by this method are not suitable for storing linearly encoded values; a significant amount of color information will be lost in darker values. To maintain image quality, this method should not be used.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

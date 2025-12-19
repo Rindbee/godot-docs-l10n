@@ -302,7 +302,7 @@ XRInterfaceExtension
 
 :ref:`TrackingStatus<enum_XRInterface_TrackingStatus>` **_get_tracking_status**\ (\ ) |virtual| |const| :ref:`🔗<class_XRInterfaceExtension_private_method__get_tracking_status>`
 
-Повертає :ref:`TrackingStatus<enum_XRInterface_TrackingStatus>`, що вказує поточний статус нашого відстеження.
+Returns the current status of our tracking.
 
 .. rst-class:: classref-item-separator
 

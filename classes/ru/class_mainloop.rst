@@ -164,9 +164,9 @@ MainLoop
 
 **NOTIFICATION_OS_IME_UPDATE** = ``2013`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>`
 
-Уведомление, полученное от ОС при обновлении Input Method Engine (например, изменение положения курсора IME или строки композиции).
+Notification received from the OS when an update of the Input Method Engine occurs (e.g. change of IME cursor position or composition string).
 
-Специально для платформы macOS.
+Implemented on desktop and web platforms.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_RESUMED:
 

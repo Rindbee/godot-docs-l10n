@@ -44,6 +44,8 @@ Propiedades
    +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
    | :ref:`bool<class_bool>`                           | :ref:`drag_to_rearrange_enabled<class_TabContainer_property_drag_to_rearrange_enabled>`       | ``false`` |
    +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | :ref:`bool<class_bool>`                           | :ref:`switch_on_drag_hover<class_TabContainer_property_switch_on_drag_hover>`                 | ``true``  |
+   +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
    | :ref:`AlignmentMode<enum_TabBar_AlignmentMode>`   | :ref:`tab_alignment<class_TabContainer_property_tab_alignment>`                               | ``0``     |
    +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
    | :ref:`FocusMode<enum_Control_FocusMode>`          | :ref:`tab_focus_mode<class_TabContainer_property_tab_focus_mode>`                             | ``2``     |
@@ -141,6 +143,14 @@ Propiedades del Tema
    | :ref:`Color<class_Color>`         | :ref:`font_selected_color<class_TabContainer_theme_color_font_selected_color>`     | ``Color(0.95, 0.95, 0.95, 1)``      |
    +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
    | :ref:`Color<class_Color>`         | :ref:`font_unselected_color<class_TabContainer_theme_color_font_unselected_color>` | ``Color(0.7, 0.7, 0.7, 1)``         |
+   +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`icon_disabled_color<class_TabContainer_theme_color_icon_disabled_color>`     | ``Color(1, 1, 1, 1)``               |
+   +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`icon_hovered_color<class_TabContainer_theme_color_icon_hovered_color>`       | ``Color(1, 1, 1, 1)``               |
+   +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`icon_selected_color<class_TabContainer_theme_color_icon_selected_color>`     | ``Color(1, 1, 1, 1)``               |
+   +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`icon_unselected_color<class_TabContainer_theme_color_icon_unselected_color>` | ``Color(1, 1, 1, 1)``               |
    +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
    | :ref:`int<class_int>`             | :ref:`icon_max_width<class_TabContainer_theme_constant_icon_max_width>`            | ``0``                               |
    +-----------------------------------+------------------------------------------------------------------------------------+-------------------------------------+
@@ -411,6 +421,23 @@ Si es ``true``, las pestañas se pueden reorganizar con el arrastre del ratón.
 
 ----
 
+.. _class_TabContainer_property_switch_on_drag_hover:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **switch_on_drag_hover** = ``true`` :ref:`🔗<class_TabContainer_property_switch_on_drag_hover>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_switch_on_drag_hover**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **get_switch_on_drag_hover**\ (\ )
+
+If ``true``, hovering over a tab while dragging something will switch to that tab. Does not have effect when hovering another tab to rearrange.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_TabContainer_property_tab_alignment:
 
 .. rst-class:: classref-property
@@ -456,7 +483,7 @@ The focus access mode for the internal :ref:`TabBar<class_TabBar>` node.
 - |void| **set_tabs_position**\ (\ value\: :ref:`TabPosition<enum_TabContainer_TabPosition>`\ )
 - :ref:`TabPosition<enum_TabContainer_TabPosition>` **get_tabs_position**\ (\ )
 
-La posición de la barra de pestañas.
+The horizontal alignment of the tabs.
 
 .. rst-class:: classref-item-separator
 
@@ -885,7 +912,7 @@ El color de la fuente de las pestañas desactivadas.
 
 :ref:`Color<class_Color>` **font_hovered_color** = ``Color(0.95, 0.95, 0.95, 1)`` :ref:`🔗<class_TabContainer_theme_color_font_hovered_color>`
 
-Font color of the currently hovered tab.
+Color de la fuente de la pestaña sobre la que está el cursor. No se aplica a la pestaña seleccionada.
 
 .. rst-class:: classref-item-separator
 
@@ -922,6 +949,54 @@ Color de la fuente de la pestaña actualmente seleccionada.
 :ref:`Color<class_Color>` **font_unselected_color** = ``Color(0.7, 0.7, 0.7, 1)`` :ref:`🔗<class_TabContainer_theme_color_font_unselected_color>`
 
 Color de la fuente de las otras pestañas no seleccionadas.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TabContainer_theme_color_icon_disabled_color:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Color<class_Color>` **icon_disabled_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_TabContainer_theme_color_icon_disabled_color>`
+
+Icon color of disabled tabs.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TabContainer_theme_color_icon_hovered_color:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Color<class_Color>` **icon_hovered_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_TabContainer_theme_color_icon_hovered_color>`
+
+Icon color of the currently hovered tab. Does not apply to the selected tab.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TabContainer_theme_color_icon_selected_color:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Color<class_Color>` **icon_selected_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_TabContainer_theme_color_icon_selected_color>`
+
+Icon color of the currently selected tab.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TabContainer_theme_color_icon_unselected_color:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Color<class_Color>` **icon_unselected_color** = ``Color(1, 1, 1, 1)`` :ref:`🔗<class_TabContainer_theme_color_icon_unselected_color>`
+
+Icon color of the other, unselected tabs.
 
 .. rst-class:: classref-item-separator
 

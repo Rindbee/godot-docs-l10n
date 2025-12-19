@@ -33,27 +33,31 @@ Proprietà
 .. table::
    :widths: auto
 
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                            | clip_contents                                                                                      | ``true`` (overrides :ref:`Control<class_Control_property_clip_contents>`) |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                            | :ref:`draw_focus_border<class_ScrollContainer_property_draw_focus_border>`                         | ``false``                                                                 |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                            | :ref:`follow_focus<class_ScrollContainer_property_follow_focus>`                                   | ``false``                                                                 |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` | :ref:`horizontal_scroll_mode<class_ScrollContainer_property_horizontal_scroll_mode>`               | ``1``                                                                     |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                              | :ref:`scroll_deadzone<class_ScrollContainer_property_scroll_deadzone>`                             | ``0``                                                                     |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                              | :ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`                         | ``0``                                                                     |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                          | :ref:`scroll_horizontal_custom_step<class_ScrollContainer_property_scroll_horizontal_custom_step>` | ``-1.0``                                                                  |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                              | :ref:`scroll_vertical<class_ScrollContainer_property_scroll_vertical>`                             | ``0``                                                                     |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                          | :ref:`scroll_vertical_custom_step<class_ScrollContainer_property_scroll_vertical_custom_step>`     | ``-1.0``                                                                  |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
-   | :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>` | :ref:`vertical_scroll_mode<class_ScrollContainer_property_vertical_scroll_mode>`                   | ``1``                                                                     |
-   +----------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                    | clip_contents                                                                                      | ``true`` (overrides :ref:`Control<class_Control_property_clip_contents>`) |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                    | :ref:`draw_focus_border<class_ScrollContainer_property_draw_focus_border>`                         | ``false``                                                                 |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                    | :ref:`follow_focus<class_ScrollContainer_property_follow_focus>`                                   | ``false``                                                                 |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>`         | :ref:`horizontal_scroll_mode<class_ScrollContainer_property_horizontal_scroll_mode>`               | ``1``                                                                     |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                      | :ref:`scroll_deadzone<class_ScrollContainer_property_scroll_deadzone>`                             | ``0``                                                                     |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` | :ref:`scroll_hint_mode<class_ScrollContainer_property_scroll_hint_mode>`                           | ``0``                                                                     |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                      | :ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`                         | ``0``                                                                     |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                  | :ref:`scroll_horizontal_custom_step<class_ScrollContainer_property_scroll_horizontal_custom_step>` | ``-1.0``                                                                  |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                      | :ref:`scroll_vertical<class_ScrollContainer_property_scroll_vertical>`                             | ``0``                                                                     |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                  | :ref:`scroll_vertical_custom_step<class_ScrollContainer_property_scroll_vertical_custom_step>`     | ``-1.0``                                                                  |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                    | :ref:`tile_scroll_hint<class_ScrollContainer_property_tile_scroll_hint>`                           | ``false``                                                                 |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`ScrollMode<enum_ScrollContainer_ScrollMode>`         | :ref:`vertical_scroll_mode<class_ScrollContainer_property_vertical_scroll_mode>`                   | ``1``                                                                     |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -79,11 +83,19 @@ Proprietà del tema
 .. table::
    :widths: auto
 
-   +---------------------------------+-------------------------------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`focus<class_ScrollContainer_theme_style_focus>` |
-   +---------------------------------+-------------------------------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`panel<class_ScrollContainer_theme_style_panel>` |
-   +---------------------------------+-------------------------------------------------------+
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
+   | :ref:`int<class_int>`             | :ref:`scrollbar_h_separation<class_ScrollContainer_theme_constant_scrollbar_h_separation>` | ``0`` |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
+   | :ref:`int<class_int>`             | :ref:`scrollbar_v_separation<class_ScrollContainer_theme_constant_scrollbar_v_separation>` | ``0`` |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
+   | :ref:`Texture2D<class_Texture2D>` | :ref:`scroll_hint_horizontal<class_ScrollContainer_theme_icon_scroll_hint_horizontal>`     |       |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
+   | :ref:`Texture2D<class_Texture2D>` | :ref:`scroll_hint_vertical<class_ScrollContainer_theme_icon_scroll_hint_vertical>`         |       |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`focus<class_ScrollContainer_theme_style_focus>`                                      |       |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`panel<class_ScrollContainer_theme_style_panel>`                                      |       |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+-------+
 
 .. rst-class:: classref-section-separator
 
@@ -173,6 +185,48 @@ Scorrimento abilitato, la barra di scorrimento sarà nascosta.
 
 Combina :ref:`SCROLL_MODE_AUTO<class_ScrollContainer_constant_SCROLL_MODE_AUTO>` e :ref:`SCROLL_MODE_SHOW_ALWAYS<class_ScrollContainer_constant_SCROLL_MODE_SHOW_ALWAYS>`. La barra di scorrimento è visibile solo se necessario, ma la dimensione del contenuto è regolata come se fosse sempre visibile. È utile per garantire che la dimensione del contenuto rimanga la stessa, a prescindere dalla visibilità della barra di scorrimento.
 
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_ScrollContainer_ScrollHintMode:
+
+.. rst-class:: classref-enumeration
+
+enum **ScrollHintMode**: :ref:`🔗<enum_ScrollContainer_ScrollHintMode>`
+
+.. _class_ScrollContainer_constant_SCROLL_HINT_MODE_DISABLED:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` **SCROLL_HINT_MODE_DISABLED** = ``0``
+
+Scroll hints will never be shown.
+
+.. _class_ScrollContainer_constant_SCROLL_HINT_MODE_ALL:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` **SCROLL_HINT_MODE_ALL** = ``1``
+
+Scroll hints will be shown at the top and bottom (if vertical), or left and right (if horizontal).
+
+.. _class_ScrollContainer_constant_SCROLL_HINT_MODE_TOP_AND_LEFT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` **SCROLL_HINT_MODE_TOP_AND_LEFT** = ``2``
+
+Scroll hints will be shown at the top (if vertical), or the left (if horizontal).
+
+.. _class_ScrollContainer_constant_SCROLL_HINT_MODE_BOTTOM_AND_RIGHT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` **SCROLL_HINT_MODE_BOTTOM_AND_RIGHT** = ``3``
+
+Scroll hints will be shown at the bottom (if horizontal), or the right (if horizontal).
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -245,6 +299,25 @@ Controlla se la barra di scorrimento orizzontale si può utilizzare e quando dev
 - :ref:`int<class_int>` **get_deadzone**\ (\ )
 
 Zona morta per lo scorrimento touch. Una zona morta più bassa rende lo scorrimento più sensibile.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ScrollContainer_property_scroll_hint_mode:
+
+.. rst-class:: classref-property
+
+:ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` **scroll_hint_mode** = ``0`` :ref:`🔗<class_ScrollContainer_property_scroll_hint_mode>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_scroll_hint_mode**\ (\ value\: :ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>`\ )
+- :ref:`ScrollHintMode<enum_ScrollContainer_ScrollHintMode>` **get_scroll_hint_mode**\ (\ )
+
+The way which scroll hints (indicators that show that the content can still be scrolled in a certain direction) will be shown.
+
+\ **Note:** Hints won't be shown if the content can be scrolled both vertically and horizontally.
 
 .. rst-class:: classref-item-separator
 
@@ -332,6 +405,23 @@ Sostituisce il :ref:`ScrollBar.custom_step<class_ScrollBar_property_custom_step>
 
 ----
 
+.. _class_ScrollContainer_property_tile_scroll_hint:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **tile_scroll_hint** = ``false`` :ref:`🔗<class_ScrollContainer_property_tile_scroll_hint>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_tile_scroll_hint**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_scroll_hint_tiled**\ (\ )
+
+If ``true``, the scroll hint texture will be tiled instead of stretched. See :ref:`scroll_hint_mode<class_ScrollContainer_property_scroll_hint_mode>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ScrollContainer_property_vertical_scroll_mode:
 
 .. rst-class:: classref-property
@@ -406,6 +496,54 @@ Restituisce la barra di scorrimento verticale :ref:`VScrollBar<class_VScrollBar>
 
 Descrizioni delle proprietà del tema
 ------------------------------------------------------------------------
+
+.. _class_ScrollContainer_theme_constant_scrollbar_h_separation:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **scrollbar_h_separation** = ``0`` :ref:`🔗<class_ScrollContainer_theme_constant_scrollbar_h_separation>`
+
+The space between the ScrollContainer's vertical scroll bar and its content, in pixels. No space will be added when the content's minimum size is larger than the ScrollContainer's size.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ScrollContainer_theme_constant_scrollbar_v_separation:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **scrollbar_v_separation** = ``0`` :ref:`🔗<class_ScrollContainer_theme_constant_scrollbar_v_separation>`
+
+The space between the ScrollContainer's horizontal scroll bar and its content, in pixels. No space will be added when the content's minimum size is larger than the ScrollContainer's size.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ScrollContainer_theme_icon_scroll_hint_horizontal:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Texture2D<class_Texture2D>` **scroll_hint_horizontal** :ref:`🔗<class_ScrollContainer_theme_icon_scroll_hint_horizontal>`
+
+The indicator that will be shown when the content can still be scrolled horizontally. See :ref:`scroll_hint_mode<class_ScrollContainer_property_scroll_hint_mode>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ScrollContainer_theme_icon_scroll_hint_vertical:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Texture2D<class_Texture2D>` **scroll_hint_vertical** :ref:`🔗<class_ScrollContainer_theme_icon_scroll_hint_vertical>`
+
+The indicator that will be shown when the content can still be scrolled vertically. See :ref:`scroll_hint_mode<class_ScrollContainer_property_scroll_hint_mode>`.
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_ScrollContainer_theme_style_focus:
 

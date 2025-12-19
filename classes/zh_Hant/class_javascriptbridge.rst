@@ -23,7 +23,7 @@ The JavaScriptBridge singleton is implemented only in the Web export. It's used 
 教學
 ----
 
-- `為 Web 匯出：從腳本呼叫 JavaScript <../tutorials/export/exporting_for_web.html#calling-javascript-from-script>`__
+- :doc:`The JavaScriptBridge singleton <../tutorials/platform/web/javascript_bridge>`
 
 .. rst-class:: classref-reftable-group
 

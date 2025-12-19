@@ -97,7 +97,7 @@ enum **Function**: :ref:`🔗<enum_VisualShaderNodeColorFunc_Function>`
 
 :ref:`Function<enum_VisualShaderNodeColorFunc_Function>` **FUNC_LINEAR_TO_SRGB** = ``4``
 
-Преобразует цвет из линейного цветового пространства в цветовое пространство sRGB, используя следующую формулу:
+Converts color from linear encoding to nonlinear sRGB encoding using the following formula:
 
 ::
 
@@ -105,12 +105,12 @@ enum **Function**: :ref:`🔗<enum_VisualShaderNodeColorFunc_Function>`
     const vec3 a = vec3(0.055f);
     return mix((vec3(1.0f) + a) * pow(c.rgb, vec3(1.0f / 2.4f)) - a, 12.92f * c.rgb, lessThan(c.rgb, vec3(0.0031308f)));
 
-Визуализатор Совместимости (Compatibility) использует более простую формулу:
+The Compatibility renderer uses a simpler formula:
 
 ::
 
     vec3 c = input;
-    вернуть max(vec3(1.055) * pow(c, vec3(0.416666667)) - vec3(0.055), vec3(0.0));
+    return max(vec3(1.055) * pow(c, vec3(0.416666667)) - vec3(0.055), vec3(0.0));
 
 .. _class_VisualShaderNodeColorFunc_constant_FUNC_SRGB_TO_LINEAR:
 
@@ -118,14 +118,14 @@ enum **Function**: :ref:`🔗<enum_VisualShaderNodeColorFunc_Function>`
 
 :ref:`Function<enum_VisualShaderNodeColorFunc_Function>` **FUNC_SRGB_TO_LINEAR** = ``5``
 
-Преобразует цвет из цветового пространства sRGB в линейное цветовое пространство, используя следующую формулу:
+Converts color from nonlinear sRGB encoding to linear encoding using the following formula:
 
 ::
 
     vec3 c = input;
     return mix(pow((c.rgb + vec3(0.055)) * (1.0 / (1.0 + 0.055)), vec3(2.4)), c.rgb * (1.0 / 12.92), lessThan(c.rgb, vec3(0.04045)));
 
-Визуализатор Совместимости (Compatibility) использует более простую формулу:
+The Compatibility renderer uses a simpler formula:
 
 ::
 

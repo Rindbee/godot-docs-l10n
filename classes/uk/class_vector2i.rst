@@ -697,11 +697,11 @@ Constructs a new **Vector2i** з ``x`` і ``y``.
 
 :ref:`Vector2<class_Vector2>` **operator /**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Vector2i_operator_div_float>`
 
-Ділить кожен компонент **Vector2i** на заданий :ref:`float<class_float>`. Повертає :ref:`Vector2<class_Vector2>`.
+Divides each component of the **Vector2i** by the given :ref:`float<class_float>`. Returns a :ref:`Vector2<class_Vector2>`.
 
 ::
 
-    print(Vector2i(10, 20) / 2.9) # Виводить (5.0, 10.0)
+    print(Vector2i(1, 2) / 2.5) # Prints (0.4, 0.8)
 
 .. rst-class:: classref-item-separator
 

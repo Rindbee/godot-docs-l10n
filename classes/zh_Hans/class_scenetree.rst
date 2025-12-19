@@ -76,6 +76,8 @@ SceneTree
    +--------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`                  | :ref:`change_scene_to_file<class_SceneTree_method_change_scene_to_file>`\ (\ path\: :ref:`String<class_String>`\ )                                                                                                                                               |
    +--------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`                  | :ref:`change_scene_to_node<class_SceneTree_method_change_scene_to_node>`\ (\ node\: :ref:`Node<class_Node>`\ )                                                                                                                                                   |
+   +--------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`                  | :ref:`change_scene_to_packed<class_SceneTree_method_change_scene_to_packed>`\ (\ packed_scene\: :ref:`PackedScene<class_PackedScene>`\ )                                                                                                                         |
    +--------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`SceneTreeTimer<class_SceneTreeTimer>`            | :ref:`create_timer<class_SceneTree_method_create_timer>`\ (\ time_sec\: :ref:`float<class_float>`, process_always\: :ref:`bool<class_bool>` = true, process_in_physics\: :ref:`bool<class_bool>` = false, ignore_time_scale\: :ref:`bool<class_bool>` = false\ ) |
@@ -559,11 +561,37 @@ enum **GroupCallFlags**: :ref:`🔗<enum_SceneTree_GroupCallFlags>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **change_scene_to_file**\ (\ path\: :ref:`String<class_String>`\ ) :ref:`🔗<class_SceneTree_method_change_scene_to_file>`
 
-将位于给定路径 ``path`` 的场景加载进一个 :ref:`PackedScene<class_PackedScene>` 并新建其实例，然后将正在运行的场景修改为这个场景。
+Changes the running scene to the one at the given ``path``, after loading it into a :ref:`PackedScene<class_PackedScene>` and creating a new instance.
 
-成功时返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ ；如果 ``path`` 不能被加载到一个 :ref:`PackedScene<class_PackedScene>` 中，则返回 :ref:`@GlobalScope.ERR_CANT_OPEN<class_@GlobalScope_constant_ERR_CANT_OPEN>`\ ；如果该场景无法被实例化，则返回 :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\ 。
+Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :ref:`@GlobalScope.ERR_CANT_OPEN<class_@GlobalScope_constant_ERR_CANT_OPEN>` if the ``path`` cannot be loaded into a :ref:`PackedScene<class_PackedScene>`, or :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` if that scene cannot be instantiated.
 
-\ **注意：**\ 有关操作顺序的详细信息，请参阅 :ref:`change_scene_to_packed()<class_SceneTree_method_change_scene_to_packed>`\ 。
+\ **Note:** See :ref:`change_scene_to_node()<class_SceneTree_method_change_scene_to_node>` for details on the order of operations.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_SceneTree_method_change_scene_to_node:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **change_scene_to_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_SceneTree_method_change_scene_to_node>`
+
+Changes the running scene to the provided :ref:`Node<class_Node>`. Useful when you want to set up the new scene before changing.
+
+Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` if the ``node`` is ``null``, or :ref:`@GlobalScope.ERR_UNCONFIGURED<class_@GlobalScope_constant_ERR_UNCONFIGURED>` if the ``node`` is already inside the scene tree.
+
+\ **Note:** Operations happen in the following order when :ref:`change_scene_to_node()<class_SceneTree_method_change_scene_to_node>` is called:
+
+1. The current scene node is immediately removed from the tree. From that point, :ref:`Node.get_tree()<class_Node_method_get_tree>` called on the current (outgoing) scene will return ``null``. :ref:`current_scene<class_SceneTree_property_current_scene>` will be ``null`` too, because the new scene is not available yet.
+
+2. At the end of the frame, the formerly current scene, already removed from the tree, will be deleted (freed from memory) and then the new scene node will be added to the tree. :ref:`Node.get_tree()<class_Node_method_get_tree>` and :ref:`current_scene<class_SceneTree_property_current_scene>` will be back to working as usual.
+
+This ensures that both scenes aren't running at the same time, while still freeing the previous scene in a safe way similar to :ref:`Node.queue_free()<class_Node_method_queue_free>`.
+
+If you want to reliably access the new scene, await the :ref:`scene_changed<class_SceneTree_signal_scene_changed>` signal.
+
+\ **Warning:** After using this method, the **SceneTree** will take ownership of the node and will free it automatically when changing scene again. Any references you had to that node will become invalid.
 
 .. rst-class:: classref-item-separator
 
@@ -575,19 +603,11 @@ enum **GroupCallFlags**: :ref:`🔗<enum_SceneTree_GroupCallFlags>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **change_scene_to_packed**\ (\ packed_scene\: :ref:`PackedScene<class_PackedScene>`\ ) :ref:`🔗<class_SceneTree_method_change_scene_to_packed>`
 
-将正在运行的场景更改为给定 :ref:`PackedScene<class_PackedScene>` 的新实例（新实例必须有效）。
+Changes the running scene to a new instance of the given :ref:`PackedScene<class_PackedScene>` (which must be valid).
 
-成功时返回 :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`\ ，场景无法被实例化时返回 :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>`\ ，场景无效时返回 :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>`\ 。
+Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` if the scene cannot be instantiated, or :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` if the scene is invalid.
 
-\ **注意：**\ 当 :ref:`change_scene_to_packed()<class_SceneTree_method_change_scene_to_packed>` 被调用时，操作按以下顺序发生：
-
-1. 当前场景节点被立即从树中移除。从那时起，在当前（传出）场景上调用的 :ref:`Node.get_tree()<class_Node_method_get_tree>` 将返回 ``null``\ 。\ :ref:`current_scene<class_SceneTree_property_current_scene>` 也将变为 ``null``\ ，因为新场景尚不可用。
-
-2. 在帧末尾时，已从树中移除的、之前的当前场景将被删除（从内存中释放），然后新场景将被实例化并添加到树中。\ :ref:`Node.get_tree()<class_Node_method_get_tree>` 和 :ref:`current_scene<class_SceneTree_property_current_scene>` 将恢复正常工作。
-
-这确保了两个场景不会同时运行，并且仍然会以类似于 :ref:`Node.queue_free()<class_Node_method_queue_free>` 的安全方式释放之前的场景。
-
-如果你想要稳定地访问新场景，请等待 :ref:`scene_changed<class_SceneTree_signal_scene_changed>` 信号。
+\ **Note:** See :ref:`change_scene_to_node()<class_SceneTree_method_change_scene_to_node>` for details on the order of operations.
 
 .. rst-class:: classref-item-separator
 

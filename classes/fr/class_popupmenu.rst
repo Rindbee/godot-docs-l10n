@@ -14,15 +14,17 @@ Une fenêtre modale utilisée pour afficher une liste d'options.
 Description
 -----------
 
-**PopupMenu** est une fenêtre modale utilisée pour afficher une liste d'options. Utile pour les barres d'outils et les menus contextuels.
+**PopupMenu** is a modal window used to display a list of options. Useful for toolbars and context menus.
 
-La taille d'un **PopupMenu** peut être limitée en utilisant :ref:`Window.max_size<class_Window_property_max_size>`. Si la hauteur de la liste des éléments est supérieure à la hauteur maximale du **PopupMenu**, un :ref:`ScrollContainer<class_ScrollContainer>` dans le popup permettra à l'utilisateur de faire défiler le contenu. Si aucune taille maximale n'est définie, ou si elle est définie à ``0``, la hauteur de **PopupMenu** sera limitée par son rect parent.
+The size of a **PopupMenu** can be limited by using :ref:`Window.max_size<class_Window_property_max_size>`. If the height of the list of items is larger than the maximum height of the **PopupMenu**, a :ref:`ScrollContainer<class_ScrollContainer>` within the popup will allow the user to scroll the contents. If no maximum size is set, or if it is set to ``0``, the **PopupMenu** height will be limited by its parent rect.
 
-Toutes les méthodes ``set_*`` permettent des indices d'éléments négatifs, c'est-à-dire ``-1`` pour accéder au dernier élément, ``-2`` pour sélectionner le deuxième élément, et ainsi de suite.
+All ``set_*`` methods allow negative item indices, i.e. ``-1`` to access the last item, ``-2`` to select the second-to-last item, and so on.
 
-\ **Recherche incrémentale :** Comme :ref:`ItemList<class_ItemList>` et :ref:`Tree<class_Tree>`, **PopupMenu** prend en charge la recherche dans la liste pendant que le contrôle est en focus. Appuyez sur une touche qui correspond à la première lettre du nom d'un article pour sélectionner le premier élément à partir de la lettre donnée. Après ce point, il y a deux façons d'effectuer la recherche incrémentale : 1) Appuyez à nouveau sur la même touche avant la fin de la durée d'attente pour sélectionner l'élément suivant en commençant par la même lettre. 2) Appuyez sur les touches de lettre qui correspondent au reste du mot avant la fin de la durée d'attente pour sélectionner l'élément en question directement. Ces deux actions seront réinitialisées jusqu'au début de la liste si la durée d'attente est passée depuis que la dernière frappe a été enregistrée. Vous pouvez ajuster la durée d'expiration en changeant :ref:`ProjectSettings.gui/timers/incremental_search_max_interval_msec<class_ProjectSettings_property_gui/timers/incremental_search_max_interval_msec>`.
+\ **Incremental search:** Like :ref:`ItemList<class_ItemList>` and :ref:`Tree<class_Tree>`, **PopupMenu** supports searching within the list while the control is focused. Press a key that matches the first letter of an item's name to select the first item starting with the given letter. After that point, there are two ways to perform incremental search: 1) Press the same key again before the timeout duration to select the next item starting with the same letter. 2) Press letter keys that match the rest of the word before the timeout duration to match to select the item in question directly. Both of these actions will be reset to the beginning of the list if the timeout duration has passed since the last keystroke was registered. You can adjust the timeout duration by changing :ref:`ProjectSettings.gui/timers/incremental_search_max_interval_msec<class_ProjectSettings_property_gui/timers/incremental_search_max_interval_msec>`.
 
-\ **Note :** Les valeurs d'identification utilisées pour les articles sont limitées en 32 bits, pas les 64 bits de :ref:`int<class_int>`. Il s'agit d'une plage de ``-2^32`` à ``2^32 - 1``, c'est-à-dire ``-2147483648`` à ``2147483647``.
+\ **Note:** **PopupMenu** is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
+
+\ **Note:** The ID values used for items are limited to 32 bits, not full 64 bits of :ref:`int<class_int>`. This has a range of ``-2^32`` to ``2^32 - 1``, i.e. ``-2147483648`` to ``2147483647``.
 
 .. rst-class:: classref-reftable-group
 
@@ -45,7 +47,7 @@ Propriétés
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                         | :ref:`prefer_native_menu<class_PopupMenu_property_prefer_native_menu>`                             | ``false``                                                                    |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                       | :ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`                           | ``0.3``                                                                      |
+   | :ref:`float<class_float>`                       | :ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`                           | ``0.2``                                                                      |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`SystemMenus<enum_NativeMenu_SystemMenus>` | :ref:`system_menu_id<class_PopupMenu_property_system_menu_id>`                                     | ``0``                                                                        |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -233,6 +235,8 @@ Propriétés du thème
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`Color<class_Color>`         | :ref:`font_separator_outline_color<class_PopupMenu_theme_color_font_separator_outline_color>` | ``Color(0, 0, 0, 1)``             |
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
+   | :ref:`int<class_int>`             | :ref:`gutter_compact<class_PopupMenu_theme_constant_gutter_compact>`                          | ``1``                             |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`int<class_int>`             | :ref:`h_separation<class_PopupMenu_theme_constant_h_separation>`                              | ``4``                             |
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`int<class_int>`             | :ref:`icon_max_width<class_PopupMenu_theme_constant_icon_max_width>`                          | ``0``                             |
@@ -315,7 +319,7 @@ Emitted when the user navigated to an item of some ``id`` using the :ref:`Projec
 
 **id_pressed**\ (\ id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PopupMenu_signal_id_pressed>`
 
-Emitted when an item of some ``id`` is pressed or its accelerator is activated.
+Emitted when an item of some ``id`` is pressed. Also emitted when its accelerator is activated on macOS.
 
 \ **Note:** If ``id`` is negative (either explicitly or due to overflow), this will return the corresponding index instead.
 
@@ -329,7 +333,7 @@ Emitted when an item of some ``id`` is pressed or its accelerator is activated.
 
 **index_pressed**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PopupMenu_signal_index_pressed>`
 
-Emitted when an item of some ``index`` is pressed or its accelerator is activated.
+Emitted when an item of some ``index`` is pressed. Also emitted when its accelerator is activated on macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -460,7 +464,7 @@ If ``true``, :ref:`MenuBar<class_MenuBar>` will use native menu when supported.
 
 .. rst-class:: classref-property
 
-:ref:`float<class_float>` **submenu_popup_delay** = ``0.3`` :ref:`🔗<class_PopupMenu_property_submenu_popup_delay>`
+:ref:`float<class_float>` **submenu_popup_delay** = ``0.2`` :ref:`🔗<class_PopupMenu_property_submenu_popup_delay>`
 
 .. rst-class:: classref-property-setget
 
@@ -468,6 +472,8 @@ If ``true``, :ref:`MenuBar<class_MenuBar>` will use native menu when supported.
 - :ref:`float<class_float>` **get_submenu_popup_delay**\ (\ )
 
 Sets the delay time in seconds for the submenu item to popup on mouse hovering. If the popup menu is added as a child of another (acting as a submenu), it will inherit the delay time of the parent menu item.
+
+\ **Note:** If the mouse is exiting a submenu item with an open submenu and enters a different submenu item, the submenu popup delay time is affected by the direction of the mouse movement toward the open submenu. If the mouse is moving toward the submenu, the open submenu will wait approximately ``0.5`` seconds before closing, which then allows the hovered submenu item to open. This additional delay allows the mouse time to move to the open submenu across other menu items without prematurely closing. If the mouse is not moving toward the open submenu, for example in a downward direction, the open submenu will close immediately.
 
 .. rst-class:: classref-item-separator
 
@@ -1313,7 +1319,7 @@ Sets the horizontal offset of the item at the given ``index``.
 
 |void| **set_item_language**\ (\ index\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_PopupMenu_method_set_item_language>`
 
-Définit le code de langue du texte de l'élément, utilisé pour les algorithmes de retour à la ligne et de façonnage de texte. Si laissé vide, la langue actuelle est utilisée à la place.
+Sets the language code of the text for the item at the given index to ``language``. This is used for line-breaking and text shaping algorithms. If ``language`` is empty, the current locale is used.
 
 .. rst-class:: classref-item-separator
 
@@ -1549,6 +1555,18 @@ La teinte du contour du texte de l'élément de menu.
 :ref:`Color<class_Color>` **font_separator_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_PopupMenu_theme_color_font_separator_outline_color>`
 
 The tint of text outline of the labeled separator.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_PopupMenu_theme_constant_gutter_compact:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **gutter_compact** = ``1`` :ref:`🔗<class_PopupMenu_theme_constant_gutter_compact>`
+
+If not ``0``, the icon gutter will be merged with the checkbox gutter when possible. This acts as a boolean.
 
 .. rst-class:: classref-item-separator
 

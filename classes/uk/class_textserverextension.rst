@@ -309,6 +309,8 @@ TextServerExtension
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`_is_locale_right_to_left<class_TextServerExtension_private_method__is_locale_right_to_left>`\ (\ locale\: :ref:`String<class_String>`\ ) |virtual| |const|                                                                                                                                                                                                                                                                 |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                          | :ref:`_is_locale_using_support_data<class_TextServerExtension_private_method__is_locale_using_support_data>`\ (\ locale\: :ref:`String<class_String>`\ ) |virtual| |const|                                                                                                                                                                                                                                                       |
+   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`_is_valid_identifier<class_TextServerExtension_private_method__is_valid_identifier>`\ (\ string\: :ref:`String<class_String>`\ ) |virtual| |const|                                                                                                                                                                                                                                                                         |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                          | :ref:`_is_valid_letter<class_TextServerExtension_private_method__is_valid_letter>`\ (\ unicode\: :ref:`int<class_int>`\ ) |virtual| |const|                                                                                                                                                                                                                                                                                      |
@@ -368,6 +370,8 @@ TextServerExtension
    | |void|                                                           | :ref:`_shaped_text_draw<class_TextServerExtension_private_method__shaped_text_draw>`\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>`, clip_r\: :ref:`float<class_float>`, color\: :ref:`Color<class_Color>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| |const|                                                           |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                           | :ref:`_shaped_text_draw_outline<class_TextServerExtension_private_method__shaped_text_draw_outline>`\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>`, clip_r\: :ref:`float<class_float>`, outline_size\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| |const|     |
+   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`RID<class_RID>`                                            | :ref:`_shaped_text_duplicate<class_TextServerExtension_private_method__shaped_text_duplicate>`\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| |required|                                                                                                                                                                                                                                                                        |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                                        | :ref:`_shaped_text_fit_to_width<class_TextServerExtension_private_method__shaped_text_fit_to_width>`\ (\ shaped\: :ref:`RID<class_RID>`, width\: :ref:`float<class_float>`, justification_flags\: |bitfield|\[:ref:`JustificationFlag<enum_TextServer_JustificationFlag>`\]\ ) |virtual|                                                                                                                                         |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -438,6 +442,8 @@ TextServerExtension
    | :ref:`float<class_float>`                                        | :ref:`_shaped_text_get_width<class_TextServerExtension_private_method__shaped_text_get_width>`\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| |required| |const|                                                                                                                                                                                                                                                                |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedInt32Array<class_PackedInt32Array>`                  | :ref:`_shaped_text_get_word_breaks<class_TextServerExtension_private_method__shaped_text_get_word_breaks>`\ (\ shaped\: :ref:`RID<class_RID>`, grapheme_flags\: |bitfield|\[:ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>`\], skip_grapheme_flags\: |bitfield|\[:ref:`GraphemeFlag<enum_TextServer_GraphemeFlag>`\]\ ) |virtual| |const|                                                                                      |
+   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                          | :ref:`_shaped_text_has_object<class_TextServerExtension_private_method__shaped_text_has_object>`\ (\ shaped\: :ref:`RID<class_RID>`, key\: :ref:`Variant<class_Variant>`\ ) |virtual| |required| |const|                                                                                                                                                                                                                         |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                            | :ref:`_shaped_text_hit_test_grapheme<class_TextServerExtension_private_method__shaped_text_hit_test_grapheme>`\ (\ shaped\: :ref:`RID<class_RID>`, coord\: :ref:`float<class_float>`\ ) |virtual| |const|                                                                                                                                                                                                                        |
    +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1361,7 +1367,7 @@ TextServerExtension
 
 :ref:`bool<class_bool>` **_font_is_language_supported**\ (\ font_rid\: :ref:`RID<class_RID>`, language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__font_is_language_supported>`
 
-``true``, якщо шрифт підтримує дану мову (`ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ код.
+Returns ``true`` if the font supports the given language (as a `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ code).
 
 .. rst-class:: classref-item-separator
 
@@ -1373,7 +1379,7 @@ TextServerExtension
 
 :ref:`bool<class_bool>` **_font_is_modulate_color_glyphs**\ (\ font_rid\: :ref:`RID<class_RID>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__font_is_modulate_color_glyphs>`
 
-Повертає ``true``, якщо під час малювання кольорових гліфів застосовується колірна модуляція.
+Returns ``true`` if color modulation is applied when drawing the font's colored glyphs.
 
 .. rst-class:: classref-item-separator
 
@@ -1397,7 +1403,7 @@ TextServerExtension
 
 :ref:`bool<class_bool>` **_font_is_script_supported**\ (\ font_rid\: :ref:`RID<class_RID>`, script\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__font_is_script_supported>`
 
-Повертає ``true``, якщо шрифт підтримує даний скрипт (ISO 15924 код).
+Returns ``true`` if the font supports the given script (as a `ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__ code).
 
 .. rst-class:: classref-item-separator
 
@@ -2069,7 +2075,11 @@ TextServerExtension
 
 :ref:`String<class_String>` **_format_number**\ (\ number\: :ref:`String<class_String>`, language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__format_number>`
 
-Перетворює число із західної арабської системи числення (0..9) у систему числення, що використовується в ``language``.
+**Застаріло:** Use :ref:`TranslationServer.format_number()<class_TranslationServer_method_format_number>` instead.
+
+Converts a number from Western Arabic (0..9) to the numeral system used in the given ``language``.
+
+If ``language`` is an empty string, the active locale will be used.
 
 .. rst-class:: classref-item-separator
 
@@ -2207,6 +2217,18 @@ TextServerExtension
 
 ----
 
+.. _class_TextServerExtension_private_method__is_locale_using_support_data:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **_is_locale_using_support_data**\ (\ locale\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__is_locale_using_support_data>`
+
+Returns ``true`` if the locale requires text server support data for line/word breaking.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_TextServerExtension_private_method__is_valid_identifier:
 
 .. rst-class:: classref-method
@@ -2251,7 +2273,7 @@ TextServerExtension
 
 :ref:`int<class_int>` **_name_to_tag**\ (\ name\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__name_to_tag>`
 
-Перетворює читабельну функцію, варіацію, скрипт або назву мови на тег OpenType.
+Converts the given readable name of a feature, variation, script, or language to an OpenType tag.
 
 .. rst-class:: classref-item-separator
 
@@ -2263,7 +2285,11 @@ TextServerExtension
 
 :ref:`String<class_String>` **_parse_number**\ (\ number\: :ref:`String<class_String>`, language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__parse_number>`
 
-Перетворює ``number`` із систем числення, що використовуються в ``language``, на західну арабську (0..9).
+**Застаріло:** Use :ref:`TranslationServer.parse_number()<class_TranslationServer_method_parse_number>` instead.
+
+Converts ``number`` from the numeral system used in the given ``language`` to Western Arabic (0..9).
+
+If ``language`` is an empty string, the active locale will be used.
 
 .. rst-class:: classref-item-separator
 
@@ -2287,7 +2313,9 @@ TextServerExtension
 
 :ref:`String<class_String>` **_percent_sign**\ (\ language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__percent_sign>`
 
-Повертає знак відсотка, який використовується в ``language``.
+**Застаріло:** Use :ref:`TranslationServer.get_percent_sign()<class_TranslationServer_method_get_percent_sign>` instead.
+
+Returns percent sign used in the given ``language``.
 
 .. rst-class:: classref-item-separator
 
@@ -2564,6 +2592,18 @@ TextServerExtension
 |void| **_shaped_text_draw_outline**\ (\ shaped\: :ref:`RID<class_RID>`, canvas\: :ref:`RID<class_RID>`, pos\: :ref:`Vector2<class_Vector2>`, clip_l\: :ref:`float<class_float>`, clip_r\: :ref:`float<class_float>`, outline_size\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, oversampling\: :ref:`float<class_float>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_draw_outline>`
 
 Намалюйте контур фігурного тексту на елементі полотна в заданій позиції за допомогою параметра ``color``. Параметр ``pos`` визначає крайню ліву точку базової лінії (для горизонтального розташування) або крайню верхню точку базової лінії (для вертикального розташування). Якщо параметр ``oversampling`` більше нуля, він використовується як коефіцієнт передискретизації шрифту, інакше використовуються налаштування передискретизації області перегляду.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TextServerExtension_private_method__shaped_text_duplicate:
+
+.. rst-class:: classref-method
+
+:ref:`RID<class_RID>` **_shaped_text_duplicate**\ (\ shaped\: :ref:`RID<class_RID>`\ ) |virtual| |required| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_duplicate>`
+
+Duplicates shaped text buffer.
 
 .. rst-class:: classref-item-separator
 
@@ -2989,6 +3029,18 @@ TextServerExtension
 
 ----
 
+.. _class_TextServerExtension_private_method__shaped_text_has_object:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **_shaped_text_has_object**\ (\ shaped\: :ref:`RID<class_RID>`, key\: :ref:`Variant<class_Variant>`\ ) |virtual| |required| |const| :ref:`🔗<class_TextServerExtension_private_method__shaped_text_has_object>`
+
+Returns ``true`` if an object with ``key`` is embedded in this shaped text buffer.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_TextServerExtension_private_method__shaped_text_hit_test_grapheme:
 
 .. rst-class:: classref-method
@@ -3307,7 +3359,7 @@ TextServerExtension
 
 :ref:`String<class_String>` **_string_to_lower**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__string_to_lower>`
 
-Повертає рядок, перетворений на нижній регістр.
+Повертає рядок, що перетворюється на ``низ ``.
 
 .. rst-class:: classref-item-separator
 
@@ -3319,7 +3371,7 @@ TextServerExtension
 
 :ref:`String<class_String>` **_string_to_title**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__string_to_title>`
 
-Повертає рядок, перетворений на регістр літер у заголовку.
+Returns the string converted to ``Title Case``.
 
 .. rst-class:: classref-item-separator
 
@@ -3331,7 +3383,7 @@ TextServerExtension
 
 :ref:`String<class_String>` **_string_to_upper**\ (\ string\: :ref:`String<class_String>`, language\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__string_to_upper>`
 
-Повертає рядок, перетворений на верхній регістр.
+Повертає рядок, що перетворюється на ``UPPERCASE``.
 
 .. rst-class:: classref-item-separator
 
@@ -3355,7 +3407,7 @@ TextServerExtension
 
 :ref:`String<class_String>` **_tag_to_name**\ (\ tag\: :ref:`int<class_int>`\ ) |virtual| |const| :ref:`🔗<class_TextServerExtension_private_method__tag_to_name>`
 
-Перетворення Відкрито Тип тегу для читання функцій, варіації, скрипт або назва мови.
+Converts the given OpenType tag to the readable name of a feature, variation, script, or language.
 
 .. rst-class:: classref-item-separator
 

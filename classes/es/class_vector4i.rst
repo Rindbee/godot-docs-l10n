@@ -686,13 +686,13 @@ Divide cada componente del **Vector4i** por los componentes del **Vector4i** dad
 
 :ref:`Vector4<class_Vector4>` **operator /**\ (\ right\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Vector4i_operator_div_float>`
 
-Divide cada componente del **Vector4i** por el :ref:`float<class_float>` dado.
+Divides each component of the **Vector4i** by the given :ref:`float<class_float>`.
 
-Devuelve un valor Vector4 debido a las operaciones de punto flotante.
+Returns a Vector4 value due to floating-point operations.
 
 ::
 
-    print(Vector4i(10, 20, 30, 40) / 2) # Imprime (5.0, 10.0, 15.0, 20.0)
+    print(Vector4i(1, 2, 3, 4) / 2.5) # Prints (0.4, 0.8, 1.2, 1.6)
 
 .. rst-class:: classref-item-separator
 

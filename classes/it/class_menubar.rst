@@ -163,7 +163,7 @@ Un **MenuBar** piatto non visualizza la decorazione delle sue voci.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Codice della lingua usato per gli algoritmi di interruzione di riga e di formazione del testo, se lasciato vuoto è invece utilizzata la localizzazione attuale.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Restituisce il tooltip della voce del menu.
 
 :ref:`bool<class_bool>` **is_menu_disabled**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_disabled>`
 
-Restituisce ``true``, se la voce del menu è disabilitata.
+Returns ``true`` if the menu item is disabled.
 
 .. rst-class:: classref-item-separator
 
@@ -312,7 +312,7 @@ Restituisce ``true``, se la voce del menu è disabilitata.
 
 :ref:`bool<class_bool>` **is_menu_hidden**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_hidden>`
 
-Restituisce ``true``, se la voce del menu è nascosta.
+Returns ``true`` if the menu item is hidden.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Restituisce ``true``, se la voce del menu è nascosta.
 
 :ref:`bool<class_bool>` **is_native_menu**\ (\ ) |const| :ref:`🔗<class_MenuBar_method_is_native_menu>`
 
-Restituisce ``true``, se il menu globale del sistema è supportato e utilizzato da questo **MenuBar**.
+Returns ``true`` if the current system's global menu is supported and used by this **MenuBar**.
 
 .. rst-class:: classref-item-separator
 

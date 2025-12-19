@@ -491,7 +491,7 @@ La modalità di precalcolo della luce. Ciò influirà sulle tecniche di illumina
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-Il colore della luce nello spazio colore sRGB non-lineare. Si può utilizzare un colore *sovra-luminoso* per un risultato equivalente all'aumento del :ref:`light_energy<class_Light3D_property_light_energy>` della luce.
+The light's color in nonlinear sRGB encoding. An *overbright* color can be used to achieve a result equivalent to increasing the light's :ref:`light_energy<class_Light3D_property_light_energy>`.
 
 .. rst-class:: classref-item-separator
 

@@ -98,6 +98,8 @@ Metodi
    +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                     | :ref:`draw_list_bind_vertex_array<class_RenderingDevice_method_draw_list_bind_vertex_array>`\ (\ draw_list\: :ref:`int<class_int>`, vertex_array\: :ref:`RID<class_RID>`\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
    +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                     | :ref:`draw_list_bind_vertex_buffers_format<class_RenderingDevice_method_draw_list_bind_vertex_buffers_format>`\ (\ draw_list\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, vertex_count\: :ref:`int<class_int>`, vertex_buffers\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], offsets\: :ref:`PackedInt64Array<class_PackedInt64Array>` = PackedInt64Array()\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                     | :ref:`draw_list_disable_scissor<class_RenderingDevice_method_draw_list_disable_scissor>`\ (\ draw_list\: :ref:`int<class_int>`\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
    +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                     | :ref:`draw_list_draw<class_RenderingDevice_method_draw_list_draw>`\ (\ draw_list\: :ref:`int<class_int>`, use_indices\: :ref:`bool<class_bool>`, instances\: :ref:`int<class_int>`, procedural_vertex_count\: :ref:`int<class_int>` = 0\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -390,9 +392,11 @@ Oggetto di ingresso di livello superiore nell'API grafica (il parametro ``rid`` 
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_COMMAND_QUEUE** = ``3``
 
-La coda principale dei comandi di elaborazione grafica (il parametro ``rid`` è ignorato).
+The main graphics-compute command queue (``rid`` parameter is ignored).
 
 - Vulkan: ``VkQueue``.
+
+- D3D12: ``ID3D12CommandQueue``.
 
 - Metal: ``MTLCommandQueue``.
 
@@ -413,6 +417,8 @@ La famiglia specifica a cui appartiene la coda principale (il parametro ``rid`` 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_TEXTURE** = ``5``
 
 - Vulkan: ``VkImage``.
+
+- D3D12: ``ID3D12Resource``.
 
 .. _class_RenderingDevice_constant_DRIVER_RESOURCE_TEXTURE_VIEW:
 
@@ -746,7 +752,7 @@ Formato dati di canale rosso intero con segno a 8 bit. I valori sono compresi ne
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8_SRGB** = ``14``
 
-Formato dati di canale rosso in virgola mobile senza segno a 8 bit con valore normalizzato e codifica in sRGB non lineare. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R8G8_UNORM:
 
@@ -802,7 +808,7 @@ Formato dati di canali rosso/verde interi con segno a 8 bit per canale. I valori
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8G8_SRGB** = ``21``
 
-Formato dati di canali rosso/verde in virgola mobile senza segno a 8 bit per canale con valore normalizzato e codifica in sRGB non lineare. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red/green channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R8G8B8_UNORM:
 
@@ -858,7 +864,7 @@ Formato dati di canali rosso/verde/blu intero con segno a 8 bit per canale. I va
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8G8B8_SRGB** = ``28``
 
-Formato dati di canali rosso/verde/blu in virgola mobile senza segno a 8 bit per canale con valore normalizzato e codifica in sRGB non lineare. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red/green/blue channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B8G8R8_UNORM:
 
@@ -914,7 +920,7 @@ Formato dati di canali blu/verde/rosso interi con segno a 8 bit per canale. I va
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B8G8R8_SRGB** = ``35``
 
-Formato dati di canali blu/verde/rosso in virgola mobile senza segno a 8 bit per canale con valore normalizzato e codifica in sRGB non lineare. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point blue/green/red data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R8G8B8A8_UNORM:
 
@@ -970,7 +976,7 @@ Formato dati di canali rosso/verde/blu/alfa interi con segno a 8 bit per canale.
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8G8B8A8_SRGB** = ``42``
 
-Formato dati di canali rosso/verde/blu/alfa in virgola mobile senza segno a 8 bit per canale con valore normalizzato e codifica in sRGB non lineare. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B8G8R8A8_UNORM:
 
@@ -1026,7 +1032,7 @@ Formato dati di canali blu/verde/rosso/alfa interi con segno a 8 bit per canale.
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B8G8R8A8_SRGB** = ``49``
 
-Formato dati di canali blu/verde/rosso/alfa in virgola mobile senza segno a 8 bit per canale con valore normalizzato e codifica in sRGB non lineare. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point blue/green/red/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_A8B8G8R8_UNORM_PACK32:
 
@@ -1082,7 +1088,7 @@ Formato dati di canali alfa/rosso/verde/blu interi con segno a 8 bit per canale,
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_A8B8G8R8_SRGB_PACK32** = ``56``
 
-Formato dati di canali alfa/rosso/verde/blu in virgola mobile senza segno a 8 bit per canale con valore normalizzato e codifica in sRGB non lineare, racchiuso in 32 bit. I valori sono compresi nell'intervallo ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point alpha/red/green/blue channel data format with normalized value and nonlinear sRGB encoding, packed in 32 bits. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_A2R10G10B10_UNORM_PACK32:
 
@@ -1682,7 +1688,7 @@ Formato dati di canali rosso/verde/blu senza segno compresso in VRAM con valore 
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC1_RGB_SRGB_BLOCK** = ``131``
 
-Formato dati di canali rosso/verde/blu senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. La precisione del formato è di 5 bit per il canale rosso, 6 bit per il canale verde e 5 bit per il canale blu. Utilizza la compressione texture BC1 (nota anche come S3TC DXT1).
+VRAM-compressed unsigned red/green/blue channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, and 5 bits of blue channel. Using BC1 texture compression (also known as S3TC DXT1).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC1_RGBA_UNORM_BLOCK:
 
@@ -1698,7 +1704,7 @@ Formato dati di canali rosso/verde/blu/alfa senza segno compresso in VRAM con va
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC1_RGBA_SRGB_BLOCK** = ``133``
 
-Formato dati di canali rosso/verde/blu/alfa senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. La precisione del formato è di 5 bit per il canale rosso, 6 bit per il canale verde, 5 bit per il canale blu e 1 bit per il canale alfa. Utilizza la compressione texture BC1 (nota anche come S3TC DXT1).
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel, and 1 bit of alpha channel. Using BC1 texture compression (also known as S3TC DXT1).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC2_UNORM_BLOCK:
 
@@ -1714,7 +1720,7 @@ Formato dati di canali rosso/verde/blu/alfa compresso per VRAM senza segno con v
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC2_SRGB_BLOCK** = ``135``
 
-Formato dati di canali rosso/verde/blu/alfa compresso per VRAM senza segno con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. La precisione del formato è di 5 bit per il canale rosso, 6 bit per il canale verde, 5 bit per il canale blu e 4 bit per il canale alfa. Utilizza la compressione texture BC2 (nota anche come S3TC DXT3).
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel, and 4 bits of alpha channel. Using BC2 texture compression (also known as S3TC DXT3).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC3_UNORM_BLOCK:
 
@@ -1730,7 +1736,7 @@ Formato dati di canali rosso/verde/blu/alfa compresso per VRAM senza segno con v
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC3_SRGB_BLOCK** = ``137``
 
-Formato dati di canali rosso/verde/blu/alfa compresso per VRAM senza segno con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. La precisione del formato è di 5 bit per il canale rosso, 6 bit per il canale verde, 5 bit per il canale blu e 8 bit per il canale alfa. Utilizza la compressione texture BC3 (nota anche come S3TC DXT5).
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel, and 8 bits of alpha channel. Using BC3 texture compression (also known as S3TC DXT5).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC4_UNORM_BLOCK:
 
@@ -1794,7 +1800,7 @@ Formato dati di canali rosso/verde/blu compresso per VRAM senza segno con valore
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC7_SRGB_BLOCK** = ``145``
 
-Formato dati di canali rosso/verde/blu compresso per VRAM senza segno con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. La precisione del formato è tra 4 e 7 bit per il canali rosso/verde/blu e tra 0 e 8 bit per il canale alfa. Noto anche come BPTC LDR.
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is between 4 and 7 bits for the red/green/blue channels and between 0 and 8 bits for the alpha channel. Also known as BPTC LDR.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8_UNORM_BLOCK:
 
@@ -1810,7 +1816,7 @@ Formato dati di canali rosso/verde/blu senza segno compresso VRAM con valore nor
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8_SRGB_BLOCK** = ``147``
 
-Formato dati di canali rosso/verde/blu senza segno compresso VRAM con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione texture ETC2.
+VRAM-compressed unsigned red/green/blue channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Using ETC2 texture compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK:
 
@@ -1826,7 +1832,7 @@ Formato dati di canali rosso/verde/blu/alfa senza segno compresso VRAM con valor
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK** = ``149``
 
-Formato dati di canali rosso/verde/blu/alfa senza segno compresso VRAM con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. Rosso/verde/blu usano 8 bit di precisione ciascuno, con l'alfa che usa 1 bit di precisione. Utilizza la compressione texture ETC2.
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bit of precision each, with alpha using 1 bit of precision. Using ETC2 texture compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK:
 
@@ -1842,7 +1848,7 @@ Formato dati di canali rosso/verde/blu/alfa senza segno compresso VRAM con valor
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK** = ``151``
 
-Formato dati di canali rosso/verde/blu/alfa senza segno compresso VRAM con valore normalizzato e codifica in sRGB non lineare. I valori sono nell'intervallo ``[0.0, 1.0]``. Rosso/verde/blu usano 8 bit di precisione ciascuno, con l'alfa che usa 8 bit di precisione. Utilizza la compressione texture ETC2.
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bits of precision each, with alpha using 8 bits of precision. Using ETC2 texture compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_EAC_R11_UNORM_BLOCK:
 
@@ -1890,7 +1896,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_4x4_SRGB_BLOCK** = ``157``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 4×4 (massima qualità). I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 4×4 blocks (highest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x4_UNORM_BLOCK:
 
@@ -1906,7 +1912,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x4_SRGB_BLOCK** = ``159``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 5×4. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 5×4 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x5_UNORM_BLOCK:
 
@@ -1922,7 +1928,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x5_SRGB_BLOCK** = ``161``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 5×5. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 5×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x5_UNORM_BLOCK:
 
@@ -1938,7 +1944,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x5_SRGB_BLOCK** = ``163``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 6×5. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 6×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x6_UNORM_BLOCK:
 
@@ -1954,7 +1960,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x6_SRGB_BLOCK** = ``165``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 6×6. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 6×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x5_UNORM_BLOCK:
 
@@ -1970,7 +1976,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x5_SRGB_BLOCK** = ``167``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 8×5. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 8×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x6_UNORM_BLOCK:
 
@@ -1986,7 +1992,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x6_SRGB_BLOCK** = ``169``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 8×6. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 8×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x8_UNORM_BLOCK:
 
@@ -2002,7 +2008,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x8_SRGB_BLOCK** = ``171``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 8×8. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 8×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x5_UNORM_BLOCK:
 
@@ -2018,7 +2024,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x5_SRGB_BLOCK** = ``173``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 10×5. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x6_UNORM_BLOCK:
 
@@ -2034,7 +2040,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x6_SRGB_BLOCK** = ``175``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 10×6. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x8_UNORM_BLOCK:
 
@@ -2050,7 +2056,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x8_SRGB_BLOCK** = ``177``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 10×8. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x10_UNORM_BLOCK:
 
@@ -2066,7 +2072,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x10_SRGB_BLOCK** = ``179``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 10×10. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x10_UNORM_BLOCK:
 
@@ -2082,7 +2088,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x10_SRGB_BLOCK** = ``181``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in blocchi 12×10. I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 12×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x12_UNORM_BLOCK:
 
@@ -2098,7 +2104,7 @@ Formato dati in virgola mobile senza segno compresso in VRAM con valore normaliz
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x12_SRGB_BLOCK** = ``183``
 
-Formato dati in virgola mobile senza segno compresso in VRAM con valore normalizzato e codifica in sRGB non lineare, compresso in 12 blocchi (minore qualità). I valori sono nell'intervallo ``[0.0, 1.0]``. Utilizza la compressione ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 12 blocks (lowest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8B8G8R8_422_UNORM:
 
@@ -2796,6 +2802,14 @@ La texture può essere usata come allegato di colore in un framebuffer.
 
 La texture può essere usata come allegato di profondità/stencil in un framebuffer.
 
+.. _class_RenderingDevice_constant_TEXTURE_USAGE_DEPTH_RESOLVE_ATTACHMENT_BIT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_DEPTH_RESOLVE_ATTACHMENT_BIT** = ``4096``
+
+Texture can be used as a depth/stencil resolve attachment in a framebuffer.
+
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_STORAGE_BIT:
 
 .. rst-class:: classref-enumeration-constant
@@ -3313,11 +3327,35 @@ Uniforme di `storage buffer <https://vkguide.dev/docs/chapter-4/storage_buffers/
 
 Uniforme di allegato di input.
 
+.. _class_RenderingDevice_constant_UNIFORM_TYPE_UNIFORM_BUFFER_DYNAMIC:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_UNIFORM_BUFFER_DYNAMIC** = ``10``
+
+Same as UNIFORM_TYPE_UNIFORM_BUFFER but for buffers created with BUFFER_CREATION_DYNAMIC_PERSISTENT_BIT.
+
+\ **Note:** This flag is not available to GD users due to being too dangerous (i.e. wrong usage can result in visual glitches).
+
+It's exposed in case GD users receive a buffer created with such flag from Godot.
+
+.. _class_RenderingDevice_constant_UNIFORM_TYPE_STORAGE_BUFFER_DYNAMIC:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_STORAGE_BUFFER_DYNAMIC** = ``11``
+
+Same as UNIFORM_TYPE_STORAGE_BUFFER but for buffers created with BUFFER_CREATION_DYNAMIC_PERSISTENT_BIT.
+
+\ **Note:** This flag is not available to GD users due to being too dangerous (i.e. wrong usage can result in visual glitches).
+
+It's exposed in case GD users receive a buffer created with such flag from Godot.
+
 .. _class_RenderingDevice_constant_UNIFORM_TYPE_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_MAX** = ``10``
+:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_MAX** = ``12``
 
 Rappresenta la dimensione dell'enumerazione :ref:`UniformType<enum_RenderingDevice_UniformType>`.
 
@@ -5478,9 +5516,11 @@ Sets the push constant data to ``buffer`` for the specified ``compute_list``. Th
 
 :ref:`RID<class_RID>` **compute_pipeline_create**\ (\ shader\: :ref:`RID<class_RID>`, specialization_constants\: :ref:`Array<class_Array>`\[:ref:`RDPipelineSpecializationConstant<class_RDPipelineSpecializationConstant>`\] = []\ ) :ref:`🔗<class_RenderingDevice_method_compute_pipeline_create>`
 
-Crea una nuova pipeline di calcolo. È possibile accedervi con il RID restituito.
+Creates a new compute pipeline. It can be accessed with the RID that is returned.
 
-Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``shader`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -5671,6 +5711,18 @@ Associa l'array di vertici (``vertex_array``) alla lista di disegno (``draw_list
 
 ----
 
+.. _class_RenderingDevice_method_draw_list_bind_vertex_buffers_format:
+
+.. rst-class:: classref-method
+
+|void| **draw_list_bind_vertex_buffers_format**\ (\ draw_list\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, vertex_count\: :ref:`int<class_int>`, vertex_buffers\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], offsets\: :ref:`PackedInt64Array<class_PackedInt64Array>` = PackedInt64Array()\ ) :ref:`🔗<class_RenderingDevice_method_draw_list_bind_vertex_buffers_format>`
+
+Binds a set of ``vertex_buffers`` directly to the specified ``draw_list`` using ``vertex_format`` without creating a vertex array RID. Provide the number of vertices in ``vertex_count``; optional per-buffer byte ``offsets`` may also be supplied.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_RenderingDevice_method_draw_list_disable_scissor:
 
 .. rst-class:: classref-method
@@ -5789,9 +5841,11 @@ Questo metodo non fa nulla e restituisce sempre un :ref:`PackedInt64Array<class_
 
 :ref:`RID<class_RID>` **framebuffer_create**\ (\ textures\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], validate_with_format\: :ref:`int<class_int>` = -1, view_count\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_RenderingDevice_method_framebuffer_create>`
 
-Crea un nuovo framebuffer. È possibile accedervi con il RID restituito.
+Creates a new framebuffer. It can be accessed with the RID that is returned.
 
-Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when any of the ``textures`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -5817,9 +5871,11 @@ Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`f
 
 :ref:`RID<class_RID>` **framebuffer_create_multipass**\ (\ textures\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], passes\: :ref:`Array<class_Array>`\[:ref:`RDFramebufferPass<class_RDFramebufferPass>`\], validate_with_format\: :ref:`int<class_int>` = -1, view_count\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_RenderingDevice_method_framebuffer_create_multipass>`
 
-Crea un nuovo framebuffer multipassaggio. È possibile accedervi con il RID restituito.
+Creates a new multipass framebuffer. It can be accessed with the RID that is returned.
 
-Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when any of the ``textures`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6281,9 +6337,11 @@ Restituisce ``true`` se la funzionalità ``feature`` è supportata dalla GPU.
 
 :ref:`RID<class_RID>` **index_array_create**\ (\ index_buffer\: :ref:`RID<class_RID>`, index_offset\: :ref:`int<class_int>`, index_count\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_index_array_create>`
 
-Crea un nuovo array di indici. È possibile accedervi con il RID restituito.
+Creates a new index array. It can be accessed with the RID that is returned.
 
-Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``index_buffer`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6323,9 +6381,11 @@ Restituisce il valore del limite ``limit``. Questo limite varia a seconda dell'h
 
 :ref:`RID<class_RID>` **render_pipeline_create**\ (\ shader\: :ref:`RID<class_RID>`, framebuffer_format\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, primitive\: :ref:`RenderPrimitive<enum_RenderingDevice_RenderPrimitive>`, rasterization_state\: :ref:`RDPipelineRasterizationState<class_RDPipelineRasterizationState>`, multisample_state\: :ref:`RDPipelineMultisampleState<class_RDPipelineMultisampleState>`, stencil_state\: :ref:`RDPipelineDepthStencilState<class_RDPipelineDepthStencilState>`, color_blend_state\: :ref:`RDPipelineColorBlendState<class_RDPipelineColorBlendState>`, dynamic_state_flags\: |bitfield|\[:ref:`PipelineDynamicStateFlags<enum_RenderingDevice_PipelineDynamicStateFlags>`\] = 0, for_render_pass\: :ref:`int<class_int>` = 0, specialization_constants\: :ref:`Array<class_Array>`\[:ref:`RDPipelineSpecializationConstant<class_RDPipelineSpecializationConstant>`\] = []\ ) :ref:`🔗<class_RenderingDevice_method_render_pipeline_create>`
 
-Crea una nuova pipeline di rendering. È possibile accedervi con il RID restituito.
+Creates a new render pipeline. It can be accessed with the RID that is returned.
 
-Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``shader`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6637,7 +6697,9 @@ Restituisce un RID per un'immagine ``image`` esistente (``VkImage``) con il tipo
 
 :ref:`RID<class_RID>` **texture_create_shared**\ (\ view\: :ref:`RDTextureView<class_RDTextureView>`, with_texture\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingDevice_method_texture_create_shared>`
 
-Crea una texture condivisa utilizzando la vista ``view`` e le informazioni sulla texture da ``with_texture``.
+Creates a shared texture using the specified ``view`` and the texture information from ``with_texture``.
+
+This will be freed automatically when the ``with_texture`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6649,11 +6711,13 @@ Crea una texture condivisa utilizzando la vista ``view`` e le informazioni sulla
 
 :ref:`RID<class_RID>` **texture_create_shared_from_slice**\ (\ view\: :ref:`RDTextureView<class_RDTextureView>`, with_texture\: :ref:`RID<class_RID>`, layer\: :ref:`int<class_int>`, mipmap\: :ref:`int<class_int>`, mipmaps\: :ref:`int<class_int>` = 1, slice_type\: :ref:`TextureSliceType<enum_RenderingDevice_TextureSliceType>` = 0\ ) :ref:`🔗<class_RenderingDevice_method_texture_create_shared_from_slice>`
 
-Crea una texture condivisa utilizzando la vista ``view`` e le informazioni sulla texture da ``with_texture`` con il livello ``layer`` e la mipmap ``mipmap``. È possibile controllare il numero di mipmap incluse dalla texture originale tramite il parametro ``mipmaps``. Rilevante solo per texture con più livelli, come texture 3D, array di texture e cubemap. Per texture con un singolo livello, usa :ref:`texture_create_shared()<class_RenderingDevice_method_texture_create_shared>`.
+Creates a shared texture using the specified ``view`` and the texture information from ``with_texture``'s ``layer`` and ``mipmap``. The number of included mipmaps from the original texture can be controlled using the ``mipmaps`` parameter. Only relevant for textures with multiple layers, such as 3D textures, texture arrays and cubemaps. For single-layer textures, use :ref:`texture_create_shared()<class_RenderingDevice_method_texture_create_shared>`.
 
-Per texture 2D (che hanno un solo livello), ``layer`` deve essere ``0``.
+For 2D textures (which only have one layer), ``layer`` must be ``0``.
 
-\ **Nota:** Il layer slicing è supportato solo per array di texture 2D, non per texture 3D o cubemap.
+\ **Note:** Layer slicing is only supported for 2D texture arrays, not 3D textures or cubemaps.
+
+This will be freed automatically when the ``with_texture`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6858,9 +6922,11 @@ Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`f
 
 :ref:`RID<class_RID>` **uniform_set_create**\ (\ uniforms\: :ref:`Array<class_Array>`\[:ref:`RDUniform<class_RDUniform>`\], shader\: :ref:`RID<class_RID>`, shader_set\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_uniform_set_create>`
 
-Crea un nuovo set di uniformi. È possibile accedervi con il RID restituito.
+Creates a new uniform set. It can be accessed with the RID that is returned.
 
-Una volta finito con il RID, si consiglia di liberarlo tramite il metodo :ref:`free_rid()<class_RenderingDevice_method_free_rid>` del RenderingServer.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``shader`` or any of the RIDs in the ``uniforms`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6884,7 +6950,11 @@ Verifica se ``uniform_set`` è valido, ovvero se qualcosa lo possiede.
 
 :ref:`RID<class_RID>` **vertex_array_create**\ (\ vertex_count\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, src_buffers\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], offsets\: :ref:`PackedInt64Array<class_PackedInt64Array>` = PackedInt64Array()\ ) :ref:`🔗<class_RenderingDevice_method_vertex_array_create>`
 
-Crea un array di vertici basato sui buffer specificati. Facoltativamente, ``offsets`` (in byte) può essere definito per ogni buffer.
+Creates a vertex array based on the specified buffers. Optionally, ``offsets`` (in bytes) may be defined for each buffer.
+
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when any of the ``src_buffers`` is freed.
 
 .. rst-class:: classref-item-separator
 

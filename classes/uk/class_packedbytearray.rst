@@ -51,7 +51,7 @@ PackedByteArray
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                              | :ref:`append_array<class_PackedByteArray_method_append_array>`\ (\ array\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                   |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                               | :ref:`bsearch<class_PackedByteArray_method_bsearch>`\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ )                                                            |
+   | :ref:`int<class_int>`                               | :ref:`bsearch<class_PackedByteArray_method_bsearch>`\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) |const|                                                    |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                              | :ref:`bswap16<class_PackedByteArray_method_bswap16>`\ (\ offset\: :ref:`int<class_int>` = 0, count\: :ref:`int<class_int>` = -1\ )                                                            |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -95,7 +95,7 @@ PackedByteArray
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>`       | :ref:`decompress_dynamic<class_PackedByteArray_method_decompress_dynamic>`\ (\ max_output_size\: :ref:`int<class_int>`, compression_mode\: :ref:`int<class_int>` = 0\ ) |const|               |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`PackedByteArray<class_PackedByteArray>`       | :ref:`duplicate<class_PackedByteArray_method_duplicate>`\ (\ )                                                                                                                                |
+   | :ref:`PackedByteArray<class_PackedByteArray>`       | :ref:`duplicate<class_PackedByteArray_method_duplicate>`\ (\ ) |const|                                                                                                                        |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                              | :ref:`encode_double<class_PackedByteArray_method_encode_double>`\ (\ byte_offset\: :ref:`int<class_int>`, value\: :ref:`float<class_float>`\ )                                                |
    +-----------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -278,7 +278,7 @@ Constructs a **PackedByteArray** як копія даної **PackedByteArray**.
 
 .. rst-class:: classref-method
 
-:ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) :ref:`🔗<class_PackedByteArray_method_bsearch>`
+:ref:`int<class_int>` **bsearch**\ (\ value\: :ref:`int<class_int>`, before\: :ref:`bool<class_bool>` = true\ ) |const| :ref:`🔗<class_PackedByteArray_method_bsearch>`
 
 Знаходить індекс існуючого значення (або індекс вставки, який підтримує порядок сортування, якщо значення ще не присутнє в масиві) за допомогою бінарного пошуку. За бажанням можна передати специфікатор ``before``. Якщо ``false``, індекс, що повертається, йде після всіх існуючих записів значення в масиві.
 
@@ -552,7 +552,7 @@ GZIP має максимальний коефіцієнт стиснення 103
 
 .. rst-class:: classref-method
 
-:ref:`PackedByteArray<class_PackedByteArray>` **duplicate**\ (\ ) :ref:`🔗<class_PackedByteArray_method_duplicate>`
+:ref:`PackedByteArray<class_PackedByteArray>` **duplicate**\ (\ ) |const| :ref:`🔗<class_PackedByteArray_method_duplicate>`
 
 Створює копію масиву і повертає його.
 
@@ -746,9 +746,9 @@ GZIP має максимальний коефіцієнт стиснення 103
 
 :ref:`int<class_int>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_PackedByteArray_method_get>`
 
-Повертає байт за заданим ``index`` у масиві. Якщо ``index`` виходить за межі або є від'ємним, цей метод завершується невдачею та повертає ``0``.
+Returns the byte at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``0``.
 
-Цей метод схожий (але не ідентичний) на оператор ``[]``. Найголовніше, що коли цей метод завершується невдачею, він не призупиняє виконання проекту, якщо його запускати з редактора.
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 

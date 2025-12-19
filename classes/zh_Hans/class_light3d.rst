@@ -491,7 +491,7 @@ enum **BakeMode**: :ref:`🔗<enum_Light3D_BakeMode>`
 - |void| **set_color**\ (\ value\: :ref:`Color<class_Color>`\ )
 - :ref:`Color<class_Color>` **get_color**\ (\ )
 
-光的颜色，使用非线性 sRGB 色彩空间。\ *过亮*\ 的颜色可用于实现与增加光的 :ref:`light_energy<class_Light3D_property_light_energy>` 相等价的结果。
+The light's color in nonlinear sRGB encoding. An *overbright* color can be used to achieve a result equivalent to increasing the light's :ref:`light_energy<class_Light3D_property_light_energy>`.
 
 .. rst-class:: classref-item-separator
 

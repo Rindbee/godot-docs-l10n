@@ -95,6 +95,8 @@ Questo metodo viene eseguito dall'Editor quando si utilizza **File > Esegui**.
 
 |void| **add_root_node**\ (\ node\: :ref:`Node<class_Node>`\ ) :ref:`🔗<class_EditorScript_method_add_root_node>`
 
+**Deprecato:** Use :ref:`EditorInterface.add_root_node()<class_EditorInterface_method_add_root_node>` instead.
+
 Rende ``node`` la radice della scena attualmente aperta. Funziona solo se la scena è vuota. Se ``node`` è un'istanza di scena, verrà creata una scena ereditaria.
 
 .. rst-class:: classref-item-separator
@@ -120,6 +122,8 @@ Restituisce l'istanza del singleton :ref:`EditorInterface<class_EditorInterface>
 .. rst-class:: classref-method
 
 :ref:`Node<class_Node>` **get_scene**\ (\ ) |const| :ref:`🔗<class_EditorScript_method_get_scene>`
+
+**Deprecato:** Use :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>` instead.
 
 Restituisce la radice :ref:`Node<class_Node>` della scena modificata (attuale). Equivalente a :ref:`EditorInterface.get_edited_scene_root()<class_EditorInterface_method_get_edited_scene_root>`.
 

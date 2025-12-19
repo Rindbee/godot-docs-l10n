@@ -14,9 +14,9 @@ Un nodo che fornisce una forma poligonale a un :ref:`CollisionObject2D<class_Col
 Descrizione
 ----------------------
 
-Un nodo che fornisce una forma poligonale a un :ref:`CollisionObject2D<class_CollisionObject2D>` genitore e consente di modificarla. Il poligono può essere concavo o convesso. Ciò può dare una forma di rilevamento a un :ref:`Area2D<class_Area2D>`, trasformare un :ref:`PhysicsBody2D<class_PhysicsBody2D>` in un oggetto solido o dare una forma cava a uno :ref:`StaticBody2D<class_StaticBody2D>`.
+A node that provides a polygon shape to a :ref:`CollisionObject2D<class_CollisionObject2D>` parent and allows it to be edited. The polygon can be concave or convex. This can give a detection shape to an :ref:`Area2D<class_Area2D>`, turn a :ref:`PhysicsBody2D<class_PhysicsBody2D>` into a solid object, or give a hollow shape to a :ref:`StaticBody2D<class_StaticBody2D>`.
 
-\ **Avviso:** Un :ref:`CollisionShape2D<class_CollisionShape2D>` ridimensionato in modo non uniforme probabilmente non si comporterà come previsto. Assicurati di mantenere la sua scala uguale su tutti gli assi e regola invece la sua forma.
+\ **Warning:** A non-uniformly scaled **CollisionPolygon2D** will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its polygon instead.
 
 .. rst-class:: classref-reftable-group
 

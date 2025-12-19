@@ -325,7 +325,7 @@ La sesión está a punto de perderse. :ref:`session_loss_pending<class_OpenXRInt
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_EXITING** = ``8``
 
-La instancia de OpenXR está a punto de ser destruida y estamos saliendo. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` se emite cuando cambiamos a este estado.
+The OpenXR instance is about to be destroyed and we're exiting. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` is emitted when we change to this state.
 
 .. rst-class:: classref-item-separator
 
@@ -876,9 +876,9 @@ La frecuencia de actualización de la pantalla para el HMD actual. Solo funciona
 - |void| **set_foveation_dynamic**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_foveation_dynamic**\ (\ )
 
-Activa el ajuste dinámico de foveación, la interfaz debe inicializarse antes de que esto sea accesible. Si está habilitada, la foveación se ajustará automáticamente entre baja y :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
+If ``true``, enables dynamic foveation adjustment. The interface must be initialized before this is accessible. If enabled, foveation will automatically be adjusted between low and :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
 
-\ **Nota:** Solo funciona en el renderizador de compatibilidad.
+\ **Note:** Only works on the Compatibility renderer.
 
 .. rst-class:: classref-item-separator
 
@@ -895,9 +895,9 @@ Activa el ajuste dinámico de foveación, la interfaz debe inicializarse antes d
 - |void| **set_foveation_level**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_foveation_level**\ (\ )
 
-Establece el nivel de foveación de 0 (desactivado) a 3 (alto), la interfaz debe inicializarse antes de que esto sea accesible.
+The foveation level, from ``0`` (off) to ``3`` (high). The interface must be initialized before this is accessible.
 
-\ **Nota:** Solo funciona en el renderizador de compatibilidad.
+\ **Note:** Only works on the Compatibility renderer.
 
 .. rst-class:: classref-item-separator
 
@@ -981,7 +981,7 @@ Devuelve una lista de conjuntos de acciones registrados con Godot (cargados desd
 
 :ref:`Array<class_Array>` **get_available_display_refresh_rates**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_get_available_display_refresh_rates>`
 
-Devuelve las frecuencias de actualización de pantalla compatibles con el HMD actual. Solo se devuelve si esta función es compatible con el tiempo de ejecución de OpenXR y después de que se haya inicializado la interfaz.
+Returns a list of display refresh rates supported by the current HMD. Only returned if this feature is supported by the OpenXR runtime and after the interface has been initialized.
 
 .. rst-class:: classref-item-separator
 
@@ -1141,9 +1141,9 @@ Devuelve las capacidades de la extensión de interacción de la mirada ocular.
 
 :ref:`bool<class_bool>` **is_foveation_supported**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_is_foveation_supported>`
 
-Devuelve ``true`` si la extensión de foveación de OpenXR es compatible, la interfaz debe inicializarse antes de que esto devuelva un valor válido.
+Returns ``true`` if OpenXR's foveation extension is supported. The interface must be initialized before this returns a valid value.
 
-\ **Nota:** Esta característica solo está disponible en el renderizador de compatibilidad y actualmente solo está disponible en algunos visores independientes. Para Vulkan, establece :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` a ``VRS_XR`` en el escritorio.
+\ **Note:** When using the Vulkan rendering driver, :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` must be set to :ref:`Viewport.VRS_XR<class_Viewport_constant_VRS_XR>` to support foveation.
 
 .. rst-class:: classref-item-separator
 

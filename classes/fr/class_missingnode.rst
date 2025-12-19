@@ -33,6 +33,8 @@ Propriétés
    +-----------------------------+------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`     | :ref:`recording_properties<class_MissingNode_property_recording_properties>` |
    +-----------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`     | :ref:`recording_signals<class_MissingNode_property_recording_signals>`       |
+   +-----------------------------+------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -89,6 +91,23 @@ Renvoie le chemin de la scène dans laquelle ce nœud était originellement une 
 - :ref:`bool<class_bool>` **is_recording_properties**\ (\ )
 
 Si ``true``, permet de définir de nouvelles propriétés avec celles existantes. Si ``false``, seules les valeurs des propriétés existantes peuvent être définies, et de nouvelles propriétés ne peuvent pas être ajoutées.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_MissingNode_property_recording_signals:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **recording_signals** :ref:`🔗<class_MissingNode_property_recording_signals>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_recording_signals**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_recording_signals**\ (\ )
+
+If ``true``, allows new signals to be connected to along with existing ones. If ``false``, only existing signals can be connected to, and new signals cannot be added.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

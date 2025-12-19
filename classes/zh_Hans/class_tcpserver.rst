@@ -5,7 +5,7 @@
 TCPServer
 =========
 
-**继承：** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
+**继承：** :ref:`SocketServer<class_SocketServer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
 TCP 服务器。
 
@@ -29,13 +29,7 @@ TCP 服务器。监听端口上的连接，并在获得传入连接时返回 :re
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                     | :ref:`get_local_port<class_TCPServer_method_get_local_port>`\ (\ ) |const|                                                         |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                   | :ref:`is_connection_available<class_TCPServer_method_is_connection_available>`\ (\ ) |const|                                       |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                   | :ref:`is_listening<class_TCPServer_method_is_listening>`\ (\ ) |const|                                                             |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`     | :ref:`listen<class_TCPServer_method_listen>`\ (\ port\: :ref:`int<class_int>`, bind_address\: :ref:`String<class_String>` = "*"\ ) |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                    | :ref:`stop<class_TCPServer_method_stop>`\ (\ )                                                                                     |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`StreamPeerTCP<class_StreamPeerTCP>` | :ref:`take_connection<class_TCPServer_method_take_connection>`\ (\ )                                                               |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -61,30 +55,6 @@ TCP 服务器。监听端口上的连接，并在获得传入连接时返回 :re
 
 ----
 
-.. _class_TCPServer_method_is_connection_available:
-
-.. rst-class:: classref-method
-
-:ref:`bool<class_bool>` **is_connection_available**\ (\ ) |const| :ref:`🔗<class_TCPServer_method_is_connection_available>`
-
-如果有连接可供获取，则返回 ``true``\ 。
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_TCPServer_method_is_listening:
-
-.. rst-class:: classref-method
-
-:ref:`bool<class_bool>` **is_listening**\ (\ ) |const| :ref:`🔗<class_TCPServer_method_is_listening>`
-
-如果服务器当前正在侦听连接，则返回 ``true``\ 。
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_TCPServer_method_listen:
 
 .. rst-class:: classref-method
@@ -98,18 +68,6 @@ TCP 服务器。监听端口上的连接，并在获得传入连接时返回 :re
 如果 ``bind_address`` 被设置为 ``"0.0.0.0"``\ （用于 IPv4）或 ``"::"``\ （用于 IPv6），该服务器将监听所有符合该 IP 类型的可用地址。
 
 如果 ``bind_address`` 被设置为任何有效的地址（如 ``"192.168.1.101"``\ 、\ ``"::1"`` 等），该服务器将只在具有该地址的接口上监听（如果不存在具有该地址的接口则失败）。
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_TCPServer_method_stop:
-
-.. rst-class:: classref-method
-
-|void| **stop**\ (\ ) :ref:`🔗<class_TCPServer_method_stop>`
-
-停止监听。
 
 .. rst-class:: classref-item-separator
 

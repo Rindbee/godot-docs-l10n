@@ -16,7 +16,9 @@ AcceptDialog
 說明
 ----
 
-**AcceptDialog** 的預設用途是只允許被接受或關閉，兩者結果相同。不過，\ :ref:`confirmed<class_AcceptDialog_signal_confirmed>` 與 :ref:`canceled<class_AcceptDialog_signal_canceled>` 訊號可讓這兩個行為產生不同效果，\ :ref:`add_button()<class_AcceptDialog_method_add_button>` 方法則可新增自訂按鈕與行為。
+The default use of **AcceptDialog** is to allow it to only be accepted or closed, with the same result. However, the :ref:`confirmed<class_AcceptDialog_signal_confirmed>` and :ref:`canceled<class_AcceptDialog_signal_canceled>` signals allow to make the two actions different, and the :ref:`add_button()<class_AcceptDialog_method_add_button>` method allows to add custom buttons and actions.
+
+\ **Note:** **AcceptDialog** is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -172,7 +174,7 @@ Emitted when a custom button with an action is pressed. See :ref:`add_button()<c
 - |void| **set_close_on_escape**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_close_on_escape**\ (\ )
 
-若為 ``true``\ ，當觸發 ``ui_cancel`` 動作（預設綁定為 :ref:`@GlobalScope.KEY_ESCAPE<class_@GlobalScope_constant_KEY_ESCAPE>`\ ）時，對話框將被隱藏。
+If ``true``, the dialog will be hidden when the ``ui_close_dialog`` action is pressed (by default, this action is bound to :kbd:`Escape`, or :kbd:`Cmd + W` on macOS).
 
 .. rst-class:: classref-item-separator
 

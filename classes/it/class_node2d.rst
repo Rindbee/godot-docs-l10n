@@ -339,9 +339,9 @@ Moltiplica la scala attuale per il vettore ``ratio``.
 
 :ref:`float<class_float>` **get_angle_to**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Node2D_method_get_angle_to>`
 
-Restituisce l'angolo tra il nodo e il punto ``point`` in radianti.
+Returns the angle between the node and the ``point`` in radians. See also :ref:`look_at()<class_Node2D_method_look_at>`.
 
-\ `Illustrazione dell'angolo restituito. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -377,9 +377,9 @@ Aggiunge il vettore ``offset`` alla posizione globale del nodo.
 
 |void| **look_at**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_look_at>`
 
-Ruota il nodo in modo che il suo asse +X locale punti verso il punto ``point``, che dovrebbe utilizzare coordinate globali.
+Rotates the node so that its local +X axis points towards the ``point``, which is expected to use global coordinates. This method is a combination of both :ref:`rotate()<class_Node2D_method_rotate>` and :ref:`get_angle_to()<class_Node2D_method_get_angle_to>`.
 
-\ ``point`` non dovrebbe essere uguale alla posizione del nodo, altrimenti il nodo guarda sempre a destra.
+\ ``point`` should not be the same as the node's position, otherwise the node always looks to the right.
 
 .. rst-class:: classref-item-separator
 
@@ -415,7 +415,7 @@ Applies a local translation on the node's Y axis with the amount specified in ``
 
 |void| **rotate**\ (\ radians\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Node2D_method_rotate>`
 
-Applica una rotazione al nodo, in radianti, a partire dalla sua rotazione attuale.
+Applies a rotation to the node, in radians, starting from its current rotation. This is equivalent to ``rotation += radians``.
 
 .. rst-class:: classref-item-separator
 
@@ -451,7 +451,7 @@ Trasforma la posizione globale fornita in una posizione nello spazio delle coord
 
 |void| **translate**\ (\ offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_translate>`
 
-Trasla il nodo in base a ``offset`` specificato in coordinate locali.
+Translates the node by the given ``offset`` in local coordinates. This is equivalent to ``position += offset``.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -789,7 +789,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-控制文本的水平对齐方式。支持左对齐、居中对齐、右对齐、填充。
+控制文本的水平对齐方式。支持左对齐、居中对齐、右对齐、填充（即两端对齐）。
 
 .. rst-class:: classref-item-separator
 
@@ -823,7 +823,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-语言代码，用于断行和文本塑形算法，如果留空则使用当前区域设置。
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -2077,7 +2077,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 
 |void| **push_strikethrough**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_strikethrough>`
 
-添加一个 ``[s]`` 标签到标签栈。如果 ``color`` 的 Alpha 值为零，则会使用当前字体的颜色并将其 Alpha 值与 :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` 相乘。
+Adds a ``[s]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 
@@ -2101,7 +2101,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 
 |void| **push_underline**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_underline>`
 
-添加一个 ``[u]`` 标签到标签栈。如果 ``color`` 的 Alpha 值为零，则会使用当前字体的颜色并将其 Alpha 值与 :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>` 相乘。
+Adds a ``[u]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 

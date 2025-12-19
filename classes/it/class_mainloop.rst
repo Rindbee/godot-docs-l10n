@@ -164,9 +164,9 @@ Implementato su piattaforme desktop se il gestore degli arresti anomali è abili
 
 **NOTIFICATION_OS_IME_UPDATE** = ``2013`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>`
 
-Notifica ricevuta dal sistema operativo quando si verifica un aggiornamento dell'Input Method Engine (ad esempio, modifica della posizione del cursore IME o della stringa di composizione).
+Notification received from the OS when an update of the Input Method Engine occurs (e.g. change of IME cursor position or composition string).
 
-Specifico per la piattaforma macOS.
+Implemented on desktop and web platforms.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_RESUMED:
 

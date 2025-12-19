@@ -470,7 +470,9 @@ Windows 导出器可以自定义 Windows 构建的处理方法。在编辑器的
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformWindows_property_shader_baker/enabled>`
 
-如果为 ``true``\ ，则会将着色器进行编译并嵌入至应用程序中。该选项仅在使用 Forward+ 和 Mobile 渲染器时支持。
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ and Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

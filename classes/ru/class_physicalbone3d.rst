@@ -21,6 +21,13 @@ PhysicalBone3D
 
 \ **Примечание:** Для обнаружения физических костей с помощью raycasts свойство :ref:`SkeletonModifier3D.active<class_SkeletonModifier3D_property_active>` родительского :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` должно быть ``true``, а кость :ref:`Skeleton3D<class_Skeleton3D>` должна быть правильно назначена **PhysicalBone3D**; это означает, что :ref:`get_bone_id()<class_PhysicalBone3D_method_get_bone_id>` должен возвращать действительный идентификатор (``>= 0``).
 
+.. rst-class:: classref-introduction-group
+
+Обучающие материалы
+--------------------------------------
+
+- :doc:`Ragdoll System <../tutorials/physics/ragdoll_system>`
+
 .. rst-class:: classref-reftable-group
 
 Свойства

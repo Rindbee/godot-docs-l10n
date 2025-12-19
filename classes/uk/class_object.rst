@@ -5,7 +5,7 @@
 Object
 ======
 
-**Успадковано від:** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
+**Успадковано від:** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`GodotInstance<class_GodotInstance>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer2DManager<class_NavigationServer2DManager>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`NavigationServer3DManager<class_NavigationServer3DManager>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
 
 Базовий клас для всіх інших класів двигуна.
 
@@ -251,7 +251,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_PERSIST** = ``2``
 
-Постійні з'єднання зберігаються, коли об'єкт послідовно (наприклад, при використанні :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). У редакторі з'єднання, створених через Node dock завжди зберігаються.
+Persisting connections are stored when the object is serialized (such as when using :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). In the editor, connections created through the Signals dock are always persisting.
+
+\ **Note:** Connections to lambda functions (that is, when the function code is embedded in the :ref:`connect()<class_Object_method_connect>` call) cannot be made persistent.
 
 .. _class_Object_constant_CONNECT_ONE_SHOT:
 
@@ -300,7 +302,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 **NOTIFICATION_PREDELETE** = ``1`` :ref:`🔗<class_Object_constant_NOTIFICATION_PREDELETE>`
 
-Сповіщення отримано, коли об’єкт збирається видалити. Може використовуватися як деструктори в об'єктно-орієнтованих мовах програмування.
+Notification received when the object is about to be deleted. Can be used like destructors in object-oriented programming languages.
+
+This notification is sent in reversed order.
 
 .. _class_Object_constant_NOTIFICATION_EXTENSION_RELOADED:
 
@@ -325,11 +329,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **_get**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__get>`
 
-Перевизначте цей метод, щоб налаштувати поведінку методу :ref:`get()<class_Object_method_get>`. Повинен повертати значення заданого параметра ``property`` або ``null``, якщо параметр ``property`` має оброблятися звичайним способом.
+Override this method to customize the behavior of :ref:`get()<class_Object_method_get>`. Should return the given ``property``'s value, or ``null`` if the ``property`` should be handled normally.
 
-У поєднанні з методом :ref:`_set()<class_Object_private_method__set>` та методом :ref:`_get_property_list()<class_Object_private_method__get_property_list>` цей метод дозволяє визначати власні властивості, що особливо корисно для плагінів редактора.
+Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **Примітка:** Цей метод не викликається під час отримання вбудованих властивостей об'єкта, включаючи властивості, визначені за допомогою :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Note:** This method is not called when getting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -372,6 +376,8 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -382,123 +388,125 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_property_list**\ (\ ) |virtual| :ref:`🔗<class_Object_private_method__get_property_list>`
 
-Перевизначте цей метод, щоб надати спеціальний список додаткових властивостей для обробки механізмом. 
+Override this method to provide a custom list of additional properties to handle by the engine.
 
-Має повертати список властивостей у вигляді :ref:`Array<class_Array>` словників. Результат додається до масиву :ref:`get_property_list()<class_Object_method_get_property_list>` і має бути відформатований таким же чином. Кожен :ref:`Dictionary<class_Dictionary>` має містити принаймні записи ``ім’я`` і ``тип``. 
+Should return a property list, as an :ref:`Array<class_Array>` of dictionaries. The result is added to the array of :ref:`get_property_list()<class_Object_method_get_property_list>`, and should be formatted in the same way. Each :ref:`Dictionary<class_Dictionary>` must at least contain the ``name`` and ``type`` entries.
 
-Ви можете використовувати :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` і :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>`, щоб налаштувати значення за замовчуванням властивостей, доданих цим методом. 
+You can use :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` and :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to customize the default values of the properties added by this method.
 
-У наведеному нижче прикладі показано список чисел, показаних у вигляді слів від ``ZERO`` до ``FIVE``, де ``number_count`` контролює розмір списку: 
+The example below displays a list of numbers shown as words going from ``ZERO`` to ``FIVE``, with ``number_count`` controlling the size of the list:
 
 
-.. tabs:: 
+.. tabs::
 
  .. code-tab:: gdscript
- 
-    @tool 
-    extends Node 
 
-    @export var number_count = 3: 
-        set(nc): 
-            number_count = nc 
-            numbers.resize(number_count) 
-            notify_property_list_changed() 
+    @tool
+    extends Node
 
-    vae number = PackedInt32Array([0, 0, 0]) 
+    @export var number_count = 3:
+        set(nc):
+            number_count = nc
+            numbers.resize(number_count)
+            notify_property_list_changed()
 
-    func _get_property_list(): 
-        var properties = [] 
+    var numbers = PackedInt32Array([0, 0, 0])
 
-        for i in range (number_count): 
-            properties.append({ 
-                "name": "number%d" % i, 
-                "type": TYPE_INT, 
-                "hint": PROPERTY_HINT_ENUM, 
-                "hint_string": "НУЛЬ, ОДИН, ДВА, ТРИ, ЧОТИРИ, П'ЯТЬ", 
-            }) 
+    func _get_property_list():
+        var properties = []
 
-        return properties 
+        for i in range(number_count):
+            properties.append({
+                "name": "number_%d" % i,
+                "type": TYPE_INT,
+                "hint": PROPERTY_HINT_ENUM,
+                "hint_string": "ZERO,ONE,TWO,THREE,FOUR,FIVE",
+            })
 
-    func _get(properties): 
-        if property.begins_with("number_"): 
-            var index = property.get_slice("_", 1).to_int() 
-            return number [index] 
+        return properties
 
-    func _set(properties, valve): 
-        if property.begins_with("number_"): 
-            var index = property.get_slice("_", 1).to_int() 
-            number [index] = valve 
-            return true 
-        return false  
+    func _get(property):
+        if property.begins_with("number_"):
+            var index = property.get_slice("_", 1).to_int()
+            return numbers[index]
+
+    func _set(property, value):
+        if property.begins_with("number_"):
+            var index = property.get_slice("_", 1).to_int()
+            numbers[index] = value
+            return true
+        return false
 
  .. code-tab:: csharp
- 
-    [tool] 
-    public partial class MyNode : Node 
+
+    [Tool]
+    public partial class MyNode : Node
     {
-        private int _numberCount; 
+        private int _numberCount;
 
-        [Export] 
-        public int NumberCount 
-        { 
-            get => _numberCount; 
-            set 
-            { 
-                _numberCount = valve; 
-                _numbers.Resize(_numberCount); 
-                NotifyPropertyListChanged(); 
-            } 
-        } 
+        [Export]
+        public int NumberCount
+        {
+            get => _numberCount;
+            set
+            {
+                _numberCount = value;
+                _numbers.Resize(_numberCount);
+                NotifyPropertyListChanged();
+            }
+        }
 
-        private Godot.Collections.Array<int> _numbers = []; 
+        private Godot.Collections.Array<int> _numbers = [];
 
-        public override Godot.Collections.Array<Godot.Collections.Dictionary> _GetPropertyList() 
-        { 
-            Godot.Collections.Array<Godot.Collections.Dictionary> properties = []; 
+        public override Godot.Collections.Array<Godot.Collections.Dictionary> _GetPropertyList()
+        {
+            Godot.Collections.Array<Godot.Collections.Dictionary> properties = [];
 
-            for (int i = 0; i < _numberCount; i++) 
-            { 
-                properties.Add(new Godot.Collections.Dictionary() 
-                { 
-                    { "name", $"number {i}" }, 
-                    { "type", (int)Variant.Type.Int }, 
-                    { "hint", (int)PropertyHint.Enum }, 
-                    { "hint_string", "Нуль, один, два, три, чотири, п'ять" }, 
-                }); 
-            } 
+            for (int i = 0; i < _numberCount; i++)
+            {
+                properties.Add(new Godot.Collections.Dictionary()
+                {
+                    { "name", $"number_{i}" },
+                    { "type", (int)Variant.Type.Int },
+                    { "hint", (int)PropertyHint.Enum },
+                    { "hint_string", "Zero,One,Two,Three,Four,Five" },
+                });
+            }
 
-            return properties; 
-        } 
+            return properties;
+        }
 
-        public override Variant _Get(властивість StringName) 
-        { 
-            string propertyName = property.ToString(); 
-            if (propertyName.StartsWith("number_")) 
-            { 
-                int index = int.Parse(propertyName.Substring("number_".Length)); 
-                return _numbers[index]; 
-            } 
-            return default; 
-        } 
+        public override Variant _Get(StringName property)
+        {
+            string propertyName = property.ToString();
+            if (propertyName.StartsWith("number_"))
+            {
+                int index = int.Parse(propertyName.Substring("number_".Length));
+                return _numbers[index];
+            }
+            return default;
+        }
 
-        public override bool _Set(property StringName, valve Variant) 
-        { 
-            string propertyName = property.ToString(); 
-            if (propertyName.StartsWith("number_")) 
-            { 
-                int index = int.Parse(propertyName.Substring("number_".Length)); 
-                _numbers[index] = value.As<int>(); 
-                return ture; 
-            } 
-            return false; 
-        } 
-    } 
+        public override bool _Set(StringName property, Variant value)
+        {
+            string propertyName = property.ToString();
+            if (propertyName.StartsWith("number_"))
+            {
+                int index = int.Parse(propertyName.Substring("number_".Length));
+                _numbers[index] = value.As<int>();
+                return true;
+            }
+            return false;
+        }
+    }
 
- 
 
-\ **Примітка.** Цей метод призначений для розширених цілей. Для більшості ширених випадків використання мови сценаріїв пропонують прості способи обробки властивостей. Див. :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>` тощо. Якщо ви хочете налаштувати експортовані властивості, використовуйте :ref:`_validate_property()<class_Object_private_method__validate_property>`. 
 
-\ **Примітка:** Якщо сценарієм об’єкта не є :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, цей метод не буде викликано в редакторі.
+\ **Note:** This method is intended for advanced purposes. For most common use cases, the scripting languages offer easier ways to handle properties. See :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>`, etc. If you want to customize exported properties, use :ref:`_validate_property()<class_Object_private_method__validate_property>`.
+
+\ **Note:** If the object's script is not :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, this method will not be called in the editor.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy.
 
 .. rst-class:: classref-item-separator
 
@@ -591,7 +599,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 |void| **_notification**\ (\ what\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_Object_private_method__notification>`
 
-Викликається, коли об'єкт отримує сповіщення, яке можна ідентифікувати в ``what`` шляхом порівняння його з константою. Див. також :ref:`notification()<class_Object_method_notification>`.
+Called when the object receives a notification, which can be identified in ``what`` by comparing it with a constant. See also :ref:`notification()<class_Object_method_notification>`.
 
 
 .. tabs::
@@ -614,9 +622,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
-\ **Примітка:** Базовий об'єкт **Object** визначає кілька сповіщень (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` та :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Класи-успадкування, такі як :ref:`Node<class_Node>`, визначають набагато більше сповіщень, які також отримуються цим методом.
+\ **Note:** The base **Object** defines a few notifications (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Inheriting classes such as :ref:`Node<class_Node>` define a lot more notifications, which are also received by this method.
 
-\ **Примітка:** На відміну від інших віртуальних методів, цей метод викликається автоматично для кожного скрипта, який його перевизначає. Це означає, що базову реалізацію не слід викликати через ``super`` у GDScript або його еквівалентах іншими мовами.
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. Call order depends on the ``reversed`` argument of :ref:`notification()<class_Object_method_notification>` and varies between different notifications. Most notifications are sent in the forward order (i.e. Object class first, most derived class last).
 
 .. rst-class:: classref-item-separator
 
@@ -628,9 +636,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`bool<class_bool>` **_property_can_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_can_revert>`
 
-Надіславши цей метод, щоб налаштувати дана ``property`` зворотна поведінка. Поверніть ``true``, якщо ``property`` має користувацьке значення за замовчуванням і ревертується в Inspector dock. Використовуйте :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>`, щоб вказати значення за замовчуванням ``property``.
+Override this method to customize the given ``property``'s revert behavior. Should return ``true`` if the ``property`` has a custom default value and is revertible in the Inspector dock. Use :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to specify the ``property``'s default value.
 
-\ **Примітка:** Цей метод повинен постійно повертатися, незалежно від поточного значення ``property``.
+\ **Note:** This method must return consistently, regardless of the current value of the ``property``.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -642,9 +652,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **_property_get_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_get_revert>`
 
-Надіславши цей метод, щоб налаштувати дана ``property`` зворотна поведінка. Введіть номер мобільного, який Ви вказали при укладаннi договору з банком - для ідентифікації. Якщо значення за замовчуванням відрізняється від поточного значення ``property``, значок перевернутого зображення відображається в Inspector dock.
+Override this method to customize the given ``property``'s revert behavior. Should return the default value for the ``property``. If the default value differs from the ``property``'s current value, a revert icon is displayed in the Inspector dock.
 
-\ **Примітка:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` також повинен бути переданий для цього методу.
+\ **Note:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` must also be overridden for this method to be called.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
 
 .. rst-class:: classref-item-separator
 
@@ -656,11 +668,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`bool<class_bool>` **_set**\ (\ property\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Object_private_method__set>`
 
-Перевизначте цей метод, щоб налаштувати поведінку :ref:`set()<class_Object_method_set>`. Слід встановити властивість ``property`` на ``value`` та повернути ``true`` або ``false``, якщо властивість ``property`` має оброблятися звичайним чином. *Точний* спосіб встановлення властивості ``properly`` залежить від реалізації цього методу.
+Override this method to customize the behavior of :ref:`set()<class_Object_method_set>`. Should set the ``property`` to ``value`` and return ``true``, or ``false`` if the ``property`` should be handled normally. The *exact* way to set the ``property`` is up to this method's implementation.
 
-У поєднанні з :ref:`_get()<class_Object_private_method__get>` та :ref:`_get_property_list()<class_Object_private_method__get_property_list>` цей метод дозволяє визначати власні властивості, що особливо корисно для плагінів редактора.
+Combined with :ref:`_get()<class_Object_private_method__get>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **Примітка:** Цей метод не викликається під час встановлення вбудованих властивостей об'єкта, включаючи властивості, визначені за допомогою :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Note:** This method is not called when setting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -671,7 +683,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _set(property, value):
         if property == "fake_property":
-            # Зберігання значення у фальшивій властивості.
+            # Storing the value in the fake property.
             internal_data["fake_property"] = value
             return true
         return false
@@ -689,7 +701,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (property == "FakeProperty")
         {
-            // Зберігання значення у фальшивій властивості.
+            // Storing the value in the fake property.
             _internalData["FakeProperty"] = value;
             return true;
         }
@@ -710,6 +722,8 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     }
 
 
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -873,41 +887,43 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **call_deferred**\ (\ method\: :ref:`StringName<class_StringName>`, ...\ ) |vararg| :ref:`🔗<class_Object_method_call_deferred>`
 
-Викликає метод ``method`` для об’єкта під час простою. Завжди повертає ``null``, **не** результат методу. 
+Calls the ``method`` on the object during idle time. Always returns ``null``, **not** the method's result.
 
-Час простою відбувається в основному в кінці кадрів процесу та фізики. У ньому відкладені дзвінки виконуватимуться, доки їх не залишиться, що означає, що ви можете відкласти дзвінки з інших відкладених дзвінків, і вони все одно виконуватимуться в поточному циклі простою. Це означає, що ви не повинні викликати метод, відкладений від самого себе (або від викликаного ним методу), оскільки це спричиняє нескінченну рекурсію так само, як якщо б ви викликали метод безпосередньо. 
+Idle time happens mainly at the end of process and physics frames. In it, deferred calls will be run until there are none left, which means you can defer calls from other deferred calls and they'll still be run in the current idle time cycle. This means you should not call a method deferred from itself (or from a method called by it), as this causes infinite recursion the same way as if you had called the method directly.
 
-Цей метод підтримує змінну кількість аргументів, тому параметри можна передавати як список, розділений комами. 
+This method supports a variable number of arguments, so parameters can be passed as a comma separated list.
 
 
-.. tabs:: 
+.. tabs::
 
  .. code-tab:: gdscript
- 
-    var node = Node3D.new() 
-    node.call_deferred("rotate", Vector3(1.0, 0.0, 0.0), 1.571)  
+
+    var node = Node3D.new()
+    node.call_deferred("rotate", Vector3(1.0, 0.0, 0.0), 1.571)
 
  .. code-tab:: csharp
- 
-    var node = new Node3D(); 
-    node.CallDeferred(Node3D.MethodName.Rotate, new Vector3(1f, 0f, 0f), 1.571f);  
 
- 
+    var node = new Node3D();
+    node.CallDeferred(Node3D.MethodName.Rotate, new Vector3(1f, 0f, 0f), 1.571f);
 
-Дивіться також :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`. 
 
-\ **Примітка.** У C# ``method`` має бути в snake_case, коли йдеться про вбудовані методи Godot. Надавайте перевагу використанню назв, представлених у класі ``MethodName``, щоб уникнути виділення нового :ref:`StringName<class_StringName>` під час кожного виклику. 
 
-\ **Примітка.** Якщо ви хочете затримати виклик функції на кадр, зверніться до сигналів :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` і :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>`. 
+For methods that are deferred from the same thread, the order of execution at idle time is identical to the order in which ``call_deferred`` was called.
+
+See also :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`.
+
+\ **Note:** In C#, ``method`` must be in snake_case when referring to built-in Godot methods. Prefer using the names exposed in the ``MethodName`` class to avoid allocating a new :ref:`StringName<class_StringName>` on each call.
+
+\ **Note:** If you're looking to delay the function call by a frame, refer to the :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` and :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>` signals.
 
 ::
- 
-    var node = Node3D.new() 
-    # Створіть Callable і прив’яжіть аргументи до виклику rotate() вузла. 
-    var callable = node.rotate.bind(Vector3(1.0, 0.0, 0.0), 1.571) 
-    # З’єднайте виклик із сигналом process_frame, щоб він викликався в наступному кадрі процесу. 
-    # CONNECT_ONE_SHOT гарантує, що він викликається лише один раз замість кожного кадру. 
-    get_tree().process_frame.connect(може викликатися, CONNECT_ONE_SHOT) 
+
+    var node = Node3D.new()
+    # Make a Callable and bind the arguments to the node's rotate() call.
+    var callable = node.rotate.bind(Vector3(1.0, 0.0, 0.0), 1.571)
+    # Connect the callable to the process_frame signal, so it gets called in the next process frame.
+    # CONNECT_ONE_SHOT makes sure it only gets called once instead of every frame.
+    get_tree().process_frame.connect(callable, CONNECT_ONE_SHOT)
 
 .. rst-class:: classref-item-separator
 
@@ -972,15 +988,15 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect**\ (\ signal\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, flags\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Object_method_connect>`
 
-З'єднує ``signal`` за іменем з ``callable``. Також можна додати додаткові ``flags`` для налаштування поведінки з'єднання (див. константи :ref:`ConnectFlags<enum_Object_ConnectFlags>`).
+Connects a ``signal`` by name to a ``callable``. Optional ``flags`` can be also added to configure the connection's behavior (see :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants).
 
-Сигнал може бути підключений до того самого :ref:`Callable<class_Callable>` лише один раз. Якщо сигнал вже підключено, цей метод повертає :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` та генерує помилку, якщо сигнал не підключено з :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. Щоб запобігти цьому, спочатку використовуйте :ref:`is_connected()<class_Object_method_is_connected>` для перевірки наявності існуючих з'єднань.
+A signal can only be connected once to the same :ref:`Callable<class_Callable>`. If the signal is already connected, this method returns :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` and generates an error, unless the signal is connected with :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To prevent this, use :ref:`is_connected()<class_Object_method_is_connected>` first to check for existing connections.
 
-\ **Примітка:** Якщо об'єкт ``callable`` звільнено, з'єднання буде втрачено.
+\ **Note:** If the ``callable``'s object is freed, the connection will be lost.
 
-\ **Примітка:** У GDScript зазвичай рекомендується підключати сигнали за допомогою :ref:`Signal.connect()<class_Signal_method_connect>`.
+\ **Note:** In GDScript, it is generally recommended to connect signals with :ref:`Signal.connect()<class_Signal_method_connect>` instead.
 
-\ **Примітка:** Ця операція (та всі інші операції, пов'язані з сигналами) є потокобезпечною.
+\ **Note:** This method, and all other signal-related methods, are thread-safe.
 
 .. rst-class:: classref-item-separator
 
@@ -1285,9 +1301,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_signal_list**\ (\ ) |const| :ref:`🔗<class_Object_method_get_signal_list>`
 
-Повертає список існуючих сигналів, як :ref:`Array<class_Array>` словників.
+Returns the list of existing signals as an :ref:`Array<class_Array>` of dictionaries.
 
-\ **Примітка:** У зв'язку з виконанням, кожен :ref:`Dictionary<class_Dictionary>` дуже схожий на повернуті значення :ref:`get_method_list()<class_Object_method_get_method_list>`.
+\ **Note:** Due to the implementation, each :ref:`Dictionary<class_Dictionary>` is formatted very similarly to the returned values of :ref:`get_method_list()<class_Object_method_get_method_list>`.
 
 .. rst-class:: classref-item-separator
 

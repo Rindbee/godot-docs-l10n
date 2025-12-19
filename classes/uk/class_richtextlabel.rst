@@ -789,7 +789,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Керує горизонтальним вирівнюванням тексту. Підтримує вирівнювання по лівому краю, по центру, правому краю та заповнення або вирівнювання по ширині.
+Керує горизонтальним вирівнюванням тексту. Підтримує вирівнювання по лівому краю, по центру, по правому краю та заповнення (також відоме як вирівнювання по ширині).
 
 .. rst-class:: classref-item-separator
 
@@ -823,7 +823,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Код мови, який використовується для розриву рядків і алгоритмів формування тексту, якщо залишити пустим, замість нього використовується поточна мова.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -2077,7 +2077,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 
 |void| **push_strikethrough**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_strikethrough>`
 
-Додає тег ``[s]`` до стеку тегів. Якщо значення альфа-каналу ``color`` дорівнює нулю, використовується поточний колір шрифту з альфа-каналом, помноженим на :ref:`zastrikethrough_alpha<class_RichTextLabel_theme_item_zastrikethrough_alpha>`.
+Adds a ``[s]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 
@@ -2101,7 +2101,7 @@ flags **ImageUpdateMask**: :ref:`🔗<enum_RichTextLabel_ImageUpdateMask>`
 
 |void| **push_underline**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_underline>`
 
-Додає тег ``[u]`` до стеку тегів. Якщо значення альфа-коду ``color`` дорівнює нулю, використовується поточний колір шрифту з альфа-кодом, помноженим на :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>`.
+Adds a ``[u]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 

@@ -16,7 +16,9 @@ AcceptDialog
 Опис
 --------
 
-За замовчуванням **AcceptDialog** дозволяє лише приймати або закривати його з тим самим результатом. Однак сигнали ``сигнал підтверджено`` і ``сигнал скасовано`` дозволяють зробити дві дії різними, а метод :ref:`add_button()<class_AcceptDialog_method_add_button>` дозволяє додавати власні кнопки та дії.
+The default use of **AcceptDialog** is to allow it to only be accepted or closed, with the same result. However, the :ref:`confirmed<class_AcceptDialog_signal_confirmed>` and :ref:`canceled<class_AcceptDialog_signal_canceled>` signals allow to make the two actions different, and the :ref:`add_button()<class_AcceptDialog_method_add_button>` method allows to add custom buttons and actions.
+
+\ **Note:** **AcceptDialog** is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -172,7 +174,7 @@ AcceptDialog
 - |void| **set_close_on_escape**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_close_on_escape**\ (\ )
 
-Якщо значення ``true``, діалогове вікно буде приховано після натискання дії ``ui_cancel`` (за замовчуванням ця дія пов’язана з :ref:`@GlobalScope.KEY_ESCAPE<class_@GlobalScope_constant_KEY_ESCAPE>`).
+If ``true``, the dialog will be hidden when the ``ui_close_dialog`` action is pressed (by default, this action is bound to :kbd:`Escape`, or :kbd:`Cmd + W` on macOS).
 
 .. rst-class:: classref-item-separator
 

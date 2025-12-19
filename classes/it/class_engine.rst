@@ -124,19 +124,17 @@ Descrizioni delle proprietà
 - |void| **set_max_fps**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_max_fps**\ (\ )
 
-Il numero massimo di frame che possono essere renderizzati ogni secondo (FPS). Un valore di ``0`` significa che il frame rate non è limitato.
+The maximum number of frames that can be rendered every second (FPS). A value of ``0`` means the framerate is uncapped.
 
-Limitare gli FPS può essere utile per ridurre il consumo energetico della macchina host, il che riduce calore, emissioni di rumore e migliora la durata della batteria.
+Limiting the FPS can be useful to reduce the host machine's power consumption, which reduces heat, noise emissions, and improves battery life.
 
-Se :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` è **Enabled** o **Adaptive**, l'impostazione ha la precedenza e il numero massimo di FPS non può superare la frequenza di aggiornamento del monitor.
+If :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` is **Enabled** or **Adaptive**, the setting takes precedence and the max FPS number cannot exceed the monitor's refresh rate. See also :ref:`DisplayServer.screen_get_refresh_rate()<class_DisplayServer_method_screen_get_refresh_rate>`.
 
-Se :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` è **Enabled**, sui monitor con frequenza di aggiornamento variabile abilitata (G-Sync/FreeSync), utilizzare un limite FPS di qualche frame inferiore alla frequenza di aggiornamento del monitor `ridurrà il ritardo di input evitando il tearing <https://blurbusters.com/howto-low-lag-vsync-on/>`__.
+If :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` is **Enabled**, on monitors with variable refresh rate enabled (G-Sync/FreeSync), using an FPS limit a few frames lower than the monitor's refresh rate will `reduce input lag while avoiding tearing <https://blurbusters.com/howto-low-lag-vsync-on/>`__. At higher refresh rates, the difference between the FPS limit and the monitor refresh rate should be increased to ensure frames to account for timing inaccuracies. The optimal formula for the FPS limit value in this scenario is ``r - (r * r) / 3600.0``, where ``r`` is the monitor's refresh rate.
 
-Vedi anche :ref:`physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>` e :ref:`ProjectSettings.application/run/max_fps<class_ProjectSettings_property_application/run/max_fps>`.
+\ **Note:** The actual number of frames per second may still be below this value if the CPU or GPU cannot keep up with the project's logic and rendering.
 
-\ **Nota:** il numero effettivo di frame al secondo potrebbe essere comunque inferiore a questo valore se la CPU o la GPU non riescono a tenere il passo con la logica e il rendering del progetto.
-
-\ **Nota:** se :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` è **Disabled**, limitare l'FPS a un valore elevato che può essere raggiunto costantemente sul sistema può ridurre il ritardo di input rispetto a un frame rate senza limiti. Poiché questo funziona assicurando che il carico della GPU sia inferiore al 100%, questa riduzione della latenza è efficace solo in scenari dove la GPU è bloccata, non in scenari dove la CPU è bloccata.
+\ **Note:** If :ref:`ProjectSettings.display/window/vsync/vsync_mode<class_ProjectSettings_property_display/window/vsync/vsync_mode>` is **Disabled**, limiting the FPS to a high value that can be consistently reached on the system can reduce input lag compared to an uncapped framerate. Since this works by ensuring the GPU load is lower than 100%, this latency reduction is only effective in GPU-bottlenecked scenarios, not CPU-bottlenecked scenarios.
 
 .. rst-class:: classref-item-separator
 

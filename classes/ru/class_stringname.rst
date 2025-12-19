@@ -618,30 +618,32 @@ StringName
 
 :ref:`int<class_int>` **find**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_StringName_method_find>`
 
-Возвращает индекс **первого** вхождения ``what`` в этой строке или ``-1``, если их нет. Начало поиска можно указать с помощью ``from``, продолжая до конца строки.
+Returns the index of the **first** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the end of the string.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    print("Team".find("I")) # Выводит -1
+    print("Team".find("I")) # Prints -1
 
-    print("Potato".find("t"))    # Выводит 2
-    print("Potato".find("t", 3)) # Выводит 4
-    print("Potato".find("t", 5)) # Выводит -1
+    print("Potato".find("t"))    # Prints 2
+    print("Potato".find("t", 3)) # Prints 4
+    print("Potato".find("t", 5)) # Prints -1
 
  .. code-tab:: csharp
 
-    GD.Print("Team".Find("I")); // Выводит -1
+    GD.Print("Team".Find("I")); // Prints -1
 
-    GD.Print("Potato".Find("t"));    // Выводит 2
-    GD.Print("Potato".Find("t", 3)); // Выводит 4
-    GD.Print("Potato".Find("t", 5)); // Выводит -1
+    GD.Print("Potato".Find("t"));    // Prints 2
+    GD.Print("Potato".Find("t", 3)); // Prints 4
+    GD.Print("Potato".Find("t", 5)); // Prints -1
 
 
 
-\ **Примечание:** Если вы просто хотите узнать, содержит ли строка ``what``, используйте :ref:`contains()<class_StringName_method_contains>`. В GDScript вы также можете использовать оператор ``in``.
+\ **Note:** If you just want to know whether the string contains ``what``, use :ref:`contains()<class_StringName_method_contains>`. In GDScript, you may also use the ``in`` operator.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
 
 .. rst-class:: classref-item-separator
 
@@ -1415,7 +1417,7 @@ StringName
 
 :ref:`String<class_String>` **remove_chars**\ (\ chars\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_StringName_method_remove_chars>`
 
-Удаляет все вхождения символов в ``chars``. См. также :ref:`remove_char()<class_StringName_method_remove_char>`.
+Removes all occurrences of the characters in ``chars``. See also :ref:`remove_char()<class_StringName_method_remove_char>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1499,7 +1501,11 @@ StringName
 
 :ref:`int<class_int>` **rfind**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_StringName_method_rfind>`
 
-Возвращает индекс **последнего** вхождения ``what`` в этой строке или ``-1``, если их нет. Начало поиска можно указать с помощью ``from``, продолжая до начала строки. Этот метод является обратным :ref:`find()<class_StringName_method_find>`.
+Returns the index of the **last** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the beginning of the string. This method is the reverse of :ref:`find()<class_StringName_method_find>`.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
+
+\ **Note:** A value of ``from`` that is greater than the last possible index with enough space to find ``what`` is considered out-of-bounds, and returns ``-1``.
 
 .. rst-class:: classref-item-separator
 

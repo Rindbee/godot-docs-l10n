@@ -657,6 +657,27 @@ enum **DuplicateFlags**: :ref:`🔗<enum_Node_DuplicateFlags>`
 
 使用 :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>` 进行复制。如果该节点来自磁盘上保存的场景，则会重用 :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>` 作为该节点及其子节点副本的基础。
 
+.. _class_Node_constant_DUPLICATE_INTERNAL_STATE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`DuplicateFlags<enum_Node_DuplicateFlags>` **DUPLICATE_INTERNAL_STATE** = ``16``
+
+Duplicate also non-serializable variables (i.e. without :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`).
+
+.. _class_Node_constant_DUPLICATE_DEFAULT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`DuplicateFlags<enum_Node_DuplicateFlags>` **DUPLICATE_DEFAULT** = ``15``
+
+Duplicate using default flags. This constant is useful to add or remove a single flag.
+
+::
+
+    # Duplicate non-exported variables.
+    var dupe = duplicate(DUPLICATE_DEFAULT | DUPLICATE_INTERNAL_STATE)
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -723,9 +744,9 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **AUTO_TRANSLATE_MODE_DISABLED** = ``2``
 
-始终不自动翻译。和 :ref:`AUTO_TRANSLATE_MODE_ALWAYS<class_Node_constant_AUTO_TRANSLATE_MODE_ALWAYS>` 相反。
+Never automatically translate. This is the inverse of :ref:`AUTO_TRANSLATE_MODE_ALWAYS<class_Node_constant_AUTO_TRANSLATE_MODE_ALWAYS>`.
 
-生成 POT 解析字符串时会跳过该节点，如果子节点为 :ref:`AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>` 则还会跳过子节点。
+String parsing for translation template generation will be skipped for this node and children that are set to :ref:`AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
 
 .. rst-class:: classref-section-separator
 
@@ -752,9 +773,11 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 **NOTIFICATION_EXIT_TREE** = ``11`` :ref:`🔗<class_Node_constant_NOTIFICATION_EXIT_TREE>`
 
-当节点即将退出 :ref:`SceneTree<class_SceneTree>` 时收到的通知。请参阅 :ref:`_exit_tree()<class_Node_private_method__exit_tree>`\ 。
+Notification received when the node is about to exit a :ref:`SceneTree<class_SceneTree>`. See :ref:`_exit_tree()<class_Node_private_method__exit_tree>`.
 
-该通知会在相关的 :ref:`tree_exiting<class_Node_signal_tree_exiting>` 信号\ *之后*\ 收到。
+This notification is received *after* the related :ref:`tree_exiting<class_Node_signal_tree_exiting>` signal.
+
+This notification is sent in reversed order.
 
 .. _class_Node_constant_NOTIFICATION_MOVED_IN_PARENT:
 
@@ -1092,9 +1115,9 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 **NOTIFICATION_OS_IME_UPDATE** = ``2013`` :ref:`🔗<class_Node_constant_NOTIFICATION_OS_IME_UPDATE>`
 
-当输入法引擎发生更新时，从操作系统收到的通知（例如，IME 光标位置或组成字符串的变化）。
+Notification received from the OS when an update of the Input Method Engine occurs (e.g. change of IME cursor position or composition string).
 
-仅在 macOS 上被实现。
+Implemented on desktop and web platforms.
 
 .. _class_Node_constant_NOTIFICATION_APPLICATION_RESUMED:
 
@@ -1182,9 +1205,9 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 - |void| **set_auto_translate_mode**\ (\ value\: :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>`\ )
 - :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **get_auto_translate_mode**\ (\ )
 
-定义是否应该根据当前区域设置自动将所有文本更改为翻译后的版本（针对 :ref:`Label<class_Label>`\ 、\ :ref:`RichTextLabel<class_RichTextLabel>`\ 、\ :ref:`Window<class_Window>` 等节点）。同时也会决定生成 POT 时是否解析该节点的字符串。
+Defines if any text should automatically change to its translated version depending on the current locale (for nodes such as :ref:`Label<class_Label>`, :ref:`RichTextLabel<class_RichTextLabel>`, :ref:`Window<class_Window>`, etc.). Also decides if the node's strings should be parsed for translation template generation.
 
-\ **注意：**\ 根节点的自动翻译模式也可以通过 :ref:`ProjectSettings.internationalization/rendering/root_node_auto_translate<class_ProjectSettings_property_internationalization/rendering/root_node_auto_translate>` 设置。
+\ **Note:** For the root node, auto translate mode can also be set via :ref:`ProjectSettings.internationalization/rendering/root_node_auto_translate<class_ProjectSettings_property_internationalization/rendering/root_node_auto_translate>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1733,13 +1756,13 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 |void| **add_to_group**\ (\ group\: :ref:`StringName<class_StringName>`, persistent\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node_method_add_to_group>`
 
-将该节点加入 ``group`` 分组。使用分组可以很方便地组织部分节点，例如将敌人加入 ``"enemies"`` 分组、将收集品加入 ``"collectables"`` 分组。注意事项见下文，以及 :ref:`SceneTree<class_SceneTree>` 中相关的分组方法。
+Adds the node to the ``group``. Groups can be helpful to organize a subset of nodes, for example ``"enemies"`` or ``"collectables"``. See notes in the description, and the group methods in :ref:`SceneTree<class_SceneTree>`.
 
-如果 ``persistent`` 为 ``true``\ ，则保存 :ref:`PackedScene<class_PackedScene>` 时会存储该分组。在“节点”面板中创建、显示的分组都能够进行持久化。
+If ``persistent`` is ``true``, the group will be stored when saved inside a :ref:`PackedScene<class_PackedScene>`. All groups created and displayed in the Groups dock are persistent.
 
-\ **注意：**\ 为了提升性能，\ *并不*\ 保证分组名称的顺序，每次运行项目可能会不同。因此请不要依赖分组的顺序。
+\ **Note:** To improve performance, the order of group names is *not* guaranteed and may vary between project runs. Therefore, do not rely on the group order.
 
-\ **注意：**\ 不再场景树中时，\ :ref:`SceneTree<class_SceneTree>` 的分组方法\ *无法*\ 正常工作（见 :ref:`is_inside_tree()<class_Node_method_is_inside_tree>`\ ）。
+\ **Note:** :ref:`SceneTree<class_SceneTree>`'s group methods will *not* work on this node if not inside the tree (see :ref:`is_inside_tree()<class_Node_method_is_inside_tree>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1882,9 +1905,11 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 :ref:`Node<class_Node>` **duplicate**\ (\ flags\: :ref:`int<class_int>` = 15\ ) |const| :ref:`🔗<class_Node_method_duplicate>`
 
-复制该节点，返回一个新节点，其中包含从原始节点复制的所有属性、信号、组、子节点。可以通过 ``flags`` 调整该行为（见 :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`\ ）。不会复制内部节点。
+Duplicates the node, returning a new node with all of its properties, signals, groups, and children copied from the original, recursively. The behavior can be tweaked through the ``flags`` (see :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`). Internal nodes are not duplicated.
 
-\ **注意：**\ 对于附带有 :ref:`Script<class_Script>` 的节点，如果 :ref:`Object._init()<class_Object_private_method__init>` 已使用所需参数定义，则复制的节点将不会有 :ref:`Script<class_Script>`\ 。
+\ **Note:** For nodes with a :ref:`Script<class_Script>` attached, if :ref:`Object._init()<class_Object_private_method__init>` has been defined with required parameters, the duplicated node will not have a :ref:`Script<class_Script>`.
+
+\ **Note:** By default, this method will duplicate only properties marked for serialization (i.e. using :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`, or in GDScript, :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`). If you want to duplicate all properties, use :ref:`DUPLICATE_INTERNAL_STATE<class_Node_constant_DUPLICATE_INTERNAL_STATE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2706,9 +2731,9 @@ enum **AutoTranslateMode**: :ref:`🔗<enum_Node_AutoTranslateMode>`
 
 |void| **print_orphan_nodes**\ (\ ) |static| :ref:`🔗<class_Node_method_print_orphan_nodes>`
 
-输出所有孤立节点（\ :ref:`SceneTree<class_SceneTree>` 之外的节点）。利于调试。
+Prints all orphan nodes (nodes outside the :ref:`SceneTree<class_SceneTree>`). Useful for debugging.
 
-\ **注意：**\ 该方法仅适用于调试构建版本。在以发布模式导出的项目中不执行任何操作。
+\ **Note:** This method only works in debug builds. It does nothing in a project exported in release mode.
 
 .. rst-class:: classref-item-separator
 

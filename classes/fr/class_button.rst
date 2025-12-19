@@ -332,7 +332,7 @@ Spécifie si l'icône doit être alignée horizontalement sur la gauche, la droi
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Code de langue utilisé pour les algorithmes de retour à la ligne et de "text shaping". Si vide, la langue locale actuelle est utilisée à la place.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

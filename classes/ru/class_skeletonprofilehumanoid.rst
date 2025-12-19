@@ -14,9 +14,9 @@ SkeletonProfileHumanoid
 Описание
 ----------------
 
-:ref:`SkeletonProfile<class_SkeletonProfile>` как предустановка, оптимизированная для человеческой формы. Она существует для стандартизации, поэтому все параметры доступны только для чтения.
+A :ref:`SkeletonProfile<class_SkeletonProfile>` as a preset that is optimized for the human form. This exists for standardization, so all parameters are read-only.
 
-Профиль скелета гуманоида содержит 54 кости, разделенные на 4 группы: ``"Body"``, ``"Face"``, ``"LeftHand"``, и ``"RightHand"``. Он структурирован следующим образом:
+A humanoid skeleton profile contains 56 bones divided into 4 groups: ``"Body"``, ``"Face"``, ``"LeftHand"``, and ``"RightHand"``. It is structured as follows:
 
 .. code:: text
 

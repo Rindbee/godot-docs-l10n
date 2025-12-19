@@ -12,15 +12,17 @@ Color
 Опис
 --------
 
-Колір, представлений у форматі RGBA червоним (:ref:`r<class_Color_property_r>`), зеленим (:ref:`g<class_Color_property_g>`), синім (:ref:`b<class_Color_property_b>`) та альфа-компонентом (:ref:`a<class_Color_property_a>`). Кожен компонент є 32-бітним значенням з плаваючою комою, зазвичай у діапазоні від ``0.0`` до ``1.0``. Деякі властивості (такі як :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) можуть підтримувати значення більше, ніж ``1.0``, для надто яскравих або HDR (розширений динамічний діапазон) кольорів.
+A color represented in RGBA format by a red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), blue (:ref:`b<class_Color_property_b>`), and alpha (:ref:`a<class_Color_property_a>`) component. Each component is a 32-bit floating-point value, usually ranging from ``0.0`` to ``1.0``. Some properties (such as :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) may support values greater than ``1.0``, for overbright or HDR (High Dynamic Range) colors.
 
-Кольори можна створювати різними способами: за допомогою різних конструкторів **Color**, статичних методів, таких як :ref:`from_hsv()<class_Color_method_from_hsv>`, та за допомогою назви з набору стандартизованих кольорів на основі `назв кольорів X11 <https://en.wikipedia.org/wiki/X11_color_names>`__ з додаванням :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`. GDScript також надає :ref:`@GDScript.Color8()<class_@GDScript_method_Color8>`, який використовує цілі числа від ``0`` до ``255`` та не підтримує надто яскраві кольори.
+Colors can be created in a number of ways: By the various **Color** constructors, by static methods such as :ref:`from_hsv()<class_Color_method_from_hsv>`, and by using a name from the set of standardized colors based on `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`__ with the addition of :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`.
 
-Дані про колір можуть зберігатися в багатьох колірних просторах та кодуваннях. Методи :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` та :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` можуть конвертувати між нелінійним кодуванням sRGB та лінійним кодуванням RGB.
+\ `Color constants cheatsheet <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__\ 
 
-\ **Примітка:** У логічному контексті значення Color буде оцінено як ``false``, якщо воно дорівнює ``Color(0, 0, 0, 1)`` (непрозорий чорний). В іншому випадку значення Color завжди буде оцінено як ``true``.
+Although **Color** may be used to store values of any encoding, the red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), and blue (:ref:`b<class_Color_property_b>`) properties of **Color** are expected by Godot to be encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB#Transfer_function_(%22gamma%22)>`__ unless otherwise stated. This color encoding is used by many traditional art and web tools, making it easy to match colors between Godot and these tools. Godot uses `Rec. ITU-R BT.709 <https://en.wikipedia.org/wiki/Rec._709>`__ color primaries, which are used by the sRGB standard.
 
-\ `Шпаргалка з кольорових констант <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__
+All physical simulation, such as lighting calculations, and colorimetry transformations, such as :ref:`get_luminance()<class_Color_method_get_luminance>`, must be performed on linearly encoded values to produce correct results. When performing these calculations, convert **Color** to and from linear encoding using :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` and :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>`.
+
+\ **Note:** In a boolean context, a Color will evaluate to ``false`` if it is equal to ``Color(0, 0, 0, 1)`` (opaque black). Otherwise, a Color will always evaluate to ``true``.
 
 .. note::
 
@@ -1389,9 +1391,9 @@ Slate синій колір.
 
 :ref:`float<class_float>` **a** = ``1.0`` :ref:`🔗<class_Color_property_a>`
 
-Альфа-компонент кольору, зазвичай у діапазоні від 0 до 1. Значення 0 означає, що колір повністю прозорий. Значення 1 означає, що колір повністю непрозорий.
+The color's alpha component, typically on the range of 0 to 1. A value of 0 means that the color is fully transparent. A value of 1 means that the color is fully opaque.
 
-\ **Примітка:** Альфа-канал завжди зберігається з лінійним кодуванням, незалежно від колірного простору інших колірних каналів. Методи :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` та :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` не впливають на альфа-канал.
+\ **Note:** The alpha channel is always stored with linear encoding, regardless of the encoding of the other color channels. The :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` and :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` methods do not affect the alpha channel.
 
 .. rst-class:: classref-item-separator
 
@@ -1629,18 +1631,18 @@ Constructs a **Color** або з HTML-коду або з стандартизо�
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`\ )
 
-Створює **Color** зі значень RGB, зазвичай між 0.0 та 1.0. :ref:`a<class_Color_property_a>` встановлюється на 1.0.
+Constructs a **Color** from RGB values, typically between 0.0 and 1.0. :ref:`a<class_Color_property_a>` is set to 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7) # Схоже на `Color8(51, 255, 178, 255)`
+    var color = Color(0.2, 1.0, 0.7) # Similar to `Color.from_rgba8(51, 255, 178, 255)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f); // Схоже на `Color.Color8(51, 255, 178, 255)`
+    var color = new Color(0.2f, 1.0f, 0.7f); // Similar to `Color.Color8(51, 255, 178, 255)`
 
 
 
@@ -1652,18 +1654,18 @@ Constructs a **Color** або з HTML-коду або з стандартизо�
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`, a\: :ref:`float<class_float>`\ )
 
-Constructs **Color** з значень RGBA, як правило, між 0.0 і 1.0.
+Constructs a **Color** from RGBA values, typically between 0.0 and 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7, 0.8) # Подібно до `Color8(51, 255, 178, 204) й
+    var color = Color(0.2, 1.0, 0.7, 0.8) # Similar to `Color.from_rgba8(51, 255, 178, 204)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Аналогічно до `Color.Color8(51, 255, 178, 255, 204) й
+    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Similar to `Color.Color8(51, 255, 178, 255, 204)`
 
 
 
@@ -1846,9 +1848,9 @@ Decodes a **Color** з цілого формату RGBE9995. Див. :ref:`Image
 
 :ref:`float<class_float>` **get_luminance**\ (\ ) |const| :ref:`🔗<class_Color_method_get_luminance>`
 
-Повертає інтенсивність світла кольору, як значення між 0,0 і 1,0 (включно). Це корисно при визначенні світла або темного кольору. Забарвлення з освітленням менше ніж 0,5 можна в цілому вважати темним.
+Returns the light intensity of the color, as a value between 0.0 and 1.0 (inclusive). This is useful when determining light or dark color. Colors with a luminance smaller than 0.5 can be generally considered dark.
 
-\ **Примітка:** :ref:`get_luminance()<class_Color_method_get_luminance>` спирається на колір, який знаходиться в лінійному кольоровому просторі для повернення точного значення відносної інтенсивності. Якщо колір знаходиться в кольоровому просторі sRGB, спочатку скористайтеся :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` для перетворення його в лінійний колірний простір.
+\ **Note:** :ref:`get_luminance()<class_Color_method_get_luminance>` relies on the color using linear encoding to return an accurate relative luminance value. If the color uses the default nonlinear sRGB encoding, use :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` to convert it to linear encoding first.
 
 .. rst-class:: classref-item-separator
 
@@ -2078,9 +2080,9 @@ I\ ``Повертає новий колір з [param rgba], HTML hexadecimal st
 
 :ref:`Color<class_Color>` **linear_to_srgb**\ (\ ) |const| :ref:`🔗<class_Color_method_linear_to_srgb>`
 
-Повертає колір, перетворений у колірний простір `sRGB <https://en.wikipedia.org/wiki/SRGB>`__. Цей метод припускає, що оригінальний колір знаходиться в лінійному колірному просторі. Див. також :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>`, який виконує протилежну операцію.
+Returns a copy of the color that is encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB>`__. This method requires the original color to use linear encoding. See also :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` which performs the opposite operation.
 
-\ **Примітка:** Канал :ref:`a<class_Color_property_a>`\ альфа кольору не змінюється. Альфа-канал завжди зберігається з лінійним кодуванням, незалежно від колірного простору інших колірних каналів.
+\ **Note:** The color's alpha channel (:ref:`a<class_Color_property_a>`) is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
 
 .. rst-class:: classref-item-separator
 
@@ -2092,9 +2094,9 @@ I\ ``Повертає новий колір з [param rgba], HTML hexadecimal st
 
 :ref:`Color<class_Color>` **srgb_to_linear**\ (\ ) |const| :ref:`🔗<class_Color_method_srgb_to_linear>`
 
-Повертає колір, перетворений у лінійний колірний простір. Цей метод припускає, що оригінальний колір вже знаходиться в колірному просторі sRGB. Див. також :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>`, який виконує протилежну операцію.
+Returns a copy of the color that uses linear encoding. This method requires the original color to be encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB>`__. See also :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` which performs the opposite operation.
 
-\ **Примітка:** Канал :ref:`a<class_Color_property_a>` альфа кольору не змінюється. Альфа-канал завжди зберігається з лінійним кодуванням, незалежно від колірного простору інших колірних каналів.
+\ **Note:** The color's alpha channel (:ref:`a<class_Color_property_a>`) is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
 
 .. rst-class:: classref-item-separator
 

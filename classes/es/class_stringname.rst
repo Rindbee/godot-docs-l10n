@@ -643,6 +643,8 @@ Returns the index of the **first** occurrence of ``what`` in this string, or ``-
 
 \ **Note:** If you just want to know whether the string contains ``what``, use :ref:`contains()<class_StringName_method_contains>`. In GDScript, you may also use the ``in`` operator.
 
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -1415,7 +1417,7 @@ Elimina todas las ocurrencias del carácter Unicode con el código ``what``. Ver
 
 :ref:`String<class_String>` **remove_chars**\ (\ chars\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_StringName_method_remove_chars>`
 
-Elimina cualquier ocurrencia de los caracteres en ``chars``. Véase también :ref:`remove_char()<class_StringName_method_remove_char>`.
+Removes all occurrences of the characters in ``chars``. See also :ref:`remove_char()<class_StringName_method_remove_char>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1499,7 +1501,11 @@ Devuelve la copia de esta string en orden inverso. Esta operación funciona en p
 
 :ref:`int<class_int>` **rfind**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_StringName_method_rfind>`
 
-Devuelve el índice de la **última** ocurrencia de ``what`` en esta string, o ``-1`` si no hay ninguna. El inicio de la búsqueda se puede especificar con ``from``, continuando hasta el principio de la string. Este método es el inverso de :ref:`find()<class_StringName_method_find>`.
+Returns the index of the **last** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the beginning of the string. This method is the reverse of :ref:`find()<class_StringName_method_find>`.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
+
+\ **Note:** A value of ``from`` that is greater than the last possible index with enough space to find ``what`` is considered out-of-bounds, and returns ``-1``.
 
 .. rst-class:: classref-item-separator
 

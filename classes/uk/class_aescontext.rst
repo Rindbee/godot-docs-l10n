@@ -142,7 +142,7 @@ enum **Mode**: :ref:`🔗<enum_AESContext_Mode>`
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_CBC_ENCRYPT** = ``2``
 
-Режим шифрування ланцюжком блоків шифру AES.
+AES cipher block chaining encryption mode.
 
 .. _class_AESContext_constant_MODE_CBC_DECRYPT:
 
@@ -150,7 +150,7 @@ enum **Mode**: :ref:`🔗<enum_AESContext_Mode>`
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_CBC_DECRYPT** = ``3``
 
-Режим шифрування ланцюжком блоків шифру AES.
+AES cipher block chaining decryption mode.
 
 .. _class_AESContext_constant_MODE_MAX:
 

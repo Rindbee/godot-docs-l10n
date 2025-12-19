@@ -102,6 +102,10 @@ Metodi
    +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                | :ref:`draw_dashed_line<class_CanvasItem_method_draw_dashed_line>`\ (\ from\: :ref:`Vector2<class_Vector2>`, to\: :ref:`Vector2<class_Vector2>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, dash\: :ref:`float<class_float>` = 2.0, aligned\: :ref:`bool<class_bool>` = true, antialiased\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
    +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                | :ref:`draw_ellipse<class_CanvasItem_method_draw_ellipse>`\ (\ position\: :ref:`Vector2<class_Vector2>`, major\: :ref:`float<class_float>`, minor\: :ref:`float<class_float>`, color\: :ref:`Color<class_Color>`, filled\: :ref:`bool<class_bool>` = true, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                | :ref:`draw_ellipse_arc<class_CanvasItem_method_draw_ellipse_arc>`\ (\ center\: :ref:`Vector2<class_Vector2>`, major\: :ref:`float<class_float>`, minor\: :ref:`float<class_float>`, start_angle\: :ref:`float<class_float>`, end_angle\: :ref:`float<class_float>`, point_count\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+   +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                | :ref:`draw_end_animation<class_CanvasItem_method_draw_end_animation>`\ (\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
    +---------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                | :ref:`draw_lcd_texture_rect_region<class_CanvasItem_method_draw_lcd_texture_rect_region>`\ (\ texture\: :ref:`Texture2D<class_Texture2D>`, rect\: :ref:`Rect2<class_Rect2>`, src_rect\: :ref:`Rect2<class_Rect2>`, modulate\: :ref:`Color<class_Color>` = Color(1, 1, 1, 1)\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -504,7 +508,9 @@ Il **CanvasItem** è entrato nel canvas.
 
 **NOTIFICATION_EXIT_CANVAS** = ``33`` :ref:`🔗<class_CanvasItem_constant_NOTIFICATION_EXIT_CANVAS>`
 
-Il **CanvasItem** è uscito dal canvas.
+The **CanvasItem** has exited the canvas.
+
+This notification is sent in reversed order.
 
 .. _class_CanvasItem_constant_NOTIFICATION_WORLD_2D_CHANGED:
 
@@ -710,7 +716,9 @@ Se ``true``, il :ref:`material<class_CanvasItem_property_material>` del **Canvas
 - |void| **set_visibility_layer**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_visibility_layer**\ (\ )
 
-Gli strati di rendering in cui questo **CanvasItem** viene renderizzato dai nodi :ref:`Viewport<class_Viewport>`. Una :ref:`Viewport<class_Viewport>` renderizzerà un **CanvasItem** se esso e tutti i suoi elementi genitori condividono uno strato con la maschera di culling della :ref:`Viewport<class_Viewport>`.
+The rendering layer in which this **CanvasItem** is rendered by :ref:`Viewport<class_Viewport>` nodes. A :ref:`Viewport<class_Viewport>` will render a **CanvasItem** if it and all its parents share a layer with the :ref:`Viewport<class_Viewport>`'s canvas cull mask.
+
+\ **Note:** A **CanvasItem** does not inherit its parents' visibility layers. This means that if a parent **CanvasItem** does not have all the same layers as its child, the child may not be visible even if both the parent and child have :ref:`visible<class_CanvasItem_property_visible>` set to ``true``. For example, if a parent has layer 1 and a child has layer 2, the child will not be visible in a :ref:`Viewport<class_Viewport>` with the canvas cull mask set to layer 1 or 2 (see :ref:`Viewport.canvas_cull_mask<class_Viewport_property_canvas_cull_mask>`). To ensure that both the parent and child are visible, the parent must have both layers 1 and 2, or the child must have :ref:`top_level<class_CanvasItem_property_top_level>` set to ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -831,11 +839,11 @@ I comandi di disegno successivi verranno ignorati a meno che non rientrino nella
 
 |void| **draw_arc**\ (\ center\: :ref:`Vector2<class_Vector2>`, radius\: :ref:`float<class_float>`, start_angle\: :ref:`float<class_float>`, end_angle\: :ref:`float<class_float>`, point_count\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_arc>`
 
-Disegna un arco vuoto tra gli angoli specificati con un colore (``color``) e spessore (``width``) uniformi, e antialiasing opzionale (supportato solo per valori positivi di ``width``). Maggiore è il valore di ``point_count``, più liscia sarà la curva. ``center`` è definito in spazio locale. Vedi anche :ref:`draw_circle()<class_CanvasItem_method_draw_circle>`.
+Draws an unfilled arc between the given angles with a uniform ``color`` and ``width`` and optional antialiasing (supported only for positive ``width``). The larger the value of ``point_count``, the smoother the curve. ``center`` is defined in local space. For elliptical arcs, see :ref:`draw_ellipse_arc()<class_CanvasItem_method_draw_ellipse_arc>`. See also :ref:`draw_circle()<class_CanvasItem_method_draw_circle>`.
 
-Se ``width`` è negativo, verrà ignorato e l'arco verrà disegnato utilizzando :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>`. Ciò significa che quando il CanvasItem viene ridimensionato, l'arco rimarrà sottile. Se questo comportamento non è desiderato, passare un valore positivo per ``width`` come ``1.0``.
+If ``width`` is negative, it will be ignored and the arc will be drawn using :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>`. This means that when the CanvasItem is scaled, the arc will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-L'arco viene disegnato da ``start_angle`` verso il valore di ``end_angle``, quindi in senso orario se ``start_angle < end_angle`` e in senso antiorario altrimenti. Passando gli stessi angoli ma in ordine inverso si produrrà lo stesso arco. Se la differenza assoluta tra ``start_angle`` e ``end_angle`` è maggiore di :ref:`@GDScript.TAU<class_@GDScript_constant_TAU>` radianti, viene disegnato un arco di cerchio completo (ovvero l'arco non si sovrapporrà a se stesso).
+The arc is drawn from ``start_angle`` towards the value of ``end_angle`` so in clockwise direction if ``start_angle < end_angle`` and counter-clockwise otherwise. Passing the same angles but in reversed order will produce the same arc. If absolute difference of ``start_angle`` and ``end_angle`` is greater than :ref:`@GDScript.TAU<class_@GDScript_constant_TAU>` radians, then a full circle arc is drawn (i.e. arc will not overlap itself).
 
 .. rst-class:: classref-item-separator
 
@@ -871,15 +879,15 @@ Disegna il contorno del primo carattere di una stringa usando un font personaliz
 
 |void| **draw_circle**\ (\ position\: :ref:`Vector2<class_Vector2>`, radius\: :ref:`float<class_float>`, color\: :ref:`Color<class_Color>`, filled\: :ref:`bool<class_bool>` = true, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_circle>`
 
-Disegna un cerchio, con la posizione ``position`` definita in spazio locale. Vedi anche :ref:`draw_arc()<class_CanvasItem_method_draw_arc>`, :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>` e :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`.
+Draws a circle, with ``position`` defined in local space. See also :ref:`draw_ellipse()<class_CanvasItem_method_draw_ellipse>`, :ref:`draw_arc()<class_CanvasItem_method_draw_arc>`, :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`, and :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`.
 
-Se ``filled`` è ``true``, il cerchio verrà riempito con il colore ``color``. Se ``filled`` è ``false``, il cerchio verrà disegnato come un tratto con il colore ``color`` e lo spessore ``width``.
+If ``filled`` is ``true``, the circle will be filled with the ``color`` specified. If ``filled`` is ``false``, the circle will be drawn as a stroke with the ``color`` and ``width`` specified.
 
-Se ``width`` è negativo, verrà disegnata una primitiva a due punti invece di una a quattro punti. Ciò significa che quando il CanvasItem viene ridimensionato, la linea rimarrà sottile. Se questo comportamento non è desiderato, passare un valore positivo per ``width`` come ``1.0``.
+If ``width`` is negative, then two-point primitives will be drawn instead of a four-point ones. This means that when the CanvasItem is scaled, the lines will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
 
-Se ``antialiased`` è ``true``, al contorno verranno aggiunte delle "sfumature" semitrasparenti, rendendo i contorni più lisci.
+If ``antialiased`` is ``true``, half transparent "feathers" will be attached to the boundary, making outlines smooth.
 
-\ **Nota:** ``width`` è efficace solo se ``filled`` è ``false``.
+\ **Note:** ``width`` is only effective if ``filled`` is ``false``.
 
 .. rst-class:: classref-item-separator
 
@@ -914,6 +922,42 @@ Se ``width`` è negativo, verrà disegnata una primitiva a due punti invece di u
 Se ``antialiased`` è ``true``, al contorno verranno aggiunte delle "sfumature" semitrasparenti, rendendo i contorni più lisci.
 
 \ **Nota:** ``antialiased`` è efficace solo se ``width`` è maggiore di ``0.0``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_CanvasItem_method_draw_ellipse:
+
+.. rst-class:: classref-method
+
+|void| **draw_ellipse**\ (\ position\: :ref:`Vector2<class_Vector2>`, major\: :ref:`float<class_float>`, minor\: :ref:`float<class_float>`, color\: :ref:`Color<class_Color>`, filled\: :ref:`bool<class_bool>` = true, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_ellipse>`
+
+Draws an ellipse with semi-major axis ``major`` and semi-minor axis ``minor``. See also :ref:`draw_circle()<class_CanvasItem_method_draw_circle>`, :ref:`draw_ellipse_arc()<class_CanvasItem_method_draw_ellipse_arc>`, :ref:`draw_polyline()<class_CanvasItem_method_draw_polyline>`, and :ref:`draw_polygon()<class_CanvasItem_method_draw_polygon>`.
+
+If ``filled`` is ``true``, the ellipse will be filled with the ``color`` specified. If ``filled`` is ``false``, the ellipse will be drawn as a stroke with the ``color`` and ``width`` specified.
+
+If ``width`` is negative, then two-point primitives will be drawn instead of four-point ones. This means that when the CanvasItem is scaled, the lines will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
+
+If ``antialiased`` is ``true``, half transparent "feathers" will be attached to the boundary, making outlines smooth.
+
+\ **Note:** ``width`` is only effective if ``filled`` is ``false``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_CanvasItem_method_draw_ellipse_arc:
+
+.. rst-class:: classref-method
+
+|void| **draw_ellipse_arc**\ (\ center\: :ref:`Vector2<class_Vector2>`, major\: :ref:`float<class_float>`, minor\: :ref:`float<class_float>`, start_angle\: :ref:`float<class_float>`, end_angle\: :ref:`float<class_float>`, point_count\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, width\: :ref:`float<class_float>` = -1.0, antialiased\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_CanvasItem_method_draw_ellipse_arc>`
+
+Draws an unfilled elliptical arc between the given angles with a uniform ``color`` and ``width`` and optional antialiasing (supported only for positive ``width``). The larger the value of ``point_count``, the smoother the curve. For circular arcs, see :ref:`draw_arc()<class_CanvasItem_method_draw_arc>`. See also :ref:`draw_ellipse()<class_CanvasItem_method_draw_ellipse>`.
+
+If ``width`` is negative, it will be ignored and the arc will be drawn using :ref:`RenderingServer.PRIMITIVE_LINE_STRIP<class_RenderingServer_constant_PRIMITIVE_LINE_STRIP>`. This means that when the CanvasItem is scaled, the arc will remain thin. If this behavior is not desired, then pass a positive ``width`` like ``1.0``.
+
+The arc is drawn from ``start_angle`` towards the value of ``end_angle`` so in clockwise direction if ``start_angle < end_angle`` and counter-clockwise otherwise. Passing the same angles but in reversed order will produce the same arc. If absolute difference of ``start_angle`` and ``end_angle`` is greater than :ref:`@GDScript.TAU<class_@GDScript_constant_TAU>` radians, then a full ellipse is drawn (i.e. arc will not overlap itself).
 
 .. rst-class:: classref-item-separator
 
@@ -1391,9 +1435,9 @@ Restituisce la posizione del mouse in questo **CanvasItem** utilizzando il siste
 
 :ref:`Transform2D<class_Transform2D>` **get_screen_transform**\ (\ ) |const| :ref:`🔗<class_CanvasItem_method_get_screen_transform>`
 
-Restituisce la trasformazione di questo **CanvasItem** nelle coordinate globali dello schermo (cioè tenendo conto della posizione della finestra). Utile soprattutto per le estensioni dell'editor.
+Returns the transform of this **CanvasItem** in global screen coordinates (i.e. taking window position into account). Mostly useful for editor plugins.
 
-Uguale a :ref:`get_global_transform()<class_CanvasItem_method_get_global_transform>` se la finestra è incorporata (vedi :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
+Equivalent to :ref:`get_global_transform_with_canvas()<class_CanvasItem_method_get_global_transform_with_canvas>` if the window is embedded (see :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1603,9 +1647,9 @@ Se ``true``, il nodo riceverà :ref:`NOTIFICATION_LOCAL_TRANSFORM_CHANGED<class_
 
 |void| **set_notify_transform**\ (\ enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_CanvasItem_method_set_notify_transform>`
 
-Se ``true``, il nodo riceverà :ref:`NOTIFICATION_TRANSFORM_CHANGED<class_CanvasItem_constant_NOTIFICATION_TRANSFORM_CHANGED>` quando la sua trasformazione globale cambia.
+If ``true``, the node will receive :ref:`NOTIFICATION_TRANSFORM_CHANGED<class_CanvasItem_constant_NOTIFICATION_TRANSFORM_CHANGED>` whenever its global transform changes.
 
-\ **Nota:** Molti elementi canvas come :ref:`Camera2D<class_Camera2D>` o :ref:`Light2D<class_Light2D>` abilitano questo automaticamente per funzionare correttamente.
+\ **Note:** Many canvas items such as :ref:`Camera2D<class_Camera2D>` or :ref:`Light2D<class_Light2D>` automatically enable this in order to function correctly.
 
 .. rst-class:: classref-item-separator
 

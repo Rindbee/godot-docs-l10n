@@ -184,13 +184,13 @@ Enabling :ref:`generate_mipmaps<class_ResourceImporterDynamicFont_property_gener
 
 :ref:`int<class_int>` **hinting** = ``1`` :ref:`🔗<class_ResourceImporterDynamicFont_property_hinting>`
 
-要使用的提示模式。這控制在光柵化字形時應如何積極地將字形邊緣捕捉到像素。根據個人喜好，您可能更喜歡使用一種提示模式而不是另一種。除 **None** 之外的模式僅在字形包含提示資料時才有效（請參閱\ :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`\ ）。
+The hinting mode to use. This controls how aggressively glyph edges should be snapped to pixels when rasterizing the font. Depending on personal preference, you may prefer using one hinting mode over the other. Hinting modes other than **None** are only effective if the font contains hinting data (see :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`).
 
-\ **無：**\ 最平滑的外觀，這會使字形在小尺寸下看起來模糊。
+\ **None:** Smoothest appearance, which can make the font look blurry at small sizes.
 
-\ **Light：** 僅將字形邊緣捕捉到 Y 軸上的像素來獲得清晰的結果。
+\ **Light:** Sharp result by snapping glyph edges to pixels on the Y axis only.
 
-\ **全：** 透過將字形邊緣捕捉到 X 軸和 Y 軸上的像素來實作最清晰。
+\ **Normal:** Sharpest by snapping glyph edges to pixels on both X and Y axes.
 
 .. rst-class:: classref-item-separator
 

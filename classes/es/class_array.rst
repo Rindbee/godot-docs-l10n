@@ -680,9 +680,9 @@ Si ``deep`` es ``true``, se devuelve una copia **profunda**: Todos los arrays y 
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Duplica este array profundamente, como :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, con mas control sobre como se gestionan los subrecursos.
+Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` debe ser uno de los valores de :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Por defecto, solo recursos internos serán duplicados (recursivamente).
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -831,9 +831,9 @@ Returns the first element of the array. If the array is empty, fails and returns
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-Devuelve el elemento en el ``index`` dado del array. Si ``index`` está fuera de los límites o es negativo, este método falla y devuelve ``null``.
+Returns the element at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``null``.
 
-Este método es similar (pero no idéntico) al operador ``[]``. Notablemente, cuando este método falla, no pausa la ejecución del proyecto si se ejecuta desde el editor.
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 
@@ -923,9 +923,9 @@ In GDScript, this is equivalent to the ``in`` operator:
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Array_method_hash>`
 
-Devuelve un valor entero de 32 bits con hash que representa el array y su contenido.
+Returns a hashed 32-bit integer value representing the array and its contents.
 
-\ **Nota:** *No* se garantiza que los arrays con valores hash iguales sean iguales, como resultado de las colisiones hash. Por el contrario, se garantiza que los arrays con diferentes valores hash sean diferentes.
+\ **Note:** Arrays with equal hash values are *not* guaranteed to be the same, as a result of hash collisions. On the contrary, arrays with different hash values are guaranteed to be different.
 
 .. rst-class:: classref-item-separator
 
@@ -1231,8 +1231,6 @@ Removes the element from the array at the given index (``position``). If the ind
 If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
 
 \ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
-
-\ **Note:** The ``position`` cannot be negative. To remove an element relative to the end of the array, use ``arr.remove_at(arr.size() - (i + 1))``. To remove the last element from the array, use ``arr.resize(arr.size() - 1)``.
 
 .. rst-class:: classref-item-separator
 

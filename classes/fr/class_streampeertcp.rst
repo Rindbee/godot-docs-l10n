@@ -5,7 +5,7 @@
 StreamPeerTCP
 =============
 
-**Hérite de :** :ref:`StreamPeer<class_StreamPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
+**Hérite de :** :ref:`StreamPeerSocket<class_StreamPeerSocket>` **<** :ref:`StreamPeer<class_StreamPeer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
 Un pair de flux qui gère des connexions TCP.
 
@@ -26,72 +26,19 @@ Méthodes
 .. table::
    :widths: auto
 
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Error<enum_@GlobalScope_Error>`    | :ref:`bind<class_StreamPeerTCP_method_bind>`\ (\ port\: :ref:`int<class_int>`, host\: :ref:`String<class_String>` = "*"\ )                 |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Error<enum_@GlobalScope_Error>`    | :ref:`connect_to_host<class_StreamPeerTCP_method_connect_to_host>`\ (\ host\: :ref:`String<class_String>`, port\: :ref:`int<class_int>`\ ) |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                   | :ref:`disconnect_from_host<class_StreamPeerTCP_method_disconnect_from_host>`\ (\ )                                                         |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`String<class_String>`              | :ref:`get_connected_host<class_StreamPeerTCP_method_get_connected_host>`\ (\ ) |const|                                                     |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                    | :ref:`get_connected_port<class_StreamPeerTCP_method_get_connected_port>`\ (\ ) |const|                                                     |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                    | :ref:`get_local_port<class_StreamPeerTCP_method_get_local_port>`\ (\ ) |const|                                                             |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Status<enum_StreamPeerTCP_Status>` | :ref:`get_status<class_StreamPeerTCP_method_get_status>`\ (\ ) |const|                                                                     |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Error<enum_@GlobalScope_Error>`    | :ref:`poll<class_StreamPeerTCP_method_poll>`\ (\ )                                                                                         |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                   | :ref:`set_no_delay<class_StreamPeerTCP_method_set_no_delay>`\ (\ enabled\: :ref:`bool<class_bool>`\ )                                      |
-   +------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
-
-.. rst-class:: classref-section-separator
-
-----
-
-.. rst-class:: classref-descriptions-group
-
-Énumérations
-------------------------
-
-.. _enum_StreamPeerTCP_Status:
-
-.. rst-class:: classref-enumeration
-
-enum **Status**: :ref:`🔗<enum_StreamPeerTCP_Status>`
-
-.. _class_StreamPeerTCP_constant_STATUS_NONE:
-
-.. rst-class:: classref-enumeration-constant
-
-:ref:`Status<enum_StreamPeerTCP_Status>` **STATUS_NONE** = ``0``
-
-Le status initial du **StreamPeerTCP**. C'est aussi le status après la déconnexion.
-
-.. _class_StreamPeerTCP_constant_STATUS_CONNECTING:
-
-.. rst-class:: classref-enumeration-constant
-
-:ref:`Status<enum_StreamPeerTCP_Status>` **STATUS_CONNECTING** = ``1``
-
-Un status représentant un **StreamPeerTCP** qui se connecte un à hôte.
-
-.. _class_StreamPeerTCP_constant_STATUS_CONNECTED:
-
-.. rst-class:: classref-enumeration-constant
-
-:ref:`Status<enum_StreamPeerTCP_Status>` **STATUS_CONNECTED** = ``2``
-
-Un status représentant un **StreamPeerTCP** qui est connecté un à hôte.
-
-.. _class_StreamPeerTCP_constant_STATUS_ERROR:
-
-.. rst-class:: classref-enumeration-constant
-
-:ref:`Status<enum_StreamPeerTCP_Status>` **STATUS_ERROR** = ``3``
-
-Un status représentant un état d'erreur du **StreamPeerTCP**.
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>` | :ref:`bind<class_StreamPeerTCP_method_bind>`\ (\ port\: :ref:`int<class_int>`, host\: :ref:`String<class_String>` = "*"\ )                 |
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>` | :ref:`connect_to_host<class_StreamPeerTCP_method_connect_to_host>`\ (\ host\: :ref:`String<class_String>`, port\: :ref:`int<class_int>`\ ) |
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`           | :ref:`get_connected_host<class_StreamPeerTCP_method_get_connected_host>`\ (\ ) |const|                                                     |
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                 | :ref:`get_connected_port<class_StreamPeerTCP_method_get_connected_port>`\ (\ ) |const|                                                     |
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                 | :ref:`get_local_port<class_StreamPeerTCP_method_get_local_port>`\ (\ ) |const|                                                             |
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                | :ref:`set_no_delay<class_StreamPeerTCP_method_set_no_delay>`\ (\ enabled\: :ref:`bool<class_bool>`\ )                                      |
+   +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -128,18 +75,6 @@ Se connecte à la paire ``host:port`` spécifiée. Un nom d'hôte sera résolu s
 
 ----
 
-.. _class_StreamPeerTCP_method_disconnect_from_host:
-
-.. rst-class:: classref-method
-
-|void| **disconnect_from_host**\ (\ ) :ref:`🔗<class_StreamPeerTCP_method_disconnect_from_host>`
-
-Se déconnecte de l'hôte.
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_StreamPeerTCP_method_get_connected_host:
 
 .. rst-class:: classref-method
@@ -171,30 +106,6 @@ Renvoie le port de ce pair.
 :ref:`int<class_int>` **get_local_port**\ (\ ) |const| :ref:`🔗<class_StreamPeerTCP_method_get_local_port>`
 
 Renvoie le port local auquel ce pair est lié.
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_StreamPeerTCP_method_get_status:
-
-.. rst-class:: classref-method
-
-:ref:`Status<enum_StreamPeerTCP_Status>` **get_status**\ (\ ) |const| :ref:`🔗<class_StreamPeerTCP_method_get_status>`
-
-Renvoie le statut de la connexion.
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_StreamPeerTCP_method_poll:
-
-.. rst-class:: classref-method
-
-:ref:`Error<enum_@GlobalScope_Error>` **poll**\ (\ ) :ref:`🔗<class_StreamPeerTCP_method_poll>`
-
-Interroge la socket, mettant à jour son état. Voir :ref:`get_status()<class_StreamPeerTCP_method_get_status>`.
 
 .. rst-class:: classref-item-separator
 

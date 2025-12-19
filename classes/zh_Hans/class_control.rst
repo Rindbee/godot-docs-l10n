@@ -16,27 +16,27 @@ Control
 描述
 ----
 
-所有 UI 相关节点的基类。\ **Control** 具有定义其范围的边界矩形，相对于父控件或当前视口的锚点位置，以及相对于锚点的偏移。当节点、任何父节点或屏幕尺寸发生变化时，偏移就会自动更新。
+Base class for all UI-related nodes. **Control** features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.
 
-更多关于 Godot 的 UI 系统、锚点、偏移和容器的信息，请参阅手册中的相关教程。要构建灵活的 UI，你需要混合使用从 **Control** 和 :ref:`Container<class_Container>` 节点继承的 UI 元素。
+For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from **Control** and :ref:`Container<class_Container>` nodes.
 
-\ **注意：**\ :ref:`Node2D<class_Node2D>` 和 **Control** 都继承自 :ref:`CanvasItem<class_CanvasItem>`\ ，它们都具有该类的 :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>`\ 、\ :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 等属性。
+\ **Note:** Since both :ref:`Node2D<class_Node2D>` and **Control** inherit from :ref:`CanvasItem<class_CanvasItem>`, they share several concepts from the class such as the :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` and :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` properties.
 
-\ **用户界面节点与输入**\ 
+\ **User Interface nodes and input**\ 
 
-Godot 使用视口来传播输入事件。视口负责将 :ref:`InputEvent<class_InputEvent>` 传播给它的子节点。因为 :ref:`SceneTree.root<class_SceneTree_property_root>` 是 :ref:`Window<class_Window>`\ ，所以游戏中的所有 UI 元素都会自动进行传播。
+Godot propagates input events via viewports. Each :ref:`Viewport<class_Viewport>` is responsible for propagating :ref:`InputEvent<class_InputEvent>`\ s to their child nodes. As the :ref:`SceneTree.root<class_SceneTree_property_root>` is a :ref:`Window<class_Window>`, this already happens automatically for all UI elements in your game.
 
-输入事件通过调用 :ref:`Node._input()<class_Node_private_method__input>` 在 :ref:`SceneTree<class_SceneTree>` 中传播，从根节点传播到所有子节点。对 UI 元素而言，覆盖的最好是 :ref:`_gui_input()<class_Control_private_method__gui_input>`\ ，可以过滤掉无关的输入事件，例如它会对 Z 顺序、\ :ref:`mouse_filter<class_Control_property_mouse_filter>`\ 、焦点、事件是否在该控件的边界框内等条件进行检查。
+Input events are propagated through the :ref:`SceneTree<class_SceneTree>` from the root node to all child nodes by calling :ref:`Node._input()<class_Node_private_method__input>`. For UI elements specifically, it makes more sense to override the virtual method :ref:`_gui_input()<class_Control_private_method__gui_input>`, which filters out unrelated input events, such as by checking z-order, :ref:`mouse_filter<class_Control_property_mouse_filter>`, focus, or if the event was inside of the control's bounding box.
 
-请调用 :ref:`accept_event()<class_Control_method_accept_event>`\ ，这样其他节点就不会收到该事件。输入被接受后，就会被标记为已处理，\ :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` 不会对它进行处理。
+Call :ref:`accept_event()<class_Control_method_accept_event>` so no other node receives the event. Once you accept an input, it becomes handled so :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` will not process it.
 
-只能有一个 **Control** 节点处于焦点。只有处于焦点的节点才会接收到事件。要获得焦点，请调用 :ref:`grab_focus()<class_Control_method_grab_focus>`\ 。导致 **Control** 节点失去焦点的情况有：其他节点获得了焦点、隐藏了聚焦节点。
+Only one **Control** node can be in focus. Only the node in focus will receive events. To get the focus, call :ref:`grab_focus()<class_Control_method_grab_focus>`. **Control** nodes lose focus when another node grabs it, or if you hide the node in focus. Focus will not be represented visually if gained via mouse/touch input, only appearing with keyboard/gamepad input (for accessibility), or via :ref:`grab_focus()<class_Control_method_grab_focus>`.
 
-将 :ref:`mouse_filter<class_Control_property_mouse_filter>` 设置为 :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` 可以让 **Control** 节点忽略鼠标或触摸事件。如果你在按钮上放了一个图标，就会需要用到。
+Set :ref:`mouse_filter<class_Control_property_mouse_filter>` to :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` to tell a **Control** node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.
 
-\ :ref:`Theme<class_Theme>` 资源会更改控件的外观。\ **Control** 节点的 :ref:`theme<class_Control_property_theme>` 会影响所有直接和间接子级节点（只要控件链没有被打断）。要覆盖某些主题项，请调用 ``add_theme_*_override`` 方法，例如 :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`\ 。你也可以在检查器中覆盖主题项。
+\ :ref:`Theme<class_Theme>` resources change the control's appearance. The :ref:`theme<class_Control_property_theme>` of a **Control** node affects all of its direct and indirect children (as long as a chain of controls is uninterrupted). To override some of the theme items, call one of the ``add_theme_*_override`` methods, like :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`. You can also override theme items in the Inspector.
 
-\ **注意：**\ 主题项\ *不是* :ref:`Object<class_Object>` 的属性。这意味着你无法使用 :ref:`Object.get()<class_Object_method_get>` 和 :ref:`Object.set()<class_Object_method_set>` 访问它们的值。请改用这个类的 ``get_theme_*`` 和 ``add_theme_*_override`` 方法。
+\ **Note:** Theme items are *not* :ref:`Object<class_Object>` properties. This means you can't access their values using :ref:`Object.get()<class_Object_method_get>` and :ref:`Object.set()<class_Object_method_set>`. Instead, use the ``get_theme_*`` and ``add_theme_*_override`` methods provided by this class.
 
 .. rst-class:: classref-introduction-group
 
@@ -136,6 +136,8 @@ Godot 使用视口来传播输入事件。视口负责将 :ref:`InputEvent<class
    +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                          | :ref:`pivot_offset<class_Control_property_pivot_offset>`                                         | ``Vector2(0, 0)``                                                             |
    +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | :ref:`Vector2<class_Vector2>`                                          | :ref:`pivot_offset_ratio<class_Control_property_pivot_offset_ratio>`                             | ``Vector2(0, 0)``                                                             |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                          | :ref:`position<class_Control_property_position>`                                                 | ``Vector2(0, 0)``                                                             |
    +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                                              | :ref:`rotation<class_Control_property_rotation>`                                                 | ``0.0``                                                                       |
@@ -230,6 +232,8 @@ Godot 使用视口来传播输入事件。视口负责将 :ref:`InputEvent<class
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                | :ref:`get_combined_minimum_size<class_Control_method_get_combined_minimum_size>`\ (\ ) |const|                                                                                                                                                                          |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Vector2<class_Vector2>`                                | :ref:`get_combined_pivot_offset<class_Control_method_get_combined_pivot_offset>`\ (\ ) |const|                                                                                                                                                                          |
+   +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`CursorShape<enum_Control_CursorShape>`                 | :ref:`get_cursor_shape<class_Control_method_get_cursor_shape>`\ (\ position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) |const|                                                                                                                                  |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                | :ref:`get_end<class_Control_method_get_end>`\ (\ ) |const|                                                                                                                                                                                                              |
@@ -276,9 +280,9 @@ Godot 使用视口来传播输入事件。视口负责将 :ref:`InputEvent<class
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                       | :ref:`grab_click_focus<class_Control_method_grab_click_focus>`\ (\ )                                                                                                                                                                                                    |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                                       | :ref:`grab_focus<class_Control_method_grab_focus>`\ (\ )                                                                                                                                                                                                                |
+   | |void|                                                       | :ref:`grab_focus<class_Control_method_grab_focus>`\ (\ hide_focus\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                                  |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                      | :ref:`has_focus<class_Control_method_has_focus>`\ (\ ) |const|                                                                                                                                                                                                          |
+   | :ref:`bool<class_bool>`                                      | :ref:`has_focus<class_Control_method_has_focus>`\ (\ ignore_hidden_focus\: :ref:`bool<class_bool>` = false\ ) |const|                                                                                                                                                   |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                      | :ref:`has_theme_color<class_Control_method_has_theme_color>`\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const|                                                                                          |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -595,7 +599,7 @@ enum **MouseBehaviorRecursive**: :ref:`🔗<enum_Control_MouseBehaviorRecursive>
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_ENABLED** = ``2``
 
-允许控件获取鼠标输入，取决于 :ref:`mouse_filter<class_Control_property_mouse_filter>`\ 。可以用来忽略父控件的 :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`\ 。\ :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` 会返回 :ref:`mouse_filter<class_Control_property_mouse_filter>`\ 。
+Allows the control to receive mouse input, depending on the :ref:`mouse_filter<class_Control_property_mouse_filter>`. This can be used to ignore the parent's :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` will return the :ref:`mouse_filter<class_Control_property_mouse_filter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1274,7 +1278,9 @@ enum **TextDirection**: :ref:`🔗<enum_Control_TextDirection>`
 
 **NOTIFICATION_FOCUS_EXIT** = ``44`` :ref:`🔗<class_Control_constant_NOTIFICATION_FOCUS_EXIT>`
 
-当节点失去焦点时发送。
+Sent when the node loses focus.
+
+This notification is sent in reversed order.
 
 .. _class_Control_constant_NOTIFICATION_THEME_CHANGED:
 
@@ -1964,7 +1970,28 @@ enum **TextDirection**: :ref:`🔗<enum_Control_TextDirection>`
 - |void| **set_pivot_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_pivot_offset**\ (\ )
 
-默认情况下，该节点的轴心位于左上角。更改 :ref:`rotation<class_Control_property_rotation>` 或 :ref:`scale<class_Control_property_scale>` 时，将围绕该轴心进行旋转或缩放。如果将该属性设置为 :ref:`size<class_Control_property_size>` / 2，则围绕的是该控件的中心点。
+By default, the node's pivot is its top-left corner. When you change its :ref:`rotation<class_Control_property_rotation>` or :ref:`scale<class_Control_property_scale>`, it will rotate or scale around this pivot.
+
+The actual offset is the combined value of this property and :ref:`pivot_offset_ratio<class_Control_property_pivot_offset_ratio>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Control_property_pivot_offset_ratio:
+
+.. rst-class:: classref-property
+
+:ref:`Vector2<class_Vector2>` **pivot_offset_ratio** = ``Vector2(0, 0)`` :ref:`🔗<class_Control_property_pivot_offset_ratio>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_pivot_offset_ratio**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
+- :ref:`Vector2<class_Vector2>` **get_pivot_offset_ratio**\ (\ )
+
+Same as :ref:`pivot_offset<class_Control_property_pivot_offset>`, but expressed as uniform vector, where ``Vector2(0, 0)`` is the top-left corner of this control, and ``Vector2(1, 1)`` is its bottom-right corner. Set this property to ``Vector2(0.5, 0.5)`` to pivot around this control's center.
+
+The actual offset is the combined value of this property and :ref:`pivot_offset<class_Control_property_pivot_offset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2481,19 +2508,19 @@ Godot 调用该方法来获取数据，该数据可以被拖放到那些期望�
 
 :ref:`Object<class_Object>` **_make_custom_tooltip**\ (\ for_text\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__make_custom_tooltip>`
 
-由用户实现的虚方法。返回应当用作工具提示的 **Control** 节点，代替默认的工具提示。\ ``for_text`` 为 :ref:`get_tooltip()<class_Control_method_get_tooltip>` 的返回值。
+Virtual method to be implemented by the user. Returns a **Control** node that should be used as a tooltip instead of the default one. ``for_text`` is the return value of :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
 
-返回的节点必须是 **Control** 或派生自 Control 类型，其子节点可以是任何类型。工具提示消失时会释放该节点，因此请确保始提供的始终是新的实例（如果想要使用场景树中已有的节点，可以制作并返回其副本）。如果返回的是 ``null`` 或非 Control 节点，则会使用默认的工具提示。
+The returned node must be of type **Control** or Control-derived. It can have child nodes of any type. It is freed when the tooltip disappears, so make sure you always provide a new instance (if you want to use a pre-existing node from your scene tree, you can duplicate it and pass the duplicated instance). When ``null`` or a non-Control node is returned, the default tooltip will be used instead.
 
-返回的节点会添加为一个 :ref:`PopupPanel<class_PopupPanel>` 的子节点，因此只需提供该面板的内容。该 :ref:`PopupPanel<class_PopupPanel>` 可以通过为 ``"TooltipPanel"`` 类型调用 :ref:`Theme.set_stylebox()<class_Theme_method_set_stylebox>` 设置主题样式（示例见 :ref:`tooltip_text<class_Control_property_tooltip_text>`\ ）。
+The returned node will be added as child to a :ref:`PopupPanel<class_PopupPanel>`, so you should only provide the contents of that panel. That :ref:`PopupPanel<class_PopupPanel>` can be themed using :ref:`Theme.set_stylebox()<class_Theme_method_set_stylebox>` for the type ``"TooltipPanel"`` (see :ref:`tooltip_text<class_Control_property_tooltip_text>` for an example).
 
-\ **注意：**\ 工具提示会缩小至最小尺寸。如果想要确保其完全可见，你可能会需要将 :ref:`custom_minimum_size<class_Control_property_custom_minimum_size>` 设为非零值。
+\ **Note:** The tooltip is shrunk to minimal size. If you want to ensure it's fully visible, you might want to set its :ref:`custom_minimum_size<class_Control_property_custom_minimum_size>` to some non-zero value.
 
-\ **注意：**\ 返回时节点（及其相关子级节点）的 :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` 应设为 ``true``\ ，否则执行实例化的视口无法为其计算可靠的最小尺寸。
+\ **Note:** The node (and any relevant children) should have their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` set to ``true`` when returned, otherwise, the viewport that instantiates it will not be able to calculate its minimum size reliably.
 
-\ **注意：**\ 覆盖该方法后，即便 :ref:`get_tooltip()<class_Control_method_get_tooltip>` 返回空字符串也会调用该方法。类似情况下不会显示默认工具提示。要复制该行为，请在 ``for_text`` 为空时返回 ``null``\ 。
+\ **Note:** If overridden, this method is called even if :ref:`get_tooltip()<class_Control_method_get_tooltip>` returns an empty string. When this happens with the default tooltip, it is not displayed. To copy this behavior, return ``null`` in this method when ``for_text`` is empty.
 
-\ **示例：**\ 构造工具提示节点：
+\ **Example:** Use a constructed node as a tooltip:
 
 
 .. tabs::
@@ -2516,7 +2543,7 @@ Godot 调用该方法来获取数据，该数据可以被拖放到那些期望�
 
 
 
-\ **示例：**\ 使用场景实例作为工具提示：
+\ **Example:** Use a scene instance as a tooltip:
 
 
 .. tabs::
@@ -2847,6 +2874,18 @@ Godot 调用该方法来获取数据，该数据可以被拖放到那些期望�
 
 ----
 
+.. _class_Control_method_get_combined_pivot_offset:
+
+.. rst-class:: classref-method
+
+:ref:`Vector2<class_Vector2>` **get_combined_pivot_offset**\ (\ ) |const| :ref:`🔗<class_Control_method_get_combined_pivot_offset>`
+
+Returns the combined value of :ref:`pivot_offset<class_Control_property_pivot_offset>` and :ref:`pivot_offset_ratio<class_Control_property_pivot_offset_ratio>`, in pixels. The ratio is multiplied by the control's size.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_Control_method_get_cursor_shape:
 
 .. rst-class:: classref-method
@@ -2995,15 +3034,19 @@ Godot 调用该方法来获取数据，该数据可以被拖放到那些期望�
 
 :ref:`Vector2<class_Vector2>` **get_screen_position**\ (\ ) |const| :ref:`🔗<class_Control_method_get_screen_position>`
 
-返回该 **Control** 在全局屏幕坐标系中的位置（即考虑窗口的位置）。主要用于编辑器插件。
+Returns the position of this **Control** in global screen coordinates (i.e. taking window position into account). Mostly useful for editor plugins.
 
-如果窗口是嵌入式的，则等于 :ref:`global_position<class_Control_property_global_position>`\ （见 :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`\ ）。
+Equivalent to ``get_screen_transform().origin`` (see :ref:`CanvasItem.get_screen_transform()<class_CanvasItem_method_get_screen_transform>`).
 
-\ **示例：**\ 在鼠标位置显示弹出框：
+\ **Example:** Show a popup at the mouse position:
 
 ::
 
-    popup_menu.position = get_screen_position() + get_local_mouse_position()
+    popup_menu.position = get_screen_position() + get_screen_transform().basis_xform(get_local_mouse_position())
+
+    # The above code is equivalent to:
+    popup_menu.position = get_screen_transform() * get_local_mouse_position()
+
     popup_menu.reset_size()
     popup_menu.popup()
 
@@ -3209,11 +3252,13 @@ Godot 调用该方法来获取数据，该数据可以被拖放到那些期望�
 
 .. rst-class:: classref-method
 
-|void| **grab_focus**\ (\ ) :ref:`🔗<class_Control_method_grab_focus>`
+|void| **grab_focus**\ (\ hide_focus\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_grab_focus>`
 
-从别的控件上窃取焦点，从而成为聚焦的控件（见 :ref:`focus_mode<class_Control_property_focus_mode>`\ ）。
+Steal the focus from another control and become the focused control (see :ref:`focus_mode<class_Control_property_focus_mode>`).
 
-\ **注意：**\ 这个方法与 :ref:`Object.call_deferred()<class_Object_method_call_deferred>` 配合使用会更加可靠，尤其是在 :ref:`Node._ready()<class_Node_private_method__ready>` 中调用时。
+If ``hide_focus`` is ``true``, the control will not visually show its focused state. Has no effect for :ref:`LineEdit<class_LineEdit>` and :ref:`TextEdit<class_TextEdit>` when :ref:`ProjectSettings.gui/common/show_focus_state_on_pointer_event<class_ProjectSettings_property_gui/common/show_focus_state_on_pointer_event>` is set to ``Control Supports Keyboard Input``, or for any control when it is set to ``Always``.
+
+\ **Note:** Using this method together with :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>` makes it more reliable, especially when called inside :ref:`Node._ready()<class_Node_private_method__ready>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3223,9 +3268,11 @@ Godot 调用该方法来获取数据，该数据可以被拖放到那些期望�
 
 .. rst-class:: classref-method
 
-:ref:`bool<class_bool>` **has_focus**\ (\ ) |const| :ref:`🔗<class_Control_method_has_focus>`
+:ref:`bool<class_bool>` **has_focus**\ (\ ignore_hidden_focus\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Control_method_has_focus>`
 
-如果这是当前的焦点控件，则返回 ``true``\ 。见 :ref:`focus_mode<class_Control_property_focus_mode>`\ 。
+Returns ``true`` if this is the current focused control. See :ref:`focus_mode<class_Control_property_focus_mode>`.
+
+If ``ignore_hidden_focus`` is ``true``, controls that have their focus hidden will always return ``false``. Hidden focus happens automatically when controls gain focus via mouse input, or manually using :ref:`grab_focus()<class_Control_method_grab_focus>` with ``hide_focus`` set to ``true``.
 
 .. rst-class:: classref-item-separator
 

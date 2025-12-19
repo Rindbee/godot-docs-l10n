@@ -60,8 +60,6 @@ TextEdit
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`CaretType<enum_TextEdit_CaretType>`                         | :ref:`caret_type<class_TextEdit_property_caret_type>`                                                                       | ``0``                                                                               |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                           | clip_contents                                                                                                               | ``true`` (overrides :ref:`Control<class_Control_property_clip_contents>`)           |
-   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                           | :ref:`context_menu_enabled<class_TextEdit_property_context_menu_enabled>`                                                   | ``true``                                                                            |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                                       | :ref:`custom_word_separators<class_TextEdit_property_custom_word_separators>`                                               | ``""``                                                                              |
@@ -513,6 +511,8 @@ TextEdit
    | :ref:`int<class_int>`             | :ref:`line_spacing<class_TextEdit_theme_constant_line_spacing>`                          | ``4``                               |
    +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
    | :ref:`int<class_int>`             | :ref:`outline_size<class_TextEdit_theme_constant_outline_size>`                          | ``0``                               |
+   +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
+   | :ref:`int<class_int>`             | :ref:`wrap_offset<class_TextEdit_theme_constant_wrap_offset>`                            | ``10``                              |
    +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
    | :ref:`Font<class_Font>`           | :ref:`font<class_TextEdit_theme_font_font>`                                              |                                     |
    +-----------------------------------+------------------------------------------------------------------------------------------+-------------------------------------+
@@ -1501,7 +1501,7 @@ enum **GutterType**: :ref:`🔗<enum_TextEdit_GutterType>`
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-语言代码，用于断行和文本塑形算法，如果留空则使用当前区域设置。
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -4201,6 +4201,18 @@ enum **GutterType**: :ref:`🔗<enum_TextEdit_GutterType>`
 文字轮廓的大小。
 
 \ **注意：**\ 如果使用启用了 :ref:`FontFile.multichannel_signed_distance_field<class_FontFile_property_multichannel_signed_distance_field>` 的字体，其 :ref:`FontFile.msdf_pixel_range<class_FontFile_property_msdf_pixel_range>` 必须至少设置为 :ref:`outline_size<class_TextEdit_theme_constant_outline_size>` 的\ *两倍*\ ，轮廓渲染才能看起来正确。否则，轮廓可能会比预期的更早被切断。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TextEdit_theme_constant_wrap_offset:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **wrap_offset** = ``10`` :ref:`🔗<class_TextEdit_theme_constant_wrap_offset>`
+
+Sets an additional margin for line wrapping width.
 
 .. rst-class:: classref-item-separator
 

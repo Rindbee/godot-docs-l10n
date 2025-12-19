@@ -135,7 +135,9 @@ If ``true``, a console wrapper is exported alongside the main executable, which 
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_shader_baker/enabled>`
 
-Si ``true``, les shaders seront compilés et intégrés dans l'application. Cette option n'est supportée que lors de l'utilisation des moteurs de rendu Forward+ ou Mobile.
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

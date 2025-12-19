@@ -110,7 +110,9 @@ Si se establece en algo que no sea :ref:`TextServer.AUTOWRAP_OFF<class_TextServe
 - |void| **set_curve_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_curve_step**\ (\ )
 
-Paso (en píxeles) utilizado para aproximar las curvas de Bézier.
+Step (in pixels) used to approximate Bézier curves. Lower values result in smoother curves, but is slower to generate and render. Consider adjusting this according to the font size and the typical viewing distance.
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation, especially with large font sizes and long texts.
 
 .. rst-class:: classref-item-separator
 
@@ -161,7 +163,9 @@ Configuración de la fuente usada para mostrar texto.
 - |void| **set_font_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_font_size**\ (\ )
 
-Tamaño de fuente del texto de **TextMesh**.
+Font size of the **TextMesh**'s text. This property works in tandem with :ref:`pixel_size<class_TextMesh_property_pixel_size>`. Higher values will result in a more detailed font, regardless of :ref:`curve_step<class_TextMesh_property_curve_step>` and :ref:`pixel_size<class_TextMesh_property_pixel_size>`. Consider keeping this value below 63 (inclusive) for good performance, and adjust :ref:`pixel_size<class_TextMesh_property_pixel_size>` as needed to enlarge text.
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation, especially with large font sizes and long texts. To change the text's size in real-time efficiently, change the node's :ref:`Node3D.scale<class_Node3D_property_scale>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +182,7 @@ Tamaño de fuente del texto de **TextMesh**.
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Controla la alineación horizontal del texto. Admite izquierda, centro, derecha y relleno, o justificar.
+Controla la alineación horizontal del texto. Admite izquierda, centro, derecha y relleno (también conocido como justificar).
 
 .. rst-class:: classref-item-separator
 
@@ -212,7 +216,7 @@ Reglas de alineación de relleno de línea.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Código de idioma utilizado para los algoritmos de modelado de texto. Si se deja vacío, se utiliza la configuración regional actual.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -246,7 +250,9 @@ Additional vertical spacing between lines (in pixels), spacing is added to line 
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-El desplazamiento del dibujo del texto (en píxeles).
+The text drawing offset (in pixels).
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation. To change the text's position in real-time efficiently, change the node's :ref:`Node3D.position<class_Node3D_property_position>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -263,7 +269,9 @@ El desplazamiento del dibujo del texto (en píxeles).
 - |void| **set_pixel_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_pixel_size**\ (\ )
 
-El tamaño del ancho de un píxel en el texto para escalarlo en 3D.
+The size of one pixel's width on the text to scale it in 3D. This property works in tandem with :ref:`font_size<class_TextMesh_property_font_size>`.
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation, especially with large font sizes and long texts. To change the text's size in real-time efficiently, change the node's :ref:`Node3D.scale<class_Node3D_property_scale>` instead.
 
 .. rst-class:: classref-item-separator
 

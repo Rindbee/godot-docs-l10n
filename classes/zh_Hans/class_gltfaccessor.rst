@@ -67,6 +67,20 @@ GLTFAccessor 是一种表示 glTF 访问器 ``"accessors"`` 的数据结构，�
    | :ref:`int<class_int>`                                         | :ref:`type<class_GLTFAccessor_property_type>`                                                   |                          |
    +---------------------------------------------------------------+-------------------------------------------------------------------------------------------------+--------------------------+
 
+.. rst-class:: classref-reftable-group
+
+方法
+----
+
+.. table::
+   :widths: auto
+
+   +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GLTFAccessor<class_GLTFAccessor>` | :ref:`from_dictionary<class_GLTFAccessor_method_from_dictionary>`\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| |
+   +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Dictionary<class_Dictionary>`     | :ref:`to_dictionary<class_GLTFAccessor_method_to_dictionary>`\ (\ ) |const|                                                        |
+   +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -509,6 +523,35 @@ glTF 组件类型枚举。可能的取值见 :ref:`GLTFComponentType<enum_GLTFAc
 **已弃用：** Use :ref:`accessor_type<class_GLTFAccessor_property_accessor_type>` instead.
 
 glTF 访问器类型 :ref:`int<class_int>`\ 。取值为 ``0`` 表示“SCALAR”、\ ``1`` 表示“VEC2”、\ ``2`` 表示“VEC3”、\ ``3`` 表示“VEC4”、\ ``4`` 表示“MAT2”、\ ``5`` 表示“MAT3”、\ ``6`` 表示“MAT4”。
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+方法说明
+--------
+
+.. _class_GLTFAccessor_method_from_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`GLTFAccessor<class_GLTFAccessor>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFAccessor_method_from_dictionary>`
+
+Creates a new GLTFAccessor instance by parsing the given :ref:`Dictionary<class_Dictionary>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GLTFAccessor_method_to_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFAccessor_method_to_dictionary>`
+
+Serializes this GLTFAccessor instance into a :ref:`Dictionary<class_Dictionary>`.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

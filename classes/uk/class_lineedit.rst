@@ -128,6 +128,8 @@ LineEdit
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`FocusMode<enum_Control_FocusMode>`                          | focus_mode                                                                                                                  | ``2`` (overrides :ref:`Control<class_Control_property_focus_mode>`)                 |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+   | :ref:`ExpandMode<enum_LineEdit_ExpandMode>`                       | :ref:`icon_expand_mode<class_LineEdit_property_icon_expand_mode>`                                                           | ``0``                                                                               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                           | :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`                                     | ``false``                                                                           |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                                       | :ref:`language<class_LineEdit_property_language>`                                                                           | ``""``                                                                              |
@@ -141,6 +143,8 @@ LineEdit
    | :ref:`String<class_String>`                                       | :ref:`placeholder_text<class_LineEdit_property_placeholder_text>`                                                           | ``""``                                                                              |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`Texture2D<class_Texture2D>`                                 | :ref:`right_icon<class_LineEdit_property_right_icon>`                                                                       |                                                                                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                         | :ref:`right_icon_scale<class_LineEdit_property_right_icon_scale>`                                                           | ``1.0``                                                                             |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                           | :ref:`secret<class_LineEdit_property_secret>`                                                                               | ``false``                                                                           |
    +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
@@ -188,7 +192,7 @@ LineEdit
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                            | :ref:`deselect<class_LineEdit_method_deselect>`\ (\ )                                                                                                       |
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                            | :ref:`edit<class_LineEdit_method_edit>`\ (\ )                                                                                                               |
+   | |void|                            | :ref:`edit<class_LineEdit_method_edit>`\ (\ hide_focus\: :ref:`bool<class_bool>` = false\ )                                                                 |
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PopupMenu<class_PopupMenu>` | :ref:`get_menu<class_LineEdit_method_get_menu>`\ (\ ) |const|                                                                                               |
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -675,6 +679,40 @@ enum **VirtualKeyboardType**: :ref:`🔗<enum_LineEdit_VirtualKeyboardType>`
 
 Віртуальна клавіатура з додатковими ключами, щоб допомогти з натисканням URL.
 
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_LineEdit_ExpandMode:
+
+.. rst-class:: classref-enumeration
+
+enum **ExpandMode**: :ref:`🔗<enum_LineEdit_ExpandMode>`
+
+.. _class_LineEdit_constant_EXPAND_MODE_ORIGINAL_SIZE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ExpandMode<enum_LineEdit_ExpandMode>` **EXPAND_MODE_ORIGINAL_SIZE** = ``0``
+
+Use the original size for the right icon.
+
+.. _class_LineEdit_constant_EXPAND_MODE_FIT_TO_TEXT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ExpandMode<enum_LineEdit_ExpandMode>` **EXPAND_MODE_FIT_TO_TEXT** = ``1``
+
+Scale the right icon's size to match the size of the text.
+
+.. _class_LineEdit_constant_EXPAND_MODE_FIT_TO_LINE_EDIT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ExpandMode<enum_LineEdit_ExpandMode>` **EXPAND_MODE_FIT_TO_LINE_EDIT** = ``2``
+
+Scale the right icon to fit the LineEdit.
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -695,7 +733,7 @@ enum **VirtualKeyboardType**: :ref:`🔗<enum_LineEdit_VirtualKeyboardType>`
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Вирівнювання тексту, як визначено в :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`.
+The text's horizontal alignment.
 
 .. rst-class:: classref-item-separator
 
@@ -958,6 +996,23 @@ enum **VirtualKeyboardType**: :ref:`🔗<enum_LineEdit_VirtualKeyboardType>`
 
 ----
 
+.. _class_LineEdit_property_icon_expand_mode:
+
+.. rst-class:: classref-property
+
+:ref:`ExpandMode<enum_LineEdit_ExpandMode>` **icon_expand_mode** = ``0`` :ref:`🔗<class_LineEdit_property_icon_expand_mode>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_icon_expand_mode**\ (\ value\: :ref:`ExpandMode<enum_LineEdit_ExpandMode>`\ )
+- :ref:`ExpandMode<enum_LineEdit_ExpandMode>` **get_icon_expand_mode**\ (\ )
+
+Define the scaling behavior of the :ref:`right_icon<class_LineEdit_property_right_icon>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_LineEdit_property_keep_editing_on_text_submit:
 
 .. rst-class:: classref-property
@@ -986,7 +1041,7 @@ enum **VirtualKeyboardType**: :ref:`🔗<enum_LineEdit_VirtualKeyboardType>`
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Мовний код, який використовується для алгоритмів формування рядків та тексту. Якщо лівий порожній, то замість цього використовується струм.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -1086,6 +1141,23 @@ enum **VirtualKeyboardType**: :ref:`🔗<enum_LineEdit_VirtualKeyboardType>`
 - :ref:`Texture2D<class_Texture2D>` **get_right_icon**\ (\ )
 
 Встановлює піктограму, яка відображатиметься у правому кінці **LineEdit**, якщо немає :ref:`text<class_LineEdit_property_text>`, або завжди, якщо :ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>` має значення ``false``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_LineEdit_property_right_icon_scale:
+
+.. rst-class:: classref-property
+
+:ref:`float<class_float>` **right_icon_scale** = ``1.0`` :ref:`🔗<class_LineEdit_property_right_icon_scale>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_right_icon_scale**\ (\ value\: :ref:`float<class_float>`\ )
+- :ref:`float<class_float>` **get_right_icon_scale**\ (\ )
+
+Scale ratio of the icon when :ref:`icon_expand_mode<class_LineEdit_property_icon_expand_mode>` is set to :ref:`EXPAND_MODE_FIT_TO_LINE_EDIT<class_LineEdit_constant_EXPAND_MODE_FIT_TO_LINE_EDIT>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1378,11 +1450,11 @@ enum **VirtualKeyboardType**: :ref:`🔗<enum_LineEdit_VirtualKeyboardType>`
 
 .. rst-class:: classref-method
 
-|void| **edit**\ (\ ) :ref:`🔗<class_LineEdit_method_edit>`
+|void| **edit**\ (\ hide_focus\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_LineEdit_method_edit>`
 
-Дозволяє ввійти в режим редагування, незалежно від того, у фокусі **LineEdit** чи ні.
+Allows entering edit mode whether the **LineEdit** is focused or not. If ``hide_focus`` is ``true``, the focused state will not be shown (see :ref:`Control.grab_focus()<class_Control_method_grab_focus>`).
 
-Дивіться також :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
+See also :ref:`keep_editing_on_text_submit<class_LineEdit_property_keep_editing_on_text_submit>`.
 
 .. rst-class:: classref-item-separator
 

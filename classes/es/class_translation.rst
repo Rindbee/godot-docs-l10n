@@ -16,7 +16,9 @@ Una traducción de idioma que asigna una colección de strings a sus traduccione
 Descripción
 ----------------------
 
-Las **Translation** son recursos que pueden ser cargados y descargados bajo demanda. Mapean una colección de strings a sus traducciones individuales y también proporcionan métodos convenientes para la pluralización.
+**Translation** maps a collection of strings to their individual translations, and also provides convenience methods for pluralization.
+
+A **Translation** consists of messages. A message is identified by its context and untranslated string. Unlike `gettext <https://www.gnu.org/software/gettext/>`__, using an empty context string in Godot means not using any context.
 
 .. rst-class:: classref-introduction-group
 
@@ -37,9 +39,11 @@ Propiedades
 .. table::
    :widths: auto
 
-   +-----------------------------+--------------------------------------------------+----------+
-   | :ref:`String<class_String>` | :ref:`locale<class_Translation_property_locale>` | ``"en"`` |
-   +-----------------------------+--------------------------------------------------+----------+
+   +-----------------------------+--------------------------------------------------------------------------------+----------+
+   | :ref:`String<class_String>` | :ref:`locale<class_Translation_property_locale>`                               | ``"en"`` |
+   +-----------------------------+--------------------------------------------------------------------------------+----------+
+   | :ref:`String<class_String>` | :ref:`plural_rules_override<class_Translation_property_plural_rules_override>` | ``""``   |
+   +-----------------------------+--------------------------------------------------------------------------------+----------+
 
 .. rst-class:: classref-reftable-group
 
@@ -92,6 +96,25 @@ Descripciones de Propiedades
 - :ref:`String<class_String>` **get_locale**\ (\ )
 
 El locale de la traducción.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Translation_property_plural_rules_override:
+
+.. rst-class:: classref-property
+
+:ref:`String<class_String>` **plural_rules_override** = ``""`` :ref:`🔗<class_Translation_property_plural_rules_override>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_plural_rules_override**\ (\ value\: :ref:`String<class_String>`\ )
+- :ref:`String<class_String>` **get_plural_rules_override**\ (\ )
+
+The plural rules string to enforce. See `GNU gettext <https://www.gnu.org/software/gettext/manual/html_node/Plural-forms.html>`__ for examples and more info.
+
+If empty or invalid, default plural rules from :ref:`TranslationServer.get_plural_rules()<class_TranslationServer_method_get_plural_rules>` are used. The English plural rules are used as a fallback.
 
 .. rst-class:: classref-section-separator
 
@@ -146,11 +169,9 @@ Se podría usar un contexto adicional para especificar el contexto de la traducc
 
 |void| **add_plural_message**\ (\ src_message\: :ref:`StringName<class_StringName>`, xlated_messages\: :ref:`PackedStringArray<class_PackedStringArray>`, context\: :ref:`StringName<class_StringName>` = &""\ ) :ref:`🔗<class_Translation_method_add_plural_message>`
 
-Añade un mensaje que involucra la traducción de plurales si no existe, seguido de su traducción.
+Adds a message involving plural translation if nonexistent, followed by its translation.
 
-Se podría usar un contexto adicional para especificar el contexto de la traducción o diferenciar palabras polisémicas.
-
-\ **Nota:** Los plurales solo se admiten en :doc:`traducciones basadas en gettext (PO) <../tutorials/i18n/localization_using_gettext>`, no en CSV.
+An additional context could be used to specify the translation context or differentiate polysemic words.
 
 .. rst-class:: classref-item-separator
 
@@ -198,7 +219,21 @@ Devuelve el número de mensajes existentes.
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_message_list**\ (\ ) |const| :ref:`🔗<class_Translation_method_get_message_list>`
 
-Devuelve todos los mensajes (teclas).
+Returns the keys of all messages, that is, the context and untranslated strings of each message.
+
+\ **Note:** If a message does not use a context, the corresponding element is the untranslated string. Otherwise, the corresponding element is the context and untranslated string separated by the EOT character (``U+0004``). This is done for compatibility purposes.
+
+::
+
+    for key in translation.get_message_list():
+        var p = key.find("\u0004")
+        if p == -1:
+            var untranslated = key
+            print("Message %s" % untranslated)
+        else:
+            var context = key.substr(0, p)
+            var untranslated = key.substr(p + 1)
+            print("Message %s with context %s" % [untranslated, context])
 
 .. rst-class:: classref-item-separator
 
@@ -226,7 +261,7 @@ El número ``n`` es el número o cantidad del objeto plural. Se utilizará para 
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_translated_message_list**\ (\ ) |const| :ref:`🔗<class_Translation_method_get_translated_message_list>`
 
-Devuelve todos los mensajes (texto traducido).
+Returns all the translated strings.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -67,6 +67,20 @@ Propriétés
    | :ref:`int<class_int>`                                         | :ref:`type<class_GLTFAccessor_property_type>`                                                   |                          |
    +---------------------------------------------------------------+-------------------------------------------------------------------------------------------------+--------------------------+
 
+.. rst-class:: classref-reftable-group
+
+Méthodes
+----------------
+
+.. table::
+   :widths: auto
+
+   +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GLTFAccessor<class_GLTFAccessor>` | :ref:`from_dictionary<class_GLTFAccessor_method_from_dictionary>`\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| |
+   +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Dictionary<class_Dictionary>`     | :ref:`to_dictionary<class_GLTFAccessor_method_to_dictionary>`\ (\ ) |const|                                                        |
+   +-----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -509,6 +523,35 @@ Le décalage par rapport au début du bufferView en octets.
 **Obsolète :** Use :ref:`accessor_type<class_GLTFAccessor_property_accessor_type>` instead.
 
 Le type d'accesseur glTF, en tant qu':ref:`int<class_int>`. Les valeurs possibles sont ``0`` pour "SCALAR", ``1`` pour "VEC2", ``2`` pour "VEC3", ``3`` pour "VEC4", ``4`` pour "MAT2", ``5`` pour "MAT3", et ``6`` pour "MAT4".
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Descriptions des méthodes
+--------------------------------------------------
+
+.. _class_GLTFAccessor_method_from_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`GLTFAccessor<class_GLTFAccessor>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFAccessor_method_from_dictionary>`
+
+Creates a new GLTFAccessor instance by parsing the given :ref:`Dictionary<class_Dictionary>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GLTFAccessor_method_to_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFAccessor_method_to_dictionary>`
+
+Serializes this GLTFAccessor instance into a :ref:`Dictionary<class_Dictionary>`.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

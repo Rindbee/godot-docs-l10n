@@ -181,11 +181,9 @@ Descrizioni delle proprietà
 - |void| **set_keep_compressed_buffer**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_keeping_compressed_buffer**\ (\ )
 
-Quando in esecuzione nell'editor, questa classe manterrà i dati compressi di origine in memoria. Altrimenti, i dati compressi di origine sono persi dopo il caricamento e la risorsa non può essere salvata di nuovo.
+If ``true``, when running in the editor, this texture will keep the source-compressed data in memory, allowing the data to persist after loading. Otherwise, the source-compressed data is lost after loading and the texture can't be re-saved.
 
-Questo flag consente di mantenere i dati compressi in memoria se si intende che persistano dopo il caricamento.
-
-\ **Nota:** Questo deve essere impostato prima di chiamare :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` affinché abbia effetto.
+\ **Note:** This property must be set before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` for this to work.
 
 .. rst-class:: classref-item-separator
 
@@ -202,7 +200,7 @@ Questo flag consente di mantenere i dati compressi in memoria se si intende che 
 - |void| **set_size_override**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_size_override**\ (\ )
 
-Consente di sovrascrivere le dimensioni della texture (solo per 2D).
+Allows overriding the texture's size (for 2D only).
 
 .. rst-class:: classref-section-separator
 
@@ -259,7 +257,7 @@ Restituisce il formato immagine utilizzato (valido dopo l'inizializzazione).
 
 :ref:`bool<class_bool>` **is_keeping_all_compressed_buffers**\ (\ ) |static| :ref:`🔗<class_PortableCompressedTexture2D_method_is_keeping_all_compressed_buffers>`
 
-Restituisce se il flag è sovrascritto per tutte le texture di questo tipo.
+Returns ``true`` if the flag is overridden for all textures of this type.
 
 .. rst-class:: classref-item-separator
 
@@ -271,9 +269,9 @@ Restituisce se il flag è sovrascritto per tutte le texture di questo tipo.
 
 |void| **set_basisu_compressor_params**\ (\ uastc_level\: :ref:`int<class_int>`, rdo_quality_loss\: :ref:`float<class_float>`\ ) :ref:`🔗<class_PortableCompressedTexture2D_method_set_basisu_compressor_params>`
 
-Imposta i parametri del compressore per la compressione Basis Universal. Consulta anche le impostazioni in :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
+Sets the compressor parameters for Basis Universal compression. See also the settings in :ref:`ResourceImporterTexture<class_ResourceImporterTexture>`.
 
-\ **Nota:** Ciò deve essere impostato prima di :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` per avere effetto.
+\ **Note:** This method must be called before :ref:`create_from_image()<class_PortableCompressedTexture2D_method_create_from_image>` for this to work.
 
 .. rst-class:: classref-item-separator
 
@@ -285,7 +283,7 @@ Imposta i parametri del compressore per la compressione Basis Universal. Consult
 
 |void| **set_keep_all_compressed_buffers**\ (\ keep\: :ref:`bool<class_bool>`\ ) |static| :ref:`🔗<class_PortableCompressedTexture2D_method_set_keep_all_compressed_buffers>`
 
-Sovrascrive il flag globalmente per tutte le texture di questo tipo. È utilizzato principalmente dall'editor.
+If ``keep`` is ``true``, overrides the flag globally for all textures of this type. This is used primarily by the editor.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -420,13 +420,13 @@ Renvoie un nouveau vecteur avec tous ses composantes en valeurs absolues (c'est-
 
 :ref:`float<class_float>` **angle**\ (\ ) |const| :ref:`🔗<class_Vector2_method_angle>`
 
-Renvoie l'angle de ce vecteur par rapport à l'axe X positif, ou aussi le vecteur ``(1,0)``, en radians.
+Returns this vector's angle with respect to the positive X axis, or ``(1, 0)`` vector, in radians.
 
-Par exemple, ``Vector2.RIGHT.angle()`` va renvoyer zéro, ``Vector2.DOWN.angle()`` va renvoyer ``PI / 2`` (un quart de tour, ou 90 degrés), et ``Vector2(1,-1).angle()`` va renvoyer ``-PI / 4`` (un huitième de tour négatif, ou -45 degrés).
+For example, ``Vector2.RIGHT.angle()`` will return zero, ``Vector2.DOWN.angle()`` will return ``PI / 2`` (a quarter turn, or 90 degrees), and ``Vector2(1, -1).angle()`` will return ``-PI / 4`` (a negative eighth turn, or -45 degrees).
 
-\ `Illustration de l'angle renvoyé. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle.png>`__\ 
+This is equivalent to calling :ref:`@GlobalScope.atan2()<class_@GlobalScope_method_atan2>` with :ref:`y<class_Vector2_property_y>` and :ref:`x<class_Vector2_property_x>`.
 
-Équivalent au résultat de :ref:`@GlobalScope.atan2()<class_@GlobalScope_method_atan2>` quand appelé avec le :ref:`y<class_Vector2_property_y>` et le :ref:`x<class_Vector2_property_x>` du vecteur comme paramètres : ``atan2(y,x)``.
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -438,9 +438,9 @@ Par exemple, ``Vector2.RIGHT.angle()`` va renvoyer zéro, ``Vector2.DOWN.angle()
 
 :ref:`float<class_float>` **angle_to**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_angle_to>`
 
-Renvoie l'angle signé avec le vecteur donné, en radians.
+Returns the signed angle to the given vector, in radians. The result ranges from ``-PI`` to ``PI`` (inclusive).
 
-\ `Illustration de l'angle retourné. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -452,11 +452,11 @@ Renvoie l'angle signé avec le vecteur donné, en radians.
 
 :ref:`float<class_float>` **angle_to_point**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_angle_to_point>`
 
-Renvoie l'angle entre la ligne reliant les deux points et l'axe X, en radians.
+Returns the signed angle between the X axis and the line from this vector to point ``to``, in radians. The result ranges from ``-PI`` to ``PI`` (inclusive).
 
-\ ``a.angle_to_point(b)`` est équivalent à ``(b - a).angle()``.
+\ ``a.angle_to_point(b)`` is equivalent to ``(b - a).angle()``. See also :ref:`angle()<class_Vector2_method_angle>`.
 
-\ `Illustration de l'angle renvoyé. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to_point.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to_point.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ Renvoie l'angle entre la ligne reliant les deux points et l'axe X, en radians.
 
 :ref:`float<class_float>` **aspect**\ (\ ) |const| :ref:`🔗<class_Vector2_method_aspect>`
 
-Renvoie le ratio d'aspect de ce vecteur, soit :ref:`x<class_Vector2_property_x>` divisé par :ref:`y<class_Vector2_property_y>`.
+Returns this vector's aspect ratio, which is :ref:`x<class_Vector2_property_x>` divided by :ref:`y<class_Vector2_property_y>`.
 
 .. rst-class:: classref-item-separator
 
@@ -596,7 +596,9 @@ Elle peut effectuer une interpolation plus lisse que :ref:`cubic_interpolate()<c
 
 :ref:`Vector2<class_Vector2>` **direction_to**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_direction_to>`
 
-Renvoie le vecteur normalisé pointant de ce vecteur en direction de ``to``. Ceci est équivalent à l'utilisation de ``(b - a).normalized()``.
+Returns the normalized vector pointing from this vector to ``to``.
+
+\ ``a.direction_to(b)`` is equivalent to ``(b - a).normalized()``. See also :ref:`normalized()<class_Vector2_method_normalized>`.
 
 .. rst-class:: classref-item-separator
 

@@ -103,6 +103,8 @@ Modifica dell'albero della scena. Se questa funzionalità è disabilitata, il pa
 
 :ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_NODE_DOCK** = ``4``
 
+**Deprecato:** Replaced by the Signals and Groups docks.
+
 Il pannello Nodo. Se questa funzionalità è disabilitata, i segnali e i gruppi non saranno visibili e modificabili dall'editor.
 
 .. _class_EditorFeatureProfile_constant_FEATURE_FILESYSTEM_DOCK:
@@ -137,11 +139,27 @@ Il pannello Cronologia. Se questa funzionalità è disabilitata, il pannello Cro
 
 La scheda Gioco, che consente di incorporare la finestra di gioco e selezionare i nodi cliccando al suo interno. Se questa funzionalità è disabilitata, la scheda Gioco non sarà visualizzata.
 
+.. _class_EditorFeatureProfile_constant_FEATURE_SIGNALS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_SIGNALS_DOCK** = ``9``
+
+The Signals dock. If this feature is disabled, signals won't be visible and modifiable from the editor.
+
+.. _class_EditorFeatureProfile_constant_FEATURE_GROUPS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_GROUPS_DOCK** = ``10``
+
+The Groups dock. If this feature is disabled, groups won't be visible and modifiable from the editor.
+
 .. _class_EditorFeatureProfile_constant_FEATURE_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``9``
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``11``
 
 Rappresenta la dimensione dell'enumerazione :ref:`Feature<enum_EditorFeatureProfile_Feature>`.
 

@@ -381,7 +381,7 @@ Restituisce file aggiuntivi che devono sempre essere esportati a prescindere dal
 
 :ref:`String<class_String>` **get_message_category**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_category>`
 
-Restituisce la categoria del messaggio, per il messaggio con l'indice ``index``.
+Returns the message category for the message with the given ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -393,7 +393,7 @@ Restituisce la categoria del messaggio, per il messaggio con l'indice ``index``.
 
 :ref:`int<class_int>` **get_message_count**\ (\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_count>`
 
-Restituisce il numero di messaggi nel log d'esportazione.
+Returns the number of messages in the export log.
 
 .. rst-class:: classref-item-separator
 
@@ -405,7 +405,7 @@ Restituisce il numero di messaggi nel log d'esportazione.
 
 :ref:`String<class_String>` **get_message_text**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_text>`
 
-Restituisce il testo del messaggio, per il messaggio con l'indice ``index``.
+Returns the text for the message with the given ``index``.
 
 .. rst-class:: classref-item-separator
 
@@ -417,7 +417,7 @@ Restituisce il testo del messaggio, per il messaggio con l'indice ``index``.
 
 :ref:`ExportMessageType<enum_EditorExportPlatform_ExportMessageType>` **get_message_type**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_EditorExportPlatform_method_get_message_type>`
 
-Restituisce il tipo del messaggio, per il messaggio con l'indice ``index``.
+Returns the type for the message with the given ``index``.
 
 .. rst-class:: classref-item-separator
 

@@ -16,6 +16,53 @@ HScrollBar
 
 Горизонтальная полоса прокрутки, обычно используемая для навигации по содержимому, выходящему за пределы видимой ширины элемента управления. Это элемент управления на основе :ref:`Range<class_Range>` и идет слева (min) направо (max).
 
+.. rst-class:: classref-reftable-group
+
+Свойства темы
+--------------------------
+
+.. table::
+   :widths: auto
+
+   +-----------------------+-----------------------------------------------------------------------+-------+
+   | :ref:`int<class_int>` | :ref:`padding_bottom<class_HScrollBar_theme_constant_padding_bottom>` | ``0`` |
+   +-----------------------+-----------------------------------------------------------------------+-------+
+   | :ref:`int<class_int>` | :ref:`padding_top<class_HScrollBar_theme_constant_padding_top>`       | ``0`` |
+   +-----------------------+-----------------------------------------------------------------------+-------+
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Описания свойств темы
+------------------------------------------
+
+.. _class_HScrollBar_theme_constant_padding_bottom:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **padding_bottom** = ``0`` :ref:`🔗<class_HScrollBar_theme_constant_padding_bottom>`
+
+Padding between the bottom of the :ref:`ScrollBar.scroll<class_ScrollBar_theme_style_scroll>` element and the :ref:`ScrollBar.grabber<class_ScrollBar_theme_style_grabber>`.
+
+\ **Note:** To apply horizontal padding, modify the left/right content margins of :ref:`ScrollBar.scroll<class_ScrollBar_theme_style_scroll>` instead.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_HScrollBar_theme_constant_padding_top:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **padding_top** = ``0`` :ref:`🔗<class_HScrollBar_theme_constant_padding_top>`
+
+Padding between the top of the :ref:`ScrollBar.scroll<class_ScrollBar_theme_style_scroll>` element and the :ref:`ScrollBar.grabber<class_ScrollBar_theme_style_grabber>`.
+
+\ **Note:** To apply horizontal padding, modify the left/right content margins of :ref:`ScrollBar.scroll<class_ScrollBar_theme_style_scroll>` instead.
+
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`
 .. |const| replace:: :abbr:`const (Этот метод не имеет побочных эффектов. Он не изменяет ни одну из переменных-членов экземпляра.)`

@@ -14,13 +14,13 @@ EditorTranslationParserPlugin
 Описание
 ----------------
 
-**EditorTranslationParserPlugin** вызывается, когда файл анализируется для извлечения строк, требующих перевода. Чтобы определить логику анализа и извлечения строк, переопределите метод :ref:`_parse_file()<class_EditorTranslationParserPlugin_private_method__parse_file>` в скрипте.
+**EditorTranslationParserPlugin** is invoked when a file is being parsed to extract strings that require translation. To define the parsing and string extraction logic, override the :ref:`_parse_file()<class_EditorTranslationParserPlugin_private_method__parse_file>` method in script.
 
-Возвращаемое значение должно быть :ref:`Array<class_Array>` из :ref:`PackedStringArray<class_PackedStringArray>`, по одному для каждой извлеченной переводимой строки. Каждая запись должна содержать ``[msgid, msgctxt, msgid_plural, comment]``, где все, кроме ``msgid``, являются необязательными. Пустые строки будут игнорироваться.
+The return value should be an :ref:`Array<class_Array>` of :ref:`PackedStringArray<class_PackedStringArray>`\ s, one for each extracted translatable string. Each entry should contain ``[msgid, msgctxt, msgid_plural, comment, source_line]``, where all except ``msgid`` are optional. Empty strings will be ignored.
 
-Извлеченные строки будут записаны в POT-файл, выбранный пользователем в разделе «Генерация POT» на вкладке «Локализация» в меню «Настройки проекта».
+The extracted strings will be written into a translation template file selected by user under "Template Generation" in "Localization" tab in "Project Settings" menu.
 
-Ниже показан пример пользовательского парсера, который извлекает строки из CSV-файла для записи в POT.
+Below shows an example of a custom parser that extracts strings from a CSV file to write into a template.
 
 
 .. tabs::
@@ -73,32 +73,32 @@ EditorTranslationParserPlugin
 
 
 
-Чтобы добавить переводимую строку, связанную с контекстом, множественным числом или комментарием:
+To add a translatable string associated with a context, plural, comment, or source line:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    # Это добавит сообщение с msgid "Test 1", msgctxt "context", msgid_plural "test 1 plurals", и комментарий "test 1 comment".
-    ret.append(PackedStringArray(["Test 1", "context", "test 1 plurals", "test 1 comment"]))
-    # Это добавит сообщение с msgid "A test without context" и msgid_plural "plurals".
+    # This will add a message with msgid "Test 1", msgctxt "context", msgid_plural "test 1 plurals", comment "test 1 comment", and source line "7".
+    ret.append(PackedStringArray(["Test 1", "context", "test 1 plurals", "test 1 comment", "7"]))
+    # This will add a message with msgid "A test without context" and msgid_plural "plurals".
     ret.append(PackedStringArray(["A test without context", "", "plurals"]))
-    # Это добавит сообщение с msgid "Only with context" и msgctxt "a friendly context".
+    # This will add a message with msgid "Only with context" and msgctxt "a friendly context".
     ret.append(PackedStringArray(["Only with context", "a friendly context"]))
 
  .. code-tab:: csharp
 
-    // Это добавит сообщение с msgid "Test 1", msgctxt "context", msgid_plural "test 1 plurals", и комментарий "test 1 comment".
-    ret.Add(["Test 1", "context", "test 1 plurals", "test 1 comment"]);
-    // Это добавит сообщение с msgid "A test without context" и msgid_plural "plurals".
+    // This will add a message with msgid "Test 1", msgctxt "context", msgid_plural "test 1 plurals", comment "test 1 comment", and source line "7".
+    ret.Add(["Test 1", "context", "test 1 plurals", "test 1 comment", "7"]);
+    // This will add a message with msgid "A test without context" and msgid_plural "plurals".
     ret.Add(["A test without context", "", "plurals"]);
-    // Это добавит сообщение с msgid "Only with context" и msgctxt "a friendly context".
+    // This will add a message with msgid "Only with context" and msgctxt "a friendly context".
     ret.Add(["Only with context", "a friendly context"]);
 
 
 
-\ **Примечание:** Если вы переопределяете логику синтаксического анализа для стандартных типов скриптов (GDScript, C# и т. д.), лучше загрузить аргумент ``path`` с помощью :ref:`ResourceLoader.load()<class_ResourceLoader_method_load>`. Это связано с тем, что встроенные скрипты загружаются как тип :ref:`Resource<class_Resource>`, а не :ref:`FileAccess<class_FileAccess>`. Например:
+\ **Note:** If you override parsing logic for standard script types (GDScript, C#, etc.), it would be better to load the ``path`` argument using :ref:`ResourceLoader.load()<class_ResourceLoader_method_load>`. This is because built-in scripts are loaded as :ref:`Resource<class_Resource>` type, not :ref:`FileAccess<class_FileAccess>` type. For example:
 
 
 .. tabs::
@@ -108,7 +108,7 @@ EditorTranslationParserPlugin
     func _parse_file(path):
         var res = ResourceLoader.load(path, "Script")
         var text = res.source_code
-        # Логика анализа.
+        # Parsing logic.
 
     func _get_recognized_extensions():
         return ["gd"]
@@ -119,7 +119,7 @@ EditorTranslationParserPlugin
     {
         var res = ResourceLoader.Load<Script>(path, "Script");
         string text = res.SourceCode;
-        // Логика анализа.
+        // Parsing logic.
     }
 
     public override string[] _GetRecognizedExtensions()
@@ -129,7 +129,7 @@ EditorTranslationParserPlugin
 
 
 
-Чтобы использовать **EditorTranslationParserPlugin**, сначала зарегистрируйте его с помощью метода :ref:`EditorPlugin.add_translation_parser_plugin()<class_EditorPlugin_method_add_translation_parser_plugin>`.
+To use **EditorTranslationParserPlugin**, register it using the :ref:`EditorPlugin.add_translation_parser_plugin()<class_EditorPlugin_method_add_translation_parser_plugin>` method first.
 
 .. rst-class:: classref-reftable-group
 

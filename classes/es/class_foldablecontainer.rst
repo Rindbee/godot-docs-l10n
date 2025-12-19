@@ -1,7 +1,7 @@
 :github_url: hide
 
 .. meta::
-	:keywords: expandable, collapsible, collapse
+	:keywords: expandable, collapsible, collapse, accordion, details
 
 .. _class_FoldableContainer:
 
@@ -17,15 +17,11 @@ Un contenedor que puede ser expandido/colapsado.
 Descripción
 ----------------------
 
-Un contenedor que puede ser expandido/colapsado, con un título que puede ser rellenado con controles, como botones.
+A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons. This is also called an accordion.
 
-El título puede ser posicionado en la parte superior o inferior del contenedor.
+The title can be positioned at the top or bottom of the container. The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused. Child control nodes are hidden when the container is collapsed. Ignores non-control children.
 
-El contenedor puede ser expandido o colapsado haciendo clic en el título o presionando ``ui_accept`` cuando está enfocado.
-
-Los nodos de control hijo se ocultan cuando el contenedor está colapsado. Ignora los hijos que no son controles.
-
-Puede permitir la agrupación con otros FoldableContainers, comprueba :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` y :ref:`FoldableGroup<class_FoldableGroup>`.
+A FoldableContainer can be grouped with other FoldableContainers so that only one of them can be opened at a time; see :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -223,7 +219,7 @@ Si es ``true``, el contenedor se plegará y ocultará a todos sus hijos.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Código de idioma utilizado para los algoritmos de modelado de texto. Si se deja vacío, se utiliza la configuración regional actual en su lugar.
+Language code used for text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

@@ -10,6 +10,8 @@ MarginContainer
 
 **Hérite de :** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
+**Hérité par :** :ref:`EditorDock<class_EditorDock>`
+
 Un conteneur qui garde une marge autour de ses contrôles enfants.
 
 .. rst-class:: classref-introduction-group

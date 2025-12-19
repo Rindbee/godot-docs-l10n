@@ -43,6 +43,8 @@ macOS 导出器。
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                             | :ref:`application/icon_interpolation<class_EditorExportPlatformMacOS_property_application/icon_interpolation>`                                                                         |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`                       | :ref:`application/liquid_glass_icon<class_EditorExportPlatformMacOS_property_application/liquid_glass_icon>`                                                                           |
+   +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                       | :ref:`application/min_macos_version_arm64<class_EditorExportPlatformMacOS_property_application/min_macos_version_arm64>`                                                               |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                       | :ref:`application/min_macos_version_x86_64<class_EditorExportPlatformMacOS_property_application/min_macos_version_x86_64>`                                                             |
@@ -411,13 +413,13 @@ macOS 导出器。
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/purchase_history/used_for_tracking<class_EditorExportPlatformMacOS_property_privacy/collected_data/purchase_history/used_for_tracking>`                   |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_hhistory/collected<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/collected>`                                     |
+   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_history/collected<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/collected>`                                       |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                             | :ref:`privacy/collected_data/search_hhistory/collection_purposes<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/collection_purposes>`                 |
+   | :ref:`int<class_int>`                             | :ref:`privacy/collected_data/search_history/collection_purposes<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/collection_purposes>`                   |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_hhistory/linked_to_user<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/linked_to_user>`                           |
+   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_history/linked_to_user<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/linked_to_user>`                             |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_hhistory/used_for_tracking<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/used_for_tracking>`                     |
+   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_history/used_for_tracking<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/used_for_tracking>`                       |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/sensitive_info/collected<class_EditorExportPlatformMacOS_property_privacy/collected_data/sensitive_info/collected>`                                       |
    +---------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -605,6 +607,22 @@ App Store 的应用程序分类。
 :ref:`int<class_int>` **application/icon_interpolation** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/icon_interpolation>`
 
 用于调整应用程序图标大小的插值方法。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorExportPlatformMacOS_property_application/liquid_glass_icon:
+
+.. rst-class:: classref-property
+
+:ref:`String<class_String>` **application/liquid_glass_icon** :ref:`🔗<class_EditorExportPlatformMacOS_property_application/liquid_glass_icon>`
+
+macOS 26 Liquid Glass icon source file. Use `Icon Composer <https://developer.apple.com/icon-composer/>`__ to create Liquid Glass icons.
+
+\ **Note:** Supported when exporting from macOS only, Xcode 26+ required.
+
+\ **Note:** Liquid Glass icons are supported on macOS 26 only, use :ref:`application/icon<class_EditorExportPlatformMacOS_property_application/icon>` to set the icon for older macOS versions.
 
 .. rst-class:: classref-item-separator
 
@@ -2851,11 +2869,11 @@ Apple ID 针对应用的密码。
 
 ----
 
-.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/collected:
+.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/collected:
 
 .. rst-class:: classref-property
 
-:ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/collected** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/collected>`
+:ref:`bool<class_bool>` **privacy/collected_data/search_history/collected** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/collected>`
 
 表示你的应用程序是否收集搜索历史记录。
 
@@ -2863,11 +2881,11 @@ Apple ID 针对应用的密码。
 
 ----
 
-.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/collection_purposes:
+.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/collection_purposes:
 
 .. rst-class:: classref-property
 
-:ref:`int<class_int>` **privacy/collected_data/search_hhistory/collection_purposes** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/collection_purposes>`
+:ref:`int<class_int>` **privacy/collected_data/search_history/collection_purposes** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/collection_purposes>`
 
 你的应用程序收集搜索历史的原因。请参阅 `描述隐私清单中的数据使用 <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__\ 。
 
@@ -2875,11 +2893,11 @@ Apple ID 针对应用的密码。
 
 ----
 
-.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/linked_to_user:
+.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/linked_to_user:
 
 .. rst-class:: classref-property
 
-:ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/linked_to_user** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/linked_to_user>`
+:ref:`bool<class_bool>` **privacy/collected_data/search_history/linked_to_user** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/linked_to_user>`
 
 表示你的应用是否会将搜索历史链接到用户的身份。
 
@@ -2887,11 +2905,11 @@ Apple ID 针对应用的密码。
 
 ----
 
-.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/used_for_tracking:
+.. _class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/used_for_tracking:
 
 .. rst-class:: classref-property
 
-:ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/used_for_tracking** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_hhistory/used_for_tracking>`
+:ref:`bool<class_bool>` **privacy/collected_data/search_history/used_for_tracking** :ref:`🔗<class_EditorExportPlatformMacOS_property_privacy/collected_data/search_history/used_for_tracking>`
 
 表示你的应用是否会将搜索历史用于追踪。
 
@@ -3219,7 +3237,9 @@ Apple ID 针对应用的密码。
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformMacOS_property_shader_baker/enabled>`
 
-如果为 ``true``\ ，则着色器将被编译并嵌入到应用程序中。仅当使用 Forward+ 或 Mobile 渲染器时，才支持此选项。
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

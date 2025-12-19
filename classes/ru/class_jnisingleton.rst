@@ -23,6 +23,35 @@ JNISingleton реализован только в экспорте Android. Он
 
 - `Создание плагинов для ОС Android <../tutorials/platform/android/android_plugin.html#doc-android-plugin>`__
 
+.. rst-class:: classref-reftable-group
+
+Методы
+------------
+
+.. table::
+   :widths: auto
+
+   +-------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>` | :ref:`has_java_method<class_JNISingleton_method_has_java_method>`\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| |
+   +-------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+Описания метода
+------------------------------
+
+.. _class_JNISingleton_method_has_java_method:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **has_java_method**\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_JNISingleton_method_has_java_method>`
+
+Returns ``true`` if the given ``method`` name exists in the JNISingleton's Java methods.
+
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`
 .. |const| replace:: :abbr:`const (Этот метод не имеет побочных эффектов. Он не изменяет ни одну из переменных-членов экземпляра.)`

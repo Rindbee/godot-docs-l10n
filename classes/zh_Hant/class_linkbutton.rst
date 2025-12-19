@@ -27,6 +27,8 @@ LinkButton
    :widths: auto
 
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`                                       | :ref:`ellipsis_char<class_LinkButton_property_ellipsis_char>`                                                 | ``"…"``                                                                             |
+   +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`FocusMode<enum_Control_FocusMode>`                          | focus_mode                                                                                                    | ``3`` (overrides :ref:`Control<class_Control_property_focus_mode>`)                 |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                                       | :ref:`language<class_LinkButton_property_language>`                                                           | ``""``                                                                              |
@@ -40,6 +42,8 @@ LinkButton
    | :ref:`String<class_String>`                                       | :ref:`text<class_LinkButton_property_text>`                                                                   | ``""``                                                                              |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`TextDirection<enum_Control_TextDirection>`                  | :ref:`text_direction<class_LinkButton_property_text_direction>`                                               | ``0``                                                                               |
+   +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
+   | :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`           | :ref:`text_overrun_behavior<class_LinkButton_property_text_overrun_behavior>`                                 | ``0``                                                                               |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
    | :ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`               | :ref:`underline<class_LinkButton_property_underline>`                                                         | ``0``                                                                               |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------+
@@ -128,6 +132,23 @@ LinkButton 永遠不會在其文字底部顯示底線。
 屬性說明
 --------
 
+.. _class_LinkButton_property_ellipsis_char:
+
+.. rst-class:: classref-property
+
+:ref:`String<class_String>` **ellipsis_char** = ``"…"`` :ref:`🔗<class_LinkButton_property_ellipsis_char>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_ellipsis_char**\ (\ value\: :ref:`String<class_String>`\ )
+- :ref:`String<class_String>` **get_ellipsis_char**\ (\ )
+
+Ellipsis character used for text clipping.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_LinkButton_property_language:
 
 .. rst-class:: classref-property
@@ -139,7 +160,7 @@ LinkButton 永遠不會在其文字底部顯示底線。
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-語言程式碼，用於斷行和文字塑形演算法，如果留空則使用目前區域設定。
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -208,6 +229,23 @@ LinkButton 永遠不會在其文字底部顯示底線。
 - :ref:`TextDirection<enum_Control_TextDirection>` **get_text_direction**\ (\ )
 
 基礎文字書寫方向。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_LinkButton_property_text_overrun_behavior:
+
+.. rst-class:: classref-property
+
+:ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **text_overrun_behavior** = ``0`` :ref:`🔗<class_LinkButton_property_text_overrun_behavior>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_text_overrun_behavior**\ (\ value\: :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>`\ )
+- :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_text_overrun_behavior**\ (\ )
+
+Sets the clipping behavior when the text exceeds the node's bounding rectangle.
 
 .. rst-class:: classref-item-separator
 

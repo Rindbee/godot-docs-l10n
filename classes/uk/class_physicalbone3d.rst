@@ -21,6 +21,13 @@ PhysicalBone3D
 
 \ **Примітка:** Для виявлення фізичних кісток з променями, :ref:`SkeletonModifier3D.active<class_SkeletonModifier3D_property_active>` властивість батька :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` повинна бути ``true`` і :ref:`Skeleton3D<class_Skeleton3D>` повинні бути призначені для **PhysicalBone3D** правильно; це означає, що :ref:`get_bone_id()<class_PhysicalBone3D_method_get_bone_id>` повинен повернути дійсну ID (``>= 0``).
 
+.. rst-class:: classref-introduction-group
+
+Посібники
+------------------
+
+- :doc:`Ragdoll System <../tutorials/physics/ragdoll_system>`
+
 .. rst-class:: classref-reftable-group
 
 Властивості

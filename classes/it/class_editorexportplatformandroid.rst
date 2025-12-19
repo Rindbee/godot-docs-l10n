@@ -257,6 +257,8 @@ Proprietà
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`permissions/manage_external_storage<class_EditorExportPlatformAndroid_property_permissions/manage_external_storage>`                       |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`permissions/manage_media<class_EditorExportPlatformAndroid_property_permissions/manage_media>`                                             |
+   +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`permissions/master_clear<class_EditorExportPlatformAndroid_property_permissions/master_clear>`                                             |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`permissions/media_content_control<class_EditorExportPlatformAndroid_property_permissions/media_content_control>`                           |
@@ -453,7 +455,7 @@ Descrizioni delle proprietà
 
 :ref:`String<class_String>` **apk_expansion/SALT** :ref:`🔗<class_EditorExportPlatformAndroid_property_apk_expansion/SALT>`
 
-Array di byte casuali utilizzata dalla Politica di licenza per creare un `Obfuscator <https://developer.android.com/google/play/licensing/adding-licensing#impl-Obfuscator>`__.
+Array of random bytes that the licensing policy uses to create an `Obfuscator <https://developer.android.com/google/play/licensing/adding-licensing#impl-Obfuscator>`__.
 
 .. rst-class:: classref-item-separator
 
@@ -1863,6 +1865,18 @@ Consente a un'applicazione un ampio accesso all'archiviazione esterna in un arch
 
 ----
 
+.. _class_EditorExportPlatformAndroid_property_permissions/manage_media:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **permissions/manage_media** :ref:`🔗<class_EditorExportPlatformAndroid_property_permissions/manage_media>`
+
+Allows an application to modify and delete media files on this device or any connected storage device without user confirmation. Applications must already be granted the ``READ_EXTERNAL_STORAGE`` or ``MANAGE_EXTERNAL_STORAGE`` permissions for this permission to take effect. See `MANAGE_MEDIA <https://developer.android.com/reference/android/Manifest.permission#MANAGE_MEDIA>`__.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_EditorExportPlatformAndroid_property_permissions/master_clear:
 
 .. rst-class:: classref-property
@@ -2811,7 +2825,7 @@ Consente a un'applicazione di scrivere nel dizionario utente.
 
 :ref:`Color<class_Color>` **screen/background_color** :ref:`🔗<class_EditorExportPlatformAndroid_property_screen/background_color>`
 
-Il colore di sfondo utilizzato per la finestra principale. Predefinito su ``black``.
+The background color used for the root window. By default it's :ref:`Color.BLACK<class_Color_constant_BLACK>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2897,7 +2911,9 @@ Indica se l'applicazione supporta fattori forma di schermi di grandi dimensioni.
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformAndroid_property_shader_baker/enabled>`
 
-Se ``true``, gli shader saranno compilati e incorporati nell'applicazione. Questa opzione è supportata solo quando si utilizzano i renderer Forward+ o Mobile.
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

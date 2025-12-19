@@ -164,9 +164,9 @@ Here is an example script implementing a simple **MainLoop**:
 
 **NOTIFICATION_OS_IME_UPDATE** = ``2013`` :ref:`🔗<class_MainLoop_constant_NOTIFICATION_OS_IME_UPDATE>`
 
-當輸入法引擎發生更新時，從作業系統收到的通知（例如，IME 游標位置或組成字串的變化）。
+Notification received from the OS when an update of the Input Method Engine occurs (e.g. change of IME cursor position or composition string).
 
-僅限 macOS 平臺。
+Implemented on desktop and web platforms.
 
 .. _class_MainLoop_constant_NOTIFICATION_APPLICATION_RESUMED:
 

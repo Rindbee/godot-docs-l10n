@@ -100,11 +100,11 @@ Descrizioni delle proprietà
 
 :ref:`int<class_int>` **compress/channel_pack** = ``0`` :ref:`🔗<class_ResourceImporterTexture_property_compress/channel_pack>`
 
-Controlla come bisogna utilizzare i canali del colore nella texture importata.
+Controls how color channels should be used in the imported texture.
 
-\ **sRGB Friendly:** Impedisce l'uso del formato colore RG, poiché non supporta il colore sRGB.
+\ **sRGB Friendly:** Prevents the R and RG color formats from being used, as they do not support nonlinear sRGB encoding.
 
-\ **Optimized:** Consente l'uso del formato colore RG se la texture non utilizza il canale blu. Ciò riduce l'utilizzo di memoria se il canale blu della texture può essere scartato (tutti i pixel devono avere un valore blu pari a ``0``).
+\ **Optimized:** Allows the RG color format to be used if the texture does not use the blue channel. This reduces memory usage if the texture's blue channel can be discarded (all pixels must have a blue value of ``0``).
 
 .. rst-class:: classref-item-separator
 
@@ -454,9 +454,9 @@ Si consiglia di lasciare questa opzione abilitata (come è predefinito), a meno 
 
 :ref:`bool<class_bool>` **process/hdr_as_srgb** = ``false`` :ref:`🔗<class_ResourceImporterTexture_property_process/hdr_as_srgb>`
 
-Alcune immagini HDR che è possibile trovare online potrebbero essere incorrette e contenere dati di colore sRGB (invece di dati di colore lineare). Si consiglia di non utilizzare tali file. Se è proprio necessario, abilitando :ref:`process/hdr_as_srgb<class_ResourceImporterTexture_property_process/hdr_as_srgb>` appariranno corrette.
+Some HDR images you can find online may be broken and contain data that is encoded using the nonlinear sRGB transfer function (instead of using linear encoding). It is advised not to use those files. If you absolutely have to, enabling :ref:`process/hdr_as_srgb<class_ResourceImporterTexture_property_process/hdr_as_srgb>` will make them look correct.
 
-\ **Attenzione:** Abilitare :ref:`process/hdr_as_srgb<class_ResourceImporterTexture_property_process/hdr_as_srgb>` sulle immagini HDR ben formattate risulterà in un immagine troppo scura, quindi lascialo su ``false`` in caso di dubbio.
+\ **Warning:** Enabling :ref:`process/hdr_as_srgb<class_ResourceImporterTexture_property_process/hdr_as_srgb>` on well-formatted HDR images will cause the resulting image to look too dark, so leave this on ``false`` if unsure.
 
 .. rst-class:: classref-item-separator
 

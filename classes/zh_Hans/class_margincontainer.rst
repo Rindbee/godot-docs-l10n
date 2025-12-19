@@ -10,6 +10,8 @@ MarginContainer
 
 **继承：** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
+**派生：** :ref:`EditorDock<class_EditorDock>`
+
 在子控件周围保留边距的容器。
 
 .. rst-class:: classref-introduction-group

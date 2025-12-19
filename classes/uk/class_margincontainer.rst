@@ -10,6 +10,8 @@ MarginContainer
 
 **Успадковує:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
+**Успадковано від:** :ref:`EditorDock<class_EditorDock>`
+
 Контейнер, який зберігає запас навколо своїх контрольних систем.
 
 .. rst-class:: classref-introduction-group

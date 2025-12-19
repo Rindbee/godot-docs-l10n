@@ -7,7 +7,7 @@ StreamPeer
 
 **Hereda:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-**Heredado por:** :ref:`StreamPeerBuffer<class_StreamPeerBuffer>`, :ref:`StreamPeerExtension<class_StreamPeerExtension>`, :ref:`StreamPeerGZIP<class_StreamPeerGZIP>`, :ref:`StreamPeerTCP<class_StreamPeerTCP>`, :ref:`StreamPeerTLS<class_StreamPeerTLS>`
+**Heredado por:** :ref:`StreamPeerBuffer<class_StreamPeerBuffer>`, :ref:`StreamPeerExtension<class_StreamPeerExtension>`, :ref:`StreamPeerGZIP<class_StreamPeerGZIP>`, :ref:`StreamPeerSocket<class_StreamPeerSocket>`, :ref:`StreamPeerTLS<class_StreamPeerTLS>`
 
 Clase base abstracta para interactuar con tranmisiones.
 
@@ -205,7 +205,7 @@ Devuelve la cantidad de bytes que este **StreamPeer** tiene disponible.
 
 :ref:`Array<class_Array>` **get_data**\ (\ bytes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeer_method_get_data>`
 
-Devuelve un trozo de datos con los bytes recibidos. El número de bytes a recibir puede solicitarse en el argumento ``bytes``. Si no hay suficientes bytes disponibles, la función se bloqueará hasta que se reciba la cantidad deseada. Esta función devuelve dos valores, un código :ref:`Error<enum_@GlobalScope_Error>` y un array de datos.
+Returns a chunk data with the received bytes, as an :ref:`Array<class_Array>` containing two elements: an :ref:`Error<enum_@GlobalScope_Error>` constant and a :ref:`PackedByteArray<class_PackedByteArray>`. ``bytes`` is the number of bytes to be received. If not enough bytes are available, the function will block until the desired amount is received.
 
 .. rst-class:: classref-item-separator
 
@@ -253,7 +253,7 @@ Obtiene un float de precisión media de la transmisión.
 
 :ref:`Array<class_Array>` **get_partial_data**\ (\ bytes\: :ref:`int<class_int>`\ ) :ref:`🔗<class_StreamPeer_method_get_partial_data>`
 
-Devuelve un fragmento de datos con los bytes recibidos. La cantidad de bytes a recibir se puede solicitar en el argumento ``bytes``. Si no hay suficientes bytes disponibles, la función devolverá cuántos se recibieron realmente. Esta función devuelve dos valores: un código :ref:`Error<enum_@GlobalScope_Error>` y un array de datos.
+Returns a chunk data with the received bytes, as an :ref:`Array<class_Array>` containing two elements: an :ref:`Error<enum_@GlobalScope_Error>` constant and a :ref:`PackedByteArray<class_PackedByteArray>`. ``bytes`` is the number of bytes to be received. If not enough bytes are available, the function will return how many were actually received.
 
 .. rst-class:: classref-item-separator
 

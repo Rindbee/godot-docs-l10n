@@ -23,7 +23,7 @@ Il singleton JavaScriptBridge è implementato solo nell'esportazione Web. È uti
 Tutorial
 ----------------
 
-- `Esportazione per il Web: Chiamata di JavaScript da script <../tutorials/export/exporting_for_web.html#calling-javascript-from-script>`__
+- :doc:`The JavaScriptBridge singleton <../tutorials/platform/web/javascript_bridge>`
 
 .. rst-class:: classref-reftable-group
 

@@ -739,52 +739,58 @@ Crashes двигун (або редактор, якщо називається �
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_cmdline_args**\ (\ ) :ref:`🔗<class_OS_method_get_cmdline_args>`
 
-Повертає аргументи командного рядка, передані механізму. 
+Returns the command-line arguments passed to the engine, excluding arguments processed by the engine, such as ``--headless`` and ``--fullscreen``.
 
-Аргументи командного рядка можна записати в будь-якій формі, включаючи форми ``--key=value`` і ``--key=value``, щоб їх можна було правильно проаналізувати, за умови, що спеціальні аргументи командного рядка не конфліктують з аргументами механізму. 
+::
 
-Ви також можете включити змінні середовища за допомогою методу :ref:`get_environment()<class_OS_method_get_environment>`. 
+    # Godot has been executed with the following command:
+    # godot --headless --verbose --scene my_scene.tscn --custom
+    OS.get_cmdline_args() # Returns ["--scene", "my_scene.tscn", "--custom"]
 
-Ви можете встановити :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSettings_property_editor/run/main_run_args>`, щоб визначити аргументи командного рядка, які передає редактор під час запуску проекту. 
+Command-line arguments can be written in any form, including both ``--key value`` and ``--key=value`` forms so they can be properly parsed, as long as custom command-line arguments do not conflict with engine arguments.
 
-\ **Приклад:** Розберіть аргументи командного рядка в ``словник`` за допомогою форми ``--ключ=значення`` для аргументів: 
+You can also incorporate environment variables using the :ref:`get_environment()<class_OS_method_get_environment>` method.
+
+You can set :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSettings_property_editor/run/main_run_args>` to define command-line arguments to be passed by the editor when running the project.
+
+\ **Example:** Parse command-line arguments into a :ref:`Dictionary<class_Dictionary>` using the ``--key=value`` form for arguments:
 
 
-.. tabs:: 
+.. tabs::
 
  .. code-tab:: gdscript
- 
-    var arguments = {} 
-    for argument in OS.get_cmdline_args(): 
-        if argument.contains("="): 
-            var key_value = argument.split("=") 
-            arguments[key_value[0].trim_prefix("--")] = key_value[1] 
-        else: 
-            # Варіанти без аргументу будуть присутні в словнику, 
-            # зі значенням, встановленим у порожній рядок. 
-            аргументи[argument.trim_prefix("--")] = ""  
+
+    var arguments = {}
+    for argument in OS.get_cmdline_args():
+        if argument.contains("="):
+            var key_value = argument.split("=")
+            arguments[key_value[0].trim_prefix("--")] = key_value[1]
+        else:
+            # Options without an argument will be present in the dictionary,
+            # with the value set to an empty string.
+            arguments[argument.trim_prefix("--")] = ""
 
  .. code-tab:: csharp
- 
-    var arguments = new Dictionary<string, string>(); 
-    foreach (argument var в OS.GetCmdlineArgs()) 
+
+    var arguments = new Dictionary<string, string>();
+    foreach (var argument in OS.GetCmdlineArgs())
     {
-        if (argument.Contains('=')) 
-        { 
-            string[] keyValue = argument.Split("="); 
-            arguments[keyValue[0].TrimPrefix("--")] = keyValue[1]; 
-        } 
-        else 
-        { 
-            // Параметри без аргументу будуть присутні в словнику, 
-            // зі значенням, встановленим у порожній рядок. 
-            arguments[argument.TrimPrefix("--")] = ""; 
-        } 
-    } 
+        if (argument.Contains('='))
+        {
+            string[] keyValue = argument.Split("=");
+            arguments[keyValue[0].TrimPrefix("--")] = keyValue[1];
+        }
+        else
+        {
+            // Options without an argument will be present in the dictionary,
+            // with the value set to an empty string.
+            arguments[argument.TrimPrefix("--")] = "";
+        }
+    }
 
- 
 
-\ **Примітка:** Не рекомендується передавати користувальницькі аргументи безпосередньо, оскільки система може їх відхилити або змінити. Замість цього передайте стандартне подвійне тире UNIX (``--``), а потім спеціальні аргументи, які механізм ігноруватиме за задумом. Їх можна прочитати через :ref:`get_cmdline_user_args()<class_OS_method_get_cmdline_user_args>`.
+
+\ **Note:** Passing custom user arguments directly is not recommended, as the engine may discard or modify them. Instead, pass the standard UNIX double dash (``--``) and then the custom arguments, which the engine will ignore by design. These can be read via :ref:`get_cmdline_user_args()<class_OS_method_get_cmdline_user_args>`.
 
 .. rst-class:: classref-item-separator
 
@@ -796,17 +802,17 @@ Crashes двигун (або редактор, якщо називається �
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_cmdline_user_args**\ (\ ) :ref:`🔗<class_OS_method_get_cmdline_user_args>`
 
-Повертає аргументи користувача командного рядка, передані системі. Аргументи користувача ігноруються механізмом і резервуються для користувача. Вони передаються після аргументу подвійного тире ``--``. ``++`` можна використовувати, коли ``--`` перехоплюється іншою програмою (наприклад, ``startx``). 
+Returns the command-line user arguments passed to the engine. User arguments are ignored by the engine and reserved for the user. They are passed after the double dash ``--`` argument. ``++`` may be used when ``--`` is intercepted by another program (such as ``startx``).
 
 ::
- 
-    # Godot було виконано за такою командою: 
-    # godot --fullscreen -- --level=2 --hardcore 
 
-    OS.get_cmdline_args() # Повертає ["--fullscreen", "--level=2", "--hardcore"] 
-    OS.get_cmdline_user_args() # Повертає ["--level=2", "--hardcore"]  
+    # Godot has been executed with the following command:
+    # godot --fullscreen --custom -- --level=2 --hardcore
 
-Щоб отримати всі передані аргументи, використовуйте :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>`.
+    OS.get_cmdline_args()      # Returns ["--custom"]
+    OS.get_cmdline_user_args() # Returns ["--level=2", "--hardcore"]
+
+To get arguments passed before ``--`` or ``++``, use :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>`.
 
 .. rst-class:: classref-item-separator
 

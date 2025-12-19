@@ -68,13 +68,13 @@ Descrizioni delle proprietà
 
 :ref:`int<class_int>` **compress/channel_pack** = ``0`` :ref:`🔗<class_ResourceImporterLayeredTexture_property_compress/channel_pack>`
 
-Controlla come bisogna utilizzare i canali colore nella texture importata.
+Controls how color channels should be used in the imported texture.
 
-\ **sRGB Friendly:**, impedisce l'uso del formato colore RG, poiché non supporta il colore sRGB.
+\ **sRGB Friendly:**, prevents the R and RG color formats from being used, as they do not support nonlinear sRGB encoding.
 
-\ **Optimized:**, consente l'uso del formato colore RG se la texture non utilizza il canale blu. Ciò riduce l'utilizzo della memoria se il canale blu della texture può essere scartato (tutti i pixel devono avere un valore blu pari a ``0``).
+\ **Optimized:**, allows the RG color format to be used if the texture does not use the blue channel. This reduces memory usage if the texture's blue channel can be discarded (all pixels must have a blue value of ``0``).
 
-\ **Normal Map (RG Channels):** Ciò forza l'importazione di tutti i livelli della texture con il formato colore RG, mantenendo solo i canali rosso e verde. La compressione RGTC (Red-Green Texture Compression) è in grado di preservare i dettagli molto meglio, utilizzando la stessa quantità di memoria di una texture RGBA standard compressa per la VRAM. Ciò ha effetto solo sulle texture con le modalità di compressione VRAM Compressed o Basis Universal. Questa modalità è disponibile solo nelle texture multilivello (:ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>` e :ref:`Texture3D<class_Texture3D>`).
+\ **Normal Map (RG Channels):** This forces all layers from the texture to be imported with the RG color format, with only the red and green channels preserved. RGTC (Red-Green Texture Compression) compression is able to preserve its detail much better, while using the same amount of memory as a standard RGBA VRAM-compressed texture. This only has an effect on textures with the VRAM Compressed or Basis Universal compression modes. This mode is only available in layered textures (:ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>` and :ref:`Texture3D<class_Texture3D>`).
 
 .. rst-class:: classref-item-separator
 

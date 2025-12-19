@@ -37,81 +37,85 @@
 .. table::
    :widths: auto
 
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`AudioServer<class_AudioServer>`                         | :ref:`AudioServer<class_@GlobalScope_property_AudioServer>`                         |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`CameraServer<class_CameraServer>`                       | :ref:`CameraServer<class_@GlobalScope_property_CameraServer>`                       |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`ClassDB<class_ClassDB>`                                 | :ref:`ClassDB<class_@GlobalScope_property_ClassDB>`                                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`DisplayServer<class_DisplayServer>`                     | :ref:`DisplayServer<class_@GlobalScope_property_DisplayServer>`                     |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`EditorInterface<class_EditorInterface>`                 | :ref:`EditorInterface<class_@GlobalScope_property_EditorInterface>`                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Engine<class_Engine>`                                   | :ref:`Engine<class_@GlobalScope_property_Engine>`                                   |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`EngineDebugger<class_EngineDebugger>`                   | :ref:`EngineDebugger<class_@GlobalScope_property_EngineDebugger>`                   |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`GDExtensionManager<class_GDExtensionManager>`           | :ref:`GDExtensionManager<class_@GlobalScope_property_GDExtensionManager>`           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Geometry2D<class_Geometry2D>`                           | :ref:`Geometry2D<class_@GlobalScope_property_Geometry2D>`                           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Geometry3D<class_Geometry3D>`                           | :ref:`Geometry3D<class_@GlobalScope_property_Geometry3D>`                           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`IP<class_IP>`                                           | :ref:`IP<class_@GlobalScope_property_IP>`                                           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Input<class_Input>`                                     | :ref:`Input<class_@GlobalScope_property_Input>`                                     |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`InputMap<class_InputMap>`                               | :ref:`InputMap<class_@GlobalScope_property_InputMap>`                               |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`JavaClassWrapper<class_JavaClassWrapper>`               | :ref:`JavaClassWrapper<class_@GlobalScope_property_JavaClassWrapper>`               |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`JavaScriptBridge<class_JavaScriptBridge>`               | :ref:`JavaScriptBridge<class_@GlobalScope_property_JavaScriptBridge>`               |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Marshalls<class_Marshalls>`                             | :ref:`Marshalls<class_@GlobalScope_property_Marshalls>`                             |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`NativeMenu<class_NativeMenu>`                           | :ref:`NativeMenu<class_@GlobalScope_property_NativeMenu>`                           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>` | :ref:`NavigationMeshGenerator<class_@GlobalScope_property_NavigationMeshGenerator>` |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`NavigationServer2D<class_NavigationServer2D>`           | :ref:`NavigationServer2D<class_@GlobalScope_property_NavigationServer2D>`           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`NavigationServer3D<class_NavigationServer3D>`           | :ref:`NavigationServer3D<class_@GlobalScope_property_NavigationServer3D>`           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`OS<class_OS>`                                           | :ref:`OS<class_@GlobalScope_property_OS>`                                           |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Performance<class_Performance>`                         | :ref:`Performance<class_@GlobalScope_property_Performance>`                         |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`PhysicsServer2D<class_PhysicsServer2D>`                 | :ref:`PhysicsServer2D<class_@GlobalScope_property_PhysicsServer2D>`                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`   | :ref:`PhysicsServer2DManager<class_@GlobalScope_property_PhysicsServer2DManager>`   |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`PhysicsServer3D<class_PhysicsServer3D>`                 | :ref:`PhysicsServer3D<class_@GlobalScope_property_PhysicsServer3D>`                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`   | :ref:`PhysicsServer3DManager<class_@GlobalScope_property_PhysicsServer3DManager>`   |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`ProjectSettings<class_ProjectSettings>`                 | :ref:`ProjectSettings<class_@GlobalScope_property_ProjectSettings>`                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`RenderingServer<class_RenderingServer>`                 | :ref:`RenderingServer<class_@GlobalScope_property_RenderingServer>`                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`ResourceLoader<class_ResourceLoader>`                   | :ref:`ResourceLoader<class_@GlobalScope_property_ResourceLoader>`                   |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`ResourceSaver<class_ResourceSaver>`                     | :ref:`ResourceSaver<class_@GlobalScope_property_ResourceSaver>`                     |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`ResourceUID<class_ResourceUID>`                         | :ref:`ResourceUID<class_@GlobalScope_property_ResourceUID>`                         |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`TextServerManager<class_TextServerManager>`             | :ref:`TextServerManager<class_@GlobalScope_property_TextServerManager>`             |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`ThemeDB<class_ThemeDB>`                                 | :ref:`ThemeDB<class_@GlobalScope_property_ThemeDB>`                                 |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`Time<class_Time>`                                       | :ref:`Time<class_@GlobalScope_property_Time>`                                       |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`TranslationServer<class_TranslationServer>`             | :ref:`TranslationServer<class_@GlobalScope_property_TranslationServer>`             |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`WorkerThreadPool<class_WorkerThreadPool>`               | :ref:`WorkerThreadPool<class_@GlobalScope_property_WorkerThreadPool>`               |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
-   | :ref:`XRServer<class_XRServer>`                               | :ref:`XRServer<class_@GlobalScope_property_XRServer>`                               |
-   +---------------------------------------------------------------+-------------------------------------------------------------------------------------+
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`AudioServer<class_AudioServer>`                             | :ref:`AudioServer<class_@GlobalScope_property_AudioServer>`                             |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`CameraServer<class_CameraServer>`                           | :ref:`CameraServer<class_@GlobalScope_property_CameraServer>`                           |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`ClassDB<class_ClassDB>`                                     | :ref:`ClassDB<class_@GlobalScope_property_ClassDB>`                                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`DisplayServer<class_DisplayServer>`                         | :ref:`DisplayServer<class_@GlobalScope_property_DisplayServer>`                         |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`EditorInterface<class_EditorInterface>`                     | :ref:`EditorInterface<class_@GlobalScope_property_EditorInterface>`                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Engine<class_Engine>`                                       | :ref:`Engine<class_@GlobalScope_property_Engine>`                                       |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`EngineDebugger<class_EngineDebugger>`                       | :ref:`EngineDebugger<class_@GlobalScope_property_EngineDebugger>`                       |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`GDExtensionManager<class_GDExtensionManager>`               | :ref:`GDExtensionManager<class_@GlobalScope_property_GDExtensionManager>`               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Geometry2D<class_Geometry2D>`                               | :ref:`Geometry2D<class_@GlobalScope_property_Geometry2D>`                               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Geometry3D<class_Geometry3D>`                               | :ref:`Geometry3D<class_@GlobalScope_property_Geometry3D>`                               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`IP<class_IP>`                                               | :ref:`IP<class_@GlobalScope_property_IP>`                                               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Input<class_Input>`                                         | :ref:`Input<class_@GlobalScope_property_Input>`                                         |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`InputMap<class_InputMap>`                                   | :ref:`InputMap<class_@GlobalScope_property_InputMap>`                                   |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`JavaClassWrapper<class_JavaClassWrapper>`                   | :ref:`JavaClassWrapper<class_@GlobalScope_property_JavaClassWrapper>`                   |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`JavaScriptBridge<class_JavaScriptBridge>`                   | :ref:`JavaScriptBridge<class_@GlobalScope_property_JavaScriptBridge>`                   |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Marshalls<class_Marshalls>`                                 | :ref:`Marshalls<class_@GlobalScope_property_Marshalls>`                                 |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`NativeMenu<class_NativeMenu>`                               | :ref:`NativeMenu<class_@GlobalScope_property_NativeMenu>`                               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`     | :ref:`NavigationMeshGenerator<class_@GlobalScope_property_NavigationMeshGenerator>`     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`NavigationServer2D<class_NavigationServer2D>`               | :ref:`NavigationServer2D<class_@GlobalScope_property_NavigationServer2D>`               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`NavigationServer2DManager<class_NavigationServer2DManager>` | :ref:`NavigationServer2DManager<class_@GlobalScope_property_NavigationServer2DManager>` |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`NavigationServer3D<class_NavigationServer3D>`               | :ref:`NavigationServer3D<class_@GlobalScope_property_NavigationServer3D>`               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`NavigationServer3DManager<class_NavigationServer3DManager>` | :ref:`NavigationServer3DManager<class_@GlobalScope_property_NavigationServer3DManager>` |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`OS<class_OS>`                                               | :ref:`OS<class_@GlobalScope_property_OS>`                                               |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Performance<class_Performance>`                             | :ref:`Performance<class_@GlobalScope_property_Performance>`                             |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`PhysicsServer2D<class_PhysicsServer2D>`                     | :ref:`PhysicsServer2D<class_@GlobalScope_property_PhysicsServer2D>`                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`       | :ref:`PhysicsServer2DManager<class_@GlobalScope_property_PhysicsServer2DManager>`       |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`PhysicsServer3D<class_PhysicsServer3D>`                     | :ref:`PhysicsServer3D<class_@GlobalScope_property_PhysicsServer3D>`                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`       | :ref:`PhysicsServer3DManager<class_@GlobalScope_property_PhysicsServer3DManager>`       |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`ProjectSettings<class_ProjectSettings>`                     | :ref:`ProjectSettings<class_@GlobalScope_property_ProjectSettings>`                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`RenderingServer<class_RenderingServer>`                     | :ref:`RenderingServer<class_@GlobalScope_property_RenderingServer>`                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`ResourceLoader<class_ResourceLoader>`                       | :ref:`ResourceLoader<class_@GlobalScope_property_ResourceLoader>`                       |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`ResourceSaver<class_ResourceSaver>`                         | :ref:`ResourceSaver<class_@GlobalScope_property_ResourceSaver>`                         |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`ResourceUID<class_ResourceUID>`                             | :ref:`ResourceUID<class_@GlobalScope_property_ResourceUID>`                             |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`TextServerManager<class_TextServerManager>`                 | :ref:`TextServerManager<class_@GlobalScope_property_TextServerManager>`                 |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`ThemeDB<class_ThemeDB>`                                     | :ref:`ThemeDB<class_@GlobalScope_property_ThemeDB>`                                     |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`Time<class_Time>`                                           | :ref:`Time<class_@GlobalScope_property_Time>`                                           |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`TranslationServer<class_TranslationServer>`                 | :ref:`TranslationServer<class_@GlobalScope_property_TranslationServer>`                 |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`WorkerThreadPool<class_WorkerThreadPool>`                   | :ref:`WorkerThreadPool<class_@GlobalScope_property_WorkerThreadPool>`                   |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
+   | :ref:`XRServer<class_XRServer>`                                   | :ref:`XRServer<class_@GlobalScope_property_XRServer>`                                   |
+   +-------------------------------------------------------------------+-----------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -3464,11 +3468,11 @@ enum **PropertyHint**: :ref:`🔗<enum_@GlobalScope_PropertyHint>`
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_RANGE** = ``1``
 
-提示 :ref:`int<class_int>` 或 :ref:`float<class_float>` 屬性應在提示字串 ``"min,max"`` 或 ``"min,max,step"`` 指定的範圍內。提示字串可以選擇包含 ``"or_greater"`` 和/或 ``"or_less"`` 以允許手動輸入高於最大值或低於最小值的值。
+Hints that an :ref:`int<class_int>` or :ref:`float<class_float>` property should be within a range specified via the hint string ``"min,max"`` or ``"min,max,step"``. The hint string can optionally include ``"or_greater"`` and/or ``"or_less"`` to allow manual input going respectively above the max or below the min values.
 
-\ **範例：**\ ``"-360,360,1,or_greater,or_less"``\ 。
+\ **Example:** ``"-360,360,1,or_greater,or_less"``.
 
-此外，還可以包含其他關鍵字：\ ``"exp"`` 用於指數範圍編輯，\ ``"radians"`` 用於以度數編輯弧度角，\ ``"degrees"`` 提示一個角度，以及 ``"hide_slider"`` 隱藏滑桿。
+Additionally, other keywords can be included: ``"exp"`` for exponential range editing, ``"radians_as_degrees"`` for editing radian angles in degrees (the range values are also in degrees), ``"degrees"`` to hint at an angle, ``"prefer_slider"`` to show the slider for integers, ``"hide_control"`` to hide the slider or up-down arrows, and ``"suffix:px/s"`` to display a suffix indicating the value's unit (e.g. ``px/s`` for pixels per second).
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_ENUM:
 
@@ -3476,9 +3480,9 @@ enum **PropertyHint**: :ref:`🔗<enum_@GlobalScope_PropertyHint>`
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_ENUM** = ``2``
 
-提示 :ref:`int<class_int>` 或 :ref:`String<class_String>` 屬性是列舉值，可通過提示字串在指定的列表中選取。
+Hints that an :ref:`int<class_int>`, :ref:`String<class_String>`, or :ref:`StringName<class_StringName>` property is an enumerated value to pick in a list specified via a hint string.
 
-該提示字串是逗號分隔的名稱列表，例如 ``"Hello,Something,Else"``\ 。 **不會**\ 從名稱的任何一端刪除空格。對於整數屬性，列表中的第一個名稱的值為 0，下一個名稱的值為 1，依此類推。也可以通過將 ``:integer`` 附加到名稱來明確的指定值，例如 ``"Zero,One,Three:3,Four,Six:6"``\ 。
+The hint string is a comma separated list of names such as ``"Hello,Something,Else"``. Whitespace is **not** removed from either end of a name. For integer properties, the first name in the list has value 0, the next 1, and so on. Explicit values can also be specified by appending ``:integer`` to the name, e.g. ``"Zero,One,Three:3,Four,Six:6"``.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_ENUM_SUGGESTION:
 
@@ -3486,9 +3490,9 @@ enum **PropertyHint**: :ref:`🔗<enum_@GlobalScope_PropertyHint>`
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_ENUM_SUGGESTION** = ``3``
 
-提示 :ref:`String<class_String>` 屬性為列舉值，可以通過提示字串在指定的列表中選取，例如 ``"Hello,Something,Else"``\ 。
+Hints that a :ref:`String<class_String>` or :ref:`StringName<class_StringName>` property can be an enumerated value to pick in a list specified via a hint string such as ``"Hello,Something,Else"``. See :ref:`PROPERTY_HINT_ENUM<class_@GlobalScope_constant_PROPERTY_HINT_ENUM>` for details.
 
-與 :ref:`PROPERTY_HINT_ENUM<class_@GlobalScope_constant_PROPERTY_HINT_ENUM>` 不同，具有該提示的屬性仍然接受任意值並且可以為空。值列表用於建議可能的值。
+Unlike :ref:`PROPERTY_HINT_ENUM<class_@GlobalScope_constant_PROPERTY_HINT_ENUM>`, a property with this hint still accepts arbitrary values and can be empty. The list of values serves to suggest possible values.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_EXP_EASING:
 
@@ -3512,13 +3516,13 @@ enum **PropertyHint**: :ref:`🔗<enum_@GlobalScope_PropertyHint>`
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_FLAGS** = ``6``
 
-提示 :ref:`int<class_int>` 屬性為位元遮罩，位元旗標擁有名稱。
+Hints that an :ref:`int<class_int>` property is a bitmask with named bit flags.
 
-提示字串為逗號分隔的名稱列表，例如 ``"Bit0,Bit1,Bit2,Bit3"``\ 。名稱兩端的空白字元\ **不會**\ 被移除。列表中的第一個名稱的值為 1、然後是 2、接下來就是 4、8、16 等值。也可以通過在名稱後加上 ``:整數`` 來指定明確的的值，例如 ``"A:4,B:8,C:16"``\ 。你還可以對旗標進行組合（\ ``"A:4,B:8,AB:12,C:16"``\ ）。
+The hint string is a comma separated list of names such as ``"Bit0,Bit1,Bit2,Bit3"``. Whitespace is **not** removed from either end of a name. The first name in the list has value 1, the next 2, then 4, 8, 16 and so on. Explicit values can also be specified by appending ``:integer`` to the name, e.g. ``"A:4,B:8,C:16"``. You can also combine several flags (``"A:4,B:8,AB:12,C:16"``).
 
-\ **注意：**\ 旗標值最多為 ``1``\ ，最多為 ``2 ** 32 - 1``\ 。
+\ **Note:** A flag value must be at least ``1`` and at most ``2 ** 32 - 1``.
 
-\ **注意：**\ 與 :ref:`PROPERTY_HINT_ENUM<class_@GlobalScope_constant_PROPERTY_HINT_ENUM>` 不同，不會考慮前一個明確的值。如果提示為 ``"A:16,B,C"``\ ，則 A 為 16、B 為 2、C 為 4。
+\ **Note:** Unlike :ref:`PROPERTY_HINT_ENUM<class_@GlobalScope_constant_PROPERTY_HINT_ENUM>`, the previous explicit value is not taken into account. For the hint ``"A:16,B,C"``, A is 16, B is 2, C is 4.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_LAYERS_2D_RENDER:
 
@@ -3622,7 +3626,11 @@ Hints that a :ref:`String<class_String>` property is a path to a file. Editing i
 
 :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>` **PROPERTY_HINT_MULTILINE_TEXT** = ``18``
 
-提示 :ref:`String<class_String>` 屬性為包含換行的文字。編輯是會顯示文字輸入欄位，可以進行換行。
+Hints that a :ref:`String<class_String>` property is text with line breaks. Editing it will show a text input field where line breaks can be typed.
+
+The hint string can be set to ``"monospace"`` to force the input field to use a monospaced font.
+
+If the hint string ``"no_wrap"`` is set, the input field will not wrap lines at boundaries, instead resorting to making the area scrollable.
 
 .. _class_@GlobalScope_constant_PROPERTY_HINT_EXPRESSION:
 
@@ -4082,7 +4090,23 @@ flags **PropertyUsageFlags**: :ref:`🔗<enum_@GlobalScope_PropertyUsageFlags>`
 
 :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>` **PROPERTY_USAGE_ARRAY** = ``262144``
 
-該屬性為陣列。
+The property is the element count of a property array, i.e. a list of groups of related properties. Properties defined with this usage also need a specific ``class_name`` field in the form of ``label,prefix``. The field may also include additional comma-separated options:
+
+- ``page_size=N``: Overrides :ref:`EditorSettings.interface/inspector/max_array_dictionary_items_per_page<class_EditorSettings_property_interface/inspector/max_array_dictionary_items_per_page>` for this array.
+
+- ``add_button_text=text``: The text displayed by the "Add Element" button.
+
+- ``static``: The elements can't be re-arranged.
+
+- ``const``: New elements can't be added.
+
+- ``numbered``: An index will appear next to each element.
+
+- ``unfoldable``: The array can't be folded.
+
+- ``swap_method=method_name``: The method that will be called when two elements switch places. The method should take 2 :ref:`int<class_int>` parameters, which will be indices of the elements being swapped.
+
+Note that making a full-fledged property array requires boilerplate code involving :ref:`Object._get_property_list()<class_Object_private_method__get_property_list>`.
 
 .. _class_@GlobalScope_constant_PROPERTY_USAGE_ALWAYS_DUPLICATE:
 
@@ -5065,6 +5089,18 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
 
 ----
 
+.. _class_@GlobalScope_property_NavigationServer2DManager:
+
+.. rst-class:: classref-property
+
+:ref:`NavigationServer2DManager<class_NavigationServer2DManager>` **NavigationServer2DManager** :ref:`🔗<class_@GlobalScope_property_NavigationServer2DManager>`
+
+The :ref:`NavigationServer2DManager<class_NavigationServer2DManager>` singleton.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_@GlobalScope_property_NavigationServer3D:
 
 .. rst-class:: classref-property
@@ -5072,6 +5108,18 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
 :ref:`NavigationServer3D<class_NavigationServer3D>` **NavigationServer3D** :ref:`🔗<class_@GlobalScope_property_NavigationServer3D>`
 
 :ref:`NavigationServer3D<class_NavigationServer3D>` 單例。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_@GlobalScope_property_NavigationServer3DManager:
+
+.. rst-class:: classref-property
+
+:ref:`NavigationServer3DManager<class_NavigationServer3DManager>` **NavigationServer3DManager** :ref:`🔗<class_@GlobalScope_property_NavigationServer3DManager>`
+
+The :ref:`NavigationServer3DManager<class_NavigationServer3DManager>` singleton.
 
 .. rst-class:: classref-item-separator
 
@@ -5980,9 +6028,7 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
 
 :ref:`Object<class_Object>` **instance_from_id**\ (\ instance_id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_@GlobalScope_method_instance_from_id>`
 
-回傳對應 ``instance_id`` 的 :ref:`Object<class_Object>`\ 。
-
-所有物件皆有唯一的實例 ID。另見 :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`\ 。
+Returns the :ref:`Object<class_Object>` that corresponds to ``instance_id``. All Objects have a unique instance ID. See also :ref:`Object.get_instance_id()<class_Object_method_get_instance_id>`.
 
 
 .. tabs::
@@ -5993,8 +6039,8 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
 
     func _ready():
         var id = get_instance_id()
-        var inst = instance_from_id(id)
-        print(inst.drink) # 輸出 "water"
+        var instance = instance_from_id(id)
+        print(instance.drink) # Prints "water"
 
  .. code-tab:: csharp
 
@@ -6005,8 +6051,8 @@ enum **Variant.Operator**: :ref:`🔗<enum_@GlobalScope_Variant.Operator>`
         public override void _Ready()
         {
             ulong id = GetInstanceId();
-            var inst = (MyNode)InstanceFromId(id);
-            GD.Print(inst.Drink); // 輸出 "water"
+            var instance = (MyNode)InstanceFromId(Id);
+            GD.Print(instance.Drink); // Prints "water"
         }
     }
 
@@ -7426,7 +7472,7 @@ URL 標籤僅支援形如 ``[url]https://example.com[/url]`` 的格式。
 
 :ref:`int<class_int>` **typeof**\ (\ variable\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_@GlobalScope_method_typeof>`
 
-回傳給定 ``variable`` 的內部型態，採用 :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`\ 。
+Returns the internal type of the given ``variable``, using the :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` values.
 
 ::
 
@@ -7434,11 +7480,11 @@ URL 標籤僅支援形如 ``[url]https://example.com[/url]`` 的格式。
     json.parse('["a", "b", "c"]')
     var result = json.get_data()
     if typeof(result) == TYPE_ARRAY:
-        print(result[0]) # 輸出 "a"
+        print(result[0]) # Prints "a"
     else:
-        print("非預期的結果！")
+        print("Unexpected result!")
 
-參見 :ref:`type_string()<class_@GlobalScope_method_type_string>`\ 。
+See also :ref:`type_string()<class_@GlobalScope_method_type_string>`.
 
 .. rst-class:: classref-item-separator
 

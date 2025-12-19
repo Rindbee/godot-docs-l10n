@@ -216,49 +216,51 @@ JSON
 
 :ref:`String<class_String>` **stringify**\ (\ data\: :ref:`Variant<class_Variant>`, indent\: :ref:`String<class_String>` = "", sort_keys\: :ref:`bool<class_bool>` = true, full_precision\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_JSON_method_stringify>`
 
-Перетворює змінну :ref:`Variant<class_Variant>` на текст JSON і повертає результат. Корисно для серіалізації даних для зберігання або надсилання через мережу. 
+Converts a :ref:`Variant<class_Variant>` var to JSON text and returns the result. Useful for serializing data to store or send over the network.
 
-\ **Примітка:** Специфікація JSON не визначає цілі чи типи з плаваючою точкою, а лише тип *число*. Таким чином, перетворення Variant на текст JSON перетворить усі числові значення на типи :ref:`float<class_float>`. 
+\ **Note:** The JSON specification does not define integer or float types, but only a *number* type. Therefore, converting a Variant to JSON text will convert all numerical values to :ref:`float<class_float>` types.
 
-\ **Примітка:** Якщо ``full_precision`` має значення ``true``, під час утворення рядків з плаваючою точкою ненадійні цифри утворюються в рядки на додаток до надійних цифр, щоб гарантувати точне декодування. 
+\ **Note:** If ``full_precision`` is ``true``, when stringifying floats, the unreliable digits are stringified in addition to the reliable digits to guarantee exact decoding.
 
-Параметр ``indent`` контролює, чи мається відступ і як це відбувається; його вміст буде використано там, де має бути відступ у виведених даних. Навіть такі пробіли, як ``" "``, будуть працювати. ``\t`` і ``\n`` також можна використовувати для відступу табуляції або для створення нового рядка для кожного відступу відповідно. 
+The ``indent`` parameter controls if and how something is indented; its contents will be used where there should be an indent in the output. Even spaces like ``"   "`` will work. ``\t`` and ``\n`` can also be used for a tab indent, or to make a newline for each indent respectively.
 
-\ **Приклад результату:** 
+\ **Warning:** Non-finite numbers are not supported in JSON. Any occurrences of :ref:`@GDScript.INF<class_@GDScript_constant_INF>` will be replaced with ``1e99999``, and negative :ref:`@GDScript.INF<class_@GDScript_constant_INF>` will be replaced with ``-1e99999``, but they will be interpreted correctly as infinity by most JSON parsers. :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` will be replaced with ``null``, and it will not be interpreted as NaN in JSON parsers. If you expect non-finite numbers, consider passing your data through :ref:`from_native()<class_JSON_method_from_native>` first.
+
+\ **Example output:**\ 
 
 ::
- 
-    ## JSON.stringify(my_dictionary) 
-    {"name":"my_dictionary","version":"1.0.0","entities":[{"name":"entity_0","value":"value_0"},{"name":"entity_1","value":"value_1"}]} 
 
-    ## JSON.stringify(my_dictionary, "\t") 
+    ## JSON.stringify(my_dictionary)
+    {"name":"my_dictionary","version":"1.0.0","entities":[{"name":"entity_0","value":"value_0"},{"name":"entity_1","value":"value_1"}]}
+
+    ## JSON.stringify(my_dictionary, "\t")
     {
-        "ім'я": "мій_словник", 
-        "версія": "1.0.0", 
-        "сутності": [ 
-            { 
-                "ім'я": "сутність_0", 
-                "значення": "значення_0" 
-            }, 
-            { 
-                "ім'я": "сутність_1", 
-                "value": "value_1" 
-            } 
-        ] 
+        "name": "my_dictionary",
+        "version": "1.0.0",
+        "entities": [
+            {
+                "name": "entity_0",
+                "value": "value_0"
+            },
+            {
+                "name": "entity_1",
+                "value": "value_1"
+            }
+        ]
     }
 
-    ## JSON.stringify(my_dictionary, "...") 
+    ## JSON.stringify(my_dictionary, "...")
     {
-    ..."ім'я": "мій_словник", 
-    ..."версія": "1.0.0", 
-    ..."сутності": [ 
+    ..."name": "my_dictionary",
+    ..."version": "1.0.0",
+    ..."entities": [
     ......{
-    ........."ім'я": "сутність_0", 
-    ........."значення": "значення_0" 
+    ........."name": "entity_0",
+    ........."value": "value_0"
     ......},
     ......{
-    ........."ім'я": "сутність_1", 
-    ........."значення": "значення_1" 
+    ........."name": "entity_1",
+    ........."value": "value_1"
     ......}
     ...]
     }

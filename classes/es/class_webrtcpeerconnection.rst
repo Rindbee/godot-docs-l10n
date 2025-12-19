@@ -16,17 +16,26 @@ Interfaz a una conexión de pares WebRTC.
 Descripción
 ----------------------
 
-Una conexión WebRTC entre el equipo local y un par remoto. Proporciona una interfaz para conectar, mantener y monitorizar la conexión.
+A WebRTC connection between the local computer and a remote peer. Provides an interface to connect, maintain, and monitor the connection.
 
-Configurar una conexión WebRTC entre dos pares puede no parecer una tarea trivial, pero puede dividirse en 3 pasos principales:
+Setting up a WebRTC connection between two peers may not seem a trivial task, but it can be broken down into 3 main steps:
 
-- El par que quiere iniciar la conexión (``A`` a partir de ahora) crea una oferta y la envía al otro par (``B`` a partir de ahora).
+- The peer that wants to initiate the connection (``A`` from now on) creates an offer and sends it to the other peer (``B`` from now on).
 
-- ``B`` recibe la oferta, la genera y responde, y la envía a ``A``).
+- ``B`` receives the offer, generates an answer, and sends it to ``A``.
 
-- ``A`` y ``B`` generan e intercambian candidatos ICE entre sí.
+- ``A`` and ``B`` then generate and exchange ICE candidates with each other.
 
-Después de estos pasos, la conexión debería establecerse. Sigue leyendo o consulta el tutorial para obtener más información.
+After these steps, the connection should be established. Refer to the linked tutorials for details.
+
+.. rst-class:: classref-introduction-group
+
+Tutoriales
+--------------------
+
+- :doc:`WebRTC documentation <../tutorials/networking/webrtc>`
+
+- :doc:`Multijugador de alto nivel <../tutorials/networking/high_level_multiplayer>`
 
 .. rst-class:: classref-reftable-group
 

@@ -27,6 +27,8 @@ Utiliza las muchas clases :ref:`ResourceFormatLoader<class_ResourceFormatLoader>
 Tutoriales
 --------------------
 
+- `Threaded Loading Demo <https://godotengine.org/asset-library/asset/2778>`__
+
 - `Demo de Prueba de Sistema Operativo <https://godotengine.org/asset-library/asset/2789>`__
 
 .. rst-class:: classref-reftable-group

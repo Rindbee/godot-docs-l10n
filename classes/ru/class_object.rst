@@ -5,7 +5,7 @@
 Object
 ======
 
-**Наследуется от:** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
+**Наследуется от:** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`GodotInstance<class_GodotInstance>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer2DManager<class_NavigationServer2DManager>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`NavigationServer3DManager<class_NavigationServer3DManager>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
 
 Базовый класс для всех остальных классов в движке.
 
@@ -251,7 +251,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_PERSIST** = ``2``
 
-Сохраняющиеся соединения сохраняются при сериализации объекта (например, при использовании :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). В редакторе соединения, созданные через док-станцию Node, всегда сохраняются.
+Persisting connections are stored when the object is serialized (such as when using :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). In the editor, connections created through the Signals dock are always persisting.
+
+\ **Note:** Connections to lambda functions (that is, when the function code is embedded in the :ref:`connect()<class_Object_method_connect>` call) cannot be made persistent.
 
 .. _class_Object_constant_CONNECT_ONE_SHOT:
 
@@ -300,7 +302,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 **NOTIFICATION_PREDELETE** = ``1`` :ref:`🔗<class_Object_constant_NOTIFICATION_PREDELETE>`
 
-Уведомление получено, когда объект собирается быть удален. Может использоваться как деструкторы в объектно-ориентированных языках программирования.
+Notification received when the object is about to be deleted. Can be used like destructors in object-oriented programming languages.
+
+This notification is sent in reversed order.
 
 .. _class_Object_constant_NOTIFICATION_EXTENSION_RELOADED:
 
@@ -325,11 +329,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **_get**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__get>`
 
-Переопределите этот метод, чтобы настроить поведение метода :ref:`get()<class_Object_method_get>`. Должен возвращать значение заданного ``property`` или ``null``, если ``property`` должно обрабатываться обычным образом.
+Override this method to customize the behavior of :ref:`get()<class_Object_method_get>`. Should return the given ``property``'s value, or ``null`` if the ``property`` should be handled normally.
 
-В сочетании с :ref:`_set()<class_Object_private_method__set>` и :ref:`_get_property_list()<class_Object_private_method__get_property_list>` этот метод позволяет определять пользовательские свойства, что особенно полезно для плагинов редактора.
+Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **Примечание:** Этот метод не вызывается при получении встроенных свойств объекта, включая свойства, определённые с помощью :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Note:** This method is not called when getting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -338,7 +342,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _get(property):
         if property == "fake_property":
-            print("Получаю свое свойство!")
+            print("Getting my property!")
             return 4
 
     func _get_property_list():
@@ -352,7 +356,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (property == "FakeProperty")
         {
-            GD.Print("Получаю свое свойство!");
+            GD.Print("Getting my property!");
             return 4;
         }
         return default;
@@ -372,6 +376,8 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -382,13 +388,13 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_property_list**\ (\ ) |virtual| :ref:`🔗<class_Object_private_method__get_property_list>`
 
-Переопределите этот метод, чтобы предоставить пользовательский список дополнительных свойств для обработки движком.
+Override this method to provide a custom list of additional properties to handle by the engine.
 
-Должен возвращать список свойств как :ref:`Array<class_Array>` словарей. Результат добавляется в массив :ref:`get_property_list()<class_Object_method_get_property_list>` и должен быть отформатирован таким же образом. Каждый :ref:`Dictionary<class_Dictionary>` должен содержать как минимум записи ``name`` и ``type``.
+Should return a property list, as an :ref:`Array<class_Array>` of dictionaries. The result is added to the array of :ref:`get_property_list()<class_Object_method_get_property_list>`, and should be formatted in the same way. Each :ref:`Dictionary<class_Dictionary>` must at least contain the ``name`` and ``type`` entries.
 
-Вы можете использовать :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` и :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` для настройки значений по умолчанию свойств, добавленных этим методом.
+You can use :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` and :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to customize the default values of the properties added by this method.
 
-В примере ниже отображается список чисел, показанных как слова, от ``ZERO`` до ``FIVE``, при этом ``number_count`` управляет размером списка:
+The example below displays a list of numbers shown as words going from ``ZERO`` to ``FIVE``, with ``number_count`` controlling the size of the list:
 
 
 .. tabs::
@@ -496,9 +502,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
-\ **Примечание:** Этот метод предназначен для расширенных целей. Для большинства общих случаев использования языки сценариев предлагают более простые способы обработки свойств. См. :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>` и т. д. Если вы хотите настроить экспортируемые свойства, используйте :ref:`_validate_property()<class_Object_private_method__validate_property>`.
+\ **Note:** This method is intended for advanced purposes. For most common use cases, the scripting languages offer easier ways to handle properties. See :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>`, etc. If you want to customize exported properties, use :ref:`_validate_property()<class_Object_private_method__validate_property>`.
 
-\ **Примечание:** Если скрипт объекта не является :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, этот метод не будет вызван в редакторе.
+\ **Note:** If the object's script is not :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, this method will not be called in the editor.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy.
 
 .. rst-class:: classref-item-separator
 
@@ -591,7 +599,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 |void| **_notification**\ (\ what\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_Object_private_method__notification>`
 
-Вызывается, когда объект получает уведомление, которое можно определить в ``what``, сравнив его с константой. См. также :ref:`notification()<class_Object_method_notification>`.
+Called when the object receives a notification, which can be identified in ``what`` by comparing it with a constant. See also :ref:`notification()<class_Object_method_notification>`.
 
 
 .. tabs::
@@ -600,7 +608,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _notification(what):
         if what == NOTIFICATION_PREDELETE:
-            print("До свидания!")
+            print("Goodbye!")
 
  .. code-tab:: csharp
 
@@ -608,15 +616,15 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (what == NotificationPredelete)
         {
-            GD.Print("До свидания!");
+            GD.Print("Goodbye!");
         }
     }
 
 
 
-\ **Примечание:** Базовый **Object** определяет несколько уведомлений (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` и :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Наследуемые классы, такие как :ref:`Node<class_Node>`, определяют гораздо больше уведомлений, которые также принимаются этим методом.
+\ **Note:** The base **Object** defines a few notifications (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Inheriting classes such as :ref:`Node<class_Node>` define a lot more notifications, which are also received by this method.
 
-\ **Примечание:** В отличие от других виртуальных методов, этот метод вызывается автоматически для каждого скрипта, который его переопределяет. Это означает, что базовую реализацию не следует вызывать через ``super`` в GDScript или его эквиваленты в других языках.
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. Call order depends on the ``reversed`` argument of :ref:`notification()<class_Object_method_notification>` and varies between different notifications. Most notifications are sent in the forward order (i.e. Object class first, most derived class last).
 
 .. rst-class:: classref-item-separator
 
@@ -628,9 +636,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`bool<class_bool>` **_property_can_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_can_revert>`
 
-Переопределите этот метод, чтобы настроить поведение возврата заданного ``property``. Должен возвращать ``true``, если ``property`` имеет пользовательское значение по умолчанию и может быть возвращен в доке Inspector. Используйте :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>`, чтобы указать значение по умолчанию ``property``.
+Override this method to customize the given ``property``'s revert behavior. Should return ``true`` if the ``property`` has a custom default value and is revertible in the Inspector dock. Use :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to specify the ``property``'s default value.
 
-\ **Примечание:** Этот метод должен возвращать согласованно, независимо от текущего значения ``property``.
+\ **Note:** This method must return consistently, regardless of the current value of the ``property``.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -642,9 +652,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **_property_get_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_get_revert>`
 
-Переопределите этот метод, чтобы настроить поведение возврата указанного ``property``. Должен возвращать значение по умолчанию для ``property``. Если значение по умолчанию отличается от текущего значения ``property``, в доке инспектора отображается значок возврата.
+Override this method to customize the given ``property``'s revert behavior. Should return the default value for the ``property``. If the default value differs from the ``property``'s current value, a revert icon is displayed in the Inspector dock.
 
-\ **Примечание:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` также должен быть переопределен для вызова этого метода.
+\ **Note:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` must also be overridden for this method to be called.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
 
 .. rst-class:: classref-item-separator
 
@@ -656,11 +668,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`bool<class_bool>` **_set**\ (\ property\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Object_private_method__set>`
 
-Переопределите этот метод, чтобы настроить поведение :ref:`set()<class_Object_method_set>`. Необходимо установить ``property`` в ``value`` и вернуть ``true`` или ``false``, если ``property`` должно обрабатываться как обычно. *Точный* способ установки ``property`` зависит от реализации этого метода.
+Override this method to customize the behavior of :ref:`set()<class_Object_method_set>`. Should set the ``property`` to ``value`` and return ``true``, or ``false`` if the ``property`` should be handled normally. The *exact* way to set the ``property`` is up to this method's implementation.
 
-В сочетании с :ref:`_get()<class_Object_private_method__get>` и :ref:`_get_property_list()<class_Object_private_method__get_property_list>` этот метод позволяет определять пользовательские свойства, что особенно полезно для плагинов редактора.
+Combined with :ref:`_get()<class_Object_private_method__get>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **Примечание:** Этот метод не вызывается при установке встроенных свойств объекта, включая свойства, определённые с помощью :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Note:** This method is not called when setting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -671,7 +683,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
     func _set(property, value):
         if property == "fake_property":
-            # Сохранение значения в fake property.
+            # Storing the value in the fake property.
             internal_data["fake_property"] = value
             return true
         return false
@@ -689,7 +701,7 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     {
         if (property == "FakeProperty")
         {
-            // Сохранение значения в fake property.
+            // Storing the value in the fake property.
             _internalData["FakeProperty"] = value;
             return true;
         }
@@ -710,6 +722,8 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
     }
 
 
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -874,11 +888,11 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Variant<class_Variant>` **call_deferred**\ (\ method\: :ref:`StringName<class_StringName>`, ...\ ) |vararg| :ref:`🔗<class_Object_method_call_deferred>`
 
-Вызывает метод ``method`` объекта во время простоя. Всегда возвращает ``null``, **не** результат метода.
+Calls the ``method`` on the object during idle time. Always returns ``null``, **not** the method's result.
 
-Время простоя происходит в основном в конце кадров процесса и физики. В нем отложенные вызовы будут выполняться до тех пор, пока не останется ни одного, что означает, что вы можете отложить вызовы из других отложенных вызовов, и они все равно будут выполняться в текущем цикле времени простоя. Это означает, что вы не должны вызывать метод, отложенный из самого себя (или из метода, вызванного им), так как это вызывает бесконечную рекурсию так же, как если бы вы вызвали метод напрямую.
+Idle time happens mainly at the end of process and physics frames. In it, deferred calls will be run until there are none left, which means you can defer calls from other deferred calls and they'll still be run in the current idle time cycle. This means you should not call a method deferred from itself (or from a method called by it), as this causes infinite recursion the same way as if you had called the method directly.
 
-Этот метод поддерживает переменное количество аргументов, поэтому параметры можно передавать в виде списка, разделенного запятыми.
+This method supports a variable number of arguments, so parameters can be passed as a comma separated list.
 
 
 .. tabs::
@@ -895,19 +909,21 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 
 
-Смотрите также :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`.
+For methods that are deferred from the same thread, the order of execution at idle time is identical to the order in which ``call_deferred`` was called.
 
-\ **Примечание:** В C# ``method`` должен быть в snake_case при ссылке на встроенные методы Godot. Предпочитайте использовать имена, представленные в классе ``MethodName``, чтобы избежать выделения нового :ref:`StringName<class_StringName>` при каждом вызове.
+See also :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`.
 
-\ **Примечание:** Если вы хотите отложить вызов функции на кадр, обратитесь к сигналам :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` и :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>`.
+\ **Note:** In C#, ``method`` must be in snake_case when referring to built-in Godot methods. Prefer using the names exposed in the ``MethodName`` class to avoid allocating a new :ref:`StringName<class_StringName>` on each call.
+
+\ **Note:** If you're looking to delay the function call by a frame, refer to the :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` and :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>` signals.
 
 ::
 
     var node = Node3D.new()
-    # Создайте вызываемый объект и привяжите аргументы к вызову rotate() узла.
+    # Make a Callable and bind the arguments to the node's rotate() call.
     var callable = node.rotate.bind(Vector3(1.0, 0.0, 0.0), 1.571)
-    # Подключите вызываемый объект к сигналу process_frame, чтобы он был вызван в следующем кадре процесса.
-    # CONNECT_ONE_SHOT гарантирует, что он будет вызван только один раз, а не каждый кадр.
+    # Connect the callable to the process_frame signal, so it gets called in the next process frame.
+    # CONNECT_ONE_SHOT makes sure it only gets called once instead of every frame.
     get_tree().process_frame.connect(callable, CONNECT_ONE_SHOT)
 
 .. rst-class:: classref-item-separator
@@ -973,15 +989,15 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect**\ (\ signal\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, flags\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Object_method_connect>`
 
-Подключает ``signal`` по имени к ``callable``. Также можно добавить необязательные ``flags`` для настройки поведения соединения (см. константы :ref:`ConnectFlags<enum_Object_ConnectFlags>`).
+Connects a ``signal`` by name to a ``callable``. Optional ``flags`` can be also added to configure the connection's behavior (see :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants).
 
-Сигнал можно подключить только один раз к одному :ref:`Callable<class_Callable>`. Если сигнал уже подключен, этот метод возвращает :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` и генерирует ошибку, если только сигнал не подключен с :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. Чтобы предотвратить это, сначала используйте :ref:`is_connected()<class_Object_method_is_connected>` для проверки существующих соединений.
+A signal can only be connected once to the same :ref:`Callable<class_Callable>`. If the signal is already connected, this method returns :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` and generates an error, unless the signal is connected with :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To prevent this, use :ref:`is_connected()<class_Object_method_is_connected>` first to check for existing connections.
 
-\ **Примечание:** Если объект ``callable`` освобожден, соединение будет потеряно.
+\ **Note:** If the ``callable``'s object is freed, the connection will be lost.
 
-\ **Примечание:** В GDScript обычно рекомендуется подключать сигналы с помощью :ref:`Signal.connect()<class_Signal_method_connect>`.
+\ **Note:** In GDScript, it is generally recommended to connect signals with :ref:`Signal.connect()<class_Signal_method_connect>` instead.
 
-\ **Примечание:** Эта операция (и все другие операции, связанные с сигналами) потокобезопасна.
+\ **Note:** This method, and all other signal-related methods, are thread-safe.
 
 .. rst-class:: classref-item-separator
 
@@ -1286,9 +1302,9 @@ enum **ConnectFlags**: :ref:`🔗<enum_Object_ConnectFlags>`
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_signal_list**\ (\ ) |const| :ref:`🔗<class_Object_method_get_signal_list>`
 
-Возвращает список существующих сигналов как :ref:`Array<class_Array>` словарей.
+Returns the list of existing signals as an :ref:`Array<class_Array>` of dictionaries.
 
-\ **Примечание:** Из-за реализации каждый :ref:`Dictionary<class_Dictionary>` форматируется очень похоже на возвращаемые значения :ref:`get_method_list()<class_Object_method_get_method_list>`.
+\ **Note:** Due to the implementation, each :ref:`Dictionary<class_Dictionary>` is formatted very similarly to the returned values of :ref:`get_method_list()<class_Object_method_get_method_list>`.
 
 .. rst-class:: classref-item-separator
 

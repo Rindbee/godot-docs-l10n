@@ -255,7 +255,7 @@ Si ``true``, :ref:`value<class_Range_property_value>` sera toujours arrondi au n
 - |void| **set_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_step**\ (\ )
 
-Si supérieure à 0, :ref:`value<class_Range_property_value>` sera toujours arrondie à un multiple de la valeur de cette propriété, au dessus de :ref:`min_value<class_Range_property_min_value>`. Par example, si :ref:`min_value<class_Range_property_min_value>` vaut ``0.1`` et le pas :ref:`step<class_Range_property_step>` est de 0.2, alors :ref:`value<class_Range_property_value>` est limité à ``0.1``, ``0.3``, ``0.5``, etc... Si :ref:`rounded<class_Range_property_rounded>` vaut également ``true``, :ref:`value<class_Range_property_value>` sera d'abord arrondie à un multiple de la valeur de cette propriété, puis arrondie à l'entier le plus proche.
+If greater than ``0.0``, :ref:`value<class_Range_property_value>` will always be rounded to a multiple of this property's value above :ref:`min_value<class_Range_property_min_value>`. For example, if :ref:`min_value<class_Range_property_min_value>` is ``0.1`` and step is ``0.2``, then :ref:`value<class_Range_property_value>` is limited to ``0.1``, ``0.3``, ``0.5``, and so on. If :ref:`rounded<class_Range_property_rounded>` is also ``true``, :ref:`value<class_Range_property_value>` will first be rounded to a multiple of this property's value, then rounded to the nearest integer.
 
 .. rst-class:: classref-item-separator
 

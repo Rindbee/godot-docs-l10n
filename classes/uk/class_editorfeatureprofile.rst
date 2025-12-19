@@ -103,6 +103,8 @@ enum **Feature**: :ref:`🔗<enum_EditorFeatureProfile_Feature>`
 
 :ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_NODE_DOCK** = ``4``
 
+**Застаріло:** Replaced by the Signals and Groups docks.
+
 Док Нод. Якщо ця функція вимкнена, сигнали та групи не будуть видимими та модіфікованими з редактора.
 
 .. _class_EditorFeatureProfile_constant_FEATURE_FILESYSTEM_DOCK:
@@ -137,11 +139,27 @@ enum **Feature**: :ref:`🔗<enum_EditorFeatureProfile_Feature>`
 
 Вкладка «Гра», яка дозволяє вбудовувати вікно гри та вибирати вузли, клацаючи всередині нього. Якщо цю функцію вимкнено, вкладка Гра не відображатиметься.
 
+.. _class_EditorFeatureProfile_constant_FEATURE_SIGNALS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_SIGNALS_DOCK** = ``9``
+
+The Signals dock. If this feature is disabled, signals won't be visible and modifiable from the editor.
+
+.. _class_EditorFeatureProfile_constant_FEATURE_GROUPS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_GROUPS_DOCK** = ``10``
+
+The Groups dock. If this feature is disabled, groups won't be visible and modifiable from the editor.
+
 .. _class_EditorFeatureProfile_constant_FEATURE_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``9``
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``11``
 
 Представляє розмір переліку :ref:`Feature<enum_EditorFeatureProfile_Feature>`.
 

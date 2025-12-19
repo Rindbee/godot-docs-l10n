@@ -32,21 +32,23 @@ Metodi
 .. table::
    :widths: auto
 
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                                           | :ref:`add_custom_monitor<class_Performance_method_add_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, arguments\: :ref:`Array<class_Array>` = []\ ) |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Variant<class_Variant>`                                    | :ref:`get_custom_monitor<class_Performance_method_get_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`\ )                                                                                         |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`Array<class_Array>`\[:ref:`StringName<class_StringName>`\] | :ref:`get_custom_monitor_names<class_Performance_method_get_custom_monitor_names>`\ (\ )                                                                                                                       |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                                        | :ref:`get_monitor<class_Performance_method_get_monitor>`\ (\ monitor\: :ref:`Monitor<enum_Performance_Monitor>`\ ) |const|                                                                                     |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                                            | :ref:`get_monitor_modification_time<class_Performance_method_get_monitor_modification_time>`\ (\ )                                                                                                             |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                          | :ref:`has_custom_monitor<class_Performance_method_has_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`\ )                                                                                         |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                                           | :ref:`remove_custom_monitor<class_Performance_method_remove_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`\ )                                                                                   |
-   +------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                           | :ref:`add_custom_monitor<class_Performance_method_add_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, arguments\: :ref:`Array<class_Array>` = [], type\: :ref:`MonitorType<enum_Performance_MonitorType>` = 0\ ) |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Variant<class_Variant>`                                    | :ref:`get_custom_monitor<class_Performance_method_get_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`\ )                                                                                                                                                      |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Array<class_Array>`\[:ref:`StringName<class_StringName>`\] | :ref:`get_custom_monitor_names<class_Performance_method_get_custom_monitor_names>`\ (\ )                                                                                                                                                                                    |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedInt32Array<class_PackedInt32Array>`                  | :ref:`get_custom_monitor_types<class_Performance_method_get_custom_monitor_types>`\ (\ )                                                                                                                                                                                    |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`float<class_float>`                                        | :ref:`get_monitor<class_Performance_method_get_monitor>`\ (\ monitor\: :ref:`Monitor<enum_Performance_Monitor>`\ ) |const|                                                                                                                                                  |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                            | :ref:`get_monitor_modification_time<class_Performance_method_get_monitor_modification_time>`\ (\ )                                                                                                                                                                          |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                          | :ref:`has_custom_monitor<class_Performance_method_has_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`\ )                                                                                                                                                      |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                           | :ref:`remove_custom_monitor<class_Performance_method_remove_custom_monitor>`\ (\ id\: :ref:`StringName<class_StringName>`\ )                                                                                                                                                |
+   +------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -149,7 +151,9 @@ Numero di nodi attualmente istanziati nell'albero di scena. Include anche il nod
 
 :ref:`Monitor<enum_Performance_Monitor>` **OBJECT_ORPHAN_NODE_COUNT** = ``10``
 
-Numero di nodi orfani, ovvero nodi che non sono imparentati a un nodo dell'albero di scena. *Più basso è, meglio è.*
+Number of orphan nodes, i.e. nodes which are not parented to a node of the scene tree. *Lower is better.*\ 
+
+\ **Note:** This is only available in debug mode and will always return ``0`` when used in a project exported in release mode.
 
 .. _class_Performance_constant_RENDER_TOTAL_OBJECTS_IN_FRAME:
 
@@ -261,7 +265,7 @@ Latenza di output dell':ref:`AudioServer<class_AudioServer>`. Equivalente a chia
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_ACTIVE_MAPS** = ``24``
 
-Numero di mappe di navigazione attive nel :ref:`NavigationServer2D<class_NavigationServer2D>` e :ref:`NavigationServer3D<class_NavigationServer3D>`. Include anche le due mappe di navigazione vuote predefinite create da World2D e World3D.
+Number of active navigation maps in :ref:`NavigationServer2D<class_NavigationServer2D>` and :ref:`NavigationServer3D<class_NavigationServer3D>`. This also includes the empty default navigation maps created by :ref:`World2D<class_World2D>` and :ref:`World3D<class_World3D>` instances.
 
 .. _class_Performance_constant_NAVIGATION_REGION_COUNT:
 
@@ -381,7 +385,7 @@ Numero di compilazioni delle pipeline che sono state attivate per ottimizzare la
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_2D_ACTIVE_MAPS** = ``39``
 
-Numero di mappe di navigazione attive nel :ref:`NavigationServer2D<class_NavigationServer2D>`. Include anche le due mappe di navigazione vuote predefinite create da World2D.
+Number of active navigation maps in the :ref:`NavigationServer2D<class_NavigationServer2D>`. This also includes the empty default navigation maps created by :ref:`World2D<class_World2D>` instances.
 
 .. _class_Performance_constant_NAVIGATION_2D_REGION_COUNT:
 
@@ -461,7 +465,7 @@ Numero di ostacoli di navigazione attivi nel :ref:`NavigationServer2D<class_Navi
 
 :ref:`Monitor<enum_Performance_Monitor>` **NAVIGATION_3D_ACTIVE_MAPS** = ``49``
 
-Numero di mappe di navigazione attive nel :ref:`NavigationServer3D<class_NavigationServer3D>`. Include anche le due mappe di navigazione vuote predefinite create da World3D.
+Number of active navigation maps in the :ref:`NavigationServer3D<class_NavigationServer3D>`. This also includes the empty default navigation maps created by :ref:`World3D<class_World3D>` instances.
 
 .. _class_Performance_constant_NAVIGATION_3D_REGION_COUNT:
 
@@ -543,6 +547,48 @@ Numero di ostacoli di navigazione attivi nel :ref:`NavigationServer3D<class_Navi
 
 Rappresenta la dimensione dell'enumerazione :ref:`Monitor<enum_Performance_Monitor>`.
 
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_Performance_MonitorType:
+
+.. rst-class:: classref-enumeration
+
+enum **MonitorType**: :ref:`🔗<enum_Performance_MonitorType>`
+
+.. _class_Performance_constant_MONITOR_TYPE_QUANTITY:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`MonitorType<enum_Performance_MonitorType>` **MONITOR_TYPE_QUANTITY** = ``0``
+
+Monitor output is formatted as an integer value.
+
+.. _class_Performance_constant_MONITOR_TYPE_MEMORY:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`MonitorType<enum_Performance_MonitorType>` **MONITOR_TYPE_MEMORY** = ``1``
+
+Monitor output is formatted as computer memory. Submitted values should represent a number of bytes.
+
+.. _class_Performance_constant_MONITOR_TYPE_TIME:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`MonitorType<enum_Performance_MonitorType>` **MONITOR_TYPE_TIME** = ``2``
+
+Monitor output is formatted as time in milliseconds. Submitted values should represent a time in seconds (not milliseconds).
+
+.. _class_Performance_constant_MONITOR_TYPE_PERCENTAGE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`MonitorType<enum_Performance_MonitorType>` **MONITOR_TYPE_PERCENTAGE** = ``3``
+
+Monitor output is formatted as a percentage. Submitted values should represent a fractional value rather than the percentage directly, e.g. ``0.5`` for ``50.00%``.
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -556,7 +602,7 @@ Descrizioni dei metodi
 
 .. rst-class:: classref-method
 
-|void| **add_custom_monitor**\ (\ id\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, arguments\: :ref:`Array<class_Array>` = []\ ) :ref:`🔗<class_Performance_method_add_custom_monitor>`
+|void| **add_custom_monitor**\ (\ id\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, arguments\: :ref:`Array<class_Array>` = [], type\: :ref:`MonitorType<enum_Performance_MonitorType>` = 0\ ) :ref:`🔗<class_Performance_method_add_custom_monitor>`
 
 Aggiunge un monitor personalizzato con il nome ``id``. Puoi specificare la categoria del monitor usando i delimitatori barra in ``id`` (ad esempio: ``"Game/NumberOfNPCs"``). Se c'è più di un delimitatore barra, allora la categoria predefinita è usata. La categoria predefinita è ``"Custom"``. Stampa un errore se l'``id`` specificato è già presente.
 
@@ -639,6 +685,18 @@ Restituisce il valore del monitor personalizzato con l'``id`` specificato. Il ch
 :ref:`Array<class_Array>`\[:ref:`StringName<class_StringName>`\] **get_custom_monitor_names**\ (\ ) :ref:`🔗<class_Performance_method_get_custom_monitor_names>`
 
 Restituisce i nomi dei monitor personalizzati attivi in un :ref:`Array<class_Array>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Performance_method_get_custom_monitor_types:
+
+.. rst-class:: classref-method
+
+:ref:`PackedInt32Array<class_PackedInt32Array>` **get_custom_monitor_types**\ (\ ) :ref:`🔗<class_Performance_method_get_custom_monitor_types>`
+
+Returns the :ref:`MonitorType<enum_Performance_MonitorType>` values of active custom monitors in an :ref:`Array<class_Array>`.
 
 .. rst-class:: classref-item-separator
 

@@ -51,6 +51,8 @@ Proprietà
    +----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                  | :ref:`gutters_draw_line_numbers<class_CodeEdit_property_gutters_draw_line_numbers>`                               | ``false``                                                                 |
    +----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                    | :ref:`gutters_line_numbers_min_digits<class_CodeEdit_property_gutters_line_numbers_min_digits>`                   | ``3``                                                                     |
+   +----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                  | :ref:`gutters_zero_pad_line_numbers<class_CodeEdit_property_gutters_zero_pad_line_numbers>`                       | ``false``                                                                 |
    +----------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                  | :ref:`indent_automatic<class_CodeEdit_property_indent_automatic>`                                                 | ``false``                                                                 |
@@ -704,6 +706,23 @@ Se ``true``, la barra laterale di riduzione è disegnata. In questa barra, l'ico
 - :ref:`bool<class_bool>` **is_draw_line_numbers_enabled**\ (\ )
 
 Se ``true``, la barra laterale dei numeri di riga è disegnata. I numeri di riga iniziano da ``1`` e sono incrementati per ogni riga di testo. Cliccando e trascinando la barra dei numeri di riga verranno selezionate intere righe di testo.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_CodeEdit_property_gutters_line_numbers_min_digits:
+
+.. rst-class:: classref-property
+
+:ref:`int<class_int>` **gutters_line_numbers_min_digits** = ``3`` :ref:`🔗<class_CodeEdit_property_gutters_line_numbers_min_digits>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_line_numbers_min_digits**\ (\ value\: :ref:`int<class_int>`\ )
+- :ref:`int<class_int>` **get_line_numbers_min_digits**\ (\ )
+
+The minimum width in digits reserved for the line number gutter.
 
 .. rst-class:: classref-item-separator
 

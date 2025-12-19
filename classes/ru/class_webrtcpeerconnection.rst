@@ -16,17 +16,26 @@ WebRTCPeerConnection
 Описание
 ----------------
 
-WebRTC-соединение между локальным компьютером и удаленным пиром. Предоставляет интерфейс для подключения, поддержки и мониторинга соединения.
+A WebRTC connection between the local computer and a remote peer. Provides an interface to connect, maintain, and monitor the connection.
 
-Настройка WebRTC-соединения между двумя пирами может показаться нетривиальной задачей, но ее можно разбить на 3 основных шага:
+Setting up a WebRTC connection between two peers may not seem a trivial task, but it can be broken down into 3 main steps:
 
-- Пир, который хочет инициировать соединение (далее ``A``), создает предложение и отправляет его другому пиру (далее ``B``).
+- The peer that wants to initiate the connection (``A`` from now on) creates an offer and sends it to the other peer (``B`` from now on).
 
-- ``B`` получает предложение, генерирует и отвечает, а затем отправляет его ``A``).
+- ``B`` receives the offer, generates an answer, and sends it to ``A``.
 
-- ``A`` и ``B`` затем генерируют и обмениваются ICE-кандидатами друг с другом.
+- ``A`` and ``B`` then generate and exchange ICE candidates with each other.
 
-После этих шагов соединение должно стать подключенным. Продолжайте читать или загляните в руководство для получения дополнительной информации.
+After these steps, the connection should be established. Refer to the linked tutorials for details.
+
+.. rst-class:: classref-introduction-group
+
+Обучающие материалы
+--------------------------------------
+
+- :doc:`WebRTC documentation <../tutorials/networking/webrtc>`
+
+- :doc:`Высокоуровневый мультиплеер <../tutorials/networking/high_level_multiplayer>`
 
 .. rst-class:: classref-reftable-group
 

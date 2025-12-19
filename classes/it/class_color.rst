@@ -12,15 +12,17 @@ Un colore rappresentato in formato RGBA.
 Descrizione
 ----------------------
 
-Un colore rappresentato in formato RGBA da un componente rosso (:ref:`r<class_Color_property_r>`), verde (:ref:`g<class_Color_property_g>`), blu (:ref:`b<class_Color_property_b>`) e alfa (:ref:`a<class_Color_property_a>`). Ogni componente è un valore in virgola mobile a 32 bit, solitamente compreso tra ``0.0`` e ``1.0``. Alcune proprietà (come :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) possono supportare valori maggiori di ``1.0``, per colori sovra-luminosi o ad alta gamma dinamica (High Dynamic Range o HDR).
+A color represented in RGBA format by a red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), blue (:ref:`b<class_Color_property_b>`), and alpha (:ref:`a<class_Color_property_a>`) component. Each component is a 32-bit floating-point value, usually ranging from ``0.0`` to ``1.0``. Some properties (such as :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) may support values greater than ``1.0``, for overbright or HDR (High Dynamic Range) colors.
 
-I colori possono essere creati in vari modi: tramite i vari costruttori **Color**, tramite metodi statici come :ref:`from_hsv()<class_Color_method_from_hsv>` e usando un nome dall'insieme di colori standardizzati basato sui `nomi di colore X11 <https://en.wikipedia.org/wiki/X11_color_names>`__ con l'aggiunta di :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`. GDScript fornisce anche :ref:`@GDScript.Color8()<class_@GDScript_method_Color8>`, che usa numeri interi da ``0`` a ``255`` e non supporta i colori sovra-luminosi.
+Colors can be created in a number of ways: By the various **Color** constructors, by static methods such as :ref:`from_hsv()<class_Color_method_from_hsv>`, and by using a name from the set of standardized colors based on `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`__ with the addition of :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`.
 
-È possibile memorizzare i dati di un colore in molti spazi colore e codifiche. I metodi :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` e :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` consentono di convertire la codifica sRGB non lineare in una codifica RGB lineare e viceversa.
+\ `Color constants cheatsheet <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__\ 
 
-\ **Nota:** In un contesto booleano, un colore sarà valutato come ``false`` se è uguale a ``Color(0, 0, 0, 1)`` (nero opaco). Altrimenti, un colore sarà sempre valutato come ``true``.
+Although **Color** may be used to store values of any encoding, the red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), and blue (:ref:`b<class_Color_property_b>`) properties of **Color** are expected by Godot to be encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB#Transfer_function_(%22gamma%22)>`__ unless otherwise stated. This color encoding is used by many traditional art and web tools, making it easy to match colors between Godot and these tools. Godot uses `Rec. ITU-R BT.709 <https://en.wikipedia.org/wiki/Rec._709>`__ color primaries, which are used by the sRGB standard.
 
-\ `Foglio riassuntivo delle costanti di colore <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__
+All physical simulation, such as lighting calculations, and colorimetry transformations, such as :ref:`get_luminance()<class_Color_method_get_luminance>`, must be performed on linearly encoded values to produce correct results. When performing these calculations, convert **Color** to and from linear encoding using :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` and :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>`.
+
+\ **Note:** In a boolean context, a Color will evaluate to ``false`` if it is equal to ``Color(0, 0, 0, 1)`` (opaque black). Otherwise, a Color will always evaluate to ``true``.
 
 .. note::
 
@@ -1389,9 +1391,9 @@ Descrizioni delle proprietà
 
 :ref:`float<class_float>` **a** = ``1.0`` :ref:`🔗<class_Color_property_a>`
 
-Il componente alfa del colore, in genere compresa tra 0 e 1. Un valore pari a 0 indica che il colore è completamente trasparente. Un valore pari a 1 indica che il colore è completamente opaco.
+The color's alpha component, typically on the range of 0 to 1. A value of 0 means that the color is fully transparent. A value of 1 means that the color is fully opaque.
 
-\ **Nota:** Il canale alfa è sempre memorizzato con codifica lineare, a prescindere dallo spazio colore degli altri canali di colore. I metodi :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` e :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` non influiscono sul canale alfa.
+\ **Note:** The alpha channel is always stored with linear encoding, regardless of the encoding of the other color channels. The :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` and :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` methods do not affect the alpha channel.
 
 .. rst-class:: classref-item-separator
 
@@ -1629,18 +1631,18 @@ Costruisce un **Color** sia da un codice colore HTML o dal nome di un colore sta
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`\ )
 
-Costruisce un **Color** da valori RGB, in genere compresi tra 0,0 e 1,0. :ref:`a<class_Color_property_a>` è impostato su 1,0.
+Constructs a **Color** from RGB values, typically between 0.0 and 1.0. :ref:`a<class_Color_property_a>` is set to 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7) # Simile a `Color8(51, 255, 178, 255)`
+    var color = Color(0.2, 1.0, 0.7) # Similar to `Color.from_rgba8(51, 255, 178, 255)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f); // Simile a `Color.Color8(51, 255, 178, 255)`
+    var color = new Color(0.2f, 1.0f, 0.7f); // Similar to `Color.Color8(51, 255, 178, 255)`
 
 
 
@@ -1652,18 +1654,18 @@ Costruisce un **Color** da valori RGB, in genere compresi tra 0,0 e 1,0. :ref:`a
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`, a\: :ref:`float<class_float>`\ )
 
-Costruisce un **Color** da valori RGBA, in genere compresi tra 0,0 e 1,0.
+Constructs a **Color** from RGBA values, typically between 0.0 and 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7, 0.8) # Simile a `Color8(51, 255, 178, 204)`
+    var color = Color(0.2, 1.0, 0.7, 0.8) # Similar to `Color.from_rgba8(51, 255, 178, 204)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Simile a `Color.Color8(51, 255, 178, 255, 204)`
+    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Similar to `Color.Color8(51, 255, 178, 255, 204)`
 
 
 
@@ -1846,9 +1848,9 @@ Se desideri creare un colore da stringa in un'espressione costante, utilizza inv
 
 :ref:`float<class_float>` **get_luminance**\ (\ ) |const| :ref:`🔗<class_Color_method_get_luminance>`
 
-Restituisce l'intensità luminosa del colore, come valore compreso tra 0,0 e 1,0 (inclusi). È utile quando si determina un colore chiaro o scuro. I colori con una luminanza inferiore a 0,5 possono essere generalmente considerati scuri.
+Returns the light intensity of the color, as a value between 0.0 and 1.0 (inclusive). This is useful when determining light or dark color. Colors with a luminance smaller than 0.5 can be generally considered dark.
 
-\ **Nota:** :ref:`get_luminance()<class_Color_method_get_luminance>` assume che il colore si trovi nello spazio colore lineare per restituire un valore accurato di luminanza relativa. Se il colore si trova nello spazio colore sRGB, utilizza :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` per convertirlo prima nello spazio colore lineare.
+\ **Note:** :ref:`get_luminance()<class_Color_method_get_luminance>` relies on the color using linear encoding to return an accurate relative luminance value. If the color uses the default nonlinear sRGB encoding, use :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` to convert it to linear encoding first.
 
 .. rst-class:: classref-item-separator
 
@@ -2078,9 +2080,9 @@ Restituisce un nuovo colore che è il risultato di schiarire questo colore per l
 
 :ref:`Color<class_Color>` **linear_to_srgb**\ (\ ) |const| :ref:`🔗<class_Color_method_linear_to_srgb>`
 
-Restituisce il colore convertito nello spazio colore `sRGB <https://it.wikipedia.org/wiki/Spazio_colore_sRGB>`__. Questo metodo assume che il colore originale sia nello spazio colore lineare. Vedi anche :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` che esegue l'operazione opposta.
+Returns a copy of the color that is encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB>`__. This method requires the original color to use linear encoding. See also :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` which performs the opposite operation.
 
-\ **Nota:** il canale alfa (:ref:`a<class_Color_property_a>`) del colore non è influenzato. Il canale alfa è sempre memorizzato con codifica lineare, a prescindere dallo spazio colore degli altri canali.
+\ **Note:** The color's alpha channel (:ref:`a<class_Color_property_a>`) is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
 
 .. rst-class:: classref-item-separator
 
@@ -2092,9 +2094,9 @@ Restituisce il colore convertito nello spazio colore `sRGB <https://it.wikipedia
 
 :ref:`Color<class_Color>` **srgb_to_linear**\ (\ ) |const| :ref:`🔗<class_Color_method_srgb_to_linear>`
 
-Restituisce il colore convertito nello spazio colore lineare. Questo metodo assume che il colore originale sia già nello spazio colore sRGB. Vedi anche :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` che esegue l'operazione opposta.
+Returns a copy of the color that uses linear encoding. This method requires the original color to be encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB>`__. See also :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` which performs the opposite operation.
 
-\ **Nota:** il canale alfa (:ref:`a<class_Color_property_a>`) del colore non è influenzato. Il canale alfa è sempre memorizzato con codifica lineare, a prescindere dallo spazio colore degli altri canali.
+\ **Note:** The color's alpha channel (:ref:`a<class_Color_property_a>`) is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
 
 .. rst-class:: classref-item-separator
 

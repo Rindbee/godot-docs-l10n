@@ -702,9 +702,9 @@ enum **CollisionMode**: :ref:`🔗<enum_ParticleProcessMaterial_CollisionMode>`
 - |void| **set_alpha_curve**\ (\ value\: :ref:`Texture2D<class_Texture2D>`\ )
 - :ref:`Texture2D<class_Texture2D>` **get_alpha_curve**\ (\ )
 
-Значение альфа цвета каждой частицы будет умножаться на эту :ref:`CurveTexture<class_CurveTexture>` в течение ее жизненного цикла.
+The alpha value of each particle's color will be multiplied by this :ref:`CurveTexture<class_CurveTexture>` over its lifetime.
 
-\ **Примечание:** :ref:`alpha_curve<class_ParticleProcessMaterial_property_alpha_curve>` умножает цвета вершин сетки частицы. Чтобы иметь видимый эффект на :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` *должен* быть ``true``. Для :ref:`ShaderMaterial<class_ShaderMaterial>` ``ALBEDO *= COLOR.rgb;`` должен быть вставлен в функцию шейдера ``fragment()``. В противном случае :ref:`alpha_curve<class_ParticleProcessMaterial_property_alpha_curve>` не будет иметь видимого эффекта.
+\ **Note:** :ref:`alpha_curve<class_ParticleProcessMaterial_property_alpha_curve>` multiplies the particle mesh's vertex colors. To have a visible effect on a :ref:`BaseMaterial3D<class_BaseMaterial3D>`, :ref:`BaseMaterial3D.vertex_color_use_as_albedo<class_BaseMaterial3D_property_vertex_color_use_as_albedo>` *must* be ``true``. For a :ref:`ShaderMaterial<class_ShaderMaterial>`, ``ALPHA *= COLOR.a;`` must be inserted in the shader's ``fragment()`` function. Otherwise, :ref:`alpha_curve<class_ParticleProcessMaterial_property_alpha_curve>` will have no visible effect.
 
 .. rst-class:: classref-item-separator
 

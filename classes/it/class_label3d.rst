@@ -485,7 +485,7 @@ Regole di allineamento del riempimento per le righe.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Codice della lingua usato per gli algoritmi di interruzione di riga e di formazione del testo, se lasciato vuoto è invece utilizzata la localizzazione attuale.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

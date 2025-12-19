@@ -80,6 +80,8 @@ Propriétés
    +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                       | :ref:`gui_disable_input<class_Viewport_property_gui_disable_input>`                                   | ``false``                                                                     |
    +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                                                         | :ref:`gui_drag_threshold<class_Viewport_property_gui_drag_threshold>`                                 | ``10``                                                                        |
+   +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                       | :ref:`gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`                             | ``false``                                                                     |
    +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                       | :ref:`gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>`               | ``true``                                                                      |
@@ -843,11 +845,13 @@ Ne fait rien si le :ref:`Environment.sdfgi_enabled<class_Environment_property_sd
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_SDFGI_PROBES** = ``17``
 
-Dessine les sondes utilisées pour l'illumination globale avec champ de distance signée (SDFGI).
+Draws the probes used for signed distance field global illumination (SDFGI).
 
-Ne fait rien si le :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>` de l'environnement actuel vaut ``false``.
+When in the editor, left-clicking a probe will display additional bright dots that show its occlusion information. A white dot means the light is not occluded at all at the dot's position, while a red dot means the light is fully occluded. Intermediate values are possible.
 
-\ **Note :** Seulement supporté lors de l'utilisation de la méthode de rendu Forward+.
+Does nothing if the current environment's :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>` is ``false``.
+
+\ **Note:** Only supported when using the Forward+ rendering method.
 
 .. _class_Viewport_constant_DEBUG_DRAW_GI_BUFFER:
 
@@ -1286,7 +1290,9 @@ Si ``true``, la fenêtre d'affichage gèrera les flux audio 3D.
 - |void| **set_canvas_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_canvas_cull_mask**\ (\ )
 
-Les couches de rendu dans lesquelles ce **Viewport** rend des nœuds :ref:`CanvasItem<class_CanvasItem>`.
+The rendering layers in which this **Viewport** renders :ref:`CanvasItem<class_CanvasItem>` nodes.
+
+\ **Note:** A :ref:`CanvasItem<class_CanvasItem>` does not inherit its parents' visibility layers. See :ref:`CanvasItem.visibility_layer<class_CanvasItem_property_visibility_layer>`'s description for details.
 
 .. rst-class:: classref-item-separator
 
@@ -1303,7 +1309,7 @@ Les couches de rendu dans lesquelles ce **Viewport** rend des nœuds :ref:`Canva
 - |void| **set_default_canvas_item_texture_filter**\ (\ value\: :ref:`DefaultCanvasItemTextureFilter<enum_Viewport_DefaultCanvasItemTextureFilter>`\ )
 - :ref:`DefaultCanvasItemTextureFilter<enum_Viewport_DefaultCanvasItemTextureFilter>` **get_default_canvas_item_texture_filter**\ (\ )
 
-Définit le mode de filtrage par défaut utilisé par les :ref:`CanvasItem<class_CanvasItem>`\ s dans ce Viewport.
+The default filter mode used by :ref:`CanvasItem<class_CanvasItem>` nodes in this viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -1320,7 +1326,7 @@ Définit le mode de filtrage par défaut utilisé par les :ref:`CanvasItem<class
 - |void| **set_default_canvas_item_texture_repeat**\ (\ value\: :ref:`DefaultCanvasItemTextureRepeat<enum_Viewport_DefaultCanvasItemTextureRepeat>`\ )
 - :ref:`DefaultCanvasItemTextureRepeat<enum_Viewport_DefaultCanvasItemTextureRepeat>` **get_default_canvas_item_texture_repeat**\ (\ )
 
-Définit le mode de répétition par défaut utilisé par les :ref:`CanvasItem<class_CanvasItem>`\ s dans ce Viewport.
+The default repeat mode used by :ref:`CanvasItem<class_CanvasItem>` nodes in this viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -1425,6 +1431,23 @@ La transformation globale de la toile de cette fenêtre d'affichage. La transfor
 - :ref:`bool<class_bool>` **is_input_disabled**\ (\ )
 
 Si ``true``, la fenêtre d'affichage ne recevra pas les événements d'entrée.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Viewport_property_gui_drag_threshold:
+
+.. rst-class:: classref-property
+
+:ref:`int<class_int>` **gui_drag_threshold** = ``10`` :ref:`🔗<class_Viewport_property_gui_drag_threshold>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_drag_threshold**\ (\ value\: :ref:`int<class_int>`\ )
+- :ref:`int<class_int>` **get_drag_threshold**\ (\ )
+
+The minimum distance the mouse cursor must move while pressed before a drag operation begins.
 
 .. rst-class:: classref-item-separator
 
@@ -1942,11 +1965,11 @@ If ``true``, the viewport should render its background as transparent.
 - |void| **set_use_debanding**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_debanding**\ (\ )
 
-If ``true``, uses a fast post-processing filter to make banding significantly less visible. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``false``, 2D rendering is *not* affected by debanding unless the :ref:`Environment.background_mode<class_Environment_property_background_mode>` is :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true``, debanding will only be applied if this is the root **Viewport** and will affect all 2D and 3D rendering, including canvas items.
+When using the Mobile or Forward+ renderers, set :ref:`use_debanding<class_Viewport_property_use_debanding>` to enable or disable the debanding feature of this **Viewport**. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``false``, 2D rendering is *not* affected by debanding unless the :ref:`Environment.background_mode<class_Environment_property_background_mode>` is :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true``, debanding will only be applied if this is the root **Viewport** and will affect all 2D and 3D rendering, including canvas items.
 
-In some cases, debanding may introduce a slightly noticeable dithering pattern. It's recommended to enable debanding only when actually needed since the dithering pattern will make lossless-compressed screenshots larger.
+\ :ref:`use_debanding<class_Viewport_property_use_debanding>` has no effect when using the Compatibility rendering method. The Mobile renderer can also use material debanding, which can be set with :ref:`RenderingServer.material_set_use_debanding()<class_RenderingServer_method_material_set_use_debanding>` or configured with :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`.
 
-See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>` and :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
+See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`, :ref:`RenderingServer.material_set_use_debanding()<class_RenderingServer_method_material_set_use_debanding>`, and :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1963,11 +1986,9 @@ See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<cla
 - |void| **set_use_hdr_2d**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_hdr_2d**\ (\ )
 
-If ``true``, 2D rendering will use a high dynamic range (HDR) format framebuffer matching the bit depth of the 3D framebuffer. When using the Forward+ or Compatibility renderer, this will be an ``RGBA16`` framebuffer. When using the Mobile renderer, it will be an ``RGB10_A2`` framebuffer.
+If ``true``, 2D rendering will use a high dynamic range (HDR) ``RGBA16`` format framebuffer. Additionally, 2D rendering will be performed on linear values and will be converted using the appropriate transfer function immediately before blitting to the screen (if the Viewport is attached to the screen).
 
-Additionally, 2D rendering will take place in linear color space and will be converted to sRGB space immediately before blitting to the screen (if the Viewport is attached to the screen).
-
-Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color space adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
+Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color encoding adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
 
 .. rst-class:: classref-item-separator
 
@@ -2191,7 +2212,9 @@ Renvoie l'auditeur audio 3D actuellement actif. Renvoie ``null`` s'il n'y a pas 
 
 :ref:`Camera2D<class_Camera2D>` **get_camera_2d**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_camera_2d>`
 
-Renvoie la caméra 2D actuellement active. Renvoie ``null`` s'il n'y a pas de caméra active.
+Returns the currently active 2D camera. Returns ``null`` if there are no active cameras.
+
+\ **Note:** If called while the *Camera Override* system is active in editor, this will return the internally managed override camera. It is therefore advised to avoid caching the return value, or to check that the cached value is still a valid instance and is the current camera before use. See :ref:`@GlobalScope.is_instance_valid()<class_@GlobalScope_method_is_instance_valid>` and :ref:`Camera2D.is_current()<class_Camera2D_method_is_current>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2203,7 +2226,9 @@ Renvoie la caméra 2D actuellement active. Renvoie ``null`` s'il n'y a pas de ca
 
 :ref:`Camera3D<class_Camera3D>` **get_camera_3d**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_camera_3d>`
 
-Renvoie la caméra 3D actuellement active.
+Returns the currently active 3D camera. Returns ``null`` if there are no active cameras.
+
+\ **Note:** If called while the *Camera Override* system is active in editor, this will return the internally managed override camera. It is therefore advised to avoid caching the return value, or to check that the cached value is a valid instance and is the current camera before use. See :ref:`@GlobalScope.is_instance_valid()<class_@GlobalScope_method_is_instance_valid>` and :ref:`Camera3D.current<class_Camera3D_property_current>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2327,9 +2352,9 @@ Renvoie la transformation d'étirement 2D automatiquement calculée, en tenant c
 
 :ref:`ViewportTexture<class_ViewportTexture>` **get_texture**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_texture>`
 
-Renvoie la texture du viewport.
+Returns the viewport's texture.
 
-\ **Note :** Lorsque vous essayez de stocker la texture actuelle (par exemple dans un fichier), elle peut être complètement noire ou périmée si elle est utilisée trop tôt, surtout lorsqu'elle est utilisée par ex. dans :ref:`Node._ready()<class_Node_private_method__ready>`. Pour vous assurer que la texture que vous obtenez est correcte, vous pouvez attendre le signal :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>`.
+\ **Note:** When trying to store the current texture (e.g. in a file), it might be completely black or outdated if used too early, especially when used in e.g. :ref:`Node._ready()<class_Node_private_method__ready>`. To make sure the texture you get is correct, you can await :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>` signal.
 
 
 .. tabs::
@@ -2338,7 +2363,7 @@ Renvoie la texture du viewport.
 
     func _ready():
         await RenderingServer.frame_post_draw
-        $Viewport.get_texture().get_image().save_png("user://Capture_d_ecran.png")
+        $Viewport.get_texture().get_image().save_png("user://Screenshot.png")
 
  .. code-tab:: csharp
 
@@ -2346,12 +2371,12 @@ Renvoie la texture du viewport.
     {
         await ToSignal(RenderingServer.Singleton, RenderingServer.SignalName.FramePostDraw);
         var viewport = GetNode<Viewport>("Viewport");
-        viewport.GetTexture().GetImage().SavePng("user://Capture_d_ecran.png");
+        viewport.GetTexture().GetImage().SavePng("user://Screenshot.png");
     }
 
 
 
-\ **Note :** Lorsque :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` vaut ``true``, la texture renvoyée sera une image HDR encodée dans l'espace linéaire.
+\ **Note:** When :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true`` the returned texture will be an HDR image using linear encoding.
 
 .. rst-class:: classref-item-separator
 
@@ -2411,7 +2436,7 @@ Renvoie les données de déposer-glisser du GUI, qui étaient précédemment ren
 
 :ref:`String<class_String>` **gui_get_drag_description**\ (\ ) |const| :ref:`🔗<class_Viewport_method_gui_get_drag_description>`
 
-Returns the drag data human-readable description.
+Returns the human-readable description of the drag data, used for assistive apps.
 
 .. rst-class:: classref-item-separator
 
@@ -2487,7 +2512,7 @@ Retire le focus du :ref:`Control<class_Control>` ayant actuellement le focus dan
 
 |void| **gui_set_drag_description**\ (\ description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Viewport_method_gui_set_drag_description>`
 
-Définit la description facilement lisible des données de glissement.
+Sets the human-readable description of the drag data to ``description``, used for assistive apps.
 
 .. rst-class:: classref-item-separator
 
@@ -2629,9 +2654,9 @@ Définit ou efface des bits individuels sur le masque de couches de rendu. Cela 
 
 |void| **set_input_as_handled**\ (\ ) :ref:`🔗<class_Viewport_method_set_input_as_handled>`
 
-Empêche l'entrée de se propager plus profondément dans le :ref:`SceneTree<class_SceneTree>`.
+Stops the input from propagating further up the :ref:`SceneTree<class_SceneTree>`.
 
-\ **Note :** Cela n'affecte pas les méthodes dans :ref:`Input<class_Input>`, seulement la façon dont les événements sont propagés.
+\ **Note:** This does not affect the methods in :ref:`Input<class_Input>`, only the way events are propagated.
 
 .. rst-class:: classref-item-separator
 

@@ -433,7 +433,7 @@ HSL OK Колір Модель кола колір простору.
 - |void| **set_edit_intensity**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_intensity**\ (\ )
 
-Якщо ``true``, відображається повзунок інтенсивності. Інтенсивність застосовується наступним чином: помножити колір на ``2 ** інтенсивність`` у лінійному просторі RGB, а потім перетворити його назад у sRGB.
+If ``true``, shows an intensity slider. The intensity is applied as follows: convert the color to linear encoding, multiply it by ``2 ** intensity``, and then convert it back to nonlinear sRGB encoding.
 
 .. rst-class:: classref-item-separator
 

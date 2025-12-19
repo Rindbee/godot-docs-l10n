@@ -135,7 +135,9 @@ Linux/BSD 导出器。
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_shader_baker/enabled>`
 
-如果为 ``true``\ ，则着色器将被编译并嵌入到应用程序中。仅当使用 Forward+ 或 Mobile 渲染器时，才支持此选项。
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

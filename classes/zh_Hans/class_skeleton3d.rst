@@ -566,7 +566,7 @@ enum **ModifierCallbackModeProcess**: :ref:`🔗<enum_Skeleton3D_ModifierCallbac
 
 :ref:`Variant<class_Variant>` **get_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Skeleton3D_method_get_bone_meta>`
 
-返回索引为 ``bone_idx`` 的骨骼中键名为 ``key`` 的元数据。
+Returns the metadata with the given ``key`` for the bone at index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 
@@ -720,7 +720,7 @@ enum **ModifierCallbackModeProcess**: :ref:`🔗<enum_Skeleton3D_ModifierCallbac
 
 :ref:`bool<class_bool>` **has_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_Skeleton3D_method_has_bone_meta>`
 
-如果索引为 ``bone_idx`` 的骨骼中存在键名为 ``key`` 的元数据，则返回 ``true``\ 。
+Returns ``true`` if the bone at index ``bone_idx`` has metadata with the given ``key``.
 
 .. rst-class:: classref-item-separator
 
@@ -898,7 +898,7 @@ enum **ModifierCallbackModeProcess**: :ref:`🔗<enum_Skeleton3D_ModifierCallbac
 
 |void| **set_bone_meta**\ (\ bone_idx\: :ref:`int<class_int>`, key\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Skeleton3D_method_set_bone_meta>`
 
-将索引为 ``bone_idx`` 的骨骼中键名为 ``key`` 的元数据设置为 ``value``\ 。
+Sets the metadata with the given ``key`` to ``value`` for the bone at index ``bone_idx``.
 
 .. rst-class:: classref-item-separator
 

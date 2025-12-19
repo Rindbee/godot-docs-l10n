@@ -375,7 +375,7 @@ Returns the atlas grid size, which depends on how many tiles can fit in the text
 
 :ref:`Texture2D<class_Texture2D>` **get_runtime_texture**\ (\ ) |const| :ref:`🔗<class_TileSetAtlasSource_method_get_runtime_texture>`
 
-如果 :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` 為 ``false``\ ，則返回 :ref:`texture<class_TileSetAtlasSource_property_texture>`\ 。否則，建立並返回包含內邊距的內部 :ref:`ImageTexture<class_ImageTexture>`\ 。
+If :ref:`use_texture_padding<class_TileSetAtlasSource_property_use_texture_padding>` is ``false``, returns :ref:`texture<class_TileSetAtlasSource_property_texture>`. Otherwise, returns an internal :ref:`ImageTexture<class_ImageTexture>` created that includes the padding.
 
 .. rst-class:: classref-item-separator
 

@@ -35,6 +35,8 @@ Proprietà
    +-------------------------------+---------------------------------------------------------------------+-------------------+
    | :ref:`bool<class_bool>`       | :ref:`resizable<class_GraphElement_property_resizable>`             | ``false``         |
    +-------------------------------+---------------------------------------------------------------------+-------------------+
+   | :ref:`bool<class_bool>`       | :ref:`scaling_menus<class_GraphElement_property_scaling_menus>`     | ``false``         |
+   +-------------------------------+---------------------------------------------------------------------+-------------------+
    | :ref:`bool<class_bool>`       | :ref:`selectable<class_GraphElement_property_selectable>`           | ``true``          |
    +-------------------------------+---------------------------------------------------------------------+-------------------+
    | :ref:`bool<class_bool>`       | :ref:`selected<class_GraphElement_property_selected>`               | ``false``         |
@@ -210,6 +212,23 @@ Lo scostamento del GraphElement, rispetto allo scostamento di scorrimento del :r
 Se ``true``, l'utente può ridimensionare il GraphElement.
 
 \ **Nota:** Trascinando la maniglia verranno emessi solo i segnali :ref:`resize_request<class_GraphElement_signal_resize_request>` e :ref:`resize_end<class_GraphElement_signal_resize_end>`, il GraphElement deve essere ridimensionato manualmente.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GraphElement_property_scaling_menus:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **scaling_menus** = ``false`` :ref:`🔗<class_GraphElement_property_scaling_menus>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_scaling_menus**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_scaling_menus**\ (\ )
+
+If ``true``, :ref:`PopupMenu<class_PopupMenu>`\ s that are descendants of the GraphElement are scaled with the :ref:`GraphEdit<class_GraphEdit>` zoom.
 
 .. rst-class:: classref-item-separator
 

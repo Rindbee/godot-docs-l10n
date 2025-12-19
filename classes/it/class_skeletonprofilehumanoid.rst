@@ -14,9 +14,9 @@ Una preimpostazione di :ref:`SkeletonProfile<class_SkeletonProfile>` umanoide .
 Descrizione
 ----------------------
 
-Uno :ref:`SkeletonProfile<class_SkeletonProfile>` come preimpostazione ottimizzato per la forma umana. Esiste per standardizzazione, quindi tutti i parametri sono di sola lettura.
+A :ref:`SkeletonProfile<class_SkeletonProfile>` as a preset that is optimized for the human form. This exists for standardization, so all parameters are read-only.
 
-Un profilo di scheletro umanoide contiene 54 ossa divise in 4 gruppi: ``"Body"``, ``"Face"``, ``"LeftHand"`` e ``"RightHand"``. È strutturato come segue:
+A humanoid skeleton profile contains 56 bones divided into 4 groups: ``"Body"``, ``"Face"``, ``"LeftHand"``, and ``"RightHand"``. It is structured as follows:
 
 .. code:: text
 

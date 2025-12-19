@@ -451,13 +451,13 @@ Proprietà
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/purchase_history/used_for_tracking<class_EditorExportPlatformIOS_property_privacy/collected_data/purchase_history/used_for_tracking>`                   |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_hhistory/collected<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/collected>`                                     |
+   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_history/collected<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/collected>`                                       |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`int<class_int>`                             | :ref:`privacy/collected_data/search_hhistory/collection_purposes<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/collection_purposes>`                 |
+   | :ref:`int<class_int>`                             | :ref:`privacy/collected_data/search_history/collection_purposes<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/collection_purposes>`                   |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_hhistory/linked_to_user<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/linked_to_user>`                           |
+   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_history/linked_to_user<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/linked_to_user>`                             |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_hhistory/used_for_tracking<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/used_for_tracking>`                     |
+   | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/search_history/used_for_tracking<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/used_for_tracking>`                       |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`privacy/collected_data/sensitive_info/collected<class_EditorExportPlatformIOS_property_privacy/collected_data/sensitive_info/collected>`                                       |
    +---------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -3093,11 +3093,11 @@ Indica se l'app utilizza la cronologia degli acquisti per il tracciamento.
 
 ----
 
-.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/collected:
+.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/collected:
 
 .. rst-class:: classref-property
 
-:ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/collected** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/collected>`
+:ref:`bool<class_bool>` **privacy/collected_data/search_history/collected** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/collected>`
 
 Indica se l'app raccoglie la cronologia delle ricerche.
 
@@ -3105,11 +3105,11 @@ Indica se l'app raccoglie la cronologia delle ricerche.
 
 ----
 
-.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/collection_purposes:
+.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/collection_purposes:
 
 .. rst-class:: classref-property
 
-:ref:`int<class_int>` **privacy/collected_data/search_hhistory/collection_purposes** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/collection_purposes>`
+:ref:`int<class_int>` **privacy/collected_data/search_history/collection_purposes** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/collection_purposes>`
 
 I motivi per cui l'app raccoglie la cronologia delle ricerche. Consulta `Descrivere l'uso dei dati nei manifesti sulla privacy <https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests>`__.
 
@@ -3117,11 +3117,11 @@ I motivi per cui l'app raccoglie la cronologia delle ricerche. Consulta `Descriv
 
 ----
 
-.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/linked_to_user:
+.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/linked_to_user:
 
 .. rst-class:: classref-property
 
-:ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/linked_to_user>`
+:ref:`bool<class_bool>` **privacy/collected_data/search_history/linked_to_user** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/linked_to_user>`
 
 Indica se l'app collega la cronologia delle ricerche all'identità dell'utente.
 
@@ -3129,11 +3129,11 @@ Indica se l'app collega la cronologia delle ricerche all'identità dell'utente.
 
 ----
 
-.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/used_for_tracking:
+.. _class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/used_for_tracking:
 
 .. rst-class:: classref-property
 
-:ref:`bool<class_bool>` **privacy/collected_data/search_hhistory/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_hhistory/used_for_tracking>`
+:ref:`bool<class_bool>` **privacy/collected_data/search_history/used_for_tracking** :ref:`🔗<class_EditorExportPlatformIOS_property_privacy/collected_data/search_history/used_for_tracking>`
 
 Indica se l'app utilizza la cronologia delle ricerche per il tracciamento.
 
@@ -3365,7 +3365,9 @@ I motivi per cui l'app utilizza l'API predefinita dell'utente. Consulta `Descriv
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformIOS_property_shader_baker/enabled>`
 
-Se ``true``, gli shader saranno compilati e incorporati nell'applicazione. Questa opzione è supportata solo quando si utilizzano i renderer Forward+ o Mobile.
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

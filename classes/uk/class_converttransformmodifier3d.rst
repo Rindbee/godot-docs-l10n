@@ -14,25 +14,29 @@ ConvertTransformModifier3D
 Опис
 --------
 
-Застосуйте скопійоване перетворення набору кісток за допомогою :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` до набору кісток за допомогою :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` відносно певної осі з перепризначенням його з деякими опціями.
+Apply the copied transform of the bone set by :ref:`BoneConstraint3D.set_reference_bone()<class_BoneConstraint3D_method_set_reference_bone>` to the bone set by :ref:`BoneConstraint3D.set_apply_bone()<class_BoneConstraint3D_method_set_apply_bone>` about the specific axis with remapping it with some options.
 
-Існує 4 способи застосування перетворення, залежно від комбінації :ref:`set_relative()<class_ConvertTransformModifier3D_method_set_relative>` та :ref:`set_additive()<class_ConvertTransformModifier3D_method_set_additive>`.
+There are 4 ways to apply the transform, depending on the combination of :ref:`set_relative()<class_ConvertTransformModifier3D_method_set_relative>` and :ref:`set_additive()<class_ConvertTransformModifier3D_method_set_additive>`.
 
-\ **Відносне + Адитивне:**\ 
+\ **Relative + Additive:**\ 
 
-- Витягніть опорну позу відносно решти та додайте її до пози застосованої кістки.
+- Extract reference pose relative to the rest and add it to the apply bone's pose.
 
-\ **Відносне + Неадитивне:**\ 
+\ **Relative + Not Additive:**\ 
 
-- Витягніть опорну позу відносно решти та додайте її до решти застосованої кістки.
+- Extract reference pose relative to the rest and add it to the apply bone's rest.
 
-\ **Не відносне + Адитивне:**\ 
+\ **Not Relative + Additive:**\ 
 
-- Абсолютно витягніть опорну позу та додайте її до пози застосованої кістки.
+- Extract reference pose absolutely and add it to the apply bone's pose.
 
-\ **Не відносне + Неадитивне:**\ 
+\ **Not Relative + Not Additive:**\ 
 
-- Абсолютно витягніть опорну позу, і поза застосованої кістки замінюється нею.
+- Extract reference pose absolutely and the apply bone's pose is replaced with it.
+
+\ **Note:** Relative option is available only in the case :ref:`BoneConstraint3D.get_reference_type()<class_BoneConstraint3D_method_get_reference_type>` is :ref:`BoneConstraint3D.REFERENCE_TYPE_BONE<class_BoneConstraint3D_constant_REFERENCE_TYPE_BONE>`. See also :ref:`ReferenceType<enum_BoneConstraint3D_ReferenceType>`.
+
+\ **Note:** If there is a rotation greater than ``180`` degrees with constrained axes, flipping may occur.
 
 .. rst-class:: classref-reftable-group
 

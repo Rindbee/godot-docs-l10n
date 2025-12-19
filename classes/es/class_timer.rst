@@ -14,20 +14,20 @@ Un temporizador de cuenta atrás.
 Descripción
 ----------------------
 
-El nodo **Timer** es un temporizador de cuenta regresiva y es la forma más sencilla de manejar la lógica basada en el tiempo en el motor. Cuando un temporizador alcanza el final de su :ref:`wait_time<class_Timer_property_wait_time>`, emitirá la señal :ref:`timeout<class_Timer_signal_timeout>`.
+The **Timer** node is a countdown timer and is the simplest way to handle time-based logic in the engine. When a timer reaches the end of its :ref:`wait_time<class_Timer_property_wait_time>`, it will emit the :ref:`timeout<class_Timer_signal_timeout>` signal.
 
-Después de que un temporizador entra en el árbol de escenas, se puede iniciar manualmente con :ref:`start()<class_Timer_method_start>`. Un nodo temporizador también se inicia automáticamente si :ref:`autostart<class_Timer_property_autostart>` es ``true``.
+After a timer enters the scene tree, it can be manually started with :ref:`start()<class_Timer_method_start>`. A timer node is also started automatically if :ref:`autostart<class_Timer_property_autostart>` is ``true``.
 
-Sin requerir mucho código, se puede agregar y configurar un nodo temporizador en el editor. La señal :ref:`timeout<class_Timer_signal_timeout>` que emite también se puede conectar a través del dock de Nodos en el editor:
+Without requiring much code, a timer node can be added and configured in the editor. The :ref:`timeout<class_Timer_signal_timeout>` signal it emits can also be connected through the Signals dock in the editor:
 
 ::
 
     func _on_timer_timeout():
-        print("¡Hora de atacar!")
+        print("Time to attack!")
 
-\ **Nota:** Para crear un temporizador de un solo disparo sin instanciar un nodo, usa :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
+\ **Note:** To create a one-shot timer without instantiating a node, use :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
 
-\ **Nota:** Los temporizadores se ven afectados por :ref:`Engine.time_scale<class_Engine_property_time_scale>` a menos que :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` sea ``true``. Cuanto mayor sea la escala de tiempo, antes terminarán los temporizadores. La frecuencia con la que un temporizador procesa puede depender de la velocidad de fotogramas o de :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+\ **Note:** Timers are affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>` unless :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` is ``true``. The higher the time scale, the sooner timers will end. How often a timer processes may depend on the framerate or :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
 .. rst-class:: classref-introduction-group
 

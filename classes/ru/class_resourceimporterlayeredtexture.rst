@@ -68,13 +68,13 @@ ResourceImporterLayeredTexture
 
 :ref:`int<class_int>` **compress/channel_pack** = ``0`` :ref:`🔗<class_ResourceImporterLayeredTexture_property_compress/channel_pack>`
 
-Управляет тем, как должны использоваться цветовые каналы в импортированной текстуре.
+Controls how color channels should be used in the imported texture.
 
-\ **sRGB Friendly:**, предотвращает использование формата цвета RG, так как он не поддерживает цвет sRGB.
+\ **sRGB Friendly:**, prevents the R and RG color formats from being used, as they do not support nonlinear sRGB encoding.
 
-\ **Optimized:**, позволяет использовать формат цвета RG, если текстура не использует синий канал. Это уменьшает использование памяти, если синий канал текстуры можно отбросить (все пиксели должны иметь значение синего ``0``).
+\ **Optimized:**, allows the RG color format to be used if the texture does not use the blue channel. This reduces memory usage if the texture's blue channel can be discarded (all pixels must have a blue value of ``0``).
 
-\ **Normal Map (RG Channels):** Это заставляет все слои текстуры импортироваться с форматом цвета RG, сохраняя только красный и зеленый каналы. Сжатие RGTC (Red-Green Texture Compression) позволяет намного лучше сохранять детализацию, используя при этом тот же объем памяти, что и стандартная текстура RGBA, сжатая VRAM. Это влияет только на текстуры с режимами сжатия VRAM Compressed или Basis Universal. Этот режим доступен только в многослойных текстурах (:ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>` и :ref:`Texture3D<class_Texture3D>`).
+\ **Normal Map (RG Channels):** This forces all layers from the texture to be imported with the RG color format, with only the red and green channels preserved. RGTC (Red-Green Texture Compression) compression is able to preserve its detail much better, while using the same amount of memory as a standard RGBA VRAM-compressed texture. This only has an effect on textures with the VRAM Compressed or Basis Universal compression modes. This mode is only available in layered textures (:ref:`Cubemap<class_Cubemap>`, :ref:`CubemapArray<class_CubemapArray>`, :ref:`Texture2DArray<class_Texture2DArray>` and :ref:`Texture3D<class_Texture3D>`).
 
 .. rst-class:: classref-item-separator
 

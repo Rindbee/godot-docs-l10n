@@ -126,7 +126,7 @@ Simile a :ref:`create_id()<class_ResourceUID_method_create_id>`, ma l'UID è gen
 
 :ref:`String<class_String>` **ensure_path**\ (\ path_or_uid\: :ref:`String<class_String>`\ ) |static| :ref:`🔗<class_ResourceUID_method_ensure_path>`
 
-Restituisce un percorso, convertendo ``path_or_uid`` se necessario. Stampa un errore se viene fornito un UID non valido.
+Returns a path, converting ``path_or_uid`` if necessary. Fails and returns an empty string if an invalid UID is provided.
 
 .. rst-class:: classref-item-separator
 

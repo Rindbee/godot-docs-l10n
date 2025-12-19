@@ -14,9 +14,9 @@ Gestisce le notifiche toast all'interno dell'editor.
 Descrizione
 ----------------------
 
-Questo oggetto gestisce la funzionalità e la visualizzazione delle notifiche toast all'interno dell'editor, assicurando che avvisi opportuni e informativi vengano presentati agli utenti.
+This object manages the functionality and display of toast notifications within the editor, ensuring immediate and informative alerts are presented to the user.
 
-\ **Nota:** Questa classe non dovrebbe essere istanziata direttamente. Invece, accedi al singleton tramite :ref:`EditorInterface.get_editor_toaster()<class_EditorInterface_method_get_editor_toaster>`.
+\ **Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_editor_toaster()<class_EditorInterface_method_get_editor_toaster>`.
 
 .. rst-class:: classref-reftable-group
 

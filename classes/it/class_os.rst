@@ -739,15 +739,21 @@ Da non confondere con :ref:`get_user_data_dir()<class_OS_method_get_user_data_di
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_cmdline_args**\ (\ ) :ref:`🔗<class_OS_method_get_cmdline_args>`
 
-Restituisce gli argomenti della riga di comando passati al motore.
+Returns the command-line arguments passed to the engine, excluding arguments processed by the engine, such as ``--headless`` and ``--fullscreen``.
 
-Gli argomenti della riga di comando possono essere scritti in qualsiasi formato, inclusi i formati ``--chiave valore`` e ``--chiave=valore``, in modo che possano essere analizzati correttamente, purché gli argomenti della riga di comando personalizzati non siano in conflitto con gli argomenti del motore.
+::
 
-Puoi anche incorporare variabili di ambiente usando il metodo :ref:`get_environment()<class_OS_method_get_environment>`.
+    # Godot has been executed with the following command:
+    # godot --headless --verbose --scene my_scene.tscn --custom
+    OS.get_cmdline_args() # Returns ["--scene", "my_scene.tscn", "--custom"]
 
-Puoi impostare :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSettings_property_editor/run/main_run_args>` per definire gli argomenti della riga di comando che devono essere passati dall'editor durante l'esecuzione del progetto.
+Command-line arguments can be written in any form, including both ``--key value`` and ``--key=value`` forms so they can be properly parsed, as long as custom command-line arguments do not conflict with engine arguments.
 
-\ **Esempio:** Interpreta gli argomenti della riga di comando in un :ref:`Dictionary<class_Dictionary>` usando il formato ``--chiave=valore`` per gli argomenti:
+You can also incorporate environment variables using the :ref:`get_environment()<class_OS_method_get_environment>` method.
+
+You can set :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSettings_property_editor/run/main_run_args>` to define command-line arguments to be passed by the editor when running the project.
+
+\ **Example:** Parse command-line arguments into a :ref:`Dictionary<class_Dictionary>` using the ``--key=value`` form for arguments:
 
 
 .. tabs::
@@ -784,7 +790,7 @@ Puoi impostare :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSetti
 
 
 
-\ **Nota:** Non è consigliabile passare direttamente argomenti utente personalizzati, poiché il motore potrebbe scartarli o modificarli. Invece, passa il doppio trattino UNIX standard (``--``) e poi gli argomenti personalizzati, che il motore ignorerà per impostazione predefinita. Questi possono essere letti tramite :ref:`get_cmdline_user_args()<class_OS_method_get_cmdline_user_args>`.
+\ **Note:** Passing custom user arguments directly is not recommended, as the engine may discard or modify them. Instead, pass the standard UNIX double dash (``--``) and then the custom arguments, which the engine will ignore by design. These can be read via :ref:`get_cmdline_user_args()<class_OS_method_get_cmdline_user_args>`.
 
 .. rst-class:: classref-item-separator
 
@@ -796,17 +802,17 @@ Puoi impostare :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSetti
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_cmdline_user_args**\ (\ ) :ref:`🔗<class_OS_method_get_cmdline_user_args>`
 
-Restituisce gli argomenti utente della riga di comando passati al motore. Gli argomenti utente sono ignorati dal motore e riservati all'utente. Sono passati dopo l'argomento con doppio trattino ``--``. ``++`` può essere utilizzato quando ``--`` è intercettato da un altro programma (ad esempio ``startx``).
+Returns the command-line user arguments passed to the engine. User arguments are ignored by the engine and reserved for the user. They are passed after the double dash ``--`` argument. ``++`` may be used when ``--`` is intercepted by another program (such as ``startx``).
 
 ::
 
-    # Godot è stato eseguito con il seguente comando:
-    # godot --fullscreen -- --level=2 --hardcore
+    # Godot has been executed with the following command:
+    # godot --fullscreen --custom -- --level=2 --hardcore
 
-    OS.get_cmdline_args()      # Restituisce ["--fullscreen", "--level=2", "--hardcore"]
-    OS.get_cmdline_user_args() # Restituisce ["--level=2", "--hardcore"]
+    OS.get_cmdline_args()      # Returns ["--custom"]
+    OS.get_cmdline_user_args() # Returns ["--level=2", "--hardcore"]
 
-Per ottenere tutti gli argomenti passati, utilizza :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>`.
+To get arguments passed before ``--`` or ``++``, use :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>`.
 
 .. rst-class:: classref-item-separator
 

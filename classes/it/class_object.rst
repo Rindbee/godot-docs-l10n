@@ -5,7 +5,7 @@
 Object
 ======
 
-**Ereditato da:** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
+**Ereditato da:** :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`DisplayServer<class_DisplayServer>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorInterface<class_EditorInterface>`, :ref:`EditorPaths<class_EditorPaths>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorUndoRedoManager<class_EditorUndoRedoManager>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`EngineDebugger<class_EngineDebugger>`, :ref:`FramebufferCacheRD<class_FramebufferCacheRD>`, :ref:`GDExtensionManager<class_GDExtensionManager>`, :ref:`Geometry2D<class_Geometry2D>`, :ref:`Geometry3D<class_Geometry3D>`, :ref:`GodotInstance<class_GodotInstance>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`IP<class_IP>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScriptBridge<class_JavaScriptBridge>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`MovieWriter<class_MovieWriter>`, :ref:`NativeMenu<class_NativeMenu>`, :ref:`NavigationMeshGenerator<class_NavigationMeshGenerator>`, :ref:`NavigationServer2D<class_NavigationServer2D>`, :ref:`NavigationServer2DManager<class_NavigationServer2DManager>`, :ref:`NavigationServer3D<class_NavigationServer3D>`, :ref:`NavigationServer3DManager<class_NavigationServer3DManager>`, :ref:`Node<class_Node>`, :ref:`OpenXRExtensionWrapper<class_OpenXRExtensionWrapper>`, :ref:`OpenXRInteractionProfileMetadata<class_OpenXRInteractionProfileMetadata>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`PhysicsDirectBodyState2D<class_PhysicsDirectBodyState2D>`, :ref:`PhysicsDirectBodyState3D<class_PhysicsDirectBodyState3D>`, :ref:`PhysicsDirectSpaceState2D<class_PhysicsDirectSpaceState2D>`, :ref:`PhysicsDirectSpaceState3D<class_PhysicsDirectSpaceState3D>`, :ref:`PhysicsServer2D<class_PhysicsServer2D>`, :ref:`PhysicsServer2DManager<class_PhysicsServer2DManager>`, :ref:`PhysicsServer3D<class_PhysicsServer3D>`, :ref:`PhysicsServer3DManager<class_PhysicsServer3DManager>`, :ref:`PhysicsServer3DRenderingServerHandler<class_PhysicsServer3DRenderingServerHandler>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`RefCounted<class_RefCounted>`, :ref:`RenderData<class_RenderData>`, :ref:`RenderingDevice<class_RenderingDevice>`, :ref:`RenderingServer<class_RenderingServer>`, :ref:`RenderSceneData<class_RenderSceneData>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`ResourceUID<class_ResourceUID>`, :ref:`ScriptLanguage<class_ScriptLanguage>`, :ref:`ShaderIncludeDB<class_ShaderIncludeDB>`, :ref:`TextServerManager<class_TextServerManager>`, :ref:`ThemeDB<class_ThemeDB>`, :ref:`TileData<class_TileData>`, :ref:`Time<class_Time>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`UniformSetCacheRD<class_UniformSetCacheRD>`, :ref:`WorkerThreadPool<class_WorkerThreadPool>`, :ref:`XRServer<class_XRServer>`, :ref:`XRVRS<class_XRVRS>`
 
 Classe di base per tutte le altre classi nel motore.
 
@@ -251,7 +251,9 @@ Le connessioni differite attivano i loro :ref:`Callable<class_Callable>` durante
 
 :ref:`ConnectFlags<enum_Object_ConnectFlags>` **CONNECT_PERSIST** = ``2``
 
-Le connessioni persistenti sono memorizzate quando l'oggetto viene serializzato (ad esempio quando si usa :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). Nell'editor, le connessioni create tramite il pannello di Nodo sono sempre persistenti.
+Persisting connections are stored when the object is serialized (such as when using :ref:`PackedScene.pack()<class_PackedScene_method_pack>`). In the editor, connections created through the Signals dock are always persisting.
+
+\ **Note:** Connections to lambda functions (that is, when the function code is embedded in the :ref:`connect()<class_Object_method_connect>` call) cannot be made persistent.
 
 .. _class_Object_constant_CONNECT_ONE_SHOT:
 
@@ -300,7 +302,9 @@ Notifica ricevuta quando l'oggetto viene inizializzato, prima che il suo script 
 
 **NOTIFICATION_PREDELETE** = ``1`` :ref:`🔗<class_Object_constant_NOTIFICATION_PREDELETE>`
 
-Notifica ricevuta quando l'oggetto sta per essere eliminato. Può fungere da distruttore nei linguaggi di programmazione orientati agli oggetti.
+Notification received when the object is about to be deleted. Can be used like destructors in object-oriented programming languages.
+
+This notification is sent in reversed order.
 
 .. _class_Object_constant_NOTIFICATION_EXTENSION_RELOADED:
 
@@ -325,11 +329,11 @@ Descrizioni dei metodi
 
 :ref:`Variant<class_Variant>` **_get**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__get>`
 
-Sovrascrivi questo metodo per personalizzare il comportamento di :ref:`get()<class_Object_method_get>`. Dovrebbe restituire il valore della proprietà ``property``, oppure ``null`` se la ``property`` deve essere gestita normalmente.
+Override this method to customize the behavior of :ref:`get()<class_Object_method_get>`. Should return the given ``property``'s value, or ``null`` if the ``property`` should be handled normally.
 
-In combinazione con :ref:`_set()<class_Object_private_method__set>` e :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, questo metodo consente di definire proprietà personalizzate, il che è particolarmente utile per le estensioni dell'editor.
+Combined with :ref:`_set()<class_Object_private_method__set>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **Nota:** Questo metodo non viene chiamato quando si ottengono le proprietà integrate di un oggetto, incluse le proprietà definite con :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Note:** This method is not called when getting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -338,7 +342,7 @@ In combinazione con :ref:`_set()<class_Object_private_method__set>` e :ref:`_get
 
     func _get(property):
         if property == "fake_property":
-            print("Ottenendo la mia proprietà!")
+            print("Getting my property!")
             return 4
 
     func _get_property_list():
@@ -352,7 +356,7 @@ In combinazione con :ref:`_set()<class_Object_private_method__set>` e :ref:`_get
     {
         if (property == "FakeProperty")
         {
-            GD.Print("Ottenendo la mia proprietà!");
+            GD.Print("Getting my property!");
             return 4;
         }
         return default;
@@ -360,17 +364,19 @@ In combinazione con :ref:`_set()<class_Object_private_method__set>` e :ref:`_get
 
     public override Godot.Collections.Array<Godot.Collections.Dictionary> _GetPropertyList()
     {
-        return new Godot.Collections.Array<Godot.Collections.Dictionary>()
-        {
+        return
+        [
             new Godot.Collections.Dictionary()
             {
                 { "name", "FakeProperty" },
                 { "type", (int)Variant.Type.Int },
-            }
-        };
+            },
+        ];
     }
 
 
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
 
 .. rst-class:: classref-item-separator
 
@@ -382,13 +388,13 @@ In combinazione con :ref:`_set()<class_Object_private_method__set>` e :ref:`_get
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **_get_property_list**\ (\ ) |virtual| :ref:`🔗<class_Object_private_method__get_property_list>`
 
-Sovrascrivi questo metodo per fornire un elenco personalizzato di proprietà aggiuntive da gestire dal motore.
+Override this method to provide a custom list of additional properties to handle by the engine.
 
-Dovrebbe restituire un elenco di proprietà, come :ref:`Array<class_Array>` di dizionari. Il risultato viene aggiunto all'array di :ref:`get_property_list()<class_Object_method_get_property_list>` e dovrebbe essere formattato nello stesso modo. Ogni :ref:`Dictionary<class_Dictionary>` deve contenere almeno le voci ``name`` e ``type``.
+Should return a property list, as an :ref:`Array<class_Array>` of dictionaries. The result is added to the array of :ref:`get_property_list()<class_Object_method_get_property_list>`, and should be formatted in the same way. Each :ref:`Dictionary<class_Dictionary>` must at least contain the ``name`` and ``type`` entries.
 
-È possibile usare :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` e :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` per personalizzare i valori predefiniti delle proprietà aggiunte da questo metodo.
+You can use :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` and :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to customize the default values of the properties added by this method.
 
-L'esempio seguente mostra un elenco di numeri mostrati come parole che vanno da ``ZERO`` a ``FIVE``, con ``number_count`` che controlla la dimensione dell'elenco:
+The example below displays a list of numbers shown as words going from ``ZERO`` to ``FIVE``, with ``number_count`` controlling the size of the list:
 
 
 .. tabs::
@@ -496,9 +502,11 @@ L'esempio seguente mostra un elenco di numeri mostrati come parole che vanno da 
 
 
 
-\ **Nota:** Questo metodo è pensato per scopi avanzati. Per la maggior parte dei casi d'uso comuni, i linguaggi di scripting offrono modi più semplici per gestire le proprietà. Vedi :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>`, ecc. Se si desidera personalizzare le proprietà esportate, usa :ref:`_validate_property()<class_Object_private_method__validate_property>`.
+\ **Note:** This method is intended for advanced purposes. For most common use cases, the scripting languages offer easier ways to handle properties. See :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`, :ref:`@GDScript.@export_enum<class_@GDScript_annotation_@export_enum>`, :ref:`@GDScript.@export_group<class_@GDScript_annotation_@export_group>`, etc. If you want to customize exported properties, use :ref:`_validate_property()<class_Object_private_method__validate_property>`.
 
-\ **Nota:** Se lo script dell'oggetto non è :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, questo metodo non sarà chiamato nell'editor.
+\ **Note:** If the object's script is not :ref:`@GDScript.@tool<class_@GDScript_annotation_@tool>`, this method will not be called in the editor.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy.
 
 .. rst-class:: classref-item-separator
 
@@ -591,7 +599,7 @@ Sposta l'iteratore all'iterazione successiva. ``iter`` memorizza lo stato dell'i
 
 |void| **_notification**\ (\ what\: :ref:`int<class_int>`\ ) |virtual| :ref:`🔗<class_Object_private_method__notification>`
 
-Chiamato quando l'oggetto riceve una notifica, la quale può essere identificata in ``what`` confrontandola con una costante. Vedi anche :ref:`notification()<class_Object_method_notification>`.
+Called when the object receives a notification, which can be identified in ``what`` by comparing it with a constant. See also :ref:`notification()<class_Object_method_notification>`.
 
 
 .. tabs::
@@ -600,7 +608,7 @@ Chiamato quando l'oggetto riceve una notifica, la quale può essere identificata
 
     func _notification(what):
         if what == NOTIFICATION_PREDELETE:
-            print("Addio!")
+            print("Goodbye!")
 
  .. code-tab:: csharp
 
@@ -608,15 +616,15 @@ Chiamato quando l'oggetto riceve una notifica, la quale può essere identificata
     {
         if (what == NotificationPredelete)
         {
-            GD.Print("Addio!");
+            GD.Print("Goodbye!");
         }
     }
 
 
 
-\ **Nota:** L'**Object** base definisce alcune notifiche (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` e :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Le classi che lo ereditano come :ref:`Node<class_Node>` definiscono molte più notifiche, che sono anche ricevute da questo metodo.
+\ **Note:** The base **Object** defines a few notifications (:ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`). Inheriting classes such as :ref:`Node<class_Node>` define a lot more notifications, which are also received by this method.
 
-\ **Nota:** A differenza di altri metodi virtuali, questo metodo viene chiamato automaticamente per ogni script che lo sovrascrive. Ciò significa che non si dovrebbe chiamare l'implementazione di base tramite ``super`` in GDScript o i suoi equivalenti in altri linguaggi.
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. Call order depends on the ``reversed`` argument of :ref:`notification()<class_Object_method_notification>` and varies between different notifications. Most notifications are sent in the forward order (i.e. Object class first, most derived class last).
 
 .. rst-class:: classref-item-separator
 
@@ -628,9 +636,11 @@ Chiamato quando l'oggetto riceve una notifica, la quale può essere identificata
 
 :ref:`bool<class_bool>` **_property_can_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_can_revert>`
 
-Sovrascrivi questo metodo per personalizzare il comportamento di ripristino della proprietà denominata ``property``. Dovrebbe restituire ``true`` se ``property`` ha un valore predefinito personalizzato ed è ripristinabile nel pannello dell'Ispettore. Usa :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` per specificare il valore predefinito di ``property``.
+Override this method to customize the given ``property``'s revert behavior. Should return ``true`` if the ``property`` has a custom default value and is revertible in the Inspector dock. Use :ref:`_property_get_revert()<class_Object_private_method__property_get_revert>` to specify the ``property``'s default value.
 
-\ **Nota:** Questo metodo deve restituire in modo costante, a prescindere dal valore attuale della proprietà denominata ``property``.
+\ **Note:** This method must return consistently, regardless of the current value of the ``property``.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -642,9 +652,11 @@ Sovrascrivi questo metodo per personalizzare il comportamento di ripristino dell
 
 :ref:`Variant<class_Variant>` **_property_get_revert**\ (\ property\: :ref:`StringName<class_StringName>`\ ) |virtual| :ref:`🔗<class_Object_private_method__property_get_revert>`
 
-Sovrascrivi questo metodo per personalizzare il comportamento di ripristino della proprietà denominata ``property``. Dovrebbe restituire il valore predefinito per ``property``. Se il valore predefinito è diverso dal valore attuale della proprietà denominata ``property``, è visualizzata un'icona di ripristino nel pannello dell'Ispettore.
+Override this method to customize the given ``property``'s revert behavior. Should return the default value for the ``property``. If the default value differs from the ``property``'s current value, a revert icon is displayed in the Inspector dock.
 
-\ **Nota:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` deve essere sovrascritto affinché questo metodo sia chiamato.
+\ **Note:** :ref:`_property_can_revert()<class_Object_private_method__property_can_revert>` must also be overridden for this method to be called.
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns a non-``null`` value.
 
 .. rst-class:: classref-item-separator
 
@@ -656,11 +668,11 @@ Sovrascrivi questo metodo per personalizzare il comportamento di ripristino dell
 
 :ref:`bool<class_bool>` **_set**\ (\ property\: :ref:`StringName<class_StringName>`, value\: :ref:`Variant<class_Variant>`\ ) |virtual| :ref:`🔗<class_Object_private_method__set>`
 
-Sovrascrivi questo metodo per personalizzare il comportamento di :ref:`set()<class_Object_method_set>`. Dovrebbe impostare la proprietà ``property`` su ``value`` e restituire ``true``, o ``false`` se la proprietà ``property`` dovrebbe essere gestita normalmente. Il modo *esatto* per impostare la proprietà ``property`` dipende dall'implementazione di questo metodo.
+Override this method to customize the behavior of :ref:`set()<class_Object_method_set>`. Should set the ``property`` to ``value`` and return ``true``, or ``false`` if the ``property`` should be handled normally. The *exact* way to set the ``property`` is up to this method's implementation.
 
-In combinazione con :ref:`_get()<class_Object_private_method__get>` e :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, questo metodo consente di definire proprietà personalizzate, il che è particolarmente utile per le estensioni dell'editor.
+Combined with :ref:`_get()<class_Object_private_method__get>` and :ref:`_get_property_list()<class_Object_private_method__get_property_list>`, this method allows defining custom properties, which is particularly useful for editor plugins.
 
-\ **Nota:** Questo metodo non viene chiamato quando si ottengono le proprietà integrate di un oggetto, incluse le proprietà definite con :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
+\ **Note:** This method is not called when setting built-in properties of an object, including properties defined with :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`.
 
 
 .. tabs::
@@ -671,7 +683,7 @@ In combinazione con :ref:`_get()<class_Object_private_method__get>` e :ref:`_get
 
     func _set(property, value):
         if property == "fake_property":
-            # Memorizza i valori nella proprietà fasulla.
+            # Storing the value in the fake property.
             internal_data["fake_property"] = value
             return true
         return false
@@ -710,6 +722,8 @@ In combinazione con :ref:`_get()<class_Object_private_method__get>` e :ref:`_get
     }
 
 
+
+\ **Note:** Unlike other virtual methods, this method is called automatically for every script that overrides it. This means that the base implementation should not be called via ``super`` in GDScript or its equivalents in other languages. The bottom-most sub-class will be called first, with subsequent calls ascending the class hierarchy. The call chain will stop on the first class that returns ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -874,11 +888,11 @@ Chiama il metodo denominato ``method`` sull'oggetto e restituisce il risultato. 
 
 :ref:`Variant<class_Variant>` **call_deferred**\ (\ method\: :ref:`StringName<class_StringName>`, ...\ ) |vararg| :ref:`🔗<class_Object_method_call_deferred>`
 
-Chiama il metodo denominato ``method`` sull'oggetto durante il tempo di inattività. Restituisce sempre ``null``, **non** il risultato del metodo.
+Calls the ``method`` on the object during idle time. Always returns ``null``, **not** the method's result.
 
-Il tempo di inattività si verifica principalmente alla fine dei frame di processo e di fisica. In esso, le chiamate differite saranno eseguite finché non ne rimarrà nessuna, il che significa che è possibile differire le chiamate da altre chiamate differite e saranno comunque eseguite nel ciclo di tempo di inattività attuale. Ciò significa che non dovresti chiamare un metodo differito da se stesso (o da un metodo chiamato da esso), poiché ciò causa una ricorsione infinita allo stesso modo di se avessi chiamato il metodo direttamente.
+Idle time happens mainly at the end of process and physics frames. In it, deferred calls will be run until there are none left, which means you can defer calls from other deferred calls and they'll still be run in the current idle time cycle. This means you should not call a method deferred from itself (or from a method called by it), as this causes infinite recursion the same way as if you had called the method directly.
 
-Questo metodo supporta un numero variabile di argomenti, quindi è possibile passare i parametri come un elenco separato da virgole.
+This method supports a variable number of arguments, so parameters can be passed as a comma separated list.
 
 
 .. tabs::
@@ -895,19 +909,21 @@ Questo metodo supporta un numero variabile di argomenti, quindi è possibile pas
 
 
 
-Vedi anche :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`.
+For methods that are deferred from the same thread, the order of execution at idle time is identical to the order in which ``call_deferred`` was called.
 
-\ **Nota:** In C#, ``method`` deve essere in snake_case quando si fa riferimento ai metodi integrati di Godot. Preferisci usare i nomi esposti nella classe ``MethodName`` per evitare di allocare un nuovo :ref:`StringName<class_StringName>` a ogni chiamata.
+See also :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>`.
 
-\ **Nota:** Se vuoi ritardare la chiamata alla funzione di un frame, usa i segnali :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` e :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>`.
+\ **Note:** In C#, ``method`` must be in snake_case when referring to built-in Godot methods. Prefer using the names exposed in the ``MethodName`` class to avoid allocating a new :ref:`StringName<class_StringName>` on each call.
+
+\ **Note:** If you're looking to delay the function call by a frame, refer to the :ref:`SceneTree.process_frame<class_SceneTree_signal_process_frame>` and :ref:`SceneTree.physics_frame<class_SceneTree_signal_physics_frame>` signals.
 
 ::
 
     var node = Node3D.new()
-    # Crea un chiamabile e associa gli argomenti alla chiamata rotate() del nodo.
+    # Make a Callable and bind the arguments to the node's rotate() call.
     var callable = node.rotate.bind(Vector3(1.0, 0.0, 0.0), 1.571)
-    # Collega il chiamabile al segnale process_frame, in modo che sia chiamato nel frame di processo successivo.
-    # CONNECT_ONE_SHOT assicura che sia chiamato solo una volta invece di ogni frame.
+    # Connect the callable to the process_frame signal, so it gets called in the next process frame.
+    # CONNECT_ONE_SHOT makes sure it only gets called once instead of every frame.
     get_tree().process_frame.connect(callable, CONNECT_ONE_SHOT)
 
 .. rst-class:: classref-item-separator
@@ -973,15 +989,15 @@ Se questo metodo viene chiamato durante :ref:`NOTIFICATION_PREDELETE<class_Objec
 
 :ref:`Error<enum_@GlobalScope_Error>` **connect**\ (\ signal\: :ref:`StringName<class_StringName>`, callable\: :ref:`Callable<class_Callable>`, flags\: :ref:`int<class_int>` = 0\ ) :ref:`🔗<class_Object_method_connect>`
 
-Collega un segnale ``signal`` per nome al chiamabile ``callable``. È possibile aggiungere anche ``flags`` facoltativi per configurare il comportamento della connessione (vedi le costanti di :ref:`ConnectFlags<enum_Object_ConnectFlags>`).
+Connects a ``signal`` by name to a ``callable``. Optional ``flags`` can be also added to configure the connection's behavior (see :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants).
 
-Un segnale può essere connesso solo una volta allo stesso :ref:`Callable<class_Callable>`. Se il segnale è già connesso, restituisce :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` e invia un messaggio di errore, a meno che il segnale non sia connesso con :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. Per evitare ciò, usa prima :ref:`is_connected()<class_Object_method_is_connected>` per verificare le connessioni esistenti.
+A signal can only be connected once to the same :ref:`Callable<class_Callable>`. If the signal is already connected, this method returns :ref:`@GlobalScope.ERR_INVALID_PARAMETER<class_@GlobalScope_constant_ERR_INVALID_PARAMETER>` and generates an error, unless the signal is connected with :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To prevent this, use :ref:`is_connected()<class_Object_method_is_connected>` first to check for existing connections.
 
-\ **Nota:** Se l'oggetto di ``callable`` viene liberato, la connessione andrà persa.
+\ **Note:** If the ``callable``'s object is freed, the connection will be lost.
 
-\ **Nota:** In GDScript, si consiglia generalmente di connettere i segnali con :ref:`Signal.connect()<class_Signal_method_connect>`.
+\ **Note:** In GDScript, it is generally recommended to connect signals with :ref:`Signal.connect()<class_Signal_method_connect>` instead.
 
-\ **Nota:** Questa operazione (e tutte le altre operazioni relative ai segnali) è thread-safe.
+\ **Note:** This method, and all other signal-related methods, are thread-safe.
 
 .. rst-class:: classref-item-separator
 
@@ -1286,9 +1302,9 @@ Restituisce un :ref:`Array<class_Array>` di connessioni per il segnale denominat
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_signal_list**\ (\ ) |const| :ref:`🔗<class_Object_method_get_signal_list>`
 
-Restituisce la lista dei segnali esistenti come :ref:`Array<class_Array>` di dizionari.
+Returns the list of existing signals as an :ref:`Array<class_Array>` of dictionaries.
 
-\ **Nota:** A causa dell'implementazione, ogni :ref:`Dictionary<class_Dictionary>` è formattato in modo molto simile ai valori restituiti da :ref:`get_method_list()<class_Object_method_get_method_list>`.
+\ **Note:** Due to the implementation, each :ref:`Dictionary<class_Dictionary>` is formatted very similarly to the returned values of :ref:`get_method_list()<class_Object_method_get_method_list>`.
 
 .. rst-class:: classref-item-separator
 

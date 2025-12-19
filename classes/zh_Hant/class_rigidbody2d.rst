@@ -558,11 +558,11 @@ Setting this property will call the method :ref:`PhysicsServer2D.body_set_omit_f
 - |void| **set_freeze_enabled**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_freeze_enabled**\ (\ )
 
-如果位 ``true``\ ，則物體被凍結。不再施加重力和力。
+If ``true``, the body is frozen. Gravity and forces are not applied anymore.
 
-請參閱 :ref:`freeze_mode<class_RigidBody2D_property_freeze_mode>`\ ，以設定凍結時，物體的行為。
+See :ref:`freeze_mode<class_RigidBody2D_property_freeze_mode>` to set the body's behavior when frozen.
 
-對於始終凍結的物體，請改用 :ref:`StaticBody2D<class_StaticBody2D>` 或 :ref:`AnimatableBody2D<class_AnimatableBody2D>`\ 。
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -579,9 +579,9 @@ Setting this property will call the method :ref:`PhysicsServer2D.body_set_omit_f
 - |void| **set_freeze_mode**\ (\ value\: :ref:`FreezeMode<enum_RigidBody2D_FreezeMode>`\ )
 - :ref:`FreezeMode<enum_RigidBody2D_FreezeMode>` **get_freeze_mode**\ (\ )
 
-The body's freeze mode. Can be used to set the body's behavior when :ref:`freeze<class_RigidBody2D_property_freeze>` is enabled.
+The body's freeze mode. Determines the body's behavior when :ref:`freeze<class_RigidBody2D_property_freeze>` is ``true``.
 
-For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
+\ **Note:** For a body that is always frozen, use :ref:`StaticBody2D<class_StaticBody2D>` or :ref:`AnimatableBody2D<class_AnimatableBody2D>` instead.
 
 .. rst-class:: classref-item-separator
 

@@ -208,11 +208,11 @@ Per aggiungere nuovi metodi supportati, estendi la classe JSONRPC e chiama :ref:
 
 |void| **set_method**\ (\ name\: :ref:`String<class_String>`, callback\: :ref:`Callable<class_Callable>`\ ) :ref:`🔗<class_JSONRPC_method_set_method>`
 
-Registra un callback per il nome del metodo specificato.
+Registers a callback for the given method name.
 
-- ``name``: Il nome che i client possono utilizzare per accedere al callback.
+- ``name``: The name that clients can use to access the callback.
 
-- ``callback``: Il callback che gestirà il metodo specifico.
+- ``callback``: The callback which will handle the specified method.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

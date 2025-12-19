@@ -680,9 +680,9 @@ Si ``deep`` vaut ``true``, une copie **profonde** est renvoyée : tous les tabl
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Duplique ce tableau, profondément, comme :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, avec du contrôle supplémentaire sur la façon dont les sous-ressources sont gérées.
+Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` doit être l'une des valeurs de :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Par défaut, seules les ressources internes seront dupliquées (récursivement).
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -831,9 +831,9 @@ Renvoie le premier élément du tableau. Si le tableau est vide, échoue et renv
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-Renvoie l'élément à l'index ``index`` donné dans le tableau. Si ``index`` est hors des limites ou négatif, cette méthode échoue et renvoie ``null``.
+Returns the element at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``null``.
 
-Cette méthode est similaire (mais pas identique) à l'opérateur ``[]``. Plus particulièrement, lorsque cette méthode échoue, elle ne met pas en pause l'exécution de projet si il est exécuté depuis l'éditeur.
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 
@@ -923,9 +923,9 @@ En GDScript, c'est équivalent à l'opérateur ``in``\  :
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Array_method_hash>`
 
-Renvoie une valeur entière de 32 bits hachée représentant le tableau et son contenu.
+Returns a hashed 32-bit integer value representing the array and its contents.
 
-\ **Note :** Les tableaux avec des valeurs de hachage égales ne sont *pas* garantis d'être le même, à cause des collisions de hachage. Au contraire, les tableaux avec différentes valeurs de hachage sont garantis d'être différents.
+\ **Note:** Arrays with equal hash values are *not* guaranteed to be the same, as a result of hash collisions. On the contrary, arrays with different hash values are guaranteed to be different.
 
 .. rst-class:: classref-item-separator
 
@@ -1226,13 +1226,11 @@ Voir aussi :ref:`map()<class_Array_method_map>`, :ref:`filter()<class_Array_meth
 
 |void| **remove_at**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_remove_at>`
 
-Retire l'élément du tableau à l'index donné (``position``). Si l'index est hors des limites, cette méthode échoue. Si l'index est négativ, ``position`` est considéré comme relatif par rapport à la fin du tableau.
+Removes the element from the array at the given index (``position``). If the index is out of bounds, this method fails. If the index is negative, ``position`` is considered relative to the end of the array.
 
-Si vous devez renvoyer l'élément enlevé, utilisez :ref:`pop_at()<class_Array_method_pop_at>`. Pour supprimer un élément par valeur, utilisez :ref:`erase()<class_Array_method_erase>` à la place.
+If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
 
-\ **Note :** Cette méthode déplace l'index de chaque élément après ``position`` en arrière, ce qui peut avoir un coût de performance notable, en particulier sur les tableaux plus grands.
-
-\ **Note :** La ``position`` ne peut être négative. Pour supprimer un élément relatif à la fin du tableau, utilisez ``tab.remove_at(tab.size() - (i + 1))``. Pour supprimer le dernier élément du tableau, utilisez ``tab.resize(tab.size() - 1)``.
+\ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
 
 .. rst-class:: classref-item-separator
 

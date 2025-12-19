@@ -671,7 +671,7 @@ An array data structure that can contain a sequence of elements of any :ref:`Var
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, with extra control over how subresources are handled.
+Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
 \ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
@@ -822,9 +822,9 @@ Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplica
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-回傳位於 ``index`` 的元素。若索引超出範圍或為負值，將失敗並回傳 ``null``\ 。
+Returns the element at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``null``.
 
-此方法與 ``[]`` 運算子功能相似，但當失敗時（例如越界），在編輯器執行專案時不會暫停執行。
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 
@@ -913,9 +913,9 @@ Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplica
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Array_method_hash>`
 
-回傳一個代表此陣列及其內容的 32 位雜湊值。
+Returns a hashed 32-bit integer value representing the array and its contents.
 
-\ **注意：**\ 雜湊碰撞的緣故，雜湊值相同的陣列\ *不一定*\ 相同；但雜湊值不同的陣列一定不同。
+\ **Note:** Arrays with equal hash values are *not* guaranteed to be the same, as a result of hash collisions. On the contrary, arrays with different hash values are guaranteed to be different.
 
 .. rst-class:: classref-item-separator
 
@@ -1202,13 +1202,11 @@ Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplica
 
 |void| **remove_at**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_remove_at>`
 
-依索引 ``position`` 移除陣列中的元素。若索引越界則失敗；若為負值則代表自陣列尾端反向計數。
+Removes the element from the array at the given index (``position``). If the index is out of bounds, this method fails. If the index is negative, ``position`` is considered relative to the end of the array.
 
-若需要取回被移除的元素，請改用 :ref:`pop_at()<class_Array_method_pop_at>`\ ；若要依值移除，請使用 :ref:`erase()<class_Array_method_erase>`\ 。
+If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
 
-\ **注意：**\ 移除後，\ ``position`` 之後的所有元素索引皆往前平移，對大型陣列可能產生明顯效能成本。
-
-\ **注意：**\ ``position`` 不能為負值。如需從陣列尾端反向刪除，可用 ``arr.remove_at(arr.size() - (i + 1))``\ ；若要刪除最後一個元素，可改用 ``arr.resize(arr.size() - 1)``\ 。
+\ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
 
 .. rst-class:: classref-item-separator
 

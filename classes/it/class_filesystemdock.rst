@@ -5,7 +5,7 @@
 FileSystemDock
 ==============
 
-**Eredita:** :ref:`VBoxContainer<class_VBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**Eredita:** :ref:`EditorDock<class_EditorDock>` **<** :ref:`MarginContainer<class_MarginContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
 Pannello dell'editor Godot per la gestione dei file nel progetto.
 
@@ -146,6 +146,18 @@ Emesso quando le scene specificate vengono istanziate nell'editor.
 **resource_removed**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) :ref:`🔗<class_FileSystemDock_signal_resource_removed>`
 
 Emesso quando viene rimosso il file di una risorsa esterna (``resource``).
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileSystemDock_signal_selection_changed:
+
+.. rst-class:: classref-signal
+
+**selection_changed**\ (\ ) :ref:`🔗<class_FileSystemDock_signal_selection_changed>`
+
+Emitted when the selection changes. Use :ref:`EditorInterface.get_selected_paths()<class_EditorInterface_method_get_selected_paths>` in the connected method to get the selected paths.
 
 .. rst-class:: classref-section-separator
 

@@ -123,6 +123,8 @@ Metodi
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`       | :ref:`get_system_menu_name<class_NativeMenu_method_get_system_menu_name>`\ (\ menu_id\: :ref:`SystemMenus<enum_NativeMenu_SystemMenus>`\ ) |const|                                                                                                                                                                                                                                                                                                                                    |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`String<class_String>`       | :ref:`get_system_menu_text<class_NativeMenu_method_get_system_menu_text>`\ (\ menu_id\: :ref:`SystemMenus<enum_NativeMenu_SystemMenus>`\ ) |const|                                                                                                                                                                                                                                                                                                                                    |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`           | :ref:`has_feature<class_NativeMenu_method_has_feature>`\ (\ feature\: :ref:`Feature<enum_NativeMenu_Feature>`\ ) |const|                                                                                                                                                                                                                                                                                                                                                              |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`           | :ref:`has_menu<class_NativeMenu_method_has_menu>`\ (\ rid\: :ref:`RID<class_RID>`\ ) |const|                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -188,6 +190,8 @@ Metodi
    | |void|                            | :ref:`set_popup_close_callback<class_NativeMenu_method_set_popup_close_callback>`\ (\ rid\: :ref:`RID<class_RID>`, callback\: :ref:`Callable<class_Callable>`\ )                                                                                                                                                                                                                                                                                                                      |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                            | :ref:`set_popup_open_callback<class_NativeMenu_method_set_popup_open_callback>`\ (\ rid\: :ref:`RID<class_RID>`, callback\: :ref:`Callable<class_Callable>`\ )                                                                                                                                                                                                                                                                                                                        |
+   +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                            | :ref:`set_system_menu_text<class_NativeMenu_method_set_system_menu_text>`\ (\ menu_id\: :ref:`SystemMenus<enum_NativeMenu_SystemMenus>`, name\: :ref:`String<class_String>`\ )                                                                                                                                                                                                                                                                                                        |
    +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
@@ -842,6 +846,20 @@ Restituisce il nome leggibile di un menu speciale di sistema.
 
 ----
 
+.. _class_NativeMenu_method_get_system_menu_text:
+
+.. rst-class:: classref-method
+
+:ref:`String<class_String>` **get_system_menu_text**\ (\ menu_id\: :ref:`SystemMenus<enum_NativeMenu_SystemMenus>`\ ) |const| :ref:`🔗<class_NativeMenu_method_get_system_menu_text>`
+
+Returns the text of the system menu item.
+
+\ **Note:** This method is implemented on macOS.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_NativeMenu_method_has_feature:
 
 .. rst-class:: classref-method
@@ -1319,6 +1337,20 @@ Registri chiamabili da emettere quando il menu sta per essere mostrato.
 Registra un chiamabile da emettere dopo la chiusura del menu.
 
 \ **Nota:** Questo metodo è implementato solo su macOS.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_NativeMenu_method_set_system_menu_text:
+
+.. rst-class:: classref-method
+
+|void| **set_system_menu_text**\ (\ menu_id\: :ref:`SystemMenus<enum_NativeMenu_SystemMenus>`, name\: :ref:`String<class_String>`\ ) :ref:`🔗<class_NativeMenu_method_set_system_menu_text>`
+
+Sets the text of the system menu item.
+
+\ **Note:** This method is implemented on macOS.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

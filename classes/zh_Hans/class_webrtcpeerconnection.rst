@@ -16,17 +16,26 @@ WebRTCPeerConnection
 描述
 ----
 
-本地计算机和远程对等体之间的 WebRTC 连接。提供一个接口来连接、维护和监控连接。
+A WebRTC connection between the local computer and a remote peer. Provides an interface to connect, maintain, and monitor the connection.
 
-在两个对等体之间建立 WebRTC 连接看上去可能不是一项简单的任务，但它可以分解为 3 个主要步骤。
+Setting up a WebRTC connection between two peers may not seem a trivial task, but it can be broken down into 3 main steps:
 
-- 想要启动连接的对等体（\ ``A``\ 从现在开始）创建一个提交，并将其发送给另一个对等体（\ ``B``\ 从现在开始）。
+- The peer that wants to initiate the connection (``A`` from now on) creates an offer and sends it to the other peer (``B`` from now on).
 
-- ``B`` 收到要约，生成和回答，并将其发送给 ``A``\ ）。
+- ``B`` receives the offer, generates an answer, and sends it to ``A``.
 
-- ``A`` 和 ``B`` 然后生成并相互交换 ICE 候选。
+- ``A`` and ``B`` then generate and exchange ICE candidates with each other.
 
-在这些步骤之后，连接应该成功建立。继续阅读或查看教程以了解更多信息。
+After these steps, the connection should be established. Refer to the linked tutorials for details.
+
+.. rst-class:: classref-introduction-group
+
+教程
+----
+
+- :doc:`WebRTC documentation <../tutorials/networking/webrtc>`
+
+- :doc:`高级多人游戏 <../tutorials/networking/high_level_multiplayer>`
 
 .. rst-class:: classref-reftable-group
 

@@ -127,7 +127,7 @@ Descrizioni dei metodi
 
 :ref:`DPITexture<class_DPITexture>` **create_from_string**\ (\ source\: :ref:`String<class_String>`, scale\: :ref:`float<class_float>` = 1.0, saturation\: :ref:`float<class_float>` = 1.0, color_map\: :ref:`Dictionary<class_Dictionary>` = {}\ ) |static| :ref:`🔗<class_DPITexture_method_create_from_string>`
 
-Crea una nuova **DPITexture** e la inizializza allocando e impostando i dati SVG da una stringa.
+Creates a new **DPITexture** and initializes it by allocating and setting the SVG data to ``source``.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ Restituisce il :ref:`RID<class_RID>` della texture rasterizzata per corrisponder
 
 :ref:`String<class_String>` **get_source**\ (\ ) |const| :ref:`🔗<class_DPITexture_method_get_source>`
 
-Restituisce il codice SVG sorgente.
+Returns this SVG texture's source code.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ Ridimensiona la texture alle dimensioni specificate.
 
 |void| **set_source**\ (\ source\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DPITexture_method_set_source>`
 
-Imposta il codice sorgente SVG.
+Sets this SVG texture's source code.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

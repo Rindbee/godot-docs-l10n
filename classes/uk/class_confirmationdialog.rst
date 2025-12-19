@@ -7,7 +7,7 @@ ConfirmationDialog
 
 **Успадковує:** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Успадковано від:** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`EditorFileDialog<class_EditorFileDialog>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
+**Успадковано від:** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
 
 Діалог, що використовується для підтвердження дій.
 
@@ -16,22 +16,24 @@ ConfirmationDialog
 Опис
 --------
 
-Діалог, що використовується для підтвердження дій. Це вікно схоже на :ref:`AcceptDialog<class_AcceptDialog>`, але натискання кнопки Скасування може мати різний результат від натискання кнопки OK. Порядок двох кнопок варіюється в залежності від наявності ОС.
+A dialog used for confirmation of actions. This window is similar to :ref:`AcceptDialog<class_AcceptDialog>`, but pressing its Cancel button can have a different outcome from pressing the OK button. The order of the two buttons varies depending on the host OS.
 
-Щоб скасувати дію, можна скористатися:
+To get cancel action, you can use:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    get_cancel_button(.pressed.connect(_on_canceled)
+    get_cancel_button().pressed.connect(_on_canceled)
 
  .. code-tab:: csharp
 
-    GetCancelButton(). Pressed += OnCanceled;
+    GetCancelButton().Pressed += OnCanceled;
 
 
+
+\ **Note:** :ref:`AcceptDialog<class_AcceptDialog>` is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
 
 .. rst-class:: classref-reftable-group
 

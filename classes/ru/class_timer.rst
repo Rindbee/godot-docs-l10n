@@ -14,20 +14,20 @@ Timer
 Описание
 ----------------
 
-Узел **Timer** представляет собой таймер обратного отсчёта и является простейшим способом реализации логики, основанной на времени, в движке. Когда таймер достигает конца :ref:`wait_time<class_Timer_property_wait_time>`, он выдаёт сигнал :ref:`timeout<class_Timer_signal_timeout>`.
+The **Timer** node is a countdown timer and is the simplest way to handle time-based logic in the engine. When a timer reaches the end of its :ref:`wait_time<class_Timer_property_wait_time>`, it will emit the :ref:`timeout<class_Timer_signal_timeout>` signal.
 
-После того, как таймер добавлен в дерево сцены, его можно запустить вручную с помощью :ref:`start()<class_Timer_method_start>`. Узел таймера также запускается автоматически, если :ref:`autostart<class_Timer_property_autostart>` имеет значение ``true``.
+After a timer enters the scene tree, it can be manually started with :ref:`start()<class_Timer_method_start>`. A timer node is also started automatically if :ref:`autostart<class_Timer_property_autostart>` is ``true``.
 
-Узел таймера можно добавить и настроить в редакторе, не написав много кода. Выдаваемый им сигнал :ref:`timeout<class_Timer_signal_timeout>` также можно подключить через док-станцию Node в редакторе:
+Without requiring much code, a timer node can be added and configured in the editor. The :ref:`timeout<class_Timer_signal_timeout>` signal it emits can also be connected through the Signals dock in the editor:
 
 ::
 
     func _on_timer_timeout():
         print("Time to attack!")
 
-\ **Примечание:** Чтобы создать одноразовый таймер без создания экземпляра узла, используйте :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
+\ **Note:** To create a one-shot timer without instantiating a node, use :ref:`SceneTree.create_timer()<class_SceneTree_method_create_timer>`.
 
-\ **Примечание:** На таймеры влияет :ref:`Engine.time_scale<class_Engine_property_time_scale>`, если только :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` не равен ``true``. Чем больше временной масштаб, тем быстрее таймеры будут срабатывать. Частота срабатываний таймера может зависеть от частоты кадров или :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
+\ **Note:** Timers are affected by :ref:`Engine.time_scale<class_Engine_property_time_scale>` unless :ref:`ignore_time_scale<class_Timer_property_ignore_time_scale>` is ``true``. The higher the time scale, the sooner timers will end. How often a timer processes may depend on the framerate or :ref:`Engine.physics_ticks_per_second<class_Engine_property_physics_ticks_per_second>`.
 
 .. rst-class:: classref-introduction-group
 

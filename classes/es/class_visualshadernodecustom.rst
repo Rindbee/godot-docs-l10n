@@ -394,9 +394,9 @@ Definir este método es **opcional**. Si no se sobrescribe, es ``true``.
 
 :ref:`bool<class_bool>` **_is_highend**\ (\ ) |virtual| |const| :ref:`🔗<class_VisualShaderNodeCustom_private_method__is_highend>`
 
-Sobrescribe este método para habilitar la marca de gama alta en el diálogo de miembros del Editor de Shaders Visuales.
+Override this method to enable the high-end mark in the Visual Shader Editor's members dialog. This should return ``true`` for nodes that only work when using the Forward+ and Mobile renderers.
 
-Definir este método es **opcional**. Si no se sobrescribe, es ``false``.
+Defining this method is **optional**. If not overridden, it's ``false``, which indicates this node works with all renderers (including Compatibility).
 
 .. rst-class:: classref-item-separator
 

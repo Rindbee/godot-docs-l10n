@@ -114,11 +114,11 @@ InputEventKey
 - |void| **set_key_label**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_key_label**\ (\ )
 
-Представляє локалізований етикеток, надрукований на ключі в поточному розкладі клавіатури, який відповідає одному з констанцій :ref:`Key<enum_@GlobalScope_Key>` або будь-яким дійсним символом Unicode.
+Represents the localized label printed on the key in the current keyboard layout, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants or any valid Unicode character. Key labels are meant for key prompts.
 
-Для клавіатурних макетів з одним етикеткою на ключі, він еквівалентний :ref:`keycode<class_InputEventKey_property_keycode>`.
+For keyboard layouts with a single label on the key, it is equivalent to :ref:`keycode<class_InputEventKey_property_keycode>`.
 
-\ ``OS.get_keycode_string(event.key_label)``, де `` event`` є **InputEventKey**.
+To get a human-readable representation of the **InputEventKey**, use ``OS.get_keycode_string(event.key_label)`` where ``event`` is the **InputEventKey**.
 
 .. code:: text
 
@@ -142,9 +142,9 @@ InputEventKey
 - |void| **set_keycode**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_keycode**\ (\ )
 
-Латинська етикетка, надрукована на ключі в поточному розкладі клавіатури, яка відповідає одному з констанцій :ref:`Key<enum_@GlobalScope_Key>`.
+Latin label printed on the key in the current keyboard layout, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants. Key codes are meant for shortcuts expressed with a standard Latin keyboard, such as :kbd:`Ctrl + S` for a "Save" shortcut.
 
-\ ``OS.get_keycode_string(event.keycode)``, де ``event`` є **InputEventKey**.
+To get a human-readable representation of the **InputEventKey**, use ``OS.get_keycode_string(event.keycode)`` where ``event`` is the **InputEventKey**.
 
 .. code:: text
 
@@ -185,9 +185,9 @@ InputEventKey
 - |void| **set_physical_keycode**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_physical_keycode**\ (\ )
 
-Представляє фізичне розташування клавіші на 101/102-клавішній клавіатурі US QWERTY, яка відповідає одній з констант :ref:`Key<enum_@GlobalScope_Key>`.
+Represents the physical location of a key on the 101/102-key US QWERTY keyboard, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants. Physical key codes meant for game input, such as WASD movement, where only the location of the keys is important.
 
-Щоб отримати зрозуміле для людини представлення **InputEventKey**, використовуйте :ref:`OS.get_keycode_string()<class_OS_method_get_keycode_string>` у поєднанні з :ref:`of DisplayServer.keyboard_get_keycode_from_physical()<class_of DisplayServer_method_keyboard_get_keycode_from_physical>`:
+To get a human-readable representation of the **InputEventKey**, use :ref:`OS.get_keycode_string()<class_OS_method_get_keycode_string>` in combination with :ref:`DisplayServer.keyboard_get_keycode_from_physical()<class_DisplayServer_method_keyboard_get_keycode_from_physical>` or :ref:`DisplayServer.keyboard_get_label_from_physical()<class_DisplayServer_method_keyboard_get_label_from_physical>`:
 
 
 .. tabs::
@@ -197,7 +197,9 @@ InputEventKey
     func _input(event):
         if event is InputEventKey:
             var keycode = DisplayServer.keyboard_get_keycode_from_physical(event.physical_keycode)
+            var label = DisplayServer.keyboard_get_label_from_physical(event.physical_keycode)
             print(OS.get_keycode_string(keycode))
+            print(OS.get_keycode_string(label))
 
  .. code-tab:: csharp
 
@@ -206,7 +208,9 @@ InputEventKey
         if (@event is InputEventKey inputEventKey)
         {
             var keycode = DisplayServer.KeyboardGetKeycodeFromPhysical(inputEventKey.PhysicalKeycode);
+            var label = DisplayServer.KeyboardGetLabelFromPhysical(inputEventKey.PhysicalKeycode);
             GD.Print(OS.GetKeycodeString(keycode));
+            GD.Print(OS.GetKeycodeString(label));
         }
     }
 
@@ -244,7 +248,9 @@ InputEventKey
 - |void| **set_unicode**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_unicode**\ (\ )
 
-Ключовий код символу Unicode (якщо доречно), зміщений клавішами-модифікаторами. Коди символів Юнікод для складених символів і складних сценаріїв можуть бути недоступні, якщо режим введення IME не активний. Для отримання додаткової інформації див. :ref:`Window.set_ime_active()<class_Window_method_set_ime_active>`.
+The key Unicode character code (when relevant), shifted by modifier keys. Unicode character codes for composite characters and complex scripts may not be available unless IME input mode is active. See :ref:`Window.set_ime_active()<class_Window_method_set_ime_active>` for more information. Unicode character codes are meant for text input.
+
+\ **Note:** This property is set by the engine only for a pressed event. If the event is sent by an IME or a virtual keyboard, no corresponding key released event is sent.
 
 .. rst-class:: classref-section-separator
 

@@ -33,6 +33,8 @@ This is an internal editor class intended for keeping data of nodes of unknown t
    +-----------------------------+------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`     | :ref:`recording_properties<class_MissingNode_property_recording_properties>` |
    +-----------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`     | :ref:`recording_signals<class_MissingNode_property_recording_signals>`       |
+   +-----------------------------+------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -89,6 +91,23 @@ Returns the path of the scene this node was instance of originally.
 - :ref:`bool<class_bool>` **is_recording_properties**\ (\ )
 
 If ``true``, allows new properties to be set along with existing ones. If ``false``, only existing properties' values can be set, and new properties cannot be added.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_MissingNode_property_recording_signals:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **recording_signals** :ref:`🔗<class_MissingNode_property_recording_signals>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_recording_signals**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_recording_signals**\ (\ )
+
+If ``true``, allows new signals to be connected to along with existing ones. If ``false``, only existing signals can be connected to, and new signals cannot be added.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -137,6 +137,8 @@ Official export templates include ``x86_32``, ``x86_64``, ``arm32``, and ``arm64
 
 If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
 
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
+
 .. rst-class:: classref-item-separator
 
 ----

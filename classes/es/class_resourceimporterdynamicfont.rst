@@ -184,13 +184,13 @@ Activar :ref:`generate_mipmaps<class_ResourceImporterDynamicFont_property_genera
 
 :ref:`int<class_int>` **hinting** = ``1`` :ref:`🔗<class_ResourceImporterDynamicFont_property_hinting>`
 
-El modo de hinting a utilizar. Esto controla la agresividad con la que los bordes de los glifos deben ajustarse a los píxeles al rasterizar la fuente. Dependiendo de las preferencias personales, puede que prefieras usar un modo de hinting sobre el otro. Los modos de hinting distintos de **Ninguno** sólo son efectivos si la fuente contiene datos de hinting (ver :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`).
+The hinting mode to use. This controls how aggressively glyph edges should be snapped to pixels when rasterizing the font. Depending on personal preference, you may prefer using one hinting mode over the other. Hinting modes other than **None** are only effective if the font contains hinting data (see :ref:`force_autohinter<class_ResourceImporterDynamicFont_property_force_autohinter>`).
 
-\ **Ninguno:** Apariencia más suave, que puede hacer que la fuente se vea borrosa en tamaños pequeños.
+\ **None:** Smoothest appearance, which can make the font look blurry at small sizes.
 
-\ **Ligero:** Resultado nítido al ajustar los bordes de los glifos a los píxeles sólo en el eje Y.
+\ **Light:** Sharp result by snapping glyph edges to pixels on the Y axis only.
 
-\ **Completo:** El más nítido al ajustar los bordes de los glifos a los píxeles en los ejes X e Y.
+\ **Normal:** Sharpest by snapping glyph edges to pixels on both X and Y axes.
 
 .. rst-class:: classref-item-separator
 

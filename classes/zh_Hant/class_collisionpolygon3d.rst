@@ -14,9 +14,9 @@ CollisionPolygon3D
 說明
 ----
 
-向 :ref:`CollisionObject3D<class_CollisionObject3D>` 父級提供加厚多邊形形狀（角柱體）的節點，能夠為這個形狀提供編輯的方法。該多邊形可以是凹多邊形，也可以是凸多邊形。能夠為 :ref:`Area3D<class_Area3D>` 提供偵測形狀，也能夠將 :ref:`PhysicsBody3D<class_PhysicsBody3D>` 變為實體。
+A node that provides a thickened polygon shape (a prism) to a :ref:`CollisionObject3D<class_CollisionObject3D>` parent and allows it to be edited. The polygon can be concave or convex. This can give a detection shape to an :ref:`Area3D<class_Area3D>` or turn a :ref:`PhysicsBody3D<class_PhysicsBody3D>` into a solid object.
 
-\ **警告：**\ 非均勻縮放的 :ref:`CollisionShape3D<class_CollisionShape3D>` 應該無法按預期工作。請確保它在所有軸上的縮放是一致的，可以用對形狀資源的調整來代替非均勻縮放。
+\ **Warning:** A non-uniformly scaled :ref:`CollisionShape3D<class_CollisionShape3D>` will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its shape resource instead.
 
 .. rst-class:: classref-reftable-group
 

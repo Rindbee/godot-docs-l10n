@@ -28,9 +28,11 @@ JavaObject
 .. table::
    :widths: auto
 
-   +-----------------------------------+-----------------------------------------------------------------------------+
-   | :ref:`JavaClass<class_JavaClass>` | :ref:`get_java_class<class_JavaObject_method_get_java_class>`\ (\ ) |const| |
-   +-----------------------------------+-----------------------------------------------------------------------------+
+   +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`JavaClass<class_JavaClass>` | :ref:`get_java_class<class_JavaObject_method_get_java_class>`\ (\ ) |const|                                                 |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`           | :ref:`has_java_method<class_JavaObject_method_has_java_method>`\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -48,6 +50,18 @@ JavaObject
 :ref:`JavaClass<class_JavaClass>` **get_java_class**\ (\ ) |const| :ref:`🔗<class_JavaObject_method_get_java_class>`
 
 返回该对象实例对应的 :ref:`JavaClass<class_JavaClass>` 类。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_JavaObject_method_has_java_method:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **has_java_method**\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_JavaObject_method_has_java_method>`
+
+Returns ``true`` if the given ``method`` name exists in the object's Java methods.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -58,7 +58,11 @@ GLTFBufferView 是一种表示 glTF 缓冲区视图 ``bufferView`` 的数据结�
    :widths: auto
 
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GLTFBufferView<class_GLTFBufferView>`   | :ref:`from_dictionary<class_GLTFBufferView_method_from_dictionary>`\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static|     |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>` | :ref:`load_buffer_view_data<class_GLTFBufferView_method_load_buffer_view_data>`\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) |const| |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Dictionary<class_Dictionary>`           | :ref:`to_dictionary<class_GLTFBufferView_method_to_dictionary>`\ (\ ) |const|                                                            |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
@@ -177,6 +181,18 @@ GLTFBufferView 是一种表示 glTF 缓冲区视图 ``bufferView`` 的数据结�
 方法说明
 --------
 
+.. _class_GLTFBufferView_method_from_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`GLTFBufferView<class_GLTFBufferView>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFBufferView_method_from_dictionary>`
+
+Creates a new GLTFBufferView instance by parsing the given :ref:`Dictionary<class_Dictionary>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_GLTFBufferView_method_load_buffer_view_data:
 
 .. rst-class:: classref-method
@@ -184,6 +200,18 @@ GLTFBufferView 是一种表示 glTF 缓冲区视图 ``bufferView`` 的数据结�
 :ref:`PackedByteArray<class_PackedByteArray>` **load_buffer_view_data**\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) |const| :ref:`🔗<class_GLTFBufferView_method_load_buffer_view_data>`
 
 从给定 :ref:`GLTFState<class_GLTFState>` 中该缓冲区视图引用的缓冲区加载缓冲区视图数据。该方法尚不支持具有字节步幅的交错数据。数据以 :ref:`PackedByteArray<class_PackedByteArray>` 形式返回。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GLTFBufferView_method_to_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFBufferView_method_to_dictionary>`
+
+Serializes this GLTFBufferView instance into a :ref:`Dictionary<class_Dictionary>`.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

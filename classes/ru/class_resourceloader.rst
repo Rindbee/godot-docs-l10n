@@ -27,6 +27,8 @@ ResourceLoader
 Обучающие материалы
 --------------------------------------
 
+- `Threaded Loading Demo <https://godotengine.org/asset-library/asset/2778>`__
+
 - `Демонстрация тестирования операционной системы <https://godotengine.org/asset-library/asset/2789>`__
 
 .. rst-class:: classref-reftable-group

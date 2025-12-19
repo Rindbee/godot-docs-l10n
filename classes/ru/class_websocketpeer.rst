@@ -14,11 +14,11 @@ WebSocketPeer
 Описание
 ----------------
 
-Этот класс представляет соединение WebSocket и может использоваться как клиент WebSocket (соответствует RFC 6455) или как удаленный узел сервера WebSocket.
+This class represents WebSocket connection, and can be used as a WebSocket client (`RFC 6455 <https://datatracker.ietf.org/doc/html/rfc6455>`__-compliant) or as a remote peer of a WebSocket server.
 
-Вы можете отправлять двоичные кадры WebSocket с помощью :ref:`PacketPeer.put_packet()<class_PacketPeer_method_put_packet>`, а текстовые кадры WebSocket с помощью :ref:`send()<class_WebSocketPeer_method_send>` (предпочтительнее текстовые кадры при взаимодействии с текстовым API). Вы можете проверить тип кадра последнего пакета с помощью :ref:`was_string_packet()<class_WebSocketPeer_method_was_string_packet>`.
+You can send WebSocket binary frames using :ref:`PacketPeer.put_packet()<class_PacketPeer_method_put_packet>`, and WebSocket text frames using :ref:`send()<class_WebSocketPeer_method_send>` (prefer text frames when interacting with text-based API). You can check the frame type of the last packet via :ref:`was_string_packet()<class_WebSocketPeer_method_was_string_packet>`.
 
-Чтобы запустить клиент WebSocket, сначала вызовите :ref:`connect_to_url()<class_WebSocketPeer_method_connect_to_url>`, затем регулярно вызывайте :ref:`poll()<class_WebSocketPeer_method_poll>` (например, во время процесса :ref:`Node<class_Node>`). Вы можете запросить состояние сокета с помощью :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>`, получить количество ожидающих пакетов с помощью :ref:`PacketPeer.get_available_packet_count()<class_PacketPeer_method_get_available_packet_count>` и извлечь их с помощью :ref:`PacketPeer.get_packet()<class_PacketPeer_method_get_packet>`.
+To start a WebSocket client, first call :ref:`connect_to_url()<class_WebSocketPeer_method_connect_to_url>`, then regularly call :ref:`poll()<class_WebSocketPeer_method_poll>` (e.g. during :ref:`Node<class_Node>` process). You can query the socket state via :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>`, get the number of pending packets using :ref:`PacketPeer.get_available_packet_count()<class_PacketPeer_method_get_available_packet_count>`, and retrieve them via :ref:`PacketPeer.get_packet()<class_PacketPeer_method_get_packet>`.
 
 
 .. tabs::
@@ -39,17 +39,17 @@ WebSocketPeer
             while socket.get_available_packet_count():
                 print("Packet: ", socket.get_packet())
         elif state == WebSocketPeer.STATE_CLOSING:
-            # Продолжайте опросы, чтобы добиться надлежащего закрытия.
+            # Keep polling to achieve proper close.
             pass
         elif state == WebSocketPeer.STATE_CLOSED:
             var code = socket.get_close_code()
             var reason = socket.get_close_reason()
-            print("WebSocket закрыт с кодом: %d, reason %s. Clean: %s" % [code, reason, code != -1])
-            set_process(false) # Остановить обработку.
+            print("WebSocket closed with code: %d, reason %s. Clean: %s" % [code, reason, code != -1])
+            set_process(false) # Stop processing.
 
 
 
-Чтобы использовать одноранговый узел как часть сервера WebSocket, обратитесь к :ref:`accept_stream()<class_WebSocketPeer_method_accept_stream>` и онлайн-руководству.
+To use the peer as part of a WebSocket server refer to :ref:`accept_stream()<class_WebSocketPeer_method_accept_stream>` and the online tutorial.
 
 .. rst-class:: classref-reftable-group
 
@@ -332,11 +332,15 @@ enum **State**: :ref:`🔗<enum_WebSocketPeer_State>`
 
 |void| **close**\ (\ code\: :ref:`int<class_int>` = 1000, reason\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_WebSocketPeer_method_close>`
 
-Закрывает это соединение WebSocket. ``code`` — код состояния для закрытия (см. RFC 6455 раздел 7.4 для списка допустимых кодов состояния). ``reason`` — понятная человеку причина закрытия соединения (может быть любой строкой UTF-8 длиной менее 123 байт). Если ``code`` отрицательный, соединение будет немедленно закрыто без уведомления удаленного однорангового узла.
+Closes this WebSocket connection.
 
-\ **Примечание:** Чтобы добиться чистого закрытия, вам нужно будет продолжать опрос, пока не будет достигнуто :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>`.
+\ ``code`` is the status code for the closure (see `RFC 6455 section 7.4 <https://datatracker.ietf.org/doc/html/rfc6455#section-7.4.1>`__ for a list of valid status codes). If ``code`` is negative, the connection will be closed immediately without notifying the remote peer.
 
-\ **Примечание:** Веб-экспорт может не поддерживать все коды состояния. Более подробную информацию см. в документации по браузеру.
+\ ``reason`` is the human-readable reason for closing the connection. It can be any UTF-8 string that's smaller than 123 bytes.
+
+\ **Note:** To achieve a clean closure, you will need to keep polling until :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>` is reached.
+
+\ **Note:** The Web export might not support all status codes. Please refer to browser-specific documentation for more details.
 
 .. rst-class:: classref-item-separator
 

@@ -16,27 +16,27 @@ Classe de base pour tous les contrôles GUI. Adapte sa position et sa taille en 
 Description
 -----------
 
-Classe de base pour tous les nœuds liés à l'interface utilisateur. **Control** contient un rectangle englobant qui définit sa taille, une position d'ancrage par rapport au contrôle parent ou au viewport actuel, et des déclages qui représentent relatifs à l'ancrage. Les décalages se mettent à jour automatiquement lorsque le nœud, l'un de ses parents ou la taille de l'écran changent.
+Base class for all UI-related nodes. **Control** features a bounding rectangle that defines its extents, an anchor position relative to its parent control or the current viewport, and offsets relative to the anchor. The offsets update automatically when the node, any of its parents, or the screen size change.
 
-Pour plus d'informations sur le système d'interface utilisateur de Godot, les ancres, les décalages, les conteneurs, voir les tutoriels correspondants dans le manuel. Pour construire des interfaces flexibles, vous avez besoin d'un ensemble d'éléments d'interface utilisateur héritant des nœuds **Control** et :ref:`Container<class_Container>`.
+For more information on Godot's UI system, anchors, offsets, and containers, see the related tutorials in the manual. To build flexible UIs, you'll need a mix of UI elements that inherit from **Control** and :ref:`Container<class_Container>` nodes.
 
-\ **Note :** Comme :ref:`Node2D<class_Node2D>` et **Control** héritent tous deux de :ref:`CanvasItem<class_CanvasItem>`, ils partagent de nombreux concepts de la classe, comme les propriétés :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` et :ref:`CanvasItem.visible<class_CanvasItem_property_visible>`.
+\ **Note:** Since both :ref:`Node2D<class_Node2D>` and **Control** inherit from :ref:`CanvasItem<class_CanvasItem>`, they share several concepts from the class such as the :ref:`CanvasItem.z_index<class_CanvasItem_property_z_index>` and :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` properties.
 
-\ **Nœuds d'interface utilisateur et entrées**\ 
+\ **User Interface nodes and input**\ 
 
-Godot propage les évènements d'entrée via les viewports. Chaque :ref:`Viewport<class_Viewport>` est responsable de propage des :ref:`InputEvent<class_InputEvent>`\ s à ses nœuds enfants. Comme :ref:`SceneTree.root<class_SceneTree_property_root>` est une :ref:`Window<class_Window>`, cela se déroule déjà automatiquement pour les évènements d'interface utilisateur dans votre jeu.
+Godot propagates input events via viewports. Each :ref:`Viewport<class_Viewport>` is responsible for propagating :ref:`InputEvent<class_InputEvent>`\ s to their child nodes. As the :ref:`SceneTree.root<class_SceneTree_property_root>` is a :ref:`Window<class_Window>`, this already happens automatically for all UI elements in your game.
 
-Les événements d'entrée sont propagés dans le :ref:`SceneTree<class_SceneTree>` à partir du nœud racine de la scène vers les nœuds enfants, en appelant :ref:`Node._input()<class_Node_private_method__input>`. Pour les éléments d'UI spécifiquement, il est plus logique de redéfinir la méthode virtuelle :ref:`_gui_input()<class_Control_private_method__gui_input>`, qui filtre les évènements d'entrée sans rapport, en vérifiant le z-order, :ref:`mouse_filter<class_Control_property_mouse_filter>`, le focus, ou si l'évènement était à l'intérieur de la boîte délimitante du contrôle.
+Input events are propagated through the :ref:`SceneTree<class_SceneTree>` from the root node to all child nodes by calling :ref:`Node._input()<class_Node_private_method__input>`. For UI elements specifically, it makes more sense to override the virtual method :ref:`_gui_input()<class_Control_private_method__gui_input>`, which filters out unrelated input events, such as by checking z-order, :ref:`mouse_filter<class_Control_property_mouse_filter>`, focus, or if the event was inside of the control's bounding box.
 
-Appelez :ref:`accept_event()<class_Control_method_accept_event>` afin qu'aucun autre nœud ne reçoive l'évènement. Une fois que vous acceptez une entrée, elle devient gérée et :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` ne la traitera donc pas.
+Call :ref:`accept_event()<class_Control_method_accept_event>` so no other node receives the event. Once you accept an input, it becomes handled so :ref:`Node._unhandled_input()<class_Node_private_method__unhandled_input>` will not process it.
 
-Seul un nœud **Control** peut avoir le focus. Seulement le nœud avec le focus recevra des événements. Pour obtenir le focus, appelez :ref:`grab_focus()<class_Control_method_grab_focus>`. Les nœuds **Control** perdent le focus lorsqu'un autre nœud le prend, ou si vous cachez le nœud ayant le focus.
+Only one **Control** node can be in focus. Only the node in focus will receive events. To get the focus, call :ref:`grab_focus()<class_Control_method_grab_focus>`. **Control** nodes lose focus when another node grabs it, or if you hide the node in focus. Focus will not be represented visually if gained via mouse/touch input, only appearing with keyboard/gamepad input (for accessibility), or via :ref:`grab_focus()<class_Control_method_grab_focus>`.
 
-Définissez :ref:`mouse_filter<class_Control_property_mouse_filter>` à :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` pour indiquer qu'un nœud **Control** doit ignorer les événements de la souris ou du clavier. Vous en aurez besoin si vous placez une icône par dessus un bouton.
+Set :ref:`mouse_filter<class_Control_property_mouse_filter>` to :ref:`MOUSE_FILTER_IGNORE<class_Control_constant_MOUSE_FILTER_IGNORE>` to tell a **Control** node to ignore mouse or touch events. You'll need it if you place an icon on top of a button.
 
-Les ressources :ref:`Theme<class_Theme>` changent l'aspect du contrôle. Le :ref:`theme<class_Control_property_theme>` d'un nœud **Control** affecte tous ses enfants directs et indirects (tant qu'une chaîne de contrôles est ininterrompue). Pour redéfinir certains paramètres du thème, appelez l'une des méthodes ``add_theme_*_override``, comme :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`. Vous pouvez redéfinir les éléments du thème depuis l'Inspecteur.
+\ :ref:`Theme<class_Theme>` resources change the control's appearance. The :ref:`theme<class_Control_property_theme>` of a **Control** node affects all of its direct and indirect children (as long as a chain of controls is uninterrupted). To override some of the theme items, call one of the ``add_theme_*_override`` methods, like :ref:`add_theme_font_override()<class_Control_method_add_theme_font_override>`. You can also override theme items in the Inspector.
 
-\ **Note :** Les objets de thème ne sont *pas* des propriétés :ref:`Object<class_Object>`. Cela signifie que vous ne pouvez pas accéder à leurs valeurs en utilisant :ref:`Object.get()<class_Object_method_get>` et :ref:`Object.set()<class_Object_method_set>`. À la place, utilisez les méthodes ``get_theme_*`` et ``add_theme_*_override`` fournies par cette classe.
+\ **Note:** Theme items are *not* :ref:`Object<class_Object>` properties. This means you can't access their values using :ref:`Object.get()<class_Object_method_get>` and :ref:`Object.set()<class_Object_method_set>`. Instead, use the ``get_theme_*`` and ``add_theme_*_override`` methods provided by this class.
 
 .. rst-class:: classref-introduction-group
 
@@ -136,6 +136,8 @@ Propriétés
    +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                          | :ref:`pivot_offset<class_Control_property_pivot_offset>`                                         | ``Vector2(0, 0)``                                                             |
    +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | :ref:`Vector2<class_Vector2>`                                          | :ref:`pivot_offset_ratio<class_Control_property_pivot_offset_ratio>`                             | ``Vector2(0, 0)``                                                             |
+   +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                          | :ref:`position<class_Control_property_position>`                                                 | ``Vector2(0, 0)``                                                             |
    +------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`float<class_float>`                                              | :ref:`rotation<class_Control_property_rotation>`                                                 | ``0.0``                                                                       |
@@ -230,6 +232,8 @@ Méthodes
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                | :ref:`get_combined_minimum_size<class_Control_method_get_combined_minimum_size>`\ (\ ) |const|                                                                                                                                                                          |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Vector2<class_Vector2>`                                | :ref:`get_combined_pivot_offset<class_Control_method_get_combined_pivot_offset>`\ (\ ) |const|                                                                                                                                                                          |
+   +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`CursorShape<enum_Control_CursorShape>`                 | :ref:`get_cursor_shape<class_Control_method_get_cursor_shape>`\ (\ position\: :ref:`Vector2<class_Vector2>` = Vector2(0, 0)\ ) |const|                                                                                                                                  |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Vector2<class_Vector2>`                                | :ref:`get_end<class_Control_method_get_end>`\ (\ ) |const|                                                                                                                                                                                                              |
@@ -276,9 +280,9 @@ Méthodes
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                       | :ref:`grab_click_focus<class_Control_method_grab_click_focus>`\ (\ )                                                                                                                                                                                                    |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                                       | :ref:`grab_focus<class_Control_method_grab_focus>`\ (\ )                                                                                                                                                                                                                |
+   | |void|                                                       | :ref:`grab_focus<class_Control_method_grab_focus>`\ (\ hide_focus\: :ref:`bool<class_bool>` = false\ )                                                                                                                                                                  |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                                      | :ref:`has_focus<class_Control_method_has_focus>`\ (\ ) |const|                                                                                                                                                                                                          |
+   | :ref:`bool<class_bool>`                                      | :ref:`has_focus<class_Control_method_has_focus>`\ (\ ignore_hidden_focus\: :ref:`bool<class_bool>` = false\ ) |const|                                                                                                                                                   |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                      | :ref:`has_theme_color<class_Control_method_has_theme_color>`\ (\ name\: :ref:`StringName<class_StringName>`, theme_type\: :ref:`StringName<class_StringName>` = &""\ ) |const|                                                                                          |
    +--------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -595,7 +599,7 @@ Empêche le contrôle de recevoir l'entrée de la souris. :ref:`get_mouse_filter
 
 :ref:`MouseBehaviorRecursive<enum_Control_MouseBehaviorRecursive>` **MOUSE_BEHAVIOR_ENABLED** = ``2``
 
-Permet au contrôle de recevoir l'entrée de la souris, en fonction de :ref:`mouse_filter<class_Control_property_mouse_filter>`. Cela peut être utilisé pour ignorer le :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>` du parent. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` renverra :ref:`mouse_filter<class_Control_property_mouse_filter>`.
+Allows the control to receive mouse input, depending on the :ref:`mouse_filter<class_Control_property_mouse_filter>`. This can be used to ignore the parent's :ref:`mouse_behavior_recursive<class_Control_property_mouse_behavior_recursive>`. :ref:`get_mouse_filter_with_override()<class_Control_method_get_mouse_filter_with_override>` will return the :ref:`mouse_filter<class_Control_property_mouse_filter>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1274,7 +1278,9 @@ Envoyé lorsque le nœud reçoit le focus.
 
 **NOTIFICATION_FOCUS_EXIT** = ``44`` :ref:`🔗<class_Control_constant_NOTIFICATION_FOCUS_EXIT>`
 
-Envoyé lorsque le nœud perd le focus.
+Sent when the node loses focus.
+
+This notification is sent in reversed order.
 
 .. _class_Control_constant_NOTIFICATION_THEME_CHANGED:
 
@@ -1964,7 +1970,28 @@ Les décalages sont souvent contrôlés par un ou plusieurs nœuds :ref:`Contain
 - |void| **set_pivot_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_pivot_offset**\ (\ )
 
-Par défaut, le pivot du nœud est son coin supérieur gauche. Lorsque vous modifiez sa :ref:`rotation<class_Control_property_rotation>` ou son échelle :ref:`scale<class_Control_property_scale>`, il tournera ou se redimensionnera autour de ce pivot. Définir cette propriété à :ref:`size<class_Control_property_size>` / 2 permet de pivoter autour du centre du contrôle.
+By default, the node's pivot is its top-left corner. When you change its :ref:`rotation<class_Control_property_rotation>` or :ref:`scale<class_Control_property_scale>`, it will rotate or scale around this pivot.
+
+The actual offset is the combined value of this property and :ref:`pivot_offset_ratio<class_Control_property_pivot_offset_ratio>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Control_property_pivot_offset_ratio:
+
+.. rst-class:: classref-property
+
+:ref:`Vector2<class_Vector2>` **pivot_offset_ratio** = ``Vector2(0, 0)`` :ref:`🔗<class_Control_property_pivot_offset_ratio>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_pivot_offset_ratio**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
+- :ref:`Vector2<class_Vector2>` **get_pivot_offset_ratio**\ (\ )
+
+Same as :ref:`pivot_offset<class_Control_property_pivot_offset>`, but expressed as uniform vector, where ``Vector2(0, 0)`` is the top-left corner of this control, and ``Vector2(1, 1)`` is its bottom-right corner. Set this property to ``Vector2(0.5, 0.5)`` to pivot around this control's center.
+
+The actual offset is the combined value of this property and :ref:`pivot_offset<class_Control_property_pivot_offset>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2481,19 +2508,19 @@ Si non redéfini, le comportement par défaut vérifie si le point se trouve dan
 
 :ref:`Object<class_Object>` **_make_custom_tooltip**\ (\ for_text\: :ref:`String<class_String>`\ ) |virtual| |const| :ref:`🔗<class_Control_private_method__make_custom_tooltip>`
 
-Méthode virtuelle à implémenter par l'utilisateur. Renvoie un nœud **Control** qui devrait être utilisé pour l'infobulle plutôt que celui par défaut. Le texte ``for_text`` contient le valeur de renvoi de :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
+Virtual method to be implemented by the user. Returns a **Control** node that should be used as a tooltip instead of the default one. ``for_text`` is the return value of :ref:`get_tooltip()<class_Control_method_get_tooltip>`.
 
-Le nœud renvoyé doit être du type **Control** ou en hériter. Il peut avoir des nœuds enfants de n'importe quel type. Il est libéré quand l'infobulle disparaît, alors assurez vous que vous fournissez toujours une nouvelle instance (si vous voulez utiliser un nœud déjà existant dans votre arborescence de scène, vous pouvez le dupliquer et passer cette instance dupliquée). Quand ``null`` ou un nœud non-Control est renvoyé, l'infobulle par défaut sera utilisée à la place.
+The returned node must be of type **Control** or Control-derived. It can have child nodes of any type. It is freed when the tooltip disappears, so make sure you always provide a new instance (if you want to use a pre-existing node from your scene tree, you can duplicate it and pass the duplicated instance). When ``null`` or a non-Control node is returned, the default tooltip will be used instead.
 
-Le nœud renvoyé sera ajouté comme enfant à un :ref:`PopupPanel<class_PopupPanel>`, vous devriez donc fournir uniquement le contenu de ce panneau. Ce :ref:`PopupPanel<class_PopupPanel>` peut avoir un thème défini par :ref:`Theme.set_stylebox()<class_Theme_method_set_stylebox>` pour le type ``"TooltipPanel"`` (voir :ref:`tooltip_text<class_Control_property_tooltip_text>` pour un exemple).
+The returned node will be added as child to a :ref:`PopupPanel<class_PopupPanel>`, so you should only provide the contents of that panel. That :ref:`PopupPanel<class_PopupPanel>` can be themed using :ref:`Theme.set_stylebox()<class_Theme_method_set_stylebox>` for the type ``"TooltipPanel"`` (see :ref:`tooltip_text<class_Control_property_tooltip_text>` for an example).
 
-\ **Note :** L'infobulle est réduite à sa taille minimale. Si vous voulez vous assurer qu'elle soit entièrement visible, vous devriez définir sa taille minimale :ref:`custom_minimum_size<class_Control_property_custom_minimum_size>` à une valeur non-nulle.
+\ **Note:** The tooltip is shrunk to minimal size. If you want to ensure it's fully visible, you might want to set its :ref:`custom_minimum_size<class_Control_property_custom_minimum_size>` to some non-zero value.
 
-\ **Note :** Le nœud (et tous les enfants pertinents) devraient avoir leur :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` défini à ``true`` lorsque renvoyé, sinon, le viewport qui l'instancie ne pourra pas calculer sa taille minimale de manière fiable.
+\ **Note:** The node (and any relevant children) should have their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` set to ``true`` when returned, otherwise, the viewport that instantiates it will not be able to calculate its minimum size reliably.
 
-\ **Note :** Si cette méthode est redéfinie, même si :ref:`get_tooltip()<class_Control_method_get_tooltip>` renvoie une chaîne vide. Lorsque cela se produit avec l'infobulle par défaut, elle n'est pas affichée. Pour copier ce comportement, renvoyez ``null`` dans cette méthode lorsque ``for_text`` est vide.
+\ **Note:** If overridden, this method is called even if :ref:`get_tooltip()<class_Control_method_get_tooltip>` returns an empty string. When this happens with the default tooltip, it is not displayed. To copy this behavior, return ``null`` in this method when ``for_text`` is empty.
 
-\ **Exemple :** Utiliser un nœud construit comme info-bulle :
+\ **Example:** Use a constructed node as a tooltip:
 
 
 .. tabs::
@@ -2516,7 +2543,7 @@ Le nœud renvoyé sera ajouté comme enfant à un :ref:`PopupPanel<class_PopupPa
 
 
 
-\ **Exemple :** Utiliser une instance de scène comme info-bulle :
+\ **Example:** Use a scene instance as a tooltip:
 
 
 .. tabs::
@@ -2524,17 +2551,17 @@ Le nœud renvoyé sera ajouté comme enfant à un :ref:`PopupPanel<class_PopupPa
  .. code-tab:: gdscript
 
     func _make_custom_tooltip(for_text):
-        var infobulle = preload("res://une_scene_d_infobulle.tscn").instantiate()
-        infobulle.get_node("Label").text = for_text
+        var tooltip = preload("res://some_tooltip_scene.tscn").instantiate()
+        tooltip.get_node("Label").text = for_text
         return tooltip
 
  .. code-tab:: csharp
 
     public override Control _MakeCustomTooltip(string forText)
     {
-        Node infobulle = ResourceLoader.Load<PackedScene>("res://une_scene_d_infobulle.tscn").Instantiate();
-        infobulle.GetNode<Label>("Label").Text = forText;
-        return infobulle;
+        Node tooltip = ResourceLoader.Load<PackedScene>("res://some_tooltip_scene.tscn").Instantiate();
+        tooltip.GetNode<Label>("Label").Text = forText;
+        return tooltip;
     }
 
 
@@ -2847,6 +2874,18 @@ Renvoie la taille minimale combinée de :ref:`custom_minimum_size<class_Control_
 
 ----
 
+.. _class_Control_method_get_combined_pivot_offset:
+
+.. rst-class:: classref-method
+
+:ref:`Vector2<class_Vector2>` **get_combined_pivot_offset**\ (\ ) |const| :ref:`🔗<class_Control_method_get_combined_pivot_offset>`
+
+Returns the combined value of :ref:`pivot_offset<class_Control_property_pivot_offset>` and :ref:`pivot_offset_ratio<class_Control_property_pivot_offset_ratio>`, in pixels. The ratio is multiplied by the control's size.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_Control_method_get_cursor_shape:
 
 .. rst-class:: classref-method
@@ -2995,17 +3034,21 @@ Renvoie la position et la taille du contrôle dans le système de coordonnées d
 
 :ref:`Vector2<class_Vector2>` **get_screen_position**\ (\ ) |const| :ref:`🔗<class_Control_method_get_screen_position>`
 
-Renvoie la position de ce **Control** dans les coordonnées globales de l'écran (c.-à-d. en tenant compte de la position de la fenêtre). Généralement utile pour les plugins éditeur.
+Returns the position of this **Control** in global screen coordinates (i.e. taking window position into account). Mostly useful for editor plugins.
 
-Égal à :ref:`global_position<class_Control_property_global_position>` si la fenêtre est intégrée (voir :ref:`Viewport.gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`).
+Equivalent to ``get_screen_transform().origin`` (see :ref:`CanvasItem.get_screen_transform()<class_CanvasItem_method_get_screen_transform>`).
 
-\ **Exemple :** Afficher une popup à la position de la souris :
+\ **Example:** Show a popup at the mouse position:
 
 ::
 
-    menu_popup.position = get_screen_position() + get_local_mouse_position()
-    menu_popup.reset_size()
-    menu_popup.popup()
+    popup_menu.position = get_screen_position() + get_screen_transform().basis_xform(get_local_mouse_position())
+
+    # The above code is equivalent to:
+    popup_menu.position = get_screen_transform() * get_local_mouse_position()
+
+    popup_menu.reset_size()
+    popup_menu.popup()
 
 .. rst-class:: classref-item-separator
 
@@ -3209,11 +3252,13 @@ Crée un :ref:`InputEventMouseButton<class_InputEventMouseButton>` qui tente de 
 
 .. rst-class:: classref-method
 
-|void| **grab_focus**\ (\ ) :ref:`🔗<class_Control_method_grab_focus>`
+|void| **grab_focus**\ (\ hide_focus\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Control_method_grab_focus>`
 
-Vole le focus d'un autre contrôle et devient le contrôle ayant le focus (voir :ref:`focus_mode<class_Control_property_focus_mode>`).
+Steal the focus from another control and become the focused control (see :ref:`focus_mode<class_Control_property_focus_mode>`).
 
-\ **Note :** Utiliser cette méthode avec :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>` la rend plus fiable, surtout lorsqu'elle est appelée à l'intérieur de :ref:`Node._ready()<class_Node_private_method__ready>`.
+If ``hide_focus`` is ``true``, the control will not visually show its focused state. Has no effect for :ref:`LineEdit<class_LineEdit>` and :ref:`TextEdit<class_TextEdit>` when :ref:`ProjectSettings.gui/common/show_focus_state_on_pointer_event<class_ProjectSettings_property_gui/common/show_focus_state_on_pointer_event>` is set to ``Control Supports Keyboard Input``, or for any control when it is set to ``Always``.
+
+\ **Note:** Using this method together with :ref:`Callable.call_deferred()<class_Callable_method_call_deferred>` makes it more reliable, especially when called inside :ref:`Node._ready()<class_Node_private_method__ready>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3223,9 +3268,11 @@ Vole le focus d'un autre contrôle et devient le contrôle ayant le focus (voir 
 
 .. rst-class:: classref-method
 
-:ref:`bool<class_bool>` **has_focus**\ (\ ) |const| :ref:`🔗<class_Control_method_has_focus>`
+:ref:`bool<class_bool>` **has_focus**\ (\ ignore_hidden_focus\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Control_method_has_focus>`
 
-Renvoie ``true`` s'il s'agit du contrôle qui a le focus. Voir :ref:`focus_mode<class_Control_property_focus_mode>`.
+Returns ``true`` if this is the current focused control. See :ref:`focus_mode<class_Control_property_focus_mode>`.
+
+If ``ignore_hidden_focus`` is ``true``, controls that have their focus hidden will always return ``false``. Hidden focus happens automatically when controls gain focus via mouse input, or manually using :ref:`grab_focus()<class_Control_method_grab_focus>` with ``hide_focus`` set to ``true``.
 
 .. rst-class:: classref-item-separator
 

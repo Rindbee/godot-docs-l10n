@@ -496,7 +496,9 @@ HTTPRequest 无法写入下载文件。
 - |void| **set_timeout**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_timeout**\ (\ )
 
-请求超时前等待的秒数。如果 :ref:`timeout<class_HTTPRequest_property_timeout>` 为 ``0.0``\ ，则请求不会超时。对于简单的请求，例如与 REST API 通信，建议将 :ref:`timeout<class_HTTPRequest_property_timeout>` 设为与服务器响应时间匹配的值（例如 ``1.0`` 和 ``10.0`` 之间）。这样能够防止由于服务器响应时间的变化而造成的超时，同时仍然允许应用程序检测到请求超时。对于大型请求，例如下载文件，建议将 :ref:`timeout<class_HTTPRequest_property_timeout>` 设置为 ``0.0`` 禁用超时功能。这样有助于防止由于超时而让大型传输失败。
+The duration to wait before a request times out, in seconds (independent of :ref:`Engine.time_scale<class_Engine_property_time_scale>`). If :ref:`timeout<class_HTTPRequest_property_timeout>` is set to ``0.0``, the request will never time out.
+
+For simple requests, such as communication with a REST API, it is recommended to set :ref:`timeout<class_HTTPRequest_property_timeout>` to a value suitable for the server response time (commonly between ``1.0`` and ``10.0``). This will help prevent unwanted timeouts caused by variation in response times while still allowing the application to detect when a request has timed out. For larger requests such as file downloads, it is recommended to set :ref:`timeout<class_HTTPRequest_property_timeout>` to ``0.0``, disabling the timeout functionality. This will help prevent large transfers from failing due to exceeding the timeout value.
 
 .. rst-class:: classref-item-separator
 

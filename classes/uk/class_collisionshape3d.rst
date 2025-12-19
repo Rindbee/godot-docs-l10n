@@ -14,9 +14,9 @@ CollisionShape3D
 Опис
 --------
 
-Вузол, який надає :ref:`Shape3D<class_Shape3D>` на :ref:`CollisionObject3D<class_CollisionObject3D>`, і дозволяє редагувати його. Це може дати форму виявлення на :ref:`Area3D<class_Area3D>` або перетворити :ref:`PhysicsBody3D<class_PhysicsBody3D>` в твердий об'єкт.
+A node that provides a :ref:`Shape3D<class_Shape3D>` to a :ref:`CollisionObject3D<class_CollisionObject3D>` parent and allows it to be edited. This can give a detection shape to an :ref:`Area3D<class_Area3D>` or turn a :ref:`PhysicsBody3D<class_PhysicsBody3D>` into a solid object.
 
-\ **Попередження:** Неоднорідно масштабовано **CollisionShape3D**, ймовірно, не буде досяжним. Переконайтеся в тому, щоб зберегти свою масштабність на всіх осі і регулювати її ``пам'ятна форма`` ресурс замість.
+\ **Warning:** A non-uniformly scaled **CollisionShape3D** will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its :ref:`shape<class_CollisionShape3D_property_shape>` resource instead.
 
 .. rst-class:: classref-introduction-group
 

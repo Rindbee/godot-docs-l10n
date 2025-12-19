@@ -634,7 +634,9 @@ By default, only 4 bone influences are used (:ref:`SKIN_4_WEIGHTS<class_SurfaceT
 
 |void| **set_tangent**\ (\ tangent\: :ref:`Plane<class_Plane>`\ ) :ref:`🔗<class_SurfaceTool_method_set_tangent>`
 
-指定\ *下一個*\ 頂點所使用的切線。如果每個頂點都需要設定此資訊，而你沒有為第一個頂點提交，則可能根本無法使用此資訊。
+Specifies a tangent to use for the *next* vertex. If every vertex needs to have this information set and you fail to submit it for the first vertex, this information may not be used at all.
+
+\ **Note:** Even though ``tangent`` is a :ref:`Plane<class_Plane>`, it does not directly represent the tangent plane. Its :ref:`Plane.x<class_Plane_property_x>`, :ref:`Plane.y<class_Plane_property_y>`, and :ref:`Plane.z<class_Plane_property_z>` represent the tangent vector and :ref:`Plane.d<class_Plane_property_d>` should be either ``-1`` or ``1``. See also :ref:`Mesh.ARRAY_TANGENT<class_Mesh_constant_ARRAY_TANGENT>`.
 
 .. rst-class:: classref-item-separator
 

@@ -7,7 +7,7 @@ VBoxContainer
 
 **Hereda:** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Heredado por:** :ref:`ColorPicker<class_ColorPicker>`, :ref:`FileSystemDock<class_FileSystemDock>`, :ref:`ScriptEditorBase<class_ScriptEditorBase>`
+**Heredado por:** :ref:`ColorPicker<class_ColorPicker>`, :ref:`ScriptEditorBase<class_ScriptEditorBase>`
 
 Un contenedor que organiza sus controles hijo verticalmente.
 

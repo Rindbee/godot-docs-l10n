@@ -216,15 +216,17 @@ JSON
 
 :ref:`String<class_String>` **stringify**\ (\ data\: :ref:`Variant<class_Variant>`, indent\: :ref:`String<class_String>` = "", sort_keys\: :ref:`bool<class_bool>` = true, full_precision\: :ref:`bool<class_bool>` = false\ ) |static| :ref:`🔗<class_JSON_method_stringify>`
 
-将 :ref:`Variant<class_Variant>` 变量转换为 JSON 文本并返回结果。可用于将数据进行序列化保存或通过网络发送。
+Converts a :ref:`Variant<class_Variant>` var to JSON text and returns the result. Useful for serializing data to store or send over the network.
 
-\ **注意：**\ JSON 规范没有定义整数和浮点数类型，只有一个\ *数字*\ 类型。因此，将 Variant 转换为 JSON 文本会将所有数字值转换为 :ref:`float<class_float>` 类型。
+\ **Note:** The JSON specification does not define integer or float types, but only a *number* type. Therefore, converting a Variant to JSON text will convert all numerical values to :ref:`float<class_float>` types.
 
-\ **注意：**\ 如果 ``full_precision`` 为 ``true``\ ，则在字符串化浮点数时，除可靠数字外，还将对不可靠数字进行字符串化，以保证准确解码。
+\ **Note:** If ``full_precision`` is ``true``, when stringifying floats, the unreliable digits are stringified in addition to the reliable digits to guarantee exact decoding.
 
-\ ``indent`` 参数控制是否缩进以及如何缩进，输出时应该有缩进的地方会用到它的值。甚至可以使用空格 ``" "`` 缩进。\ ``\t`` 和 ``\n`` 可用于制表符缩进，或分别为每个缩进换行。
+The ``indent`` parameter controls if and how something is indented; its contents will be used where there should be an indent in the output. Even spaces like ``"   "`` will work. ``\t`` and ``\n`` can also be used for a tab indent, or to make a newline for each indent respectively.
 
-\ **示例输出：**\ 
+\ **Warning:** Non-finite numbers are not supported in JSON. Any occurrences of :ref:`@GDScript.INF<class_@GDScript_constant_INF>` will be replaced with ``1e99999``, and negative :ref:`@GDScript.INF<class_@GDScript_constant_INF>` will be replaced with ``-1e99999``, but they will be interpreted correctly as infinity by most JSON parsers. :ref:`@GDScript.NAN<class_@GDScript_constant_NAN>` will be replaced with ``null``, and it will not be interpreted as NaN in JSON parsers. If you expect non-finite numbers, consider passing your data through :ref:`from_native()<class_JSON_method_from_native>` first.
+
+\ **Example output:**\ 
 
 ::
 

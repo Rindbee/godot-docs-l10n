@@ -43,6 +43,8 @@ Metodi
    +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Axis<enum_Vector3_Axis>`                    | :ref:`get_primary_rotation_axis<class_AimModifier3D_method_get_primary_rotation_axis>`\ (\ index\: :ref:`int<class_int>`\ ) |const|                                 |
    +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                           | :ref:`is_relative<class_AimModifier3D_method_is_relative>`\ (\ index\: :ref:`int<class_int>`\ ) |const|                                                             |
+   +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`is_using_euler<class_AimModifier3D_method_is_using_euler>`\ (\ index\: :ref:`int<class_int>`\ ) |const|                                                       |
    +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                           | :ref:`is_using_secondary_rotation<class_AimModifier3D_method_is_using_secondary_rotation>`\ (\ index\: :ref:`int<class_int>`\ ) |const|                             |
@@ -50,6 +52,8 @@ Metodi
    | |void|                                            | :ref:`set_forward_axis<class_AimModifier3D_method_set_forward_axis>`\ (\ index\: :ref:`int<class_int>`, axis\: :ref:`BoneAxis<enum_SkeletonModifier3D_BoneAxis>`\ ) |
    +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`set_primary_rotation_axis<class_AimModifier3D_method_set_primary_rotation_axis>`\ (\ index\: :ref:`int<class_int>`, axis\: :ref:`Axis<enum_Vector3_Axis>`\ )  |
+   +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                            | :ref:`set_relative<class_AimModifier3D_method_set_relative>`\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ )                                |
    +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                            | :ref:`set_use_euler<class_AimModifier3D_method_set_use_euler>`\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ )                              |
    +---------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -111,6 +115,18 @@ Restituisce l'asse della prima rotazione. È abilitato solo se :ref:`is_using_eu
 
 ----
 
+.. _class_AimModifier3D_method_is_relative:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_relative**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_AimModifier3D_method_is_relative>`
+
+Restituisce ``true`` se l'opzione "relativa" è abilitata nell'impostazione all'indice ``index``.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_AimModifier3D_method_is_using_euler:
 
 .. rst-class:: classref-method
@@ -154,6 +170,22 @@ Imposta l'asse in avanti dell'osso.
 |void| **set_primary_rotation_axis**\ (\ index\: :ref:`int<class_int>`, axis\: :ref:`Axis<enum_Vector3_Axis>`\ ) :ref:`🔗<class_AimModifier3D_method_set_primary_rotation_axis>`
 
 Imposta l'asse della prima rotazione. È abilitato solo se :ref:`is_using_euler()<class_AimModifier3D_method_is_using_euler>` è ``true``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_AimModifier3D_method_set_relative:
+
+.. rst-class:: classref-method
+
+|void| **set_relative**\ (\ index\: :ref:`int<class_int>`, enabled\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_AimModifier3D_method_set_relative>`
+
+Sets relative option in the setting at ``index`` to ``enabled``.
+
+If sets ``enabled`` to ``true``, the rotation is applied relative to the pose.
+
+If sets ``enabled`` to ``false``, the rotation is applied relative to the rest. It means to replace the current pose with the **AimModifier3D**'s result.
 
 .. rst-class:: classref-item-separator
 

@@ -680,9 +680,9 @@ Se ``deep`` è ``true``, viene restituita una copia **profonda**: anche tutti gl
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Duplica questo array profondamente, come :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, con ulteriore controllo su come le sottorisorse sono gestite.
+Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` deve essere uno dei valori di :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Come predefinito, solo le risorse interne saranno duplicate (ricorsivamente).
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -831,9 +831,9 @@ Restituisce il primo elemento dell'array. Se l'array è vuoto, fallisce e restit
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-Restituisce l'elemento all'indice ``index`` nell'array. Se ``index`` è fuori limite o negativo, questo metodo fallisce e restituisce ``null``.
+Returns the element at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``null``.
 
-Questo metodo è simile (ma non identico) all'operatore ``[]``. In particolare, quando questo metodo fallisce, non interrompe l'esecuzione del progetto se eseguito dall'editor.
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 
@@ -923,9 +923,9 @@ In GDScript, questo metodo equivale all'operatore ``in``:
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Array_method_hash>`
 
-Restituisce un valore intero di hash a 32 bit che rappresenta l'array e i sui contenuti.
+Returns a hashed 32-bit integer value representing the array and its contents.
 
-\ **Nota:** Gli array con valori uguali di hash *non* sono garantiti di essere gli stessi, a causa di collisioni di hash. Al contrario, gli array con valori diversi di hash sono sicuramente diversi.
+\ **Note:** Arrays with equal hash values are *not* guaranteed to be the same, as a result of hash collisions. On the contrary, arrays with different hash values are guaranteed to be different.
 
 .. rst-class:: classref-item-separator
 
@@ -1226,13 +1226,11 @@ Vedi anche :ref:`map()<class_Array_method_map>`, :ref:`filter()<class_Array_meth
 
 |void| **remove_at**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_remove_at>`
 
-Rimuove l'elemento dall'array all'indice ``position``. Se l'indice è fuori dai limiti, questo metodo fallisce. Se l'indice è negativo, ``position`` è considerato relativo alla fine dell'array.
+Removes the element from the array at the given index (``position``). If the index is out of bounds, this method fails. If the index is negative, ``position`` is considered relative to the end of the array.
 
-Se è necessario restituire l'elemento rimosso, usa :ref:`pop_at()<class_Array_method_pop_at>`. Per rimuovere un elemento per valore, usa invece :ref:`erase()<class_Array_method_erase>`.
+If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
 
-\ **Nota:** Questo metodo sposta indietro l'indice di ogni elemento dopo ``position``, il che potrebbe avere un notevole costo sulle prestazioni, soprattutto sugli array più grandi.
-
-\ **Nota:** ``position`` non può essere negativo. Per rimuovere un elemento relativo alla fine dell'array, utilizza ``arr.remove_at(arr.size() - (i + 1))``. Per rimuovere l'ultimo elemento dall'array, utilizza ``arr.resize(arr.size() - 1)``.
+\ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
 
 .. rst-class:: classref-item-separator
 

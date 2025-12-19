@@ -302,7 +302,7 @@ XR 接口扩展（插件）的基类。
 
 :ref:`TrackingStatus<enum_XRInterface_TrackingStatus>` **_get_tracking_status**\ (\ ) |virtual| |const| :ref:`🔗<class_XRInterfaceExtension_private_method__get_tracking_status>`
 
-返回指定当前追踪状态的 :ref:`TrackingStatus<enum_XRInterface_TrackingStatus>`\ 。
+Returns the current status of our tracking.
 
 .. rst-class:: classref-item-separator
 

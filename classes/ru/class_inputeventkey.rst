@@ -114,17 +114,17 @@ InputEventKey
 - |void| **set_key_label**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_key_label**\ (\ )
 
-Представляет локализованную метку, напечатанную на клавише в текущей раскладке клавиатуры, которая соответствует одной из констант :ref:`Key<enum_@GlobalScope_Key>` или любому допустимому символу Unicode.
+Represents the localized label printed on the key in the current keyboard layout, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants or any valid Unicode character. Key labels are meant for key prompts.
 
-Для раскладок клавиатуры с одной меткой на клавише это эквивалентно :ref:`keycode<class_InputEventKey_property_keycode>`.
+For keyboard layouts with a single label on the key, it is equivalent to :ref:`keycode<class_InputEventKey_property_keycode>`.
 
-Чтобы получить понятное человеку представление **InputEventKey**, используйте ``OS.get_keycode_string(event.key_label)``, где ``event`` — это **InputEventKey**.
+To get a human-readable representation of the **InputEventKey**, use ``OS.get_keycode_string(event.key_label)`` where ``event`` is the **InputEventKey**.
 
 .. code:: text
 
     +-----+ +-----+
     | Q   | | Q   | - "Q" - keycode
-    |   Й | |  ض | - "Й" и "ض" - key_label
+    |   Й | |  ض | - "Й" and "ض" - key_label
     +-----+ +-----+
 
 .. rst-class:: classref-item-separator
@@ -142,15 +142,15 @@ InputEventKey
 - |void| **set_keycode**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_keycode**\ (\ )
 
-Латинская метка, напечатанная на клавише в текущей раскладке клавиатуры, которая соответствует одной из констант :ref:`Key<enum_@GlobalScope_Key>`.
+Latin label printed on the key in the current keyboard layout, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants. Key codes are meant for shortcuts expressed with a standard Latin keyboard, such as :kbd:`Ctrl + S` for a "Save" shortcut.
 
-Чтобы получить понятное человеку представление **InputEventKey**, используйте ``OS.get_keycode_string(event.keycode)``, где ``event`` — это **InputEventKey**.
+To get a human-readable representation of the **InputEventKey**, use ``OS.get_keycode_string(event.keycode)`` where ``event`` is the **InputEventKey**.
 
 .. code:: text
 
     +-----+ +-----+
     | Q   | | Q   | - "Q" - keycode
-    |   Й | |  ض | - "Й" и "ض" - key_label
+    |   Й | |  ض | - "Й" and "ض" - key_label
     +-----+ +-----+
 
 .. rst-class:: classref-item-separator
@@ -185,9 +185,9 @@ InputEventKey
 - |void| **set_physical_keycode**\ (\ value\: :ref:`Key<enum_@GlobalScope_Key>`\ )
 - :ref:`Key<enum_@GlobalScope_Key>` **get_physical_keycode**\ (\ )
 
-Представляет физическое расположение клавиши на 101/102-клавишной клавиатуре US QWERTY, что соответствует одной из констант :ref:`Key<enum_@GlobalScope_Key>`.
+Represents the physical location of a key on the 101/102-key US QWERTY keyboard, which corresponds to one of the :ref:`Key<enum_@GlobalScope_Key>` constants. Physical key codes meant for game input, such as WASD movement, where only the location of the keys is important.
 
-Чтобы получить понятное человеку представление **InputEventKey**, используйте :ref:`OS.get_keycode_string()<class_OS_method_get_keycode_string>` в сочетании с :ref:`DisplayServer.keyboard_get_keycode_from_physical()<class_DisplayServer_method_keyboard_get_keycode_from_physical>`:
+To get a human-readable representation of the **InputEventKey**, use :ref:`OS.get_keycode_string()<class_OS_method_get_keycode_string>` in combination with :ref:`DisplayServer.keyboard_get_keycode_from_physical()<class_DisplayServer_method_keyboard_get_keycode_from_physical>` or :ref:`DisplayServer.keyboard_get_label_from_physical()<class_DisplayServer_method_keyboard_get_label_from_physical>`:
 
 
 .. tabs::
@@ -197,7 +197,9 @@ InputEventKey
     func _input(event):
         if event is InputEventKey:
             var keycode = DisplayServer.keyboard_get_keycode_from_physical(event.physical_keycode)
+            var label = DisplayServer.keyboard_get_label_from_physical(event.physical_keycode)
             print(OS.get_keycode_string(keycode))
+            print(OS.get_keycode_string(label))
 
  .. code-tab:: csharp
 
@@ -206,7 +208,9 @@ InputEventKey
         if (@event is InputEventKey inputEventKey)
         {
             var keycode = DisplayServer.KeyboardGetKeycodeFromPhysical(inputEventKey.PhysicalKeycode);
+            var label = DisplayServer.KeyboardGetLabelFromPhysical(inputEventKey.PhysicalKeycode);
             GD.Print(OS.GetKeycodeString(keycode));
+            GD.Print(OS.GetKeycodeString(label));
         }
     }
 
@@ -244,7 +248,9 @@ InputEventKey
 - |void| **set_unicode**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_unicode**\ (\ )
 
-Код символа Unicode клавиши (если применимо), смещенный клавишами-модификаторами. Коды символов Unicode для составных символов и сложных сценариев могут быть недоступны, если не активен режим ввода IME. Для получения дополнительной информации см. :ref:`Window.set_ime_active()<class_Window_method_set_ime_active>`.
+The key Unicode character code (when relevant), shifted by modifier keys. Unicode character codes for composite characters and complex scripts may not be available unless IME input mode is active. See :ref:`Window.set_ime_active()<class_Window_method_set_ime_active>` for more information. Unicode character codes are meant for text input.
+
+\ **Note:** This property is set by the engine only for a pressed event. If the event is sent by an IME or a virtual keyboard, no corresponding key released event is sent.
 
 .. rst-class:: classref-section-separator
 

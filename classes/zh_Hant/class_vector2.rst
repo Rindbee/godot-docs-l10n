@@ -420,13 +420,13 @@ Y 軸的列舉值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`float<class_float>` **angle**\ (\ ) |const| :ref:`🔗<class_Vector2_method_angle>`
 
-返回該向量與 X 軸正方向的夾角，單位為弧度。X 軸正方向為 ``(1, 0)`` 向量。
+Returns this vector's angle with respect to the positive X axis, or ``(1, 0)`` vector, in radians.
 
-例如，\ ``Vector2.RIGHT.angle()`` 將返回 0，\ ``Vector2.DOWN.angle()`` 將返回 ``PI / 2``\ （四分之一圈，即 90 度），\ ``Vector2(1, -1).angle()`` 將返回 ``-PI / 4``\ （負八分之一圈，即 -45 度）。
+For example, ``Vector2.RIGHT.angle()`` will return zero, ``Vector2.DOWN.angle()`` will return ``PI / 2`` (a quarter turn, or 90 degrees), and ``Vector2(1, -1).angle()`` will return ``-PI / 4`` (a negative eighth turn, or -45 degrees).
 
-\ `返回夾角圖示。 <https://raw.githubusercontent.com/godotengine/godot-docs/4.1/img/vector2_angle.png>`__\ 
+This is equivalent to calling :ref:`@GlobalScope.atan2()<class_@GlobalScope_method_atan2>` with :ref:`y<class_Vector2_property_y>` and :ref:`x<class_Vector2_property_x>`.
 
-相當於使用該向量的 :ref:`y<class_Vector2_property_y>` 和 :ref:`x<class_Vector2_property_x>` 作為參數對 :ref:`@GlobalScope.atan2()<class_@GlobalScope_method_atan2>` 進行呼叫的結果：\ ``atan2(y, x)``\ 。
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -438,7 +438,7 @@ Y 軸的列舉值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`float<class_float>` **angle_to**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_angle_to>`
 
-Returns the signed angle to the given vector, in radians.
+Returns the signed angle to the given vector, in radians. The result ranges from ``-PI`` to ``PI`` (inclusive).
 
 \ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to.png>`__
 
@@ -452,11 +452,11 @@ Returns the signed angle to the given vector, in radians.
 
 :ref:`float<class_float>` **angle_to_point**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_angle_to_point>`
 
-返回連接兩點的直線與 X 軸之間的夾角，單位為弧度。
+Returns the signed angle between the X axis and the line from this vector to point ``to``, in radians. The result ranges from ``-PI`` to ``PI`` (inclusive).
 
-\ ``a.angle_to_point(b)`` 等價於 ``(b - a).angle()``\ 。
+\ ``a.angle_to_point(b)`` is equivalent to ``(b - a).angle()``. See also :ref:`angle()<class_Vector2_method_angle>`.
 
-\ `返回夾角示意圖。 <https://raw.githubusercontent.com/godotengine/godot-docs/4.1/img/vector2_angle_to_point.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to_point.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ Returns the signed angle to the given vector, in radians.
 
 :ref:`float<class_float>` **aspect**\ (\ ) |const| :ref:`🔗<class_Vector2_method_aspect>`
 
-返回該向量的長寬比，即 :ref:`x<class_Vector2_property_x>` 與 :ref:`y<class_Vector2_property_y>` 的比例。
+Returns this vector's aspect ratio, which is :ref:`x<class_Vector2_property_x>` divided by :ref:`y<class_Vector2_property_y>`.
 
 .. rst-class:: classref-item-separator
 
@@ -596,7 +596,9 @@ It can perform smoother interpolation than :ref:`cubic_interpolate()<class_Vecto
 
 :ref:`Vector2<class_Vector2>` **direction_to**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_direction_to>`
 
-返回從該向量指向 ``to`` 的正規化向量。相當於使用 ``(b - a).normalized()``\ 。
+Returns the normalized vector pointing from this vector to ``to``.
+
+\ ``a.direction_to(b)`` is equivalent to ``(b - a).normalized()``. See also :ref:`normalized()<class_Vector2_method_normalized>`.
 
 .. rst-class:: classref-item-separator
 

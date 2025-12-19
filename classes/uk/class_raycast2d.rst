@@ -391,7 +391,7 @@ RayCast2D
 
 |void| **remove_exception**\ (\ node\: :ref:`CollisionObject2D<class_CollisionObject2D>`\ ) :ref:`🔗<class_RayCast2D_method_remove_exception>`
 
-Видаляє виняток зіткнення, щоб промінь міг повідомляти про зіткнення із зазначеним вузлом ``node``.
+Видаляє виняток зіткнення, щоб промінь міг повідомляти про зіткнення із зазначеним ``node``.
 
 .. rst-class:: classref-item-separator
 

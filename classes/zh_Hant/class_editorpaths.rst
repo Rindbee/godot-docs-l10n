@@ -124,7 +124,7 @@ Returns the absolute path to the user's data folder. This folder should be used 
 
 :ref:`String<class_String>` **get_project_settings_dir**\ (\ ) |const| :ref:`🔗<class_EditorPaths_method_get_project_settings_dir>`
 
-返回針對專案的編輯器設定路徑。各個專案在設定路徑中都有一個獨立的子目錄，用於保存針對專案的編輯器設定。
+Returns the relative path to the editor settings for this project. This is usually ``"res://.godot/editor"``. Projects all have a unique subdirectory inside the settings path where project-specific editor settings are saved.
 
 .. rst-class:: classref-item-separator
 

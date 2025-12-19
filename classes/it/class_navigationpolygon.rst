@@ -172,7 +172,7 @@ enum **SamplePartitionType**: :ref:`🔗<enum_NavigationPolygon_SamplePartitionT
 
 :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>` **SAMPLE_PARTITION_CONVEX_PARTITION** = ``0``
 
-Partizionamento convesso che produce una mesh di navigazione con poligoni convessi.
+Convex partitioning that results in a navigation mesh with convex polygons.
 
 .. _class_NavigationPolygon_constant_SAMPLE_PARTITION_TRIANGULATE:
 
@@ -180,7 +180,7 @@ Partizionamento convesso che produce una mesh di navigazione con poligoni conves
 
 :ref:`SamplePartitionType<enum_NavigationPolygon_SamplePartitionType>` **SAMPLE_PARTITION_TRIANGULATE** = ``1``
 
-Partizionamento tramite triangolazione che produce una mesh di navigazione con poligoni triangolari.
+Triangulation partitioning that results in a navigation mesh with triangle polygons.
 
 .. _class_NavigationPolygon_constant_SAMPLE_PARTITION_MAX:
 

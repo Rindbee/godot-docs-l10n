@@ -680,9 +680,9 @@ Array
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-Глубоко дублирует этот массив, подобно :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``, с дополнительным контролем над обработкой подресурсов.
+Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` должен быть одним из значений :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. По умолчанию рекурсивно дублируются только внутренние ресурсы.
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -831,9 +831,9 @@ Array
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-Возвращает элемент по указанному ``index`` в массиве. Если ``index`` выходит за границы или отрицателен, этот метод завершается ошибкой и возвращает ``null``.
+Returns the element at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``null``.
 
-Этот метод похож (но не идентичен) оператору ``[]``. В частности, когда этот метод завершается ошибкой, он не приостанавливает выполнение проекта, если запущен из редактора.
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 
@@ -923,9 +923,9 @@ Array
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Array_method_hash>`
 
-Возвращает хешированное 32-битное целое значение, представляющее массив и его содержимое.
+Returns a hashed 32-bit integer value representing the array and its contents.
 
-\ **Примечание:** Массивы с одинаковыми значениями хэша *не* гарантированно будут одинаковыми из-за коллизий хэшей. В стране массивы с разными значениями хэшей гарантированно будут разными.
+\ **Note:** Arrays with equal hash values are *not* guaranteed to be the same, as a result of hash collisions. On the contrary, arrays with different hash values are guaranteed to be different.
 
 .. rst-class:: classref-item-separator
 
@@ -1226,13 +1226,11 @@ Array
 
 |void| **remove_at**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_remove_at>`
 
-Удаляет элемент из массива по указанному индексу (``position``). Если индекс выходит за пределы, этот метод завершается ошибкой. Если индекс отрицательный, ``position`` считается относительно конца массива.
+Removes the element from the array at the given index (``position``). If the index is out of bounds, this method fails. If the index is negative, ``position`` is considered relative to the end of the array.
 
-Если вам нужно вернуть удаленный элемент, используйте :ref:`pop_at()<class_Array_method_pop_at>`. Чтобы удалить элемент по значению, используйте :ref:`erasure()<class_Array_method_erasure>`.
+If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
 
-\ **Примечание:** Этот метод сдвигает индекс каждого элемента после ``position`` назад, что может иметь заметные издержки производительности, особенно для больших массивов.
-
-\ **Примечание:** ``position`` не может быть отрицательным. Чтобы удалить элемент относительно конца массива, используйте ``arr.remove_at(arr.size() - (i + 1))``. Чтобы удалить последний элемент из массива, используйте ``arr.resize(arr.size() - 1)``.
+\ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
 
 .. rst-class:: classref-item-separator
 

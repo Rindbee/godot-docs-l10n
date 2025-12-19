@@ -5,7 +5,7 @@
 FileSystemDock
 ==============
 
-**繼承：** :ref:`VBoxContainer<class_VBoxContainer>` **<** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
+**繼承：** :ref:`EditorDock<class_EditorDock>` **<** :ref:`MarginContainer<class_MarginContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
 Godot 編輯器中用於管理專案檔案的停靠面板。
 
@@ -146,6 +146,18 @@ Emitted when folders change color.
 **resource_removed**\ (\ resource\: :ref:`Resource<class_Resource>`\ ) :ref:`🔗<class_FileSystemDock_signal_resource_removed>`
 
 外部資源 ``resource`` 的對應檔被移除時發出。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_FileSystemDock_signal_selection_changed:
+
+.. rst-class:: classref-signal
+
+**selection_changed**\ (\ ) :ref:`🔗<class_FileSystemDock_signal_selection_changed>`
+
+Emitted when the selection changes. Use :ref:`EditorInterface.get_selected_paths()<class_EditorInterface_method_get_selected_paths>` in the connected method to get the selected paths.
 
 .. rst-class:: classref-section-separator
 

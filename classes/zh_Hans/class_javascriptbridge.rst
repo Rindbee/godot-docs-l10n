@@ -23,7 +23,7 @@ JavaScriptBridge 单例仅在 Web 导出中实现。它用于访问浏览器的 
 教程
 ----
 
-- `为 Web 导出：从脚本调用 JavaScript <../tutorials/export/exporting_for_web.html#calling-javascript-from-script>`__
+- :doc:`The JavaScriptBridge singleton <../tutorials/platform/web/javascript_bridge>`
 
 .. rst-class:: classref-reftable-group
 

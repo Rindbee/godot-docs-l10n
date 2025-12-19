@@ -127,7 +127,7 @@ DPITexture
 
 :ref:`DPITexture<class_DPITexture>` **create_from_string**\ (\ source\: :ref:`String<class_String>`, scale\: :ref:`float<class_float>` = 1.0, saturation\: :ref:`float<class_float>` = 1.0, color_map\: :ref:`Dictionary<class_Dictionary>` = {}\ ) |static| :ref:`🔗<class_DPITexture_method_create_from_string>`
 
-Створює нову **DPITexture** та ініціалізує її, виділяючи та встановлюючи SVG-дані з рядка.
+Creates a new **DPITexture** and initializes it by allocating and setting the SVG data to ``source``.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +151,7 @@ DPITexture
 
 :ref:`String<class_String>` **get_source**\ (\ ) |const| :ref:`🔗<class_DPITexture_method_get_source>`
 
-Повертає вихідний код SVG.
+Returns this SVG texture's source code.
 
 .. rst-class:: classref-item-separator
 
@@ -175,7 +175,7 @@ DPITexture
 
 |void| **set_source**\ (\ source\: :ref:`String<class_String>`\ ) :ref:`🔗<class_DPITexture_method_set_source>`
 
-Встановлює вихідний код SVG.
+Sets this SVG texture's source code.
 
 .. |virtual| replace:: :abbr:`virtual (Зазвичай, цей метод перевизначається користувачем, щоб він мав вплив.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -325,7 +325,7 @@ OpenXR 已准备好开始会话。进入该状态时会发出 :ref:`session_begu
 
 :ref:`SessionState<enum_OpenXRInterface_SessionState>` **SESSION_STATE_EXITING** = ``8``
 
-OpenXR 实例即将销毁，目前尚存在。进入该状态时会发出 :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>`\ 。
+The OpenXR instance is about to be destroyed and we're exiting. :ref:`instance_exiting<class_OpenXRInterface_signal_instance_exiting>` is emitted when we change to this state.
 
 .. rst-class:: classref-item-separator
 
@@ -876,9 +876,9 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 - |void| **set_foveation_dynamic**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_foveation_dynamic**\ (\ )
 
-启用动态注视点调整，必须先初始化接口才能访问该功能。如果启用，注视点将在低和 :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>` 之间自动调整。
+If ``true``, enables dynamic foveation adjustment. The interface must be initialized before this is accessible. If enabled, foveation will automatically be adjusted between low and :ref:`foveation_level<class_OpenXRInterface_property_foveation_level>`.
 
-\ **注意：**\ 仅适用于兼容性渲染器。
+\ **Note:** Only works on the Compatibility renderer.
 
 .. rst-class:: classref-item-separator
 
@@ -895,9 +895,9 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 - |void| **set_foveation_level**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_foveation_level**\ (\ )
 
-将注视点级别设置为从 0（关闭）到 3（高），必须先初始化接口，然后才能访问该接口。
+The foveation level, from ``0`` (off) to ``3`` (high). The interface must be initialized before this is accessible.
 
-\ **注意：**\ 仅适用于兼容性渲染器。
+\ **Note:** Only works on the Compatibility renderer.
 
 .. rst-class:: classref-item-separator
 
@@ -981,7 +981,7 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 
 :ref:`Array<class_Array>` **get_available_display_refresh_rates**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_get_available_display_refresh_rates>`
 
-返回当前 HMD 支持的显示刷新率。仅当 OpenXR 运行时支持该功能并且接口已被初始化后才会返回。
+Returns a list of display refresh rates supported by the current HMD. Only returned if this feature is supported by the OpenXR runtime and after the interface has been initialized.
 
 .. rst-class:: classref-item-separator
 
@@ -1141,9 +1141,9 @@ flags **HandJointFlags**: :ref:`🔗<enum_OpenXRInterface_HandJointFlags>`
 
 :ref:`bool<class_bool>` **is_foveation_supported**\ (\ ) |const| :ref:`🔗<class_OpenXRInterface_method_is_foveation_supported>`
 
-如果支持 OpenXR 的注视点扩展，则返回 ``true``\ ，在返回有效值之前必须初始化该接口。
+Returns ``true`` if OpenXR's foveation extension is supported. The interface must be initialized before this returns a valid value.
 
-\ **注意：**\ 该功能仅在兼容性渲染器上可用，并且目前仅在某些独立头戴设备上可用。对于 Vulkan，在桌面上将 :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` 设置为 ``VRS_XR``\ 。
+\ **Note:** When using the Vulkan rendering driver, :ref:`Viewport.vrs_mode<class_Viewport_property_vrs_mode>` must be set to :ref:`Viewport.VRS_XR<class_Viewport_constant_VRS_XR>` to support foveation.
 
 .. rst-class:: classref-item-separator
 

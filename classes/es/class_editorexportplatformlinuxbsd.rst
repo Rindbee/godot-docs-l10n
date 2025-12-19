@@ -135,7 +135,9 @@ Si es ``true``, se exporta un envoltorio de consola junto con el ejecutable prin
 
 :ref:`bool<class_bool>` **shader_baker/enabled** :ref:`🔗<class_EditorExportPlatformLinuxBSD_property_shader_baker/enabled>`
 
-Si es ``true``, los shaders se compilarán e integrarán en la aplicación. Esta opción solo es compatible cuando se utilizan los renderizadores Forward+ o Mobile.
+If ``true``, shaders will be compiled and embedded in the application. This option is only supported when using the Forward+ or Mobile renderers.
+
+\ **Note:** When exporting as a dedicated server, the shader baker is always disabled since no rendering is performed.
 
 .. rst-class:: classref-item-separator
 

@@ -23,6 +23,35 @@ JNISingleton 僅在 Android 匯出中實作。它用於從用 Java 或 Kotlin �
 
 - `建立 Android 外掛程式 <../tutorials/platform/android/android_plugin.html#doc-android-plugin>`__
 
+.. rst-class:: classref-reftable-group
+
+方法
+----
+
+.. table::
+   :widths: auto
+
+   +-------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>` | :ref:`has_java_method<class_JNISingleton_method_has_java_method>`\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| |
+   +-------------------------+-------------------------------------------------------------------------------------------------------------------------------+
+
+.. rst-class:: classref-section-separator
+
+----
+
+.. rst-class:: classref-descriptions-group
+
+方法說明
+--------
+
+.. _class_JNISingleton_method_has_java_method:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **has_java_method**\ (\ method\: :ref:`StringName<class_StringName>`\ ) |const| :ref:`🔗<class_JNISingleton_method_has_java_method>`
+
+Returns ``true`` if the given ``method`` name exists in the JNISingleton's Java methods.
+
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要使用者覆寫才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`
 .. |const| replace:: :abbr:`const (本方法沒有副作用。不會修改該實例的任何成員變數。)`

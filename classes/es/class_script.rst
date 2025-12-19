@@ -253,9 +253,9 @@ Devuelve la lista de propiedades en este **Script**.
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_script_signal_list**\ (\ ) :ref:`🔗<class_Script_method_get_script_signal_list>`
 
-Devuelve la lista de señales de usuario definidas en este **Script**.
+Returns the list of signals defined in this **Script**.
 
-\ **Nota:** Los diccionarios devueltos por este método tienen un formato idéntico a los devueltos por :ref:`Object.get_signal_list()<class_Object_method_get_signal_list>`.
+\ **Note:** The dictionaries returned by this method are formatted identically to those returned by :ref:`Object.get_signal_list()<class_Object_method_get_signal_list>`.
 
 .. rst-class:: classref-item-separator
 

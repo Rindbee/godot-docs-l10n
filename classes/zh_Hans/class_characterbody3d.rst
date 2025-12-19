@@ -443,9 +443,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-当前的速度向量（单位通常为米每秒），会在调用 :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` 时使用和修改。
+Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
 
-不应将该属性设置为乘以 ``delta`` 的值，因为 :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` 内部会乘。否则运行仿真会使用错误的速度。
+\ **Note:** A common mistake is setting this property to the desired velocity multiplied by ``delta``, which produces a motion vector (typically in meters).
 
 .. rst-class:: classref-item-separator
 
@@ -529,7 +529,7 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **get_last_slide_collision**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_get_last_slide_collision>`
 
-返回 :ref:`KinematicCollision3D<class_KinematicCollision3D>`\ ，包含最近一次调用 :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` 时发生的最后一次运动的相关信息。
+Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>` if a collision occurred. The returned value contains information about the latest collision that occurred during the last call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Returns ``null`` if no collision occurred. See also :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 
 .. rst-class:: classref-item-separator
 
@@ -589,7 +589,7 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **get_slide_collision**\ (\ slide_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CharacterBody3D_method_get_slide_collision>`
 
-返回 :ref:`KinematicCollision3D<class_KinematicCollision3D>`\ ，包含最近一次调用 :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` 时发生的碰撞信息。因为单次调用 :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>` 可能发生多次碰撞，所以你必须指定碰撞索引，范围为 0 到 (:ref:`get_slide_collision_count()<class_CharacterBody3D_method_get_slide_collision_count>` - 1)。
+Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>`, which contains information about a collision that occurred during the last call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Since the body can collide several times in a single call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`, you must specify the index of the collision in the range 0 to (:ref:`get_slide_collision_count()<class_CharacterBody3D_method_get_slide_collision_count>` - 1). See also :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`.
 
 .. rst-class:: classref-item-separator
 

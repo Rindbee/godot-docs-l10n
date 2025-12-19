@@ -680,9 +680,9 @@ Array
 
 :ref:`Array<class_Array>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Array_method_duplicate_deep>`
 
-深度复制该数组，类似 :ref:`duplicate()<class_Array_method_duplicate>`\ ``(true)``\ ，但能够额外控制子资源的处理方式。
+Duplicates this array, deeply, like :ref:`duplicate()<class_Array_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` 必须是 :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>` 中的一个值。默认只会（递归）复制内部资源。
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -831,9 +831,9 @@ Array
 
 :ref:`Variant<class_Variant>` **get**\ (\ index\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_Array_method_get>`
 
-返回数组中索引为 ``index`` 的元素。如果 ``index`` 越界或为负数，则该方法失败并返回 ``null``\ 。
+Returns the element at the given ``index`` in the array. If ``index`` is out-of-bounds or negative, this method fails and returns ``null``.
 
-该方法类似于 ``[]`` 运算符（但不等价）。最显著的区别就是从编辑器中运行时，该方法失败不会暂停项目运行。
+This method is similar (but not identical) to the ``[]`` operator. Most notably, when this method fails, it doesn't pause project execution if run from the editor.
 
 .. rst-class:: classref-item-separator
 
@@ -923,9 +923,9 @@ Array
 
 :ref:`int<class_int>` **hash**\ (\ ) |const| :ref:`🔗<class_Array_method_hash>`
 
-返回代表该数组及其内容的散列 32 位整数值。
+Returns a hashed 32-bit integer value representing the array and its contents.
 
-\ **注意：**\ 由于哈希碰撞的缘故，哈希相同的数组\ *不*\ 保证相同。而相对的是，哈希不同的数组保证不同。
+\ **Note:** Arrays with equal hash values are *not* guaranteed to be the same, as a result of hash collisions. On the contrary, arrays with different hash values are guaranteed to be different.
 
 .. rst-class:: classref-item-separator
 
@@ -1226,13 +1226,11 @@ Array
 
 |void| **remove_at**\ (\ position\: :ref:`int<class_int>`\ ) :ref:`🔗<class_Array_method_remove_at>`
 
-从数组中移除指定索引（\ ``position``\ ）处的元素。如果索引超出范围，则该方法失败。如果为负数，则认为 ``position`` 为相对于数组结尾的索引。
+Removes the element from the array at the given index (``position``). If the index is out of bounds, this method fails. If the index is negative, ``position`` is considered relative to the end of the array.
 
-如果需要返回被移除的元素，请使用 :ref:`pop_at()<class_Array_method_pop_at>`\ 。要按值移除元素，请改用 :ref:`erase()<class_Array_method_erase>`\ 。
+If you need to return the removed element, use :ref:`pop_at()<class_Array_method_pop_at>`. To remove an element by value, use :ref:`erase()<class_Array_method_erase>` instead.
 
-\ **注意：**\ 该方法将 ``position`` 之后每个元素的索引向前移动，这可能会产生明显的性能成本，尤其是在较大的数组上。
-
-\ **注意：**\ ``position`` 不能为负数。要移除相对于数组末尾的元素，请使用 ``arr.remove_at(arr.size() - (i + 1))``\ 。要从数组中移除最后一个元素，请使用 ``arr.resize(arr.size() - 1)``\ 。
+\ **Note:** This method shifts every element's index after ``position`` back, which may have a noticeable performance cost, especially on larger arrays.
 
 .. rst-class:: classref-item-separator
 

@@ -7,14 +7,16 @@ OptimizedTranslation
 
 **继承：** :ref:`Translation<class_Translation>` **<** :ref:`Resource<class_Resource>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
-经过优化的翻译，由 CSV 翻译默认使用。
+An optimized translation.
 
 .. rst-class:: classref-introduction-group
 
 描述
 ----
 
-经过优化的翻译，由 CSV 翻译默认使用。使用实时压缩翻译，从而生成非常小的词典。
+An optimized translation. Uses real-time compressed translations, which results in very small dictionaries.
+
+This class does not store the untranslated strings for optimization purposes. Therefore, :ref:`Translation.get_message_list()<class_Translation_method_get_message_list>` always returns an empty array, and :ref:`Translation.get_message_count()<class_Translation_method_get_message_count>` always returns ``0``.
 
 .. rst-class:: classref-reftable-group
 
@@ -43,9 +45,11 @@ OptimizedTranslation
 
 |void| **generate**\ (\ from\: :ref:`Translation<class_Translation>`\ ) :ref:`🔗<class_OptimizedTranslation_method_generate>`
 
-根据给定的 :ref:`Translation<class_Translation>` 资源生成并设置优化翻译。
+Generates and sets an optimized translation from the given :ref:`Translation<class_Translation>` resource.
 
-\ **注意：**\ 该方法适于在编辑器中使用。在导出后的项目中调用无效。
+\ **Note:** Messages in ``from`` should not use context or plural forms.
+
+\ **Note:** This method is intended to be used in the editor. It does nothing when called from an exported project.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

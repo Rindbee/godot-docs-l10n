@@ -666,30 +666,32 @@ String
 
 :ref:`int<class_int>` **find**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_String_method_find>`
 
-Повертає індекс **першої** появи ``what`` у цьому рядку або ``-1``, якщо їх немає. Початок пошуку можна вказати за допомогою ``from``, продовжуючи до кінця рядка. 
+Returns the index of the **first** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the end of the string.
 
 
-.. tabs:: 
+.. tabs::
 
  .. code-tab:: gdscript
- 
-    print("Команда".find("Я")) # Виводить -1 
 
-    print("Картопля".find("t")) # Виводить 2 
-    print("Картопля".find("t", 3)) # Виводить 4 
-    print("Картопля".find("t", 5)) # Виводить -1  
+    print("Team".find("I")) # Prints -1
+
+    print("Potato".find("t"))    # Prints 2
+    print("Potato".find("t", 3)) # Prints 4
+    print("Potato".find("t", 5)) # Prints -1
 
  .. code-tab:: csharp
- 
-    GD.Print("Команда".Знайти("Я")); // Виводить -1 
 
-    GD.Print("Картопля".Знайти("t"));    // Друкує 2 
-    GD.Print("Картопля".Знайти("t", 3)); // Друкує 4 
-    GD.Print("Картопля".Знайти("t", 5)); // Виводить -1  
+    GD.Print("Team".Find("I")); // Prints -1
 
- 
+    GD.Print("Potato".Find("t"));    // Prints 2
+    GD.Print("Potato".Find("t", 3)); // Prints 4
+    GD.Print("Potato".Find("t", 5)); // Prints -1
 
-\ **Примітка:** Якщо ви просто хочете знати, чи містить рядок ``what``, використовуйте :ref:`contains()<class_String_method_contains>`. У GDScript ви також можете використовувати оператор ``in``.
+
+
+\ **Note:** If you just want to know whether the string contains ``what``, use :ref:`contains()<class_String_method_contains>`. In GDScript, you may also use the ``in`` operator.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
 
 .. rst-class:: classref-item-separator
 
@@ -837,13 +839,13 @@ String
 
 :ref:`String<class_String>` **get_slice**\ (\ delimiter\: :ref:`String<class_String>`, slice\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_get_slice>`
 
-Розділяє рядок за допомогою ``delimiter`` і повертає підрядок за індексом ``slice``. Повертає вихідний рядок, якщо ``delimiter`` не зустрічається в рядку. Повертає порожній рядок, якщо ``slice`` не існує. 
+Splits the string using a ``delimiter`` and returns the substring at index ``slice``. Returns the original string if ``delimiter`` does not occur in the string. Returns an empty string if the ``slice`` does not exist.
 
-Це швидше, ніж :ref:`split()<class_String_method_split>`, якщо вам потрібен лише один підрядок. 
+This is faster than :ref:`split()<class_String_method_split>`, if you only need one or two substrings.
 
 ::
- 
-    print("i/am/example/hi".get_slice("/", 2)) # Виводить "example" 
+
+    print("i/am/example/hi".get_slice("/", 2)) # Prints "example"
 
 .. rst-class:: classref-item-separator
 
@@ -855,7 +857,14 @@ String
 
 :ref:`int<class_int>` **get_slice_count**\ (\ delimiter\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_get_slice_count>`
 
-Повертає загальну кількість розрізів, коли рядок розділено за допомогою поданого ``delimiter`` (див. :ref:`split()<class_String_method_split>`).
+Returns the total number of slices when the string is split with the given ``delimiter`` (see :ref:`split()<class_String_method_split>`).
+
+Use :ref:`get_slice()<class_String_method_get_slice>` to extract a specific slice.
+
+::
+
+    print("i/am/example/string".get_slice_count("/")) # Prints '4'.
+    print("i am example string".get_slice_count("/")) # Prints '1'.
 
 .. rst-class:: classref-item-separator
 
@@ -867,9 +876,11 @@ String
 
 :ref:`String<class_String>` **get_slicec**\ (\ delimiter\: :ref:`int<class_int>`, slice\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_get_slicec>`
 
-Розділяє рядок за допомогою символу з Юнікод з кодом ``delimiter`` і повертає підрядок в індексі ``slice``. Повертає порожній рядок, якщо ``slice`` не існує.
+Splits the string using a Unicode character with code ``delimiter`` and returns the substring at index ``slice``. Returns an empty string if the ``slice`` does not exist.
 
-Це швидше, ніж :ref:`split()<class_String_method_split>`, якщо вам потрібен тільки певний підрядок.
+This is faster than :ref:`split()<class_String_method_split>`, if you only need one or two substrings.
+
+This is a Unicode version of :ref:`get_slice()<class_String_method_get_slice>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1572,7 +1583,7 @@ String
 
 :ref:`String<class_String>` **remove_chars**\ (\ chars\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_remove_chars>`
 
-Видаляє будь-які символи, що зустрічаються в ``chars``. Див. також :ref:`remove_char()<class_String_method_remove_char>`.
+Removes all occurrences of the characters in ``chars``. See also :ref:`remove_char()<class_String_method_remove_char>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1656,7 +1667,11 @@ String
 
 :ref:`int<class_int>` **rfind**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_String_method_rfind>`
 
-Повертає індекс **останнього** входження ``what`` у цьому рядку, або ``-1``, якщо таких немає. Початок пошуку можна вказати за допомогою ``from``, продовжуючи до початку рядка. Цей метод є зворотним до :ref:`find()<class_String_method_find>`.
+Returns the index of the **last** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the beginning of the string. This method is the reverse of :ref:`find()<class_String_method_find>`.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
+
+\ **Note:** A value of ``from`` that is greater than the last possible index with enough space to find ``what`` is considered out-of-bounds, and returns ``-1``.
 
 .. rst-class:: classref-item-separator
 

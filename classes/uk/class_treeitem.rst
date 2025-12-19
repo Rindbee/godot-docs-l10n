@@ -99,6 +99,8 @@ TreeItem
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                                             | :ref:`get_custom_font_size<class_TreeItem_method_get_custom_font_size>`\ (\ column\: :ref:`int<class_int>`\ ) |const|                                                                                                                                                                                               |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`                                   | :ref:`get_custom_stylebox<class_TreeItem_method_get_custom_stylebox>`\ (\ column\: :ref:`int<class_int>`\ ) |const|                                                                                                                                                                                                 |
+   +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`String<class_String>`                                       | :ref:`get_description<class_TreeItem_method_get_description>`\ (\ column\: :ref:`int<class_int>`\ ) |const|                                                                                                                                                                                                         |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                           | :ref:`get_expand_right<class_TreeItem_method_get_expand_right>`\ (\ column\: :ref:`int<class_int>`\ ) |const|                                                                                                                                                                                                       |
@@ -220,6 +222,8 @@ TreeItem
    | |void|                                                            | :ref:`set_custom_font<class_TreeItem_method_set_custom_font>`\ (\ column\: :ref:`int<class_int>`, font\: :ref:`Font<class_Font>`\ )                                                                                                                                                                                 |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                            | :ref:`set_custom_font_size<class_TreeItem_method_set_custom_font_size>`\ (\ column\: :ref:`int<class_int>`, font_size\: :ref:`int<class_int>`\ )                                                                                                                                                                    |
+   +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                            | :ref:`set_custom_stylebox<class_TreeItem_method_set_custom_stylebox>`\ (\ column\: :ref:`int<class_int>`, stylebox\: :ref:`StyleBox<class_StyleBox>`\ )                                                                                                                                                             |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                            | :ref:`set_description<class_TreeItem_method_set_description>`\ (\ column\: :ref:`int<class_int>`, description\: :ref:`String<class_String>`\ )                                                                                                                                                                      |
    +-------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -724,6 +728,18 @@ enum **TreeCellMode**: :ref:`🔗<enum_TreeItem_TreeCellMode>`
 :ref:`int<class_int>` **get_custom_font_size**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_custom_font_size>`
 
 Повертає користувацький розмір шрифту, який використовується для відображення тексту в стовпчику ``column``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TreeItem_method_get_custom_stylebox:
+
+.. rst-class:: classref-method
+
+:ref:`StyleBox<class_StyleBox>` **get_custom_stylebox**\ (\ column\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_TreeItem_method_get_custom_stylebox>`
+
+Returns the given column's custom :ref:`StyleBox<class_StyleBox>` used to draw the background.
 
 .. rst-class:: classref-item-separator
 
@@ -1413,7 +1429,9 @@ enum **TreeCellMode**: :ref:`🔗<enum_TreeItem_TreeCellMode>`
 
 |void| **set_custom_bg_color**\ (\ column\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`, just_outline\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_TreeItem_method_set_custom_bg_color>`
 
-Налаштовує задану колір фону стовпчика і чи просто його використовувати як контур.
+Sets the given column's custom background color and whether to just use it as an outline.
+
+\ **Note:** If a custom :ref:`StyleBox<class_StyleBox>` is set, the background color will be drawn behind it.
 
 .. rst-class:: classref-item-separator
 
@@ -1480,6 +1498,20 @@ enum **TreeCellMode**: :ref:`🔗<enum_TreeItem_TreeCellMode>`
 |void| **set_custom_font_size**\ (\ column\: :ref:`int<class_int>`, font_size\: :ref:`int<class_int>`\ ) :ref:`🔗<class_TreeItem_method_set_custom_font_size>`
 
 Налаштовує користувальницький розмір шрифту, який використовується для відображення тексту в даній ``column``.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_TreeItem_method_set_custom_stylebox:
+
+.. rst-class:: classref-method
+
+|void| **set_custom_stylebox**\ (\ column\: :ref:`int<class_int>`, stylebox\: :ref:`StyleBox<class_StyleBox>`\ ) :ref:`🔗<class_TreeItem_method_set_custom_stylebox>`
+
+Sets the given column's custom :ref:`StyleBox<class_StyleBox>` used to draw the background.
+
+\ **Note:** If a custom background color is set, the :ref:`StyleBox<class_StyleBox>` will be drawn in front of it.
 
 .. rst-class:: classref-item-separator
 
@@ -1615,7 +1647,7 @@ enum **TreeCellMode**: :ref:`🔗<enum_TreeItem_TreeCellMode>`
 
 |void| **set_language**\ (\ column\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_TreeItem_method_set_language>`
 
-Налаштовує мовний код текста, який використовується для алгоритмів розбиття та формування тексту, якщо використовується лівий порожній струм.
+Sets the language code of the given ``column``'s text to ``language``. This is used for line-breaking and text shaping algorithms. If ``language`` is empty, the current locale is used.
 
 .. rst-class:: classref-item-separator
 

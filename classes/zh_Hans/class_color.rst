@@ -12,15 +12,17 @@ Color
 描述
 ----
 
-由红（\ :ref:`r<class_Color_property_r>`\ ）、绿（\ :ref:`g<class_Color_property_g>`\ ）、蓝（\ :ref:`b<class_Color_property_b>`\ ）和 alpha（\ :ref:`a<class_Color_property_a>`\ ）分量表示的 RGBA 格式的颜色。每个分量都是一个 32 位浮点值，通常介于 ``0.0`` 到 ``1.0`` 之间。某些属性（例如 :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`\ ）可能支持大于 ``1.0`` 的值，用于表示过亮或 HDR（High Dynamic Range，高动态范围）颜色。
+A color represented in RGBA format by a red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), blue (:ref:`b<class_Color_property_b>`), and alpha (:ref:`a<class_Color_property_a>`) component. Each component is a 32-bit floating-point value, usually ranging from ``0.0`` to ``1.0``. Some properties (such as :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`) may support values greater than ``1.0``, for overbright or HDR (High Dynamic Range) colors.
 
-创建颜色的方法有很多：可以使用 **Color** 的各种构造函数，\ :ref:`from_hsv()<class_Color_method_from_hsv>` 等静态方法，以及使用基于 `X11 颜色名称 <https://en.wikipedia.org/wiki/X11_color_names>`__\ 的标准化颜色集外加 :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`\ 。GDScript 还提供了 :ref:`@GDScript.Color8()<class_@GDScript_method_Color8>`\ ，使用的是 ``0`` 到 ``255`` 之间的整数，且不支持过亮的颜色。
+Colors can be created in a number of ways: By the various **Color** constructors, by static methods such as :ref:`from_hsv()<class_Color_method_from_hsv>`, and by using a name from the set of standardized colors based on `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`__ with the addition of :ref:`TRANSPARENT<class_Color_constant_TRANSPARENT>`.
 
-颜色数据可以使用不同的色彩空间和编码进行存储。\ :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` 和 :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` 方法可以在非线性 sRGB 编码和线性 RGB 编码之间进行转换。
+\ `Color constants cheatsheet <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__\ 
 
-\ **注意：**\ 在布尔上下文中，等于 ``Color(0, 0, 0, 1)``\ （不透明的黑色）的 Color 将被评估为 ``false``\ 。否则，Color 将始终被评估为 ``true``\ 。
+Although **Color** may be used to store values of any encoding, the red (:ref:`r<class_Color_property_r>`), green (:ref:`g<class_Color_property_g>`), and blue (:ref:`b<class_Color_property_b>`) properties of **Color** are expected by Godot to be encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB#Transfer_function_(%22gamma%22)>`__ unless otherwise stated. This color encoding is used by many traditional art and web tools, making it easy to match colors between Godot and these tools. Godot uses `Rec. ITU-R BT.709 <https://en.wikipedia.org/wiki/Rec._709>`__ color primaries, which are used by the sRGB standard.
 
-\ `Color 常量速查表 <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`__
+All physical simulation, such as lighting calculations, and colorimetry transformations, such as :ref:`get_luminance()<class_Color_method_get_luminance>`, must be performed on linearly encoded values to produce correct results. When performing these calculations, convert **Color** to and from linear encoding using :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` and :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>`.
+
+\ **Note:** In a boolean context, a Color will evaluate to ``false`` if it is equal to ``Color(0, 0, 0, 1)`` (opaque black). Otherwise, a Color will always evaluate to ``true``.
 
 .. note::
 
@@ -1389,9 +1391,9 @@ Color
 
 :ref:`float<class_float>` **a** = ``1.0`` :ref:`🔗<class_Color_property_a>`
 
-颜色的 Alpha 分量，通常在 0 到 1 的范围内。取值为 0 表示颜色完全透明。取值为 1 表示颜色完全不透明。
+The color's alpha component, typically on the range of 0 to 1. A value of 0 means that the color is fully transparent. A value of 1 means that the color is fully opaque.
 
-\ **注意：**\ Alpha 通道始终按照线性编码存储，与其他颜色通道的色彩空间无关。\ :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` 和 :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` 等方法不影响 Alpha 通道。
+\ **Note:** The alpha channel is always stored with linear encoding, regardless of the encoding of the other color channels. The :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` and :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` methods do not affect the alpha channel.
 
 .. rst-class:: classref-item-separator
 
@@ -1629,18 +1631,18 @@ Color
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`\ )
 
-从通常介于 0.0 和 1.0 之间的 RGB 值构造一个 **Color**\ 。\ :ref:`a<class_Color_property_a>` 被设置为 1.0。
+Constructs a **Color** from RGB values, typically between 0.0 and 1.0. :ref:`a<class_Color_property_a>` is set to 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7) # 类似于 `Color8(51, 255, 178, 255)`
+    var color = Color(0.2, 1.0, 0.7) # Similar to `Color.from_rgba8(51, 255, 178, 255)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f); // 类似于 `Color.Color8(51, 255, 178, 255)`
+    var color = new Color(0.2f, 1.0f, 0.7f); // Similar to `Color.Color8(51, 255, 178, 255)`
 
 
 
@@ -1652,18 +1654,18 @@ Color
 
 :ref:`Color<class_Color>` **Color**\ (\ r\: :ref:`float<class_float>`, g\: :ref:`float<class_float>`, b\: :ref:`float<class_float>`, a\: :ref:`float<class_float>`\ )
 
-从通常介于 0.0 和 1.0 之间的 RGBA 值构造一个 **Color**\ 。
+Constructs a **Color** from RGBA values, typically between 0.0 and 1.0.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    var color = Color(0.2, 1.0, 0.7, 0.8) # 类似于 `Color8(51, 255, 178, 204)`
+    var color = Color(0.2, 1.0, 0.7, 0.8) # Similar to `Color.from_rgba8(51, 255, 178, 204)`
 
  .. code-tab:: csharp
 
-    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // 类似于 `Color.Color8(51, 255, 178, 255, 204)`
+    var color = new Color(0.2f, 1.0f, 0.7f, 0.8f); // Similar to `Color.Color8(51, 255, 178, 255, 204)`
 
 
 
@@ -1846,9 +1848,9 @@ Color
 
 :ref:`float<class_float>` **get_luminance**\ (\ ) |const| :ref:`🔗<class_Color_method_get_luminance>`
 
-将颜色的光照强度返回为一个介于 0.0 和 1.0（包含）之间的值。这在确定浅色或深色时很有用。亮度小于 0.5 的颜色通常可以认为是深色。
+Returns the light intensity of the color, as a value between 0.0 and 1.0 (inclusive). This is useful when determining light or dark color. Colors with a luminance smaller than 0.5 can be generally considered dark.
 
-\ **注意：**\ :ref:`get_luminance()<class_Color_method_get_luminance>` 依赖于线性色彩空间中的颜色，以返回准确的相对亮度值。如果颜色在 sRGB 色彩空间，请先使用 :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` 将其转换为线性色彩空间。
+\ **Note:** :ref:`get_luminance()<class_Color_method_get_luminance>` relies on the color using linear encoding to return an accurate relative luminance value. If the color uses the default nonlinear sRGB encoding, use :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` to convert it to linear encoding first.
 
 .. rst-class:: classref-item-separator
 
@@ -2078,9 +2080,9 @@ Color
 
 :ref:`Color<class_Color>` **linear_to_srgb**\ (\ ) |const| :ref:`🔗<class_Color_method_linear_to_srgb>`
 
-返回转换到 `sRGB <https://en.wikipedia.org/wiki/SRGB>`__ 色彩空间的颜色。该方法假定原始颜色位于线性色彩空间中。另见执行相反操作的 :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>`\ 。
+Returns a copy of the color that is encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB>`__. This method requires the original color to use linear encoding. See also :ref:`srgb_to_linear()<class_Color_method_srgb_to_linear>` which performs the opposite operation.
 
-\ **注意：**\ 颜色的 Alpha 通道 :ref:`a<class_Color_property_a>` 不受影响。Alpha 通道始终使用线性编码，与其他颜色通道所使用的色彩空间无关。
+\ **Note:** The color's alpha channel (:ref:`a<class_Color_property_a>`) is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
 
 .. rst-class:: classref-item-separator
 
@@ -2092,9 +2094,9 @@ Color
 
 :ref:`Color<class_Color>` **srgb_to_linear**\ (\ ) |const| :ref:`🔗<class_Color_method_srgb_to_linear>`
 
-返回转换到线性色彩空间的颜色。该方法假定原始颜色已经在 sRGB 色彩空间中。另请参见执行相反操作的 :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>`\ 。
+Returns a copy of the color that uses linear encoding. This method requires the original color to be encoded using the `nonlinear sRGB transfer function <https://en.wikipedia.org/wiki/SRGB>`__. See also :ref:`linear_to_srgb()<class_Color_method_linear_to_srgb>` which performs the opposite operation.
 
-\ **注意：**\ 颜色的 Alpha 通道 :ref:`a<class_Color_property_a>` 不受影响。Alpha 通道始终使用线性编码，与其他颜色通道所使用的色彩空间无关。
+\ **Note:** The color's alpha channel (:ref:`a<class_Color_property_a>`) is not affected. The alpha channel is always stored with linear encoding, regardless of the color space of the other color channels.
 
 .. rst-class:: classref-item-separator
 

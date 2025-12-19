@@ -17,7 +17,9 @@ Label
 說明
 ----
 
-用於顯示純文字的控制項。可以控制水平和垂直對齊方式以及文字在節點包圍框內的換行方式。不支援粗體、斜體等富文字格式。這種需求請改用 :ref:`RichTextLabel<class_RichTextLabel>`\ 。
+A control for displaying plain text. It gives you control over the horizontal and vertical alignment and can wrap the text inside the node's bounding rectangle. It doesn't support bold, italics, or other rich text formatting. For that, use :ref:`RichTextLabel<class_RichTextLabel>` instead.
+
+\ **Note:** A single Label node is not designed to display huge amounts of text. To display large amounts of text in a single node, consider using :ref:`RichTextLabel<class_RichTextLabel>` instead as it supports features like an integrated scroll bar and threading. :ref:`RichTextLabel<class_RichTextLabel>` generally performs better when displaying large amounts of text (several pages or more).
 
 .. rst-class:: classref-introduction-group
 
@@ -279,7 +281,7 @@ Line fill alignment rules.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-語言程式碼，用於斷行和文字塑形演算法，如果留空則使用目前區域設定。
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

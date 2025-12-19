@@ -67,7 +67,7 @@ Non sono aggiunte indicazioni alla dichiarazione dell'uniforme.
 
 :ref:`TextureType<enum_VisualShaderNodeTextureParameter_TextureType>` **TYPE_COLOR** = ``1``
 
-Aggiunge ``source_color`` come indicazione alla dichiarazione dell'uniforme per un'adeguata conversione da sRGB a lineare.
+Adds ``source_color`` as hint to the uniform declaration for proper conversion from nonlinear sRGB encoding to linear encoding.
 
 .. _class_VisualShaderNodeTextureParameter_constant_TYPE_NORMAL_MAP:
 

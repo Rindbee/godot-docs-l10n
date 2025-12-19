@@ -14,11 +14,11 @@ Una connessione WebSocket.
 Descrizione
 ----------------------
 
-Questa classe rappresenta la connessione WebSocket e può essere utilizzata come client WebSocket (conforme a RFC 6455) o come peer remoto di un server WebSocket.
+This class represents WebSocket connection, and can be used as a WebSocket client (`RFC 6455 <https://datatracker.ietf.org/doc/html/rfc6455>`__-compliant) or as a remote peer of a WebSocket server.
 
-È possibile inviare frame binari WebSocket utilizzando :ref:`PacketPeer.put_packet()<class_PacketPeer_method_put_packet>`, e frame di testo per WebSocket utilizzando :ref:`send()<class_WebSocketPeer_method_send>` (preferisci i frame di testo quando si interagisce con API basata su testo). È possibile controllare il tipo di frame dell'ultimo pacchetto tramite :ref:`was_string_packet()<class_WebSocketPeer_method_was_string_packet>`.
+You can send WebSocket binary frames using :ref:`PacketPeer.put_packet()<class_PacketPeer_method_put_packet>`, and WebSocket text frames using :ref:`send()<class_WebSocketPeer_method_send>` (prefer text frames when interacting with text-based API). You can check the frame type of the last packet via :ref:`was_string_packet()<class_WebSocketPeer_method_was_string_packet>`.
 
-Per avviare un client WebSocket, chiama prima :ref:`connect_to_url()<class_WebSocketPeer_method_connect_to_url>`, poi chiama regolarmente :ref:`poll()<class_WebSocketPeer_method_poll>` (ad esempio durante il processo :ref:`Node<class_Node>`). È possibile richiedere lo stato del socket via :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>`, ottenere il numero di pacchetti in sospeso tramite :ref:`PacketPeer.get_available_packet_count()<class_PacketPeer_method_get_available_packet_count>`, e recuperarli via :ref:`PacketPeer.get_packet()<class_PacketPeer_method_get_packet>`.
+To start a WebSocket client, first call :ref:`connect_to_url()<class_WebSocketPeer_method_connect_to_url>`, then regularly call :ref:`poll()<class_WebSocketPeer_method_poll>` (e.g. during :ref:`Node<class_Node>` process). You can query the socket state via :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>`, get the number of pending packets using :ref:`PacketPeer.get_available_packet_count()<class_PacketPeer_method_get_available_packet_count>`, and retrieve them via :ref:`PacketPeer.get_packet()<class_PacketPeer_method_get_packet>`.
 
 
 .. tabs::
@@ -49,7 +49,7 @@ Per avviare un client WebSocket, chiama prima :ref:`connect_to_url()<class_WebSo
 
 
 
-Per utilizzare il peer come parte di un server di WebSocket fai riferimento a :ref:`accept_stream()<class_WebSocketPeer_method_accept_stream>` e al tutorial online.
+To use the peer as part of a WebSocket server refer to :ref:`accept_stream()<class_WebSocketPeer_method_accept_stream>` and the online tutorial.
 
 .. rst-class:: classref-reftable-group
 
@@ -332,11 +332,15 @@ Accetta una connessione di peer eseguendo l'handshake HTTP come server WebSocket
 
 |void| **close**\ (\ code\: :ref:`int<class_int>` = 1000, reason\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_WebSocketPeer_method_close>`
 
-Chiude questa connessione WebSocket. ``code`` è il codice di stato per la chiusura (vedi RFC 6455 sezione 7.4 per un elenco di codici di stato validi). ``reason`` è la ragione leggibile in chiaro per chiudere la connessione (può essere qualsiasi stringa UTF-8 che è più piccola di 123 byte). Se ``code`` è negativo, la connessione sarà chiusa immediatamente senza avvisare il peer remoto.
+Closes this WebSocket connection.
 
-\ **Nota:** Per garantire una chiusura pulita, è necessario mantenere il polling fino a quando :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>` è raggiunto.
+\ ``code`` is the status code for the closure (see `RFC 6455 section 7.4 <https://datatracker.ietf.org/doc/html/rfc6455#section-7.4.1>`__ for a list of valid status codes). If ``code`` is negative, the connection will be closed immediately without notifying the remote peer.
 
-\ **Nota:** L'esportazione sul Web potrebbe non supportare tutti i codici di stato. Si prega di fare riferimento alla documentazione specifica del browser per ulteriori dettagli.
+\ ``reason`` is the human-readable reason for closing the connection. It can be any UTF-8 string that's smaller than 123 bytes.
+
+\ **Note:** To achieve a clean closure, you will need to keep polling until :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>` is reached.
+
+\ **Note:** The Web export might not support all status codes. Please refer to browser-specific documentation for more details.
 
 .. rst-class:: classref-item-separator
 

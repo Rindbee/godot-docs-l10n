@@ -1,7 +1,7 @@
 :github_url: hide
 
 .. meta::
-	:keywords: expandable, collapsible, collapse
+	:keywords: expandable, collapsible, collapse, accordion, details
 
 .. _class_FoldableContainer:
 
@@ -17,15 +17,11 @@ A container that can be expanded/collapsed.
 說明
 ----
 
-A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons.
+A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons. This is also called an accordion.
 
-The title can be positioned at the top or bottom of the container.
+The title can be positioned at the top or bottom of the container. The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused. Child control nodes are hidden when the container is collapsed. Ignores non-control children.
 
-The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused.
-
-Child control nodes are hidden when the container is collapsed. Ignores non-control children.
-
-Can allow grouping with other FoldableContainers, check :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
+A FoldableContainer can be grouped with other FoldableContainers so that only one of them can be opened at a time; see :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -223,7 +219,7 @@ If ``true``, the container will becomes folded and will hide all its children.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Language code used for text shaping algorithms. If left empty, current locale is used instead.
+Language code used for text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

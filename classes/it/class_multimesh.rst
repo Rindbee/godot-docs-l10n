@@ -97,6 +97,8 @@ Metodi
    +---------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                | :ref:`reset_instance_physics_interpolation<class_MultiMesh_method_reset_instance_physics_interpolation>`\ (\ instance\: :ref:`int<class_int>`\ )                                                                           |
    +---------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                | :ref:`reset_instances_physics_interpolation<class_MultiMesh_method_reset_instances_physics_interpolation>`\ (\ )                                                                                                           |
+   +---------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                | :ref:`set_buffer_interpolated<class_MultiMesh_method_set_buffer_interpolated>`\ (\ buffer_curr\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`, buffer_prev\: :ref:`PackedFloat32Array<class_PackedFloat32Array>`\ ) |
    +---------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                | :ref:`set_instance_color<class_MultiMesh_method_set_instance_color>`\ (\ instance\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ )                                                                            |
@@ -477,6 +479,20 @@ Restituisce il :ref:`Transform2D<class_Transform2D>` di un'istanza specifica.
 Quando si usa l'*interpolazione della fisica*, questa funzione consente di impedire l'interpolazione su un'istanza nel tick attuale di fisica.
 
 Ciò consente di spostare le istanze istantaneamente e dovrebbe essere solitamente utilizzato quando si posiziona inizialmente un'istanza, come un proiettile, per impedire errori grafici.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_MultiMesh_method_reset_instances_physics_interpolation:
+
+.. rst-class:: classref-method
+
+|void| **reset_instances_physics_interpolation**\ (\ ) :ref:`🔗<class_MultiMesh_method_reset_instances_physics_interpolation>`
+
+When using *physics interpolation*, this function allows you to prevent interpolation for all instances in the current physics tick.
+
+This allows you to move all instances instantaneously, and should usually be used when initially placing instances to prevent graphical glitches.
 
 .. rst-class:: classref-item-separator
 

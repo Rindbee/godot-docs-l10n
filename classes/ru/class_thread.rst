@@ -14,17 +14,15 @@ Thread
 Описание
 ----------------
 
-Единица выполнения в процессе. Может одновременно запускать методы на :ref:`Object<class_Object>`. При работе с общими объектами рекомендуется использовать синхронизацию через :ref:`Mutex<class_Mutex>` или :ref:`Semaphore<class_Semaphore>`.
+A unit of execution in a process. Can run methods on :ref:`Object<class_Object>`\ s simultaneously. The use of synchronization via :ref:`Mutex<class_Mutex>` or :ref:`Semaphore<class_Semaphore>` is advised if working with shared objects.
 
-\ **Предупреждение:**\ 
+\ **Warning:** To ensure proper cleanup without crashes or deadlocks, when a **Thread**'s reference count reaches zero and it is therefore destroyed, the following conditions must be met:
 
-Чтобы обеспечить правильную очистку без сбоев или взаимоблокировок, когда счетчик ссылок **Thread** достигает нуля и, следовательно, он уничтожается, должны быть выполнены следующие условия:
+- It must not have any :ref:`Mutex<class_Mutex>` objects locked.
 
-- Он не должен иметь заблокированных объектов :ref:`Mutex<class_Mutex>`.
+- It must not be waiting on any :ref:`Semaphore<class_Semaphore>` objects.
 
-- Он не должен ожидать никаких объектов :ref:`Semaphore<class_Semaphore>`.
-
-- Для него должен был быть вызван :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>`.
+- :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` should have been called on it.
 
 .. rst-class:: classref-introduction-group
 
@@ -49,6 +47,8 @@ Thread
    | :ref:`String<class_String>`           | :ref:`get_id<class_Thread_method_get_id>`\ (\ ) |const|                                                                                         |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`               | :ref:`is_alive<class_Thread_method_is_alive>`\ (\ ) |const|                                                                                     |
+   +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`               | :ref:`is_main_thread<class_Thread_method_is_main_thread>`\ (\ ) |static|                                                                        |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`               | :ref:`is_started<class_Thread_method_is_started>`\ (\ ) |const|                                                                                 |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -128,6 +128,20 @@ enum **Priority**: :ref:`🔗<enum_Thread_Priority>`
 Возвращает ``true``, если этот **Thread** в данный момент выполняет предоставленную функцию. Это полезно для определения того, можно ли вызвать :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` без блокировки вызывающего потока.
 
 Чтобы проверить, можно ли присоединиться к **Thread**, используйте :ref:`is_started()<class_Thread_method_is_started>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Thread_method_is_main_thread:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_main_thread**\ (\ ) |static| :ref:`🔗<class_Thread_method_is_main_thread>`
+
+Returns ``true`` if the thread this method was called from is the main thread.
+
+\ **Note:** This is a static method and isn't associated with a specific **Thread** object.
 
 .. rst-class:: classref-item-separator
 

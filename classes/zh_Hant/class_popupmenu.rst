@@ -14,15 +14,17 @@ PopupMenu
 說明
 ----
 
-**PopupMenu** 是用於顯示選項列表的模態視窗，常見於工具列和本文功能表。
+**PopupMenu** is a modal window used to display a list of options. Useful for toolbars and context menus.
 
-\ **PopupMenu** 的大小可以使用 :ref:`Window.max_size<class_Window_property_max_size>` 限制。如果功能表專案列表的高度大於 **PopupMenu** 的最大高度，則會在彈出框中使用 :ref:`ScrollContainer<class_ScrollContainer>` 讓使用者滾動內容。如果沒有設定最大尺寸或者設為了 ``0``\ ，則該 **PopupMenu** 的高度會被限制在父級的矩形框之中。
+The size of a **PopupMenu** can be limited by using :ref:`Window.max_size<class_Window_property_max_size>`. If the height of the list of items is larger than the maximum height of the **PopupMenu**, a :ref:`ScrollContainer<class_ScrollContainer>` within the popup will allow the user to scroll the contents. If no maximum size is set, or if it is set to ``0``, the **PopupMenu** height will be limited by its parent rect.
 
-所有的 ``set_*`` 方法都允許使用負數功能表專案索引，即 ``-1`` 訪問的是最後一個功能表專案，\ ``-2`` 選擇的是倒數第二個功能表專案，依次類推。
+All ``set_*`` methods allow negative item indices, i.e. ``-1`` to access the last item, ``-2`` to select the second-to-last item, and so on.
 
-\ **差異量搜索：**\ 與 :ref:`ItemList<class_ItemList>` 和 :ref:`Tree<class_Tree>` 類似，\ **PopupMenu** 也支援在聚焦控制項時在列表中進行搜索。按下與某個條目名稱首字母一致的按鍵，就會選中以該字母開頭的第一個條目。在此之後，進行差異量搜索的辦法有兩種：1）在超時前再次按下同一個按鍵，選中以該字母開頭的下一個條目。2）在超時前按下剩餘字母對應的按鍵，直接配對並選中所需的條目。這兩個動作都會在最後一次按鍵超時後重設回列表頂端。你可以通過 :ref:`ProjectSettings.gui/timers/incremental_search_max_interval_msec<class_ProjectSettings_property_gui/timers/incremental_search_max_interval_msec>` 修改超時時長。
+\ **Incremental search:** Like :ref:`ItemList<class_ItemList>` and :ref:`Tree<class_Tree>`, **PopupMenu** supports searching within the list while the control is focused. Press a key that matches the first letter of an item's name to select the first item starting with the given letter. After that point, there are two ways to perform incremental search: 1) Press the same key again before the timeout duration to select the next item starting with the same letter. 2) Press letter keys that match the rest of the word before the timeout duration to match to select the item in question directly. Both of these actions will be reset to the beginning of the list if the timeout duration has passed since the last keystroke was registered. You can adjust the timeout duration by changing :ref:`ProjectSettings.gui/timers/incremental_search_max_interval_msec<class_ProjectSettings_property_gui/timers/incremental_search_max_interval_msec>`.
 
-\ **注意：**\ 功能表專案的 ID 有 32 位的限制，不是完整 :ref:`int<class_int>` 的 64 位。取值範圍為 ``-2^32`` 到 ``2^32 - 1``\ ，即 ``-2147483648`` 到 ``2147483647``\ 。
+\ **Note:** **PopupMenu** is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
+
+\ **Note:** The ID values used for items are limited to 32 bits, not full 64 bits of :ref:`int<class_int>`. This has a range of ``-2^32`` to ``2^32 - 1``, i.e. ``-2147483648`` to ``2147483647``.
 
 .. rst-class:: classref-reftable-group
 
@@ -45,7 +47,7 @@ PopupMenu
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                         | :ref:`prefer_native_menu<class_PopupMenu_property_prefer_native_menu>`                             | ``false``                                                                    |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
-   | :ref:`float<class_float>`                       | :ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`                           | ``0.3``                                                                      |
+   | :ref:`float<class_float>`                       | :ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`                           | ``0.2``                                                                      |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
    | :ref:`SystemMenus<enum_NativeMenu_SystemMenus>` | :ref:`system_menu_id<class_PopupMenu_property_system_menu_id>`                                     | ``0``                                                                        |
    +-------------------------------------------------+----------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------+
@@ -233,6 +235,8 @@ PopupMenu
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`Color<class_Color>`         | :ref:`font_separator_outline_color<class_PopupMenu_theme_color_font_separator_outline_color>` | ``Color(0, 0, 0, 1)``             |
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
+   | :ref:`int<class_int>`             | :ref:`gutter_compact<class_PopupMenu_theme_constant_gutter_compact>`                          | ``1``                             |
+   +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`int<class_int>`             | :ref:`h_separation<class_PopupMenu_theme_constant_h_separation>`                              | ``4``                             |
    +-----------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------+
    | :ref:`int<class_int>`             | :ref:`icon_max_width<class_PopupMenu_theme_constant_icon_max_width>`                          | ``0``                             |
@@ -315,9 +319,9 @@ PopupMenu
 
 **id_pressed**\ (\ id\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PopupMenu_signal_id_pressed>`
 
-ID 為 ``id`` 的功能表專案被按下或者由快捷鍵啟動時發出。
+Emitted when an item of some ``id`` is pressed. Also emitted when its accelerator is activated on macOS.
 
-\ **注意：**\ 如果 ``id`` 為負數（無論是明確指定的還是由於溢出導致的），將返回相應的索引來代替。
+\ **Note:** If ``id`` is negative (either explicitly or due to overflow), this will return the corresponding index instead.
 
 .. rst-class:: classref-item-separator
 
@@ -329,7 +333,7 @@ ID 為 ``id`` 的功能表專案被按下或者由快捷鍵啟動時發出。
 
 **index_pressed**\ (\ index\: :ref:`int<class_int>`\ ) :ref:`🔗<class_PopupMenu_signal_index_pressed>`
 
-索引為 ``index`` 的功能表專案被按下或者由快捷鍵啟動時發出。
+Emitted when an item of some ``index`` is pressed. Also emitted when its accelerator is activated on macOS.
 
 .. rst-class:: classref-item-separator
 
@@ -460,14 +464,16 @@ If ``true``, :ref:`MenuBar<class_MenuBar>` will use native menu when supported.
 
 .. rst-class:: classref-property
 
-:ref:`float<class_float>` **submenu_popup_delay** = ``0.3`` :ref:`🔗<class_PopupMenu_property_submenu_popup_delay>`
+:ref:`float<class_float>` **submenu_popup_delay** = ``0.2`` :ref:`🔗<class_PopupMenu_property_submenu_popup_delay>`
 
 .. rst-class:: classref-property-setget
 
 - |void| **set_submenu_popup_delay**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_submenu_popup_delay**\ (\ )
 
-設定滑鼠懸停時子功能表項彈出的延遲時間，以秒為單位。如果彈出功能表被新增為另一個選單的子功能表（作為子功能表），它將繼承父功能表專案的延遲時間。
+Sets the delay time in seconds for the submenu item to popup on mouse hovering. If the popup menu is added as a child of another (acting as a submenu), it will inherit the delay time of the parent menu item.
+
+\ **Note:** If the mouse is exiting a submenu item with an open submenu and enters a different submenu item, the submenu popup delay time is affected by the direction of the mouse movement toward the open submenu. If the mouse is moving toward the submenu, the open submenu will wait approximately ``0.5`` seconds before closing, which then allows the hovered submenu item to open. This additional delay allows the mouse time to move to the open submenu across other menu items without prematurely closing. If the mouse is not moving toward the open submenu, for example in a downward direction, the open submenu will close immediately.
 
 .. rst-class:: classref-item-separator
 
@@ -1309,7 +1315,7 @@ Items use :ref:`Node.AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSL
 
 |void| **set_item_language**\ (\ index\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_PopupMenu_method_set_item_language>`
 
-設定專案文字的語言程式碼，用於斷行和文字塑形演算法，如果留空則使用目前區域設定。
+Sets the language code of the text for the item at the given index to ``language``. This is used for line-breaking and text shaping algorithms. If ``language`` is empty, the current locale is used.
 
 .. rst-class:: classref-item-separator
 
@@ -1545,6 +1551,18 @@ Sets the submenu of the item at the given ``index``. The submenu is a **PopupMen
 :ref:`Color<class_Color>` **font_separator_outline_color** = ``Color(0, 0, 0, 1)`` :ref:`🔗<class_PopupMenu_theme_color_font_separator_outline_color>`
 
 帶標籤分隔符號的文字輪廓的色調。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_PopupMenu_theme_constant_gutter_compact:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`int<class_int>` **gutter_compact** = ``1`` :ref:`🔗<class_PopupMenu_theme_constant_gutter_compact>`
+
+If not ``0``, the icon gutter will be merged with the checkbox gutter when possible. This acts as a boolean.
 
 .. rst-class:: classref-item-separator
 

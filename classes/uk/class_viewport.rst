@@ -80,6 +80,8 @@ Viewport
    +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                       | :ref:`gui_disable_input<class_Viewport_property_gui_disable_input>`                                   | ``false``                                                                     |
    +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
+   | :ref:`int<class_int>`                                                                         | :ref:`gui_drag_threshold<class_Viewport_property_gui_drag_threshold>`                                 | ``10``                                                                        |
+   +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                       | :ref:`gui_embed_subwindows<class_Viewport_property_gui_embed_subwindows>`                             | ``false``                                                                     |
    +-----------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                                                       | :ref:`gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>`               | ``true``                                                                      |
@@ -843,11 +845,13 @@ enum **DebugDraw**: :ref:`🔗<enum_Viewport_DebugDraw>`
 
 :ref:`DebugDraw<enum_Viewport_DebugDraw>` **DEBUG_DRAW_SDFGI_PROBES** = ``17``
 
-Малює зонди, що використовуються для глобального освітлення поля знакової відстані (SDFGI).
+Draws the probes used for signed distance field global illumination (SDFGI).
 
-Не виконує жодних дій, якщо поточний елемент :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>` середовища має значення ``false``.
+When in the editor, left-clicking a probe will display additional bright dots that show its occlusion information. A white dot means the light is not occluded at all at the dot's position, while a red dot means the light is fully occluded. Intermediate values are possible.
 
-\ **Примітка:** Підтримується лише під час використання методу рендерингу Forward+.
+Does nothing if the current environment's :ref:`Environment.sdfgi_enabled<class_Environment_property_sdfgi_enabled>` is ``false``.
+
+\ **Note:** Only supported when using the Forward+ rendering method.
 
 .. _class_Viewport_constant_DEBUG_DRAW_GI_BUFFER:
 
@@ -1286,7 +1290,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_canvas_cull_mask**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_canvas_cull_mask**\ (\ )
 
-Шари рендерингу, в яких цей **Viewport** рендерить вузли :ref:`CanvasItem<class_CanvasItem>`.
+The rendering layers in which this **Viewport** renders :ref:`CanvasItem<class_CanvasItem>` nodes.
+
+\ **Note:** A :ref:`CanvasItem<class_CanvasItem>` does not inherit its parents' visibility layers. See :ref:`CanvasItem.visibility_layer<class_CanvasItem_property_visibility_layer>`'s description for details.
 
 .. rst-class:: classref-item-separator
 
@@ -1303,7 +1309,7 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_default_canvas_item_texture_filter**\ (\ value\: :ref:`DefaultCanvasItemTextureFilter<enum_Viewport_DefaultCanvasItemTextureFilter>`\ )
 - :ref:`DefaultCanvasItemTextureFilter<enum_Viewport_DefaultCanvasItemTextureFilter>` **get_default_canvas_item_texture_filter**\ (\ )
 
-Встановлює режим фільтра за замовчуванням, який використовується :ref:`CanvasItem<class_CanvasItem>` у цьому вікні перегляду.
+The default filter mode used by :ref:`CanvasItem<class_CanvasItem>` nodes in this viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -1320,7 +1326,7 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_default_canvas_item_texture_repeat**\ (\ value\: :ref:`DefaultCanvasItemTextureRepeat<enum_Viewport_DefaultCanvasItemTextureRepeat>`\ )
 - :ref:`DefaultCanvasItemTextureRepeat<enum_Viewport_DefaultCanvasItemTextureRepeat>` **get_default_canvas_item_texture_repeat**\ (\ )
 
-Встановлює режим повторення за замовчуванням, який використовується :ref:`CanvasItem<class_CanvasItem>` у цьому вікні перегляду.
+The default repeat mode used by :ref:`CanvasItem<class_CanvasItem>` nodes in this viewport.
 
 .. rst-class:: classref-item-separator
 
@@ -1425,6 +1431,23 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - :ref:`bool<class_bool>` **is_input_disabled**\ (\ )
 
 Якщо ``true``, пошук не отримає вхідних заходів.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Viewport_property_gui_drag_threshold:
+
+.. rst-class:: classref-property
+
+:ref:`int<class_int>` **gui_drag_threshold** = ``10`` :ref:`🔗<class_Viewport_property_gui_drag_threshold>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_drag_threshold**\ (\ value\: :ref:`int<class_int>`\ )
+- :ref:`int<class_int>` **get_drag_threshold**\ (\ )
+
+The minimum distance the mouse cursor must move while pressed before a drag operation begins.
 
 .. rst-class:: classref-item-separator
 
@@ -1942,11 +1965,11 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_use_debanding**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_debanding**\ (\ )
 
-Якщо значення ``true``, використовується швидкий фільтр постобробки, щоб зробити смуги значно менш помітними. Якщо значення :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` дорівнює значенню ``false``, 2D-рендеринг *не* зазнає впливу дебендингу, якщо тільки значення :ref:`Environment.background_mode<class_Environment_property_background_mode>` не дорівнює значенню :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. Якщо значення :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` дорівнює значенню ``true``, дебендинг застосовуватиметься лише в тому випадку, якщо це кореневий **Viewport**, і вплине на весь 2D- та 3D-рендеринг, включаючи елементи полотна.
+When using the Mobile or Forward+ renderers, set :ref:`use_debanding<class_Viewport_property_use_debanding>` to enable or disable the debanding feature of this **Viewport**. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``false``, 2D rendering is *not* affected by debanding unless the :ref:`Environment.background_mode<class_Environment_property_background_mode>` is :ref:`Environment.BG_CANVAS<class_Environment_constant_BG_CANVAS>`. If :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true``, debanding will only be applied if this is the root **Viewport** and will affect all 2D and 3D rendering, including canvas items.
 
-У деяких випадках дебендинг може призвести до дещо помітного шаблону згладжування. Рекомендується вмикати дебендинг лише тоді, коли це дійсно потрібно, оскільки шаблон згладжування зробить скріншоти, стиснуті без втрат, більшими.
+\ :ref:`use_debanding<class_Viewport_property_use_debanding>` has no effect when using the Compatibility rendering method. The Mobile renderer can also use material debanding, which can be set with :ref:`RenderingServer.material_set_use_debanding()<class_RenderingServer_method_material_set_use_debanding>` or configured with :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`.
 
-Див. також :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>` та :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
+See also :ref:`ProjectSettings.rendering/anti_aliasing/quality/use_debanding<class_ProjectSettings_property_rendering/anti_aliasing/quality/use_debanding>`, :ref:`RenderingServer.material_set_use_debanding()<class_RenderingServer_method_material_set_use_debanding>`, and :ref:`RenderingServer.viewport_set_use_debanding()<class_RenderingServer_method_viewport_set_use_debanding>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1963,11 +1986,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 - |void| **set_use_hdr_2d**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_using_hdr_2d**\ (\ )
 
-Якщо ``true``, 2D-рендеринг буде використовувати фреймбуфер формату HDR (High Dynamic Range), що відповідає бітовій глибині 3D-фреймбуфера. При використанні рендерера Forward+ або Compatibility це буде фреймбуфер ``RGBA16``. При використанні рендерера Mobile це буде фреймбуфер ``RGB10_A2``.
+If ``true``, 2D rendering will use a high dynamic range (HDR) ``RGBA16`` format framebuffer. Additionally, 2D rendering will be performed on linear values and will be converted using the appropriate transfer function immediately before blitting to the screen (if the Viewport is attached to the screen).
 
-Крім того, 2D-рендеринг відбуватиметься в лінійному колірному просторі і буде перетворено в простір sRGB безпосередньо перед виведенням на екран (якщо вікно перегляду приєднано до екрану).
-
-Практично це означає, що кінцевий результат Viewport не буде обмежений діапазоном ``0-1`` і може бути використаний у 3D-рендерингу без коригування колірного простору. Це дозволяє 2D-рендерингу використовувати ефекти, що вимагають високого динамічного діапазону (наприклад, 2D-світіння), а також значно покращує вигляд ефектів, що вимагають дуже детальних градієнтів.
+Practically speaking, this means that the end result of the Viewport will not be clamped to the ``0-1`` range and can be used in 3D rendering without color encoding adjustments. This allows 2D rendering to take advantage of effects requiring high dynamic range (e.g. 2D glow) as well as substantially improves the appearance of effects requiring highly detailed gradients.
 
 .. rst-class:: classref-item-separator
 
@@ -2191,7 +2212,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 :ref:`Camera2D<class_Camera2D>` **get_camera_2d**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_camera_2d>`
 
-Повертає поточну активну 2D-камеру. Повертає ``null``, якщо немає активних камер.
+Returns the currently active 2D camera. Returns ``null`` if there are no active cameras.
+
+\ **Note:** If called while the *Camera Override* system is active in editor, this will return the internally managed override camera. It is therefore advised to avoid caching the return value, or to check that the cached value is still a valid instance and is the current camera before use. See :ref:`@GlobalScope.is_instance_valid()<class_@GlobalScope_method_is_instance_valid>` and :ref:`Camera2D.is_current()<class_Camera2D_method_is_current>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2203,7 +2226,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 :ref:`Camera3D<class_Camera3D>` **get_camera_3d**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_camera_3d>`
 
-Повернення в даний час активного 3D камери.
+Returns the currently active 3D camera. Returns ``null`` if there are no active cameras.
+
+\ **Note:** If called while the *Camera Override* system is active in editor, this will return the internally managed override camera. It is therefore advised to avoid caching the return value, or to check that the cached value is a valid instance and is the current camera before use. See :ref:`@GlobalScope.is_instance_valid()<class_@GlobalScope_method_is_instance_valid>` and :ref:`Camera3D.current<class_Camera3D_property_current>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2327,9 +2352,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 :ref:`ViewportTexture<class_ViewportTexture>` **get_texture**\ (\ ) |const| :ref:`🔗<class_Viewport_method_get_texture>`
 
-Повертає текстуру вікна перегляду.
+Returns the viewport's texture.
 
-\ **Примітка:** При спробі зберегти поточну текстуру (наприклад, у файлі) вона може бути повністю чорною або застарілою, якщо її використовувати занадто рано, особливо при використанні, наприклад, у :ref:`Node._ready()<class_Node_private_method__ready>`. Щоб переконатися, що отримана текстура є правильною, можна дочекатися сигналу :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>`.
+\ **Note:** When trying to store the current texture (e.g. in a file), it might be completely black or outdated if used too early, especially when used in e.g. :ref:`Node._ready()<class_Node_private_method__ready>`. To make sure the texture you get is correct, you can await :ref:`RenderingServer.frame_post_draw<class_RenderingServer_signal_frame_post_draw>` signal.
 
 
 .. tabs::
@@ -2351,7 +2376,7 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 
 
-\ **Примітка:** Коли :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` має значення ``true``, повернена текстура буде HDR-зображенням, закодоване в лінійному просторі.
+\ **Note:** When :ref:`use_hdr_2d<class_Viewport_property_use_hdr_2d>` is ``true`` the returned texture will be an HDR image using linear encoding.
 
 .. rst-class:: classref-item-separator
 
@@ -2411,7 +2436,7 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 :ref:`String<class_String>` **gui_get_drag_description**\ (\ ) |const| :ref:`🔗<class_Viewport_method_gui_get_drag_description>`
 
-Повертає опис даних перетягування у зручному для людини вигляді.
+Returns the human-readable description of the drag data, used for assistive apps.
 
 .. rst-class:: classref-item-separator
 
@@ -2487,7 +2512,7 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 |void| **gui_set_drag_description**\ (\ description\: :ref:`String<class_String>`\ ) :ref:`🔗<class_Viewport_method_gui_set_drag_description>`
 
-Встановлює опис даних перетягування у зручному для людини вигляді.
+Sets the human-readable description of the drag data to ``description``, used for assistive apps.
 
 .. rst-class:: classref-item-separator
 
@@ -2629,9 +2654,9 @@ enum **VRSUpdateMode**: :ref:`🔗<enum_Viewport_VRSUpdateMode>`
 
 |void| **set_input_as_handled**\ (\ ) :ref:`🔗<class_Viewport_method_set_input_as_handled>`
 
-Зупиняє поширення вхідних даних далі вниз по :ref:`SceneTree<class_SceneTree>`.
+Stops the input from propagating further up the :ref:`SceneTree<class_SceneTree>`.
 
-\ **Примітка:** Це не впливає на методи в :ref:`Input<class_Input>`, лише на спосіб поширення подій.
+\ **Note:** This does not affect the methods in :ref:`Input<class_Input>`, only the way events are propagated.
 
 .. rst-class:: classref-item-separator
 

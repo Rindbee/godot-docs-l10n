@@ -433,7 +433,7 @@ Se ``true``, mostra uno slider per il canale alfa (opacità).
 - |void| **set_edit_intensity**\ (\ value\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **is_editing_intensity**\ (\ )
 
-Se ``true``, mostra un cursore di intensità. L'intensità è applicata come segue: moltiplica il colore per ``2 ** intensità`` nello spazio RGB lineare, quindi lo converte nuovamente in sRGB.
+If ``true``, shows an intensity slider. The intensity is applied as follows: convert the color to linear encoding, multiply it by ``2 ** intensity``, and then convert it back to nonlinear sRGB encoding.
 
 .. rst-class:: classref-item-separator
 

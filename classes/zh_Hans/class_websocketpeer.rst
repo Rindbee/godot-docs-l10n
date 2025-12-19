@@ -14,11 +14,11 @@ WebSocket 连接。
 描述
 ----
 
-这个类代表 WebSocket 连接，可以用作 WebSocket 客户端（兼容 RFC 6455），也可以用作 WebSocket 服务器的远程对等体。
+This class represents WebSocket connection, and can be used as a WebSocket client (`RFC 6455 <https://datatracker.ietf.org/doc/html/rfc6455>`__-compliant) or as a remote peer of a WebSocket server.
 
-发送 WebSocket 二进制帧请使用 :ref:`PacketPeer.put_packet()<class_PacketPeer_method_put_packet>`\ ，发送 WebSocket 文本帧请使用 :ref:`send()<class_WebSocketPeer_method_send>`\ （与基于文本的 API 交互时请优先选择文本帧）。可以通过 :ref:`was_string_packet()<class_WebSocketPeer_method_was_string_packet>` 检查最近一个数据包的帧类型。
+You can send WebSocket binary frames using :ref:`PacketPeer.put_packet()<class_PacketPeer_method_put_packet>`, and WebSocket text frames using :ref:`send()<class_WebSocketPeer_method_send>` (prefer text frames when interacting with text-based API). You can check the frame type of the last packet via :ref:`was_string_packet()<class_WebSocketPeer_method_was_string_packet>`.
 
-开启 WebSocket 客户端的方法是：首先调用 :ref:`connect_to_url()<class_WebSocketPeer_method_connect_to_url>`\ ，然后定期调用 :ref:`poll()<class_WebSocketPeer_method_poll>`\ （例如在 :ref:`Node<class_Node>` 的处理过程中）。查询套接字的状态请使用 :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>`\ ，获取挂起的数据包数量请使用 :ref:`PacketPeer.get_available_packet_count()<class_PacketPeer_method_get_available_packet_count>`\ ，获取挂起的数据包请使用 :ref:`PacketPeer.get_packet()<class_PacketPeer_method_get_packet>`\ 。
+To start a WebSocket client, first call :ref:`connect_to_url()<class_WebSocketPeer_method_connect_to_url>`, then regularly call :ref:`poll()<class_WebSocketPeer_method_poll>` (e.g. during :ref:`Node<class_Node>` process). You can query the socket state via :ref:`get_ready_state()<class_WebSocketPeer_method_get_ready_state>`, get the number of pending packets using :ref:`PacketPeer.get_available_packet_count()<class_PacketPeer_method_get_available_packet_count>`, and retrieve them via :ref:`PacketPeer.get_packet()<class_PacketPeer_method_get_packet>`.
 
 
 .. tabs::
@@ -37,19 +37,19 @@ WebSocket 连接。
         var state = socket.get_ready_state()
         if state == WebSocketPeer.STATE_OPEN:
             while socket.get_available_packet_count():
-                print("数据包：", socket.get_packet())
+                print("Packet: ", socket.get_packet())
         elif state == WebSocketPeer.STATE_CLOSING:
-            # 继续轮询才能正确关闭。
+            # Keep polling to achieve proper close.
             pass
         elif state == WebSocketPeer.STATE_CLOSED:
             var code = socket.get_close_code()
             var reason = socket.get_close_reason()
-            print("WebSocket 已关闭，代码：%d，原因 %s。干净得体：%s" % [code, reason, code != -1])
-            set_process(false) # 停止处理。
+            print("WebSocket closed with code: %d, reason %s. Clean: %s" % [code, reason, code != -1])
+            set_process(false) # Stop processing.
 
 
 
-如果要作为 WebSocket 服务器的对等体使用，请参考 :ref:`accept_stream()<class_WebSocketPeer_method_accept_stream>` 及在线教程。
+To use the peer as part of a WebSocket server refer to :ref:`accept_stream()<class_WebSocketPeer_method_accept_stream>` and the online tutorial.
 
 .. rst-class:: classref-reftable-group
 
@@ -332,11 +332,15 @@ WebSocket 握手期间允许的 WebSocket 子协议。
 
 |void| **close**\ (\ code\: :ref:`int<class_int>` = 1000, reason\: :ref:`String<class_String>` = ""\ ) :ref:`🔗<class_WebSocketPeer_method_close>`
 
-关闭该 WebSocket 连接。\ ``code`` 是关闭的状态码（有效状态代码的列表见 RFC 6455 第 7.4 节）。\ ``reason`` 是人类可读的关闭连接原因（可以是任何小于 123 字节的 UTF-8 字符串）。如果 ``code`` 为负数，则连接会立即关闭，不通知远程对等体。
+Closes this WebSocket connection.
 
-\ **注意：**\ 为了实现干净得体的关闭，你需要在达到 :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>` 之前保持轮询。
+\ ``code`` is the status code for the closure (see `RFC 6455 section 7.4 <https://datatracker.ietf.org/doc/html/rfc6455#section-7.4.1>`__ for a list of valid status codes). If ``code`` is negative, the connection will be closed immediately without notifying the remote peer.
 
-\ **注意：**\ Web 导出可能不支持部分状态码。详情请参考具体浏览器的文档。
+\ ``reason`` is the human-readable reason for closing the connection. It can be any UTF-8 string that's smaller than 123 bytes.
+
+\ **Note:** To achieve a clean closure, you will need to keep polling until :ref:`STATE_CLOSED<class_WebSocketPeer_constant_STATE_CLOSED>` is reached.
+
+\ **Note:** The Web export might not support all status codes. Please refer to browser-specific documentation for more details.
 
 .. rst-class:: classref-item-separator
 

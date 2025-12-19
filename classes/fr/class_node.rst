@@ -657,6 +657,27 @@ Dupliquer le script du nœud (redéfinit également les scripts des enfants dupl
 
 Dupliquer en utilisant :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>`. Si le nœud vient d'une scène sauvegardée sur le disque, réutilise :ref:`PackedScene.instantiate()<class_PackedScene_method_instantiate>` comme base pour le nœud dupliqué et ses enfants.
 
+.. _class_Node_constant_DUPLICATE_INTERNAL_STATE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`DuplicateFlags<enum_Node_DuplicateFlags>` **DUPLICATE_INTERNAL_STATE** = ``16``
+
+Duplicate also non-serializable variables (i.e. without :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`).
+
+.. _class_Node_constant_DUPLICATE_DEFAULT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`DuplicateFlags<enum_Node_DuplicateFlags>` **DUPLICATE_DEFAULT** = ``15``
+
+Duplicate using default flags. This constant is useful to add or remove a single flag.
+
+::
+
+    # Duplicate non-exported variables.
+    var dupe = duplicate(DUPLICATE_DEFAULT | DUPLICATE_INTERNAL_STATE)
+
 .. rst-class:: classref-item-separator
 
 ----
@@ -725,7 +746,7 @@ Toujours traduire automatiquement. Il s'agit de l'inverse de :ref:`AUTO_TRANSLAT
 
 Never automatically translate. This is the inverse of :ref:`AUTO_TRANSLATE_MODE_ALWAYS<class_Node_constant_AUTO_TRANSLATE_MODE_ALWAYS>`.
 
-String parsing for POT generation will be skipped for this node and children that are set to :ref:`AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
+String parsing for translation template generation will be skipped for this node and children that are set to :ref:`AUTO_TRANSLATE_MODE_INHERIT<class_Node_constant_AUTO_TRANSLATE_MODE_INHERIT>`.
 
 .. rst-class:: classref-section-separator
 
@@ -752,9 +773,11 @@ Cette notification est reçue *avant* le signal :ref:`tree_entered<class_Node_si
 
 **NOTIFICATION_EXIT_TREE** = ``11`` :ref:`🔗<class_Node_constant_NOTIFICATION_EXIT_TREE>`
 
-La notification reçue quand le nœud va quitter le :ref:`SceneTree<class_SceneTree>`. Voir :ref:`_exit_tree()<class_Node_private_method__exit_tree>`.
+Notification received when the node is about to exit a :ref:`SceneTree<class_SceneTree>`. See :ref:`_exit_tree()<class_Node_private_method__exit_tree>`.
 
-Cette notification est émise *après* le signal :ref:`tree_exiting<class_Node_signal_tree_exiting>` correspondant.
+This notification is received *after* the related :ref:`tree_exiting<class_Node_signal_tree_exiting>` signal.
+
+This notification is sent in reversed order.
 
 .. _class_Node_constant_NOTIFICATION_MOVED_IN_PARENT:
 
@@ -1094,7 +1117,7 @@ Implémenté sur les plateformes de bureau, si le gestionnaire de plantage est a
 
 Notification received from the OS when an update of the Input Method Engine occurs (e.g. change of IME cursor position or composition string).
 
-Implemented only on macOS.
+Implemented on desktop and web platforms.
 
 .. _class_Node_constant_NOTIFICATION_APPLICATION_RESUMED:
 
@@ -1182,9 +1205,9 @@ Descriptions des propriétés
 - |void| **set_auto_translate_mode**\ (\ value\: :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>`\ )
 - :ref:`AutoTranslateMode<enum_Node_AutoTranslateMode>` **get_auto_translate_mode**\ (\ )
 
-Définir si un texte doit automatiquement changer à sa version traduite en fonction de la langue actuelle (pour les nœuds tels que :ref:`Label<class_Label>`, :ref:`RichTextLabel<class_RichTextLabel>`, :ref:`Window<class_Window>`, etc.). Décide également si les chaînes du nœud doivent être parsées pour la génération POT.
+Defines if any text should automatically change to its translated version depending on the current locale (for nodes such as :ref:`Label<class_Label>`, :ref:`RichTextLabel<class_RichTextLabel>`, :ref:`Window<class_Window>`, etc.). Also decides if the node's strings should be parsed for translation template generation.
 
-\ **Note :** Pour le nœud racine, le mode de traduction automatique peut également être défini via :ref:`ProjectSettings.internationalization/rendering/root_node_auto_translate<class_ProjectSettings_property_internationalization/rendering/root_node_auto_translate>`.
+\ **Note:** For the root node, auto translate mode can also be set via :ref:`ProjectSettings.internationalization/rendering/root_node_auto_translate<class_ProjectSettings_property_internationalization/rendering/root_node_auto_translate>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1733,13 +1756,13 @@ Utilisez :ref:`add_child()<class_Node_method_add_child>` au lieu de cette métho
 
 |void| **add_to_group**\ (\ group\: :ref:`StringName<class_StringName>`, persistent\: :ref:`bool<class_bool>` = false\ ) :ref:`🔗<class_Node_method_add_to_group>`
 
-Ajoute le nœud au groupe ``group``. Les groupes peuvent être utiles pour organiser un sous-ensemble de nœuds, par exemple ``"ennemis"`` ou ``"collectibles"``. Voir les notes dans la description, et les méthodes de groupe dans :ref:`SceneTree<class_SceneTree>`.
+Adds the node to the ``group``. Groups can be helpful to organize a subset of nodes, for example ``"enemies"`` or ``"collectables"``. See notes in the description, and the group methods in :ref:`SceneTree<class_SceneTree>`.
 
-Si ``persistent`` vaut ``true``, le groupe sera stocké lorsqu'enregistré à l'intérieur d'une :ref:`PackedScene<class_PackedScene>`. Tous les groupes créés et affichés dans le dock Nœud sont persistants.
+If ``persistent`` is ``true``, the group will be stored when saved inside a :ref:`PackedScene<class_PackedScene>`. All groups created and displayed in the Groups dock are persistent.
 
-\ **Note :** Pour améliorer les performances, l'ordre des noms de groupe n'est *pas* garanti et peut varier entre les exécutions du projet. Par conséquent, ne comptez pas sur l'ordre des groupes.
+\ **Note:** To improve performance, the order of group names is *not* guaranteed and may vary between project runs. Therefore, do not rely on the group order.
 
-\ **Note :** Les méthodes de groupe *ne fonctionneront pas* sur ce nœud s'il n'est pas à l'intérieur de l'arborescence (voir :ref:`is_inside_tree()<class_Node_method_is_inside_tree>`).
+\ **Note:** :ref:`SceneTree<class_SceneTree>`'s group methods will *not* work on this node if not inside the tree (see :ref:`is_inside_tree()<class_Node_method_is_inside_tree>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1882,9 +1905,11 @@ Le Tween commencera automatiquement sur le prochain trame de traitement ou de ph
 
 :ref:`Node<class_Node>` **duplicate**\ (\ flags\: :ref:`int<class_int>` = 15\ ) |const| :ref:`🔗<class_Node_method_duplicate>`
 
-Duplique le nœud, renvoyant un nouveau nœud avec toutes ses propriétés, signaux, groupes et enfants copiés de l'original. Le comportement peut être ajusté avec ``flags`` (voir :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`). Les nœuds internes ne sont pas dupliqués.
+Duplicates the node, returning a new node with all of its properties, signals, groups, and children copied from the original, recursively. The behavior can be tweaked through the ``flags`` (see :ref:`DuplicateFlags<enum_Node_DuplicateFlags>`). Internal nodes are not duplicated.
 
-\ **Note :** Pour les nœuds avec un :ref:`Script<class_Script>` attaché, si :ref:`Object._init()<class_Object_private_method__init>` a été défini avec les paramètres requis, le nœud dupliqué n'aura pas de :ref:`Script<class_Script>`.
+\ **Note:** For nodes with a :ref:`Script<class_Script>` attached, if :ref:`Object._init()<class_Object_private_method__init>` has been defined with required parameters, the duplicated node will not have a :ref:`Script<class_Script>`.
+
+\ **Note:** By default, this method will duplicate only properties marked for serialization (i.e. using :ref:`@GlobalScope.PROPERTY_USAGE_STORAGE<class_@GlobalScope_constant_PROPERTY_USAGE_STORAGE>`, or in GDScript, :ref:`@GDScript.@export<class_@GDScript_annotation_@export>`). If you want to duplicate all properties, use :ref:`DUPLICATE_INTERNAL_STATE<class_Node_constant_DUPLICATE_INTERNAL_STATE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -2706,9 +2731,9 @@ Similaire à :ref:`call_thread_safe()<class_Node_method_call_thread_safe>`, mais
 
 |void| **print_orphan_nodes**\ (\ ) |static| :ref:`🔗<class_Node_method_print_orphan_nodes>`
 
-Affiche tous les nœuds orphelins (nœuds en dehors du :ref:`SceneTree<class_SceneTree>`). Utile pour le débogage.
+Prints all orphan nodes (nodes outside the :ref:`SceneTree<class_SceneTree>`). Useful for debugging.
 
-\ **Note :** Cette méthode ne fonctionne que dans les compilations de débogage. Ne fait rien dans un projet exporté en mode release.
+\ **Note:** This method only works in debug builds. It does nothing in a project exported in release mode.
 
 .. rst-class:: classref-item-separator
 

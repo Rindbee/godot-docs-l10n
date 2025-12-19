@@ -339,9 +339,9 @@ Node2D
 
 :ref:`float<class_float>` **get_angle_to**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Node2D_method_get_angle_to>`
 
-Возвращает угол между узлом и ``point`` в радианах.
+Returns the angle between the node and the ``point`` in radians. See also :ref:`look_at()<class_Node2D_method_look_at>`.
 
-\ `Иллюстрация возвращаемого угла. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -377,9 +377,9 @@ Node2D
 
 |void| **look_at**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_look_at>`
 
-Поворачивает узел так, чтобы его локальная ось +X указывала на ``point``, которая, как ожидается, будет использовать глобальные координаты.
+Rotates the node so that its local +X axis points towards the ``point``, which is expected to use global coordinates. This method is a combination of both :ref:`rotate()<class_Node2D_method_rotate>` and :ref:`get_angle_to()<class_Node2D_method_get_angle_to>`.
 
-\ ``point`` не должна совпадать с позицией узла, в противном случае узел всегда смотрит вправо.
+\ ``point`` should not be the same as the node's position, otherwise the node always looks to the right.
 
 .. rst-class:: classref-item-separator
 
@@ -415,7 +415,7 @@ Node2D
 
 |void| **rotate**\ (\ radians\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Node2D_method_rotate>`
 
-Применяет поворот к узлу в радианах, начиная с его текущего поворота.
+Applies a rotation to the node, in radians, starting from its current rotation. This is equivalent to ``rotation += radians``.
 
 .. rst-class:: classref-item-separator
 
@@ -451,7 +451,7 @@ Node2D
 
 |void| **translate**\ (\ offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_translate>`
 
-Перемещает узел на заданный ``offset`` в локальных координатах.
+Translates the node by the given ``offset`` in local coordinates. This is equivalent to ``position += offset``.
 
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

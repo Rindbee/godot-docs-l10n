@@ -1020,9 +1020,9 @@ Imposta ``ALBEDO`` al colore per vertice specificato nella mesh.
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_SRGB_VERTEX_COLOR** = ``2``
 
-I colori dei vertici vengono considerati memorizzati nello spazio colore sRGB e vengono convertiti nello spazio colore lineare durante il rendering. Vedi anche :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
+Vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-\ **Nota:** Efficace solo quando si usano i metodi di rendering Forward+ e Mobile.
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods.
 
 .. _class_BaseMaterial3D_constant_FLAG_USE_POINT_SIZE:
 
@@ -1102,7 +1102,7 @@ Utilizza le coordinate ``UV2`` per la proiezione dalla :ref:`emission_texture<cl
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = ``12``
 
-Forza lo shader a convertire l'albedo dallo spazio sRGB allo spazio lineare. Vedi anche :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
+Forces the shader to convert albedo from nonlinear sRGB encoding to linear encoding. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
 .. _class_BaseMaterial3D_constant_FLAG_DONT_RECEIVE_SHADOWS:
 
@@ -1512,7 +1512,7 @@ enum **StencilFlags**: :ref:`🔗<enum_BaseMaterial3D_StencilFlags>`
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_READ** = ``1``
 
-Il materiale sarà renderizzato solo se passa un confronto di stencil con i valori esistenti nel buffer dello stencil. Vedi :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+The material will only be rendered where it passes a stencil comparison with existing stencil buffer values.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE:
 
@@ -1654,9 +1654,9 @@ Se la texture appare inaspettatamente troppo scura o troppo chiara, controlla :r
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-Se ``true``, forza una conversione di :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` dallo spazio colore sRGB allo spazio colore lineare. Vedi anche :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
+If ``true``, forces a conversion of the :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` from nonlinear sRGB encoding to linear encoding. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-Questo dovrebbe essere abilitato solo quando necessario (in genere quando si utilizza una :ref:`ViewportTexture<class_ViewportTexture>` come :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>`). Se :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` è ``true`` quando non dovrebbe esserlo, la texture sembrerà troppo scura. Se :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` è ``false`` quando non dovrebbe esserlo, la texture sembrerà troppo luminosa.
+This should only be enabled when needed (typically when using a :ref:`ViewportTexture<class_ViewportTexture>` as :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>`). If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``true`` when it shouldn't be, the texture will appear to be too dark. If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``false`` when it shouldn't be, the texture will appear to be too bright.
 
 .. rst-class:: classref-item-separator
 
@@ -2152,9 +2152,9 @@ Determina quando avviene il rendering della profondità. Vedi anche :ref:`transp
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-Determina quale operatore di confronto viene utilizzato durante il test di profondità. Vedi :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>`.
+Determines which comparison operator is used when testing depth.
 
-\ **Nota:** Modificare :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` in un valore non predefinito ha un effetto visibile solo se utilizzato su un materiale trasparente o su un materiale che ha :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` impostato su :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
+\ **Note:** Changing :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` to a non-default value only has a visible effect when used on a transparent material, or a material that has :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` set to :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
 
 .. rst-class:: classref-item-separator
 
@@ -3337,7 +3337,7 @@ Il colore primario dell'effetto stencil.
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-L'operatore di confronto da utilizzare per le operazioni di mascheramento di stencil. Vedi :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+The comparison operator to use for stencil masking operations.
 
 .. rst-class:: classref-item-separator
 
@@ -3356,7 +3356,7 @@ L'operatore di confronto da utilizzare per le operazioni di mascheramento di ste
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-I flag che determinano il comportamento dell'operazione di stencil. Vedi :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
+The flags dictating how the stencil operation behaves.
 
 .. rst-class:: classref-item-separator
 
@@ -3375,7 +3375,7 @@ I flag che determinano il comportamento dell'operazione di stencil. Vedi :ref:`S
 
 **Sperimentale:** May be affected by future rendering pipeline changes.
 
-La modalità dell'effetto stencil. Vedi :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
+The stencil effect mode.
 
 .. rst-class:: classref-item-separator
 
@@ -3882,9 +3882,9 @@ Se ``true``, la mappatura triplanare per ``UV2`` è calcolata nello spazio mondi
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-Se ``true``, i colori dei vertici sono considerati memorizzati nello spazio colore sRGB e sono convertiti nello spazio colore lineare durante il rendering. Se ``false``, i colori dei vertici sono considerati memorizzati nello spazio colore lineare e sono visualizzati così come sono. Vedi anche :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
+If ``true``, vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. If ``false``, vertex colors are considered to be stored in linear encoding and are rendered as-is. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
-\ **Nota:** Funziona solo quando si utilizzano i metodi di rendering Forward+ e Mobile, non Compatibilità.
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods, not Compatibility.
 
 .. rst-class:: classref-item-separator
 
@@ -3935,7 +3935,7 @@ Descrizioni dei metodi
 
 :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_feature>`
 
-Restituisce ``true``, se la funzionalità :ref:`Feature<enum_BaseMaterial3D_Feature>` specificata è abilitata.
+Returns ``true`` if the specified ``feature`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3947,7 +3947,7 @@ Restituisce ``true``, se la funzionalità :ref:`Feature<enum_BaseMaterial3D_Feat
 
 :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_flag>`
 
-Restituisce ``true`` se il flag specificato è abilitato.
+Returns ``true`` if the specified ``flag`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3959,7 +3959,7 @@ Restituisce ``true`` se il flag specificato è abilitato.
 
 :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_texture>`
 
-Restituisce la :ref:`Texture2D<class_Texture2D>` associata al parametro di texture :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>` specificato.
+Returns the :ref:`Texture2D<class_Texture2D>` associated with the specified texture ``param``.
 
 .. rst-class:: classref-item-separator
 
@@ -3971,7 +3971,7 @@ Restituisce la :ref:`Texture2D<class_Texture2D>` associata al parametro di textu
 
 |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_feature>`
 
-Se ``true``, abilita la funzionalità :ref:`Feature<enum_BaseMaterial3D_Feature>` specificata. Molte funzionalità disponibili in **BaseMaterial3D** devono essere abilitate prima dell'uso. In questo modo il costo per l'utilizzo della funzionalità viene sostenuto solo quando specificato. Le funzionalità possono anche essere abilitate impostando il membro corrispondente su ``true``.
+If ``enable`` is ``true``, enables the specified ``feature``. Many features that are available in **BaseMaterial3D** need to be enabled before use. This way, the cost for using the feature is only incurred when specified. Features can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -3983,7 +3983,7 @@ Se ``true``, abilita la funzionalità :ref:`Feature<enum_BaseMaterial3D_Feature>
 
 |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_flag>`
 
-Se ``true``, abilita il flag specificato. I flag sono comportamenti facoltativi che si possono abilitare e disabilitare. È possibile abilitare solo un flag alla volta con questa funzione; gli enumeratori dei flag non si possono combinare a bit per cambiare più flag alla volta. I flag si possono anche abilitare impostando il membro corrispondente su ``true``.
+If ``enable`` is ``true``, enables the specified ``flag``. Flags are optional behavior that can be turned on and off. Only one flag can be enabled at a time with this function, the flag enumerators cannot be bit-masked together to enable or disable multiple flags at once. Flags can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 

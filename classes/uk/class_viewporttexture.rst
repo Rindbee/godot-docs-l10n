@@ -14,22 +14,22 @@ ViewportTexture
 Опис
 --------
 
-**ViewportTexture** надає вміст :ref:`Viewport<class_Viewport>` як динамічну :ref:`Texture2D<class_Texture2D>`. Це можна використовувати для комбінування візуалізації вузлів :ref:`Control<class_Control>`, :ref:`Node2D<class_Node2D>` і :ref:`Node3D<class_Node3D>`. Наприклад, ви можете використовувати цю текстуру для відображення 3D-сцени всередині :ref:`TextureRect<class_TextureRect>` або 2D-накладання в :ref:`Sprite3D<class_Sprite3D>`. 
+A **ViewportTexture** provides the content of a :ref:`Viewport<class_Viewport>` as a dynamic :ref:`Texture2D<class_Texture2D>`. This can be used to combine the rendering of :ref:`Control<class_Control>`, :ref:`Node2D<class_Node2D>` and :ref:`Node3D<class_Node3D>` nodes. For example, you can use this texture to display a 3D scene inside a :ref:`TextureRect<class_TextureRect>`, or a 2D overlay in a :ref:`Sprite3D<class_Sprite3D>`.
 
-Щоб отримати **ViewportTexture** у коді, використовуйте метод :ref:`Viewport.get_texture()<class_Viewport_method_get_texture>` у цільовому вікні перегляду. 
+To get a **ViewportTexture** in code, use the :ref:`Viewport.get_texture()<class_Viewport_method_get_texture>` method on the target viewport.
 
-\ **Примітка:** **ViewportTexture** завжди є локальним для своєї сцени (див. :ref:`Resource.resource_local_to_scene<class_Resource_property_resource_local_to_scene>`). Якщо корінь сцени не готовий, він може повернути неправильні дані (див. :ref:`Node.ready<class_Node_signal_ready>`). 
+\ **Note:** A **ViewportTexture** is always local to its scene (see :ref:`Resource.resource_local_to_scene<class_Resource_property_resource_local_to_scene>`). If the scene root is not ready, it may return incorrect data (see :ref:`Node.ready<class_Node_signal_ready>`).
 
-\ **Примітка.** Створення екземплярів сцен, що містять **ViewportTexture** високої роздільної здатності, може спричинити помітне заїкання. 
+\ **Note:** Instantiating scenes containing a high-resolution **ViewportTexture** may cause noticeable stutter.
 
-\ **Примітка.** Якщо використовується :ref:`Viewport<class_Viewport>` із :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>`, установленим на ``true``, повернута текстура буде зображенням HDR, закодованим у лінійному просторі. Це може виглядати темніше, ніж зазвичай, коли відображається безпосередньо на екрані. Щоб перетворити на гамма-простір, ви можете зробити наступне: 
+\ **Note:** When using a :ref:`Viewport<class_Viewport>` with :ref:`Viewport.use_hdr_2d<class_Viewport_property_use_hdr_2d>` set to ``true``, the returned texture will be an HDR image that uses linear encoding. This may look darker than normal when displayed directly on screen. To convert to nonlinear sRGB encoding, you can do the following:
 
 ::
- 
-    img.convert(Image.FORMAT_RGBA8) 
-    imb.linear_to_srgb()  
 
-\ **Примітка.** Деякі вузли, як-от :ref:`Decal<class_Decal>`, :ref:`Light3D<class_Light3D>` і :ref:`PointLight2D<class_PointLight2D>`, не підтримують пряме використання **ViewportTexture**. Щоб використовувати дані текстури з **ViewportTexture** у цих вузлах, вам потрібно створити :ref:`ImageTexture<class_ImageTexture>`, викликавши :ref:`Texture2D.get_image()<class_Texture2D_method_get_image>` у **ViewportTexture** і передавши результат :ref:`ImageTexture.create_from_image()<class_ImageTexture_method_create_from_image>`. Це перетворення є повільною операцією, тому його не слід виконувати кожного кадру.
+    img.convert(Image.FORMAT_RGBA8)
+    img.linear_to_srgb()
+
+\ **Note:** Some nodes such as :ref:`Decal<class_Decal>`, :ref:`Light3D<class_Light3D>`, and :ref:`PointLight2D<class_PointLight2D>` do not support using **ViewportTexture** directly. To use texture data from a **ViewportTexture** in these nodes, you need to create an :ref:`ImageTexture<class_ImageTexture>` by calling :ref:`Texture2D.get_image()<class_Texture2D_method_get_image>` on the **ViewportTexture** and passing the result to :ref:`ImageTexture.create_from_image()<class_ImageTexture_method_create_from_image>`. This conversion is a slow operation, so it should not be performed every frame.
 
 .. rst-class:: classref-introduction-group
 

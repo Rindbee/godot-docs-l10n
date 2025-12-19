@@ -63,9 +63,13 @@ ItemList
    +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                 | :ref:`same_column_width<class_ItemList_property_same_column_width>`         | ``false``                                                                 |
    +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>`     | :ref:`scroll_hint_mode<class_ItemList_property_scroll_hint_mode>`           | ``0``                                                                     |
+   +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`SelectMode<enum_ItemList_SelectMode>`             | :ref:`select_mode<class_ItemList_property_select_mode>`                     | ``0``                                                                     |
    +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` | :ref:`text_overrun_behavior<class_ItemList_property_text_overrun_behavior>` | ``3``                                                                     |
+   +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`                                 | :ref:`tile_scroll_hint<class_ItemList_property_tile_scroll_hint>`           | ``false``                                                                 |
    +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`                                 | :ref:`wraparound_items<class_ItemList_property_wraparound_items>`           | ``true``                                                                  |
    +---------------------------------------------------------+-----------------------------------------------------------------------------+---------------------------------------------------------------------------+
@@ -184,51 +188,53 @@ ItemList
 .. table::
    :widths: auto
 
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Color<class_Color>`       | :ref:`font_color<class_ItemList_theme_color_font_color>`                                   | ``Color(0.65, 0.65, 0.65, 1)`` |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Color<class_Color>`       | :ref:`font_hovered_color<class_ItemList_theme_color_font_hovered_color>`                   | ``Color(0.95, 0.95, 0.95, 1)`` |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Color<class_Color>`       | :ref:`font_hovered_selected_color<class_ItemList_theme_color_font_hovered_selected_color>` | ``Color(1, 1, 1, 1)``          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Color<class_Color>`       | :ref:`font_outline_color<class_ItemList_theme_color_font_outline_color>`                   | ``Color(0, 0, 0, 1)``          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Color<class_Color>`       | :ref:`font_selected_color<class_ItemList_theme_color_font_selected_color>`                 | ``Color(1, 1, 1, 1)``          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Color<class_Color>`       | :ref:`guide_color<class_ItemList_theme_color_guide_color>`                                 | ``Color(0.7, 0.7, 0.7, 0.25)`` |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`int<class_int>`           | :ref:`h_separation<class_ItemList_theme_constant_h_separation>`                            | ``4``                          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`int<class_int>`           | :ref:`icon_margin<class_ItemList_theme_constant_icon_margin>`                              | ``4``                          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`int<class_int>`           | :ref:`line_separation<class_ItemList_theme_constant_line_separation>`                      | ``2``                          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`int<class_int>`           | :ref:`outline_size<class_ItemList_theme_constant_outline_size>`                            | ``0``                          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`int<class_int>`           | :ref:`v_separation<class_ItemList_theme_constant_v_separation>`                            | ``4``                          |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`Font<class_Font>`         | :ref:`font<class_ItemList_theme_font_font>`                                                |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`int<class_int>`           | :ref:`font_size<class_ItemList_theme_font_size_font_size>`                                 |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`cursor<class_ItemList_theme_style_cursor>`                                           |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`cursor_unfocused<class_ItemList_theme_style_cursor_unfocused>`                       |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`focus<class_ItemList_theme_style_focus>`                                             |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`hovered<class_ItemList_theme_style_hovered>`                                         |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`hovered_selected<class_ItemList_theme_style_hovered_selected>`                       |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`hovered_selected_focus<class_ItemList_theme_style_hovered_selected_focus>`           |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`panel<class_ItemList_theme_style_panel>`                                             |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`selected<class_ItemList_theme_style_selected>`                                       |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
-   | :ref:`StyleBox<class_StyleBox>` | :ref:`selected_focus<class_ItemList_theme_style_selected_focus>`                           |                                |
-   +---------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`font_color<class_ItemList_theme_color_font_color>`                                   | ``Color(0.65, 0.65, 0.65, 1)`` |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`font_hovered_color<class_ItemList_theme_color_font_hovered_color>`                   | ``Color(0.95, 0.95, 0.95, 1)`` |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`font_hovered_selected_color<class_ItemList_theme_color_font_hovered_selected_color>` | ``Color(1, 1, 1, 1)``          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`font_outline_color<class_ItemList_theme_color_font_outline_color>`                   | ``Color(0, 0, 0, 1)``          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`font_selected_color<class_ItemList_theme_color_font_selected_color>`                 | ``Color(1, 1, 1, 1)``          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Color<class_Color>`         | :ref:`guide_color<class_ItemList_theme_color_guide_color>`                                 | ``Color(0.7, 0.7, 0.7, 0.25)`` |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`int<class_int>`             | :ref:`h_separation<class_ItemList_theme_constant_h_separation>`                            | ``4``                          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`int<class_int>`             | :ref:`icon_margin<class_ItemList_theme_constant_icon_margin>`                              | ``4``                          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`int<class_int>`             | :ref:`line_separation<class_ItemList_theme_constant_line_separation>`                      | ``2``                          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`int<class_int>`             | :ref:`outline_size<class_ItemList_theme_constant_outline_size>`                            | ``0``                          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`int<class_int>`             | :ref:`v_separation<class_ItemList_theme_constant_v_separation>`                            | ``4``                          |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Font<class_Font>`           | :ref:`font<class_ItemList_theme_font_font>`                                                |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`int<class_int>`             | :ref:`font_size<class_ItemList_theme_font_size_font_size>`                                 |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`Texture2D<class_Texture2D>` | :ref:`scroll_hint<class_ItemList_theme_icon_scroll_hint>`                                  |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`cursor<class_ItemList_theme_style_cursor>`                                           |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`cursor_unfocused<class_ItemList_theme_style_cursor_unfocused>`                       |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`focus<class_ItemList_theme_style_focus>`                                             |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`hovered<class_ItemList_theme_style_hovered>`                                         |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`hovered_selected<class_ItemList_theme_style_hovered_selected>`                       |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`hovered_selected_focus<class_ItemList_theme_style_hovered_selected_focus>`           |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`panel<class_ItemList_theme_style_panel>`                                             |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`selected<class_ItemList_theme_style_selected>`                                       |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
+   | :ref:`StyleBox<class_StyleBox>`   | :ref:`selected_focus<class_ItemList_theme_style_selected_focus>`                           |                                |
+   +-----------------------------------+--------------------------------------------------------------------------------------------+--------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -365,6 +371,48 @@ enum **SelectMode**: :ref:`🔗<enum_ItemList_SelectMode>`
 :ref:`SelectMode<enum_ItemList_SelectMode>` **SELECT_TOGGLE** = ``2``
 
 Позволяет выбирать несколько элементов, включая и выключая их.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_ItemList_ScrollHintMode:
+
+.. rst-class:: classref-enumeration
+
+enum **ScrollHintMode**: :ref:`🔗<enum_ItemList_ScrollHintMode>`
+
+.. _class_ItemList_constant_SCROLL_HINT_MODE_DISABLED:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>` **SCROLL_HINT_MODE_DISABLED** = ``0``
+
+Scroll hints will never be shown.
+
+.. _class_ItemList_constant_SCROLL_HINT_MODE_BOTH:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>` **SCROLL_HINT_MODE_BOTH** = ``1``
+
+Scroll hints will be shown at the top and bottom.
+
+.. _class_ItemList_constant_SCROLL_HINT_MODE_TOP:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>` **SCROLL_HINT_MODE_TOP** = ``2``
+
+Only the top scroll hint will be shown.
+
+.. _class_ItemList_constant_SCROLL_HINT_MODE_BOTTOM:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>` **SCROLL_HINT_MODE_BOTTOM** = ``3``
+
+Only the bottom scroll hint will be shown.
 
 .. rst-class:: classref-section-separator
 
@@ -608,6 +656,23 @@ enum **SelectMode**: :ref:`🔗<enum_ItemList_SelectMode>`
 
 ----
 
+.. _class_ItemList_property_scroll_hint_mode:
+
+.. rst-class:: classref-property
+
+:ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>` **scroll_hint_mode** = ``0`` :ref:`🔗<class_ItemList_property_scroll_hint_mode>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_scroll_hint_mode**\ (\ value\: :ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>`\ )
+- :ref:`ScrollHintMode<enum_ItemList_ScrollHintMode>` **get_scroll_hint_mode**\ (\ )
+
+The way which scroll hints (indicators that show that the content can still be scrolled in a certain direction) will be shown.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ItemList_property_select_mode:
 
 .. rst-class:: classref-property
@@ -637,6 +702,23 @@ enum **SelectMode**: :ref:`🔗<enum_ItemList_SelectMode>`
 - :ref:`OverrunBehavior<enum_TextServer_OverrunBehavior>` **get_text_overrun_behavior**\ (\ )
 
 Поведение обрезки, когда текст выходит за пределы ограничивающего прямоугольника элемента.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_ItemList_property_tile_scroll_hint:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **tile_scroll_hint** = ``false`` :ref:`🔗<class_ItemList_property_tile_scroll_hint>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_tile_scroll_hint**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_scroll_hint_tiled**\ (\ )
+
+If ``true``, the scroll hint texture will be tiled instead of stretched. See :ref:`scroll_hint_mode<class_ItemList_property_scroll_hint_mode>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1172,7 +1254,7 @@ enum **SelectMode**: :ref:`🔗<enum_ItemList_SelectMode>`
 
 |void| **set_item_language**\ (\ idx\: :ref:`int<class_int>`, language\: :ref:`String<class_String>`\ ) :ref:`🔗<class_ItemList_method_set_item_language>`
 
-Устанавливает код языка текста элемента, используемый для алгоритмов переноса строк и формирования текста, если оставить пустым, вместо него будет использоваться текущая локаль.
+Sets the language code of the text for the item at the given index to ``language``. This is used for line-breaking and text shaping algorithms. If ``language`` is empty, the current locale is used.
 
 .. rst-class:: classref-item-separator
 
@@ -1425,6 +1507,18 @@ enum **SelectMode**: :ref:`🔗<enum_ItemList_SelectMode>`
 
 ----
 
+.. _class_ItemList_theme_icon_scroll_hint:
+
+.. rst-class:: classref-themeproperty
+
+:ref:`Texture2D<class_Texture2D>` **scroll_hint** :ref:`🔗<class_ItemList_theme_icon_scroll_hint>`
+
+The indicator that will be shown when the content can still be scrolled. See :ref:`scroll_hint_mode<class_ItemList_property_scroll_hint_mode>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_ItemList_theme_style_cursor:
 
 .. rst-class:: classref-themeproperty
@@ -1455,7 +1549,7 @@ enum **SelectMode**: :ref:`🔗<enum_ItemList_SelectMode>`
 
 :ref:`StyleBox<class_StyleBox>` **focus** :ref:`🔗<class_ItemList_theme_style_focus>`
 
-Стиль фокусировки для **ItemList**, отрисовываемый поверх фона, но ниже всего остального.
+The focused style for the **ItemList**, drawn on top of everything.
 
 .. rst-class:: classref-item-separator
 

@@ -35,6 +35,8 @@ GraphElement
    +-------------------------------+---------------------------------------------------------------------+-------------------+
    | :ref:`bool<class_bool>`       | :ref:`resizable<class_GraphElement_property_resizable>`             | ``false``         |
    +-------------------------------+---------------------------------------------------------------------+-------------------+
+   | :ref:`bool<class_bool>`       | :ref:`scaling_menus<class_GraphElement_property_scaling_menus>`     | ``false``         |
+   +-------------------------------+---------------------------------------------------------------------+-------------------+
    | :ref:`bool<class_bool>`       | :ref:`selectable<class_GraphElement_property_selectable>`           | ``true``          |
    +-------------------------------+---------------------------------------------------------------------+-------------------+
    | :ref:`bool<class_bool>`       | :ref:`selected<class_GraphElement_property_selected>`               | ``false``         |
@@ -212,6 +214,23 @@ GraphNode 的偏移量，相對於 :ref:`GraphEdit<class_GraphEdit>` 的滾動�
 If ``true``, the user can resize the GraphElement.
 
 \ **Note:** Dragging the handle will only emit the :ref:`resize_request<class_GraphElement_signal_resize_request>` and :ref:`resize_end<class_GraphElement_signal_resize_end>` signals, the GraphElement needs to be resized manually.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GraphElement_property_scaling_menus:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **scaling_menus** = ``false`` :ref:`🔗<class_GraphElement_property_scaling_menus>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_scaling_menus**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_scaling_menus**\ (\ )
+
+If ``true``, :ref:`PopupMenu<class_PopupMenu>`\ s that are descendants of the GraphElement are scaled with the :ref:`GraphEdit<class_GraphEdit>` zoom.
 
 .. rst-class:: classref-item-separator
 

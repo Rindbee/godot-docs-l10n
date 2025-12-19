@@ -178,9 +178,9 @@ Los colores del gradiente como un :ref:`PackedColorArray<class_PackedColorArray>
 - |void| **set_interpolation_color_space**\ (\ value\: :ref:`ColorSpace<enum_Gradient_ColorSpace>`\ )
 - :ref:`ColorSpace<enum_Gradient_ColorSpace>` **get_interpolation_color_space**\ (\ )
 
-El espacio de color utilizado para interpolar entre los puntos del gradiente. No afecta a los colores devueltos, que siempre estarán en el espacio sRGB.
+The color space used to interpolate between points of the gradient. It does not affect the returned colors, which will always use nonlinear sRGB encoding.
 
-\ **Nota:** Este ajuste no tiene efecto cuando :ref:`interpolation_mode<class_Gradient_property_interpolation_mode>` se establece en :ref:`GRADIENT_INTERPOLATE_CONSTANT<class_Gradient_constant_GRADIENT_INTERPOLATE_CONSTANT>`.
+\ **Note:** This setting has no effect when :ref:`interpolation_mode<class_Gradient_property_interpolation_mode>` is set to :ref:`GRADIENT_INTERPOLATE_CONSTANT<class_Gradient_constant_GRADIENT_INTERPOLATE_CONSTANT>`.
 
 .. rst-class:: classref-item-separator
 

@@ -98,6 +98,8 @@ RenderingDevice
    +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                     | :ref:`draw_list_bind_vertex_array<class_RenderingDevice_method_draw_list_bind_vertex_array>`\ (\ draw_list\: :ref:`int<class_int>`, vertex_array\: :ref:`RID<class_RID>`\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
    +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                     | :ref:`draw_list_bind_vertex_buffers_format<class_RenderingDevice_method_draw_list_bind_vertex_buffers_format>`\ (\ draw_list\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, vertex_count\: :ref:`int<class_int>`, vertex_buffers\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], offsets\: :ref:`PackedInt64Array<class_PackedInt64Array>` = PackedInt64Array()\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+   +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                     | :ref:`draw_list_disable_scissor<class_RenderingDevice_method_draw_list_disable_scissor>`\ (\ draw_list\: :ref:`int<class_int>`\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
    +------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                     | :ref:`draw_list_draw<class_RenderingDevice_method_draw_list_draw>`\ (\ draw_list\: :ref:`int<class_int>`, use_indices\: :ref:`bool<class_bool>`, instances\: :ref:`int<class_int>`, procedural_vertex_count\: :ref:`int<class_int>` = 0\ )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -390,9 +392,11 @@ enum **DriverResource**: :ref:`🔗<enum_RenderingDevice_DriverResource>`
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_COMMAND_QUEUE** = ``3``
 
-Головна черга команд графічних обчислень (параметр ``rid`` ігнорується).
+The main graphics-compute command queue (``rid`` parameter is ignored).
 
 - Vulkan: ``VkQueue``.
+
+- D3D12: ``ID3D12CommandQueue``.
 
 - Metal: ``MTLCommandQueue``.
 
@@ -412,7 +416,9 @@ enum **DriverResource**: :ref:`🔗<enum_RenderingDevice_DriverResource>`
 
 :ref:`DriverResource<enum_RenderingDevice_DriverResource>` **DRIVER_RESOURCE_TEXTURE** = ``5``
 
-- Vulkan: ``VkImage``'.
+- Vulkan: ``VkImage``.
+
+- D3D12: ``ID3D12Resource``.
 
 .. _class_RenderingDevice_constant_DRIVER_RESOURCE_TEXTURE_VIEW:
 
@@ -746,7 +752,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8_SRGB** = ``14``
 
-8-bit-per-канал не позначений формат даних про плаваючі точки з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R8G8_UNORM:
 
@@ -802,7 +808,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8G8_SRGB** = ``21``
 
-8-bit-per-канал не відзначає формат даних з зеленим каналом з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red/green channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R8G8B8_UNORM:
 
@@ -858,7 +864,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8G8B8_SRGB** = ``28``
 
-8-bit-per-канал не позначений плавлення-точковий червоний/зелений/синій/ формат даних каналів з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red/green/blue channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B8G8R8_UNORM:
 
@@ -914,7 +920,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B8G8R8_SRGB** = ``35``
 
-8-bit-per-канал не позначений плавлення-точковий синій/зелений/червоний формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point blue/green/red data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_R8G8B8A8_UNORM:
 
@@ -970,7 +976,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_R8G8B8A8_SRGB** = ``42``
 
-8-bit-per-канал не позначений плаваючі точки червоний/зелений/синій/альфа-канал формат даних з нормалізованим значенням та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_B8G8R8A8_UNORM:
 
@@ -1026,7 +1032,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_B8G8R8A8_SRGB** = ``49``
 
-8-bit-per-канал невизнаний плаваючий-точковий синій/зелений/red/alpha формат даних каналів з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point blue/green/red/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_A8B8G8R8_UNORM_PACK32:
 
@@ -1082,7 +1088,7 @@ enum **DataFormat**: :ref:`🔗<enum_RenderingDevice_DataFormat>`
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_A8B8G8R8_SRGB_PACK32** = ``56``
 
-8-bit-per-канал не позначений плаваючі точки альфа/ред/зелений/синій формат даних каналів з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 32 біт. Ціни вказані в діапазоні ``[0.0, 1.0]``.
+8-bit-per-channel unsigned floating-point alpha/red/green/blue channel data format with normalized value and nonlinear sRGB encoding, packed in 32 bits. Values are in the ``[0.0, 1.0]`` range.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_A2R10G10B10_UNORM_PACK32:
 
@@ -1682,7 +1688,7 @@ VRAM-compressed unsigned червоний/зелений/синій формат
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC1_RGB_SRGB_BLOCK** = ``131``
 
-VRAM-compressed unsigned червоний/зелений/синій формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. У форматі є 5 біт червоного каналу, 6 біт зеленого каналу і 5 біт синього каналу. Використання стиснення текстури BC1 (також відомий як S3TC DXT1).
+VRAM-compressed unsigned red/green/blue channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, and 5 bits of blue channel. Using BC1 texture compression (also known as S3TC DXT1).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC1_RGBA_UNORM_BLOCK:
 
@@ -1698,7 +1704,7 @@ VRAM-compressed unsigned червоний/зелений/синій/alpha фор
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC1_RGBA_SRGB_BLOCK** = ``133``
 
-VRAM-compressed unsigned червоний/зелений/синій/alpha формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. У форматі є 5 біт червоного каналу, 6 біт зеленого каналу, 5 біт синього каналу і 1 біт альфа-каналу. Використання стиснення текстури BC1 (також відомий як S3TC DXT1).
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel, and 1 bit of alpha channel. Using BC1 texture compression (also known as S3TC DXT1).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC2_UNORM_BLOCK:
 
@@ -1714,7 +1720,7 @@ VRAM-compressed unsigned червоний/зелений/синій/alpha фор
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC2_SRGB_BLOCK** = ``135``
 
-VRAM-compressed unsigned червоний/зелений/синій/alpha формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. У форматі є 5 біт червоного каналу, 6 біт зеленого каналу, 5 біт синього каналу і 4 біти альфа-каналу. Використання стиснення текстури BC2 (також відомий як S3TC DXT3).
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel, and 4 bits of alpha channel. Using BC2 texture compression (also known as S3TC DXT3).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC3_UNORM_BLOCK:
 
@@ -1730,7 +1736,7 @@ VRAM-compressed unsigned червоний/зелений/синій/alpha фор
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC3_SRGB_BLOCK** = ``137``
 
-VRAM-compressed unsigned червоний/зелений/синій/alpha формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. У форматі є 5 біт червоного каналу, 6 біт зеленого каналу, 5 біт синього каналу і 8 біт альфа-каналу. Використання стиснення текстури BC3 (також відомий як S3TC DXT5).
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is 5 bits of red channel, 6 bits of green channel, 5 bits of blue channel, and 8 bits of alpha channel. Using BC3 texture compression (also known as S3TC DXT5).
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_BC4_UNORM_BLOCK:
 
@@ -1794,7 +1800,7 @@ VRAM-compressed unsigned червоний/зелений/синій/alpha фор
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_BC7_SRGB_BLOCK** = ``145``
 
-VRAM-compressed unsigned червоний/зелений/синій/alpha формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. Особливістю формату є 4 і 7 біт для червоно-зелених/блакитних каналів і між 0 і 8 бітами для альфа-каналу. Також відомий як BPTC LDR.
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. The format's precision is between 4 and 7 bits for the red/green/blue channels and between 0 and 8 bits for the alpha channel. Also known as BPTC LDR.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8_UNORM_BLOCK:
 
@@ -1810,7 +1816,7 @@ VRAM-compressed unsigned червоний/зелений/синій формат
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8_SRGB_BLOCK** = ``147``
 
-VRAM-compressed unsigned червоний/зелений/синій формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення текстури ETC2.
+VRAM-compressed unsigned red/green/blue channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Using ETC2 texture compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK:
 
@@ -1826,7 +1832,7 @@ VRAM-compressed unsigned червоний/зелений/синій/alpha фор
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK** = ``149``
 
-VRAM-compressed unsigned червоний/зелений/синій/alpha формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. Червоний/зелений/синій використання 8 біт точності кожного, з альфа-за допомогою 1 біт точності. Використання стиснення текстури ETC2.
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bit of precision each, with alpha using 1 bit of precision. Using ETC2 texture compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK:
 
@@ -1842,7 +1848,7 @@ VRAM-compressed unsigned червоний/зелений/синій/alpha фор
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK** = ``151``
 
-VRAM-compressed unsigned червоний/зелений/синій/alpha формат даних каналу з нормалізованою вартістю та нелінійним кодуванням sRGB. Ціни вказані в діапазоні ``[0.0, 1.0]``. Червоний/зелений/синій використовувати 8 біт точності кожного, з альфа-за допомогою 8 біт точності. Використання стиснення текстури ETC2.
+VRAM-compressed unsigned red/green/blue/alpha channel data format with normalized value and nonlinear sRGB encoding. Values are in the ``[0.0, 1.0]`` range. Red/green/blue use 8 bits of precision each, with alpha using 8 bits of precision. Using ETC2 texture compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_EAC_R11_UNORM_BLOCK:
 
@@ -1890,7 +1896,7 @@ VRAM-compressed не відзначає формат даних плавучої
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_4x4_SRGB_BLOCK** = ``157``
 
-VRAM-compressed unsigned формат даних плавучих точок з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 4 × 4 блоки (найвища якість). Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 4×4 blocks (highest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x4_UNORM_BLOCK:
 
@@ -1906,7 +1912,7 @@ VRAM-compressed unsigned формат даних плавучих точок з 
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x4_SRGB_BLOCK** = ``159``
 
-VRAM-compressed unsigned формат даних плавучих точок з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 5 × 4 блоки. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 5×4 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_5x5_UNORM_BLOCK:
 
@@ -1922,7 +1928,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_5x5_SRGB_BLOCK** = ``161``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 5 × 5 блоків. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 5×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x5_UNORM_BLOCK:
 
@@ -1938,7 +1944,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x5_SRGB_BLOCK** = ``163``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упаковано в блоки 6 × 5. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 6×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_6x6_UNORM_BLOCK:
 
@@ -1954,7 +1960,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_6x6_SRGB_BLOCK** = ``165``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упаковано в блоки 6 × 6. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 6×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x5_UNORM_BLOCK:
 
@@ -1970,7 +1976,7 @@ VRAM-compressed unsigned потоковий формат даних з норм�
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x5_SRGB_BLOCK** = ``167``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упаковано в блоки 8 × 5. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 8×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x6_UNORM_BLOCK:
 
@@ -1986,7 +1992,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x6_SRGB_BLOCK** = ``169``
 
-VRAM-compressed unsigned формат даних плавучих точок з нормалізованою вартістю та нелінійним кодуванням sRGB, упаковано в блоки 8 × 6. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 8×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_8x8_UNORM_BLOCK:
 
@@ -2002,7 +2008,7 @@ VRAM-compressed unsigned формат даних плавучих точок з 
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_8x8_SRGB_BLOCK** = ``171``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 8 × 8 блоків. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 8×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x5_UNORM_BLOCK:
 
@@ -2018,7 +2024,7 @@ VRAM-compressed unsigned формат даних плавучих точок з 
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x5_SRGB_BLOCK** = ``173``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в блоки 10 × 5. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×5 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x6_UNORM_BLOCK:
 
@@ -2034,7 +2040,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x6_SRGB_BLOCK** = ``175``
 
-VRAM-compressed unsigned формат даних плавучих точок з нормалізованою вартістю та нелінійним кодуванням sRGB, упаковано в блоки 10×6. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×6 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x8_UNORM_BLOCK:
 
@@ -2050,7 +2056,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x8_SRGB_BLOCK** = ``177``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 10 × 8 блоків. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×8 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_10x10_UNORM_BLOCK:
 
@@ -2066,7 +2072,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_10x10_SRGB_BLOCK** = ``179``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 10 × 10 блоків. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 10×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x10_UNORM_BLOCK:
 
@@ -2082,7 +2088,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x10_SRGB_BLOCK** = ``181``
 
-VRAM-compressed unsigned потоковий формат даних з нормалізованою вартістю та нелінійним кодуванням sRGB, упаковано в блоки 12 × 10. Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 12×10 blocks. Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_ASTC_12x12_UNORM_BLOCK:
 
@@ -2098,7 +2104,7 @@ VRAM-compressed не відзначає формат даних плавленн
 
 :ref:`DataFormat<enum_RenderingDevice_DataFormat>` **DATA_FORMAT_ASTC_12x12_SRGB_BLOCK** = ``183``
 
-VRAM-compressed unsigned формат даних плавучих точок з нормалізованою вартістю та нелінійним кодуванням sRGB, упакованим в 12 блоків (нижча якість). Ціни вказані в діапазоні ``[0.0, 1.0]``. Використання стиснення ASTC.
+VRAM-compressed unsigned floating-point data format with normalized value and nonlinear sRGB encoding, packed in 12 blocks (lowest quality). Values are in the ``[0.0, 1.0]`` range. Using ASTC compression.
 
 .. _class_RenderingDevice_constant_DATA_FORMAT_G8B8G8R8_422_UNORM:
 
@@ -2796,6 +2802,14 @@ flags **TextureUsageBits**: :ref:`🔗<enum_RenderingDevice_TextureUsageBits>`
 
 Текстура може бути використана як глибинне кріплення в каркасному буфері.
 
+.. _class_RenderingDevice_constant_TEXTURE_USAGE_DEPTH_RESOLVE_ATTACHMENT_BIT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`TextureUsageBits<enum_RenderingDevice_TextureUsageBits>` **TEXTURE_USAGE_DEPTH_RESOLVE_ATTACHMENT_BIT** = ``4096``
+
+Texture can be used as a depth/stencil resolve attachment in a framebuffer.
+
 .. _class_RenderingDevice_constant_TEXTURE_USAGE_STORAGE_BIT:
 
 .. rst-class:: classref-enumeration-constant
@@ -3313,11 +3327,35 @@ enum **UniformType**: :ref:`🔗<enum_RenderingDevice_UniformType>`
 
 Вхідна форма кріплення.
 
+.. _class_RenderingDevice_constant_UNIFORM_TYPE_UNIFORM_BUFFER_DYNAMIC:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_UNIFORM_BUFFER_DYNAMIC** = ``10``
+
+Same as UNIFORM_TYPE_UNIFORM_BUFFER but for buffers created with BUFFER_CREATION_DYNAMIC_PERSISTENT_BIT.
+
+\ **Note:** This flag is not available to GD users due to being too dangerous (i.e. wrong usage can result in visual glitches).
+
+It's exposed in case GD users receive a buffer created with such flag from Godot.
+
+.. _class_RenderingDevice_constant_UNIFORM_TYPE_STORAGE_BUFFER_DYNAMIC:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_STORAGE_BUFFER_DYNAMIC** = ``11``
+
+Same as UNIFORM_TYPE_STORAGE_BUFFER but for buffers created with BUFFER_CREATION_DYNAMIC_PERSISTENT_BIT.
+
+\ **Note:** This flag is not available to GD users due to being too dangerous (i.e. wrong usage can result in visual glitches).
+
+It's exposed in case GD users receive a buffer created with such flag from Godot.
+
 .. _class_RenderingDevice_constant_UNIFORM_TYPE_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_MAX** = ``10``
+:ref:`UniformType<enum_RenderingDevice_UniformType>` **UNIFORM_TYPE_MAX** = ``12``
 
 Представляємо розмір :ref:`UniformType<enum_RenderingDevice_UniformType>` enum.
 
@@ -5472,9 +5510,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **compute_pipeline_create**\ (\ shader\: :ref:`RID<class_RID>`, specialization_constants\: :ref:`Array<class_Array>`\[:ref:`RDPipelineSpecializationConstant<class_RDPipelineSpecializationConstant>`\] = []\ ) :ref:`🔗<class_RenderingDevice_method_compute_pipeline_create>`
 
-Створює новий обчислювальний конвеєр. До нього можна отримати доступ за допомогою повернутого RID.
+Creates a new compute pipeline. It can be accessed with the RID that is returned.
 
-Після завершення створення RID вам потрібно звільнити його за допомогою методу :ref:`free_rid()<class_RenderingDevice_method_free_rid>` класу RenderingDevice.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``shader`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -5665,6 +5705,18 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 ----
 
+.. _class_RenderingDevice_method_draw_list_bind_vertex_buffers_format:
+
+.. rst-class:: classref-method
+
+|void| **draw_list_bind_vertex_buffers_format**\ (\ draw_list\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, vertex_count\: :ref:`int<class_int>`, vertex_buffers\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], offsets\: :ref:`PackedInt64Array<class_PackedInt64Array>` = PackedInt64Array()\ ) :ref:`🔗<class_RenderingDevice_method_draw_list_bind_vertex_buffers_format>`
+
+Binds a set of ``vertex_buffers`` directly to the specified ``draw_list`` using ``vertex_format`` without creating a vertex array RID. Provide the number of vertices in ``vertex_count``; optional per-buffer byte ``offsets`` may also be supplied.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_RenderingDevice_method_draw_list_disable_scissor:
 
 .. rst-class:: classref-method
@@ -5783,9 +5835,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **framebuffer_create**\ (\ textures\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], validate_with_format\: :ref:`int<class_int>` = -1, view_count\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_RenderingDevice_method_framebuffer_create>`
 
-Створює новий буфер кадру. До нього можна отримати доступ за допомогою повернутого RID.
+Creates a new framebuffer. It can be accessed with the RID that is returned.
 
-Після завершення створення RID вам потрібно звільнити його за допомогою методу :ref:`free_rid()<class_RenderingDevice_method_free_rid>` класу RenderingDevice.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when any of the ``textures`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -5811,9 +5865,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **framebuffer_create_multipass**\ (\ textures\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], passes\: :ref:`Array<class_Array>`\[:ref:`RDFramebufferPass<class_RDFramebufferPass>`\], validate_with_format\: :ref:`int<class_int>` = -1, view_count\: :ref:`int<class_int>` = 1\ ) :ref:`🔗<class_RenderingDevice_method_framebuffer_create_multipass>`
 
-Створення нового багатоходового каркаса. Ви можете отримати доступ до RID, який повертається.
+Creates a new multipass framebuffer. It can be accessed with the RID that is returned.
 
-Після закінчення з вашим RID ви хочете звільнити RID за допомогою методу RenderingDevice :ref:`free_rid()<class_RenderingDevice_method_free_rid>`.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when any of the ``textures`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6275,9 +6331,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **index_array_create**\ (\ index_buffer\: :ref:`RID<class_RID>`, index_offset\: :ref:`int<class_int>`, index_count\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_index_array_create>`
 
-Створює новий індексний масив. Ви можете отримати доступ до RID, який повертається.
+Creates a new index array. It can be accessed with the RID that is returned.
 
-Після закінчення з вашим RID ви хочете звільнити RID за допомогою методу RenderingDevice :ref:`free_rid()<class_RenderingDevice_method_free_rid>`.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``index_buffer`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6317,9 +6375,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **render_pipeline_create**\ (\ shader\: :ref:`RID<class_RID>`, framebuffer_format\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, primitive\: :ref:`RenderPrimitive<enum_RenderingDevice_RenderPrimitive>`, rasterization_state\: :ref:`RDPipelineRasterizationState<class_RDPipelineRasterizationState>`, multisample_state\: :ref:`RDPipelineMultisampleState<class_RDPipelineMultisampleState>`, stencil_state\: :ref:`RDPipelineDepthStencilState<class_RDPipelineDepthStencilState>`, color_blend_state\: :ref:`RDPipelineColorBlendState<class_RDPipelineColorBlendState>`, dynamic_state_flags\: |bitfield|\[:ref:`PipelineDynamicStateFlags<enum_RenderingDevice_PipelineDynamicStateFlags>`\] = 0, for_render_pass\: :ref:`int<class_int>` = 0, specialization_constants\: :ref:`Array<class_Array>`\[:ref:`RDPipelineSpecializationConstant<class_RDPipelineSpecializationConstant>`\] = []\ ) :ref:`🔗<class_RenderingDevice_method_render_pipeline_create>`
 
-Створення нового рендерного трубопроводу. Ви можете отримати доступ до RID, який повертається.
+Creates a new render pipeline. It can be accessed with the RID that is returned.
 
-Після закінчення з вашим RID ви хочете звільнити RID за допомогою методу RenderingDevice :ref:`free_rid()<class_RenderingDevice_method_free_rid>`.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``shader`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6631,7 +6691,9 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **texture_create_shared**\ (\ view\: :ref:`RDTextureView<class_RDTextureView>`, with_texture\: :ref:`RID<class_RID>`\ ) :ref:`🔗<class_RenderingDevice_method_texture_create_shared>`
 
-Створює спільну фактуру за допомогою зазначеної ``view`` та фактурної інформації з ``with_texture``.
+Creates a shared texture using the specified ``view`` and the texture information from ``with_texture``.
+
+This will be freed automatically when the ``with_texture`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6643,11 +6705,13 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **texture_create_shared_from_slice**\ (\ view\: :ref:`RDTextureView<class_RDTextureView>`, with_texture\: :ref:`RID<class_RID>`, layer\: :ref:`int<class_int>`, mipmap\: :ref:`int<class_int>`, mipmaps\: :ref:`int<class_int>` = 1, slice_type\: :ref:`TextureSliceType<enum_RenderingDevice_TextureSliceType>` = 0\ ) :ref:`🔗<class_RenderingDevice_method_texture_create_shared_from_slice>`
 
-Створює спільну текстуру, використовуючи вказаний ``view`` і інформацію про текстуру з ``with_texture`` ``layer`` і ``mipmap``. Кількість включених mipmap з оригінальної текстури можна контролювати за допомогою параметра ``mipmaps``. Релевантно лише для текстур із кількома шарами, наприклад 3D-текстур, масивів текстур і кубичних карт. Для одношарових текстур використовуйте ``methodtexture_create_shared``. 
+Creates a shared texture using the specified ``view`` and the texture information from ``with_texture``'s ``layer`` and ``mipmap``. The number of included mipmaps from the original texture can be controlled using the ``mipmaps`` parameter. Only relevant for textures with multiple layers, such as 3D textures, texture arrays and cubemaps. For single-layer textures, use :ref:`texture_create_shared()<class_RenderingDevice_method_texture_create_shared>`.
 
-Для двовимірних текстур (які мають лише один шар) ``layer`` має бути ``0``. 
+For 2D textures (which only have one layer), ``layer`` must be ``0``.
 
-\ **Примітка:** Нарізка шарів підтримується лише для масивів 2D текстур, а не для 3D текстур або кубичних карт.
+\ **Note:** Layer slicing is only supported for 2D texture arrays, not 3D textures or cubemaps.
+
+This will be freed automatically when the ``with_texture`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6852,9 +6916,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **uniform_set_create**\ (\ uniforms\: :ref:`Array<class_Array>`\[:ref:`RDUniform<class_RDUniform>`\], shader\: :ref:`RID<class_RID>`, shader_set\: :ref:`int<class_int>`\ ) :ref:`🔗<class_RenderingDevice_method_uniform_set_create>`
 
-Створює новий єдиний набір. Ви можете отримати доступ до RID, який повертається.
+Creates a new uniform set. It can be accessed with the RID that is returned.
 
-Після закінчення з вашим RID ви хочете звільнити RID за допомогою методу RenderingDevice :ref:`free_rid()<class_RenderingDevice_method_free_rid>`.
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when the ``shader`` or any of the RIDs in the ``uniforms`` is freed.
 
 .. rst-class:: classref-item-separator
 
@@ -6878,7 +6944,11 @@ flags **DrawFlags**: :ref:`🔗<enum_RenderingDevice_DrawFlags>`
 
 :ref:`RID<class_RID>` **vertex_array_create**\ (\ vertex_count\: :ref:`int<class_int>`, vertex_format\: :ref:`int<class_int>`, src_buffers\: :ref:`Array<class_Array>`\[:ref:`RID<class_RID>`\], offsets\: :ref:`PackedInt64Array<class_PackedInt64Array>` = PackedInt64Array()\ ) :ref:`🔗<class_RenderingDevice_method_vertex_array_create>`
 
-Створює хребтовий масив на основі зазначених буферів. Для кожного буфера може бути визначений варіант ``offsets`` (в байтах).
+Creates a vertex array based on the specified buffers. Optionally, ``offsets`` (in bytes) may be defined for each buffer.
+
+Once finished with your RID, you will want to free the RID using the RenderingDevice's :ref:`free_rid()<class_RenderingDevice_method_free_rid>` method.
+
+This will be freed automatically when any of the ``src_buffers`` is freed.
 
 .. rst-class:: classref-item-separator
 

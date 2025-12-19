@@ -253,9 +253,9 @@ Script
 
 :ref:`Array<class_Array>`\[:ref:`Dictionary<class_Dictionary>`\] **get_script_signal_list**\ (\ ) :ref:`🔗<class_Script_method_get_script_signal_list>`
 
-Возвращает список пользовательских сигналов, определенных в этом **Script**.
+Returns the list of signals defined in this **Script**.
 
-\ **Примечание:** Словари, возвращаемые этим методом, отформатированы так же, как и возвращаемые :ref:`Object.get_signal_list()<class_Object_method_get_signal_list>`.
+\ **Note:** The dictionaries returned by this method are formatted identically to those returned by :ref:`Object.get_signal_list()<class_Object_method_get_signal_list>`.
 
 .. rst-class:: classref-item-separator
 

@@ -33,6 +33,8 @@ MissingNode
    +-----------------------------+------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`     | :ref:`recording_properties<class_MissingNode_property_recording_properties>` |
    +-----------------------------+------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`     | :ref:`recording_signals<class_MissingNode_property_recording_signals>`       |
+   +-----------------------------+------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
 
@@ -89,6 +91,23 @@ MissingNode
 - :ref:`bool<class_bool>` **is_recording_properties**\ (\ )
 
 如果为 ``true``\ ，则允许将新属性与已有属性一起设置。如果为 ``false``\ ，则只能设置已有属性的值，并且无法添加新属性。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_MissingNode_property_recording_signals:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **recording_signals** :ref:`🔗<class_MissingNode_property_recording_signals>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_recording_signals**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_recording_signals**\ (\ )
+
+If ``true``, allows new signals to be connected to along with existing ones. If ``false``, only existing signals can be connected to, and new signals cannot be added.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

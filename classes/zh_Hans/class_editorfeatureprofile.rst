@@ -103,6 +103,8 @@ AssetLib 选项卡。如果禁用此功能，则不会显示 AssetLib 选项卡�
 
 :ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_NODE_DOCK** = ``4``
 
+**已弃用：** Replaced by the Signals and Groups docks.
+
 节点面板。如果此功能被禁用，信号和组将不可见，也不能从编辑器中修改。
 
 .. _class_EditorFeatureProfile_constant_FEATURE_FILESYSTEM_DOCK:
@@ -137,11 +139,27 @@ AssetLib 选项卡。如果禁用此功能，则不会显示 AssetLib 选项卡�
 
 游戏选项卡，能够在其中嵌入游戏窗口，在游戏窗口中通过点击选择节点。如果禁用此功能，则不会显示游戏选项卡。
 
+.. _class_EditorFeatureProfile_constant_FEATURE_SIGNALS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_SIGNALS_DOCK** = ``9``
+
+The Signals dock. If this feature is disabled, signals won't be visible and modifiable from the editor.
+
+.. _class_EditorFeatureProfile_constant_FEATURE_GROUPS_DOCK:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_GROUPS_DOCK** = ``10``
+
+The Groups dock. If this feature is disabled, groups won't be visible and modifiable from the editor.
+
 .. _class_EditorFeatureProfile_constant_FEATURE_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``9``
+:ref:`Feature<enum_EditorFeatureProfile_Feature>` **FEATURE_MAX** = ``11``
 
 代表 :ref:`Feature<enum_EditorFeatureProfile_Feature>` 枚举的大小。
 

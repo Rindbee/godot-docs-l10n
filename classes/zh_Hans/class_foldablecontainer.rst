@@ -1,7 +1,7 @@
 :github_url: hide
 
 .. meta::
-	:keywords: expandable, collapsible, collapse
+	:keywords: expandable, collapsible, collapse, accordion, details
 
 .. _class_FoldableContainer:
 
@@ -17,15 +17,11 @@ FoldableContainer
 描述
 ----
 
-能够展开、折叠的容器，标题中可以添加按钮等控件。
+A container that can be expanded/collapsed, with a title that can be filled with controls, such as buttons. This is also called an accordion.
 
-标题可以放在容器的顶部或底部。
+The title can be positioned at the top or bottom of the container. The container can be expanded or collapsed by clicking the title or by pressing ``ui_accept`` when focused. Child control nodes are hidden when the container is collapsed. Ignores non-control children.
 
-点击标题或在聚焦时按下 ``ui_accept`` 可以将容器展开或折叠。
-
-容器折叠时子控件节点隐藏。忽略非控件子节点。
-
-可以与其他 FoldableContainer 分组，见 :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` 和 :ref:`FoldableGroup<class_FoldableGroup>`\ 。
+A FoldableContainer can be grouped with other FoldableContainers so that only one of them can be opened at a time; see :ref:`foldable_group<class_FoldableContainer_property_foldable_group>` and :ref:`FoldableGroup<class_FoldableGroup>`.
 
 .. rst-class:: classref-reftable-group
 
@@ -223,7 +219,7 @@ enum **TitlePosition**: :ref:`🔗<enum_FoldableContainer_TitlePosition>`
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-语言代码，用于文本塑形算法。如果留空则使用当前区域设置。
+Language code used for text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 

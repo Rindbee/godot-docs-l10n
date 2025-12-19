@@ -39,13 +39,13 @@ MeshInstance3D is a node that takes a :ref:`Mesh<class_Mesh>` resource and adds 
 .. table::
    :widths: auto
 
-   +---------------------------------+---------------------------------------------------------+--------------------+
-   | :ref:`Mesh<class_Mesh>`         | :ref:`mesh<class_MeshInstance3D_property_mesh>`         |                    |
-   +---------------------------------+---------------------------------------------------------+--------------------+
-   | :ref:`NodePath<class_NodePath>` | :ref:`skeleton<class_MeshInstance3D_property_skeleton>` | ``NodePath("..")`` |
-   +---------------------------------+---------------------------------------------------------+--------------------+
-   | :ref:`Skin<class_Skin>`         | :ref:`skin<class_MeshInstance3D_property_skin>`         |                    |
-   +---------------------------------+---------------------------------------------------------+--------------------+
+   +---------------------------------+---------------------------------------------------------+------------------+
+   | :ref:`Mesh<class_Mesh>`         | :ref:`mesh<class_MeshInstance3D_property_mesh>`         |                  |
+   +---------------------------------+---------------------------------------------------------+------------------+
+   | :ref:`NodePath<class_NodePath>` | :ref:`skeleton<class_MeshInstance3D_property_skeleton>` | ``NodePath("")`` |
+   +---------------------------------+---------------------------------------------------------+------------------+
+   | :ref:`Skin<class_Skin>`         | :ref:`skin<class_MeshInstance3D_property_skin>`         |                  |
+   +---------------------------------+---------------------------------------------------------+------------------+
 
 .. rst-class:: classref-reftable-group
 
@@ -117,14 +117,16 @@ MeshInstance3D is a node that takes a :ref:`Mesh<class_Mesh>` resource and adds 
 
 .. rst-class:: classref-property
 
-:ref:`NodePath<class_NodePath>` **skeleton** = ``NodePath("..")`` :ref:`🔗<class_MeshInstance3D_property_skeleton>`
+:ref:`NodePath<class_NodePath>` **skeleton** = ``NodePath("")`` :ref:`🔗<class_MeshInstance3D_property_skeleton>`
 
 .. rst-class:: classref-property-setget
 
 - |void| **set_skeleton_path**\ (\ value\: :ref:`NodePath<class_NodePath>`\ )
 - :ref:`NodePath<class_NodePath>` **get_skeleton_path**\ (\ )
 
-到與此實例關聯的 :ref:`Skeleton3D<class_Skeleton3D>` 的 :ref:`NodePath<class_NodePath>`\ 。
+:ref:`NodePath<class_NodePath>` to the :ref:`Skeleton3D<class_Skeleton3D>` associated with the instance.
+
+\ **Note:** The default value of this property has changed in Godot 4.6. Enable :ref:`ProjectSettings.animation/compatibility/default_parent_skeleton_in_mesh_instance_3d<class_ProjectSettings_property_animation/compatibility/default_parent_skeleton_in_mesh_instance_3d>` if the old behavior is needed for compatibility.
 
 .. rst-class:: classref-item-separator
 

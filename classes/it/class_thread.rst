@@ -14,17 +14,15 @@ Un unità di esecuzione in un processo.
 Descrizione
 ----------------------
 
-Un'unità di esecuzione in un processo. Può eseguire metodi sui :ref:`Object<class_Object>` simultaneamente. Si consiglia di utilizzare la sincronizzazione tramite :ref:`Mutex<class_Mutex>` o :ref:`Semaphore<class_Semaphore>` se si lavora con oggetti condivisi.
+A unit of execution in a process. Can run methods on :ref:`Object<class_Object>`\ s simultaneously. The use of synchronization via :ref:`Mutex<class_Mutex>` or :ref:`Semaphore<class_Semaphore>` is advised if working with shared objects.
 
-\ **Avviso:**\ 
+\ **Warning:** To ensure proper cleanup without crashes or deadlocks, when a **Thread**'s reference count reaches zero and it is therefore destroyed, the following conditions must be met:
 
-Per garantire una pulizia corretta senza crash o deadlock, quando il conteggio dei riferimenti di un **Thread** raggiunge zero e viene quindi distrutto, devono essere soddisfatte le seguenti condizioni:
+- It must not have any :ref:`Mutex<class_Mutex>` objects locked.
 
-- Non deve avere alcun oggetto :ref:`Mutex<class_Mutex>` bloccato.
+- It must not be waiting on any :ref:`Semaphore<class_Semaphore>` objects.
 
-- Non deve essere in attesa di alcun oggetto :ref:`Semaphore<class_Semaphore>`.
-
-- Si sarebbe dovuto richiamare :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` su di esso.
+- :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` should have been called on it.
 
 .. rst-class:: classref-introduction-group
 
@@ -49,6 +47,8 @@ Metodi
    | :ref:`String<class_String>`           | :ref:`get_id<class_Thread_method_get_id>`\ (\ ) |const|                                                                                         |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`               | :ref:`is_alive<class_Thread_method_is_alive>`\ (\ ) |const|                                                                                     |
+   +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`               | :ref:`is_main_thread<class_Thread_method_is_main_thread>`\ (\ ) |static|                                                                        |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`               | :ref:`is_started<class_Thread_method_is_started>`\ (\ ) |const|                                                                                 |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -128,6 +128,20 @@ Restituisce l'ID del **Thread** attuale, identificandolo in modo univoco tra tut
 Restituisce ``true`` se questo **Thread** sta attualmente eseguendo la funzione fornita. Ciò è utile per determinare se :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` può essere chiamato senza bloccare il thread chiamante.
 
 Per verificare se un **Thread** è unibile, usa :ref:`is_started()<class_Thread_method_is_started>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Thread_method_is_main_thread:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_main_thread**\ (\ ) |static| :ref:`🔗<class_Thread_method_is_main_thread>`
+
+Returns ``true`` if the thread this method was called from is the main thread.
+
+\ **Note:** This is a static method and isn't associated with a specific **Thread** object.
 
 .. rst-class:: classref-item-separator
 

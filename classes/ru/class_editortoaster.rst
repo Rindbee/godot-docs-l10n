@@ -14,9 +14,9 @@ EditorToaster
 Описание
 ----------------
 
-Этот объект управляет функциональностью и отображением всплывающих уведомлений в редакторе, гарантируя предоставление пользователям своевременных и информативных оповещений.
+This object manages the functionality and display of toast notifications within the editor, ensuring immediate and informative alerts are presented to the user.
 
-\ **Примечание:** Этот класс не следует создавать напрямую. Вместо этого обращайтесь к синглтону с помощью :ref:`EditorInterface.get_editor_toaster()<class_EditorInterface_method_get_editor_toaster>`.
+\ **Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_editor_toaster()<class_EditorInterface_method_get_editor_toaster>`.
 
 .. rst-class:: classref-reftable-group
 

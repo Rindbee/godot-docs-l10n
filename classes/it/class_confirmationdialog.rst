@@ -7,7 +7,7 @@ ConfirmationDialog
 
 **Eredita:** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Ereditato da:** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`EditorFileDialog<class_EditorFileDialog>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
+**Ereditato da:** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
 
 Finestra di dialogo utilizzata per confermare le azioni.
 
@@ -16,9 +16,9 @@ Finestra di dialogo utilizzata per confermare le azioni.
 Descrizione
 ----------------------
 
-Una finestra di dialogo utilizzata per la conferma delle azioni. Questa finestra è simile a :ref:`AcceptDialog<class_AcceptDialog>`, ma premendo il pulsante Annulla è possibile ottenere un risultato diverso rispetto alla pressione del pulsante OK. L'ordine dei due pulsanti varia a seconda del sistema operativo.
+A dialog used for confirmation of actions. This window is similar to :ref:`AcceptDialog<class_AcceptDialog>`, but pressing its Cancel button can have a different outcome from pressing the OK button. The order of the two buttons varies depending on the host OS.
 
-Per ottenere l'azione di annullamento, puoi usare:
+To get cancel action, you can use:
 
 
 .. tabs::
@@ -32,6 +32,8 @@ Per ottenere l'azione di annullamento, puoi usare:
     GetCancelButton().Pressed += OnCanceled;
 
 
+
+\ **Note:** :ref:`AcceptDialog<class_AcceptDialog>` is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
 
 .. rst-class:: classref-reftable-group
 

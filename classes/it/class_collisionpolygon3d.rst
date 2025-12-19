@@ -14,9 +14,9 @@ Un nodo che fornisce una forma poligonale ispessita (un prisma) a un :ref:`Colli
 Descrizione
 ----------------------
 
-Un nodo che fornisce una forma poligonale ispessita (un prisma) a un genitore :ref:`CollisionObject3D<class_CollisionObject3D>` e consente di modificarla. Il poligono può essere concavo o convesso. Ciò può dare una forma di rilevamento a un :ref:`Area3D<class_Area3D>` o trasformare un :ref:`PhysicsBody3D<class_PhysicsBody3D>` in un oggetto solido.
+A node that provides a thickened polygon shape (a prism) to a :ref:`CollisionObject3D<class_CollisionObject3D>` parent and allows it to be edited. The polygon can be concave or convex. This can give a detection shape to an :ref:`Area3D<class_Area3D>` or turn a :ref:`PhysicsBody3D<class_PhysicsBody3D>` into a solid object.
 
-\ **Attenzione:** Un :ref:`CollisionShape3D<class_CollisionShape3D>` ridimensionato in modo non uniforme probabilmente non si comporterà come previsto. Assicurati di mantenere la sua scala uguale su tutti gli assi e regola invece la sua risorsa forma.
+\ **Warning:** A non-uniformly scaled :ref:`CollisionShape3D<class_CollisionShape3D>` will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its shape resource instead.
 
 .. rst-class:: classref-reftable-group
 

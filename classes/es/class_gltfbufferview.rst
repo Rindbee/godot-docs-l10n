@@ -58,7 +58,11 @@ Métodos
    :widths: auto
 
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`GLTFBufferView<class_GLTFBufferView>`   | :ref:`from_dictionary<class_GLTFBufferView_method_from_dictionary>`\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static|     |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`PackedByteArray<class_PackedByteArray>` | :ref:`load_buffer_view_data<class_GLTFBufferView_method_load_buffer_view_data>`\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) |const| |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Dictionary<class_Dictionary>`           | :ref:`to_dictionary<class_GLTFBufferView_method_to_dictionary>`\ (\ ) |const|                                                            |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. rst-class:: classref-section-separator
@@ -177,6 +181,18 @@ Es ``true`` si el tipo de búfer OpenGL GPU de GLTFBufferView es un ``ARRAY_BUFF
 Descripciones de Métodos
 ------------------------------------------------
 
+.. _class_GLTFBufferView_method_from_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`GLTFBufferView<class_GLTFBufferView>` **from_dictionary**\ (\ dictionary\: :ref:`Dictionary<class_Dictionary>`\ ) |static| :ref:`🔗<class_GLTFBufferView_method_from_dictionary>`
+
+Creates a new GLTFBufferView instance by parsing the given :ref:`Dictionary<class_Dictionary>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_GLTFBufferView_method_load_buffer_view_data:
 
 .. rst-class:: classref-method
@@ -184,6 +200,18 @@ Descripciones de Métodos
 :ref:`PackedByteArray<class_PackedByteArray>` **load_buffer_view_data**\ (\ state\: :ref:`GLTFState<class_GLTFState>`\ ) |const| :ref:`🔗<class_GLTFBufferView_method_load_buffer_view_data>`
 
 Carga los datos de la vista de búfer del búfer al que hace referencia esta vista de búfer en el :ref:`GLTFState<class_GLTFState>` dado. Los datos entrelazados con un byte stride aún no son compatibles con este método. Los datos se devuelven como un :ref:`PackedByteArray<class_PackedByteArray>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_GLTFBufferView_method_to_dictionary:
+
+.. rst-class:: classref-method
+
+:ref:`Dictionary<class_Dictionary>` **to_dictionary**\ (\ ) |const| :ref:`🔗<class_GLTFBufferView_method_to_dictionary>`
+
+Serializes this GLTFBufferView instance into a :ref:`Dictionary<class_Dictionary>`.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

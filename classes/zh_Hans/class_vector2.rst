@@ -420,13 +420,13 @@ Y 轴的枚举值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`float<class_float>` **angle**\ (\ ) |const| :ref:`🔗<class_Vector2_method_angle>`
 
-返回该向量与 X 轴正方向的夹角，单位为弧度。X 轴正方向为 ``(1, 0)`` 向量。
+Returns this vector's angle with respect to the positive X axis, or ``(1, 0)`` vector, in radians.
 
-例如，\ ``Vector2.RIGHT.angle()`` 将返回零，\ ``Vector2.DOWN.angle()`` 将返回 ``PI / 2``\ （四分之一圈，即 90 度），\ ``Vector2(1, -1).angle()`` 将返回 ``-PI / 4``\ （负八分之一圈，即 -45 度）。
+For example, ``Vector2.RIGHT.angle()`` will return zero, ``Vector2.DOWN.angle()`` will return ``PI / 2`` (a quarter turn, or 90 degrees), and ``Vector2(1, -1).angle()`` will return ``-PI / 4`` (a negative eighth turn, or -45 degrees).
 
-\ `返回夹角示意图。 <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle.png>`__\ 
+This is equivalent to calling :ref:`@GlobalScope.atan2()<class_@GlobalScope_method_atan2>` with :ref:`y<class_Vector2_property_y>` and :ref:`x<class_Vector2_property_x>`.
 
-相当于使用该向量的 :ref:`y<class_Vector2_property_y>` 和 :ref:`x<class_Vector2_property_x>` 作为参数对 :ref:`@GlobalScope.atan2()<class_@GlobalScope_method_atan2>` 进行调用的结果：\ ``atan2(y, x)``\ 。
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -438,9 +438,9 @@ Y 轴的枚举值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`float<class_float>` **angle_to**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_angle_to>`
 
-返回与给定向量的带符号夹角，单位为弧度。
+Returns the signed angle to the given vector, in radians. The result ranges from ``-PI`` to ``PI`` (inclusive).
 
-\ `返回夹角示意图。 <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -452,11 +452,11 @@ Y 轴的枚举值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`float<class_float>` **angle_to_point**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_angle_to_point>`
 
-返回连接两点的直线与 X 轴之间的夹角，单位为弧度。
+Returns the signed angle between the X axis and the line from this vector to point ``to``, in radians. The result ranges from ``-PI`` to ``PI`` (inclusive).
 
-\ ``a.angle_to_point(b)`` 等价于 ``(b - a).angle()``\ 。
+\ ``a.angle_to_point(b)`` is equivalent to ``(b - a).angle()``. See also :ref:`angle()<class_Vector2_method_angle>`.
 
-\ `返回夹角示意图。 <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to_point.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/vector2_angle_to_point.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -468,7 +468,7 @@ Y 轴的枚举值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`float<class_float>` **aspect**\ (\ ) |const| :ref:`🔗<class_Vector2_method_aspect>`
 
-返回该向量的长宽比，即 :ref:`x<class_Vector2_property_x>` 与 :ref:`y<class_Vector2_property_y>` 的比例。
+Returns this vector's aspect ratio, which is :ref:`x<class_Vector2_property_x>` divided by :ref:`y<class_Vector2_property_y>`.
 
 .. rst-class:: classref-item-separator
 
@@ -596,7 +596,9 @@ Y 轴的枚举值。由 :ref:`max_axis_index()<class_Vector2_method_max_axis_ind
 
 :ref:`Vector2<class_Vector2>` **direction_to**\ (\ to\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Vector2_method_direction_to>`
 
-返回从该向量指向 ``to`` 的归一化向量。相当于使用 ``(b - a).normalized()``\ 。
+Returns the normalized vector pointing from this vector to ``to``.
+
+\ ``a.direction_to(b)`` is equivalent to ``(b - a).normalized()``. See also :ref:`normalized()<class_Vector2_method_normalized>`.
 
 .. rst-class:: classref-item-separator
 

@@ -286,7 +286,7 @@ Descrizioni delle proprietà
 - |void| **set_cast_shadows_setting**\ (\ value\: :ref:`ShadowCastingSetting<enum_GeometryInstance3D_ShadowCastingSetting>`\ )
 - :ref:`ShadowCastingSetting<enum_GeometryInstance3D_ShadowCastingSetting>` **get_cast_shadows_setting**\ (\ )
 
-Il flag di proiezione delle ombre selezionato.
+The mode used to cast shadows from this instance.
 
 .. rst-class:: classref-item-separator
 

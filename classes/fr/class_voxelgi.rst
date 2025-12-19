@@ -174,9 +174,9 @@ La ressource :ref:`VoxelGIData<class_VoxelGIData>` qui contient les données de 
 - |void| **set_size**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_size**\ (\ )
 
-La taille de la zone couverte par le **VoxelGI**. Si vous rendez la taille plus grande sans augmenter les sous-divisions avec :ref:`subdiv<class_VoxelGI_property_subdiv>`, la taille de chaque cellule augmentera et résultant en un éclairage moins détaillé.
+The size of the area covered by the **VoxelGI**. This must be ``1.0`` or greater on each axis.
 
-\ **Note :** La taille est bornée à 1,0 unité ou plus sur chaque axe.
+\ **Note:** If you make the size larger without increasing the number of subdivisions with :ref:`subdiv<class_VoxelGI_property_subdiv>`, the size of each cell will increase and result in less detailed lighting.
 
 .. rst-class:: classref-item-separator
 

@@ -21,6 +21,13 @@ Il nodo **PhysicalBone3D** è un corpo fisico che può essere utilizzato per far
 
 \ **Nota:** Per rilevare le ossa fisiche con i raycast, la proprietà :ref:`SkeletonModifier3D.active<class_SkeletonModifier3D_property_active>` del :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>` genitore deve essere ``true`` e l'osso dello :ref:`Skeleton3D<class_Skeleton3D>` deve essere assegnato correttamente a **PhysicalBone3D**; ciò significa che :ref:`get_bone_id()<class_PhysicalBone3D_method_get_bone_id>` dovrebbe restituire un ID valido (``>= 0``).
 
+.. rst-class:: classref-introduction-group
+
+Tutorial
+----------------
+
+- :doc:`Ragdoll System <../tutorials/physics/ragdoll_system>`
+
 .. rst-class:: classref-reftable-group
 
 Proprietà

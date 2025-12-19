@@ -789,7 +789,7 @@ Se ``true``, l'etichetta sottolinea i tag di suggerimento come ``[hint=descripti
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Controlla l'allineamento orizzontale del testo. Supporta sinistra, centro, destra, e riempi, o giustifica.
+Controlla l'allineamento orizzontale del testo. Supporta sinistra, centro, destra, e riempi (noto anche come giustifica).
 
 .. rst-class:: classref-item-separator
 
@@ -823,7 +823,7 @@ Regole di allineamento del riempimento per le righe.
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Codice della lingua usato per gli algoritmi di interruzione di riga e di formazione del testo, se lasciato vuoto è invece utilizzata la localizzazione attuale.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -2077,7 +2077,7 @@ Aggiunge un tag ``[p]`` allo stack dei tag.
 
 |void| **push_strikethrough**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_strikethrough>`
 
-Aggiunge un tag ``[s]`` allo stack dei tag. Se il valore alfa di ``color`` è zero, è utilizzato il colore del font attuale con alfa moltiplicato per :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>`.
+Adds a ``[s]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`strikethrough_alpha<class_RichTextLabel_theme_constant_strikethrough_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 
@@ -2101,7 +2101,7 @@ Aggiunge un tag ``[table=columns,inline_align]`` allo stack dei tag. Usa :ref:`s
 
 |void| **push_underline**\ (\ color\: :ref:`Color<class_Color>` = Color(0, 0, 0, 0)\ ) :ref:`🔗<class_RichTextLabel_method_push_underline>`
 
-Aggiunge un tag ``[u]`` allo stack dei tag. Se il valore alfa di ``color`` è zero, è utilizzato il colore attuale del font, con l'alfa moltiplicato per :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>`.
+Adds a ``[u]`` tag to the tag stack. If ``color``'s alpha value is ``0.0``, the current font's color with its alpha multiplied by :ref:`underline_alpha<class_RichTextLabel_theme_constant_underline_alpha>` is used.
 
 .. rst-class:: classref-item-separator
 

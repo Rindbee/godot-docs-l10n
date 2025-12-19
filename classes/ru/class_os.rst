@@ -739,15 +739,21 @@ enum **StdHandleType**: :ref:`🔗<enum_OS_StdHandleType>`
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_cmdline_args**\ (\ ) :ref:`🔗<class_OS_method_get_cmdline_args>`
 
-Возвращает аргументы командной строки, переданные движку.
+Returns the command-line arguments passed to the engine, excluding arguments processed by the engine, such as ``--headless`` and ``--fullscreen``.
 
-Аргументы командной строки могут быть записаны в любой форме, включая формы ``--key value`` и ``--key=value``, чтобы их можно было правильно проанализировать, пока пользовательские аргументы командной строки не конфликтуют с аргументами движка.
+::
 
-Вы также можете включить переменные среды, используя метод :ref:`get_environment()<class_OS_method_get_environment>`.
+    # Godot has been executed with the following command:
+    # godot --headless --verbose --scene my_scene.tscn --custom
+    OS.get_cmdline_args() # Returns ["--scene", "my_scene.tscn", "--custom"]
 
-Вы можете задать :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSettings_property_editor/run/main_run_args>`, чтобы определить аргументы командной строки, которые будут переданы редактором при запуске проекта.
+Command-line arguments can be written in any form, including both ``--key value`` and ``--key=value`` forms so they can be properly parsed, as long as custom command-line arguments do not conflict with engine arguments.
 
-\ **Пример:** Анализ аргументов командной строки в :ref:`Dictionary<class_Dictionary>`, используя форму ``--key=value`` для аргументов:
+You can also incorporate environment variables using the :ref:`get_environment()<class_OS_method_get_environment>` method.
+
+You can set :ref:`ProjectSettings.editor/run/main_run_args<class_ProjectSettings_property_editor/run/main_run_args>` to define command-line arguments to be passed by the editor when running the project.
+
+\ **Example:** Parse command-line arguments into a :ref:`Dictionary<class_Dictionary>` using the ``--key=value`` form for arguments:
 
 
 .. tabs::
@@ -760,8 +766,8 @@ enum **StdHandleType**: :ref:`🔗<enum_OS_StdHandleType>`
             var key_value = argument.split("=")
             arguments[key_value[0].trim_prefix("--")] = key_value[1]
         else:
-            # Варианты без аргумента будут присутствовать в словаре,
-            # со значением, равным пустой строке.
+            # Options without an argument will be present in the dictionary,
+            # with the value set to an empty string.
             arguments[argument.trim_prefix("--")] = ""
 
  .. code-tab:: csharp
@@ -776,15 +782,15 @@ enum **StdHandleType**: :ref:`🔗<enum_OS_StdHandleType>`
         }
         else
         {
-            // Варианты без аргумента будут присутствовать в словаре,
-            // со значением, равным пустой строке.
+            // Options without an argument will be present in the dictionary,
+            // with the value set to an empty string.
             arguments[argument.TrimPrefix("--")] = "";
         }
     }
 
 
 
-\ **Примечание:** Передача пользовательских аргументов напрямую не рекомендуется, так как движок может отбросить или изменить их. Вместо этого передайте стандартный двойной дефис UNIX (``--``), а затем пользовательские аргументы, которые движок будет игнорировать по умолчанию. Их можно прочитать с помощью :ref:`get_cmdline_user_args()<class_OS_method_get_cmdline_user_args>`.
+\ **Note:** Passing custom user arguments directly is not recommended, as the engine may discard or modify them. Instead, pass the standard UNIX double dash (``--``) and then the custom arguments, which the engine will ignore by design. These can be read via :ref:`get_cmdline_user_args()<class_OS_method_get_cmdline_user_args>`.
 
 .. rst-class:: classref-item-separator
 
@@ -796,17 +802,17 @@ enum **StdHandleType**: :ref:`🔗<enum_OS_StdHandleType>`
 
 :ref:`PackedStringArray<class_PackedStringArray>` **get_cmdline_user_args**\ (\ ) :ref:`🔗<class_OS_method_get_cmdline_user_args>`
 
-Возвращает аргументы пользователя командной строки, переданные движку. Аргументы пользователя игнорируются движком и зарезервированы для пользователя. Они передаются после аргумента с двойным тире ``--``. ``++`` может использоваться, когда ``--`` перехватывается другой программой (например, ``startx``).
+Returns the command-line user arguments passed to the engine. User arguments are ignored by the engine and reserved for the user. They are passed after the double dash ``--`` argument. ``++`` may be used when ``--`` is intercepted by another program (such as ``startx``).
 
 ::
 
-    # Godot был приведен в исполнение с помощью следующей команды:
-    # godot --fullscreen -- --level=2 --hardcore
+    # Godot has been executed with the following command:
+    # godot --fullscreen --custom -- --level=2 --hardcore
 
-    OS.get_cmdline_args()      # Возвращает ["--fullscreen", "--level=2", "--hardcore"]
-    OS.get_cmdline_user_args() # Возвращает ["--level=2", "--hardcore"]
+    OS.get_cmdline_args()      # Returns ["--custom"]
+    OS.get_cmdline_user_args() # Returns ["--level=2", "--hardcore"]
 
-Чтобы получить все переданные аргументы, используйте :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>`.
+To get arguments passed before ``--`` or ``++``, use :ref:`get_cmdline_args()<class_OS_method_get_cmdline_args>`.
 
 .. rst-class:: classref-item-separator
 

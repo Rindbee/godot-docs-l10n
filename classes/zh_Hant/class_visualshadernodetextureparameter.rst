@@ -67,7 +67,7 @@ enum **TextureType**: :ref:`🔗<enum_VisualShaderNodeTextureParameter_TextureTy
 
 :ref:`TextureType<enum_VisualShaderNodeTextureParameter_TextureType>` **TYPE_COLOR** = ``1``
 
-向該 uniform 宣告新增 ``source_color`` 提示，用於進行正確的 sRGB 到線性顏色空間的轉換。
+Adds ``source_color`` as hint to the uniform declaration for proper conversion from nonlinear sRGB encoding to linear encoding.
 
 .. _class_VisualShaderNodeTextureParameter_constant_TYPE_NORMAL_MAP:
 

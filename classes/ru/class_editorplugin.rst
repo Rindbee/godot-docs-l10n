@@ -78,6 +78,8 @@ EditorPlugin
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`_make_visible<class_EditorPlugin_private_method__make_visible>`\ (\ visible\: :ref:`bool<class_bool>`\ ) |virtual|                                                                                                                               |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`PackedStringArray<class_PackedStringArray>`         | :ref:`_run_scene<class_EditorPlugin_private_method__run_scene>`\ (\ scene\: :ref:`String<class_String>`, args\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |virtual| |const|                                                                 |
+   +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`_save_external_data<class_EditorPlugin_private_method__save_external_data>`\ (\ ) |virtual|                                                                                                                                                      |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`_set_state<class_EditorPlugin_private_method__set_state>`\ (\ state\: :ref:`Dictionary<class_Dictionary>`\ ) |virtual|                                                                                                                           |
@@ -97,6 +99,8 @@ EditorPlugin
    | |void|                                                    | :ref:`add_custom_type<class_EditorPlugin_method_add_custom_type>`\ (\ type\: :ref:`String<class_String>`, base\: :ref:`String<class_String>`, script\: :ref:`Script<class_Script>`, icon\: :ref:`Texture2D<class_Texture2D>`\ )                        |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`add_debugger_plugin<class_EditorPlugin_method_add_debugger_plugin>`\ (\ script\: :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`\ )                                                                                                      |
+   +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                    | :ref:`add_dock<class_EditorPlugin_method_add_dock>`\ (\ dock\: :ref:`EditorDock<class_EditorDock>`\ )                                                                                                                                                  |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`add_export_platform<class_EditorPlugin_method_add_export_platform>`\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`\ )                                                                                                    |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -151,6 +155,8 @@ EditorPlugin
    | |void|                                                    | :ref:`remove_custom_type<class_EditorPlugin_method_remove_custom_type>`\ (\ type\: :ref:`String<class_String>`\ )                                                                                                                                      |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`remove_debugger_plugin<class_EditorPlugin_method_remove_debugger_plugin>`\ (\ script\: :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`\ )                                                                                                |
+   +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | |void|                                                    | :ref:`remove_dock<class_EditorPlugin_method_remove_dock>`\ (\ dock\: :ref:`EditorDock<class_EditorDock>`\ )                                                                                                                                            |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | |void|                                                    | :ref:`remove_export_platform<class_EditorPlugin_method_remove_export_platform>`\ (\ platform\: :ref:`EditorExportPlatform<class_EditorExportPlatform>`\ )                                                                                              |
    +-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -383,6 +389,14 @@ enum **CustomControlContainer**: :ref:`🔗<enum_EditorPlugin_CustomControlConta
 
 enum **DockSlot**: :ref:`🔗<enum_EditorPlugin_DockSlot>`
 
+.. _class_EditorPlugin_constant_DOCK_SLOT_NONE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`DockSlot<enum_EditorPlugin_DockSlot>` **DOCK_SLOT_NONE** = ``-1``
+
+The dock is closed.
+
 .. _class_EditorPlugin_constant_DOCK_SLOT_LEFT_UL:
 
 .. rst-class:: classref-enumeration-constant
@@ -447,11 +461,19 @@ enum **DockSlot**: :ref:`🔗<enum_EditorPlugin_DockSlot>`
 
 Слот для док-станции, справа, внизу справа (в макете по умолчанию пуст).
 
+.. _class_EditorPlugin_constant_DOCK_SLOT_BOTTOM:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`DockSlot<enum_EditorPlugin_DockSlot>` **DOCK_SLOT_BOTTOM** = ``8``
+
+Bottom panel.
+
 .. _class_EditorPlugin_constant_DOCK_SLOT_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`DockSlot<enum_EditorPlugin_DockSlot>` **DOCK_SLOT_MAX** = ``8``
+:ref:`DockSlot<enum_EditorPlugin_DockSlot>` **DOCK_SLOT_MAX** = ``9``
 
 Представляет размер перечисления :ref:`DockSlot<enum_EditorPlugin_DockSlot>`.
 
@@ -1024,6 +1046,26 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 
 ----
 
+.. _class_EditorPlugin_private_method__run_scene:
+
+.. rst-class:: classref-method
+
+:ref:`PackedStringArray<class_PackedStringArray>` **_run_scene**\ (\ scene\: :ref:`String<class_String>`, args\: :ref:`PackedStringArray<class_PackedStringArray>`\ ) |virtual| |const| :ref:`🔗<class_EditorPlugin_private_method__run_scene>`
+
+This function is called when an individual scene is about to be played in the editor. ``args`` is a list of command line arguments that will be passed to the new Godot instance, which will be replaced by the list returned by this function.
+
+::
+
+    func _run_scene(scene, args):
+        args.append("--an-extra-argument")
+        return args
+
+\ **Note:** Text that is printed in this method will not be visible in the editor's Output panel unless :ref:`EditorSettings.run/output/always_clear_output_on_play<class_EditorSettings_property_run/output/always_clear_output_on_play>` is ``false``.
+
+.. rst-class:: classref-item-separator
+
+----
+
 .. _class_EditorPlugin_private_method__save_external_data:
 
 .. rst-class:: classref-method
@@ -1106,9 +1148,13 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 
 :ref:`Button<class_Button>` **add_control_to_bottom_panel**\ (\ control\: :ref:`Control<class_Control>`, title\: :ref:`String<class_String>`, shortcut\: :ref:`Shortcut<class_Shortcut>` = null\ ) :ref:`🔗<class_EditorPlugin_method_add_control_to_bottom_panel>`
 
-Добавляет элемент управления на нижнюю панель (вместе с Output, Debug, Animation и т. д.). Возвращает ссылку на добавленную кнопку. Вы можете скрыть/показать кнопку, когда это необходимо. Когда ваш плагин деактивирован, обязательно удалите свой пользовательский элемент управления с помощью :ref:`remove_control_from_bottom_panel()<class_EditorPlugin_method_remove_control_from_bottom_panel>` и освободите его с помощью :ref:`Node.queue_free()<class_Node_method_queue_free>`.
+**Устарело:** Use :ref:`add_dock()<class_EditorPlugin_method_add_dock>` instead, with :ref:`EditorDock.default_slot<class_EditorDock_property_default_slot>` set to :ref:`DOCK_SLOT_BOTTOM<class_EditorPlugin_constant_DOCK_SLOT_BOTTOM>`.
 
-При желании вы можете указать параметр сочетания клавиш. При нажатии этот ярлык переключит видимость нижней панели. См. сочетания клавиш нижней панели редактора по умолчанию в настройках редактора для вдохновения. Согласно соглашению, все они используют модификатор :kbd:`Alt`.
+Adds a control to the bottom panel (together with Output, Debug, Animation, etc.). Returns a reference to a button that is outside the scene tree. It's up to you to hide/show the button when needed. When your plugin is deactivated, make sure to remove your custom control with :ref:`remove_control_from_bottom_panel()<class_EditorPlugin_method_remove_control_from_bottom_panel>` and free it with :ref:`Node.queue_free()<class_Node_method_queue_free>`.
+
+\ ``shortcut`` is a shortcut that, when activated, will toggle the bottom panel's visibility. The shortcut object is only set when this control is added to the bottom panel.
+
+\ **Note** See the default editor bottom panel shortcuts in the Editor Settings for inspiration. By convention, they all use :kbd:`Alt` modifier.
 
 .. rst-class:: classref-item-separator
 
@@ -1135,6 +1181,8 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 .. rst-class:: classref-method
 
 |void| **add_control_to_dock**\ (\ slot\: :ref:`DockSlot<enum_EditorPlugin_DockSlot>`, control\: :ref:`Control<class_Control>`, shortcut\: :ref:`Shortcut<class_Shortcut>` = null\ ) :ref:`🔗<class_EditorPlugin_method_add_control_to_dock>`
+
+**Устарело:** Use :ref:`add_dock()<class_EditorPlugin_method_add_dock>` instead.
 
 Добавляет элемент управления в определенный слот дока.
 
@@ -1177,6 +1225,20 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 |void| **add_debugger_plugin**\ (\ script\: :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`\ ) :ref:`🔗<class_EditorPlugin_method_add_debugger_plugin>`
 
 Добавляет :ref:`Script<class_Script>` как плагин отладчика к Debugger. Скрипт должен расширять :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorPlugin_method_add_dock:
+
+.. rst-class:: classref-method
+
+|void| **add_dock**\ (\ dock\: :ref:`EditorDock<class_EditorDock>`\ ) :ref:`🔗<class_EditorPlugin_method_add_dock>`
+
+Adds a new dock.
+
+When your plugin is deactivated, make sure to remove your custom dock with :ref:`remove_dock()<class_EditorPlugin_method_remove_dock>` and free it with :ref:`Node.queue_free()<class_Node_method_queue_free>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1494,6 +1556,8 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 
 |void| **remove_control_from_bottom_panel**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_EditorPlugin_method_remove_control_from_bottom_panel>`
 
+**Устарело:** Use :ref:`remove_dock()<class_EditorPlugin_method_remove_dock>` instead.
+
 Удаляет элемент управления с нижней панели. Вам придется вручную :ref:`Node.queue_free()<class_Node_method_queue_free>` элемент управления.
 
 .. rst-class:: classref-item-separator
@@ -1517,6 +1581,8 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 .. rst-class:: classref-method
 
 |void| **remove_control_from_docks**\ (\ control\: :ref:`Control<class_Control>`\ ) :ref:`🔗<class_EditorPlugin_method_remove_control_from_docks>`
+
+**Устарело:** Use :ref:`remove_dock()<class_EditorPlugin_method_remove_dock>` instead.
 
 Удаляет элемент управления из дока. Вам придется вручную :ref:`Node.queue_free()<class_Node_method_queue_free>` элемент управления.
 
@@ -1543,6 +1609,18 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 |void| **remove_debugger_plugin**\ (\ script\: :ref:`EditorDebuggerPlugin<class_EditorDebuggerPlugin>`\ ) :ref:`🔗<class_EditorPlugin_method_remove_debugger_plugin>`
 
 Удаляет плагин отладчика с указанным скриптом из отладчика.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_EditorPlugin_method_remove_dock:
+
+.. rst-class:: classref-method
+
+|void| **remove_dock**\ (\ dock\: :ref:`EditorDock<class_EditorDock>`\ ) :ref:`🔗<class_EditorPlugin_method_remove_dock>`
+
+Removes ``dock`` from the available docks. You should manually call :ref:`Node.queue_free()<class_Node_method_queue_free>` to free it.
 
 .. rst-class:: classref-item-separator
 
@@ -1685,6 +1763,8 @@ enum **AfterGUIInput**: :ref:`🔗<enum_EditorPlugin_AfterGUIInput>`
 .. rst-class:: classref-method
 
 |void| **set_dock_tab_icon**\ (\ control\: :ref:`Control<class_Control>`, icon\: :ref:`Texture2D<class_Texture2D>`\ ) :ref:`🔗<class_EditorPlugin_method_set_dock_tab_icon>`
+
+**Устарело:** Use :ref:`EditorDock.dock_icon<class_EditorDock_property_dock_icon>` instead.
 
 Устанавливает значок вкладки для указанного элемента управления в слоте дока. Установка ``null`` удаляет значок.
 

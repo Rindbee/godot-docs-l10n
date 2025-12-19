@@ -96,13 +96,13 @@ Margen aplicado alrededor de cada glifo importado. Si tu imagen de fuente contie
 
 :ref:`PackedStringArray<class_PackedStringArray>` **character_ranges** = ``PackedStringArray()`` :ref:`🔗<class_ResourceImporterImageFont_property_character_ranges>`
 
-Los rangos de caracteres a importar desde la imagen de la fuente. Este es un array que mapea cada posición en la imagen (en coordenadas de tile, no píxeles). El atlas de la fuente se recorre de izquierda a derecha y de arriba a abajo. Los caracteres se pueden especificar con números decimales (127), números hexadecimales (``0x007f``, o ``U+007f``) o entre comillas simples (``'~'``). Los rangos se pueden especificar con un guión entre caracteres.
+The character ranges to import from the font image. This is an array that maps each position on the image (in tile coordinates, not pixels). The font atlas is traversed from left to right and top to bottom. Characters can be specified with decimal numbers (126), hexadecimal numbers (``0x007e`` or ``U+007e``), or between single quotes (``'~'``). Ranges can be specified with a hyphen between characters.
 
-Por ejemplo, ``0-127`` representa el rango ASCII completo. También se puede escribir como ``0x0000-0x007f`` (o ``U+0000-U+007f``). Como otro ejemplo, ``' '-'~'`` es equivalente a ``32-127`` y representa el rango de caracteres ASCII imprimibles (visibles).
+For example, ``0-127`` represents the full ASCII range. It can also be written as ``0x0000-0x007f`` (or ``U+0000-U+007f``). As another example, ``' '-'~'`` is equivalent to ``32-126`` and represents the range of printable (visible) ASCII characters.
 
-Para cualquier rango, el avance y el desplazamiento del carácter se pueden personalizar añadiendo tres valores enteros separados por espacios (avance adicional, desplazamiento x, desplazamiento y) al final. Por ejemplo, ``'a'-'b' 4 5 2`` establece el avance a ``char_width + 4`` y el desplazamiento a ``Vector2(5, 2)`` para ambos caracteres `a` y `b`.
+For any range, the character advance and offset can be customized by appending three space-separated integer values (additional advance, x offset, y offset) to the end. For example ``'a'-'b' 4 5 2`` sets the advance to ``char_width + 4`` and offset to ``Vector2(5, 2)`` for both `a` and `b` characters.
 
-\ **Nota:** El número total de caracteres no debe exceder el número de :ref:`columns<class_ResourceImporterImageFont_property_columns>` multiplicado por :ref:`rows<class_ResourceImporterImageFont_property_rows>`. De lo contrario, la importación de la fuente fallará.
+\ **Note:** The overall number of characters must not exceed the number of :ref:`columns<class_ResourceImporterImageFont_property_columns>` multiplied by :ref:`rows<class_ResourceImporterImageFont_property_rows>`. Otherwise, the font will fail to import.
 
 **Note:** The returned array is *copied* and any changes to it will not update the original property value. See :ref:`PackedStringArray<class_PackedStringArray>` for more details.
 

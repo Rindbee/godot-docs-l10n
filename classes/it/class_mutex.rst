@@ -14,17 +14,15 @@ Un :ref:`Semaphore<class_Semaphore>` binario per la sincronizzazione di più :re
 Descrizione
 ----------------------
 
-Un mutex di sincronizzazione (mutua esclusione). Serve per sincronizzare più :ref:`Thread<class_Thread>` ed è equivalente a un :ref:`Semaphore<class_Semaphore>` binario. Garantisce che solo un thread alla volta possa accedere a una sezione critica.
+A synchronization mutex (mutual exclusion). This is used to synchronize multiple :ref:`Thread<class_Thread>`\ s, and is equivalent to a binary :ref:`Semaphore<class_Semaphore>`. It guarantees that only one thread can access a critical section at a time.
 
-Questo è un mutex rientrante, il che significa che può essere bloccato più volte da un thread, a condizione che lo sblocchi altrettante volte.
+This is a reentrant mutex, meaning that it can be locked multiple times by one thread, provided it also unlocks it as many times.
 
-\ **Attenzione:** I mutex si devono utilizzare con attenzione per evitare deadlock.
+\ **Warning:** To ensure proper cleanup without crashes or deadlocks, the following conditions must be met:
 
-\ **Attenzione:** Per garantire una pulizia corretta senza arresti anomali o deadlock, devono essere soddisfatte le seguenti condizioni:
+- When a **Mutex**'s reference count reaches zero and it is therefore destroyed, no threads (including the one on which the destruction will happen) must have it locked.
 
-- Quando il conteggio dei riferimenti di un **Mutex** raggiunge zero e viene quindi distrutto, nessun thread (incluso quello su cui avverrà la distruzione) deve averlo bloccato.
-
-- Quando il conteggio dei riferimenti di un :ref:`Thread<class_Thread>` raggiunge zero e viene quindi distrutto, non deve avere alcun mutex bloccato.
+- When a :ref:`Thread<class_Thread>`'s reference count reaches zero and it is therefore destroyed, it must not have any mutex locked.
 
 .. rst-class:: classref-introduction-group
 
@@ -94,11 +92,11 @@ Tenta di bloccare questo **Mutex**, ma non blocca. Restituisce ``true`` in caso 
 
 |void| **unlock**\ (\ ) :ref:`🔗<class_Mutex_method_unlock>`
 
-Sblocca questo **Mutex**, lasciandolo ad altri thread.
+Unlocks this **Mutex**, leaving it to other threads.
 
-\ **Nota:** Se un thread chiama :ref:`lock()<class_Mutex_method_lock>` o :ref:`try_lock()<class_Mutex_method_try_lock>` più volte pur avendo già il possesso del mutex, deve anche chiamare :ref:`unlock()<class_Mutex_method_unlock>` lo stesso numero di volte per sbloccarlo correttamente.
+\ **Note:** If a thread called :ref:`lock()<class_Mutex_method_lock>` or :ref:`try_lock()<class_Mutex_method_try_lock>` multiple times while already having ownership of the mutex, it must also call :ref:`unlock()<class_Mutex_method_unlock>` the same number of times in order to unlock it correctly.
 
-\ **Attenzione:** Chiamare :ref:`unlock()<class_Mutex_method_unlock>` più volte di :ref:`lock()<class_Mutex_method_lock>` su un determinato thread, finendo così per tentare di sbloccare un mutex non bloccato, è sbagliato e può causare crash o deadlock.
+\ **Warning:** Calling :ref:`unlock()<class_Mutex_method_unlock>` more times than :ref:`lock()<class_Mutex_method_lock>` on a given thread, thus ending up trying to unlock a non-locked mutex, is wrong and may causes crashes or deadlocks.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

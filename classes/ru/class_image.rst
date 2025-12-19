@@ -14,11 +14,13 @@ Image
 Описание
 ----------------
 
-Собственный тип данных изображения. Содержит данные изображения, которые можно преобразовать в :ref:`ImageTexture<class_ImageTexture>`, и предоставляет часто используемые *методы обработки изображений*. Максимальная ширина и высота для **Image** — :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` и :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`.
+Native image datatype. Contains image data which can be converted to an :ref:`ImageTexture<class_ImageTexture>` and provides commonly used *image processing* methods. The maximum width and height for an **Image** are :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` and :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`.
 
-\ **Image** нельзя назначить свойству текстуры объекта напрямую (например, :ref:`Sprite2D.texture<class_Sprite2D_property_texture>`), и его необходимо сначала вручную преобразовать в :ref:`ImageTexture<class_ImageTexture>`.
+An **Image** cannot be assigned to a texture property of an object directly (such as :ref:`Sprite2D.texture<class_Sprite2D_property_texture>`), and has to be converted manually to an :ref:`ImageTexture<class_ImageTexture>` first.
 
-\ **Примечание:** Максимальный размер изображения составляет 16384×16384 пикселей из-за ограничений графического оборудования. Более крупные изображения могут не импортироваться.
+\ **Note:** Methods that modify the image data cannot be used on VRAM-compressed images. Use :ref:`decompress()<class_Image_method_decompress>` to convert the image to an uncompressed format first.
+
+\ **Note:** The maximum image size is 16384×16384 pixels due to graphics hardware limitations. Larger images may fail to import.
 
 .. rst-class:: classref-introduction-group
 
@@ -140,6 +142,8 @@ Image
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`         | :ref:`load_dds_from_buffer<class_Image_method_load_dds_from_buffer>`\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                                                                                                 |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`Error<enum_@GlobalScope_Error>`         | :ref:`load_exr_from_buffer<class_Image_method_load_exr_from_buffer>`\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                                                                                                 |
+   +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Image<class_Image>`                     | :ref:`load_from_file<class_Image_method_load_from_file>`\ (\ path\: :ref:`String<class_String>`\ ) |static|                                                                                                                                                                        |
    +-----------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`         | :ref:`load_jpg_from_buffer<class_Image_method_load_jpg_from_buffer>`\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ )                                                                                                                                                 |
@@ -254,9 +258,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_RGB8** = ``4``
 
-Формат текстуры OpenGL ``RGB`` с тремя компонентами, каждый с глубиной цвета 8 бит.
+OpenGL texture format ``RGB`` with three components, each with a bitdepth of 8.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_RGBA8:
 
@@ -264,9 +268,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_RGBA8** = ``5``
 
-Формат текстуры OpenGL ``RGBA`` с четырьмя компонентами, каждый с глубиной цвета 8 бит.
+OpenGL texture format ``RGBA`` with four components, each with a bitdepth of 8.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_RGBA4444:
 
@@ -362,9 +366,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT1** = ``17``
 
-Формат текстуры `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__, который использует Block Compression 1, и является наименьшей вариацией S3TC, предоставляя только 1 бит альфа-канала и цветовых данных, предварительно умножаемых на альфа-канал.
+The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format that uses Block Compression 1, and is the smallest variation of S3TC, only providing 1 bit of alpha and color data being premultiplied with alpha.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_DXT3:
 
@@ -372,9 +376,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT3** = ``18``
 
-Формат текстуры `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__, который использует Block Compression 2, и данные о цвете интерпретируются как не умноженные предварительно на альфа. Хорошо подходит для изображений с резкими альфа-переходами между полупрозрачными и непрозрачными областями.
+The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format that uses Block Compression 2, and color data is interpreted as not having been premultiplied by alpha. Well suited for images with sharp alpha transitions between translucent and opaque areas.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_DXT5:
 
@@ -382,9 +386,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_DXT5** = ``19``
 
-Формат текстуры `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__, также известный как Block Compression 3 или BC3, который содержит 64 бита данных альфа-канала, за которыми следуют 64 бита цветовых данных, закодированных в DXT1. Цветовые данные не умножаются предварительно на альфа, как и DXT3. DXT5 обычно дает превосходные результаты для прозрачных градиентов по сравнению с DXT3.
+The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`__ texture format also known as Block Compression 3 or BC3 that contains 64 bits of alpha channel data followed by 64 bits of DXT1-encoded color data. Color data is not premultiplied by alpha, same as DXT3. DXT5 generally produces superior results for transparent gradients compared to DXT3.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_RGTC_R:
 
@@ -408,9 +412,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_BPTC_RGBA** = ``22``
 
-Формат текстуры, использующий сжатие `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ с беззнаковыми нормализованными компонентами RGBA.
+Texture format that uses `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`__ compression with unsigned normalized RGBA components.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_BPTC_RGBF:
 
@@ -474,9 +478,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGB8** = ``30``
 
-`Формат сжатия текстур Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (вариант ``RGB8``), который является продолжением ETC1 и сжимает данные RGB888.
+`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8`` variant), which is a follow-up of ETC1 and compresses RGB888 data.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_ETC2_RGBA8:
 
@@ -484,9 +488,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGBA8** = ``31``
 
-`Формат сжатия текстур Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (вариант ``RGBA8``), который сжимает данные RGBA8888 с полной поддержкой альфа-канала.
+`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGBA8``\ variant), which compresses RGBA8888 data with full alpha support.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_ETC2_RGB8A1:
 
@@ -494,9 +498,9 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 :ref:`Format<enum_Image_Format>` **FORMAT_ETC2_RGB8A1** = ``32``
 
-`Формат сжатия текстур Ericsson 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (вариант ``RGB8_PUNCHTHROUGH_ALPHA1``), который сжимает данные RGBA, чтобы сделать альфа-канал либо полностью прозрачным, либо полностью непрозрачным.
+`Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`__ (``RGB8_PUNCHTHROUGH_ALPHA1`` variant), which compresses RGBA data to make alpha either fully transparent or fully opaque.
 
-\ **Примечание:** При создании :ref:`ImageTexture<class_ImageTexture>` выполняется преобразование sRGB в линейное цветовое пространство.
+\ **Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, a nonlinear sRGB to linear encoding conversion is performed.
 
 .. _class_Image_constant_FORMAT_ETC2_RA_AS_RG:
 
@@ -546,11 +550,99 @@ enum **Format**: :ref:`🔗<enum_Image_Format>`
 
 Тот же формат, что и :ref:`FORMAT_ASTC_8x8<class_Image_constant_FORMAT_ASTC_8x8>`, но с подсказкой, сообщающей графическому процессору, что он используется для HDR.
 
+.. _class_Image_constant_FORMAT_R16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_R16** = ``39``
+
+OpenGL texture format ``GL_R16`` where there's one component, a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RF<class_Image_constant_FORMAT_RF>`.
+
+.. _class_Image_constant_FORMAT_RG16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RG16** = ``40``
+
+OpenGL texture format ``GL_RG16`` where there are two components, each a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RGF<class_Image_constant_FORMAT_RGF>`.
+
+.. _class_Image_constant_FORMAT_RGB16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGB16** = ``41``
+
+OpenGL texture format ``GL_RGB16`` where there are three components, each a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RGBF<class_Image_constant_FORMAT_RGBF>`.
+
+.. _class_Image_constant_FORMAT_RGBA16:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGBA16** = ``42``
+
+OpenGL texture format ``GL_RGBA16`` where there are four components, each a 16-bit unsigned normalized integer value. Since the value is normalized, each component is clamped between ``0.0`` and ``1.0`` (inclusive).
+
+\ **Note:** Due to limited hardware support, it is mainly recommended to be used on desktop or console devices. It may be unsupported on mobile or web, and will consequently be converted to :ref:`FORMAT_RGBAF<class_Image_constant_FORMAT_RGBAF>`.
+
+.. _class_Image_constant_FORMAT_R16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_R16I** = ``43``
+
+OpenGL texture format ``GL_R16UI`` where there's one component, a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
+.. _class_Image_constant_FORMAT_RG16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RG16I** = ``44``
+
+OpenGL texture format ``GL_RG16UI`` where there are two components, each a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
+.. _class_Image_constant_FORMAT_RGB16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGB16I** = ``45``
+
+OpenGL texture format ``GL_RGB16UI`` where there are three components, each a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
+.. _class_Image_constant_FORMAT_RGBA16I:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Format<enum_Image_Format>` **FORMAT_RGBA16I** = ``46``
+
+OpenGL texture format ``GL_RGBA16UI`` where there are four components, each a 16-bit unsigned integer value. Each component is clamped between ``0`` and ``65535`` (inclusive).
+
+\ **Note:** When used in a shader, the texture requires usage of ``usampler`` samplers. Additionally, it only supports nearest-neighbor filtering under the Compatibility renderer.
+
+\ **Note:** When sampling using :ref:`get_pixel()<class_Image_method_get_pixel>`, returned :ref:`Color<class_Color>`\ s have to be divided by ``65535`` to get the correct color value.
+
 .. _class_Image_constant_FORMAT_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Format<enum_Image_Format>` **FORMAT_MAX** = ``39``
+:ref:`Format<enum_Image_Format>` **FORMAT_MAX** = ``47``
 
 Представляет размер перечисления :ref:`Format<enum_Image_Format>`.
 
@@ -628,7 +720,7 @@ enum **AlphaMode**: :ref:`🔗<enum_Image_AlphaMode>`
 
 :ref:`AlphaMode<enum_Image_AlphaMode>` **ALPHA_NONE** = ``0``
 
-Изображение не имеет альфы.
+Image is fully opaque. It does not store alpha data.
 
 .. _class_Image_constant_ALPHA_BIT:
 
@@ -636,7 +728,7 @@ enum **AlphaMode**: :ref:`🔗<enum_Image_AlphaMode>`
 
 :ref:`AlphaMode<enum_Image_AlphaMode>` **ALPHA_BIT** = ``1``
 
-Изображение хранит альфа-канал в одном бите.
+Image stores either fully opaque or fully transparent pixels. Also known as punchthrough alpha.
 
 .. _class_Image_constant_ALPHA_BLEND:
 
@@ -644,7 +736,7 @@ enum **AlphaMode**: :ref:`🔗<enum_Image_AlphaMode>`
 
 :ref:`AlphaMode<enum_Image_AlphaMode>` **ALPHA_BLEND** = ``2``
 
-Изображ. исп. альфа-канал.
+Image stores alpha data with values varying between ``0.0`` and ``1.0``.
 
 .. rst-class:: classref-item-separator
 
@@ -786,7 +878,7 @@ enum **CompressSource**: :ref:`🔗<enum_Image_CompressSource>`
 
 :ref:`CompressSource<enum_Image_CompressSource>` **COMPRESS_SOURCE_SRGB** = ``1``
 
-Исходная текстура (до сжатия) находится в пространстве sRGB.
+Source texture (before compression) uses nonlinear sRGB encoding.
 
 .. _class_Image_constant_COMPRESS_SOURCE_NORMAL:
 
@@ -965,11 +1057,13 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **compress**\ (\ mode\: :ref:`CompressMode<enum_Image_CompressMode>`, source\: :ref:`CompressSource<enum_Image_CompressSource>` = 0, astc_format\: :ref:`ASTCFormat<enum_Image_ASTCFormat>` = 0\ ) :ref:`🔗<class_Image_method_compress>`
 
-Сжимает изображение, чтобы использовать меньше памяти. Невозможно напрямую получить доступ к данным пикселей, пока изображение сжато. Возвращает ошибку, если выбранный режим сжатия недоступен.
+Compresses the image with a VRAM-compressed format to use less memory. Can not directly access pixel data while the image is compressed. Returns error if the chosen compression mode is not available.
 
-Параметр ``source`` помогает выбрать лучший метод сжатия для форматов DXT и ETC2. Он игнорируется для сжатия ASTC.
+The ``source`` parameter helps to pick the best compression method for DXT and ETC2 formats. It is ignored for ASTC compression.
 
-Для сжатия ASTC необходимо указать параметр ``astc_format``.
+The ``astc_format`` parameter is only taken into account when using ASTC compression; it is ignored for all other formats.
+
+\ **Note:** :ref:`compress()<class_Image_method_compress>` is only supported in editor builds. When run in an exported project, this method always returns :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -981,11 +1075,13 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **compress_from_channels**\ (\ mode\: :ref:`CompressMode<enum_Image_CompressMode>`, channels\: :ref:`UsedChannels<enum_Image_UsedChannels>`, astc_format\: :ref:`ASTCFormat<enum_Image_ASTCFormat>` = 0\ ) :ref:`🔗<class_Image_method_compress_from_channels>`
 
-Сжимает изображение, чтобы использовать меньше памяти. Невозможно напрямую получить доступ к данным пикселей, пока изображение сжато. Возвращает ошибку, если выбранный режим сжатия недоступен.
+Compresses the image with a VRAM-compressed format to use less memory. Can not directly access pixel data while the image is compressed. Returns error if the chosen compression mode is not available.
 
-Это альтернатива :ref:`compress()<class_Image_method_compress>`, которая позволяет пользователю указать используемые каналы, чтобы компрессор выбрал лучшие форматы DXT и ETC2. Для других форматов (не DXT или ETC2) этот аргумент игнорируется.
+This is an alternative to :ref:`compress()<class_Image_method_compress>` that lets the user supply the channels used in order for the compressor to pick the best DXT and ETC2 formats. For other formats (non DXT or ETC2), this argument is ignored.
 
-Для сжатия ASTC необходимо указать параметр ``astc_format``.
+The ``astc_format`` parameter is only taken into account when using ASTC compression; it is ignored for all other formats.
+
+\ **Note:** :ref:`compress_from_channels()<class_Image_method_compress_from_channels>` is only supported in editor builds. When run in an exported project, this method always returns :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
 
 .. rst-class:: classref-item-separator
 
@@ -997,9 +1093,9 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Dictionary<class_Dictionary>` **compute_image_metrics**\ (\ compared_image\: :ref:`Image<class_Image>`, use_luma\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_Image_method_compute_image_metrics>`
 
-Вычислите метрики изображения на текущем изображении и сравниваемом изображении.
+Compute image metrics on the current image and the compared image. This can be used to calculate the similarity between two images.
 
-Словарь содержит ``max``, ``mean``, ``mean_squared``, ``root_mean_squared`` и ``peak_snr``.
+The dictionary contains ``max``, ``mean``, ``mean_squared``, ``root_mean_squared`` and ``peak_snr``.
 
 .. rst-class:: classref-item-separator
 
@@ -1037,7 +1133,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 **Устарело:** Use :ref:`create_empty()<class_Image_method_create_empty>`.
 
-Создает пустое изображение указанного размера и формата. Если ``use_mipmaps`` равен ``true``, генерирует mip-карты для этого изображения. См. :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`.
+Creates an empty image of the given size and format. If ``use_mipmaps`` is ``true``, generates mipmaps for this image (see :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1049,7 +1145,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Image<class_Image>` **create_empty**\ (\ width\: :ref:`int<class_int>`, height\: :ref:`int<class_int>`, use_mipmaps\: :ref:`bool<class_bool>`, format\: :ref:`Format<enum_Image_Format>`\ ) |static| :ref:`🔗<class_Image_method_create_empty>`
 
-Создает пустое изображение указанного размера и формата. Если ``use_mipmaps`` равен ``true``, генерирует mip-карты для этого изображения. См. :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`.
+Creates an empty image of the given size and format. If ``use_mipmaps`` is ``true``, generates mipmaps for this image (see :ref:`generate_mipmaps()<class_Image_method_generate_mipmaps>`).
 
 .. rst-class:: classref-item-separator
 
@@ -1085,9 +1181,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **decompress**\ (\ ) :ref:`🔗<class_Image_method_decompress>`
 
-Распаковывает изображение, если оно сжато VRAM в поддерживаемом формате. Возвращает :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>`, если формат поддерживается, в противном случае :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`.
-
-\ **Примечание:** Можно распаковать следующие форматы: DXT, RGTC, BPTC. Форматы ETC1 и ETC2 не поддерживаются.
+Decompresses the image if it is VRAM-compressed in a supported format. This increases memory utilization, but allows modifying the image. Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` if the format is supported, otherwise :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`. All VRAM-compressed formats supported by Godot can be decompressed with this method, except :ref:`FORMAT_ETC2_R11S<class_Image_constant_FORMAT_ETC2_R11S>`, :ref:`FORMAT_ETC2_RG11S<class_Image_constant_FORMAT_ETC2_RG11S>`, and :ref:`FORMAT_ETC2_RGB8A1<class_Image_constant_FORMAT_ETC2_RGB8A1>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1393,7 +1487,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **linear_to_srgb**\ (\ ) :ref:`🔗<class_Image_method_linear_to_srgb>`
 
-Преобразует все изображение из линейного цветового пространства в цветовое пространство sRGB. Работает только с изображениями с форматами :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` или :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>`.
+Converts the entire image from linear encoding to nonlinear sRGB encoding by using a lookup table. Only works on images with :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` or :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` formats.
 
 .. rst-class:: classref-item-separator
 
@@ -1440,6 +1534,18 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 Загружает изображение из двоичного содержимого файла DDS.
 
 \ **Примечание:** Этот метод доступен только в сборках движка с включенным модулем DDS. По умолчанию модуль DDS включен, но его можно отключить во время сборки с помощью параметра ``module_dds_enabled=no`` в SCons.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Image_method_load_exr_from_buffer:
+
+.. rst-class:: classref-method
+
+:ref:`Error<enum_@GlobalScope_Error>` **load_exr_from_buffer**\ (\ buffer\: :ref:`PackedByteArray<class_PackedByteArray>`\ ) :ref:`🔗<class_Image_method_load_exr_from_buffer>`
+
+Loads an image from the binary contents of an OpenEXR file.
 
 .. rst-class:: classref-item-separator
 
@@ -1607,7 +1713,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Image<class_Image>` **rgbe_to_srgb**\ (\ ) :ref:`🔗<class_Image_method_rgbe_to_srgb>`
 
-Преобразует стандартное изображение RGBE (Red Green Blue Exponent) в изображение sRGB.
+Converts a standard linear RGBE (Red Green Blue Exponent) image to an image that uses nonlinear sRGB encoding.
 
 .. rst-class:: classref-item-separator
 
@@ -1671,9 +1777,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`Error<enum_@GlobalScope_Error>` **save_exr**\ (\ path\: :ref:`String<class_String>`, grayscale\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Image_method_save_exr>`
 
-Сохраняет изображение как файл EXR в ``path``. Если ``grayscale`` имеет значение ``true`` и изображение имеет только один канал, оно будет явно сохранено как монохромное, а не как один красный канал. Эта функция вернет :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>`, если Godot был скомпилирован без модуля TinyEXR.
-
-\ **Примечание:** Модуль TinyEXR отключен в сборках без редактора, что означает, что :ref:`save_exr()<class_Image_method_save_exr>` вернет :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` при вызове из экспортированного проекта.
+Saves the image as an EXR file to ``path``. If ``grayscale`` is ``true`` and the image has only one channel, it will be saved explicitly as monochrome rather than one red channel. This function will return :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if Godot was compiled without the TinyEXR module.
 
 .. rst-class:: classref-item-separator
 
@@ -1685,9 +1789,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 :ref:`PackedByteArray<class_PackedByteArray>` **save_exr_to_buffer**\ (\ grayscale\: :ref:`bool<class_bool>` = false\ ) |const| :ref:`🔗<class_Image_method_save_exr_to_buffer>`
 
-Сохраняет изображение как EXR-файл в массив байтов. Если ``grayscale`` имеет значение ``true`` и изображение имеет только один канал, оно будет явно сохранено как монохромное, а не как один красный канал. Эта функция вернет пустой массив байтов, если Godot был скомпилирован без модуля TinyEXR.
-
-\ **Примечание:** Модуль TinyEXR отключен в сборках без редактора, что означает, что :ref:`save_exr_to_buffer()<class_Image_method_save_exr_to_buffer>` вернет пустой массив байтов при вызове из экспортированного проекта.
+Saves the image as an EXR file to a byte array. If ``grayscale`` is ``true`` and the image has only one channel, it will be saved explicitly as monochrome rather than one red channel. This function will return an empty byte array if Godot was compiled without the TinyEXR module.
 
 .. rst-class:: classref-item-separator
 
@@ -1791,7 +1893,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **set_pixel**\ (\ x\: :ref:`int<class_int>`, y\: :ref:`int<class_int>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_set_pixel>`
 
-Устанавливает :ref:`Color<class_Color>` пикселя в ``(x, y)`` на ``color``.
+Sets the :ref:`Color<class_Color>` of the pixel at ``(x, y)`` to ``color``.
 
 
 .. tabs::
@@ -1802,7 +1904,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     var img_height = 5
     var img = Image.create(img_width, img_height, false, Image.FORMAT_RGBA8)
 
-    img.set_pixel(1, 2, Color.RED) # Устанавливает цвет в пикселе(1, 2) на красный.
+    img.set_pixel(1, 2, Color.RED) # Sets the color at (1, 2) to red.
 
  .. code-tab:: csharp
 
@@ -1810,11 +1912,15 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     int imgHeight = 5;
     var img = Image.Create(imgWidth, imgHeight, false, Image.Format.Rgba8);
 
-    img.SetPixel(1, 2, Colors.Red); // Устанавливает цвет в пикселе(1, 2) на красный.
+    img.SetPixel(1, 2, Colors.Red); // Sets the color at (1, 2) to red.
 
 
 
-Это то же самое, что и :ref:`set_pixelv()<class_Image_method_set_pixelv>`, но с двумя целочисленными аргументами вместо аргумента :ref:`Vector2i<class_Vector2i>`.
+This is the same as :ref:`set_pixelv()<class_Image_method_set_pixelv>`, but with a two integer arguments instead of a :ref:`Vector2i<class_Vector2i>` argument.
+
+\ **Note:** Depending on the image's format, the color set here may be clamped or lose precision. Do not assume the color returned by :ref:`get_pixel()<class_Image_method_get_pixel>` to be identical to the one set here; any comparisons will likely need to use an approximation like :ref:`Color.is_equal_approx()<class_Color_method_is_equal_approx>`.
+
+\ **Note:** On grayscale image formats, only the red channel of ``color`` is used (and alpha if relevant). The green and blue channels are ignored.
 
 .. rst-class:: classref-item-separator
 
@@ -1826,7 +1932,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **set_pixelv**\ (\ point\: :ref:`Vector2i<class_Vector2i>`, color\: :ref:`Color<class_Color>`\ ) :ref:`🔗<class_Image_method_set_pixelv>`
 
-Устанавливает :ref:`Color<class_Color>` пикселя в ``point`` на ``color``.
+Sets the :ref:`Color<class_Color>` of the pixel at ``point`` to ``color``.
 
 
 .. tabs::
@@ -1837,7 +1943,7 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     var img_height = 5
     var img = Image.create(img_width, img_height, false, Image.FORMAT_RGBA8)
 
-    img.set_pixelv(Vector2i(1, 2), Color.RED) # Устанавливает цвет в точке (1, 2) на красный.
+    img.set_pixelv(Vector2i(1, 2), Color.RED) # Sets the color at (1, 2) to red.
 
  .. code-tab:: csharp
 
@@ -1845,11 +1951,15 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
     int imgHeight = 5;
     var img = Image.Create(imgWidth, imgHeight, false, Image.Format.Rgba8);
 
-    img.SetPixelv(new Vector2I(1, 2), Colors.Red); // Устанавливает цвет в точке (1, 2) на красный.
+    img.SetPixelv(new Vector2I(1, 2), Colors.Red); // Sets the color at (1, 2) to red.
 
 
 
-Это то же самое, что и :ref:`set_pixel()<class_Image_method_set_pixel>`, но с аргументом :ref:`Vector2i<class_Vector2i>` вместо двух целочисленных аргументов.
+This is the same as :ref:`set_pixel()<class_Image_method_set_pixel>`, but with a :ref:`Vector2i<class_Vector2i>` argument instead of two integer arguments.
+
+\ **Note:** Depending on the image's format, the color set here may be clamped or lose precision. Do not assume the color returned by :ref:`get_pixelv()<class_Image_method_get_pixelv>` to be identical to the one set here; any comparisons will likely need to use an approximation like :ref:`Color.is_equal_approx()<class_Color_method_is_equal_approx>`.
+
+\ **Note:** On grayscale image formats, only the red channel of ``color`` is used (and alpha if relevant). The green and blue channels are ignored.
 
 .. rst-class:: classref-item-separator
 
@@ -1873,7 +1983,9 @@ enum **ASTCFormat**: :ref:`🔗<enum_Image_ASTCFormat>`
 
 |void| **srgb_to_linear**\ (\ ) :ref:`🔗<class_Image_method_srgb_to_linear>`
 
-Преобразует необработанные данные из цветового пространства sRGB в линейную шкалу. Работает только с изображениями с форматами :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` или :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>`.
+Converts the raw data from nonlinear sRGB encoding to linear encoding using a lookup table. Only works on images with :ref:`FORMAT_RGB8<class_Image_constant_FORMAT_RGB8>` or :ref:`FORMAT_RGBA8<class_Image_constant_FORMAT_RGBA8>` formats.
+
+\ **Note:** The 8-bit formats required by this method are not suitable for storing linearly encoded values; a significant amount of color information will be lost in darker values. To maintain image quality, this method should not be used.
 
 .. |virtual| replace:: :abbr:`virtual (Этот метод обычно должен быть переопределен пользователем, чтобы иметь какой-либо эффект.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

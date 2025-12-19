@@ -7,7 +7,7 @@ ConfirmationDialog
 
 **Hérite de :** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`Window<class_Window>` **<** :ref:`Viewport<class_Viewport>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Hérité par :** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`EditorFileDialog<class_EditorFileDialog>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
+**Hérité par :** :ref:`EditorCommandPalette<class_EditorCommandPalette>`, :ref:`FileDialog<class_FileDialog>`, :ref:`ScriptCreateDialog<class_ScriptCreateDialog>`
 
 Une boîte de dialogue pour la confirmation des actions.
 
@@ -16,22 +16,24 @@ Une boîte de dialogue pour la confirmation des actions.
 Description
 -----------
 
-Une fenêtre utilisée pour la confirmation des actions. Cette fenêtre est similaire à :ref:`AcceptDialog<class_AcceptDialog>`, mais appuyer sur son bouton Annuler peut avoir un résultat différent de l'appui sur le bouton OK. L'ordre des deux boutons varie selon le système d'exploitation hôte.
+A dialog used for confirmation of actions. This window is similar to :ref:`AcceptDialog<class_AcceptDialog>`, but pressing its Cancel button can have a different outcome from pressing the OK button. The order of the two buttons varies depending on the host OS.
 
-Pour annuler l'action, vous pouvez utiliser :
+To get cancel action, you can use:
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    get_cancel_button().pressed.connect(_lorsque_annulation)
+    get_cancel_button().pressed.connect(_on_canceled)
 
  .. code-tab:: csharp
 
-    GetCancelButton().Pressed += LorsqueAnnulation;
+    GetCancelButton().Pressed += OnCanceled;
 
 
+
+\ **Note:** :ref:`AcceptDialog<class_AcceptDialog>` is invisible by default. To make it visible, call one of the ``popup_*`` methods from :ref:`Window<class_Window>` on the node, such as :ref:`Window.popup_centered_clamped()<class_Window_method_popup_centered_clamped>`.
 
 .. rst-class:: classref-reftable-group
 

@@ -391,7 +391,7 @@ Returns the collision point at which the ray intersects the closest object, in t
 
 |void| **remove_exception**\ (\ node\: :ref:`CollisionObject2D<class_CollisionObject2D>`\ ) :ref:`🔗<class_RayCast2D_method_remove_exception>`
 
-Removes a collision exception so the ray can report collisions with the specified specified ``node``.
+Removes a collision exception so the ray can report collisions with the specified ``node``.
 
 .. rst-class:: classref-item-separator
 

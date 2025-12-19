@@ -163,7 +163,7 @@ A horizontal menu bar that creates a menu for each :ref:`PopupMenu<class_PopupMe
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-語言程式碼，用於斷行和文字塑形演算法，如果留空則使用目前區域設定。
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -300,7 +300,7 @@ Position order in the global menu to insert **MenuBar** items at. All menu items
 
 :ref:`bool<class_bool>` **is_menu_disabled**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_disabled>`
 
-如果功能表專案為禁用狀態，則返回 ``true``\ 。
+Returns ``true`` if the menu item is disabled.
 
 .. rst-class:: classref-item-separator
 
@@ -312,7 +312,7 @@ Position order in the global menu to insert **MenuBar** items at. All menu items
 
 :ref:`bool<class_bool>` **is_menu_hidden**\ (\ menu\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_MenuBar_method_is_menu_hidden>`
 
-如果功能表專案為隱藏狀態，則返回 ``true``\ 。
+Returns ``true`` if the menu item is hidden.
 
 .. rst-class:: classref-item-separator
 
@@ -324,7 +324,7 @@ Position order in the global menu to insert **MenuBar** items at. All menu items
 
 :ref:`bool<class_bool>` **is_native_menu**\ (\ ) |const| :ref:`🔗<class_MenuBar_method_is_native_menu>`
 
-如果支援系統全域功能表，而且該 **MenuBar** 使用全域功能表，則返回 ``true``\ 。
+Returns ``true`` if the current system's global menu is supported and used by this **MenuBar**.
 
 .. rst-class:: classref-item-separator
 

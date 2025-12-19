@@ -14,17 +14,15 @@ Mutex
 描述
 ----
 
-同步互斥器（mutex 来源于 mutual exclusion，即互斥）。可用于在多 :ref:`Thread<class_Thread>` 间进行同步，等价于二元 :ref:`Semaphore<class_Semaphore>`\ 。能够确保同时只有一个线程能够访问临界区。
+A synchronization mutex (mutual exclusion). This is used to synchronize multiple :ref:`Thread<class_Thread>`\ s, and is equivalent to a binary :ref:`Semaphore<class_Semaphore>`. It guarantees that only one thread can access a critical section at a time.
 
-这是一种可重入的互斥器，也就是说同一个线程能够将其多次上锁，只要也进行相同次数的解锁即可。
+This is a reentrant mutex, meaning that it can be locked multiple times by one thread, provided it also unlocks it as many times.
 
-\ **警告：**\ 互斥器必须谨慎使用才能避免死锁。
+\ **Warning:** To ensure proper cleanup without crashes or deadlocks, the following conditions must be met:
 
-\ **警告：**\ 为了能够正确清理，避免崩溃和死锁，必须满足以下条件：
+- When a **Mutex**'s reference count reaches zero and it is therefore destroyed, no threads (including the one on which the destruction will happen) must have it locked.
 
-- **Mutex** 的引用计数到达零，将被销毁时，必须没有线程将其锁定（包括发生析构的线程）。
-
-- :ref:`Thread<class_Thread>` 的引用计数达到零，将被销毁时，必须没有锁定任何互斥器。
+- When a :ref:`Thread<class_Thread>`'s reference count reaches zero and it is therefore destroyed, it must not have any mutex locked.
 
 .. rst-class:: classref-introduction-group
 
@@ -94,11 +92,11 @@ Mutex
 
 |void| **unlock**\ (\ ) :ref:`🔗<class_Mutex_method_unlock>`
 
-解锁该 **Mutex**\ ，将其留给其他线程。
+Unlocks this **Mutex**, leaving it to other threads.
 
-\ **注意：**\ 如果一个线程在已经拥有互斥器的情况下多次调用 :ref:`lock()<class_Mutex_method_lock>` 或 :ref:`try_lock()<class_Mutex_method_try_lock>`\ ，则也必须调用相同次数的 :ref:`unlock()<class_Mutex_method_unlock>` 才能正确解锁。
+\ **Note:** If a thread called :ref:`lock()<class_Mutex_method_lock>` or :ref:`try_lock()<class_Mutex_method_try_lock>` multiple times while already having ownership of the mutex, it must also call :ref:`unlock()<class_Mutex_method_unlock>` the same number of times in order to unlock it correctly.
 
-\ **警告：**\ 在给定的线程中调用 :ref:`unlock()<class_Mutex_method_unlock>` 的次数超过调用 :ref:`lock()<class_Mutex_method_lock>` 的次数，导致尝试解锁未加锁的互斥器，是错误的行为，可能引起崩溃和死锁。
+\ **Warning:** Calling :ref:`unlock()<class_Mutex_method_unlock>` more times than :ref:`lock()<class_Mutex_method_lock>` on a given thread, thus ending up trying to unlock a non-locked mutex, is wrong and may causes crashes or deadlocks.
 
 .. |virtual| replace:: :abbr:`virtual (本方法通常需要用户覆盖才能生效。)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

@@ -394,9 +394,9 @@ Defining this method is **optional**. If not overridden, it's ``true``.
 
 :ref:`bool<class_bool>` **_is_highend**\ (\ ) |virtual| |const| :ref:`🔗<class_VisualShaderNodeCustom_private_method__is_highend>`
 
-覆蓋這個方法可以在 Visual Shader 編輯器的成員對話方塊中啟用高端標記。
+Override this method to enable the high-end mark in the Visual Shader Editor's members dialog. This should return ``true`` for nodes that only work when using the Forward+ and Mobile renderers.
 
-定義這個方法是\ **可選**\ 的。未覆蓋時為 ``false``\ 。
+Defining this method is **optional**. If not overridden, it's ``false``, which indicates this node works with all renderers (including Compatibility).
 
 .. rst-class:: classref-item-separator
 

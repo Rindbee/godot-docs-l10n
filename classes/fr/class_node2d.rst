@@ -339,9 +339,9 @@ Multiplie l'échelle actuelle par le vecteur ``ratio``.
 
 :ref:`float<class_float>` **get_angle_to**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) |const| :ref:`🔗<class_Node2D_method_get_angle_to>`
 
-Renvoie l'angle entre le nœud et le ``point`` en radians.
+Returns the angle between the node and the ``point`` in radians. See also :ref:`look_at()<class_Node2D_method_look_at>`.
 
-\ `Illustration de l'angle renvoyé. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
+\ `Illustration of the returned angle. <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/node2d_get_angle_to.png>`__
 
 .. rst-class:: classref-item-separator
 
@@ -377,9 +377,9 @@ Ajoute le vecteur de décalage ``offset`` à la position globale du nœud.
 
 |void| **look_at**\ (\ point\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_look_at>`
 
-Tourne le nœud de sorte que son axe local +X pointe vers le ``point``, qui devrait utiliser les coordonnées globales.
+Rotates the node so that its local +X axis points towards the ``point``, which is expected to use global coordinates. This method is a combination of both :ref:`rotate()<class_Node2D_method_rotate>` and :ref:`get_angle_to()<class_Node2D_method_get_angle_to>`.
 
-\ ``point`` ne devrait pas être identique à la position du nœud , sinon le nœud regarderait toujours vers la droite.
+\ ``point`` should not be the same as the node's position, otherwise the node always looks to the right.
 
 .. rst-class:: classref-item-separator
 
@@ -415,7 +415,7 @@ Applies a local translation on the node's Y axis with the amount specified in ``
 
 |void| **rotate**\ (\ radians\: :ref:`float<class_float>`\ ) :ref:`🔗<class_Node2D_method_rotate>`
 
-Applique une rotation au nœud, en radians, à partir de son actuelle rotation.
+Applies a rotation to the node, in radians, starting from its current rotation. This is equivalent to ``rotation += radians``.
 
 .. rst-class:: classref-item-separator
 
@@ -451,7 +451,7 @@ Transforme la position globale fournie en position dans l'espace de coordonnées
 
 |void| **translate**\ (\ offset\: :ref:`Vector2<class_Vector2>`\ ) :ref:`🔗<class_Node2D_method_translate>`
 
-Translate le nœud par le décalage ``offset`` dans les coordonnées locales.
+Translates the node by the given ``offset`` in local coordinates. This is equivalent to ``position += offset``.
 
 .. |virtual| replace:: :abbr:`virtual (Cette méthode doit typiquement être redéfinie par l'utilisateur pour avoir un effet.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

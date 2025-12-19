@@ -27,6 +27,8 @@ Propiedades
    :widths: auto
 
    +------------------------------------------------------------+--------------------------------------------------------------------------------+--------+
+   | :ref:`int<class_int>`                                      | :ref:`instance_index<class_VisualShaderNodeParameter_property_instance_index>` | ``0``  |
+   +------------------------------------------------------------+--------------------------------------------------------------------------------+--------+
    | :ref:`String<class_String>`                                | :ref:`parameter_name<class_VisualShaderNodeParameter_property_parameter_name>` | ``""`` |
    +------------------------------------------------------------+--------------------------------------------------------------------------------+--------+
    | :ref:`Qualifier<enum_VisualShaderNodeParameter_Qualifier>` | :ref:`qualifier<class_VisualShaderNodeParameter_property_qualifier>`           | ``0``  |
@@ -71,11 +73,19 @@ El parámetro usará un valor global, definido en la Configuración del proyecto
 
 El parámetro se vinculará al nodo con :ref:`ShaderMaterial<class_ShaderMaterial>` adjunto usando este shader.
 
+.. _class_VisualShaderNodeParameter_constant_QUAL_INSTANCE_INDEX:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`Qualifier<enum_VisualShaderNodeParameter_Qualifier>` **QUAL_INSTANCE_INDEX** = ``3``
+
+The parameter will be tied to the node with attached :ref:`ShaderMaterial<class_ShaderMaterial>` using this shader. Enables setting a :ref:`instance_index<class_VisualShaderNodeParameter_property_instance_index>` property.
+
 .. _class_VisualShaderNodeParameter_constant_QUAL_MAX:
 
 .. rst-class:: classref-enumeration-constant
 
-:ref:`Qualifier<enum_VisualShaderNodeParameter_Qualifier>` **QUAL_MAX** = ``3``
+:ref:`Qualifier<enum_VisualShaderNodeParameter_Qualifier>` **QUAL_MAX** = ``4``
 
 Representa el tamaño del enum :ref:`Qualifier<enum_VisualShaderNodeParameter_Qualifier>`.
 
@@ -87,6 +97,23 @@ Representa el tamaño del enum :ref:`Qualifier<enum_VisualShaderNodeParameter_Qu
 
 Descripciones de Propiedades
 --------------------------------------------------------
+
+.. _class_VisualShaderNodeParameter_property_instance_index:
+
+.. rst-class:: classref-property
+
+:ref:`int<class_int>` **instance_index** = ``0`` :ref:`🔗<class_VisualShaderNodeParameter_property_instance_index>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_instance_index**\ (\ value\: :ref:`int<class_int>`\ )
+- :ref:`int<class_int>` **get_instance_index**\ (\ )
+
+The index within 0-15 range, which is used to avoid clashes when shader used on multiple materials.
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_VisualShaderNodeParameter_property_parameter_name:
 

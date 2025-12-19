@@ -394,9 +394,9 @@ Definire questo metodo è **facoltativo**. Se non sovrascritto, è ``true``.
 
 :ref:`bool<class_bool>` **_is_highend**\ (\ ) |virtual| |const| :ref:`🔗<class_VisualShaderNodeCustom_private_method__is_highend>`
 
-Sovrascrivi questo metodo per abilitare il marchio di fascia alta nella finestra di dialogo dei membri nel Visual Shader Editor.
+Override this method to enable the high-end mark in the Visual Shader Editor's members dialog. This should return ``true`` for nodes that only work when using the Forward+ and Mobile renderers.
 
-Definire questo metodo è **facoltativo**. Se non sovrascritto, è ``false``.
+Defining this method is **optional**. If not overridden, it's ``false``, which indicates this node works with all renderers (including Compatibility).
 
 .. rst-class:: classref-item-separator
 

@@ -440,9 +440,9 @@ Se ``deep`` è ``true``, viene restituita una copia **profonda**: anche tutti gl
 
 :ref:`Dictionary<class_Dictionary>` **duplicate_deep**\ (\ deep_subresources_mode\: :ref:`int<class_int>` = 1\ ) |const| :ref:`🔗<class_Dictionary_method_duplicate_deep>`
 
-Duplica questo dizionario profondamente, come :ref:`duplicate()<class_Dictionary_method_duplicate>`\ ``(true)``, con ulteriore controllo su come le sottorisorse sono gestite.
+Duplicates this dictionary, deeply, like :ref:`duplicate()<class_Dictionary_method_duplicate>` when passing ``true``, with extra control over how subresources are handled.
 
-\ ``deep_subresources_mode`` deve essere uno dei valori di :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. Come predefinito, solo le risorse interne saranno duplicate (ricorsivamente).
+\ ``deep_subresources_mode`` must be one of the values from :ref:`DeepDuplicateMode<enum_Resource_DeepDuplicateMode>`. By default, only internal resources will be duplicated (recursively).
 
 .. rst-class:: classref-item-separator
 
@@ -889,7 +889,7 @@ Restituisce ``true`` se i due dizionari contengono le stesse chiavi e valori, le
 
 :ref:`bool<class_bool>` **set**\ (\ key\: :ref:`Variant<class_Variant>`, value\: :ref:`Variant<class_Variant>`\ ) :ref:`🔗<class_Dictionary_method_set>`
 
-Imposta il valore dell'elemento nella chiave ``key`` sul valore ``value``. È lo stesso che usare l'operatore ``[]`` (``array[index] = value``).
+Sets the value of the element at the given ``key`` to the given ``value``. Returns ``true`` if the value is set successfully. Fails and returns ``false`` if the dictionary is read-only, or if ``key`` and ``value`` don't match the dictionary's types. This is the same as using the ``[]`` operator (``dict[key] = value``).
 
 .. rst-class:: classref-item-separator
 

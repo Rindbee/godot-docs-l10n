@@ -92,15 +92,17 @@ Descrizioni dei metodi
 
 |void| **_log_error**\ (\ function\: :ref:`String<class_String>`, file\: :ref:`String<class_String>`, line\: :ref:`int<class_int>`, code\: :ref:`String<class_String>`, rationale\: :ref:`String<class_String>`, editor_notify\: :ref:`bool<class_bool>`, error_type\: :ref:`int<class_int>`, script_backtraces\: :ref:`Array<class_Array>`\[:ref:`ScriptBacktrace<class_ScriptBacktrace>`\]\ ) |virtual| :ref:`🔗<class_Logger_private_method__log_error>`
 
-Chiamato quando un errore viene registrato. L'errore fornisce la funzione (``function``), il file (``file``) e la riga (``line``) da cui ha avuto origine, nonché il codice (``code``) che ha generato l'errore o una motivazione (``rationale``).
+Called when an error is logged. The error provides the ``function``, ``file``, and ``line`` that it originated from, as well as either the ``code`` that generated the error or a ``rationale``.
 
-Il tipo di errore, fornito da ``error_type``, è descritto nell'enumerazione :ref:`ErrorType<enum_Logger_ErrorType>`.
+The type of error provided by ``error_type`` is described in the :ref:`ErrorType<enum_Logger_ErrorType>` enumeration.
 
-Inoltre, ``script_backtraces`` fornisce backtrace per ciascuno dei linguaggi di script. Normalmente, questi conterranno stack frame solo nelle build dell'editor e nelle build di debug. Per abilitarli anche per le build di rilascio, è necessario abilitare :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`.
+Additionally, ``script_backtraces`` provides backtraces for each of the script languages. These will only contain stack frames in editor builds and debug builds by default. To enable them for release builds as well, you need to enable :ref:`ProjectSettings.debug/settings/gdscript/always_track_call_stacks<class_ProjectSettings_property_debug/settings/gdscript/always_track_call_stacks>`.
 
-\ **Attenzione:** Questa funzione si può chiamare da più thread diversi, quindi potrebbe essere necessario eseguire i propri blocchi.
+\ **Warning:** This method will be called from threads other than the main thread, possibly at the same time, so you will need to have some kind of thread-safety in your implementation of it, like a :ref:`Mutex<class_Mutex>`.
 
-\ **Nota:** ``script_backtraces`` non conterrà alcuna variabile catturata, a causa del suo costo proibitivo. Per ottenerle, sarà necessario catturare personalmente i backtrace, dall'interno dei metodi virtuali del **Logger**, attraverso :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+\ **Note:** ``script_backtraces`` will not contain any captured variables, due to its prohibitively high cost. To get those you will need to capture the backtraces yourself, from within the **Logger** virtual methods, using :ref:`Engine.capture_script_backtraces()<class_Engine_method_capture_script_backtraces>`.
+
+\ **Note:** Logging errors from this method using functions like :ref:`@GlobalScope.push_error()<class_@GlobalScope_method_push_error>` or :ref:`@GlobalScope.push_warning()<class_@GlobalScope_method_push_warning>` is not supported, as it could cause infinite recursion. These errors will only show up in the console output.
 
 .. rst-class:: classref-item-separator
 
@@ -112,9 +114,11 @@ Inoltre, ``script_backtraces`` fornisce backtrace per ciascuno dei linguaggi di 
 
 |void| **_log_message**\ (\ message\: :ref:`String<class_String>`, error\: :ref:`bool<class_bool>`\ ) |virtual| :ref:`🔗<class_Logger_private_method__log_message>`
 
-Chiamato quando un messaggio viene registrato. Se ``error`` è ``true``, allora questo messaggio era destinato per ``stderr``.
+Called when a message is logged. If ``error`` is ``true``, then this message was meant to be sent to ``stderr``.
 
-\ **Attenzione:** Questa funzione si può chiamare da più thread diversi, quindi potrebbe essere necessario eseguire i propri blocchi.
+\ **Warning:** This method will be called from threads other than the main thread, possibly at the same time, so you will need to have some kind of thread-safety in your implementation of it, like a :ref:`Mutex<class_Mutex>`.
+
+\ **Note:** Logging another message from this method using functions like :ref:`@GlobalScope.print()<class_@GlobalScope_method_print>` is not supported, as it could cause infinite recursion. These messages will only show up in the console output.
 
 .. |virtual| replace:: :abbr:`virtual (Questo metodo dovrebbe solitamente essere sovrascritto dall'utente per aver un effetto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

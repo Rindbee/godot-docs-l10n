@@ -29,6 +29,8 @@ AudioStreamRandomizer
    +--------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------+
    | :ref:`float<class_float>`                                    | :ref:`random_pitch<class_AudioStreamRandomizer_property_random_pitch>`                       | ``1.0`` |
    +--------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------+
+   | :ref:`float<class_float>`                                    | :ref:`random_pitch_semitones<class_AudioStreamRandomizer_property_random_pitch_semitones>`   | ``0.0`` |
+   +--------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------+
    | :ref:`float<class_float>`                                    | :ref:`random_volume_offset_db<class_AudioStreamRandomizer_property_random_volume_offset_db>` | ``0.0`` |
    +--------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------+
    | :ref:`int<class_int>`                                        | :ref:`streams_count<class_AudioStreamRandomizer_property_streams_count>`                     | ``0``   |
@@ -134,7 +136,28 @@ enum **PlaybackMode**: :ref:`🔗<enum_AudioStreamRandomizer_PlaybackMode>`
 - |void| **set_random_pitch**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_random_pitch**\ (\ )
 
-随机音高变化的强度。值为 1 表示没有变化。
+The largest possible frequency multiplier of the random pitch variation. Pitch will be randomly chosen within a range of ``1.0 / random_pitch`` and ``random_pitch``. A value of ``1.0`` means no variation. A value of ``2.0`` means pitch will be randomized between double and half.
+
+\ **Note:** Setting this property also sets :ref:`random_pitch_semitones<class_AudioStreamRandomizer_property_random_pitch_semitones>`.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_AudioStreamRandomizer_property_random_pitch_semitones:
+
+.. rst-class:: classref-property
+
+:ref:`float<class_float>` **random_pitch_semitones** = ``0.0`` :ref:`🔗<class_AudioStreamRandomizer_property_random_pitch_semitones>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_random_pitch_semitones**\ (\ value\: :ref:`float<class_float>`\ )
+- :ref:`float<class_float>` **get_random_pitch_semitones**\ (\ )
+
+The largest possible distance, in semitones, of the random pitch variation. A value of ``0.0`` means no variation.
+
+\ **Note:** Setting this property also sets :ref:`random_pitch<class_AudioStreamRandomizer_property_random_pitch>`.
 
 .. rst-class:: classref-item-separator
 
@@ -151,7 +174,7 @@ enum **PlaybackMode**: :ref:`🔗<enum_AudioStreamRandomizer_PlaybackMode>`
 - |void| **set_random_volume_offset_db**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_random_volume_offset_db**\ (\ )
 
-随机音量变化的强度。值为 0 表示没有变化。
+The intensity of random volume variation. Volume will be increased or decreased by a random value up to ``random_volume_offset_db``. A value of ``0.0`` means no variation. A value of ``3.0`` means volume will be randomized between ``-3.0 dB`` and ``+3.0 dB``.
 
 .. rst-class:: classref-item-separator
 

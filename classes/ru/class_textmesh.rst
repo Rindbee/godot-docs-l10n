@@ -110,7 +110,9 @@ UV-развёртка состоит из четырёх горизонталь�
 - |void| **set_curve_step**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_curve_step**\ (\ )
 
-Шаг (в пикселях), используемый для аппроксимации кривых Безье.
+Step (in pixels) used to approximate Bézier curves. Lower values result in smoother curves, but is slower to generate and render. Consider adjusting this according to the font size and the typical viewing distance.
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation, especially with large font sizes and long texts.
 
 .. rst-class:: classref-item-separator
 
@@ -161,7 +163,9 @@ UV-развёртка состоит из четырёх горизонталь�
 - |void| **set_font_size**\ (\ value\: :ref:`int<class_int>`\ )
 - :ref:`int<class_int>` **get_font_size**\ (\ )
 
-Размер шрифта текста **TextMesh**.
+Font size of the **TextMesh**'s text. This property works in tandem with :ref:`pixel_size<class_TextMesh_property_pixel_size>`. Higher values will result in a more detailed font, regardless of :ref:`curve_step<class_TextMesh_property_curve_step>` and :ref:`pixel_size<class_TextMesh_property_pixel_size>`. Consider keeping this value below 63 (inclusive) for good performance, and adjust :ref:`pixel_size<class_TextMesh_property_pixel_size>` as needed to enlarge text.
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation, especially with large font sizes and long texts. To change the text's size in real-time efficiently, change the node's :ref:`Node3D.scale<class_Node3D_property_scale>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -178,7 +182,7 @@ UV-развёртка состоит из четырёх горизонталь�
 - |void| **set_horizontal_alignment**\ (\ value\: :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>`\ )
 - :ref:`HorizontalAlignment<enum_@GlobalScope_HorizontalAlignment>` **get_horizontal_alignment**\ (\ )
 
-Управляет горизонтальным выравниванием текста. Поддерживает выравнивание по левому краю, по центру, по правому краю и заполнение или выравнивание по ширине.
+Управляет горизонтальным выравниванием текста. Поддерживает выравнивание по левому краю, по центру, по правому краю и заполнение (также известное как выравнивание по ширине).
 
 .. rst-class:: classref-item-separator
 
@@ -212,7 +216,7 @@ UV-развёртка состоит из четырёх горизонталь�
 - |void| **set_language**\ (\ value\: :ref:`String<class_String>`\ )
 - :ref:`String<class_String>` **get_language**\ (\ )
 
-Код языка, используемый для алгоритмов формирования текста. Если оставить его пустым, вместо него будет использоваться текущая локаль.
+Language code used for line-breaking and text shaping algorithms. If left empty, the current locale is used instead.
 
 .. rst-class:: classref-item-separator
 
@@ -246,7 +250,9 @@ UV-развёртка состоит из четырёх горизонталь�
 - |void| **set_offset**\ (\ value\: :ref:`Vector2<class_Vector2>`\ )
 - :ref:`Vector2<class_Vector2>` **get_offset**\ (\ )
 
-Смещение отрисовки текста (в пикселях).
+The text drawing offset (in pixels).
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation. To change the text's position in real-time efficiently, change the node's :ref:`Node3D.position<class_Node3D_property_position>` instead.
 
 .. rst-class:: classref-item-separator
 
@@ -263,7 +269,9 @@ UV-развёртка состоит из четырёх горизонталь�
 - |void| **set_pixel_size**\ (\ value\: :ref:`float<class_float>`\ )
 - :ref:`float<class_float>` **get_pixel_size**\ (\ )
 
-Размер ширины одного пикселя текста для его масштабирования в 3D.
+The size of one pixel's width on the text to scale it in 3D. This property works in tandem with :ref:`font_size<class_TextMesh_property_font_size>`.
+
+\ **Note:** Changing this property will regenerate the mesh, which is a slow operation, especially with large font sizes and long texts. To change the text's size in real-time efficiently, change the node's :ref:`Node3D.scale<class_Node3D_property_scale>` instead.
 
 .. rst-class:: classref-item-separator
 

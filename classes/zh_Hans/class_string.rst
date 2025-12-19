@@ -666,30 +666,32 @@ String
 
 :ref:`int<class_int>` **find**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = 0\ ) |const| :ref:`🔗<class_String_method_find>`
 
-返回 ``what`` 在该字符串中\ **第一次**\ 出现的索引，如果不存在则返回 ``-1``\ 。搜索的起点可以用 ``from`` 指定，持续到字符串结尾。
+Returns the index of the **first** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the end of the string.
 
 
 .. tabs::
 
  .. code-tab:: gdscript
 
-    print("Team".find("I")) # 输出 -1
+    print("Team".find("I")) # Prints -1
 
-    print("Potato".find("t"))    # 输出 2
-    print("Potato".find("t", 3)) # 输出 4
-    print("Potato".find("t", 5)) # 输出 -1
+    print("Potato".find("t"))    # Prints 2
+    print("Potato".find("t", 3)) # Prints 4
+    print("Potato".find("t", 5)) # Prints -1
 
  .. code-tab:: csharp
 
-    GD.Print("Team".Find("I")); // 输出 -1
+    GD.Print("Team".Find("I")); // Prints -1
 
-    GD.Print("Potato".Find("t"));    // 输出 2
-    GD.Print("Potato".Find("t", 3)); // 输出 4
-    GD.Print("Potato".Find("t", 5)); // 输出 -1
+    GD.Print("Potato".Find("t"));    // Prints 2
+    GD.Print("Potato".Find("t", 3)); // Prints 4
+    GD.Print("Potato".Find("t", 5)); // Prints -1
 
 
 
-\ **注意：**\ 如果你只是想要知道该字符串中是否包含 ``what``\ ，请使用 :ref:`contains()<class_String_method_contains>`\ 。在 GDScript 中，你还可以使用 ``in`` 运算符。
+\ **Note:** If you just want to know whether the string contains ``what``, use :ref:`contains()<class_String_method_contains>`. In GDScript, you may also use the ``in`` operator.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
 
 .. rst-class:: classref-item-separator
 
@@ -837,13 +839,13 @@ String
 
 :ref:`String<class_String>` **get_slice**\ (\ delimiter\: :ref:`String<class_String>`, slice\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_get_slice>`
 
-使用分隔符 ``delimiter`` 拆分该字符串，返回索引为 ``slice`` 的子串。如果字符串中不存在 ``delimiter`` 则返回原字符串。如果 ``slice`` 不存在则返回空字符串。
+Splits the string using a ``delimiter`` and returns the substring at index ``slice``. Returns the original string if ``delimiter`` does not occur in the string. Returns an empty string if the ``slice`` does not exist.
 
-只需要一个子串时这个方法比 :ref:`split()<class_String_method_split>` 快。
+This is faster than :ref:`split()<class_String_method_split>`, if you only need one or two substrings.
 
 ::
 
-    print("i/am/example/hi".get_slice("/", 2)) # 输出“example”
+    print("i/am/example/hi".get_slice("/", 2)) # Prints "example"
 
 .. rst-class:: classref-item-separator
 
@@ -855,7 +857,14 @@ String
 
 :ref:`int<class_int>` **get_slice_count**\ (\ delimiter\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_get_slice_count>`
 
-返回使用给定的分隔符 ``delimiter`` 拆分该字符串后切片的总数（见 :ref:`split()<class_String_method_split>`\ ）。
+Returns the total number of slices when the string is split with the given ``delimiter`` (see :ref:`split()<class_String_method_split>`).
+
+Use :ref:`get_slice()<class_String_method_get_slice>` to extract a specific slice.
+
+::
+
+    print("i/am/example/string".get_slice_count("/")) # Prints '4'.
+    print("i am example string".get_slice_count("/")) # Prints '1'.
 
 .. rst-class:: classref-item-separator
 
@@ -867,9 +876,11 @@ String
 
 :ref:`String<class_String>` **get_slicec**\ (\ delimiter\: :ref:`int<class_int>`, slice\: :ref:`int<class_int>`\ ) |const| :ref:`🔗<class_String_method_get_slicec>`
 
-使用 Unicode 字符码分隔符 ``delimiter`` 拆分该字符串，返回索引为 ``slice`` 的子串。如果 ``slice`` 不存在则返回空字符串。
+Splits the string using a Unicode character with code ``delimiter`` and returns the substring at index ``slice``. Returns an empty string if the ``slice`` does not exist.
 
-只需要一个子串时这个方法比 :ref:`split()<class_String_method_split>` 快。
+This is faster than :ref:`split()<class_String_method_split>`, if you only need one or two substrings.
+
+This is a Unicode version of :ref:`get_slice()<class_String_method_get_slice>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1572,7 +1583,7 @@ String
 
 :ref:`String<class_String>` **remove_chars**\ (\ chars\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_String_method_remove_chars>`
 
-移除字符串中出现的所有包含在 ``chars`` 中的字符。另见 :ref:`remove_char()<class_String_method_remove_char>`\ 。
+Removes all occurrences of the characters in ``chars``. See also :ref:`remove_char()<class_String_method_remove_char>`.
 
 .. rst-class:: classref-item-separator
 
@@ -1656,7 +1667,11 @@ String
 
 :ref:`int<class_int>` **rfind**\ (\ what\: :ref:`String<class_String>`, from\: :ref:`int<class_int>` = -1\ ) |const| :ref:`🔗<class_String_method_rfind>`
 
-返回这个字符串中 ``what`` **最后一次**\ 出现时的索引，不存在时则为 ``-1``\ 。搜索的起点可以用 ``from`` 指定，终点为该字符串的开头。这个方法与 :ref:`find()<class_String_method_find>` 相对。
+Returns the index of the **last** occurrence of ``what`` in this string, or ``-1`` if there are none. The search's start can be specified with ``from``, continuing to the beginning of the string. This method is the reverse of :ref:`find()<class_String_method_find>`.
+
+\ **Note:** A negative value of ``from`` is converted to a starting index by counting back from the last possible index with enough space to find ``what``.
+
+\ **Note:** A value of ``from`` that is greater than the last possible index with enough space to find ``what`` is considered out-of-bounds, and returns ``-1``.
 
 .. rst-class:: classref-item-separator
 

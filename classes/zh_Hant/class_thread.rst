@@ -14,19 +14,15 @@ Thread
 說明
 ----
 
-程序中的執行單元。可以同時運作不同 :ref:`Object<class_Object>` 上的方法。如果使用共用物件，建議通過 :ref:`Mutex<class_Mutex>` 或 :ref:`Semaphore<class_Semaphore>` 進行同步。
+A unit of execution in a process. Can run methods on :ref:`Object<class_Object>`\ s simultaneously. The use of synchronization via :ref:`Mutex<class_Mutex>` or :ref:`Semaphore<class_Semaphore>` is advised if working with shared objects.
 
-\ **注意：**\ 如果程式碼在執行緒中運作，中斷點不會中斷。這是 GDScript 除錯器的目前限制。
+\ **Warning:** To ensure proper cleanup without crashes or deadlocks, when a **Thread**'s reference count reaches zero and it is therefore destroyed, the following conditions must be met:
 
-\ **警告：**\ 
+- It must not have any :ref:`Mutex<class_Mutex>` objects locked.
 
-為了確保能夠正確清理，避免當機和鎖死，\ **Thread** 的引用計數變為零進行銷毀時，必須滿足以下條件：
+- It must not be waiting on any :ref:`Semaphore<class_Semaphore>` objects.
 
-- 必須沒有任何上鎖的 :ref:`Mutex<class_Mutex>` 物件。
-
-- 必須沒有在任何 :ref:`Semaphore<class_Semaphore>` 物件上等待。
-
-- 必須已呼叫過它的 :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>`\ 。
+- :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` should have been called on it.
 
 .. rst-class:: classref-introduction-group
 
@@ -51,6 +47,8 @@ Thread
    | :ref:`String<class_String>`           | :ref:`get_id<class_Thread_method_get_id>`\ (\ ) |const|                                                                                         |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`               | :ref:`is_alive<class_Thread_method_is_alive>`\ (\ ) |const|                                                                                     |
+   +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+   | :ref:`bool<class_bool>`               | :ref:`is_main_thread<class_Thread_method_is_main_thread>`\ (\ ) |static|                                                                        |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`bool<class_bool>`               | :ref:`is_started<class_Thread_method_is_started>`\ (\ ) |const|                                                                                 |
    +---------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -130,6 +128,20 @@ enum **Priority**: :ref:`🔗<enum_Thread_Priority>`
 如果這個 **Thread** 目前正在運作，則返回 ``true``\ 。可用於確定呼叫 :ref:`wait_to_finish()<class_Thread_method_wait_to_finish>` 是否可以不阻塞呼叫的執行緒。
 
 要檢查 **Thread** 是否可被併入，請使用 :ref:`is_started()<class_Thread_method_is_started>`\ 。
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _class_Thread_method_is_main_thread:
+
+.. rst-class:: classref-method
+
+:ref:`bool<class_bool>` **is_main_thread**\ (\ ) |static| :ref:`🔗<class_Thread_method_is_main_thread>`
+
+Returns ``true`` if the thread this method was called from is the main thread.
+
+\ **Note:** This is a static method and isn't associated with a specific **Thread** object.
 
 .. rst-class:: classref-item-separator
 

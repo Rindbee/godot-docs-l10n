@@ -85,6 +85,8 @@ Propiedades
    :widths: auto
 
    +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
+   | :ref:`bool<class_bool>`                           | :ref:`abort_on_reset<class_AnimationNodeOneShot_property_abort_on_reset>`                     | ``false`` |
+   +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
    | :ref:`bool<class_bool>`                           | :ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>`                           | ``false`` |
    +---------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------+
    | :ref:`float<class_float>`                         | :ref:`autorestart_delay<class_AnimationNodeOneShot_property_autorestart_delay>`               | ``1.0``   |
@@ -185,6 +187,23 @@ Combina dos animaciones de forma aditiva. Véase también :ref:`AnimationNodeAdd
 
 Descripciones de Propiedades
 --------------------------------------------------------
+
+.. _class_AnimationNodeOneShot_property_abort_on_reset:
+
+.. rst-class:: classref-property
+
+:ref:`bool<class_bool>` **abort_on_reset** = ``false`` :ref:`🔗<class_AnimationNodeOneShot_property_abort_on_reset>`
+
+.. rst-class:: classref-property-setget
+
+- |void| **set_abort_on_reset**\ (\ value\: :ref:`bool<class_bool>`\ )
+- :ref:`bool<class_bool>` **is_aborted_on_reset**\ (\ )
+
+If ``true``, the sub-animation will abort if resumed with a reset after a prior interruption.
+
+.. rst-class:: classref-item-separator
+
+----
 
 .. _class_AnimationNodeOneShot_property_autorestart:
 

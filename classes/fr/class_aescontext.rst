@@ -146,7 +146,7 @@ Mode de décryptage du codebook électronique AES.
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_CBC_ENCRYPT** = ``2``
 
-Mode de cryptage de chiffre de chaînage de blocs AES.
+AES cipher block chaining encryption mode.
 
 .. _class_AESContext_constant_MODE_CBC_DECRYPT:
 
@@ -154,7 +154,7 @@ Mode de cryptage de chiffre de chaînage de blocs AES.
 
 :ref:`Mode<enum_AESContext_Mode>` **MODE_CBC_DECRYPT** = ``3``
 
-Mode de décryptage de chiffre de chaînage de blocs AES.
+AES cipher block chaining decryption mode.
 
 .. _class_AESContext_constant_MODE_MAX:
 

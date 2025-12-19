@@ -7,7 +7,7 @@ SkeletonModifier3D
 
 **Hereda:** :ref:`Node3D<class_Node3D>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Heredado por:** :ref:`BoneConstraint3D<class_BoneConstraint3D>`, :ref:`LookAtModifier3D<class_LookAtModifier3D>`, :ref:`ModifierBoneTarget3D<class_ModifierBoneTarget3D>`, :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>`, :ref:`RetargetModifier3D<class_RetargetModifier3D>`, :ref:`SkeletonIK3D<class_SkeletonIK3D>`, :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, :ref:`XRBodyModifier3D<class_XRBodyModifier3D>`, :ref:`XRHandModifier3D<class_XRHandModifier3D>`
+**Heredado por:** :ref:`BoneConstraint3D<class_BoneConstraint3D>`, :ref:`BoneTwistDisperser3D<class_BoneTwistDisperser3D>`, :ref:`IKModifier3D<class_IKModifier3D>`, :ref:`LimitAngularVelocityModifier3D<class_LimitAngularVelocityModifier3D>`, :ref:`LookAtModifier3D<class_LookAtModifier3D>`, :ref:`ModifierBoneTarget3D<class_ModifierBoneTarget3D>`, :ref:`PhysicalBoneSimulator3D<class_PhysicalBoneSimulator3D>`, :ref:`RetargetModifier3D<class_RetargetModifier3D>`, :ref:`SkeletonIK3D<class_SkeletonIK3D>`, :ref:`SpringBoneSimulator3D<class_SpringBoneSimulator3D>`, :ref:`XRBodyModifier3D<class_XRBodyModifier3D>`, :ref:`XRHandModifier3D<class_XRHandModifier3D>`
 
 Un nodo que puede modificar los huesos de un Skeleton3D.
 
@@ -145,6 +145,196 @@ Valor enumerado para el eje +Z.
 
 Valor enumerado para el eje -Z.
 
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_SkeletonModifier3D_BoneDirection:
+
+.. rst-class:: classref-enumeration
+
+enum **BoneDirection**: :ref:`🔗<enum_SkeletonModifier3D_BoneDirection>`
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_PLUS_X:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_PLUS_X** = ``0``
+
+Valor enumerado para el eje +X.
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_MINUS_X:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_MINUS_X** = ``1``
+
+Valor enumerado para el eje -X.
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_PLUS_Y:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_PLUS_Y** = ``2``
+
+Valor enumerado para el eje +Y.
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_MINUS_Y:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_MINUS_Y** = ``3``
+
+Valor enumerado para el eje -Y.
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_PLUS_Z:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_PLUS_Z** = ``4``
+
+Valor enumerado para el eje +Z.
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_MINUS_Z:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_MINUS_Z** = ``5``
+
+Valor enumerado para el eje -Z.
+
+.. _class_SkeletonModifier3D_constant_BONE_DIRECTION_FROM_PARENT:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`BoneDirection<enum_SkeletonModifier3D_BoneDirection>` **BONE_DIRECTION_FROM_PARENT** = ``6``
+
+Valor enumerado para el eje desde un hueso padre hasta el hueso hijo.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_SkeletonModifier3D_SecondaryDirection:
+
+.. rst-class:: classref-enumeration
+
+enum **SecondaryDirection**: :ref:`🔗<enum_SkeletonModifier3D_SecondaryDirection>`
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_NONE:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_NONE** = ``0``
+
+Enumerated value for the case when the axis is undefined.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_PLUS_X:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_PLUS_X** = ``1``
+
+Valor enumerado para el eje +X.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_MINUS_X:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_MINUS_X** = ``2``
+
+Valor enumerado para el eje -X.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_PLUS_Y:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_PLUS_Y** = ``3``
+
+Valor enumerado para el eje +Y.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_MINUS_Y:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_MINUS_Y** = ``4``
+
+Valor enumerado para el eje -Y.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_PLUS_Z:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_PLUS_Z** = ``5``
+
+Valor enumerado para el eje +Z.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_MINUS_Z:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_MINUS_Z** = ``6``
+
+Valor enumerado para el eje -Z.
+
+.. _class_SkeletonModifier3D_constant_SECONDARY_DIRECTION_CUSTOM:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`SecondaryDirection<enum_SkeletonModifier3D_SecondaryDirection>` **SECONDARY_DIRECTION_CUSTOM** = ``7``
+
+Enumerated value for an optional axis.
+
+.. rst-class:: classref-item-separator
+
+----
+
+.. _enum_SkeletonModifier3D_RotationAxis:
+
+.. rst-class:: classref-enumeration
+
+enum **RotationAxis**: :ref:`🔗<enum_SkeletonModifier3D_RotationAxis>`
+
+.. _class_SkeletonModifier3D_constant_ROTATION_AXIS_X:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`RotationAxis<enum_SkeletonModifier3D_RotationAxis>` **ROTATION_AXIS_X** = ``0``
+
+Valor enumerado para la rotación del eje X.
+
+.. _class_SkeletonModifier3D_constant_ROTATION_AXIS_Y:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`RotationAxis<enum_SkeletonModifier3D_RotationAxis>` **ROTATION_AXIS_Y** = ``1``
+
+Valor enumerado para la rotación del eje Y.
+
+.. _class_SkeletonModifier3D_constant_ROTATION_AXIS_Z:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`RotationAxis<enum_SkeletonModifier3D_RotationAxis>` **ROTATION_AXIS_Z** = ``2``
+
+Valor enumerado para la rotación del eje Z.
+
+.. _class_SkeletonModifier3D_constant_ROTATION_AXIS_ALL:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`RotationAxis<enum_SkeletonModifier3D_RotationAxis>` **ROTATION_AXIS_ALL** = ``3``
+
+Valor enumerado para la rotación sin restricciones.
+
+.. _class_SkeletonModifier3D_constant_ROTATION_AXIS_CUSTOM:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`RotationAxis<enum_SkeletonModifier3D_RotationAxis>` **ROTATION_AXIS_CUSTOM** = ``4``
+
+Enumerated value for an optional rotation axis.
+
 .. rst-class:: classref-section-separator
 
 ----
@@ -245,7 +435,7 @@ Se llama a este método cuando el esqueleto cambia.
 
 |void| **_validate_bone_names**\ (\ ) |virtual| :ref:`🔗<class_SkeletonModifier3D_private_method__validate_bone_names>`
 
-Se llama a este método cuando el nombre y el índice del hueso necesitan ser validados, como el momento de entrar en el árbol o cambiar el esqueleto.
+Called when bone names and indices need to be validated, such as when entering the scene tree or changing skeleton.
 
 .. rst-class:: classref-item-separator
 
@@ -257,7 +447,7 @@ Se llama a este método cuando el nombre y el índice del hueso necesitan ser va
 
 :ref:`Skeleton3D<class_Skeleton3D>` **get_skeleton**\ (\ ) |const| :ref:`🔗<class_SkeletonModifier3D_method_get_skeleton>`
 
-Obtiene el nodo padre :ref:`Skeleton3D<class_Skeleton3D>` si se encuentra.
+Returns the parent :ref:`Skeleton3D<class_Skeleton3D>` node if it exists. Otherwise, returns ``null``.
 
 .. |virtual| replace:: :abbr:`virtual (Normalmente, este método debería ser sobreescrito por el usuario para que tenga algún efecto.)`
 .. |required| replace:: :abbr:`required (This method is required to be overridden when extending its base class.)`

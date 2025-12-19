@@ -5,7 +5,7 @@
 TCPServer
 =========
 
-**Eredita:** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
+**Eredita:** :ref:`SocketServer<class_SocketServer>` **<** :ref:`RefCounted<class_RefCounted>` **<** :ref:`Object<class_Object>`
 
 Un server TCP.
 
@@ -29,13 +29,7 @@ Metodi
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`int<class_int>`                     | :ref:`get_local_port<class_TCPServer_method_get_local_port>`\ (\ ) |const|                                                         |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                   | :ref:`is_connection_available<class_TCPServer_method_is_connection_available>`\ (\ ) |const|                                       |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | :ref:`bool<class_bool>`                   | :ref:`is_listening<class_TCPServer_method_is_listening>`\ (\ ) |const|                                                             |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`Error<enum_@GlobalScope_Error>`     | :ref:`listen<class_TCPServer_method_listen>`\ (\ port\: :ref:`int<class_int>`, bind_address\: :ref:`String<class_String>` = "*"\ ) |
-   +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
-   | |void|                                    | :ref:`stop<class_TCPServer_method_stop>`\ (\ )                                                                                     |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
    | :ref:`StreamPeerTCP<class_StreamPeerTCP>` | :ref:`take_connection<class_TCPServer_method_take_connection>`\ (\ )                                                               |
    +-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------+
@@ -61,30 +55,6 @@ Restituisce la porta locale che questo server sta ascoltando.
 
 ----
 
-.. _class_TCPServer_method_is_connection_available:
-
-.. rst-class:: classref-method
-
-:ref:`bool<class_bool>` **is_connection_available**\ (\ ) |const| :ref:`🔗<class_TCPServer_method_is_connection_available>`
-
-Restituisce ``true`` se una connessione è disponibile per l'uso.
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_TCPServer_method_is_listening:
-
-.. rst-class:: classref-method
-
-:ref:`bool<class_bool>` **is_listening**\ (\ ) |const| :ref:`🔗<class_TCPServer_method_is_listening>`
-
-Restituisce ``true`` se il server è attualmente in ascolto per nuove connessioni.
-
-.. rst-class:: classref-item-separator
-
-----
-
 .. _class_TCPServer_method_listen:
 
 .. rst-class:: classref-method
@@ -98,18 +68,6 @@ Se ``bind_address`` è impostato come ``"*"`` (predefinito), il server ascolter�
 Se ``bind_address`` è impostato come ``"0.0.0.0"`` (per IPv4) o ``"::"`` (per IPv6), il server ascolterà tutti gli indirizzi disponibili che corrispondono a quel tipo di IP.
 
 Se ``bind_address`` è impostato su un indirizzo valido (ad esempio ``"192.168.1.101"``, ``"::1"``, ecc.), il server ascolterà solo sull'interfaccia con quell'indirizzo (o fallirà se non esiste alcuna interfaccia con l'indirizzo specificato).
-
-.. rst-class:: classref-item-separator
-
-----
-
-.. _class_TCPServer_method_stop:
-
-.. rst-class:: classref-method
-
-|void| **stop**\ (\ ) :ref:`🔗<class_TCPServer_method_stop>`
-
-Smette di ascoltare.
 
 .. rst-class:: classref-item-separator
 

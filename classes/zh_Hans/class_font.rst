@@ -555,7 +555,7 @@ Font
 
 :ref:`bool<class_bool>` **is_language_supported**\ (\ language\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Font_method_is_language_supported>`
 
-如果该字体支持给定的语言（\ `ISO 639 <https://zh.wikipedia.org/wiki/ISO_639-1>`__ 代码），则返回 ``true``\ 。
+Returns ``true`` if the font supports the given language (as a `ISO 639 <https://en.wikipedia.org/wiki/ISO_639-1>`__ code).
 
 .. rst-class:: classref-item-separator
 
@@ -567,7 +567,7 @@ Font
 
 :ref:`bool<class_bool>` **is_script_supported**\ (\ script\: :ref:`String<class_String>`\ ) |const| :ref:`🔗<class_Font_method_is_script_supported>`
 
-如果该字体支持给定的文字（\ `ISO 15924 <https://zh.wikipedia.org/wiki/ISO_15924>`__ 代码），则返回 ``true``\ 。
+Returns ``true`` if the font supports the given script (as a `ISO 15924 <https://en.wikipedia.org/wiki/ISO_15924>`__ code).
 
 .. rst-class:: classref-item-separator
 

@@ -14,9 +14,9 @@ Unisce vari nodi 2D in un'unica operazione di disegno.
 Descrizione
 ----------------------
 
-I nodi :ref:`CanvasItem<class_CanvasItem>` figli di un **CanvasGroup** sono disegnati come un singolo oggetto. Ciò consente, ad esempio, di disegnare nodi 2D traslucidi sovrapposti senza fusione (imposta la proprietà :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` di **CanvasGroup** per ottenere questo effetto).
+Child :ref:`CanvasItem<class_CanvasItem>` nodes of a **CanvasGroup** are drawn as a single object. It allows to e.g. draw overlapping translucent 2D nodes without causing the overlapping sections to be more opaque than intended (set the :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` property on the **CanvasGroup** to achieve this effect).
 
-\ **Nota:** Il **CanvasGroup** usa uno shader personalizzato per leggere dal backbuffer per disegnare i suoi figli. L'assegnazione di un :ref:`Material<class_Material>` al **CanvasGroup** sovrascrive lo shader integrato. Per duplicare il comportamento dello shader integrato in uno :ref:`Shader<class_Shader>` personalizzato, usa quanto segue:
+\ **Note:** The **CanvasGroup** uses a custom shader to read from the backbuffer to draw its children. Assigning a :ref:`Material<class_Material>` to the **CanvasGroup** overrides the built-in shader. To duplicate the behavior of the built-in shader in a custom :ref:`Shader<class_Shader>`, use the following:
 
 ::
 
@@ -35,7 +35,7 @@ I nodi :ref:`CanvasItem<class_CanvasItem>` figli di un **CanvasGroup** sono dise
         COLOR *= c;
     }
 
-\ **Nota:** Poiché **CanvasGroup** e :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` utilizzano entrambi il backbuffer, i figli di un **CanvasGroup** che hanno il loro :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` impostato su un valore diverso da :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` non funzioneranno correttamente.
+\ **Note:** Since **CanvasGroup** and :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` both utilize the backbuffer, children of a **CanvasGroup** who have their :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` set to anything other than :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` will not function correctly.
 
 .. rst-class:: classref-reftable-group
 

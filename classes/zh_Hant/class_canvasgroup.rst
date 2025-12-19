@@ -14,9 +14,9 @@ CanvasGroup
 說明
 ----
 
-**CanvasGroup** 的所有子 :ref:`CanvasItem<class_CanvasItem>` 節點會作為一個單獨的物件繪製。它允許在不混合的情況下繪製重疊的半透明 2D 節點（設定 **CanvasGroup** 的 :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` 屬性來實作這一效果）。
+Child :ref:`CanvasItem<class_CanvasItem>` nodes of a **CanvasGroup** are drawn as a single object. It allows to e.g. draw overlapping translucent 2D nodes without causing the overlapping sections to be more opaque than intended (set the :ref:`CanvasItem.self_modulate<class_CanvasItem_property_self_modulate>` property on the **CanvasGroup** to achieve this effect).
 
-\ **注意：**\ **CanvasGroup** 使用一個自訂著色器從背景緩衝區讀取以繪製其子節點。為 **CanvasGroup** 指定一個 :ref:`Material<class_Material>` 會覆蓋內建著色器。要在自訂 :ref:`Shader<class_Shader>` 中複製內建著色器的行為，請使用以下方法：
+\ **Note:** The **CanvasGroup** uses a custom shader to read from the backbuffer to draw its children. Assigning a :ref:`Material<class_Material>` to the **CanvasGroup** overrides the built-in shader. To duplicate the behavior of the built-in shader in a custom :ref:`Shader<class_Shader>`, use the following:
 
 ::
 
@@ -35,7 +35,7 @@ CanvasGroup
         COLOR *= c;
     }
 
-\ **注意：**\ 由於 **CanvasGroup** 和 :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` 都使用後台緩衝區，因此 **CanvasGroup** 的子級如果將其 :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` 設定為 :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` 以外的其他值將無法正常工作。
+\ **Note:** Since **CanvasGroup** and :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` both utilize the backbuffer, children of a **CanvasGroup** who have their :ref:`CanvasItem.clip_children<class_CanvasItem_property_clip_children>` set to anything other than :ref:`CanvasItem.CLIP_CHILDREN_DISABLED<class_CanvasItem_constant_CLIP_CHILDREN_DISABLED>` will not function correctly.
 
 .. rst-class:: classref-reftable-group
 

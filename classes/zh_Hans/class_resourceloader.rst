@@ -27,6 +27,8 @@ ResourceLoader
 教程
 ----
 
+- `Threaded Loading Demo <https://godotengine.org/asset-library/asset/2778>`__
+
 - `操作系统测试演示 <https://godotengine.org/asset-library/asset/2789>`__
 
 .. rst-class:: classref-reftable-group

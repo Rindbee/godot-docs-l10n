@@ -443,9 +443,9 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 - |void| **set_velocity**\ (\ value\: :ref:`Vector3<class_Vector3>`\ )
 - :ref:`Vector3<class_Vector3>` **get_velocity**\ (\ )
 
-Текущий вектор скорости (обычно в метрах в секунду), используемый и изменяемый во время вызовов метода :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Current velocity vector (typically meters per second), used and modified during calls to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
 
-Это свойство не следует задавать равным значению, умноженному на ``delta``, поскольку это происходит внутри метода :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. В противном случае симуляция будет выполняться с неверной скоростью.
+\ **Note:** A common mistake is setting this property to the desired velocity multiplied by ``delta``, which produces a motion vector (typically in meters).
 
 .. rst-class:: classref-item-separator
 
@@ -529,7 +529,7 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **get_last_slide_collision**\ (\ ) :ref:`🔗<class_CharacterBody3D_method_get_last_slide_collision>`
 
-Возвращает :ref:`KinematicCollision3D<class_KinematicCollision3D>`, содержащий информацию о последнем столкновении, произошедшем во время последнего вызова :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`.
+Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>` if a collision occurred. The returned value contains information about the latest collision that occurred during the last call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Returns ``null`` if no collision occurred. See also :ref:`get_slide_collision()<class_CharacterBody3D_method_get_slide_collision>`.
 
 .. rst-class:: classref-item-separator
 
@@ -589,7 +589,7 @@ enum **PlatformOnLeave**: :ref:`🔗<enum_CharacterBody3D_PlatformOnLeave>`
 
 :ref:`KinematicCollision3D<class_KinematicCollision3D>` **get_slide_collision**\ (\ slide_idx\: :ref:`int<class_int>`\ ) :ref:`🔗<class_CharacterBody3D_method_get_slide_collision>`
 
-Возвращает :ref:`KinematicCollision3D<class_KinematicCollision3D>`, содержащий информацию о столкновении, произошедшем во время последнего вызова :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Поскольку тело может столкнуться несколько раз за один вызов :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`, необходимо указать индекс столкновения в диапазоне от 0 до (:ref:`get_slide_collision_count()<class_CharacterBody3D_method_get_slide_collision_count>` - 1).
+Returns a :ref:`KinematicCollision3D<class_KinematicCollision3D>`, which contains information about a collision that occurred during the last call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`. Since the body can collide several times in a single call to :ref:`move_and_slide()<class_CharacterBody3D_method_move_and_slide>`, you must specify the index of the collision in the range 0 to (:ref:`get_slide_collision_count()<class_CharacterBody3D_method_get_slide_collision_count>` - 1). See also :ref:`get_last_slide_collision()<class_CharacterBody3D_method_get_last_slide_collision>`.
 
 .. rst-class:: classref-item-separator
 

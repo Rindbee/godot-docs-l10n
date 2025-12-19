@@ -1020,9 +1020,9 @@ enum **Flags**: :ref:`🔗<enum_BaseMaterial3D_Flags>`
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_SRGB_VERTEX_COLOR** = ``2``
 
-頂點色視為以 sRGB 色域儲存，算繪時會轉換到線性色域。另見 :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`\ 。
+Vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-\ **注意：**\ 僅於 Forward+ 與 Mobile 管線中生效。
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods.
 
 .. _class_BaseMaterial3D_constant_FLAG_USE_POINT_SIZE:
 
@@ -1102,7 +1102,7 @@ enum **Flags**: :ref:`🔗<enum_BaseMaterial3D_Flags>`
 
 :ref:`Flags<enum_BaseMaterial3D_Flags>` **FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = ``12``
 
-強制著色器將反照率由 sRGB 轉為線性空間。另見 :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`\ 。
+Forces the shader to convert albedo from nonlinear sRGB encoding to linear encoding. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
 .. _class_BaseMaterial3D_constant_FLAG_DONT_RECEIVE_SHADOWS:
 
@@ -1512,7 +1512,7 @@ enum **StencilFlags**: :ref:`🔗<enum_BaseMaterial3D_StencilFlags>`
 
 :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>` **STENCIL_FLAG_READ** = ``1``
 
-The material will only be rendered where it passes a stencil comparison with existing stencil buffer values. See :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+The material will only be rendered where it passes a stencil comparison with existing stencil buffer values.
 
 .. _class_BaseMaterial3D_constant_STENCIL_FLAG_WRITE:
 
@@ -1654,9 +1654,9 @@ Passes the stencil test when the reference value is greater than or equal to the
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-若為 ``true``\ ，強制將 :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` 從 sRGB 色域轉換為線性色域。另見 :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`\ 。
+If ``true``, forces a conversion of the :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` from nonlinear sRGB encoding to linear encoding. See also :ref:`vertex_color_is_srgb<class_BaseMaterial3D_property_vertex_color_is_srgb>`.
 
-此選項僅在必要時啟用（通常於將 :ref:`ViewportTexture<class_ViewportTexture>` 用作 :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>` 時）。若不該開啟卻開啟，紋理會顯得過暗；反之亦然則會顯得過亮。
+This should only be enabled when needed (typically when using a :ref:`ViewportTexture<class_ViewportTexture>` as :ref:`albedo_texture<class_BaseMaterial3D_property_albedo_texture>`). If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``true`` when it shouldn't be, the texture will appear to be too dark. If :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>` is ``false`` when it shouldn't be, the texture will appear to be too bright.
 
 .. rst-class:: classref-item-separator
 
@@ -2152,7 +2152,7 @@ Alpha Scissor 剪裁丟棄像素的臨界值；值越高會丟棄越多像素。
 
 **實驗性：** May be affected by future rendering pipeline changes.
 
-Determines which comparison operator is used when testing depth. See :ref:`DepthTest<enum_BaseMaterial3D_DepthTest>`.
+Determines which comparison operator is used when testing depth.
 
 \ **Note:** Changing :ref:`depth_test<class_BaseMaterial3D_property_depth_test>` to a non-default value only has a visible effect when used on a transparent material, or a material that has :ref:`depth_draw_mode<class_BaseMaterial3D_property_depth_draw_mode>` set to :ref:`DEPTH_DRAW_DISABLED<class_BaseMaterial3D_constant_DEPTH_DRAW_DISABLED>`.
 
@@ -3337,7 +3337,7 @@ The primary color of the stencil effect.
 
 **實驗性：** May be affected by future rendering pipeline changes.
 
-The comparison operator to use for stencil masking operations. See :ref:`StencilCompare<enum_BaseMaterial3D_StencilCompare>`.
+The comparison operator to use for stencil masking operations.
 
 .. rst-class:: classref-item-separator
 
@@ -3356,7 +3356,7 @@ The comparison operator to use for stencil masking operations. See :ref:`Stencil
 
 **實驗性：** May be affected by future rendering pipeline changes.
 
-The flags dictating how the stencil operation behaves. See :ref:`StencilFlags<enum_BaseMaterial3D_StencilFlags>`.
+The flags dictating how the stencil operation behaves.
 
 .. rst-class:: classref-item-separator
 
@@ -3375,7 +3375,7 @@ The flags dictating how the stencil operation behaves. See :ref:`StencilFlags<en
 
 **實驗性：** May be affected by future rendering pipeline changes.
 
-The stencil effect mode. See :ref:`StencilMode<enum_BaseMaterial3D_StencilMode>`.
+The stencil effect mode.
 
 .. rst-class:: classref-item-separator
 
@@ -3882,9 +3882,9 @@ The stencil reference value (0-255). Typically a power of 2.
 - |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ )
 - :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const|
 
-若設為 ``true``\ ，視頂點色為 sRGB，渲染時轉為線性；若為 ``false`` 則視為線性色並直接使用。另見 :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`\ 。
+If ``true``, vertex colors are considered to be stored in nonlinear sRGB encoding and are converted to linear encoding during rendering. If ``false``, vertex colors are considered to be stored in linear encoding and are rendered as-is. See also :ref:`albedo_texture_force_srgb<class_BaseMaterial3D_property_albedo_texture_force_srgb>`.
 
-\ **注意：**\ 僅在 Forward+ 與 Mobile 管線有效，Compatibility 無效。
+\ **Note:** Only effective when using the Forward+ and Mobile rendering methods, not Compatibility.
 
 .. rst-class:: classref-item-separator
 
@@ -3935,7 +3935,7 @@ The stencil reference value (0-255). Typically a power of 2.
 
 :ref:`bool<class_bool>` **get_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_feature>`
 
-若指定的 :ref:`Feature<enum_BaseMaterial3D_Feature>` 已啟用，返回 ``true``\ 。
+Returns ``true`` if the specified ``feature`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3947,7 +3947,7 @@ The stencil reference value (0-255). Typically a power of 2.
 
 :ref:`bool<class_bool>` **get_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_flag>`
 
-若指定的旗標已啟用，則返回 ``true``\ 。
+Returns ``true`` if the specified ``flag`` is enabled.
 
 .. rst-class:: classref-item-separator
 
@@ -3959,7 +3959,7 @@ The stencil reference value (0-255). Typically a power of 2.
 
 :ref:`Texture2D<class_Texture2D>` **get_texture**\ (\ param\: :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>`\ ) |const| :ref:`🔗<class_BaseMaterial3D_method_get_texture>`
 
-返回與指定 :ref:`TextureParam<enum_BaseMaterial3D_TextureParam>` 關聯的 :ref:`Texture2D<class_Texture2D>`\ 。
+Returns the :ref:`Texture2D<class_Texture2D>` associated with the specified texture ``param``.
 
 .. rst-class:: classref-item-separator
 
@@ -3971,7 +3971,7 @@ The stencil reference value (0-255). Typically a power of 2.
 
 |void| **set_feature**\ (\ feature\: :ref:`Feature<enum_BaseMaterial3D_Feature>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_feature>`
 
-若為 ``true``\ ，啟用指定的 :ref:`Feature<enum_BaseMaterial3D_Feature>`\ 。\ **BaseMaterial3D** 中的許多功能必須先啟用才能使用，藉此僅在需要時才付出效能成本。亦可透過將對應屬性設為 ``true`` 來啟用。
+If ``enable`` is ``true``, enables the specified ``feature``. Many features that are available in **BaseMaterial3D** need to be enabled before use. This way, the cost for using the feature is only incurred when specified. Features can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 
@@ -3983,7 +3983,7 @@ The stencil reference value (0-255). Typically a power of 2.
 
 |void| **set_flag**\ (\ flag\: :ref:`Flags<enum_BaseMaterial3D_Flags>`, enable\: :ref:`bool<class_bool>`\ ) :ref:`🔗<class_BaseMaterial3D_method_set_flag>`
 
-若為 ``true``\ ，啟用指定旗標。旗標屬於可開關的可選行為；此方法一次只能修改一個旗標，列舉值不能組合成位元遮罩一次啟用或停用多個旗標。亦可透過將對應屬性設為 ``true`` 來啟用。
+If ``enable`` is ``true``, enables the specified ``flag``. Flags are optional behavior that can be turned on and off. Only one flag can be enabled at a time with this function, the flag enumerators cannot be bit-masked together to enable or disable multiple flags at once. Flags can also be enabled by setting their corresponding property to ``true``.
 
 .. rst-class:: classref-item-separator
 

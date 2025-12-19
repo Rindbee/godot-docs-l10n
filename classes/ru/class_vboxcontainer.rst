@@ -7,7 +7,7 @@ VBoxContainer
 
 **Наследует:** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`
 
-**Наследуется от:** :ref:`ColorPicker<class_ColorPicker>`, :ref:`FileSystemDock<class_FileSystemDock>`, :ref:`ScriptEditorBase<class_ScriptEditorBase>`
+**Наследуется от:** :ref:`ColorPicker<class_ColorPicker>`, :ref:`ScriptEditorBase<class_ScriptEditorBase>`
 
 Контейнер, который располагает свои дочерние элементы управления вертикально.
 

@@ -14,9 +14,9 @@ CollisionShape3D
 說明
 ----
 
-向 :ref:`CollisionObject3D<class_CollisionObject3D>` 父級提供 :ref:`Shape3D<class_Shape3D>` 並能夠對其進行編輯的節點。可以為 :ref:`Area3D<class_Area3D>` 提供偵測形狀，也可以將 :ref:`PhysicsBody3D<class_PhysicsBody3D>` 變為實體物件。
+A node that provides a :ref:`Shape3D<class_Shape3D>` to a :ref:`CollisionObject3D<class_CollisionObject3D>` parent and allows it to be edited. This can give a detection shape to an :ref:`Area3D<class_Area3D>` or turn a :ref:`PhysicsBody3D<class_PhysicsBody3D>` into a solid object.
 
-\ **警告：**\ 非均勻縮放的 **CollisionShape3D** 可能無法按預期運作。請保持在所有軸上使用相同的縮放，需要時可以更改其 :ref:`shape<class_CollisionShape3D_property_shape>` 資源代替。
+\ **Warning:** A non-uniformly scaled **CollisionShape3D** will likely not behave as expected. Make sure to keep its scale the same on all axes and adjust its :ref:`shape<class_CollisionShape3D_property_shape>` resource instead.
 
 .. rst-class:: classref-introduction-group
 
