@@ -192,11 +192,6 @@ msgstr ""
 "Barramentos de áudio podem conter todos os tipos de efeitos. Esses efeitos "
 "modificam o som de uma forma ou outra e são aplicados em ordem."
 
-msgid "For information on what each effect does, see :ref:`doc_audio_effects`."
-msgstr ""
-"Para obter mais informações sobre o que cada efeito faz, consulte: ref: "
-"`doc_audio_effects`."
-
 msgid "Automatic bus disabling"
 msgstr "Desativando barramentos automaticamente"
 

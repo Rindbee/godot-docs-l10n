@@ -106,6 +106,13 @@ msgid "Prerequisites"
 msgstr "முன்நிபந்தனைகள்"
 
 msgid ""
+"This step-by-step tutorial is intended for beginners who followed the "
+"complete :ref:`doc_step_by_step`."
+msgstr ""
+"இந்த படிப்படியான டுடோரியல் முழுமையானதைப் பின்பற்றிய ஆரம்பநிலைக்கு நோக்கம் கொண்டது: "
+"குறிப்பு: `doc_step_by_step`."
+
+msgid ""
 "If you're an experienced programmer, you can find the complete demo's source "
 "code here: `Dodge the Creeps source code <https://github.com/godotengine/"
 "godot-demo-projects/tree/master/2d/dodge_the_creeps>`__."

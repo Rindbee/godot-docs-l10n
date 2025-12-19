@@ -915,13 +915,6 @@ msgid "**Volumetric fog:**"
 msgstr "**Niebla volumétrica**"
 
 msgid ""
-"Global :ref:`volumetric fog <doc_volumetric_fog>` that reacts to lights and "
-"shadows."
-msgstr ""
-"Niebla volumétrica global :ref:` <doc_volumetric_fog>` que reacciona a las "
-"luces y sombras."
-
-msgid ""
 "Volumetric fog can take indirect light into account when using VoxelGI or "
 "SDFGI."
 msgstr ""
@@ -1428,7 +1421,7 @@ msgid "No support for MIDI output yet."
 msgstr "No hay soporte para salida MIDI todavía."
 
 msgid "**APIs used:**"
-msgstr "**APIs usadas:**"
+msgstr "**API usadas:**"
 
 msgid "*Windows:* WASAPI."
 msgstr "*Windows:* WASAPI (API de Windows para la Gestión de Audio)."

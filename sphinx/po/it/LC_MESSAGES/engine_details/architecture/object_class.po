@@ -271,6 +271,11 @@ msgstr ""
 "essere confrontato con i nomi desiderati in ordine seriale."
 
 msgid ""
+"Godot provides dynamic casting between Object-derived classes, for example:"
+msgstr ""
+"Godot fornisce un casting dinamico tra classi derivate da Object, ad esempio:"
+
+msgid ""
 "If cast fails, NULL is returned. This system uses RTTI, but it also works "
 "fine (although a bit slower) when RTTI is disabled. This is useful on "
 "platforms where a small binary size is ideal, such as HTML5 or consoles "

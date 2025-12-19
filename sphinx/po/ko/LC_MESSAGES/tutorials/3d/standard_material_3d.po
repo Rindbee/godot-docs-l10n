@@ -14,6 +14,9 @@ msgstr ""
 msgid "Introduction"
 msgstr "소개"
 
+msgid "Alpha Antialiasing"
+msgstr "알파 안티앨리어싱"
+
 msgid "Blend Mode"
 msgstr "블렌드 모드"
 
@@ -79,10 +82,10 @@ msgid "Albedo"
 msgstr "알베도"
 
 msgid "Metallic"
-msgstr "금속성"
+msgstr "메탈릭"
 
 msgid "Roughness"
-msgstr "굵기"
+msgstr "거칠기"
 
 msgid "Emission"
 msgstr "방출"
@@ -107,6 +110,9 @@ msgstr "비등방성"
 
 msgid "Ambient Occlusion"
 msgstr "앰비언트 오클루전"
+
+msgid "Height"
+msgstr "높이"
 
 msgid "Subsurface Scattering"
 msgstr "서브서피스 산란"

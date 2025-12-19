@@ -540,9 +540,6 @@ msgstr "Положення вузла, у просторі огляду."
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "Розташування камери у світовому просторі."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -591,13 +588,6 @@ msgstr "Константа для правого ока, завжди ``1``."
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "In vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
-"Зміщення позиції ока, що візуалізується. Застосовується лише для "
-"мультиракурсного рендерингу."
 
 msgid "inout vec3 **VERTEX**"
 msgstr "Inout vec3 **VERTEX**"

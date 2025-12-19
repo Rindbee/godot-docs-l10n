@@ -273,12 +273,3 @@ msgstr ""
 
 msgid "Saving"
 msgstr "Salvando"
-
-msgid ""
-"Finally, we can use the :ref:`ResourceSaver <class_resourcesaver>` class to "
-"save the ArrayMesh. This is useful when you want to generate a mesh and then "
-"use it later without having to re-generate it."
-msgstr ""
-"Finalmente, podemos usar a classe :ref:'ResourceSaver<class_resourcesaver>' "
-"para salvar a ArrayMesh. Isso é útil quando você deseja gerar uma malha e, "
-"em seguida, usá-la mais tarde sem ter que gerá-la novamente."

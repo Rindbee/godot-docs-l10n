@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid ""
 "See :ref:`doc_gdscript_grammar` if you are interested in writing a third-"

@@ -28,3 +28,6 @@ msgstr "3D 렌더링 해상도"
 
 msgid "Troubleshooting"
 msgstr "문제 해결"
+
+msgid "See the :ref:`doc_performance` tutorials for more information."
+msgstr "자세한 정보는 :ref:`doc_performance` 튜토리얼을 참조하세요."

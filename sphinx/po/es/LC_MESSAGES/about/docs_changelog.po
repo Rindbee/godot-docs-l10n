@@ -40,9 +40,6 @@ msgstr "Nuevas páginas desde la versión 4.3"
 msgid "2D"
 msgstr "2D"
 
-msgid ":ref:`doc_introduction_to_2d`"
-msgstr ":ref:`doc_introducción_a_2d`"
-
 msgid "3D"
 msgstr "3D"
 
@@ -52,14 +49,8 @@ msgstr ":ref:`doc_spring_arm`"
 msgid "Debug"
 msgstr "Depurar"
 
-msgid ":ref:`doc_output_panel`"
-msgstr ":ref:`panel de salida del documento`"
-
 msgid "Editor"
 msgstr "Editor"
-
-msgid ":ref:`doc_using_the_xr_editor`"
-msgstr ":ref:`doc_usando_el_editor_xr`"
 
 msgid "Performance"
 msgstr "Rendimiento"
@@ -69,15 +60,6 @@ msgstr ":ref:`doc_pipeline_compilations`"
 
 msgid "Physics"
 msgstr "Física"
-
-msgid ":ref:`doc_physics_interpolation`"
-msgstr ":ref:`doc_physics_interpolación`"
-
-msgid ":ref:`doc_physics_interpolation_quick_start_guide`"
-msgstr ":ref:`doc_guía_rápida_de_inicio_de_interpolación_física`"
-
-msgid ":ref:`doc_physics_interpolation_introduction`"
-msgstr ":ref:`doc_física_interpolación_introducción`"
 
 msgid ":ref:`doc_using_physics_interpolation`"
 msgstr ":ref:`doc_using_physics_interpolation`"
@@ -105,9 +87,6 @@ msgstr "Nuevas páginas desde la versión 4.2"
 
 msgid "About"
 msgstr "Acerca de"
-
-msgid ":ref:`doc_system_requirements`"
-msgstr ":ref:`doc_requisitos_del_sistema`"
 
 msgid ":ref:`doc_2d_parallax`"
 msgstr ":ref:`doc_2d_parallax`"
@@ -144,9 +123,6 @@ msgstr ":ref:`doc_a_better_xr_start_script`"
 
 msgid ":ref:`doc_openxr_passthrough`"
 msgstr ":ref:`doc_openxr_passthrough`"
-
-msgid ":ref:`doc_xr_next_steps`"
-msgstr ":ref:`doc_xr_próximos_pasos`"
 
 msgid ":ref:`doc_openxr_settings`"
 msgstr ":ref:`doc_openxr_settings`"

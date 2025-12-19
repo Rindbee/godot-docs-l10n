@@ -179,3 +179,10 @@ msgstr "ArrayMesh"
 
 msgid "Animation"
 msgstr "Animación"
+
+msgid ""
+"For 3D position, rotation and scale tracks, ``keys`` is a PackedFloat32Array "
+"with all values stored in a sequence."
+msgstr ""
+"Para pistas de posición, rotación y escala 3D, ``keys`` es un "
+"PackedFloat32Array con todos los valores guardados en una secuencia."

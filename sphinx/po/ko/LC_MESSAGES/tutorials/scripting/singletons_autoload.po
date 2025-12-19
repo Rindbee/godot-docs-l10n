@@ -114,7 +114,10 @@ msgid ""
 "version may appear, that's not an issue. Click *Ok* to open the project."
 msgstr ""
 "프로젝트가 마지막으로 이전 Godot 버전에서 열렸다는 알림 창이 나타날 수 있지"
-"만, 이건 문제가 되지 않습니다. *Ok* 를 클릭하여 프로젝트를 여세요."
+"만, 이건 문제가 되지 않습니다. *확인*\\ 을 클릭하여 프로젝트를 여세요."
+
+msgid "Creating the script"
+msgstr "스크립트 만들기"
 
 msgid ""
 "The next step is to add this script to the autoLoad list. Starting from the "

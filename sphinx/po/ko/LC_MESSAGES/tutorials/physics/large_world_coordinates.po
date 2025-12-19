@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Large world coordinates"
+msgstr "큰 세계 좌표"
+
+msgid "Why use large world coordinates?"
+msgstr "왜 큰 세계 좌표를 사용하나요?"
+
 msgid "Range"
 msgstr "범위"
 

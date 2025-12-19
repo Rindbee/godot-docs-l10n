@@ -36,6 +36,9 @@ msgstr ""
 msgid "Attributes are added before each vertex is added:"
 msgstr "Les attributs sont ajoutés avant l'ajout de chaque sommet :"
 
+msgid "The code below creates a triangle without indices."
+msgstr "Le code ci-dessous crée un triangle sans indices."
+
 msgid ""
 "Similarly, if you have an index array, but you want each vertex to be unique "
 "(e.g. because you want to use unique normals or colors per face instead of "

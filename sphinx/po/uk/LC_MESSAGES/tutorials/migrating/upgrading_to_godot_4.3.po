@@ -596,13 +596,6 @@ msgstr "`GH-81746`_"
 msgid "Behavior changes"
 msgstr "Зміни поведінки"
 
-msgid ""
-"In 4.3 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"У версії 4.3 було внесено деякі зміни в поведінку, які можуть вимагати від "
-"вас коригування вашого проекту."
-
 msgid "Core"
 msgstr "Ядро"
 

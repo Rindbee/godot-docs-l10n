@@ -469,7 +469,7 @@ msgstr ""
 "가 옵니다."
 
 msgid "Static typing"
-msgstr "정적 타이핑(Static Typing)"
+msgstr "정적 타이핑"
 
 msgid "Declared types"
 msgstr "선언된 타입"

@@ -77,7 +77,7 @@ msgstr ""
 "mobiles, lorsque vous dessinez de très grandes images (généralement de la "
 "taille d'un écran) ou lorsque vous superposez plusieurs images les unes sur "
 "les autres avec de grandes zones transparentes (par exemple, lorsque vous "
-"utilisez \"ParallaxBackground\")."
+"utilisez ``ParallaxBackground``)."
 
 msgid ""
 "Converting to a mesh will ensure that only the opaque parts will be drawn "

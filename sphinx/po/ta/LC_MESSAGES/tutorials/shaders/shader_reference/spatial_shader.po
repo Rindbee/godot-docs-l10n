@@ -241,6 +241,13 @@ msgstr ""
 msgid "**shadows_disabled**"
 msgstr "** shadows_disabled **"
 
+msgid ""
+"Disable computing shadows in shader. The shader will not receive shadows, "
+"but can still cast them."
+msgstr ""
+"சேடரில் கம்ப்யூட்டிங் நிழல்களை முடக்கு. சேடர் நிழல்களைப் பெறாது, ஆனால் இன்னும் அவற்றை "
+"நடிக்க முடியும்."
+
 msgid "**ambient_light_disabled**"
 msgstr "** ampient_light_disabled **"
 
@@ -525,9 +532,6 @@ msgstr "முனை நிலை, பார்வை இடத்தில்."
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "VEC3 ** Camera_Position_world ** இல்"
 
-msgid "Camera position, in world space."
-msgstr "கேமரா நிலை, உலக இடத்தில்."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "VEC3 ** Camera_direction_world ** இல்"
 
@@ -576,11 +580,6 @@ msgstr "வலது கண்ணுக்கு நிலையானது, �
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "vec3 ** eye_offset ** இல்"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr "கண் வழங்கப்படுவதற்கான நிலை ஆஃப்செட். மல்டிவியூ ரெண்டரிங்கிற்கு மட்டுமே பொருந்தும்."
 
 msgid "inout vec3 **VERTEX**"
 msgstr "VEC3 ** வெர்டெக்ச் **"

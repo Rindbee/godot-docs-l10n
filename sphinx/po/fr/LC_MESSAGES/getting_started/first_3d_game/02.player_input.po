@@ -235,6 +235,16 @@ msgstr ""
 msgid "Bind also the :kbd:`A` key, onto the action ``move_left``."
 msgstr "Liez également la touche :kbd:`A` à l'action ``move_left``."
 
+msgid ""
+"Let's now add support for a gamepad's left joystick. Click the \"**+**\" "
+"button again but this time, select the input within the input tree yourself. "
+"Select the negative X axis of the left joystick under **Joypad Axes**."
+msgstr ""
+"Ajoutons maintenant le support du joystick gauche d'une manette. Cliquez "
+"encore sur le bouton \"**+**\", mais cette fois, sélectionnez l'entrée dans "
+"l'arbre des entrées vous-même. Sélectionnez l'axe X négatif du joystick "
+"gauche dans **Axes de joystick**."
+
 msgid "Leave the other values as default and press **OK**."
 msgstr "Laissez les autres valeurs par défaut et appuyez sur **OK**."
 

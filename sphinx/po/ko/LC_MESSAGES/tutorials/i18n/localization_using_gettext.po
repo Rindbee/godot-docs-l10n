@@ -14,6 +14,15 @@ msgstr ""
 msgid "Localization using gettext (PO files)"
 msgstr "gettext(PO 파일)를 사용한 현지화"
 
+msgid "Advantages"
+msgstr "장점"
+
+msgid "Disadvantages"
+msgstr "단점"
+
+msgid "Installing gettext tools"
+msgstr "gettext 툴 설치하기"
+
 msgid "Automatic generation using the editor"
 msgstr "편집기를 사용하여 자동 생성"
 

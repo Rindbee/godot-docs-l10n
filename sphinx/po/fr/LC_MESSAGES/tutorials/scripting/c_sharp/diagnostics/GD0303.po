@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0303: The parent symbol of a type argument that must be Variant compatible "
+"was not handled"
+msgstr ""
+"GD0303 : Le symbole parent d'un argument de type qui doit être compatible "
+"avec Variant n'a pas été géré"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

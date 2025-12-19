@@ -24,6 +24,17 @@ msgstr ""
 msgid "Editor's interface"
 msgstr "ஆசிரியரின் இடைமுகம்"
 
+msgid ""
+"The following pages explain how to use the various windows, workspaces, and "
+"docks that make up the Godot editor. We cover some specific editors' "
+"interfaces in other sections where appropriate. For example, "
+"the :ref:`animation editor <doc_introduction_animation>`."
+msgstr ""
+"கோடோட் எடிட்டரை உருவாக்கும் பல்வேறு சன்னல்கள், பணியிடங்கள் மற்றும் கப்பல்துறைகளை எவ்வாறு "
+"பயன்படுத்துவது என்பதை பின்வரும் பக்கங்கள் விளக்குகின்றன. சில குறிப்பிட்ட தொகுப்பாளர்களின் "
+"இடைமுகங்களை மற்ற பிரிவுகளில் பொருத்தமான இடங்களில் உள்ளடக்குகிறோம். எடுத்துக்காட்டாக, தி: "
+"ரெஃப்: `அனிமேசன் எடிட்டர் <doc_introduction_animation>`."
+
 msgid "XR editor"
 msgstr "எக்ச்ஆர் ஆசிரியர்"
 

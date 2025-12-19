@@ -183,11 +183,29 @@ msgstr ""
 msgid "Registering the new file format"
 msgstr "Registrare il nuovo formato di file"
 
+msgid ""
+"Godot registers ``ResourcesFormatLoader`` with a ``ResourceLoader`` handler. "
+"The handler selects the proper loader automatically when ``load`` is called."
+msgstr ""
+"Godot registra ``ResourcesFormatLoader`` con un gestore ``ResourceLoader``. "
+"Il gestore seleziona automaticamente il caricatore appropriato quando "
+"``load`` viene chiamato."
+
 msgid "register_types.h"
 msgstr "register_types.h"
 
 msgid "register_types.cpp"
 msgstr "register_types.cpp"
+
+msgid "Loading it on GDScript"
+msgstr "Caricarlo su GDScript"
+
+msgid ""
+"Save a file called ``demo.json`` with the following contents and place it in "
+"the project's root folder:"
+msgstr ""
+"Salva un file denominato ``demo.json`` con il seguente contenuto e "
+"posizionalo nella cartella radice del progetto:"
 
 msgid "Then attach the following script to any node:"
 msgstr "Poi allega il seguente script a qualsiasi nodo:"

@@ -35,6 +35,15 @@ msgstr ""
 msgid "Command line reference"
 msgstr "명령줄 참조"
 
+msgid "**Legend**"
+msgstr "**범례**"
+
+msgid "release"
+msgstr "출시"
+
+msgid "debug"
+msgstr "디버그"
+
 msgid "editor"
 msgstr "편집기"
 
@@ -47,11 +56,17 @@ msgstr "명령"
 msgid "Description"
 msgstr "설명"
 
+msgid "``-h``, ``--help``"
+msgstr "``-h``, ``--help``"
+
 msgid "|release| Display the list of command line options."
 msgstr "|release| 명령줄 옵션의 목록을 표시합니다."
 
 msgid "``--version``"
 msgstr "``--version``"
+
+msgid "|release| Display the version string."
+msgstr "|release| 버전 문자열을 표시합니다."
 
 msgid "``-v``, ``--verbose``"
 msgstr "``-v``, ``--verbose``"
@@ -59,8 +74,17 @@ msgstr "``-v``, ``--verbose``"
 msgid "|release| Use verbose stdout mode."
 msgstr "|release| 버보스 표준 출력 모드를 사용합니다."
 
+msgid "``-q``, ``--quiet``"
+msgstr "``-q``, ``--quiet``"
+
+msgid "``--no-header``"
+msgstr "``--no-header``"
+
 msgid "**Run options**"
 msgstr "**실행 옵션**"
+
+msgid "``--``, ``++``"
+msgstr "``--``, ``++``"
 
 msgid "``-e``, ``--editor``"
 msgstr "``-e``, ``--editor``"
@@ -68,8 +92,46 @@ msgstr "``-e``, ``--editor``"
 msgid "``-p``, ``--project-manager``"
 msgstr "``-p``, ``--project-manager``"
 
+msgid "|editor| Start the Project Manager, even if a project is auto-detected."
+msgstr "|editor| 프로젝트가 자동으로 감지되어도 프로젝트 매니저를 시작합니다."
+
+msgid "``--recovery-mode``"
+msgstr "``--recovery-mode``"
+
+msgid "``--debug-server <uri>``"
+msgstr "``--debug-server <uri>``"
+
+msgid "``--dap-port <port>``"
+msgstr "``--dap-port <포트>``"
+
+msgid "``--lsp-port <port>``"
+msgstr "``--lsp-port <포트>``"
+
+msgid "``--quit``"
+msgstr "``--quit``"
+
+msgid "``--quit-after``"
+msgstr "``--quit-after``"
+
+msgid "``-l``, ``--language <locale>``"
+msgstr "``-l``, ``--language <로케일>``"
+
+msgid ""
+"|release| Use a specific locale. ``<locale>`` follows the format "
+"``language_Script_COUNTRY_VARIANT`` where language is a 2 or 3-letter "
+"language code in lowercase and the rest is optional. See :ref:`doc_locales` "
+"for more details."
+msgstr ""
+"|release| 특정 로케일을 사용합니다. ``<로케일>``\\ 은 "
+"``language_Script_COUNTRY_VARIANT`` 형식을 따르는데 여기서 language는 소문자"
+"로 된 2 또는 3글자 언어 코드이고 나머지는 선택 사항입니다. 자세한 사항"
+"은 :ref:`doc_locales`\\ 을 참조하세요."
+
 msgid "``--path <directory>``"
-msgstr "``--path <directory>``"
+msgstr "``--path <디렉터리>``"
+
+msgid "``scene <path>``"
+msgstr "``scene <경로>``"
 
 msgid "``-u``, ``--upwards``"
 msgstr "``-u``, ``--upwards``"
@@ -78,13 +140,22 @@ msgid "|release| Scan folders upwards for 'project.godot' file."
 msgstr "|release| 'project.godot' 파일을 찾기 위해 위로 폴더를 스캔합니다."
 
 msgid "``--main-pack <file>``"
-msgstr "``--main-pack <file>``"
+msgstr "``--main-pack <파일>``"
 
 msgid "``--render-thread <mode>``"
-msgstr "``--render-thread <mode>``"
+msgstr "``--render-thread <모드>``"
+
+msgid ""
+"|release| Render thread mode ('unsafe', 'safe', 'separate'). "
+"See :ref:`Thread Model <class_ProjectSettings_property_rendering/driver/"
+"threads/thread_model>` for more details."
+msgstr ""
+"|release| 렌더 스레드 모드 ('unsafe', 'safe', 'separate'). 자세한 사항"
+"은 :ref:`스레드 모델 <class_ProjectSettings_property_rendering/driver/"
+"threads/thread_model>`\\ 을 참조하세요."
 
 msgid "``--remote-fs <address>``"
-msgstr "``--remote-fs <address>``"
+msgstr "``--remote-fs <주소>``"
 
 msgid "|release| Remote filesystem (``<host/IP>[:<port>]`` address)."
 msgstr "|release| 원격 파일시스템 (``<host/IP>[:<port>]`` 주소)."
@@ -96,7 +167,37 @@ msgid "|release| Password for remote filesystem."
 msgstr "|release| 원격 파일시스템에 대한 암호."
 
 msgid "``--audio-driver <driver>``"
-msgstr "``--audio-driver <driver>``"
+msgstr "``--audio-driver <드라이버>``"
+
+msgid "``--display-driver <driver>``"
+msgstr "``--display-driver <드라이버>``"
+
+msgid "``--audio-output-latency`` <ms>"
+msgstr "``--audio-output-latency`` <ms>"
+
+msgid "``--rendering-method <renderer>``"
+msgstr "``--rendering-method <렌더러>``"
+
+msgid "``--rendering-driver <driver>``"
+msgstr "``--rendering-driver <드라이버>``"
+
+msgid "``--gpu-index <device_index>``"
+msgstr "``--gpu-index <기기_인덱스>``"
+
+msgid "``--text-driver <driver>``"
+msgstr "``--text-driver <드라이버>``"
+
+msgid "``--tablet-driver <driver>``"
+msgstr "``--tablet-driver <드라이버>``"
+
+msgid "``--headless``"
+msgstr "``--headless``"
+
+msgid "``--log-file``"
+msgstr "``--log-file``"
+
+msgid "``--write-movie <file>``"
+msgstr "``--write-movie <파일>``"
 
 msgid "**Display options**"
 msgstr "**표시 옵션**"
@@ -330,8 +431,8 @@ msgid ""
 "|debug| Display a rectangle each time a canvas item requests a redraw "
 "(useful to troubleshoot low processor mode)."
 msgstr ""
-"|debug| 캔버스 항목에서 다시 그리기를 요청할 때마다 사각형을 표시합니다 (저사"
-"양 모드 문제를 해결하는 데 유용함)."
+"|debug| 캔버스 항목에서 리드로우를 요청할 때마다 사각형을 표시합니다 (저사양 "
+"모드 문제를 해결하는 데 유용함)."
 
 msgid "``--max-fps <fps>``"
 msgstr "``--max-fps <fps>``"
@@ -354,12 +455,13 @@ msgstr ""
 "연). FPS 제한으로 사용하지 마세요. 대신 --max-fps를 사용하세요."
 
 msgid "``--time-scale <scale>``"
-msgstr "``--time-scale <scale>``"
+msgstr "``--time-scale <스케일>``"
 
 msgid ""
 "|release| Force time scale (higher values are faster, 1.0 is normal speed)."
 msgstr ""
-"|release| 시간 규모를 강제합니다 (값이 높을수록 더 빠르고, 1.0은 보통 속도)."
+"|release| 시간 스케일를 강제합니다 (값이 높을수록 더 빠르고, 1.0은 보통 속"
+"도)."
 
 msgid "``--disable-vsync``"
 msgstr "``--disable-vsync``"
@@ -431,14 +533,59 @@ msgstr "``--main-loop <메인_루프_이름>``"
 msgid "``--check-only``"
 msgstr "``--check-only``"
 
+msgid "``--import``"
+msgstr "``--import``"
+
+msgid "``--export-release <preset> <path>``"
+msgstr "``--export-release <프리셋> <경로>``"
+
+msgid "``--export-debug <preset> <path>``"
+msgstr "``--export-debug <프리셋> <경로>``"
+
 msgid "``--export-pack <preset> <path>``"
-msgstr "``--export-pack <preset> <path>``"
+msgstr "``--export-pack <프리셋> <경로>``"
+
+msgid "``--export-patch <preset> <path>``"
+msgstr "``--export-patch <프리셋> <경로>``"
+
+msgid "``--patches <paths>``"
+msgstr "``--patches <경로>``"
+
+msgid "``--install-android-build-template``"
+msgstr "``--install-android-build-template``"
+
+msgid "``--convert-3to4 [<max_file_kb>] [<max_line_size>]``"
+msgstr "``--convert-3to4 [<최대_파일_kb>] [<최대_줄_크기>]``"
+
+msgid "``--doctool [<path>]``"
+msgstr "``--doctool [<경로>]``"
 
 msgid "``--no-docbase``"
 msgstr "``--no-docbase``"
 
+msgid "``--gdscript-docs <path>``"
+msgstr "``--gdscript-docs <경로>``"
+
 msgid "``--build-solutions``"
 msgstr "``--build-solutions``"
+
+msgid "``--dump-gdextension-interface``"
+msgstr "``--dump-gdextension-interface``"
+
+msgid "``--dump-extension-api``"
+msgstr "``--dump-extension-api``"
+
+msgid "``--validate-extension-api <path>``"
+msgstr "``--validate-extension-api <경로>``"
+
+msgid "``--benchmark``"
+msgstr "``--benchmark``"
+
+msgid "``--benchmark-file <path>``"
+msgstr "``--benchmark-file <경로>``"
+
+msgid "``--test [--help]``"
+msgstr "``--test [--help]``"
 
 msgid "Path"
 msgstr "경로"
@@ -462,7 +609,7 @@ msgstr ""
 "다:"
 
 msgid "Creating a project"
-msgstr "프로젝트 생성하기"
+msgstr "프로젝트 만들기"
 
 msgid "The project can now be opened with Godot."
 msgstr "프로젝트는 이제 Godot로 열 수 있습니다."

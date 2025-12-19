@@ -33,16 +33,6 @@ msgstr "Wiadomości takie jak \"Koniec Gry\" lub \"Przygotuj Się!\""
 msgid "A \"Start\" button to begin the game."
 msgstr "Przycisk \"Start\" rozpoczyna grę."
 
-msgid ""
-"The basic node for UI elements is :ref:`Control <class_Control>`. To create "
-"our UI, we'll use two types of :ref:`Control <class_Control>` "
-"nodes: :ref:`Label <class_Label>` and :ref:`Button <class_Button>`."
-msgstr ""
-"Podstawowym węzłem elementów interfejsu użytkownika jest :ref:`Control "
-"<class_Control>`. Aby utworzyć nasz interfejs użytkownika, będziemy używać "
-"dwóch typów węzła ref:`Control <class_Control>` - :ref:`Label <class_Label>` "
-"oraz :ref:`Button <class_Button>`."
-
 msgid "Create the following as children of the ``HUD`` node:"
 msgstr "Utwórz je jako dzieci węzła ``HUD``:"
 

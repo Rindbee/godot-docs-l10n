@@ -144,6 +144,12 @@ msgstr ""
 "|editor| エディタデバッグサーバーを開始します (``<protocol>://<host/IP>[:"
 "<port>]`` 、 または ``tcp://127.0.0.1:6007``)"
 
+msgid "``--dap-port <port>``"
+msgstr "\\ ``--dap-port <ポート>``"
+
+msgid "``--lsp-port <port>``"
+msgstr "\\ ``--lsp-port <ポート>``"
+
 msgid "``--quit``"
 msgstr "\\ ``--quit``"
 

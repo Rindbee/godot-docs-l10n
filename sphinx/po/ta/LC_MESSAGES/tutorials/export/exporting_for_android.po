@@ -43,6 +43,18 @@ msgstr ""
 msgid "Install OpenJDK 17"
 msgstr "OpenJDK 17 ஐ நிறுவவும்"
 
+msgid ""
+"Download and install `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
+"variant=openjdk17&version=17&os=any&arch=any>`__."
+msgstr "பதிவிறக்கம் செய்து நிறுவவும்"
+
+msgid ""
+"Higher versions of the JDK are also supported, but we recommend using JDK 17 "
+"for optimal compatibility and stability."
+msgstr ""
+"JDK இன் உயர் பதிப்புகளும் ஆதரிக்கப்படுகின்றன, ஆனால் உகந்த பொருந்தக்கூடிய தன்மை மற்றும் "
+"ச்திரத்தன்மைக்கு JDK 17 ஐப் பயன்படுத்த பரிந்துரைக்கிறோம்."
+
 msgid "Download the Android SDK"
 msgstr "ஆண்ட்ராய்டு SDK ஐப் பதிவிறக்கவும்"
 
@@ -70,6 +82,15 @@ msgstr ""
 "`தேவையான தொகுப்புகள் <https://developer.android.com/studio/intro/"
 "update#required> __ __ ஐ நிறுவியுள்ளன என்பதை உறுதிப்படுத்தவும்."
 
+msgid "Android SDK Platform-Tools version 35.0.0 or later"
+msgstr "ஆண்ட்ராய்டு SDK இயங்குதள-கருவிகள் பதிப்பு 35.0.0 அல்லது அதற்குப் பிறகு"
+
+msgid "Android SDK Build-Tools version 35.0.0"
+msgstr "ஆண்ட்ராய்டு SDK பில்ட்-டூல்ச் பதிப்பு 35.0.0"
+
+msgid "Android SDK Platform 35"
+msgstr "ஆண்ட்ராய்டு SDK இயங்குதளம் 35"
+
 msgid "Android SDK Command-line Tools (latest)"
 msgstr "ஆண்ட்ராய்டு SDK கட்டளை-வரி கருவிகள் (சமீபத்திய)"
 
@@ -81,6 +102,9 @@ msgstr ""
 
 msgid "CMake version 3.10.2.4988404"
 msgstr "Cmake பதிப்பு 3.10.2.4988404"
+
+msgid "NDK version r28b (28.1.13356709)"
+msgstr "NDK பதிப்பு R28B (28.1.13356709)"
 
 msgid ""
 "Alternatively, you can install the Android SDK with the `sdkmanager` command "
@@ -417,3 +441,10 @@ msgstr "`` Kudot_android_keystore_release_password``"
 
 msgid "Export options"
 msgstr "ஏற்றுமதி விருப்பங்கள்"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformAndroid` class reference."
+msgstr ""
+"கிடைக்கக்கூடிய ஏற்றுமதி விருப்பங்களின் முழு பட்டியலையும் நீங்கள் காணலாம்: ref: "
+"`class_editorexportplatformandroid` வகுப்பு குறிப்பு."

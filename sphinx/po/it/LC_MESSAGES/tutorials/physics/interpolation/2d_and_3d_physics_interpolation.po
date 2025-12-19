@@ -25,3 +25,12 @@ msgstr "Ripristinare l'interpolazione della fisica"
 
 msgid "2D Particles"
 msgstr "Particelle 2D"
+
+msgid ""
+"``get_global_transform_interpolated()`` is currently only available for 3D."
+msgstr ""
+"``get_global_transform_interpolated()`` è attualmente disponibile solo per "
+"il 3D."
+
+msgid "``MultiMeshes`` are supported in both 2D and 3D."
+msgstr "``MultiMesh`` sono supportate sia in 2D sia in 3D."

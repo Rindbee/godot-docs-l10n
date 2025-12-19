@@ -33,6 +33,16 @@ msgstr "任意のノードのプロパティをアニメーション化する"
 msgid "Create a simple animation"
 msgstr "シンプルなアニメーションを作成する"
 
+msgid ""
+"In Godot, you can animate anything available in the Inspector, such as Node "
+"transforms, sprites, UI elements, particles, visibility and color of "
+"materials, and so on. You can also modify values of script variables and "
+"even call functions."
+msgstr ""
+"Godotでは、ノードの幾何学変換、スプライト、UI要素、パーティクル、マテリアルの"
+"可視性と色など、インスペクタで利用可能なすべての項目をアニメーション化できま"
+"す。スクリプト変数の値を変更して、任意の関数を呼び出すこともできます。"
+
 msgid "Create an AnimationPlayer node"
 msgstr "AnimationPlayerノードを作成する"
 

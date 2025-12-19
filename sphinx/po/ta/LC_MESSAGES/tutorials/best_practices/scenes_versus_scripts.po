@@ -22,6 +22,17 @@ msgstr ""
 "உள்ளடக்கியுள்ளோம். கட்டாய குறியீடு, அறிவிப்பு குறியீட்டைக் கொண்ட காட்சிகள் கொண்ட எஞ்சின் "
 "வகுப்பு நீட்டிப்பை ச்கிரிப்ட்கள் வரையறுக்கின்றன."
 
+msgid ""
+"Each system's capabilities are different as a result. Scenes can define how "
+"an extended class initializes, but not what its behavior actually is. Scenes "
+"are often used in conjunction with a script, the scene declaring a "
+"composition of nodes, and the script adding behavior with imperative code."
+msgstr ""
+"இதன் விளைவாக ஒவ்வொரு அமைப்பின் திறன்களும் வேறுபட்டவை. ஒரு நீட்டிக்கப்பட்ட வகை எவ்வாறு "
+"துவங்குகிறது என்பதை காட்சிகள் வரையறுக்கலாம், ஆனால் அதன் நடத்தை உண்மையில் என்ன அல்ல. "
+"காட்சிகள் பெரும்பாலும் ஒரு ச்கிரிப்ட், முனைகளின் கலவையை அறிவிக்கும் காட்சி மற்றும் கட்டாயக் "
+"குறியீட்டைக் கொண்டு நடத்தை சேர்க்கும் ச்கிரிப்ட் ஆகியவற்றுடன் இணைந்து பயன்படுத்தப்படுகின்றன."
+
 msgid "Anonymous types"
 msgstr "அநாமதேய வகைகள்"
 

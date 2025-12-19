@@ -1225,6 +1225,18 @@ msgstr ": KBD: `CMD + உயர்த்து + C`"
 msgid "``script_text_editor/duplicate_selection``"
 msgstr "`` script_text_editor/duciplical_selection``"
 
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ": KBD: `SHIFT + OPT + பேரூர் அம்பு`"
+
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ": KBD: `Shift + OPT + மேலே ARROW`"
+
+msgid ":kbd:`Ctrl + D`"
+msgstr ": KBD: `ctrl + d`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ": KBD: `cmd + d`"
+
 msgid "Complete Symbol"
 msgstr "முழுமையான அடையாளம்"
 
@@ -1441,17 +1453,11 @@ msgstr "`` ச்கிரிப்ட்_டிட்டர்/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ": KBD: `Shift + மாற்று + மேலே அம்பு`"
 
-msgid ":kbd:`Shift + Opt + Up Arrow`"
-msgstr ": KBD: `Shift + OPT + மேலே ARROW`"
-
 msgid "``script_editor/window_move_up``"
 msgstr "`` ச்கிரிப்ட்_டிட்டர்/சாளரம்_மோவ்_யூப்``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ": KBD: `Shift + மாற்று + பேரூர் அம்பு`"
-
-msgid ":kbd:`Shift + Opt + Down Arrow`"
-msgstr ": KBD: `SHIFT + OPT + பேரூர் அம்பு`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "`` ச்கிரிப்ட்_டிட்டர்/சாளரம்_மோவ்_ டவுன்``"
@@ -1749,12 +1755,6 @@ msgstr "`` `கோப்பு முறைமை_டாக்/நகல்_ப�
 
 msgid "Duplicate"
 msgstr "நகல்"
-
-msgid ":kbd:`Ctrl + D`"
-msgstr ": KBD: `ctrl + d`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ": KBD: `cmd + d`"
 
 msgid "``filesystem_dock/duplicate``"
 msgstr "`` கோப்பு முறைமை_டாக்/நகல்``"

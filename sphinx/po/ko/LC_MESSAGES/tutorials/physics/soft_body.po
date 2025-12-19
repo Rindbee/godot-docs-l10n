@@ -12,4 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Basic set-up"
-msgstr "기본 설정"
+msgstr "기초 설정"
+
+msgid "Using Imported Meshes"
+msgstr "가져온 메시 사용하기"
+
+msgid ""
+"See :ref:`doc_importing_3d_scenes_import_configuration` "
+"and :ref:`doc_mesh_lod` for more details."
+msgstr ""
+"자세한 사항은 :ref:`doc_importing_3d_scenes_import_configuration`\\ "
+"와 :ref:`doc_mesh_lod` \\를 참조하세요."

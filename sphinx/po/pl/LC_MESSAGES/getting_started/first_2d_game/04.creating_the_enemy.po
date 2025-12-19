@@ -22,14 +22,6 @@ msgstr ""
 "linii prostej, a następnie usuwać się, gdy \"wyjdą\" poza granicę ekranu po "
 "przeciwnej stronie."
 
-msgid ""
-"We'll create a ``Mob`` scene, which we can then *instance* to create any "
-"number of independent mobs in the game."
-msgstr ""
-"Stworzymy scenę ``Mob``(Przeciwnik), której będziemy mogli tworzyć "
-"*instancje*, czyli powielać ją dowolną razy, tworząc niezależnych "
-"przeciwników w grze."
-
 msgid "Node setup"
 msgstr "Konfiguracja węzła"
 

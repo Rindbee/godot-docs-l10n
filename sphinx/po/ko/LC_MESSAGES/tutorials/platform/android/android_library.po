@@ -14,5 +14,14 @@ msgstr ""
 msgid "Using the Godot Android library"
 msgstr "Godot Android 라이브러리 사용하기"
 
+msgid "Godot Android plugins"
+msgstr "Godot Android 플러그인"
+
+msgid ""
+"For more information, see :ref:`Godot Android plugins <doc_android_plugin>`."
+msgstr ""
+"자세한 정보는 :ref:`Godot Android 플러그인 <doc_android_plugin>`\\ 을 참조하"
+"세요."
+
 msgid "Example:"
 msgstr "예시:"

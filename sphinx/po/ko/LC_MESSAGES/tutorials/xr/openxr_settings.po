@@ -19,3 +19,6 @@ msgstr "구성 보기"
 
 msgid "Environment Blend Mode"
 msgstr "환경 블렌드 모드"
+
+msgid "Hand Interaction Profile"
+msgstr "손 상호작용 프로필"

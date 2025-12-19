@@ -16,3 +16,6 @@ msgstr "소개"
 
 msgid "Full screen quad"
 msgstr "전체 화면 사변형"
+
+msgid "Depth texture"
+msgstr "깊이 텍스처"

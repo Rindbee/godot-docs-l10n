@@ -39,8 +39,14 @@ msgstr ""
 msgid "Next, you will create a header file with a TTS class:"
 msgstr "Далее вам предстоит создать заголовочный файл с классом TTS:"
 
+msgid "godot/modules/tts/tts.h"
+msgstr "godot/modules/tts/tts.h"
+
 msgid "And then you'll add the cpp file."
 msgstr "И затем вы добавляете файл cpp."
+
+msgid "godot/modules/tts/tts.cpp"
+msgstr "godot/modules/tts/tts.cpp"
 
 msgid ""
 "Just as before, the new class needs to be registered somehow, so two more "
@@ -49,8 +55,22 @@ msgstr ""
 "Также как и ранее, новый класс нуждается в регистрации, так что нужно "
 "добавить ещё два файла:"
 
+msgid ""
+"These files must be in the top-level folder of your module (next to your "
+"``SCsub`` and ``config.py`` files) for the module to be registered properly."
+msgstr ""
+"Эти файлы должны находиться в папке верхнего уровня вашего модуля (рядом с "
+"файлами ``SCsub`` и ``config.py``), чтобы модуль был зарегистрирован "
+"правильно."
+
 msgid "These files should contain the following:"
 msgstr "Эти файлы должны содержать следующее:"
+
+msgid "godot/modules/tts/register_types.h"
+msgstr "godot/modules/tts/register_types.h"
+
+msgid "godot/modules/tts/register_types.cpp"
+msgstr "godot/modules/tts/register_types.cpp"
 
 msgid ""
 "Next, you need to create an ``SCsub`` file so the build system compiles this "
@@ -58,6 +78,9 @@ msgid ""
 msgstr ""
 "Далее вам необходимо создать файл ``SCsub``, чтобы система сборки "
 "скомпилировала этот модуль:"
+
+msgid "godot/modules/tts/SCsub"
+msgstr "godot/modules/tts/SCsub"
 
 msgid ""
 "You'll need to install the external library on your machine to get the .a "

@@ -23,5 +23,18 @@ msgstr "Limitazioni"
 msgid "There are several limitations with glTF export."
 msgstr "Esistono diverse limitazioni nell'esportazione glTF."
 
+msgid "ShaderMaterials cannot be exported."
+msgstr "Non è possibile esportare gli ShaderMaterial."
+
 msgid "No support for exporting 2D scenes."
 msgstr "Nessun supporto per l'esportazione di scene 2D."
+
+msgid ""
+"3D scenes can be saved at runtime using :ref:`runtime file loading and "
+"saving <doc_runtime_file_loading_and_saving_3d_scenes>`, including from an "
+"exported project."
+msgstr ""
+"Le scene 3D si possono salvare in fase di esecuzione "
+"utilizzando :ref:`caricamento e salvataggio dei file in fase di esecuzione "
+"<doc_runtime_file_loading_and_saving_3d_scenes>`, anche da un progetto "
+"esportato."

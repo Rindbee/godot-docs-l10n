@@ -253,7 +253,7 @@ msgstr ""
 "围绕 X 轴旋转它，直到地面被照亮。"
 
 msgid "In the *Inspector*, turn on *Shadow* by clicking the checkbox."
-msgstr "在*检查器*中，点击复选框以启用*阴影*功能。"
+msgstr "在\\ *检查器*\\ 中，点击复选框以启用\\ *阴影*\\ 功能。"
 
 msgid "At this point, your project should look like this."
 msgstr "项目此时看起来是这个样子。"

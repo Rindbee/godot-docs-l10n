@@ -285,14 +285,6 @@ msgstr "|string| 📜"
 msgid "``std::string``"
 msgstr "``std::string``"
 
-msgid ""
-"**Use this as the \"default\" string type.** ``String`` uses UTF-32 encoding "
-"to improve performance thanks to its fixed character size."
-msgstr ""
-"**Використовуйте це як тип рядка «за замовчуванням».** ``String`` "
-"використовує кодування UTF-32 для покращення продуктивності завдяки "
-"фіксованому розміру символів."
-
 msgid "|vector|"
 msgstr "|vector|"
 
@@ -429,15 +421,6 @@ msgstr "|span|"
 msgid "``std::span``"
 msgstr "``std::span``"
 
-msgid ""
-"Represents read-only access to a contiguous array without needing to copy "
-"any data. See `pull request description <https://github.com/godotengine/"
-"godot/pull/100293>`__ for details."
-msgstr ""
-"Представляє доступ лише для читання до суміжного масиву без необхідності "
-"копіювання будь-яких даних. Див. опис запиту на зняття <https://github.com/"
-"godotengine/godot/pull/100293>`__ для отримання детальної інформації."
-
 msgid "|rb_set|"
 msgstr "|rb_set|"
 
@@ -486,13 +469,6 @@ msgstr "|rb_map|"
 msgid "``std::map``"
 msgstr "``std::map``"
 
-msgid ""
-"Uses a `red-black tree <https://en.wikipedia.org/wiki/Red-black-tree>`__ for "
-"faster access."
-msgstr ""
-"Використовує `червоно-чорне дерево <https://en.wikipedia.org/wiki/Red-black-"
-"tree>`__ для швидшого доступу."
-
 msgid "|dictionary| 📜"
 msgstr "|dictionary| 📜"
 
@@ -519,9 +495,6 @@ msgstr "|pair|"
 
 msgid "``std::pair``"
 msgstr "``std::pair``"
-
-msgid "Stores a single key-value pair."
-msgstr "Зберігає одну пару ключ-значення."
 
 msgid "Math types"
 msgstr "Типи математики"

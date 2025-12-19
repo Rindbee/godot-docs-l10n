@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0108: The exported tool button is not in a tool class"
+msgstr "GD0108 : Le bouton d'outil exporté n'est pas dans une classe outil"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

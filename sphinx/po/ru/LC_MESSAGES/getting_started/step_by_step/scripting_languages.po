@@ -106,7 +106,7 @@ msgstr ""
 "минусы."
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid ""
 ":ref:`GDScript<doc_gdscript>` is an `object-oriented <https://"

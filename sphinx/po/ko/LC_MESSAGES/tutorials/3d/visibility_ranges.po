@@ -41,6 +41,9 @@ msgstr "클리어코트"
 msgid "Anisotropy"
 msgstr "비등방성"
 
+msgid "Height"
+msgstr "높이"
+
 msgid "Subsurface Scattering"
 msgstr "서브서피스 산란"
 

@@ -683,9 +683,6 @@ msgstr "type_exists"
 msgid "ClassDB.ClassExists(type)"
 msgstr "ClassDB.ClassExists(type)"
 
-msgid "See also: :ref:`doc_c_sharp_signals`."
-msgstr "Zobacz również: :ref:`c_sharp_signals`."
-
 msgid "Singletons"
 msgstr "Singletony"
 

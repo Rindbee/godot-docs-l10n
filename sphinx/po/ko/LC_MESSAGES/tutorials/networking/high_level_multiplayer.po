@@ -122,7 +122,13 @@ msgstr ""
 "시그널을 갖고 있어 언제 피어가 연결되고 끊기는지 알 수 있습니다."
 
 msgid "``mode``:"
-msgstr "``모드``:"
+msgstr "``mode``:"
+
+msgid "``sync``:"
+msgstr "``sync``:"
+
+msgid "``transfer_mode``:"
+msgstr "``transfer_mode``:"
 
 msgid "Channels"
 msgstr "채널"

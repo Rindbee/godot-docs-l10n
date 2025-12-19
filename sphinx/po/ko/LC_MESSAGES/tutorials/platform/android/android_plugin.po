@@ -11,5 +11,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Godot Android plugins"
+msgstr "Godot Android 플러그인"
+
 msgid "Introduction"
 msgstr "소개"

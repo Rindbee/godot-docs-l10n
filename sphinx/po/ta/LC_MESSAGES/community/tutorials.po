@@ -106,6 +106,13 @@ msgstr ""
 "`Boodlikegames இன்` கோடோட் டுடோரியல்கள் <https://www.somethinglikegames.de/en/"
 "tags/godot-ngine/> __ __ __"
 
+msgid ""
+"`GameDev Academy by Zenva <https://gamedevacademy.org/category/godot-"
+"tutorials/godot-4/>`__"
+msgstr ""
+"`சென்வா <https://gamedevacademy.org/category/godot-tutorials/godot-4/> ____ "
+"__ __ __ __"
+
 msgid "`Game Dev Artisan website <https://gamedevartisan.com/>`__"
 msgstr "`விளையாட்டு தேவ் கைவினைஞர் வலைத்தளம் <https://gimeadevartisan.com/>` __"
 

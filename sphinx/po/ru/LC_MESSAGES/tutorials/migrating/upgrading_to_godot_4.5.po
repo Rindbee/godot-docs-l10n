@@ -97,14 +97,8 @@ msgstr "Введено в"
 msgid "**JSONRPC**"
 msgstr "**JSONRPC**"
 
-msgid "Method ``set_scope`` replaced by ``set_method`` optional parameter"
-msgstr "Метод ``set_scope`` заменен на необязательный параметр ``set_method``"
-
 msgid "|❌|"
 msgstr "|❌|"
-
-msgid "|✔️ with compat|"
-msgstr "|✔️ with compat|"
 
 msgid "`GH-104890`_"
 msgstr "`GH-104890`_"
@@ -114,6 +108,9 @@ msgstr "**Node**"
 
 msgid "Method ``get_rpc_config`` renamed to ``get_node_rpc_config``"
 msgstr "Метод ``get_rpc_config`` переименован в ``get_node_rpc_config``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
 
 msgid "`GH-106848`_"
 msgstr "`GH-106848`_"
@@ -178,17 +175,6 @@ msgstr "`GH-104269`_"
 
 msgid "Method ``instance_set_interpolated`` removed"
 msgstr "Метод ``instance_set_interpolated`` удален"
-
-msgid ""
-"In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of "
-"the way the bindings generator detects the enum prefix. New members where "
-"added to the enum in `GH-103941`_ that caused the enum member ``Address`` to "
-"be renamed to ``BufferDeviceAddress``."
-msgstr ""
-"В C# перечисление ``RenderingDevice.Features`` нарушает совместимость из-за "
-"способа, которым генератор привязок определяет префикс перечисления. В "
-"`GH-103941`_ в перечисление были добавлены новые члены, что привело к "
-"переименованию члена перечисления ``Address`` в ``BufferDeviceAddress``."
 
 msgid "GLTF"
 msgstr "GLTF"
@@ -582,13 +568,6 @@ msgstr "`GH-108825`_"
 msgid "Behavior changes"
 msgstr "Изменения в поведении"
 
-msgid ""
-"In 4.5 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"В 4.5 были введены некоторые изменения в поведении, которые могут "
-"потребовать от вас корректировки вашего проекта."
-
 msgid "3D Model Import"
 msgstr "Импорт 3D-модели"
 
@@ -639,6 +618,9 @@ msgstr ""
 "кватернион (quaternion), представляющий кратчайшую дугу между двумя входными "
 "векторами. Ранее он возвращал неправильные значения для определенных входов "
 "(`GH-107618`_)."
+
+msgid "Navigation"
+msgstr "Навигация"
 
 msgid "Physics"
 msgstr "Физика"

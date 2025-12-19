@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Overview of renderers"
+msgstr "ரெண்டரர்களின் கண்ணோட்டம்"
+
 msgid ""
 "This page gives an overview of Godot's renderers, focusing on the "
 "differences between their rendering features. For more technical details on "
@@ -346,6 +349,9 @@ msgstr "எக்ச்ஆர்"
 
 msgid "✔️ Yes. Recommended for standalone headsets."
 msgstr "ஆம். முழுமையான எட்செட்களுக்கு பரிந்துரைக்கப்படுகிறது."
+
+msgid "✔️ Yes. Recommended for desktop headsets."
+msgstr "ஆம். டெச்க்டாப் எட்செட்களுக்கு பரிந்துரைக்கப்படுகிறது."
 
 msgid "Web"
 msgstr "விரலிடைத் தோல்"

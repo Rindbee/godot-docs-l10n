@@ -326,9 +326,6 @@ msgstr "ビュー空間内のノードの位置。"
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "\\ in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "ワールド空間内のカメラの位置。"
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "\\ in vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -372,13 +369,6 @@ msgstr "右目の場合は定数で、常に ``1`` になります。"
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "\\ in vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
-"レンダリングされる際の目の位置のオフセット。ステレオレンダリングでのみ適用さ"
-"れます。"
 
 msgid "inout vec3 **VERTEX**"
 msgstr "\\ inout vec3 **VERTEX**"

@@ -1923,7 +1923,7 @@ msgstr ""
 "tableaux)."
 
 msgid "Color picker with RGB and HSV modes."
-msgstr "Un sélectionneur de couleur avec les modes RGB et HSV."
+msgstr "Un sélectionneur de couleur avec les modes RGB et TSV."
 
 msgid "Controls can be rotated and scaled."
 msgstr "Les contrôles peuvent être tournés et étirés."

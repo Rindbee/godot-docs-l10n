@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0103: The exported member is read-only"
+msgstr "GD0103 : Le membre exporté est en lecture seule"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

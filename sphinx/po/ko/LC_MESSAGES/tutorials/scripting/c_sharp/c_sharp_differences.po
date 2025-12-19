@@ -197,6 +197,12 @@ msgstr "``get_rotation()``"
 msgid "``Rotation``"
 msgstr "``Rotation``"
 
+msgid "``get_skew()``"
+msgstr "``get_skew()``"
+
+msgid "``Skew``"
+msgstr "``Skew``"
+
 msgid "Rect2"
 msgstr "Rect2"
 

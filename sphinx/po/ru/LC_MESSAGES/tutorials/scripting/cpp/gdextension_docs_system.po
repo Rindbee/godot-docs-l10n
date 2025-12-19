@@ -120,12 +120,6 @@ msgstr ""
 "подчёркнутым, цветным, добавить блоки кода и т. д., встроив их в теги "
 "следующим образом:"
 
-msgid ""
-"Currently they supported tags for the GDExtension documentation system are:"
-msgstr ""
-"В настоящее время поддерживаются следующие теги для системы документирования "
-"GDExtension:"
-
 msgid "Tag"
 msgstr "Тег"
 

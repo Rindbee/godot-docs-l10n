@@ -57,16 +57,6 @@ msgstr ""
 "informam ao motor uma sequência de inicializações para executar em uma das "
 "classes integradas do motor."
 
-msgid ""
-"Godot's internal classes have methods that register a class's data with "
-"a :ref:`ClassDB <class_ClassDB>`. This database provides runtime access to "
-"class information. ``ClassDB`` contains information about classes like:"
-msgstr ""
-"As classes internas do Godot possuem métodos que registram os dados de uma "
-"classe com um :ref: `ClassDB <class_ClassDB>`. Este banco de dados fornece "
-"acesso em tempo de execução às informações da classe. ``ClassDB`` contém "
-"informações sobre classes como:"
-
 msgid "Properties."
 msgstr "Propriedades."
 

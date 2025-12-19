@@ -298,9 +298,6 @@ msgstr "in vec3 **NODE_POSITION_VIEW**"
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "Position de la caméra, dans le repère du monde."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 

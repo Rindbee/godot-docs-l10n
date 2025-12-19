@@ -99,11 +99,28 @@ msgstr ""
 "abbiamo progettato il modello in `Blender 3D <https://www.blender.org/>`__ e "
 "lo abbiamo esportato in glTF."
 
+msgid "The sphere's wireframe appears below the character."
+msgstr "Il wireframe della sfera appare sotto il personaggio."
+
 msgid "Save the scene as ``player.tscn``."
 msgstr "Salva la scena con il nome ``player.tscn``."
 
+msgid ""
+"With the nodes ready, we can almost get coding. But first, we need to define "
+"some input actions."
+msgstr ""
+"Con i nodi pronti, possiamo quasi iniziare a programmare. Ma prima, dobbiamo "
+"definire delle azioni di input."
+
 msgid "Creating input actions"
 msgstr "Creazione di azioni di input"
+
+msgid ""
+"To add an action, write its name in the bar at the top and press Enter or "
+"click the **Add** button."
+msgstr ""
+"Per aggiungere una azione, scrivi il suo nome nella barra in alto e premi "
+"Invio oppure fai clic sul pulsante **Aggiungi**."
 
 msgid "Create the following five actions:"
 msgstr "Crea le seguenti cinque azioni:"

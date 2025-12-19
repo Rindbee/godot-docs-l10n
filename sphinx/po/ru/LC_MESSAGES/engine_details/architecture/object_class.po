@@ -14,6 +14,13 @@ msgstr ""
 msgid "Object class"
 msgstr "Класс Object"
 
+msgid ""
+"This page describes the C++ implementation of objects in Godot. Looking for "
+"the Object class reference? :ref:`Have a look here. <class_Object>`"
+msgstr ""
+"На этой странице описывается реализация объектов в Godot на C++. Ищете "
+"справочник по классу Object? :ref:`Посмотрите здесь. <class_Object>`"
+
 msgid "General definition"
 msgstr "Общее определение"
 
@@ -92,6 +99,15 @@ msgstr ""
 "Значения аргументов по умолчанию могут быть переданы как параметры в конце:"
 
 msgid ""
+"Default values must be provided in the same order as they are declared, "
+"skipping required arguments and then providing default values for the "
+"optional ones. This matches the syntax for declaring methods in C++."
+msgstr ""
+"Значения по умолчанию должны быть указаны в том же порядке, в котором они "
+"объявлены, пропуская обязательные аргументы и указывая значения по умолчанию "
+"для необязательных. Это соответствует синтаксису объявления методов в C++."
+
+msgid ""
 "``D_METHOD`` is a macro that converts \"methodname\" to a StringName for "
 "more efficiency. Argument names are used for introspection, but when "
 "compiling on release, the macro ignores them, so the strings are unused and "
@@ -127,6 +143,16 @@ msgstr "Константы"
 
 msgid "Classes often have enums such as:"
 msgstr "Классы часто содержат перечисления такие как:"
+
+msgid ""
+"For these to work when binding to methods, the enum must be declared "
+"convertible to int. A macro is provided to help with this:"
+msgstr ""
+"Чтобы они работали при привязке к методам, перечисление должно быть "
+"объявлено преобразуемым в int. Для этого предусмотрен макрос:"
+
+msgid "The constants can also be bound inside ``_bind_methods``, by using:"
+msgstr "Константы также можно привязывать внутри ``_bind_methods``, используя:"
 
 msgid "Properties (set/get)"
 msgstr "Свойства (set/get)"
@@ -354,6 +380,9 @@ msgstr ""
 "Если ссылка на этот ресурс уже загружена до этого и находится в памяти, "
 "ресурсный загрузчик вернёт эту ссылку. Это означает что только один ресурс "
 "загруженный из файла ссылается на диск в данное время."
+
+msgid "resourceinteractiveloader (TODO)"
+msgstr "resourceinteractiveloader (TODO)"
 
 msgid ""
 "`core/io/resource_loader.h <https://github.com/godotengine/godot/blob/master/"

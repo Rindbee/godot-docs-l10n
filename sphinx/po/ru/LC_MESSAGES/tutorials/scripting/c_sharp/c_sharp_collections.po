@@ -187,7 +187,7 @@ msgid "In C#, packed arrays are replaced by ``System.Array``:"
 msgstr "В C# упакованные массивы заменяются на ``System.Array``:"
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid "C#"
 msgstr "C#"

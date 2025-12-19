@@ -151,6 +151,14 @@ msgstr ""
 msgid "Setting the main scene"
 msgstr "메인 씬 설정하기"
 
+msgid ""
+"Running the project's *main scene* is distinct from running the *current "
+"scene*. If you encounter unexpected behavior, check to ensure you are "
+"running the correct scene."
+msgstr ""
+"프로젝트의 *메인 씬*\\ 을 실행하는 것은 *현재 씬*\\ 을 실행하는 것과는 별개입"
+"니다. 예기치 않은 동작이 발생하면 올바른 씬을 실행하고 있는지 확인하세요."
+
 msgid "A popup window appears and invites you to select the main scene."
 msgstr "팝업 창이 나타나고 메인 씬을 선택하라는 메시지가 표시됩니다."
 

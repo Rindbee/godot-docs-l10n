@@ -236,7 +236,7 @@ msgid ""
 "``AnimationMixer``"
 msgstr ""
 "Propiedad ``playback_active`` renombrada a ``active`` y movida a la clase "
-"base ``AnimationMixer`"
+"base ``AnimationMixer``"
 
 msgid ""
 "Property ``playback_process_mode`` renamed to ``callback_mode_process`` and "

@@ -20,6 +20,13 @@ msgstr "제한 사항"
 msgid "Detective work"
 msgstr "조사 작업"
 
+msgid ""
+"For more info about using Godot's built-in profiler, "
+"see :ref:`doc_the_profiler`."
+msgstr ""
+"Godot의 내장 프로파일러 사용에 대한 자세한 정보는 :ref:`doc_the_profiler`\\ "
+"를 참조하세요."
+
 msgid "`Donald Knuth <https://en.wikipedia.org/wiki/Donald_Knuth>`__ said:"
 msgstr ""
 "`도널드 커누스 <https://ko.wikipedia.org/wiki/도널드_커누스>`__\\ 는 말했습니"

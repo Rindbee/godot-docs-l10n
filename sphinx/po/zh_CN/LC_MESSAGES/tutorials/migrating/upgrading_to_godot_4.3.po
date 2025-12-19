@@ -550,11 +550,6 @@ msgstr "`GH-81746`_"
 msgid "Behavior changes"
 msgstr "行为更改"
 
-msgid ""
-"In 4.3 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr "4.3 中引入了一些行为的更改，你可能需要调整项目。"
-
 msgid "Core"
 msgstr "核心"
 

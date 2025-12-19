@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0002: Missing partial modifier on declaration of type which contains "
+"nested classes that derive from GodotObject"
+msgstr ""
+"GD0002 : Modificateur partial manquant sur une déclaration d'un type qui "
+"contient des classes imbriquées qui dérivent de GodotObject"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

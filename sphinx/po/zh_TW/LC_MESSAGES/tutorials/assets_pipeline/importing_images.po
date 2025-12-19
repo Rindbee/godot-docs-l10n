@@ -386,7 +386,7 @@ msgid ""
 "In this table, each of the 5 options are described together with their "
 "advantages and disadvantages (|good| = best, |bad| = worst):"
 msgstr ""
-"在下表中，分別寫出了四個選項各自的優點與缺點 (|good| = 最優、 |bad| = 最差)："
+"在下表中, 分別寫出了四個選項各自的優點與缺點 (|good| = 最優、 |bad| = 最差):"
 
 msgid "good"
 msgstr "good"

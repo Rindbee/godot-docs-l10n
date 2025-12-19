@@ -257,7 +257,7 @@ msgid ""
 "If the textures are centered on the ``(0,0)`` crossing, the infinite repeat "
 "canvas is only partly covered, so it only partly repeats."
 msgstr ""
-"Si les textures sont centrées sur le point d'intersection``(0,0)``, le "
+"Si les textures sont centrées sur le point d'intersection ``(0,0)``, le "
 "canevas de répétition infini est seulement partiellement recouvert, donc il "
 "ne se répète que partiellement."
 

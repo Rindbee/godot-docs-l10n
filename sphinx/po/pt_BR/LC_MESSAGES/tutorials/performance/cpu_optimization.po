@@ -113,11 +113,6 @@ msgstr ""
 "corrida. Partes_Paralelizáveis(threads) podem tornar a depuração "
 "consideravelmente mais difícil."
 
-msgid "For more information on threads, see :ref:`doc_using_multiple_threads`."
-msgstr ""
-"Para obter mais informações sobre partes_paralelizáveis, consulte: ref: "
-"`doc_c_sharp_differences`."
-
 msgid "SceneTree"
 msgstr "SceneTree"
 

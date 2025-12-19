@@ -311,17 +311,6 @@ msgstr ""
 "Para criar os olhos, vamos adicionar 4 chamadas adicionais para desenhar as "
 "formas dos olhos, em diferentes tamanhos, cores e posições."
 
-msgid ""
-"To draw a circle, you position it based on its center using "
-"the :ref:`draw_circle <class_CanvasItem_method_draw_circle>` method. The "
-"first parameter is a :ref:`Vector2<class_Vector2>` with the coordinates of "
-"its center, the second is its radius, and the third is its color:"
-msgstr ""
-"Para desenhar um círculo, você posiciona-o com base em seu centro usando o "
-"método :ref:`draw_circle <class_CanvasItem_method_draw_circle>`. O primeiro "
-"parâmetro é um :ref:`Vector2<class_Vector2> com as coordenadas de seu "
-"centro, o segundo é seu raio, e o terceiro é sua cor:"
-
 msgid "When executing it, you should have something like this:"
 msgstr "Ao executá-lo, você deve ter algo assim:"
 

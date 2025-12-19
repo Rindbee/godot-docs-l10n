@@ -79,7 +79,7 @@ msgstr ""
 
 msgid ""
 "You may exit and reload CLion and it will reload ``compile_commands.json``"
-msgstr "你可以關閉並重新開啟 CLion，它就會重新載入 ``compile_commands.json``"
+msgstr "你可以關閉並重新開啟 CLion, 它就會重新載入 ``compile_commands.json``"
 
 msgid "Compiling and debugging the project"
 msgstr "編譯與除錯專案"

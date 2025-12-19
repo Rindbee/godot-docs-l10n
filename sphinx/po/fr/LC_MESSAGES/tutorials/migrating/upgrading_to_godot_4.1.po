@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Upgrading from Godot 4.0 to Godot 4.1"
-msgstr "Mise à niveau de Godot 4.0 à Godot 4.1"
+msgstr "Mise à niveau de Godot 4.0 vers Godot 4.1"
 
 msgid ""
 "For most games and apps made with 4.0, it should be relatively safe to "
@@ -121,7 +121,7 @@ msgstr ""
 "``backward_undo_ops``"
 
 msgid "|✔️ with compat|"
-msgstr "|✔️ avec compatibilité|"
+msgstr "|✔️ with compat|"
 
 msgid "`GH-76688`_"
 msgstr "`GH-76688`_"
@@ -175,7 +175,7 @@ msgid "**PathFollow2D**"
 msgstr "**PathFollow2D**"
 
 msgid "Property ``lookahead`` removed"
-msgstr "Propriété``lookahead`` enlevée"
+msgstr "Propriété ``lookahead`` retirée"
 
 msgid "`GH-72842`_"
 msgstr "`GH-72842`_"
@@ -373,7 +373,7 @@ msgid ""
 "Property ``time_horizon`` split into ``time_horizon_agents`` and "
 "``time_horizon_obstacles``"
 msgstr ""
-"La propriété ``time_horizon` a été séparée en ``time_horizon_agents`` et "
+"La propriété ``time_horizon`` a été séparée en ``time_horizon_agents`` et "
 "``time_horizon_obstacles``"
 
 msgid "**NavigationAgent3D**"
@@ -383,13 +383,13 @@ msgid "Property ``agent_height_offset`` renamed to ``path_height_offset``"
 msgstr "Propriété ``agent_height_offset``` renommée en ``path_height_offset``"
 
 msgid "Property ``ignore_y`` removed"
-msgstr "Propriété``ignore_y`` enlevé"
+msgstr "Propriété ``ignore_y`` retirée"
 
 msgid "**NavigationObstacle2D**"
 msgstr "**NavigationObstacle2D**"
 
 msgid "Property ``estimate_radius`` removed"
-msgstr "Propriété``estimate_radius`` enlevée"
+msgstr "Propriété ``estimate_radius`` retirée"
 
 msgid "Method ``get_rid`` renamed to ``get_agent_rid``"
 msgstr "Méthode ``get_rid`` renommée en ``get_agent_rid``"
@@ -488,13 +488,6 @@ msgstr "**EditorUndoRedoManager**"
 
 msgid "Behavior changes"
 msgstr "Changements de comportement"
-
-msgid ""
-"In 4.1 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"En 4.1 certains changements de comportement ont été introduits, ce qui "
-"pourrait vous obliger à ajuster votre projet."
 
 msgid "**SubViewportContainer**"
 msgstr "**SubViewportContainer**"

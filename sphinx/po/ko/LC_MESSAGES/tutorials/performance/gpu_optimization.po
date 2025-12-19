@@ -13,3 +13,10 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid ""
+"For more information on 3D specific optimizations, "
+"see :ref:`doc_optimizing_3d_performance`."
+msgstr ""
+"3D 특정 최적화에 대한 자세한 정보는 :ref:`doc_optimizing_3d_performance`\\ "
+"를 참조하세요."

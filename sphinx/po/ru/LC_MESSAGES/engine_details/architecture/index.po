@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Engine architecture"
-msgstr "Архитектура двигателя"
+msgstr "Архитектура движка"
 
 msgid ""
 "The following pages are meant to introduce the global organization of Godot "
@@ -25,3 +25,19 @@ msgstr ""
 
 msgid "Getting started with Godot's source code"
 msgstr "Начало работы с исходным кодом Godot"
+
+msgid ""
+"This section covers the basics that you will encounter in (almost) every "
+"source file."
+msgstr ""
+"В этом разделе рассматриваются основы, с которыми вы столкнетесь (почти) в "
+"каждом исходном файле."
+
+msgid "Extending Godot by modifying its source code"
+msgstr "Расширение Godot путем изменения его исходного кода"
+
+msgid ""
+"This section covers what you can do by modifying Godot's C++ source code."
+msgstr ""
+"В этом разделе рассказывается, что можно сделать, изменив исходный код Godot "
+"на языке C++."

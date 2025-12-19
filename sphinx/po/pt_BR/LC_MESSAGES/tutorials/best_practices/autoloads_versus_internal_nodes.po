@@ -116,15 +116,6 @@ msgstr ""
 "Outra razão para usar um Autoload pode ser que você queira reutilizar o "
 "mesmo método ou dados em muitas cenas."
 
-msgid ""
-"In the case of functions, you can create a new type of ``Node`` that "
-"provides that feature for an individual scene using the :ref:`class_name "
-"<doc_gdscript_basics_class_name>` keyword in GDScript."
-msgstr ""
-"No caso de funções, você pode criar um novo tipo de ``Node`` que fornece "
-"esse recurso para uma cena individual utilizando a palavra-"
-"chave :ref:`class_name <doc_scripting_continued_class_name>` em GDScript."
-
 msgid "When it comes to data, you can either:"
 msgstr "Quando se trata de dados, você pode:"
 

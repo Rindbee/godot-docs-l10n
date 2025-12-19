@@ -74,7 +74,7 @@ msgstr "可使用箭頭切換檔案面板的顯示。"
 msgid ""
 "The ``File`` button opens a dropdown menu for saving, loading, and creating "
 "files."
-msgstr "「File」按鈕會開啟下拉選單，用於儲存、載入與建立檔案。"
+msgstr "``File`` 按鈕會開啟下拉選單, 用於儲存、載入與建立檔案。"
 
 msgid ""
 "The ``Add Node`` button displays a popup menu to let you add nodes to the "
@@ -118,7 +118,7 @@ msgstr "此開關可開啟或關閉材質預覽。"
 
 msgid ""
 "The ``Online Docs`` button opens this documentation page in your web browser."
-msgstr "「Online Docs」按鈕會在你的瀏覽器中開啟本文件頁面。"
+msgstr "``Online Docs`` 按鈕會在你的瀏覽器中開啟本文件頁面。"
 
 msgid ""
 "The last button allows you to put the shader editor in its own window, "

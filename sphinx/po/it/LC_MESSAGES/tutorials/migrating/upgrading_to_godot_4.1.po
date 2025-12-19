@@ -506,13 +506,6 @@ msgstr "**EditorUndoRedoManager**"
 msgid "Behavior changes"
 msgstr "Cambiamenti di comportamento"
 
-msgid ""
-"In 4.1 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"Nella versione 4.1 sono state introdotte alcune modifiche comportamentali "
-"che potrebbero richiedere di adattare il progetto."
-
 msgid "**SubViewportContainer**"
 msgstr "**SubViewportContainer**"
 

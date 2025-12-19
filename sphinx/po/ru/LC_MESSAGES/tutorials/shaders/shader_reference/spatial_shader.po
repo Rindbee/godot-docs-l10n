@@ -515,8 +515,18 @@ msgstr "Преобразование из пространства вида в �
 msgid "in mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 msgstr "в mat4 **MAIN_CAM_INV_VIEW_MATRIX**"
 
+msgid ""
+"View space to world space transform of camera used to draw the current "
+"viewport."
+msgstr ""
+"Преобразование пространства вида в мировое пространство камеры, используемое "
+"для отрисовки текущего окна просмотра."
+
 msgid "in mat4 **INV_PROJECTION_MATRIX**"
 msgstr "в mat4 **INV_PROJECTION_MATRIX**"
+
+msgid "Clip space to view space transform."
+msgstr "Вырезать пространство, чтобы увидеть преобразование пространства."
 
 msgid "in vec3 **NODE_POSITION_WORLD**"
 msgstr "в vec3 **NODE_POSITION_WORLD**"
@@ -533,9 +543,6 @@ msgstr "Положение узла в пространстве обзора."
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "в vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "Положение камеры в мировом пространстве."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "в vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -544,6 +551,9 @@ msgstr "Направление камеры в мировом пространс
 
 msgid "in uint **CAMERA_VISIBLE_LAYERS**"
 msgstr "в uint **CAMERA_VISIBLE_LAYERS**"
+
+msgid "Cull layers of the camera rendering the current pass."
+msgstr "Отбрасывание слоев камеры, визуализирующей текущий проход."
 
 msgid "in int **INSTANCE_ID**"
 msgstr "в int **INSTANCE_ID**"
@@ -581,13 +591,6 @@ msgstr "Константа для правого глаза, всегда ``1``.
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "in vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
-"Смещение позиции для отрисовываемого глаза. Применяется только для "
-"многоракурсного рендеринга."
 
 msgid "inout vec3 **VERTEX**"
 msgstr "inout (вход/выход) vec3 **VERTEX**"

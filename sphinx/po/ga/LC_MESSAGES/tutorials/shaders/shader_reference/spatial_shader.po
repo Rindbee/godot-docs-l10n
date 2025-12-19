@@ -355,9 +355,6 @@ msgstr "Seasamh nód, in view space."
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "In Vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "Suíomh an cheamara, i spás an domhain."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "In Vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -406,13 +403,6 @@ msgstr "Constant for right eye, ''1' i gcónaí."
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "In Vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
-"Fritháireamh suímh don tsúil atá á déanamh. Níl sé infheidhme ach amháin "
-"maidir le rindreáil multiview."
 
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"

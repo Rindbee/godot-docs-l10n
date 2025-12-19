@@ -13,3 +13,6 @@ msgstr ""
 
 msgid "Troubleshooting"
 msgstr "문제 해결"
+
+msgid "References"
+msgstr "참조"

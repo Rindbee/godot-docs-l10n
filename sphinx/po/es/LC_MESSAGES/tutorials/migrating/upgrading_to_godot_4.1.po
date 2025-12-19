@@ -487,13 +487,6 @@ msgstr "**EditorUndoRedoManager**"
 msgid "Behavior changes"
 msgstr "Cambios de comportamiento"
 
-msgid ""
-"In 4.1 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"En la versión 4.1 algunos cambios de comportamiento han sido introducidos, "
-"los cuales podrían requerir que ajustes tu proyecto."
-
 msgid "**SubViewportContainer**"
 msgstr "**SubViewportContainer**"
 
@@ -575,6 +568,13 @@ msgid ""
 msgstr ""
 "El constructor para la variable `init_obj` ahora recibe "
 "``p_get_proc_address`` como primer parámetro"
+
+msgid ""
+"You also need to add an extra ``compatibility_minimum`` line to your "
+"``.gdextension`` file, so that it looks something like:"
+msgstr ""
+"También necesitas agregar una línea extra ``compatibility_minimum`` a tu "
+"archivo ``.gdextension``, para que se vea algo así:"
 
 msgid ""
 "This lets Godot know that your GDExtension has been updated and is safe to "

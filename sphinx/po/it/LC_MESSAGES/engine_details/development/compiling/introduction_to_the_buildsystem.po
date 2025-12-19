@@ -283,6 +283,9 @@ msgstr ""
 "è possibile utilizzare ``scons production=yes debug_symbols=yes`` per creare "
 "eseguibili ottimizzati per la produzione con simboli di debug inclusi."
 
+msgid "Dev build"
+msgstr "Compilazione di sviluppo"
+
 msgid ""
 "``dev_build`` should **not** be confused with ``dev_mode``, which is an "
 "alias for several development-related options (see above)."
@@ -634,6 +637,18 @@ msgstr ""
 
 msgid "SCU (single compilation unit) build"
 msgstr "Compilazione per SCU (unità di compilazione singola)"
+
+msgid ""
+"Regular builds tend to be bottlenecked by including large numbers of headers "
+"in each compilation translation unit. Primarily to speed up development "
+"(rather than for production builds), Godot offers a \"single compilation "
+"unit\" build (aka \"Unity / Jumbo\" build)."
+msgstr ""
+"Le compilazioni regolari tendono a essere ostacolate a causa dell'inclusione "
+"di tantissimi header in ogni unità di traduzione di compilazione. "
+"Principalmente per velocizzare lo sviluppo (piuttosto che per le "
+"compilazioni di produzione), Godot offre una compilazione a \"singola unità "
+"di compilazione\" (detta anche compilazione \"Unity / Jumbo\")."
 
 msgid ""
 "For the folders accelerated by this option, multiple ``.cpp`` files are "

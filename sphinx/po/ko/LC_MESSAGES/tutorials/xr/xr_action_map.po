@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Action sets"
+msgstr "액션 세트"
+
 msgid "Value"
 msgstr "값"
 

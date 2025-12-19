@@ -17,6 +17,13 @@ msgstr "Esportazione di pacchetti, patch e mod"
 msgid "Use cases"
 msgstr "Casi d'uso"
 
+msgid ""
+"Oftentimes, one would like to add functionality to one's game after it has "
+"been deployed."
+msgstr ""
+"Spesso si desidera aggiungere funzionalità al proprio gioco dopo averlo "
+"distribuito."
+
 msgid "Examples of this include..."
 msgstr "Esempi di questo includono..."
 

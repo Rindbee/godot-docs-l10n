@@ -14,6 +14,9 @@ msgstr ""
 msgid "Introduction"
 msgstr "소개"
 
+msgid "References"
+msgstr "참조"
+
 msgid "Creating a Godot server"
 msgstr "Godot 서버 만들기"
 

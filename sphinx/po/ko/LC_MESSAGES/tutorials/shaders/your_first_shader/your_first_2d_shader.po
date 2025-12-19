@@ -23,6 +23,13 @@ msgstr "당신의 첫 프래그먼트 함수"
 msgid "Uniform input"
 msgstr "Uniform 입력"
 
+msgid ""
+"For more information about usage see the :ref:`Shading Language doc "
+"<doc_shading_language>`."
+msgstr ""
+"사용에 대한 자세한 정보는 :ref:`셰이딩 언어 문서 <doc_shading_language>`\\ "
+"를 참조하세요."
+
 msgid "Now that we have a fragment function, let's write a vertex function."
 msgstr ""
 "이제 우리에게 프래그먼트 함수가 있으니 버텍스 함수를 작성해 보겠습니다."

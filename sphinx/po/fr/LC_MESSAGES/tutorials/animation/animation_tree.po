@@ -34,6 +34,13 @@ msgstr "Création d'une arborescence"
 msgid "Blend tree"
 msgstr "Arbre de mélange"
 
+msgid ""
+"The simplest connection to make is to connect an ``Animation`` node to the "
+"output directly, which will just play back the animation."
+msgstr ""
+"La manière la plus simple de tester cette fonctionnalité est de lui "
+"connecter un nœud ``Animation`` directement."
+
 msgid "Blend2 / Blend3"
 msgstr "Blend2 / Blend3"
 

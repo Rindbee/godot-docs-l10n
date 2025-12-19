@@ -23,6 +23,13 @@ msgstr "Plugin Android"
 msgid "v2 Architecture"
 msgstr "Architettura v2"
 
+msgid ""
+"This architecture allows Android plugins to extend the functionality of the "
+"engine with:"
+msgstr ""
+"Questa architettura consente ai plugin di Android di estendere le "
+"funzionalità del motore con:"
+
 msgid "Android platform APIs"
 msgstr "API della piattaforma Android"
 
@@ -31,6 +38,9 @@ msgstr "Librerie Android"
 
 msgid "Kotlin and Java libraries"
 msgstr "Librerie di Java e Kotlin"
+
+msgid "Native libraries (via JNI)"
+msgstr "Librerie native (tramite JNI)"
 
 msgid "GDExtension libraries"
 msgstr "Librerie GDExtension"
@@ -45,6 +55,15 @@ msgstr ""
 "Crea un modulo libreria di Android seguendo `queste istruzioni <https://"
 "developer.android.com/studio/projects/android-library>`_"
 
+msgid ""
+"``plugin.init.ClassFullName`` is the full component name (package + class "
+"name) of the plugin init class (e.g: "
+"``org.godotengine.plugin.android.template.GodotAndroidPlugin``)."
+msgstr ""
+"``plugin.init.ClassFullName`` è il nome completo del componente (pacchetto + "
+"nome della classe) della classe init del plugin (ad esempio: "
+"``org.godotengine.plugin.android.template.GodotAndroidPlugin``)."
+
 msgid "Migrating a v1 Android plugin to v2"
 msgstr "Migrazione di un'estensione Android v1 a v2"
 
@@ -55,11 +74,45 @@ msgstr ""
 "Cambia il prefisso ``org.godotengine.plugin.v1`` in "
 "``org.godotengine.plugin.v2``"
 
+msgid ""
+"The created script must be a ``@tool`` script, or else it will not work "
+"properly"
+msgstr ""
+"Lo script creato deve essere uno script ``@tool``, altrimenti non funzionerà "
+"correttamente"
+
+msgid ""
+"The export tool script is used to configure the Android plugin and hook it "
+"within the Godot Editor's export process. It should look something like this:"
+msgstr ""
+"Lo script tool di esportazione è utilizzato per configurare il plugin "
+"Android e integrarlo nel processo di esportazione di Godot Editor. Dovrebbe "
+"apparire più o meno così:"
+
+msgid ""
+"Create a ``plugin.cfg``. This is an INI file with metadata about your plugin:"
+msgstr "Creare un file ``plugin.cfg``. È un file INI con metadati sul plugin:"
+
 msgid "Using a v2 Android plugin"
 msgstr "Utilizzo di un'estensione Android v2"
 
 msgid "Navigate to ``Project`` -> ``Export...``"
 msgstr "Naviga su ``Project`` -> ``Export...``"
+
+msgid "In the ``Export`` window, create an ``Android export preset``"
+msgstr "Nella finestra ``Export``, creare un ``Android export preset``"
+
+msgid ""
+"In the ``Android export preset``, scroll to ``Gradle Build`` and set ``Use "
+"Gradle Build`` to ``true``"
+msgstr ""
+"Nel ``Android export preset``, scorrere fino a ``Gradle Build`` e impostare "
+"``Use Gradle Build`` su ``true``"
+
+msgid "Connect an Android device to your machine and run the project on it"
+msgstr ""
+"Connettere un dispositivo Android al computer ed eseguire il progetto su di "
+"esso"
 
 msgid "Using a v2 Android plugin as an Android library"
 msgstr "Utilizzo di un'estensione Android v2 come libreria Android"

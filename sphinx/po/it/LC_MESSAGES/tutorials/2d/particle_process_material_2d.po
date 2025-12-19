@@ -44,8 +44,20 @@ msgstr "Propagazione"
 msgid "Flatness"
 msgstr "Piattezza"
 
+msgid "This property is only useful for 3D particles."
+msgstr "Questa proprietà è utile solo per le particelle 3D."
+
 msgid "Initial Velocity"
 msgstr "Velocità iniziale"
+
+msgid ""
+"Initial velocity is the speed at which particles will be emitted (in pixels/"
+"sec). Speed might later be modified by gravity or other accelerations (as "
+"described further below)."
+msgstr ""
+"La velocità iniziale è la velocità alla quale le particelle saranno emesse "
+"(in pixel/sec). La velocità potrebbe essere modificata ulteriormente dalla "
+"forza di gravità o da altre accelerazioni (come descritto di seguito)."
 
 msgid "Animated Velocity"
 msgstr "Velocità animata"
@@ -54,7 +66,12 @@ msgid "Angular Velocity"
 msgstr "Velocità angolare"
 
 msgid "Orbit Velocity"
-msgstr "Velocità d'orbita"
+msgstr "Velocità orbitale"
+
+msgid "Orbit velocity is used to make particles turn around their center."
+msgstr ""
+"La velocità orbitale serve per far ruotare le particelle attorno al proprio "
+"centro."
 
 msgid "Accelerations"
 msgstr "Accelerazioni"
@@ -62,8 +79,14 @@ msgstr "Accelerazioni"
 msgid "Gravity"
 msgstr "Gravità"
 
+msgid "The gravity applied to every particle."
+msgstr "La forza di gravità applicata a ogni particella."
+
 msgid "Linear Acceleration"
 msgstr "Accelerazione lineare"
+
+msgid "The linear acceleration applied to each particle."
+msgstr "L'accelerazione lineare applicata a ogni particella."
 
 msgid "Radial Acceleration"
 msgstr "Accelerazione radiale"
@@ -77,11 +100,17 @@ msgstr "Smorzamento"
 msgid "Scale"
 msgstr "Scala"
 
+msgid "Determines the initial scale of the particles."
+msgstr "Determina la scala iniziale delle particelle."
+
 msgid "Color Curves"
 msgstr "Curve di colore"
 
 msgid "Color"
 msgstr "Colore"
+
+msgid "Used to change the color of the particles being emitted."
+msgstr "Usata per cambiare il colore delle particelle emesse."
 
 msgid "Hue Variation"
 msgstr "Variazione di tonalità"
@@ -91,6 +120,9 @@ msgstr "Animazione"
 
 msgid "Emission Shapes"
 msgstr "Forme di emissione"
+
+msgid "Open it and select \"Load Emission Mask\":"
+msgstr "Aprilo e seleziona \"Load Emission Mask\":"
 
 msgid "Emission Mask"
 msgstr "Maschera Emissione"

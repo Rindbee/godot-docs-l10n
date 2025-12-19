@@ -11,9 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Inspector plugins"
-msgstr ":ref:`Inspetor de plugins <doc_inspector_plugins>`"
-
 msgid "Setting up your plugin"
 msgstr "Configurando seu plugin"
 

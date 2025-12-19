@@ -96,14 +96,8 @@ msgstr "Введено"
 msgid "**JSONRPC**"
 msgstr "**JSONRPC**"
 
-msgid "Method ``set_scope`` replaced by ``set_method`` optional parameter"
-msgstr "Метод ``set_scope`` замінено на необов'язковий параметр ``set_method``"
-
 msgid "|❌|"
 msgstr "|❌|"
-
-msgid "|✔️ with compat|"
-msgstr "|✔️ з compat|"
 
 msgid "`GH-104890`_"
 msgstr "`GH-104890`_"
@@ -113,6 +107,9 @@ msgstr "**вузол**"
 
 msgid "Method ``get_rpc_config`` renamed to ``get_node_rpc_config``"
 msgstr "Метод ``get_rpc_config`` перейменовано на ``get_node_rpc_config``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ з compat|"
 
 msgid "`GH-106848`_"
 msgstr "`GH-106848`_"
@@ -177,17 +174,6 @@ msgstr "`GH-104269`_"
 
 msgid "Method ``instance_set_interpolated`` removed"
 msgstr "Метод ``instance_set_interpolated`` вилучено"
-
-msgid ""
-"In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of "
-"the way the bindings generator detects the enum prefix. New members where "
-"added to the enum in `GH-103941`_ that caused the enum member ``Address`` to "
-"be renamed to ``BufferDeviceAddress``."
-msgstr ""
-"У C# перелік ``RenderingDevice.Features`` порушує сумісність через спосіб, у "
-"який генератор зв'язків виявляє префікс переліку. У `GH-103941`_ до переліку "
-"було додано нові елементи, що призвело до перейменування елемента переліку "
-"``Address`` на ``BufferDeviceAddress``."
 
 msgid "GLTF"
 msgstr "GLTF"
@@ -575,13 +561,6 @@ msgstr "`GH-108825`_"
 msgid "Behavior changes"
 msgstr "Зміни поведінки"
 
-msgid ""
-"In 4.5 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"У версії 4.5 було введено деякі зміни в поведінці, які можуть вимагати від "
-"вас коригування вашого проєкту."
-
 msgid "3D Model Import"
 msgstr "3D Імпорт моделі"
 
@@ -632,6 +611,9 @@ msgstr ""
 "кватерніон, що представляє найкоротшу дугу між двома вхідними векторами. "
 "Раніше він повертав неправильні значення для певних вхідних даних "
 "(`GH-107618`_)."
+
+msgid "Navigation"
+msgstr "Навігація"
 
 msgid "Physics"
 msgstr "Фізика"

@@ -14,12 +14,6 @@ msgstr ""
 msgid "Documentation styling"
 msgstr "Stilizzazione della documentazione"
 
-msgid ""
-"Currently they supported tags for the GDExtension documentation system are:"
-msgstr ""
-"Attualmente i tag supportati per il sistema di documentazione GDExtension "
-"sono:"
-
 msgid "Tag"
 msgstr "Tag"
 

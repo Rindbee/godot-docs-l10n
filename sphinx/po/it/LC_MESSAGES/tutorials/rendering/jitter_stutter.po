@@ -20,6 +20,16 @@ msgstr "Stutter"
 msgid "Windows"
 msgstr "Windows"
 
+msgid ""
+"Games should use the **Exclusive Fullscreen** window mode, as opposed to "
+"**Fullscreen** which is designed to prevent Windows from automatically "
+"treating the window as if it was exclusive fullscreen."
+msgstr ""
+"I giochi dovrebbero utilizzare la modalità di finestra **Schermo intero "
+"esclusivo**, anziché **Schermo intero**, che è progettata per impedire a "
+"Windows di trattare automaticamente la finestra come se fosse a schermo "
+"intero esclusivo."
+
 msgid "Linux"
 msgstr "Linux"
 

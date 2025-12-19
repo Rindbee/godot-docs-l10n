@@ -315,16 +315,6 @@ msgstr ""
 "Ten en cuenta que, en algunos casos, ``total`` puede ser ``0``. Esto "
 "significa que no se puede calcular."
 
-msgid ""
-"If your game supports multiple languages, the :js:attr:`locale` override "
-"option can be used to force a specific locale, provided you have a valid "
-"language code string. It may be good to use server-side logic to determine "
-"which languages a user may prefer. This way the language code can be taken "
-"from the ``Accept-Language`` HTTP header, or determined by a GeoIP service."
-msgstr ""
-"Ten en cuenta que en algunos casos, ``total`` puede ser ``0``. Esto "
-"significa que no se puede calcular."
-
 msgid "Debugging"
 msgstr "Depuración"
 

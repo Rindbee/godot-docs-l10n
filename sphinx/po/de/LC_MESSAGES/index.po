@@ -20,11 +20,17 @@ msgstr "Erste Schritte"
 msgid "Manual"
 msgstr "Handbuch"
 
+msgid "Engine details"
+msgstr "Engine-Details"
+
 msgid "Community"
 msgstr "Community"
 
 msgid "Class reference"
 msgstr "Klassenreferenz"
+
+msgid "Godot Docs – *4.5* branch"
+msgstr "Godot-Dokumentation – *4.5*-Branch"
 
 msgid ""
 "Godot's documentation is available in various languages and versions. Expand "

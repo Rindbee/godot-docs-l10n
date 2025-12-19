@@ -17,17 +17,6 @@ msgstr "podstawowy C#"
 msgid "Introduction"
 msgstr "Wprowadzenie"
 
-msgid ""
-"This is **not** a full-scale tutorial on the C# language as a whole. If you "
-"aren't already familiar with its syntax or features, see the `Microsoft C# "
-"guide <https://docs.microsoft.com/en-us/dotnet/csharp/index>`_ or look for a "
-"suitable introduction elsewhere."
-msgstr ""
-"To jest **nie** pełny poradnik na temat języka C#. Jeśli nie znasz jeszcze "
-"jego składni lub funkcji, zapoznaj się z przewodnikiem `Microsoft C# "
-"<https://docs.microsoft.com/en-us/dotnet/csharp/index>` lub poszukaj "
-"odpowiedniego wprowadzenia gdzieś indziej."
-
 msgid "Prerequisites"
 msgstr "Wymagania wstępne"
 

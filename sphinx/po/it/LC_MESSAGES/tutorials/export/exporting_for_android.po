@@ -14,6 +14,33 @@ msgstr ""
 msgid "Exporting for Android"
 msgstr "Esportazione per Android"
 
+msgid ""
+"This page describes how to export a Godot project to Android. If you're "
+"looking to compile export template binaries from source instead, "
+"read :ref:`doc_compiling_for_android`."
+msgstr ""
+"Questa pagina descrive come esportare un progetto Godot per Android. Se si "
+"desidera invece compilare i binari del modello di esportazione dal codice "
+"sorgente, consultare :ref:`doc_compiling_for_android`."
+
+msgid ""
+"Exporting for Android has fewer requirements than compiling Godot for "
+"Android. The following steps detail what is needed to set up the Android SDK "
+"and the engine."
+msgstr ""
+"L'esportazione per Android richiede meno requisiti rispetto alla "
+"compilazione di Godot per Android. I passaggi seguenti descrivono nel "
+"dettaglio cosa è necessario per configurare l'SDK e il motore Android."
+
+msgid ""
+"Projects written in C# can be exported to Android as of Godot 4.2, but "
+"support is experimental and :ref:`some limitations apply "
+"<doc_c_sharp_platforms>`."
+msgstr ""
+"È possibile esportare i progetti scritti in C# per Android a partire da "
+"Godot 4.2, ma il supporto è sperimentale e :ref:`si applicano alcune "
+"limitazioni <doc_c_sharp_platforms>`."
+
 msgid "Install OpenJDK 17"
 msgstr "Installare OpenJDK 17"
 
@@ -23,6 +50,13 @@ msgid ""
 msgstr ""
 "Scarica e installa `OpenJDK 17 <https://adoptium.net/temurin/releases/?"
 "variant=openjdk17&version=17&os=any&arch=any>`__."
+
+msgid ""
+"Higher versions of the JDK are also supported, but we recommend using JDK 17 "
+"for optimal compatibility and stability."
+msgstr ""
+"Sono supportate anche versioni successive del JDK, ma consigliamo di "
+"utilizzare il JDK 17 per una compatibilità e una stabilità ottimali."
 
 msgid "Download the Android SDK"
 msgstr "Scaricare l'SDK di Android"
@@ -37,6 +71,21 @@ msgstr ""
 "Puoi installarlo tramite `Android Studio Iguana (version 2023.2.1) o "
 "versioni successive <https://developer.android.com/studio/>`__."
 
+msgid ""
+"Run it once to complete the SDK setup using these `instructions <https://"
+"developer.android.com/studio/intro/update#sdk-manager>`__."
+msgstr ""
+"Eseguirlo una volta per completare la configurazione dell'SDK seguendo "
+"queste `istruzioni <https://developer.android.com/studio/intro/update#sdk-"
+"manager>`__."
+
+msgid ""
+"Ensure that the `required packages <https://developer.android.com/studio/"
+"intro/update#required>`__ are installed as well."
+msgstr ""
+"Assicurarsi che siano installati anche i `pacchetti richiesti <https://"
+"developer.android.com/studio/intro/update#required>`__."
+
 msgid "Android SDK Platform-Tools version 35.0.0 or later"
 msgstr "Android SDK Platform-Tools versione 35.0.0 or successiva"
 
@@ -46,12 +95,21 @@ msgstr "Android SDK Build-Tools versione 35.0.0"
 msgid "Android SDK Platform 35"
 msgstr "Android SDK Platform 35"
 
+msgid "Android SDK Command-line Tools (latest)"
+msgstr "Strumenti da riga di comando dell'SDK Android (ultima versione)"
+
 msgid ""
 "Ensure that the `NDK and CMake are installed and configured <https://"
 "developer.android.com/studio/projects/install-ndk>`__."
 msgstr ""
 "Assicurarsi che `NDK e CMake siano installati e configurati <https://"
 "developer.android.com/studio/projects/install-ndk>`__."
+
+msgid "CMake version 3.10.2.4988404"
+msgstr "CMake versione 3.10.2.4988404"
+
+msgid "NDK version r28b (28.1.13356709)"
+msgstr "NDK versione r28b (28.1.13356709)"
 
 msgid ""
 "Alternatively, you can install the Android SDK with the `sdkmanager` command "
@@ -67,14 +125,44 @@ msgstr ""
 "Installare il pacchetto degli strumenti da riga di comando attraverso queste "
 "`istruzioni <https://developer.android.com/tools/sdkmanager>`__."
 
+msgid ""
+"Once the command line tools are installed, run the following `sdkmanager` "
+"command to complete the setup process:"
+msgstr ""
+"Una volta installati gli strumenti della riga di comando, eseguire il "
+"seguente comando di `sdkmanager` per completare il processo di "
+"configurazione:"
+
+msgid ""
+"If you are using Linux, **do not use an Android SDK provided by your "
+"distribution's repositories as it will often be outdated**."
+msgstr ""
+"Se si sta utilizzando Linux, **non utilizzare un SDK Android fornito dai "
+"repository della propria distribuzione, poiché spesso non sarà aggiornato**."
+
+msgid "Setting it up in Godot"
+msgstr "Configurandolo in Godot"
+
 msgid "In that screen, 2 paths need to be set:"
 msgstr "In questa schermata, è necessario impostare 2 percorsi:"
 
 msgid "There are three types of icons:"
 msgstr "Ci sono tre tipi di icone:"
 
+msgid ""
+"You can optimize the size further by compiling an Android export template "
+"with only the features you need. See :ref:`doc_optimizing_for_size` for more "
+"information."
+msgstr ""
+"È possibile ottimizzare ulteriormente le dimensioni compilando un modello di "
+"esportazione Android con solo le funzionalità necessarie. "
+"Consultare :ref:`doc_optimizing_for_size` per maggiori informazioni."
+
 msgid "Environment variables"
 msgstr "Variabili d'ambiente"
+
+msgid "Android export environment variables"
+msgstr "Variabili d'ambiente di esportazione per Android"
 
 msgid "Export option"
 msgstr "Opzioni di esportazione"
@@ -82,26 +170,55 @@ msgstr "Opzioni di esportazione"
 msgid "Environment variable"
 msgstr "Variabile d'ambiente"
 
+msgid "Encryption / Encryption Key"
+msgstr "Crittografia / Chiave crittografica"
+
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
+
+msgid "Options / Keystore / Debug"
+msgstr "Opzioni / Keystore / Debug"
 
 msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
 msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_PATH``"
 
+msgid "Options / Keystore / Debug User"
+msgstr "Opzioni / Keystore / Utente di debug"
+
 msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
 msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_USER``"
+
+msgid "Options / Keystore / Debug Password"
+msgstr "Opzioni / Keystore / Password di debug"
 
 msgid "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
 msgstr "``GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD``"
 
+msgid "Options / Keystore / Release"
+msgstr "Opzioni / Keystore / Rilascio"
+
 msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
 msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PATH``"
 
+msgid "Options / Keystore / Release User"
+msgstr "Opzioni / Keystore / Utente di rilascio"
+
 msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
 msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_USER``"
+
+msgid "Options / Keystore / Release Password"
+msgstr "Opzioni / Keystore / Password di rilascio"
 
 msgid "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
 msgstr "``GODOT_ANDROID_KEYSTORE_RELEASE_PASSWORD``"
 
 msgid "Export options"
 msgstr "Opzioni di esportazione"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformAndroid` class reference."
+msgstr ""
+"È possibile trovare un elenco completo delle opzioni di esportazione "
+"disponibili nel riferimento alla "
+"classe :ref:`class_EditorExportPlatformAndroid`."

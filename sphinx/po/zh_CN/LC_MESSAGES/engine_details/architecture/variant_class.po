@@ -25,7 +25,7 @@ msgid ""
 "communication, editing, serialization and generally moving data around."
 msgstr ""
 "Variant 即可变体，是 Godot 中最重要的数据类型。Variant 在 64 位平台上仅占 24 "
-"个字节（32 为平台上则为 20 个字节），几乎可以存储引擎中的所有数据类型。需要长"
+"个字节（32 位平台上则为 20 个字节），几乎可以存储引擎中的所有数据类型。需要长"
 "期存在的信息很少会用 Variant 来存储，它的主要用途是数据的通讯、编辑、序列化等"
 "对数据进行移动的操作。"
 

@@ -126,6 +126,18 @@ msgstr ""
 "<class_object_method_get>` மற்றும்: ref: `kodotobject.set () "
 "<class_object_method_set>`. முதல் உரையாடல் நீங்கள் அணுக விரும்பும் புலத்தின் பெயர்."
 
+msgid ""
+"Keep in mind that when setting a field value you should only use types the "
+"GDScript side knows about. Essentially, you want to work with built-in types "
+"as described in :ref:`doc_gdscript_builtin_types` or classes "
+"extending :ref:`class_Object`."
+msgstr ""
+"புல மதிப்பை அமைக்கும் போது நீங்கள் GDSCRIPT பக்கத்திற்கு தெரிந்த வகைகளை மட்டுமே "
+"பயன்படுத்த வேண்டும் என்பதை நினைவில் கொள்ளுங்கள். அடிப்படையில், நீங்கள் விவரிக்கப்பட்டுள்ளபடி "
+"உள்ளமைக்கப்பட்ட வகைகளுடன் பணியாற்ற விரும்புகிறீர்கள்: குறிப்பு: "
+"`doc_gdscript_builtin_types` அல்லது வகுப்புகள் நீட்டிக்கப்படுகின்றன: ref:` "
+"class_object`."
+
 msgid "Calling methods"
 msgstr "அழைப்பு முறைகள்"
 

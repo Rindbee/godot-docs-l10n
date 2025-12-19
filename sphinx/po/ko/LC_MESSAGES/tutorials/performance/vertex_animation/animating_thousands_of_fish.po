@@ -18,7 +18,10 @@ msgid "Animating one Fish"
 msgstr "물고기 한 마리 애니메이션화하기"
 
 msgid "The resulting animation should look something like this:"
-msgstr "애니메이션 결과물은 이것과 같게 보여야 합니다:"
+msgstr "결과 애니메이션은 이렇게 보여야 합니다:"
+
+msgid "With only the pivot applied you should see something like this:"
+msgstr "피벗만 적용하면 이렇게 보여야 합니다:"
 
 msgid ""
 "Godot makes it easy to render thousands of the same object using a "

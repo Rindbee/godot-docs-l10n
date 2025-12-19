@@ -183,7 +183,7 @@ msgstr ""
 "另存为...** ）："
 
 msgid "Neutral point light texture"
-msgstr "紫外线对质地轻"
+msgstr "中性点光源纹理"
 
 msgid ""
 "If you need different falloff, you can procedurally create a texture by "

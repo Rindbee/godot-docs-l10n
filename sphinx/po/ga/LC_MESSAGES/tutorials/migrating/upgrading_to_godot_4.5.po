@@ -50,11 +50,11 @@ msgstr "Tugadh isteach"
 msgid "|❌|"
 msgstr "| ❌ |"
 
-msgid "|✔️ with compat|"
-msgstr "| ✔️ le compat|"
-
 msgid "**Node**"
 msgstr "**Nód**"
+
+msgid "|✔️ with compat|"
+msgstr "| ✔️ le compat|"
 
 msgid "|✔️|"
 msgstr "| ✔️ |"
@@ -88,6 +88,9 @@ msgstr "** EagarthóirUndoRedoManager **"
 
 msgid "Behavior changes"
 msgstr "Athruithe iompraíochta"
+
+msgid "Navigation"
+msgstr "Nascleanúint"
 
 msgid "Physics"
 msgstr "Fisic"

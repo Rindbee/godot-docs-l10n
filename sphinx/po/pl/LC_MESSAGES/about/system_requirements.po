@@ -131,11 +131,6 @@ msgstr "*przykład: Intel Core i5-6600K, AMD Ryzen 5 1600, Snapdragon X Elite*"
 msgid "*Example: Intel Core i5-8500, Apple M1*"
 msgstr "*przykład: Intel Core i5-8500, Apple M1*"
 
-msgid ""
-"*Example: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 with "
-"overclocking*"
-msgstr "*przykład: Intel Core i5-6600K, AMD Ryzen 5 1600, Raspberry Pi 5 po OC"
-
 msgid "**Forward+ renderer:** Dedicated graphics with full Vulkan 1.2 support"
 msgstr "**forward+ renderer:** Dedykowana grafika z pełną obsługą Vulkan 1.2"
 

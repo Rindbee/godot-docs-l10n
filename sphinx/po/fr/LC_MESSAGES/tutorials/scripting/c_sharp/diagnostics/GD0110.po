@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0110: The exported tool button is not a Callable"
+msgstr "GD0110 : Le bouton d'outil exporté n'est pas un Callable"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

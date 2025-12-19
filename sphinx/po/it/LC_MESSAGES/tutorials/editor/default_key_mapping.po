@@ -14,6 +14,44 @@ msgstr ""
 msgid "Default editor shortcuts"
 msgstr "Scorciatoie predefinite dell'editor"
 
+msgid ""
+"Many Godot editor functions can be executed with keyboard shortcuts. This "
+"page lists functions which have associated shortcuts by default, but many "
+"others are available for customization in editor settings as well. To change "
+"keys associated with these and other actions navigate to **Editor > Editor "
+"Settings > Shortcuts**."
+msgstr ""
+"È possibile eseguire molte funzioni dell'editor Godot tramite scorciatoie da "
+"tastiera. Questa pagina elenca le funzioni a cui sono associate le "
+"scorciatoie predefinite, ma molte altre sono disponibili da personalizzare "
+"nelle impostazioni dell'editor. Per cambiare i tasti associati a queste e "
+"altre azioni, accedere a **Editor > Impostazioni dell'editor > Scorciatoie**."
+
+msgid ""
+"While some actions are universal, a lot of shortcuts are specific to "
+"individual tools. For this reason it is possible for some key combinations "
+"to be assigned to more than one function. The correct action will be "
+"performed depending on the context."
+msgstr ""
+"Sebbene alcune azioni siano universali, molte scorciatoie sono specifiche "
+"per singoli strumenti. Per questo motivo è possibile che alcune combinazioni "
+"di tasti siano assegnate a più di una funzione. L'azione corretta sarà "
+"eseguita a seconda del contesto."
+
+msgid ""
+"While Windows and Linux builds of the editor share most of the default "
+"settings, some shortcuts may differ for macOS version. This is done for "
+"better integration of the editor into macOS ecosystem. Users fluent with "
+"standard shortcuts on that OS should find Godot Editor's default key mapping "
+"intuitive."
+msgstr ""
+"Sebbene le versioni Windows e Linux dell'editor condividano la maggior parte "
+"delle impostazioni predefinite, alcune scorciatoie potrebbero differire per "
+"la versione macOS. Questo è stato fatto per integrare meglio l'editor "
+"nell'ecosistema macOS. Gli utenti che hanno familiarità con le scorciatoie "
+"standard su quel sistema operativo troveranno intuitiva la mappatura dei "
+"tasti predefinita dell'editor Godot."
+
 msgid "General editor actions"
 msgstr "Azioni generali dell'editor"
 
@@ -382,6 +420,14 @@ msgstr "``editor/command_palette``"
 
 msgid "Bottom panels"
 msgstr "Pannelli inferiori"
+
+msgid ""
+"Only bottom panels that are always available have a default shortcut "
+"assigned. Others must be manually bound in the Editor Settings if desired."
+msgstr ""
+"Solo i pannelli inferiori sempre disponibili hanno una scorciatoia "
+"predefinita. Gli altri si devono assegnare manualmente nelle Impostazioni "
+"dell'Editor, se desiderato."
 
 msgid "Toggle Last Opened Panel"
 msgstr "Commuta l'ultimo pannello aperto"
@@ -1134,7 +1180,7 @@ msgid "``script_text_editor/delete_line``"
 msgstr "``script_text_editor/delete_line``"
 
 msgid "Toggle Comment"
-msgstr "Commuta i commenti"
+msgstr "Commuta commento"
 
 msgid ":kbd:`Ctrl + K`"
 msgstr ":kbd:`Ctrl + K`"
@@ -1146,7 +1192,7 @@ msgid "``script_text_editor/toggle_comment``"
 msgstr "``script_text_editor/toggle_comment``"
 
 msgid "Fold/Unfold Line"
-msgstr "Espandi/Comprimi linea"
+msgstr "Espandi/Riduci riga"
 
 msgid ":kbd:`Ctrl + Cmd + F`"
 msgstr ":kbd:`Ctrl + Cmd + F`"
@@ -1178,6 +1224,18 @@ msgstr ":kbd:`Cmd + Shift + C`"
 msgid "``script_text_editor/duplicate_selection``"
 msgstr "``script_text_editor/duplicate_selection``"
 
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd:`Shift + Opt + Freccia giù`"
+
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Opt + Freccia su`"
+
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "Complete Symbol"
 msgstr "Completa il simbolo"
 
@@ -1200,7 +1258,7 @@ msgid "``script_text_editor/evaluate_selection``"
 msgstr "``script_text_editor/evaluate_selection``"
 
 msgid "Trim Trailing Whitespace"
-msgstr "Taglia spazi in coda"
+msgstr "Rimuovi spazio vuoto a fin di riga"
 
 msgid ":kbd:`Ctrl + Alt + T`"
 msgstr ":kbd:`Ctrl + Alt + T`"
@@ -1239,7 +1297,7 @@ msgid "``script_text_editor/capitalize``"
 msgstr "``script_text_editor/capitalize``"
 
 msgid "Convert Indent to Spaces"
-msgstr "Converti l'indentazione in spazi"
+msgstr "Converti indentazione in spazi"
 
 msgid ":kbd:`Ctrl + Shift + Y`"
 msgstr ":kbd:`Ctrl + Shift + Y`"
@@ -1251,7 +1309,7 @@ msgid "``script_text_editor/convert_indent_to_spaces``"
 msgstr "``script_text_editor/convert_indent_to_spaces``"
 
 msgid "Convert Indent to Tabs"
-msgstr "Converti l'indentazione in tabulazioni"
+msgstr "Converti indentazione in tabulazioni"
 
 msgid ":kbd:`Ctrl + Shift + I`"
 msgstr ":kbd:`Ctrl + Shift + I`"
@@ -1394,17 +1452,11 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Freccia su`"
 
-msgid ":kbd:`Shift + Opt + Up Arrow`"
-msgstr ":kbd:`Shift + Opt + Freccia su`"
-
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Freccia giù`"
-
-msgid ":kbd:`Shift + Opt + Down Arrow`"
-msgstr ":kbd:`Shift + Opt + Freccia giù`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``script_editor/window_move_down``"
@@ -1464,7 +1516,7 @@ msgid "``script_editor/reload_script_soft``"
 msgstr "``script_editor/reload_script_soft``"
 
 msgid "History Previous"
-msgstr "Cronologia Precedente"
+msgstr "Precedente in cronologia"
 
 msgid ":kbd:`Alt + Left Arrow`"
 msgstr ":kbd:`Alt + Freccia sinistra`"
@@ -1527,7 +1579,7 @@ msgid "``script_editor/zoom_out``"
 msgstr "``script_editor/zoom_out``"
 
 msgid "Reset Zoom"
-msgstr "Reimposta l'ingrandimento"
+msgstr "Ripristina l'ingrandimento"
 
 msgid "``script_editor/reset_zoom``"
 msgstr "``script_editor/reset_zoom``"
@@ -1703,12 +1755,6 @@ msgstr "``filesystem_dock/copy_path``"
 msgid "Duplicate"
 msgstr "Duplica"
 
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
-
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"
 
@@ -1838,6 +1884,9 @@ msgstr "``tiles_editor/paste``"
 msgid "``tiles_editor/delete``"
 msgstr "``tiles_editor/delete``"
 
+msgid "Cancel"
+msgstr "Annulla"
+
 msgid ":kbd:`Esc`"
 msgstr ":kbd:`Esc`"
 
@@ -1849,6 +1898,9 @@ msgstr "Disegna"
 
 msgid "``tiles_editor/paint_tool``"
 msgstr "``tiles_editor/paint_tool``"
+
+msgid "Line"
+msgstr "Riga"
 
 msgid ":kbd:`L`"
 msgstr ":kbd:`L`"

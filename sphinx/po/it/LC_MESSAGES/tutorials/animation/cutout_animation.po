@@ -32,11 +32,44 @@ msgstr "Il tuo scheletro finale dovrebbe assomigliare a questo:"
 msgid "IK chains"
 msgstr "Catene IK"
 
+msgid "As a result, the base of the chain will turn *Yellow*."
+msgstr "Di conseguenza, la base della catena diventerà *Gialla*."
+
 msgid "Animation tips"
 msgstr "Suggerimenti per l'animazione"
+
+msgid "Setting keyframes and excluding properties"
+msgstr "Impostare i fotogrammi chiave ed escludere le proprietà"
+
+msgid ""
+"Special contextual elements appear in the top toolbar when the animation "
+"editor window is open:"
+msgstr ""
+"Nella barra degli strumenti in alto, appaiono elementi contestuali speciali "
+"quando la finestra dell'editor di animazione è aperta:"
+
+msgid ""
+"The key button inserts location, rotation, and scale keyframes for the "
+"selected objects or bones at the current playhead position."
+msgstr ""
+"Il pulsante chiave inserisce i fotogrammi chiave di posizione, rotazione e "
+"scala per gli oggetti o le ossa selezionati nella posizione attuale della "
+"testina di riproduzione."
+
+msgid ""
+"The \"loc\", \"rot\", and \"scl\" toggle buttons to the left of the key "
+"button modify its function, allowing you to specify which of the three "
+"properties keyframes will be created for."
+msgstr ""
+"Gli interruttori \"loc\", \"rot\" e \"scl\" a sinistra del pulsante chiave "
+"ne modificano la funzione, consentendo di specificare per quale delle tre "
+"proprietà saranno creati i fotogrammi chiave."
 
 msgid "Creating a rest pose"
 msgstr "Creare una posa di riposo"
 
 msgid "Create a new animation, rename it \"rest\"."
 msgstr "Creare una nuova animazione, rinominarla \"rest\"."
+
+msgid "Modifying rotation only"
+msgstr "Modificazione della rotazione solamente"

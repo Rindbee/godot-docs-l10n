@@ -382,9 +382,6 @@ msgstr "节点的位置，使用视图空间。"
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "相机的位置，使用世界空间。"
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -433,11 +430,6 @@ msgstr "右眼视图常量，恒为 ``1``\\ 。"
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "in vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr "正在渲染的眼睛处的偏移量，仅适用于多视图渲染。"
 
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"

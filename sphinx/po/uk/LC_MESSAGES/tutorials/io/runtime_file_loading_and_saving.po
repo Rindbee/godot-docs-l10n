@@ -100,7 +100,7 @@ msgstr ""
 "Ви можете побачити, як збереження та завантаження працює в дії, "
 "використовуючи демонстраційний проект «Збереження та завантаження файлів під "
 "час виконання `(серіалізація)» <https://github.com/godotengine/godot-demo-"
-"projects/blob/master/loading/runtime_save_load> `__."
+"projects/blob/master/loading/runtime_save_load>`__."
 
 msgid "Plain text and binary files"
 msgstr "Звичайний текст і двійкові файли"

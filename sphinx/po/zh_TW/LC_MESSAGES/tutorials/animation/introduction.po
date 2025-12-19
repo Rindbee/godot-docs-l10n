@@ -196,7 +196,7 @@ msgid ""
 "new animation. Enter a name for the animation in the dialog box."
 msgstr ""
 "選中 AnimationPlayer 節點，然後點擊動畫編輯器中的“動畫”按鈕。從列表中選擇“新"
-"建”（ |Add Animation| ）來新增一個新的動畫，並在對話方塊中為該動畫輸入名稱。"
+"建”（ |Add Animation| ）來新增一個新的動畫, 並在對話方塊中為該動畫輸入名稱."
 
 msgid "Add Animation"
 msgstr "動畫"

@@ -108,13 +108,6 @@ msgid "Store Kit"
 msgstr "Kit de Tienda"
 
 msgid ""
-"Implemented in `Godot iOS InAppStore plugin <https://github.com/godotengine/"
-"godot-ios-plugins/blob/master/plugins/inappstore/in_app_store.mm>`_."
-msgstr ""
-"`core/list.h <https://github.com/godotengine/godot/blob/master/core/"
-"list.h>`__."
-
-msgid ""
 "The Store Kit API is accessible through the ``InAppStore`` singleton. It is "
 "initialized automatically."
 msgstr ""
@@ -225,13 +218,6 @@ msgstr ""
 
 msgid "Game Center"
 msgstr "Centro de Juegos"
-
-msgid ""
-"Implemented in `Godot iOS GameCenter plugin <https://github.com/godotengine/"
-"godot-ios-plugins/blob/master/plugins/gamecenter/game_center.mm>`_."
-msgstr ""
-"`scene/audio/audioplayer.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/audio/audio_player.cpp>`__."
 
 msgid "and the pending events interface:"
 msgstr "y la interfaz de eventos pendientes:"

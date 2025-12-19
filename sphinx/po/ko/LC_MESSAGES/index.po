@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 "이 문서는 `Weblate <https://hosted.weblate.org/projects/godot-engine/godot-"
 "docs>`_\\ 의 커뮤니티 회원들이 `원본 영어 문서 <https://docs.godotengine.org/"
-"en/stable>`_ \\ 에서 번역한 것입니다."
+"en/stable>`_\\ 에서 번역한 것입니다."
 
 msgid ""
 "Depending on the translation effort's completion level, you may find "

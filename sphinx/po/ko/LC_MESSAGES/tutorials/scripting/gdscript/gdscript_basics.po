@@ -249,13 +249,16 @@ msgid "``x.attribute``"
 msgstr "``x.attribute``"
 
 msgid "Attribute reference"
-msgstr "속성 참조"
+msgstr "특성 참조"
 
 msgid "``foo()``"
 msgstr "``foo()``"
 
 msgid "Function call"
 msgstr "함수 호출"
+
+msgid "`Awaiting signals or coroutines`_"
+msgstr "`시그널이나 코루틴을 기다리기`_"
 
 msgid "Bitwise NOT"
 msgstr "비트 단위 NOT"
@@ -431,6 +434,13 @@ msgid "GDScript also supports :ref:`format strings <doc_gdscript_printf>`."
 msgstr "GDScript는 :ref:`형식 문자열 <doc_gdscript_printf>`\\ 도 지원합니다."
 
 msgid ""
+"For more information about exporting properties, read the :ref:`GDScript "
+"exports <doc_gdscript_exports>` article."
+msgstr ""
+"내보내기 속성에 대한 자세한 정보는:ref:`GDScript 내보내기 "
+"<doc_gdscript_exports>` 기사를 읽으세요."
+
+msgid ""
 "When using nodes, it's common to desire to keep references to parts of the "
 "scene in a variable. As scenes are only warranted to be configured when "
 "entering the active scene tree, the sub-nodes can only be obtained when a "
@@ -470,7 +480,7 @@ msgstr ""
 "``duplicate()`` 메서드가 있습니다."
 
 msgid "Basic built-in types"
-msgstr "기본 내장 타입"
+msgstr "기초 내장 타입"
 
 msgid "A variable in GDScript can be assigned to several built-in types."
 msgstr "GDScript의 변수에는 여러 내장 타입을 할당할 수 있습니다."
@@ -769,7 +779,7 @@ msgid ""
 "Enums are basically a shorthand for constants, and are pretty useful if you "
 "want to assign consecutive integers to some constant."
 msgstr ""
-"열거형은 기본적으로 상수의 축약형으로, 연속적인 정수를 일부 상수에 할당할 때 "
+"열거형은 기초적으로 상수의 축약형으로, 연속적인 정수를 일부 상수에 할당할 때 "
 "꽤 유용합니다."
 
 msgid "Functions"
@@ -818,6 +828,9 @@ msgstr ""
 
 msgid "Referencing functions"
 msgstr "함수 참조하기(Referencing functions)"
+
+msgid "Lambda functions capture the local environment:"
+msgstr "람다 함수는 로컬 환경을 캡처합니다:"
 
 msgid "Static functions"
 msgstr "정적 함수"
@@ -1026,7 +1039,7 @@ msgid "Tool mode"
 msgstr "툴 모드(Tool mode)"
 
 msgid "See :ref:`doc_running_code_in_the_editor` for more information."
-msgstr "자세한 설명은 :ref:`doc_running_code_in_the_editor`\\ 를 참고하세요."
+msgstr "자세한 정보는 :ref:`doc_running_code_in_the_editor`\\ 를 참조하세요."
 
 msgid ""
 "Be cautious when freeing nodes with ``queue_free()`` or ``free()`` in a tool "
@@ -1107,6 +1120,9 @@ msgstr ""
 "인수는 편집기의 노드 독에 표시되며 Godot는 이 인수로 콜백 함수를 생성할 수 있"
 "습니다. 시그널을 방출할 때 여전히 많은 수의 인수를 방출할 수 있으므로, 다시 "
 "말해 올바른 값을 방출하는 일은 여러분에게 달려 있습니다."
+
+msgid "Awaiting signals or coroutines"
+msgstr "시그널이나 코루틴을 기다리기"
 
 msgid "Assert keyword"
 msgstr "Assert 키워드"

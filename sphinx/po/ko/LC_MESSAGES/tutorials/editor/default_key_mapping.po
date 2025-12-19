@@ -244,16 +244,16 @@ msgid "Play"
 msgstr "플레이"
 
 msgid "Pause Scene"
-msgstr "씬 일시정지"
+msgstr "씬 일시 정지"
 
 msgid "Stop"
 msgstr "정지"
 
 msgid "Play Scene"
-msgstr "씬 실행"
+msgstr "씬 플레이"
 
 msgid "Play Custom Scene"
-msgstr "커스텀 씬 실행"
+msgstr "커스텀 씬 플레이"
 
 msgid "Expand Bottom Panel"
 msgstr "아래쪽 패널 확장"

@@ -13,8 +13,3 @@ msgstr ""
 
 msgid "To build an iOS plugin:"
 msgstr "Tworzenie modułów w iOS:"
-
-msgid ""
-"Download the Godot engine source from the `Godot GitHub page <https://"
-"github.com/godotengine/godot>`_."
-msgstr "Skopiuj to repozytorium: ` <https://github.com/godotengine/godot>`_."

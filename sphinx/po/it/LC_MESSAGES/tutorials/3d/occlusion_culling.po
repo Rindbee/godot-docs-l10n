@@ -17,6 +17,15 @@ msgstr "Occlusion culling"
 msgid "On this page, you'll learn:"
 msgstr "In questa pagina imparerai:"
 
+msgid "What are the advantages and pitfalls of occlusion culling."
+msgstr "Quali sono i vantaggi e le insidie dell'occlusion culling."
+
+msgid "How to set up occlusion culling in Godot."
+msgstr "Come configurare l'occlusion culling in Godot."
+
+msgid "Troubleshooting common issues with occlusion culling."
+msgstr "Risolvere problemi comuni con l'occlusion culling."
+
 msgid ""
 "You can see how occlusion culling works in action using the `Occlusion "
 "Culling and Mesh LOD demo project <https://github.com/godotengine/godot-demo-"
@@ -41,6 +50,23 @@ msgstr "Ci sono due modi per configurare gli occlusori in una scena:"
 
 msgid "Manually placing occluders"
 msgstr "Posizionare manualmente gli occlusori"
+
+msgid "BoxOccluder3D (a cuboid)"
+msgstr "BoxOccluder3D (un cuboide)"
+
+msgid "SphereOccluder3D (a sphere-shaped occluder)"
+msgstr "SphereOccluder3D (un occlusore a forma di sfera)"
+
+msgid "PolygonOccluder3D (a 2D polygon with as many points as you want)"
+msgstr "PolygonOccluder3D (un poligono 2D con tutti i punti che si desiderano)"
+
+msgid ""
+"There is also ArrayOccluder3D, whose points can't be modified in the editor "
+"but can be useful for procedural generation from a script."
+msgstr ""
+"Esiste anche ArrayOccluder3D, i cui punti non si possono modificare "
+"nell'editor, ma può essere utile per la generazione procedurale da uno "
+"script."
 
 msgid "Performance considerations"
 msgstr "Considerazioni sulle prestazioni"

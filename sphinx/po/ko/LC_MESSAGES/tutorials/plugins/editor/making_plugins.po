@@ -36,7 +36,7 @@ msgid ""
 "serve as a base to develop and test the plugins."
 msgstr ""
 "시작하기 전에 원하는 위치에 빈 프로젝트를 만드세요. 이는 플러그인을 개발하고 "
-"테스트하기 위한 기반 역할을 합니다."
+"테스트하기 위한 기본 역할을 합니다."
 
 msgid ""
 "The first thing you need for the editor to identify a new plugin is to "

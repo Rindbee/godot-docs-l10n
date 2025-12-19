@@ -78,6 +78,13 @@ msgstr ""
 "மட்டுமே இணைக்கப்படவில்லை.* 2 டி முனைகளின் ஆன் / ஆஃப் நடத்தையை கட்டுப்படுத்துவதற்கு இன்னும் "
 "கொஞ்சம் சிந்தனையும் திட்டமிடலும் தேவைப்படுகிறது."
 
+msgid ""
+"On the positive side, pivot behavior in the scene tree is perfectly "
+"preserved during interpolation in 2D, which gives super smooth behavior."
+msgstr ""
+"நேர்மறையான பக்கத்தில், காட்சி மரத்தில் பிவோட் நடத்தை 2D இல் இடைக்கணிப்பின் போது சரியாக "
+"பாதுகாக்கப்படுகிறது, இது சூப்பர் மென்மையான நடத்தையை அளிக்கிறது."
+
 msgid "Resetting physics interpolation"
 msgstr "இயற்பியல் இடைக்கணிப்பை மீட்டமைக்கிறது"
 

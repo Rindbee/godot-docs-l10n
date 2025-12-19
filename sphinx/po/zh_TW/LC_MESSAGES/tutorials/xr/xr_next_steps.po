@@ -49,7 +49,7 @@ msgid ""
 "contributors of Godot."
 msgstr ""
 "有各種 XR 工具包可用，這些工具包已實作了較為複雜的 XR 邏輯，方便你直接套用。"
-"我們也有一份 :ref:`Godot XR Tools 簡介 <godot-xr-tools>` ，這是由 Godot 核心"
+"我們也有一份 :Ref:`Godot XR Tools 簡介 <godot-xr-tools>` ，這是由 Godot 核心"
 "貢獻者開發的工具包。"
 
 msgid "There are more toolkits available for Godot:"

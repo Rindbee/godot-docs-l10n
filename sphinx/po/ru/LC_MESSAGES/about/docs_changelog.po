@@ -310,7 +310,7 @@ msgid "New pages since version 3.3"
 msgstr "Новые страницы с версии 3.3"
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid ":ref:`doc_gdscript_documentation_comments`"
 msgstr ":ref:`doc_gdscript_documentation_comments`"

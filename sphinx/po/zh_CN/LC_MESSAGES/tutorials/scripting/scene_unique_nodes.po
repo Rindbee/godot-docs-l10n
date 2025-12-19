@@ -39,7 +39,7 @@ msgid "Creation and usage"
 msgstr "创建与使用"
 
 msgid "There are two ways to create a scene unique node."
-msgstr "有两种方法可以来创建光线遮挡器。"
+msgstr "有两种方法可以来创建场景唯一节点。"
 
 msgid ""
 "In the Scene tree dock, right-click on a node and select **Access as Unique "

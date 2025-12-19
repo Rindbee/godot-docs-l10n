@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Screen texture"
+msgstr "화면 텍스처"
+
+msgid "Depth texture"
+msgstr "깊이 텍스처"

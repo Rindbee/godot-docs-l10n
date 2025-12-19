@@ -405,13 +405,6 @@ msgid "**EditorUndoRedoManager**"
 msgstr "**EditorUndoRedoManager**"
 
 msgid ""
-"In 4.1 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"Na versão 4.1, algumas mudanças de comportamento foram introduzidas, o que "
-"pode exigir que você ajuste seu projeto."
-
-msgid ""
 "When input events should reach SubViewports and their children, "
 "``SubViewportContainer.mouse_filter`` now needs to be ``MOUSE_FILTER_STOP`` "
 "or ``MOUSE_FILTER_PASS``. See `GH-79271`_ for details."

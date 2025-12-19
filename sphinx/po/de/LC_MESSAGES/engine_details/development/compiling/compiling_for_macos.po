@@ -44,6 +44,13 @@ msgstr ""
 "Tools für Xcode installiert, falls Sie diese noch nicht haben."
 
 msgid ""
+"Similarly, if you have `MacPorts <https://www.macports.org/>`_ installed, "
+"you can easily install SCons using the following command:"
+msgstr ""
+"Ähnlich wenn Sie `MacPorts <https://www.macports.org/>`_ installiert haben, "
+"können Sie SCons einfach mit dem folgenden Befehl installieren:"
+
+msgid ""
 "To get the Godot source code for compiling, see :ref:`doc_getting_source`."
 msgstr ""
 "Um den Godot-Quellcode zum Kompilieren zu erhalten, "
@@ -63,6 +70,13 @@ msgid "Start a terminal, go to the root directory of the engine source code."
 msgstr ""
 "Starten Sie ein Terminal und wechseln Sie in das Stammverzeichnis des Engine-"
 "Quellcodes."
+
+msgid "To compile for Intel (x86-64) powered Macs, use:"
+msgstr "Zum Kompilieren für Intel (x86-64) betriebene Macs verwenden Sie:"
+
+msgid "To compile for Apple Silicon (ARM64) powered Macs, use:"
+msgstr ""
+"Um für Apple Silicon (ARM64) betriebene Macs zu kompilieren, verwenden Sie:"
 
 msgid ""
 "If all goes well, the resulting binary executable will be placed in the "

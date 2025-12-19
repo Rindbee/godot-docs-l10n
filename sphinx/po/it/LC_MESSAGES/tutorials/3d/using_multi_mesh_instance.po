@@ -29,11 +29,27 @@ msgstr "Rotazione casuale"
 msgid "Random Tilt"
 msgstr "Inclinazione casuale"
 
+msgid "Randomizing the overall rotation of the source mesh."
+msgstr "Randomizzazione della rotazione complessiva della mesh sorgente."
+
 msgid "Random Scale"
 msgstr "Scala casuale"
+
+msgid "Randomizing the scale of the source mesh."
+msgstr "Randomizzazione della scala della mesh sorgente."
 
 msgid "Scale"
 msgstr "Scala"
 
+msgid ""
+"The scale of the source mesh that will be placed over the target surface."
+msgstr ""
+"La scala della mesh sorgente che sarà posizionata sulla superficie di "
+"destinazione."
+
 msgid "Amount"
 msgstr "Quantità"
+
+msgid "The amount of mesh instances placed over the target surface."
+msgstr ""
+"La quantità di istanze di mesh posizionate sulla superficie di destinazione."

@@ -39,6 +39,13 @@ msgstr "Antialiasing multi-campione (MSAA)"
 msgid "Temporal antialiasing (TAA)"
 msgstr "Antialiasing temporale (TAA)"
 
+msgid ""
+"*This is only available in the Forward+ renderer, not the Mobile or "
+"Compatibility renderers.*"
+msgstr ""
+"*Disponibile solo nel renderer Forward+, non nei renderer Mobile o "
+"Compatibilità.*"
+
 msgid "Fast approximate antialiasing (FXAA)"
 msgstr "Antialiasing approssimativo rapido (FXAA)"
 
@@ -49,8 +56,26 @@ msgstr ""
 "*Questo è disponibile solo nei renderer Forward+ e Mobile, non nel renderer "
 "Compatibilità.*"
 
+msgid "Comparison between no antialiasing (left) and FXAA (right):"
+msgstr "Confronto tra niente antialiasing (sinistra) e FXAA (destra):"
+
 msgid "Sub-pixel Morphological Antialiasing (SMAA 1x)"
 msgstr "Antialiasing morfologico subpixel (SMAA 1x)"
+
+msgid "Use SMAA 1x if you can't afford MSAA, but find FXAA too blurry."
+msgstr ""
+"Usa l'SMAA 1x Se ci si può permettere l'MSAA, ma si ritiene che l'FXAA sia "
+"troppo sfocato."
+
+msgid ""
+"Combine it with TAA, or even FSR2, to maximize antialiasing at a higher GPU "
+"cost and some added blurriness. This is most beneficial in fast-moving "
+"scenes or just after a camera cut, especially at lower FPS."
+msgstr ""
+"Combinarlo con TAA, o anche con FSR2, per massimizzare l'antialiasing a un "
+"impatto più elevato sulla GPU e aggiungere un po' di sfocatura. Questo è "
+"particolarmente utile nelle scene in rapido movimento o subito dopo un "
+"cambio di telecamera, soprattutto a FPS bassi."
 
 msgid ""
 "SMAA 1x can be enabled in the Project Settings by changing the value of "
@@ -63,8 +88,34 @@ msgstr ""
 "Space AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
 "screen_space_aa>` su ``SMAA``."
 
+msgid "Comparison between no antialiasing (left) and SMAA 1x (right):"
+msgstr "Confronto tra niente antialiasing (sinistra) e SMAA 1x (destra):"
+
 msgid "Supersample antialiasing (SSAA)"
 msgstr "Antialiasing supercampione (SSAA)"
+
+msgid ""
+"Supersampling provides the highest quality of antialiasing possible, but "
+"it's also the most expensive. It works by shading every pixel in the scene "
+"multiple times. This allows SSAA to antialias edges, transparency *and* "
+"specular aliasing at the same time, without introducing potential ghosting "
+"artifacts."
+msgstr ""
+"Il sovracampionamento fornisce la massima qualità di antialiasing possibile, "
+"ma è anche il più costoso. Funziona ombreggiando più volte ogni pixel della "
+"scena. Questo consente all'SSAA di applicare contemporaneamente "
+"l'antialiasing ai bordi, alla trasparenza *e* all'aliasing speculare, senza "
+"introdurre eventuali artefatti di ghosting."
+
+msgid ""
+"The downside of SSAA is its *extremely* high cost. This cost generally makes "
+"SSAA difficult to use for game purposes, but you may still find "
+"supersampling useful for :ref:`offline rendering <doc_creating_movies>`."
+msgstr ""
+"Lo svantaggio dell'SSAA è il suo impatto *estremamente* elevato. Questo "
+"impatto rende generalmente l'SSAA difficile da usare per i videogiochi, ma "
+"il sovracampionamento potrebbe comunque essere utile per il :ref:`rendering "
+"offline <doc_creating_movies>`."
 
 msgid "Which antialiasing technique should I use?"
 msgstr "Quale tecnica di antialiasing dovrei usare?"
@@ -108,8 +159,29 @@ msgstr "🔴 No"
 msgid "Specular antialiasing"
 msgstr "Antialiasing speculare"
 
+msgid "🟡 Some"
+msgstr "🟡 In parte"
+
 msgid "Transparency antialiasing"
 msgstr "Antialiasing di trasparenza"
+
+msgid "🟡 Some [1]_"
+msgstr "🟡 In parte [1]_"
+
+msgid "🟢 Yes [2]_"
+msgstr "🟢 Si [2]_"
+
+msgid "Added blur"
+msgstr "Sfocatura aggiunta"
+
+msgid "🟢 None"
+msgstr "🟢 Nessuno"
+
+msgid "🟢 Low"
+msgstr "🟢 Basso"
+
+msgid "🟡 Some [3]_"
+msgstr "🟡 In parte [3]_"
 
 msgid "Ghosting artifacts"
 msgstr "Artefatti di ghosting"
@@ -118,7 +190,19 @@ msgid "🔴 Yes"
 msgstr "🔴 Si"
 
 msgid "Performance cost"
-msgstr "Costo sulle prestazioni"
+msgstr "Impatto sulle prestazioni"
+
+msgid "🟡 Medium"
+msgstr "🟡 Medio"
+
+msgid "🔴 High"
+msgstr "🔴 Alto"
+
+msgid "🟢 Very Low"
+msgstr "🟢 Molto basso"
+
+msgid "🔴 Very High"
+msgstr "🔴 Molto alto"
 
 msgid "Forward+"
 msgstr "Forward+"
@@ -134,3 +218,25 @@ msgstr "❌ No"
 
 msgid "Compatibility"
 msgstr "Compatibilità"
+
+msgid ""
+"MSAA does not work well with materials with Alpha Scissor (1-bit "
+"transparency). This can be mitigated by enabling ``alpha antialiasing`` on "
+"the material."
+msgstr ""
+"L'MSAA non funziona bene con i materiali con Ritaglio alfa (trasparenza a 1 "
+"bit). Ciò si può attenuare abilitando l'``alpha antialiasing`` sul materiale."
+
+msgid ""
+"TAA/FSR2 transparency antialiasing is most effective when using Alpha "
+"Scissor."
+msgstr ""
+"L'antialiasing della trasparenza TAA/FSR2 è più efficace se si utilizza il "
+"Ritaglio alfa."
+
+msgid ""
+"SSAA has some blur from bilinear downscaling. This can be mitigated by using "
+"an integer scaling factor of ``2.0``."
+msgstr ""
+"L'SSAA presenta una certa sfocatura dovuta al downscaling bilineare. Ciò si "
+"può attenuare tramite un fattore di scala intero di ``2.0``."

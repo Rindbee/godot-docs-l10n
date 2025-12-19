@@ -14,5 +14,8 @@ msgstr ""
 msgid "Operator"
 msgstr "연산자"
 
+msgid "The output from the script will be:"
+msgstr "스크립트로부터 출력은 다음과 같습니다:"
+
 msgid "Built-in functions"
 msgstr "내장 함수"

@@ -451,6 +451,11 @@ msgstr ""
 "在 ``Android 导出预设``\\ 中，滚动到 ``Gradle 构建``\\ ，并将\\ ``使用 "
 "Gradle 构建`` 设置为 ``true``"
 
+msgid ""
+"Update the project's scripts as needed to access the plugin's functionality. "
+"For example:"
+msgstr "根据需要更新项目的脚本以访问插件功能。例如："
+
 msgid "Connect an Android device to your machine and run the project on it"
 msgstr "将 Android 设备连接到你的机器并在其上运行该项目"
 

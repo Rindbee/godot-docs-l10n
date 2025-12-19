@@ -1095,6 +1095,18 @@ msgstr ":kbd: `Cmd+Shift + C`"
 msgid "``script_text_editor/duplicate_selection``"
 msgstr "``eagarthóir_text_script/roghnaí_dúbailt``"
 
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd: `Aistrigh + Rogh+Saigh síos`"
+
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd: `Shift + Ropt+Up Arrow`"
+
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd: `Ctrl+D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd: `Cmd + D`"
+
 msgid "Complete Symbol"
 msgstr "Siombail iomlán"
 
@@ -1308,17 +1320,11 @@ msgstr "``eagarthóirí_script/faigh_in_comhaid ``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd: `Shift + Alt + Suas Arrow`"
 
-msgid ":kbd:`Shift + Opt + Up Arrow`"
-msgstr ":kbd: `Shift + Ropt+Up Arrow`"
-
 msgid "``script_editor/window_move_up``"
 msgstr "``eagarthóirí_script/fuinne_gluaise_suaithe``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd: `Aistrigh + Alt + Saighead síos`"
-
-msgid ":kbd:`Shift + Opt + Down Arrow`"
-msgstr ":kbd: `Aistrigh + Rogh+Saigh síos`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``eagarthóirí_script/fuinne_gluaise_síos``"
@@ -1607,12 +1613,6 @@ msgstr "``Córas comhad_dock/cóipeáil_path``"
 
 msgid "Duplicate"
 msgstr "Dúblach"
-
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd: `Ctrl+D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd: `Cmd + D`"
 
 msgid "``filesystem_dock/duplicate``"
 msgstr "``córas comhad dock/dúbailt``"

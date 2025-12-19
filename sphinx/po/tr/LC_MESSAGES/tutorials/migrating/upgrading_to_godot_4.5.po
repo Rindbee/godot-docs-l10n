@@ -50,11 +50,11 @@ msgstr "Tanıtıldı"
 msgid "|❌|"
 msgstr "|❌|"
 
-msgid "|✔️ with compat|"
-msgstr "|✔️ , uyumluluk ile|"
-
 msgid "**Node**"
 msgstr "**Node**"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ , uyumluluk ile|"
 
 msgid "|✔️|"
 msgstr "|✔️|"
@@ -88,6 +88,9 @@ msgstr "**EditorUndoRedoManager**"
 
 msgid "Behavior changes"
 msgstr "Davranış değişiklikleri"
+
+msgid "Navigation"
+msgstr "Gezinti"
 
 msgid "Physics"
 msgstr "Fizik"

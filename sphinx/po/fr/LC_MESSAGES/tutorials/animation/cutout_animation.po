@@ -409,7 +409,7 @@ msgstr ""
 "connexion de la hanche et du torse. Godot a relié le nœud de la hanche à la "
 "racine de la scène avec un os, et nous ne voulons pas cela. Pour résoudre ce "
 "problème, sélectionnez le nœud racine et le nœud de hanche, ouvrez le menu "
-"Squelette, cliquez sur \" Effacer les os \"."
+"Squelette, cliquez sur ``Effacer les os``."
 
 msgid "Your final skeleton should look something like this:"
 msgstr "Votre squelette final devrait ressembler à ceci :"

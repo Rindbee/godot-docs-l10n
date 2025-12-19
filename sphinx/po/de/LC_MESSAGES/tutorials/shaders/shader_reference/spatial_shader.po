@@ -353,9 +353,6 @@ msgstr "Node-Position im View-Space."
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "Kamera-Position im World-Space."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -404,12 +401,6 @@ msgstr "Konstante für das rechte Auge, immer ``1``."
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "in vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
-"Positions-Offset für das gerenderte Auge. Gilt nur für Multiview-Rendering."
 
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"

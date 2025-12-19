@@ -416,9 +416,6 @@ msgstr ":ref:`Preferencje logiki <doc_logic_preferences>`"
 msgid ":ref:`doc_2d_lights_and_shadows`"
 msgstr ":ref:`Oświetlenie i cienie 2D <doc_2d_lights_and_shadows>`"
 
-msgid ":ref:`doc_2d_meshes`"
-msgstr ":ref:`Meshe 2D`"
-
 msgid ":ref:`doc_csg_tools`"
 msgstr ":ref:`Narzędzia CSG <doc_csg_tools>`"
 
@@ -434,12 +431,6 @@ msgstr ":ref:`doc_ragdoll_system`"
 msgid ":ref:`doc_soft_body`"
 msgstr ":ref:`doc_soft_body`"
 
-msgid ":ref:`doc_2d_skeletons`"
-msgstr ":ref:`Szkielety 2D `"
-
-msgid ":ref:`doc_animation_tree`"
-msgstr ":ref:`AnimationTree `"
-
 msgid "GUI"
 msgstr "GUI"
 
@@ -449,17 +440,8 @@ msgstr ":ref:`doc_gui_containers`"
 msgid "Viewports"
 msgstr "Viewporty"
 
-msgid ":ref:`doc_viewport_as_texture`"
-msgstr ":ref:`Używanie Viewportu jako tekstury`"
-
-msgid ":ref:`doc_custom_postprocessing`"
-msgstr ":ref:`Niestandardowy post-processing `"
-
 msgid ":ref:`doc_converting_glsl_to_godot_shaders`"
 msgstr ":ref:`doc_converting_glsl_to_godot_shaders`"
-
-msgid ":ref:`doc_advanced_postprocessing`"
-msgstr "Zaawansowany post-processing"
 
 msgid "Shading Reference:"
 msgstr "O Shaderach:"
@@ -469,9 +451,6 @@ msgstr ":ref:`Język shaderów <doc_shading_language>`"
 
 msgid ":ref:`doc_spatial_shader`"
 msgstr ":ref:`Shadery przestrzenne <doc_spatial_shader>`"
-
-msgid ":ref:`doc_canvas_item_shader`"
-msgstr ":ref:`Shader Canvas Item`"
 
 msgid ":ref:`doc_particle_shader`"
 msgstr ":ref:`doc_particle_shader`"
@@ -512,11 +491,6 @@ msgstr "Kompilowanie"
 
 msgid ":ref:`doc_optimizing_for_size`"
 msgstr ":ref:`Optymalizacja rozmiaru projektu <doc_optimizing_for_size>`"
-
-msgid ":ref:`doc_compiling_with_script_encryption_key`"
-msgstr ""
-":ref: Kompilowanie z szyfrowaniem skryptów "
-"`doc_compiling_with_script_encryption_key`"
 
 msgid "Engine development"
 msgstr "Rozwój silnika"

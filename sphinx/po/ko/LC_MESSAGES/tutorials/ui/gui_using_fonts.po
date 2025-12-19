@@ -11,8 +11,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Antialiasing"
+msgstr "안티앨리어싱"
+
 msgid "Mipmaps"
 msgstr "밉맵"
+
+msgid "It's possible to use a system font as a fallback font too."
+msgstr "시스템 글꼴을 폴백 글꼴로 사용하는 것도 가능합니다."
+
+msgid "Using icon fonts"
+msgstr "아이콘 글꼴 사용하기"
 
 msgid "Import dock"
 msgstr "독 가져오기"

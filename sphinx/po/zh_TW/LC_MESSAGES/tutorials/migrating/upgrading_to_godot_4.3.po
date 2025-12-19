@@ -544,11 +544,6 @@ msgstr "`GH-81746`_"
 msgid "Behavior changes"
 msgstr "做出更改"
 
-msgid ""
-"In 4.3 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr "4.3 版本有些行為上的改動，你可能需要因此調整專案。"
-
 msgid "Core"
 msgstr "核心"
 

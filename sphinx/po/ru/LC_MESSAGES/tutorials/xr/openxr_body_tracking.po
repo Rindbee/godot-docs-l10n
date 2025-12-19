@@ -14,5 +14,82 @@ msgstr ""
 msgid "OpenXR body tracking"
 msgstr "Отслеживание тела OpenXR"
 
+msgid ""
+"Support for full body tracking in OpenXR is only just becoming available for "
+"a select few platforms. As support solidifies information will be added to "
+"this page."
+msgstr ""
+"Поддержка полного отслеживания положения тела в OpenXR только начинает "
+"появляться на некоторых платформах. По мере развития поддержки информация "
+"будет добавляться на эту страницу."
+
 msgid "HTC Tracker support"
 msgstr "Поддержка HTC Tracker"
+
+msgid ""
+"An option that has been available for some time is doing full body tracking "
+"using HTC trackers. These are currently supported through SteamVR and on HTC "
+"Elite XR headsets. They are exposed through the action map system."
+msgstr ""
+"Уже некоторое время доступна опция отслеживания всего тела с помощью "
+"трекеров HTC. В настоящее время они поддерживаются в SteamVR и на гарнитурах "
+"HTC Elite XR. Они отображаются через систему карт действий."
+
+msgid ""
+"These trackers are identified by their roles which are assigned to them when "
+"configured. Simply add :ref:`XRController3D <class_xrcontroller3d>` nodes as "
+"children to the :ref:`XROrigin3D <class_xrorigin3d>` node and assign one of "
+"the following trackers:"
+msgstr ""
+"Эти трекеры идентифицируются по ролям, которые им назначаются при настройке. "
+"Просто добавьте узлы :ref:`XRController3D <class_xrcontroller3d>` в качестве "
+"дочерних к узлу :ref:`XROrigin3D <class_xrorigin3d>` и назначьте один из "
+"следующих трекеров:"
+
+msgid "HTC trackers"
+msgstr "Трекеры HTC"
+
+msgid "/user/vive_tracker_htcx/role/handheld_object"
+msgstr "/user/vive_tracker_htcx/role/handheld_object"
+
+msgid "/user/vive_tracker_htcx/role/left_foot"
+msgstr "/user/vive_tracker_htcx/role/left_foot"
+
+msgid "/user/vive_tracker_htcx/role/right_foot"
+msgstr "/user/vive_tracker_htcx/role/right_foot"
+
+msgid "/user/vive_tracker_htcx/role/left_shoulder"
+msgstr "/user/vive_tracker_htcx/role/left_shoulder"
+
+msgid "/user/vive_tracker_htcx/role/right_shoulder"
+msgstr "/user/vive_tracker_htcx/role/right_shoulder"
+
+msgid "/user/vive_tracker_htcx/role/left_elbow"
+msgstr "/user/vive_tracker_htcx/role/left_elbow"
+
+msgid "/user/vive_tracker_htcx/role/right_elbow"
+msgstr "/user/vive_tracker_htcx/role/right_elbow"
+
+msgid "/user/vive_tracker_htcx/role/left_knee"
+msgstr "/user/vive_tracker_htcx/role/left_knee"
+
+msgid "/user/vive_tracker_htcx/role/right_knee"
+msgstr "/user/vive_tracker_htcx/role/right_knee"
+
+msgid "/user/vive_tracker_htcx/role/waist"
+msgstr "/user/vive_tracker_htcx/role/waist"
+
+msgid "/user/vive_tracker_htcx/role/chest"
+msgstr "/user/vive_tracker_htcx/role/chest"
+
+msgid "/user/vive_tracker_htcx/role/camera"
+msgstr "/user/vive_tracker_htcx/role/camera"
+
+msgid "/user/vive_tracker_htcx/role/keyboard"
+msgstr "/user/vive_tracker_htcx/role/keyboard"
+
+msgid ""
+"You can now use these as targets for IK modifiers on a full body avatar."
+msgstr ""
+"Теперь вы можете использовать их в качестве целей для модификаторов IK на "
+"полноразмерном аватаре."

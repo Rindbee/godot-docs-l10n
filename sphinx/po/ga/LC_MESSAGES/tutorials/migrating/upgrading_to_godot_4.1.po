@@ -494,13 +494,6 @@ msgstr "** EagarthóirUndoRedoManager **"
 msgid "Behavior changes"
 msgstr "Athruithe iompraíochta"
 
-msgid ""
-"In 4.1 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"I 4.1 tugadh isteach roinnt athruithe iompair, a d'fhéadfadh a cheangal ort "
-"do thionscadal a choigeartú."
-
 msgid "**SubViewportContainer**"
 msgstr "**SubviewportContainer**"
 

@@ -213,7 +213,7 @@ msgid ""
 "named **godot_path** (this is the real key name) with a value "
 "**godot_project_to_export** (this is the name of your project)"
 msgstr ""
-"8. 開啟 **exported_xcode_project_name-Info.plist**, 新增一個名為 "
+"8. 開啟 **exported_xcode_project_name-Info.plist** , 新增一個名為 "
 "**godot_path** (這是真正的鍵名) 的字串屬性, 值設為 "
 "**godot_project_to_export** (你的專案名稱)"
 

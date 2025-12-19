@@ -153,6 +153,9 @@ msgstr "Conteneurs"
 msgid "Comment"
 msgstr "Commentaire"
 
+msgid "|string| 📜"
+msgstr "|string| 📜"
+
 msgid "``std::string``"
 msgstr "``std::string``"
 
@@ -174,8 +177,20 @@ msgstr "|a_hash_map|"
 msgid "``std::unordered_map``"
 msgstr "``std::unordered_map``"
 
+msgid "|string_name| 📜"
+msgstr "|string_name| 📜"
+
 msgid "|local_vector|"
 msgstr "|local_vector|"
+
+msgid "|array| 📜"
+msgstr "|array| 📜"
+
+msgid "|typed_array| 📜"
+msgstr "|typed_array| 📜"
+
+msgid "|packed_array| 📜"
+msgstr "|packed_array| 📜"
 
 msgid "|list|"
 msgstr "|list|"
@@ -216,6 +231,12 @@ msgstr "|rb_map|"
 msgid "``std::map``"
 msgstr "``std::map``"
 
+msgid "|dictionary| 📜"
+msgstr "|dictionary| 📜"
+
+msgid "|typed_dictionary| 📜"
+msgstr "|typed_dictionary| 📜"
+
 msgid "|pair|"
 msgstr "|pair|"
 
@@ -226,12 +247,25 @@ msgid "Math types"
 msgstr "Types mathématiques"
 
 msgid ""
+"There are several linear math types available in the ``core/math`` directory:"
+msgstr ""
+"Il y a de nombreux types disponibles utilisés en mathématiques linéaires "
+"dans le répertoire ``core/math`` :"
+
+msgid ""
 "`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
 msgstr ""
 "`core/math <https://github.com/godotengine/godot/tree/master/core/math>`__"
 
 msgid "NodePath"
 msgstr "NodePath"
+
+msgid ""
+"This is a special datatype used for storing paths in a scene tree and "
+"referencing them in an optimized manner:"
+msgstr ""
+"Il s'agit d'un type spécial qui est utilisé pour stocker des chemins dans "
+"une arborescence de scène et les référencer de manière optimisée :"
 
 msgid ""
 "`core/string/node_path.h <https://github.com/godotengine/godot/blob/master/"

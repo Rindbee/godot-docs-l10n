@@ -289,13 +289,6 @@ msgstr "**EditorSceneFormatImporterFBX**"
 msgid "Type renamed to ``EditorSceneFormatImporterFBX2GLTF``"
 msgstr "Tipo renomeado para ``EditorSceneFormatImporterFBX2GLTF``"
 
-msgid ""
-"In 4.3 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"Na versão 4.3, algumas mudanças de comportamento foram introduzidas, o que "
-"pode exigir que você ajuste seu projeto."
-
 msgid "Core"
 msgstr "Componentes Principais"
 

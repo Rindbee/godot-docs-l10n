@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0203: The delegate signature of the signal must return void"
+msgstr "GD0203 : La signature du délégué du signal doit renvoyer void"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

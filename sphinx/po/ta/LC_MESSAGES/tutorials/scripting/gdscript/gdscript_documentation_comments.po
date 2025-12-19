@@ -169,6 +169,9 @@ msgstr "`` @deprecated: அதற்கு பதிலாக [உறுப்�
 msgid "``@experimental: This method is incomplete.``"
 msgstr "`` exexeperimal: இந்த முறை முழுமையடையாது .``"
 
+msgid "Alternatively, you can use inline documentation comments:"
+msgstr "மாற்றாக, நீங்கள் இன்லைன் ஆவணங்கள் கருத்துகளைப் பயன்படுத்தலாம்:"
+
 msgid ""
 "The script documentation will update in the editor help window every time "
 "the script is updated. If any member variable or function name starts with "

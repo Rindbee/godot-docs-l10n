@@ -20,6 +20,9 @@ msgstr "Forward+"
 msgid "Mobile"
 msgstr "모바일"
 
+msgid "Compatibility"
+msgstr "호환성"
+
 msgid "Rendering drivers"
 msgstr "렌더링 드라이버"
 
@@ -63,6 +66,12 @@ msgid ""
 "Forward+ renderer."
 msgstr ""
 "클러스터링은 Forward+ 렌더러에서 반사 프로브와 데칼 렌더링에도 사용됩니다."
+
+msgid "**Screen-space reflections GLSL shader:**"
+msgstr "**스크린 공간 반사 GLSL 셰이더:**"
+
+msgid "**Subsurface scattering GLSL:**"
+msgstr "**서브서피스 산란 GLSL:**"
 
 msgid "Sky rendering"
 msgstr "하늘 렌더링"

@@ -11,8 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using sanitizers"
+msgstr "Utilizzare i sanitizer"
+
+msgid "What are sanitizers?"
+msgstr "Cosa sono i sanitizer?"
+
+msgid "Using sanitizers on Godot"
+msgstr "Utilizzare i sanitizer su Godot"
+
+msgid "Address sanitizer (ASAN)"
+msgstr "Sanitizer di indirizzi (ASAN)"
+
 msgid "Available in Clang and GCC."
 msgstr "Disponibile in Clang e GCC."
+
+msgid "**Supported platforms:** Linux, macOS, Windows (Visual Studio), Web"
+msgstr "**Piattaforme supportate:** Linux, macOS, Windows (Visual Studio), Web"
 
 msgid ""
 "`Clang ASAN documentation <https://clang.llvm.org/docs/"
@@ -20,6 +35,9 @@ msgid ""
 msgstr ""
 "`Documentazione di Clang ASAN <https://clang.llvm.org/docs/"
 "AddressSanitizer.html>`__"
+
+msgid "Leak sanitizer (LSAN)"
+msgstr "Sanitizer di perdite (LSAN)"
 
 msgid "**Supported platforms:** Linux, Web"
 msgstr "**Piattaforme supportate:** Linux, Web"
@@ -29,6 +47,12 @@ msgid ""
 msgstr ""
 "`Documentazione di Clang LSAN <https://clang.llvm.org/docs/"
 "LeakSanitizer.html>`__"
+
+msgid "Memory sanitizer (MSAN)"
+msgstr "Sanitizer di memoria (MSAN)"
+
+msgid "Available in Clang only, not GCC."
+msgstr "Disponibile solo in Clang, non GCC."
 
 msgid "**Supported platforms:** Linux"
 msgstr "**Piattaforme supportate:** Linux"
@@ -40,6 +64,9 @@ msgstr ""
 "`Documentazione di Clang MSAN <https://clang.llvm.org/docs/"
 "MemorySanitizer.html>`__"
 
+msgid "Thread sanitizer (TSAN)"
+msgstr "Sanitizer di thread (TSAN)"
+
 msgid "**Supported platforms:** Linux, macOS"
 msgstr "**Piattaforme supportate:** Linux, macOS"
 
@@ -50,8 +77,20 @@ msgstr ""
 "`Documentazione di Clang TSAN <https://clang.llvm.org/docs/"
 "ThreadSanitizer.html>`__"
 
+msgid "On Linux, if you stumble upon the following error:"
+msgstr "Su Linux, se ti imbatti nel seguente errore:"
+
 msgid "``FATAL: ThreadSanitizer: unexpected memory mapping``"
 msgstr "``FATAL: ThreadSanitizer: unexpected memory mapping``"
+
+msgid "Or preferably disable it entirely with:"
+msgstr "Oppure preferibilmente disabilitala completamente con:"
+
+msgid "Or re-enable ASLR with:"
+msgstr "O riabilita l'ASLR con:"
+
+msgid "Undefined behavior sanitizer (UBSAN)"
+msgstr "Sanitizer di comportamento non definito (UBSAN)"
 
 msgid "**Supported platforms:** Linux, macOS, Web"
 msgstr "**Piattaforme supportate:** Linux, macOS, Web"

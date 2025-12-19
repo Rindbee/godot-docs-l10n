@@ -146,7 +146,7 @@ msgid ""
 msgstr ""
 "Comme la caméra est orientée dans la direction ``z`` négative, la position "
 "aura une valeur ``z`` négative. Pour obtenir une valeur de profondeur "
-"utilisable, il nous faut mettre``view.z`` négative."
+"utilisable, nous devons rendre ``view.z`` négative."
 
 msgid "Example shader"
 msgstr "Shader d'exemple"

@@ -27,6 +27,17 @@ msgstr ""
 "நினைவகக் காட்சி, செயல்திறன் பார்வை, மூல கட்டுப்பாடு மற்றும் பல போன்ற பல பயனுள்ள "
 "அம்சங்களைக் கொண்டுள்ளது."
 
+msgid ""
+"This documentation is for contributions to the game engine, and not using "
+"Visual Studio as a C# editor. To code C# in an external editor, "
+"see :ref:`the C# guide to configure an external editor "
+"<doc_c_sharp_setup_external_editor>`."
+msgstr ""
+"இந்த ஆவணங்கள் விளையாட்டு இயந்திரத்திற்கான பங்களிப்புகளுக்காகவும், விசுவல் ச்டுடியோவைப் "
+"பயன்படுத்தாதது சி# எடிட்டராகவும் இல்லை. வெளிப்புற எடிட்டரில் சி# குறியீட்டிற்கு, பார்க்க: "
+"குறிப்பு: `சி# வழிகாட்டி ஒரு வெளிப்புற எடிட்டரை உள்ளமைக்க "
+"<doc_c_sharp_setup_external_editor>`."
+
 msgid "Importing the project"
 msgstr "திட்டத்தை இறக்குமதி செய்தல்"
 

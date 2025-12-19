@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "``NavigationPathQueryObjects`` 可與 ``NavigationServer.query_path()`` 搭配使"
 "用, 以取得高度 **自訂** 的導覽路徑, 並可選擇性地包含關於該路徑的 **中繼資料 "
-"(metadata)**。"
+"(metadata)** 。"
 
 msgid ""
 "This requires more setup compared to obtaining a normal NavigationPath but "

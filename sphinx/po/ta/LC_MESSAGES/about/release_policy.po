@@ -170,6 +170,12 @@ msgstr "** வெளியீட்டு தேதி **"
 msgid "**Support level**"
 msgstr "** உதவி நிலை **"
 
+msgid "Godot 4.5 (`master`)"
+msgstr "கோடோட் 4.5 (`மாச்டர்`)"
+
+msgid "Q3 2025 (estimate)"
+msgstr "அணை 2025 (மதிப்பீடு)"
+
 msgid ""
 "|unstable| *Development.* Receives new features, usability and performance "
 "improvements, as well as bug fixes, while under development."
@@ -179,6 +185,12 @@ msgstr ""
 
 msgid "unstable"
 msgstr "நிலையற்றது"
+
+msgid "Godot 4.4"
+msgstr "கோடோட் 4.4"
+
+msgid "March 2025"
+msgstr "மார்ச் 2025"
 
 msgid ""
 "|supported| Receives fixes for bugs and security issues, as well as patches "
@@ -202,6 +214,11 @@ msgstr "கோடோட் 4.2"
 msgid "November 2023"
 msgstr "நவம்பர் 2023"
 
+msgid "|partial| Receives fixes for security and platform support issues only."
+msgstr ""
+"| பகுதி | பாதுகாப்பு மற்றும் இயங்குதள உதவி சிக்கல்களுக்கான திருத்தங்களை மட்டுமே "
+"பெறுகிறது."
+
 msgid "partial"
 msgstr "பகுதி"
 
@@ -210,6 +227,9 @@ msgstr "கோடோட் 4.1"
 
 msgid "July 2023"
 msgstr "சூலை 2023"
+
+msgid "|eol| No longer supported (last update: 4.1.4)."
+msgstr "| EOL | இனி ஆதரிக்கப்படாது (கடைசி புதுப்பிப்பு: 4.1.4)."
 
 msgid "eol"
 msgstr "EOL"
@@ -454,6 +474,15 @@ msgid ""
 msgstr ""
 "கோடோட் பங்களிப்பாளர்கள் எந்தவொரு காலக்கெடுவின் கீழும் வேலை செய்யவில்லை என்றாலும், சிறிய "
 "வெளியீடுகளை ஒப்பீட்டளவில் அடிக்கடி வெளியிட முயற்சிக்கிறோம்."
+
+msgid ""
+"In particular, after the very long release cycle for 4.0, we are pivoting to "
+"a faster-paced development workflow, 4.1 released 4 months after 4.0, and "
+"4.2 released 4 months after 4.1."
+msgstr ""
+"குறிப்பாக, 4.0 க்கான மிக நீண்ட வெளியீட்டு சுழற்சிக்குப் பிறகு, நாங்கள் வேகமான வளர்ச்சி "
+"பணிப்பாய்வுக்கு முன்னேறுகிறோம், 4.1 4.0 க்குப் பிறகு வெளியிடப்பட்ட 4.1, 4.2 க்கு 4 "
+"மாதங்களுக்குப் பிறகு வெளியிடப்பட்டது."
 
 msgid ""
 "Frequent minor releases will enable us to ship new features faster (possibly "

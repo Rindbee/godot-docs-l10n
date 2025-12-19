@@ -36,13 +36,6 @@ msgstr ""
 "geral é melhor baixar através do sistema de controle de versão ``git``."
 
 msgid ""
-"If you don't know much about ``git`` yet, there are a great number of "
-"`tutorials <https://git-scm.com/book>`__ available on various websites."
-msgstr ""
-"Se você ainda não sabe muito sobre o ``git`, há um grande número de "
-"`tutoriais <https://git-scm.com/book>__ disponíveis em vários sites."
-
-msgid ""
 "In general, you need to install ``git`` and/or one of the various GUI "
 "clients."
 msgstr ""

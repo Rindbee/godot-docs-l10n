@@ -65,8 +65,7 @@ msgstr ""
 "версию Godot."
 
 msgid "If it doesn't open immediately open the project from your project list."
-msgstr ""
-"Если он не открывается, немедленно откройте проект из вашего списка проектов."
+msgstr "Если он не открылся сразу, откройте проект из вашего списка проектов."
 
 msgid ""
 "The start project contains an icon and two folders: ``art/`` and ``fonts/``. "

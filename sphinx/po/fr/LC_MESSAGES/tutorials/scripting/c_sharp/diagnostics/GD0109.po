@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0109: The '[ExportToolButton]' attribute cannot be used with another "
+"'[Export]' attribute"
+msgstr ""
+"GD0109 : L'attribut '[ExportToolButton]' ne peut pas être utilisé avec un "
+"autre attribut '[Export]'"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

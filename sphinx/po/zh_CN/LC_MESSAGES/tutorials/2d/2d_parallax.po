@@ -444,6 +444,15 @@ msgstr ""
 "的 :ref:`visibility_layer<class_canvasitem_property_visibility_layer>` 保留为"
 "其默认值 1 。"
 
+msgid ""
+"Set the first "
+"SubViewport's :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>` "
+"to only layers 1 and 2."
+msgstr ""
+"将第一个 SubViewport "
+"的 :ref:`canvas_cull_mask<class_viewport_property_canvas_cull_mask>` 设置为仅"
+"显示层 1 和 2。"
+
 msgid "Do the same for the second SubViewport but use layers 1 and 3."
 msgstr "对第二个 SubViewport 执行相同的操作，但使用图层 1 和 图层 3。"
 

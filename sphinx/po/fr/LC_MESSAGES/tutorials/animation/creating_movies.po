@@ -114,6 +114,9 @@ msgstr ""
 msgid "OGV (recommended)"
 msgstr "OGV (recommandé)"
 
+msgid "AVI"
+msgstr "AVI"
+
 msgid "PNG"
 msgstr "PNG"
 

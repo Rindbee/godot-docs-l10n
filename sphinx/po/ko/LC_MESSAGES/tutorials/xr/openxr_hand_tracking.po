@@ -13,3 +13,12 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Microsoft hand interaction profile"
+msgstr "Microsoft 손 상호작용 프로필"
+
+msgid "HTC hand interaction profile"
+msgstr "HTC 손 상호작용 프로필"
+
+msgid "Simple controller profile"
+msgstr "간단한 컨트롤러 프로필"

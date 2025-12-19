@@ -33,12 +33,6 @@ msgstr ""
 "sistema), o tema da interface, a escala de exibição, o modo de rede e também "
 "a convenção de nomenclatura de diretórios."
 
-msgid ""
-"To learn the Project Manager's ins and outs, read :ref:`doc_project_manager`."
-msgstr ""
-"Para aprender os mecanismos do Gerenciador de Projetos, leai :ref: "
-"``doc_project_manager`."
-
 msgid "First look at Godot's editor"
 msgstr "Primeiras impressões do editor do Godot"
 

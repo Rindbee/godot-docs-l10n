@@ -74,13 +74,6 @@ msgstr ""
 msgid "This will evaluate to (approximately) 1.777778"
 msgstr "Isso avaliará para (aproximadamente) 1,777778"
 
-msgid ""
-"See :ref:`doc_multiple_resolutions` for more tips on supporting multiple "
-"aspect ratios in your project."
-msgstr ""
-"Veja :ref:`doc_internationalizing_games` para mais dicas sobre como suportar "
-"múltiplas proporções em seu projeto."
-
 msgid "Displaying a video on a 3D surface"
 msgstr "Exibindo um vídeo em uma superfície 3D"
 

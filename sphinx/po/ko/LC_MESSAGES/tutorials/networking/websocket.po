@@ -13,3 +13,23 @@ msgstr ""
 
 msgid "Using WebSocket in Godot"
 msgstr "Godot에서 WebSocket 사용하기"
+
+msgid ""
+"WebSocket is implemented in Godot via :ref:`WebSocketPeer "
+"<class_WebSocketPeer>`. The WebSocket implementation is compatible with the "
+"High-Level Multiplayer. See section on :ref:`high-level multiplayer "
+"<doc_high_level_multiplayer>` for more details."
+msgstr ""
+"WebSocket는 Godot에서 :ref:`WebSocketPeer <class_WebSocketPeer>`\\ 를 통해 구"
+"현됩니다. WebSocket 구현은 높은 수준의 멀티플레이어와 호환됩니다. 자세한 사항"
+"은 :ref:`높은 수준 멀티플레이어 <doc_high_level_multiplayer>`\\ 의 섹션을 참"
+"조하세요."
+
+msgid "Minimal client example"
+msgstr "최소 클라이언트 예제"
+
+msgid "Minimal server example"
+msgstr "최소 서버 예제"
+
+msgid "Advanced chat demo"
+msgstr "고급 채팅 데모"

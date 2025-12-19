@@ -17,6 +17,20 @@ msgstr "컬링"
 msgid "Occlusion culling"
 msgstr "오클루전 컬링"
 
+msgid ""
+"For more information, see the :ref:`GPU optimizations "
+"<doc_gpu_optimization>` doc."
+msgstr ""
+"자세한 정보는 :ref:`GPU 최적화 <doc_gpu_optimization>` 문서를 참조하세요."
+
+msgid "Use automatic instancing"
+msgstr "자동 인스턴싱 사용"
+
+msgid ""
+"*This is only implemented in the Forward+ renderer, not Mobile or "
+"Compatibility.*"
+msgstr "*이 기능은 모바일이나 호환성이 아닌 Forward+ 렌더러에서만 구현됩니다.*"
+
 msgid "Bake lighting"
 msgstr "조명 굽기"
 

@@ -187,6 +187,15 @@ msgstr ""
 msgid "ArrayMesh"
 msgstr "ArrayMesh"
 
+msgid ""
+"An ArrayMesh consists of several surfaces contained in the ``_surfaces`` "
+"array (notice the leading underscore). Each surface's data is stored in a "
+"dictionary with the following keys:"
+msgstr ""
+"Un ArrayMesh consiste en plusieurs surfaces contenues dans le tableau "
+"``_surfaces`` (notez le tiret du bas du début). Les données de chaque "
+"surface sont stockées dans un dictionnaire avec les clés suivantes :"
+
 msgid "``format``: The surface's buffer format."
 msgstr "``format`` : Le format de la mémoire tampon de la surface."
 

@@ -336,6 +336,9 @@ msgstr "ベストプラクティス"
 msgid ":ref:`doc_version_control_systems`"
 msgstr ":ref:`doc_version_control_systems`"
 
+msgid ":ref:`doc_common_engine_methods_and_macros_error_macros`"
+msgstr ":ref:`doc_common_engine_methods_and_macros_error_macros`"
+
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr ":ref:`doc_vulkan_validation_layers`"
 

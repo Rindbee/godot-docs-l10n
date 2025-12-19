@@ -140,6 +140,10 @@ msgstr ""
 "அச்சிடும்."
 
 msgid ""
+"You may have to ``#include \"core/os/time.h\"`` if it's not present already."
+msgstr "நீங்கள் ஏற்கனவே இல்லை என்றால் நீங்கள் ``#கோர்/ஓஎச்/டைம்."
+
+msgid ""
 "When opening a pull request, make sure to remove this snippet as well as the "
 "include if it wasn't there previously."
 msgstr ""

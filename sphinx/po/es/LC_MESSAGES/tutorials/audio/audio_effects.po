@@ -97,7 +97,7 @@ msgid "EQ6, EQ10, EQ21"
 msgstr "EQ6, EQ10, EQ21"
 
 msgid "Filter"
-msgstr "Filtro"
+msgstr "Filter (Filtro)"
 
 msgid ""
 "Filter is what all other filters inherit from and should not be used "

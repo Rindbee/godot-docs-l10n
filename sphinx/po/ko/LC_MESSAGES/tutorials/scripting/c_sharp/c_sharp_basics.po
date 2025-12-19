@@ -296,7 +296,7 @@ msgstr ""
 "Godot API는 합리적으로 가능한 것처럼 관용적이도록 노력합니다."
 
 msgid "For more information, see the :ref:`doc_c_sharp_differences` page."
-msgstr "더 자세한 내용은, :ref:`doc_c_sharp_differences` 페이지를 참고하세요."
+msgstr "자세한 정보는 :ref:`doc_c_sharp_differences` 페이지를 참조하세요."
 
 msgid "Current gotchas and known issues"
 msgstr "현재 문제와 알려진 문제"

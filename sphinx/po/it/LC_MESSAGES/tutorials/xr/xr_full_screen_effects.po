@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "XR full screen effects"
+msgstr "Effetti a schermo intero in XR"
+
 msgid "Applying the projection matrix"
 msgstr "Applicare la matrice di proiezione"
 

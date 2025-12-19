@@ -41,38 +41,11 @@ msgstr "**Opis**"
 msgid "Stored as raw pixels"
 msgstr "Przechowywane jako surowe piksele"
 
-msgid "|regular| Small"
-msgstr "|zwykły| Mały"
-
 msgid "regular"
 msgstr "regular"
 
-msgid "|bad| Large"
-msgstr "|zły| Duży"
-
-msgid "|good| Small"
-msgstr "|dobry| Mały"
-
 msgid "**Performance**"
 msgstr "**Wydajność**"
-
-msgid "|regular| Normal"
-msgstr "|zwykły| Normalny"
-
-msgid "|good| Fast"
-msgstr "|dobry| Szybki"
-
-msgid "|good| None"
-msgstr "|dobry| Żaden"
-
-msgid "|regular| Slight"
-msgstr "|zwykły| Niewielkie"
-
-msgid "|bad| Moderate"
-msgstr "|zły| Umiarkowany"
-
-msgid "|bad| Slow"
-msgstr "|zły| Powolne"
 
 msgid "**128×128**"
 msgstr "**128×128**"

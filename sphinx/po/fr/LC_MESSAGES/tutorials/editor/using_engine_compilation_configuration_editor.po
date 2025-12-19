@@ -13,3 +13,16 @@ msgstr ""
 
 msgid "Limitations"
 msgstr "Limites"
+
+msgid ""
+"Features that are used in GDScripts that are procedurally created then run "
+"at runtime."
+msgstr ""
+"Les fonctionnalités qui sont utilisées dans des GDScripts qui sont créées de "
+"façon procédurale puis exécutés durant l'exécution."
+
+msgid ""
+"Features that are used in :ref:`expressions <doc_evaluating_expressions>`."
+msgstr ""
+"Les fonctionnalités qui sont utilisées dans des :ref:`expressions "
+"<doc_evaluating_expressions>`."

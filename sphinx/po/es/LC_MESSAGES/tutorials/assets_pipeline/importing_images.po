@@ -195,7 +195,7 @@ msgid ""
 "popular engines) can be found `here <http://wiki.polycount.com/wiki/"
 "Normal_Map_Technical_Details>`__."
 msgstr ""
-"Más información sobre mapa de normales (incluyendo la tabla de orden de "
+"Más información sobre mapas de normales (incluyendo la tabla de orden de "
 "coordenadas para motores populares) se puede encontrar `aquí <http://"
 "wiki.polycount.com/wiki/Normal_Map_Technical_Details>`__."
 

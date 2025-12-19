@@ -14,6 +14,9 @@ msgstr ""
 msgid "Collision shapes (3D)"
 msgstr "콜리전 모양 (3D)"
 
+msgid "This guide explains:"
+msgstr "이 가이드에서는 설명합니다:"
+
 msgid "Primitive collision shapes"
 msgstr "프리미티브 콜리전 모양"
 

@@ -70,7 +70,7 @@ msgid "|✔️|"
 msgstr "|✔️|"
 
 msgid "|✔️ with compat|"
-msgstr "|✔️ avec compatibilité|"
+msgstr "|✔️ with compat|"
 
 msgid "`GH-98918`_"
 msgstr "`GH-98918`_"
@@ -452,3 +452,13 @@ msgstr "CSG"
 
 msgid "Android"
 msgstr "Android"
+
+msgid ""
+"Android sensor events are no longer enabled by default (`GH-94799`_). "
+"Projects that use sensor events can enable them as needed in Project "
+"Settings under **Input Devices > Sensors**."
+msgstr ""
+"Les événements de capteur Android ne sont plus activés par défaut "
+"(`GH-94799`_). Les projets qui utilisent des événements de capteurs peuvent "
+"leur activer selon les besoins dans les paramètres de projet sous "
+"**Périphériques d'entrée > Capteurs**."

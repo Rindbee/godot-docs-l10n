@@ -11,11 +11,107 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "3D antialiasing"
+msgstr "3D 안티앨리어싱"
+
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Antialiasing comparison"
+msgstr "안티앨리어싱 비교"
+
+msgid "Feature"
+msgstr "기능"
+
+msgid "MSAA"
+msgstr "MSAA"
+
+msgid "TAA"
+msgstr "TAA"
+
+msgid "FSR2"
+msgstr "FSR2"
+
+msgid "FXAA"
+msgstr "FXAA"
+
+msgid "SMAA 1x"
+msgstr "SMAA 1x"
+
+msgid "SSAA"
+msgstr "SSAA"
+
+msgid "SSRL"
+msgstr "SSRL"
+
+msgid "Edge antialiasing"
+msgstr "애지 안티앨리어싱"
+
+msgid "🟢 Yes"
+msgstr "🟢 예"
+
+msgid "🔴 No"
+msgstr "🔴 아니오"
+
+msgid "Specular antialiasing"
+msgstr "스페큘러 안티앨리어싱"
+
+msgid "🟡 Some"
+msgstr "🟡 일부"
+
+msgid "Transparency antialiasing"
+msgstr "투명 안티앨리어싱"
+
+msgid "🟡 Some [1]_"
+msgstr "🟡 일부 [1]_"
+
+msgid "🟢 Yes [2]_"
+msgstr "🟢 예 [2]_"
+
+msgid "Added blur"
+msgstr "추가된 블러"
+
+msgid "🟢 None"
+msgstr "🟢 없음"
+
+msgid "🟢 Low"
+msgstr "🟢 낮음"
+
+msgid "🟡 Some [3]_"
+msgstr "🟡 일부 [3]_"
+
+msgid "Ghosting artifacts"
+msgstr "고스팅 아티팩트"
+
+msgid "🔴 Yes"
+msgstr "🔴 예"
+
+msgid "Performance cost"
+msgstr "성능 비용"
+
+msgid "🟡 Medium"
+msgstr "🟡 중간"
+
+msgid "🔴 High"
+msgstr "🔴 높음"
+
+msgid "🟢 Very Low"
+msgstr "🟢 매우 낮음"
+
+msgid "🔴 Very High"
+msgstr "🔴 매우 높음"
 
 msgid "Forward+"
 msgstr "Forward+"
 
+msgid "✔️ Yes"
+msgstr "✔️ 예"
+
 msgid "Mobile"
 msgstr "모바일"
+
+msgid "❌ No"
+msgstr "❌ 아니오"
+
+msgid "Compatibility"
+msgstr "호환성"

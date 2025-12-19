@@ -34,3 +34,6 @@ msgstr "내장"
 
 msgid "Fragment built-ins"
 msgstr "프래그먼트 내장"
+
+msgid "Metallic."
+msgstr "메탈릭."

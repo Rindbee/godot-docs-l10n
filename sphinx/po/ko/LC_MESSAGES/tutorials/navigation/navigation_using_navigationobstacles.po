@@ -13,3 +13,10 @@ msgstr ""
 
 msgid "Obstacles and navigation mesh"
 msgstr "장애물과 내비게이션 메시"
+
+msgid ""
+"For more details on the navigation mesh baking "
+"see :ref:`doc_navigation_using_navigationmeshes`."
+msgstr ""
+"내비게이션 메시 굽기에 대한 자세한 사항"
+"은 :ref:`doc_navigation_using_navigationmeshes`\\ 를 참조하세요."

@@ -28,7 +28,7 @@ msgstr ""
 "Остальные настройки вы можете не трогать."
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid ""
 "Download `dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/"

@@ -11,6 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0107: Types not derived from Node should not export Node members"
+msgstr ""
+"GD0107 : Les types non dérivés de Node ne devraient pas exporter des membres "
+"de Node"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

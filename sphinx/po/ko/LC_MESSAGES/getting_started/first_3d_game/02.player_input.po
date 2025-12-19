@@ -34,7 +34,7 @@ msgid ""
 "This will allow us to rotate the model later via code while it plays an "
 "animation."
 msgstr ""
-"지금은 캐릭터의 3D 모델을 위한 기본 리그를 만들겠습니다. 이렇게 하면 애니메이"
+"지금은 캐릭터의 3D 모델을 위한 기초 리그를 만들겠습니다. 이렇게 하면 애니메이"
 "션을 재생하는 동안 코드를 통해 모델을 회전시킬 수 있습니다."
 
 msgid ""

@@ -89,7 +89,7 @@ msgid ""
 "cost if you're not drawing any antialiased geometry at some point."
 msgstr ""
 "Ces méthodes n'exigent pas que le MSAA soit activé, ce qui rend leur coût de "
-"performance nominal faible. En d'autres termes, il n'y a aucun coût "
+"performance *nominal* faible. En d'autres termes, il n'y a aucun coût "
 "supplémentaire permanent lorsque aucune géométrie anticrénelée n'est "
 "dessinée."
 

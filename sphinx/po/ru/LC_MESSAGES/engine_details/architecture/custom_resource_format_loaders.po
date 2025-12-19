@@ -125,6 +125,9 @@ msgstr ""
 msgid "resource_saver_json.h"
 msgstr "resource_saver_json.h"
 
+msgid "resource_saver_json.cpp"
+msgstr "resource_saver_json.cpp"
+
 msgid "Creating custom data types"
 msgstr "Создание кастомных типов данных"
 
@@ -148,6 +151,14 @@ msgstr "resource_json.cpp"
 
 msgid "Considerations"
 msgstr "Соображения"
+
+msgid ""
+"Some libraries may not define certain common routines such as IO handling. "
+"Therefore, Godot call translations are required."
+msgstr ""
+"В некоторых библиотеках могут отсутствовать некоторые распространённые "
+"процедуры, такие как обработка ввода-вывода. Поэтому требуется трансляция "
+"вызовов Godot."
 
 msgid ""
 "For example, here is the code for translating ``FileAccess`` calls into "
@@ -182,6 +193,12 @@ msgstr ""
 "Godot регистрирует ``ResourcesFormatLoader`` с обработчиком` "
 "ResourceLoader\". Обработчик автоматически выбирает нужный загрузчик при "
 "вызове ``load``."
+
+msgid "register_types.h"
+msgstr "register_types.h"
+
+msgid "register_types.cpp"
+msgstr "register_types.cpp"
 
 msgid "Loading it on GDScript"
 msgstr "Загрузка GDScript"

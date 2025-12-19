@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Using Viewports"
-msgstr "Utilisation de Viewports"
+msgstr "Utilisation des Viewports"
 
 msgid "Introduction"
 msgstr "Introduction"

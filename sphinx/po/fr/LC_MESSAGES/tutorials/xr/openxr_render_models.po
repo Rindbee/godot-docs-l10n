@@ -14,6 +14,9 @@ msgstr ""
 msgid "OpenXR Render Models"
 msgstr "Modèles de rendu OpenXR"
 
+msgid "This falls beyond the scope of this documentation."
+msgstr "Cela dépasse la portée de cette documentation."
+
 msgid "Function"
 msgstr "Fonction"
 

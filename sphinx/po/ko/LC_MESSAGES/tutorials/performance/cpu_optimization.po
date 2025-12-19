@@ -11,6 +11,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "CPU optimization"
+msgstr "CPU 최적화"
+
+msgid "CPU profilers"
+msgstr "CPU 프로파일러"
+
+msgid "Screenshot of the Godot profiler"
+msgstr "Godot 프로파일러의 스크린샷"
+
+msgid ""
+"For more info about using Godot's built-in profiler, "
+"see :ref:`doc_debugger_panel`."
+msgstr ""
+"Godot의 내장 프로파일러 사용에 대한 자세한 정보"
+"는 ::ref:`doc_debugger_panel`\\ 을 참조하세요."
+
+msgid "External profilers"
+msgstr "외부 프로파일러"
+
+msgid "Screenshot of Callgrind"
+msgstr "Callgrind의 스크린샷"
+
+msgid "Manually timing functions"
+msgstr "수동으로 함수 타이밍 측정"
+
+msgid "Caches"
+msgstr "캐시"
+
 msgid "Languages"
 msgstr "언어"
 
@@ -20,8 +48,16 @@ msgstr "GDScript"
 msgid "C#"
 msgstr "C#"
 
+msgid "Other languages"
+msgstr "기타 언어"
+
 msgid "Threads"
 msgstr "스레드"
+
+msgid "For more information on threads, see :ref:`doc_using_multiple_threads`."
+msgstr ""
+"스레드에 대한 자세한 정보는 :ref:`doc_using_multiple_threads`\\ 를 참조하세"
+"요."
 
 msgid "SceneTree"
 msgstr "씬트리"

@@ -201,9 +201,46 @@ msgstr ""
 msgid "In Finder, drag the Godot project folder into the Xcode file browser."
 msgstr "கண்டுபிடிப்பாளரில், கோடோட் திட்ட கோப்புறையை Xcode கோப்பு உலாவியில் இழுக்கவும்."
 
+msgid ""
+"In the dialog, make sure to select Action: **Reference files in place** and "
+"Groups: **Create folders**. Uncheck Targets: **exported_xcode_project_name**."
+msgstr ""
+"உரையாடலில், செயலைத் தேர்ந்தெடுக்கவும்: ** இடத்தில் குறிப்பு கோப்புகள் ** மற்றும் குழுக்கள்: "
+"** கோப்புறைகளை உருவாக்கு **. தேர்வு செய்யாத இலக்குகள்: ** ஏற்றுமதி_எக்ச் "
+"கோட்_பிராகர்செக்ட்_பேம் **."
+
 msgid "See the **godot_project_to_export** folder in the Xcode file browser."
 msgstr ""
 "Xcode கோப்பு உலாவியில் ** kodot_project_to_export ** கோப்புறையைப் பார்க்கவும்."
+
+msgid ""
+"Select the godot project in the Project navigator. Then on the other side of "
+"the XCode window, in the File Inspector, make these selections:"
+msgstr ""
+"திட்ட நேவிகேட்டரில் கோடோட் திட்டத்தைத் தேர்ந்தெடுக்கவும். XCODE சாளரத்தின் மறுபுறத்தில், "
+"கோப்பு ஆய்வாளரில், இந்த தேர்வுகளை செய்யுங்கள்:"
+
+msgid "**Location**: Relative to Project"
+msgstr "** இடம் **: திட்டத்துடன் தொடர்புடையது"
+
+msgid "**Build Rules**: Apply Once to Folder"
+msgstr "** விதிகளை உருவாக்கு **: கோப்புறையில் ஒரு முறை விண்ணப்பிக்கவும்"
+
+msgid "add your project to **Target Membership**"
+msgstr "உங்கள் திட்டத்தை ** இலக்கு உறுப்பினர் ** இல் சேர்க்கவும்"
+
+msgid ""
+"Delete **exported_xcode_project_name.pck** from the Xcode project in the "
+"project navigator."
+msgstr ""
+"திட்ட நேவிகேட்டரில் உள்ள XCODE திட்டத்திலிருந்து ** ஏற்றுமதி_எக்ச் "
+"கோட்_பிரோசெக்ட்_நாம்.பிசி ** ஐ நீக்கு."
+
+msgid ""
+"8. Open **exported_xcode_project_name-Info.plist** and add a string property "
+"named **godot_path** (this is the real key name) with a value "
+"**godot_project_to_export** (this is the name of your project)"
+msgstr "8."
 
 msgid ""
 "That's it! You can now edit your project in the Godot editor and build it in "
@@ -309,3 +346,10 @@ msgstr ""
 
 msgid "Export options"
 msgstr "ஏற்றுமதி விருப்பங்கள்"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformIOS` class reference."
+msgstr ""
+"கிடைக்கக்கூடிய ஏற்றுமதி விருப்பங்களின் முழு பட்டியலையும் நீங்கள் காணலாம்: ref: "
+"`class_editorexportplatformios` வகுப்பு குறிப்பு."

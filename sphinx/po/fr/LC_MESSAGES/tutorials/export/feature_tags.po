@@ -60,7 +60,7 @@ msgid ""
 "sensitive**:"
 msgstr ""
 "Voici une liste de la plupart des tags de fonctionnalités de Godot. Gardez à "
-"l'esprit qu'ils sont *sensibles à la casse* :"
+"l'esprit qu'ils sont **sensibles à la casse** :"
 
 msgid "**Feature tag**"
 msgstr "**Tag de fonctionnalité**"

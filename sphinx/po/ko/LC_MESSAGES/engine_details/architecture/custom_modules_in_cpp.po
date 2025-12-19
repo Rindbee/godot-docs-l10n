@@ -16,3 +16,9 @@ msgstr "C++에서 커스텀 모듈"
 
 msgid "Modules"
 msgstr "모듈"
+
+msgid "Example output:"
+msgstr "출력 예시:"
+
+msgid "Now we can generate the documentation:"
+msgstr "이제 우리는 문서를 생성할 수 있습니다:"

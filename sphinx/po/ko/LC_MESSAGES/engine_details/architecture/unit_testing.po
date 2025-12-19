@@ -40,3 +40,17 @@ msgstr "매크로"
 
 msgid "Description"
 msgstr "설명"
+
+msgid "tests for features."
+msgstr "기능에 대해 테스트합니다."
+
+msgid ""
+"Therefore, the process of writing integration tests for GDScript is the "
+"following:"
+msgstr "따라서 GDScript에 대한 통합 테스트를 작성하는 과정은 다음과 같습니다:"
+
+msgid "Here's an example test script:"
+msgstr "여기에 테스트 스크립트의 예시가 있습니다:"
+
+msgid "Run GDScript tests with:"
+msgstr "다음으로 GDScript 테스트를 실행합니다:"

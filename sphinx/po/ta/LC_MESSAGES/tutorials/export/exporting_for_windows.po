@@ -45,6 +45,22 @@ msgstr ""
 "விசேசமாக உகந்த பைனரி மூலம் தொகுக்கப்பட்டுள்ளது, இது சிறிய, வேகமான மற்றும் ஆசிரியர் "
 "மற்றும் பிழைத்திருத்தியைக் கொண்டிருக்கவில்லை."
 
+msgid "Changing the executable icon"
+msgstr "இயங்கக்கூடிய ஐகானை மாற்றுதல்"
+
+msgid ""
+"Godot will automatically use whatever image is set as your project's icon in "
+"the project settings, and convert it to an ICO file for the exported "
+"project. If you want to manually create an ICO file for greater control over "
+"how the icon looks at different resolutions then see "
+"the :ref:`doc_changing_application_icon_for_windows` page."
+msgstr ""
+"திட்ட அமைப்புகளில் உங்கள் திட்டத்தின் ஐகானாக அமைக்கப்பட்ட எந்த படத்தையும் கோடோட் தானாகவே "
+"பயன்படுத்தும், மேலும் ஏற்றுமதி செய்யப்பட்ட திட்டத்திற்கான ஐ.சி.ஓ கோப்பாக மாற்றும். படவுரு "
+"வெவ்வேறு தீர்மானங்களை எவ்வாறு பார்க்கிறது என்பதில் அதிக கட்டுப்பாட்டுக்கு ஐ.சி.ஓ கோப்பை "
+"கைமுறையாக உருவாக்க விரும்பினால், அதைப் பார்க்கவும்: ref: "
+"`Doc_changing_application_icon_for_windows` பக்கத்தைப் பார்க்கவும்."
+
 msgid "Code signing"
 msgstr "குறியீடு கையொப்பமிடுதல்"
 
@@ -160,3 +176,10 @@ msgstr "`` Kudot_windows_codesign_password``"
 
 msgid "Export options"
 msgstr "ஏற்றுமதி விருப்பங்கள்"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformWindows` class reference."
+msgstr ""
+"கிடைக்கக்கூடிய ஏற்றுமதி விருப்பங்களின் முழு பட்டியலையும் நீங்கள் காணலாம்: ref: "
+"`class_editorexportplatformwindows` வகுப்பு குறிப்பு."

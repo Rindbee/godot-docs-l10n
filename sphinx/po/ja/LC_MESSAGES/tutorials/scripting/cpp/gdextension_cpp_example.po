@@ -116,3 +116,10 @@ msgstr ""
 
 msgid "Next steps"
 msgstr "次のステップ"
+
+msgid ""
+"We hope the above example showed you the basics. You can build upon this "
+"example to create full-fledged scripts to control nodes in Godot using C++!"
+msgstr ""
+"上の例で基本を理解できたことを願います。この例を基にして、C++ を使って Godot "
+"内のノードを制御する本格的なスクリプトを作成することができます！"

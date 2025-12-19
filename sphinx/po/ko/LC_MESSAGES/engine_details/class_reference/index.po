@@ -21,7 +21,16 @@ msgid "Bold"
 msgstr "굵게"
 
 msgid "Italic"
-msgstr "기울임꼴"
+msgstr "기울임"
+
+msgid "Underline"
+msgstr "밑줄"
+
+msgid "Strikethrough"
+msgstr "취소선"
+
+msgid "Hyperlink"
+msgstr "하이퍼링크"
 
 msgid "Horizontal centering"
 msgstr "가로 센터링"

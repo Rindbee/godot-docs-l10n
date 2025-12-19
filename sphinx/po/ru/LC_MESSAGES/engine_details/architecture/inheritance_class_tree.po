@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Inheritance class tree"
-msgstr "Дерево наследования классов"
+msgstr "Дерево классов наследования"
 
 msgid "Object"
 msgstr "Объект"
@@ -28,3 +28,6 @@ msgstr "Node2D"
 
 msgid "Node3D"
 msgstr "Node3D"
+
+msgid "Source files: :download:`class_tree.zip <files/class_tree.zip>`."
+msgstr "Исходные файлы: :download:`class_tree.zip <files/class_tree.zip>`."

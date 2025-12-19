@@ -1238,7 +1238,7 @@ msgid ""
 "Per-instance uniforms are available in both ``canvas_item`` (2D) and "
 "``spatial`` (3D) shaders."
 msgstr ""
-"per-instance uniforms 同時適用於 ``canvas_item``（2D）與 ``spatial``（3D）著"
+"per-instance uniforms 同時適用於 ``canvas_item`` (2D) 與 ``spatial`` (3D) 著"
 "色器。"
 
 msgid ""

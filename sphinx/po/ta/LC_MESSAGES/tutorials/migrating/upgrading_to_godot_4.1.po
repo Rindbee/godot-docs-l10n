@@ -483,13 +483,6 @@ msgstr "** atitorunderderamanager **"
 msgid "Behavior changes"
 msgstr "நடத்தை மாற்றங்கள்"
 
-msgid ""
-"In 4.1 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"4.1 இல் சில நடத்தை மாற்றங்கள் அறிமுகப்படுத்தப்பட்டுள்ளன, இது உங்கள் திட்டத்தை சரிசெய்ய "
-"வேண்டும்."
-
 msgid "**SubViewportContainer**"
 msgstr "** subviewportcontainer **"
 
@@ -569,6 +562,13 @@ msgid ""
 msgstr ""
 "`Init_obj` மாறிக்கான கட்டமைப்பாளர் இப்போது` `p_get_proc_address`` ஐ அதன் முதல் "
 "அளவுருவாகப் பெறுகிறார்"
+
+msgid ""
+"You also need to add an extra ``compatibility_minimum`` line to your "
+"``.gdextension`` file, so that it looks something like:"
+msgstr ""
+"உங்கள் `` .gdextension`` கோப்பில் கூடுதல் `` இணக்கத்தன்மை_மினிமம்` வரியை நீங்கள் சேர்க்க "
+"வேண்டும், இதனால் அது இதுபோன்றதாகத் தெரிகிறது:"
 
 msgid ""
 "This lets Godot know that your GDExtension has been updated and is safe to "

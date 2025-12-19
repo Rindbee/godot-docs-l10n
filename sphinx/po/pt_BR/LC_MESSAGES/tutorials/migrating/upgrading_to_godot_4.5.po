@@ -204,6 +204,9 @@ msgstr ""
 "entrada. Anteriormente, ele retornava valores incorretos para certas "
 "entradas (`GH-107618`_)."
 
+msgid "Navigation"
+msgstr "Navegação"
+
 msgid "Physics"
 msgstr "Física"
 

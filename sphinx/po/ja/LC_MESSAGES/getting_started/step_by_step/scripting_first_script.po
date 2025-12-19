@@ -14,6 +14,13 @@ msgstr ""
 msgid "Creating your first script"
 msgstr "初めてのスクリプト作成"
 
+msgid ""
+"This tutorial is written for GDScript, and the equivalent C# code is "
+"included in another tab of each codeblock for convenience."
+msgstr ""
+"このチュートリアルはGDScript用に書かれており、便宜上、各コードブロックの別の"
+"タブには同等のC#コードが含まれています。"
+
 msgid "Project setup"
 msgstr "プロジェクトの設定"
 

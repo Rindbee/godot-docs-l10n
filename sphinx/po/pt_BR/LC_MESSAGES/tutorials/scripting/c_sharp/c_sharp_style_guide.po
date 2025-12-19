@@ -83,13 +83,6 @@ msgstr ""
 "para arquivos `csproj`."
 
 msgid ""
-"Use **UTF-8** encoding without a `byte order mark <https://en.wikipedia.org/"
-"wiki/Byte_order_mark>`_."
-msgstr ""
-"Use a codificação UTF-8 sem uma `marca de ordem de byte <https://"
-"pt.wikipedia.org/wiki/Marca_de_ordem_de_byte>`."
-
-msgid ""
 "Use **4 spaces** instead of tabs for indentation (which is referred to as "
 "\"soft tabs\")."
 msgstr ""
@@ -150,9 +143,6 @@ msgstr ""
 
 msgid "Avoid inserting a blank line:"
 msgstr "Evite inserir uma linha em branco:"
-
-msgid "After ``{``, the opening brace."
-msgstr "Depois``{``, a chave de abertura."
 
 msgid "Before ``}``, the closing brace."
 msgstr "Antes ``}``, a chave de fechamento."

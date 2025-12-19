@@ -172,6 +172,9 @@ msgstr ""
 "Visualiza la carpeta **godot_project_to_export** en el navegador de archivos "
 "Xcode."
 
+msgid "**Location**: Relative to Project"
+msgstr "**Localización**: Relativa al proyecto"
+
 msgid ""
 "That's it! You can now edit your project in the Godot editor and build it in "
 "Xcode when you want to run it on a device."

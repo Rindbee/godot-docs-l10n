@@ -168,7 +168,7 @@ msgstr ""
 "``tcp://127.0.0.1:6007``\\ ）"
 
 msgid "``--dap-port <port>``"
-msgstr "``--dap-port <port>``"
+msgstr "``--dap-port <端口>``"
 
 msgid ""
 "|editor| Use the specified port for the GDScript Debug Adapter Protocol. "
@@ -178,14 +178,14 @@ msgstr ""
 "49151]``。"
 
 msgid "``--lsp-port <port>``"
-msgstr "``--lsp-port <port>``"
+msgstr "``--lsp-port <端口>``"
 
 msgid ""
 "|editor| Use the specified port for the GDScript Language Server Protocol. "
 "Recommended port range ``[1024, 49151]``."
 msgstr ""
 "|editor| 为 GDScript 语言服务器协议使用指定端口。推荐端口范围 ``[1024, "
-"49151] ``。"
+"49151]``\\ 。"
 
 msgid "``--quit``"
 msgstr "``--quit``"
@@ -422,7 +422,7 @@ msgid "``--wid <window_id>``"
 msgstr "``--wid <window_id>``"
 
 msgid "|release| Request parented to window."
-msgstr "|release|请求附加到窗口。"
+msgstr "|release| 请求附加到窗口。"
 
 msgid "``--accessibility <mode>``"
 msgstr "``--accessibility <mode>``"
@@ -676,6 +676,9 @@ msgstr ""
 "|release| 运行脚本。\\ ``<script>`` 必须是相对于项目的资源路径（\\ "
 "``myscript.gd`` 会被解释为 ``res://myscript.gd``\\ ）或绝对文件系统路径（例"
 "如 Windows 上的 ``C:/tmp/myscript.gd``\\ ）"
+
+msgid "``--main-loop <main_loop_name>``"
+msgstr "``--main-loop <main_loop_name>``"
 
 msgid "|release| Run a MainLoop specified by its global class name."
 msgstr "|release| 运行由其全局类名指定的 MainLoop。"

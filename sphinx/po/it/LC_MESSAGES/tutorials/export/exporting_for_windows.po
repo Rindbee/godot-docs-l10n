@@ -14,6 +14,15 @@ msgstr ""
 msgid "Exporting for Windows"
 msgstr "Esportazione per Windows"
 
+msgid ""
+"This page describes how to export a Godot project to Windows. If you're "
+"looking to compile editor or export template binaries from source instead, "
+"read :ref:`doc_compiling_for_windows`."
+msgstr ""
+"Questa pagina descrive come esportare un progetto Godot per Windows. Se si "
+"desidera invece compilare i binari dell'editor o dei modelli di esportazione "
+"dal codice sorgente, consultare :ref:`doc_compiling_for_windows`."
+
 msgid "Changing the executable icon"
 msgstr "Cambiare l'icona dell'eseguibile"
 
@@ -32,6 +41,9 @@ msgstr "Opzioni di esportazione"
 msgid "Environment variable"
 msgstr "Variabile d'ambiente"
 
+msgid "Encryption / Encryption Key"
+msgstr "Crittografia / Chiave crittografica"
+
 msgid "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 msgstr "``GODOT_SCRIPT_ENCRYPTION_KEY``"
 
@@ -46,3 +58,11 @@ msgstr "``GODOT_WINDOWS_CODESIGN_PASSWORD``"
 
 msgid "Export options"
 msgstr "Opzioni di esportazione"
+
+msgid ""
+"You can find a full list of export options available in "
+"the :ref:`class_EditorExportPlatformWindows` class reference."
+msgstr ""
+"È possibile trovare un elenco completo delle opzioni di esportazione "
+"disponibili nel riferimento alla "
+"classe :ref:`class_EditorExportPlatformWindows`."

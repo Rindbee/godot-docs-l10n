@@ -17,9 +17,6 @@ msgstr "Macierze i transformacje"
 msgid "Introduction"
 msgstr "Wprowadzenie"
 
-msgid "https://www.youtube.com/watch?v=mvmuCPvRoWQ"
-msgstr "`Steincodes <https://www.youtube.com/c/steincodes/playlists>`_"
-
 msgid "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
 msgstr "https://www.youtube.com/watch?v=d4EgbgTm0Bg"
 

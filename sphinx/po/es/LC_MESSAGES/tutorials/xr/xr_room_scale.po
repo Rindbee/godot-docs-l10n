@@ -17,15 +17,6 @@ msgstr "Paso 1"
 msgid "Step 2"
 msgstr "Paso 2"
 
-msgid ""
-"As the input used can differ based on your needs we are simply calling the "
-"function ``_get_rotational_input``. This function should obtain the "
-"necessary input and return the rotational speed in radians per second."
-msgstr ""
-"\"Asegúrate de comprobar también las :ref:`pautas de flujo de trabajo "
-"<doc_contributing_workflow>`, especialmente si eres nuevo en el uso de Git o "
-"GitHub."
-
 msgid "Step 3"
 msgstr "Paso 3"
 

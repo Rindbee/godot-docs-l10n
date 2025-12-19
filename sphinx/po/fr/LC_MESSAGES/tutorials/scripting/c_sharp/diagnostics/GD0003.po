@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0003: Found multiple classes with the same name in the same script file"
+msgstr ""
+"GD0003 : Plusieurs classes trouvées avec le même nom dans le même fichier "
+"script"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

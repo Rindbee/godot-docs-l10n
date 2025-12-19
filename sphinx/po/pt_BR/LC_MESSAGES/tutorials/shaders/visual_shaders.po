@@ -11,16 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "Using VisualShaders"
-msgstr ":ref:`Usando VisualShaders <doc_visual_shader_plugins>`"
-
-msgid ""
-"If you are not familiar with shaders, start by "
-"reading :ref:`doc_introduction_to_shaders`."
-msgstr ""
-"Se você não está familiarizado com os shaders, comece lendo: "
-"ref:`doc_introduction_to_shaders`."
-
 msgid "Creating a VisualShader"
 msgstr "Criando um VisualShader"
 

@@ -77,18 +77,6 @@ msgstr ""
 "Po umieszczeniu punktu ``4``, kliknijmy przycisk \"Zamknij krzywą\", a "
 "krzywa zostanie ukończona."
 
-msgid ""
-"Now that the path is defined, add a :ref:`PathFollow2D <class_PathFollow2D>` "
-"node as a child of ``MobPath`` and name it ``MobSpawnLocation``. This node "
-"will automatically rotate and follow the path as it moves, so we can use it "
-"to select a random position and direction along the path."
-msgstr ""
-"Teraz, gdy ścieżka jest zdefiniowana, dodaj węzeł :ref:`PathFollow2D "
-"<class_PathFollow2D>`jako dziecko ``MobPath`` i nazwij go "
-"``MobSpawnLocation``. Węzeł ten będzie automatycznie obracał się i podążał "
-"ścieżką, tak abyśmy mogli go wykorzystać do wybrania losowego położenia i "
-"kierunku wzdłuż ścieżki."
-
 msgid "Your scene should look like this:"
 msgstr "Twoja scena powinna wyglądać tak:"
 

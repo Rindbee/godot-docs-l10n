@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Optimization using Servers"
+msgstr "Ottimizzazione tramite i server"
+
 msgid ""
 "You can see how using low-level servers works in action using the `Bullet "
 "Shower demo project <https://github.com/godotengine/godot-demo-projects/tree/"

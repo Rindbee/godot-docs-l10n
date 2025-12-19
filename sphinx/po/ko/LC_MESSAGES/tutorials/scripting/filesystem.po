@@ -66,7 +66,7 @@ msgid ""
 "definition of a blank project."
 msgstr ""
 "이 파일에는 win.ini 형식을 사용하는 일반 텍스트로 된 프로젝트 구성이 포함되"
-"어 있습니다. 빈 ``project.godot``\\ 도 빈 프로젝트의 기본 정의로 기능할 수 있"
+"어 있습니다. 빈 ``project.godot``\\ 도 빈 프로젝트의 기초 정의로 기능할 수 있"
 "습니다."
 
 msgid "Path delimiter"

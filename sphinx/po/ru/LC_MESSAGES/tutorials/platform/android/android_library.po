@@ -57,7 +57,7 @@ msgstr ""
 "позволяет реализовать эта архитектура."
 
 msgid "Using the Godot Android library"
-msgstr "Использование Android-библиотеки Godot"
+msgstr "Использование Android библиотеки"
 
 msgid ""
 "The Godot Android library is packaged as an AAR archive file and hosted on "

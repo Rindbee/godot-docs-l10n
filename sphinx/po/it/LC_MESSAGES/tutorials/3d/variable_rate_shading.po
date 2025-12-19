@@ -26,6 +26,22 @@ msgstr "**Desktop:**"
 msgid "**Mobile SoCs:**"
 msgstr "**Mobili SoCs:**"
 
+msgid "Snapdragon 888 and newer"
+msgstr "Snapdragon 888 e più recenti"
+
+msgid "MediaTek Dimensity 9000 and newer"
+msgstr "MediaTek Dimensity 9000 e più recenti"
+
+msgid "ARM Mali-G615 and newer"
+msgstr "ARM Mali-G615 e più recenti"
+
+msgid ""
+"As of January 2023, Apple and Raspberry Pi GPUs do not support variable rate "
+"shading."
+msgstr ""
+"Dalla data di gennaio 2023, le GPU Apple e Raspberry Pi non supportano il "
+"variable rate shading."
+
 msgid "Using variable rate shading in Godot"
 msgstr "Utilizzare il variable rate shading in Godot"
 

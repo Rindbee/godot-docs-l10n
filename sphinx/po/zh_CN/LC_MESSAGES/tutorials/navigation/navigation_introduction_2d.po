@@ -300,7 +300,7 @@ msgid ""
 "movement target after the scene has fully loaded and the NavigationServer "
 "had time to sync."
 msgstr ""
-"为 CharacterBody3D 节点添加下面的脚本。场景完全加载后，我们确保设置移动目标，"
+"为 CharacterBody2D 节点添加下面的脚本。场景完全加载后，我们确保设置移动目标，"
 "NavigationServer 有时间进行同步。"
 
 msgid ""

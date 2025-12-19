@@ -53,7 +53,7 @@ msgstr ""
 "수의 값만 변경된 채 다시 가져옵니다."
 
 msgid "Automatic reimport"
-msgstr "자동으로 다시 가져오기"
+msgstr "자동 다시 가져오기"
 
 msgid ""
 "When the MD5 checksum of the source asset changes, Godot will perform an "

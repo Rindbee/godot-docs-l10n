@@ -203,7 +203,7 @@ msgid ""
 msgstr ""
 "200 MB (utilizzati per l'eseguibile, i file di progetto e la cache). "
 "L'esportazione dei progetti richiede di scaricare separatamente i modelli di "
-"esportazione (1,3 GB dopo l'installazione)."
+"esportazione (1,3 GB dopo l'installazione)"
 
 msgid ""
 "**Native editor:** Android 6.0 (Compatibility) or Android 9.0 (Forward+/"

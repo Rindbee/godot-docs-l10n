@@ -565,15 +565,6 @@ msgid ""
 "including the RenderingDevice abstraction:"
 msgstr "下圖展示 Godot 的算繪類別結構，包含 RenderingDevice 抽象層："
 
-msgid ""
-"`View at full size <https://raw.githubusercontent.com/godotengine/godot-docs/"
-"master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-msgstr ""
-"`檢視完整尺寸 <https://raw.githubusercontent.com/godotengine/godot-docs/"
-"master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-
 msgid "Core shaders"
 msgstr "核心著色器"
 

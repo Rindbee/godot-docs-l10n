@@ -17,11 +17,24 @@ msgstr "Utilizzo dei profiler di C++"
 msgid "Recommended profilers"
 msgstr "Profiler raccomandati"
 
+msgid "`VerySleepy <http://www.codersnotes.com/sleepy/>`__ (Windows only)"
+msgstr "`VerySleepy <http://www.codersnotes.com/sleepy/>`__ (solo Windows)"
+
+msgid "`HotSpot <https://github.com/KDAB/hotspot>`__ (Linux only)"
+msgstr "`HotSpot <https://github.com/KDAB/hotspot>`__ (solo Linux)"
+
+msgid "`Xcode Instruments <https://developer.apple.com/xcode/>`__ (macOS only)"
+msgstr ""
+"`Xcode Instruments <https://developer.apple.com/xcode/>`__ (solo macOS)"
+
 msgid "Setting up Godot"
 msgstr "Configurazione di Godot"
 
 msgid "VerySleepy"
 msgstr "VerySleepy"
+
+msgid "Wait for the results window to appear."
+msgstr "Attendi che venga visualizzata la finestra dei risultati."
 
 msgid "Your results window should now look something like this:"
 msgstr "La finestra dei risultati dovrebbe ora apparire più o meno così:"

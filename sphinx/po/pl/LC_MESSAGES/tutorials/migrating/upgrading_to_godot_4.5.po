@@ -50,5 +50,8 @@ msgstr "Wtyczki edytora"
 msgid "**EditorUndoRedoManager**"
 msgstr "**EditorUndoRedoManager**"
 
+msgid "Navigation"
+msgstr "Nawigacja"
+
 msgid "Physics"
 msgstr "Fizyka"

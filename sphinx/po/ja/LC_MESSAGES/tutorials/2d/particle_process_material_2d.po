@@ -21,6 +21,14 @@ msgstr ""
 "パーティクルの初期角度(度単位)を決定します。このパラメーターは、主にランダム"
 "化に役立ちます。"
 
+msgid ""
+"For this property to be noticeable, you need an *initial velocity* greater "
+"than 0. Here, we set the initial velocity to 40. You'll notice that "
+"particles emit toward the right, then go down because of gravity."
+msgstr ""
+"このプロパティの効果が見えるようにするには、0以上の *初速度* を設定しないとい"
+"けません。ここは初速度を"
+
 msgid "Spread"
 msgstr "広がり"
 

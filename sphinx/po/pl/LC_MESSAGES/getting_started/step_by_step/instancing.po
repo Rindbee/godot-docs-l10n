@@ -105,13 +105,6 @@ msgid "Click on it and drag it towards the center of the view."
 msgstr ""
 "Kliknij na kulkę i przeciągnij ją w kierunku centrum w widoku Perspektywy."
 
-msgid ""
-"Play the game by pressing :kbd:`F5` (:kbd:`Cmd + B` on macOS). You should "
-"see it fall."
-msgstr ""
-"Uruchom grę naciskając klawisz F5 (:kbd:`Cmd + B` na macOS). Powinieneś "
-"zobaczyć jak kulka opada."
-
 msgid "You can repeat this process until you have several in the scene."
 msgstr "Kontynuuj to działanie tworząc kilka kulek na scenie."
 
@@ -146,13 +139,6 @@ msgid ""
 msgstr ""
 "Zmiana właściwości instancji nadpisuje właściwości na scenie, na której jest "
 "umiejscowiona."
-
-msgid ""
-"Set its Bounce property to ``0.5`` by clicking on the number field, typing "
-"``0.5``, and pressing :kbd:`Enter`."
-msgstr ""
-"Ustaw jego właściwość Odbijanie (Bounce) na ``0,5``, klikając pole liczbowe, "
-"wpisując ``0,5'' i naciskając :kbd:`Enter`."
 
 msgid ""
 "Let's now adjust an individual instance. Head back to the Main scene by "

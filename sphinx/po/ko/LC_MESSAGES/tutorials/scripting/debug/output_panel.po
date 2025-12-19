@@ -10,3 +10,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Filtering messages"
+msgstr "메시지 필터링"
+
+msgid "Clearing messages"
+msgstr "메시지 비우기"
+
+msgid "Printing messages"
+msgstr "메시지 출력하기"
+
+msgid "Several methods are available to print messages:"
+msgstr "메시지를 출력하는 데에는 여러 방법을 사용할 수 있습니다:"

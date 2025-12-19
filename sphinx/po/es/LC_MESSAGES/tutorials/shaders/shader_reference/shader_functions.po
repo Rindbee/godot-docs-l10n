@@ -175,6 +175,12 @@ msgstr "El vector para orientar."
 msgid "The reference vector."
 msgstr "El vector de referencia."
 
+msgid "The first matrix multiplicand."
+msgstr "El primer multiplicando de la matriz."
+
+msgid "The second matrix multiplicand."
+msgstr "El segundo multiplicando de la matriz."
+
 msgid "The resultant matrix."
 msgstr "La matriz resultante."
 

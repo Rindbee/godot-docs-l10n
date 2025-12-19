@@ -164,13 +164,6 @@ msgstr "|string| 📜"
 msgid "``std::string``"
 msgstr "``std::string``"
 
-msgid ""
-"**Use this as the \"default\" string type.** ``String`` uses UTF-32 encoding "
-"to improve performance thanks to its fixed character size."
-msgstr ""
-"**请作为“默认”字符串类型使用。**\\ ``String`` 使用 UTF-32 编码，字符大小固"
-"定，因而能够提升性能。"
-
 msgid "|vector|"
 msgstr "|vector|"
 
@@ -288,13 +281,6 @@ msgstr "|rb_map|"
 msgid "``std::map``"
 msgstr "``std::map``"
 
-msgid ""
-"Uses a `red-black tree <https://en.wikipedia.org/wiki/Red-black-tree>`__ for "
-"faster access."
-msgstr ""
-"使用\\ `红黑树 <https://zh.wikipedia.org/zh-hans/"
-"%E7%BA%A2%E9%BB%91%E6%A0%91>`__\\ 实现快速访问。"
-
 msgid "|dictionary| 📜"
 msgstr "|dictionary| 📜"
 
@@ -310,9 +296,6 @@ msgstr "|pair|"
 
 msgid "``std::pair``"
 msgstr "``std::pair``"
-
-msgid "Stores a single key-value pair."
-msgstr "存储一个键值对。"
 
 msgid "Math types"
 msgstr "数学类型"

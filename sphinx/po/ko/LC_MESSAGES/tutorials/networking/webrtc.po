@@ -13,3 +13,30 @@ msgstr ""
 
 msgid "WebRTC"
 msgstr "WebRTC"
+
+msgid "Using WebRTC in Godot"
+msgstr "Godot에서 WebRTC 사용하기"
+
+msgid ""
+"WebRTC is implemented in Godot via two main "
+"classes :ref:`WebRTCPeerConnection <class_WebRTCPeerConnection>` "
+"and :ref:`WebRTCDataChannel <class_WebRTCDataChannel>`, plus the multiplayer "
+"API implementation :ref:`WebRTCMultiplayerPeer "
+"<class_WebRTCMultiplayerPeer>`. See section on :ref:`high-level multiplayer "
+"<doc_high_level_multiplayer>` for more details."
+msgstr ""
+"WebRTC는 Godot에서 두 가지 주요 클래스인 :ref:`WebRTCPeerConnection "
+"<class_WebRTCPeerConnection>`\\ 과 :ref:`WebRTCDataChannel "
+"<class_WebRTCDataChannel>`, 추가로 멀티플레이어 API 구현"
+"인 :ref:`WebRTCMultiplayerPeer <class_WebRTCMultiplayerPeer>`\\ 를 통해 구현"
+"됩니다. 자세한 사항은 :ref:`높은 수준 멀티플레이어 "
+"<doc_high_level_multiplayer>`\\ 의 섹션을 참조하세요."
+
+msgid "Minimal connection example"
+msgstr "최소 연결 예제"
+
+msgid "This will print:"
+msgstr "이렇게 출력됩니다:"
+
+msgid "Local signaling example"
+msgstr "로컬 시그널 예제"

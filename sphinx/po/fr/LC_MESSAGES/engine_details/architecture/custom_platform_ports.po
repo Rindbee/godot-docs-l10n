@@ -11,6 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "`Web <https://github.com/godotengine/godot/tree/master/platform/web>`__"
+msgstr ""
+"`Web <https://github.com/godotengine/godot/tree/master/platform/web>`__"
+
 msgid ""
 "`Text-to-speech driver <https://github.com/godotengine/godot/blob/master/"
 "platform/linuxbsd/tts_linux.cpp>`__ (for accessibility)."

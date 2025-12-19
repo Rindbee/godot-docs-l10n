@@ -304,7 +304,7 @@ msgstr ""
 "вычислений на более быстрый язык."
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid ""
 ":ref:`GDScript <doc_gdscript>` is designed to be easy to use and iterate, "

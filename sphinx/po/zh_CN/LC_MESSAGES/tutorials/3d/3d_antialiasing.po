@@ -293,6 +293,33 @@ msgstr ""
 msgid "Comparison between no antialiasing (left) and FXAA (right):"
 msgstr "无抗锯齿（左）和 FXAA（右）之间的对比："
 
+msgid "Sub-pixel Morphological Antialiasing (SMAA 1x)"
+msgstr "亚像素形态抗锯齿（SSAA 1x）"
+
+msgid ""
+"Sub-pixel Morphological Antialiasing is a post-processing antialiasing "
+"solution. It runs slightly slower than FXAA, but produces less blurriness. "
+"This is very helpful when the screen resolution is 1080p or below. Just like "
+"FXAA, SMAA 1x lacks temporal information and will therefore not do much "
+"against specular aliasing."
+msgstr ""
+"亚像素形态抗锯齿是一种后期处理抗锯齿方案。其运行速度略低于 FXAA，但产生的模糊"
+"更少。当屏幕分辨率为 1080p 或更低时，此方案非常有效。与 FXAA 类似， 由于它缺"
+"乏时间信息，因此它对于防止镜面反射锯齿没有多大作用。"
+
+msgid ""
+"SMAA 1x can be enabled in the Project Settings by changing the value of "
+"the :ref:`Rendering > Anti Aliasing > Quality > Screen Space "
+"AA<class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` setting to ``SMAA``."
+msgstr ""
+"可以在项目设置中启用 SMAA 1x，方法是将 :ref:`渲染 > 抗锯齿 > 质量 > 屏幕空间 "
+"AA <class_ProjectSettings_property_rendering/anti_aliasing/quality/"
+"screen_space_aa>` 设置的值更改为 ``SMAA`` 。"
+
+msgid "Comparison between no antialiasing (left) and SMAA 1x (right):"
+msgstr "无抗锯齿（左）和 SMAA 1x（右）之间的对比："
+
 msgid "Supersample antialiasing (SSAA)"
 msgstr "超采样抗锯齿（SSAA）"
 
@@ -535,6 +562,9 @@ msgstr "🟡 中等"
 
 msgid "🔴 High"
 msgstr "🔴 高"
+
+msgid "🟢 Very Low"
+msgstr "🟢 非常低"
 
 msgid "🔴 Very High"
 msgstr "🔴 非常高"

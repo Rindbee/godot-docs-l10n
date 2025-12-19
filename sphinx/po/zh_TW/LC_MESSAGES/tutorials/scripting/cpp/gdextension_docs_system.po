@@ -106,10 +106,6 @@ msgstr ""
 "<doc_bbcode_in_richtextlabel>` 一樣使用 BBCode 標籤。你可以將文字設為粗體、斜"
 "體、底線、變色、程式碼區塊等，只要把文字包在如下標籤裡即可："
 
-msgid ""
-"Currently they supported tags for the GDExtension documentation system are:"
-msgstr "目前 GDExtension 說明文件系統所支援的標籤有："
-
 msgid "Tag"
 msgstr "標籤"
 

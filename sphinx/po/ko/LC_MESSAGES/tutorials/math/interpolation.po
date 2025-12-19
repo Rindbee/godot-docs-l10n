@@ -18,7 +18,7 @@ msgid ""
 "The basic idea is that you want to transition from A to B. A value ``t``, "
 "represents the states in-between."
 msgstr ""
-"기본적인 개념은 상태 A를 B로 전환하는 것입니다. 이 때, 값 ``t`` 는 그 둘 사이"
+"기초적인 개념은 상태 A를 B로 전환하는 것입니다. 이 때, 값 ``t`` 는 그 둘 사이"
 "의 상태를 나타냅니다."
 
 msgid "And often simplified to:"

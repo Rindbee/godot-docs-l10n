@@ -14,5 +14,17 @@ msgstr ""
 msgid "Setting up VideoStreamPlayer"
 msgstr "VideoStreamPlayer 설정하기"
 
+msgid ""
+"See :ref:`doc_viewports` and the `GUI in 3D demo <https://github.com/"
+"godotengine/godot-demo-projects/tree/master/viewport/gui_in_3d>`__ for more "
+"information on setting this up."
+msgstr ""
+"이를 설정하는 것에 대한 자세한 정보는 :ref:`doc_viewports`\\ 와 `3D 데모에서"
+"의 GUI <https://github.com/godotengine/godot-demo-projects/tree/master/"
+"viewport/gui_in_3d>`__\\ 를 참조하세요."
+
+msgid "Looping a video"
+msgstr "비디오 루프하기"
+
 msgid "Playback limitations"
 msgstr "재생 제한 사항"

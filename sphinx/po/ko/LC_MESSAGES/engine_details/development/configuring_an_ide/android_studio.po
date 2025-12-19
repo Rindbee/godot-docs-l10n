@@ -11,6 +11,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "``lib`` module:"
+msgstr "``lib`` 모듈:"
+
+msgid "``editor`` module:"
+msgstr "``editor`` 모듈:"
+
+msgid "``app`` module:"
+msgstr "``app`` 모듈:"
+
 msgid ""
 "Select **Run > Run 'editor'** from the top menu or `click the Run icon "
 "<https://developer.android.com/studio/run/rundebugconfig#running>`_."

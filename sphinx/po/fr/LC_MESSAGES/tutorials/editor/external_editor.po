@@ -109,7 +109,7 @@ msgid "JetBrains Rider"
 msgstr "JetBrains Rider"
 
 msgid "``{project} --line {line} {file}``"
-msgstr "``{projet} --line {ligne} {fichier}``"
+msgstr "``{project} --line {line} {file}``"
 
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
@@ -132,11 +132,21 @@ msgstr "``emacs +{line}:{col} {file}``"
 msgid "Sublime Text"
 msgstr "Sublime Text"
 
+msgid "``{project} {file}:{line}:{col}``"
+msgstr "``{project} {file}:{line}:{col}``"
+
 msgid "Visual Studio*"
 msgstr "Visual Studio*"
 
 msgid "``/edit \"file\"``"
 msgstr "``/edit \"fichier\"``"
+
+msgid ""
+"\\*: Arguments are not automatically detected, so you must fill them in "
+"manually."
+msgstr ""
+"\\* : Les arguments ne sont pas détectés automatiquement, vous devez donc "
+"les remplir manuellement."
 
 msgid ""
 "For Visual Studio Code on Windows, you will have to point to the "

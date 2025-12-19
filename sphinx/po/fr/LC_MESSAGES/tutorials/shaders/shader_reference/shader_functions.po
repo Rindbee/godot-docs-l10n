@@ -87,6 +87,14 @@ msgstr "gsampler2DArray"
 msgid "gsampler3D"
 msgstr "gsampler3D"
 
+msgid ""
+"Many functions that accept one or more vectors or matrices perform the "
+"described function on each component of the vector/matrix. Some examples:"
+msgstr ""
+"De nombreuses fonctions qui acceptent un ou plusieurs vecteurs ou matrices "
+"effectuent la fonction décrite sur chaque composante du vecteur/matrice. "
+"Quelques exemples :"
+
 msgid "Operation"
 msgstr "Opération"
 
@@ -1201,6 +1209,13 @@ msgid ""
 msgstr ""
 "float **dot**\\ (\\ |vec_type| a, |vec_type| b) :ref:`🔗<shader_func_dot>`"
 
+msgid ""
+"Returns the dot product of two vectors, ``a`` and ``b``. i.e., ``a.x * b.x + "
+"a.y * b.y + ...``"
+msgstr ""
+"Renvoie le produit scalaire de deux vecteurs, ``a`` et ``b``. i.e, ``a.x * "
+"b.x + a.y * b.y + ...``"
+
 msgid "The first vector."
 msgstr "Le premier vecteur."
 
@@ -1212,6 +1227,9 @@ msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/dot.xhtml"
 
 msgid "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
 msgstr "vec3 **cross**\\ (\\ vec3 a, vec3 b) :ref:`🔗<shader_func_cross>`"
+
+msgid "Returns the cross product of two vectors. i.e.:"
+msgstr "Retourne le produit vectoriel de deux vecteurs. C-à-d :"
 
 msgid "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/cross.xhtml"
 msgstr "https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/cross.xhtml"
@@ -1312,6 +1330,9 @@ msgid ""
 msgstr ""
 "|mat_type| **outerProduct**\\ (\\ |vec_type| column, |vec_type| "
 "row) :ref:`🔗<shader_func_outerProduct>`"
+
+msgid "Calculate the outer product of a pair of vectors."
+msgstr "Calcule le produit extérieur d'une paire de vecteurs."
 
 msgid "param column"
 msgstr "param colonne"

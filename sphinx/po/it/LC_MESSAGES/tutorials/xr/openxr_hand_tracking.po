@@ -53,8 +53,18 @@ msgstr ""
 msgid "The hand skeleton modifier"
 msgstr "Il modificatore di scheletro di mani"
 
+msgid "You can also set the ``Bone Update`` mode on this node."
+msgstr ""
+"È anche possibile impostare la modalità ``Bone Update`` su questo nodo."
+
 msgid "The hand tracking data source"
 msgstr "La sorgente dei dati di tracciamento della mano"
+
+msgid "In all other cases, no hand tracking is supported at all."
+msgstr "In tutti gli altri casi, il tracciamento delle mani non è supportato."
+
+msgid "You can access this information through code:"
+msgstr "È possibile accedere a queste informazioni tramite codice:"
 
 msgid "This example logs the state for the left hand."
 msgstr "Questo esempio registra lo stato della mano sinistra."
@@ -68,5 +78,17 @@ msgstr "Il profilo di interazione della mano"
 msgid "HTC hand interaction profile"
 msgstr "Profilo di interazione della mano HTC"
 
+msgid "See the Microsoft hand interaction profile for the gesture support."
+msgstr ""
+"Consultare il profilo di interazione delle mani di Microsoft per il supporto "
+"dei gesti."
+
 msgid "Simple controller profile"
 msgstr "Profilo di controller semplice"
+
+msgid ""
+"`Julian Todd's Auto hands library <https://github.com/Godot-Dojo/Godot-XR-"
+"AH>`_"
+msgstr ""
+"`La libreria Auto hands di Julian Todd <https://github.com/Godot-Dojo/Godot-"
+"XR-AH>`_"

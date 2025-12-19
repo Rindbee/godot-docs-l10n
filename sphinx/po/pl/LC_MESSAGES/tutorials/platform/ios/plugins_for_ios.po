@@ -28,12 +28,6 @@ msgstr "Poniżej znajduje się przykładowy plik klasy:"
 msgid "Asynchronous methods"
 msgstr "Asynchroniczne metody"
 
-msgid ""
-"Implemented in `Godot iOS InAppStore plugin <https://github.com/godotengine/"
-"godot-ios-plugins/blob/master/plugins/inappstore/in_app_store.mm>`_."
-msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/master/core/rid.h>`__."
-
 msgid "``purchase``"
 msgstr "``purchase``"
 
@@ -54,12 +48,6 @@ msgstr "``finish_transaction``"
 
 msgid "Game Center"
 msgstr "Centrum Gier"
-
-msgid ""
-"Implemented in `Godot iOS GameCenter plugin <https://github.com/godotengine/"
-"godot-ios-plugins/blob/master/plugins/gamecenter/game_center.mm>`_."
-msgstr ""
-"`core/rid.h <https://github.com/godotengine/godot/blob/master/core/rid.h>`__."
 
 msgid "``authenticate``"
 msgstr "``authenticate``"

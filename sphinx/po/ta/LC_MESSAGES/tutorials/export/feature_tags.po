@@ -107,6 +107,12 @@ msgstr "** ஐஇமு **"
 msgid "Running on iOS (but not within a Web browser)"
 msgstr "ஐஇமு இல் இயங்குகிறது (ஆனால் ஒரு வலை உலாவிக்குள் அல்ல)"
 
+msgid "**visionos**"
+msgstr "** விசோச் **"
+
+msgid "Running on visionOS (but not within a Web browser)"
+msgstr "விசன்சில் இயங்குகிறது (ஆனால் வலை உலாவிக்குள் அல்ல)"
+
 msgid "**windows**"
 msgstr "** சாளரங்கள் **"
 
@@ -136,6 +142,18 @@ msgstr "** ஆசிரியர் **"
 
 msgid "Running on an editor build"
 msgstr "ஒரு எடிட்டர் கட்டமைப்பில் இயங்குகிறது"
+
+msgid "**editor_hint**"
+msgstr "** எடிட்டர்_இன்ட் **"
+
+msgid "Running on an editor build, and inside the editor"
+msgstr "ஒரு எடிட்டர் கட்டமைப்பில், மற்றும் எடிட்டருக்குள்"
+
+msgid "**editor_runtime**"
+msgstr "** எடிட்டர்_ரண்டிம் **"
+
+msgid "Running on an editor build, and running the project"
+msgstr "ஒரு எடிட்டர் கட்டமைப்பில் இயங்கும், திட்டத்தை இயக்கவும்"
 
 msgid "**template**"
 msgstr "** வார்ப்புரு **"
@@ -269,6 +287,18 @@ msgstr "** வலை **"
 msgid "Host OS is a Web browser"
 msgstr "புரவலன் ஓஎச் ஒரு வலை உலாவி"
 
+msgid "**nothreads**"
+msgstr "** nothreads **"
+
+msgid "Running without threading support"
+msgstr "த்ரெட்டிங் உதவி இல்லாமல் இயங்குகிறது"
+
+msgid "**threads**"
+msgstr "** நூல்கள் **"
+
+msgid "Running with threading support"
+msgstr "த்ரெட்டிங் ஆதரவுடன் இயங்குகிறது"
+
 msgid "**web_android**"
 msgstr "** web_android **"
 
@@ -323,6 +353,30 @@ msgstr "** திரைப்படம் **"
 msgid ":ref:`Movie Maker mode <doc_creating_movies>` is active"
 msgstr ": குறிப்பு: `மூவி மேக்கர் பயன்முறை <doc_creating_movies>` செயலில் உள்ளது"
 
+msgid "**shader_baker**"
+msgstr "** சேடர்_பேக்கர் **"
+
+msgid ""
+"Project was exported with :ref:`shader baking "
+"<doc_pipeline_compilations_shader_baker>` enabled (only applies to the "
+"exported project, not when running in the editor)"
+msgstr ""
+"திட்டம் ஏற்றுமதி செய்யப்பட்டது: குறிப்பு: `சேடர் பேக்கிங் "
+"<doc_pipeline_compilations_shader_baker>` இயக்கப்பட்டது (ஏற்றுமதி செய்யப்பட்ட "
+"திட்டத்திற்கு மட்டுமே பொருந்தும், எடிட்டரில் இயங்கும் போது அல்ல)"
+
+msgid "**dedicated_server**"
+msgstr "** அர்ப்பணிப்பு_சர்வர் **"
+
+msgid ""
+"Project was exported as a :ref:`dedicated server "
+"<doc_exporting_for_dedicated_servers>` (only applies to the exported "
+"project, not when running in the editor)"
+msgstr ""
+"திட்டம் A என ஏற்றுமதி செய்யப்பட்டது: ref: `அர்ப்பணிக்கப்பட்ட சேவையகம் "
+"<doc_exporting_for_dedicaded_servers>` (ஏற்றுமதி செய்யப்பட்ட திட்டத்திற்கு மட்டுமே "
+"பொருந்தும், எடிட்டரில் இயங்கும் போது அல்ல)"
+
 msgid ""
 "With the exception of texture compression, ``web_<platform>`` and ``movie`` "
 "feature tags, default feature tags are **immutable**. This means that they "
@@ -365,6 +419,16 @@ msgstr ""
 "திட்டத்தை இயக்கும் போது அவை ** பயன்படுத்தப்படவில்லை **, உங்கள் தற்போதைய தளத்திற்கு ** "
 "இயக்கக்கூடிய ** எனக் குறிக்கப்பட்ட ஏற்றுமதி முன்னமைவு தனிப்பயன் அம்சக் குறிச்சொற்களைக் "
 "கொண்டிருந்தாலும் கூட."
+
+msgid ""
+"Custom feature tags are also not used in :ref:`class_EditorExportPlugin` "
+"scripts. Instead, feature tags in :ref:`class_EditorExportPlugin` will "
+"reflect the device the editor is currently running on."
+msgstr ""
+"தனிப்பயன் அம்ச குறிச்சொற்களும் இதில் பயன்படுத்தப்படவில்லை: குறிப்பு: "
+"`class_editorexportplugin` ச்கிரிப்ட்கள். அதற்கு பதிலாக, அம்சக் குறிச்சொற்கள்: "
+"குறிப்பு: `class_editorexportplugin` தற்போது ஆசிரியர் இயங்கும் சாதனத்தை "
+"பிரதிபலிக்கும்."
 
 msgid "Overriding project settings"
 msgstr "திட்ட அமைப்புகளை மீறுகிறது"
@@ -423,6 +487,41 @@ msgid ""
 msgstr ""
 "இயல்புநிலையாக மேலெழுதல்களுடன் ஏற்கனவே நிறைய அமைப்புகள் உள்ளன; திட்ட அமைப்புகளின் பல "
 "பிரிவுகளில் அவற்றைக் காணலாம்."
+
+msgid "Taking feature tags into account when reading project settings"
+msgstr "திட்ட அமைப்புகளைப் படிக்கும்போது அம்சக் குறிச்சொற்களை கணக்கில் எடுத்துக்கொள்வது"
+
+msgid ""
+"By default, feature tags are **not** taken into account when reading project "
+"settings using the typical approaches "
+"(:ref:`ProjectSettings.get_setting<class_ProjectSettings_method_get_setting>` "
+"or :ref:`ProjectSettings.get <class_Object_private_method__get>`). Instead, "
+"you must use :ref:`ProjectSettings.get_setting_with_override "
+"<class_ProjectSettings_method_get_setting>`."
+msgstr ""
+"இயல்பாக, அம்சக் குறிச்சொற்கள் வழக்கமான அணுகுமுறைகளைப் பயன்படுத்தி திட்ட அமைப்புகளைப் "
+"படிக்கும்போது ** அல்ல ** கணக்கில் எடுத்துக்கொள்ளப்படுகின்றன (: Ref: "
+"`procetsettings.get_setting <class_projectsettings_method_get_setting>` "
+"அல்லது: ref: `proctamsettings.get.get.get.get. அதற்கு பதிலாக, நீங்கள் பயன்படுத்த "
+"வேண்டும்: ref: `procetsettings.get_setting_with_override "
+"<class_projectsettings_method_get_setting>`."
+
+msgid "For example, with the following project settings:"
+msgstr "எடுத்துக்காட்டாக, பின்வரும் திட்ட அமைப்புகளுடன்:"
+
+msgid ""
+"Using ``ProjectSettings.get_setting(\"section/subsection/example\")`` will "
+"return ``\"Release\"`` regardless of whether a debug build is currently "
+"running. On the other hand, "
+"``ProjectSettings.get_setting_with_override(\"section/subsection/"
+"example\")`` will obey feature tags and will return ``\"Debug\"`` if using a "
+"debug build."
+msgstr ""
+"`` Procetsettings.get_setting (\"பிரிவு/துணைப்பிரிவு/எடுத்துக்காட்டு\") `` "
+"பிழைத்திருத்த கட்டமைப்பை தற்போது இயங்குகிறதா என்பதைப் பொருட்படுத்தாமல் `` \"வெளியீடு\" "
+"`` திரும்பும். மறுபுறம், `` procetsettings.get_setting_with_override (\"பிரிவு/"
+"துணைப்பிரிவு/எடுத்துக்காட்டு\") `` அம்சக் குறிச்சொற்களைக் கடைப்பிடிக்கும், மேலும் "
+"பிழைத்திருத்த கட்டமைப்பைப் பயன்படுத்தினால் `` \"பிழைத்திருத்தம்\" `` திரும்பும்."
 
 msgid "Customizing the build"
 msgstr "கட்டமைப்பைத் தனிப்பயனாக்குதல்"

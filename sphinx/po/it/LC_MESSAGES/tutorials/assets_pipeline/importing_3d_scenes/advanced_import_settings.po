@@ -17,6 +17,26 @@ msgstr "Impostazioni avanzate del progetto"
 msgid "Configuring node import options"
 msgstr "Configurare le opzioni di importazione dei nodi"
 
+msgid ""
+"You can select individual nodes that compose the scene while in the "
+"**Scene** tab using the tree view at the left:"
+msgstr ""
+"È possibile selezionare i singoli nodi che compongono la scena nella scheda "
+"**Scena** attraverso la vista ad albero a sinistra:"
+
+msgid "Selecting a node in the Advanced Import Settings dialog (Scene tab)"
+msgstr ""
+"Selezione di un nodo nella finestra Impostazioni di importazione avanzate "
+"(scheda Scena)"
+
+msgid "Selecting a node in the Advanced Import Settings dialog (Materials tab)"
+msgstr ""
+"Selezione di un nodo nella finestra Impostazioni di importazione avanzate "
+"(scheda Materiali)"
+
+msgid "This exposes several per-node import options:"
+msgstr "Ciò espone diverse opzioni di importazione per nodo:"
+
 msgid "Configuring mesh and material import options"
 msgstr "Configurare le opzioni di importazione di mesh e materiali"
 
@@ -32,6 +52,12 @@ msgstr "Le opzioni sono le seguenti:"
 
 msgid "Extracting materials to separate files"
 msgstr "Esportare i materiali su file separatati"
+
+msgid ""
+"Confirming material extraction in the Advanced Import Settings subdialog"
+msgstr ""
+"Conferma dell'estrazione dei materiali nella sottofinestra Impostazioni di "
+"importazione avanzate"
 
 msgid "Animation options"
 msgstr "Opzioni di animazione"

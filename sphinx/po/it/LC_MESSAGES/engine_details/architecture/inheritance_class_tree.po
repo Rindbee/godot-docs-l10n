@@ -28,3 +28,6 @@ msgstr "Node2D"
 
 msgid "Node3D"
 msgstr "Node3D"
+
+msgid "Source files: :download:`class_tree.zip <files/class_tree.zip>`."
+msgstr "File sorgente: :download:`class_tree.zip <files/class_tree.zip>`."

@@ -10,3 +10,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Creating a sprite"
+msgstr "스프라이트 만들기"
+
+msgid "Getting data from the servers"
+msgstr "서버에서 데이터 얻기"

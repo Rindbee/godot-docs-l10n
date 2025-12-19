@@ -367,3 +367,12 @@ msgstr ""
 
 msgid ":ref:`doc_matrices_and_transforms`"
 msgstr ": ref: `doc_matrices_and_transforms`"
+
+msgid ""
+"If you would like additional explanation, you should check out 3Blue1Brown's "
+"excellent video series `Essence of Linear Algebra <https://www.youtube.com/"
+"watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`_."
+msgstr ""
+"கூடுதல் விளக்கத்தை நீங்கள் விரும்பினால், நீங்கள் 3Blue1Brown இன் சிறந்த வீடியோ தொடர் "
+"`நேரியல் இயற்கணிதத்தின் சாராம்சம் <https://www.youtube.com/watch?"
+"v=fnk_zzamoss&list==plzhqdqdqdpd3mizzm2xvfitgf8hf8he_ab> _ _ _ _ _ _ _ _."

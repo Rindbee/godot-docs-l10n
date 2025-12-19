@@ -178,6 +178,9 @@ msgstr ""
 "Una costante ``E`` (``2.718281``). Numero di Eulero e base del logaritmo "
 "naturale."
 
+msgid "Start and Process built-ins"
+msgstr "Variabili integrate di inizio ed elaborazione"
+
 msgid ""
 "These properties can be accessed from both the ``start()`` and ``process()`` "
 "functions."
@@ -382,6 +385,9 @@ msgstr ""
 "``vertex_color_use_as_albedo`` su ``true``. In uno ShaderMaterial, accedervi "
 "tramite variabile ``COLOR``."
 
+msgid "Start built-ins"
+msgstr "Variabili integrate di inizio"
+
 msgid "in bool **RESTART_POSITION**"
 msgstr "in bool **RESTART_POSITION**"
 
@@ -442,6 +448,9 @@ msgstr ""
 "personalizzata (vale a dire, questa particella è stata creata da "
 "``emit_subparticle()`` senza il flag ``FLAG_EMIT_CUSTOM``)."
 
+msgid "Process built-ins"
+msgstr "Variabili integrate di elaborazione"
+
 msgid "in bool **RESTART**"
 msgstr "in bool **RESTART**"
 
@@ -482,6 +491,9 @@ msgid "A combined force of the attractors at the moment on that particle."
 msgstr ""
 "Una forza combinata degli attrattori che agiscono in quel momento su quella "
 "particella."
+
+msgid "Process functions"
+msgstr "Funzioni di elaborazione"
 
 msgid ""
 "``emit_subparticle()`` is currently the only custom function supported by "

@@ -32,6 +32,37 @@ msgstr "Rinomina ossa"
 msgid "Unique Node"
 msgstr "Nodo univoco"
 
+msgid ""
+"Reference poses defined in :ref:`class_skeletonprofilehumanoid` have the "
+"following rules:"
+msgstr ""
+"Le pose di riferimento definite in :ref:`class_skeletonprofilehumanoid` "
+"hanno le seguenti regole:"
+
+msgid "The humanoid is T-pose"
+msgstr "L'umanoide è in T-pose"
+
+msgid "The humanoid is facing +Z in the Right-Handed Y-UP Coordinate System"
+msgstr "L'umanoide è rivolto verso +Z nel sistema di coordinate Y-su destrorso"
+
+msgid "The humanoid should not have a Transform as Node"
+msgstr "L'umanoide non dovrebbe avere una trasformazione, come Node"
+
+msgid "Directs the +Y axis from the parent joint to the child joint"
+msgstr "Dirige l'asse +Y dall'articolazione padre all'articolazione figlia"
+
+msgid "+X rotation bends the joint like a muscle contracting"
+msgstr "La rotazione +X piega l'articolazione come un muscolo che si contrae"
+
+msgid ""
+"These rules are convenient definitions for blend animation and Inverse "
+"Kinematics (IK). If your model does not match this definition, you need to "
+"fix it with these options."
+msgstr ""
+"Queste regole sono definizioni pratiche per la fusione di animazioni e la "
+"cinematica inversa (IK). Se il modello non corrisponde a questa definizione, "
+"è necessario correggerlo con queste opzioni."
+
 msgid "Apply Node Transform"
 msgstr "Applica trasformazione del nodo"
 

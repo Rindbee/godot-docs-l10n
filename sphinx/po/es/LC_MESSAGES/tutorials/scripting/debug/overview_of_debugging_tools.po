@@ -88,6 +88,9 @@ msgstr ""
 msgid "Visible Collision Shapes"
 msgstr "Ver Formas de Colisión"
 
+msgid "Visible Paths"
+msgstr "Trayectos Visibles"
+
 msgid "Visible Navigation"
 msgstr "Navegación Visible"
 

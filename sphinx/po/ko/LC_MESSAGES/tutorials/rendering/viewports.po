@@ -11,11 +11,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using Viewports"
+msgstr "뷰포트 사용하기"
+
 msgid "Introduction"
 msgstr "소개"
 
 msgid "Input"
 msgstr "입력"
+
+msgid ""
+"For more information on how Godot handles input, please read the :ref:`Input "
+"Event Tutorial <doc_inputevent>`."
+msgstr ""
+"Godot가 입력을 처리하는 방법에 대한 자세한 정보는 :ref:`입력 이벤트 튜토리얼 "
+"<doc_inputevent>`\\ 을 읽어 주세요."
 
 msgid ""
 ":ref:`SubViewports <class_SubViewport>` have "

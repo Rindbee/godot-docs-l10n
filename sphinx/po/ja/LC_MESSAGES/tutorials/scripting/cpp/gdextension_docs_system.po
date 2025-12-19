@@ -65,6 +65,12 @@ msgstr "**code**"
 msgid "``[code]{text}[/code]``"
 msgstr "``[code]{text}[/code]``"
 
+msgid ""
+"The addition of the ``[gdscript]`` tag highlights the GDScript specific "
+"syntax."
+msgstr ""
+"``[gdscript]``タグを追加すると、GDScript 固有の構文が強調表示されます。"
+
 msgid "``{text}``"
 msgstr "``{text}``"
 

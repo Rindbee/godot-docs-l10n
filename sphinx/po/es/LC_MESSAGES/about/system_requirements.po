@@ -132,7 +132,7 @@ msgid ""
 "derivatives (including ESR), Chrome and Chromium derivatives, Safari and "
 "WebKit derivatives."
 msgstr ""
-"**Web Editor:** Versiones recientes de los principales navegadores: Firefox "
+"**Editor Web:** Versiones recientes de los principales navegadores: Firefox "
 "y derivados (incluído ESR), derivados de Chrome y Chromium, derivados de "
 "Safari y WebKit."
 

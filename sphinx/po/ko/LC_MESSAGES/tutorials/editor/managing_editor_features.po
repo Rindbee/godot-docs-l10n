@@ -13,3 +13,9 @@ msgstr ""
 
 msgid "Introduction"
 msgstr "소개"
+
+msgid "Creating a profile"
+msgstr "프로필 만들기"
+
+msgid "Sharing a profile"
+msgstr "프로필 공유하기"

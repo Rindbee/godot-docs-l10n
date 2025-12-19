@@ -48,7 +48,7 @@ msgid ""
 "the ``.pck`` extension, or ZIP files)."
 msgstr ""
 "Godot 透過稱為 **資源包** 的功能實現此需求 (PCK 檔, 副檔名 ``.pck``, 或 ZIP "
-"檔)."
+"檔)。"
 
 msgid "**Advantages:**"
 msgstr "**優點：**"

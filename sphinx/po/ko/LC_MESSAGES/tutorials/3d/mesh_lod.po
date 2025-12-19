@@ -19,3 +19,10 @@ msgstr "시각적 비교"
 
 msgid "Generating mesh LOD"
 msgstr "메시 LOD 생성하기"
+
+msgid ""
+"See :ref:`Importing 3D scenes "
+"<doc_importing_3d_scenes_using_the_import_dock>` for more information."
+msgstr ""
+"자세한 정보는 :ref:`3D 씬 가져오기 "
+"<doc_importing_3d_scenes_using_the_import_dock>`\\ 를 참조하세요."

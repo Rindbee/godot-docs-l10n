@@ -273,6 +273,22 @@ msgstr ""
 "이 곳 <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details>`__ 에서 "
 "찾을 수 있습니다."
 
+msgid "Mipmaps > Limit"
+msgstr "밉맵 > 제한"
+
+msgid "Roughness > Mode"
+msgstr "거칠기 > 모드"
+
+msgid ""
+"The color channel to consider as a roughness map in this texture. Only "
+"effective if **Roughness > Src Normal** is not empty."
+msgstr ""
+"이 텍스처에서 거칠기 맵으로 고려하는 색상 채널입니다. **거칠기 > 소스 법선"
+"**\\ 이 비어 있지 않은 경우에만 적용됩니다."
+
+msgid "Roughness > Src Normal"
+msgstr "거칠기 > 소스 법선"
+
 msgid "Process > Fix Alpha Border"
 msgstr "프로세스 > 알파 테두리 고치기"
 

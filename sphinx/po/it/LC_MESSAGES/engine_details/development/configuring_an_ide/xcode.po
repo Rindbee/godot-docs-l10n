@@ -140,6 +140,9 @@ msgstr "Aprire l'editor di schemi del target di compilazione esterno."
 msgid "Locate the **Build > Post Actions** section."
 msgstr "Individua la sezione **Build > Post Actions**."
 
+msgid "Add a new script run action"
+msgstr "Aggiungere un nuovo script run action"
+
 msgid ""
 "Under **Provide build settings from** select your project. This allows to "
 "reference the project directory within the script."

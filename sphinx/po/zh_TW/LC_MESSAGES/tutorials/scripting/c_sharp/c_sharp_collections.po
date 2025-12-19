@@ -374,7 +374,7 @@ msgid ""
 "``Array[0]`` or `System.Linq.Enumerable.First`_ or "
 "`System.Linq.Enumerable.FirstOrDefault`_"
 msgstr ""
-"``Array[0]`` or `System.Linq.Enumerable.First`_ or "
+"``Array[0]`` 或 `System.Linq.Enumerable.First`_ 或 "
 "`System.Linq.Enumerable.FirstOrDefault`_"
 
 msgid "get_typed_builtin"

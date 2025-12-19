@@ -131,21 +131,24 @@ msgid "ScoreLabel"
 msgstr "ScoreLabel"
 
 msgid "Add the text ``0``."
-msgstr "Ajouter le texte ``0``."
+msgstr "Dans l'inspecteur, ajouter le texte ``0``."
 
 msgid ""
 "Set the \"Horizontal Alignment\" and \"Vertical Alignment\" to ``Center``."
 msgstr ""
-"Réglez \"Alignement horizontal\" et \"Alignement vertical\" sur \"Centre\"."
+"Dans l'inspecteur, réglez \"Alignement horizontal\" et \"Alignement "
+"vertical\" sur ``Centre``."
 
 msgid "Choose the \"Anchor Preset\" ``Center Top``."
-msgstr "Choisissez le « Préréglage d'ancrage » « Centre Haut »."
+msgstr ""
+"Dans l'inspecteur sous \"Contrôle - Disposition\" ou dans l'espace de "
+"travail 2D, choisissez le « Préréglage d'ancrage » ``Centre Haut``."
 
 msgid "Message"
 msgstr "Message"
 
 msgid "Add the text ``Dodge the Creeps!``."
-msgstr "Ajoutez le texte : ``Dodge the Creeps !``."
+msgstr "Dans l'inspecteur de nœud, ajoutez le texte : ``Dodge the Creeps !``."
 
 msgid ""
 "Set the \"Autowrap Mode\" to ``Word``, otherwise the label will stay on one "
@@ -162,7 +165,8 @@ msgstr ""
 "``480`` pour utiliser toute la largeur de l'écran."
 
 msgid "Choose the \"Anchor Preset\" ``Center``."
-msgstr "Choisir le \"préréglage d'ancre\" ``Centre``."
+msgstr ""
+"Dans l'espace de travail 2D, choisir le \"préréglage d'ancre\" ``Centre``."
 
 msgid "StartButton"
 msgstr "StartButton"
@@ -330,7 +334,7 @@ msgstr ""
 
 msgid "Name the group ``mobs`` and click \"ok\" to add a new scene group."
 msgstr ""
-"Nommez le groupe ``monstres`` et cliquez sur \"ok\" pour ajouter un nouveau "
+"Nommez le groupe ``mobs`` et cliquez sur \"ok\" pour ajouter un nouveau "
 "groupe de scène."
 
 msgid "Now all mobs will be in the \"mobs\" group."

@@ -17,7 +17,7 @@ msgstr "编写玩家代码"
 msgid ""
 "In this lesson, we'll add player movement, animation, and set it up to "
 "detect collisions."
-msgstr "在这一课中，我们将添加玩家的动作、动画，并将其设置为检测碰撞。"
+msgstr "在这一课中，我们将添加玩家的动作、动画，并为其设置碰撞检测。"
 
 msgid ""
 "To do so, we need to add some functionality that we can't get from a built-"

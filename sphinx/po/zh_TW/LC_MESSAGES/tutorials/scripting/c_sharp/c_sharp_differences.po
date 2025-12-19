@@ -16,7 +16,7 @@ msgstr "C# API 與 GDScript 的不同"
 
 msgid ""
 "This is an (incomplete) list of API differences between C# and GDScript."
-msgstr "以下是 C# 與 GDScript 之間的 API 差異清單（不完整）."
+msgstr "以下是 C# 與 GDScript 之間 API 差異的（不完整）清單。"
 
 msgid "General differences"
 msgstr "一般差異"

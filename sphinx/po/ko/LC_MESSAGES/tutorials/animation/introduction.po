@@ -40,6 +40,9 @@ msgstr "애니메이션 패널 위치"
 msgid "The animation panel"
 msgstr "애니메이션 패널"
 
+msgid "Computer animation relies on keyframes"
+msgstr "컴퓨터 애니메이션은 키프레임에 의존합니다"
+
 msgid "Keyframes in Godot"
 msgstr "Godot에서의 키프레임"
 
@@ -48,6 +51,9 @@ msgstr "두 개의 키프레임만 있으면 부드러운 움직임을 얻을 �
 
 msgid "The timeline in the animation panel"
 msgstr "애니메이션 패널에서의 타임라인"
+
+msgid "Play from beginning"
+msgstr "처음부터 재생"
 
 msgid "Scene setup"
 msgstr "씬 설정"

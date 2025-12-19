@@ -21,7 +21,7 @@ msgid "Languages"
 msgstr "言語"
 
 msgid "Versions"
-msgstr "**バージョン**"
+msgstr "バージョン"
 
 msgid "On Read the Docs"
 msgstr "ドキュメントを読む"

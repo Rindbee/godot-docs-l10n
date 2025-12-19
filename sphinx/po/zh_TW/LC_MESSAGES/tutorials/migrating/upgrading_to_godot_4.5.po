@@ -91,14 +91,8 @@ msgstr "簡介"
 msgid "**JSONRPC**"
 msgstr "**JSONRPC**"
 
-msgid "Method ``set_scope`` replaced by ``set_method`` optional parameter"
-msgstr "方法 ``set_scope`` 被 ``set_method`` 的選用參數所取代"
-
 msgid "|❌|"
 msgstr "|❌|"
-
-msgid "|✔️ with compat|"
-msgstr "| ✔️相容|"
 
 msgid "`GH-104890`_"
 msgstr "`GH-104890`_"
@@ -108,6 +102,9 @@ msgstr "**節點**"
 
 msgid "Method ``get_rpc_config`` renamed to ``get_node_rpc_config``"
 msgstr "方法 ``get_rpc_config`` 更名為 ``get_node_rpc_config``"
+
+msgid "|✔️ with compat|"
+msgstr "| ✔️相容|"
 
 msgid "`GH-106848`_"
 msgstr "`GH-106848`_"
@@ -166,16 +163,6 @@ msgstr "`GH-104269`_"
 
 msgid "Method ``instance_set_interpolated`` removed"
 msgstr "方法 ``instance_set_interpolated`` 已移除"
-
-msgid ""
-"In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of "
-"the way the bindings generator detects the enum prefix. New members where "
-"added to the enum in `GH-103941`_ that caused the enum member ``Address`` to "
-"be renamed to ``BufferDeviceAddress``."
-msgstr ""
-"在 C# 中，列舉 ``RenderingDevice.Features`` 因綁定產生器偵測列舉前綴的方式而"
-"造成相容性破壞。在 `GH-103941`_ 中新增了成員，導致原本的列舉成員 ``Address`` "
-"被重新命名為 ``BufferDeviceAddress``。"
 
 msgid "GLTF"
 msgstr "GLTF"
@@ -517,11 +504,6 @@ msgstr "`GH-108825`_"
 msgid "Behavior changes"
 msgstr "做出更改"
 
-msgid ""
-"In 4.5 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr "在 4.5 中引入了一些行為變更，你可能需要調整專案。"
-
 msgid "3D Model Import"
 msgstr "3D 模型匯入"
 
@@ -565,6 +547,9 @@ msgid ""
 msgstr ""
 "在 C# 中，``Quaternion(Vector3, Vector3)`` 建構式現在能正確建立代表兩輸入向量"
 "間最短弧的四元數。先前在某些輸入下會回傳錯誤的值（`GH-107618`_）。"
+
+msgid "Navigation"
+msgstr "導覽"
 
 msgid "Physics"
 msgstr "物理"

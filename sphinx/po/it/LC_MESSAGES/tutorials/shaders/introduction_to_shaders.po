@@ -256,6 +256,9 @@ msgstr ""
 "riferimento di ogni tipo di shader per una lista completa delle modalità di "
 "rendering."
 
+msgid "Vertex processor"
+msgstr "Processore di vertici"
+
 msgid ""
 "The ``vertex()`` processing function is called once for every vertex in "
 "``spatial`` and ``canvas_item`` shaders."
@@ -284,6 +287,9 @@ msgstr ""
 "necessarie per proiettare la geometria sullo schermo. È possibile utilizzare "
 "certe modalità di rendering per trasformare manualmente i dati; consultare "
 "il :ref:`documento sugli shader spatial <doc_spatial_shader>` per un esempio."
+
+msgid "Fragment processor"
+msgstr "Processore di frammenti"
 
 msgid ""
 "The ``fragment()`` processing function is used to set up the Godot material "
@@ -321,6 +327,9 @@ msgstr ""
 "compilazione, Godot verifica se ``RIM`` è utilizzato; se non, taglia fuori "
 "tutto il codice corrispondente. Pertanto, non si sprecheranno calcoli sugli "
 "effetti non usati."
+
+msgid "Light processor"
+msgstr "Processore di luce"
 
 msgid ""
 "The ``light()`` processor runs per pixel too, and it runs once for every "

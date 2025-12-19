@@ -104,6 +104,13 @@ msgstr ""
 "在CanvasItem设置下 **Y Sort Enabled** 为 ``true`` 时有效。"
 
 msgid ""
+"**X Draw Order Reversed** Reverses the order tiles are drawn on the X axis. "
+"Requires that **Y Sort Enabled** under CanvasItem settings is ``true``."
+msgstr ""
+"**X 轴绘制顺序反转** 反转图块在 X 轴上的绘制顺序。需要将 CanvasItem 设置中的 "
+"**Y 轴排序启用** 设置为 ``true`` 。"
+
+msgid ""
 "**Rendering Quadrant Size** A quadrant is a group of tiles drawn together on "
 "a single CanvasItem for optimization purposes. This setting defines the "
 "length of a square's side in the map's coordinate system. The quadrant size "

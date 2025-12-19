@@ -14,6 +14,22 @@ msgstr ""
 msgid "Spatial shaders"
 msgstr "Shader Spatial"
 
+msgid ""
+"Spatial shaders are used for shading 3D objects. They are the most complex "
+"type of shader Godot offers. Spatial shaders are highly configurable with "
+"different render modes and different rendering options (e.g. Subsurface "
+"Scattering, Transmission, Ambient Occlusion, Rim lighting etc). Users can "
+"optionally write vertex, fragment, and light processor functions to affect "
+"how objects are drawn."
+msgstr ""
+"Gli shader di tipo Spatial sono utilizzati per ombreggiare oggetti 3D. Sono "
+"il tipo di shader più complesso offerto da Godot. Gli shader spatial sono "
+"altamente configurabili con diverse modalità di rendering e diverse opzioni "
+"di rendering (ad esempio, Subsurface Scattering, Transmission, Ambient "
+"Occlusion, Rim Lighting, ecc.). Gli utenti possono opzionalmente scrivere "
+"funzioni processori di vertici, di frammenti e di luce per influenzare il "
+"modo in cui gli oggetti sono disegnati."
+
 msgid "Render modes"
 msgstr "Modalità di rendering"
 
@@ -57,17 +73,36 @@ msgstr "Modalità di fusione moltiplicativa."
 msgid "**blend_premul_alpha**"
 msgstr "**blend_premul_alpha**"
 
+msgid ""
+"Premultiplied alpha blend mode (fully transparent = add, fully opaque = mix)."
+msgstr ""
+"Modalità di fusione alfa premoltiplicato (completamente trasparente = "
+"aggiungi, completamente opaco = mescola)."
+
 msgid "**depth_draw_opaque**"
 msgstr "**depth_draw_opaque**"
+
+msgid "Only draw depth for opaque geometry (not transparent)."
+msgstr "Disegna la profondità soltanto per geometria opaca (non trasparente)."
 
 msgid "**depth_draw_always**"
 msgstr "**depth_draw_always**"
 
+msgid "Always draw depth (opaque and transparent)."
+msgstr "Disegna sempre la profondità (opaco e trasparente)."
+
 msgid "**depth_draw_never**"
 msgstr "**depth_draw_never**"
 
+msgid "Never draw depth."
+msgstr "Non disegnare mai la profondità."
+
 msgid "**depth_prepass_alpha**"
 msgstr "**depth_prepass_alpha**"
+
+msgid "Do opaque depth pre-pass for transparent geometry."
+msgstr ""
+"Effettua un pre-passaggio opaco di profondità per la geometria trasparente."
 
 msgid "**depth_test_disabled**"
 msgstr "**depth_test_disabled**"
@@ -77,6 +112,13 @@ msgstr "Disabilita il test di profondità."
 
 msgid "**sss_mode_skin**"
 msgstr "**sss_mode_skin**"
+
+msgid ""
+"Subsurface Scattering mode for skin (optimizes visuals for human skin, e.g. "
+"boosted red channel)."
+msgstr ""
+"Modalità di subsurface scattering per la pelle (ottimizza gli effetti visivi "
+"per la pelle umana, ad esempio aumentando il canale rosso)."
 
 msgid "**cull_back**"
 msgstr "**cull_back**"
@@ -118,23 +160,49 @@ msgstr ""
 msgid "**diffuse_burley**"
 msgstr "**diffuse_burley**"
 
+msgid "Burley (Disney PBS) for diffuse (default)."
+msgstr "Burley (Disney PBS) per la diffusione (predefinita)."
+
 msgid "**diffuse_lambert**"
 msgstr "**diffuse_lambert**"
+
+msgid "Lambert shading for diffuse."
+msgstr "Ombreggiatura Lambert per la diffusione."
 
 msgid "**diffuse_lambert_wrap**"
 msgstr "**diffuse_lambert_wrap**"
 
+msgid "Lambert-wrap shading (roughness-dependent) for diffuse."
+msgstr ""
+"Ombreggiatura Lambert-wrap (dipendente dalla rugosità) per la diffusione."
+
 msgid "**diffuse_toon**"
 msgstr "**diffuse_toon**"
+
+msgid "Toon shading for diffuse."
+msgstr "Ombreggiatura toon per la diffusione."
 
 msgid "**specular_schlick_ggx**"
 msgstr "**specular_schlick_ggx**"
 
+msgid "Schlick-GGX for direct light specular lobes (default)."
+msgstr "Schlick-GGX per lobi speculari a luce diretta (predefinito)."
+
 msgid "**specular_toon**"
 msgstr "**specular_toon**"
 
+msgid "Toon for direct light specular lobes."
+msgstr "Toon per lobi speculari a luce diretta."
+
 msgid "**specular_disabled**"
 msgstr "**specular_disabled**"
+
+msgid ""
+"Disable direct light specular lobes. Doesn't affect reflected light (use "
+"``SPECULAR = 0.0`` instead)."
+msgstr ""
+"Disabilita i lobi speculari a luce diretta. Non influisce sulla luce "
+"riflessa (usa invece ``SPECULAR = 0.0``)."
 
 msgid "**skip_vertex_transform**"
 msgstr "**skip_vertex_transform**"
@@ -198,6 +266,9 @@ msgstr ""
 msgid "**vertex_lighting**"
 msgstr "**vertex_lighting**"
 
+msgid "Use vertex-based lighting instead of per-pixel lighting."
+msgstr "Utilizza l'illuminazione basata sui vertici anziché quella per pixel."
+
 msgid "**particle_trails**"
 msgstr "**particle_trails**"
 
@@ -242,6 +313,18 @@ msgstr ""
 "valori sensati. I valori marcati come ``inout`` forniscono un valore "
 "predefinito sensato e sono scrivibili facoltativamente. I campionatori non "
 "sono scrivibili, quindi non sono marcati."
+
+msgid ""
+"Not all built-ins are available in all processing functions. To access a "
+"vertex built-in from the ``fragment()`` function, you can use "
+"a :ref:`varying <doc_shading_language_varyings>`. The same applies for "
+"accessing fragment built-ins from the ``light()`` function."
+msgstr ""
+"Non tutte le variabili integrate sono disponibili in tutte le funzioni di "
+"elaborazione. Per accedere a una variabile integrata di vertice dalla "
+"funzione ``fragment()``, è possibile utilizzare un :ref:`varying "
+"<doc_shading_language_varyings>`. Lo stesso vale per accedere alle variabili "
+"integrate di frammento dalla funzione ``light()``."
 
 msgid "Global built-ins"
 msgstr "Variabili integrate globali"
@@ -349,11 +432,35 @@ msgstr ""
 "modalità di rendering ``world_vertex_coords``."
 
 msgid ""
+"Users can disable the built-in modelview transform (projection will still "
+"happen later) and do it manually with the following code:"
+msgstr ""
+"Gli utenti possono disattivare la trasformazione integrata modello-vista (la "
+"proiezione avverrà comunque in seguito) e farlo manualmente con il seguente "
+"codice:"
+
+msgid ""
 "Other built-ins, such as ``UV``, ``UV2``, and ``COLOR``, are also passed "
 "through to the ``fragment()`` function if not modified."
 msgstr ""
 "Anche altre variabili integrate, come ``UV``, ``UV2`` e ``COLOR``, vengono "
 "passate alla funzione ``fragment()`` se non vengono modificate."
+
+msgid ""
+"Users can override the modelview and projection transforms using the "
+"``POSITION`` built-in. If ``POSITION`` is written to anywhere in the shader, "
+"it will always be used, so the user becomes responsible for ensuring that it "
+"always has an acceptable value. When ``POSITION`` is used, the value from "
+"``VERTEX`` is ignored and projection does not happen. However, the value "
+"passed to the fragment shader still comes from ``VERTEX``."
+msgstr ""
+"Gli utenti possono sovrascrivere le trasformazioni modello-vista e "
+"proiezione attraverso la variabile integrata ``POSITION``. Se ``POSITION`` "
+"viene scritto in qualsiasi punto dello shader, sarà sempre utilizzato, "
+"quindi l'utente è responsabile di garantire che abbia sempre un valore "
+"accettabile. Quando si utilizza ``POSITION``, il valore di ``VERTEX`` è "
+"ignorato e la proiezione non avviene. Tuttavia, il valore passato allo "
+"shader di frammento proviene comunque da ``VERTEX``."
 
 msgid ""
 "For instancing, the ``INSTANCE_CUSTOM`` variable contains the instance "
@@ -371,6 +478,15 @@ msgstr "**y**: Fase durante il ciclo di vita (da ``0.0`` a ``1.0``)."
 
 msgid "**z**: Animation frame."
 msgstr "**z**: Fotogramma di animazione."
+
+msgid ""
+"This allows you to easily adjust the shader to a particle system using "
+"default particles material. When writing a custom particle shader, this "
+"value can be used as desired."
+msgstr ""
+"Ciò permette di adattare facilmente lo shader a un sistema di particelle "
+"utilizzando il materiale di particelle predefinito. Quando si crea uno "
+"shader di particelle personalizzato, questo valore si può usare a piacere."
 
 msgid "in vec2 **VIEWPORT_SIZE**"
 msgstr "in vec2 **VIEWPORT_SIZE**"
@@ -421,9 +537,6 @@ msgstr "Posizione del nodo, nello spazio visivo."
 msgid "in vec3 **CAMERA_POSITION_WORLD**"
 msgstr "in vec3 **CAMERA_POSITION_WORLD**"
 
-msgid "Camera position, in world space."
-msgstr "Posizione della telecamera, nello spazio mondiale."
-
 msgid "in vec3 **CAMERA_DIRECTION_WORLD**"
 msgstr "in vec3 **CAMERA_DIRECTION_WORLD**"
 
@@ -473,13 +586,6 @@ msgstr "Costante l'occhio destro, sempre ``1``."
 
 msgid "in vec3 **EYE_OFFSET**"
 msgstr "in vec3 **EYE_OFFSET**"
-
-msgid ""
-"Position offset for the eye being rendered. Only applicable for multiview "
-"rendering."
-msgstr ""
-"Offset di posizione per l'occhio che si sta renderizzando. Applicabile solo "
-"per il rendering multivista."
 
 msgid "inout vec3 **VERTEX**"
 msgstr "inout vec3 **VERTEX**"

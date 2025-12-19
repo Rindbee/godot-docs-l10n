@@ -17,5 +17,8 @@ msgstr "소개"
 msgid "Label3D"
 msgstr "Label3D"
 
+msgid "Advantages"
+msgstr "장점"
+
 msgid "Limitations"
 msgstr "제한 사항"

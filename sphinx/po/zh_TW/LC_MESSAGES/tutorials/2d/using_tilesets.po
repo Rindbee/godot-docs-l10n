@@ -672,7 +672,7 @@ msgid ""
 "Godot 3.x: 2×2, 3×3 or 3×3 minimal. This is also similar to what the `Tiled "
 "<https://www.mapeditor.org/>`__ editor features."
 msgstr ""
-"上述模式在 Godot 3.x 中對應的自動圖塊位元遮罩模式為 2×2、3×3、3×3 Minimal。也"
+"上述模式在 Godot 3.x 中對應的自動圖塊位元遮罩模式為 2×2、3×3或3×3 Minimal。也"
 "和 `Tiled <https://www.mapeditor.org/>`__ 編輯器中使用的模式類似。"
 
 msgid ""

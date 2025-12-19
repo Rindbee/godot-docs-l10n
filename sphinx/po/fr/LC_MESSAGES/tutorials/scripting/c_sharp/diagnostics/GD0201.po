@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0201: The name of the delegate must end with 'EventHandler'"
+msgstr "GD0201 : Le nom du délégué doit se terminer par 'EventHandler'"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

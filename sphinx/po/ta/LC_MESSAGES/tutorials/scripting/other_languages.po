@@ -14,6 +14,27 @@ msgstr ""
 msgid "Other languages"
 msgstr "பிற மொழிகள்"
 
+msgid ""
+"The Godot developers officially support the following languages for Godot:"
+msgstr ""
+"கோடோட் உருவாக்குபவர்கள் கோடோட்டிற்கான பின்வரும் மொழிகளை அதிகாரப்பூர்வமாக ஆதரிக்கின்றனர்:"
+
+msgid ":ref:`GDScript (all versions)<doc_gdscript>`"
+msgstr ":ref:`GDScript (all versions)<doc_gdscript>`"
+
+msgid ":ref:`C# (.NET version)<doc_c_sharp>`"
+msgstr ": ref: `c# (.net பதிப்பு) <doc_c_sharp>`"
+
+msgid ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+msgstr ":ref:`C++ (via GDExtension) <doc_godot_cpp>`"
+
+msgid ""
+"There are no plans to support additional languages officially. That said, "
+"the community offers several bindings for other languages (see below)."
+msgstr ""
+"கூடுதல் மொழிகளை அதிகாரப்பூர்வமாக ஆதரிக்க எந்த திட்டமும் இல்லை. சமூகம் பிற மொழிகளுக்கு "
+"பல பிணைப்புகளை வழங்குகிறது (கீழே காண்க)."
+
 msgid "The bindings below are developed and maintained by the community:"
 msgstr "கீழே உள்ள பிணைப்புகள் சமூகத்தால் உருவாக்கப்பட்டு பராமரிக்கப்படுகின்றன:"
 
@@ -31,6 +52,9 @@ msgstr "`துரு <https://github.com/godot-rust/gdext> ____ __"
 
 msgid "`Swift <https://github.com/migueldeicaza/SwiftGodot>`__"
 msgstr "`ச்விஃப்ட் <https://github.com/migueldeicaza/swiftgodot> ____ __ __"
+
+msgid "`Odin <https://github.com/dresswithpockets/odin-godot>`__"
+msgstr "`Odin <https://github.com/dresswithpockets/odin-godot> ____ __"
 
 msgid ""
 "Not all bindings mentioned here may be production-ready. Make sure to "

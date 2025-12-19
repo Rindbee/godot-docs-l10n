@@ -215,7 +215,7 @@ msgstr ""
 "`@UsedByGodot <https://github.com/godotengine/godot/blob/"
 "0a7f75ec7b465604b6496c8f5f1d638aed250d6d/platform/android/java/lib/src/org/"
 "godotengine/godot/plugin/UsedByGodot.java#L45>`_ 標註。從 GDScript 呼叫時, 方"
-"法名稱 **必須完全相同**, **不會** 將 ``snake_case`` 強制轉換為 "
+"法名稱 **必須完全相同** , **不會** 將 ``snake_case`` 強制轉換為 "
 "``camelCase``。例如, 從 GDScript:"
 
 msgid ""

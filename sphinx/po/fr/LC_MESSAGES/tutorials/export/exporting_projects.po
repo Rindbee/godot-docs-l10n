@@ -113,7 +113,7 @@ msgstr ""
 
 msgid "To open the export menu, click the **Export** button:"
 msgstr ""
-"Pour ouvrir le menu d'exportation, cliquez sur le bouton \"Exporter\" :"
+"Pour ouvrir le menu d'exportation, cliquez sur le bouton **Exporter** :"
 
 msgid ""
 "The export menu will open. However, it will be completely empty. This is "
@@ -174,7 +174,7 @@ msgid ""
 "Templates** option in the editor:"
 msgstr ""
 "Une fois téléchargés, ils peuvent être installés à l'aide de l'option "
-"\"Installer des modèles d'exportation\" dans l'éditeur :"
+"**Installer des modèles d'export** dans l'éditeur :"
 
 msgid "Resource options"
 msgstr "Options de ressources"

@@ -14,8 +14,5 @@ msgstr ""
 msgid "Rationale"
 msgstr "Uzasadnienie"
 
-msgid ":ref:`doc_overriding_build_options`."
-msgstr ":ref:`Interfejs Godota <doc_godot_interfaces>`."
-
 msgid "Web"
 msgstr "Przeglądarka (HTML5)"

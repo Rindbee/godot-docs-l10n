@@ -46,5 +46,8 @@ msgstr "XR"
 msgid "Editor plugins"
 msgstr "エディタプラグイン"
 
+msgid "Navigation"
+msgstr "ナビゲーション"
+
 msgid "Physics"
 msgstr "物理"

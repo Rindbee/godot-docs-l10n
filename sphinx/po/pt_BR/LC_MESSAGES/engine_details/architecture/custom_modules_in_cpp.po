@@ -57,13 +57,6 @@ msgid "Creating a new module"
 msgstr "Criando um novo módulo"
 
 msgid ""
-"Before creating a module, make sure to :ref:`download the source code of "
-"Godot and compile it <toc-devel-compiling>`."
-msgstr ""
-"Antes de criar um módulo, certifique-se de :ref:`baixar o código fonte do "
-"Godot e compilá-lo <toc-devel-compilação>`."
-
-msgid ""
 "To create a new module, the first step is creating a directory inside "
 "``modules/``. If you want to maintain the module separately, you can "
 "checkout a different VCS into modules and use it."
@@ -148,14 +141,6 @@ msgstr "Resumindo"
 
 msgid "Remember to:"
 msgstr "Lembre-se de:"
-
-msgid ""
-"If you inherit from :ref:`class_Resource`, it will appear in the resource "
-"list, and all the exposed properties can be serialized when saved/loaded."
-msgstr ""
-"Se você herdar de: ref: `class_Resource`, ele aparecerá na lista de "
-"recursos, e todas as propriedades expostas podem ser serializadas quando "
-"salvas / carregadas."
 
 msgid ""
 "By this same logic, you can extend the Editor and almost any area of the "

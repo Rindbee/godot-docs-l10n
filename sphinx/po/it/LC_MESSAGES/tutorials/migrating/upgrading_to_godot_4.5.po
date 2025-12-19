@@ -99,16 +99,8 @@ msgstr "Introdotti"
 msgid "**JSONRPC**"
 msgstr "**JSONRPC**"
 
-msgid "Method ``set_scope`` replaced by ``set_method`` optional parameter"
-msgstr ""
-"Il metodo ``set_scope`` è stato sostituito dal nuovo parametro facoltativo "
-"di ``set_method``"
-
 msgid "|❌|"
 msgstr "|❌|"
-
-msgid "|✔️ with compat|"
-msgstr "|✔️ with compat|"
 
 msgid "`GH-104890`_"
 msgstr "`GH-104890`_"
@@ -119,6 +111,9 @@ msgstr "**Node**"
 msgid "Method ``get_rpc_config`` renamed to ``get_node_rpc_config``"
 msgstr ""
 "Il metodo ``get_rpc_config`` è stato rinominato in ``get_node_rpc_config``"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
 
 msgid "`GH-106848`_"
 msgstr "`GH-106848`_"
@@ -183,18 +178,6 @@ msgstr "`GH-104269`_"
 
 msgid "Method ``instance_set_interpolated`` removed"
 msgstr "Metodo ``instance_set_interpolated`` rimosso"
-
-msgid ""
-"In C#, the enum ``RenderingDevice.Features`` breaks compatibility because of "
-"the way the bindings generator detects the enum prefix. New members where "
-"added to the enum in `GH-103941`_ that caused the enum member ``Address`` to "
-"be renamed to ``BufferDeviceAddress``."
-msgstr ""
-"In C#, l'enumerazione ``RenderingDevice.Features`` interrompe la "
-"compatibilità a causa del modo in cui il generatore di binding rileva il "
-"prefisso dell'enumerazione. In `GH-103941`_ sono stati aggiunti nuovi membri "
-"all'enum, causando il membro ``Address`` a essere rinominato in "
-"``BufferDeviceAddress``."
 
 msgid "GLTF"
 msgstr "GLTF"
@@ -607,13 +590,6 @@ msgstr "`GH-108825`_"
 msgid "Behavior changes"
 msgstr "Cambiamenti di comportamento"
 
-msgid ""
-"In 4.5 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"Nella versione 4.5 sono state introdotte alcune modifiche comportamentali "
-"che potrebbero richiedere di adattare il progetto."
-
 msgid "3D Model Import"
 msgstr "Importazione di modelli 3D"
 
@@ -665,6 +641,9 @@ msgstr ""
 "correttamente un quaternione che rappresenta l'arco più breve tra i due "
 "vettori di input. In passato, restituiva valori errati per alcuni input "
 "(`GH-107618`_)."
+
+msgid "Navigation"
+msgstr "Navigazione"
 
 msgid "Physics"
 msgstr "Fisica"

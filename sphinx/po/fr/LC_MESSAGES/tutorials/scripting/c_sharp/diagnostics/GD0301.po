@@ -11,6 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0301: The generic type argument must be a Variant compatible type"
+msgstr ""
+"GD0301 : L'argument de type générique doit être un type compatible avec "
+"Variant"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

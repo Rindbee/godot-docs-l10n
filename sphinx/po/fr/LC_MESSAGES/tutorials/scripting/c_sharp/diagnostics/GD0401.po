@@ -11,6 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0401: The class must derive from Godot.GodotObject or a derived class"
+msgstr ""
+"GD0401 : La classe doit dériver de Godot.GodotObject ou d'une classe dérivée"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

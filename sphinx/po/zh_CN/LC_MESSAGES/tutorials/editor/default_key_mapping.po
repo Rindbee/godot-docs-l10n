@@ -1219,6 +1219,18 @@ msgstr ":kbd:`Cmd + Shift + C`"
 msgid "``script_text_editor/duplicate_selection``"
 msgstr "``script_text_editor/duplicate_selection``"
 
+msgid ":kbd:`Shift + Opt + Down Arrow`"
+msgstr ":kbd:`Shift + Opt + 下箭头`"
+
+msgid ":kbd:`Shift + Opt + Up Arrow`"
+msgstr ":kbd:`Shift + Opt + 上箭头`"
+
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "Complete Symbol"
 msgstr "符号自动补全"
 
@@ -1435,17 +1447,11 @@ msgstr "``script_editor/find_in_files``"
 msgid ":kbd:`Shift + Alt + Up Arrow`"
 msgstr ":kbd:`Shift + Alt + Up Arrow`"
 
-msgid ":kbd:`Shift + Opt + Up Arrow`"
-msgstr ":kbd:`Shift + Opt + 上箭头`"
-
 msgid "``script_editor/window_move_up``"
 msgstr "``script_editor/window_move_up``"
 
 msgid ":kbd:`Shift + Alt + Down Arrow`"
 msgstr ":kbd:`Shift + Alt + Down Arrow`"
-
-msgid ":kbd:`Shift + Opt + Down Arrow`"
-msgstr ":kbd:`Shift + Opt + 下箭头`"
 
 msgid "``script_editor/window_move_down``"
 msgstr "``script_editor/window_move_down``"
@@ -1743,12 +1749,6 @@ msgstr "``filesystem_dock/copy_path``"
 
 msgid "Duplicate"
 msgstr "创建副本"
-
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
 
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"

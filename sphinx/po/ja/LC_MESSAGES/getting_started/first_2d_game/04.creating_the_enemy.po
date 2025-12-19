@@ -158,6 +158,9 @@ msgstr ""
 "デックスは ``0`` から始まります)。式 ``GD.Randi() % n`` は ``0`` から "
 "``n-1`` までのランダムな整数を選択します。"
 
+msgid "Finally, we call ``play()`` to start playing the chosen animation."
+msgstr "最後に、``play()``を呼び出して選択したアニメーションを再生します。"
+
 msgid ""
 "The last piece is to make the mobs delete themselves when they leave the "
 "screen. Connect the ``screen_exited()`` signal of the "

@@ -10,3 +10,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Low tick rates (10-30)"
+msgstr "낮은 틱 레이트 (10-30)"
+
+msgid "Medium tick rates (30-60)"
+msgstr "중간 틱 레이트 (30-60)"
+
+msgid "High tick rates (60+)"
+msgstr "높은 틱 레이트 (60+)"

@@ -98,7 +98,7 @@ msgid "Special cases:"
 msgstr "Особые случаи:"
 
 msgid "GDScript"
-msgstr "GDScript_"
+msgstr "GDScript"
 
 msgid "C#"
 msgstr "C#"

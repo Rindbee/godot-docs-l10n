@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0101: The exported member is static"
+msgstr "GD0101 : Le membre exporté est statique"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

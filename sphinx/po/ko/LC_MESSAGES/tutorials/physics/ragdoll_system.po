@@ -59,3 +59,10 @@ msgstr "최종 결과물입니다:"
 
 msgid "Collision layer and mask"
 msgstr "콜리전 레이어와 마스크"
+
+msgid ""
+"For more information, "
+"read :ref:`doc_physics_introduction_collision_layers_and_masks`."
+msgstr ""
+"자세한 정보는 :ref:`doc_physics_introduction_collision_layers_and_masks`\\ "
+"를 읽으세요."

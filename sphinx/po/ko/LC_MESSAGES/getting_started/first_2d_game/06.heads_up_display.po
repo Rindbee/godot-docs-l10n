@@ -115,17 +115,6 @@ msgstr ""
 msgid "ScoreLabel"
 msgstr "ScoreLabel"
 
-msgid "Add the text ``0``."
-msgstr "텍스트 ``0``을 추가합니다."
-
-msgid ""
-"Set the \"Horizontal Alignment\" and \"Vertical Alignment\" to ``Center``."
-msgstr "\"가로 정렬\"과 \"세로 정렬\"을 ``가운데``로 설정합니다."
-
-msgid "Choose the \"Anchor Preset\" ``Center Top``."
-msgstr ""
-"\"앵커 프리셋(Anchor Preset)\"을 ``중심 상단(Center Top)``으로 선택합니다."
-
 msgid "Message"
 msgstr "메시지"
 
@@ -134,9 +123,6 @@ msgstr "\"앵커 프리셋\"을 ``가운데``\\ 로 선택합니다."
 
 msgid "StartButton"
 msgstr "StartButton"
-
-msgid "Choose the \"Anchor Preset\" ``Center Bottom``."
-msgstr "\"Anchor Preset\"을 ``중심 하단(Center Bottom)``로 선택합니다."
 
 msgid ""
 "On the ``MessageTimer``, set the ``Wait Time`` to ``2`` and set the ``One "
@@ -158,9 +144,6 @@ msgstr ""
 "``create_timer()`` 함수를 사용하는 것이 좋습니다. 이 함수는 \"Start\" 버튼을 "
 "표시하기 전에 잠시 기다려야 하는 위의 코드와 같이 지연을 추가하는 데 매우 유"
 "용할 수 있습니다."
-
-msgid "Add the code below to ``HUD`` to update the score"
-msgstr "``HUD``에 아래 코드를 추가하여 점수를 업데이트합니다"
 
 msgid "Connecting HUD to Main"
 msgstr "메인에 HUD를 연결하기"

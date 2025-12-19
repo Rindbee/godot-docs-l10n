@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0402: The class must not be generic"
+msgstr "GD0402 : La classe ne doit pas être générique"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

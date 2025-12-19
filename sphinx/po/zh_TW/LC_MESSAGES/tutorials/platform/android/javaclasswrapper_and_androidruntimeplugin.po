@@ -99,7 +99,7 @@ msgid ""
 msgstr ""
 "結合 ``JavaClassWrapper`` 與 ``AndroidRuntime`` 外掛, 開發者無需離開 "
 "GDScript, 也不需要 Godot 以外的工具, 就能存取並使用 Android API。這對推廣以 "
-"Godot 進行 Android 開發而言影響 **重大**:"
+"Godot 進行 Android 開發而言影響 **重大** :"
 
 msgid ""
 "If you need to do something simple, or only use a small part of a third-"

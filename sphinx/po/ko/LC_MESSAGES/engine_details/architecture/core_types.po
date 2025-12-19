@@ -11,5 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Core types"
+msgstr "코어 유형"
+
+msgid "Definitions"
+msgstr "정의"
+
 msgid "Comment"
 msgstr "주석"

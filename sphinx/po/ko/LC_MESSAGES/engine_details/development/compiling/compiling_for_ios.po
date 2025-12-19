@@ -26,6 +26,9 @@ msgstr "요구 사항"
 msgid "Compiling"
 msgstr "컴파일링"
 
+msgid "To compile a release build:"
+msgstr "출시 빌드에서 컴파일하려면:"
+
 msgid "Run"
 msgstr "실행"
 

@@ -1263,6 +1263,10 @@ msgstr ""
 "bereitgestellte zu einfach ist und Internationalisierung nur unzureichend "
 "unterstützt."
 
+msgid ""
+"Check out :ref:`Godot's container types <doc_core_types>` for alternatives."
+msgstr "Siehe :ref:`Godots Kerntypen <doc_core_types>` für Alternativen."
+
 msgid "Why does Godot not use exceptions?"
 msgstr "Weshalb verwendet Godot keine Exceptions?"
 
@@ -1356,6 +1360,13 @@ msgid "How can I support Godot development or contribute?"
 msgstr ""
 "Wie kann ich die Entwicklung von Godot unterstützen oder einen Beitrag "
 "leisten?"
+
+msgid ""
+"See `How to contribute <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
+msgstr ""
+"Siehe `How to contribute <https://contributing.godotengine.org/en/latest/"
+"organization/how_to_contribute.html>`__."
 
 msgid "Who is working on Godot? How can I contact you?"
 msgstr "Wer arbeitet an Godot? Wie kann ich euch kontaktieren?"

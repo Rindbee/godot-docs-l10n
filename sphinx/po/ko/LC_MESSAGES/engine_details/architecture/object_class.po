@@ -20,5 +20,8 @@ msgstr "시그널"
 msgid "Notifications"
 msgstr "알림(Notification)"
 
+msgid "References"
+msgstr "참조"
+
 msgid "Resources"
 msgstr "리소스"

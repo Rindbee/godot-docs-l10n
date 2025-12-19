@@ -16,3 +16,6 @@ msgstr "Introduzione"
 
 msgid "Transform functions"
 msgstr "Funzioni di trasformazione"
+
+msgid "Feeding custom input events"
+msgstr "Inviare eventi di input personalizzati"

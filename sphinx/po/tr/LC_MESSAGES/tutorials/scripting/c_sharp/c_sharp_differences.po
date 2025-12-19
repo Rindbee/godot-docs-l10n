@@ -56,6 +56,24 @@ msgstr "Dize"
 msgid "chr"
 msgstr "chr"
 
+msgid ""
+"StringExtensions.Sha256Buffer (Consider using "
+"`System.Security.Cryptography.SHA256.HashData`_)"
+msgstr ""
+"StringExtensions.Sha256Buffer "
+"(`System.Security.Cryptography.SHA256.HashData` kullanılması önerilir)"
+
+msgid ""
+"StringExtensions.Sha256Text (Consider using "
+"`System.Security.Cryptography.SHA256.HashData`_ with "
+"StringExtensions.HexEncode)"
+msgstr ""
+"StringExtensions.Sha256Text (`StringExtensions.HexEncode` ile birlikte "
+"`System.Security.Cryptography.SHA256.HashData`_ kullanmanız önerilir)"
+
+msgid "similarity"
+msgstr "Benzerlik"
+
 msgid "StringExtensions.ToCamelCase"
 msgstr "StringExtensions.ToCamelCase"
 

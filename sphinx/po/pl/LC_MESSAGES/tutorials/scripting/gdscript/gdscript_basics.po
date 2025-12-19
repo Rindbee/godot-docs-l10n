@@ -448,13 +448,6 @@ msgstr "Adnotacje"
 msgid "Comments"
 msgstr "Komentarze"
 
-msgid ""
-"Anything from a ``#`` to the end of the line is ignored and is considered a "
-"comment."
-msgstr ""
-"Wszystko od ``#``do końca wiersza jest ignorowane i jest traktowane jako "
-"komentarz."
-
 msgid "Built-in types"
 msgstr "Typy wbudowane"
 

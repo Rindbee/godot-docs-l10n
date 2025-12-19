@@ -90,6 +90,24 @@ msgstr ""
 "динамические конструкции, не типичные для C++. Подружитесь с Variant уже "
 "сегодня."
 
+msgid ""
+"All types within Variant except Nil and Object **cannot** be ``null`` and "
+"must always store a valid value. These types within Variant are therefore "
+"called *non-nullable* types."
+msgstr ""
+"Все типы в Variant, за исключением Nil и Object, **не могут** быть ``null`` "
+"и всегда должны хранить допустимое значение. Поэтому эти типы в Variant "
+"называются *необнуляемыми* типами."
+
+msgid ""
+"One of the Variant types is *Nil* which can only store the value ``null``. "
+"Therefore, it is possible for a Variant to contain the value ``null``, even "
+"though all Variant types excluding Nil and Object are non-nullable."
+msgstr ""
+"Один из типов Variant — *Nil*, который может хранить только значение "
+"``null``. Следовательно, Variant может содержать значение ``null``, хотя все "
+"типы Variant, за исключением Nil и Object, не допускают значения \"null\"."
+
 msgid "References"
 msgstr "Ссылки"
 
@@ -111,6 +129,9 @@ msgstr "Тип"
 
 msgid "Notes"
 msgstr "Примечания"
+
+msgid "Nil (can only store ``null``)"
+msgstr "Nil (можно хранить только ``null``)"
 
 msgid "Nullable type"
 msgstr "Тип, допускающий значение NULL"
@@ -135,6 +156,9 @@ msgstr ":ref:`class_vector2i`"
 
 msgid ":ref:`class_rect2`"
 msgstr ":ref:`class_rect2`"
+
+msgid "2D counterpart of AABB"
+msgstr "2D-аналог AABB"
 
 msgid ":ref:`class_rect2i`"
 msgstr ":ref:`class_rect2i`"
@@ -162,6 +186,9 @@ msgstr ":ref:`class_quaternion`"
 
 msgid ":ref:`class_aabb`"
 msgstr ":ref:`class_aabb`"
+
+msgid "3D counterpart of Rect2"
+msgstr "3D-аналог Rect2"
 
 msgid ":ref:`class_basis`"
 msgstr ":ref:`class_basis`"

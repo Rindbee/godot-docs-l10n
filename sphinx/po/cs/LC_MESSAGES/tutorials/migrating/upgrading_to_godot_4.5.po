@@ -20,5 +20,8 @@ msgstr "**Font**"
 msgid "XR"
 msgstr "XR"
 
+msgid "Navigation"
+msgstr "Navigace"
+
 msgid "Physics"
 msgstr "Fyzika"

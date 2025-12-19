@@ -13,3 +13,12 @@ msgstr ""
 
 msgid "Internationalize a string"
 msgstr "문자열 국제화"
+
+msgid ""
+"See `core/error/error_macros.h <https://github.com/godotengine/godot/blob/"
+"master/core/error/error_macros.h>`__ in Godot's codebase for more "
+"information about each error macro."
+msgstr ""
+"각 오류 매크로에 대한 자세한 정보는 Godot의 코드베이스에서 `core/error/"
+"error_macros.h <https://github.com/godotengine/godot/blob/master/core/error/"
+"error_macros.h>`__\\ 를 참조하세요."

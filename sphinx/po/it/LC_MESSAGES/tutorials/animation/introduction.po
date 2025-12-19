@@ -164,7 +164,7 @@ msgstr ""
 "Se animi la proprietà sbagliata, è possibile modificare il percorso di una "
 "traccia in qualsiasi momento facendo doppio clic su di essa e digitando il "
 "nuovo percorso. Riproduci l'animazione premendo il pulsante \"Riproduci "
-"dall'inizio\" |Play from beginning| (o premendo :kbd:`Maiusc + D` sulla "
+"dall'inizio\" |Play from beginning| (o premendo :kbd:`Shift + D` sulla "
 "tastiera) per vedere immediatamente le modifiche."
 
 msgid "Play from beginning"

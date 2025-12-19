@@ -1040,6 +1040,12 @@ msgstr ":kbd:`Ctrl + Shift + D`"
 msgid ":kbd:`Cmd + Shift + C`"
 msgstr ":kbd:`Cmd + Shift + C`"
 
+msgid ":kbd:`Ctrl + D`"
+msgstr ":kbd:`Ctrl + D`"
+
+msgid ":kbd:`Cmd + D`"
+msgstr ":kbd:`Cmd + D`"
+
 msgid "Complete Symbol"
 msgstr "Doplnit symbol"
 
@@ -1522,12 +1528,6 @@ msgstr "``filesystem_dock/copy_path``"
 
 msgid "Duplicate"
 msgstr "Duplikovat"
-
-msgid ":kbd:`Ctrl + D`"
-msgstr ":kbd:`Ctrl + D`"
-
-msgid ":kbd:`Cmd + D`"
-msgstr ":kbd:`Cmd + D`"
 
 msgid "``filesystem_dock/duplicate``"
 msgstr "``filesystem_dock/duplicate``"

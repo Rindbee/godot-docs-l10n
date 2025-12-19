@@ -126,6 +126,12 @@ msgstr "``emacs +{line}:{col} {file}``"
 msgid "Sublime Text"
 msgstr "Sublime Text"
 
+msgid "``{project} {file}:{line}:{col}``"
+msgstr "``{project} {file}:{line}:{col}``"
+
+msgid "Visual Studio*"
+msgstr "Visual Studio*"
+
 msgid "``/edit \"file\"``"
 msgstr "``/edit \"file\"``"
 

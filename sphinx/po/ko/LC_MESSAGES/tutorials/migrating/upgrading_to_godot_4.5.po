@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Breaking changes"
+msgstr "깨는 변경사항"
+
 msgid "Change"
 msgstr "변경"
 
@@ -25,6 +28,24 @@ msgstr "**TreeItem**"
 
 msgid "XR"
 msgstr "XR"
+
+msgid "**OpenXRBindingModifierEditor**"
+msgstr "**OpenXRBindingModifierEditor**"
+
+msgid "**OpenXRInteractionProfileEditor**"
+msgstr "**OpenXRInteractionProfileEditor**"
+
+msgid "**OpenXRInteractionProfileEditorBase**"
+msgstr "**OpenXRInteractionProfileEditorBase**"
+
+msgid "**EditorExportPlatform**"
+msgstr "**EditorExportPlatform**"
+
+msgid "3D Model Import"
+msgstr "3D 모델 가져오기"
+
+msgid "Navigation"
+msgstr "내비게이션"
 
 msgid "Physics"
 msgstr "물리"

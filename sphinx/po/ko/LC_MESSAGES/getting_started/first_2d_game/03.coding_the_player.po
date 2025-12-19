@@ -114,15 +114,6 @@ msgstr ""
 msgid "Repeat these steps to add three more mappings:"
 msgstr "이 단계를 반복하여 매핑을 3개 더 추가합니다:"
 
-msgid "``move_left`` mapped to the left arrow key."
-msgstr "왼쪽 화살표 키에 매핑된 ``move_left``입니다."
-
-msgid "``move_up`` mapped to the up arrow key."
-msgstr "위쪽 화살표 키에 매핑된 ``move_up``입니다."
-
-msgid "And ``move_down`` mapped to the down arrow key."
-msgstr "그리고 아래쪽 화살표 키에 매핑된 ``move_down``입니다."
-
 msgid "Click the \"Close\" button to close the project settings."
 msgstr "프로젝트 설정을 닫으려면 \"닫기\" 버튼을 클릭합니다."
 

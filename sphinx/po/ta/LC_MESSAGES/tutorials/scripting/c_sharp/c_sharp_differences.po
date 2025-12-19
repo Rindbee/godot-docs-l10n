@@ -14,6 +14,11 @@ msgstr ""
 msgid "C# API differences to GDScript"
 msgstr "சி# பநிஇ GDSCRIPT க்கு வேறுபாடுகள்"
 
+msgid ""
+"This is an (incomplete) list of API differences between C# and GDScript."
+msgstr ""
+"இது சி# மற்றும் சி.டி.எச்ச்கிரிப்ட் இடையே பநிஇ வேறுபாடுகளின் (முழுமையற்ற) பட்டியல்."
+
 msgid "General differences"
 msgstr "பொது வேறுபாடுகள்"
 
@@ -1008,6 +1013,13 @@ msgstr ""
 "`` System.string`` (`` சரம்``) ஐப் பயன்படுத்தவும். கோடோட்டின் பெரும்பாலான சரம் முறைகள் "
 "`` சிச்டம்.ச்டரிங்`` இல் சமமானதாக உள்ளன அல்லது `` ச்ட்ரிங் எக்ச்டென்சியன்ச்`` வகுப்பால் "
 "நீட்டிப்பு முறைகளாக வழங்கப்படுகின்றன."
+
+msgid ""
+"Note that C# strings use UTF-16 encoding, while Godot Strings use UTF-32 "
+"encoding."
+msgstr ""
+"சி# சரங்கள் யுடிஎஃப் -16 குறியாக்கத்தைப் பயன்படுத்துகின்றன என்பதை நினைவில் கொள்க, அதே "
+"நேரத்தில் கோடோட் சரங்கள் யுடிஎஃப் -32 குறியாக்கத்தைப் பயன்படுத்துகின்றன."
 
 msgid ""
 "Strings are immutable in .NET, so all methods that manipulate a string don't "

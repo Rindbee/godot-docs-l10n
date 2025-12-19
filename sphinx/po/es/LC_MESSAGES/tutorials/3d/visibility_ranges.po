@@ -24,16 +24,16 @@ msgid "Clearcoat"
 msgstr "Clearcoat"
 
 msgid "Anisotropy"
-msgstr "Anisotrópico"
+msgstr "Anisotropy (Anisotropía)"
 
 msgid "Height"
-msgstr "Altura"
+msgstr "Height (Altura)"
 
 msgid "Subsurface Scattering"
-msgstr "Dispersión Subsuperficial"
+msgstr "Subsurface Scatter (Dispersión Subsuperficial)"
 
 msgid "Back Lighting"
 msgstr "Iluminación trasera"
 
 msgid "Refraction"
-msgstr "Refracción"
+msgstr "Refraction (Refracción)"

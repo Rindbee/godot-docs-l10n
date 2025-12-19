@@ -462,15 +462,6 @@ msgstr ""
 "Bu diyagram, RenderingDevice soyutlaması da dahil olmak üzere Godot'daki "
 "işleme sınıflarının yapısını temsil eder:"
 
-msgid ""
-"`View at full size <https://raw.githubusercontent.com/godotengine/godot-docs/"
-"master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-msgstr ""
-"`Tam boyutta görüntüle <https://raw.githubusercontent.com/godotengine/godot-"
-"docs/master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-
 msgid "Core shaders"
 msgstr "Çekirdek gölgelendiriciler"
 

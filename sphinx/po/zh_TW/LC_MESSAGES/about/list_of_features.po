@@ -449,7 +449,7 @@ msgid ""
 "Supports Burley, Lambert, Lambert Wrap (half-Lambert) and Toon diffuse "
 "shading modes."
 msgstr ""
-"支援 Burley、Lambert、Lambert Wrap（半 Lambert）、Toon 漫反射著色模式。"
+"支援 Burley, Lambert, Lambert Wrap（半 Lambert）和Toon 漫反射著色模式。"
 
 msgid "Supports Schlick-GGX, Toon and Disabled specular shading modes."
 msgstr "支援 Schlick-GGX、Toon 和 Disabled 鏡面反射著色模式。"

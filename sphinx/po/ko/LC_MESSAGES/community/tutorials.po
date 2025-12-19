@@ -45,6 +45,12 @@ msgstr ""
 "playlists>`_\\ 의 Godot 동영상 튜토리얼은 커뮤니티에서 좋은 평가를 받고 있으"
 "며, 초보자를 위한 쉬운 소개 자료로 자주 추천됩니다."
 
+msgid ""
+"Some tutorials mentioned below cover more advanced subjects, e.g. on 3D or "
+"shaders."
+msgstr ""
+"아래에 언급된 일부 튜토리얼은 3D나 셰이더와 같은 더 고급 주제를 다룹니다."
+
 msgid "Video tutorials"
 msgstr "비디오 튜토리얼"
 

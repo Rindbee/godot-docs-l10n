@@ -559,7 +559,7 @@ msgstr ""
 "fait partie des balises BBCode pour des raisons de cohérence."
 
 msgid "Marking API as deprecated/experimental"
-msgstr "Marque l'API comme expérimentale/Dépréciée"
+msgstr "Marquer une API comme expérimentale/obsolète"
 
 msgid ""
 "To mark an API as deprecated or experimental, you need to add the "

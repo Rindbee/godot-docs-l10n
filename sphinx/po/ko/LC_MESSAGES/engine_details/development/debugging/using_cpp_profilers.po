@@ -11,5 +11,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using C++ profilers"
+msgstr "C++ 프로파일러 사용하기"
+
+msgid "Recommended profilers"
+msgstr "추천 프로파일러"
+
 msgid "Setting up Godot"
-msgstr "Godot에서 설정하기"
+msgstr "Godot 설정하기"

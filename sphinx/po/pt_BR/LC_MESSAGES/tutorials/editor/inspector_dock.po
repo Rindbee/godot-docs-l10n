@@ -33,16 +33,6 @@ msgstr ""
 msgid "Usage"
 msgstr "Uso"
 
-msgid ""
-"If the inspector dock is visible, clicking on a node in the scene tree will "
-"automatically display its properties. If it is not visible, you can show it "
-"by navigating to **Editor > Editor Settings > Editor Docks > Inspector**."
-msgstr ""
-"Se o painel do Inspetor estiver visível, clicar em um nó na árvore da cena "
-"exibirá automaticamente suas propriedades. Se não estiver visível, você pode "
-"exibi-lo acessando **Editor > Configurações do Editor > Painéis do Editor > "
-"Inspetor**."
-
 msgid "From left to right:"
 msgstr "Da esquerda para a direita:"
 

@@ -14,6 +14,21 @@ msgstr ""
 msgid "Built-in functions"
 msgstr "내장 함수"
 
+msgid "mat2, mat3, or mat4"
+msgstr "mat2, mat3, 또는 mat4"
+
+msgid "vec4, ivec4, or uvec4"
+msgstr "vec4, ivec4, 또는 uvec4"
+
+msgid "sampler2D, isampler2D, or uSampler2D"
+msgstr "sampler2D, isampler2D, 또는 uSampler2D"
+
+msgid "sampler2DArray, isampler2DArray, or uSampler2DArray"
+msgstr "sampler2DArray, isampler2DArray, 또는 uSampler2DArray"
+
+msgid "sampler3D, isampler3D, or uSampler3D"
+msgstr "sampler3D, isampler3D, 또는 uSampler3D"
+
 msgid "Operation"
 msgstr "연산자"
 
@@ -35,8 +50,17 @@ msgstr "참조 벡터."
 msgid "bool"
 msgstr "bool"
 
+msgid "Retrieves the dimensions of a level of a texture."
+msgstr "텍스처의 레벨의 차원을 받아옵니다."
+
 msgid "Available only in the fragment shader."
 msgstr "프래그먼트 셰이더에서만 사용할 수 있습니다."
+
+msgid "Retrieves texels from a texture."
+msgstr "텍스처에서 텍셀을 받아옵니다."
+
+msgid "Returns the value:"
+msgstr "값 반환:"
 
 msgid ""
 "Available only in the fragment shader. Not available when using the "

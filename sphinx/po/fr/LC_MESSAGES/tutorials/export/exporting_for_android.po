@@ -32,6 +32,26 @@ msgstr ""
 "pour Android. Les étapes suivantes détaillent ce qui est nécessaire pour "
 "configurer le SDK Android et le moteur."
 
+msgid ""
+"Projects written in C# can be exported to Android as of Godot 4.2, but "
+"support is experimental and :ref:`some limitations apply "
+"<doc_c_sharp_platforms>`."
+msgstr ""
+"Depuis Godot 4.2 les projets écrit en C# peuvent être exporté vers Android , "
+"mais cette fonctionnalité reste expérimental et avec :ref:`certaines "
+"restrictions <doc_c_sharp_platforms>`."
+
+msgid "Install OpenJDK 17"
+msgstr "Installer OpenJDK 17"
+
+msgid ""
+"Higher versions of the JDK are also supported, but we recommend using JDK 17 "
+"for optimal compatibility and stability."
+msgstr ""
+"Les versions plus récentes du JDK sont aussi supportées, mais nous "
+"recommandons d'utiliser la version 17 du JDK pour une compatibilité et une "
+"stabilité optimales."
+
 msgid "Download the Android SDK"
 msgstr "Télécharger le SDK Android"
 

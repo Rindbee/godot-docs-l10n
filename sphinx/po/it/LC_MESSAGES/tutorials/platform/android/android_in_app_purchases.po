@@ -20,6 +20,9 @@ msgstr "Per iniziare"
 msgid "Initialize the plugin"
 msgstr "Inizializza il plugin"
 
+msgid "To use the ``GodotGooglePlayBilling`` API:"
+msgstr "Per utilizzare l'API ``GodotGooglePlayBilling``:"
+
 msgid "Call ``start_connection``."
 msgstr "Chiama ``start_connection``."
 
@@ -37,3 +40,9 @@ msgstr "Consumabili"
 
 msgid "Subscriptions"
 msgstr "Abbonamenti"
+
+msgid "Default behavior is ``WITH_TIME_PRORATION``."
+msgstr "Comportamento predefinito con ``WITH_TIME_PRORATION``."
+
+msgid "Example use of ``update_subscription``:"
+msgstr "Esempio d'uso di ``update_subscription``:"

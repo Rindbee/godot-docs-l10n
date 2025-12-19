@@ -156,7 +156,7 @@ msgid ""
 "becomes part of the *scene tree*."
 msgstr ""
 "Lorsqu'un nœud est connecté, directement ou indirectement, au viewport "
-"racine, il fait partie de l'arborescence des scènes."
+"racine, il devient membre de l'*arborescence de la scène*."
 
 msgid ""
 "This means that as explained in previous tutorials, it will get the "

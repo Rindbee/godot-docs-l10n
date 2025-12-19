@@ -123,7 +123,7 @@ msgid ""
 "scale automatically to fit the whole screen while avoiding distortion."
 msgstr ""
 "配置好 AspectRatioContainer 之后，请将你的 VideoStreamPlayer 节点调整为该 "
-"AspectRatioContainer 节点的子节点。请确保禁用了该 VideoPlayer 的 "
+"AspectRatioContainer 节点的子节点。请确保启用了该 VideoPlayer 的 "
 "**Expand**\\ 。你的视频现在应该就会自动适应到全屏的大小，不产生变形。"
 
 msgid ""

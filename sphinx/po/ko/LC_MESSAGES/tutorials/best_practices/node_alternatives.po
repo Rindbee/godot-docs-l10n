@@ -65,4 +65,4 @@ msgstr ""
 "젝트에 접근하려 하면 오류 상태가 발동합니다."
 
 msgid "**Advantages:** same as the Object."
-msgstr "**이점:** 오브젝트와 같음."
+msgstr "**장점:** 오브젝트와 같습니다."

@@ -93,9 +93,6 @@ msgstr ""
 "solamente, ``RID_Owner`` mantiene una lista de RIDs. En la práctica, los "
 "RIDs son similares a escribir código en C orientado a objetos."
 
-msgid ":ref:`RID<class_rid>`"
-msgstr ":ref:`RID <class_RID>`"
-
 msgid "Registering the class in GDScript"
 msgstr "Registrar una clase en GDScript"
 
@@ -181,13 +178,6 @@ msgstr "Aquí está el código de ejemplo de GDScript:"
 
 msgid "Notes"
 msgstr "Notas"
-
-msgid ""
-"The actual `Hilbert Hotel <https://en.wikipedia.org/wiki/"
-"Hilbert%27s_paradox_of_the_Grand_Hotel>`__ is impossible."
-msgstr ""
-"El `Hotel de Hilbert<https://en.wikipedia.org/wiki/"
-"Hilbert%27s_paradox_of_the_Grand_Hotel>`__ real es imposible."
 
 msgid "Connecting signal example code is pretty hacky."
 msgstr ""

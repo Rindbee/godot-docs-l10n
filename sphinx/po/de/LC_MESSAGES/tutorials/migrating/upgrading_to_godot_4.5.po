@@ -49,11 +49,11 @@ msgstr "Eingeführt in"
 msgid "|❌|"
 msgstr "|❌|"
 
-msgid "|✔️ with compat|"
-msgstr "|✔️ with compat|"
-
 msgid "**Node**"
 msgstr "**Node**"
+
+msgid "|✔️ with compat|"
+msgstr "|✔️ with compat|"
 
 msgid "|✔️|"
 msgstr "|✔️|"
@@ -87,6 +87,9 @@ msgstr "**EditorUndoRedoManager**"
 
 msgid "Behavior changes"
 msgstr "Änderungen am Verhalten"
+
+msgid "Navigation"
+msgstr "Navigation"
 
 msgid "Physics"
 msgstr "Physik"

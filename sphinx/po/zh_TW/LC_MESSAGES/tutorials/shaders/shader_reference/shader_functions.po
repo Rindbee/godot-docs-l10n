@@ -3878,7 +3878,7 @@ msgstr ""
 msgid ""
 "The conversion for component c of ``v`` to fixed-point is performed as "
 "follows:"
-msgstr "將 ``v`` 的分量 ``c`` 轉換為定點數的處理如下："
+msgstr "將 ``v`` 的分量 c 轉換為定點數的處理如下:"
 
 msgid ""
 "The first component of the vector will be written to the least significant "

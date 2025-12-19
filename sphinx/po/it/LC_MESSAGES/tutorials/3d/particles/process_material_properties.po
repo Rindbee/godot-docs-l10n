@@ -56,6 +56,12 @@ msgstr "Velocità angolare"
 msgid "Linear acceleration"
 msgstr "Accelerazione lineare"
 
+msgid "Different values for particle linear acceleration"
+msgstr "Valori diversi per l'accelerazione lineare delle particelle"
+
+msgid "Negative (top) and positive (bottom) linear acceleration"
+msgstr "Accelerazione lineare negativa (in alto) e positiva (in basso)"
+
 msgid "Radial acceleration"
 msgstr "Accelerazione radiale"
 
@@ -85,6 +91,9 @@ msgstr "Variazione di tonalità"
 
 msgid "Animation"
 msgstr "Animazione"
+
+msgid "Check ``Loop`` if you want the animation to keep repeating."
+msgstr "Seleziona ``Loop`` se vuoi che l'animazione continui a ripetersi."
 
 msgid "Animated particles"
 msgstr "Particelle animate"

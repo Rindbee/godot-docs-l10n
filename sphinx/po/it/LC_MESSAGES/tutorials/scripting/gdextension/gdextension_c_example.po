@@ -57,5 +57,28 @@ msgstr "Dichiariamo anche qui una funzione per vincolare le proprietà:"
 msgid "Binding virtual methods"
 msgstr "Vincolare i metodi virtuali"
 
+msgid ""
+"Try changing the **Speed** and **Amplitude** properties and see how the "
+"sprite react."
+msgstr ""
+"Prova a modificare le proprietà **Speed** e **Amplitude** e osserva come "
+"reagisce lo sprite."
+
+msgid "Registering and emitting a signal"
+msgstr "Registrare ed emettere un segnale"
+
+msgid ""
+"Note that we reuse the ``native_class_name`` and ``method_name`` variables "
+"here, so we don't need to declare new ones."
+msgstr ""
+"Si noti che qui riutilizziamo le variabili ``native_class_name`` e "
+"``method_name``, quindi non è necessario dichiararne di nuove."
+
+msgid ""
+"Now go to the ``gdexample.h`` file where we're going to add a couple of "
+"fields:"
+msgstr ""
+"Ora andiamo al file ``gdexample.h`` dove aggiungeremo un paio di campi:"
+
 msgid "Conclusion"
 msgstr "Conclusione"

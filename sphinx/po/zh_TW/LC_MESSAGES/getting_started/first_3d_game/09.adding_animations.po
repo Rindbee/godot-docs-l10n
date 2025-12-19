@@ -103,7 +103,7 @@ msgid ""
 "To do so, you can click the autoplay button (|Autoplay|) in the animation "
 "toolbar and the looping arrows, respectively."
 msgstr ""
-"要這麼做，您可以分別點擊動畫工具列中的自動播放按鈕 (|Autoplay|) 和循環箭頭。"
+"要這麼做，您可以分別點擊動畫工具列中的自動播放按鈕 (|Autoplay|) 和循環箭頭."
 
 msgid "Autoplay"
 msgstr "自動播放"

@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Advantages of upgrading"
+msgstr "업그레이드의 장점"
+
+msgid "Disadvantages of upgrading"
+msgstr "업그레이드의 단점"
+
 msgid "To use the project upgrade tool:"
 msgstr "프로젝트 업그레이드 도구 사용하기:"
 
@@ -92,6 +98,9 @@ msgstr "**시그널**"
 msgid "Updating shaders"
 msgstr "셰이더 업데이트"
 
+msgid "See :ref:`doc_shading_language` for more information."
+msgstr "자세한 정보는 :ref:`doc_shading_language`\\ 를 참조하세요."
+
 msgid "Removed node"
 msgstr "제거된 노드"
 
@@ -108,4 +117,7 @@ msgid "OccluderShapeSphere"
 msgstr "OccluderShapeSphere"
 
 msgid "Porting editor settings"
-msgstr "편집기 설정을 이관하기"
+msgstr "편집기 설정 포팅하기"
+
+msgid "Updating version control settings"
+msgstr "버전 제어 설정 업데이트하기"

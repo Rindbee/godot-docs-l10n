@@ -11,6 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0106: The exported property is an explicit interface implementation"
+msgstr ""
+"GD0106 : La propriété exportée est une implémentation d'interface explicite"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

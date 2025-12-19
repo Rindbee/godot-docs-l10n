@@ -14,17 +14,6 @@ msgstr ""
 msgid "TSCN file format"
 msgstr "Formato de arquivo TSCN"
 
-msgid ""
-"For those looking for a complete description, the parsing is handled in the "
-"file `resource_format_text.cpp <https://github.com/godotengine/godot/blob/"
-"master/scene/resources/resource_format_text.cpp>`_ in the "
-"``ResourceFormatLoaderText`` class."
-msgstr ""
-"Para quem procura uma descrição completa, a análise é tratada no arquivo "
-"`resource_format_text.cpp<https://github.com/godotengine/godot/blob/master/"
-"scene/resources/resource_format_text.cpp>`_ na classe "
-"``ResourceFormatLoaderText``."
-
 msgid "File structure"
 msgstr "Estrutura do arquivo"
 

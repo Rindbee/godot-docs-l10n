@@ -184,14 +184,6 @@ msgstr ""
 "MIME :mimetype:`application/octet-stream`. O arquivo ``.wasm`` é entregue "
 "como :mimetype:`application/wasm`."
 
-msgid ""
-"Delivering the WebAssembly module (``.wasm``) with a MIME-type other "
-"than :mimetype:`application/wasm` can prevent some start-up optimizations."
-msgstr ""
-"Entregar o módulo WebAssembly (``.wasm``) com um tipo MIME diferente "
-"de :mimetype: `application/wasm` pode prevenir algumas otimizações de "
-"inicialização."
-
 msgid "Environment variables"
 msgstr "Variáveis de ambiente"
 

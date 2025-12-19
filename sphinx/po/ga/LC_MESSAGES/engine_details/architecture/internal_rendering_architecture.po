@@ -471,15 +471,6 @@ msgstr ""
 "Léiríonn an léaráid seo struchtúr na ranganna rindreála i Godot, lena n-"
 "áirítear tearbhú RenderingDevice:"
 
-msgid ""
-"`View at full size <https://raw.githubusercontent.com/godotengine/godot-docs/"
-"master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-msgstr ""
-"`Féach ar an méid iomlán <https://raw.githubusercontent.com/godotengine/"
-"godot-docs/master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-
 msgid "Core shaders"
 msgstr "Scáthóirí lárnacha"
 

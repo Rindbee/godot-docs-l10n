@@ -18,7 +18,7 @@ msgid ""
 "Godot provides a way to use script templates as seen in the ``Script Create "
 "Dialog`` while creating a new script:"
 msgstr ""
-"Godot는 새 스크립트를 생성하는 중에 ``스크립트 생성 대화 상자``\\ 에서 볼 수 "
+"Godot는 새 스크립트를 만드는 중에 ``스크립트 만들기 대화 상자``\\ 에서 볼 수 "
 "있는 것처럼 스크립트 템플릿을 사용하는 방법을 제공합니다:"
 
 msgid "Locating the templates"
@@ -89,6 +89,13 @@ msgstr ""
 
 msgid "Default template"
 msgstr "디폴트 템플릿"
+
+msgid ""
+"The ``Default`` templates for basic Nodes, for both GDScript and C#, are "
+"shown here so you can use these as the base for creating other templates:"
+msgstr ""
+"GDScript와 C# 모두에 대한 기초 노드의 ``디폴트`` 템플릿은 여기에 보여져 있으"
+"므로 이를 기반으로 다른 템플릿을 만드는 데 사용할 수 있습니다:"
 
 msgid "List of template placeholders"
 msgstr "템플릿 플레이스홀더 목록"

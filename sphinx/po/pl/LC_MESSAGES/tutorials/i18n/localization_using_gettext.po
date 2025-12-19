@@ -17,12 +17,5 @@ msgstr "Zalety"
 msgid "Disadvantages"
 msgstr "Wady"
 
-msgid ""
-"See :ref:`doc_internationalizing_games` for more information on importing "
-"and testing translations in Godot."
-msgstr ""
-"Zobacz :ref:`używanie przekształceń <doc_using_transforms>`,aby uzyskać "
-"więcej informacji na temat rotacji."
-
 msgid "For example:"
 msgstr "Na przykład:"

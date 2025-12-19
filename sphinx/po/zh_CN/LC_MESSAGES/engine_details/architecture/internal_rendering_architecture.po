@@ -343,15 +343,6 @@ msgstr ""
 msgid "Core rendering classes architecture"
 msgstr "核心渲染类架构"
 
-msgid ""
-"`View at full size <https://raw.githubusercontent.com/godotengine/godot-docs/"
-"master/contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-msgstr ""
-"`全屏查看 <https://raw.githubusercontent.com/godotengine/godot-docs/master/"
-"contributing/development/core_and_modules/img/"
-"rendering_architecture_diagram.webp>`__"
-
 msgid "Core shaders"
 msgstr "核心着色器"
 

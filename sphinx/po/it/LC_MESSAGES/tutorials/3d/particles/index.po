@@ -14,6 +14,14 @@ msgstr ""
 msgid "Particle systems (3D)"
 msgstr "Sistemi di particelle (2D)"
 
+msgid ""
+"This section of the tutorial covers (3D) GPU-accelerated particle systems. "
+"Most of the things discussed here apply to CPU particles as well."
+msgstr ""
+"Questa sezione del tutorial tratta i sistemi di particelle (3D) accelerati "
+"dalla GPU. La maggior parte degli argomenti trattati qui si applica anche "
+"alle particelle basate sulla CPU."
+
 msgid "Introduction"
 msgstr "Introduzione"
 

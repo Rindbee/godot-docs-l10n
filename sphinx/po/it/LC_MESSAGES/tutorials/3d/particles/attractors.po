@@ -17,6 +17,11 @@ msgstr "Attrattori di particelle 3D"
 msgid "Particle attractors"
 msgstr "Attrattori di particelle"
 
+msgid "Particle attractors are not yet implemented for 2D particle systems."
+msgstr ""
+"Gli attrattori di particelle non sono ancora implementati per i sistemi di "
+"particelle 2D."
+
 msgid "Common properties"
 msgstr "Proprietà comuni"
 
@@ -28,3 +33,10 @@ msgstr "Riquadro di attrattore di particelle"
 
 msgid "Particle attractor sphere"
 msgstr "Sfera di attrattore di particelle"
+
+msgid ""
+"When a texture is used as a vector field, there are two types of conversion "
+"you need to be aware of:"
+msgstr ""
+"Quando una texture è utilizzata come campo vettoriale, ci sono due tipi di "
+"conversione di cui è necessario essere a conoscenza:"

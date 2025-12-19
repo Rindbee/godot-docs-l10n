@@ -11,6 +11,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0202: The parameter of the delegate signature of the signal is not "
+"supported"
+msgstr ""
+"GD0202 : Le paramètre de la signature du délégué du signal n'est pas supporté"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Static typing in GDScript"
-msgstr "GDScript의 정적 타이핑(Static typing)"
+msgstr "GDScript에서 정적 타이핑"
 
 msgid "In this guide, you will learn:"
 msgstr "이 가이드에서 다음 내용을 배울 것입니다:"
@@ -22,6 +22,15 @@ msgstr "GDScript에서 정적 타이핑 사용법;"
 
 msgid "that static types can help you avoid bugs;"
 msgstr "이 정적 타입은 버그를 방지하는 데 도움이 될 수 있습니다;"
+
+msgid ""
+"Where and how you use this language feature is entirely up to you: you can "
+"use it only in some sensitive GDScript files, use it everywhere, or don't "
+"use it at all."
+msgstr ""
+"이 언어 기능을 어디에서 어떻게 사용할지는 전적으로 여러분에게 달려 있습니다: "
+"일부 민감한 GDScript 파일에서만 사용하거나, 모든 곳에서 사용하거나, 모두 사용"
+"하지 않을 수도 있습니다."
 
 msgid ""
 "Static types can be used on variables, constants, functions, parameters, and "
@@ -107,6 +116,9 @@ msgstr "pass"
 
 msgid "Warning system"
 msgstr "경고 시스템(Warning system)"
+
+msgid "Nested types are not currently supported:"
+msgstr "중첩된 유형은 현재 지원되지 않습니다:"
 
 msgid "Summary"
 msgstr "요약"

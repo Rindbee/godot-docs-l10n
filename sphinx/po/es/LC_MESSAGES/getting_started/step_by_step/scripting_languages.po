@@ -107,18 +107,6 @@ msgstr ""
 msgid "GDScript"
 msgstr "GDScript"
 
-msgid ""
-":ref:`GDScript<doc_gdscript>` is an `object-oriented <https://"
-"en.wikipedia.org/wiki/Object-oriented_programming>`_ and `imperative "
-"<https://en.wikipedia.org/wiki/Imperative_programming>`_ programming "
-"language built for Godot. It's made by and for game developers to save you "
-"time coding games. Its features include:"
-msgstr ""
-"GDScript<doc_gdscript> es un lenguaje de programación orientado a objetos e "
-"imperativo, creado para Godot. Está diseñado por y para desarrolladores de "
-"juegos, para ahorrar tiempo al programar juegos. Sus características "
-"incluyen:"
-
 msgid "A simple syntax that leads to short files."
 msgstr "Una sintaxis simple que conduce a archivos ligeros."
 

@@ -119,11 +119,6 @@ msgstr ""
 "курсивним, підкресленим, кольоровим, кодовими блоками тощо, вставивши їх у "
 "такі теги:"
 
-msgid ""
-"Currently they supported tags for the GDExtension documentation system are:"
-msgstr ""
-"Наразі вони підтримують такі теги для системи документації GDExtension:"
-
 msgid "Tag"
 msgstr "Теґ"
 

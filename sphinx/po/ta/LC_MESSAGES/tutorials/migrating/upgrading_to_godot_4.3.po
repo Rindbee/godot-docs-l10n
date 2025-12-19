@@ -593,13 +593,6 @@ msgstr "`GH-81746`_"
 msgid "Behavior changes"
 msgstr "நடத்தை மாற்றங்கள்"
 
-msgid ""
-"In 4.3 some behavior changes have been introduced, which might require you "
-"to adjust your project."
-msgstr ""
-"4.3 இல் சில நடத்தை மாற்றங்கள் அறிமுகப்படுத்தப்பட்டுள்ளன, இது உங்கள் திட்டத்தை சரிசெய்ய "
-"வேண்டும்."
-
 msgid "Core"
 msgstr "வயிரம்"
 

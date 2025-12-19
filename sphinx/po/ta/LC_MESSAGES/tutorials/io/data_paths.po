@@ -274,6 +274,12 @@ msgstr ""
 "HTML5 ஏற்றுமதியில், `` பயனர்: // `` சாதனத்தில் இன்டெக்ச் எட்.டி.பி வழியாக சேமிக்கப்பட்ட "
 "மெய்நிகர் கோப்பு முறைமையைக் குறிக்கும். ."
 
+msgid "File logging"
+msgstr "கோப்பு பதிவு"
+
+msgid "Documentation on file logging has been moved to :ref:`doc_logging`."
+msgstr "கோப்பு பதிவு குறித்த ஆவணங்கள் இதற்கு நகர்த்தப்பட்டுள்ளன: குறிப்பு: `doc_logging`."
+
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr "பாதைகளை முழுமையான பாதைகள் அல்லது \"உள்ளக\" பாதைகளுக்கு மாற்றுகிறது"
 

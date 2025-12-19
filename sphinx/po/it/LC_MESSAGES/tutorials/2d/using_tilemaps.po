@@ -23,6 +23,9 @@ msgstr "Specificare il TileSet nel TileMapLayer"
 msgid "Multiple TileMapLayers and settings"
 msgstr "Più di un TileMapLayer e impostazioni"
 
+msgid "**TileSet** The tileset used by the TileMapLayer node."
+msgstr "**TileSet** Il tileset utilizzato dal nodo TileMapLayer."
+
 msgid "Rendering"
 msgstr "Renderer"
 
@@ -49,6 +52,9 @@ msgstr "Selezione"
 
 msgid "Paint"
 msgstr "Disegna"
+
+msgid "Line"
+msgstr "Riga"
 
 msgid "Rectangle"
 msgstr "Rettangolo"

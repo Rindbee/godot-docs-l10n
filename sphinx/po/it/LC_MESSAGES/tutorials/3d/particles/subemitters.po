@@ -14,5 +14,8 @@ msgstr ""
 msgid "Particle sub-emitters"
 msgstr "Sotto-emettitori di particelle"
 
+msgid "Chained sub-emitters"
+msgstr "Sub-emettitori concatenati"
+
 msgid "Limitations"
 msgstr "Limitazioni"

@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "GD0104: The exported property is write-only"
+msgstr "GD0104 : La propriété exportée est en lecture seule"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

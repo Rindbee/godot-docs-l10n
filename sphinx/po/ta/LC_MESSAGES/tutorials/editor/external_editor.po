@@ -130,8 +130,32 @@ msgstr "`` emacs +{line}: {col} {file} ``"
 msgid "Sublime Text"
 msgstr "விழுமிய உரை"
 
+msgid "``{project} {file}:{line}:{col}``"
+msgstr "`{{project} {file}: {line}: {col}` `"
+
+msgid "Visual Studio*"
+msgstr "விசுவல் ச்டுடியோ*"
+
 msgid "``/edit \"file\"``"
 msgstr "``/\"கோப்பைத் திருத்து\" ``"
+
+msgid ""
+"\\*: Arguments are not automatically detected, so you must fill them in "
+"manually."
+msgstr ""
+"\\*: வாதங்கள் தானாகவே கண்டறியப்படவில்லை, எனவே நீங்கள் அவற்றை கைமுறையாக நிரப்ப வேண்டும்."
+
+msgid ""
+"Since Godot 4.5, **Exec Flags** are automatically detected for all editors "
+"listed above (unless denoted with an asterisk). You don't need to paste them "
+"from this page for it to work, unless your editor has an executable name not "
+"recognized automatically (e.g. a fork of an editor listed here)."
+msgstr ""
+"கோடோட் 4.5 என்பதால், ** மேலே பட்டியலிடப்பட்டுள்ள அனைத்து ஆசிரியர்களுக்கும் ** நிர்வாகக் "
+"கொடிகள் ** தானாகவே கண்டறியப்படுகின்றன (ஒரு நட்சத்திரத்துடன் குறிக்கப்படாவிட்டால்). இந்தப் "
+"பக்கத்திலிருந்து வேலை செய்ய நீங்கள் அவற்றை ஒட்ட வேண்டிய அவசியமில்லை, உங்கள் ஆசிரியருக்கு "
+"இயங்கக்கூடிய பெயர் தானாகவே அங்கீகரிக்கப்படாவிட்டால் (எ.கா. இங்கே பட்டியலிடப்பட்ட ஒரு "
+"ஆசிரியரின் முட்கரண்டி)."
 
 msgid ""
 "For Visual Studio Code on Windows, you will have to point to the "

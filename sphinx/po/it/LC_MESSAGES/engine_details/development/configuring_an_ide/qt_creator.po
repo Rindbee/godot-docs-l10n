@@ -55,6 +55,9 @@ msgstr ""
 "È possibile modificare questa configurazione in futuro, cliccando con il "
 "pulsante destro sul progetto e selezionando l'opzione **Edit Files...**."
 
+msgid "Finish the import."
+msgstr "Termina l'importazione."
+
 msgid ""
 "Open the ``project_name.includes`` file and add a line containing ``.`` to "
 "it to correctly enable the code completion."

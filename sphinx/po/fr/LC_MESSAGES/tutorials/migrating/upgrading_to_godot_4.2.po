@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 msgid "Upgrading from Godot 4.1 to Godot 4.2"
-msgstr "Mise à niveau de Godot 4.1 à Godot 4.2"
+msgstr "Mise à niveau de Godot 4.1 vers Godot 4.2"
 
 msgid ""
 "For most games and apps made with 4.1 it should be relatively safe to "
@@ -79,14 +79,14 @@ msgid ""
 "exported project. The number and complexity of Mesh resources determines how "
 "much loading times are affected."
 msgstr ""
-"** Mise à jour seulement :** Met à jour le format de maillage en mémoire "
-"sans l'écrire sur le disque. Cela permet de réduire le projet à une version "
-"Godot plus ancienne que 4.2 si vous devez le faire à l'avenir. Le "
-"désavantage est que le chargement du projet sera plus lent à chaque fois car "
-"le format de maillage doit être amélioré à chaque fois que le projet est "
-"chargé. Ces temps de chargement accrus affecteront également le projet "
-"exporté. Le nombre et la complexité des ressources de Mesh déterminent "
-"comment les temps de chargement sont affectés."
+"**Mise à jour seulement :** Met à jour le format de maillage en mémoire sans "
+"l'écrire sur le disque. Cela permet de réduire le projet à une version Godot "
+"plus ancienne que 4.2 si vous devez le faire à l'avenir. Le désavantage est "
+"que le chargement du projet sera plus lent à chaque fois car le format de "
+"maillage doit être amélioré à chaque fois que le projet est chargé. Ces "
+"temps de chargement accrus affecteront également le projet exporté. Le "
+"nombre et la complexité des ressources de Mesh déterminent comment les temps "
+"de chargement sont affectés."
 
 msgid ""
 "If this dialog doesn't appear, use **Project > Tools > Upgrade Mesh Surfaces…"
@@ -255,7 +255,7 @@ msgstr ""
 "déplacé dans la classe parente ``AnimationMixer``"
 
 msgid "|✔️ with compat|"
-msgstr "|✔️ avec compatibilité|"
+msgstr "|✔️ with compat|"
 
 msgid ""
 "Property ``playback_active`` renamed to ``active`` and moved to base class "
@@ -583,31 +583,31 @@ msgstr ""
 "Le signal ``dragged`` a été déplacée dans la classe parente ``GraphElement``"
 
 msgid "Method ``get_connection_input_color`` removed"
-msgstr "Méthode``get_connection_input_color`` retirée"
+msgstr "Méthode ``get_connection_input_color`` retirée"
 
 msgid "Method ``get_connection_input_count`` removed"
-msgstr "Méthode``get_connection_input_count`` retirée"
+msgstr "Méthode ``get_connection_input_count`` retirée"
 
 msgid "Method ``get_connection_input_height`` removed"
-msgstr "Méthode``get_connection_input_height`` retirée"
+msgstr "Méthode ``get_connection_input_height`` retirée"
 
 msgid "Method ``get_connection_input_position`` removed"
-msgstr "Méthode``get_connection_input_position`` retirée"
+msgstr "Méthode ``get_connection_input_position`` retirée"
 
 msgid "Method ``get_connection_input_slot`` removed"
-msgstr "Méthode``get_connection_input_slot`` retirée"
+msgstr "Méthode ``get_connection_input_slot`` retirée"
 
 msgid "Method ``get_connection_input_type`` removed"
 msgstr "Méthode ``get_connection_input_type`` retirée"
 
 msgid "Method ``get_connection_output_color`` removed"
-msgstr "Méthode``get_connection_output_color`` retirée"
+msgstr "Méthode ``get_connection_output_color`` retirée"
 
 msgid "Method ``get_connection_output_count`` removed"
 msgstr "Méthode ``get_connection_output_count`` retirée"
 
 msgid "Method ``get_connection_output_height`` removed"
-msgstr "Méthode``get_connection_output_height`` retirée"
+msgstr "Méthode ``get_connection_output_height`` retirée"
 
 msgid "Method ``get_connection_output_position`` removed"
 msgstr "Méthode ``get_connection_output_position`` retirée"
@@ -671,7 +671,7 @@ msgid "Property ``show_close`` removed"
 msgstr "Propriété ``show_close`` retirée"
 
 msgid "Property ``text_direction`` removed"
-msgstr "Propriété``text_direction`` retirée"
+msgstr "Propriété ``text_direction`` retirée"
 
 msgid "TileMap"
 msgstr "TileMap"

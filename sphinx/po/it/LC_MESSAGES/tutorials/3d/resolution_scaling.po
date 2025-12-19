@@ -27,6 +27,13 @@ msgstr ""
 msgid "Rendering scale"
 msgstr "Scala di rendering"
 
+msgid ""
+"The rendering scale can be adjusted at runtime by changing the "
+"``scaling_3d_scale`` property on a :ref:`class_Viewport` node."
+msgstr ""
+"È possibile regolare la scala di rendering in fase di esecuzione cambiando "
+"la proprietà ``scaling_3d_scale`` su un nodo :ref:`class_Viewport`."
+
 msgid "**1920×1080 (Full HD)**"
 msgstr "**1920×1080 (Full HD)**"
 
@@ -198,6 +205,13 @@ msgstr "33.18 MPix"
 msgid "FSR Sharpness"
 msgstr "Nitidezza di FSR"
 
+msgid ""
+"*This is only available in the Forward+ renderer, not the Mobile or "
+"Compatibility renderers.*"
+msgstr ""
+"*Disponibile solo nel renderer Forward+, non nei renderer Mobile o "
+"Compatibilità.*"
+
 msgid "Mipmap bias"
 msgstr "Bias di mipmap"
 
@@ -215,8 +229,21 @@ msgstr ""
 "La formula utilizzata per determinare il bias delle mipmap delle texture è: "
 "``log2f(min(scaling_3d_scale, 1.0)) + custom_texture_mipmap_bias``"
 
+msgid ""
+"The example below shows an extreme case, with a mipmap LOD bias of ``-1.0`` "
+"and anisotropic filtering disabled to make the difference more noticeable:"
+msgstr ""
+"L'esempio seguente mostra un caso estremo, con un bias LOD per le mipmap di "
+"``-1.0`` e il filtro anisotropico disabilitato per rendere la differenza più "
+"evidente:"
+
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
+
+msgid "Performance does not increase much when decreasing resolution scale"
+msgstr ""
+"Le prestazioni non aumentano molto quando si diminuisce la scala di "
+"risoluzione"
 
 msgid "See the :ref:`doc_performance` tutorials for more information."
 msgstr ""

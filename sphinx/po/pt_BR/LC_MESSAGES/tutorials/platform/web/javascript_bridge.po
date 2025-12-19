@@ -20,11 +20,3 @@ msgstr ""
 
 msgid "Any other JavaScript value is returned as ``null``."
 msgstr "Qualquer outro valor no JavaScript é retornado como ``null``."
-
-msgid ""
-"GDScript's multi-line strings, surrounded by 3 quotes ``\"\"\"`` as in "
-"``my_func3()`` above, are useful to keep JavaScript code readable."
-msgstr ""
-"As strings de várias linhas do GDScript, cercadas por 3 aspas ``\"\"\"`` "
-"como em ``my_func3()``acima, são úteis para manter o código JavaScript "
-"legível."

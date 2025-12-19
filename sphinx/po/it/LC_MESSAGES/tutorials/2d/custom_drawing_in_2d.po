@@ -68,3 +68,7 @@ msgstr ""
 
 msgid "It should look like this when run:"
 msgstr "Quando viene eseguito dovrebbe apparire così:"
+
+msgid "Calculating this arc will be more complex than in the case of the line:"
+msgstr ""
+"Il calcolo di questo arco sarà più complesso rispetto al caso della linea:"

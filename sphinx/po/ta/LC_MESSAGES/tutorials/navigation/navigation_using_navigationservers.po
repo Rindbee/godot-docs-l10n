@@ -118,6 +118,13 @@ msgid "2D and 3D NavigationServer differences"
 msgstr "2 டி மற்றும் 3 டி ஊடுருவல் வேறுபாடுகள்"
 
 msgid ""
+"NavigationServer2D and NavigationServer3D are equivalent in functionality "
+"for their dimension."
+msgstr ""
+"Asselationserver2d மற்றும் AsseationServer3d ஆகியவை அவற்றின் பரிமாணத்திற்கு "
+"செயல்பாட்டில் சமமானவை."
+
+msgid ""
 "Technically it is possible to use the tools for creating navigation meshes "
 "in one dimension for the other dimension, e.g. baking a 2D navigation mesh "
 "with the 3D NavigationMesh when using flat 3D source geometry or creating 3D "

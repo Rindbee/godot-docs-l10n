@@ -11,6 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid ""
+"GD0302: The generic type parameter must be annotated with the "
+"'[MustBeVariant]' attribute"
+msgstr ""
+"GD0302 : Le paramètre de type générique doit être annoté avec l'attribut "
+"'[MustBeVariant]'"
+
 msgid "**Rule ID**"
 msgstr "**Rule ID**"
 

@@ -14,6 +14,9 @@ msgstr ""
 msgid "Variable rate shading"
 msgstr "가변 비율 셰이딩"
 
+msgid "What is variable rate shading?"
+msgstr "가변 비율 셰이딩이란 무엇입니까?"
+
 msgid "Hardware support"
 msgstr "하드웨어 지원"
 

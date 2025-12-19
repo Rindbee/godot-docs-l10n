@@ -11,6 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "Using Jolt Physics"
+msgstr "Jolt 물리 사용하기"
+
 msgid "Introduction"
 msgstr "소개"
 

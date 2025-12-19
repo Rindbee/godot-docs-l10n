@@ -122,6 +122,9 @@ msgstr "Gdextension"
 msgid ":ref:`doc_gdextension_file`"
 msgstr ": Ref: `doc_gdextension_file`"
 
+msgid ":ref:`doc_godot_cpp_docs_system`"
+msgstr ": Ref: `doc_godot_cpp_docs_system`"
+
 msgid "Migrating"
 msgstr "இடம்பெயர்வு"
 
@@ -331,6 +334,9 @@ msgstr "சிறந்த நடைமுறைகள்"
 
 msgid ":ref:`doc_version_control_systems`"
 msgstr ": Ref: `doc_version_control_systems`"
+
+msgid ":ref:`doc_common_engine_methods_and_macros_error_macros`"
+msgstr ": Ref: `doc_common_engine_methods_and_macros_error_macros`"
 
 msgid ":ref:`doc_vulkan_validation_layers`"
 msgstr ": Ref: `doc_vulkan_validation_layers`"

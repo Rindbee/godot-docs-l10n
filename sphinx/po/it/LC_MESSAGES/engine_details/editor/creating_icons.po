@@ -26,6 +26,13 @@ msgstr "Ottimizzazione delle icone"
 msgid "Troubleshooting"
 msgstr "Risoluzione dei problemi"
 
+msgid ""
+"``modules/svg`` is enabled (it should be enabled by default). Without it, "
+"icons won't appear in the editor at all."
+msgstr ""
+"``modules/svg`` è abilitato (dovrebbe essere abilitato come predefinito). "
+"Senza di esso, le icone non appariranno nell'editor."
+
 msgid "References"
 msgstr "Riferimenti"
 

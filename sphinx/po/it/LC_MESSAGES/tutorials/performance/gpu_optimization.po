@@ -24,6 +24,15 @@ msgstr ""
 msgid "Reuse shaders and materials"
 msgstr "Riutilizza gli shader e i materiali"
 
+msgid "Skinning (skeletal animation)"
+msgstr "Skinning (animazioni scheletriche)"
+
+msgid "Morphs (shape keys)"
+msgstr "Morph (chiavi di forma)"
+
+msgid "Vertex-lit objects (common on mobile)"
+msgstr "Oggetti illuminati per vertice (comuni sui dispositivi mobili)"
+
 msgid ""
 "**When targeting mobile devices, consider using the simplest possible "
 "shaders you can reasonably afford to use.**"
