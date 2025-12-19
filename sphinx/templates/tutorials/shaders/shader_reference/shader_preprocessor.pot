@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgid "In programming languages, a *preprocessor* allows changing the code befor
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:17
-msgid "From Godot 4.0 onwards, you can use a shader preprocessor within text-based shaders. The syntax is similar to what most GLSL shader compilers support (which in turn is similar to the C/C++ preprocessor)."
+msgid "To avoid repetition and improve code reuse, you can use a shader preprocessor within text-based shaders. The syntax is similar to what most GLSL shader compilers support (which in turn is similar to the C/C++ preprocessor)."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_preprocessor.rst:23

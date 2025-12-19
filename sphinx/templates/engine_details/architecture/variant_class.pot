@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -286,7 +286,7 @@ msgid "Both :ref:`class_array` and :ref:`class_dictionary` are implemented using
 msgstr ""
 
 #: ../../docs/engine_details/architecture/variant_class.rst:146
-msgid "Modifications to a container will modify all references to it. A Mutex should be created to lock it if :ref:`multi-threaded access <doc_using_multiple_threads>` is desired."
+msgid "Modifications to a container will modify all references to it. A :ref:`Mutex <doc_core_concurrency_types>` should be created to lock it if :ref:`multi-threaded access <doc_using_multiple_threads>` is desired."
 msgstr ""
 
 #: ../../docs/engine_details/architecture/variant_class.rst:153

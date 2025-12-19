@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -105,7 +105,7 @@ msgid "**light_only**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:33
-msgid "Only draw on light pass."
+msgid "Only draw in the light pass."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:35
@@ -156,7 +156,7 @@ msgid "in float **TIME**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:60
-msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
+msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:69
@@ -164,7 +164,7 @@ msgid "in float **PI**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:69
-msgid "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its diameter and amount of radians in half turn."
+msgid "A ``PI`` constant (``3.141592``). The ratio of a circle's circumference to its diameter and the number of radians in a half turn."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:72
@@ -172,7 +172,7 @@ msgid "in float **TAU**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:72
-msgid "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of radians in full turn."
+msgid "A ``TAU`` constant (``6.283185``). Equivalent to ``PI * 2`` and the number of radians in a full turn."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:75
@@ -180,7 +180,7 @@ msgid "in float **E**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:75
-msgid "An ``E`` constant (``2.718281``). Euler's number and a base of the natural logarithm."
+msgid "An ``E`` constant (``2.718281``). Euler's number, the base of the natural logarithm."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:80
@@ -228,7 +228,7 @@ msgid "in mat4 **CANVAS_MATRIX**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:113
-msgid "World space to canvas space transform. In canvas space the origin is the upper-left corner of the screen and coordinates ranging from ``(0.0, 0.0)`` to viewport size."
+msgid "World space to canvas space transform. In canvas space the origin is the upper-left corner of the screen and coordinates range from ``(0.0, 0.0)`` to viewport size."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:118
@@ -236,7 +236,7 @@ msgid "in mat4 **SCREEN_MATRIX**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:118
-msgid "Canvas space to clip space. In clip space coordinates ranging from ``(-1.0, -1.0)`` to ``(1.0, 1.0).``"
+msgid "Canvas space to clip space transform. In clip space coordinates range from ``(-1.0, -1.0)`` to ``(1.0, 1.0).``"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:122
@@ -272,7 +272,7 @@ msgid "in vec2 **TEXTURE_PIXEL_SIZE**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:128
-msgid "Normalized pixel size of default 2D texture. For a Sprite2D with a texture of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1/64, 1/32)``"
+msgid "Normalized pixel size of the default 2D texture. For a Sprite2D with a texture of size 64x32px, **TEXTURE_PIXEL_SIZE** = ``vec2(1.0/64.0, 1.0/32.0)``"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:132
@@ -306,7 +306,7 @@ msgid "inout vec4 **COLOR**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:140
-msgid "Color from vertex primitive multiplied by CanvasItem's :ref:`modulate<class_CanvasItem_property_modulate>` multiplied by CanvasItem's :ref:`self_modulate<class_CanvasItem_property_self_modulate>`."
+msgid "Color from vertex primitive multiplied by the CanvasItem's :ref:`modulate<class_CanvasItem_property_modulate>` multiplied by CanvasItem's :ref:`self_modulate<class_CanvasItem_property_self_modulate>`."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:145
@@ -393,7 +393,7 @@ msgid "in vec2 **SCREEN_PIXEL_SIZE**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:224
-msgid "Size of individual pixels. Equal to inverse of resolution."
+msgid "Size of individual pixels. Equal to the inverse of resolution."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:226
@@ -423,7 +423,7 @@ msgid "Default 2D texture."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:234
-msgid "Normalized pixel size of default 2D texture. For a Sprite2D with a texture of size 64x32px, ``TEXTURE_PIXEL_SIZE`` = ``vec2(1/64, 1/32)``"
+msgid "Normalized pixel size of the default 2D texture. For a Sprite2D with a texture of size 64x32px, ``TEXTURE_PIXEL_SIZE`` = ``vec2(1/64, 1/32)``"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:240
@@ -449,7 +449,7 @@ msgid "in vec2 **UV**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:244
-msgid "UV from the ``vertex()`` function. For Sprite2D with region enabled, this will sample the entire texture. Use ``REGION_RECT`` instead to sample only the region defined in the Sprite2D's properties."
+msgid "UV from the ``vertex()`` function. For a Sprite2D with region enabled, this will sample the entire texture. Use ``REGION_RECT`` instead to sample only the region defined in the Sprite2D's properties."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:249
@@ -459,7 +459,7 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:249
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:318
-msgid "Screen UV coordinate for current pixel."
+msgid "Screen UV coordinate for the current pixel."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:251
@@ -567,7 +567,7 @@ msgid "UV from the ``vertex()`` function, equivalent to the UV in the ``fragment
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:312
-msgid "Current texture in use for CanvasItem."
+msgid "Current texture in use for the CanvasItem."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:314
@@ -651,7 +651,7 @@ msgid "SDF functions"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:348
-msgid "There are a few additional functions implemented to sample an automatically generated Signed Distance Field texture. These functions available for the ``fragment()`` and ``light()`` functions of CanvasItem shaders. Custom functions may also use them as long as they called from supported functions."
+msgid "There are a few additional functions implemented to sample an automatically generated Signed Distance Field texture. These functions are available in the ``fragment()`` and ``light()`` functions of CanvasItem shaders. Custom functions may also use them as long as they are called from supported functions."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/canvas_item_shader.rst:353

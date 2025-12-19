@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:4
+msgid "Resolving crashes on Android"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:6
+msgid "When your game crashes on Android, you often see obfuscated stack traces in Play Console or other crash reporting tools like Firebase Crashlytics. To make these stack traces human-readable (symbolicated), you need native debug symbols that correspond to your game's exported build."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:10
+msgid "Godot now provides downloadable native debug symbols for each official export template."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:13
+msgid "Getting Native Debug symbols for official templates"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:15
+msgid "Native debug symbol files are provided for every stable Godot release and can be downloaded from the `GitHub release page <https://github.com/godotengine/godot/releases/>`_."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:18
+msgid "For example, to get the native debug symbols for version ``4.5.1.stable``:"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:20
+msgid "Go to the `4.5.1.stable release page <https://github.com/godotengine/godot/releases/>`_"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:21
+msgid "Download the release artifact ``Godot_native_debug_symbols.4.5.1.stable.template_release.android.zip``"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:24
+msgid "Getting Native Debug symbols for custom builds"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:26
+msgid "Your exported template and its native debug symbols must come from the **same build**, so you can use the official symbols only if you are using the **official export templates**. If you are building **custom export templates**, you need to generate matching symbol files yourself."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:30
+msgid "To do so, add ``debug_symbols=yes separate_debug_symbols=yes`` to your scons build command. This will generate a file named ``android-template-release-native-symbols.zip`` containing the native debug symbols for your custom build."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:33
+msgid "For example,"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:39
+msgid "If you are building for multiple architectures, you should include the ``separate_debug_symbols=yes`` only in the last build command, similar to how ``generate_android_binaries=yes`` is used."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:50
+msgid "Uploading Symbols to Google Play Console"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:52
+msgid "Follow these steps to upload the native debug symbols:"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:54
+msgid "Open `Play Console <https://play.google.com/console>`_."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:55
+msgid "Select any app."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:56
+msgid "In the left menu, navigate to ``Test and release > Latest releases and bundles``."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:60
+msgid "Now choose the relevant bundle and open it."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:64
+msgid "Select the ``Downloads`` tab, and scroll down to the ``Assets`` section."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:68
+msgid "Next to ``Native debug symbols``, click the upload arrow icon."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:72
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:87
+msgid "Select and upload the corresponding native debug symbols file for that build version."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:76
+msgid "Alternatively, you can upload the symbols when creating a new release:"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:78
+msgid "On the Create release page, locate your new release bundle."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:82
+msgid "Click the three-dot menu beside it."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:83
+msgid "Choose ``Upload native debug symbols (.zip)`` from the menu."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:90
+msgid "Manually Symbolicating Crash Logs"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:92
+msgid "You can also symbolicate the crash logs manually using the `ndk-stack <https://developer.android.com/ndk/guides/ndk-stack>`_ tool included in the Android NDK."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:96
+msgid "If you already have the Android SDK installed, you can find the ``ndk-stack`` tool inside the ``ndk`` folder in your SDK location. Otherwise, you can download the NDK directly from the `NDK downloads page <https://developer.android.com/ndk/downloads>`_."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:99
+msgid "Extract the native debug symbols zip you downloaded earlier (or generated with your custom build)."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:100
+msgid "Save your crash log to a text file (for example, ``crash.txt``)."
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:101
+msgid "Run ndk-stack with the path to the symbol directory that matches the crash's CPU architecture (for example, ``arm64-v8a``):"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/resolving_crashes_on_android.rst:107
+msgid "The output will display a symbolicated trace, showing file names and line numbers in Godot's source code (or your custom build)."
+msgstr ""

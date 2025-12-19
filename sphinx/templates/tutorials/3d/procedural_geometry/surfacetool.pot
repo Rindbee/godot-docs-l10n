@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -43,18 +43,18 @@ msgstr ""
 msgid "You can optionally add an index array, either by calling ``add_index()`` and adding vertices to the index array manually, or by calling ``index()`` once, which generates the index array automatically and shrinks the vertex array to remove duplicate vertices."
 msgstr ""
 
-#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:166
+#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:175
 msgid "Similarly, if you have an index array, but you want each vertex to be unique (e.g. because you want to use unique normals or colors per face instead of per-vertex), you can call ``deindex()``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:178
+#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:187
 msgid "If you don't add custom normals yourself, you can add them using ``generate_normals()``, which should be called after generating geometry and before committing the mesh using ``commit()`` or ``commit_to_arrays()``. Calling ``generate_normals(true)`` will flip the resulting normals. As a side note, ``generate_normals()`` only works if the primitive type is set to ``Mesh.PRIMITIVE_TRIANGLES``."
 msgstr ""
 
-#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:183
+#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:192
 msgid "You may notice that normal mapping or other material properties look broken on the generated mesh. This is because normal mapping **requires** the mesh to feature *tangents*, which are separate from *normals*. You can either add custom tangents manually, or generate them automatically with ``generate_tangents()``. This method requires that each vertex have UVs and normals set already."
 msgstr ""
 
-#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:203
+#: ../../docs/tutorials/3d/procedural_geometry/surfacetool.rst:212
 msgid "By default, when generating normals, they will be calculated on a per-vertex basis (i.e. they will be \"smooth normals\"). If you want flat vertex normals (i.e. a single normal vector per face), when adding vertices, call ``add_smooth_group(i)`` where ``i`` is a unique number per vertex. ``add_smooth_group()`` needs to be called while building the geometry, e.g. before the call to ``add_vertex()``."
 msgstr ""

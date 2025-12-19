@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -44,7 +44,7 @@ msgid "Things aren't quite as bad as they seem, because the Z-buffer usually all
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:34
-msgid "One way we can potentially reduce the amount to be rendered is to **take advantage of occlusion**. Godot 4.0 and later offers a new approach to occlusion culling using occluder nodes. See :ref:`doc_occlusion_culling` for instructions on setting up occlusion culling in your scene."
+msgid "One way we can potentially reduce the amount to be rendered is to **take advantage of occlusion**. Godot offers an approach to occlusion culling using occluder nodes. See :ref:`doc_occlusion_culling` for instructions on setting up occlusion culling in your scene."
 msgstr ""
 
 #: ../../docs/tutorials/performance/optimizing_3d_performance.rst:41

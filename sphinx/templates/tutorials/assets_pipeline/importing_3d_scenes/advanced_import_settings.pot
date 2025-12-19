@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -182,7 +182,7 @@ msgid "You want to configure material features not supported by your 3D applicat
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/advanced_import_settings.rst:170
-msgid "You want to use a different texture filtering mode, as this option is configured in the material since Godot 4.0 (and not in the image)."
+msgid "You want to use a different texture filtering mode, as this option is configured in the material (and not in the image)."
 msgstr ""
 
 #: ../../docs/tutorials/assets_pipeline/importing_3d_scenes/advanced_import_settings.rst:172

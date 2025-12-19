@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../../docs/about/system_requirements.rst:268
 #: ../../docs/about/system_requirements.rst:274
-msgid "*Example (Metal): Apple A11 (iPhone 8/X)*"
+msgid "*Example (Metal): Apple A12 (iPhone XR/XS)*"
 msgstr ""
 
 #: ../../docs/about/system_requirements.rst:270

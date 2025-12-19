@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -104,7 +104,7 @@ msgid ":ref:`Show Image <class_ProjectSettings_property_application/boot_splash/
 msgstr ""
 
 #: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:95
-msgid ":ref:`Fullsize <class_ProjectSettings_property_application/boot_splash/fullsize>`: ``fullsize--true``, ``fullsize--false``"
+msgid ":ref:`Stretch Mode <class_ProjectSettings_property_application/boot_splash/stretch_mode>`: ``fullsize--true`` (if **not** Disabled), ``fullsize--false``"
 msgstr ""
 
 #: ../../docs/tutorials/platform/web/customizing_html5_shell.rst:97

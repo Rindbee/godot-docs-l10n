@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -101,4 +101,8 @@ msgstr ""
 
 #: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:122
 msgid "This example creates an intent to send a text:"
+msgstr ""
+
+#: ../../docs/tutorials/platform/android/javaclasswrapper_and_androidruntimeplugin.rst:138
+msgid "Example: Saving an image to the Android gallery"
 msgstr ""

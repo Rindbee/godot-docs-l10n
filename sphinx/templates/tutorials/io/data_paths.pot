@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -107,49 +107,49 @@ msgstr ""
 msgid "You can access any file relative to it by writing paths starting with ``res://``, which stands for resources. For example, you can access an image file ``character.png`` located in the project's root folder in code with the following path: ``res://character.png``."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:58
+#: ../../docs/tutorials/io/data_paths.rst:60
 msgid "Accessing persistent user data (``user://``)"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:60
+#: ../../docs/tutorials/io/data_paths.rst:62
 msgid "To store persistent data files, like the player's save or settings, you want to use ``user://`` instead of ``res://`` as your path's prefix. This is because when the game is running, the project's file system will likely be read-only."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:64
+#: ../../docs/tutorials/io/data_paths.rst:66
 msgid "The ``user://`` prefix points to a different directory on the user's device. Unlike ``res://``, the directory pointed at by ``user://`` is created automatically and *guaranteed* to be writable to, even in an exported project."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:68
+#: ../../docs/tutorials/io/data_paths.rst:70
 msgid "The location of the ``user://`` folder depends on what is configured in the Project Settings:"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:71
+#: ../../docs/tutorials/io/data_paths.rst:73
 msgid "By default, the ``user://`` folder is created within Godot's :ref:`editor data path <doc_data_paths_editor_data_paths>` in the ``app_userdata/[project_name]`` folder. This is the default so that prototypes and test projects stay self-contained within Godot's data folder."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:75
+#: ../../docs/tutorials/io/data_paths.rst:77
 msgid "If :ref:`application/config/use_custom_user_dir <class_ProjectSettings_property_application/config/use_custom_user_dir>` is enabled in the Project Settings, the ``user://`` folder is created **next to** Godot's editor data path, i.e. in the standard location for applications data."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:80
+#: ../../docs/tutorials/io/data_paths.rst:82
 msgid "By default, the folder name will be inferred from the project name, but it can be further customized with :ref:`application/config/custom_user_dir_name <class_ProjectSettings_property_application/config/custom_user_dir_name>`. This path can contain path separators, so you can use it e.g. to group projects of a given studio with a ``Studio Name/Game Name`` structure."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:86
+#: ../../docs/tutorials/io/data_paths.rst:88
 msgid "On desktop platforms, the actual directory paths for ``user://`` are:"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:89
-#: ../../docs/tutorials/io/data_paths.rst:145
+#: ../../docs/tutorials/io/data_paths.rst:91
+#: ../../docs/tutorials/io/data_paths.rst:147
 msgid "Type"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:89
-#: ../../docs/tutorials/io/data_paths.rst:145
+#: ../../docs/tutorials/io/data_paths.rst:91
+#: ../../docs/tutorials/io/data_paths.rst:147
 msgid "Location"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:91
+#: ../../docs/tutorials/io/data_paths.rst:93
 msgid "Default"
 msgstr ""
 
@@ -165,7 +165,7 @@ msgstr ""
 msgid "Linux: ``~/.local/share/godot/app_userdata/[project_name]``"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:95
+#: ../../docs/tutorials/io/data_paths.rst:97
 msgid "Custom dir"
 msgstr ""
 
@@ -181,7 +181,7 @@ msgstr ""
 msgid "Linux: ``~/.local/share/[project_name]``"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:99
+#: ../../docs/tutorials/io/data_paths.rst:101
 msgid "Custom dir and name"
 msgstr ""
 
@@ -197,47 +197,47 @@ msgstr ""
 msgid "Linux: ``~/.local/share/[custom_user_dir_name]``"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:104
+#: ../../docs/tutorials/io/data_paths.rst:106
 msgid "``[project_name]`` is based on the application name defined in the Project Settings, but you can override it on a per-platform basis using :ref:`feature tags <doc_feature_tags>`."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:107
+#: ../../docs/tutorials/io/data_paths.rst:109
 msgid "On mobile platforms, this path is unique to the project and is not accessible by other applications for security reasons."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:110
+#: ../../docs/tutorials/io/data_paths.rst:112
 msgid "On HTML5 exports, ``user://`` will refer to a virtual filesystem stored on the device via IndexedDB. (Interaction with the main filesystem can still be performed through the :ref:`JavaScriptBridge <class_JavaScriptBridge>` singleton.)"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:115
+#: ../../docs/tutorials/io/data_paths.rst:117
 msgid "File logging"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:119
+#: ../../docs/tutorials/io/data_paths.rst:121
 msgid "Documentation on file logging has been moved to :ref:`doc_logging`."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:122
+#: ../../docs/tutorials/io/data_paths.rst:124
 msgid "Converting paths to absolute paths or \"local\" paths"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:124
+#: ../../docs/tutorials/io/data_paths.rst:126
 msgid "You can use :ref:`ProjectSettings.globalize_path() <class_ProjectSettings_method_globalize_path>` to convert a \"local\" path like ``res://path/to/file.txt`` to an absolute OS path. For example, :ref:`ProjectSettings.globalize_path() <class_ProjectSettings_method_globalize_path>` can be used to open \"local\" paths in the OS file manager using :ref:`OS.shell_open() <class_OS_method_shell_open>` since it only accepts native OS paths."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:131
+#: ../../docs/tutorials/io/data_paths.rst:133
 msgid "To convert an absolute OS path to a \"local\" path starting with ``res://`` or ``user://``, use :ref:`ProjectSettings.localize_path() <class_ProjectSettings_method_localize_path>`. This only works for absolute paths that point to files or folders in your project's root or ``user://`` folders."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:139
+#: ../../docs/tutorials/io/data_paths.rst:141
 msgid "Editor data paths"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:141
+#: ../../docs/tutorials/io/data_paths.rst:143
 msgid "The editor uses different paths for editor data, editor settings, and cache, depending on the platform. By default, these paths are:"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:147
+#: ../../docs/tutorials/io/data_paths.rst:149
 msgid "Editor data"
 msgstr ""
 
@@ -253,7 +253,7 @@ msgstr ""
 msgid "Linux: ``~/.local/share/godot/``"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:151
+#: ../../docs/tutorials/io/data_paths.rst:153
 msgid "Editor settings"
 msgstr ""
 
@@ -261,7 +261,7 @@ msgstr ""
 msgid "Linux: ``~/.config/godot/``"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:155
+#: ../../docs/tutorials/io/data_paths.rst:157
 msgid "Cache"
 msgstr ""
 
@@ -277,38 +277,38 @@ msgstr ""
 msgid "Linux: ``~/.cache/godot/``"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:160
+#: ../../docs/tutorials/io/data_paths.rst:162
 msgid "**Editor data** contains export templates and project-specific data."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:161
+#: ../../docs/tutorials/io/data_paths.rst:163
 msgid "**Editor settings** contains the main editor settings configuration file as well as various other user-specific customizations (editor layouts, feature profiles, script templates, etc.)."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:164
+#: ../../docs/tutorials/io/data_paths.rst:166
 msgid "**Cache** contains data generated by the editor, or stored temporarily. It can safely be removed when Godot is closed."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:167
+#: ../../docs/tutorials/io/data_paths.rst:169
 msgid "Godot complies with the `XDG Base Directory Specification <https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>`__ on Linux/\\*BSD. You can override the ``XDG_DATA_HOME``, ``XDG_CONFIG_HOME`` and ``XDG_CACHE_HOME`` environment variables to change the editor and project data paths."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:173
+#: ../../docs/tutorials/io/data_paths.rst:175
 msgid "If you use `Godot packaged as a Flatpak <https://flathub.org/apps/details/org.godotengine.Godot>`__, the editor data paths will be located in subfolders in ``~/.var/app/org.godotengine.Godot/``."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:181
+#: ../../docs/tutorials/io/data_paths.rst:183
 msgid "Self-contained mode"
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:183
+#: ../../docs/tutorials/io/data_paths.rst:185
 msgid "If you create a file called ``._sc_`` or ``_sc_`` in the same directory as the editor binary (or in `MacOS/Contents/` for a macOS editor .app bundle), Godot will enable *self-contained mode*. This mode makes Godot write all editor data, settings, and cache to a directory named ``editor_data/`` in the same directory as the editor binary. You can use it to create a portable installation of the editor."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:190
+#: ../../docs/tutorials/io/data_paths.rst:192
 msgid "The `Steam release of Godot <https://store.steampowered.com/app/404790/>`__ uses self-contained mode by default."
 msgstr ""
 
-#: ../../docs/tutorials/io/data_paths.rst:198
+#: ../../docs/tutorials/io/data_paths.rst:200
 msgid "Self-contained mode is not supported in exported projects yet. To read and write files relative to the executable path, use :ref:`OS.get_executable_path() <class_OS_method_get_executable_path>`. Note that writing files in the executable path only works if the executable is placed in a writable location (i.e. **not** Program Files or another directory that is read-only for regular users)."
 msgstr ""

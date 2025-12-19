@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -24,101 +24,263 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../docs/tutorials/physics/ragdoll_system.rst:9
-msgid "Since version 3.1, Godot supports ragdoll physics. Ragdolls rely on physics simulation to create realistic procedural animation. They are used for death animations in many games."
+msgid "Godot supports ragdoll physics. Ragdolls rely on physics simulation to create realistic procedural animation. They are used for death animations in many games."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:11
-msgid "In this tutorial, we will be using the Platformer3D demo to set up a ragdoll."
-msgstr ""
-
-#: ../../docs/tutorials/physics/ragdoll_system.rst:13
-msgid "You can download the Platformer3D demo on `GitHub <https://github.com/godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the `Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
+#: ../../docs/tutorials/physics/ragdoll_system.rst:12
+msgid "In this tutorial, we will be using the Platformer 3D demo to set up a ragdoll."
 msgstr ""
 
 #: ../../docs/tutorials/physics/ragdoll_system.rst:16
+msgid "You can download the Platformer 3D demo on `GitHub <https://github.com/godotengine/godot-demo-projects/tree/master/3d/platformer>`_ or using the `Asset Library <https://godotengine.org/asset-library/asset/2748>`_."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:20
+msgid "You can also check out an example of a complete ragdoll setup in the `Ragdoll Physics demo <https://github.com/godotengine/godot-demo-projects/tree/master/3d/ragdoll_physics>`_."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:24
 msgid "Setting up the ragdoll"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:19
+#: ../../docs/tutorials/physics/ragdoll_system.rst:27
 msgid "Creating physical bones"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:21
-msgid "Like many other features in the engine, there is a node to set up a ragdoll: the :ref:`PhysicalBone3D <class_PhysicalBone3D>` node. To simplify the setup, you can generate ``PhysicalBone`` nodes with the \"Create physical skeleton\" feature in the skeleton node."
+#: ../../docs/tutorials/physics/ragdoll_system.rst:29
+msgid "Like many other features in the engine, there are two nodes which are used to set up a ragdoll:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:23
-msgid "Open the platformer demo in Godot, and then the Robi scene. Select the ``Skeleton`` node. A skeleton button appears on the top bar menu:"
+#: ../../docs/tutorials/physics/ragdoll_system.rst:32
+msgid "A :ref:`PhysicalBoneSimulator3D <class_PhysicalBoneSimulator3D>` node. This node is the parent of all physical bones and is responsible for controlling the simulation."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:27
-msgid "Click it and select the ``Create physical skeleton`` option. Godot will generate ``PhysicalBone`` nodes and collision shapes for each bone in the skeleton and pin joints to connect them together:"
-msgstr ""
-
-#: ../../docs/tutorials/physics/ragdoll_system.rst:31
-msgid "Some of the generated bones aren't necessary: the ``MASTER`` bone for example. So we're going to clean up the skeleton by removing them."
-msgstr ""
-
-#: ../../docs/tutorials/physics/ragdoll_system.rst:34
-msgid "Cleaning up the skeleton"
-msgstr ""
-
-#: ../../docs/tutorials/physics/ragdoll_system.rst:36
-msgid "Each ``PhysicalBone`` the engine needs to simulate has a performance cost, so you want to remove every bone that is too small to make a difference in the simulation, as well as all utility bones."
+#: ../../docs/tutorials/physics/ragdoll_system.rst:35
+msgid "One or more :ref:`PhysicalBone3D <class_PhysicalBone3D>` children. Each node represents a single bone in the ragdoll."
 msgstr ""
 
 #: ../../docs/tutorials/physics/ragdoll_system.rst:38
-msgid "For example, if we take a humanoid, you do not want to have physical bones for each finger. You can use a single bone for the entire hand instead, or one for the palm, one for the thumb, and a last one for the other four fingers."
+msgid "Open the platformer demo in Godot, and then the ``player/player.tscn`` scene. Select the ``Skeleton3D`` node. A skeleton button appears at the top of the 3D editor viewport:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:40
-msgid "Remove these physical bones: ``MASTER``, ``waist``, ``neck``, ``headtracker``. This gives us an optimized skeleton and makes it easier to control the ragdoll."
+#: ../../docs/tutorials/physics/ragdoll_system.rst:42
+#: ../../docs/tutorials/physics/ragdoll_system.rst:46
+msgid "Creating a physical skeleton in the editor"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:43
-msgid "Collision shape adjustment"
-msgstr ""
-
-#: ../../docs/tutorials/physics/ragdoll_system.rst:45
-msgid "The next task is adjusting the collision shape and the size of physical bones to match the part of the body that each bone should simulate."
-msgstr ""
-
-#: ../../docs/tutorials/physics/ragdoll_system.rst:50
-msgid "Joints adjustment"
+#: ../../docs/tutorials/physics/ragdoll_system.rst:48
+msgid "Click it and select the :menu:`Create Physical Skeleton` option. Godot will generate PhysicalBone3D nodes and collision shapes for each bone in the skeleton and pin joints to connect them together:"
 msgstr ""
 
 #: ../../docs/tutorials/physics/ragdoll_system.rst:52
-msgid "Once you adjusted the collision shapes, your ragdoll is almost ready. You just want to adjust the pin joints to get a better simulation. ``PhysicalBone`` nodes have an unconstrained pin joint assigned to them by default. To change the pin joint, select the ``PhysicalBone`` and change the constraint type in the ``Joint`` section. There, you can change the constraint's orientation and its limits."
-msgstr ""
-
 #: ../../docs/tutorials/physics/ragdoll_system.rst:56
-msgid "This is the final result:"
+msgid "Scene tree of the player scene after creating a physical skeleton"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:61
-msgid "Simulating the ragdoll"
+#: ../../docs/tutorials/physics/ragdoll_system.rst:58
+msgid "Some of the generated bones aren't necessary, such as the ``MASTER`` bone in this scene. We're going to clean up the skeleton by removing them."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:63
-msgid "The ragdoll is now ready to use. To start the simulation and play the ragdoll animation, you need to call the ``physical_bones_start_simulation`` method. Attach a script to the skeleton node and call the method in the ``_ready`` method:"
+#: ../../docs/tutorials/physics/ragdoll_system.rst:62
+msgid "Clean up and optimize the skeleton"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:64
+msgid "For each PhysicalBone3D the engine needs to simulate, there is a performance cost. You'll want to remove every bone that is too small to make a difference in the simulation, as well as all utility bones."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:68
+msgid "For example, if we take a humanoid, you don't need to have physical bones for each finger. You can use a single bone for the entire hand instead, or one for the palm, one for the thumb, and a last one for the other four fingers."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:72
+msgid "Remove these PhysicalBone3D nodes: ``MASTER``, ``waist``, ``neck``, ``headtracker``. This gives us an optimized skeleton and makes it easier to control the ragdoll."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:76
+msgid "Adjust joints and constraints"
 msgstr ""
 
 #: ../../docs/tutorials/physics/ragdoll_system.rst:78
-msgid "To stop the simulation, call the ``physical_bones_stop_simulation()`` method."
+msgid "Once you adjusted the collision shapes, your ragdoll is almost ready. Now, you need to adjust the pin joints to get a better simulation. PhysicalBone3D nodes have an unconstrained pin joint assigned to them by default. To change the pin joint, select a PhysicalBone3D node and change the constraint type in the :menu:`Joint` section of the inspector. There, you can change the constraint's orientation and its limits."
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:82
-msgid "You can also limit the simulation to only a few bones. To do so, pass the bone names as a parameter. Here's an example of partial ragdoll simulation:"
+#: ../../docs/tutorials/physics/ragdoll_system.rst:84
+msgid "Joints have a gizmo visible in the 3D editor as well, so you can see their constraints in action."
 msgstr ""
 
 #: ../../docs/tutorials/physics/ragdoll_system.rst:87
+#: ../../docs/tutorials/physics/ragdoll_system.rst:91
+msgid "Adjusting joints in the inspector after selecting a PhysicalBone3D node"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:95
+msgid "To get a better view when editing joints and collision shapes, you can do the following:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:97
+msgid "Hide PhysicalBone3D nodes you aren't currently working on, so you can focus on the ones you're adjusting."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:99
+msgid "Hide the MeshInstance3D of the character by clicking the eye icon next to it in the scene tree dock."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:101
+msgid "Hide the Skeleton3D gizmos, so that the orange triangles that represent the skeleton don't clutter the viewport while leaving the rest visible. To do so, click :menu:`View > Gizmos > Skeleton3D` at the top of the 3D editor viewport until the eye icon appears closed."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:105
+msgid "Disable the preview environment by clicking the globe icon at the top of the 3D editor viewport."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:107
+msgid "Set the **Default Clear Color** project setting to pure black in the Project Settings. This is only effective if the preview environment is disabled."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:109
+msgid "Change the debug draw mode using the :menu:`Perspective` button in the top-left corner of the 3D editor viewport. The :menu:`Display Wireframe` and :menu:`Display Overdraw` options are particularly useful when adjusting collision shapes, as they allow you to see through the original mesh."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:113
+msgid "Use the orthographic camera by clicking the :button:`X`/:button:`Y`/:button:`Z` buttons in the top-right corner of the 3D editor viewport."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:116
+msgid "Here is the list of joints available:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:118
+msgid "**None:** Does not perform any constraint."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:119
+msgid "**ConeJoint:** Ball-and-socket. Useful for shoulders, hips, neck."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:120
+msgid "**HingeJoint:** Provides an angular constraint; think of it like a door hinge. Useful for elbows and knees."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:122
+msgid "**PinJoint:** Keeps two bodies connected *(default)*. Leads to \"crumpling\" of the bones, so it's recommended to use other joint types for most characters instead."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:125
+msgid "**SliderJoint:** Slides one bone along another on a specific axis."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:126
+msgid "**6DOFJoint:** Most powerful joint, offering both linear and angular constraints, but also the most complex to configure."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:129
+msgid "If in doubt, start with HingeJoint and ConeJoint, as they cover most use cases:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:131
+msgid "For HingeJoint, make sure to enable **Angular Limit** in the :menu:`Joint Constraints` section of the inspector. After enabling it, you can see the angle that it's being constrained to in the viewport. You can rotate the PhysicalBone3D to change the axis where the joint is constrained, then adjust the angles."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:136
+msgid "For ConeJoint, it's usually best to limit **Swing Span** between 20 and 90 degrees, and the **Twist Span** between 20 and 45 degrees."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:140
+msgid "Adjust collision shapes"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:142
+msgid "The next task is adjusting the collision shape and the size of the physical bones to match the part of the body that each bone should simulate."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:145
+msgid "It's recommended to adjust collision shapes *after* adjusting joints and constraints, as rotating a joint will also rotate the collision shape. To avoid having to adjust collision shapes twice, it's better to adjust joints first."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:149
+msgid "Note that it's possible to have multiple collision shapes as a child of a PhysicalBone3D node. This can be useful to represent particularly complex shapes of limbs that are otherwise rigid."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:155
+msgid "To pause animation playback while adjusting the ragdoll, select the ``AnimationTree`` node and disable the **Active** property in the Inspector. Remember to enable it again when you're done, as it controls animation playback during gameplay."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:160
+#: ../../docs/tutorials/physics/ragdoll_system.rst:164
+msgid "Adjusting collision shapes in the 3D editor"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:166
+msgid "This is the final result:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:168
+#: ../../docs/tutorials/physics/ragdoll_system.rst:172
+msgid "Result after adjusting joints and collision shapes (player mesh is hidden for visibility)"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:175
+msgid "Simulate the ragdoll"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:177
+msgid "The ragdoll is now ready to use. To start the simulation and play the ragdoll animation, you need to call the :ref:`PhysicalBoneSimulator3D.physical_bones_start_simulation() <class_PhysicalBoneSimulator3D_method_physical_bones_start_simulation>` method. Attach a script to the :ref:`PhysicalBoneSimulator3D <class_PhysicalBoneSimulator3D>` node that is the parent of all the PhysicalBone3D nodes in our scene, then call it in the script's ``_ready`` method:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:197
+msgid "To stop the simulation, call the :ref:`PhysicalBoneSimulator3D.physical_bones_stop_simulation() <class_PhysicalBoneSimulator3D_method_physical_bones_stop_simulation>` method."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:209
+msgid "You can also limit the simulation to only a few bones. This can be useful to create effects such as ragdoll limbs or attachments that can interact with the world. To do so, pass the bone names (*not* the PhysicalBone3D node names) as a parameter. To see the bone name, look at the **Bone Name** property in the inspector after selecting a PhysicalBone3D node."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:217
+msgid "When using an automatically generated physical skeleton as shown in this tutorial, the bone name is also contained in the node name. For example, in ``Physical Bone l-arm``, ``l-arm`` is the bone name."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:234
+msgid "Note that nonexistent bone names will not print any error or warning. If nothing happens when starting the simulation (or if the whole body is ragdolled instead of only specific bones), double-check the list of provided bones."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:238
+msgid "Here's an example of partial ragdoll simulation:"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:250
+msgid "To control how strongly the partial ragdoll simulation affects the overall animation, you can adjust the **Influence** property in the :ref:`PhysicalBoneSimulator3D <class_PhysicalBoneSimulator3D>` node that is the parent of all PhysicalBone3D nodes. By default, it's set to ``1.0``, which means the ragdoll simulation fully overrides the rest of the animation."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:257
 msgid "Collision layer and mask"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:89
-msgid "Make sure to set up your collision layers and masks properly so the ``CharacterBody3D``'s capsule doesn't get in the way of the physics simulation:"
+#: ../../docs/tutorials/physics/ragdoll_system.rst:259
+msgid "Make sure to set up your collision layers and masks properly so the CharacterBody3D's capsule doesn't get in the way of the physics simulation. Remember to adjust the collision layer and mask in the coin scene as well, so that the player can still collect coins:"
 msgstr ""
 
-#: ../../docs/tutorials/physics/ragdoll_system.rst:93
-msgid "For more information, read :ref:`doc_physics_introduction_collision_layers_and_masks`."
+#: ../../docs/tutorials/physics/ragdoll_system.rst:264
+#: ../../docs/tutorials/physics/ragdoll_system.rst:268
+msgid "Layers and masks must be adjusted to these values in the inspector for each node"
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:270
+msgid "You can find the GridMap in the 3D platformer demo in ``stage/grid_map.scn``. The coin's Area3D node (on which the layers and masks must be adjusted) can be found at ``coin/coin.tscn``."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:276
+msgid "To select all PhysicalBone3D nodes quickly, enter ``t:PhysicalBone3D`` in the search bar at the top of the scene tree dock. This filters the scene tree to only show PhysicalBone3D nodes, which allows you to select them all at once using :kbd:`Shift + Left mouse button` on the first and last entries."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:281
+msgid "If this is not done, collision will behave incorrectly as the player will collide with its own (inactive) ragdoll. This can cause the player to wildly bounce around or get stuck."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:285
+msgid "Like RigidBody3D, PhysicalBone3D supports collision exceptions through code using the :ref:`physical_bones_add_collision_exception() <class_PhysicalBoneSimulator3D_method_physical_bones_add_collision_exception>` and :ref:`physical_bones_remove_collision_exception() <class_PhysicalBoneSimulator3D_method_physical_bones_remove_collision_exception>` methods. This can be used to prevent collisions with a specific object without relying on layers and masks."
+msgstr ""
+
+#: ../../docs/tutorials/physics/ragdoll_system.rst:293
+msgid "For more information, see :ref:`doc_physics_introduction_collision_layers_and_masks`."
 msgstr ""

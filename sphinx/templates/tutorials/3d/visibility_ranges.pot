@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,7 +112,7 @@ msgid "In the inspector of any node that inherits from GeometryInstance3D, you c
 msgstr ""
 
 #: ../../docs/tutorials/3d/visibility_ranges.rst:84
-msgid "**Begin:** The instance will be hidden when the camera is closer to the instance's *origin* than this value (in 3D units)."
+msgid "**Begin:** The instance will be hidden when the camera is closer to the *center of the instance's AABB* (axis-aligned bounding box) than this value (in 3D units)."
 msgstr ""
 
 #: ../../docs/tutorials/3d/visibility_ranges.rst:86
@@ -120,7 +120,7 @@ msgid "**Begin Margin:** The hysteresis or alpha fade transition distance to use
 msgstr ""
 
 #: ../../docs/tutorials/3d/visibility_ranges.rst:89
-msgid "**End:** The instance will be hidden when the camera is further away from the instance's *origin* than this value (in 3D units)."
+msgid "**End:** The instance will be hidden when the camera is further away from the *center of the instance's AABB* than this value (in 3D units)."
 msgstr ""
 
 #: ../../docs/tutorials/3d/visibility_ranges.rst:91

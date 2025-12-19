@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -159,7 +159,7 @@ msgid "in float **TIME**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:157
-msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
+msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:165
@@ -175,7 +175,7 @@ msgid "samplerCube **RADIANCE**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:167
-msgid "Radiance cubemap. Can only be read from during background pass. Check ``!AT_CUBEMAP_PASS`` before using."
+msgid "Radiance cubemap. Can only be read from during the background pass. Check ``!AT_CUBEMAP_PASS`` before using."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
@@ -183,7 +183,7 @@ msgid "in bool **AT_HALF_RES_PASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:169
-msgid "``true`` when rendering to half resolution pass."
+msgid "``true`` when rendering to the half resolution pass."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
@@ -191,7 +191,7 @@ msgid "in bool **AT_QUARTER_RES_PASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:171
-msgid "``true`` when rendering to quarter resolution pass."
+msgid "``true`` when rendering to the quarter resolution pass."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
@@ -199,7 +199,7 @@ msgid "in bool **AT_CUBEMAP_PASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:173
-msgid "``true`` when rendering to radiance cubemap."
+msgid "``true`` when rendering to the radiance cubemap."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:175
@@ -247,7 +247,7 @@ msgid "in float **PI**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:186
-msgid "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its diameter and amount of radians in half turn."
+msgid "A ``PI`` constant (``3.141592``). The ratio of a circle's circumference to its diameter and the number of radians in a half turn."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:189
@@ -255,7 +255,7 @@ msgid "in float **TAU**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:189
-msgid "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of radians in full turn."
+msgid "A ``TAU`` constant (``6.283185``). Equivalent to ``PI * 2`` and the number of radians in a full turn."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:192
@@ -263,7 +263,7 @@ msgid "in float **E**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:192
-msgid "An ``E`` constant (``2.718281``). Euler's number and a base of the natural logarithm."
+msgid "An ``E`` constant (``2.718281``). Euler's number, the base of the natural logarithm."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:197
@@ -275,7 +275,7 @@ msgid "in vec3 **EYEDIR**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:202
-msgid "Normalized direction of current pixel. Use this as your basic direction for procedural effects."
+msgid "Normalized direction of the current pixel. Use this as your basic direction for procedural effects."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
@@ -283,7 +283,7 @@ msgid "in vec2 **SCREEN_UV**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:204
-msgid "Screen UV coordinate for current pixel. Used to map a texture to the full screen."
+msgid "Screen UV coordinate for the current pixel. Used to map a texture to the full screen."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:206
@@ -299,7 +299,7 @@ msgid "in vec4 **HALF_RES_COLOR**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:208
-msgid "Color value of corresponding pixel from half resolution pass. Uses linear filter."
+msgid "Color value of the corresponding pixel from the half resolution pass. Uses linear filter."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:210
@@ -307,7 +307,7 @@ msgid "in vec4 **QUARTER_RES_COLOR**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:210
-msgid "Color value of corresponding pixel from quarter resolution pass. Uses linear filter."
+msgid "Color value of the corresponding pixel from the quarter resolution pass. Uses linear filter."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/sky_shader.rst:212

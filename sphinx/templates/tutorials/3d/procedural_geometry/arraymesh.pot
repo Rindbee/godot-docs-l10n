@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,6 +40,7 @@ msgid "Common elements of ``arrays`` are listed below, together with the positio
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:29
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:327
 msgid "Index"
 msgstr ""
 
@@ -52,6 +53,7 @@ msgid "Array type"
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:33
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:332
 msgid "0"
 msgstr ""
 
@@ -64,6 +66,7 @@ msgid ":ref:`PackedVector3Array <class_PackedVector3Array>` or :ref:`PackedVecto
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:37
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:337
 msgid "1"
 msgstr ""
 
@@ -76,6 +79,7 @@ msgid ":ref:`PackedVector3Array <class_PackedVector3Array>`"
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:41
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:342
 msgid "2"
 msgstr ""
 
@@ -88,6 +92,7 @@ msgid ":ref:`PackedFloat32Array <class_PackedFloat32Array>` or :ref:`PackedFloat
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:46
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:347
 msgid "3"
 msgstr ""
 
@@ -205,21 +210,116 @@ msgid "Put together, the full code looks like:"
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:229
-msgid "The code that goes in the middle can be whatever you want. Below we will present some example code for generating a sphere."
+msgid "The code that goes in the middle can be whatever you want. Below we will present some example code for generating shapes, starting with a rectangle."
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:233
-msgid "Generating geometry"
+msgid "Generating a rectangle"
 msgstr ""
 
 #: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:235
+msgid "Since we are using ``Mesh.PRIMITIVE_TRIANGLES`` to render, we will construct a rectangle with triangles."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:238
+msgid "A rectangle is formed by two triangles sharing four vertices. For our example, we will create a rectangle with its top left point at ``(0, 0, 0)`` with a width and length of one as shown below:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:241
+msgid "A rectangle made of two triangles sharing four vertices."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:245
+msgid "To draw this rectangle, define the coordinates of each vertex in the ``verts`` array."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:267
+msgid "The ``uvs`` array helps describe where parts of a texture should go onto the mesh. The values range from 0 to 1. Depending on your texture, you may want to change these values."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:290
+msgid "The ``normals`` array is used to describe the direction the vertices face and is used in lighting calculations. For this example, we will default to the ``Vector3.UP`` direction."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:314
+msgid "The ``indices`` array defines the order vertices are drawn. Godot renders in a *clockwise* direction, meaning that we must specify the vertices of a triangle we want to draw in clockwise order."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:318
+msgid "For example, to draw the first triangle, we will want to draw the vertices ``(0, 0, 0)``, ``(1, 0, 0)``, and ``(0, 0, 1)`` in that order. This is the same as drawing ``vert[0]``, ``vert[2]``, and ``vert[1]``, i.e., indices 0, 2, and 1, in the ``verts`` array. These index values are what the ``indices`` array defines."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:328
+msgid "``verts[Index]``"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:329
+msgid "``uvs[Index]``"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:330
+msgid "``normals[Index]``"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:333
+msgid "(0, 0, 0)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:334
+msgid "(0, 0)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:335
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:340
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:345
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:350
+msgid "Vector3.UP"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:338
+msgid "(0, 0, 1)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:339
+msgid "(1, 0)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:343
+msgid "(1, 0, 0)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:344
+msgid "(0, 1)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:348
+msgid "(1, 0, 1)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:349
+msgid "(1, 1)"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:368
+msgid "Put together, the rectangle generation code looks like:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:451
+msgid "For a more complex example, see the sphere generation section below."
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:454
+msgid "Generating a sphere"
+msgstr ""
+
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:456
 msgid "Here is sample code for generating a sphere. Although the code is presented in GDScript, there is nothing Godot specific about the approach to generating it. This implementation has nothing in particular to do with ArrayMeshes and is just a generic approach to generating a sphere. If you are having trouble understanding it or want to learn more about procedural geometry in general, you can use any tutorial that you find online."
 msgstr ""
 
-#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:350
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:571
 msgid "Saving"
 msgstr ""
 
-#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:352
+#: ../../docs/tutorials/3d/procedural_geometry/arraymesh.rst:573
 msgid "Finally, we can use the :ref:`ResourceSaver <class_resourcesaver>` class to save the ArrayMesh. This is useful when you want to generate a mesh and then use it later without having to re-generate it."
 msgstr ""

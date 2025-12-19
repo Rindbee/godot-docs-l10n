@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -200,7 +200,7 @@ msgid "Nodes"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:308
-msgid "Since Godot 4.0, nodes can be directly exported without having to use NodePaths."
+msgid "Nodes can also be directly exported without having to use NodePaths."
 msgstr ""
 
 #: ../../docs/tutorials/scripting/c_sharp/c_sharp_exports.rst:315

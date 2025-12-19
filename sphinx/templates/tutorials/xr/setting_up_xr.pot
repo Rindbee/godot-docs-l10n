@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -76,7 +76,7 @@ msgid "OpenXR"
 msgstr ""
 
 #: ../../docs/tutorials/xr/setting_up_xr.rst:48
-msgid "OpenXR is a new industry standard that allows different XR platforms to present themselves through a standardised API to XR applications. This standard is an open standard maintained by the Khronos Group and thus aligns very well with Godot's interests."
+msgid "OpenXR is a new industry standard that allows different XR platforms to present themselves through a standardized API to XR applications. This standard is an open standard maintained by the Khronos Group and thus aligns very well with Godot's interests."
 msgstr ""
 
 #: ../../docs/tutorials/xr/setting_up_xr.rst:50

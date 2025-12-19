@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -152,7 +152,7 @@ msgid "No support for external script editors."
 msgstr ""
 
 #: ../../docs/tutorials/editor/using_the_android_editor.rst:75
-msgid "While available, the *Vulkan Forward+* renderer is not recommended due to severe performance issues."
+msgid "While available, the Forward+ renderer is not recommended due to severe performance issues."
 msgstr ""
 
 #: ../../docs/tutorials/editor/using_the_android_editor.rst:76

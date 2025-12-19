@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -145,86 +145,110 @@ msgstr ""
 msgid "**Dynamic:** The mesh won't be taken into account for VoxelGI baking, but it will still receive *and* contribute indirect lighting to the scene in real-time. This option is much slower compared to **Static**. Only use the **Dynamic** global illumination mode on large meshes that will change significantly during gameplay."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:124
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:126
+msgid "For meshes with the **Static** bake mode, the VoxelGI baking system is not able to make use of custom shaders (:ref:`class_ShaderMaterial`). These meshes will be considered to be pure black, only acting as light blockers. You can make VoxelGI take custom shaders into account by using the **Dynamic** bake mode for these objects, but this has a performance cost."
+msgstr ""
+
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:132
+msgid "For :ref:`class_BaseMaterial3D`, some properties are currently ignored during baking. This can impact visuals if the material's albedo or emission texture was designed around using certain UV mappings:"
+msgstr ""
+
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:136
+msgid "**UV1 > Offset**"
+msgstr ""
+
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:137
+msgid "**UV1 > Scale**"
+msgstr ""
+
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:138
+msgid "**UV1 > Triplanar**"
+msgstr ""
+
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:139
+msgid "**Emission > On UV2**"
+msgstr ""
+
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:141
 msgid "Additionally, there are 3 bake modes available for lights (DirectionalLight3D, OmniLight3D and SpotLight3D):"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:127
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:144
 msgid "**Disabled:** The light won't be taken into account for VoxelGI baking. The light won't contribute indirect lighting to the scene."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:129
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:146
 msgid "**Static:** The light will be taken into account for VoxelGI baking. The light will contribute indirect lighting to the scene. If the light is changed in any way after baking, the VoxelGI node must be baked again or indirect lighting will look incorrect. If in doubt, use this mode for level lighting."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:133
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:150
 msgid "**Dynamic (default):** The light won't be taken into account for VoxelGI baking, but it will still contribute indirect lighting to the scene in real-time. This option is slower compared to **Static**. Only use the **Dynamic** global illumination mode on lights that will change significantly during gameplay."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:140
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:157
 msgid "The amount of indirect energy emitted by a light depends on its color, energy *and* indirect energy properties. To make a specific light emit more or less indirect energy without affecting the amount of direct light emitted by the light, adjust the **Indirect Energy** property in the Light3D inspector."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:147
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:164
 msgid "See :ref:`doc_introduction_to_global_illumination_gi_mode_recommendations` for general usage recommendations."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:151
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:168
 msgid "Adjusting VoxelGI performance and quality"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:153
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:170
 msgid "Since VoxelGI is relatively demanding, it will perform best on systems with recent dedicated GPUs. On older dedicated GPUs and integrated graphics, tweaking the settings is necessary to achieve reasonable performance."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:157
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:174
 msgid "In the Project Settings' **Rendering > Global Illumination** section, VoxelGI quality can also be adjusted in two ways:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:160
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:177
 msgid "**Voxel Gi > Quality:** If set to **Low** instead of **High**, voxel cone tracing will only use 4 taps instead of 6. This speeds up rendering at the cost of less pronounced ambient occlusion."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:163
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:180
 msgid "**Gi > Use Half Resolution:** If enabled, both VoxelGI and SDFGI will have their GI buffer rendering at halved resolution. For instance, when rendering in 3840×2160, the GI buffer will be computed at a 1920×1080 resolution. Enabling this option saves a lot of GPU time, but it can introduce visible aliasing around thin details."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:169
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:186
 msgid "Note that the **Advanced** toggle must be enabled in the project settings dialog for the above settings to be visible."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:172
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:189
 msgid "Additionally, VoxelGI can be disabled entirely by hiding the VoxelGI node. This can be used for comparison purposes or to improve performance on low-end systems."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:176
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:193
 msgid "Reducing VoxelGI light leaks and artifacts"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:178
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:195
 msgid "After baking VoxelGI, you may notice indirect light is leaking at some spots in your level geometry. This can be remedied in several ways:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:181
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:198
 msgid "For both light leaking and artifacts, try moving or rotating the VoxelGI node then bake it again."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:183
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:200
 msgid "To combat light leaking in general, ensure your level geometry is fully sealed. This is best done in the 3D modeling software used to design the level, but primitive MeshInstance3D nodes with their global illumination mode set to **Static** can also be used."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:187
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:204
 msgid "To combat light leaking with thin geometry, it's recommended to make the geometry in question thicker. If this is not possible, then add a primitive MeshInstance3D node with its global illumination mode set to **Static**. Bake VoxelGI again, then hide the primitive MeshInstance3D node (it will still be taken into account by VoxelGI). For optimal results, the MeshInstance3D should have a material whose color matches the original thin geometry."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:193
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:210
 msgid "To combat artifacts that can appear on reflective surfaces, try increasing **Bias** and/or **Normal Bias** in the VoxelGIData resource as described above. Do not increase these values too high, or light leaking will become more pronounced."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:197
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:214
 msgid "If you notice VoxelGI nodes popping in and out of existence as the camera moves, this is most likely because the engine is rendering too many VoxelGI instances at once. Godot is limited to rendering 8 VoxelGI nodes at once, which means up to 8 instances can be in the camera view before some of them will start flickering."
 msgstr ""
 
-#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:203
+#: ../../docs/tutorials/3d/global_illumination/using_voxel_gi.rst:220
 msgid "Additionally, for performance reasons, Godot can only blend between 2 VoxelGI nodes at a given pixel on the screen. If you have more than 2 VoxelGI nodes overlapping, global illumination may appear to flicker as the camera moves or rotates."
 msgstr ""

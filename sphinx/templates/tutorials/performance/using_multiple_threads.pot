@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -19,78 +19,82 @@ msgstr ""
 msgid "Using multiple threads"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:7
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:8
+msgid "For a list of multithreading primitives in C++, see :ref:`doc_core_concurrency_types`."
+msgstr ""
+
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:11
 msgid "Threads"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:9
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:13
 msgid "Threads allow simultaneous execution of code. It allows off-loading work from the main thread."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:12
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:16
 msgid "Godot supports threads and provides many handy functions to use them."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:14
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:18
 msgid "If using other languages (C#, C++), it may be easier to use the threading classes they support."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:19
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:23
 msgid "Before using a built-in class in a thread, read :ref:`doc_thread_safe_apis` first to check whether it can be safely used in a thread."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:23
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:27
 msgid "Creating a Thread"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:25
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:29
 msgid "To create a thread, use the following code:"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:134
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:138
 msgid "Your function will, then, run in a separate thread until it returns. Even if the function has returned already, the thread must collect it, so call :ref:`Thread.wait_to_finish()<class_Thread_method_wait_to_finish>`, which will wait until the thread is done (if not done yet), then properly dispose of it."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:141
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:145
 msgid "Creating threads is a slow operation, especially on Windows. To avoid unnecessary performance overhead, make sure to create threads before heavy processing is needed instead of creating threads just-in-time."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:145
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:149
 msgid "For example, if you need multiple threads during gameplay, you can create threads while the level is loading and only actually start processing with them later on."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:149
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:153
 msgid "Additionally, locking and unlocking of mutexes can also be an expensive operation. Locking should be done carefully; avoid locking too often (or for too long)."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:154
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:160
 msgid "Mutexes"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:156
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:162
 msgid "Accessing objects or data from multiple threads is not always supported (if you do it, it will cause unexpected behaviors or crashes). Read the :ref:`doc_thread_safe_apis` documentation to understand which engine APIs support multiple thread access."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:161
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:167
 msgid "When processing your own data or calling your own functions, as a rule, try to avoid accessing the same data directly from different threads. You may run into synchronization problems, as the data is not always updated between CPU cores when modified. Always use a :ref:`Mutex<class_Mutex>` when accessing a piece of data from different threads."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:167
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:173
 msgid "When calling :ref:`Mutex.lock()<class_Mutex_method_lock>`, a thread ensures that all other threads will be blocked (put on suspended state) if they try to *lock* the same mutex. When the mutex is unlocked by calling :ref:`Mutex.unlock()<class_Mutex_method_unlock>`, the other threads will be allowed to proceed with the lock (but only one at a time)."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:173
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:179
 msgid "Here is an example of using a Mutex:"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:298
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:304
 msgid "Semaphores"
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:300
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:306
 msgid "Sometimes you want your thread to work *\"on demand\"*. In other words, tell it when to work and let it suspend when it isn't doing anything. For this, :ref:`Semaphores<class_Semaphore>` are used. The function :ref:`Semaphore.wait()<class_Semaphore_method_wait>` is used in the thread to suspend it until some data arrives."
 msgstr ""
 
-#: ../../docs/tutorials/performance/using_multiple_threads.rst:306
+#: ../../docs/tutorials/performance/using_multiple_threads.rst:312
 msgid "The main thread, instead, uses :ref:`Semaphore.post()<class_Semaphore_method_post>` to signal that data is ready to be processed:"
 msgstr ""

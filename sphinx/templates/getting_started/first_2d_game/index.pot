@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:79
+#: ../../docs/getting_started/first_2d_game/index.rst:80
 msgid "image0"
 msgstr ""
 
@@ -88,33 +88,37 @@ msgid "You can find a completed version of this project at this location:"
 msgstr ""
 
 #: ../../docs/getting_started/first_2d_game/index.rst:45
-msgid "https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps"
+msgid "`Dodge the Creeps source code (GDScript) <https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps>`__"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:48
+#: ../../docs/getting_started/first_2d_game/index.rst:46
+msgid "`Dodge the Creeps source code (C#) <https://github.com/godotengine/godot-demo-projects/tree/master/mono/dodge_the_creeps>`__"
+msgstr ""
+
+#: ../../docs/getting_started/first_2d_game/index.rst:49
 msgid "Prerequisites"
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:50
+#: ../../docs/getting_started/first_2d_game/index.rst:51
 msgid "This step-by-step tutorial is intended for beginners who followed the complete :ref:`doc_step_by_step`."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:53
+#: ../../docs/getting_started/first_2d_game/index.rst:54
 msgid "If you're an experienced programmer, you can find the complete demo's source code here: `Dodge the Creeps source code <https://github.com/godotengine/godot-demo-projects/tree/master/2d/dodge_the_creeps>`__."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:57
+#: ../../docs/getting_started/first_2d_game/index.rst:58
 msgid "We prepared some game assets you'll need to download so we can jump straight to the code."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:60
+#: ../../docs/getting_started/first_2d_game/index.rst:61
 msgid "You can download them by clicking the link below."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:62
+#: ../../docs/getting_started/first_2d_game/index.rst:63
 msgid "`dodge_the_creeps_2d_assets.zip <https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/dodge_the_creeps_2d_assets.zip>`_."
 msgstr ""
 
-#: ../../docs/getting_started/first_2d_game/index.rst:65
+#: ../../docs/getting_started/first_2d_game/index.rst:66
 msgid "Contents"
 msgstr ""

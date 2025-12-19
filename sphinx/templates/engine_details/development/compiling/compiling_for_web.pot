@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -32,7 +32,7 @@ msgid "To compile export templates for the Web, the following is required:"
 msgstr ""
 
 #: ../../docs/engine_details/development/compiling/compiling_for_web.rst:18
-msgid "`Emscripten 3.1.62+ <https://emscripten.org>`__."
+msgid "`Emscripten 4.0.0+ <https://emscripten.org>`__."
 msgstr ""
 
 #: ../../docs/engine_details/development/compiling/compiling_for_web.rst:19

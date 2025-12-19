@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -28,7 +28,7 @@ msgid "Unlike VoxelGI and SDFGI, baked lightmaps are completely static. Once bak
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:18
-msgid "As they are baked, they have fewer problems than VoxelGI and SDFGI regarding light bleeding, and indirect light will often look better. The downside is that baking lightmaps takes longer compared to baking VoxelGI. While baking VoxelGI can be done in a matter of seconds, baking lightmaps can take several minutes if not more. This can slow down iteration speed significantly, so it is recommended to bake lightmaps only when you actually need to see changes in lighting. Since Godot 4.0, lightmaps are baked on the GPU, making light baking faster if you have a mid-range or high-end dedicated GPU."
+msgid "As they are baked, they have fewer problems than VoxelGI and SDFGI regarding light bleeding, and indirect light will often look better. The downside is that baking lightmaps takes longer compared to baking VoxelGI. While baking VoxelGI can be done in a matter of seconds, baking lightmaps can take several minutes if not more. This can slow down iteration speed significantly, so it is recommended to bake lightmaps only when you actually need to see changes in lighting. Lightmaps are baked on the GPU, making light baking faster if you have a mid-range or high-end dedicated GPU."
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:27
@@ -486,7 +486,7 @@ msgid "JNLM (Non-Local Means with Joint Filtering)"
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:522
-msgid "JNLM is the default denoising method and is included in Godot. It uses a simple but efficient denoising algorithm known as *non-local means*. JNLM runs on the GPU using a compute shader, and is compatible with any GPU that can run Godot 4's Vulkan-based rendering methods. No additional setup is required."
+msgid "JNLM is the default denoising method and is included in Godot. It uses a simple but efficient denoising algorithm known as *non-local means*. JNLM runs on the GPU using a compute shader, and is compatible with any GPU that can run Godot 4's RenderingDevice-based renderers. No additional setup is required."
 msgstr ""
 
 #: ../../docs/tutorials/3d/global_illumination/using_lightmap_gi.rst:527

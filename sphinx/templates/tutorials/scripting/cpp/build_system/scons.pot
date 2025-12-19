@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:4
+msgid "Main build system: Working with SCons"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:6
+msgid "This page documents how to compile godot-cpp. If you're looking to compile Godot instead, see :ref:`doc_introduction_to_the_buildsystem`."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:9
+msgid "`godot-cpp <https://github.com/godotengine/godot-cpp>`__ uses `SCons <https://scons.org>`__ as its main build system. It is modeled after :ref:`Godot's build system <doc_compiling_index>`, and some commands available there are also available in godot-cpp projects."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:14
+msgid "Getting started"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:16
+msgid "To build a godot-cpp project, it is generally sufficient to install `SCons <https://scons.org>`__, and simply run it in the project directory:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:19
+msgid "scons"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:21
+msgid "You may want to learn about available options:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:23
+msgid "scons --help"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:25
+msgid "To cleanly re-build your project, add ``--clean`` to your build command:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:27
+msgid "scons --clean"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:29
+msgid "You can find more information about common SCons arguments and build patterns in the `SCons User Guide <https://scons.org/doc/latest/HTML/scons-user/index.html>`__. Additional commands may be added by individual godot-cpp projects, so consult their specific documentation for more information on those."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:34
+msgid "Configuring an IDE"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:36
+msgid "Most IDEs can use a ``compile_commands.json`` file to understand a C++ project. You can generate it with godot-cpp using the following command:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:47
+msgid "For more information, please check out the :ref:`IDE configuration guides <doc_configuring_an_ide>`. Although written for Godot engine contributors, they are largely applicable to godot-cpp projects as well."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:51
+msgid "Loading your GDExtension in Godot"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:53
+msgid "Godot loads GDExtensions by finding :ref:`.gdextension <doc_gdextension_file>` files in the project directory. ``.gdextension`` files are used to select and load a binary compatible with the current computer / operating system."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:56
+msgid "The `godot-cpp-template <https://github.com/godotengine/godot-cpp-template>`__, as well as the :ref:`Getting Started section <doc_godot_cpp_getting_started>`, provide example ``.gdextension`` files for GDExtensions that are widely compatible to many different systems."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:61
+msgid "Building for multiple platforms"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:63
+msgid "GDExtensions are expected to run on many different systems, each with separate binaries and build configurations. If you are planning to publish your GDExtension, we recommend you provide binaries for all configurations that are mentioned in the `godot-cpp-template <https://github.com/godotengine/godot-cpp-template>`__ `.gdextension file <https://github.com/godotengine/godot-cpp-template/blob/main/demo/bin/example.gdextension>`__."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:68
+msgid "There are two popular ways by which cross platform builds can be achieved:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:70
+msgid "Cross-platform build tools"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:71
+msgid "Continuous Integration (CI)"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:73
+msgid "`godot-cpp-template <https://github.com/godotengine/godot-cpp-template>`__ contains an `example setup <https://github.com/godotengine/godot-cpp-template/tree/main/.github/workflows>`__ for a GitHub based CI workflow."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:78
+msgid "Using a custom API file"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:80
+msgid "Every branch of godot-cpp comes with an API file (``extension_api.json``) appropriate for the respective Godot version (e.g. the ``4.3`` branch comes with the API file compatible with Godot version ``4.3`` and later)."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:84
+msgid "However, you may want to use a custom ``extension_api.json``, for example:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:86
+msgid "If you want to use the latest APIs from Godot ``master``."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:87
+msgid "If you :ref:`build Godot yourself <doc_compiling_index>` with different options than the official builds (e.g. ``disable_3d=yes`` or ``precision=double``)."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:88
+msgid "If you want to use APIs exposed by custom modules."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:90
+msgid "To use a custom API file, you first have to generate it from the appropriate Godot executable:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:97
+msgid "The resulting ``extension_api.json`` file will be created in the executable's directory. To use it, you can add ``custom_api_file`` to your build command:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/build_system/scons.rst:104
+msgid "Alternatively, you can add it as the default API file to your project by adding the following line to your SConstruct file:"
+msgstr ""

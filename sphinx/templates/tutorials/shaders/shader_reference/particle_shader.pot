@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -20,7 +20,7 @@ msgid "Particle shaders"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:6
-msgid "Particle shaders are a special type of shader that runs before the object is drawn. They are used for calculating material properties such as color, position, and rotation. They are drawn with any regular material for CanvasItem or Spatial, depending on whether they are 2D or 3D."
+msgid "Particle shaders are a special type of shader that runs before the object is drawn. They are used for calculating material properties such as color, position, and rotation. They can be drawn with any regular material for CanvasItem or Spatial, depending on whether they are 2D or 3D."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:11
@@ -115,7 +115,7 @@ msgid "in float **TIME**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:60
-msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can  be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
+msgid "Global time since the engine has started, in seconds. It repeats after every ``3,600`` seconds (which can be changed with the :ref:`rollover<class_ProjectSettings_property_rendering/limits/time/time_rollover_secs>` setting). It's affected by :ref:`time_scale<class_Engine_property_time_scale>` but not by pausing. If you need a ``TIME`` variable that is not affected by time scale, add your own :ref:`global shader uniform<doc_shading_language_global_uniforms>` and update it each frame."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:69
@@ -123,7 +123,7 @@ msgid "in float **PI**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:69
-msgid "A ``PI`` constant (``3.141592``). A ratio of a circle's circumference to its diameter and amount of radians in half turn."
+msgid "A ``PI`` constant (``3.141592``). The ratio of a circle's circumference to its diameter and the number of radians in a half turn."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:72
@@ -131,7 +131,7 @@ msgid "in float **TAU**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:72
-msgid "A ``TAU`` constant (``6.283185``). An equivalent of ``PI * 2`` and amount of radians in full turn."
+msgid "A ``TAU`` constant (``6.283185``). Equivalent to ``PI * 2`` and the number of radians in a full turn."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:75
@@ -139,7 +139,7 @@ msgid "in float **E**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:75
-msgid "An ``E`` constant (``2.718281``). Euler's number and a base of the natural logarithm."
+msgid "An ``E`` constant (``2.718281``). Euler's number, the base of the natural logarithm."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:79
@@ -208,7 +208,7 @@ msgid "inout bool **ACTIVE**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:98
-msgid "``true`` when the particle is active, can be set ``false``."
+msgid "``true`` when the particle is active, can be set to ``false``."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:100
@@ -216,7 +216,7 @@ msgid "inout vec4 **COLOR**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:100
-msgid "Particle color, can be written to and accessed in mesh's vertex function."
+msgid "Particle color, can be written to and accessed in the mesh's vertex function."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:102
@@ -240,7 +240,7 @@ msgid "inout vec4 **CUSTOM**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:106
-msgid "Custom particle data. Accessible from shader of mesh as ``INSTANCE_CUSTOM``."
+msgid "Custom particle data. Accessible from the mesh's shader as ``INSTANCE_CUSTOM``."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:108
@@ -248,7 +248,7 @@ msgid "inout float **MASS**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:108
-msgid "Particle mass, intended to be used with attractors. Equals ``1.0`` by default."
+msgid "Particle mass, intended to be used with attractors. ``1.0`` by default."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:110
@@ -264,7 +264,7 @@ msgid "in uint **FLAG_EMIT_POSITION**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:113
-msgid "A flag for using on the last argument of ``emit_subparticle()`` function to assign a position to a new particle's transform."
+msgid "A flag for the last argument of the ``emit_subparticle()`` function to assign a position to a new particle's transform."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:115
@@ -272,7 +272,7 @@ msgid "in uint **FLAG_EMIT_ROT_SCALE**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:115
-msgid "A flag for using on the last argument of ``emit_subparticle()`` function to assign the rotation and scale to a new particle's transform."
+msgid "A flag for the last argument of the ``emit_subparticle()`` function to assign a rotation and scale to a new particle's transform."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:117
@@ -280,7 +280,7 @@ msgid "in uint **FLAG_EMIT_VELOCITY**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:117
-msgid "A flag for using on the last argument of ``emit_subparticle()`` function to assign a velocity to a new particle."
+msgid "A flag for the last argument of the ``emit_subparticle()`` function to assign a velocity to a new particle."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:119
@@ -288,7 +288,7 @@ msgid "in uint **FLAG_EMIT_COLOR**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:119
-msgid "A flag for using on the last argument of ``emit_subparticle()`` function to assign a color to a new particle."
+msgid "A flag for the last argument of the ``emit_subparticle()`` function to assign a color to a new particle."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:121
@@ -296,7 +296,7 @@ msgid "in uint **FLAG_EMIT_CUSTOM**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:121
-msgid "A flag for using on the last argument of ``emit_subparticle()`` function to assign a custom data vector to a new particle."
+msgid "A flag for the last argument of the ``emit_subparticle()`` function to assign a custom data vector to a new particle."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:123
@@ -312,7 +312,7 @@ msgid "in float **INTERPOLATE_TO_END**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:125
-msgid "Value of :ref:`interp_to_end<class_GPUParticles2D_property_interp_to_end>` (:ref:`3D<class_GPUParticles3D_property_interp_to_end>`) property of Particles node."
+msgid "Value of the :ref:`interp_to_end<class_GPUParticles2D_property_interp_to_end>` (:ref:`3D<class_GPUParticles3D_property_interp_to_end>`) property of the Particles node."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:128
@@ -320,7 +320,7 @@ msgid "in uint **AMOUNT_RATIO**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:128
-msgid "Value of :ref:`amount_ratio<class_GPUParticles2D_property_amount_ratio>` (:ref:`3D<class_GPUParticles3D_property_amount_ratio>`) property of Particles node."
+msgid "Value of the :ref:`amount_ratio<class_GPUParticles2D_property_amount_ratio>` (:ref:`3D<class_GPUParticles3D_property_amount_ratio>`) property of the Particles node."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:132
@@ -380,7 +380,7 @@ msgid "in bool **RESTART**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:158
-msgid "``true`` if the current process frame is first for the particle."
+msgid "``true`` if the current process frame is the first for the particle."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:160
@@ -404,7 +404,7 @@ msgid "in float **COLLISION_DEPTH**"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:164
-msgid "A length of normal of the last collision. If there is no collision detected it is equal to ``0.0``."
+msgid "A length of the normal of the last collision. If there is no collision detected it is equal to ``0.0``."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:166
@@ -420,7 +420,7 @@ msgid "Process functions"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:172
-msgid "``emit_subparticle()`` is currently the only custom function supported by particles shaders. It allows users to add a new particle with specified parameters from a sub-emitter. The newly created particle will only use the properties that match the ``flags`` parameter. For example, the following code will emit a particle with a specified position, velocity, and color, but unspecified rotation, scale, and custom value:"
+msgid "``emit_subparticle()`` is currently the only custom function supported by particle shaders. It allows users to add a new particle with specified parameters from a sub-emitter. The newly created particle will only use the properties that match the ``flags`` parameter. For example, the following code will emit a particle with a specified position, velocity, and color, but unspecified rotation, scale, and custom value:"
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/particle_shader.rst:188

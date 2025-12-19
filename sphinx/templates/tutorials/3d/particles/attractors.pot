@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -83,118 +83,114 @@ msgstr ""
 msgid "The ``Cull Mask`` property controls which particle systems are affected by an attractor based on each system's :ref:`visibility layers <class_VisualInstance3D>`. A particle system is only affected by an attractor if at least one of the system's visibility layers is enabled in the attractor's cull mask."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:78
-msgid "There is a `known issue <https://github.com/godotengine/godot/issues/61014>`_ with GPU particle attractors that prevent the cull mask from working properly in Godot 4.0. We will update the documentation as soon as it is fixed."
-msgstr ""
-
-#: ../../docs/tutorials/3d/particles/attractors.rst:83
+#: ../../docs/tutorials/3d/particles/attractors.rst:77
 msgid "Box attractors"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:85
+#: ../../docs/tutorials/3d/particles/attractors.rst:79
 msgid "Particle attractor box"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:89
+#: ../../docs/tutorials/3d/particles/attractors.rst:83
 msgid "Box attractor in the node list"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:91
+#: ../../docs/tutorials/3d/particles/attractors.rst:85
 msgid "Box attractors have a box-shaped influence region. You control their size with the ``Extents`` property. Box extents always measure half of the sides of its bounds, so a value of ``(X=1.0,Y=1.0,Z=1.0)`` creates a box with an influence region that is 2 meters wide on each side."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:95
+#: ../../docs/tutorials/3d/particles/attractors.rst:89
 msgid "To create a box attractor, add a new child node to your scene and select ``GPUParticlesAttractorBox3D`` from the list of available nodes. You can animate the box position or attach it to a moving node for more dynamic effects."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:99
+#: ../../docs/tutorials/3d/particles/attractors.rst:93
 msgid "Box attractor parts particle field"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:102
+#: ../../docs/tutorials/3d/particles/attractors.rst:96
 msgid "A box attractor with a negative strength value parts a particle field as it moves through it."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:105
+#: ../../docs/tutorials/3d/particles/attractors.rst:99
 msgid "Sphere attractors"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:107
+#: ../../docs/tutorials/3d/particles/attractors.rst:101
 msgid "Particle attractor sphere"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:111
+#: ../../docs/tutorials/3d/particles/attractors.rst:105
 msgid "Sphere attractor in the node list"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:113
+#: ../../docs/tutorials/3d/particles/attractors.rst:107
 msgid "Sphere attractors have a spherical influence region. You control their size with the ``Radius`` property. While box attractors don't have to be perfect cubes, sphere attractors will always be spheres: You can't set width independently from height. If you want to use a sphere attractor for elongated shapes, you have to change its ``Scale`` in the attractor's ``Node3D`` section."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:118
+#: ../../docs/tutorials/3d/particles/attractors.rst:112
 msgid "To create a sphere attractor, add a new child node to your scene and select ``GPUParticlesAttractorSphere3D`` from the list of available nodes. You can animate the sphere position or attach it to a moving node for more dynamic effects."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:122
+#: ../../docs/tutorials/3d/particles/attractors.rst:116
 msgid "Sphere attractor parts particle field"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:125
+#: ../../docs/tutorials/3d/particles/attractors.rst:119
 msgid "A sphere attractor with a negative strength value parts a particle field as it moves through it."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:128
+#: ../../docs/tutorials/3d/particles/attractors.rst:122
 msgid "Vector field attractors"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:130
+#: ../../docs/tutorials/3d/particles/attractors.rst:124
 msgid "Particle attractor vector field"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:134
+#: ../../docs/tutorials/3d/particles/attractors.rst:128
 msgid "Vector field attractor in the node list"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:136
+#: ../../docs/tutorials/3d/particles/attractors.rst:130
 msgid "A vector field is a 3D area that contains vectors positioned on a grid. The grid density controls how many vectors there are and how far they're spread apart. Each vector in a vector field points in a specific direction. This can be completely random or aligned in a way that forms distinct patterns and paths."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:141
+#: ../../docs/tutorials/3d/particles/attractors.rst:135
 msgid "When particles interact with a vector field, their movement direction changes to match the nearest vector in the field. As a particle moves closer to the next vector in the field, it changes direction to match that vector's direction. The particle's speed depends on the vector's length."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:145
+#: ../../docs/tutorials/3d/particles/attractors.rst:139
 msgid "Like box attractors, vector field attractors have a box-shaped influence region. You control their size with the ``Extents`` property, where a value of ``(X=1.0,Y=1.0,Z=1.0)`` creates a box with an influence region that is 2 meters wide on each side. The ``Texture`` property takes a :ref:`3D texture <class_Texture3D>` where every pixel represents a vector with the pixel's color interpreted as the vector's direction and size."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:152
+#: ../../docs/tutorials/3d/particles/attractors.rst:146
 msgid "When a texture is used as a vector field, there are two types of conversion you need to be aware of:"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:154
+#: ../../docs/tutorials/3d/particles/attractors.rst:148
 msgid "The texture coordinates map to the attractor bounds. The image below shows which part of the texture corresponds to which part of the vector field volume. For example, the bottom half of the texture affects the top half of the vector field attractor because ``+Y`` points down in the texture UV space, but up in Godot's world space."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:158
+#: ../../docs/tutorials/3d/particles/attractors.rst:152
 msgid "The pixel color values map to direction vectors in space. The image below provides an overview. Since particles can move in two directions along each axis, the lower half of the color range represents negative direction values while the upper half represents positive direction values. So a yellow pixel ``(R=1,G=1,B=0)`` maps to the vector ``(X=1,Y=1,Z=-1)`` while a neutral gray ``(R=0.5,G=0.5,B=0.5)`` results in no movement at all."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:164
+#: ../../docs/tutorials/3d/particles/attractors.rst:158
 msgid "Mapping from texture to vector field"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:167
+#: ../../docs/tutorials/3d/particles/attractors.rst:161
 msgid "To create a vector field attractor, add a new child node to your scene and select ``GPUParticlesAttractorVectorField3D`` from the list of available nodes. You can animate the attractor's position or attach it to a moving node for more dynamic effects."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:173
+#: ../../docs/tutorials/3d/particles/attractors.rst:167
 msgid "If you don't have external tools to create vector field textures, you can use a NoiseTexture3D with a Color Ramp attached as a vector field texture. The Color Ramp can be modified to adjust how much each coordinate is affected by the vector field."
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:178
+#: ../../docs/tutorials/3d/particles/attractors.rst:172
 msgid "Vector field attractor in a field of particles"
 msgstr ""
 
-#: ../../docs/tutorials/3d/particles/attractors.rst:181
+#: ../../docs/tutorials/3d/particles/attractors.rst:175
 msgid "Two particle systems are affected by the same vector field attractor. :download:`Click here to download the 3D texture <img/particle_vector_field_16x16x16.bmp>`."
 msgstr ""

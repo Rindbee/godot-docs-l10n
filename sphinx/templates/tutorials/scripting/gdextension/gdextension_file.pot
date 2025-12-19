@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -40,9 +40,9 @@ msgid "Type"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:18
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:85
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:108
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:121
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:89
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:112
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:125
 msgid "Description"
 msgstr ""
 
@@ -110,199 +110,215 @@ msgid "Here is an example of what that can look like:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:69
+msgid "Paths can be relative or absolute (starting with ``res://``). Relative paths are recommended, as they allow the extension to keep working if it's installed to a different folder than what's specified in the path."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:73
 msgid "Entries are matched in order, so if two sets of feature tags could match the same system, be sure to put the more specific ones first:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:79
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:83
 msgid "Here are lists of some of the available built-in options (for more look at the :ref:`feature tags <doc_feature_tags>`):"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:82
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:86
 msgid "Running system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:85
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:108
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:121
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:89
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:112
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:125
 msgid "Flag"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:87
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:91
 msgid "**windows**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:87
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:91
 msgid "Windows operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:89
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:93
 msgid "**macos**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:89
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:93
 msgid "Mac operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:91
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:95
 msgid "**linux**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:91
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:95
 msgid "Linux operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:93
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:97
 msgid "**bsd**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:93
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:97
 msgid "BSD operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:95
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:99
 msgid "**linuxbsd**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:95
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:99
 msgid "Linux or BSD operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:97
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:101
 msgid "**android**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:97
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:101
 msgid "Android operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:99
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:103
 msgid "**ios**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:99
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:103
 msgid "iOS operating system"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:101
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:105
 msgid "**web**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:101
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:105
 msgid "Web browser"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:105
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:109
 msgid "Build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:110
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:114
 msgid "**debug**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:110
-msgid "Build with debug symbols"
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:114
+msgid "Build with debugging features (editor builds always have debugging features)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:112
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:116
 msgid "**release**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:112
-msgid "Optimized build without debug symbols"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:114
-msgid "**editor**"
-msgstr ""
-
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:114
-msgid "Editor build"
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:116
+msgid "Optimized build without debugging features"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:118
+msgid "**editor**"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:118
+msgid "Editor build"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:122
 msgid "Architecture"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:123
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:127
 msgid "**double**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:123
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:127
 msgid "double-precision build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:125
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:129
 msgid "**single**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:125
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:129
 msgid "single-precision build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:127
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:131
 msgid "**x86_64**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:127
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:131
 msgid "64-bit x86 build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:129
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:133
 msgid "**arm64**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:129
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:133
 msgid "64-bit ARM build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:131
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:135
 msgid "**rv64**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:131
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:135
 msgid "64-bit RISC-V build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:133
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:137
 msgid "**riscv**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:133
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:137
 msgid "RISC-V build (any bitness)"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:135
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:139
 msgid "**wasm32**"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:135
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:139
 msgid "32-bit WebAssembly build"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:139
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:143
 msgid "Icons section"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:141
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:145
 msgid "By default, Godot uses the Node icon in the scene dock for GDExtension nodes. A custom icon can be set by reference to its name and resource path of an SVG file."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:144
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:148
 msgid "For example:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:152
-msgid "The path should point to a 16 by 16 pixel SVG image. Read the guide for :ref:`creating icons <doc_editor_icons>` for more information."
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:156
+msgid "The path should point to a 16×16 pixel SVG image, with two options enabled on the image in the Import dock:"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:156
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:159
+msgid "**Editor > Scale with Editor Scale**."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:160
+msgid "**Editor > Convert Colors with Editor Theme**."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:162
+msgid "Enabling both options ensures the icon behaves as closely as possible to the stock editor icons. Read the guide for :ref:`creating icons <doc_editor_icons>` for more information."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:167
 msgid "Dependencies section"
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:158
-msgid "In this section you set the paths of the GDExtension dependencies. This is used internally to export the dependencies when exporting your game executable. You are able to set which dependency is loaded depending on the feature flags of the exported executable. In addition, you are able to set an optional subdirectory to move your dependencies into. If no path is supplied Godot will move the libraries into the same directory as your game executable."
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:169
+msgid "In this section, you set the paths of the GDExtension dependencies. This is used internally to export the dependencies when exporting your game executable. You are able to set which dependency is loaded depending on the feature flags of the exported executable. In addition, you are able to set an optional subdirectory to move your dependencies into. If no path is supplied, Godot will move the libraries into the same directory as your game executable."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:164
-msgid "In MacOS it is necessary to have shared libraries inside a folder called ``Frameworks`` with a directory structure like this: ``Game.app/Contents/Frameworks``."
+#: ../../docs/tutorials/scripting/gdextension/gdextension_file.rst:176
+msgid "On macOS, it is necessary to have shared libraries inside a folder called ``Frameworks`` with a directory structure like this: ``Game.app/Contents/Frameworks``."
 msgstr ""

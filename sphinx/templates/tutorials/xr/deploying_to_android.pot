@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -47,86 +47,90 @@ msgstr ""
 msgid "See :ref:`doc_exporting_for_android` for the full details, and return here when you've finished these steps."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:19
+#: ../../docs/tutorials/xr/deploying_to_android.rst:20
 msgid "While the Mobile Vulkan renderer has many optimizations targeted at mobile devices, we're still working out the kinks. It is highly advisable to use the compatibility renderer (OpenGL) for the time being when targeting Android based XR devices."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:23
+#: ../../docs/tutorials/xr/deploying_to_android.rst:24
 msgid "Gradle Android build"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:26
+#: ../../docs/tutorials/xr/deploying_to_android.rst:28
 msgid "Official support for the Android platform wasn't added to the OpenXR specification initially resulting in various vendors creating custom loaders to make OpenXR available on their headsets. While the long term expectation is that all vendors will adopt the official OpenXR loader, for now these loaders need to be added to your project."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:29
+#: ../../docs/tutorials/xr/deploying_to_android.rst:31
 msgid "In order to include the vendor-specific OpenXR loader into your project, you will need to setup a gradle Android build."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:31
+#: ../../docs/tutorials/xr/deploying_to_android.rst:33
 msgid "Select **Install Android Build Template...** from the **Project** menu:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:35
+#: ../../docs/tutorials/xr/deploying_to_android.rst:37
 msgid "This will create a folder called **android** inside of your project that contains all the runtime files needed on Android. You can now customize this installation. Godot won't show this in the editor but you can find it with a file browser."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:37
+#: ../../docs/tutorials/xr/deploying_to_android.rst:39
 msgid "You can read more about gradle builds here: :ref:`doc_android_gradle_build`."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:40
+#: ../../docs/tutorials/xr/deploying_to_android.rst:42
 msgid "Installing the vendors plugin"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:42
+#: ../../docs/tutorials/xr/deploying_to_android.rst:44
 msgid "The vendors plugin can be downloaded from the asset library, search for \"OpenXR vendors\" and install the one named \"Godot OpenXR Vendors plugin v4\"."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:47
+#: ../../docs/tutorials/xr/deploying_to_android.rst:49
 msgid "You will find the installed files inside the **addons** folder. Alternatively you can manually install the vendors plugin by downloading it `from the release page here <https://github.com/GodotVR/godot_openxr_vendors/releases>`__. You will need to copy the `assets/addons/godotopenxrvendors` folder from the zip file into your projects `addons` folder."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:52
+#: ../../docs/tutorials/xr/deploying_to_android.rst:54
 msgid "You can find the main repository of the vendors plugin `here <https://github.com/GodotVR/godot_openxr_vendors>`__."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:55
-msgid "Creating the export presets"
-msgstr ""
-
-#: ../../docs/tutorials/xr/deploying_to_android.rst:56
-msgid "You will need to setup a separate export preset for each device, as each device will need its own loader included."
-msgstr ""
-
 #: ../../docs/tutorials/xr/deploying_to_android.rst:58
-msgid "Open **Project** and select **Export..**. Click on **Add..** and select **Android**. Next change the name of the export preset for the device you're setting this up for, say **Meta Quest**. And enable **Use Gradle Build**. If you want to use one-click deploy (described below), ensure that **Runnable** is enabled."
+msgid "From Godot 4.6 onwards, the vendor plugin is now an optional but recommended plugin. Godot can export directly to most Android-compatible devices. This can be useful for demonstration and tutorial projects where a single APK can be deployed to multiple devices. The vendor plugin unlocks vendor specific implementations and settings, and may be required to release on app stores."
 msgstr ""
 
 #: ../../docs/tutorials/xr/deploying_to_android.rst:64
-msgid "If the vendors plugins were installed correctly you should find entries for the different headsets under **XR Features**. Change the **XR Mode** to **OpenXR**, then select the entry for your headset if you see one. If you don't see one enable the Khronos plugin."
+msgid "Creating the export presets"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:71
+#: ../../docs/tutorials/xr/deploying_to_android.rst:65
+msgid "You will need to setup a separate export preset for each device, as each device will need its own loader included."
+msgstr ""
+
+#: ../../docs/tutorials/xr/deploying_to_android.rst:67
+msgid "Open **Project** and select **Export..**. Click on **Add..** and select **Android**. Next change the name of the export preset for the device you're setting this up for, say **Meta Quest**. And enable **Use Gradle Build**. Next change the **XR Mode** to **OpenXR**. If you want to use one-click deploy (described below), ensure that **Runnable** is enabled."
+msgstr ""
+
+#: ../../docs/tutorials/xr/deploying_to_android.rst:74
+msgid "If you've installed the vendor plugin you will also find entries for the different headsets under **XR Features**. Select the entry for your headset, if you see one. Otherwise, enable the Khronos plugin."
+msgstr ""
+
+#: ../../docs/tutorials/xr/deploying_to_android.rst:80
 msgid "Scroll to the bottom of the list and you'll find additional XR feature sections, currently only **Meta XR Features**, **Pico XR Features**, **Magicleap XR Features** and **Khronos XR Features** for HTC are available. You will need to select the appropriate settings if you wish to use these features."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:77
+#: ../../docs/tutorials/xr/deploying_to_android.rst:86
 msgid "Running on your device from the Godot editor"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:78
+#: ../../docs/tutorials/xr/deploying_to_android.rst:87
 msgid "If you've setup your export settings as described above, and your headset is connected to your computer and correctly recognized, you can launch it directly from the Godot editor using :ref:`doc_one-click_deploy`:"
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:82
+#: ../../docs/tutorials/xr/deploying_to_android.rst:91
 msgid "For some devices on some platforms, you may need to perform some extra steps in order for your device to be recognized correctly, so be sure to check the developer documentation from your headset vendor."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:84
+#: ../../docs/tutorials/xr/deploying_to_android.rst:93
 msgid "For example, with the Meta Quest 2, you need to enable developer mode on the headset, and if you're on Windows, you'll need to install special ADB drivers. See the `official Meta Quest developer documentation <https://developer.oculus.com/documentation/native/android/mobile-device-setup/>`_ for more details."
 msgstr ""
 
-#: ../../docs/tutorials/xr/deploying_to_android.rst:86
+#: ../../docs/tutorials/xr/deploying_to_android.rst:95
 msgid "If you're having any issues with one-click deploy, check the :ref:`Troubleshooting section <doc_one-click_deploy_troubleshooting>`."
 msgstr ""

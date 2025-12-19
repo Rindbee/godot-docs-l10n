@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -84,7 +84,7 @@ msgid "The editor or project takes a very long time to start"
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:63
-msgid "When using one of the Vulkan-based renderers (Forward+ or Mobile), the first startup is expected to be relatively long. This is because shaders need to be compiled before they can be cached. Shaders also need to be cached again after updating Godot, after updating graphics drivers or after switching graphics cards."
+msgid "When using one of the RenderingDevice-based renderers (Forward+ or Mobile), the first startup is expected to be relatively long. This is because shaders need to be compiled before they can be cached. Shaders also need to be cached again after updating Godot, after updating graphics drivers or after switching graphics cards."
 msgstr ""
 
 #: ../../docs/tutorials/troubleshooting.rst:69

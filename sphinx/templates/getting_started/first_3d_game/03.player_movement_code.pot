@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -248,7 +248,7 @@ msgid "image8"
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/03.player_movement_code.rst:417
-msgid "You can run the scene by pressing :kbd:`F6` and press the arrow keys to move the character."
+msgid "You can run the scene by pressing :kbd:`F6` (:kbd:`Cmd + R` on macOS) and press the arrow keys to move the character."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/03.player_movement_code.rst:420

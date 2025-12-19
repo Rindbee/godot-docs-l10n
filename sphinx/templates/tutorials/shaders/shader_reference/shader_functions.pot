@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -2775,6 +2775,10 @@ msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2255
 msgid "Get the size of a texture."
+msgstr ""
+
+#: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:2257
+msgid "For performance reasons, this function should be avoided as it always performs a full texture read. When possible, you should pass the texture size as a uniform instead."
 msgstr ""
 
 #: ../../docs/tutorials/shaders/shader_reference/shader_functions.rst:0

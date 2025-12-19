@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,7 +112,7 @@ msgid "Editor setting"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:34
-msgid "Open 2D Editor"
+msgid "Open 2D Workspace"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:34
@@ -128,7 +128,7 @@ msgid "``editor/editor_2d``"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:36
-msgid "Open 3D Editor"
+msgid "Open 3D Workspace"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:36
@@ -185,7 +185,8 @@ msgid ":kbd:`Ctrl + Shift + F11`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:42
-msgid ":kbd:`Cmd + Ctrl + D`"
+#: ../../docs/tutorials/editor/default_key_mapping.rst:486
+msgid ":kbd:`Cmd + Shift + D`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:42
@@ -2597,10 +2598,6 @@ msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:486
 msgid "Duplicate Transposed"
-msgstr ""
-
-#: ../../docs/tutorials/editor/default_key_mapping.rst:486
-msgid ":kbd:`Cmd + Shift + D`"
 msgstr ""
 
 #: ../../docs/tutorials/editor/default_key_mapping.rst:486

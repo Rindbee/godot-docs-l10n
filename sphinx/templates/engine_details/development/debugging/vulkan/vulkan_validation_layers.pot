@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -112,28 +112,28 @@ msgstr ""
 msgid "After installing the package, run Godot with the ``--gpu-validation`` :ref:`command line argument <doc_command_line_tutorial>`. You can also specify ``--gpu-abort`` which will make Godot quit as soon as a validation error happens. This can prevent your system from freezing if a validation error occurs."
 msgstr ""
 
-#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:135
-msgid "Android"
-msgstr ""
-
-#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:137
-msgid "After enabling validation layers on Android, a developer can see errors and warning messages in the ``adb logcat`` output."
-msgstr ""
-
-#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:141
+#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:133
 msgid "iOS"
 msgstr ""
 
-#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:143
+#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:135
 msgid "Validation layers are currently **not** supported on iOS."
 msgstr ""
 
-#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:146
+#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:138
 msgid "Web"
 msgstr ""
 
-#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:148
+#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:140
 msgid "Validation layers are **not** supported on the web platform, as there is no support for Vulkan there."
+msgstr ""
+
+#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:146
+msgid "Android"
+msgstr ""
+
+#: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:148
+msgid "After enabling validation layers on Android, a developer can see errors and warning messages in the ``adb logcat`` output."
 msgstr ""
 
 #: ../../docs/engine_details/development/debugging/vulkan/vulkan_validation_layers.rst:152

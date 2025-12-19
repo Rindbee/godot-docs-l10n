@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -196,7 +196,7 @@ msgid "Nodes"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:256
-msgid "Since Godot 4.0, nodes can be directly exported as properties in a script without having to use NodePaths:"
+msgid "Nodes can also be directly exported as properties in a script without having to use NodePaths:"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:268
@@ -397,21 +397,37 @@ msgid "When changing an exported variable's value from a script in :ref:`doc_gds
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:546
-msgid "Advanced exports"
+msgid "Reading an exported variable's value early on"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:548
+msgid "If you read an exported variable's value in :ref:`_init() <class_Object_private_method__init>`, it will return the default value specified in the export annotation instead of the value that was set in the inspector. This is because assigning values from the saved scene/resource file occurs *after* object initialization; until then, the default value is used."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:553
+msgid "To get the value that was set in the inspector (and therefore saved in the scene/resource file), you need to read it *after* the object is constructed, such as in :ref:`Node._ready() <class_Node_private_method__ready>`. You can also read the value in a setter that's defined on the exported property, which is useful in custom resources where ``_ready()`` is not available:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:570
+msgid "Results in:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:578
+msgid "Advanced exports"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:580
 msgid "Not every type of export can be provided on the level of the language itself to avoid unnecessary design complexity. The following describes some more or less common exporting features which can be implemented with a low-level API."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:552
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:584
 msgid "Before reading further, you should get familiar with the way properties are handled and how they can be customized with :ref:`_set() <class_Object_private_method__set>`, :ref:`_get() <class_Object_private_method__get>`, and :ref:`_get_property_list() <class_Object_private_method__get_property_list>` methods as described in :ref:`doc_accessing_data_or_logic_from_object`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:559
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:591
 msgid "For binding properties using the above methods in C++, see :ref:`doc_binding_properties_using_set_get_property_list`."
 msgstr ""
 
-#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:562
+#: ../../docs/tutorials/scripting/gdscript/gdscript_exports.rst:594
 msgid "The script must operate in the ``@tool`` mode so the above methods can work from within the editor."
 msgstr ""

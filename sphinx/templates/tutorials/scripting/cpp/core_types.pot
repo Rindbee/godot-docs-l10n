@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-present Juan Linietsky, Ariel Manzur and the Godot community (CC BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine latest\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:4
+msgid "Core functions and types"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:6
+msgid "godot-cpp's API is designed to be as similar as possible to Godot's internal API."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:8
+msgid "This means that, in general, you can use the :ref:`Engine details <doc_engine_architecture>` section to learn how to work with godot-cpp. In addition, it can often be useful to browse the `engine's code <https://github.com/godotengine/godot>`__ for examples for how to work with Godot's API."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:12
+msgid "That being said, there are some differences to be aware of, which are documented here."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:15
+msgid "Common functions and macros"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:17
+msgid "Please refer to :ref:`doc_common_engine_methods_and_macros` for information on this. The functions and macros documented there are also available in godot-cpp."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:21
+msgid "Core types"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:23
+msgid "Godot's :ref:`Core types <doc_core_types>` are also available in godot-cpp, and the same recommendations apply as described in that article. The types are regularly synchronized with the Godot codebase."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:26
+msgid "In your own code, you can also use `C++ STL types <https://en.cppreference.com/w/cpp/container.html>`__, or types from any library you choose, but they won't be compatible with Godot's APIs."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:30
+msgid "Packed arrays"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:32
+msgid "While in Godot, the ``Packed*Array`` types are aliases of ``Vector``, in godot-cpp, they're their own types, using the Godot bindings. This is because ``Packed*Array`` are exposed to Godot and limited to only Godot types, whereas ``Vector`` can hold any C++ type which Godot might not be able to understand."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:36
+msgid "In general, the ``Packed*Array`` types work the same way as their ``Vector`` aliases, however, there are some notable differences."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:40
+msgid "Data access"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:42
+msgid "``Vector`` keeps its data entirely within the GDExtension, whereas the ``Packed*Array`` types keep their data on the Godot side. This means that any time a ``Packed*Array`` is accessed, it needs to call into Godot."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:45
+msgid "To efficiently read or write a large amount of data into a ``Packed*Array``, you should call ``.ptr()`` (for reading) or ``.ptrw()`` (for writing) to get a pointer directly to the array's memory:"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:72
+msgid "Copying"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:74
+msgid "``Variant`` wrappers for ``Packed*Array`` treat them as pass-by-reference, while the ``Packed*Array`` types themselves are pass-by-value (implemented as copy-on-write)."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:77
+msgid "In addition, it may be of interest that GDScript calls use the ``Variant`` call interface: Any ``Packed*Array`` arguments to your functions will be passed in a ``Variant``, and unpacked from there. This can create copies of the types, so the argument you receive may be a copy of the argument that the function was called with. In practice, this means you cannot rely on that the argument passed to you can be modified at the caller's site."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:83
+msgid "Variant class"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:85
+msgid "Please refer to :ref:`doc_variant_class` to learn about how to work with ``Variant``."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:87
+msgid "Most importantly, you should be aware that all functions exposed through the GDExtension API must be compatible with ``Variant``."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:91
+msgid "Object class"
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:93
+msgid "Please refer to :ref:`doc_object_class` to learn how to register and work with your own ``Object`` types."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:95
+msgid "We are not aware of any major differences between the godot-cpp ``Object`` API and Godot's internal ``Object`` API, except that some methods are available in Godot's internal API that are not available in godot-cpp."
+msgstr ""
+
+#: ../../docs/tutorials/scripting/cpp/core_types.rst:98
+msgid "You should be aware that the pointer to your godot-cpp ``Object`` is different from the pointer that Godot uses internally. This is because the godot-cpp version is an extension instance, allocated separately from the original ``Object``. However, in practice, this difference is usually not noticeable."
+msgstr ""

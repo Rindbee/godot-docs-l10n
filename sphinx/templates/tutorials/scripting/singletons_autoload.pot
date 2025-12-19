@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -144,7 +144,7 @@ msgid "Open the **Script** window and create a new script called ``global.gd``. 
 msgstr ""
 
 #: ../../docs/tutorials/scripting/singletons_autoload.rst:151
-msgid "The next step is to add this script to the autoLoad list. Starting from the menu, open **Project > Project Settings > Globals > Autoload** and select the script by clicking the browse button or typing its path: ``res://global.gd``. Press **Add** to add it to the autoload list and name it \"Global\", which is required for scripts to access it by the name \"Global\":"
+msgid "The next step is to add this script to the autoload list. Starting from the menu, open **Project > Project Settings > Globals > Autoload** and select the script by clicking the browse button or typing its path: ``res://global.gd``. Press **Add** to add it to the autoload list and name it \"Global\", which is required for scripts to access it by the name \"Global\":"
 msgstr ""
 
 #: ../../docs/tutorials/scripting/singletons_autoload.rst:161

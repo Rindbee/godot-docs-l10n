@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -27,7 +27,7 @@ msgstr ""
 msgid "|image0|"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/index.rst:72
+#: ../../docs/getting_started/first_3d_game/index.rst:74
 msgid "image0"
 msgstr ""
 
@@ -68,21 +68,29 @@ msgid "And more."
 msgstr ""
 
 #: ../../docs/getting_started/first_3d_game/index.rst:32
-msgid "This tutorial is for beginners who followed the complete getting started series. We'll start slow with detailed instructions and shorten them as we do similar steps. If you're an experienced programmer, you can browse the complete demo's source code here: `Squash the Creep source code <https://github.com/godotengine/godot-demo-projects/tree/master/3d/squash_the_creeps>`__."
+msgid "This tutorial is for beginners who followed the complete getting started series. We'll start slow with detailed instructions and shorten them as we do similar steps. If you're an experienced programmer, you can browse the complete demo's source code here:"
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/index.rst:40
+#: ../../docs/getting_started/first_3d_game/index.rst:37
+msgid "`Squash the Creeps source code (GDScript) <https://github.com/godotengine/godot-demo-projects/tree/master/3d/squash_the_creeps>`__"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/index.rst:38
+msgid "`Squash the Creeps source code (C#) <https://github.com/godotengine/godot-demo-projects/tree/master/mono/squash_the_creeps>`__"
+msgstr ""
+
+#: ../../docs/getting_started/first_3d_game/index.rst:42
 msgid "You can follow this series without having done the 2D one. However, if you're new to game development, we recommend you to start with 2D. 3D game code is always more complex and the 2D series will give you foundations to follow along more comfortably."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/index.rst:45
+#: ../../docs/getting_started/first_3d_game/index.rst:47
 msgid "We prepared some game assets so we can jump straight to the code. You can download them here: `Squash the Creeps assets <https://github.com/godotengine/godot-docs-project-starters/releases/download/latest-4.x/3d_squash_the_creeps_starter.zip>`__."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/index.rst:49
+#: ../../docs/getting_started/first_3d_game/index.rst:51
 msgid "We will first work on a basic prototype for the player's movement. We will then add the monsters that we'll spawn randomly around the screen. After that, we'll implement the jump and squashing mechanic before refining the game with some nice animation. We'll wrap up with the score and the retry screen."
 msgstr ""
 
-#: ../../docs/getting_started/first_3d_game/index.rst:55
+#: ../../docs/getting_started/first_3d_game/index.rst:57
 msgid "Contents"
 msgstr ""

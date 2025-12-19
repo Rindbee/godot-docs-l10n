@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -185,7 +185,7 @@ msgid "my_first_action_set"
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:142
-msgid "This is the internal name of the action set. OpenXR doesn't specify specific restrictions on this name other then size, however some XR runtimes will not like spaces or special characters."
+msgid "This is the internal name of the action set. OpenXR doesn't specify specific restrictions on this name other than size, however some XR runtimes will not like spaces or special characters."
 msgstr ""
 
 #: ../../docs/tutorials/xr/xr_action_map.rst:145

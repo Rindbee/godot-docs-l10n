@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -148,7 +148,7 @@ msgid "Building & debugging the app module"
 msgstr ""
 
 #: ../../docs/engine_details/development/configuring_an_ide/android_studio.rst:78
-msgid "The ``app`` module requires the presence of a Godot project in its ``assets`` directory (``<Godot root directory>/platform/android/java/app/assets``) to run. This is usually handled by the Godot Editor during the export process. While developing in Android Studio, it's necessary to manually add a Godot project under that directory to replicate the export process. Once that's done, you can follow the instructions below to run/debug the ``app`` module:"
+msgid "The ``app`` module requires the presence of a Godot project in its ``assets`` directory (``<Godot root directory>/platform/android/java/app/src/main/assets``) to run. This is usually handled by the Godot Editor during the export process. While developing in Android Studio, it's necessary to manually add a Godot project under that directory to replicate the export process. Once that's done, you can follow the instructions below to run/debug the ``app`` module:"
 msgstr ""
 
 #: ../../docs/engine_details/development/configuring_an_ide/android_studio.rst:83

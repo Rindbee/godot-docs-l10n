@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Godot Engine 4.5\n"
+"Project-Id-Version: Godot Engine latest\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -48,49 +48,49 @@ msgid "This would be a basic setup:"
 msgstr ""
 
 #: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:61
-msgid "For simple gizmos, inheriting :ref:`EditorNode3DGizmoPlugin <class_EditorNode3DGizmoPlugin>` is enough. If you want to store some per-gizmo data or you are porting a Godot 3.0 gizmo to 3.1+, you should go with the second approach."
+msgid "For simple gizmos, inheriting :ref:`EditorNode3DGizmoPlugin <class_EditorNode3DGizmoPlugin>` is enough. If you want to store some per-gizmo data, you should go with the second approach."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:67
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:66
 msgid "Simple approach"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:69
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:68
 msgid "The first step is to, in our custom gizmo plugin, override the :ref:`_has_gizmo()<class_EditorNode3DGizmoPlugin_private_method__has_gizmo>` method so that it returns ``true`` when the node parameter is of our target type."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:83
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:82
 msgid "Then we can override methods like :ref:`_redraw()<class_EditorNode3DGizmoPlugin_private_method__redraw>` or all the handle related ones."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:117
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:116
 msgid "Note that we created a material in the `_init` method, and retrieved it in the `_redraw` method using :ref:`get_material()<class_EditorNode3DGizmoPlugin_method_get_material>`. This method retrieves one of the material's variants depending on the state of the gizmo (selected and/or editable)."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:122
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:121
 msgid "So the final plugin would look somewhat like this:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:163
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:162
 msgid "Note that we just added some handles in the `_redraw` method, but we still need to implement the rest of handle-related callbacks in :ref:`EditorNode3DGizmoPlugin <class_EditorNode3DGizmoPlugin>` to get properly working handles."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:168
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:167
 msgid "Alternative approach"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:170
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:169
 msgid "In some cases we want to provide our own implementation of :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>`, maybe because we want to have some state stored in each gizmo or because we are porting an old gizmo plugin and we don't want to go through the rewriting process."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:174
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:173
 msgid "In these cases all we need to do is, in our new gizmo plugin, override :ref:`_create_gizmo()<class_EditorNode3DGizmoPlugin_private_method__create_gizmo>`, so it returns our custom gizmo implementation for the Node3D nodes we want to target."
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:199
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:198
 msgid "This way all the gizmo logic and drawing methods can be implemented in a new class extending :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>`, like so:"
 msgstr ""
 
-#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:237
+#: ../../docs/tutorials/plugins/editor/3d_gizmos.rst:236
 msgid "Note that we just added some handles in the `_redraw` method, but we still need to implement the rest of handle-related callbacks in :ref:`EditorNode3DGizmo<class_EditorNode3DGizmo>` to get properly working handles."
 msgstr ""
